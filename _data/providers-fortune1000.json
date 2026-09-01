@@ -1,5 +1,5 @@
 {
- "total": 1289,
+ "total": 1288,
  "bands": [
   {
    "band": "exemplar",
@@ -62493,60 +62493,6 @@
       "agentic_commerce": false
      },
      "rank": 1258
-    },
-    {
-     "name": "American Tower",
-     "slug": "american-tower",
-     "url": "https://providers.apis.io/providers/american-tower/",
-     "type": "API Provider",
-     "description": "American Tower Corporation is one of the largest global REITs and a leading independent owner, operator, and developer of multitenant communications real estate. The company owns and operates approximately 225,000 communications sites globally, providing tower space and related services to wireless carriers and broadcasters across the United States, Latin America, Europe, Africa, India, and Asia-Pacific. American Tower enables wireless communications networks by leasing antenna space on its towers to mobile network operators.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/american-tower/refs/heads/main/screenshots/american-tower-2026-07-25T200050.png",
-     "score": 1.8,
-     "band": "minimal",
-     "band_label": "Minimal",
-     "facets": {
-      "discoverability": 50.0,
-      "contract_quality": 0.0,
-      "governance": 0.0,
-      "contract_governance": 0.0,
-      "operational_transparency": 0.0,
-      "developer_ergonomics": 0.0,
-      "commercial_clarity": 0.0,
-      "access_clarity": 0.0
-     },
-     "scored_at": "2026-08-26",
-     "schema_version": "0.15.0",
-     "regulatory": {
-      "applies": true,
-      "regime": "Telecommunications",
-      "regime_id": "telecommunications",
-      "score": 8.3,
-      "matched_via": "tags"
-     },
-     "agent_score": 0.0,
-     "agent_band": "human-only",
-     "agent_dims": {
-      "spec_presence": false,
-      "agentic_access": false,
-      "reversibility_documented": false,
-      "mcp_server": false,
-      "auth_clarity": false,
-      "idempotency": false,
-      "error_semantics": false,
-      "openapi_examples": false,
-      "rate_limit_signal": false,
-      "event_surface_described": false,
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false,
-      "delegated_identity": false,
-      "protected_resource_metadata": false,
-      "dynamic_client_registration": false,
-      "agentic_commerce": false
-     },
-     "rank": 1259
     },
     {
      "name": "Crown Castle",
