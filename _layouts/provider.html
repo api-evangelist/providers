@@ -119,6 +119,15 @@ nav: Providers
   .rd-row { display: grid; grid-template-columns: 1fr 84px 58px; align-items: center; gap: 0.5rem; padding: 0.28rem 0; font-size: 0.83rem; }
   .rd-label { color: #2d3748; display: flex; align-items: center; gap: 0.35rem; }
   .rd-label abbr { text-decoration: none; border-bottom: 1px dotted #b6c0d0; cursor: help; }
+  /* Every facet and dimension name is a link to its own page on apis.io: what the
+     measurement means, the checks or signal that feed it, how the whole catalog
+     distributes on it, and the providers at the top of it. The pages live on
+     apis.io rather than here because that is where the population behind each
+     number is — the rating runs across that catalog — and a duplicate set on this
+     domain would compete with them for the same query. */
+  .rd-label a { color: inherit; text-decoration: none; border-bottom: 1px dotted #b9c6dd; }
+  .rd-label a:hover { color: #0a3d91; border-bottom-color: #0a3d91; }
+  .rd-label a abbr { border-bottom: 0; cursor: pointer; }
   .rd-dot { width: 9px; height: 9px; border-radius: 50%; flex-shrink: 0; }
   .rd-dot.on { background: #16a34a; } .rd-dot.off { background: #dc3545; }
   /* Partial credit is its own state: a graded dimension earned SOME of its award. */
@@ -390,7 +399,7 @@ nav: Providers
       {%- if rubric and rubric.facets %}
       {%- assign facet_order = "contract_quality,developer_ergonomics,commercial_clarity,operational_transparency,governance,discoverability" | split: "," -%}
       <h2 class="section-anchor" id="rating"><a href="#rating">Kin Score</a></h2>
-      <p class="section-why">This is the API Evangelist rating — a single, repeatable read computed from the artifacts on this page. Green fill is points earned; the red track is points possible, so every bar shows earned-versus-possible at a glance.</p>
+      <p class="section-why">This is the API Evangelist rating — a single, repeatable read computed from the artifacts on this page. Green fill is points earned; the red track is points possible, so every bar shows earned-versus-possible at a glance. <strong>Every facet and dimension name is a link</strong>: it opens that measurement's page on APIs.io, where the rating runs across the whole catalog — the exact checks that feed it, how every profiled provider distributes on it, and who is at the top of it.</p>
       <div class="rating-panel">
         <div class="rp-topline">
           <a class="ae-rating-mark" href="https://apievangelist.com/rating/" title="Kin Score — the API Evangelist rating system">
@@ -424,14 +433,14 @@ nav: Providers
               {%- assign possible = f.weight | times: 100 -%}
               {%- assign applied = fs | times: f.weight -%}
               <div class="rd-row">
-                <span class="rd-label"><abbr title="{{ f.description | strip_newlines | strip }}">{{ f.label }}</abbr></span>
+                <span class="rd-label"><a href="https://apis.io/rating/facets/{{ fkey | replace: '_', '-' }}/"><abbr title="{{ f.description | strip_newlines | strip }}">{{ f.label }}</abbr></a></span>
                 <span class="rd-track"><span class="rd-fill" style="width:{{ fs }}%;"></span></span>
                 <span class="rd-pts"><b>{{ applied | round: 1 }}</b> / {{ possible | round }}</span>
               </div>
             {%- endfor -%}
             {%- if page.score.regulatory and page.score.regulatory.applies %}
             <div class="rd-row">
-              <span class="rd-label"><abbr title="Regulatory posture for {{ page.score.regulatory.regime }} — a conditional facet that applies only to regulated industries.">Regulatory &middot; {{ page.score.regulatory.regime }}</abbr></span>
+              <span class="rd-label"><a href="https://apis.io/rating/facets/regulatory/"><abbr title="Regulatory posture for {{ page.score.regulatory.regime }} — a conditional facet that applies only to regulated industries.">Regulatory &middot; {{ page.score.regulatory.regime }}</abbr></a></span>
               <span class="rd-track"><span class="rd-fill" style="width:{{ page.score.regulatory.score }}%;"></span></span>
               <span class="rd-pts"><b>{{ page.score.regulatory.score | times: 0.15 | round: 1 }}</b> / 15</span>
             </div>
@@ -472,7 +481,7 @@ nav: Providers
               {%- assign earned = d.points | times: frac -%}
               {%- assign pct = frac | times: 100 -%}
               <div class="rd-row">
-                <span class="rd-label"><span class="rd-dot {% if frac >= 1 %}on{% elsif frac > 0 %}part{% else %}off{% endif %}"></span>{{ d.label }}{% if grade != '' and frac < 1 %} <span class="rd-grade" title="Partial credit — this dimension is graded, and {{ grade }} earns {{ frac }} of its award.">{{ grade }}</span>{% endif %}</span>
+                <span class="rd-label"><span class="rd-dot {% if frac >= 1 %}on{% elsif frac > 0 %}part{% else %}off{% endif %}"></span><a href="https://apis.io/rating/dimensions/{{ d.id | replace: '_', '-' }}/">{{ d.label }}</a>{% if grade != '' and frac < 1 %} <span class="rd-grade" title="Partial credit — this dimension is graded, and {{ grade }} earns {{ frac }} of its award.">{{ grade }}</span>{% endif %}</span>
                 <span class="rd-track"><span class="rd-fill" style="width:{{ pct }}%;"></span></span>
                 <span class="rd-pts {% if frac <= 0 %}miss{% endif %}"><b>{{ earned | round: 1 }}</b> / {{ d.points }}</span>
               </div>
