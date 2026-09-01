@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 34.3
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
 api_count: 1
 apis:
 - description: The Groups API from Testerarmy — 5 operation(s) for groups.
@@ -212,7 +212,7 @@ score:
     catalog_gap: 78.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.6
+  delta: 0.0
   facets:
     access_clarity: 31.6
     commercial_clarity: 31.6
@@ -222,7 +222,7 @@ score:
     discoverability: 75.9
     governance: 4.5
     operational_transparency: 10.5
-  previous_composite: 49.1
+  previous_composite: 48.5
   provenance:
     conformance: derived
     contracts:
@@ -233,7 +233,7 @@ score:
     mcp: first-party
     skills: unknown
   schema_version: 0.17.2
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/testerarmy/refs/heads/main/screenshots/testerarmy-2026-08-17T082329.png
 security:

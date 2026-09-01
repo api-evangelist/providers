@@ -23,7 +23,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 27.7
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
 api_count: 1
 apis:
 - description: Standards-based on-device programmability in the PICOS network operating system. RESTCONF (RFC 8040) exposes OPTIONS/HEAD/GET/POST/PATCH/PUT/DELETE over YANG-modelled configuration and state at /restc
@@ -201,7 +201,7 @@ modified: '2026-08-26'
 name: Pica8
 nav: Providers
 network: true
-overview: 'Pica8 publishes 11 APIs on the [APIs.io](https://apis.io/) network, including Backup API, Configuration API, Configuration File API, and 8 more. Tagged areas include networking, open-networking, software-defined-networking, network-automation, and network-operating-system.
+overview: 'Pica8 publishes 11 APIs on the [APIs.io](https://apis.io/) network, including Backup API, Configuration API, Configuration File API, and 8 more. Tagged areas include Networking, Open Networking, Software Defined Networking, Network Automation, and Network Operating System.
 
 
   Pica8''s developer surface includes documentation, API reference, support, engineering blog, authentication, changelog, CLI, and 24 more developer resources.'
@@ -222,7 +222,7 @@ score:
     catalog_gap: 78.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.6
+  delta: 0.0
   facets:
     access_clarity: 27.6
     commercial_clarity: 27.6
@@ -232,7 +232,7 @@ score:
     discoverability: 68.5
     governance: 18.2
     operational_transparency: 18.4
-  previous_composite: 31.7
+  previous_composite: 31.1
   provenance:
     conformance: first-party
     contracts:
@@ -243,7 +243,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.17.2
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
   trend: flat
 security:
 - kind: authentication
@@ -256,17 +256,17 @@ security:
   summary_line: TLSv1.2 · HSTS · DMARC
 slug: pica8
 tags:
-- networking
-- open-networking
-- software-defined-networking
-- network-automation
-- network-operating-system
+- Networking
+- Open Networking
+- Software Defined Networking
+- Network Automation
+- Network Operating System
 - white-box-switching
-- network-management
-- campus-networking
-- data-center-networking
-- restconf
-- netconf
+- Network Management
+- Campus Networking
+- Data Center Networking
+- RESTCONF
+- NETCONF
 - Telemetry
 website: https://www.pica8.com/
 ---

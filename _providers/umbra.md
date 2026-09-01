@@ -24,7 +24,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 47.8
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
 api_count: 6
 apis:
 - description: 'Anonymous, hosted Model Context Protocol server published by Umbra on the Canopy documentation host. Exposes six tools that let an agent enumerate the Canopy OpenAPI specs, list and search endpoints, '
@@ -309,7 +309,7 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.17.2
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/umbra/refs/heads/main/screenshots/umbra-2026-08-17T082544.png
 security:

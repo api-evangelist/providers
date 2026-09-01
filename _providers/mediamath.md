@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 49.3
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
 agentic_access:
 - acting_count: 88
   human_in_the_loop: 0
@@ -1534,7 +1534,7 @@ modified: '2026-08-13'
 name: MediaMath
 nav: Providers
 network: true
-overview: 'MediaMath publishes 56 APIs on the [APIs.io](https://apis.io/) network, including Ad Servers API, Advertisers API, Agencies API, and 53 more. Tagged areas include Programmatic Advertising, DSP, Demand-Side Platform, Campaign Management, and Ad Tech.
+overview: 'MediaMath publishes 56 APIs on the [APIs.io](https://apis.io/) network, including Ad Servers API, Advertisers API, Agencies API, and 53 more. Tagged areas include Programmatic Advertising, DSP, Demand-Side Platform, Campaign Management, and AdTech.
 
 
   The MediaMath catalog on APIs.io includes 1 event-driven AsyncAPI specification and 1 Spectral governance ruleset.
@@ -1596,7 +1596,7 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.17.2
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/mediamath/refs/heads/main/screenshots/mediamath-2026-06-20T185115.png
 security:
@@ -1618,7 +1618,7 @@ tags:
 - DSP
 - Demand-Side Platform
 - Campaign Management
-- Ad Tech
+- AdTech
 - Bidding
 - Audience Segments
 - Creative Management

@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 2.5
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
 api_count: 2
 apis:
 - description: OAI-PMH 2.0 metadata harvesting endpoint for "repository civitas UGM", the institutional repository running on EPrints 3. Returns Dublin Core metadata for scholarly works. Verified live via an Identif
@@ -143,7 +143,7 @@ score:
     regime_id: education
     score: 20.4
   schema_version: 0.17.2
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/gadjah-mada-university/refs/heads/main/screenshots/gadjah-mada-university-2026-06-20T181636.png
 security:

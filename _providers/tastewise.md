@@ -23,7 +23,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 31.5
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
 api_count: 1
 apis:
 - description: Commercial REST API over the Tastewise food and beverage intelligence graph. Publicly documented operations span recipes (popular/trending), ingredients, dishes and side dishes, restaurants (search, d
@@ -171,7 +171,7 @@ score:
     operational_transparency: 42.1
   previous_composite: 42.5
   schema_version: 0.17.2
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
   trend: flat
 security:
 - kind: authentication

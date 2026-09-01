@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.2
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
 api_count: 1
 apis:
 - description: IIT Bombay's campus-life API and the single largest first-party programmable surface the institution operates. 112 paths and 164 operations over student bodies and their role graphs (154 bodies live),
@@ -53,6 +53,10 @@ apis:
   slug: itc-sso
 artifact_total: 15
 common:
+- group: commercial
+  title: ''
+  type: License
+  url: https://github.com/DevCom-IITB/instiapp-api/blob/master/LICENSE
 - group: company
   title: ''
   type: Website
@@ -149,7 +153,7 @@ overview: 'Indian Institute of Technology Bombay publishes 1 API on the [APIs.io
   The Indian Institute of Technology Bombay catalog on APIs.io includes 2 JSON-LD contexts and 1 Spectral governance ruleset.
 
 
-  Indian Institute of Technology Bombay''s developer surface includes API reference, documentation, support, and 13 more developer resources.'
+  Indian Institute of Technology Bombay''s developer surface includes API reference, documentation, support, and 14 more developer resources.'
 plans:
 - name: Iit Bombay Plans Pricing
   plan_count: 2
@@ -183,7 +187,7 @@ score:
     catalog_gap: 30.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: 18.0
+  delta: 0.0
   facets:
     access_clarity: 39.5
     commercial_clarity: 39.5
@@ -193,7 +197,7 @@ score:
     discoverability: 68.5
     governance: 63.6
     operational_transparency: 23.7
-  previous_composite: 30.8
+  previous_composite: 48.8
   regulatory:
     applies: true
     matched_via: tags
@@ -201,8 +205,8 @@ score:
     regime_id: education
     score: 57.4
   schema_version: 0.17.2
-  scored_at: '2026-08-30'
-  trend: rising
+  scored_at: '2026-09-01'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/iit-bombay/refs/heads/main/screenshots/iit-bombay-2026-06-20T183229.png
 security:
 - kind: authentication
@@ -226,6 +230,6 @@ tags:
 - OpenID Connect
 - Campus Life
 - Research Repository
-- Open Source
+- Open-Source
 website: https://www.iitb.ac.in/
 ---

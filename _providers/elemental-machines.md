@@ -23,7 +23,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.4
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
 api_count: 14
 apis:
 - description: A remote Model Context Protocol server served from the elementalmachines.com WordPress host via the WordPress MCP Adapter, advertised by /.well-known/oauth-protected-resource and /.well-known/oauth-au
@@ -195,7 +195,7 @@ modified: '2026-08-12'
 name: Elemental Machines
 nav: Providers
 network: true
-overview: 'Elemental Machines publishes 12 APIs on the [APIs.io](https://apis.io/) network, including Alert Logs API, Alert Rules API, Authentication API, and 9 more. Tagged areas include lab-operations, laboratory-monitoring, iot, sensors, and life-sciences.
+overview: 'Elemental Machines publishes 12 APIs on the [APIs.io](https://apis.io/) network, including Alert Logs API, Alert Rules API, Authentication API, and 9 more. Tagged areas include lab-operations, laboratory-monitoring, IoT, Sensors, and Life Sciences.
 
 
   Elemental Machines'' developer surface includes documentation, API reference, support, engineering blog, signup flow, changelog, authentication, and 20 more developer resources.'
@@ -248,7 +248,7 @@ score:
     regime_id: health
     score: 65.0
   schema_version: 0.17.2
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/elemental-machines/refs/heads/main/screenshots/elemental-machines-2026-08-17T080912.png
 security:
@@ -264,17 +264,17 @@ slug: elemental-machines
 tags:
 - lab-operations
 - laboratory-monitoring
-- iot
-- sensors
-- life-sciences
-- cold-chain
-- environmental-monitoring
+- IoT
+- Sensors
+- Life Sciences
+- Cold Chain
+- Environmental Monitoring
 - equipment-utilization
-- asset-management
+- Asset Management
 - Alerting
 - Compliance
-- gxp
+- GxP
 - Manufacturing
-- time-series
+- Time Series
 website: https://elementalmachines.com/
 ---

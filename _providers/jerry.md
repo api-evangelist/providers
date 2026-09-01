@@ -23,7 +23,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 4.7
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
 api_count: 0
 artifact_total: 4
 common:
@@ -152,7 +152,7 @@ modified: '2026-08-04'
 name: Jerry
 nav: Providers
 network: true
-overview: 'Jerry is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Insurance, InsurTech, Auto Insurance, and Insurance Broker.
+overview: 'Jerry is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Insurance, Insurtech, Auto Insurance, and Insurance Broker.
 
 
   Jerry''s developer surface includes support, engineering blog, product news, signup flow, authentication, and 24 more developer resources.'
@@ -185,7 +185,7 @@ score:
     regime_id: insurance
     score: 65.2
   schema_version: 0.17.2
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/jerry/refs/heads/main/screenshots/jerry-2026-08-07T170957.png
 security:
@@ -209,7 +209,7 @@ slug: jerry
 tags:
 - Company
 - Insurance
-- InsurTech
+- Insurtech
 - Auto Insurance
 - Insurance Broker
 - Automotive

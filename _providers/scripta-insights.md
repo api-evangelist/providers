@@ -23,7 +23,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 6.0
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
 api_count: 1
 apis:
 - description: A live, anonymous Model Context Protocol endpoint served from the Scripta Insights marketing host and advertised in the company's own /llms.txt. It is the stock Wix Site MCP server (platform-authored,
@@ -170,7 +170,7 @@ score:
     regime_id: health
     score: 37.5
   schema_version: 0.17.2
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
   trend: flat
 security:
 - kind: domain-security

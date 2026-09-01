@@ -23,7 +23,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 74.4
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
 agentic_access:
 - acting_count: 81
   human_in_the_loop: 0
@@ -153,6 +153,10 @@ asyncapis:
   name: Doit Events
   slug: doit-events
 common:
+- group: commercial
+  title: ''
+  type: License
+  url: https://github.com/doitintl/doit-mcp-server/blob/main/LICENSE
 - group: other
   title: ''
   type: CapabilityMap
@@ -379,7 +383,7 @@ overview: 'DoiT publishes 37 APIs on the [APIs.io](https://apis.io/) network, in
   The DoiT catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  DoiT''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 45 more developer resources.'
+  DoiT''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 46 more developer resources.'
 plans:
 - name: Doit Plans Pricing
   plan_count: 6
@@ -402,7 +406,7 @@ score:
     catalog_gap: 61.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.6
+  delta: 0.0
   facets:
     access_clarity: 76.3
     commercial_clarity: 76.3
@@ -412,7 +416,7 @@ score:
     discoverability: 70.4
     governance: 4.5
     operational_transparency: 69.7
-  previous_composite: 61.9
+  previous_composite: 61.3
   provenance:
     agentic_access: derived
     conformance: derived
@@ -424,7 +428,7 @@ score:
     mcp: first-party
     skills: first-party
   schema_version: 0.17.2
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/doit/refs/heads/main/screenshots/doit-2026-08-17T080051.png
 security:

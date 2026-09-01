@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 27.2
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
 api_count: 4
 apis:
 - description: Publisher app and placement (inventory) management.
@@ -272,7 +272,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.17.2
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/opera/refs/heads/main/screenshots/opera-2026-08-17T083429.png
 security:

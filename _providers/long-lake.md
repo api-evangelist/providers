@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
 api_count: 0
 artifact_total: 1
 common:
@@ -56,7 +56,7 @@ modified: '2026-07-20'
 name: Long Lake
 nav: Providers
 network: true
-overview: Long Lake is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Artificial Intelligence, Holding Company, Services, and Roll-up.
+overview: Long Lake is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Artificial Intelligence, Holding Company, Services, and Rollup.
 random_paper: 8
 score:
   band: minimal
@@ -78,7 +78,7 @@ score:
     operational_transparency: 0.0
   previous_composite: 5.0
   schema_version: 0.17.2
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/long-lake/refs/heads/main/screenshots/long-lake-2026-07-25T225510.png
 security:
@@ -92,7 +92,7 @@ tags:
 - Artificial Intelligence
 - Holding Company
 - Services
-- Roll-up
+- Rollup
 - HOA Management
 - Corporate Travel
 website: https://llmh.com/

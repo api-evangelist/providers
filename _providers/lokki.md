@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 33.3
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
 api_count: 2
 apis:
 - description: The Action Log API from Lokki — 3 operation(s) for action log.
@@ -479,7 +479,7 @@ modified: '2026-08-17'
 name: Lokki
 nav: Providers
 network: true
-overview: 'Lokki publishes 97 APIs on the [APIs.io](https://apis.io/) network, including Action Log API, Admin API, Ahrefs API, and 94 more. Tagged areas include Company, Climate Tech, Circular Economy, Rental, and Equipment Rental.
+overview: 'Lokki publishes 97 APIs on the [APIs.io](https://apis.io/) network, including Action Log API, Admin API, Ahrefs API, and 94 more. Tagged areas include Company, Climate Tech, Circular Economy, Rentals, and Equipment Rental.
 
 
   Lokki''s developer surface includes developer portal, documentation, API reference, getting-started guide, authentication, engineering blog, pricing, and 27 more developer resources.'
@@ -500,7 +500,7 @@ score:
     catalog_gap: 73.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.5
+  delta: 0.0
   facets:
     access_clarity: 38.2
     commercial_clarity: 38.2
@@ -510,7 +510,7 @@ score:
     discoverability: 70.4
     governance: 4.5
     operational_transparency: 47.4
-  previous_composite: 47.7
+  previous_composite: 47.2
   provenance:
     conformance: derived
     contracts:
@@ -521,7 +521,7 @@ score:
     mcp: first-party
     skills: first-party
   schema_version: 0.17.2
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
   trend: flat
 security:
 - kind: authentication
@@ -537,7 +537,7 @@ tags:
 - Company
 - Climate Tech
 - Circular Economy
-- Rental
+- Rentals
 - Equipment Rental
 - Bike Rental
 - Marketplace

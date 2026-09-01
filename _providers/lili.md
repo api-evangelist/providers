@@ -24,7 +24,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 48.6
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
 api_count: 3
 apis:
 - description: Remote, OAuth 2.0 protected Model Context Protocol server (Streamable HTTP, MCP spec 2025-03-26) exposing 44 tools that let an AI assistant read a Lili business customer's account summary, transaction
@@ -202,7 +202,7 @@ modified: '2026-08-25'
 name: Lili
 nav: Providers
 network: true
-overview: 'Lili publishes 1 API on the [APIs.io](https://apis.io/) network: Lili API. Tagged areas include banking, business-banking, Financial-Services, Fintech, and embedded-finance.
+overview: 'Lili publishes 1 API on the [APIs.io](https://apis.io/) network: Lili API. Tagged areas include Banking, Business Banking, Financial-Services, Fintech, and Embedded Finance.
 
 
   The Lili catalog on APIs.io includes 1 event-driven AsyncAPI specification.
@@ -231,7 +231,7 @@ score:
     catalog_gap: 63.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: 0.6
+  delta: 0.0
   facets:
     access_clarity: 84.2
     commercial_clarity: 84.2
@@ -241,7 +241,7 @@ score:
     discoverability: 81.5
     governance: 18.2
     operational_transparency: 23.7
-  previous_composite: 64.8
+  previous_composite: 65.4
   provenance:
     conformance: first-party
     contracts:
@@ -258,7 +258,7 @@ score:
     regime_id: banking_open_finance
     score: 77.2
   schema_version: 0.17.2
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
   trend: flat
 security:
 - kind: authentication
@@ -271,19 +271,19 @@ security:
   summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 slug: lili
 tags:
-- banking
-- business-banking
+- Banking
+- Business Banking
 - Financial-Services
 - Fintech
-- embedded-finance
+- Embedded Finance
 - Onboarding
-- kyc
+- KYC
 - Webhook
 - MCP
 - agent-native
 - Invoicing
-- bill-pay
-- accounting
-- small-business
+- Bill Pay
+- Accounting
+- Small Business
 website: https://lili.co/
 ---

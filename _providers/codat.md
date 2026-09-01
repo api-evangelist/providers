@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 39.2
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
 agentic_access:
 - acting_count: 70
   human_in_the_loop: 0
@@ -1296,7 +1296,7 @@ modified: '2026-05-19'
 name: Codat
 nav: Providers
 network: true
-overview: 'Codat publishes 35 APIs on the [APIs.io](https://apis.io/) network, including Account mapping API, Accounting bank data API, Accounts payable API, and 32 more. Tagged areas include Unified_API.
+overview: 'Codat publishes 35 APIs on the [APIs.io](https://apis.io/) network, including Account mapping API, Accounting bank data API, Accounts payable API, and 32 more. Tagged areas include Unified-API.
 
 
   The Codat catalog on APIs.io includes 1 Spectral governance ruleset.
@@ -1331,7 +1331,7 @@ score:
     catalog_gap: 81.8
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: 0.9
+  delta: 0.0
   facets:
     access_clarity: 26.3
     commercial_clarity: 26.3
@@ -1341,7 +1341,7 @@ score:
     discoverability: 48.1
     governance: 9.8
     operational_transparency: 42.1
-  previous_composite: 45.8
+  previous_composite: 46.7
   provenance:
     agentic_access: derived
     contracts:
@@ -1350,7 +1350,7 @@ score:
       marker_coverage: 0.0
       total: 32
   schema_version: 0.17.2
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/codat/refs/heads/main/screenshots/codat-2026-06-20T174652.png
 security:
@@ -1364,6 +1364,6 @@ security:
   summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 slug: codat
 tags:
-- Unified_API
+- Unified-API
 website: https://app.codat.io/
 ---

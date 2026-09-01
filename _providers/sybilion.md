@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 56.7
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -223,7 +223,7 @@ modified: '2026-08-11'
 name: Sybilion
 nav: Providers
 network: true
-overview: 'Sybilion publishes 9 APIs on the [APIs.io](https://apis.io/) network, including Alerts API, Categories API, Drivers API, and 6 more. Tagged areas include Industrial market intelligence, Commodity price forecasting, Economic forecasting, Time-series forecasting, and Procurement.
+overview: 'Sybilion publishes 9 APIs on the [APIs.io](https://apis.io/) network, including Alerts API, Categories API, Drivers API, and 6 more. Tagged areas include Industrial market intelligence, Commodity price forecasting, Economic Forecasting, Time-series forecasting, and Procurement.
 
 
   Sybilion''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, signup flow, authentication, and 25 more developer resources.'
@@ -249,7 +249,7 @@ score:
     catalog_gap: 54.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.5
+  delta: 0.0
   facets:
     access_clarity: 42.1
     commercial_clarity: 42.1
@@ -259,7 +259,7 @@ score:
     discoverability: 68.5
     governance: 4.5
     operational_transparency: 34.2
-  previous_composite: 44.7
+  previous_composite: 44.2
   provenance:
     agentic_access: derived
     conformance: derived
@@ -271,7 +271,7 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.17.2
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/sybilion/refs/heads/main/screenshots/sybilion-2026-08-17T082216.png
 security:
@@ -287,15 +287,15 @@ slug: sybilion
 tags:
 - Industrial market intelligence
 - Commodity price forecasting
-- Economic forecasting
+- Economic Forecasting
 - Time-series forecasting
 - Procurement
-- Supply-chain risk
+- Supply Chain Risk
 - Trading analytics
 - AI decision support
 - MCP
-- Agent-native
-- Causal inference
-- Anomaly detection
+- agent-native
+- Causal Inference
+- Anomaly Detection
 website: https://www.sybilion.com/
 ---

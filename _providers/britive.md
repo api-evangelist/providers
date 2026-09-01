@@ -23,7 +23,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 29.2
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
 api_count: 3
 apis:
 - description: The Britive Secret Manager API covers the Britive vault and secrets lifecycle — vault initialization, static and file secrets, secret versions, secret metadata, password policies, secret templates and
@@ -689,7 +689,7 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.17.2
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/britive/refs/heads/main/screenshots/britive-2026-08-17T080708.png
 security:
@@ -708,7 +708,7 @@ tags:
 - Identity and Access Management
 - Cloud Security
 - Zero Standing Privileges
-- Just-in-Time Access
+- Just-In-Time Access
 - Non-Human Identity
 - Secrets Management
 - Agentic AI

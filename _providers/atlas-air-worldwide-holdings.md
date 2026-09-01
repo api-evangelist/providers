@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
 api_count: 0
 artifact_total: 1
 common:
@@ -105,7 +105,7 @@ modified: '2026-05-22'
 name: Atlas Air Worldwide Holdings
 nav: Providers
 network: true
-overview: 'Atlas Air Worldwide Holdings is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include ACMI, Air Cargo, Aircraft Leasing, Airfreight, and Airlines.
+overview: 'Atlas Air Worldwide Holdings is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include ACMI, Air Cargo, Aircraft Leasing, Air Freight, and Airlines.
 
 
   Atlas Air Worldwide Holdings'' developer surface includes developer portal, developer console, engineering blog, changelog, and 11 more developer resources.'
@@ -130,7 +130,7 @@ score:
     operational_transparency: 21.1
   previous_composite: 11.5
   schema_version: 0.17.2
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/atlas-air-worldwide-holdings/refs/heads/main/screenshots/atlas-air-worldwide-holdings-2026-06-20T172523.png
 security:
@@ -143,7 +143,7 @@ tags:
 - ACMI
 - Air Cargo
 - Aircraft Leasing
-- Airfreight
+- Air Freight
 - Airlines
 - Aviation
 - Charter

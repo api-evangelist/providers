@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 21.5
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
 agentic_access:
 - acting_count: 15
   human_in_the_loop: 0
@@ -277,7 +277,7 @@ modified: '2026-04-19'
 name: Ansible Playbooks
 nav: Providers
 network: true
-overview: 'Ansible Playbooks publishes 12 APIs on the [APIs.io](https://apis.io/) network, including Auth API, Credentials API, Hosts API, and 9 more. Tagged areas include Ansible, Automation, Configuration Management, DevOps, and Infrastructure As Code.
+overview: 'Ansible Playbooks publishes 12 APIs on the [APIs.io](https://apis.io/) network, including Auth API, Credentials API, Hosts API, and 9 more. Tagged areas include Ansible, Automation, Configuration Management, DevOps, and Infrastructure as Code.
 
 
   The Ansible Playbooks catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
@@ -312,7 +312,7 @@ score:
     catalog_gap: 52.8
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: 4.6
+  delta: 0.0
   facets:
     access_clarity: 36.8
     commercial_clarity: 36.8
@@ -325,7 +325,7 @@ score:
   open_source:
     applies: true
     score: 100.0
-  previous_composite: 48.4
+  previous_composite: 53.0
   provenance:
     agentic_access: derived
     contracts:
@@ -334,7 +334,7 @@ score:
       marker_coverage: 0.0
       total: 12
   schema_version: 0.17.2
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/ansible-playbooks/refs/heads/main/screenshots/ansible-playbooks-2026-06-20T172018.png
 security:
@@ -352,7 +352,7 @@ tags:
 - Automation
 - Configuration Management
 - DevOps
-- Infrastructure As Code
+- Infrastructure as Code
 - Orchestration
 - Playbooks
 use_cases:

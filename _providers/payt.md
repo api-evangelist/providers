@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 31.5
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
 agentic_access:
 - acting_count: 23
   human_in_the_loop: 0
@@ -301,7 +301,7 @@ modified: '2026-07-20'
 name: Payt
 nav: Providers
 network: true
-overview: 'Payt publishes 20 APIs on the [APIs.io](https://apis.io/) network, including administrations API, companies API, contacts API, and 17 more. Tagged areas include Company, Applicative SaaS, Accounts Receivable, Order to Cash, and Invoicing.
+overview: 'Payt publishes 20 APIs on the [APIs.io](https://apis.io/) network, including administrations API, companies API, contacts API, and 17 more. Tagged areas include Company, Applicative Saas, Accounts Receivable, Order-to-Cash, and Invoicing.
 
 
   Payt''s developer surface includes authentication, changelog, sandbox, documentation, API reference, support, engineering blog, and 23 more developer resources.'
@@ -319,7 +319,7 @@ score:
     catalog_gap: 78.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.5
+  delta: 0.0
   facets:
     access_clarity: 15.8
     commercial_clarity: 15.8
@@ -329,7 +329,7 @@ score:
     discoverability: 75.9
     governance: 18.2
     operational_transparency: 47.4
-  previous_composite: 48.6
+  previous_composite: 48.1
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -347,7 +347,7 @@ score:
     regime_id: payments
     score: 48.4
   schema_version: 0.17.2
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/payt/refs/heads/main/screenshots/payt-2026-08-07T191658.png
 security:
@@ -362,9 +362,9 @@ security:
 slug: payt
 tags:
 - Company
-- Applicative SaaS
+- Applicative Saas
 - Accounts Receivable
-- Order to Cash
+- Order-to-Cash
 - Invoicing
 - Debt Collection
 - Payments

@@ -23,7 +23,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 40.9
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
 api_count: 1
 apis:
 - description: The MyStars FaaS — Fulfilment API API from MyStars FaaS — 0 operation(s) for mystars faas — fulfilment api.
@@ -216,7 +216,7 @@ score:
     catalog_gap: 66.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.6
+  delta: 0.0
   facets:
     access_clarity: 44.7
     commercial_clarity: 44.7
@@ -226,7 +226,7 @@ score:
     discoverability: 83.3
     governance: 18.2
     operational_transparency: 68.4
-  previous_composite: 62.6
+  previous_composite: 62.0
   regulatory:
     applies: true
     matched_via: tags
@@ -234,7 +234,7 @@ score:
     regime_id: payments
     score: 48.4
   schema_version: 0.17.2
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
   trend: flat
 security:
 - kind: authentication
@@ -257,7 +257,7 @@ tags:
 - Payments
 - Crypto
 - TON
-- Fulfilment
+- fulfilment
 - Blockchain
 - Digital Goods
 - reseller-api

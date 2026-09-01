@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 20.1
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
 agentic_access:
 - acting_count: 10
   human_in_the_loop: 0
@@ -309,7 +309,7 @@ modified: '2026-06-20'
 name: Amazon Amplify
 nav: Providers
 network: true
-overview: 'Amazon Amplify publishes 1 API on the [APIs.io](https://apis.io/) network: Apps API. Tagged areas include Frontend, Full Stack, Hosting, Mobile Development, and Web Applications.
+overview: 'Amazon Amplify publishes 1 API on the [APIs.io](https://apis.io/) network: Apps API. Tagged areas include Frontend, Full-Stack, Hosting, Mobile Development, and Web Applications.
 
 
   The Amazon Amplify catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
@@ -368,7 +368,7 @@ score:
       total: 1
     mcp: derived
   schema_version: 0.17.2
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/amazon-amplify/refs/heads/main/screenshots/amazon-amplify-2026-07-25T195912.png
 security:
@@ -391,7 +391,7 @@ security:
 slug: amazon-amplify
 tags:
 - Frontend
-- Full Stack
+- Full-Stack
 - Hosting
 - Mobile Development
 - Web Applications

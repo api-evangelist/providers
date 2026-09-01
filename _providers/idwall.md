@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 25.5
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
 api_count: 1
 apis:
 - description: RESTful JSON API for identity verification, background checks, public-data consultation, document (CNH) validation, verification reports (relatorios) built from configurable matrices (matrizes), peopl
@@ -157,7 +157,7 @@ score:
     operational_transparency: 23.7
   previous_composite: 32.7
   schema_version: 0.17.2
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/idwall/refs/heads/main/screenshots/idwall-2026-07-25T222043.png
 security:

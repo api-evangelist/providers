@@ -23,7 +23,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 44.8
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -202,7 +202,7 @@ modified: '2026-08-09'
 name: Bargo Congress Trades API
 nav: Providers
 network: true
-overview: 'Bargo Congress Trades API publishes 3 APIs on the [APIs.io](https://apis.io/) network: Members API, Statistics API, and Trades API. Tagged areas include congress, Finance, stocks, government, and stock-act.
+overview: 'Bargo Congress Trades API publishes 3 APIs on the [APIs.io](https://apis.io/) network: Members API, Statistics API, and Trades API. Tagged areas include Congress, Finance, Stocks, Government, and stock-act.
 
 
   Bargo Congress Trades API''s developer surface includes authentication, documentation, API reference, getting-started guide, signup flow, support, engineering blog, and 22 more developer resources.'
@@ -219,7 +219,7 @@ score:
     catalog_gap: 66.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.5
+  delta: 0.0
   facets:
     access_clarity: 34.2
     commercial_clarity: 34.2
@@ -229,7 +229,7 @@ score:
     discoverability: 75.9
     governance: 4.5
     operational_transparency: 34.2
-  previous_composite: 52.2
+  previous_composite: 51.7
   provenance:
     agentic_access: derived
     conformance: derived
@@ -247,7 +247,7 @@ score:
     regime_id: government
     score: 46.3
   schema_version: 0.17.2
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/bargo-congress-trades-api/refs/heads/main/screenshots/bargo-congress-trades-api-2026-08-17T080629.png
 security:
@@ -261,16 +261,16 @@ security:
   summary_line: TLSv1.3 · DMARC
 slug: bargo-congress-trades-api
 tags:
-- congress
+- Congress
 - Finance
-- stocks
-- government
+- Stocks
+- Government
 - stock-act
 - MCP
-- congressional-trading
+- Congressional Trading
 - financial-disclosure
 - Market Data
-- public-data
+- Public Data
 - Free API
 - Open Data
 website: https://www.bargo.ai/free-apis/congress

@@ -23,7 +23,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 36.7
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
 api_count: 2
 apis:
 - description: 'Recommended snapshot reads on account.shieldlabs.ai (service: Shield.Portal.Admin). Authenticated with Private API Key. Response envelope `{ data, total }`.'
@@ -41,6 +41,10 @@ asyncapis:
   name: Shieldlabs Webhooks
   slug: shieldlabs-webhooks
 common:
+- group: commercial
+  title: ''
+  type: License
+  url: https://github.com/ShieldLabs-ai/shieldlabs-openapi/blob/main/LICENSE
 - group: other
   title: ''
   type: Overlay
@@ -226,13 +230,13 @@ modified: '2026-08-19'
 name: ShieldLabs
 nav: Providers
 network: true
-overview: 'ShieldLabs publishes 3 APIs on the [APIs.io](https://apis.io/) network: History API, Management API, and ShieldLabs API. Tagged areas include fraud-detection, abuse-prevention, visitor-identification, device-fingerprinting, and bot-detection.
+overview: 'ShieldLabs publishes 3 APIs on the [APIs.io](https://apis.io/) network: History API, Management API, and ShieldLabs API. Tagged areas include Fraud Detection, Abuse Prevention, Visitor Identification, Device Fingerprinting, and Bot Detection.
 
 
   The ShieldLabs catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  ShieldLabs'' developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 34 more developer resources.'
+  ShieldLabs'' developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 35 more developer resources.'
 plans:
 - name: Shieldlabs Plans Pricing
   plan_count: 4
@@ -250,7 +254,7 @@ score:
     catalog_gap: 48.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.5
+  delta: 0.0
   facets:
     access_clarity: 69.7
     commercial_clarity: 69.7
@@ -260,7 +264,7 @@ score:
     discoverability: 75.9
     governance: 4.5
     operational_transparency: 68.4
-  previous_composite: 63.9
+  previous_composite: 63.4
   provenance:
     conformance: derived
     contracts:
@@ -271,7 +275,7 @@ score:
     mcp: first-party
     skills: first-party
   schema_version: 0.17.2
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
   trend: flat
 security:
 - kind: authentication
@@ -288,17 +292,17 @@ security:
   summary_line: Hackerone · contact published
 slug: shieldlabs
 tags:
-- fraud-detection
-- abuse-prevention
-- visitor-identification
-- device-fingerprinting
-- bot-detection
+- Fraud Detection
+- Abuse Prevention
+- Visitor Identification
+- Device Fingerprinting
+- Bot Detection
 - vpn-proxy-detection
-- risk-scoring
+- Risk Scoring
 - Identity
 - Security
 - Webhook
-- anti-fraud
+- Anti-Fraud
 - traffic-quality
 website: https://docs.shieldlabs.ai/
 ---

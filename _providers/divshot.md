@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
 api_count: 0
 artifact_total: 3
 asyncapis:
@@ -97,7 +97,7 @@ modified: '2026-07-20'
 name: Divshot
 nav: Providers
 network: true
-overview: 'Divshot is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Web Hosting, Static Hosting, Front-End, and Deployment.
+overview: 'Divshot is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Web Hosting, Static Hosting, Frontend, and Deployment.
 
 
   The Divshot catalog on APIs.io includes 1 event-driven AsyncAPI specification.
@@ -125,7 +125,7 @@ score:
     operational_transparency: 10.5
   previous_composite: 23.0
   schema_version: 0.17.2
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
   trend: flat
 security:
 - kind: authentication
@@ -141,7 +141,7 @@ tags:
 - Company
 - Web Hosting
 - Static Hosting
-- Front-End
+- Frontend
 - Deployment
 - Developer Tools
 - Defunct

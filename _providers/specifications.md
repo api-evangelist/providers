@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 1.3
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
 api_count: 13
 apis:
 - description: The OpenAPI Specification (formerly Swagger) is the dominant industry standard for describing HTTP-based RESTful APIs. OAS describes endpoints, operations, parameters, request/response schemas, authen
@@ -251,7 +251,7 @@ modified: '2026-05-22'
 name: API Specifications
 nav: Providers
 network: true
-overview: 'API Specifications publishes 13 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include API Specifications, Specification Languages, API Design, Contracts, and Schemas.
+overview: 'API Specifications publishes 13 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include API Specification, Specification Languages, API Design, Contracts, and Schemas.
 
 
   The API Specifications catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.'
@@ -290,7 +290,7 @@ score:
     score: 65.0
   previous_composite: 26.7
   schema_version: 0.17.2
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/specifications/refs/heads/main/screenshots/specifications-2026-06-20T194256.png
 security:
@@ -300,7 +300,7 @@ security:
   summary_line: TLSv1.3 · HSTS · DMARC
 slug: specifications
 tags:
-- API Specifications
+- API Specification
 - Specification Languages
 - API Design
 - Contracts

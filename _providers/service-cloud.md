@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 49.9
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
 api_count: 1
 apis:
 - description: 'Core REST API for Service Cloud operations: sObject CRUD over Case, CaseComment, EmailMessage, Knowledge articles and every other standard and custom object, plus SOQL query, SOSL search and composite'
@@ -79,6 +79,10 @@ asyncapis:
   name: Service Cloud Event Surface
   slug: service-cloud-event-surface
 common:
+- group: commercial
+  title: ''
+  type: License
+  url: https://github.com/forcedotcom/pub-sub-api/blob/main/LICENSE
 - group: other
   title: ''
   type: CapabilityMap
@@ -291,13 +295,13 @@ modified: '2026-08-27'
 name: Salesforce Service Cloud APIs
 nav: Providers
 network: true
-overview: 'Salesforce Service Cloud APIs publishes 3 APIs on the [APIs.io](https://apis.io/) network: Bot API, Health API, and Versions API. Tagged areas include Cloud, CRM, Customer-Service, Enterprise, and Salesforce.
+overview: 'Salesforce Service Cloud APIs publishes 3 APIs on the [APIs.io](https://apis.io/) network: Bot API, Health API, and Versions API. Tagged areas include Cloud, CRM, Customer Service, Enterprise, and Salesforce.
 
 
   The Salesforce Service Cloud APIs catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  Salesforce Service Cloud APIs'' developer surface includes developer portal, documentation, API reference, getting-started guide, support, engineering blog, signup flow, and 42 more developer resources.'
+  Salesforce Service Cloud APIs'' developer surface includes developer portal, documentation, API reference, getting-started guide, support, engineering blog, signup flow, and 43 more developer resources.'
 plans:
 - name: Service Cloud Plans Pricing
   plan_count: 5
@@ -320,7 +324,7 @@ score:
     catalog_gap: 79.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.5
+  delta: 0.0
   facets:
     access_clarity: 76.3
     commercial_clarity: 76.3
@@ -330,9 +334,9 @@ score:
     discoverability: 57.4
     governance: 18.2
     operational_transparency: 52.6
-  previous_composite: 60.9
+  previous_composite: 60.4
   schema_version: 0.17.2
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/service-cloud/refs/heads/main/screenshots/service-cloud-2026-06-20T193724.png
 security:
@@ -356,7 +360,7 @@ slug: service-cloud
 tags:
 - Cloud
 - CRM
-- Customer-Service
+- Customer Service
 - Enterprise
 - Salesforce
 - Support

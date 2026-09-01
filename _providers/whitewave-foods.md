@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
 api_count: 0
 artifact_total: 2
 common:
@@ -93,7 +93,7 @@ modified: '2026-05-03'
 name: WhiteWave Foods
 nav: Providers
 network: true
-overview: 'WhiteWave Foods is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Food And Beverage, Plant-Based, Organic, Consumer Goods, and Dairy.
+overview: 'WhiteWave Foods is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Food and Beverage, Plant-Based, Organic, Consumer Goods, and Dairy.
 
 
   The WhiteWave Foods catalog on APIs.io includes 1 JSON-LD context.'
@@ -134,7 +134,7 @@ score:
     operational_transparency: 0.0
   previous_composite: 7.7
   schema_version: 0.17.2
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/whitewave-foods/refs/heads/main/screenshots/whitewave-foods-2026-06-20T201443.png
 security:
@@ -144,7 +144,7 @@ security:
   summary_line: TLSv1.3 · HSTS · DMARC
 slug: whitewave-foods
 tags:
-- Food And Beverage
+- Food and Beverage
 - Plant-Based
 - Organic
 - Consumer Goods

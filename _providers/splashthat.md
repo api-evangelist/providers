@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 25.2
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
 api_count: 1
 apis:
 - description: REST API for the Splash event marketing platform. Enables programmatic management of events, guest (GroupContact) records, organization-level contacts, unsubscribes, event approval workflows, team man
@@ -214,7 +214,7 @@ score:
     conformance: derived
     mcp: derived
   schema_version: 0.17.2
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/splashthat/refs/heads/main/screenshots/splashthat-2026-06-20T194323.png
 security:
@@ -233,6 +233,6 @@ tags:
 - Event Management
 - Guest Registration
 - Ticketing
-- Check-In
+- Check-in
 - Analytics
 ---

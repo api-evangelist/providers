@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 2.5
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
 api_count: 1
 apis:
 - description: 'We expertly craft safe browser-processing, energy-efficient, accurate Emotion AI solutions to analyze facial emotions, empowering AI Agents and delivering empathetic, data-driven, and dynamic digital '
@@ -102,7 +102,7 @@ score:
     operational_transparency: 10.5
   previous_composite: 11.9
   schema_version: 0.17.2
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/morphcast/refs/heads/main/screenshots/morphcast-2026-06-20T185816.png
 security:

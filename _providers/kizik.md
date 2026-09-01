@@ -23,7 +23,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 24.7
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
 api_count: 2
 apis:
 - description: Kizik's Universal Commerce Protocol surface, exposed over MCP at https://kizik.com/api/ucp/mcp. An unauthenticated tools/list returns thirteen tools covering catalog search and lookup, cart create/upd
@@ -160,7 +160,7 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.17.2
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
   trend: flat
 security:
 - kind: authentication

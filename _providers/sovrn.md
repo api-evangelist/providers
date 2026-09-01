@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 35.4
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
 api_count: 26
 apis:
 - description: Hosted, beta Model Context Protocol server exposing Sovrn Commerce affiliate data, campaigns and products to AI clients — twelve tools covering price search, link checking, product recommendations and
@@ -274,7 +274,7 @@ modified: '2026-08-12'
 name: Sovrn
 nav: Providers
 network: true
-overview: 'Sovrn publishes 9 APIs on the [APIs.io](https://apis.io/) network, including Account API, Ai Orchestration API, Bid API, and 6 more. Tagged areas include Company, Adtech, Advertising, Monetization, and Affiliate Marketing.
+overview: 'Sovrn publishes 9 APIs on the [APIs.io](https://apis.io/) network, including Account API, Ai Orchestration API, Bid API, and 6 more. Tagged areas include Company, AdTech, Advertising, Monetization, and Affiliate Marketing.
 
 
   Sovrn''s developer surface includes documentation, API reference, getting-started guide, engineering blog, support, signup flow, authentication, and 33 more developer resources.'
@@ -316,7 +316,7 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.17.2
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/sovrn/refs/heads/main/screenshots/sovrn-2026-08-17T082014.png
 security:
@@ -335,7 +335,7 @@ security:
 slug: sovrn
 tags:
 - Company
-- Adtech
+- AdTech
 - Advertising
 - Monetization
 - Affiliate Marketing
@@ -345,6 +345,6 @@ tags:
 - Data
 - Reporting
 - Product Data
-- Agent Native
+- agent-native
 website: https://www.sovrn.com
 ---

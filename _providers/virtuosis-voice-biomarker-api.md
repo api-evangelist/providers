@@ -23,7 +23,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 31.0
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
 api_count: 5
 apis:
 - description: The accounts API from Virtuosis Voice Biomarker API — 1 operation(s) for accounts.
@@ -179,7 +179,7 @@ modified: '2026-08-19'
 name: Virtuosis Voice Biomarker API
 nav: Providers
 network: true
-overview: 'Virtuosis Voice Biomarker API publishes 4 APIs on the [APIs.io](https://apis.io/) network, including Accounts API, Voice Biomarker Api Default API, Recordings API, and 1 more. Tagged areas include digital health, voice biomarkers, speech analysis, acoustic analysis, and medical device.
+overview: 'Virtuosis Voice Biomarker API publishes 4 APIs on the [APIs.io](https://apis.io/) network, including Accounts API, Voice Biomarker Api Default API, Recordings API, and 1 more. Tagged areas include Digital Health, voice biomarkers, speech analysis, acoustic analysis, and Medical Device.
 
 
   Virtuosis Voice Biomarker API''s developer surface includes authentication, documentation, API reference, getting-started guide, support, engineering blog, signup flow, and 24 more developer resources.'
@@ -227,7 +227,7 @@ score:
     regime_id: health
     score: 53.8
   schema_version: 0.17.2
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
   trend: flat
 security:
 - kind: authentication
@@ -240,19 +240,19 @@ security:
   summary_line: TLSv1.3 · HSTS · DMARC
 slug: virtuosis-voice-biomarker-api
 tags:
-- digital health
+- Digital Health
 - voice biomarkers
 - speech analysis
 - acoustic analysis
-- medical device
-- mental health
-- wellbeing
+- Medical Device
+- Mental Health
+- Wellbeing
 - neurodegenerative screening
-- telehealth
-- remote monitoring
+- Telehealth
+- Remote Monitoring
 - communication coaching
-- clinical research
-- health AI
-- clinical decision support
+- Clinical Research
+- Health AI
+- Clinical Decision Support
 website: https://www.virtuosis.ai/
 ---

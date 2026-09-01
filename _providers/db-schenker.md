@@ -23,7 +23,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 15.5
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
 api_count: 4
 apis:
 - description: Responsible for all Web API functions related to Service Points
@@ -143,7 +143,7 @@ score:
       marker_coverage: 0.0
       total: 4
   schema_version: 0.17.2
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/db-schenker/refs/heads/main/screenshots/db-schenker-2026-08-07T164220.png
 slug: db-schenker

@@ -23,7 +23,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 26.4
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
 api_count: 2
 apis:
 - description: Asset Configurations
@@ -215,7 +215,7 @@ modified: '2026-08-04'
 name: OPAQUE
 nav: Providers
 network: true
-overview: 'OPAQUE publishes 11 APIs on the [APIs.io](https://apis.io/) network, including Asset Configs API, Auth API, Datasets API, and 8 more. Tagged areas include confidential-computing, confidential-ai, ai-governance, data-privacy, and trusted-execution-environment.
+overview: 'OPAQUE publishes 11 APIs on the [APIs.io](https://apis.io/) network, including Asset Configs API, Auth API, Datasets API, and 8 more. Tagged areas include Confidential Computing, confidential-ai, AI Governance, Data Privacy, and Trusted Execution Environment.
 
 
   OPAQUE''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, changelog, authentication, and 19 more developer resources.'
@@ -228,7 +228,7 @@ score:
     catalog_gap: 78.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.5
+  delta: 0.0
   facets:
     access_clarity: 28.9
     commercial_clarity: 28.9
@@ -238,7 +238,7 @@ score:
     discoverability: 68.5
     governance: 18.2
     operational_transparency: 18.4
-  previous_composite: 42.9
+  previous_composite: 42.4
   provenance:
     conformance: first-party
     contracts:
@@ -249,7 +249,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.17.2
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/opaque/refs/heads/main/screenshots/opaque-2026-08-07T190445.png
 security:
@@ -263,17 +263,17 @@ security:
   summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 slug: opaque
 tags:
-- confidential-computing
+- Confidential Computing
 - confidential-ai
-- ai-governance
-- data-privacy
-- trusted-execution-environment
-- attestation
-- agentic-workflows
-- retrieval-augmented-generation
-- enterprise-ai
+- AI Governance
+- Data Privacy
+- Trusted Execution Environment
+- Attestation
+- Agentic Workflows
+- Retrieval Augmented Generation
+- Enterprise AI
 - secure-analytics
-- data-clean-room
+- Data Clean Room
 - MCP
 website: https://www.opaque.co/
 ---

@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 28.6
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
 api_count: 4
 apis:
 - description: The Agent API from Sobot — 1 operation(s) for agent.
@@ -238,7 +238,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.17.2
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/sobot/refs/heads/main/screenshots/sobot-2026-08-17T082001.png
 security:
@@ -257,7 +257,7 @@ tags:
 - Contact Center
 - Customer Service
 - Live Chat
-- Chatbot
+- Chatbots
 - Voice
 - Ticketing
 - WhatsApp

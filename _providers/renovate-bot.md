@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 1.3
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
 api_count: 6
 apis:
 - description: The open source Renovate CLI is a Node.js application distributed via npm and as Docker images on Docker Hub and GitHub Container Registry. It can be run locally, in CI, or as a long-lived self-hosted
@@ -284,7 +284,7 @@ modified: '2026-05-25'
 name: Renovate
 nav: Providers
 network: true
-overview: 'Renovate publishes 6 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include DependencyUpdates, DeveloperTools, Bots, Automation, and SoftwareSupplyChain.
+overview: 'Renovate publishes 6 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include DependencyUpdates, Developer Tools, Bots, Automation, and Software Supply Chain.
 
 
   Renovate''s developer surface includes developer portal, documentation, getting-started guide, signup flow, changelog, support, tooling, and 42 more developer resources.'
@@ -312,7 +312,7 @@ score:
     score: 100.0
   previous_composite: 36.0
   schema_version: 0.17.2
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/renovate-bot/refs/heads/main/screenshots/renovate-bot-2026-06-20T192849.png
 security:
@@ -327,11 +327,11 @@ security:
 slug: renovate-bot
 tags:
 - DependencyUpdates
-- DeveloperTools
+- Developer Tools
 - Bots
 - Automation
-- SoftwareSupplyChain
-- OpenSource
+- Software Supply Chain
+- Open-Source
 - Mend
 - AGPLv3
 - Node.js

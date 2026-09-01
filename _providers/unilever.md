@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
 api_count: 0
 artifact_total: 1
 common:
@@ -60,7 +60,7 @@ modified: '2026-05-05'
 name: Unilever
 nav: Providers
 network: true
-overview: Unilever is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Consumer Products, Personal Care, Food & Beverage, and Household Products.
+overview: Unilever is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Consumer Products, Personal Care, Food and Beverage, and Household Products.
 random_paper: 13
 score:
   band: minimal
@@ -82,7 +82,7 @@ score:
     operational_transparency: 2.6
   previous_composite: 3.9
   schema_version: 0.17.2
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/unilever/refs/heads/main/screenshots/unilever-2026-06-20T200030.png
 security:
@@ -94,7 +94,7 @@ slug: unilever
 tags:
 - Consumer Products
 - Personal Care
-- Food & Beverage
+- Food and Beverage
 - Household Products
 website: https://www.unilever.com/
 ---

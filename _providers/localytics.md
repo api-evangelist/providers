@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 32.2
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
 agentic_access:
 - acting_count: 8
   human_in_the_loop: 0
@@ -268,7 +268,7 @@ modified: '2026-08-13'
 name: Localytics
 nav: Providers
 network: true
-overview: 'Localytics publishes 5 APIs on the [APIs.io](https://apis.io/) network, including Audiences API, Campaigns API, Push Campaigns API, and 2 more. Tagged areas include Company, Martech, Mobile Analytics, Push Notifications, and Customer Engagement.
+overview: 'Localytics publishes 5 APIs on the [APIs.io](https://apis.io/) network, including Audiences API, Campaigns API, Push Campaigns API, and 2 more. Tagged areas include Company, MarTech, Mobile Analytics, Push Notifications, and Customer Engagement.
 
 
   Localytics'' developer surface includes documentation, API reference, getting-started guide, support, engineering blog, authentication, changelog, and 33 more developer resources.'
@@ -289,7 +289,7 @@ score:
     catalog_gap: 72.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.5
+  delta: 0.0
   facets:
     access_clarity: 27.6
     commercial_clarity: 27.6
@@ -299,7 +299,7 @@ score:
     discoverability: 75.9
     governance: 4.5
     operational_transparency: 44.7
-  previous_composite: 48.4
+  previous_composite: 47.9
   provenance:
     agentic_access: derived
     conformance: derived
@@ -311,7 +311,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.17.2
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/localytics/refs/heads/main/screenshots/localytics-2026-07-25T225426.png
 security:
@@ -330,7 +330,7 @@ security:
 slug: localytics
 tags:
 - Company
-- Martech
+- MarTech
 - Mobile Analytics
 - Push Notifications
 - Customer Engagement

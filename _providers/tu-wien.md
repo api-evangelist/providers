@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 24.3
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
 api_count: 1
 apis:
 - description: 'Public REST API of the TU Wien Research Data repository, running InvenioRDM 14.0. Records, communities, affiliations, funders and vocabularies are readable anonymously; /api/names returns 403 without '
@@ -65,6 +65,10 @@ apis:
   slug: catalogplus
 artifact_total: 19
 common:
+- group: commercial
+  title: ''
+  type: License
+  url: https://github.com/tuwien-csd/fundify/blob/develop/LICENSE
 - group: company
   title: ''
   type: Website
@@ -221,7 +225,7 @@ overview: 'TU Wien publishes 1 API on the [APIs.io](https://apis.io/) network: F
   The TU Wien catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
 
 
-  TU Wien''s developer surface includes documentation, API reference, engineering blog, authentication, code examples, and 27 more developer resources.'
+  TU Wien''s developer surface includes documentation, API reference, engineering blog, authentication, code examples, and 28 more developer resources.'
 plans:
 - name: Tu Wien Plans Pricing
   plan_count: 2
@@ -256,7 +260,7 @@ score:
     catalog_gap: 25.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: 31.0
+  delta: 0.0
   facets:
     access_clarity: 50.0
     commercial_clarity: 50.0
@@ -266,7 +270,7 @@ score:
     discoverability: 68.5
     governance: 60.6
     operational_transparency: 23.7
-  previous_composite: 25.8
+  previous_composite: 56.8
   regulatory:
     applies: true
     matched_via: tags
@@ -274,8 +278,8 @@ score:
     regime_id: education
     score: 75.9
   schema_version: 0.17.2
-  scored_at: '2026-08-30'
-  trend: rising
+  scored_at: '2026-09-01'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/tu-wien/refs/heads/main/screenshots/tu-wien-2026-06-20T195820.png
 security:
 - kind: authentication

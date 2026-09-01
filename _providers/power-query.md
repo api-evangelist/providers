@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 35.6
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
 api_count: 5
 apis:
 - description: API and language reference for the M formula language used in Power Query for data transformation expressions and custom functions.
@@ -364,7 +364,7 @@ score:
     regime_id: energy_utilities
     score: 71.6
   schema_version: 0.17.2
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/power-query/refs/heads/main/screenshots/power-query-2026-06-20T192025.png
 security:

@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 23.4
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
 api_count: 4
 apis:
 - description: OAI-PMH 2.0 metadata harvesting endpoint for Harvard Dataverse. Identify returns repositoryName "Harvard Dataverse Dataverse OAI Archive" with adminEmail support@dataverse.harvard.edu, earliest datest
@@ -482,7 +482,7 @@ score:
     regime_id: education
     score: 68.5
   schema_version: 0.17.2
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/harvard/refs/heads/main/screenshots/harvard-2026-06-20T182525.png
 security:

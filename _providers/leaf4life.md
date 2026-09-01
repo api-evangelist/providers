@@ -23,7 +23,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 21.8
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
 api_count: 9
 apis:
 - description: 'The page collection behind leafforlife.com — 8 published pages covering the mission, the science, leadership, the advisory board and contact. Anonymously readable. Verified 2026-08-25: content.rendere'
@@ -140,7 +140,7 @@ modified: '2026-08-25'
 name: LEAF4Life
 nav: Providers
 network: true
-overview: 'LEAF4Life publishes 9 APIs on the [APIs.io](https://apis.io/) network, including Content Pages API, Media API, Taxonomy API, and 6 more. Tagged areas include Company, biotechnology, pharmaceuticals, clinical-trials, and oncology.
+overview: 'LEAF4Life publishes 9 APIs on the [APIs.io](https://apis.io/) network, including Content Pages API, Media API, Taxonomy API, and 6 more. Tagged areas include Company, Biotechnology, Pharmaceuticals, Clinical Trials, and Oncology.
 
 
   LEAF4Life''s developer surface includes authentication and 18 more developer resources.'
@@ -188,7 +188,7 @@ score:
     regime_id: health
     score: 21.3
   schema_version: 0.17.2
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
   trend: flat
 security:
 - kind: authentication
@@ -202,14 +202,14 @@ security:
 slug: leaf4life
 tags:
 - Company
-- biotechnology
-- pharmaceuticals
-- clinical-trials
-- oncology
-- critical-care
-- drug-development
-- life-sciences
-- rare-disease
+- Biotechnology
+- Pharmaceuticals
+- Clinical Trials
+- Oncology
+- Critical Care
+- Drug Development
+- Life Sciences
+- Rare Disease
 - content-api
 website: https://leafforlife.com/
 ---

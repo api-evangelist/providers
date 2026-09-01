@@ -23,7 +23,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.2
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
 api_count: 2
 apis:
 - description: The Sarus Gateway is the server component of the Sarus privacy layer. It is deployed inside the customer's own environment (Docker or Kubernetes, on-premises or in AWS/Azure/GCP) and is reached by the
@@ -34,6 +34,10 @@ apis:
   slug: qrlew-server
 artifact_total: 2
 common:
+- group: commercial
+  title: ''
+  type: License
+  url: https://github.com/Qrlew/server/blob/main/LICENSE
 - group: company
   title: ''
   type: Website
@@ -117,7 +121,7 @@ network: true
 overview: 'Sarus publishes 2 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Ai Data, Privacy, Differential Privacy, and Synthetic Data.
 
 
-  Sarus'' developer surface includes documentation, engineering blog, support, code examples, authentication, changelog, and 12 more developer resources.'
+  Sarus'' developer surface includes documentation, engineering blog, support, code examples, authentication, changelog, and 13 more developer resources.'
 random_paper: 12
 score:
   band: thin
@@ -145,7 +149,7 @@ score:
       reason: never_enriched
   previous_composite: 26.8
   schema_version: 0.17.2
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
   trend: flat
 slug: sarus
 tags:

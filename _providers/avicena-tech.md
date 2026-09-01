@@ -23,7 +23,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
 api_count: 0
 artifact_total: 1
 common:
@@ -112,7 +112,7 @@ modified: '2026-08-06'
 name: Avicena Tech
 nav: Providers
 network: true
-overview: 'Avicena Tech is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Semiconductors, Photonics, Optical Interconnects, and microLED.
+overview: 'Avicena Tech is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Semiconductors, Photonics, Optical Interconnects, and Micro-LED.
 
 
   Avicena Tech''s developer surface includes engineering blog and 14 more developer resources.'
@@ -137,7 +137,7 @@ score:
     operational_transparency: 0.0
   previous_composite: 8.3
   schema_version: 0.17.2
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/avicena-tech/refs/heads/main/screenshots/avicena-tech-2026-08-07T162027.png
 security:
@@ -151,7 +151,7 @@ tags:
 - Semiconductors
 - Photonics
 - Optical Interconnects
-- microLED
+- Micro-LED
 - Data Center Infrastructure
 - Artificial Intelligence
 - High Performance Computing

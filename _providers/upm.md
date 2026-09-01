@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 5.0
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
 api_count: 2
 apis:
 - description: Standards-based OAI-PMH 2.0 metadata harvesting interface for the Universiti Putra Malaysia Institutional Repository (PSAS IR), running on EPrints. Supports the Identify, ListMetadataFormats, ListReco
@@ -147,7 +147,7 @@ score:
     regime_id: education
     score: 42.6
   schema_version: 0.17.2
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/upm/refs/heads/main/screenshots/upm-2026-06-20T200449.png
 security:

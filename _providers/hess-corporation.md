@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
 api_count: 0
 artifact_total: 1
 common:
@@ -77,7 +77,7 @@ modified: '2026-05-22'
 name: Hess Corporation
 nav: Providers
 network: true
-overview: Hess Corporation is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Bakken, Crude Oil, Deepwater, Energy, and Exploration And Production.
+overview: Hess Corporation is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Bakken, Crude Oil, Deepwater, Energy, and Exploration and Production.
 random_paper: 0
 score:
   band: minimal
@@ -105,7 +105,7 @@ score:
     regime_id: energy_utilities
     score: 8.1
   schema_version: 0.17.2
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/hess-corporation/refs/heads/main/screenshots/hess-corporation-2026-06-20T182655.png
 security:
@@ -119,10 +119,10 @@ tags:
 - Crude Oil
 - Deepwater
 - Energy
-- Exploration And Production
+- Exploration and Production
 - Guyana
 - Natural Gas
-- Oil And Gas
+- Oil and Gas
 - Stabroek Block
 - Upstream
 - Fortune 500

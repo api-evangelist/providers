@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 2.5
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
 api_count: 7
 apis:
 - description: Private connected-vehicle backend (formerly branded Subaru STARLINK) that powers the MySubaru mobile app and owner portal. Supports remote lock / unlock, remote engine start with climate control, vehi
@@ -160,7 +160,7 @@ score:
     operational_transparency: 31.6
   previous_composite: 19.4
   schema_version: 0.17.2
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/subaru-of-america/refs/heads/main/screenshots/subaru-of-america-2026-06-20T194631.png
 security:

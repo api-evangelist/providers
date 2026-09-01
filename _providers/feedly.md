@@ -24,7 +24,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 63.3
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
 api_count: 36
 apis:
 - description: Hosted, remote Model Context Protocol server exposing the Feedly Real-Time Threat Graph to AI agents. Feedly documents 16 tools covering threat actors, malware, vulnerabilities, TTPs, IoCs and cyberat
@@ -407,7 +407,7 @@ modified: '2026-08-12'
 name: Feedly
 nav: Providers
 network: true
-overview: 'Feedly publishes 29 APIs on the [APIs.io](https://apis.io/) network, including Alerts API, Annotations API, Contents API, and 26 more. Tagged areas include Threat Intelligence, Cybersecurity, cyber-threat-intelligence, content-aggregation, and rss.
+overview: 'Feedly publishes 29 APIs on the [APIs.io](https://apis.io/) network, including Alerts API, Annotations API, Contents API, and 26 more. Tagged areas include Threat Intelligence, Cybersecurity, cyber-threat-intelligence, Content Aggregation, and RSS.
 
 
   The Feedly catalog on APIs.io includes 1 event-driven AsyncAPI specification.
@@ -452,7 +452,7 @@ score:
     mcp: first-party
     skills: first-party
   schema_version: 0.17.2
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/feedly/refs/heads/main/screenshots/feedly-2026-08-17T080410.png
 security:
@@ -473,16 +473,16 @@ tags:
 - Threat Intelligence
 - Cybersecurity
 - cyber-threat-intelligence
-- content-aggregation
-- rss
+- Content Aggregation
+- RSS
 - News
-- vulnerability-management
-- indicators-of-compromise
-- malware
+- Vulnerability Management
+- Indicators of Compromise
+- Malware
 - Threat Actors
 - mitre-attack
-- security-automation
-- artificial-intelligence
+- Security Automation
+- Artificial Intelligence
 - MCP
 - agent-native
 - Webhook

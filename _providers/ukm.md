@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 2.5
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
 api_count: 2
 apis:
 - description: DSpace-based institutional repository operated by Perpustakaan Tun Seri Lanang (UKM Library) providing access to theses, past-year exam papers, selected government publications and law documents. It e
@@ -128,7 +128,7 @@ score:
     regime_id: education
     score: 20.4
   schema_version: 0.17.2
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/ukm/refs/heads/main/screenshots/ukm-2026-06-20T200011.png
 security:

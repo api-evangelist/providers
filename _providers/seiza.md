@@ -23,7 +23,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
 api_count: 0
 artifact_total: 0
 common:
@@ -55,7 +55,7 @@ modified: '2026-08-17'
 name: Seiza
 nav: Providers
 network: true
-overview: Seiza is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Saas, Human Resources, HR Tech, and Recruitment.
+overview: Seiza is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Software-as-a-Service, Human Resources, HR Tech, and Recruitment.
 random_paper: 15
 score:
   band: minimal
@@ -77,12 +77,12 @@ score:
     operational_transparency: 0.0
   previous_composite: 4.6
   schema_version: 0.17.2
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
   trend: flat
 slug: seiza
 tags:
 - Company
-- Saas
+- Software-as-a-Service
 - Human Resources
 - HR Tech
 - Recruitment

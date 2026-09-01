@@ -23,7 +23,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 28.2
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
 api_count: 8
 apis:
 - description: The APIKeyService API from Akuity — 4 operation(s) for apikeyservice.
@@ -248,7 +248,7 @@ modified: '2026-08-06'
 name: Akuity
 nav: Providers
 network: true
-overview: 'Akuity publishes 8 APIs on the [APIs.io](https://apis.io/) network, including API Key Service API, Argo CD Service API, Auth Service API, and 5 more. Tagged areas include GitOps, Continuous Delivery, Kubernetes, Argo CD, and Kargo.
+overview: 'Akuity publishes 8 APIs on the [APIs.io](https://apis.io/) network, including API Key Service API, Argo CD Service API, Auth Service API, and 5 more. Tagged areas include GitOps, Continuous Delivery, Kubernetes, ArgoCD, and Kargo.
 
 
   The Akuity catalog on APIs.io includes 1 event-driven AsyncAPI specification.
@@ -289,7 +289,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.17.2
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/akuity/refs/heads/main/screenshots/akuity-2026-08-07T161137.png
 security:
@@ -314,7 +314,7 @@ tags:
 - GitOps
 - Continuous Delivery
 - Kubernetes
-- Argo CD
+- ArgoCD
 - Kargo
 - Platform Engineering
 - DevOps

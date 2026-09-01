@@ -23,7 +23,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 11.4
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
 api_count: 1
 apis:
 - description: The Partner Integration API is the SkyKick / ConnectWise Cloud Services partner-facing REST API. The provider's own Get Started page documents an OAuth 2.0 client-credentials token exchange at /auth/t
@@ -182,7 +182,7 @@ score:
     operational_transparency: 28.9
   previous_composite: 29.6
   schema_version: 0.17.2
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
   trend: flat
 security:
 - kind: authentication

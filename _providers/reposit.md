@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
 api_count: 0
 artifact_total: 1
 common:
@@ -68,7 +68,7 @@ modified: '2026-07-20'
 name: Reposit
 nav: Providers
 network: true
-overview: 'Reposit is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Fintech, PropTech, Insurance, and Rental.
+overview: 'Reposit is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Fintech, PropTech, Insurance, and Rentals.
 
 
   Reposit''s developer surface includes support, engineering blog, and 4 more developer resources.'
@@ -99,7 +99,7 @@ score:
     regime_id: insurance
     score: 21.2
   schema_version: 0.17.2
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
   trend: flat
 security:
 - kind: domain-security
@@ -112,7 +112,7 @@ tags:
 - Fintech
 - PropTech
 - Insurance
-- Rental
+- Rentals
 - Deposits
 - Real-Estate
 - United Kingdom

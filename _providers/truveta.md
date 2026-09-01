@@ -23,7 +23,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 15.1
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
 api_count: 0
 artifact_total: 4
 common:
@@ -113,7 +113,7 @@ modified: '2026-08-05'
 name: Truveta
 nav: Providers
 network: true
-overview: 'Truveta is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Healthcare, Health Data, Electronic Health Records, and Real World Evidence.
+overview: 'Truveta is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Healthcare, Health Data, Electronic Health Records, and Real-World Evidence.
 
 
   Truveta''s developer surface includes engineering blog, support, authentication, CLI, and 12 more developer resources.'
@@ -151,7 +151,7 @@ score:
     regime_id: health
     score: 51.2
   schema_version: 0.17.2
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
   trend: flat
 security:
 - kind: authentication
@@ -172,7 +172,7 @@ tags:
 - Healthcare
 - Health Data
 - Electronic Health Records
-- Real World Evidence
+- Real-World Evidence
 - Clinical Research
 - Life Sciences
 - Genomics

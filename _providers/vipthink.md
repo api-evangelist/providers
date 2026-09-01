@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
 api_count: 0
 artifact_total: 1
 common:
@@ -52,7 +52,7 @@ modified: '2026-07-21'
 name: VIPThink
 nav: Providers
 network: true
-overview: VIPThink is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Edtech, Education, Online Learning, and Mathematics.
+overview: VIPThink is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, EdTech, Education, Online Learning, and Mathematics.
 random_paper: 16
 score:
   band: minimal
@@ -80,7 +80,7 @@ score:
     regime_id: education
     score: 11.1
   schema_version: 0.17.2
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
   trend: flat
 security:
 - kind: domain-security
@@ -90,7 +90,7 @@ security:
 slug: vipthink
 tags:
 - Company
-- Edtech
+- EdTech
 - Education
 - Online Learning
 - Mathematics

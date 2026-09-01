@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
 agentic_access:
 - acting_count: 4
   human_in_the_loop: 0
@@ -121,7 +121,7 @@ modified: '2026-06-21'
 name: Speechify
 nav: Providers
 network: true
-overview: 'Speechify publishes 2 APIs on the [APIs.io](https://apis.io/) network: Audio API and Voices API. Tagged areas include Artificial Intelligence, Text to Speech, Voice, Speech Synthesis, and Voice Cloning.
+overview: 'Speechify publishes 2 APIs on the [APIs.io](https://apis.io/) network: Audio API and Voices API. Tagged areas include Artificial Intelligence, Text-to-Speech, Voice, Speech Synthesis, and Voice Cloning.
 
 
   Speechify''s developer surface includes authentication, documentation, engineering blog, and 8 more developer resources.'
@@ -161,7 +161,7 @@ score:
       marker_coverage: 0.0
       total: 2
   schema_version: 0.17.2
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
   trend: flat
 security:
 - kind: authentication
@@ -175,7 +175,7 @@ security:
 slug: speechify
 tags:
 - Artificial Intelligence
-- Text to Speech
+- Text-to-Speech
 - Voice
 - Speech Synthesis
 - Voice Cloning

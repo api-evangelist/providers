@@ -24,7 +24,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 45.3
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
 api_count: 4
 apis:
 - description: The Auth API from Daloopa — 10 operation(s) for auth.
@@ -228,7 +228,7 @@ modified: '2026-08-11'
 name: Daloopa
 nav: Providers
 network: true
-overview: 'Daloopa publishes 19 APIs on the [APIs.io](https://apis.io/) network, including Auth API, Companies API, Consumption API, and 16 more. Tagged areas include Financial Data, fundamental-data, Market Data, investment-research, and equity-research.
+overview: 'Daloopa publishes 19 APIs on the [APIs.io](https://apis.io/) network, including Auth API, Companies API, Consumption API, and 16 more. Tagged areas include Financial Data, Fundamental Data, Market Data, Investment Research, and Equity Research.
 
 
   The Daloopa catalog on APIs.io includes 1 event-driven AsyncAPI specification.
@@ -279,7 +279,7 @@ score:
     regime_id: securities_market_data
     score: 60.0
   schema_version: 0.17.2
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/daloopa/refs/heads/main/screenshots/daloopa-2026-08-17T080848.png
 security:
@@ -298,17 +298,17 @@ security:
 slug: daloopa
 tags:
 - Financial Data
-- fundamental-data
+- Fundamental Data
 - Market Data
-- investment-research
-- equity-research
-- sec-filings
-- earnings
+- Investment Research
+- Equity Research
+- SEC Filings
+- Earnings
 - Fintech
 - MCP
 - agent-native
-- agent-skills
+- Agent Skills
 - Webhook
-- data-warehouse
+- Data Warehouse
 website: https://daloopa.com/
 ---

@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 15.5
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
 api_count: 0
 artifact_total: 3
 common:
@@ -133,7 +133,7 @@ modified: '2026-07-21'
 name: Toit
 nav: Providers
 network: true
-overview: 'Toit is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Saas, IoT, Embedded, and ESP32.
+overview: 'Toit is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Software-as-a-Service, IoT, Embedded, and ESP32.
 
 
   Toit''s developer surface includes documentation, getting-started guide, support, engineering blog, pricing, authentication, CLI, and 14 more developer resources.'
@@ -161,7 +161,7 @@ score:
     conformance: derived
     mcp: derived
   schema_version: 0.17.2
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
   trend: flat
 security:
 - kind: authentication
@@ -175,7 +175,7 @@ security:
 slug: toit
 tags:
 - Company
-- Saas
+- Software-as-a-Service
 - IoT
 - Embedded
 - ESP32

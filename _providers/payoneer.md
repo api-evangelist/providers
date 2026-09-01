@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 15.5
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
 api_count: 4
 apis:
 - description: Enables payee registration, account approval, and fund transfers for mass payouts to recipients around the world.
@@ -143,7 +143,7 @@ modified: 2026-06-12
 name: Payoneer
 nav: Providers
 network: true
-overview: 'Payoneer publishes 2 APIs on the [APIs.io](https://apis.io/) network: Mass Payout API and Mass Payout & Services API. Tagged areas include Payments, Payouts, cross-border payments, currency conversion, and marketplace payments.
+overview: 'Payoneer publishes 2 APIs on the [APIs.io](https://apis.io/) network: Mass Payout API and Mass Payout & Services API. Tagged areas include Payments, Payouts, Cross-Border Payments, Currency Conversion, and Marketplace Payments.
 
 
   The Payoneer catalog on APIs.io includes 1 JSON-LD context.
@@ -185,7 +185,7 @@ score:
     regime_id: payments
     score: 23.4
   schema_version: 0.17.2
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/payoneer/refs/heads/main/screenshots/payoneer-2026-06-20T191503.png
 security:
@@ -197,13 +197,13 @@ slug: payoneer
 tags:
 - Payments
 - Payouts
-- cross-border payments
-- currency conversion
-- marketplace payments
+- Cross-Border Payments
+- Currency Conversion
+- Marketplace Payments
 - Fintech
-- financial services
-- mass payouts
-- checkout
+- Financial-Services
+- Mass Payouts
+- Checkout
 - REST
 website: https://www.payoneer.com
 ---

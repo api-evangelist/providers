@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 18.0
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
 api_count: 6
 apis:
 - description: REST API for managing procurement operations including requisitions, purchase orders, and supplier information.
@@ -129,7 +129,7 @@ score:
     operational_transparency: 26.3
   previous_composite: 27.4
   schema_version: 0.17.2
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/oracle-procurement/refs/heads/main/screenshots/oracle-procurement-2026-06-20T191144.png
 security:

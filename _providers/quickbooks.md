@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 20.0
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
 api_count: 3
 apis:
 - description: 'REST API for the QuickBooks Online accounting platform, exposing accounting objects such as Invoice, Customer, Payment, Bill, Vendor, Account, Item, Estimate, JournalEntry, and TaxRate over JSON with '
@@ -142,7 +142,7 @@ score:
     operational_transparency: 2.6
   previous_composite: 35.0
   schema_version: 0.17.2
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/quickbooks/refs/heads/main/screenshots/quickbooks-2026-06-20T192434.png
 security:

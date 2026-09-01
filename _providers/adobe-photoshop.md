@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 41.4
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
 agentic_access:
 - acting_count: 14
   human_in_the_loop: 0
@@ -598,7 +598,7 @@ modified: '2026-06-20'
 name: Adobe Photoshop
 nav: Providers
 network: true
-overview: 'Adobe Photoshop publishes 10 APIs on the [APIs.io](https://apis.io/) network, including Actions API, Background Removal API, Crop and Effects API, and 7 more. Tagged areas include AI/ML, Creative Cloud, Image Editing, Photoshop, and Plugins.
+overview: 'Adobe Photoshop publishes 10 APIs on the [APIs.io](https://apis.io/) network, including Actions API, Background Removal API, Crop and Effects API, and 7 more. Tagged areas include Ai Ml, Creative Cloud, Image Editing, Photoshop, and Plugins.
 
 
   The Adobe Photoshop catalog on APIs.io includes 1 event-driven AsyncAPI specification, 1 JSON-LD context, and 3 Spectral governance rulesets.
@@ -655,7 +655,7 @@ score:
     catalog_gap: 48.5
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.6
+  delta: 0.0
   facets:
     access_clarity: 36.8
     commercial_clarity: 36.8
@@ -665,7 +665,7 @@ score:
     discoverability: 68.5
     governance: 18.2
     operational_transparency: 52.6
-  previous_composite: 53.3
+  previous_composite: 52.7
   provenance:
     agentic_access: derived
     conformance: derived
@@ -676,7 +676,7 @@ score:
       total: 10
     mcp: derived
   schema_version: 0.17.2
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/adobe-photoshop/refs/heads/main/screenshots/adobe-photoshop-2026-06-20T164959.png
 security:
@@ -703,7 +703,7 @@ solutions:
 - description: Automation via UXP scripts (.psjs) or legacy ExtendScript (.jsx).
   name: Photoshop Scripting
 tags:
-- AI/ML
+- Ai Ml
 - Creative Cloud
 - Image Editing
 - Photoshop

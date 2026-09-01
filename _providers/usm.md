@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 5.0
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
 api_count: 2
 apis:
 - description: OAI-PMH 2.0 metadata-harvesting interface for the USM Repository (Repository@USM), an EPrints 3.3.16 institutional repository of USM research and publications. The Identify response confirms repositor
@@ -132,7 +132,7 @@ score:
     regime_id: education
     score: 31.5
   schema_version: 0.17.2
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/usm/refs/heads/main/screenshots/usm-2026-06-20T200723.png
 security:

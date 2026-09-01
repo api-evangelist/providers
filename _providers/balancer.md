@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 2.5
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
 api_count: 4
 apis:
 - description: Public GraphQL API used by the Balancer UI and integrators. Provides pools, tokens, swaps, gauges, voting, and analytics across all supported chains.
@@ -143,7 +143,7 @@ score:
     operational_transparency: 10.5
   previous_composite: 17.4
   schema_version: 0.17.2
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/balancer/refs/heads/main/screenshots/balancer-2026-06-20T172932.png
 security:
@@ -158,7 +158,7 @@ tags:
 - DEX
 - AMM
 - Liquidity
-- Multi-chain
+- Multi-Chain
 - GraphQL
 - Smart Order Router
 - Open-Source

@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
 api_count: 0
 artifact_total: 1
 common:
@@ -64,7 +64,7 @@ modified: '2026-07-21'
 name: TerraFirma
 nav: Providers
 network: true
-overview: 'TerraFirma is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Physical Ai, Robotics, Construction, and Autonomous Systems.
+overview: 'TerraFirma is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Physical AI, Robotics, Construction, and Autonomous Systems.
 
 
   TerraFirma''s developer surface includes support and 4 more developer resources.'
@@ -89,7 +89,7 @@ score:
     operational_transparency: 0.0
   previous_composite: 10.2
   schema_version: 0.17.2
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
   trend: flat
 security:
 - kind: domain-security
@@ -99,7 +99,7 @@ security:
 slug: terrafirma
 tags:
 - Company
-- Physical Ai
+- Physical AI
 - Robotics
 - Construction
 - Autonomous Systems

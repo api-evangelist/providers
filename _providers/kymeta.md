@@ -23,7 +23,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 13.3
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
 api_count: 2
 apis:
 - description: Kymeta's first-party API host for the Kymeta Connect service platform, which backs the Kymeta Access app and the Kymeta Access Portal. The host answers unauthenticated on three operational endpoints o
@@ -176,7 +176,7 @@ score:
     regime_id: telecommunications
     score: 58.3
   schema_version: 0.17.2
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
   trend: flat
 security:
 - kind: authentication

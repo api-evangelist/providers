@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
 agentic_access:
 - acting_count: 15
   human_in_the_loop: 0
@@ -375,7 +375,7 @@ modified: '2026-05-19'
 name: Red Hat OpenShift
 nav: Providers
 network: true
-overview: 'Red Hat OpenShift publishes 11 APIs on the [APIs.io](https://apis.io/) network, including Add-ons API, Builds API, Clusters API, and 8 more. Tagged areas include Containers, Enterprise, Hybrid Cloud, Kubernetes, and PaaS.
+overview: 'Red Hat OpenShift publishes 11 APIs on the [APIs.io](https://apis.io/) network, including Add-ons API, Builds API, Clusters API, and 8 more. Tagged areas include Containers, Enterprise, Hybrid Cloud, Kubernetes, and Platform-as-a-Service.
 
 
   The Red Hat OpenShift catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
@@ -421,7 +421,7 @@ score:
     catalog_gap: 52.5
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.5
+  delta: 0.0
   facets:
     access_clarity: 60.5
     commercial_clarity: 60.5
@@ -431,7 +431,7 @@ score:
     discoverability: 68.5
     governance: 28.8
     operational_transparency: 23.7
-  previous_composite: 50.2
+  previous_composite: 49.7
   provenance:
     agentic_access: derived
     contracts:
@@ -440,7 +440,7 @@ score:
       marker_coverage: 0.0
       total: 11
   schema_version: 0.17.2
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/red-hat-openshift/refs/heads/main/screenshots/red-hat-openshift-2026-06-20T192719.png
 security:
@@ -462,7 +462,7 @@ tags:
 - Enterprise
 - Hybrid Cloud
 - Kubernetes
-- PaaS
+- Platform-as-a-Service
 - Red Hat
 website: https://www.redhat.com/en/technologies/cloud-computing/openshift
 ---

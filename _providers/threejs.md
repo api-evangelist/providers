@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 1.3
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
 api_count: 6
 apis:
 - description: 'The Three.js core library provides the scene graph, cameras, lights, geometries, materials, textures, loaders, and animation primitives used to build interactive 3D applications in the browser and on '
@@ -266,7 +266,7 @@ score:
       reason: no_resolvable_host
   previous_composite: 25.7
   schema_version: 0.17.2
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/threejs/refs/heads/main/screenshots/threejs-2026-06-20T195317.png
 security:

@@ -29,7 +29,7 @@
       "commercial_clarity": 39.5,
       "access_clarity": 39.5
      },
-     "scored_at": "2026-08-30",
+     "scored_at": "2026-09-01",
      "schema_version": "0.17.2",
      "regulatory": {
       "applies": true,
@@ -81,7 +81,7 @@
       "commercial_clarity": 34.2,
       "access_clarity": 34.2
      },
-     "scored_at": "2026-08-30",
+     "scored_at": "2026-09-01",
      "schema_version": "0.17.2",
      "regulatory": {
       "applies": true,
@@ -133,7 +133,7 @@
       "commercial_clarity": 34.2,
       "access_clarity": 34.2
      },
-     "scored_at": "2026-08-30",
+     "scored_at": "2026-09-01",
      "schema_version": "0.17.2",
      "regulatory": {
       "applies": true,
@@ -185,7 +185,7 @@
       "commercial_clarity": 57.9,
       "access_clarity": 57.9
      },
-     "scored_at": "2026-08-30",
+     "scored_at": "2026-09-01",
      "schema_version": "0.17.2",
      "agent_score": 37.9,
      "agent_band": "agent-ready",
@@ -241,7 +241,7 @@
       "commercial_clarity": 50.0,
       "access_clarity": 50.0
      },
-     "scored_at": "2026-08-30",
+     "scored_at": "2026-09-01",
      "schema_version": "0.17.2",
      "agent_score": 29.1,
      "agent_band": "agent-ready",
@@ -286,7 +286,7 @@
       "commercial_clarity": 36.8,
       "access_clarity": 36.8
      },
-     "scored_at": "2026-08-30",
+     "scored_at": "2026-09-01",
      "schema_version": "0.17.2",
      "regulatory": {
       "applies": true,
@@ -349,7 +349,7 @@
       "commercial_clarity": 15.8,
       "access_clarity": 15.8
      },
-     "scored_at": "2026-08-30",
+     "scored_at": "2026-09-01",
      "schema_version": "0.17.2",
      "regulatory": {
       "applies": true,
@@ -401,7 +401,7 @@
       "commercial_clarity": 53.9,
       "access_clarity": 53.9
      },
-     "scored_at": "2026-08-30",
+     "scored_at": "2026-09-01",
      "schema_version": "0.17.2",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -456,7 +456,7 @@
       "commercial_clarity": 10.5,
       "access_clarity": 10.5
      },
-     "scored_at": "2026-08-30",
+     "scored_at": "2026-09-01",
      "schema_version": "0.17.2",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -501,7 +501,7 @@
       "commercial_clarity": 15.8,
       "access_clarity": 15.8
      },
-     "scored_at": "2026-08-30",
+     "scored_at": "2026-09-01",
      "schema_version": "0.17.2",
      "agent_score": 2.5,
      "agent_band": "human-only",

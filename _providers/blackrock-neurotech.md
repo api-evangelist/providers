@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
 api_count: 0
 artifact_total: 1
 common:
@@ -105,7 +105,7 @@ modified: '2026-08-02'
 name: Blackrock Neurotech
 nav: Providers
 network: true
-overview: 'Blackrock Neurotech is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Neurotechnology, Brain Computer Interface, Medical Devices, and Neuroscience.
+overview: 'Blackrock Neurotech is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Neurotechnology, Brain-Computer Interface, Medical Devices, and Neuroscience.
 
 
   Blackrock Neurotech''s developer surface includes documentation, support, engineering blog, and 12 more developer resources.'
@@ -136,7 +136,7 @@ score:
     regime_id: health
     score: 17.5
   schema_version: 0.17.2
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/blackrock-neurotech/refs/heads/main/screenshots/blackrock-neurotech-2026-08-07T162817.png
 security:
@@ -148,7 +148,7 @@ slug: blackrock-neurotech
 tags:
 - Company
 - Neurotechnology
-- Brain Computer Interface
+- Brain-Computer Interface
 - Medical Devices
 - Neuroscience
 - Research Instrumentation

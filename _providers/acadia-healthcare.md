@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 2.5
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
 api_count: 1
 apis:
 - description: 'An API gateway host operated by Acadia Healthcare, not a published API product. Probed 2026-08-29: api.acadiahealthcare.com resolves by CNAME to w5rrqr.usa-e2.cloudhub.io (MuleSoft CloudHub, US-East-2'
@@ -150,7 +150,7 @@ score:
     regime_id: health
     score: 18.8
   schema_version: 0.17.2
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/acadia-healthcare/refs/heads/main/screenshots/acadia-healthcare-2026-08-07T160746.png
 security:

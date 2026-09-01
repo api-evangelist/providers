@@ -23,7 +23,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 27.2
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
 api_count: 19
 apis:
 - description: Public partner reporting surface at api3.mountain.com. GET /apilist returns the tables and columns available to the authenticated advertiser; GET and POST /apidata execute multidimensional queries ove
@@ -268,7 +268,7 @@ modified: '2026-08-12'
 name: MNTN
 nav: Providers
 network: true
-overview: 'MNTN publishes 17 APIs on the [APIs.io](https://apis.io/) network, including Reporting API 3.0, Advertisers API, and 15 more. Tagged areas include connected-tv, ctv-advertising, Advertising, performance-marketing, and streaming-tv.
+overview: 'MNTN publishes 17 APIs on the [APIs.io](https://apis.io/) network, including Reporting API 3.0, Advertisers API, and 15 more. Tagged areas include Connected TV, ctv-advertising, Advertising, Performance Marketing, and Streaming TV.
 
 
   MNTN''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, signup flow, changelog, and 25 more developer resources.'
@@ -310,7 +310,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.17.2
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/mntn/refs/heads/main/screenshots/mntn-2026-08-17T081059.png
 security:
@@ -332,18 +332,18 @@ security:
   summary_line: SOC 2 Type II
 slug: mntn
 tags:
-- connected-tv
+- Connected TV
 - ctv-advertising
 - Advertising
-- performance-marketing
-- streaming-tv
-- media-buying
+- Performance Marketing
+- Streaming TV
+- Media Buying
 - Attribution
-- audience-targeting
-- conversion-tracking
-- programmatic-advertising
+- Audience Targeting
+- Conversion Tracking
+- Programmatic Advertising
 - private-marketplace
 - marketing-reporting
-- adtech
+- AdTech
 website: https://mountain.com/
 ---

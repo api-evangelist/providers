@@ -23,7 +23,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.2
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -151,7 +151,7 @@ modified: '2026-08-09'
 name: Planomy Tax Data
 nav: Providers
 network: true
-overview: 'Planomy Tax Data publishes 1 API on the [APIs.io](https://apis.io/) network: Tax Data API. Tagged areas include Tax, Finance, Open Data, retirement, and government.
+overview: 'Planomy Tax Data publishes 1 API on the [APIs.io](https://apis.io/) network: Tax Data API. Tagged areas include Tax, Finance, Open Data, Retirement, and Government.
 
 
   Planomy Tax Data''s developer surface includes support, pricing, signup flow, authentication, and 16 more developer resources.'
@@ -196,7 +196,7 @@ score:
     regime_id: government
     score: 46.3
   schema_version: 0.17.2
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
   trend: flat
 security:
 - kind: authentication
@@ -212,12 +212,12 @@ tags:
 - Tax
 - Finance
 - Open Data
-- retirement
-- government
-- personal-finance
-- irs
-- social-security
-- medicare
+- Retirement
+- Government
+- Personal Finance
+- IRS
+- Social Security
+- Medicare
 - JSON
 website: https://planomy.net/
 ---

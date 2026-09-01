@@ -23,7 +23,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 28.6
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
 api_count: 2
 apis:
 - description: REST API for embedding and automating Syncari. Covers instance provisioning, synapse create/test/activate, entity and field pipeline authoring, validation and publishing, Quick Start install, schema (
@@ -185,7 +185,7 @@ modified: '2026-08-29'
 name: Syncari
 nav: Providers
 network: true
-overview: 'Syncari publishes 2 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include company, master-data-management, data-unification, data-integration, and ipaas.
+overview: 'Syncari publishes 2 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Master Data Management, data-unification, Data Integration, and iPaaS.
 
 
   The Syncari catalog on APIs.io includes 1 event-driven AsyncAPI specification.
@@ -226,7 +226,7 @@ score:
     operational_transparency: 60.5
   previous_composite: 51.4
   schema_version: 0.17.2
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
   trend: flat
 security:
 - kind: authentication
@@ -243,17 +243,17 @@ security:
   summary_line: SOC 2 Type II, HIPAA, GDPR, CCPA, Standard Contractual Clauses (SCCs), EU-US Privacy Shield, GLBA
 slug: syncari
 tags:
-- company
-- master-data-management
+- Company
+- Master Data Management
 - data-unification
-- data-integration
-- ipaas
-- data-quality
-- data-governance
+- Data Integration
+- iPaaS
+- Data Quality
+- Data Governance
 - embedded-integration
 - MCP
 - agent-native
-- revops
-- data-synchronization
+- Revenue Operations
+- Data Synchronization
 website: https://syncari.com/
 ---

@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -111,7 +111,7 @@ modified: '2026-06-20'
 name: Activeloop
 nav: Providers
 network: true
-overview: 'Activeloop publishes 1 API on the [APIs.io](https://apis.io/) network: Managed Database API. Tagged areas include Artificial Intelligence, Vector Store, Data Lake, Multimodal, and Deep Learning.
+overview: 'Activeloop publishes 1 API on the [APIs.io](https://apis.io/) network: Managed Database API. Tagged areas include Artificial Intelligence, Vector Store, Data Lake, Multi-Modal, and Deep Learning.
 
 
   Activeloop''s developer surface includes authentication, documentation, and 8 more developer resources.'
@@ -151,7 +151,7 @@ score:
       marker_coverage: 0.0
       total: 1
   schema_version: 0.17.2
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/activeloop/refs/heads/main/screenshots/activeloop-2026-06-20T164223.png
 security:
@@ -168,7 +168,7 @@ tags:
 - Artificial Intelligence
 - Vector Store
 - Data Lake
-- Multimodal
+- Multi-Modal
 - Deep Learning
 - Python SDK
 website: https://www.activeloop.ai

@@ -24,7 +24,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 53.8
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
 api_count: 1
 apis:
 - description: Hosted, unified Model Context Protocol server exposing 100 documented tools across five domains — Common/Auth (10), FinOps (24), Graphion (45), Assessment (15) and Workload (6) — at a single /mcp endp
@@ -451,7 +451,7 @@ modified: '2026-08-11'
 name: CoreStack
 nav: Providers
 network: true
-overview: 'CoreStack publishes 84 APIs on the [APIs.io](https://apis.io/) network, including Access API, Account Governance API, AI Agent API, and 81 more. Tagged areas include cloud-governance, finops, cloud-cost-management, cloud-security-posture-management, and Compliance.
+overview: 'CoreStack publishes 84 APIs on the [APIs.io](https://apis.io/) network, including Access API, Account Governance API, AI Agent API, and 81 more. Tagged areas include Cloud Governance, FinOps, Cloud Cost Management, Cloud Security Posture Management, and Compliance.
 
 
   The CoreStack catalog on APIs.io includes 1 event-driven AsyncAPI specification.
@@ -480,7 +480,7 @@ score:
     catalog_gap: 69.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.5
+  delta: 0.0
   facets:
     access_clarity: 84.2
     commercial_clarity: 84.2
@@ -490,7 +490,7 @@ score:
     discoverability: 70.4
     governance: 4.5
     operational_transparency: 34.2
-  previous_composite: 58.3
+  previous_composite: 57.8
   provenance:
     conformance: derived
     mcp: first-party
@@ -502,7 +502,7 @@ score:
     regime_id: insurance
     score: 71.2
   schema_version: 0.17.2
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/corestack/refs/heads/main/screenshots/corestack-2026-08-17T080832.png
 security:
@@ -516,17 +516,17 @@ security:
   summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 slug: corestack
 tags:
-- cloud-governance
-- finops
-- cloud-cost-management
-- cloud-security-posture-management
+- Cloud Governance
+- FinOps
+- Cloud Cost Management
+- Cloud Security Posture Management
 - Compliance
-- multi-cloud
-- cnapp
-- policy-as-code
+- Multi-Cloud
+- CNAPP
+- Policy as Code
 - cloudops
 - MCP
 - agent-native
-- kubernetes
+- Kubernetes
 website: https://www.corestack.io/
 ---

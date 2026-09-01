@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 2.5
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
 api_count: 1
 apis:
 - description: 'Air Products and Chemicals provides industrial, specialty, and process gases including hydrogen, helium, nitrogen, oxygen, argon, and carbon dioxide. The company also offers gas generation equipment, '
@@ -247,7 +247,7 @@ score:
     catalog_gap: 64.8
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: 9.6
+  delta: 0.0
   facets:
     access_clarity: 55.3
     commercial_clarity: 55.3
@@ -263,7 +263,7 @@ score:
     reasons:
     - owner: catalog
       reason: no_resolvable_host
-  previous_composite: 19.1
+  previous_composite: 28.7
   regulatory:
     applies: true
     matched_via: tags
@@ -271,8 +271,8 @@ score:
     regime_id: energy_utilities
     score: 32.4
   schema_version: 0.17.2
-  scored_at: '2026-08-30'
-  trend: rising
+  scored_at: '2026-09-01'
+  trend: flat
 security:
 - kind: domain-security
   name: Air Products And Chemicals Domain Security

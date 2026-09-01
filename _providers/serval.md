@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 43.9
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
 api_count: 1
 apis:
 - description: The Auth API API from Serval — 1 operation(s) for auth api.
@@ -149,7 +149,7 @@ modified: '2026-07-21'
 name: Serval
 nav: Providers
 network: true
-overview: 'Serval publishes 1 API on the [APIs.io](https://apis.io/) network: Auth API API. Tagged areas include Company, IT Service Management, ITSM, Help Desk, and Workflow-Automation.
+overview: 'Serval publishes 1 API on the [APIs.io](https://apis.io/) network: Auth API API. Tagged areas include Company, ITSM, Help Desk, Workflow-Automation, and AI Agents.
 
 
   The Serval catalog on APIs.io includes 1 event-driven AsyncAPI specification.
@@ -190,7 +190,7 @@ score:
       total: 1
     mcp: first-party
   schema_version: 0.17.2
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/serval/refs/heads/main/screenshots/serval-2026-08-17T081819.png
 security:
@@ -209,7 +209,6 @@ security:
 slug: serval
 tags:
 - Company
-- IT Service Management
 - ITSM
 - Help Desk
 - Workflow-Automation

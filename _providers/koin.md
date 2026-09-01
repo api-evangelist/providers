@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 36.4
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
 api_count: 8
 apis:
 - description: The Access API from Koin — 1 operation(s) for access.
@@ -337,7 +337,7 @@ score:
     regime_id: payments
     score: 54.7
   schema_version: 0.17.2
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/koin/refs/heads/main/screenshots/koin-2026-07-25T224112.png
 security:

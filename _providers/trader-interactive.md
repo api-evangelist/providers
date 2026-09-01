@@ -23,7 +23,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 11.4
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
 api_count: 1
 apis:
 - description: The TraderOnline REST API is the integration surface behind Trader Interactive's marketplace network. It is an OAuth 2.0 protected, JSON, offset/limit paginated REST API served from api.traderonline.c
@@ -31,6 +31,10 @@ apis:
   slug: tol-api
 artifact_total: 5
 common:
+- group: commercial
+  title: ''
+  type: License
+  url: https://github.com/traderinteractive/tol-api-php/blob/master/LICENSE
 - group: company
   title: ''
   type: Website
@@ -130,7 +134,7 @@ network: true
 overview: 'Trader Interactive publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Marketplace, Classifieds, Automotive, and Power-Sports.
 
 
-  Trader Interactive''s developer surface includes engineering blog, support, authentication, and 19 more developer resources.'
+  Trader Interactive''s developer surface includes engineering blog, support, authentication, and 20 more developer resources.'
 plans:
 - name: Trader Interactive Plans Pricing
   plan_count: 0
@@ -148,6 +152,7 @@ score:
     catalog_gap: 78.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: 0.0
   facets:
     access_clarity: 27.6
     commercial_clarity: 27.6
@@ -157,6 +162,7 @@ score:
     discoverability: 68.5
     governance: 18.2
     operational_transparency: 2.6
+  previous_composite: 22.3
   regulatory:
     applies: true
     matched_via: tags
@@ -164,7 +170,8 @@ score:
     regime_id: energy_utilities
     score: 33.8
   schema_version: 0.17.2
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
+  trend: flat
 security:
 - kind: authentication
   name: Trader Interactive Authentication

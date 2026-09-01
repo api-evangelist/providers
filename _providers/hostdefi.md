@@ -23,7 +23,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 27.2
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
 api_count: 1
 apis:
 - description: Token risk scanning for Solana mints — authority state, liquidity, holder concentration, Token-2022 extension flags and sell simulation. 26 operations, API-key authentication.
@@ -80,7 +80,7 @@ modified: '2026-08-21'
 name: HostDeFi
 nav: Providers
 network: true
-overview: HostDeFi publishes 7 APIs on the [APIs.io](https://apis.io/) network, including Token Risk API, Analyze Token API, Health API, and 4 more. Tagged areas include solana, token risk, DeFi, rug pull, and x402.
+overview: HostDeFi publishes 7 APIs on the [APIs.io](https://apis.io/) network, including Token Risk API, Analyze Token API, Health API, and 4 more. Tagged areas include Solana, Token Risk, DeFi, rug pull, and x402.
 random_paper: 14
 score:
   band: thin
@@ -90,7 +90,7 @@ score:
     catalog_gap: 80.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: 4.3
+  delta: 0.0
   facets:
     access_clarity: 0.0
     commercial_clarity: 0.0
@@ -100,7 +100,7 @@ score:
     discoverability: 72.2
     governance: 0.0
     operational_transparency: 0.0
-  previous_composite: 22.3
+  previous_composite: 26.6
   provenance:
     contracts:
       callable: 100.0
@@ -108,12 +108,12 @@ score:
       marker_coverage: 0.0
       total: 1
   schema_version: 0.17.2
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
   trend: flat
 slug: hostdefi
 tags:
-- solana
-- token risk
+- Solana
+- Token Risk
 - DeFi
 - rug pull
 - x402

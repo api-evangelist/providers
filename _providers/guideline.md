@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
 api_count: 0
 artifact_total: 3
 common:
@@ -108,7 +108,7 @@ modified: '2026-07-19'
 name: Guideline
 nav: Providers
 network: true
-overview: 'Guideline is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Retirement, 401(k), IRA, and Financial-Services.
+overview: 'Guideline is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Retirement, 401k, IRA, and Financial-Services.
 
 
   Guideline''s developer surface includes support, engineering blog, signup flow, and 13 more developer resources.'
@@ -133,7 +133,7 @@ score:
     operational_transparency: 13.2
   previous_composite: 18.9
   schema_version: 0.17.2
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/guideline/refs/heads/main/screenshots/guideline-2026-07-25T220423.png
 security:
@@ -153,7 +153,7 @@ slug: guideline
 tags:
 - Company
 - Retirement
-- 401(k)
+- 401k
 - IRA
 - Financial-Services
 - Fintech

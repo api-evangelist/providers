@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 25.8
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -335,7 +335,7 @@ modified: '2026-05-30'
 name: IKEA
 nav: Providers
 network: true
-overview: 'IKEA publishes 5 APIs on the [APIs.io](https://apis.io/) network, including Availability API, Categories API, Parts API, and 2 more. Tagged areas include Retail, Home Furnishings, Consumer Products, Opensource, and Community.
+overview: 'IKEA publishes 5 APIs on the [APIs.io](https://apis.io/) network, including Availability API, Categories API, Parts API, and 2 more. Tagged areas include Retail, Home Furnishings, Consumer Products, Open-Source, and Community.
 
 
   The IKEA catalog on APIs.io includes 4 JSON-LD contexts and 2 Spectral governance rulesets.
@@ -392,7 +392,7 @@ score:
       marker_coverage: 0.0
       total: 5
   schema_version: 0.17.2
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
   trend: flat
 security:
 - kind: authentication
@@ -412,7 +412,7 @@ tags:
 - Retail
 - Home Furnishings
 - Consumer Products
-- Opensource
+- Open-Source
 - Community
 - Unofficial API
 - Smart Home

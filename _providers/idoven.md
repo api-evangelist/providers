@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
 api_count: 1
 apis:
 - description: API for the Willem ECG analysis platform (CE-marked Class IIa medical device). Supports bi-directional data exchange for ECG ingestion and cardiac-pattern analysis in EDF, HL7, DICOM, JSON, XML, and P
@@ -121,7 +121,7 @@ score:
     regime_id: health
     score: 30.0
   schema_version: 0.17.2
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/idoven/refs/heads/main/screenshots/idoven-2026-07-25T222035.png
 security:

@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
 api_count: 0
 artifact_total: 1
 common:
@@ -52,7 +52,7 @@ modified: '2026-07-19'
 name: eigencomm
 nav: Providers
 network: true
-overview: eigencomm is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Semiconductor, Chipsets, Internet of Things, and Cellular IoT.
+overview: eigencomm is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Semiconductors, Chipsets, Internet of Things, and Cellular IoT.
 random_paper: 3
 score:
   band: minimal
@@ -74,7 +74,7 @@ score:
     operational_transparency: 0.0
   previous_composite: 5.0
   schema_version: 0.17.2
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
   trend: flat
 security:
 - kind: domain-security
@@ -84,7 +84,7 @@ security:
 slug: eigencomm
 tags:
 - Company
-- Semiconductor
+- Semiconductors
 - Chipsets
 - Internet of Things
 - Cellular IoT

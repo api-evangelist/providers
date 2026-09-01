@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
 api_count: 1
 apis:
 - description: All Banco do Brasil financial transaction APIs
@@ -82,7 +82,7 @@ score:
     operational_transparency: 0.0
   previous_composite: 6.7
   schema_version: 0.17.2
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/banco-do-brasil/refs/heads/main/screenshots/banco-do-brasil-2026-06-20T172938.png
 security:

@@ -24,7 +24,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 47.3
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
 agentic_access:
 - acting_count: 22
   human_in_the_loop: 0
@@ -261,7 +261,7 @@ modified: '2026-08-06'
 name: Arkestro
 nav: Providers
 network: true
-overview: 'Arkestro publishes 13 APIs on the [APIs.io](https://apis.io/) network, including Awards API, business unit API, corporate categories API, and 10 more. Tagged areas include Procurement, sourcing, Supply Chain, spend-management, and e-sourcing.
+overview: 'Arkestro publishes 13 APIs on the [APIs.io](https://apis.io/) network, including Awards API, business unit API, corporate categories API, and 10 more. Tagged areas include Procurement, Sourcing, Supply Chain, Spend Management, and eSourcing.
 
 
   The Arkestro catalog on APIs.io includes 1 event-driven AsyncAPI specification.
@@ -282,7 +282,7 @@ score:
     catalog_gap: 78.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.6
+  delta: 0.0
   facets:
     access_clarity: 43.4
     commercial_clarity: 43.4
@@ -292,7 +292,7 @@ score:
     discoverability: 75.9
     governance: 4.5
     operational_transparency: 26.3
-  previous_composite: 46.2
+  previous_composite: 45.6
   provenance:
     agentic_access: derived
     conformance: derived
@@ -304,7 +304,7 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.17.2
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/arkestro/refs/heads/main/screenshots/arkestro-2026-08-17T122406.png
 security:
@@ -323,14 +323,14 @@ security:
 slug: arkestro
 tags:
 - Procurement
-- sourcing
+- Sourcing
 - Supply Chain
-- spend-management
-- e-sourcing
-- supplier-management
-- purchase-orders
+- Spend Management
+- eSourcing
+- Supplier Management
+- Purchase Orders
 - procurement-analytics
-- enterprise-software
+- Enterprise Software
 - predictive-procurement
 - MCP
 - Webhook

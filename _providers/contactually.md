@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
 api_count: 0
 artifact_total: 1
 common:
@@ -52,7 +52,7 @@ modified: '2026-07-18'
 name: Contactually
 nav: Providers
 network: true
-overview: Contactually is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, CRM, Customer Relationship Management, Real-Estate, and Contact Management.
+overview: Contactually is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, CRM, Real-Estate, Contact Management, and Relationships.
 random_paper: 18
 score:
   band: minimal
@@ -74,7 +74,7 @@ score:
     operational_transparency: 0.0
   previous_composite: 5.0
   schema_version: 0.17.2
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/contactually/refs/heads/main/screenshots/contactually-2026-07-25T210315.png
 security:
@@ -86,7 +86,6 @@ slug: contactually
 tags:
 - Company
 - CRM
-- Customer Relationship Management
 - Real-Estate
 - Contact Management
 - Relationships

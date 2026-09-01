@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
 api_count: 0
 artifact_total: 2
 common:
@@ -88,7 +88,7 @@ modified: '2026-07-19'
 name: Interplay Learning
 nav: Providers
 network: true
-overview: 'Interplay Learning is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Edtech, Skilled Trades, Training, and Learning Management.
+overview: 'Interplay Learning is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, EdTech, Skilled Trades, Training, and Learning Management.
 
 
   Interplay Learning''s developer surface includes pricing, signup flow, engineering blog, support, and 7 more developer resources.'
@@ -119,7 +119,7 @@ score:
     regime_id: education
     score: 35.2
   schema_version: 0.17.2
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/interplay-learning/refs/heads/main/screenshots/interplay-learning-2026-07-25T222714.png
 security:
@@ -134,7 +134,7 @@ security:
 slug: interplay-learning
 tags:
 - Company
-- Edtech
+- EdTech
 - Skilled Trades
 - Training
 - Learning Management

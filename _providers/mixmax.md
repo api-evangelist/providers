@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 36.5
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
 agentic_access:
 - acting_count: 13
   human_in_the_loop: 0
@@ -218,7 +218,7 @@ modified: '2026-08-13'
 name: Mixmax
 nav: Providers
 network: true
-overview: 'Mixmax publishes 6 APIs on the [APIs.io](https://apis.io/) network, including Contact Groups API, Contacts API, File Requests API, and 3 more. Tagged areas include Company, Saas, MCP, Agents, and Webhook.
+overview: 'Mixmax publishes 6 APIs on the [APIs.io](https://apis.io/) network, including Contact Groups API, Contacts API, File Requests API, and 3 more. Tagged areas include Company, Software-as-a-Service, MCP, Agents, and Webhook.
 
 
   The Mixmax catalog on APIs.io includes 1 event-driven AsyncAPI specification.
@@ -247,7 +247,7 @@ score:
     catalog_gap: 58.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.5
+  delta: 0.0
   facets:
     access_clarity: 92.1
     commercial_clarity: 92.1
@@ -257,7 +257,7 @@ score:
     discoverability: 75.9
     governance: 18.2
     operational_transparency: 47.4
-  previous_composite: 51.7
+  previous_composite: 51.2
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -269,7 +269,7 @@ score:
     mcp: first-party
     skills: first-party
   schema_version: 0.17.2
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/mixmax/refs/heads/main/screenshots/mixmax-2026-08-07T183824.png
 security:
@@ -288,7 +288,7 @@ security:
 slug: mixmax
 tags:
 - Company
-- Saas
+- Software-as-a-Service
 - MCP
 - Agents
 - Webhook

@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
 api_count: 0
 artifact_total: 2
 common:
@@ -80,7 +80,7 @@ modified: '2026-07-17'
 name: Abacum
 nav: Providers
 network: true
-overview: 'Abacum is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Saas, FP&A, Financial Planning, and Finance.
+overview: 'Abacum is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Software-as-a-Service, FP&A, Financial Planning, and Finance.
 
 
   Abacum''s developer surface includes engineering blog, support, signup flow, and 6 more developer resources.'
@@ -105,7 +105,7 @@ score:
     operational_transparency: 0.0
   previous_composite: 14.3
   schema_version: 0.17.2
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/abacum/refs/heads/main/screenshots/abacum-2026-07-25T181333.png
 security:
@@ -120,7 +120,7 @@ security:
 slug: abacum
 tags:
 - Company
-- Saas
+- Software-as-a-Service
 - FP&A
 - Financial Planning
 - Finance

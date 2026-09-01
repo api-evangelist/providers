@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 21.2
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
 api_count: 1
 apis:
 - description: Shopify-native Universal Commerce Protocol surface for the Shoptiques storefront — agent-driven catalog search, cart, checkout and fulfillment over a published MCP endpoint, with buyer-approved paymen
@@ -131,7 +131,7 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.17.2
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
   trend: flat
 security:
 - kind: authentication

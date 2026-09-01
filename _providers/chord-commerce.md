@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 48.4
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
 api_count: 3
 apis:
 - description: Chord's hosted Model Context Protocol server — a remote, OAuth-protected, read-only window into a customer's Chord data warehouse. Fourteen documented tools cover schema search, saved views, prior que
@@ -51,6 +51,10 @@ asyncapis:
   name: Chord Commerce Events
   slug: chord-commerce-events
 common:
+- group: commercial
+  title: ''
+  type: License
+  url: https://github.com/chordcommerce/chord-copilot/blob/main/LICENSE
 - group: auth
   title: ''
   type: DomainSecurity
@@ -267,7 +271,7 @@ overview: 'Chord publishes 3 APIs on the [APIs.io](https://apis.io/) network. Ta
   The Chord catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  Chord''s developer surface includes documentation, API reference, getting-started guide, authentication, changelog, release notes, engineering blog, and 42 more developer resources.'
+  Chord''s developer surface includes documentation, API reference, getting-started guide, authentication, changelog, release notes, engineering blog, and 43 more developer resources.'
 plans:
 - name: Chord Commerce Plans Pricing
   plan_count: 0
@@ -306,7 +310,7 @@ score:
     mcp: first-party
     skills: first-party
   schema_version: 0.17.2
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/chord-commerce/refs/heads/main/screenshots/chord-commerce-2026-06-20T174322.png
 security:
@@ -334,9 +338,8 @@ tags:
 - Commerce Copilot
 - Solidus
 - Spree
-- Ruby On Rails
+- Ruby on Rails
 - Shopify
-- DTC
 - Direct to Consumer
 website: https://www.chordcommerce.com
 ---

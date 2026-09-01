@@ -24,7 +24,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 40.3
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
 api_count: 3
 apis:
 - description: 'Access keys authenticate S3-compatible object storage operations. Each key has an access ID and a secret. Generate access keys via this API or in the console, then use them to sign requests to bucket '
@@ -416,7 +416,7 @@ score:
     catalog_gap: 58.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: 1.8
+  delta: 0.0
   facets:
     access_clarity: 92.1
     commercial_clarity: 92.1
@@ -426,7 +426,7 @@ score:
     discoverability: 75.9
     governance: 18.2
     operational_transparency: 63.2
-  previous_composite: 64.7
+  previous_composite: 66.5
   provenance:
     conformance: first-party
     contracts:
@@ -437,7 +437,7 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.17.2
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
   trend: flat
 security:
 - kind: authentication

@@ -23,7 +23,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 22.7
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
 api_count: 8
 apis:
 - description: 'The core uShip marketplace API — a RESTful, hypermedia-driven JSON API over the shipment lifecycle: searching active listings, creating and retrieving listings by commodity category, bids and bid acce'
@@ -165,7 +165,7 @@ modified: '2026-08-02'
 name: uShip
 nav: Providers
 network: true
-overview: 'uShip publishes 8 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Shipping, Logistics, freight, Marketplace, and Transportation.
+overview: 'uShip publishes 8 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Shipping, Logistics, Freight, Marketplace, and Transportation.
 
 
   The uShip catalog on APIs.io includes 1 event-driven AsyncAPI specification.
@@ -195,7 +195,7 @@ score:
   provenance:
     conformance: derived
   schema_version: 0.17.2
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/uship/refs/heads/main/screenshots/uship-2026-08-17T082657.png
 security:
@@ -211,13 +211,13 @@ slug: uship
 tags:
 - Shipping
 - Logistics
-- freight
+- Freight
 - Marketplace
 - Transportation
 - auto-transport
 - ltl-freight
-- last-mile-delivery
-- shipment-tracking
+- Last Mile Delivery
+- Shipment Tracking
 - E-Commerce
 - Supply Chain
 - rate-quotes

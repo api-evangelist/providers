@@ -23,7 +23,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 8.5
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
 api_count: 2
 apis:
 - description: 'The Stacklet Platform GraphQL API is the control plane for the governance platform: cloud accounts and account groups, policies and policy collections, bindings (the deployment of a policy collection '
@@ -177,7 +177,7 @@ score:
     regime_id: insurance
     score: 37.9
   schema_version: 0.17.2
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
   trend: flat
 security:
 - kind: authentication

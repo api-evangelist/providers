@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
 api_count: 6
 apis:
 - description: 'The Leap Connect API is Leapfin''s documented programmatic ingestion surface. Developers push transactional data - typically in batch on a nightly cadence - into Leapfin''s ingestion services, where it '
@@ -117,7 +117,7 @@ score:
     operational_transparency: 0.0
   previous_composite: 15.5
   schema_version: 0.17.2
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/leapfin/refs/heads/main/screenshots/leapfin-2026-07-25T224808.png
 slug: leapfin
@@ -127,7 +127,7 @@ tags:
 - Financial Automation
 - Accounting
 - Revenue Accounting
-- Record to Report
+- Record-to-Report
 - Journal Entries
 - Data Ingestion
 website: https://www.leapfin.com

@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
 api_count: 0
 artifact_total: 1
 common:
@@ -80,7 +80,7 @@ modified: '2026-07-19'
 name: Join
 nav: Providers
 network: true
-overview: 'Join is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Video Commerce, E-Commerce, Shoppable Video, and User-Generated Content.
+overview: 'Join is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Video Commerce, E-Commerce, Shoppable Video, and User Generated Content.
 
 
   Join''s developer surface includes engineering blog, pricing, signup flow, and 6 more developer resources.'
@@ -105,7 +105,7 @@ score:
     operational_transparency: 0.0
   previous_composite: 14.1
   schema_version: 0.17.2
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/join/refs/heads/main/screenshots/join-2026-07-25T223224.png
 security:
@@ -119,7 +119,7 @@ tags:
 - Video Commerce
 - E-Commerce
 - Shoppable Video
-- User-Generated Content
+- User Generated Content
 - Video Analytics
 - AI Video
 - Retail

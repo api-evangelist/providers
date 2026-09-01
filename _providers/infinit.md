@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
 api_count: 0
 artifact_total: 1
 common:
@@ -108,7 +108,7 @@ modified: '2026-07-19'
 name: INFINIT
 nav: Providers
 network: true
-overview: 'INFINIT is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Defi, AI Agents, Web3, and Blockchain.
+overview: 'INFINIT is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, DeFi, AI Agents, Web3, and Blockchain.
 
 
   INFINIT''s developer surface includes documentation, getting-started guide, engineering blog, support, signup flow, CLI, and 10 more developer resources.'
@@ -139,7 +139,7 @@ score:
     regime_id: securities_market_data
     score: 16.7
   schema_version: 0.17.2
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/infinit/refs/heads/main/screenshots/infinit-2026-07-25T222403.png
 security:
@@ -150,7 +150,7 @@ security:
 slug: infinit
 tags:
 - Company
-- Defi
+- DeFi
 - AI Agents
 - Web3
 - Blockchain

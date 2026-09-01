@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
 api_count: 0
 artifact_total: 1
 common:
@@ -60,7 +60,7 @@ modified: '2026-07-20'
 name: Prose
 nav: Providers
 network: true
-overview: 'Prose is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Consumer, Beauty, Haircare, and Skincare.
+overview: 'Prose is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Consumer, Beauty, Hair Care, and Skincare.
 
 
   Prose''s developer surface includes support and 3 more developer resources.'
@@ -85,7 +85,7 @@ score:
     operational_transparency: 2.6
   previous_composite: 5.3
   schema_version: 0.17.2
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
   trend: flat
 security:
 - kind: domain-security
@@ -97,7 +97,7 @@ tags:
 - Company
 - Consumer
 - Beauty
-- Haircare
+- Hair Care
 - Skincare
 - Personalization
 - Direct to Consumer

@@ -23,7 +23,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 47.3
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
 api_count: 3
 apis:
 - description: The Grafana Loki HTTP API — 40 documented endpoints for pushing logs (native and OTLP), querying with LogQL over instants and ranges, discovering labels, series, patterns and detected fields, streamin
@@ -37,6 +37,10 @@ apis:
   slug: grafana-mcp-loki-tools
 artifact_total: 11
 common:
+- group: commercial
+  title: ''
+  type: License
+  url: https://github.com/grafana/loki/blob/main/LICENSE
 - group: company
   title: ''
   type: Website
@@ -224,7 +228,7 @@ network: true
 overview: 'Grafana Loki publishes 3 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Logs, Logging, Log Aggregation, and Observability.
 
 
-  Grafana Loki''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 36 more developer resources.'
+  Grafana Loki''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 37 more developer resources.'
 plans:
 - name: Grafana Loki Plans Pricing
   plan_count: 3
@@ -247,7 +251,7 @@ score:
     catalog_gap: 51.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: 6.7
+  delta: 0.0
   facets:
     access_clarity: 92.1
     commercial_clarity: 92.1
@@ -257,10 +261,10 @@ score:
     discoverability: 81.5
     governance: 18.2
     operational_transparency: 84.2
-  previous_composite: 56.8
+  previous_composite: 63.5
   schema_version: 0.17.2
-  scored_at: '2026-08-30'
-  trend: rising
+  scored_at: '2026-09-01'
+  trend: flat
 security:
 - kind: authentication
   name: Grafana Loki Authentication

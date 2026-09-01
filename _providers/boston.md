@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 25.0
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
 api_count: 1
 apis:
 - description: The WordPress REST API on Boston University's own web platform, and the one substantial machine-readable interface the institution both operates and authors. Its discovery document advertises 237 rout
@@ -210,7 +210,7 @@ score:
     catalog_gap: 45.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: 26.6
+  delta: 0.0
   facets:
     access_clarity: 50.0
     commercial_clarity: 50.0
@@ -220,7 +220,7 @@ score:
     discoverability: 59.3
     governance: 15.2
     operational_transparency: 26.3
-  previous_composite: 18.6
+  previous_composite: 45.2
   regulatory:
     applies: true
     matched_via: tags
@@ -228,8 +228,8 @@ score:
     regime_id: education
     score: 46.3
   schema_version: 0.17.2
-  scored_at: '2026-08-30'
-  trend: rising
+  scored_at: '2026-09-01'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/boston/refs/heads/main/screenshots/boston-2026-06-20T173612.png
 security:
 - kind: authentication

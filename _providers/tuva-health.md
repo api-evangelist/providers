@@ -23,7 +23,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 18.9
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
 api_count: 2
 apis:
 - description: The core open-source Tuva dbt package that transforms healthcare data from the Tuva Input Layer into the Tuva Core Data Model and Data Marts, including data-quality tests, normalization, claims prepro
@@ -61,6 +61,10 @@ apis:
   slug: tuva-health-users-api
 artifact_total: 15
 common:
+- group: commercial
+  title: ''
+  type: License
+  url: https://github.com/tuva-health/tuva/blob/main/LICENSE
 - group: other
   title: ''
   type: CapabilityMap
@@ -201,7 +205,7 @@ network: true
 overview: 'Tuva Health publishes 8 APIs on the [APIs.io](https://apis.io/) network, including Config API, Data Sources API, Health Check API, and 5 more. Tagged areas include Healthcare, United States, Health Data, FHIR, and Interoperability.
 
 
-  Tuva Health''s developer surface includes documentation, getting-started guide, changelog, engineering blog, support, API reference, authentication, and 25 more developer resources.'
+  Tuva Health''s developer surface includes documentation, getting-started guide, changelog, engineering blog, support, API reference, authentication, and 26 more developer resources.'
 plans:
 - name: Tuva Health Plans Pricing
   plan_count: 0
@@ -219,7 +223,7 @@ score:
     catalog_gap: 83.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.5
+  delta: 0.0
   facets:
     access_clarity: 21.1
     commercial_clarity: 21.1
@@ -232,7 +236,7 @@ score:
   open_source:
     applies: true
     score: 25.0
-  previous_composite: 43.5
+  previous_composite: 43.0
   provenance:
     conformance: first-party
     contracts:
@@ -249,7 +253,7 @@ score:
     regime_id: health
     score: 31.3
   schema_version: 0.17.2
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/tuva-health/refs/heads/main/screenshots/tuva-health-2026-08-17T082502.png
 security:

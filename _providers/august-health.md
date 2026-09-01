@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 29.3
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
 api_count: 1
 apis:
 - description: RESTful v1 API for the August Health EHR platform covering organizations, facilities, rooms, census, residents, contacts, assessments, incidents & notes, medications (orders and administrations), vita
@@ -169,7 +169,7 @@ modified: '2026-07-18'
 name: August Health
 nav: Providers
 network: true
-overview: 'August Health publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Healthcare, EHR, Senior Living, and Eldercare.
+overview: 'August Health publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Healthcare, EHR, Senior Living, and Elder Care.
 
 
   The August Health catalog on APIs.io includes 1 event-driven AsyncAPI specification.
@@ -215,7 +215,7 @@ score:
     regime_id: health
     score: 31.3
   schema_version: 0.17.2
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/august-health/refs/heads/main/screenshots/august-health-2026-07-25T201720.png
 security:
@@ -237,7 +237,7 @@ tags:
 - Healthcare
 - EHR
 - Senior Living
-- Eldercare
+- Elder Care
 - Electronic Health Records
 - eMAR
 - Billing

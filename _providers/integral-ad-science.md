@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 7.9
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
 api_count: 1
 apis:
 - description: 'RESTful API that exposes IAS viewability, fraud and brand safety metrics for a customer''s own business applications. Job-oriented: POST /report submits a JSON ReportRequest describing teams, date rang'
@@ -254,7 +254,7 @@ score:
   provenance:
     conformance: first-party
   schema_version: 0.17.2
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/integral-ad-science/refs/heads/main/screenshots/integral-ad-science-2026-06-20T183425.png
 security:

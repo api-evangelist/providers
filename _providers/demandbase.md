@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 55.4
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
 agentic_access:
 - acting_count: 24
   human_in_the_loop: 0
@@ -370,7 +370,7 @@ modified: '2026-08-13'
 name: Demandbase
 nav: Providers
 network: true
-overview: 'Demandbase publishes 16 APIs on the [APIs.io](https://apis.io/) network, including Activities Management API, Asynchronous (Batch) API, Auth API, and 13 more. Tagged areas include Account-Based Marketing, Advertising, AI Agents, B2B Marketing, and Company Data.
+overview: 'Demandbase publishes 16 APIs on the [APIs.io](https://apis.io/) network, including Activities Management API, Asynchronous (Batch) API, Auth API, and 13 more. Tagged areas include Account Based Marketing, Advertising, AI Agents, B2B Marketing, and Company Data.
 
 
   The Demandbase catalog on APIs.io includes 1 event-driven AsyncAPI specification.
@@ -421,7 +421,7 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.17.2
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/demandbase/refs/heads/main/screenshots/demandbase-2026-06-20T175908.png
 security:
@@ -439,7 +439,7 @@ security:
   summary_line: SOC 2, ISO 27001
 slug: demandbase
 tags:
-- Account-Based Marketing
+- Account Based Marketing
 - Advertising
 - AI Agents
 - B2B Marketing

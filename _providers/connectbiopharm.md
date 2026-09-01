@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
 api_count: 0
 artifact_total: 1
 common:
@@ -68,7 +68,7 @@ modified: '2026-07-18'
 name: Connect Biopharma
 nav: Providers
 network: true
-overview: 'Connect Biopharma is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Biopharmaceutical, Pharmaceuticals, Biotechnology, and Clinical-Stage.
+overview: 'Connect Biopharma is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Biopharmaceutical, Pharmaceuticals, Biotechnology, and Clinical Stage.
 
 
   Connect Biopharma''s developer surface includes support, engineering blog, and 4 more developer resources.'
@@ -99,7 +99,7 @@ score:
     regime_id: health
     score: 17.5
   schema_version: 0.17.2
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/connectbiopharm/refs/heads/main/screenshots/connectbiopharm-2026-07-25T210301.png
 security:
@@ -113,7 +113,7 @@ tags:
 - Biopharmaceutical
 - Pharmaceuticals
 - Biotechnology
-- Clinical-Stage
+- Clinical Stage
 - Inflammatory Diseases
 - Respiratory
 - Asthma

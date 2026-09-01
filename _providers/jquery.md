@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 2.5
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
 api_count: 2
 apis:
 - description: The core jQuery API for DOM manipulation, event handling, AJAX, effects, animation, and other JavaScript utilities. Documents selectors, methods, and events for working with the DOM in a cross-browser
@@ -100,7 +100,7 @@ modified: '2026-04-28'
 name: jQuery
 nav: Providers
 network: true
-overview: 'jQuery publishes 2 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include AJAX, DOM Manipulation, Front-End, JavaScript, and Library.
+overview: 'jQuery publishes 2 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include AJAX, DOM Manipulation, Frontend, JavaScript, and Library.
 
 
   jQuery''s developer surface includes documentation, engineering blog, and 9 more developer resources.'
@@ -139,7 +139,7 @@ score:
     regime_id: education
     score: 11.1
   schema_version: 0.17.2
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/jquery/refs/heads/main/screenshots/jquery-2026-06-20T183810.png
 security:
@@ -151,7 +151,7 @@ slug: jquery
 tags:
 - AJAX
 - DOM Manipulation
-- Front-End
+- Frontend
 - JavaScript
 - Library
 website: https://jquery.com

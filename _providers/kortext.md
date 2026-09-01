@@ -23,7 +23,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 30.0
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
 api_count: 1
 apis:
 - description: The institution-facing integration surface behind vle.kortext.com — 1EdTech LTI 1.1 launch and LTI 1.3 Deep Linking endpoints that place Kortext content and KeyLinks reading lists inside Blackboard, M
@@ -191,7 +191,7 @@ modified: '2026-08-23'
 name: Kortext
 nav: Providers
 network: true
-overview: 'Kortext publishes 8 APIs on the [APIs.io](https://apis.io/) network, including Chat API, Content API, Health Checks API, and 5 more. Tagged areas include education, edtech, higher-education, digital-textbooks, and learning-analytics.
+overview: 'Kortext publishes 8 APIs on the [APIs.io](https://apis.io/) network, including Chat API, Content API, Health Checks API, and 5 more. Tagged areas include Education, EdTech, Higher Education, Digital Textbooks, and Learning Analytics.
 
 
   Kortext''s developer surface includes documentation, API reference, support, engineering blog, signup flow, getting-started guide, authentication, and 24 more developer resources.'
@@ -212,7 +212,7 @@ score:
     catalog_gap: 78.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.6
+  delta: 0.0
   facets:
     access_clarity: 34.2
     commercial_clarity: 34.2
@@ -222,7 +222,7 @@ score:
     discoverability: 68.5
     governance: 18.2
     operational_transparency: 15.8
-  previous_composite: 45.0
+  previous_composite: 44.4
   provenance:
     conformance: first-party
     mcp: derived
@@ -234,7 +234,7 @@ score:
     regime_id: education
     score: 46.3
   schema_version: 0.17.2
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
   trend: flat
 security:
 - kind: authentication
@@ -247,16 +247,16 @@ security:
   summary_line: TLSv1.3 · DMARC
 slug: kortext
 tags:
-- education
-- edtech
-- higher-education
-- digital-textbooks
-- learning-analytics
-- artificial-intelligence
-- content-delivery
-- lti
-- libraries
-- student-engagement
-- publishing
+- Education
+- EdTech
+- Higher Education
+- Digital Textbooks
+- Learning Analytics
+- Artificial Intelligence
+- Content Delivery
+- LTI
+- Libraries
+- Student Engagement
+- Publishing
 website: https://kortext.com/
 ---

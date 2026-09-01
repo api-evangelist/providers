@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
 api_count: 0
 artifact_total: 1
 common:
@@ -64,7 +64,7 @@ modified: '2026-05-02'
 name: Superior Energy Services
 nav: Providers
 network: true
-overview: Superior Energy Services is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Oil And Gas, Oilfield Services, Energy, Well Services, and Drilling.
+overview: Superior Energy Services is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Oil and Gas, Oilfield Services, Energy, Well Services, and Drilling.
 press:
 - date: '2026-05-25'
   title: Nabors Announces Sale of Quail Tools to Superior Energy ...
@@ -108,7 +108,7 @@ score:
     regime_id: energy_utilities
     score: 8.1
   schema_version: 0.17.2
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/superior-energy-services/refs/heads/main/screenshots/superior-energy-services-2026-06-20T194716.png
 security:
@@ -118,7 +118,7 @@ security:
   summary_line: TLSv1.3 · DMARC
 slug: superior-energy-services
 tags:
-- Oil And Gas
+- Oil and Gas
 - Oilfield Services
 - Energy
 - Well Services

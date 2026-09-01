@@ -23,7 +23,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 37.6
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
 api_count: 1
 apis:
 - description: The production REST API behind the SponsorUnited platform. Its OpenAPI 3.0 description is publicly served at https://api.sponsorunited.com/docs and describes 547 operations across 422 paths and 561 sc
@@ -164,7 +164,7 @@ score:
     operational_transparency: 44.7
   previous_composite: 46.8
   schema_version: 0.17.2
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
   trend: flat
 security:
 - kind: authentication

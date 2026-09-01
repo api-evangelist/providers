@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
 api_count: 1
 apis:
 - description: Unified developer entry point for Slingshot's orbital intelligence APIs — GSN Data (near-real-time observations, state vectors, tracking metrics from the Global Sensor Network and SSOT), Seradata (sat
@@ -113,7 +113,7 @@ score:
     operational_transparency: 2.6
   previous_composite: 19.3
   schema_version: 0.17.2
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
   trend: flat
 security:
 - kind: domain-security

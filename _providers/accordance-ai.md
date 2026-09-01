@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
 api_count: 0
 artifact_total: 3
 common:
@@ -145,7 +145,7 @@ score:
     operational_transparency: 10.5
   previous_composite: 18.1
   schema_version: 0.17.2
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/accordance-ai/refs/heads/main/screenshots/accordance-ai-2026-07-25T181441.png
 security:

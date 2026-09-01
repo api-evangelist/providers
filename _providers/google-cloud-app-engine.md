@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 24.8
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -178,7 +178,7 @@ modified: '2026-05-19'
 name: Google Cloud App Engine
 nav: Providers
 network: true
-overview: 'Google Cloud App Engine publishes 4 APIs on the [APIs.io](https://apis.io/) network, including Applications API, Apps API, Instances API, and 1 more. Tagged areas include App Engine, Compute, Google Cloud, PaaS, and Serverless.
+overview: 'Google Cloud App Engine publishes 4 APIs on the [APIs.io](https://apis.io/) network, including Applications API, Apps API, Instances API, and 1 more. Tagged areas include App Engine, Compute, Google Cloud, Platform-as-a-Service, and Serverless.
 
 
   The Google Cloud App Engine catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
@@ -218,7 +218,7 @@ score:
     catalog_gap: 51.8
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.6
+  delta: 0.0
   facets:
     access_clarity: 47.4
     commercial_clarity: 47.4
@@ -228,7 +228,7 @@ score:
     discoverability: 68.5
     governance: 9.8
     operational_transparency: 26.3
-  previous_composite: 45.6
+  previous_composite: 45.0
   provenance:
     agentic_access: derived
     contracts:
@@ -237,7 +237,7 @@ score:
       marker_coverage: 0.0
       total: 4
   schema_version: 0.17.2
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/google-cloud-app-engine/refs/heads/main/screenshots/google-cloud-app-engine-2026-06-20T182039.png
 security:
@@ -258,7 +258,7 @@ tags:
 - App Engine
 - Compute
 - Google Cloud
-- PaaS
+- Platform-as-a-Service
 - Serverless
 - Web Applications
 website: https://cloud.google.com/appengine

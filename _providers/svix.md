@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 47.7
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
 agentic_access:
 - acting_count: 79
   human_in_the_loop: 0
@@ -696,7 +696,7 @@ modified: '2026-08-13'
 name: Svix
 nav: Providers
 network: true
-overview: 'Svix publishes 28 APIs on the [APIs.io](https://apis.io/) network, including Application API, Authentication API, Background Task API, and 25 more. Tagged areas include Webhook, Webhooks As A Service, Webhook Delivery, Webhook Sending, and Event Driven.
+overview: 'Svix publishes 28 APIs on the [APIs.io](https://apis.io/) network, including Application API, Authentication API, Background Task API, and 25 more. Tagged areas include Webhook, Webhooks As A Service, Webhook Delivery, Webhook Sending, and Event-Driven.
 
 
   The Svix catalog on APIs.io includes 1 event-driven AsyncAPI specification, 1 JSON-LD context, and 2 Spectral governance rulesets.
@@ -742,7 +742,7 @@ score:
     catalog_gap: 38.5
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.5
+  delta: 0.0
   facets:
     access_clarity: 76.3
     commercial_clarity: 76.3
@@ -755,7 +755,7 @@ score:
   open_source:
     applies: true
     score: 100.0
-  previous_composite: 79.1
+  previous_composite: 78.6
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -773,7 +773,7 @@ score:
     regime_id: payments
     score: 50.0
   schema_version: 0.17.2
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/svix/refs/heads/main/screenshots/svix-2026-06-20T194748.png
 security:
@@ -805,10 +805,10 @@ tags:
 - Webhooks As A Service
 - Webhook Delivery
 - Webhook Sending
-- Event Driven
+- Event-Driven
 - Eventing
 - Messaging
-- Pub Sub
+- Pub-Sub
 - Streaming
 - Ingest
 - Integration
@@ -819,8 +819,8 @@ tags:
 - Verification
 - HMAC
 - Standard Webhooks
-- Multi Tenant
-- Multi Region
+- Multi-Tenant
+- Multi-Region
 - Enterprise
 - Software-as-a-Service
 - Developer Platform

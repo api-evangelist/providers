@@ -23,7 +23,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 27.0
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
 api_count: 2
 apis:
 - description: Session-authenticated workspace administration.
@@ -96,7 +96,7 @@ modified: '2026-08-24'
 name: SendHQ
 nav: Providers
 network: true
-overview: 'SendHQ publishes 7 APIs on the [APIs.io](https://apis.io/) network, including Account and billing API, Deliverability API, Domains API, and 4 more. Tagged areas include email api, Transactional Email, Inbound Email, and deliverability.
+overview: 'SendHQ publishes 7 APIs on the [APIs.io](https://apis.io/) network, including Account and billing API, Deliverability API, Domains API, and 4 more. Tagged areas include Email API, Transactional Email, inbound email, and Deliverability.
 
 
   SendHQ''s developer surface includes developer console, tooling, support, and 7 more developer resources.'
@@ -109,7 +109,7 @@ score:
     catalog_gap: 85.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -1.5
+  delta: 0.0
   facets:
     access_clarity: 21.1
     commercial_clarity: 21.1
@@ -119,7 +119,7 @@ score:
     discoverability: 63.0
     governance: 0.0
     operational_transparency: 0.0
-  previous_composite: 34.9
+  previous_composite: 33.4
   provenance:
     contracts:
       callable: 100.0
@@ -127,13 +127,13 @@ score:
       marker_coverage: 0.0
       total: 1
   schema_version: 0.17.2
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
   trend: flat
 slug: sendhq
 tags:
-- email api
+- Email API
 - Transactional Email
-- Inbound Email
-- deliverability
+- inbound email
+- Deliverability
 website: https://sendhq.cc/
 ---

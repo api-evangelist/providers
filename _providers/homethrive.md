@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
 api_count: 0
 artifact_total: 1
 common:
@@ -64,7 +64,7 @@ modified: '2026-07-03'
 name: Homethrive
 nav: Providers
 network: true
-overview: 'Homethrive is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Caregiving, Family Caregivers, Employee Benefits, Health Plans, and Eldercare.
+overview: 'Homethrive is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Caregiving, Family Caregivers, Employee Benefits, Health Plans, and Elder Care.
 
 
   Homethrive''s developer surface includes engineering blog, signup flow, and 3 more developer resources.'
@@ -95,7 +95,7 @@ score:
     regime_id: health
     score: 7.5
   schema_version: 0.17.2
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/homethrive/refs/heads/main/screenshots/homethrive-2026-07-25T221345.png
 security:
@@ -109,8 +109,8 @@ tags:
 - Family Caregivers
 - Employee Benefits
 - Health Plans
-- Eldercare
-- Backup Care
+- Elder Care
+- Back-Up Care
 - Caregiver Support
 - Digital Health
 - B2B2C

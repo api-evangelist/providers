@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 22.9
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -158,7 +158,7 @@ modified: '2026-06-13'
 name: Bandsintown
 nav: Providers
 network: true
-overview: 'Bandsintown publishes 2 APIs on the [APIs.io](https://apis.io/) network: artist events API and artist information API. Tagged areas include concerts, live music, Event, artists, and venues.
+overview: 'Bandsintown publishes 2 APIs on the [APIs.io](https://apis.io/) network: artist events API and artist information API. Tagged areas include Concerts, Live Music, Event, Artists, and Venues.
 
 
   The Bandsintown catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
@@ -212,7 +212,7 @@ score:
       marker_coverage: 0.0
       total: 2
   schema_version: 0.17.2
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/bandsintown/refs/heads/main/screenshots/bandsintown-2026-06-20T172944.png
 security:
@@ -222,15 +222,15 @@ security:
   summary_line: TLSv1.3 · DMARC
 slug: bandsintown
 tags:
-- concerts
-- live music
+- Concerts
+- Live Music
 - Event
-- artists
-- venues
-- music discovery
+- Artists
+- Venues
+- Music Discovery
 - tour dates
 - Tickets
 - fan notifications
-- entertainment
+- Entertainment
 website: https://www.bandsintown.com/
 ---

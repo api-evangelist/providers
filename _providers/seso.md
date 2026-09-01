@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
 api_count: 0
 artifact_total: 1
 common:
@@ -80,7 +80,7 @@ modified: '2026-07-21'
 name: Seso
 nav: Providers
 network: true
-overview: 'Seso is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Hr Tech, Agriculture, Payroll, and Onboarding.
+overview: 'Seso is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, HR Tech, Agriculture, Payroll, and Onboarding.
 
 
   Seso''s developer surface includes support, engineering blog, and 7 more developer resources.'
@@ -105,7 +105,7 @@ score:
     operational_transparency: 0.0
   previous_composite: 11.9
   schema_version: 0.17.2
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
   trend: flat
 security:
 - kind: domain-security
@@ -115,7 +115,7 @@ security:
 slug: seso
 tags:
 - Company
-- Hr Tech
+- HR Tech
 - Agriculture
 - Payroll
 - Onboarding

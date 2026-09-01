@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 18.0
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
 api_count: 10
 apis:
 - description: 'Keyless OAI-PMH 2.0 metadata harvesting endpoint operated by Maastricht University on its own domain. Verified live 2026-08-30: all six verbs return 200, six metadata profiles are offered (oai_dc, qdc'
@@ -231,7 +231,7 @@ score:
     catalog_gap: 56.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: 16.2
+  delta: 0.0
   facets:
     access_clarity: 50.0
     commercial_clarity: 50.0
@@ -241,7 +241,7 @@ score:
     discoverability: 64.8
     governance: 15.2
     operational_transparency: 23.7
-  previous_composite: 30.9
+  previous_composite: 47.1
   provenance:
     agentic_access: derived
     contracts:
@@ -256,8 +256,8 @@ score:
     regime_id: education
     score: 75.9
   schema_version: 0.17.2
-  scored_at: '2026-08-30'
-  trend: rising
+  scored_at: '2026-09-01'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/maastricht/refs/heads/main/screenshots/maastricht-2026-06-20T184821.png
 security:
 - kind: authentication

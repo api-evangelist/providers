@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 2.5
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
 api_count: 1
 apis:
 - description: Hobart's API integration helps automate the work order workflow process and streamline the exchange of data between partner systems and Hobart's service operations. Implementation requires the Web Ser
@@ -95,7 +95,7 @@ score:
     operational_transparency: 7.9
   previous_composite: 11.1
   schema_version: 0.17.2
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/hobart/refs/heads/main/screenshots/hobart-2026-06-20T182807.png
 security:

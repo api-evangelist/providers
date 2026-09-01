@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.2
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
 api_count: 1
 apis:
 - description: Key/secret exchange for bearer tokens and drone access discovery
@@ -253,7 +253,7 @@ score:
     catalog_gap: 28.5
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.5
+  delta: 0.0
   facets:
     access_clarity: 39.5
     commercial_clarity: 39.5
@@ -263,7 +263,7 @@ score:
     discoverability: 59.3
     governance: 28.8
     operational_transparency: 36.8
-  previous_composite: 32.1
+  previous_composite: 31.6
   provenance:
     contracts:
       callable: 0.0
@@ -271,7 +271,7 @@ score:
       marker_coverage: 100.0
       total: 3
   schema_version: 0.17.2
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/saildrone/refs/heads/main/screenshots/saildrone-2026-06-20T193333.png
 security:
@@ -288,7 +288,7 @@ tags:
 - Autonomous Systems
 - METOC
 - Maritime Domain Awareness
-- Anti Submarine Warfare
+- Anti-Submarine Warfare
 - Defense
 - Climate
 - Oceanography

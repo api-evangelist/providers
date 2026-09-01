@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 24.3
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
 api_count: 3
 apis:
 - description: The api API from MerQube — 1 operation(s) for api.
@@ -206,7 +206,7 @@ modified: '2026-08-25'
 name: MerQube
 nav: Providers
 network: true
-overview: 'MerQube publishes 9 APIs on the [APIs.io](https://apis.io/) network, including Helper API, Identifier API, and 7 more. Tagged areas include company, Financial-Services, index-data, Market Data, and capital-markets.
+overview: 'MerQube publishes 9 APIs on the [APIs.io](https://apis.io/) network, including Helper API, Identifier API, and 7 more. Tagged areas include Company, Financial-Services, Index Data, Market Data, and Capital Markets.
 
 
   MerQube''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, signup flow, FAQ, and 26 more developer resources.'
@@ -249,7 +249,7 @@ score:
     regime_id: securities_market_data
     score: 38.3
   schema_version: 0.17.2
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
   trend: flat
 security:
 - kind: authentication
@@ -262,16 +262,16 @@ security:
   summary_line: TLSv1.3 · HSTS
 slug: merqube
 tags:
-- company
+- Company
 - Financial-Services
-- index-data
+- Index Data
 - Market Data
-- capital-markets
+- Capital Markets
 - investment-strategies
-- asset-management
+- Asset Management
 - ETFs
-- structured-products
-- quantitative-finance
+- Structured Products
+- Quantitative Finance
 - OpenAPI
 website: https://merqube.com/
 ---

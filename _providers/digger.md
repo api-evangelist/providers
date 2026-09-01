@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 22.7
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
 api_count: 1
 apis:
 - description: REST API for OpenComputer — create and manage persistent cloud sandbox VMs, run commands and files inside them, checkpoint/fork, expose preview URLs, run durable agent sessions, and register signed we
@@ -167,7 +167,7 @@ score:
   provenance:
     conformance: first-party
   schema_version: 0.17.2
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/digger/refs/heads/main/screenshots/digger-2026-07-25T212000.png
 security:

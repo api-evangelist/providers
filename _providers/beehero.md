@@ -23,7 +23,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 26.1
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
 agentic_access:
 - acting_count: 12
   human_in_the_loop: 0
@@ -167,7 +167,7 @@ modified: '2026-08-02'
 name: BeeHero
 nav: Providers
 network: true
-overview: 'BeeHero publishes 4 APIs on the [APIs.io](https://apis.io/) network, including Audio API, Auth API, Gateways API, and 1 more. Tagged areas include Company, Agriculture, agtech, pollination, and beekeeping.
+overview: 'BeeHero publishes 4 APIs on the [APIs.io](https://apis.io/) network, including Audio API, Auth API, Gateways API, and 1 more. Tagged areas include Company, Agriculture, AgTech, Pollination, and beekeeping.
 
 
   BeeHero''s developer surface includes authentication, documentation, API reference, engineering blog, support, and 18 more developer resources.'
@@ -180,7 +180,7 @@ score:
     catalog_gap: 78.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.5
+  delta: 0.0
   facets:
     access_clarity: 27.6
     commercial_clarity: 27.6
@@ -190,7 +190,7 @@ score:
     discoverability: 75.9
     governance: 4.5
     operational_transparency: 0.0
-  previous_composite: 36.3
+  previous_composite: 35.8
   provenance:
     agentic_access: derived
     conformance: derived
@@ -202,7 +202,7 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.17.2
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/beehero/refs/heads/main/screenshots/beehero-2026-08-07T162253.png
 security:
@@ -218,13 +218,13 @@ slug: beehero
 tags:
 - Company
 - Agriculture
-- agtech
-- pollination
+- AgTech
+- Pollination
 - beekeeping
-- precision-agriculture
-- iot
-- sensors
-- environmental-data
+- Precision Agriculture
+- IoT
+- Sensors
+- Environmental Data
 - MCP
 - agent-native
 website: https://www.beehero.io/

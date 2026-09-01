@@ -23,7 +23,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.2
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -194,7 +194,7 @@ modified: '2026-08-05'
 name: Zazzle
 nav: Providers
 network: true
-overview: 'Zazzle publishes 3 APIs on the [APIs.io](https://apis.io/) network: Create a Product API, Real View API, and Vendor API. Tagged areas include Company, E-Commerce, Marketplace, Print On Demand, and Manufacturing.
+overview: 'Zazzle publishes 3 APIs on the [APIs.io](https://apis.io/) network: Create a Product API, Real View API, and Vendor API. Tagged areas include Company, E-Commerce, Marketplace, Print on Demand, and Manufacturing.
 
 
   Zazzle''s developer surface includes documentation, API reference, getting-started guide, support, signup flow, pricing, authentication, and 24 more developer resources.'
@@ -229,7 +229,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.17.2
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
   trend: flat
 security:
 - kind: authentication
@@ -249,7 +249,7 @@ tags:
 - Company
 - E-Commerce
 - Marketplace
-- Print On Demand
+- Print on Demand
 - Manufacturing
 - Retail
 - Affiliates

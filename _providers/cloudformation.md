@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 34.7
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
 agentic_access:
 - acting_count: 49
   human_in_the_loop: 1
@@ -766,7 +766,7 @@ modified: '2026-05-19'
 name: AWS CloudFormation
 nav: Providers
 network: true
-overview: 'AWS CloudFormation publishes 13 APIs on the [APIs.io](https://apis.io/) network, including Change Sets API, Exports API, Registry API, and 10 more. Tagged areas include Automation, Cloud Resources, IaC, Infrastructure As Code, and Stack Management.
+overview: 'AWS CloudFormation publishes 13 APIs on the [APIs.io](https://apis.io/) network, including Change Sets API, Exports API, Registry API, and 10 more. Tagged areas include Automation, Cloud Resources, IaC, Infrastructure as Code, and Stack Management.
 
 
   The AWS CloudFormation catalog on APIs.io includes 3 JSON-LD contexts and 2 Spectral governance rulesets.
@@ -812,7 +812,7 @@ score:
     catalog_gap: 59.5
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.6
+  delta: 0.0
   facets:
     access_clarity: 68.4
     commercial_clarity: 68.4
@@ -822,7 +822,7 @@ score:
     discoverability: 66.7
     governance: 28.8
     operational_transparency: 42.1
-  previous_composite: 63.5
+  previous_composite: 62.9
   provenance:
     agentic_access: derived
     contracts:
@@ -831,7 +831,7 @@ score:
       marker_coverage: 0.0
       total: 13
   schema_version: 0.17.2
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/cloudformation/refs/heads/main/screenshots/cloudformation-2026-06-20T174600.png
 security:
@@ -856,7 +856,7 @@ tags:
 - Automation
 - Cloud Resources
 - IaC
-- Infrastructure As Code
+- Infrastructure as Code
 - Stack Management
 use_cases:
 - description: Deploy consistent infrastructure across multiple AWS accounts with Stack Sets

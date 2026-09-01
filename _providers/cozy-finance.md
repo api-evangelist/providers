@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
 api_count: 0
 artifact_total: 1
 common:
@@ -104,7 +104,7 @@ modified: '2026-07-18'
 name: Cozy Finance
 nav: Providers
 network: true
-overview: 'Cozy Finance is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Defi, Risk Management, Smart Contracts, and Ethereum.
+overview: 'Cozy Finance is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, DeFi, Risk Management, Smart Contracts, and Ethereum.
 
 
   Cozy Finance''s developer surface includes documentation, getting-started guide, engineering blog, support, signup flow, and 10 more developer resources.'
@@ -135,7 +135,7 @@ score:
     regime_id: insurance
     score: 21.2
   schema_version: 0.17.2
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/cozy-finance/refs/heads/main/screenshots/cozy-finance-2026-07-25T210624.png
 security:
@@ -146,7 +146,7 @@ security:
 slug: cozy-finance
 tags:
 - Company
-- Defi
+- DeFi
 - Risk Management
 - Smart Contracts
 - Ethereum

@@ -23,7 +23,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 34.9
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
 api_count: 14
 apis:
 - description: HTTP API providing programmatic access to the filesystem of a Nasuni Edge Appliance — create, read, update and delete files and folders, list shares, and read previous versions. Requires Mobile Access
@@ -283,7 +283,7 @@ modified: '2026-08-26'
 name: Nasuni
 nav: Providers
 network: true
-overview: 'Nasuni publishes 29 APIs on the [APIs.io](https://apis.io/) network, including Data API, Account API, Account Management API, and 26 more. Tagged areas include company, file-storage, hybrid-cloud, object-storage, and enterprise-storage.
+overview: 'Nasuni publishes 29 APIs on the [APIs.io](https://apis.io/) network, including Data API, Account API, Account Management API, and 26 more. Tagged areas include Company, File Storage, Hybrid Cloud, Object Storage, and Enterprise Storage.
 
 
   The Nasuni catalog on APIs.io includes 1 event-driven AsyncAPI specification.
@@ -312,7 +312,7 @@ score:
     catalog_gap: 61.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -1.8
+  delta: 0.0
   facets:
     access_clarity: 84.2
     commercial_clarity: 84.2
@@ -322,7 +322,7 @@ score:
     discoverability: 63.0
     governance: 18.2
     operational_transparency: 57.9
-  previous_composite: 62.5
+  previous_composite: 60.7
   provenance:
     conformance: first-party
     contracts:
@@ -333,7 +333,7 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.17.2
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
   trend: flat
 security:
 - kind: authentication
@@ -354,16 +354,16 @@ security:
   summary_line: SOC 2 Type II, SOC 2 Type I, ISO 27001, HIPAA, CSA STAR
 slug: nasuni
 tags:
-- company
-- file-storage
-- hybrid-cloud
-- object-storage
-- enterprise-storage
-- data-management
-- backup-and-recovery
-- ransomware-protection
+- Company
+- File Storage
+- Hybrid Cloud
+- Object Storage
+- Enterprise Storage
+- Data Management
+- Backup and Recovery
+- Ransomware Protection
 - Infrastructure
-- observability
+- Observability
 - MCP
 - agent-native
 website: https://www.nasuni.com/

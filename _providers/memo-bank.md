@@ -23,7 +23,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 40.3
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
 api_count: 3
 apis:
 - description: 'Account assessments allow you to assess SEPA counterparty accounts before initiating transactions with them. An assessment provides: * **Risk indicators**: Detection of fraudulent activity, suspicious'
@@ -261,7 +261,7 @@ modified: '2026-08-17'
 name: Memo Bank
 nav: Providers
 network: true
-overview: 'Memo Bank publishes 15 APIs on the [APIs.io](https://apis.io/) network, including Account assessments API, Accounts API, AIS API, and 12 more. Tagged areas include Company, Fintech Insurtech, banking, business-banking, and Payments.
+overview: 'Memo Bank publishes 15 APIs on the [APIs.io](https://apis.io/) network, including Account assessments API, Accounts API, AIS API, and 12 more. Tagged areas include Company, Fintech Insurtech, Banking, Business Banking, and Payments.
 
 
   The Memo Bank catalog on APIs.io includes 1 event-driven AsyncAPI specification.
@@ -327,7 +327,7 @@ score:
     regime_id: banking_open_finance
     score: 87.3
   schema_version: 0.17.2
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
   trend: flat
 security:
 - kind: authentication
@@ -346,18 +346,18 @@ slug: memo-bank
 tags:
 - Company
 - Fintech Insurtech
-- banking
-- business-banking
+- Banking
+- Business Banking
 - Payments
-- sepa
-- sepa-direct-debit
+- SEPA
+- SEPA Direct Debit
 - virtual-iban
-- wire-transfers
-- open-banking
-- psd2
-- berlin-group
+- Wire Transfers
+- Open Banking
+- PSD2
+- Berlin Group
 - Webhook
 - MCP
-- france
+- France
 website: https://memo.bank/
 ---

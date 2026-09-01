@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 25.6
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
 agentic_access:
 - acting_count: 27
   human_in_the_loop: 1
@@ -627,7 +627,7 @@ modified: '2026-05-24'
 name: dLocal
 nav: Providers
 network: true
-overview: 'dLocal publishes 10 APIs on the [APIs.io](https://apis.io/) network, including Accounts API, Balance API, BankAccounts API, and 7 more. Tagged areas include Payments, Payouts, EmergingMarkets, LatAm, and Africa.
+overview: 'dLocal publishes 10 APIs on the [APIs.io](https://apis.io/) network, including Accounts API, Balance API, BankAccounts API, and 7 more. Tagged areas include Payments, Payouts, Emerging Markets, LatAm, and Africa.
 
 
   The dLocal catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
@@ -698,7 +698,7 @@ score:
     regime_id: payments
     score: 46.9
   schema_version: 0.17.2
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/d-local/refs/heads/main/screenshots/d-local-2026-06-20T175421.png
 security:
@@ -735,7 +735,7 @@ solutions:
 tags:
 - Payments
 - Payouts
-- EmergingMarkets
+- Emerging Markets
 - LatAm
 - Africa
 - Asia

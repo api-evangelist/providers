@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
 api_count: 0
 artifact_total: 1
 common:
@@ -68,7 +68,7 @@ modified: '2026-07-18'
 name: Course Hero
 nav: Providers
 network: true
-overview: 'Course Hero is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Edtech, Education, Learning, and Study Resources.
+overview: 'Course Hero is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, EdTech, Education, Learning, and Study Resources.
 
 
   Course Hero''s developer surface includes support and 5 more developer resources.'
@@ -99,7 +99,7 @@ score:
     regime_id: education
     score: 25.9
   schema_version: 0.17.2
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/course-hero/refs/heads/main/screenshots/course-hero-2026-07-25T210517.png
 security:
@@ -110,7 +110,7 @@ security:
 slug: course-hero
 tags:
 - Company
-- Edtech
+- EdTech
 - Education
 - Learning
 - Study Resources

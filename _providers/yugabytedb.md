@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 39.4
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
 agentic_access:
 - acting_count: 571
   human_in_the_loop: 33
@@ -1173,7 +1173,7 @@ modified: '2026-05-19'
 name: YugabyteDB
 nav: Providers
 network: true
-overview: 'YugabyteDB publishes 73 APIs on the [APIs.io](https://apis.io/) network, including Access Keys API, Accounts API, Alerts API, and 70 more. Tagged areas include Cloud Database, Database, DBaaS, Distributed SQL, and PostgreSQL.
+overview: 'YugabyteDB publishes 73 APIs on the [APIs.io](https://apis.io/) network, including Access Keys API, Accounts API, Alerts API, and 70 more. Tagged areas include Cloud Database, Database, Database-as-a-Service, Distributed SQL, and PostgreSQL.
 
 
   The YugabyteDB catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
@@ -1238,7 +1238,7 @@ score:
       marker_coverage: 100.0
       total: 73
   schema_version: 0.17.2
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/yugabytedb/refs/heads/main/screenshots/yugabytedb-2026-06-20T201754.png
 security:
@@ -1279,7 +1279,7 @@ solutions:
 tags:
 - Cloud Database
 - Database
-- DBaaS
+- Database-as-a-Service
 - Distributed SQL
 - PostgreSQL
 use_cases:

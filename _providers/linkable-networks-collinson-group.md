@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 2.5
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
 api_count: 1
 apis:
 - description: RESTful consumer API for building applications on top of the Linkable card-linked-offer platform. Per the provider developer page it exposes consumer registration, view and opt-out (consumerapi/consum
@@ -130,7 +130,7 @@ modified: '2026-07-19'
 name: Linkable Networks (Collinson Group)
 nav: Providers
 network: true
-overview: 'Linkable Networks (Collinson Group) publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Fintech, Card Linked Offers, Loyalty, and Payments.
+overview: 'Linkable Networks (Collinson Group) publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Fintech, Card-Linked Offers, Loyalty, and Payments.
 
 
   Linkable Networks (Collinson Group)''s developer surface includes documentation, support, engineering blog, authentication, and 15 more developer resources.'
@@ -164,7 +164,7 @@ score:
     regime_id: payments
     score: 32.8
   schema_version: 0.17.2
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/linkable-networks-collinson-group/refs/heads/main/screenshots/linkable-networks-collinson-group-2026-07-25T225253.png
 security:
@@ -180,7 +180,7 @@ slug: linkable-networks-collinson-group
 tags:
 - Company
 - Fintech
-- Card Linked Offers
+- Card-Linked Offers
 - Loyalty
 - Payments
 - Rewards

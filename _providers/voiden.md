@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 2.5
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
 api_count: 1
 apis:
 - description: 'Voiden is a desktop application (Electron/TypeScript) for API design, testing, and documentation using .void file format — plain Markdown with structured request blocks. Features reusable blocks with '
@@ -130,7 +130,7 @@ modified: '2026-05-03'
 name: Voiden
 nav: Providers
 network: true
-overview: 'Voiden publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include API Design, API Testing, API Documentation, Developer Tools, and Git Native.
+overview: 'Voiden publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include API Design, API Testing, API Documentation, Developer Tools, and Git-Native.
 
 
   The Voiden catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
@@ -180,7 +180,7 @@ score:
     score: 100.0
   previous_composite: 32.5
   schema_version: 0.17.2
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/voiden/refs/heads/main/screenshots/voiden-2026-06-20T201127.png
 security:
@@ -194,7 +194,7 @@ tags:
 - API Testing
 - API Documentation
 - Developer Tools
-- Git Native
+- Git-Native
 - Markdown
 website: https://voiden.md/
 ---

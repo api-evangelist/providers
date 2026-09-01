@@ -23,7 +23,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 29.5
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
 api_count: 1
 apis:
 - description: Relay-compliant GraphQL API for the Asset Register — a metadata ledger that defines what an asset is, what it can do, and which environments it works in, across chains and for off-chain assets. 29 que
@@ -177,7 +177,7 @@ modified: '2026-08-16'
 name: Futureverse
 nav: Providers
 network: true
-overview: 'Futureverse publishes 2 APIs on the [APIs.io](https://apis.io/) network: Campaigns API and Quests API. Tagged areas include Blockchain, Web3, metaverse, digital-assets, and nft.
+overview: 'Futureverse publishes 2 APIs on the [APIs.io](https://apis.io/) network: Campaigns API and Quests API. Tagged areas include Blockchain, Web3, Metaverse, Digital Assets, and NFT.
 
 
   The Futureverse catalog on APIs.io includes 1 event-driven AsyncAPI specification.
@@ -206,7 +206,7 @@ score:
     catalog_gap: 78.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.6
+  delta: 0.0
   facets:
     access_clarity: 0.0
     commercial_clarity: 0.0
@@ -216,7 +216,7 @@ score:
     discoverability: 75.9
     governance: 4.5
     operational_transparency: 23.7
-  previous_composite: 32.7
+  previous_composite: 32.1
   provenance:
     conformance: derived
     contracts:
@@ -227,7 +227,7 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.17.2
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/futureverse/refs/heads/main/screenshots/futureverse-2026-08-17T080945.png
 security:
@@ -243,14 +243,14 @@ slug: futureverse
 tags:
 - Blockchain
 - Web3
-- metaverse
-- digital-assets
-- nft
-- graphql
+- Metaverse
+- Digital Assets
+- NFT
+- GraphQL
 - Identity
-- openid-connect
+- OpenID Connect
 - asset-registry
-- layer-1
+- Layer 1
 - EVM
 - Gaming
 - agent-native

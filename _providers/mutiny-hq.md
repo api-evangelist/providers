@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 36.0
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
 api_count: 1
 apis:
 - description: Mutiny's hosted Model Context Protocol server and its only public programmatic entry point. It exposes the workspace's asset creation, template, content library and publishing capabilities to any MCP-
@@ -172,7 +172,7 @@ modified: '2026-08-13'
 name: Mutiny HQ
 nav: Providers
 network: true
-overview: 'Mutiny HQ publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, GTM, Sales Enablement, Marketing, and Website Personalization.
+overview: 'Mutiny HQ publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Go-To-Market, Sales Enablement, Marketing, and Website Personalization.
 
 
   Mutiny HQ''s developer surface includes documentation, engineering blog, pricing, signup flow, authentication, API reference, getting-started guide, and 22 more developer resources.'
@@ -213,7 +213,7 @@ score:
     conformance: first-party
     mcp: first-party
   schema_version: 0.17.2
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/mutiny-hq/refs/heads/main/screenshots/mutiny-hq-2026-08-07T184453.png
 security:
@@ -228,14 +228,14 @@ security:
 slug: mutiny-hq
 tags:
 - Company
-- GTM
+- Go-To-Market
 - Sales Enablement
 - Marketing
 - Website Personalization
 - Artificial Intelligence
 - Agents
 - MCP
-- ABM
+- Account Based Marketing
 - Content Generation
 website: https://www.mutinyhq.com/
 ---

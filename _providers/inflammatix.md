@@ -23,7 +23,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 23.8
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
 api_count: 17
 apis:
 - description: The Categories API from Inflammatix — 2 operation(s) for categories.
@@ -251,7 +251,7 @@ score:
     regime_id: health
     score: 37.5
   schema_version: 0.17.2
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/inflammatix/refs/heads/main/screenshots/inflammatix-2026-08-07T170701.png
 security:

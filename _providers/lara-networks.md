@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
 api_count: 0
 artifact_total: 1
 common:
@@ -57,7 +57,7 @@ modified: '2026-07-19'
 name: Lara Networks
 nav: Providers
 network: true
-overview: Lara Networks is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Semiconductor, Networking, Packet Processing, and Content Addressable Memory.
+overview: Lara Networks is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Semiconductors, Networking, Packet Processing, and Content Addressable Memory.
 random_paper: 10
 score:
   band: minimal
@@ -79,7 +79,7 @@ score:
     operational_transparency: 0.0
   previous_composite: 5.0
   schema_version: 0.17.2
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/lara-networks/refs/heads/main/screenshots/lara-networks-2026-07-25T224534.png
 security:
@@ -90,7 +90,7 @@ security:
 slug: lara-networks
 tags:
 - Company
-- Semiconductor
+- Semiconductors
 - Networking
 - Packet Processing
 - Content Addressable Memory

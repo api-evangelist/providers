@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 5.0
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
 api_count: 1
 apis:
 - description: The Product Hunt API provides programmatic access to Product Hunt's platform data via GraphQL. Developers can query and retrieve information about products, posts, topics, collections, users, votes, a
@@ -91,7 +91,7 @@ score:
     operational_transparency: 13.2
   previous_composite: 17.5
   schema_version: 0.17.2
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
   trend: flat
 security:
 - kind: domain-security

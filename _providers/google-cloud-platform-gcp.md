@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 24.8
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
 agentic_access:
 - acting_count: 4
   human_in_the_loop: 0
@@ -134,7 +134,7 @@ modified: '2026-04-28'
 name: Google Cloud Platform
 nav: Providers
 network: true
-overview: 'Google Cloud Platform publishes 1 API on the [APIs.io](https://apis.io/) network: Projects API. Tagged areas include Cloud Computing, Data Analytics, IaaS, Machine-Learning, and PaaS.
+overview: 'Google Cloud Platform publishes 1 API on the [APIs.io](https://apis.io/) network: Projects API. Tagged areas include Cloud Computing, Data Analytics, Infrastructure-as-a-Service, Machine-Learning, and Platform-as-a-Service.
 
 
   Google Cloud Platform''s developer surface includes authentication, support, getting-started guide, developer console, and 11 more developer resources.'
@@ -179,7 +179,7 @@ score:
       marker_coverage: 0.0
       total: 1
   schema_version: 0.17.2
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/google-cloud-platform-gcp/refs/heads/main/screenshots/google-cloud-platform-gcp-2026-06-20T182127.png
 security:
@@ -195,9 +195,9 @@ slug: google-cloud-platform-gcp
 tags:
 - Cloud Computing
 - Data Analytics
-- IaaS
+- Infrastructure-as-a-Service
 - Machine-Learning
-- PaaS
+- Platform-as-a-Service
 - Software-as-a-Service
 - Serverless
 website: https://cloud.google.com

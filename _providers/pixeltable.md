@@ -23,7 +23,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 20.7
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
 api_count: 3
 apis:
 - description: 'Read-only Model Context Protocol server served over HTTP at the Pixeltable apex host. Protocol version 2025-06-18, JSON-RPC 2.0 (initialize, tools/list, tools/call). Exposes two tools: search_docs, wh'
@@ -37,6 +37,10 @@ apis:
   slug: pixeltable-cloud-control-plane
 artifact_total: 9
 common:
+- group: commercial
+  title: ''
+  type: License
+  url: https://github.com/pixeltable/pixeltable/blob/main/LICENSE
 - group: company
   title: ''
   type: Website
@@ -201,7 +205,7 @@ network: true
 overview: 'Pixeltable publishes 3 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Ai Data, Multimodal AI, AI Data Infrastructure, and Vector Search.
 
 
-  Pixeltable''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 30 more developer resources.'
+  Pixeltable''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 31 more developer resources.'
 plans:
 - name: Pixeltable Plans Pricing
   plan_count: 4
@@ -235,7 +239,7 @@ score:
     mcp: first-party
     skills: first-party
   schema_version: 0.17.2
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
   trend: flat
 security:
 - kind: authentication

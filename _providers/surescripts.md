@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 7.9
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
 api_count: 8
 apis:
 - description: 'Publicly documented HL7 FHIR Release 4 API for retrieving medication history panels and near-real-time Prescription Notifications for enrolled patient populations. Panels and notifications are pulled '
@@ -181,7 +181,7 @@ modified: '2026-08-15'
 name: Surescripts
 nav: Providers
 network: true
-overview: 'Surescripts publishes 8 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Healthcare, E-Prescribing, Health Information Network, NCPDP SCRIPT, and Medication History.
+overview: 'Surescripts publishes 8 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Healthcare, e-Prescribing, Health Information Network, NCPDP SCRIPT, and Medication History.
 
 
   Surescripts'' developer surface includes documentation, API reference, getting-started guide, support, engineering blog, authentication, changelog, and 20 more developer resources.'
@@ -223,7 +223,7 @@ score:
     regime_id: health
     score: 45.0
   schema_version: 0.17.2
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
   trend: flat
 security:
 - kind: authentication
@@ -241,7 +241,7 @@ security:
 slug: surescripts
 tags:
 - Healthcare
-- E-Prescribing
+- e-Prescribing
 - Health Information Network
 - NCPDP SCRIPT
 - Medication History

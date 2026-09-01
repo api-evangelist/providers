@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 5.0
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
 api_count: 1
 apis:
 - description: UTPedia ("UTP Electronic and Digital Intellectual Asset") is the UTP institutional repository running EPrints 3.4.7. It exposes a public OAI-PMH 2.0 endpoint for harvesting bibliographic metadata of t
@@ -132,7 +132,7 @@ score:
     regime_id: education
     score: 31.5
   schema_version: 0.17.2
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/universiti-teknologi-petronas/refs/heads/main/screenshots/universiti-teknologi-petronas-2026-06-20T200138.png
 security:

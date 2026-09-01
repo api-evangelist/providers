@@ -23,7 +23,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 31.5
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
 api_count: 2
 apis:
 - description: The Authentications API from Bonjoro — 1 operation(s) for authentications.
@@ -274,7 +274,7 @@ modified: '2026-08-12'
 name: Bonjoro
 nav: Providers
 network: true
-overview: 'Bonjoro publishes 42 APIs on the [APIs.io](https://apis.io/) network, including Authentications API, Automation Accounts API, Automation Actions API, and 39 more. Tagged areas include video-messaging, Customer Engagement, customer-success, Sales Engagement, and marketing-automation.
+overview: 'Bonjoro publishes 42 APIs on the [APIs.io](https://apis.io/) network, including Authentications API, Automation Accounts API, Automation Actions API, and 39 more. Tagged areas include Video Messaging, Customer Engagement, Customer Success, Sales Engagement, and Marketing Automation.
 
 
   The Bonjoro catalog on APIs.io includes 1 event-driven AsyncAPI specification.
@@ -298,7 +298,7 @@ score:
     catalog_gap: 71.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -1.5
+  delta: 0.0
   facets:
     access_clarity: 76.3
     commercial_clarity: 76.3
@@ -308,7 +308,7 @@ score:
     discoverability: 51.9
     governance: 4.5
     operational_transparency: 28.9
-  previous_composite: 48.1
+  previous_composite: 46.6
   provenance:
     conformance: derived
     contracts:
@@ -319,7 +319,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.17.2
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/bonjoro/refs/heads/main/screenshots/bonjoro-2026-08-17T080658.png
 security:
@@ -333,15 +333,15 @@ security:
   summary_line: TLSv1.3 · DMARC
 slug: bonjoro
 tags:
-- video-messaging
+- Video Messaging
 - Customer Engagement
-- customer-success
+- Customer Success
 - Sales Engagement
-- marketing-automation
+- Marketing Automation
 - Video
-- crm-integration
-- testimonials
-- saas
-- australia
+- CRM Integration
+- Testimonials
+- Software-as-a-Service
+- Australia
 website: https://bonjoro.com/
 ---

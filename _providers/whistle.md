@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.8
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
 api_count: 1
 apis:
 - description: Whistle is a cross-platform HTTP, HTTPS, HTTP/2, WebSocket, and TCP debugging proxy tool. It lets developers intercept, inspect, and modify network traffic using a rule-based configuration system. Fea
@@ -164,7 +164,7 @@ score:
     operational_transparency: 10.5
   previous_composite: 26.4
   schema_version: 0.17.2
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/whistle/refs/heads/main/screenshots/whistle-2026-06-20T201441.png
 security:

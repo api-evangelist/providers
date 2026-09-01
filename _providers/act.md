@@ -36,7 +36,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 26.1
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
 api_count: 11
 apis:
 - description: 'JSON-based REST API for the Act! CRM database exposing contacts, companies, groups, opportunities, tasks, activity series, calendar, notes, history, documents, attachments, users, teams, preferences, '
@@ -304,7 +304,7 @@ modified: '2026-08-13'
 name: Act! CRM
 nav: Providers
 network: true
-overview: 'Act! CRM publishes 11 APIs on the [APIs.io](https://apis.io/) network, including Act! Web API, Activity Series API, Custom Entities API, and 8 more. Tagged areas include CRM, Customer Relationship Management, Marketing Automation, Contact Management, and Sales.
+overview: 'Act! CRM publishes 11 APIs on the [APIs.io](https://apis.io/) network, including Act! Web API, Activity Series API, Custom Entities API, and 8 more. Tagged areas include CRM, Marketing Automation, Contact Management, Sales, and Opportunity Management.
 
 
   The Act! CRM catalog on APIs.io includes 1 event-driven AsyncAPI specification.
@@ -349,7 +349,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.17.2
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/act/refs/heads/main/screenshots/act-2026-08-17T121405.png
 security:
@@ -372,7 +372,6 @@ security:
 slug: act
 tags:
 - CRM
-- Customer Relationship Management
 - Marketing Automation
 - Contact Management
 - Sales

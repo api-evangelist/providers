@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 5.4
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
 api_count: 1
 apis:
 - description: 'REST API for the Class virtual classroom platform. Manage classes, enrollments, schedules, templates, and non-learner users; generate per-user launch URLs; and pull attendance and activity reporting. '
@@ -129,7 +129,7 @@ modified: '2026-07-18'
 name: Class Technologies
 nav: Providers
 network: true
-overview: 'Class Technologies publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Edtech, Education, Virtual Classroom, and E-Learning.
+overview: 'Class Technologies publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, EdTech, Education, Virtual Classroom, and E-Learning.
 
 
   Class Technologies'' developer surface includes documentation, API reference, support, engineering blog, signup flow, authentication, and 13 more developer resources.'
@@ -167,7 +167,7 @@ score:
     regime_id: education
     score: 64.8
   schema_version: 0.17.2
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/class-technologies/refs/heads/main/screenshots/class-technologies-2026-07-25T205514.png
 security:
@@ -186,7 +186,7 @@ security:
 slug: class-technologies
 tags:
 - Company
-- Edtech
+- EdTech
 - Education
 - Virtual Classroom
 - E-Learning

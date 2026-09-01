@@ -23,7 +23,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 7.9
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
 api_count: 1
 apis:
 - description: Documented, versioned REST API (/api/v1/*) for checking IPs, retrieving blacklist feeds and report history, and submitting abuse reports. Uses X-Secret-Token header authentication with role-based rate
@@ -155,7 +155,7 @@ modified: '2026-08-19'
 name: SniffCat
 nav: Providers
 network: true
-overview: 'SniffCat publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Threat Intelligence, ip-reputation, abuse-database, Cybersecurity, and OSINT.
+overview: 'SniffCat publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Threat Intelligence, IP Reputation, abuse-database, Cybersecurity, and OSINT.
 
 
   SniffCat''s developer surface includes documentation, API reference, getting-started guide, support, signup flow, authentication, sandbox, and 22 more developer resources.'
@@ -191,7 +191,7 @@ score:
     conformance: derived
     mcp: derived
   schema_version: 0.17.2
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
   trend: flat
 security:
 - kind: authentication
@@ -209,16 +209,16 @@ security:
 slug: sniffcat
 tags:
 - Threat Intelligence
-- ip-reputation
+- IP Reputation
 - abuse-database
 - Cybersecurity
 - OSINT
-- network-security
+- Network Security
 - sysadmin-tools
 - Blocklist
 - abuse-reporting
 - ip-blocklist
-- ip-intelligence
-- threat-feeds
+- IP Intelligence
+- Threat Feeds
 website: https://sniffcat.com/documentation
 ---

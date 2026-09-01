@@ -23,7 +23,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 24.6
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
 api_count: 10
 apis:
 - description: Route, content-type, taxonomy and status discovery documents for the iECURE WordPress REST deployment. Ten namespaces and 351 routes are registered; only these discovery documents and the content coll
@@ -179,7 +179,7 @@ modified: '2026-08-22'
 name: iECURE
 nav: Providers
 network: true
-overview: 'iECURE publishes 10 APIs on the [APIs.io](https://apis.io/) network, including Discovery API, Posts API, Pages API, and 7 more. Tagged areas include Company, biotechnology, genetic-medicine, gene-editing, and gene-therapy.
+overview: 'iECURE publishes 10 APIs on the [APIs.io](https://apis.io/) network, including Discovery API, Posts API, Pages API, and 7 more. Tagged areas include Company, Biotechnology, Genetic Medicine, Gene Editing, and Gene Therapy.
 
 
   iECURE''s developer surface includes product news, support, authentication, and 25 more developer resources.'
@@ -227,7 +227,7 @@ score:
     regime_id: health
     score: 31.3
   schema_version: 0.17.2
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
   trend: flat
 security:
 - kind: authentication
@@ -241,14 +241,14 @@ security:
 slug: iecure
 tags:
 - Company
-- biotechnology
-- genetic-medicine
-- gene-editing
-- gene-therapy
-- rare-disease
-- clinical-trials
-- life-sciences
-- pharmaceuticals
+- Biotechnology
+- Genetic Medicine
+- Gene Editing
+- Gene Therapy
+- Rare Disease
+- Clinical Trials
+- Life Sciences
+- Pharmaceuticals
 - content-api
 website: https://iecure.com/
 ---

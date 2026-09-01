@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
 api_count: 0
 artifact_total: 1
 common:
@@ -76,7 +76,7 @@ modified: '2026-07-19'
 name: El-Dokan
 nav: Providers
 network: true
-overview: 'El-Dokan is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, E-Commerce, Headless Commerce, Composable Commerce, and RetailTech.
+overview: 'El-Dokan is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, E-Commerce, Headless Commerce, Composable Commerce, and Retail Tech.
 
 
   El-Dokan''s developer surface includes documentation, engineering blog, signup flow, support, and 4 more developer resources.'
@@ -101,7 +101,7 @@ score:
     operational_transparency: 0.0
   previous_composite: 15.0
   schema_version: 0.17.2
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/el-dokan/refs/heads/main/screenshots/el-dokan-2026-07-25T213043.png
 security:
@@ -115,7 +115,7 @@ tags:
 - E-Commerce
 - Headless Commerce
 - Composable Commerce
-- RetailTech
+- Retail Tech
 - API-First
 - Software-as-a-Service
 - Multi-Vendor Marketplace

@@ -23,7 +23,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 25.2
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
 api_count: 2
 apis:
 - description: The HTTP API of phoenixd, ACINQ's self-custodial Lightning server daemon. 27 documented endpoints covering Bolt11 invoices, Bolt12 offers, Lightning addresses, on-chain sends and swap-in, payment hist
@@ -38,6 +38,10 @@ asyncapis:
   name: Acinq Phoenixd Webhooks
   slug: acinq-phoenixd-webhooks
 common:
+- group: commercial
+  title: ''
+  type: License
+  url: https://github.com/ACINQ/phoenixd/blob/master/LICENSE
 - group: auth
   title: ''
   type: DomainSecurity
@@ -168,7 +172,7 @@ overview: 'Acinq publishes 2 APIs on the [APIs.io](https://apis.io/) network. Ta
   The Acinq catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  Acinq''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, changelog, and 22 more developer resources.'
+  Acinq''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, changelog, and 23 more developer resources.'
 plans:
 - name: Acinq Plans Pricing
   plan_count: 0
@@ -207,7 +211,7 @@ score:
     regime_id: payments
     score: 48.4
   schema_version: 0.17.2
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
   trend: flat
 security:
 - kind: authentication

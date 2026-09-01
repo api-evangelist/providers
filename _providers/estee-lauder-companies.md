@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
 api_count: 0
 artifact_total: 11
 common:
@@ -180,7 +180,7 @@ score:
     operational_transparency: 2.6
   previous_composite: 8.0
   schema_version: 0.17.2
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/estee-lauder-companies/refs/heads/main/screenshots/estee-lauder-companies-2026-06-20T180829.png
 security:
@@ -199,7 +199,7 @@ tags:
 - Makeup
 - Personal Care
 - Prestige Beauty
-- Skin Care
+- Skincare
 - Fortune 500
 website: https://www.elcompanies.com
 ---

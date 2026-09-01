@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 15.1
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
 api_count: 0
 artifact_total: 2
 common:
@@ -92,7 +92,7 @@ modified: '2026-07-21'
 name: Workrise
 nav: Providers
 network: true
-overview: 'Workrise is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Energy, Oil And Gas, Workforce Management, and Vendor Management.
+overview: 'Workrise is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Energy, Oil and Gas, Workforce Management, and Vendor Management.
 
 
   Workrise''s developer surface includes engineering blog, support, and 10 more developer resources.'
@@ -123,7 +123,7 @@ score:
     regime_id: energy_utilities
     score: 33.8
   schema_version: 0.17.2
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
   trend: flat
 security:
 - kind: domain-security
@@ -138,10 +138,10 @@ slug: workrise
 tags:
 - Company
 - Energy
-- Oil And Gas
+- Oil and Gas
 - Workforce Management
 - Vendor Management
 - Procurement
-- Source To Pay
+- Source-to-Pay
 website: https://www.rigup.com
 ---

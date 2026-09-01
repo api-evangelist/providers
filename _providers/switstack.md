@@ -23,7 +23,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 27.7
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
 agentic_access:
 - acting_count: 89
   human_in_the_loop: 2
@@ -271,7 +271,7 @@ score:
     regime_id: payments
     score: 42.2
   schema_version: 0.17.2
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
   trend: flat
 security:
 - kind: authentication
@@ -289,15 +289,15 @@ tags:
 - Payments
 - EMV
 - emv-level-2
-- card-present
-- point-of-sale
-- softpos
-- tap-to-pay
-- payment-terminals
-- in-store-payments
+- Card Present
+- Point-of-Sale
+- SoftPOS
+- Tap to Pay
+- Payment Terminals
+- In-Store Payments
 - pci-mpoc
 - certification-testing
-- retail-payments
+- Retail Payments
 - estate-management
 website: https://www.switstack.io/
 ---

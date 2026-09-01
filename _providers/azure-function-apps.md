@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 28.3
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
 agentic_access:
 - acting_count: 26
   human_in_the_loop: 0
@@ -315,7 +315,7 @@ modified: '2026-05-19'
 name: Azure Function Apps
 nav: Providers
 network: true
-overview: 'Azure Function Apps publishes 1 API on the [APIs.io](https://apis.io/) network: WebApps API. Tagged areas include Azure, Compute, FaaS, Functions, and Serverless.
+overview: 'Azure Function Apps publishes 1 API on the [APIs.io](https://apis.io/) network: WebApps API. Tagged areas include Azure, Compute, Function-as-a-Service, Functions, and Serverless.
 
 
   The Azure Function Apps catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
@@ -380,7 +380,7 @@ score:
       marker_coverage: 0.0
       total: 1
   schema_version: 0.17.2
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/azure-function-apps/refs/heads/main/screenshots/azure-function-apps-2026-06-20T172854.png
 security:
@@ -392,7 +392,7 @@ slug: azure-function-apps
 tags:
 - Azure
 - Compute
-- FaaS
+- Function-as-a-Service
 - Functions
 - Serverless
 website: https://portal.azure.com

@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
 api_count: 0
 artifact_total: 0
 common:
@@ -84,7 +84,7 @@ score:
       reason: never_enriched
   previous_composite: 5.0
   schema_version: 0.17.2
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/graft/refs/heads/main/screenshots/graft-2026-07-25T220206.png
 slug: graft
@@ -94,7 +94,7 @@ tags:
 - Machine-Learning
 - Foundation Models
 - LLM
-- Multimodal
+- Multi-Modal
 - Enterprise AI
 - Acquired
 website: https://graft.com

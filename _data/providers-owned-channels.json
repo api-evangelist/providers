@@ -29,7 +29,7 @@
       "commercial_clarity": 93.4,
       "access_clarity": 93.4
      },
-     "scored_at": "2026-08-30",
+     "scored_at": "2026-09-01",
      "schema_version": "0.17.2",
      "regulatory": {
       "applies": true,
@@ -82,7 +82,7 @@
       "commercial_clarity": 93.4,
       "access_clarity": 93.4
      },
-     "scored_at": "2026-08-30",
+     "scored_at": "2026-09-01",
      "schema_version": "0.17.2",
      "regulatory": {
       "applies": true,
@@ -135,7 +135,7 @@
       "commercial_clarity": 100.0,
       "access_clarity": 100.0
      },
-     "scored_at": "2026-08-30",
+     "scored_at": "2026-09-01",
      "schema_version": "0.17.2",
      "regulatory": {
       "applies": true,
@@ -188,7 +188,7 @@
       "commercial_clarity": 89.5,
       "access_clarity": 89.5
      },
-     "scored_at": "2026-08-30",
+     "scored_at": "2026-09-01",
      "schema_version": "0.17.2",
      "regulatory": {
       "applies": true,
@@ -240,7 +240,7 @@
       "commercial_clarity": 100.0,
       "access_clarity": 100.0
      },
-     "scored_at": "2026-08-30",
+     "scored_at": "2026-09-01",
      "schema_version": "0.17.2",
      "agent_score": 52.2,
      "agent_band": "agent-ready",
@@ -286,7 +286,7 @@
       "commercial_clarity": 100.0,
       "access_clarity": 100.0
      },
-     "scored_at": "2026-08-30",
+     "scored_at": "2026-09-01",
      "schema_version": "0.17.2",
      "regulatory": {
       "applies": true,
@@ -338,7 +338,7 @@
       "commercial_clarity": 100.0,
       "access_clarity": 100.0
      },
-     "scored_at": "2026-08-30",
+     "scored_at": "2026-09-01",
      "schema_version": "0.17.2",
      "regulatory": {
       "applies": true,
@@ -391,7 +391,7 @@
       "commercial_clarity": 76.3,
       "access_clarity": 76.3
      },
-     "scored_at": "2026-08-30",
+     "scored_at": "2026-09-01",
      "schema_version": "0.17.2",
      "regulatory": {
       "applies": true,
@@ -427,15 +427,265 @@
      "rank": 8
     },
     {
+     "name": "Amazon SES",
+     "slug": "amazon-ses",
+     "description": "Amazon Simple Email Service (SES) is AWS's cloud email platform for sending and receiving mail at scale — marketing, notification and transactional. The current contract is the SES v2 API (version 2019-09-27), an 86-operation REST-JSON service authenticated with AWS Signature Version 4 and reached at a regional endpoint, alongside an SMTP submission interface on ports 25/465/587/2465/2587. It covers email sending and templated bulk sends, domain and address identity verification with DKIM, SPF and DMARC alignment, configuration sets and event publishing to SNS, EventBridge, CloudWatch and Firehose, contact lists and subscription topics, account and configuration-set suppression lists, dedicated IP pools both managed and standard, tenants for per-workload reputation isolation, and Virtual Deliverability Manager for inbox placement and reputation reporting. Mail Manager adds inbound processing with ingress points, traffic policies, rule sets, relays and archives. Every new account starts in the SES sandbox, and a published mailbox simulator forces delivery, bounce, complaint and out-of-office outcomes on demand.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/amazon-ses/refs/heads/main/screenshots/amazon-ses-2026-06-20T171820.png",
+     "score": 76.2,
+     "band": "exemplar",
+     "band_label": "Exemplar",
+     "facets": {
+      "discoverability": 57.4,
+      "contract_quality": 63.0,
+      "governance": 47.0,
+      "contract_governance": 47.0,
+      "operational_transparency": 84.2,
+      "developer_ergonomics": 90.5,
+      "commercial_clarity": 100.0,
+      "access_clarity": 100.0
+     },
+     "scored_at": "2026-09-01",
+     "schema_version": "0.17.2",
+     "agent_score": 39.4,
+     "agent_band": "agent-ready",
+     "agent_dims": {
+      "spec_presence": true,
+      "agentic_access": "derived",
+      "reversibility_documented": false,
+      "mcp_server": "documented",
+      "auth_clarity": "bearer",
+      "idempotency": false,
+      "error_semantics": "verified",
+      "openapi_examples": "partial",
+      "rate_limit_signal": "documented",
+      "event_surface_described": true,
+      "agent_skills": true,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
+     "rank": 9
+    },
+    {
+     "name": "MailerLite",
+     "slug": "mailerlite",
+     "description": "MailerLite is an email marketing and automation platform used by creators, e-commerce sellers and small businesses to build lists, send campaigns and run behavioural automations. The current REST API at connect.mailerlite.com exposes subscribers, groups, segments, custom fields, campaigns, automations, forms, webhooks, batching, and a full e-commerce surface (shops, products, categories, customers, orders, carts) that drives abandoned-cart and post-purchase automations. Authentication is a bearer API key minted in the dashboard; responses are cursor-paginated and the API version can be pinned with an X-Version date header. Alongside the REST API, MailerLite ships six official SDKs, a first-party Go CLI with an interactive TUI, a published Agent Skill, and a hosted OAuth-protected MCP server at mcp.mailerlite.com exposing roughly 76 tools to AI assistants. A legacy Classic API v2 still serves older accounts.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/mailerlite/refs/heads/main/screenshots/mailerlite-2026-06-20T184854.png",
+     "score": 76.0,
+     "band": "exemplar",
+     "band_label": "Exemplar",
+     "facets": {
+      "discoverability": 75.9,
+      "contract_quality": 60.6,
+      "governance": 29.5,
+      "contract_governance": 29.5,
+      "operational_transparency": 57.9,
+      "developer_ergonomics": 88.1,
+      "commercial_clarity": 100.0,
+      "access_clarity": 100.0
+     },
+     "scored_at": "2026-09-01",
+     "schema_version": "0.17.2",
+     "regulatory": {
+      "applies": true,
+      "regime": "Telecommunications",
+      "regime_id": "telecommunications",
+      "score": 59.7,
+      "matched_via": "tags",
+      "jurisdictions_satisfied": 1,
+      "jurisdictions": [
+       {
+        "standard": "gdpr",
+        "jurisdiction": "EU"
+       }
+      ]
+     },
+     "agent_score": 49.1,
+     "agent_band": "agent-ready",
+     "agent_dims": {
+      "spec_presence": true,
+      "agentic_access": "derived",
+      "reversibility_documented": false,
+      "mcp_server": "documented",
+      "auth_clarity": "served",
+      "idempotency": false,
+      "error_semantics": "documented",
+      "openapi_examples": false,
+      "rate_limit_signal": "documented",
+      "event_surface_described": "derived",
+      "agent_skills": true,
+      "well_known_catalog": false,
+      "consent_identity": true,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": "served",
+      "protected_resource_metadata": "verified",
+      "dynamic_client_registration": true,
+      "agentic_commerce": false
+     },
+     "tier": "Sold to the advertiser (buy side)",
+     "rank": 10
+    },
+    {
+     "name": "SendGrid",
+     "slug": "sendgrid",
+     "description": "SendGrid is a cloud-based email delivery platform, acquired by Twilio in 2019, that provides transactional and marketing email at scale over an HTTP v3 REST API and an SMTP relay. The platform spans Mail Send, dynamic transactional templates, Marketing Campaigns (contacts, lists, Segments 2.0, Single Sends), email address validation, suppression management, domain authentication (SPF/DKIM/DMARC), dedicated IP management and warm-up, subusers, Engagement Quality scoring, and detailed delivery statistics. Event data is delivered asynchronously through the Event Webhook and inbound mail through Inbound Parse. All APIs authenticate with a scoped bearer API key against api.sendgrid.com, with an EU data-residency host at api.eu.sendgrid.com. Developer documentation and the API reference are published on the Twilio documentation site.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/sendgrid/refs/heads/main/screenshots/sendgrid-2026-06-20T193652.png",
+     "score": 75.5,
+     "band": "exemplar",
+     "band_label": "Exemplar",
+     "facets": {
+      "discoverability": 75.9,
+      "contract_quality": 71.7,
+      "governance": 29.5,
+      "contract_governance": 29.5,
+      "operational_transparency": 60.5,
+      "developer_ergonomics": 92.9,
+      "commercial_clarity": 100.0,
+      "access_clarity": 100.0
+     },
+     "scored_at": "2026-09-01",
+     "schema_version": "0.17.2",
+     "agent_score": 41.2,
+     "agent_band": "agent-ready",
+     "agent_dims": {
+      "spec_presence": true,
+      "agentic_access": "derived",
+      "reversibility_documented": false,
+      "mcp_server": "documented",
+      "auth_clarity": "bearer",
+      "idempotency": false,
+      "error_semantics": "verified",
+      "openapi_examples": "verified",
+      "rate_limit_signal": "verified",
+      "event_surface_described": "derived",
+      "agent_skills": true,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
+     "tier": "Sold to the advertiser (buy side)",
+     "rank": 11
+    },
+    {
+     "name": "Ghost",
+     "slug": "ghost-org",
+     "description": "Ghost is an open-source (MIT) publishing platform for professional publications, newsletters, memberships, and paid subscriptions. It can be self-hosted for free or run as the managed Ghost(Pro) service, with all Ghost(Pro) revenue funding the non-profit Ghost Foundation. Every Ghost site exposes two documented public REST APIs under https://{site}/ghost/api/. The Content API is a read-only, key-authenticated interface for delivering published posts, pages, tags, authors, tiers, and settings to front-ends and static sites. The Admin API is a read-write, token-authenticated (JWT) interface for managing posts, pages, members, tags, tiers, offers, newsletters, users, media, themes, and webhooks.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/ghost-org/refs/heads/main/screenshots/ghost-org-2026-07-25T215752.png",
+     "score": 75.1,
+     "band": "exemplar",
+     "band_label": "Exemplar",
+     "facets": {
+      "discoverability": 57.4,
+      "contract_quality": 69.0,
+      "governance": 31.8,
+      "contract_governance": 31.8,
+      "operational_transparency": 81.6,
+      "developer_ergonomics": 90.5,
+      "commercial_clarity": 84.2,
+      "access_clarity": 84.2
+     },
+     "scored_at": "2026-09-01",
+     "schema_version": "0.17.2",
+     "agent_score": 30.8,
+     "agent_band": "agent-ready",
+     "agent_dims": {
+      "spec_presence": true,
+      "agentic_access": "derived",
+      "reversibility_documented": false,
+      "mcp_server": "documented",
+      "auth_clarity": "bearer",
+      "idempotency": false,
+      "error_semantics": "documented",
+      "openapi_examples": false,
+      "rate_limit_signal": "documented",
+      "event_surface_described": "derived",
+      "agent_skills": true,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
+     "tier": "Sold to the publisher (sell side)",
+     "rank": 12
+    },
+    {
+     "name": "OneSignal",
+     "slug": "onesignal",
+     "description": "OneSignal is a lifecycle customer engagement platform for mobile push, web push, email, SMS/RCS, in-app messaging and iOS Live Activities, orchestrated through Journeys, segments and a single REST API at api.onesignal.com. It reports 1.3 trillion messages a year across 200k apps and 1.5 billion monthly active users. The developer surface is a published OpenAPI 3.1 contract, a full set of first-party server and client SDKs, a hosted OAuth-authenticated MCP server, an A2A agent card and six provider-published Agent Skills.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/onesignal/refs/heads/main/screenshots/onesignal-2026-06-20T190717.png",
+     "score": 74.8,
+     "band": "exemplar",
+     "band_label": "Exemplar",
+     "facets": {
+      "discoverability": 75.9,
+      "contract_quality": 73.0,
+      "governance": 4.5,
+      "contract_governance": 4.5,
+      "operational_transparency": 84.2,
+      "developer_ergonomics": 78.6,
+      "commercial_clarity": 93.4,
+      "access_clarity": 93.4
+     },
+     "scored_at": "2026-09-01",
+     "schema_version": "0.17.2",
+     "regulatory": {
+      "applies": true,
+      "regime": "Telecommunications",
+      "regime_id": "telecommunications",
+      "score": 50.0,
+      "matched_via": "tags"
+     },
+     "agent_score": 65.3,
+     "agent_band": "agent-native",
+     "agent_dims": {
+      "spec_presence": true,
+      "agentic_access": false,
+      "reversibility_documented": false,
+      "mcp_server": "documented",
+      "auth_clarity": "served",
+      "idempotency": "verified",
+      "error_semantics": "verified",
+      "openapi_examples": "verified",
+      "rate_limit_signal": "verified",
+      "event_surface_described": true,
+      "agent_skills": true,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": "served",
+      "protected_resource_metadata": "verified",
+      "dynamic_client_registration": true,
+      "agentic_commerce": false
+     },
+     "tier": "Sold to the advertiser (buy side)",
+     "rank": 13
+    },
+    {
      "name": "Listrak",
      "slug": "listrak",
      "description": "Listrak is a retail customer-engagement platform whose public API surface is eight separate REST APIs served from api.listrak.com: Email (83 operations), SMS (20), Data Import (5), Media (9), Mobile App Push (5), Two-Way SMS (4), Cross Channel custom events (3) and Privacy (2). Together they cover contacts and lists, message authoring and transactional sends, profile-field segmentation, behavioral events that drive Journey Hub automations, bulk upsert of retail customers, orders, products and reviews, media library management, mobile device registration, two-way SMS support conversations, and GDPR/CCPA forget requests. Every server-side API authenticates with OAuth 2.0 client_credentials against a single token endpoint at auth.listrak.com, returns a consistent {status, error, message} envelope drawn from a published 68-code error registry, and pages with cursor plus count.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/listrak/refs/heads/main/screenshots/listrak-2026-06-20T184559.png",
-     "score": 76.5,
+     "score": 74.7,
      "band": "exemplar",
      "band_label": "Exemplar",
      "facets": {
-      "discoverability": 68.5,
+      "discoverability": 50.0,
       "contract_quality": 74.6,
       "governance": 29.5,
       "contract_governance": 29.5,
@@ -444,7 +694,7 @@
       "commercial_clarity": 89.5,
       "access_clarity": 89.5
      },
-     "scored_at": "2026-08-30",
+     "scored_at": "2026-09-01",
      "schema_version": "0.17.2",
      "regulatory": {
       "applies": true,
@@ -488,256 +738,6 @@
       "agentic_commerce": false
      },
      "tier": "Sold to both sides",
-     "rank": 9
-    },
-    {
-     "name": "Amazon SES",
-     "slug": "amazon-ses",
-     "description": "Amazon Simple Email Service (SES) is AWS's cloud email platform for sending and receiving mail at scale — marketing, notification and transactional. The current contract is the SES v2 API (version 2019-09-27), an 86-operation REST-JSON service authenticated with AWS Signature Version 4 and reached at a regional endpoint, alongside an SMTP submission interface on ports 25/465/587/2465/2587. It covers email sending and templated bulk sends, domain and address identity verification with DKIM, SPF and DMARC alignment, configuration sets and event publishing to SNS, EventBridge, CloudWatch and Firehose, contact lists and subscription topics, account and configuration-set suppression lists, dedicated IP pools both managed and standard, tenants for per-workload reputation isolation, and Virtual Deliverability Manager for inbox placement and reputation reporting. Mail Manager adds inbound processing with ingress points, traffic policies, rule sets, relays and archives. Every new account starts in the SES sandbox, and a published mailbox simulator forces delivery, bounce, complaint and out-of-office outcomes on demand.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/amazon-ses/refs/heads/main/screenshots/amazon-ses-2026-06-20T171820.png",
-     "score": 76.2,
-     "band": "exemplar",
-     "band_label": "Exemplar",
-     "facets": {
-      "discoverability": 57.4,
-      "contract_quality": 63.0,
-      "governance": 47.0,
-      "contract_governance": 47.0,
-      "operational_transparency": 84.2,
-      "developer_ergonomics": 90.5,
-      "commercial_clarity": 100.0,
-      "access_clarity": 100.0
-     },
-     "scored_at": "2026-08-30",
-     "schema_version": "0.17.2",
-     "agent_score": 39.4,
-     "agent_band": "agent-ready",
-     "agent_dims": {
-      "spec_presence": true,
-      "agentic_access": "derived",
-      "reversibility_documented": false,
-      "mcp_server": "documented",
-      "auth_clarity": "bearer",
-      "idempotency": false,
-      "error_semantics": "verified",
-      "openapi_examples": "partial",
-      "rate_limit_signal": "documented",
-      "event_surface_described": true,
-      "agent_skills": true,
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false,
-      "delegated_identity": false,
-      "protected_resource_metadata": false,
-      "dynamic_client_registration": false,
-      "agentic_commerce": false
-     },
-     "rank": 10
-    },
-    {
-     "name": "MailerLite",
-     "slug": "mailerlite",
-     "description": "MailerLite is an email marketing and automation platform used by creators, e-commerce sellers and small businesses to build lists, send campaigns and run behavioural automations. The current REST API at connect.mailerlite.com exposes subscribers, groups, segments, custom fields, campaigns, automations, forms, webhooks, batching, and a full e-commerce surface (shops, products, categories, customers, orders, carts) that drives abandoned-cart and post-purchase automations. Authentication is a bearer API key minted in the dashboard; responses are cursor-paginated and the API version can be pinned with an X-Version date header. Alongside the REST API, MailerLite ships six official SDKs, a first-party Go CLI with an interactive TUI, a published Agent Skill, and a hosted OAuth-protected MCP server at mcp.mailerlite.com exposing roughly 76 tools to AI assistants. A legacy Classic API v2 still serves older accounts.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/mailerlite/refs/heads/main/screenshots/mailerlite-2026-06-20T184854.png",
-     "score": 76.0,
-     "band": "exemplar",
-     "band_label": "Exemplar",
-     "facets": {
-      "discoverability": 75.9,
-      "contract_quality": 60.6,
-      "governance": 29.5,
-      "contract_governance": 29.5,
-      "operational_transparency": 57.9,
-      "developer_ergonomics": 88.1,
-      "commercial_clarity": 100.0,
-      "access_clarity": 100.0
-     },
-     "scored_at": "2026-08-30",
-     "schema_version": "0.17.2",
-     "regulatory": {
-      "applies": true,
-      "regime": "Telecommunications",
-      "regime_id": "telecommunications",
-      "score": 59.7,
-      "matched_via": "tags",
-      "jurisdictions_satisfied": 1,
-      "jurisdictions": [
-       {
-        "standard": "gdpr",
-        "jurisdiction": "EU"
-       }
-      ]
-     },
-     "agent_score": 49.1,
-     "agent_band": "agent-ready",
-     "agent_dims": {
-      "spec_presence": true,
-      "agentic_access": "derived",
-      "reversibility_documented": false,
-      "mcp_server": "documented",
-      "auth_clarity": "served",
-      "idempotency": false,
-      "error_semantics": "documented",
-      "openapi_examples": false,
-      "rate_limit_signal": "documented",
-      "event_surface_described": "derived",
-      "agent_skills": true,
-      "well_known_catalog": false,
-      "consent_identity": true,
-      "agent_card": false,
-      "dry_run_mode": false,
-      "delegated_identity": "served",
-      "protected_resource_metadata": "verified",
-      "dynamic_client_registration": true,
-      "agentic_commerce": false
-     },
-     "tier": "Sold to the advertiser (buy side)",
-     "rank": 11
-    },
-    {
-     "name": "SendGrid",
-     "slug": "sendgrid",
-     "description": "SendGrid is a cloud-based email delivery platform, acquired by Twilio in 2019, that provides transactional and marketing email at scale over an HTTP v3 REST API and an SMTP relay. The platform spans Mail Send, dynamic transactional templates, Marketing Campaigns (contacts, lists, Segments 2.0, Single Sends), email address validation, suppression management, domain authentication (SPF/DKIM/DMARC), dedicated IP management and warm-up, subusers, Engagement Quality scoring, and detailed delivery statistics. Event data is delivered asynchronously through the Event Webhook and inbound mail through Inbound Parse. All APIs authenticate with a scoped bearer API key against api.sendgrid.com, with an EU data-residency host at api.eu.sendgrid.com. Developer documentation and the API reference are published on the Twilio documentation site.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/sendgrid/refs/heads/main/screenshots/sendgrid-2026-06-20T193652.png",
-     "score": 75.5,
-     "band": "exemplar",
-     "band_label": "Exemplar",
-     "facets": {
-      "discoverability": 75.9,
-      "contract_quality": 71.7,
-      "governance": 29.5,
-      "contract_governance": 29.5,
-      "operational_transparency": 60.5,
-      "developer_ergonomics": 92.9,
-      "commercial_clarity": 100.0,
-      "access_clarity": 100.0
-     },
-     "scored_at": "2026-08-30",
-     "schema_version": "0.17.2",
-     "agent_score": 41.2,
-     "agent_band": "agent-ready",
-     "agent_dims": {
-      "spec_presence": true,
-      "agentic_access": "derived",
-      "reversibility_documented": false,
-      "mcp_server": "documented",
-      "auth_clarity": "bearer",
-      "idempotency": false,
-      "error_semantics": "verified",
-      "openapi_examples": "verified",
-      "rate_limit_signal": "verified",
-      "event_surface_described": "derived",
-      "agent_skills": true,
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false,
-      "delegated_identity": false,
-      "protected_resource_metadata": false,
-      "dynamic_client_registration": false,
-      "agentic_commerce": false
-     },
-     "tier": "Sold to the advertiser (buy side)",
-     "rank": 12
-    },
-    {
-     "name": "Ghost",
-     "slug": "ghost-org",
-     "description": "Ghost is an open-source (MIT) publishing platform for professional publications, newsletters, memberships, and paid subscriptions. It can be self-hosted for free or run as the managed Ghost(Pro) service, with all Ghost(Pro) revenue funding the non-profit Ghost Foundation. Every Ghost site exposes two documented public REST APIs under https://{site}/ghost/api/. The Content API is a read-only, key-authenticated interface for delivering published posts, pages, tags, authors, tiers, and settings to front-ends and static sites. The Admin API is a read-write, token-authenticated (JWT) interface for managing posts, pages, members, tags, tiers, offers, newsletters, users, media, themes, and webhooks.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/ghost-org/refs/heads/main/screenshots/ghost-org-2026-07-25T215752.png",
-     "score": 75.1,
-     "band": "exemplar",
-     "band_label": "Exemplar",
-     "facets": {
-      "discoverability": 57.4,
-      "contract_quality": 69.0,
-      "governance": 31.8,
-      "contract_governance": 31.8,
-      "operational_transparency": 81.6,
-      "developer_ergonomics": 90.5,
-      "commercial_clarity": 84.2,
-      "access_clarity": 84.2
-     },
-     "scored_at": "2026-08-30",
-     "schema_version": "0.17.2",
-     "agent_score": 30.8,
-     "agent_band": "agent-ready",
-     "agent_dims": {
-      "spec_presence": true,
-      "agentic_access": "derived",
-      "reversibility_documented": false,
-      "mcp_server": "documented",
-      "auth_clarity": "bearer",
-      "idempotency": false,
-      "error_semantics": "documented",
-      "openapi_examples": false,
-      "rate_limit_signal": "documented",
-      "event_surface_described": "derived",
-      "agent_skills": true,
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false,
-      "delegated_identity": false,
-      "protected_resource_metadata": false,
-      "dynamic_client_registration": false,
-      "agentic_commerce": false
-     },
-     "tier": "Sold to the publisher (sell side)",
-     "rank": 13
-    },
-    {
-     "name": "OneSignal",
-     "slug": "onesignal",
-     "description": "OneSignal is a lifecycle customer engagement platform for mobile push, web push, email, SMS/RCS, in-app messaging and iOS Live Activities, orchestrated through Journeys, segments and a single REST API at api.onesignal.com. It reports 1.3 trillion messages a year across 200k apps and 1.5 billion monthly active users. The developer surface is a published OpenAPI 3.1 contract, a full set of first-party server and client SDKs, a hosted OAuth-authenticated MCP server, an A2A agent card and six provider-published Agent Skills.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/onesignal/refs/heads/main/screenshots/onesignal-2026-06-20T190717.png",
-     "score": 74.8,
-     "band": "exemplar",
-     "band_label": "Exemplar",
-     "facets": {
-      "discoverability": 75.9,
-      "contract_quality": 73.0,
-      "governance": 4.5,
-      "contract_governance": 4.5,
-      "operational_transparency": 84.2,
-      "developer_ergonomics": 78.6,
-      "commercial_clarity": 93.4,
-      "access_clarity": 93.4
-     },
-     "scored_at": "2026-08-30",
-     "schema_version": "0.17.2",
-     "regulatory": {
-      "applies": true,
-      "regime": "Telecommunications",
-      "regime_id": "telecommunications",
-      "score": 50.0,
-      "matched_via": "tags"
-     },
-     "agent_score": 65.3,
-     "agent_band": "agent-native",
-     "agent_dims": {
-      "spec_presence": true,
-      "agentic_access": false,
-      "reversibility_documented": false,
-      "mcp_server": "documented",
-      "auth_clarity": "served",
-      "idempotency": "verified",
-      "error_semantics": "verified",
-      "openapi_examples": "verified",
-      "rate_limit_signal": "verified",
-      "event_surface_described": true,
-      "agent_skills": true,
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false,
-      "delegated_identity": "served",
-      "protected_resource_metadata": "verified",
-      "dynamic_client_registration": true,
-      "agentic_commerce": false
-     },
-     "tier": "Sold to the advertiser (buy side)",
      "rank": 14
     },
     {
@@ -758,7 +758,7 @@
       "commercial_clarity": 81.6,
       "access_clarity": 81.6
      },
-     "scored_at": "2026-08-30",
+     "scored_at": "2026-09-01",
      "schema_version": "0.17.2",
      "regulatory": {
       "applies": true,
@@ -821,7 +821,7 @@
       "commercial_clarity": 84.2,
       "access_clarity": 84.2
      },
-     "scored_at": "2026-08-30",
+     "scored_at": "2026-09-01",
      "schema_version": "0.17.2",
      "regulatory": {
       "applies": true,
@@ -874,7 +874,7 @@
       "commercial_clarity": 92.1,
       "access_clarity": 92.1
      },
-     "scored_at": "2026-08-30",
+     "scored_at": "2026-09-01",
      "schema_version": "0.17.2",
      "regulatory": {
       "applies": true,
@@ -927,7 +927,7 @@
       "commercial_clarity": 89.5,
       "access_clarity": 89.5
      },
-     "scored_at": "2026-08-30",
+     "scored_at": "2026-09-01",
      "schema_version": "0.17.2",
      "regulatory": {
       "applies": true,
@@ -991,7 +991,7 @@
       "commercial_clarity": 100.0,
       "access_clarity": 100.0
      },
-     "scored_at": "2026-08-30",
+     "scored_at": "2026-09-01",
      "schema_version": "0.17.2",
      "regulatory": {
       "applies": true,
@@ -1050,7 +1050,7 @@
       "commercial_clarity": 92.1,
       "access_clarity": 92.1
      },
-     "scored_at": "2026-08-30",
+     "scored_at": "2026-09-01",
      "schema_version": "0.17.2",
      "regulatory": {
       "applies": true,
@@ -1114,7 +1114,7 @@
       "commercial_clarity": 65.8,
       "access_clarity": 65.8
      },
-     "scored_at": "2026-08-30",
+     "scored_at": "2026-09-01",
      "schema_version": "0.17.2",
      "regulatory": {
       "applies": true,
@@ -1167,7 +1167,7 @@
       "commercial_clarity": 100.0,
       "access_clarity": 100.0
      },
-     "scored_at": "2026-08-30",
+     "scored_at": "2026-09-01",
      "schema_version": "0.17.2",
      "agent_score": 52.7,
      "agent_band": "agent-ready",
@@ -1213,7 +1213,7 @@
       "commercial_clarity": 93.4,
       "access_clarity": 93.4
      },
-     "scored_at": "2026-08-30",
+     "scored_at": "2026-09-01",
      "schema_version": "0.17.2",
      "agent_score": 58.1,
      "agent_band": "agent-ready",
@@ -1258,7 +1258,7 @@
       "commercial_clarity": 92.1,
       "access_clarity": 92.1
      },
-     "scored_at": "2026-08-30",
+     "scored_at": "2026-09-01",
      "schema_version": "0.17.2",
      "regulatory": {
       "applies": true,
@@ -1330,7 +1330,7 @@
       "commercial_clarity": 86.8,
       "access_clarity": 86.8
      },
-     "scored_at": "2026-08-30",
+     "scored_at": "2026-09-01",
      "schema_version": "0.17.2",
      "agent_score": 58.5,
      "agent_band": "agent-ready",
@@ -1376,7 +1376,7 @@
       "commercial_clarity": 100.0,
       "access_clarity": 100.0
      },
-     "scored_at": "2026-08-30",
+     "scored_at": "2026-09-01",
      "schema_version": "0.17.2",
      "regulatory": {
       "applies": true,
@@ -1436,7 +1436,7 @@
       "commercial_clarity": 85.5,
       "access_clarity": 85.5
      },
-     "scored_at": "2026-08-30",
+     "scored_at": "2026-09-01",
      "schema_version": "0.17.2",
      "regulatory": {
       "applies": true,
@@ -1496,7 +1496,7 @@
       "commercial_clarity": 92.1,
       "access_clarity": 92.1
      },
-     "scored_at": "2026-08-30",
+     "scored_at": "2026-09-01",
      "schema_version": "0.17.2",
      "regulatory": {
       "applies": true,
@@ -1549,7 +1549,7 @@
       "commercial_clarity": 92.1,
       "access_clarity": 92.1
      },
-     "scored_at": "2026-08-30",
+     "scored_at": "2026-09-01",
      "schema_version": "0.17.2",
      "regulatory": {
       "applies": true,
@@ -1613,7 +1613,7 @@
       "commercial_clarity": 76.3,
       "access_clarity": 76.3
      },
-     "scored_at": "2026-08-30",
+     "scored_at": "2026-09-01",
      "schema_version": "0.17.2",
      "agent_score": 43.2,
      "agent_band": "agent-native",
@@ -1658,7 +1658,7 @@
       "commercial_clarity": 92.1,
       "access_clarity": 92.1
      },
-     "scored_at": "2026-08-30",
+     "scored_at": "2026-09-01",
      "schema_version": "0.17.2",
      "agent_score": 39.0,
      "agent_band": "agent-native",
@@ -1703,7 +1703,7 @@
       "commercial_clarity": 92.1,
       "access_clarity": 92.1
      },
-     "scored_at": "2026-08-30",
+     "scored_at": "2026-09-01",
      "schema_version": "0.17.2",
      "regulatory": {
       "applies": true,
@@ -1756,7 +1756,7 @@
       "commercial_clarity": 76.3,
       "access_clarity": 76.3
      },
-     "scored_at": "2026-08-30",
+     "scored_at": "2026-09-01",
      "schema_version": "0.17.2",
      "regulatory": {
       "applies": true,
@@ -1808,7 +1808,7 @@
       "commercial_clarity": 100.0,
       "access_clarity": 100.0
      },
-     "scored_at": "2026-08-30",
+     "scored_at": "2026-09-01",
      "schema_version": "0.17.2",
      "regulatory": {
       "applies": true,
@@ -1861,7 +1861,7 @@
       "commercial_clarity": 85.5,
       "access_clarity": 85.5
      },
-     "scored_at": "2026-08-30",
+     "scored_at": "2026-09-01",
      "schema_version": "0.17.2",
      "regulatory": {
       "applies": true,
@@ -1914,7 +1914,7 @@
       "commercial_clarity": 73.7,
       "access_clarity": 73.7
      },
-     "scored_at": "2026-08-30",
+     "scored_at": "2026-09-01",
      "schema_version": "0.17.2",
      "regulatory": {
       "applies": true,
@@ -1966,7 +1966,7 @@
       "commercial_clarity": 77.6,
       "access_clarity": 77.6
      },
-     "scored_at": "2026-08-30",
+     "scored_at": "2026-09-01",
      "schema_version": "0.17.2",
      "agent_score": 52.1,
      "agent_band": "agent-ready",
@@ -2012,7 +2012,7 @@
       "commercial_clarity": 92.1,
       "access_clarity": 92.1
      },
-     "scored_at": "2026-08-30",
+     "scored_at": "2026-09-01",
      "schema_version": "0.17.2",
      "agent_score": 31.3,
      "agent_band": "agent-ready",
@@ -2068,7 +2068,7 @@
       "commercial_clarity": 100.0,
       "access_clarity": 100.0
      },
-     "scored_at": "2026-08-30",
+     "scored_at": "2026-09-01",
      "schema_version": "0.17.2",
      "agent_score": 47.9,
      "agent_band": "agent-ready",
@@ -2114,7 +2114,7 @@
       "commercial_clarity": 100.0,
       "access_clarity": 100.0
      },
-     "scored_at": "2026-08-30",
+     "scored_at": "2026-09-01",
      "schema_version": "0.17.2",
      "regulatory": {
       "applies": true,
@@ -2167,7 +2167,7 @@
       "commercial_clarity": 89.5,
       "access_clarity": 89.5
      },
-     "scored_at": "2026-08-30",
+     "scored_at": "2026-09-01",
      "schema_version": "0.17.2",
      "agent_score": 47.5,
      "agent_band": "agent-ready",
@@ -2213,7 +2213,7 @@
       "commercial_clarity": 60.5,
       "access_clarity": 60.5
      },
-     "scored_at": "2026-08-30",
+     "scored_at": "2026-09-01",
      "schema_version": "0.17.2",
      "regulatory": {
       "applies": true,
@@ -2272,7 +2272,7 @@
       "commercial_clarity": 53.9,
       "access_clarity": 53.9
      },
-     "scored_at": "2026-08-30",
+     "scored_at": "2026-09-01",
      "schema_version": "0.17.2",
      "regulatory": {
       "applies": true,
@@ -2332,7 +2332,7 @@
       "commercial_clarity": 92.1,
       "access_clarity": 92.1
      },
-     "scored_at": "2026-08-30",
+     "scored_at": "2026-09-01",
      "schema_version": "0.17.2",
      "regulatory": {
       "applies": true,
@@ -2385,7 +2385,7 @@
       "commercial_clarity": 85.5,
       "access_clarity": 85.5
      },
-     "scored_at": "2026-08-30",
+     "scored_at": "2026-09-01",
      "schema_version": "0.17.2",
      "agent_score": 36.5,
      "agent_band": "agent-ready",
@@ -2431,7 +2431,7 @@
       "commercial_clarity": 84.2,
       "access_clarity": 84.2
      },
-     "scored_at": "2026-08-30",
+     "scored_at": "2026-09-01",
      "schema_version": "0.17.2",
      "agent_score": 25.4,
      "agent_band": "agent-aware",
@@ -2477,7 +2477,7 @@
       "commercial_clarity": 47.4,
       "access_clarity": 47.4
      },
-     "scored_at": "2026-08-30",
+     "scored_at": "2026-09-01",
      "schema_version": "0.17.2",
      "regulatory": {
       "applies": true,
@@ -2530,7 +2530,7 @@
       "commercial_clarity": 96.1,
       "access_clarity": 96.1
      },
-     "scored_at": "2026-08-30",
+     "scored_at": "2026-09-01",
      "schema_version": "0.17.2",
      "regulatory": {
       "applies": true,
@@ -2589,7 +2589,7 @@
       "commercial_clarity": 75.0,
       "access_clarity": 75.0
      },
-     "scored_at": "2026-08-30",
+     "scored_at": "2026-09-01",
      "schema_version": "0.17.2",
      "regulatory": {
       "applies": true,
@@ -2641,7 +2641,7 @@
       "commercial_clarity": 100.0,
       "access_clarity": 100.0
      },
-     "scored_at": "2026-08-30",
+     "scored_at": "2026-09-01",
      "schema_version": "0.17.2",
      "agent_score": 42.8,
      "agent_band": "agent-native",
@@ -2687,7 +2687,7 @@
       "commercial_clarity": 85.5,
       "access_clarity": 85.5
      },
-     "scored_at": "2026-08-30",
+     "scored_at": "2026-09-01",
      "schema_version": "0.17.2",
      "regulatory": {
       "applies": true,
@@ -2747,7 +2747,7 @@
       "commercial_clarity": 92.1,
       "access_clarity": 92.1
      },
-     "scored_at": "2026-08-30",
+     "scored_at": "2026-09-01",
      "schema_version": "0.17.2",
      "agent_score": 29.1,
      "agent_band": "agent-ready",
@@ -2793,7 +2793,7 @@
       "commercial_clarity": 73.7,
       "access_clarity": 73.7
      },
-     "scored_at": "2026-08-30",
+     "scored_at": "2026-09-01",
      "schema_version": "0.17.2",
      "agent_score": 38.3,
      "agent_band": "agent-ready",
@@ -2839,7 +2839,7 @@
       "commercial_clarity": 84.2,
       "access_clarity": 84.2
      },
-     "scored_at": "2026-08-30",
+     "scored_at": "2026-09-01",
      "schema_version": "0.17.2",
      "regulatory": {
       "applies": true,
@@ -2899,7 +2899,7 @@
       "commercial_clarity": 50.0,
       "access_clarity": 50.0
      },
-     "scored_at": "2026-08-30",
+     "scored_at": "2026-09-01",
      "schema_version": "0.17.2",
      "regulatory": {
       "applies": true,
@@ -2963,7 +2963,7 @@
       "commercial_clarity": 60.5,
       "access_clarity": 60.5
      },
-     "scored_at": "2026-08-30",
+     "scored_at": "2026-09-01",
      "schema_version": "0.17.2",
      "regulatory": {
       "applies": true,
@@ -3015,7 +3015,7 @@
       "commercial_clarity": 92.1,
       "access_clarity": 92.1
      },
-     "scored_at": "2026-08-30",
+     "scored_at": "2026-09-01",
      "schema_version": "0.17.2",
      "agent_score": 28.5,
      "agent_band": "agent-aware",
@@ -3060,7 +3060,7 @@
       "commercial_clarity": 72.4,
       "access_clarity": 72.4
      },
-     "scored_at": "2026-08-30",
+     "scored_at": "2026-09-01",
      "schema_version": "0.17.2",
      "regulatory": {
       "applies": true,
@@ -3120,7 +3120,7 @@
       "commercial_clarity": 76.3,
       "access_clarity": 76.3
      },
-     "scored_at": "2026-08-30",
+     "scored_at": "2026-09-01",
      "schema_version": "0.17.2",
      "agent_score": 36.4,
      "agent_band": "agent-ready",
@@ -3165,7 +3165,7 @@
       "commercial_clarity": 68.4,
       "access_clarity": 68.4
      },
-     "scored_at": "2026-08-30",
+     "scored_at": "2026-09-01",
      "schema_version": "0.17.2",
      "agent_score": 52.7,
      "agent_band": "agent-ready",
@@ -3211,7 +3211,7 @@
       "commercial_clarity": 76.3,
       "access_clarity": 76.3
      },
-     "scored_at": "2026-08-30",
+     "scored_at": "2026-09-01",
      "schema_version": "0.17.2",
      "agent_score": 33.1,
      "agent_band": "agent-ready",
@@ -3257,7 +3257,7 @@
       "commercial_clarity": 63.2,
       "access_clarity": 63.2
      },
-     "scored_at": "2026-08-30",
+     "scored_at": "2026-09-01",
      "schema_version": "0.17.2",
      "regulatory": {
       "applies": true,
@@ -3309,7 +3309,7 @@
       "commercial_clarity": 84.2,
       "access_clarity": 84.2
      },
-     "scored_at": "2026-08-30",
+     "scored_at": "2026-09-01",
      "schema_version": "0.17.2",
      "regulatory": {
       "applies": true,
@@ -3362,7 +3362,7 @@
       "commercial_clarity": 92.1,
       "access_clarity": 92.1
      },
-     "scored_at": "2026-08-30",
+     "scored_at": "2026-09-01",
      "schema_version": "0.17.2",
      "agent_score": 33.8,
      "agent_band": "agent-ready",
@@ -3408,7 +3408,7 @@
       "commercial_clarity": 100.0,
       "access_clarity": 100.0
      },
-     "scored_at": "2026-08-30",
+     "scored_at": "2026-09-01",
      "schema_version": "0.17.2",
      "agent_score": 30.3,
      "agent_band": "agent-ready",
@@ -3454,7 +3454,7 @@
       "commercial_clarity": 76.3,
       "access_clarity": 76.3
      },
-     "scored_at": "2026-08-30",
+     "scored_at": "2026-09-01",
      "schema_version": "0.17.2",
      "regulatory": {
       "applies": true,
@@ -3507,7 +3507,7 @@
       "commercial_clarity": 60.5,
       "access_clarity": 60.5
      },
-     "scored_at": "2026-08-30",
+     "scored_at": "2026-09-01",
      "schema_version": "0.17.2",
      "agent_score": 35.7,
      "agent_band": "agent-ready",
@@ -3553,7 +3553,7 @@
       "commercial_clarity": 76.3,
       "access_clarity": 76.3
      },
-     "scored_at": "2026-08-30",
+     "scored_at": "2026-09-01",
      "schema_version": "0.17.2",
      "regulatory": {
       "applies": true,
@@ -3605,7 +3605,7 @@
       "commercial_clarity": 76.3,
       "access_clarity": 76.3
      },
-     "scored_at": "2026-08-30",
+     "scored_at": "2026-09-01",
      "schema_version": "0.17.2",
      "agent_score": 42.3,
      "agent_band": "agent-ready",
@@ -3651,7 +3651,7 @@
       "commercial_clarity": 75.0,
       "access_clarity": 75.0
      },
-     "scored_at": "2026-08-30",
+     "scored_at": "2026-09-01",
      "schema_version": "0.17.2",
      "regulatory": {
       "applies": true,
@@ -3703,7 +3703,7 @@
       "commercial_clarity": 50.0,
       "access_clarity": 50.0
      },
-     "scored_at": "2026-08-30",
+     "scored_at": "2026-09-01",
      "schema_version": "0.17.2",
      "regulatory": {
       "applies": true,
@@ -3755,7 +3755,7 @@
       "commercial_clarity": 93.4,
       "access_clarity": 93.4
      },
-     "scored_at": "2026-08-30",
+     "scored_at": "2026-09-01",
      "schema_version": "0.17.2",
      "regulatory": {
       "applies": true,
@@ -3808,7 +3808,7 @@
       "commercial_clarity": 71.1,
       "access_clarity": 71.1
      },
-     "scored_at": "2026-08-30",
+     "scored_at": "2026-09-01",
      "schema_version": "0.17.2",
      "agent_score": 28.8,
      "agent_band": "agent-ready",
@@ -3853,7 +3853,7 @@
       "commercial_clarity": 92.1,
       "access_clarity": 92.1
      },
-     "scored_at": "2026-08-30",
+     "scored_at": "2026-09-01",
      "schema_version": "0.17.2",
      "regulatory": {
       "applies": true,
@@ -3905,7 +3905,7 @@
       "commercial_clarity": 71.1,
       "access_clarity": 71.1
      },
-     "scored_at": "2026-08-30",
+     "scored_at": "2026-09-01",
      "schema_version": "0.17.2",
      "agent_score": 29.9,
      "agent_band": "agent-ready",
@@ -3950,7 +3950,7 @@
       "commercial_clarity": 60.5,
       "access_clarity": 60.5
      },
-     "scored_at": "2026-08-30",
+     "scored_at": "2026-09-01",
      "schema_version": "0.17.2",
      "agent_score": 58.8,
      "agent_band": "agent-ready",
@@ -3996,7 +3996,7 @@
       "commercial_clarity": 69.7,
       "access_clarity": 69.7
      },
-     "scored_at": "2026-08-30",
+     "scored_at": "2026-09-01",
      "schema_version": "0.17.2",
      "agent_score": 32.9,
      "agent_band": "agent-ready",
@@ -4042,7 +4042,7 @@
       "commercial_clarity": 92.1,
       "access_clarity": 92.1
      },
-     "scored_at": "2026-08-30",
+     "scored_at": "2026-09-01",
      "schema_version": "0.17.2",
      "agent_score": 28.6,
      "agent_band": "agent-ready",
@@ -4088,7 +4088,7 @@
       "commercial_clarity": 43.4,
       "access_clarity": 43.4
      },
-     "scored_at": "2026-08-30",
+     "scored_at": "2026-09-01",
      "schema_version": "0.17.2",
      "regulatory": {
       "applies": true,
@@ -4167,7 +4167,7 @@
       "commercial_clarity": 78.9,
       "access_clarity": 78.9
      },
-     "scored_at": "2026-08-30",
+     "scored_at": "2026-09-01",
      "schema_version": "0.17.2",
      "agent_score": 34.6,
      "agent_band": "agent-ready",
@@ -4213,7 +4213,7 @@
       "commercial_clarity": 69.7,
       "access_clarity": 69.7
      },
-     "scored_at": "2026-08-30",
+     "scored_at": "2026-09-01",
      "schema_version": "0.17.2",
      "agent_score": 26.1,
      "agent_band": "agent-aware",
@@ -4259,7 +4259,7 @@
       "commercial_clarity": 46.1,
       "access_clarity": 46.1
      },
-     "scored_at": "2026-08-30",
+     "scored_at": "2026-09-01",
      "schema_version": "0.17.2",
      "regulatory": {
       "applies": true,
@@ -4312,7 +4312,7 @@
       "commercial_clarity": 36.8,
       "access_clarity": 36.8
      },
-     "scored_at": "2026-08-30",
+     "scored_at": "2026-09-01",
      "schema_version": "0.17.2",
      "agent_score": 36.9,
      "agent_band": "agent-ready",
@@ -4358,7 +4358,7 @@
       "commercial_clarity": 43.4,
       "access_clarity": 43.4
      },
-     "scored_at": "2026-08-30",
+     "scored_at": "2026-09-01",
      "schema_version": "0.17.2",
      "regulatory": {
       "applies": true,
@@ -4411,7 +4411,7 @@
       "commercial_clarity": 38.2,
       "access_clarity": 38.2
      },
-     "scored_at": "2026-08-30",
+     "scored_at": "2026-09-01",
      "schema_version": "0.17.2",
      "agent_score": 47.5,
      "agent_band": "agent-ready",
@@ -4457,7 +4457,7 @@
       "commercial_clarity": 36.8,
       "access_clarity": 36.8
      },
-     "scored_at": "2026-08-30",
+     "scored_at": "2026-09-01",
      "schema_version": "0.17.2",
      "regulatory": {
       "applies": true,
@@ -4510,7 +4510,7 @@
       "commercial_clarity": 76.3,
       "access_clarity": 76.3
      },
-     "scored_at": "2026-08-30",
+     "scored_at": "2026-09-01",
      "schema_version": "0.17.2",
      "agent_score": 25.2,
      "agent_band": "agent-aware",
@@ -4556,7 +4556,7 @@
       "commercial_clarity": 82.9,
       "access_clarity": 82.9
      },
-     "scored_at": "2026-08-30",
+     "scored_at": "2026-09-01",
      "schema_version": "0.17.2",
      "agent_score": 30.4,
      "agent_band": "agent-ready",
@@ -4601,7 +4601,7 @@
       "commercial_clarity": 42.1,
       "access_clarity": 42.1
      },
-     "scored_at": "2026-08-30",
+     "scored_at": "2026-09-01",
      "schema_version": "0.17.2",
      "agent_score": 31.1,
      "agent_band": "agent-ready",
@@ -4647,7 +4647,7 @@
       "commercial_clarity": 69.7,
       "access_clarity": 69.7
      },
-     "scored_at": "2026-08-30",
+     "scored_at": "2026-09-01",
      "schema_version": "0.17.2",
      "agent_score": 27.0,
      "agent_band": "agent-aware",
@@ -4693,7 +4693,7 @@
       "commercial_clarity": 92.1,
       "access_clarity": 92.1
      },
-     "scored_at": "2026-08-30",
+     "scored_at": "2026-09-01",
      "schema_version": "0.17.2",
      "agent_score": 30.9,
      "agent_band": "agent-ready",
@@ -4739,7 +4739,7 @@
       "commercial_clarity": 28.9,
       "access_clarity": 28.9
      },
-     "scored_at": "2026-08-30",
+     "scored_at": "2026-09-01",
      "schema_version": "0.17.2",
      "regulatory": {
       "applies": true,
@@ -4791,7 +4791,7 @@
       "commercial_clarity": 43.4,
       "access_clarity": 43.4
      },
-     "scored_at": "2026-08-30",
+     "scored_at": "2026-09-01",
      "schema_version": "0.17.2",
      "agent_score": 25.2,
      "agent_band": "agent-aware",
@@ -4836,7 +4836,7 @@
       "commercial_clarity": 69.7,
       "access_clarity": 69.7
      },
-     "scored_at": "2026-08-30",
+     "scored_at": "2026-09-01",
      "schema_version": "0.17.2",
      "agent_score": 47.7,
      "agent_band": "agent-ready",
@@ -4882,7 +4882,7 @@
       "commercial_clarity": 27.6,
       "access_clarity": 27.6
      },
-     "scored_at": "2026-08-30",
+     "scored_at": "2026-09-01",
      "schema_version": "0.17.2",
      "agent_score": 32.2,
      "agent_band": "agent-ready",
@@ -4928,7 +4928,7 @@
       "commercial_clarity": 44.7,
       "access_clarity": 44.7
      },
-     "scored_at": "2026-08-30",
+     "scored_at": "2026-09-01",
      "schema_version": "0.17.2",
      "agent_score": 25.2,
      "agent_band": "agent-aware",
@@ -4974,7 +4974,7 @@
       "commercial_clarity": 76.3,
       "access_clarity": 76.3
      },
-     "scored_at": "2026-08-30",
+     "scored_at": "2026-09-01",
      "schema_version": "0.17.2",
      "agent_score": 33.8,
      "agent_band": "agent-ready",
@@ -5020,7 +5020,7 @@
       "commercial_clarity": 43.4,
       "access_clarity": 43.4
      },
-     "scored_at": "2026-08-30",
+     "scored_at": "2026-09-01",
      "schema_version": "0.17.2",
      "regulatory": {
       "applies": true,
@@ -5073,7 +5073,7 @@
       "commercial_clarity": 34.2,
       "access_clarity": 34.2
      },
-     "scored_at": "2026-08-30",
+     "scored_at": "2026-09-01",
      "schema_version": "0.17.2",
      "agent_score": 37.8,
      "agent_band": "agent-ready",
@@ -5118,7 +5118,7 @@
       "commercial_clarity": 84.2,
       "access_clarity": 84.2
      },
-     "scored_at": "2026-08-30",
+     "scored_at": "2026-09-01",
      "schema_version": "0.17.2",
      "agent_score": 23.6,
      "agent_band": "agent-aware",
@@ -5164,7 +5164,7 @@
       "commercial_clarity": 60.5,
       "access_clarity": 60.5
      },
-     "scored_at": "2026-08-30",
+     "scored_at": "2026-09-01",
      "schema_version": "0.17.2",
      "agent_score": 22.3,
      "agent_band": "agent-aware",
@@ -5210,7 +5210,7 @@
       "commercial_clarity": 23.7,
       "access_clarity": 23.7
      },
-     "scored_at": "2026-08-30",
+     "scored_at": "2026-09-01",
      "schema_version": "0.17.2",
      "agent_score": 30.8,
      "agent_band": "agent-ready",
@@ -5256,7 +5256,7 @@
       "commercial_clarity": 60.5,
       "access_clarity": 60.5
      },
-     "scored_at": "2026-08-30",
+     "scored_at": "2026-09-01",
      "schema_version": "0.17.2",
      "agent_score": 14.2,
      "agent_band": "agent-aware",
@@ -5302,7 +5302,7 @@
       "commercial_clarity": 50.0,
       "access_clarity": 50.0
      },
-     "scored_at": "2026-08-30",
+     "scored_at": "2026-09-01",
      "schema_version": "0.17.2",
      "agent_score": 34.0,
      "agent_band": "agent-ready",
@@ -5348,7 +5348,7 @@
       "commercial_clarity": 71.1,
       "access_clarity": 71.1
      },
-     "scored_at": "2026-08-30",
+     "scored_at": "2026-09-01",
      "schema_version": "0.17.2",
      "agent_score": 5.0,
      "agent_band": "human-only",
@@ -5404,7 +5404,7 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-08-30",
+     "scored_at": "2026-09-01",
      "schema_version": "0.17.2",
      "regulatory": {
       "applies": true,
@@ -5456,7 +5456,7 @@
       "commercial_clarity": 76.3,
       "access_clarity": 76.3
      },
-     "scored_at": "2026-08-30",
+     "scored_at": "2026-09-01",
      "schema_version": "0.17.2",
      "agent_score": 13.7,
      "agent_band": "agent-aware",
@@ -5502,7 +5502,7 @@
       "commercial_clarity": 27.6,
       "access_clarity": 27.6
      },
-     "scored_at": "2026-08-30",
+     "scored_at": "2026-09-01",
      "schema_version": "0.17.2",
      "agent_score": 35.4,
      "agent_band": "agent-ready",
@@ -5548,7 +5548,7 @@
       "commercial_clarity": 65.8,
       "access_clarity": 65.8
      },
-     "scored_at": "2026-08-30",
+     "scored_at": "2026-09-01",
      "schema_version": "0.17.2",
      "agent_score": 18.9,
      "agent_band": "agent-aware",
@@ -5594,7 +5594,7 @@
       "commercial_clarity": 65.8,
       "access_clarity": 65.8
      },
-     "scored_at": "2026-08-30",
+     "scored_at": "2026-09-01",
      "schema_version": "0.17.2",
      "agent_score": 11.4,
      "agent_band": "agent-aware",
@@ -5640,7 +5640,7 @@
       "commercial_clarity": 52.6,
       "access_clarity": 52.6
      },
-     "scored_at": "2026-08-30",
+     "scored_at": "2026-09-01",
      "schema_version": "0.17.2",
      "agent_score": 19.8,
      "agent_band": "agent-aware",
@@ -5685,7 +5685,7 @@
       "commercial_clarity": 34.2,
       "access_clarity": 34.2
      },
-     "scored_at": "2026-08-30",
+     "scored_at": "2026-09-01",
      "schema_version": "0.17.2",
      "agent_score": 15.0,
      "agent_band": "agent-aware",
@@ -5729,7 +5729,7 @@
       "commercial_clarity": 84.2,
       "access_clarity": 84.2
      },
-     "scored_at": "2026-08-30",
+     "scored_at": "2026-09-01",
      "schema_version": "0.17.2",
      "agent_score": 2.5,
      "agent_band": "human-only",
@@ -5775,7 +5775,7 @@
       "commercial_clarity": 27.6,
       "access_clarity": 27.6
      },
-     "scored_at": "2026-08-30",
+     "scored_at": "2026-09-01",
      "schema_version": "0.17.2",
      "regulatory": {
       "applies": true,
@@ -5827,7 +5827,7 @@
       "commercial_clarity": 76.3,
       "access_clarity": 76.3
      },
-     "scored_at": "2026-08-30",
+     "scored_at": "2026-09-01",
      "schema_version": "0.17.2",
      "regulatory": {
       "applies": true,
@@ -5879,7 +5879,7 @@
       "commercial_clarity": 76.3,
       "access_clarity": 76.3
      },
-     "scored_at": "2026-08-30",
+     "scored_at": "2026-09-01",
      "schema_version": "0.17.2",
      "regulatory": {
       "applies": true,
@@ -5931,7 +5931,7 @@
       "commercial_clarity": 76.3,
       "access_clarity": 76.3
      },
-     "scored_at": "2026-08-30",
+     "scored_at": "2026-09-01",
      "schema_version": "0.17.2",
      "agent_score": 27.6,
      "agent_band": "agent-aware",
@@ -5976,7 +5976,7 @@
       "commercial_clarity": 46.1,
       "access_clarity": 46.1
      },
-     "scored_at": "2026-08-30",
+     "scored_at": "2026-09-01",
      "schema_version": "0.17.2",
      "agent_score": 7.9,
      "agent_band": "agent-aware",
@@ -6021,7 +6021,7 @@
       "commercial_clarity": 43.4,
       "access_clarity": 43.4
      },
-     "scored_at": "2026-08-30",
+     "scored_at": "2026-09-01",
      "schema_version": "0.17.2",
      "agent_score": 7.9,
      "agent_band": "agent-aware",
@@ -6065,7 +6065,7 @@
       "commercial_clarity": 92.1,
       "access_clarity": 92.1
      },
-     "scored_at": "2026-08-30",
+     "scored_at": "2026-09-01",
      "schema_version": "0.17.2",
      "agent_score": 2.5,
      "agent_band": "human-only",
@@ -6121,7 +6121,7 @@
       "commercial_clarity": 50.0,
       "access_clarity": 50.0
      },
-     "scored_at": "2026-08-30",
+     "scored_at": "2026-09-01",
      "schema_version": "0.17.2",
      "agent_score": 7.9,
      "agent_band": "agent-aware",
@@ -6167,7 +6167,7 @@
       "commercial_clarity": 17.1,
       "access_clarity": 17.1
      },
-     "scored_at": "2026-08-30",
+     "scored_at": "2026-09-01",
      "schema_version": "0.17.2",
      "agent_score": 8.8,
      "agent_band": "agent-aware",
@@ -6213,7 +6213,7 @@
       "commercial_clarity": 44.7,
       "access_clarity": 44.7
      },
-     "scored_at": "2026-08-30",
+     "scored_at": "2026-09-01",
      "schema_version": "0.17.2",
      "agent_score": 5.0,
      "agent_band": "human-only",
@@ -6257,7 +6257,7 @@
       "commercial_clarity": 69.7,
       "access_clarity": 69.7
      },
-     "scored_at": "2026-08-30",
+     "scored_at": "2026-09-01",
      "schema_version": "0.17.2",
      "agent_score": 2.5,
      "agent_band": "human-only",
@@ -6303,7 +6303,7 @@
       "commercial_clarity": 46.1,
       "access_clarity": 46.1
      },
-     "scored_at": "2026-08-30",
+     "scored_at": "2026-09-01",
      "schema_version": "0.17.2",
      "agent_score": 2.5,
      "agent_band": "human-only",
@@ -6349,7 +6349,7 @@
       "commercial_clarity": 76.3,
       "access_clarity": 76.3
      },
-     "scored_at": "2026-08-30",
+     "scored_at": "2026-09-01",
      "schema_version": "0.17.2",
      "agent_score": 2.5,
      "agent_band": "human-only",
@@ -6394,7 +6394,7 @@
       "commercial_clarity": 65.8,
       "access_clarity": 65.8
      },
-     "scored_at": "2026-08-30",
+     "scored_at": "2026-09-01",
      "schema_version": "0.17.2",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -6438,7 +6438,7 @@
       "commercial_clarity": 65.8,
       "access_clarity": 65.8
      },
-     "scored_at": "2026-08-30",
+     "scored_at": "2026-09-01",
      "schema_version": "0.17.2",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -6483,7 +6483,7 @@
       "commercial_clarity": 52.6,
       "access_clarity": 52.6
      },
-     "scored_at": "2026-08-30",
+     "scored_at": "2026-09-01",
      "schema_version": "0.17.2",
      "regulatory": {
       "applies": true,
@@ -6536,7 +6536,7 @@
       "commercial_clarity": 42.1,
       "access_clarity": 42.1
      },
-     "scored_at": "2026-08-30",
+     "scored_at": "2026-09-01",
      "schema_version": "0.17.2",
      "agent_score": 2.5,
      "agent_band": "human-only",
@@ -6581,7 +6581,7 @@
       "commercial_clarity": 34.2,
       "access_clarity": 34.2
      },
-     "scored_at": "2026-08-30",
+     "scored_at": "2026-09-01",
      "schema_version": "0.17.2",
      "agent_score": 2.5,
      "agent_band": "human-only",
@@ -6626,7 +6626,7 @@
       "commercial_clarity": 21.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-08-30",
+     "scored_at": "2026-09-01",
      "schema_version": "0.17.2",
      "regulatory": {
       "applies": true,
@@ -6678,7 +6678,7 @@
       "commercial_clarity": 34.2,
       "access_clarity": 34.2
      },
-     "scored_at": "2026-08-30",
+     "scored_at": "2026-09-01",
      "schema_version": "0.17.2",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -6734,7 +6734,7 @@
       "commercial_clarity": 13.2,
       "access_clarity": 13.2
      },
-     "scored_at": "2026-08-30",
+     "scored_at": "2026-09-01",
      "schema_version": "0.17.2",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -6778,7 +6778,7 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-08-30",
+     "scored_at": "2026-09-01",
      "schema_version": "0.17.2",
      "agent_score": 15.1,
      "agent_band": "agent-aware",

@@ -23,7 +23,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 26.1
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
 api_count: 1
 apis:
 - description: The Applications API from Bungalow — 1 operation(s) for applications.
@@ -177,7 +177,7 @@ modified: '2026-08-01'
 name: Bungalow
 nav: Providers
 network: true
-overview: 'Bungalow publishes 4 APIs on the [APIs.io](https://apis.io/) network, including Applications API, Listings API, Markets API, and 1 more. Tagged areas include Company, real-estate, residential-real-estate, rental-listings, and property-management.
+overview: 'Bungalow publishes 4 APIs on the [APIs.io](https://apis.io/) network, including Applications API, Listings API, Markets API, and 1 more. Tagged areas include Company, Real-Estate, Residential Real Estate, Rental Listings, and Property Management.
 
 
   The Bungalow catalog on APIs.io includes 1 event-driven AsyncAPI specification.
@@ -193,7 +193,7 @@ score:
     catalog_gap: 78.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.6
+  delta: 0.0
   facets:
     access_clarity: 27.6
     commercial_clarity: 27.6
@@ -203,7 +203,7 @@ score:
     discoverability: 75.9
     governance: 4.5
     operational_transparency: 7.9
-  previous_composite: 39.7
+  previous_composite: 39.1
   provenance:
     conformance: derived
     contracts:
@@ -214,7 +214,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.17.2
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/bungalow/refs/heads/main/screenshots/bungalow-2026-08-07T162850.png
 security:
@@ -229,15 +229,15 @@ security:
 slug: bungalow
 tags:
 - Company
-- real-estate
-- residential-real-estate
-- rental-listings
-- property-management
-- co-living
-- single-family-rental
-- listings-syndication
-- housing
-- proptech
+- Real-Estate
+- Residential Real Estate
+- Rental Listings
+- Property Management
+- Co-Living
+- Single-Family Rental
+- Listings Syndication
+- Housing
+- PropTech
 - Marketplace
 website: https://bungalow.com/
 ---

@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
 api_count: 0
 artifact_total: 3
 common:
@@ -84,7 +84,7 @@ modified: '2026-05-23'
 name: CRED
 nav: Providers
 network: true
-overview: 'CRED is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Consumer Fintech, Credit Cards, Bill Payment, Rewards, and UPI.
+overview: 'CRED is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Consumer Fintech, Credit Cards, Bill Payments, Rewards, and UPI.
 
 
   CRED''s developer surface includes GitHub presence, engineering blog, and 8 more developer resources.'
@@ -115,7 +115,7 @@ score:
     regime_id: payments
     score: 26.6
   schema_version: 0.17.2
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/cred/refs/heads/main/screenshots/cred-2026-06-20T175222.png
 security:
@@ -135,7 +135,7 @@ slug: cred
 tags:
 - Consumer Fintech
 - Credit Cards
-- Bill Payment
+- Bill Payments
 - Rewards
 - UPI
 - Lending

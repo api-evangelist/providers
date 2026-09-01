@@ -23,7 +23,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
 api_count: 0
 artifact_total: 0
 common:
@@ -46,7 +46,7 @@ modified: '2026-08-26'
 name: Intlayer
 nav: Providers
 network: true
-overview: 'Intlayer is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include i18n, internationalization, Localization, react, and nextjs.
+overview: 'Intlayer is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include i18n, Internationalization, Localization, React, and Next.js.
 
 
   Intlayer''s developer surface includes documentation and 2 more developer resources.'
@@ -71,14 +71,14 @@ score:
     operational_transparency: 0.0
   previous_composite: 7.3
   schema_version: 0.17.2
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
   trend: flat
 slug: intlayer
 tags:
 - i18n
-- internationalization
+- Internationalization
 - Localization
-- react
-- nextjs
+- React
+- Next.js
 website: https://intlayer.org
 ---

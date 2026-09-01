@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
 agentic_access:
 - acting_count: 17
   human_in_the_loop: 1
@@ -197,7 +197,7 @@ modified: '2026-05-19'
 name: Jupyter Server
 nav: Providers
 network: true
-overview: 'Jupyter Server publishes 8 APIs on the [APIs.io](https://apis.io/) network, including Checkpoints API, Config API, Contents API, and 5 more. Tagged areas include Compute, Interactive Computing, Kernels, Notebooks, and Portable.
+overview: 'Jupyter Server publishes 8 APIs on the [APIs.io](https://apis.io/) network, including Checkpoints API, Config API, Contents API, and 5 more. Tagged areas include Compute, Interactive Computing, Kernel, Notebooks, and Portable.
 
 
   The Jupyter Server catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
@@ -232,7 +232,7 @@ score:
     catalog_gap: 52.8
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: 2.1
+  delta: 0.0
   facets:
     access_clarity: 15.8
     commercial_clarity: 15.8
@@ -245,7 +245,7 @@ score:
   open_source:
     applies: true
     score: 65.0
-  previous_composite: 39.8
+  previous_composite: 41.9
   provenance:
     agentic_access: derived
     contracts:
@@ -254,7 +254,7 @@ score:
       marker_coverage: 0.0
       total: 8
   schema_version: 0.17.2
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/jupyter-server/refs/heads/main/screenshots/jupyter-server-2026-06-20T183848.png
 security:
@@ -270,7 +270,7 @@ slug: jupyter-server
 tags:
 - Compute
 - Interactive Computing
-- Kernels
+- Kernel
 - Notebooks
 - Portable
 - Workbooks

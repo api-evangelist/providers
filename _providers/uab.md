@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 2.5
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
 api_count: 2
 apis:
 - description: OAI-PMH 2.0 metadata harvesting endpoint for the Dipòsit Digital de Documents de la UAB (DDD), the university's institutional repository of theses, articles, preprints, postprints, ebooks, periodicals
@@ -128,7 +128,7 @@ score:
     regime_id: education
     score: 20.4
   schema_version: 0.17.2
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/uab/refs/heads/main/screenshots/uab-2026-06-20T195920.png
 security:

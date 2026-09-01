@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 24.8
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
 agentic_access:
 - acting_count: 148
   human_in_the_loop: 1
@@ -7002,7 +7002,7 @@ modified: '2026-05-29'
 name: EPA — U.S. Environmental Protection Agency
 nav: Providers
 network: true
-overview: 'EPA — U.S. Environmental Protection Agency publishes 128 APIs on the [APIs.io](https://apis.io/) network, including Account Type Codes API, Accounts API, Air Emission Testing API, and 125 more. Tagged areas include Government, Environmental, Open Data, AirQuality, and WaterQuality.
+overview: 'EPA — U.S. Environmental Protection Agency publishes 128 APIs on the [APIs.io](https://apis.io/) network, including Account Type Codes API, Accounts API, Air Emission Testing API, and 125 more. Tagged areas include Government, Environmental, Open Data, Air Quality, and Water Quality.
 
 
   The EPA — U.S. Environmental Protection Agency catalog on APIs.io includes 23 JSON-LD contexts and 2 Spectral governance rulesets.
@@ -7069,7 +7069,7 @@ score:
     regime_id: government
     score: 55.6
   schema_version: 0.17.2
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/epa/refs/heads/main/screenshots/epa-2026-06-20T180747.png
 security:
@@ -7095,9 +7095,9 @@ tags:
 - Government
 - Environmental
 - Open Data
-- AirQuality
-- WaterQuality
-- HazardousWaste
+- Air Quality
+- Water Quality
+- Hazardous Waste
 - Compliance
 - Emissions
 use_cases:

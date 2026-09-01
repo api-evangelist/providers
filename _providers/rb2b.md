@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 26.1
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
 api_count: 4
 apis:
 - description: Credit-metered Identification endpoints that convert anonymous web signals (IP addresses) into business identifiers — POST /ip_to_company, POST /ip_to_hem (hashed email, ranked by confidence) and POST
@@ -275,7 +275,7 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.17.2
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/rb2b/refs/heads/main/screenshots/rb2b-2026-06-20T192625.png
 security:
@@ -306,7 +306,7 @@ tags:
 - Firmographics
 - Webhook
 - Pixel
-- Adtech
+- AdTech
 - Identity Graph
 - MCP
 website: https://www.rb2b.com

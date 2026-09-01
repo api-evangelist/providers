@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 22.3
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
 agentic_access:
 - acting_count: 11
   human_in_the_loop: 0
@@ -332,7 +332,7 @@ modified: '2026-05-19'
 name: Apache OpenWhisk
 nav: Providers
 network: true
-overview: 'Apache OpenWhisk publishes 6 APIs on the [APIs.io](https://apis.io/) network, including Actions API, Activations API, Namespaces API, and 3 more. Tagged areas include Cloud-Native, Event-Driven, FaaS, Serverless, and Apache.
+overview: 'Apache OpenWhisk publishes 6 APIs on the [APIs.io](https://apis.io/) network, including Actions API, Activations API, Namespaces API, and 3 more. Tagged areas include Cloud-Native, Event-Driven, Function-as-a-Service, Serverless, and Apache.
 
 
   The Apache OpenWhisk catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
@@ -397,7 +397,7 @@ score:
       marker_coverage: 100.0
       total: 6
   schema_version: 0.17.2
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/apache-openwhisk/refs/heads/main/screenshots/apache-openwhisk-2026-06-20T172129.png
 security:
@@ -417,7 +417,7 @@ slug: apache-openwhisk
 tags:
 - Cloud-Native
 - Event-Driven
-- FaaS
+- Function-as-a-Service
 - Serverless
 - Apache
 - Open-Source

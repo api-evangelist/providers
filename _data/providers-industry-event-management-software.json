@@ -29,7 +29,7 @@
       "commercial_clarity": 57.9,
       "access_clarity": 57.9
      },
-     "scored_at": "2026-08-30",
+     "scored_at": "2026-09-01",
      "schema_version": "0.17.2",
      "agent_score": 22.7,
      "agent_band": "agent-aware",
@@ -85,7 +85,7 @@
       "commercial_clarity": 35.5,
       "access_clarity": 35.5
      },
-     "scored_at": "2026-08-30",
+     "scored_at": "2026-09-01",
      "schema_version": "0.17.2",
      "agent_score": 17.3,
      "agent_band": "agent-aware",
@@ -141,7 +141,7 @@
       "commercial_clarity": 15.8,
       "access_clarity": 15.8
      },
-     "scored_at": "2026-08-30",
+     "scored_at": "2026-09-01",
      "schema_version": "0.17.2",
      "agent_score": 22.9,
      "agent_band": "agent-aware",

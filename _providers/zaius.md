@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 32.4
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
 api_count: 11
 apis:
 - description: The Compliance API from Zaius — 7 operation(s) for compliance.
@@ -350,7 +350,7 @@ score:
     mcp: derived
     skills: first-party
   schema_version: 0.17.2
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/zaius/refs/heads/main/screenshots/zaius-2026-08-17T083035.png
 security:

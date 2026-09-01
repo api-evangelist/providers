@@ -24,7 +24,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 43.2
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
 api_count: 4
 apis:
 - description: Real-time GNSS corrections delivered as continuously-open NTRIP streams. A client opens an HTTP GET against a regional caster mountpoint with HTTP Basic credentials issued per device, and the caster w
@@ -45,6 +45,10 @@ asyncapis:
   name: Swift Navigation Skylark Ntrip Streams
   slug: swift-navigation-skylark-ntrip-streams
 common:
+- group: commercial
+  title: ''
+  type: License
+  url: https://github.com/swift-nav/libsbp/blob/master/LICENSE
 - group: auth
   title: ''
   type: DomainSecurity
@@ -866,7 +870,7 @@ overview: 'Swift Navigation publishes 4 APIs on the [APIs.io](https://apis.io/) 
   The Swift Navigation catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  Swift Navigation''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, signup flow, CLI, and 26 more developer resources.'
+  Swift Navigation''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, signup flow, CLI, and 27 more developer resources.'
 plans:
 - name: Swift Navigation Plans Pricing
   plan_count: 0
@@ -901,7 +905,7 @@ score:
     operational_transparency: 26.3
   previous_composite: 41.7
   schema_version: 0.17.2
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
   trend: flat
 security:
 - kind: authentication

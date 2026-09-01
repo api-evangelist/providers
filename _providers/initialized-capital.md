@@ -26,7 +26,7 @@ slug: initialized-capital
 tags:
 - Venture Capital
 - Seed
-- Enterprise SaaS
+- Enterprise Saas
 - Consumer
 - Marketplaces
 - Fintech

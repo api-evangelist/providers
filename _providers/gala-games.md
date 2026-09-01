@@ -23,7 +23,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 35.3
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
 api_count: 8
 apis:
 - description: These operations are direct interactions with the GalaChain blockchain, with the GalaConnect API doing little more than proxying your request.
@@ -104,6 +104,10 @@ asyncapis:
   name: Gala Games Event Surface
   slug: gala-games-event-surface
 common:
+- group: commercial
+  title: ''
+  type: License
+  url: https://github.com/GalaChain/sdk/blob/main/LICENSE
 - group: other
   title: ''
   type: Overlay
@@ -262,7 +266,7 @@ overview: 'Gala Games publishes 24 APIs on the [APIs.io](https://apis.io/) netwo
   The Gala Games catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  Gala Games'' developer surface includes documentation, API reference, getting-started guide, support, signup flow, authentication, CLI, and 28 more developer resources.'
+  Gala Games'' developer surface includes documentation, API reference, getting-started guide, support, signup flow, authentication, CLI, and 29 more developer resources.'
 plans:
 - name: Gala Games Plans Pricing
   plan_count: 0
@@ -307,7 +311,7 @@ score:
     regime_id: securities_market_data
     score: 38.3
   schema_version: 0.17.2
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/gala-games/refs/heads/main/screenshots/gala-games-2026-08-17T080947.png
 security:

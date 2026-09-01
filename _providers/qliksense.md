@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 40.1
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
 api_count: 82
 apis:
 - description: JSON-RPC WebSocket API for interacting with the Qlik Associative Engine, creating and manipulating apps, and building visualizations.
@@ -292,6 +292,10 @@ asyncapis:
   name: Qliksense Webhooks
   slug: qliksense-webhooks
 common:
+- group: commercial
+  title: ''
+  type: License
+  url: https://github.com/qlik-oss/server-side-extension/blob/master/LICENSE
 - group: company
   title: ''
   type: Website
@@ -658,7 +662,7 @@ overview: 'Qlik Sense APIs publishes 80 APIs on the [APIs.io](https://apis.io/) 
   The Qlik Sense APIs catalog on APIs.io includes 2 event-driven AsyncAPI specifications.
 
 
-  Qlik Sense APIs'' developer surface includes developer portal, documentation, API reference, getting-started guide, authentication, support, engineering blog, and 43 more developer resources.'
+  Qlik Sense APIs'' developer surface includes developer portal, documentation, API reference, getting-started guide, authentication, support, engineering blog, and 44 more developer resources.'
 plans:
 - name: Qliksense Plans Pricing
   plan_count: 5
@@ -693,7 +697,7 @@ score:
     operational_transparency: 52.6
   previous_composite: 59.3
   schema_version: 0.17.2
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/qliksense/refs/heads/main/screenshots/qliksense-2026-06-20T192343.png
 security:

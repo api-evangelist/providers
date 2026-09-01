@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
 api_count: 1
 apis:
 - description: Lookup appliance and equipment error codes by brand and code, with recommended replacement parts
@@ -88,7 +88,7 @@ score:
     regime_id: government
     score: 11.1
   schema_version: 0.17.2
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/modelpartfinder-error-codes/refs/heads/main/screenshots/modelpartfinder-error-codes-2026-06-20T185648.png
 security:

@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 25.2
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 1
@@ -241,7 +241,7 @@ modified: '2026-06-20'
 name: Amazon Augmented AI
 nav: Providers
 network: true
-overview: 'Amazon Augmented AI publishes 1 API on the [APIs.io](https://apis.io/) network: Human Loops API. Tagged areas include Amazon Augmented AI, Human In The Loop, Machine-Learning, and AI Review.
+overview: 'Amazon Augmented AI publishes 1 API on the [APIs.io](https://apis.io/) network: Human Loops API. Tagged areas include Amazon Augmented AI, Human-in-the-Loop, Machine-Learning, and AI Review.
 
 
   The Amazon Augmented AI catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
@@ -306,7 +306,7 @@ score:
       total: 1
     mcp: derived
   schema_version: 0.17.2
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/amazon-augmented-ai/refs/heads/main/screenshots/amazon-augmented-ai-2026-07-25T195931.png
 security:
@@ -325,7 +325,7 @@ security:
 slug: amazon-augmented-ai
 tags:
 - Amazon Augmented AI
-- Human In The Loop
+- Human-in-the-Loop
 - Machine-Learning
 - AI Review
 use_cases:

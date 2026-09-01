@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
 api_count: 1
 apis:
 - description: Get around the dreaded CORS error by using this proxy as a middle man
@@ -84,7 +84,7 @@ score:
       reason: never_enriched
   previous_composite: 6.9
   schema_version: 0.17.2
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/cors-proxy/refs/heads/main/screenshots/cors-proxy-2026-06-20T175042.png
 slug: cors-proxy

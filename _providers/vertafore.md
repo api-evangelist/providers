@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
 api_count: 6
 apis:
 - description: The newest and preferred REST API for AMS360, the flagship property and casualty agency management system. It exposes agency data as REST resources - Customers, Policies, Service Agreements, Invoices,
@@ -100,7 +100,7 @@ modified: '2026-07-10'
 name: Vertafore
 nav: Providers
 network: true
-overview: 'Vertafore publishes 6 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Insurance, InsurTech, Agency Management, Property and Casualty, and AMS360.
+overview: 'Vertafore publishes 6 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Insurance, Insurtech, Agency Management, Property and Casualty, and AMS360.
 
 
   Vertafore''s developer surface includes documentation, engineering blog, and 6 more developer resources.'
@@ -135,7 +135,7 @@ score:
     regime_id: insurance
     score: 9.1
   schema_version: 0.17.2
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
   trend: flat
 security:
 - kind: domain-security
@@ -145,7 +145,7 @@ security:
 slug: vertafore
 tags:
 - Insurance
-- InsurTech
+- Insurtech
 - Agency Management
 - Property and Casualty
 - AMS360

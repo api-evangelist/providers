@@ -24,7 +24,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 44.4
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
 api_count: 21
 apis:
 - description: Start, track, inspect and retry asynchronous imports of buyer accounts and contacts from a tenant's connected CRM into DealHub, with per-id lookup and aggregate success/failure counts.
@@ -437,7 +437,7 @@ modified: '2026-08-12'
 name: DealHub
 nav: Providers
 network: true
-overview: 'DealHub publishes 63 APIs on the [APIs.io](https://apis.io/) network, including CRM Import API, Account API, Accounting API, and 60 more. Tagged areas include Company, CPQ, Quote to Cash, Contract Lifecycle Management, and Subscription Management.
+overview: 'DealHub publishes 63 APIs on the [APIs.io](https://apis.io/) network, including CRM Import API, Account API, Accounting API, and 60 more. Tagged areas include Company, CPQ, Quote-to-Cash, Contract Lifecycle Management, and Subscription Management.
 
 
   The DealHub catalog on APIs.io includes 1 event-driven AsyncAPI specification.
@@ -461,7 +461,7 @@ score:
     catalog_gap: 75.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: 1.9
+  delta: 0.0
   facets:
     access_clarity: 53.9
     commercial_clarity: 53.9
@@ -471,7 +471,7 @@ score:
     discoverability: 81.5
     governance: 4.5
     operational_transparency: 18.4
-  previous_composite: 45.3
+  previous_composite: 47.2
   provenance:
     conformance: derived
     contracts:
@@ -482,7 +482,7 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.17.2
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/dealhub/refs/heads/main/screenshots/dealhub-2026-08-17T080848.png
 security:
@@ -506,14 +506,14 @@ slug: dealhub
 tags:
 - Company
 - CPQ
-- Quote to Cash
+- Quote-to-Cash
 - Contract Lifecycle Management
 - Subscription Management
 - Billing
 - Revenue Operations
 - Sales
 - Pricing
-- Usage Based Billing
+- Usage-Based Billing
 - Revenue Recognition
 - Sales Enablement
 website: https://dealhub.io/

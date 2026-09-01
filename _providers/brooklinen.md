@@ -23,7 +23,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 53.1
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
 api_count: 6
 apis:
 - description: Live Universal Commerce Protocol (UCP) endpoint exposed over MCP JSON-RPC at https://www.brooklinen.com/api/ucp/mcp, advertised by the store's own /agents.md, /robots.txt and /.well-known/ucp discover
@@ -197,7 +197,7 @@ modified: '2026-08-02'
 name: Brooklinen
 nav: Providers
 network: true
-overview: 'Brooklinen publishes 5 APIs on the [APIs.io](https://apis.io/) network, including Cart API, Collections API, Discovery API, and 2 more. Tagged areas include E-Commerce, Retail, direct-to-consumer, home-goods, and bedding.
+overview: 'Brooklinen publishes 5 APIs on the [APIs.io](https://apis.io/) network, including Cart API, Collections API, Discovery API, and 2 more. Tagged areas include E-Commerce, Retail, Direct to Consumer, Home Goods, and Bedding.
 
 
   Brooklinen''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, signup flow, authentication, and 22 more developer resources.'
@@ -242,7 +242,7 @@ score:
     regime_id: payments
     score: 54.7
   schema_version: 0.17.2
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/brooklinen/refs/heads/main/screenshots/brooklinen-2026-08-07T162830.png
 security:
@@ -258,15 +258,15 @@ slug: brooklinen
 tags:
 - E-Commerce
 - Retail
-- direct-to-consumer
-- home-goods
-- bedding
-- shopify
-- agentic-commerce
-- universal-commerce-protocol
+- Direct to Consumer
+- Home Goods
+- Bedding
+- Shopify
+- Agentic Commerce
+- Universal Commerce Protocol
 - MCP
 - agent-native
 - Catalog
-- checkout
+- Checkout
 website: https://www.brooklinen.com/
 ---

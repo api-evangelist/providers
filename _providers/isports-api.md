@@ -23,7 +23,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 26.7
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
 api_count: 15
 apis:
 - description: The Basketball Common API API from iSports API — 5 operation(s) for basketball common api.
@@ -621,7 +621,7 @@ score:
       total: 15
     skills: derived
   schema_version: 0.17.2
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/isports-api/refs/heads/main/screenshots/isports-api-2026-08-17T081004.png
 security:
@@ -642,7 +642,7 @@ tags:
 - Odds
 - Live Data
 - Sports Statistics
-- Livescores
+- Live Scores
 - Widgets
 - REST API
 website: https://www.isportsapi.com/en/

@@ -23,7 +23,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 33.8
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
 agentic_access:
 - acting_count: 23
   human_in_the_loop: 0
@@ -299,7 +299,7 @@ modified: '2026-08-26'
 name: Optoro
 nav: Providers
 network: true
-overview: 'Optoro publishes 21 APIs on the [APIs.io](https://apis.io/) network, including Asns API, Catalog Entry Updates API, Dispositions API, and 18 more. Tagged areas include returns-management, reverse-logistics, Retail, Supply Chain, and E-Commerce.
+overview: 'Optoro publishes 21 APIs on the [APIs.io](https://apis.io/) network, including Asns API, Catalog Entry Updates API, Dispositions API, and 18 more. Tagged areas include Returns Management, Reverse Logistics, Retail, Supply Chain, and E-Commerce.
 
 
   The Optoro catalog on APIs.io includes 1 event-driven AsyncAPI specification.
@@ -350,7 +350,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.17.2
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
   trend: flat
 security:
 - kind: authentication
@@ -367,15 +367,15 @@ security:
   summary_line: disclosure policy published
 slug: optoro
 tags:
-- returns-management
-- reverse-logistics
+- Returns Management
+- Reverse Logistics
 - Retail
 - Supply Chain
 - E-Commerce
-- fulfillment
-- drop-ship
+- Fulfillment
+- Dropship
 - Inventory
 - Webhook
-- order-management
+- Order Management
 website: https://www.optoro.com/
 ---

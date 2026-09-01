@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 10.8
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
 api_count: 0
 artifact_total: 3
 common:
@@ -127,7 +127,7 @@ score:
     operational_transparency: 2.6
   previous_composite: 18.1
   schema_version: 0.17.2
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/keyboardio/refs/heads/main/screenshots/keyboardio-2026-08-07T171131.png
 security:

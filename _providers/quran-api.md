@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
 api_count: 1
 apis:
 - description: Free Quran API Service with 90+ different languages and 400+ translations
@@ -84,7 +84,7 @@ score:
       reason: never_enriched
   previous_composite: 6.9
   schema_version: 0.17.2
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/quran-api/refs/heads/main/screenshots/quran-api-2026-06-20T192451.png
 slug: quran-api

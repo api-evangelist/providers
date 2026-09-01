@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 12.8
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
 api_count: 1
 apis:
 - description: Production RedotPay HTTP API surface behind the redotpay CLI and the redotpay-payment MCP server. Provides OAuth2 device-flow authentication and the agentic Machine Payments Protocol (MPP) endpoint th
@@ -133,7 +133,7 @@ modified: '2026-07-21'
 name: Redotpay
 nav: Providers
 network: true
-overview: 'Redotpay publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Payments, Fintech, Stablecoin, and Cryptocurrency.
+overview: 'Redotpay publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Payments, Fintech, Stablecoins, and Cryptocurrency.
 
 
   Redotpay''s developer surface includes documentation, support, engineering blog, signup flow, CLI, authentication, and 14 more developer resources.'
@@ -173,7 +173,7 @@ score:
     regime_id: payments
     score: 42.2
   schema_version: 0.17.2
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
   trend: flat
 security:
 - kind: authentication
@@ -189,7 +189,7 @@ tags:
 - Company
 - Payments
 - Fintech
-- Stablecoin
+- Stablecoins
 - Cryptocurrency
 - Wallets
 - Agentic Payments

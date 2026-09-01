@@ -24,7 +24,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 39.0
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
 api_count: 4
 apis:
 - description: Paperless Parts includes Customer Relationship Management (CRM) functionality to make it easy to send quotes to new and existing customers, while keeping data consistent with third-party CRM and ERP s
@@ -69,6 +69,10 @@ asyncapis:
   name: Paperless Parts Events
   slug: paperless-parts-events
 common:
+- group: commercial
+  title: ''
+  type: License
+  url: https://github.com/part-os/core-python/blob/master/LICENSE
 - group: other
   title: ''
   type: CapabilityMap
@@ -231,7 +235,7 @@ overview: 'Paperless Parts publishes 12 APIs on the [APIs.io](https://apis.io/) 
   The Paperless Parts catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  Paperless Parts'' developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 30 more developer resources.'
+  Paperless Parts'' developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 31 more developer resources.'
 plans:
 - name: Paperless Parts Plans Pricing
   plan_count: 0
@@ -270,7 +274,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.17.2
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
   trend: flat
 security:
 - kind: authentication

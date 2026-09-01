@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 24.8
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -106,7 +106,7 @@ modified: '2026-04-19'
 name: Applied Materials
 nav: Providers
 network: true
-overview: 'Applied Materials publishes 2 APIs on the [APIs.io](https://apis.io/) network: Equipment API and Maintenance API. Tagged areas include Semiconductor, Manufacturing, Equipment, Fab Operations, and Materials Engineering.
+overview: 'Applied Materials publishes 2 APIs on the [APIs.io](https://apis.io/) network: Equipment API and Maintenance API. Tagged areas include Semiconductors, Manufacturing, Equipment, Fab Operations, and Materials Engineering.
 
 
   The Applied Materials catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
@@ -187,7 +187,7 @@ score:
       marker_coverage: 0.0
       total: 2
   schema_version: 0.17.2
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
   trend: flat
 security:
 - kind: authentication
@@ -196,7 +196,7 @@ security:
   summary_line: http · 1 scheme
 slug: applied-materials
 tags:
-- Semiconductor
+- Semiconductors
 - Manufacturing
 - Equipment
 - Fab Operations

@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 34.4
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
 api_count: 2
 apis:
 - description: Product search across Ibotta browser-extension retailer coverage.
@@ -155,7 +155,7 @@ modified: '2026-08-12'
 name: Ibotta
 nav: Providers
 network: true
-overview: 'Ibotta publishes 1 API on the [APIs.io](https://apis.io/) network: Products API. Tagged areas include Company, Consumer, Cash Back, Rewards, and Retail Media.
+overview: 'Ibotta publishes 1 API on the [APIs.io](https://apis.io/) network: Products API. Tagged areas include Company, Consumer, Cashback, Rewards, and Retail Media.
 
 
   Ibotta''s developer surface includes engineering blog, support, documentation, getting-started guide, and 20 more developer resources.'
@@ -202,7 +202,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.17.2
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/ibotta/refs/heads/main/screenshots/ibotta-2026-07-25T221955.png
 security:
@@ -222,7 +222,7 @@ slug: ibotta
 tags:
 - Company
 - Consumer
-- Cash Back
+- Cashback
 - Rewards
 - Retail Media
 - Coupons

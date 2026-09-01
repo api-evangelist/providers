@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 38.5
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
 agentic_access:
 - acting_count: 10
   human_in_the_loop: 0
@@ -233,6 +233,10 @@ collections:
   name: Keap REST API
   slug: open-keap
 common:
+- group: commercial
+  title: ''
+  type: License
+  url: https://github.com/infusionsoft/keap-sdk/blob/main/LICENSE
 - group: other
   title: ''
   type: CapabilityMap
@@ -475,7 +479,7 @@ overview: 'Keap publishes 51 APIs on the [APIs.io](https://apis.io/) network, in
   The Keap catalog on APIs.io includes 1 event-driven AsyncAPI specification and 1 Spectral governance ruleset.
 
 
-  Keap''s developer surface includes authentication, documentation, signup flow, pricing, engineering blog, sandbox, API reference, and 49 more developer resources.'
+  Keap''s developer surface includes authentication, documentation, signup flow, pricing, engineering blog, sandbox, API reference, and 50 more developer resources.'
 plans:
 - name: Keap Plans Pricing
   plan_count: 1
@@ -510,7 +514,7 @@ score:
     catalog_gap: 76.3
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -1.9
+  delta: 0.0
   facets:
     access_clarity: 73.7
     commercial_clarity: 73.7
@@ -520,7 +524,7 @@ score:
     discoverability: 50.0
     governance: 15.9
     operational_transparency: 34.2
-  previous_composite: 64.5
+  previous_composite: 62.6
   provenance:
     agentic_access: derived
     conformance: derived
@@ -538,7 +542,7 @@ score:
     regime_id: payments
     score: 62.5
   schema_version: 0.17.2
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/keap/refs/heads/main/screenshots/keap-2026-06-20T183931.png
 security:

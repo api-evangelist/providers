@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 2.5
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
 api_count: 3
 apis:
 - description: Public JSON endpoint serving the University of Florida Schedule of Courses. Accepts query parameters such as term, category, course-code, credits, instructor and day filters, and returns course listin
@@ -138,7 +138,7 @@ score:
     regime_id: education
     score: 20.4
   schema_version: 0.17.2
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/university-of-florida/refs/heads/main/screenshots/university-of-florida-2026-06-20T200148.png
 security:

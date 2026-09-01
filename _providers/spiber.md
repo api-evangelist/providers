@@ -23,7 +23,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 11.4
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
 api_count: 1
 apis:
 - description: The read-only WordPress REST API that backs spiber.inc. The service names itself "Spiber API" in its own discovery document and is referenced from spiber.inc/robots.txt as the origin of the site sitem
@@ -156,7 +156,7 @@ score:
     operational_transparency: 2.6
   previous_composite: 15.1
   schema_version: 0.17.2
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
   trend: flat
 security:
 - kind: authentication

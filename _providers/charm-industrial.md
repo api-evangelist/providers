@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
 api_count: 0
 artifact_total: 1
 common:
@@ -84,7 +84,7 @@ modified: '2026-07-18'
 name: Charm Industrial
 nav: Providers
 network: true
-overview: 'Charm Industrial is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Carbon Removal, Climate Tech, Carbon Dioxide Removal, and Bio-oil.
+overview: 'Charm Industrial is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Carbon Removal, Climate Tech, Carbon Dioxide Removal, and Bio-Oil.
 
 
   Charm Industrial''s developer surface includes engineering blog, support, FAQ, YouTube channel, and 6 more developer resources.'
@@ -109,7 +109,7 @@ score:
     operational_transparency: 0.0
   previous_composite: 10.6
   schema_version: 0.17.2
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/charm-industrial/refs/heads/main/screenshots/charm-industrial-2026-07-25T205103.png
 security:
@@ -123,7 +123,7 @@ tags:
 - Carbon Removal
 - Climate Tech
 - Carbon Dioxide Removal
-- Bio-oil
+- Bio-Oil
 - Pyrolysis
 - Sustainability
 - Sequestration

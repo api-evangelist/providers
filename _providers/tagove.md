@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 22.7
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
 api_count: 1
 apis:
 - description: 'REST API for the Acquire (formerly Tagove) customer support platform: conversations/cases, messages, notes, contacts, companies, phone, chatbots, cards, analytics, knowledge base, and account settings'
@@ -145,7 +145,7 @@ modified: '2026-07-21'
 name: Tagove
 nav: Providers
 network: true
-overview: 'Tagove publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Customer-Support, Live Chat, Conversational, and Co-browsing.
+overview: 'Tagove publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Customer-Support, Live Chat, Conversational, and Co-Browsing.
 
 
   The Tagove catalog on APIs.io includes 1 event-driven AsyncAPI specification.
@@ -175,7 +175,7 @@ score:
   provenance:
     conformance: derived
   schema_version: 0.17.2
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
   trend: flat
 security:
 - kind: authentication
@@ -192,7 +192,7 @@ tags:
 - Customer-Support
 - Live Chat
 - Conversational
-- Co-browsing
+- Co-Browsing
 - Chatbots
 - Webhook
 - Customer Communication

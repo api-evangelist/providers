@@ -23,7 +23,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 31.2
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
 api_count: 1
 apis:
 - description: 'REST API over Specright''s specification data. Forty-six operations across six areas: token issuance, specifications, spec families (BOM / finished good), suppliers, a generic /objects/{api-name} endpo'
@@ -193,7 +193,7 @@ score:
     operational_transparency: 31.6
   previous_composite: 32.4
   schema_version: 0.17.2
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
   trend: flat
 security:
 - kind: authentication

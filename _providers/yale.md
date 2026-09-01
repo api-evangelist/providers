@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 22.9
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -103,6 +103,10 @@ collections:
   name: LUX Yale Collections Discovery Configuration Search API
   slug: open-yale-search-api
 common:
+- group: commercial
+  title: ''
+  type: License
+  url: https://github.com/project-lux/lux-middletier/blob/main/LICENSE
 - group: other
   title: ''
   type: CapabilityMap
@@ -291,7 +295,7 @@ overview: 'Yale University publishes 8 APIs on the [APIs.io](https://apis.io/) n
   The Yale University catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  Yale University''s developer surface includes documentation, API reference, support, GitHub presence, engineering blog, and 26 more developer resources.'
+  Yale University''s developer surface includes documentation, API reference, support, GitHub presence, engineering blog, and 27 more developer resources.'
 plans:
 - name: Yale Plans Pricing
   plan_count: 2
@@ -361,7 +365,7 @@ score:
     regime_id: education
     score: 53.7
   schema_version: 0.17.2
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/yale/refs/heads/main/screenshots/yale-2026-06-20T201720.png
 security:

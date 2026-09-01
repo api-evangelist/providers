@@ -23,7 +23,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 57.7
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
 agentic_access:
 - acting_count: 62
   human_in_the_loop: 0
@@ -455,7 +455,7 @@ score:
     regime_id: health
     score: 58.8
   schema_version: 0.17.2
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/egym/refs/heads/main/screenshots/egym-2026-08-17T080915.png
 security:
@@ -477,7 +477,7 @@ tags:
 - Connected Equipment
 - Gym Management
 - Member Management
-- Check-In
+- Check-in
 - Measurements
 - Workouts
 - Analytics

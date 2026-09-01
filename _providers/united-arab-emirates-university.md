@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 5.0
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
 api_count: 4
 apis:
 - description: The university's own single sign-on service, running on UAEU's registrable domain under a certificate issued to *.uaeu.ac.ae. It is the login point for UAEU applications — Banner Self-Service at ssb.u
@@ -211,7 +211,7 @@ score:
     catalog_gap: 48.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: 11.3
+  delta: 0.0
   facets:
     access_clarity: 50.0
     commercial_clarity: 50.0
@@ -221,7 +221,7 @@ score:
     discoverability: 74.1
     governance: 0.0
     operational_transparency: 23.7
-  previous_composite: 23.6
+  previous_composite: 34.9
   regulatory:
     applies: true
     matched_via: tags
@@ -229,8 +229,8 @@ score:
     regime_id: education
     score: 64.8
   schema_version: 0.17.2
-  scored_at: '2026-08-30'
-  trend: rising
+  scored_at: '2026-09-01'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/united-arab-emirates-university/refs/heads/main/screenshots/united-arab-emirates-university-2026-06-20T200041.png
 security:
 - kind: authentication

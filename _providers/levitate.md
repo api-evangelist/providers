@@ -24,7 +24,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 40.0
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
 api_count: 1
 apis:
 - description: Hosted remote MCP server (streamable HTTP) that connects Levitate to AI assistants — Claude Desktop, Claude Code, ChatGPT, Cursor, VS Code Copilot, Windsurf and any MCP-compatible HTTP client. Tools c
@@ -201,7 +201,7 @@ modified: '2026-08-25'
 name: Levitate
 nav: Providers
 network: true
-overview: 'Levitate publishes 3 APIs on the [APIs.io](https://apis.io/) network: Companies API, Contacts API, and Notes API. Tagged areas include relationship-marketing, CRM, email-marketing, Contacts, and small-business.
+overview: 'Levitate publishes 3 APIs on the [APIs.io](https://apis.io/) network: Companies API, Contacts API, and Notes API. Tagged areas include relationship-marketing, CRM, Email Marketing, Contacts, and Small Business.
 
 
   Levitate''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, changelog, and 29 more developer resources.'
@@ -227,7 +227,7 @@ score:
     catalog_gap: 66.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.6
+  delta: 0.0
   facets:
     access_clarity: 85.5
     commercial_clarity: 85.5
@@ -237,7 +237,7 @@ score:
     discoverability: 68.5
     governance: 18.2
     operational_transparency: 26.3
-  previous_composite: 61.6
+  previous_composite: 61.0
   provenance:
     conformance: first-party
     contracts:
@@ -254,7 +254,7 @@ score:
     regime_id: insurance
     score: 80.3
   schema_version: 0.17.2
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
   trend: flat
 security:
 - kind: authentication
@@ -277,15 +277,15 @@ slug: levitate
 tags:
 - relationship-marketing
 - CRM
-- email-marketing
+- Email Marketing
 - Contacts
-- small-business
+- Small Business
 - Insurance
 - Financial-Services
-- nonprofit
-- marketing-automation
+- Non-Profit
+- Marketing Automation
 - MCP
 - agent-native
-- saas
+- Software-as-a-Service
 website: https://www.levitate.ai/
 ---

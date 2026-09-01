@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 5.0
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
 api_count: 2
 apis:
 - description: Free geocoding, address normalization/standardization, and GIS data capture REST and SOAP API from TAMU GeoServices. Version 5 returns up to 172 output fields; an API key (from the account profile) is
@@ -147,7 +147,7 @@ score:
     regime_id: education
     score: 42.6
   schema_version: 0.17.2
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/texas-a-m-university/refs/heads/main/screenshots/texas-a-m-university-2026-06-20T195203.png
 security:

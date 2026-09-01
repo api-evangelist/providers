@@ -23,7 +23,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 31.8
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
 agentic_access:
 - acting_count: 241
   human_in_the_loop: 2
@@ -737,7 +737,7 @@ modified: '2026-08-05'
 name: 1Fort
 nav: Providers
 network: true
-overview: '1Fort publishes 89 APIs on the [APIs.io](https://apis.io/) network, including agent_runtime (v2) API, Analytics API, application: applications API, and 86 more. Tagged areas include Insurance, insurtech, commercial-insurance, cyber-insurance, and insurance-broker.
+overview: '1Fort publishes 89 APIs on the [APIs.io](https://apis.io/) network, including agent_runtime (v2) API, Analytics API, application: applications API, and 86 more. Tagged areas include Insurance, Insurtech, Commercial Insurance, Cyber Insurance, and Insurance Broker.
 
 
   The 1Fort catalog on APIs.io includes 1 event-driven AsyncAPI specification.
@@ -757,7 +757,7 @@ score:
     catalog_gap: 85.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.6
+  delta: 0.0
   facets:
     access_clarity: 60.5
     commercial_clarity: 60.5
@@ -767,7 +767,7 @@ score:
     discoverability: 57.4
     governance: 18.2
     operational_transparency: 50.0
-  previous_composite: 54.3
+  previous_composite: 53.7
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -785,7 +785,7 @@ score:
     regime_id: insurance
     score: 54.5
   schema_version: 0.17.2
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/1fort/refs/heads/main/screenshots/1fort-2026-08-07T160647.png
 security:
@@ -808,16 +808,16 @@ security:
 slug: 1fort
 tags:
 - Insurance
-- insurtech
-- commercial-insurance
-- cyber-insurance
-- insurance-broker
+- Insurtech
+- Commercial Insurance
+- Cyber Insurance
+- Insurance Broker
 - Quoting
-- policy-management
+- Policy Management
 - premium-finance
 - Payments
-- workflow-automation
-- artificial-intelligence
-- agentic-ai
+- Workflow-Automation
+- Artificial Intelligence
+- Agentic AI
 website: https://1fort.ai/
 ---

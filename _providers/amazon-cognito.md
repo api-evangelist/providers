@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
 agentic_access:
 - acting_count: 126
   human_in_the_loop: 5
@@ -5520,7 +5520,7 @@ score:
     catalog_gap: 51.5
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.5
+  delta: 0.0
   facets:
     access_clarity: 75.0
     commercial_clarity: 75.0
@@ -5530,7 +5530,7 @@ score:
     discoverability: 44.4
     governance: 28.8
     operational_transparency: 39.5
-  previous_composite: 59.7
+  previous_composite: 59.2
   provenance:
     agentic_access: derived
     contracts:
@@ -5539,7 +5539,7 @@ score:
       marker_coverage: 0.0
       total: 126
   schema_version: 0.17.2
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/amazon-cognito/refs/heads/main/screenshots/amazon-cognito-2026-06-20T171607.png
 security:

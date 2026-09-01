@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
 api_count: 0
 artifact_total: 0
 common:
@@ -64,7 +64,7 @@ modified: '2026-07-18'
 name: Dharma Labs
 nav: Providers
 network: true
-overview: Dharma Labs is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Defi, Cryptocurrency, Ethereum, and Lending.
+overview: Dharma Labs is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, DeFi, Cryptocurrency, Ethereum, and Lending.
 random_paper: 13
 score:
   band: minimal
@@ -92,13 +92,13 @@ score:
       reason: never_enriched
   previous_composite: 6.8
   schema_version: 0.17.2
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/dharma-labs/refs/heads/main/screenshots/dharma-labs-2026-07-25T211859.png
 slug: dharma-labs
 tags:
 - Company
-- Defi
+- DeFi
 - Cryptocurrency
 - Ethereum
 - Lending

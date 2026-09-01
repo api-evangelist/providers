@@ -36,7 +36,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 43.5
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
 agentic_access:
 - acting_count: 249
   human_in_the_loop: 1
@@ -797,7 +797,7 @@ modified: '2026-08-13'
 name: Zoho CRM
 nav: Providers
 network: true
-overview: 'Zoho CRM publishes 36 APIs on the [APIs.io](https://apis.io/) network, including Actions API, APIS API, Appointments S API, and 33 more. Tagged areas include CRM, Sales, Customer Relationship Management, Marketing Automation, and Lead Management.
+overview: 'Zoho CRM publishes 36 APIs on the [APIs.io](https://apis.io/) network, including Actions API, APIS API, Appointments S API, and 33 more. Tagged areas include CRM, Sales, Marketing Automation, Lead Management, and Customer Engagement.
 
 
   The Zoho CRM catalog on APIs.io includes 1 event-driven AsyncAPI specification and 1 Spectral governance ruleset.
@@ -860,7 +860,7 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.17.2
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/zoho-crm/refs/heads/main/screenshots/zoho-crm-2026-06-20T201938.png
 security:
@@ -884,7 +884,6 @@ slug: zoho-crm
 tags:
 - CRM
 - Sales
-- Customer Relationship Management
 - Marketing Automation
 - Lead Management
 - Customer Engagement

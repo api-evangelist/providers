@@ -23,7 +23,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 32.0
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
 api_count: 1
 apis:
 - description: Token-authenticated WebSocket streaming API for real-time market data. Two endpoints — wss://quote.alltick.co/quote-stock-b-ws-api for equities and wss://quote.alltick.co/quote-b-ws-api for forex, cry
@@ -176,7 +176,7 @@ modified: '2026-08-18'
 name: AllTick API
 nav: Providers
 network: true
-overview: 'AllTick API publishes 3 APIs on the [APIs.io](https://apis.io/) network: Quote B API, Quote Stock B API, and Suspension API. Tagged areas include financial-market-data, real-time-data, stock-market-data, forex-data, and Cryptocurrency Data.
+overview: 'AllTick API publishes 3 APIs on the [APIs.io](https://apis.io/) network: Quote B API, Quote Stock B API, and Suspension API. Tagged areas include Financial market data, Real-Time Data, stock-market-data, forex-data, and Cryptocurrency Data.
 
 
   The AllTick API catalog on APIs.io includes 1 event-driven AsyncAPI specification.
@@ -200,7 +200,7 @@ score:
     catalog_gap: 54.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.6
+  delta: 0.0
   facets:
     access_clarity: 76.3
     commercial_clarity: 76.3
@@ -210,7 +210,7 @@ score:
     discoverability: 75.9
     governance: 4.5
     operational_transparency: 50.0
-  previous_composite: 58.5
+  previous_composite: 57.9
   provenance:
     conformance: derived
     contracts:
@@ -221,7 +221,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.17.2
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
   trend: flat
 security:
 - kind: authentication
@@ -234,16 +234,16 @@ security:
   summary_line: TLSv1.3 · HSTS
 slug: alltick-api
 tags:
-- financial-market-data
-- real-time-data
+- Financial market data
+- Real-Time Data
 - stock-market-data
 - forex-data
 - Cryptocurrency Data
 - commodities-data
-- tick-data
+- Tick Data
 - websocket-streaming
 - Fintech
-- quantitative-trading
+- Quantitative Trading
 - market-data-api
 - trading-halts
 website: https://apis.alltick.co/en

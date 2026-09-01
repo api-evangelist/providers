@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 23.8
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
 agentic_access:
 - acting_count: 294
   human_in_the_loop: 6
@@ -438,7 +438,7 @@ score:
     regime_id: payments
     score: 46.9
   schema_version: 0.17.2
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/vivenu/refs/heads/main/screenshots/vivenu-2026-08-17T082808.png
 security:
@@ -463,6 +463,6 @@ tags:
 - Payments
 - Live Entertainment
 - Webhook
-- API-first
+- API-First
 website: https://vivenu.com/
 ---

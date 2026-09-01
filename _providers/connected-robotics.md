@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
 api_count: 0
 artifact_total: 1
 common:
@@ -68,7 +68,7 @@ modified: '2026-07-18'
 name: Connected Robotics
 nav: Providers
 network: true
-overview: 'Connected Robotics is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Robotics, Foodtech, Automation, and Artificial Intelligence.
+overview: 'Connected Robotics is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Robotics, Food Tech, Automation, and Artificial Intelligence.
 
 
   Connected Robotics'' developer surface includes engineering blog, support, and 4 more developer resources.'
@@ -93,7 +93,7 @@ score:
     operational_transparency: 0.0
   previous_composite: 8.5
   schema_version: 0.17.2
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/connected-robotics/refs/heads/main/screenshots/connected-robotics-2026-07-25T210302.png
 security:
@@ -105,7 +105,7 @@ slug: connected-robotics
 tags:
 - Company
 - Robotics
-- Foodtech
+- Food Tech
 - Automation
 - Artificial Intelligence
 - Manufacturing

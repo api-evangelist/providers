@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 58.7
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
 agentic_access:
 - acting_count: 11
   human_in_the_loop: 0
@@ -622,7 +622,7 @@ modified: '2026-08-13'
 name: Common Room
 nav: Providers
 network: true
-overview: 'Common Room publishes 23 APIs on the [APIs.io](https://apis.io/) network, including SCIM API, Activities API, Contacts API, and 20 more. Tagged areas include Community Intelligence, Go-to-Market, Member Signals, GitHub, and Slack.
+overview: 'Common Room publishes 23 APIs on the [APIs.io](https://apis.io/) network, including SCIM API, Activities API, Contacts API, and 20 more. Tagged areas include Community Intelligence, Go-To-Market, Member Signals, GitHub, and Slack.
 
 
   The Common Room catalog on APIs.io includes 1 event-driven AsyncAPI specification, 1 JSON-LD context, and 1 Spectral governance ruleset.
@@ -684,7 +684,7 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.17.2
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/common-room/refs/heads/main/screenshots/common-room-2026-06-20T174819.png
 security:
@@ -707,7 +707,7 @@ security:
 slug: common-room
 tags:
 - Community Intelligence
-- Go-to-Market
+- Go-To-Market
 - Member Signals
 - GitHub
 - Slack

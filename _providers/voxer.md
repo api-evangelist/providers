@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 2.5
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
 api_count: 0
 artifact_total: 2
 common:
@@ -105,7 +105,7 @@ modified: '2026-07-21'
 name: Voxer
 nav: Providers
 network: true
-overview: 'Voxer is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Communications, Push-To-Talk, Walkie-Talkie, and Voice.
+overview: 'Voxer is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Communications, Push To Talk, Walkie-Talkie, and Voice.
 
 
   Voxer''s developer surface includes documentation, engineering blog, support, pricing, authentication, and 10 more developer resources.'
@@ -130,7 +130,7 @@ score:
     operational_transparency: 2.6
   previous_composite: 20.9
   schema_version: 0.17.2
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
   trend: flat
 security:
 - kind: authentication
@@ -145,7 +145,7 @@ slug: voxer
 tags:
 - Company
 - Communications
-- Push-To-Talk
+- Push To Talk
 - Walkie-Talkie
 - Voice
 - Messaging

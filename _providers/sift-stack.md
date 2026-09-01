@@ -23,7 +23,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 32.2
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
 api_count: 1
 apis:
 - description: The gRPC contract that is Sift's primary API — 51 services and 330 RPCs defined across 66 proto3 files published under MIT in the sift-stack/sift monorepo, including the bidirectional streaming ingest
@@ -173,6 +173,10 @@ asyncapis:
   name: Sift Stack Webhooks
   slug: sift-stack-webhooks
 common:
+- group: commercial
+  title: ''
+  type: License
+  url: https://github.com/sift-stack/sift/blob/main/LICENSE
 - group: other
   title: ''
   type: CapabilityMap
@@ -324,7 +328,7 @@ overview: 'Sift Stack publishes 45 APIs on the [APIs.io](https://apis.io/) netwo
   The Sift Stack catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  Sift Stack''s developer surface includes documentation, API reference, getting-started guide, engineering blog, signup flow, changelog, FAQ, and 26 more developer resources.'
+  Sift Stack''s developer surface includes documentation, API reference, getting-started guide, engineering blog, signup flow, changelog, FAQ, and 27 more developer resources.'
 plans:
 - name: Sift Stack Plans Pricing
   plan_count: 0
@@ -342,7 +346,7 @@ score:
     catalog_gap: 91.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -2.4
+  delta: 0.0
   facets:
     access_clarity: 50.0
     commercial_clarity: 50.0
@@ -352,7 +356,7 @@ score:
     discoverability: 51.9
     governance: 0.0
     operational_transparency: 52.6
-  previous_composite: 57.7
+  previous_composite: 55.3
   regulatory:
     applies: true
     matched_via: tags
@@ -360,7 +364,7 @@ score:
     regime_id: energy_utilities
     score: 48.6
   schema_version: 0.17.2
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
   trend: flat
 security:
 - kind: authentication

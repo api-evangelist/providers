@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
 api_count: 2
 apis:
 - description: 'Partner integration API for exchanging supply-chain and procurement data (purchase quotations, orders, catalog) between customer and supplier ERP systems and the Bionexo marketplace. Documented via a '
@@ -130,7 +130,7 @@ score:
     regime_id: health
     score: 17.5
   schema_version: 0.17.2
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/bionexo/refs/heads/main/screenshots/bionexo-2026-07-25T203048.png
 security:
@@ -145,7 +145,7 @@ tags:
 - Supply Chain
 - Procurement
 - Marketplace
-- E-Procurement
+- eProcurement
 - Hospitals
 - ERP
 - Latin America

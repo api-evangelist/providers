@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
 api_count: 0
 artifact_total: 1
 common:
@@ -60,7 +60,7 @@ modified: '2026-07-21'
 name: ScaleArc (IgniteTech)
 nav: Providers
 network: true
-overview: 'ScaleArc (IgniteTech) is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Ai Infrastructure, Database, Load Balancing, and SQL Server.
+overview: 'ScaleArc (IgniteTech) is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, AI Infrastructure, Database, Load Balancing, and SQL Server.
 
 
   ScaleArc (IgniteTech)''s developer surface includes support and 3 more developer resources.'
@@ -85,7 +85,7 @@ score:
     operational_transparency: 0.0
   previous_composite: 6.0
   schema_version: 0.17.2
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
   trend: flat
 security:
 - kind: domain-security
@@ -95,7 +95,7 @@ security:
 slug: scalearc-ignitetech
 tags:
 - Company
-- Ai Infrastructure
+- AI Infrastructure
 - Database
 - Load Balancing
 - SQL Server

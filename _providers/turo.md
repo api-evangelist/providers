@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
 api_count: 0
 artifact_total: 2
 common:
@@ -113,7 +113,7 @@ modified: '2026-05-25'
 name: Turo
 nav: Providers
 network: true
-overview: 'Turo is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Car Sharing, Peer To Peer, Marketplace, Mobility, and Travel.
+overview: 'Turo is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Car Sharing, Peer-to-Peer, Marketplace, Mobility, and Travel.
 
 
   Turo''s developer surface includes engineering blog, GitHub presence, and 15 more developer resources.'
@@ -138,7 +138,7 @@ score:
     operational_transparency: 5.3
   previous_composite: 9.2
   schema_version: 0.17.2
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
   trend: flat
 security:
 - kind: domain-security
@@ -152,7 +152,7 @@ security:
 slug: turo
 tags:
 - Car Sharing
-- Peer To Peer
+- Peer-to-Peer
 - Marketplace
 - Mobility
 - Travel

@@ -23,7 +23,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 26.3
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
 api_count: 1
 apis:
 - description: Pages, posts, reusable blocks and navigation.
@@ -218,7 +218,7 @@ modified: '2026-08-06'
 name: Allotex
 nav: Providers
 network: true
-overview: 'Allotex publishes 6 APIs on the [APIs.io](https://apis.io/) network, including Content API, Discovery API, Identity API, and 3 more. Tagged areas include Company, medical-devices, ophthalmology, biologics, and vision-correction.
+overview: 'Allotex publishes 6 APIs on the [APIs.io](https://apis.io/) network, including Content API, Discovery API, Identity API, and 3 more. Tagged areas include Company, Medical Devices, Ophthalmology, Biologics, and vision-correction.
 
 
   The Allotex catalog on APIs.io includes 1 JSON-LD context.
@@ -234,7 +234,7 @@ score:
     catalog_gap: 73.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.6
+  delta: 0.0
   facets:
     access_clarity: 10.5
     commercial_clarity: 10.5
@@ -244,7 +244,7 @@ score:
     discoverability: 68.5
     governance: 4.5
     operational_transparency: 0.0
-  previous_composite: 19.2
+  previous_composite: 18.6
   provenance:
     conformance: derived
     contracts:
@@ -261,7 +261,7 @@ score:
     regime_id: health
     score: 26.3
   schema_version: 0.17.2
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/allotex/refs/heads/main/screenshots/allotex-2026-08-07T161228.png
 security:
@@ -276,17 +276,17 @@ security:
 slug: allotex
 tags:
 - Company
-- medical-devices
-- ophthalmology
-- biologics
+- Medical Devices
+- Ophthalmology
+- Biologics
 - vision-correction
 - corneal-allograft
 - Presbyopia
 - hyperopia
 - refractive-surgery
 - tissue-processing
-- life-sciences
-- clinical-trials
+- Life Sciences
+- Clinical Trials
 - content-api
 website: https://us.allotex.com/
 ---

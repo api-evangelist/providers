@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
 api_count: 0
 artifact_total: 0
 common:
@@ -52,7 +52,7 @@ modified: '2026-07-21'
 name: Truelli
 nav: Providers
 network: true
-overview: 'Truelli is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Health, HealthTech, Femtech, and Diagnostics.
+overview: 'Truelli is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Health, Health Tech, Femtech, and Diagnostics.
 
 
   Truelli''s developer surface includes engineering blog and 1 more developer resources.'
@@ -89,13 +89,13 @@ score:
     regime_id: health
     score: 0.0
   schema_version: 0.17.2
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
   trend: flat
 slug: truelli
 tags:
 - Company
 - Health
-- HealthTech
+- Health Tech
 - Femtech
 - Diagnostics
 - Medical Device

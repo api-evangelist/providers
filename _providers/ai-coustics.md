@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 2.5
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
 api_count: 1
 apis:
 - description: Real-time speech-enhancement SDK (Quail, Rook, Quail VAD, Quail Voice Focus, Tyto) with a JWT token-minting API for client authentication. Delivered as native language bindings.
@@ -137,7 +137,7 @@ modified: '2026-07-18'
 name: ai-coustics
 nav: Providers
 network: true
-overview: 'ai-coustics publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Ai/Ml, Audio, Speech Enhancement, and Voice AI.
+overview: 'ai-coustics publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Ai Ml, Audio, Speech Enhancement, and Voice AI.
 
 
   ai-coustics'' developer surface includes documentation, API reference, getting-started guide, engineering blog, pricing, signup flow, changelog, and 15 more developer resources.'
@@ -162,7 +162,7 @@ score:
     operational_transparency: 26.3
   previous_composite: 33.3
   schema_version: 0.17.2
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/ai-coustics/refs/heads/main/screenshots/ai-coustics-2026-07-25T195338.png
 security:
@@ -177,7 +177,7 @@ security:
 slug: ai-coustics
 tags:
 - Company
-- Ai/Ml
+- Ai Ml
 - Audio
 - Speech Enhancement
 - Voice AI

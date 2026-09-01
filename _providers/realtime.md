@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 1.3
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
 api_count: 26
 apis:
 - description: A full-duplex communication protocol over a single TCP connection, standardized by the IETF as RFC 6455 and defined in the WHATWG WebSocket API on the client side. WebSocket is the most widely deploye
@@ -252,7 +252,7 @@ score:
     operational_transparency: 18.4
   previous_composite: 25.0
   schema_version: 0.17.2
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/realtime/refs/heads/main/screenshots/realtime-2026-06-20T192649.png
 security:
@@ -268,7 +268,7 @@ tags:
 - Server-Sent Events
 - MQTT
 - Push Notifications
-- Pub Sub
+- Pub-Sub
 - Presence
 - Signaling
 - Topic

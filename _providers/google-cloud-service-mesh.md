@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 26.5
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
 agentic_access:
 - acting_count: 11
   human_in_the_loop: 0
@@ -242,7 +242,7 @@ score:
       marker_coverage: 0.0
       total: 11
   schema_version: 0.17.2
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/google-cloud-service-mesh/refs/heads/main/screenshots/google-cloud-service-mesh-2026-06-20T182137.png
 security:

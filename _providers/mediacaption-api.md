@@ -23,7 +23,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 12.9
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
 api_count: 1
 apis:
 - description: REST API for fetching public YouTube transcripts synchronously and in bulk, with account/balance endpoints, job polling, and completion webhooks. Bearer API key or X-API-Key auth.
@@ -37,7 +37,7 @@ modified: '2026-07-18'
 name: MediaCaption API
 nav: Providers
 network: true
-overview: 'MediaCaption API publishes 1 API on the [APIs.io](https://apis.io/) network: Media Caption Public API. Tagged areas include YouTube, Transcription, captions, subtitles, and Video.'
+overview: 'MediaCaption API publishes 1 API on the [APIs.io](https://apis.io/) network: Media Caption Public API. Tagged areas include YouTube, Transcription, Captions, Subtitles, and Video.'
 random_paper: 4
 score:
   band: emerging
@@ -65,20 +65,20 @@ score:
       reason: never_enriched
   previous_composite: 14.5
   schema_version: 0.17.2
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/mediacaption-api/refs/heads/main/screenshots/mediacaption-api-2026-08-07T172332.png
 slug: mediacaption-api
 tags:
 - YouTube
 - Transcription
-- captions
-- subtitles
+- Captions
+- Subtitles
 - Video
-- rest
+- REST
 - OpenAPI
 - Webhook
-- speech-to-text
+- Speech-to-Text
 - Media
 - Developer Tools
 ---

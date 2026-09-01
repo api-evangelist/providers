@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
 api_count: 0
 artifact_total: 1
 common:
@@ -56,7 +56,7 @@ modified: '2026-07-21'
 name: Seneca Systems
 nav: Providers
 network: true
-overview: Seneca Systems is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Govtech, Government, CRM, and Constituent Services.
+overview: Seneca Systems is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, GovTech, Government, CRM, and Constituent Services.
 random_paper: 11
 score:
   band: minimal
@@ -84,7 +84,7 @@ score:
     regime_id: government
     score: 11.1
   schema_version: 0.17.2
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
   trend: flat
 security:
 - kind: domain-security
@@ -94,7 +94,7 @@ security:
 slug: seneca-systems
 tags:
 - Company
-- Govtech
+- GovTech
 - Government
 - CRM
 - Constituent Services

@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 45.2
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
 agentic_access:
 - acting_count: 42
   human_in_the_loop: 2
@@ -1930,7 +1930,7 @@ modified: '2026-08-29'
 name: Oracle Cloud Infrastructure
 nav: Providers
 network: true
-overview: 'Oracle Cloud Infrastructure publishes 25 APIs on the [APIs.io](https://apis.io/) network, including Alarms API, Applications API, Autonomous Databases API, and 22 more. Tagged areas include Cloud Computing, Enterprise Cloud, Infrastructure as a Service, Oracle, and Platform-as-a-Service.
+overview: 'Oracle Cloud Infrastructure publishes 25 APIs on the [APIs.io](https://apis.io/) network, including Alarms API, Applications API, Autonomous Databases API, and 22 more. Tagged areas include Cloud Computing, Enterprise Cloud, Infrastructure-as-a-Service, Oracle, and Platform-as-a-Service.
 
 
   The Oracle Cloud Infrastructure catalog on APIs.io includes 1 event-driven AsyncAPI specification, 34 JSON-LD contexts, and 2 Spectral governance rulesets.
@@ -1998,7 +1998,7 @@ score:
       marker_coverage: 100.0
       total: 25
   schema_version: 0.17.2
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/oracle-cloud/refs/heads/main/screenshots/oracle-cloud-2026-06-20T191120.png
 security:
@@ -2022,7 +2022,7 @@ slug: oracle-cloud
 tags:
 - Cloud Computing
 - Enterprise Cloud
-- Infrastructure as a Service
+- Infrastructure-as-a-Service
 - Oracle
 - Platform-as-a-Service
 - Compute
@@ -2032,7 +2032,7 @@ tags:
 - Kubernetes
 - Serverless
 - Monitoring
-- Event Driven
+- Event-Driven
 use_cases:
 - description: Migrate on-premises workloads to OCI with tools for assessment, planning, and execution
   name: Cloud Migration

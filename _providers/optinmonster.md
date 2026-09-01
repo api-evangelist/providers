@@ -23,7 +23,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 25.2
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
 api_count: 3
 apis:
 - description: The OptinMonster application REST API. Versioned path segments (`/v1`, `/v2`) sit on api.optinmonster.com and cover campaigns, leads, sites, site origins, integrations, account, revenue attribution an
@@ -176,7 +176,7 @@ score:
   provenance:
     conformance: derived
   schema_version: 0.17.2
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/optinmonster/refs/heads/main/screenshots/optinmonster-2026-08-17T081135.png
 security:

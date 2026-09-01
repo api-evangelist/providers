@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 2.5
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
 api_count: 8
 apis:
 - description: USC's production single sign-on identity provider, operated by USC Information Technology Services on USC's own host, publishing its SAML 2.0 metadata unauthenticated. GET https://shibboleth.usc.edu/i
@@ -62,6 +62,10 @@ apis:
   slug: schedule-of-classes
 artifact_total: 13
 common:
+- group: commercial
+  title: ''
+  type: License
+  url: https://github.com/informatics-isi-edu/ermrest/blob/master/LICENSE
 - group: company
   title: ''
   type: Website
@@ -210,7 +214,7 @@ overview: 'University of Southern California publishes 8 APIs on the [APIs.io](h
   The University of Southern California catalog on APIs.io includes 1 JSON-LD context.
 
 
-  University of Southern California''s developer surface includes documentation, API reference, support, GitHub presence, engineering blog, and 26 more developer resources.'
+  University of Southern California''s developer surface includes documentation, API reference, support, GitHub presence, engineering blog, and 27 more developer resources.'
 plans:
 - name: Usc Plans Pricing
   plan_count: 2
@@ -228,7 +232,7 @@ score:
     catalog_gap: 53.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: 11.2
+  delta: 0.0
   facets:
     access_clarity: 39.5
     commercial_clarity: 39.5
@@ -238,7 +242,7 @@ score:
     discoverability: 64.8
     governance: 18.2
     operational_transparency: 23.7
-  previous_composite: 18.1
+  previous_composite: 29.3
   regulatory:
     applies: true
     matched_via: tags
@@ -246,8 +250,8 @@ score:
     regime_id: education
     score: 42.6
   schema_version: 0.17.2
-  scored_at: '2026-08-30'
-  trend: rising
+  scored_at: '2026-09-01'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/usc/refs/heads/main/screenshots/usc-2026-06-20T200656.png
 security:
 - kind: domain-security

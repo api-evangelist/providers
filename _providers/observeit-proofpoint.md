@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
 api_count: 0
 artifact_total: 2
 common:
@@ -72,7 +72,7 @@ modified: '2026-07-20'
 name: ObserveIT (Proofpoint)
 nav: Providers
 network: true
-overview: 'ObserveIT (Proofpoint) is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Ai Infrastructure, Security, Insider Threat Management, and Data Loss Prevention.
+overview: 'ObserveIT (Proofpoint) is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, AI Infrastructure, Security, Insider Threat Management, and Data Loss Prevention.
 
 
   ObserveIT (Proofpoint)''s developer surface includes engineering blog and 6 more developer resources.'
@@ -97,7 +97,7 @@ score:
     operational_transparency: 10.5
   previous_composite: 11.1
   schema_version: 0.17.2
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/observeit-proofpoint/refs/heads/main/screenshots/observeit-proofpoint-2026-08-07T185915.png
 security:
@@ -112,7 +112,7 @@ security:
 slug: observeit-proofpoint
 tags:
 - Company
-- Ai Infrastructure
+- AI Infrastructure
 - Security
 - Insider Threat Management
 - Data Loss Prevention

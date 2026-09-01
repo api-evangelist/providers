@@ -23,7 +23,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 33.8
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
 api_count: 5
 apis:
 - description: The Address API API from Solidus Labs — 1 operation(s) for address api.
@@ -276,7 +276,7 @@ score:
     mcp: derived
     skills: first-party
   schema_version: 0.17.2
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/solidus-labs/refs/heads/main/screenshots/solidus-labs-2026-08-17T080424.png
 security:

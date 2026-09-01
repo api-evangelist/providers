@@ -23,7 +23,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
 api_count: 0
 artifact_total: 1
 common:
@@ -191,7 +191,7 @@ score:
       reason: no_resolvable_host
   previous_composite: 9.6
   schema_version: 0.17.2
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/graymatter-robotics/refs/heads/main/screenshots/graymatter-robotics-2026-08-07T165836.png
 security:
@@ -214,7 +214,7 @@ tags:
 - Aerospace
 - Defense
 - Heavy Equipment
-- Robots as a Service
+- Robots-as-a-Service
 - Factory Automation
 website: https://graymatter-robotics.com/
 ---

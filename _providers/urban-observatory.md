@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
 api_count: 1
 apis:
 - description: The largest set of publicly available real time urban data in the UK
@@ -88,7 +88,7 @@ score:
     regime_id: government
     score: 11.1
   schema_version: 0.17.2
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/urban-observatory/refs/heads/main/screenshots/urban-observatory-2026-06-20T200609.png
 security:

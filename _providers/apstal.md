@@ -23,7 +23,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 33.7
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
 api_count: 2
 apis:
 - description: Hosted MCP server exposing Apstal analytics via JSON-RPC 2.0 over Streamable HTTP. Public tools (login, register, server_info) and authenticated tools (execute_sql, get_analytics, list_projects, regis
@@ -182,7 +182,7 @@ modified: '2026-08-13'
 name: Apstal
 nav: Providers
 network: true
-overview: 'Apstal publishes 2 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Analytics, web-analytics, privacy, session-replay, and heatmaps.
+overview: 'Apstal publishes 2 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Analytics, Web Analytics, Privacy, Session Replay, and Heatmaps.
 
 
   The Apstal catalog on APIs.io includes 1 event-driven AsyncAPI specification.
@@ -227,7 +227,7 @@ score:
     mcp: first-party
     skills: first-party
   schema_version: 0.17.2
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/apstal/refs/heads/main/screenshots/apstal-2026-07-25T200912.png
 security:
@@ -242,19 +242,19 @@ security:
 slug: apstal
 tags:
 - Analytics
-- web-analytics
-- privacy
-- session-replay
-- heatmaps
+- Web Analytics
+- Privacy
+- Session Replay
+- Heatmaps
 - MCP
 - agent-native
-- cookieless
+- Cookieless
 - llms-txt
-- bigquery
-- gdpr
+- BigQuery
+- GDPR
 - A2A
-- agent-skills
-- bot-detection
-- core-web-vitals
+- Agent Skills
+- Bot Detection
+- Core Web Vitals
 website: https://apstal.com/docs
 ---

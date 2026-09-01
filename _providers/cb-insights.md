@@ -23,7 +23,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 35.8
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
 api_count: 1
 apis:
 - description: The original CB Insights REST API — 11 documented GET operations over organizations, deals (fundings, investments, portfolio exits), people, business relationships, expert collections and the credit l
@@ -272,7 +272,7 @@ modified: '2026-08-14'
 name: CB Insights
 nav: Providers
 network: true
-overview: 'CB Insights publishes 11 APIs on the [APIs.io](https://apis.io/) network, including Authorization API, Business Relationships API, Chat CBI API, and 8 more. Tagged areas include Company, Market Intelligence, private-company-data, venture-capital, and funding-data.
+overview: 'CB Insights publishes 11 APIs on the [APIs.io](https://apis.io/) network, including Authorization API, Business Relationships API, Chat CBI API, and 8 more. Tagged areas include Company, Market Intelligence, private-company-data, Venture Capital, and Funding Data.
 
 
   CB Insights'' developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 31 more developer resources.'
@@ -298,7 +298,7 @@ score:
     catalog_gap: 65.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.5
+  delta: 0.0
   facets:
     access_clarity: 60.5
     commercial_clarity: 60.5
@@ -308,7 +308,7 @@ score:
     discoverability: 68.5
     governance: 33.3
     operational_transparency: 39.5
-  previous_composite: 52.9
+  previous_composite: 52.4
   provenance:
     conformance: first-party
     contracts:
@@ -319,7 +319,7 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.17.2
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/cb-insights/refs/heads/main/screenshots/cb-insights-2026-08-17T080811.png
 security:
@@ -340,16 +340,16 @@ tags:
 - Company
 - Market Intelligence
 - private-company-data
-- venture-capital
-- funding-data
+- Venture Capital
+- Funding Data
 - investor-data
-- company-data
-- people-data
-- business-relationships
+- Company Data
+- People Data
+- BusinessRelationships
 - predictive-scoring
 - MCP
 - agent-native
 - Data Enrichment
-- snowflake
+- Snowflake
 website: https://www.cbinsights.com/
 ---

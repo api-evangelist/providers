@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
 api_count: 0
 artifact_total: 2
 common:
@@ -77,7 +77,7 @@ modified: '2026-07-21'
 name: SevOne (Turbonomic)
 nav: Providers
 network: true
-overview: 'SevOne (Turbonomic) is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Ai Infrastructure, Network Monitoring, Observability, and AIOps.
+overview: 'SevOne (Turbonomic) is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, AI Infrastructure, Network Monitoring, Observability, and AIOps.
 
 
   SevOne (Turbonomic)''s developer surface includes documentation, support, and 6 more developer resources.'
@@ -102,7 +102,7 @@ score:
     operational_transparency: 0.0
   previous_composite: 8.6
   schema_version: 0.17.2
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
   trend: flat
 security:
 - kind: domain-security
@@ -116,7 +116,7 @@ security:
 slug: sevone-turbonomic
 tags:
 - Company
-- Ai Infrastructure
+- AI Infrastructure
 - Network Monitoring
 - Observability
 - AIOps

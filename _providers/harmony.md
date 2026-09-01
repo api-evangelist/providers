@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 26.4
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
 agentic_access:
 - acting_count: 5
   human_in_the_loop: 0
@@ -151,7 +151,7 @@ modified: '2026-07-19'
 name: Harmony
 nav: Providers
 network: true
-overview: 'Harmony publishes 1 API on the [APIs.io](https://apis.io/) network: tickets API. Tagged areas include IT Service Management, Service Desk, Ticketing, Enterprise Service Management, and AI Agents.
+overview: 'Harmony publishes 1 API on the [APIs.io](https://apis.io/) network: tickets API. Tagged areas include ITSM, Service Desk, Ticketing, Enterprise Service Management, and AI Agents.
 
 
   Harmony''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, authentication, and 14 more developer resources.'
@@ -190,7 +190,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.17.2
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/harmony/refs/heads/main/screenshots/harmony-2026-07-25T220731.png
 security:
@@ -204,7 +204,7 @@ security:
   summary_line: TLSv1.3 · HSTS · DMARC
 slug: harmony
 tags:
-- IT Service Management
+- ITSM
 - Service Desk
 - Ticketing
 - Enterprise Service Management

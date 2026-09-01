@@ -23,7 +23,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
 api_count: 5
 apis:
 - description: 'API-driven Interac e-Transfer for Canadian money movement, supporting Send Money, Request Money, Receive AutoDeposit, and Receive Question-and-Answer flows so program managers and fintech clients can '
@@ -104,7 +104,7 @@ modified: '2026-07-25'
 name: Peoples Group
 nav: Providers
 network: true
-overview: 'Peoples Group publishes 5 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Payments, Canada, Banking-as-a-Service, Card Issuing, and Money Movement.
+overview: 'Peoples Group publishes 5 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Payments, Canada, Banking as a Service, Card Issuing, and Money Movement.
 
 
   Peoples Group''s developer surface includes documentation, support, engineering blog, and 10 more developer resources.'
@@ -137,7 +137,7 @@ score:
     regime_id: payments
     score: 42.2
   schema_version: 0.17.2
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
   trend: flat
 security:
 - kind: domain-security
@@ -148,12 +148,12 @@ slug: peoples-group
 tags:
 - Payments
 - Canada
-- Banking-as-a-Service
+- Banking as a Service
 - Card Issuing
 - Money Movement
 - Interac e-Transfer
 - EFT
-- Bill Payment
+- Bill Payments
 - Merchant Acquiring
 - Real-Time Payments
 - ISO 20022

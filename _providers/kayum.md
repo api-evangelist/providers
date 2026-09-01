@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
 api_count: 0
 artifact_total: 1
 common:
@@ -64,7 +64,7 @@ modified: '2026-07-19'
 name: Kayum
 nav: Providers
 network: true
-overview: 'Kayum is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Insurance, InsurTech, Data Analytics, and Market Data.
+overview: 'Kayum is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Insurance, Insurtech, Data Analytics, and Market Data.
 
 
   Kayum''s developer surface includes support and 4 more developer resources.'
@@ -95,7 +95,7 @@ score:
     regime_id: insurance
     score: 15.2
   schema_version: 0.17.2
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/kayum/refs/heads/main/screenshots/kayum-2026-07-25T223537.png
 security:
@@ -107,7 +107,7 @@ slug: kayum
 tags:
 - Company
 - Insurance
-- InsurTech
+- Insurtech
 - Data Analytics
 - Market Data
 - Insurance Pricing

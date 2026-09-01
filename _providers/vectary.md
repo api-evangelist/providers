@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 2.5
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
 api_count: 1
 apis:
 - description: JavaScript API for programmatic control of Vectary 3D scenes embedded on websites. The VctrModelApi class (an ES module served from app.vectary.com) wraps postMessage communication with the embedded i
@@ -162,7 +162,7 @@ score:
     operational_transparency: 28.9
   previous_composite: 34.4
   schema_version: 0.17.2
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
   trend: flat
 security:
 - kind: authentication
@@ -189,6 +189,6 @@ tags:
 - Augmented Reality
 - 3D Configurator
 - Product Visualization
-- ECommerce
+- E-Commerce
 website: https://www.vectary.com/
 ---

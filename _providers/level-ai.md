@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
 api_count: 0
 artifact_total: 2
 common:
@@ -154,7 +154,7 @@ score:
     operational_transparency: 5.3
   previous_composite: 9.1
   schema_version: 0.17.2
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/level-ai/refs/heads/main/screenshots/level-ai-2026-06-20T184434.png
 security:
@@ -175,7 +175,7 @@ tags:
 - Auto QA
 - Quality Assurance
 - Agent Assist
-- Voice Of The Customer
+- Voice of the Customer
 - Generative AI
 - Voice AI
 - Speech Recognition

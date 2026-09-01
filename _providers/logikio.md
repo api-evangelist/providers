@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 29.0
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
 agentic_access:
 - acting_count: 16
   human_in_the_loop: 0
@@ -226,7 +226,7 @@ modified: '2026-08-13'
 name: Logik.io
 nav: Providers
 network: true
-overview: 'Logik.io publishes 11 APIs on the [APIs.io](https://apis.io/) network, including Blueprint > Export API, Blueprint > Import API, BOM API, and 8 more. Tagged areas include Company, Sales Tech, CPQ, Configure Price Quote, and Product Configuration.
+overview: 'Logik.io publishes 11 APIs on the [APIs.io](https://apis.io/) network, including Blueprint > Export API, Blueprint > Import API, BOM API, and 8 more. Tagged areas include Company, Sales Tech, CPQ, Product Configuration, and Bill of Materials.
 
 
   Logik.io''s developer surface includes documentation, API reference, authentication, sandbox, support, and 19 more developer resources.'
@@ -269,7 +269,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.17.2
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/logikio/refs/heads/main/screenshots/logikio-2026-07-25T225503.png
 security:
@@ -286,7 +286,6 @@ tags:
 - Company
 - Sales Tech
 - CPQ
-- Configure Price Quote
 - Product Configuration
 - Bill of Materials
 - E-Commerce

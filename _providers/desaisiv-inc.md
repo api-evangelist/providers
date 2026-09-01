@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
 api_count: 0
 artifact_total: 1
 common:
@@ -56,7 +56,7 @@ modified: '2026-07-18'
 name: Desaisiv Inc.
 nav: Providers
 network: true
-overview: 'Desaisiv Inc. is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, InsurTech, Insurance, Health Insurance, and Underwriting.
+overview: 'Desaisiv Inc. is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Insurtech, Insurance, Health Insurance, and Underwriting.
 
 
   Desaisiv Inc.''s developer surface includes engineering blog and 2 more developer resources.'
@@ -69,7 +69,7 @@ score:
     catalog_gap: 88.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.3
+  delta: 0.0
   facets:
     access_clarity: 0.0
     commercial_clarity: 0.0
@@ -79,7 +79,7 @@ score:
     discoverability: 50.0
     governance: 0.0
     operational_transparency: 0.0
-  previous_composite: 2.8
+  previous_composite: 2.5
   regulatory:
     applies: true
     matched_via: tags
@@ -87,7 +87,7 @@ score:
     regime_id: insurance
     score: 9.1
   schema_version: 0.17.2
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/desaisiv-inc/refs/heads/main/screenshots/desaisiv-inc-2026-07-25T211740.png
 security:
@@ -98,7 +98,7 @@ security:
 slug: desaisiv-inc
 tags:
 - Company
-- InsurTech
+- Insurtech
 - Insurance
 - Health Insurance
 - Underwriting

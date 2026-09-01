@@ -23,7 +23,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 35.7
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
 agentic_access:
 - acting_count: 78
   human_in_the_loop: 1
@@ -408,7 +408,7 @@ score:
     regime_id: payments
     score: 68.8
   schema_version: 0.17.2
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/tribe-payments/refs/heads/main/screenshots/tribe-payments-2026-08-17T082436.png
 security:
@@ -431,7 +431,7 @@ tags:
 - Payment Processing
 - Open Banking
 - Account-to-Account
-- Banking-as-a-Service
+- Banking as a Service
 - Fraud
 - Point-of-Sale
 website: https://www.tribepayments.com/

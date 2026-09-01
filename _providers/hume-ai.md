@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 29.9
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
 agentic_access:
 - acting_count: 28
   human_in_the_loop: 1
@@ -179,7 +179,7 @@ modified: '2026-05-29'
 name: Hume AI
 nav: Providers
 network: true
-overview: 'Hume AI publishes 10 APIs on the [APIs.io](https://apis.io/) network, including Ai Default API, subpackage_batch API, subpackage_chatGroups API, and 7 more. Tagged areas include Artificial Intelligence, Voice, Empathic, Emotion, and Multimodal.
+overview: 'Hume AI publishes 10 APIs on the [APIs.io](https://apis.io/) network, including Ai Default API, subpackage_batch API, subpackage_chatGroups API, and 7 more. Tagged areas include Artificial Intelligence, Voice, Empathic, Emotion, and Multi-Modal.
 
 
   The Hume AI catalog on APIs.io includes 1 event-driven AsyncAPI specification and 1 Spectral governance ruleset.
@@ -234,7 +234,7 @@ score:
       marker_coverage: 0.0
       total: 9
   schema_version: 0.17.2
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/hume-ai/refs/heads/main/screenshots/hume-ai-2026-06-20T183040.png
 security:
@@ -252,6 +252,6 @@ tags:
 - Voice
 - Empathic
 - Emotion
-- Multimodal
+- Multi-Modal
 website: https://www.hume.ai/
 ---

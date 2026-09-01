@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 39.0
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
 api_count: 4
 apis:
 - description: OpenTravel (OTA) 2017B XML connectivity API for channel managers, property-management systems and hotel technology partners. Traveloka hosts the ARI (availability, rates, inventory) and content push e
@@ -270,7 +270,7 @@ modified: '2026-08-05'
 name: Traveloka
 nav: Providers
 network: true
-overview: 'Traveloka publishes 14 APIs on the [APIs.io](https://apis.io/) network, including 1.1 Content - Hotel & Room API, 2.1 Search - HotelList API, 2.2 Search - RoomList API, and 11 more. Tagged areas include travel, online-travel-agency, accommodation, hotel-booking, and Flights.
+overview: 'Traveloka publishes 14 APIs on the [APIs.io](https://apis.io/) network, including 1.1 Content - Hotel & Room API, 2.1 Search - HotelList API, 2.2 Search - RoomList API, and 11 more. Tagged areas include Travel, Online Travel Agency, Accommodation, Hotel Booking, and Flights.
 
 
   The Traveloka catalog on APIs.io includes 1 event-driven AsyncAPI specification.
@@ -311,7 +311,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.17.2
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/traveloka/refs/heads/main/screenshots/traveloka-2026-08-17T125942.png
 security:
@@ -329,17 +329,17 @@ security:
   summary_line: Bugcrowd
 slug: traveloka
 tags:
-- travel
-- online-travel-agency
-- accommodation
-- hotel-booking
+- Travel
+- Online Travel Agency
+- Accommodation
+- Hotel Booking
 - Flights
 - Activities
-- hospitality
+- Hospitality
 - Distribution
-- channel-manager
-- opentravel
-- southeast-asia
-- indonesia
+- Channel Manager
+- OpenTravel
+- Southeast Asia
+- Indonesia
 website: https://www.traveloka.com/
 ---

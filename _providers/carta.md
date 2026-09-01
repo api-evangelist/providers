@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 2.5
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
 api_count: 5
 apis:
 - description: Enables incorporation partners and law firms to programmatically onboard new companies onto the Carta platform, streamlining the company formation and cap table initialisation workflow.
@@ -158,7 +158,7 @@ score:
     operational_transparency: 21.1
   previous_composite: 25.8
   schema_version: 0.17.2
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/carta/refs/heads/main/screenshots/carta-2026-06-20T174019.png
 security:

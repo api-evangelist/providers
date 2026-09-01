@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 15.5
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
 api_count: 1
 apis:
 - description: The SessionStack REST API provides programmatic access to session recordings, user events, errors, and logs. Developers can retrieve and search sessions associated with their websites, get details abo
@@ -102,7 +102,7 @@ modified: '2026-06-13'
 name: SessionStack
 nav: Providers
 network: true
-overview: 'SessionStack publishes 1 API on the [APIs.io](https://apis.io/) network: REST API. Tagged areas include Session Replay, User Monitoring, Digital Experience Analytics, Session Recording, and Co-browsing.
+overview: 'SessionStack publishes 1 API on the [APIs.io](https://apis.io/) network: REST API. Tagged areas include Session Replay, User Monitoring, Digital Experience Analytics, Session Recording, and Co-Browsing.
 
 
   The SessionStack catalog on APIs.io includes 1 JSON-LD context.
@@ -138,7 +138,7 @@ score:
     operational_transparency: 36.8
   previous_composite: 31.2
   schema_version: 0.17.2
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
   trend: flat
 security:
 - kind: domain-security
@@ -151,7 +151,7 @@ tags:
 - User Monitoring
 - Digital Experience Analytics
 - Session Recording
-- Co-browsing
+- Co-Browsing
 - Error Tracking
 - Support Workflows
 - User Behavior Analytics

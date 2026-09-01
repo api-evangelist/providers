@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 9.4
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
 api_count: 0
 artifact_total: 2
 common:
@@ -141,7 +141,7 @@ score:
   provenance:
     conformance: derived
   schema_version: 0.17.2
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/kixeye/refs/heads/main/screenshots/kixeye-2026-07-25T223925.png
 security:
@@ -161,7 +161,7 @@ tags:
 - Game Development
 - Mobile Games
 - Strategy Games
-- Free To Play
+- Free-to-Play
 - Live Service
 website: https://www.kixeye.com/
 ---

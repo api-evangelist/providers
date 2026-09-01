@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.4
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
 api_count: 2
 apis:
 - description: The attempts API from Tadeus API — 2 operation(s) for attempts.
@@ -216,7 +216,7 @@ score:
     catalog_gap: 69.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -1.6
+  delta: 0.0
   facets:
     access_clarity: 80.3
     commercial_clarity: 80.3
@@ -226,7 +226,7 @@ score:
     discoverability: 70.4
     governance: 18.2
     operational_transparency: 0.0
-  previous_composite: 47.6
+  previous_composite: 46.0
   provenance:
     conformance: first-party
     contracts:
@@ -237,7 +237,7 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.17.2
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/tadeus-api/refs/heads/main/screenshots/tadeus-api-2026-08-17T082242.png
 security:

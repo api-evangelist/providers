@@ -23,7 +23,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 24.3
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
 api_count: 2
 apis:
 - description: REST API behind opentestdata.org, test.ai's free and open database of automated test fixture data. 13 paths / 16 operations covering user signup and login, e-mail confirmation, avatars, admin promotio
@@ -34,6 +34,10 @@ apis:
   slug: testai-classifier
 artifact_total: 6
 common:
+- group: commercial
+  title: ''
+  type: License
+  url: https://github.com/testdotai/opentestdata-api/blob/master/LICENSE
 - group: build
   title: ''
   type: GitHubOrganization
@@ -93,7 +97,7 @@ network: true
 overview: 'test.ai publishes 1 API on the [APIs.io](https://apis.io/) network: OpenTestData API. Tagged areas include Company, Testing, Test Automation, Quality Assurance, and Artificial Intelligence.
 
 
-  test.ai''s developer surface includes documentation, getting-started guide, and 10 more developer resources.'
+  test.ai''s developer surface includes documentation, getting-started guide, and 11 more developer resources.'
 plans:
 - name: Test Ai Plans Pricing
   plan_count: 0
@@ -111,6 +115,7 @@ score:
     catalog_gap: 83.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: 0.0
   facets:
     access_clarity: 0.0
     commercial_clarity: 0.0
@@ -120,8 +125,10 @@ score:
     discoverability: 59.3
     governance: 18.2
     operational_transparency: 2.6
+  previous_composite: 26.6
   schema_version: 0.17.2
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
+  trend: flat
 security:
 - kind: authentication
   name: Test Ai Authentication

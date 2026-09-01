@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 2.5
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
 api_count: 0
 artifact_total: 5
 common:
@@ -119,7 +119,7 @@ modified: '2026-08-15'
 name: 23andMe
 nav: Providers
 network: true
-overview: '23andMe is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Healthtech, Genetics, Genomics, and DNA Testing.
+overview: '23andMe is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Health Tech, Genetics, Genomics, and DNA Testing.
 
 
   23andMe''s developer surface includes engineering blog, support, pricing, and 15 more developer resources.'
@@ -167,7 +167,7 @@ score:
     regime_id: health
     score: 37.5
   schema_version: 0.17.2
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
   trend: flat
 security:
 - kind: domain-security
@@ -185,7 +185,7 @@ security:
 slug: 23andme
 tags:
 - Company
-- Healthtech
+- Health Tech
 - Genetics
 - Genomics
 - DNA Testing

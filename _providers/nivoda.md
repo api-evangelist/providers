@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 6.3
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
 api_count: 2
 apis:
 - description: Public GraphQL API for verified Nivoda customers to search live natural and lab-grown diamond, gemstone and jewelry inventory, retrieve real-time pricing, certificates and media, and (with Pro access)
@@ -181,7 +181,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.17.2
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/nivoda/refs/heads/main/screenshots/nivoda-2026-08-07T185352.png
 security:

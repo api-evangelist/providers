@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 27.7
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -94,6 +94,10 @@ apis:
   slug: carnegie-mellon-university-vendors-api
 artifact_total: 34
 common:
+- group: commercial
+  title: ''
+  type: License
+  url: https://github.com/cmu-delphi/delphi-epidata/blob/dev/LICENSE
 - group: company
   title: ''
   type: Website
@@ -304,7 +308,7 @@ overview: 'Carnegie Mellon University publishes 12 APIs on the [APIs.io](https:/
   The Carnegie Mellon University catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  Carnegie Mellon University''s developer surface includes documentation, API reference, authentication, support, engineering blog, code examples, and 34 more developer resources.'
+  Carnegie Mellon University''s developer surface includes documentation, API reference, authentication, support, engineering blog, code examples, and 35 more developer resources.'
 plans:
 - name: Carnegie Mellon University Plans Pricing
   plan_count: 2
@@ -375,7 +379,7 @@ score:
     regime_id: education
     score: 64.8
   schema_version: 0.17.2
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/carnegie-mellon-university/refs/heads/main/screenshots/carnegie-mellon-university-2026-06-20T174011.png
 security:

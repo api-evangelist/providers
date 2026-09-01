@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 52.7
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
 api_count: 3
 apis:
 - description: A category is a classification for product listings, with specific attributes and constraints that products within the category must adhere to.
@@ -207,7 +207,7 @@ modified: '2026-07-21'
 name: Wallapop
 nav: Providers
 network: true
-overview: 'Wallapop publishes 6 APIs on the [APIs.io](https://apis.io/) network, including Categories API, Delivery API, Disputes API, and 3 more. Tagged areas include Company, Consumer, Marketplace, E-Commerce, and Second-Hand.
+overview: 'Wallapop publishes 6 APIs on the [APIs.io](https://apis.io/) network, including Categories API, Delivery API, Disputes API, and 3 more. Tagged areas include Company, Consumer, Marketplace, E-Commerce, and Secondhand.
 
 
   The Wallapop catalog on APIs.io includes 1 event-driven AsyncAPI specification.
@@ -253,7 +253,7 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.17.2
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/wallapop/refs/heads/main/screenshots/wallapop-2026-08-17T082833.png
 security:
@@ -271,7 +271,7 @@ tags:
 - Consumer
 - Marketplace
 - E-Commerce
-- Second-Hand
+- Secondhand
 - Classifieds
 - Shipping
 - Webhook

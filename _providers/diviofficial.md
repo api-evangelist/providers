@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 10.8
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
 api_count: 0
 artifact_total: 1
 common:
@@ -80,7 +80,7 @@ modified: '2026-07-18'
 name: Divi Official
 nav: Providers
 network: true
-overview: 'Divi Official is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Consumer Packaged Goods, Beauty, Haircare, and E-Commerce.
+overview: 'Divi Official is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Consumer Packaged Goods, Beauty, Hair Care, and E-Commerce.
 
 
   Divi Official''s developer surface includes engineering blog, support, and 7 more developer resources.'
@@ -105,7 +105,7 @@ score:
     operational_transparency: 0.0
   previous_composite: 11.9
   schema_version: 0.17.2
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/diviofficial/refs/heads/main/screenshots/diviofficial-2026-08-07T164446.png
 security:
@@ -118,7 +118,7 @@ tags:
 - Company
 - Consumer Packaged Goods
 - Beauty
-- Haircare
+- Hair Care
 - E-Commerce
 - Direct to Consumer
 - Shopify

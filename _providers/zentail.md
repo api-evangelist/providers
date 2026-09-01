@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 10.8
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
 api_count: 1
 apis:
 - description: Zentail's Open API for building custom sales-channel, inventory, and fulfillment integrations and running bulk product report imports/exports. Authenticated with an account API token generated under A
@@ -121,7 +121,7 @@ modified: '2026-07-21'
 name: Zentail
 nav: Providers
 network: true
-overview: 'Zentail publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, E-Commerce, Multichannel, Marketplace, and Product Information Management.
+overview: 'Zentail publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, E-Commerce, Multi-Channel, Marketplace, and Product Information Management.
 
 
   Zentail''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 11 more developer resources.'
@@ -148,7 +148,7 @@ score:
   provenance:
     conformance: derived
   schema_version: 0.17.2
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
   trend: flat
 security:
 - kind: authentication
@@ -163,7 +163,7 @@ slug: zentail
 tags:
 - Company
 - E-Commerce
-- Multichannel
+- Multi-Channel
 - Marketplace
 - Product Information Management
 - Inventory Management

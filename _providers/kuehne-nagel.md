@@ -23,7 +23,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 23.7
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
 api_count: 17
 apis:
 - description: The administration-layer API from Kuehne+Nagel — 1 operation(s) for administration-layer.
@@ -306,7 +306,7 @@ score:
       marker_coverage: 0.0
       total: 17
   schema_version: 0.17.2
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/kuehne-nagel/refs/heads/main/screenshots/kuehne-nagel-2026-08-07T171345.png
 slug: kuehne-nagel

@@ -23,7 +23,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 7.9
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
 api_count: 1
 apis:
 - description: The HTTP API behind Accenta's effiPilot building-energy platform. It is an RPC-style JSON surface — requests take the form /api/method/<methodName> — served per customer tenant from the wildcard accen
@@ -202,7 +202,7 @@ score:
     regime_id: energy_utilities
     score: 40.5
   schema_version: 0.17.2
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
   trend: flat
 security:
 - kind: authentication

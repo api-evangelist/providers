@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
 api_count: 0
 artifact_total: 1
 common:
@@ -52,7 +52,7 @@ modified: '2026-07-20'
 name: Local Kitchens
 nav: Providers
 network: true
-overview: Local Kitchens is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Restaurant, Food & Beverage, Food Delivery, and Hospitality.
+overview: Local Kitchens is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Restaurant, Food and Beverage, Food Delivery, and Hospitality.
 random_paper: 18
 score:
   band: minimal
@@ -74,7 +74,7 @@ score:
     operational_transparency: 0.0
   previous_composite: 5.0
   schema_version: 0.17.2
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/local-kitchens/refs/heads/main/screenshots/local-kitchens-2026-07-25T225429.png
 security:
@@ -86,7 +86,7 @@ slug: local-kitchens
 tags:
 - Company
 - Restaurant
-- Food & Beverage
+- Food and Beverage
 - Food Delivery
 - Hospitality
 - Consumer

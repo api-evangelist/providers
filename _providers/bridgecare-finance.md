@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
 api_count: 0
 artifact_total: 1
 common:
@@ -72,7 +72,7 @@ modified: '2026-07-18'
 name: BridgeCare Finance
 nav: Providers
 network: true
-overview: 'BridgeCare Finance is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Early Childhood Education, Child Care, Government, and GovTech.
+overview: 'BridgeCare Finance is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Early Childhood Education, Childcare, Government, and GovTech.
 
 
   BridgeCare Finance''s developer surface includes engineering blog, support, and 5 more developer resources.'
@@ -103,7 +103,7 @@ score:
     regime_id: government
     score: 25.9
   schema_version: 0.17.2
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/bridgecare-finance/refs/heads/main/screenshots/bridgecare-finance-2026-07-25T203811.png
 security:
@@ -115,7 +115,7 @@ slug: bridgecare-finance
 tags:
 - Company
 - Early Childhood Education
-- Child Care
+- Childcare
 - Government
 - GovTech
 - Education

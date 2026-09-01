@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
 api_count: 0
 artifact_total: 1
 common:
@@ -76,7 +76,7 @@ modified: '2026-07-19'
 name: JMEM
 nav: Providers
 network: true
-overview: 'JMEM is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Semiconductor, Cybersecurity, Post-Quantum Cryptography, and Hardware Security.
+overview: 'JMEM is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Semiconductors, Cybersecurity, Post-Quantum Cryptography, and Hardware Security.
 
 
   JMEM''s developer surface includes engineering blog and 7 more developer resources.'
@@ -101,7 +101,7 @@ score:
     operational_transparency: 0.0
   previous_composite: 10.4
   schema_version: 0.17.2
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/jmem/refs/heads/main/screenshots/jmem-2026-07-25T223214.png
 security:
@@ -112,7 +112,7 @@ security:
 slug: jmem
 tags:
 - Company
-- Semiconductor
+- Semiconductors
 - Cybersecurity
 - Post-Quantum Cryptography
 - Hardware Security

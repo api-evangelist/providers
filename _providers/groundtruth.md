@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 31.6
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
 agentic_access:
 - acting_count: 63
   human_in_the_loop: 0
@@ -242,7 +242,7 @@ modified: '2026-08-12'
 name: GroundTruth
 nav: Providers
 network: true
-overview: 'GroundTruth publishes 18 APIs on the [APIs.io](https://apis.io/) network, including Accounts API, Ad Groups API, Audiences API, and 15 more. Tagged areas include Company, Martech, Advertising, Location Intelligence, and Marketing.
+overview: 'GroundTruth publishes 18 APIs on the [APIs.io](https://apis.io/) network, including Accounts API, Ad Groups API, Audiences API, and 15 more. Tagged areas include Company, MarTech, Advertising, Location Intelligence, and Marketing.
 
 
   GroundTruth''s developer surface includes documentation, API reference, signup flow, engineering blog, support, getting-started guide, authentication, and 22 more developer resources.'
@@ -285,7 +285,7 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.17.2
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/groundtruth/refs/heads/main/screenshots/groundtruth-2026-07-25T220343.png
 security:
@@ -300,11 +300,11 @@ security:
 slug: groundtruth
 tags:
 - Company
-- Martech
+- MarTech
 - Advertising
 - Location Intelligence
 - Marketing
-- Adtech
+- AdTech
 - Location-Based Marketing
 - Advertising API
 - Campaign Management

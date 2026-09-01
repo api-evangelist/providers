@@ -23,7 +23,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 32.9
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
 api_count: 2
 apis:
 - description: 'Agent-facing commerce endpoint implementing the Universal Commerce Protocol (version 2026-04-08, with 2026-01-23 also supported) over MCP/JSON-RPC 2.0. Thirteen tools cover catalog search and lookup, '
@@ -153,7 +153,7 @@ modified: '2026-08-12'
 name: FINESSE
 nav: Providers
 network: true
-overview: 'FINESSE publishes 2 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Retail, E-Commerce, fashion, and apparel.
+overview: 'FINESSE publishes 2 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Retail, E-Commerce, Fashion, and Apparel.
 
 
   FINESSE''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, signup flow, authentication, and 19 more developer resources.'
@@ -195,7 +195,7 @@ score:
     mcp: first-party
     skills: first-party
   schema_version: 0.17.2
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
   trend: flat
 security:
 - kind: authentication
@@ -211,14 +211,14 @@ tags:
 - Company
 - Retail
 - E-Commerce
-- fashion
-- apparel
-- direct-to-consumer
-- agentic-commerce
+- Fashion
+- Apparel
+- Direct to Consumer
+- Agentic Commerce
 - UCP
 - MCP
 - agent-native
-- shopify
-- consumer
+- Shopify
+- Consumer
 website: https://finesse.us/
 ---

@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
 api_count: 0
 artifact_total: 0
 created: '2026-07-17'
@@ -43,7 +43,7 @@ modified: '2026-07-19'
 name: Herbeast
 nav: Providers
 network: true
-overview: Herbeast is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Skin Care, Cosmetics, Consumer, and Lifestyle.
+overview: Herbeast is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Skincare, Cosmetics, Consumer, and Lifestyle.
 random_paper: 6
 score:
   band: minimal
@@ -73,12 +73,12 @@ score:
       reason: never_enriched
   previous_composite: 5.0
   schema_version: 0.17.2
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
   trend: flat
 slug: herbeast
 tags:
 - Company
-- Skin Care
+- Skincare
 - Cosmetics
 - Consumer
 - Lifestyle

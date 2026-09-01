@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
 api_count: 0
 artifact_total: 1
 common:
@@ -88,7 +88,7 @@ modified: '2026-07-17'
 name: Apollo Agriculture
 nav: Providers
 network: true
-overview: 'Apollo Agriculture is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Agtech, Agriculture, Fintech, and Financial-Services.
+overview: 'Apollo Agriculture is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, AgTech, Agriculture, Fintech, and Financial-Services.
 
 
   Apollo Agriculture''s developer surface includes support, product news, and 9 more developer resources.'
@@ -119,7 +119,7 @@ score:
     regime_id: insurance
     score: 21.2
   schema_version: 0.17.2
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/apollo-agriculture/refs/heads/main/screenshots/apollo-agriculture-2026-07-25T200652.png
 security:
@@ -130,7 +130,7 @@ security:
 slug: apollo-agriculture
 tags:
 - Company
-- Agtech
+- AgTech
 - Agriculture
 - Fintech
 - Financial-Services

@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 35.0
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -126,7 +126,7 @@ modified: '2026-06-13'
 name: TheNewsAPI
 nav: Providers
 network: true
-overview: 'TheNewsAPI publishes 2 APIs on the [APIs.io](https://apis.io/) network: news API and sources API. Tagged areas include News, Articles, headlines, Media, and Aggregation.
+overview: 'TheNewsAPI publishes 2 APIs on the [APIs.io](https://apis.io/) network: news API and sources API. Tagged areas include News, Articles, Headlines, Media, and Aggregation.
 
 
   The TheNewsAPI catalog on APIs.io includes 1 Spectral governance ruleset.
@@ -180,7 +180,7 @@ score:
       marker_coverage: 0.0
       total: 2
   schema_version: 0.17.2
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/thenewsapi/refs/heads/main/screenshots/thenewsapi-2026-06-20T195250.png
 security:
@@ -196,7 +196,7 @@ slug: thenewsapi
 tags:
 - News
 - Articles
-- headlines
+- Headlines
 - Media
 - Aggregation
 - Real-Time

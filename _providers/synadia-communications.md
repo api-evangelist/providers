@@ -23,7 +23,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 37.6
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
 api_count: 2
 apis:
 - description: The REST control-plane API behind Synadia Cloud and the self-hosted Synadia Control Plane. 245 operations across 158 paths manage systems, accounts, teams, NATS users, JetStream streams, consumers, ke
@@ -38,6 +38,10 @@ asyncapis:
   name: Synadia Communications Event Surface
   slug: synadia-communications-event-surface
 common:
+- group: commercial
+  title: ''
+  type: License
+  url: https://github.com/synadia-io/control-plane-sdk-go/blob/main/LICENSE
 - group: company
   title: ''
   type: Website
@@ -193,7 +197,7 @@ overview: 'Synadia Communications publishes 2 APIs on the [APIs.io](https://apis
   The Synadia Communications catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  Synadia Communications'' developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 27 more developer resources.'
+  Synadia Communications'' developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 28 more developer resources.'
 plans:
 - name: Synadia Communications Plans Pricing
   plan_count: 4
@@ -223,7 +227,7 @@ score:
     operational_transparency: 28.9
   previous_composite: 62.9
   schema_version: 0.17.2
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
   trend: flat
 security:
 - kind: authentication

@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 58.6
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
 api_count: 1
 apis:
 - description: Accounts track all billing and selling details for a customer.
@@ -300,7 +300,7 @@ score:
     catalog_gap: 70.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.5
+  delta: 0.0
   facets:
     access_clarity: 43.4
     commercial_clarity: 43.4
@@ -310,7 +310,7 @@ score:
     discoverability: 75.9
     governance: 18.2
     operational_transparency: 75.0
-  previous_composite: 57.2
+  previous_composite: 56.7
   provenance:
     conformance: first-party
     contracts:
@@ -327,7 +327,7 @@ score:
     regime_id: payments
     score: 71.9
   schema_version: 0.17.2
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/monetizenow/refs/heads/main/screenshots/monetizenow-2026-08-07T184153.png
 security:

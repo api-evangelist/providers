@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 27.6
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
 api_count: 0
 artifact_total: 7
 common:
@@ -192,7 +192,7 @@ modified: '2026-08-13'
 name: 6Sense Insights
 nav: Providers
 network: true
-overview: '6Sense Insights is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, ABM, Account-Based Marketing, Intent Data, and B2B.
+overview: '6Sense Insights is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Account Based Marketing, Intent Data, B2B, and Predictive Analytics.
 
 
   6Sense Insights'' developer surface includes authentication, changelog, API reference, documentation, support, engineering blog, pricing, and 29 more developer resources.'
@@ -239,7 +239,7 @@ score:
     conformance: first-party
     mcp: first-party
   schema_version: 0.17.2
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/6sense-insights/refs/heads/main/screenshots/6sense-insights-2026-07-25T181227.png
 security:
@@ -258,8 +258,7 @@ security:
 slug: 6sense-insights
 tags:
 - Company
-- ABM
-- Account-Based Marketing
+- Account Based Marketing
 - Intent Data
 - B2B
 - Predictive Analytics

@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
 api_count: 0
 artifact_total: 1
 common:
@@ -56,7 +56,7 @@ modified: '2026-07-20'
 name: Lithos Carbon
 nav: Providers
 network: true
-overview: 'Lithos Carbon is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Physical Ai, Carbon Removal, Enhanced Weathering, and Climate.
+overview: 'Lithos Carbon is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Physical AI, Carbon Removal, Enhanced Weathering, and Climate.
 
 
   Lithos Carbon''s developer surface includes engineering blog and 2 more developer resources.'
@@ -81,7 +81,7 @@ score:
     operational_transparency: 0.0
   previous_composite: 5.5
   schema_version: 0.17.2
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/lithos-carbon/refs/heads/main/screenshots/lithos-carbon-2026-07-25T225338.png
 security:
@@ -92,7 +92,7 @@ security:
 slug: lithos-carbon
 tags:
 - Company
-- Physical Ai
+- Physical AI
 - Carbon Removal
 - Enhanced Weathering
 - Climate

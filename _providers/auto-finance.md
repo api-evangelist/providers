@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
 api_count: 0
 artifact_total: 1
 common:
@@ -76,7 +76,7 @@ modified: '2026-07-18'
 name: Auto Finance
 nav: Providers
 network: true
-overview: 'Auto Finance is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Defi, Yield Optimization, Liquidity Management, and Vault.
+overview: 'Auto Finance is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, DeFi, Yield Optimization, Liquidity Management, and Vault.
 
 
   Auto Finance''s developer surface includes documentation, getting-started guide, engineering blog, support, and 4 more developer resources.'
@@ -101,7 +101,7 @@ score:
     operational_transparency: 2.6
   previous_composite: 11.8
   schema_version: 0.17.2
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/auto-finance/refs/heads/main/screenshots/auto-finance-2026-07-25T201816.png
 security:
@@ -112,7 +112,7 @@ security:
 slug: auto-finance
 tags:
 - Company
-- Defi
+- DeFi
 - Yield Optimization
 - Liquidity Management
 - Vault

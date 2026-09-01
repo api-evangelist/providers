@@ -24,7 +24,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 42.3
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
 api_count: 7
 apis:
 - description: Manipulate ADM inventory assets and threats.
@@ -296,7 +296,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.17.2
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
   trend: flat
 security:
 - kind: authentication
@@ -318,13 +318,13 @@ tags:
 - Threat Intelligence
 - external-attack-surface-management
 - data-breach-prevention
-- credential-intelligence
-- brand-protection
-- dark-web-monitoring
-- digital-risk-protection
+- Credential Intelligence
+- Brand Protection
+- Dark Web Monitoring
+- Digital Risk Protection
 - STIX
 - security-alerts
-- asset-inventory
-- audit-logs
+- Asset Inventory
+- Audit Logs
 website: https://www.cybelangel.com/
 ---

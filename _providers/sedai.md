@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 28.6
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
 api_count: 1
 apis:
 - description: Sedai is an AI-driven autonomous cloud optimization platform using reinforcement learning to continuously adjust resources in real-time.
@@ -169,7 +169,7 @@ score:
     operational_transparency: 26.3
   previous_composite: 44.3
   schema_version: 0.17.2
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/sedai/refs/heads/main/screenshots/sedai-2026-06-20T193631.png
 security:

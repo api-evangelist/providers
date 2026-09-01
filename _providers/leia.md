@@ -23,7 +23,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 32.6
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
 agentic_access:
 - acting_count: 10
   human_in_the_loop: 0
@@ -207,7 +207,7 @@ modified: '2026-08-01'
 name: Leia
 nav: Providers
 network: true
-overview: 'Leia publishes 4 APIs on the [APIs.io](https://apis.io/) network, including Media Transformation API, Product Pricing API, Protocol API, and 1 more. Tagged areas include 3D, spatial-computing, computer-vision, depth-estimation, and image-processing.
+overview: 'Leia publishes 4 APIs on the [APIs.io](https://apis.io/) network, including Media Transformation API, Product Pricing API, Protocol API, and 1 more. Tagged areas include 3D, Spatial Computing, Computer-Vision, depth-estimation, and Image Processing.
 
 
   The Leia catalog on APIs.io includes 1 event-driven AsyncAPI specification.
@@ -254,7 +254,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.17.2
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/leia/refs/heads/main/screenshots/leia-2026-08-07T171526.png
 security:
@@ -269,14 +269,14 @@ security:
 slug: leia
 tags:
 - 3D
-- spatial-computing
-- computer-vision
+- Spatial Computing
+- Computer-Vision
 - depth-estimation
-- image-processing
-- video-processing
-- generative-ai
-- displays
+- Image Processing
+- Video Processing
+- Generative AI
+- Displays
 - Media Transformation
-- immersive-experiences
+- Immersive Experiences
 website: https://immersity.ai/
 ---

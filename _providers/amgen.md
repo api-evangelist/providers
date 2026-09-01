@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 2.5
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
 api_count: 1
 apis:
 - description: Amgen discovers, develops, manufactures, and delivers innovative biologic medicines for patients with serious illnesses. The company does not currently publish a public developer API.
@@ -110,7 +110,7 @@ modified: '2026-04-19'
 name: Amgen
 nav: Providers
 network: true
-overview: 'Amgen publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Biotechnology, Biopharmaceutical, Oncology, Inflammation, and Cardiovascular.
+overview: 'Amgen publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Biotechnology, Biopharmaceutical, Oncology, inflammation, and Cardiovascular.
 
 
   Amgen''s developer surface includes developer portal, engineering blog, support, YouTube channel, and 6 more developer resources.'
@@ -165,7 +165,7 @@ score:
     regime_id: health
     score: 17.5
   schema_version: 0.17.2
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/amgen/refs/heads/main/screenshots/amgen-2026-06-20T171930.png
 security:
@@ -178,7 +178,7 @@ tags:
 - Biotechnology
 - Biopharmaceutical
 - Oncology
-- Inflammation
+- inflammation
 - Cardiovascular
 - Rare Disease
 - Biosimilars

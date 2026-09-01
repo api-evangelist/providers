@@ -1,6 +1,6 @@
 {
- "total": 36,
- "shown": 36,
+ "total": 35,
+ "shown": 35,
  "limit": 1000,
  "bands": [
   {
@@ -29,7 +29,7 @@
       "commercial_clarity": 92.1,
       "access_clarity": 92.1
      },
-     "scored_at": "2026-08-30",
+     "scored_at": "2026-09-01",
      "schema_version": "0.17.2",
      "agent_score": 36.6,
      "agent_band": "agent-ready",
@@ -85,7 +85,7 @@
       "commercial_clarity": 84.2,
       "access_clarity": 84.2
      },
-     "scored_at": "2026-08-30",
+     "scored_at": "2026-09-01",
      "schema_version": "0.17.2",
      "agent_score": 26.1,
      "agent_band": "agent-aware",
@@ -130,7 +130,7 @@
       "commercial_clarity": 61.8,
       "access_clarity": 61.8
      },
-     "scored_at": "2026-08-30",
+     "scored_at": "2026-09-01",
      "schema_version": "0.17.2",
      "agent_score": 19.8,
      "agent_band": "agent-aware",
@@ -185,7 +185,7 @@
       "commercial_clarity": 68.4,
       "access_clarity": 68.4
      },
-     "scored_at": "2026-08-30",
+     "scored_at": "2026-09-01",
      "schema_version": "0.17.2",
      "agent_score": 32.3,
      "agent_band": "agent-ready",
@@ -230,7 +230,7 @@
       "commercial_clarity": 39.5,
       "access_clarity": 39.5
      },
-     "scored_at": "2026-08-30",
+     "scored_at": "2026-09-01",
      "schema_version": "0.17.2",
      "agent_score": 33.1,
      "agent_band": "agent-ready",
@@ -258,51 +258,6 @@
      "rank": 5
     },
     {
-     "name": "AngelCam",
-     "slug": "angelcam",
-     "description": "Angelcam is a cloud video-surveillance platform that connects any IP camera to the cloud — via ONVIF and the open-source Arrow connector — for live viewing, cloud recording, clip creation and sharing, two-way audio, sensors, and Remote Technical Surveillance (RTS) event notifications. The Angelcam RESTful API (HTTPS-only JSON, organised around Spaces, secured with OAuth2 or a Personal Access Token) exposes 90+ endpoints across cameras, recordings, clips, events, Arrow clients, notifications, speakers, and services.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/angelcam/refs/heads/main/screenshots/angelcam-2026-07-25T200231.png",
-     "score": 47.9,
-     "band": "developing",
-     "band_label": "Developing",
-     "facets": {
-      "discoverability": 70.4,
-      "contract_quality": 63.4,
-      "governance": 4.5,
-      "contract_governance": 4.5,
-      "operational_transparency": 55.3,
-      "developer_ergonomics": 58.9,
-      "commercial_clarity": 27.6,
-      "access_clarity": 27.6
-     },
-     "scored_at": "2026-08-30",
-     "schema_version": "0.17.2",
-     "agent_score": 38.3,
-     "agent_band": "agent-ready",
-     "agent_dims": {
-      "spec_presence": true,
-      "agentic_access": "derived",
-      "reversibility_documented": false,
-      "mcp_server": false,
-      "auth_clarity": "negotiable",
-      "idempotency": false,
-      "error_semantics": "verified",
-      "openapi_examples": "partial",
-      "rate_limit_signal": "documented",
-      "event_surface_described": true,
-      "agent_skills": "derived",
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false,
-      "delegated_identity": "documented",
-      "protected_resource_metadata": false,
-      "dynamic_client_registration": false,
-      "agentic_commerce": false
-     },
-     "rank": 6
-    },
-    {
      "name": "Blizzard Entertainment",
      "slug": "blizzard-entertainment",
      "description": "Blizzard Entertainment is an American video game developer and publisher and a subsidiary of Activision Blizzard. Blizzard exposes a Battle.net Developer Portal that provides public OAuth 2.0 protected APIs returning game data and player profile data for its major franchises including World of Warcraft, Diablo III, StarCraft II, and Hearthstone.",
@@ -320,7 +275,7 @@
       "commercial_clarity": 52.6,
       "access_clarity": 52.6
      },
-     "scored_at": "2026-08-30",
+     "scored_at": "2026-09-01",
      "schema_version": "0.17.2",
      "agent_score": 19.8,
      "agent_band": "agent-aware",
@@ -345,6 +300,51 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
+     "rank": 6
+    },
+    {
+     "name": "AngelCam",
+     "slug": "angelcam",
+     "description": "Angelcam is a cloud video-surveillance platform that connects any IP camera to the cloud — via ONVIF and the open-source Arrow connector — for live viewing, cloud recording, clip creation and sharing, two-way audio, sensors, and Remote Technical Surveillance (RTS) event notifications. The Angelcam RESTful API (HTTPS-only JSON, organised around Spaces, secured with OAuth2 or a Personal Access Token) exposes 90+ endpoints across cameras, recordings, clips, events, Arrow clients, notifications, speakers, and services.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/angelcam/refs/heads/main/screenshots/angelcam-2026-07-25T200231.png",
+     "score": 46.1,
+     "band": "developing",
+     "band_label": "Developing",
+     "facets": {
+      "discoverability": 51.9,
+      "contract_quality": 63.4,
+      "governance": 4.5,
+      "contract_governance": 4.5,
+      "operational_transparency": 55.3,
+      "developer_ergonomics": 58.9,
+      "commercial_clarity": 27.6,
+      "access_clarity": 27.6
+     },
+     "scored_at": "2026-09-01",
+     "schema_version": "0.17.2",
+     "agent_score": 38.3,
+     "agent_band": "agent-ready",
+     "agent_dims": {
+      "spec_presence": true,
+      "agentic_access": "derived",
+      "reversibility_documented": false,
+      "mcp_server": false,
+      "auth_clarity": "negotiable",
+      "idempotency": false,
+      "error_semantics": "verified",
+      "openapi_examples": "partial",
+      "rate_limit_signal": "documented",
+      "event_surface_described": true,
+      "agent_skills": "derived",
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": "documented",
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
      "rank": 7
     },
     {
@@ -364,7 +364,7 @@
       "commercial_clarity": 50.0,
       "access_clarity": 50.0
      },
-     "scored_at": "2026-08-30",
+     "scored_at": "2026-09-01",
      "schema_version": "0.17.2",
      "agent_score": 22.8,
      "agent_band": "agent-aware",
@@ -419,7 +419,7 @@
       "commercial_clarity": 39.5,
       "access_clarity": 39.5
      },
-     "scored_at": "2026-08-30",
+     "scored_at": "2026-09-01",
      "schema_version": "0.17.2",
      "agent_score": 22.9,
      "agent_band": "agent-aware",
@@ -464,7 +464,7 @@
       "commercial_clarity": 32.9,
       "access_clarity": 32.9
      },
-     "scored_at": "2026-08-30",
+     "scored_at": "2026-09-01",
      "schema_version": "0.17.2",
      "agent_score": 24.8,
      "agent_band": "agent-aware",
@@ -509,7 +509,7 @@
       "commercial_clarity": 39.5,
       "access_clarity": 39.5
      },
-     "scored_at": "2026-08-30",
+     "scored_at": "2026-09-01",
      "schema_version": "0.17.2",
      "agent_score": 28.5,
      "agent_band": "agent-aware",
@@ -554,7 +554,7 @@
       "commercial_clarity": 13.2,
       "access_clarity": 13.2
      },
-     "scored_at": "2026-08-30",
+     "scored_at": "2026-09-01",
      "schema_version": "0.17.2",
      "agent_score": 22.7,
      "agent_band": "agent-aware",
@@ -599,7 +599,7 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-08-30",
+     "scored_at": "2026-09-01",
      "schema_version": "0.17.2",
      "agent_score": 36.2,
      "agent_band": "agent-ready",
@@ -643,7 +643,7 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-08-30",
+     "scored_at": "2026-09-01",
      "schema_version": "0.17.2",
      "agent_score": 20.0,
      "agent_band": "agent-aware",
@@ -688,7 +688,7 @@
       "commercial_clarity": 13.2,
       "access_clarity": 13.2
      },
-     "scored_at": "2026-08-30",
+     "scored_at": "2026-09-01",
      "schema_version": "0.17.2",
      "agent_score": 35.4,
      "agent_band": "agent-ready",
@@ -743,7 +743,7 @@
       "commercial_clarity": 13.2,
       "access_clarity": 13.2
      },
-     "scored_at": "2026-08-30",
+     "scored_at": "2026-09-01",
      "schema_version": "0.17.2",
      "agent_score": 15.5,
      "agent_band": "agent-aware",
@@ -787,7 +787,7 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-08-30",
+     "scored_at": "2026-09-01",
      "schema_version": "0.17.2",
      "agent_score": 14.7,
      "agent_band": "agent-aware",
@@ -832,7 +832,7 @@
       "commercial_clarity": 21.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-08-30",
+     "scored_at": "2026-09-01",
      "schema_version": "0.17.2",
      "regulatory": {
       "applies": true,
@@ -884,7 +884,7 @@
       "commercial_clarity": 13.2,
       "access_clarity": 13.2
      },
-     "scored_at": "2026-08-30",
+     "scored_at": "2026-09-01",
      "schema_version": "0.17.2",
      "agent_score": 2.5,
      "agent_band": "human-only",
@@ -928,7 +928,7 @@
       "commercial_clarity": 59.2,
       "access_clarity": 59.2
      },
-     "scored_at": "2026-08-30",
+     "scored_at": "2026-09-01",
      "schema_version": "0.17.2",
      "regulatory": {
       "applies": true,
@@ -980,7 +980,7 @@
       "commercial_clarity": 23.7,
       "access_clarity": 23.7
      },
-     "scored_at": "2026-08-30",
+     "scored_at": "2026-09-01",
      "schema_version": "0.17.2",
      "agent_score": 2.5,
      "agent_band": "human-only",
@@ -1025,7 +1025,7 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-08-30",
+     "scored_at": "2026-09-01",
      "schema_version": "0.17.2",
      "agent_score": 17.1,
      "agent_band": "agent-aware",
@@ -1069,7 +1069,7 @@
       "commercial_clarity": 21.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-08-30",
+     "scored_at": "2026-09-01",
      "schema_version": "0.17.2",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -1114,7 +1114,7 @@
       "commercial_clarity": 36.8,
       "access_clarity": 36.8
      },
-     "scored_at": "2026-08-30",
+     "scored_at": "2026-09-01",
      "schema_version": "0.17.2",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -1159,7 +1159,7 @@
       "commercial_clarity": 13.2,
       "access_clarity": 13.2
      },
-     "scored_at": "2026-08-30",
+     "scored_at": "2026-09-01",
      "schema_version": "0.17.2",
      "agent_score": 2.5,
      "agent_band": "human-only",
@@ -1204,7 +1204,7 @@
       "commercial_clarity": 21.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-08-30",
+     "scored_at": "2026-09-01",
      "schema_version": "0.17.2",
      "regulatory": {
       "applies": true,
@@ -1245,27 +1245,28 @@
    "label": "Minimal",
    "range": "0 – 10.9",
    "blurb": "Index entry only; little beyond a description and a link.",
-   "count": 10,
-   "shown": 10,
+   "count": 9,
+   "shown": 9,
    "providers": [
     {
-     "name": "Red5 Live Streaming Solutions and Infrastructure",
-     "slug": "red5-live-streaming-solutions-and-infrastructure",
-     "description": "Red5 provides real-time video/audio streaming infrastructure via open-source Red5, self-hosted Red5 Pro (with Stream Manager 2.0), the managed Red5 Cloud PaaS, and client SDKs. It exposes fully documented REST APIs (Red5 Pro Server API and Stream Manager 2.0 API) that run on customer-deployed instances or Red5 Cloud, plus an agent-native llms.txt.",
-     "score": 9.1,
+     "name": "BallerTV",
+     "slug": "ballertv",
+     "description": "BallerTV (Baller, Inc.) is a Pasadena, California sports media company that live streams and provides on-demand replays and highlights of youth and amateur sports, including basketball, volleyball, soccer, lacrosse, softball, and football, from thousands of tournaments and showcases nationwide. Subscribers range from families following athletes to NCAA and professional scouts using the footage for recruiting and scouting. The platform includes a Game Finder for locating events, purchasable athlete highlight reels, and BTVision, an AI-powered ball-tracking streaming technology that improves the basketball viewing experience. BallerTV is a consumer streaming product delivered through its website and iOS/Android apps; it does not publish a public developer API or SDK program. This profile was surfaced as an index-ventures portfolio company and enriched from public web sources.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/ballertv/refs/heads/main/screenshots/ballertv-2026-07-25T202310.png",
+     "score": 8.1,
      "band": "minimal",
      "band_label": "Minimal",
      "facets": {
-      "discoverability": 72.2,
+      "discoverability": 50.0,
       "contract_quality": 0.0,
       "governance": 0.0,
       "contract_governance": 0.0,
-      "operational_transparency": 0.0,
-      "developer_ergonomics": 9.5,
-      "commercial_clarity": 0.0,
-      "access_clarity": 0.0
+      "operational_transparency": 2.6,
+      "developer_ergonomics": 7.1,
+      "commercial_clarity": 6.6,
+      "access_clarity": 6.6
      },
-     "scored_at": "2026-08-30",
+     "scored_at": "2026-09-01",
      "schema_version": "0.17.2",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -1293,11 +1294,11 @@
      "rank": 27
     },
     {
-     "name": "BallerTV",
-     "slug": "ballertv",
-     "description": "BallerTV (Baller, Inc.) is a Pasadena, California sports media company that live streams and provides on-demand replays and highlights of youth and amateur sports, including basketball, volleyball, soccer, lacrosse, softball, and football, from thousands of tournaments and showcases nationwide. Subscribers range from families following athletes to NCAA and professional scouts using the footage for recruiting and scouting. The platform includes a Game Finder for locating events, purchasable athlete highlight reels, and BTVision, an AI-powered ball-tracking streaming technology that improves the basketball viewing experience. BallerTV is a consumer streaming product delivered through its website and iOS/Android apps; it does not publish a public developer API or SDK program. This profile was surfaced as an index-ventures portfolio company and enriched from public web sources.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/ballertv/refs/heads/main/screenshots/ballertv-2026-07-25T202310.png",
-     "score": 8.1,
+     "name": "Fox Corporation",
+     "slug": "fox",
+     "description": "Fox Corporation is a U.S. media company whose portfolio includes Fox News Media, Fox Sports, Fox Entertainment, Fox Television Stations, and the ad-supported streaming service Tubi. Fox is a Fortune 500 consumer of cloud, AI, and media technology APIs (notably AWS as preferred AI cloud provider) but does not publish a public developer portal at the corporate level.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/fox/refs/heads/main/screenshots/fox-2026-06-20T181458.png",
+     "score": 5.8,
      "band": "minimal",
      "band_label": "Minimal",
      "facets": {
@@ -1306,11 +1307,11 @@
       "governance": 0.0,
       "contract_governance": 0.0,
       "operational_transparency": 2.6,
-      "developer_ergonomics": 7.1,
-      "commercial_clarity": 6.6,
-      "access_clarity": 6.6
+      "developer_ergonomics": 2.4,
+      "commercial_clarity": 0.0,
+      "access_clarity": 0.0
      },
-     "scored_at": "2026-08-30",
+     "scored_at": "2026-09-01",
      "schema_version": "0.17.2",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -1338,11 +1339,11 @@
      "rank": 28
     },
     {
-     "name": "Fox Corporation",
-     "slug": "fox",
-     "description": "Fox Corporation is a U.S. media company whose portfolio includes Fox News Media, Fox Sports, Fox Entertainment, Fox Television Stations, and the ad-supported streaming service Tubi. Fox is a Fortune 500 consumer of cloud, AI, and media technology APIs (notably AWS as preferred AI cloud provider) but does not publish a public developer portal at the corporate level.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/fox/refs/heads/main/screenshots/fox-2026-06-20T181458.png",
-     "score": 5.8,
+     "name": "NBC",
+     "slug": "nbc",
+     "description": "NBC (National Broadcasting Company) is a major American commercial broadcast television network and a subsidiary of Comcast through NBCUniversal. NBC produces news (NBC News, Today), entertainment, late-night, and sports programming (Sunday Night Football, Olympic Games). NBC and parent company NBCUniversal do not publish a public developer portal. Programmatic advertising APIs (NBCUniversal One Platform) and streaming partner integrations (Peacock) are offered only through direct sales relationships rather than self-serve developer signup.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/nbc/refs/heads/main/screenshots/nbc-2026-06-20T190110.png",
+     "score": 5.3,
      "band": "minimal",
      "band_label": "Minimal",
      "facets": {
@@ -1351,11 +1352,11 @@
       "governance": 0.0,
       "contract_governance": 0.0,
       "operational_transparency": 2.6,
-      "developer_ergonomics": 2.4,
+      "developer_ergonomics": 0.0,
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-08-30",
+     "scored_at": "2026-09-01",
      "schema_version": "0.17.2",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -1383,10 +1384,10 @@
      "rank": 29
     },
     {
-     "name": "NBC",
-     "slug": "nbc",
-     "description": "NBC (National Broadcasting Company) is a major American commercial broadcast television network and a subsidiary of Comcast through NBCUniversal. NBC produces news (NBC News, Today), entertainment, late-night, and sports programming (Sunday Night Football, Olympic Games). NBC and parent company NBCUniversal do not publish a public developer portal. Programmatic advertising APIs (NBCUniversal One Platform) and streaming partner integrations (Peacock) are offered only through direct sales relationships rather than self-serve developer signup.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/nbc/refs/heads/main/screenshots/nbc-2026-06-20T190110.png",
+     "name": "Paramount",
+     "slug": "paramount",
+     "description": "Paramount is a global media and entertainment company producing premium content and experiences for audiences worldwide, encompassing film, television, and streaming through brands such as Paramount Pictures, CBS, Nickelodeon, MTV, Comedy Central, BET, Paramount+, and Pluto TV.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/paramount/refs/heads/main/screenshots/paramount-2026-06-20T191356.png",
      "score": 5.3,
      "band": "minimal",
      "band_label": "Minimal",
@@ -1400,7 +1401,7 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-08-30",
+     "scored_at": "2026-09-01",
      "schema_version": "0.17.2",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -1428,11 +1429,10 @@
      "rank": 30
     },
     {
-     "name": "Paramount",
-     "slug": "paramount",
-     "description": "Paramount is a global media and entertainment company producing premium content and experiences for audiences worldwide, encompassing film, television, and streaming through brands such as Paramount Pictures, CBS, Nickelodeon, MTV, Comedy Central, BET, Paramount+, and Pluto TV.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/paramount/refs/heads/main/screenshots/paramount-2026-06-20T191356.png",
-     "score": 5.3,
+     "name": "PPS (pps.tv)",
+     "slug": "pps",
+     "description": "PPS (pps.tv), originally the PPStream peer-to-peer online-video client, is a Chinese internet-video brand backed by Qiming Venture Partners. The pps.tv domain now issues a permanent HTTP 301 redirect to suike.cn, the home of iQIYI Suike (爱奇艺随刻) — a video-sharing and short-video community operated by iQIYI. It is a consumer video product; as of this enrichment pass it publishes no public developer API, developer portal, SDKs, or /.well-known discovery surface, so there is no API artifact set to harvest for this profile.",
+     "score": 5.0,
      "band": "minimal",
      "band_label": "Minimal",
      "facets": {
@@ -1440,12 +1440,12 @@
       "contract_quality": 0.0,
       "governance": 0.0,
       "contract_governance": 0.0,
-      "operational_transparency": 2.6,
+      "operational_transparency": 0.0,
       "developer_ergonomics": 0.0,
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-08-30",
+     "scored_at": "2026-09-01",
      "schema_version": "0.17.2",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -1473,23 +1473,24 @@
      "rank": 31
     },
     {
-     "name": "PPS (pps.tv)",
-     "slug": "pps",
-     "description": "PPS (pps.tv), originally the PPStream peer-to-peer online-video client, is a Chinese internet-video brand backed by Qiming Venture Partners. The pps.tv domain now issues a permanent HTTP 301 redirect to suike.cn, the home of iQIYI Suike (爱奇艺随刻) — a video-sharing and short-video community operated by iQIYI. It is a consumer video product; as of this enrichment pass it publishes no public developer API, developer portal, SDKs, or /.well-known discovery surface, so there is no API artifact set to harvest for this profile.",
-     "score": 5.0,
+     "name": "National Football League",
+     "slug": "national-football-league",
+     "description": "The National Football League (NFL) is the premier professional American football league, comprised of 32 franchises divided between the AFC and NFC conferences. The NFL produces the Super Bowl and is the most-watched sports league in the United States. The league does not operate a public developer portal; statistical and play-by-play data feeds are licensed to partners (notably AWS, Amazon Web Services Next Gen Stats, Sportradar, and Genius Sports) and are not offered as a self-serve developer API.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/national-football-league/refs/heads/main/screenshots/national-football-league-2026-06-20T190016.png",
+     "score": 4.9,
      "band": "minimal",
      "band_label": "Minimal",
      "facets": {
-      "discoverability": 50.0,
+      "discoverability": 40.7,
       "contract_quality": 0.0,
       "governance": 0.0,
       "contract_governance": 0.0,
-      "operational_transparency": 0.0,
-      "developer_ergonomics": 0.0,
+      "operational_transparency": 2.6,
+      "developer_ergonomics": 2.4,
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-08-30",
+     "scored_at": "2026-09-01",
      "schema_version": "0.17.2",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -1517,24 +1518,24 @@
      "rank": 32
     },
     {
-     "name": "National Football League",
-     "slug": "national-football-league",
-     "description": "The National Football League (NFL) is the premier professional American football league, comprised of 32 franchises divided between the AFC and NFC conferences. The NFL produces the Super Bowl and is the most-watched sports league in the United States. The league does not operate a public developer portal; statistical and play-by-play data feeds are licensed to partners (notably AWS, Amazon Web Services Next Gen Stats, Sportradar, and Genius Sports) and are not offered as a self-serve developer API.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/national-football-league/refs/heads/main/screenshots/national-football-league-2026-06-20T190016.png",
-     "score": 4.9,
+     "name": "Warner Brothers",
+     "slug": "warner-brothers",
+     "description": "A major American film and entertainment studio producing movies, television shows, and interactive entertainment. Part of Warner Bros. Discovery operating across theatrical, streaming, and gaming platforms.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/warner-brothers/refs/heads/main/screenshots/warner-brothers-2026-06-20T201229.png",
+     "score": 4.8,
      "band": "minimal",
      "band_label": "Minimal",
      "facets": {
-      "discoverability": 40.7,
+      "discoverability": 44.4,
       "contract_quality": 0.0,
       "governance": 0.0,
       "contract_governance": 0.0,
       "operational_transparency": 2.6,
-      "developer_ergonomics": 2.4,
+      "developer_ergonomics": 0.0,
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-08-30",
+     "scored_at": "2026-09-01",
      "schema_version": "0.17.2",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -1562,15 +1563,14 @@
      "rank": 33
     },
     {
-     "name": "Warner Brothers",
-     "slug": "warner-brothers",
-     "description": "A major American film and entertainment studio producing movies, television shows, and interactive entertainment. Part of Warner Bros. Discovery operating across theatrical, streaming, and gaming platforms.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/warner-brothers/refs/heads/main/screenshots/warner-brothers-2026-06-20T201229.png",
-     "score": 4.8,
+     "name": "National Basketball Association",
+     "slug": "national-basketball-association",
+     "description": "The National Basketball Association (NBA) is the premier men's professional basketball league in North America, comprised of 30 franchises (29 in the United States and 1 in Canada). The NBA does not operate a public developer portal; statistical, scoring, and play-by-play data feeds are licensed through official partners (notably Sportradar and Genius Sports). The stats.nba.com endpoints are not officially documented as a public API.",
+     "score": 4.4,
      "band": "minimal",
      "band_label": "Minimal",
      "facets": {
-      "discoverability": 44.4,
+      "discoverability": 40.7,
       "contract_quality": 0.0,
       "governance": 0.0,
       "contract_governance": 0.0,
@@ -1579,7 +1579,7 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-08-30",
+     "scored_at": "2026-09-01",
      "schema_version": "0.17.2",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -1607,14 +1607,15 @@
      "rank": 34
     },
     {
-     "name": "National Basketball Association",
-     "slug": "national-basketball-association",
-     "description": "The National Basketball Association (NBA) is the premier men's professional basketball league in North America, comprised of 30 franchises (29 in the United States and 1 in Canada). The NBA does not operate a public developer portal; statistical, scoring, and play-by-play data feeds are licensed through official partners (notably Sportradar and Genius Sports). The stats.nba.com endpoints are not officially documented as a public API.",
-     "score": 4.4,
+     "name": "USA TODAY",
+     "slug": "usa-today",
+     "description": "A major American daily national newspaper and digital news platform owned by Gannett. One of the most widely circulated newspapers in the United States covering news, sports, entertainment, and lifestyle topics.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/usa-today/refs/heads/main/screenshots/usa-today-2026-06-20T200638.png",
+     "score": 3.9,
      "band": "minimal",
      "band_label": "Minimal",
      "facets": {
-      "discoverability": 40.7,
+      "discoverability": 35.2,
       "contract_quality": 0.0,
       "governance": 0.0,
       "contract_governance": 0.0,
@@ -1623,7 +1624,7 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-08-30",
+     "scored_at": "2026-09-01",
      "schema_version": "0.17.2",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -1649,51 +1650,6 @@
       "agentic_commerce": false
      },
      "rank": 35
-    },
-    {
-     "name": "USA TODAY",
-     "slug": "usa-today",
-     "description": "A major American daily national newspaper and digital news platform owned by Gannett. One of the most widely circulated newspapers in the United States covering news, sports, entertainment, and lifestyle topics.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/usa-today/refs/heads/main/screenshots/usa-today-2026-06-20T200638.png",
-     "score": 3.9,
-     "band": "minimal",
-     "band_label": "Minimal",
-     "facets": {
-      "discoverability": 35.2,
-      "contract_quality": 0.0,
-      "governance": 0.0,
-      "contract_governance": 0.0,
-      "operational_transparency": 2.6,
-      "developer_ergonomics": 0.0,
-      "commercial_clarity": 0.0,
-      "access_clarity": 0.0
-     },
-     "scored_at": "2026-08-30",
-     "schema_version": "0.17.2",
-     "agent_score": 0.0,
-     "agent_band": "human-only",
-     "agent_dims": {
-      "spec_presence": false,
-      "agentic_access": false,
-      "reversibility_documented": false,
-      "mcp_server": false,
-      "auth_clarity": false,
-      "idempotency": false,
-      "error_semantics": false,
-      "openapi_examples": false,
-      "rate_limit_signal": false,
-      "event_surface_described": false,
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false,
-      "delegated_identity": false,
-      "protected_resource_metadata": false,
-      "dynamic_client_registration": false,
-      "agentic_commerce": false
-     },
-     "rank": 36
     }
    ]
   }

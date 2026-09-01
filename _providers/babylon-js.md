@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
 api_count: 18
 apis:
 - description: The core Babylon.js engine and scene graph. Provides the Engine and Scene abstractions, cameras, lights, meshes, materials, textures, animation, post-processing, particle systems, physics integration,
@@ -319,7 +319,7 @@ score:
     operational_transparency: 2.6
   previous_composite: 16.8
   schema_version: 0.17.2
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/babylon-js/refs/heads/main/screenshots/babylon-js-2026-06-20T172915.png
 security:

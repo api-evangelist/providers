@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.0
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
 agentic_access:
 - acting_count: 31
   human_in_the_loop: 1
@@ -342,7 +342,7 @@ modified: '2026-07-21'
 name: SLNG
 nav: Providers
 network: true
-overview: 'SLNG publishes 15 APIs on the [APIs.io](https://apis.io/) network, including Account API, Agents API, Calls API, and 12 more. Tagged areas include Company, Speech, Voice, Speech-to-Text, and Text to Speech.
+overview: 'SLNG publishes 15 APIs on the [APIs.io](https://apis.io/) network, including Account API, Agents API, Calls API, and 12 more. Tagged areas include Company, Speech, Voice, Speech-to-Text, and Text-to-Speech.
 
 
   The SLNG catalog on APIs.io includes 3 event-driven AsyncAPI specifications.
@@ -380,7 +380,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.17.2
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/slng/refs/heads/main/screenshots/slng-2026-08-17T081926.png
 security:
@@ -402,7 +402,7 @@ tags:
 - Speech
 - Voice
 - Speech-to-Text
-- Text to Speech
+- Text-to-Speech
 - Voice AI
 - Voice Agents
 - Transcription

@@ -23,7 +23,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 23.6
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
 agentic_access:
 - acting_count: 25
   human_in_the_loop: 0
@@ -210,7 +210,7 @@ modified: '2026-08-02'
 name: Uncle Nearest
 nav: Providers
 network: true
-overview: 'Uncle Nearest publishes 8 APIs on the [APIs.io](https://apis.io/) network, including Categories API, Common API, Doc API, and 5 more. Tagged areas include Company, whiskey, spirits, beverage-alcohol, and consumer-packaged-goods.
+overview: 'Uncle Nearest publishes 8 APIs on the [APIs.io](https://apis.io/) network, including Categories API, Common API, Doc API, and 5 more. Tagged areas include Company, Whiskey, Spirits, Beverage Alcohol, and Consumer Packaged Goods.
 
 
   Uncle Nearest''s developer surface includes support, FAQ, YouTube channel, authentication, and 23 more developer resources.'
@@ -223,7 +223,7 @@ score:
     catalog_gap: 78.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.5
+  delta: 0.0
   facets:
     access_clarity: 21.1
     commercial_clarity: 21.1
@@ -233,7 +233,7 @@ score:
     discoverability: 75.9
     governance: 4.5
     operational_transparency: 0.0
-  previous_composite: 29.4
+  previous_composite: 28.9
   provenance:
     agentic_access: derived
     conformance: derived
@@ -245,7 +245,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.17.2
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
   trend: flat
 security:
 - kind: authentication
@@ -259,14 +259,14 @@ security:
 slug: uncle-nearest
 tags:
 - Company
-- whiskey
-- spirits
-- beverage-alcohol
-- consumer-packaged-goods
-- distillery
-- hospitality
+- Whiskey
+- Spirits
+- Beverage Alcohol
+- Consumer Packaged Goods
+- Distillery
+- Hospitality
 - Event
-- tennessee
-- wordpress
+- Tennessee
+- WordPress
 website: https://unclenearest.com/
 ---

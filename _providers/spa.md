@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
 api_count: 0
 artifact_total: 0
 created: '2025'
@@ -43,7 +43,7 @@ modified: '2026-03-16'
 name: SPA
 nav: Providers
 network: true
-overview: SPA is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include SPA.
+overview: SPA is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Spa.
 random_paper: 9
 score:
   band: minimal
@@ -73,9 +73,9 @@ score:
       reason: never_enriched
   previous_composite: 3.5
   schema_version: 0.17.2
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
   trend: flat
 slug: spa
 tags:
-- SPA
+- Spa
 ---

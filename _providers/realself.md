@@ -23,7 +23,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 21.9
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
 api_count: 1
 apis:
 - description: 'RealSelf Lead Sharing publishes a notification to a partner-owned HTTPS endpoint every time a new patient lead is created on the platform. Delivery is over an Amazon SNS topic subscription: the subscr'
@@ -184,7 +184,7 @@ score:
     regime_id: health
     score: 33.8
   schema_version: 0.17.2
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
   trend: flat
 security:
 - kind: authentication

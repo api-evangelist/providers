@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 24.8
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -208,7 +208,7 @@ modified: '2026-05-24'
 name: Beatoven.ai
 nav: Providers
 network: true
-overview: 'Beatoven.ai publishes 2 APIs on the [APIs.io](https://apis.io/) network: Tasks API and Tracks API. Tagged areas include Artificial Intelligence, Music, Music Generation, Generative Audio, and Text To Music.
+overview: 'Beatoven.ai publishes 2 APIs on the [APIs.io](https://apis.io/) network: Tasks API and Tracks API. Tagged areas include Artificial Intelligence, Music, Music Generation, Generative Audio, and Text-to-Music.
 
 
   The Beatoven.ai catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
@@ -273,7 +273,7 @@ score:
       marker_coverage: 0.0
       total: 2
   schema_version: 0.17.2
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
   trend: flat
 security:
 - kind: authentication
@@ -290,7 +290,7 @@ tags:
 - Music
 - Music Generation
 - Generative Audio
-- Text To Music
+- Text-to-Music
 - Text To SFX
 - Royalty-Free Music
 - Background Music

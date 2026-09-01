@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
 api_count: 0
 artifact_total: 1
 common:
@@ -56,7 +56,7 @@ modified: '2026-07-20'
 name: Quick Ride
 nav: Providers
 network: true
-overview: 'Quick Ride is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Mobility, Ride Sharing, Carpooling, and Bikepool.
+overview: 'Quick Ride is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Mobility, Ridesharing, Carpooling, and Bikepool.
 
 
   Quick Ride''s developer surface includes engineering blog and 2 more developer resources.'
@@ -81,7 +81,7 @@ score:
     operational_transparency: 0.0
   previous_composite: 5.2
   schema_version: 0.17.2
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
   trend: flat
 security:
 - kind: domain-security
@@ -92,7 +92,7 @@ slug: quick-ride
 tags:
 - Company
 - Mobility
-- Ride Sharing
+- Ridesharing
 - Carpooling
 - Bikepool
 - Taxi

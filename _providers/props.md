@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
 api_count: 0
 artifact_total: 0
 common:
@@ -56,7 +56,7 @@ modified: '2026-07-20'
 name: Props
 nav: Providers
 network: true
-overview: 'Props is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Blockchain, Cryptocurrency, Tokens, and Loyalty & Rewards.
+overview: 'Props is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Blockchain, Cryptocurrency, Tokens, and Loyalty and Rewards.
 
 
   Props'' developer surface includes engineering blog and 2 more developer resources.'
@@ -87,7 +87,7 @@ score:
       reason: never_enriched
   previous_composite: 5.8
   schema_version: 0.17.2
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
   trend: flat
 slug: props
 tags:
@@ -95,7 +95,7 @@ tags:
 - Blockchain
 - Cryptocurrency
 - Tokens
-- Loyalty & Rewards
+- Loyalty and Rewards
 - Consumer Apps
 - Defunct
 - Web3

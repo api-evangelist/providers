@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 2.5
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
 api_count: 2
 apis:
 - description: Cordant is Baker Hughes' modular AI-enabled industrial enterprise software platform for asset performance management (APM), process optimization, and emissions management. It provides a digital thread
@@ -146,7 +146,7 @@ modified: '2026-04-21'
 name: Baker Hughes
 nav: Providers
 network: true
-overview: 'Baker Hughes publishes 2 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Energy Technology, Industrial IoT, Oil And Gas, Asset Performance Management, and Digital Energy.
+overview: 'Baker Hughes publishes 2 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Energy Technology, Industrial IoT, Oil and Gas, Asset Performance Management, and Digital Energy.
 
 
   The Baker Hughes catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
@@ -225,7 +225,7 @@ score:
     regime_id: energy_utilities
     score: 20.3
   schema_version: 0.17.2
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/baker-hughes/refs/heads/main/screenshots/baker-hughes-2026-06-20T172934.png
 security:
@@ -237,7 +237,7 @@ slug: baker-hughes
 tags:
 - Energy Technology
 - Industrial IoT
-- Oil And Gas
+- Oil and Gas
 - Asset Performance Management
 - Digital Energy
 - Fortune 500

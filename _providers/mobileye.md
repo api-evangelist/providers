@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
 api_count: 0
 artifact_total: 1
 common:
@@ -129,7 +129,7 @@ modified: '2026-05-23'
 name: Mobileye
 nav: Providers
 network: true
-overview: 'Mobileye is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include ADAS, Autonomous Vehicles, Computer-Vision, EyeQ, and SuperVision.
+overview: 'Mobileye is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include ADAS, Autonomous Vehicles, Computer-Vision, EyeQ, and Supervision.
 
 
   Mobileye''s developer surface includes engineering blog, YouTube channel, and 19 more developer resources.'
@@ -154,7 +154,7 @@ score:
     operational_transparency: 0.0
   previous_composite: 5.5
   schema_version: 0.17.2
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/mobileye/refs/heads/main/screenshots/mobileye-2026-06-20T185647.png
 security:
@@ -168,7 +168,7 @@ tags:
 - Autonomous Vehicles
 - Computer-Vision
 - EyeQ
-- SuperVision
+- Supervision
 - Chauffeur
 - REM
 - RSS

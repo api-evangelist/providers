@@ -23,7 +23,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 23.7
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
 api_count: 11
 apis:
 - description: API for the AEBDelivery
@@ -371,7 +371,7 @@ score:
     regime_id: telecommunications
     score: 6.9
   schema_version: 0.17.2
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/aeb/refs/heads/main/screenshots/aeb-2026-08-07T160936.png
 slug: aeb

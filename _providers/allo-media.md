@@ -23,7 +23,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 37.8
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
 api_count: 4
 apis:
 - description: 'Read-only REST API over calls that have finished processing on the Allo-Media platform — transcription, redaction, analysis and tagging complete. Three operations: list calls with date/status filters '
@@ -188,7 +188,7 @@ modified: '2026-08-17'
 name: Allo-Media
 nav: Providers
 network: true
-overview: 'Allo-Media publishes 4 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Ai Data, Speech Recognition, Speech To Text, and Conversation Intelligence.
+overview: 'Allo-Media publishes 4 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Ai Data, Speech Recognition, Speech-to-Text, and Conversation Intelligence.
 
 
   The Allo-Media catalog on APIs.io includes 1 event-driven AsyncAPI specification.
@@ -232,7 +232,7 @@ score:
     conformance: first-party
     mcp: derived
   schema_version: 0.17.2
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
   trend: flat
 security:
 - kind: authentication
@@ -252,7 +252,7 @@ tags:
 - Company
 - Ai Data
 - Speech Recognition
-- Speech To Text
+- Speech-to-Text
 - Conversation Intelligence
 - Call Tracking
 - Voice AI

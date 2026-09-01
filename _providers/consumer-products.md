@@ -28,7 +28,7 @@ tags:
 - Product Data
 - Retail
 - GTIN
-- Barcode
+- Barcodes
 - Product Catalog
 - PIM
 - Syndication

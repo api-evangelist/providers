@@ -23,7 +23,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 25.2
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
 api_count: 8
 apis:
 - description: The STOP-HAE trial-site (clinic) registry.
@@ -230,7 +230,7 @@ modified: '2026-08-06'
 name: ADARx Pharmaceuticals
 nav: Providers
 network: true
-overview: 'ADARx Pharmaceuticals publishes 8 APIs on the [APIs.io](https://apis.io/) network, including Clinics API, Content API, Embed API, and 5 more. Tagged areas include Company, biotechnology, biopharmaceuticals, rna-therapeutics, and sirna.
+overview: 'ADARx Pharmaceuticals publishes 8 APIs on the [APIs.io](https://apis.io/) network, including Clinics API, Content API, Embed API, and 5 more. Tagged areas include Company, Biotechnology, biopharmaceuticals, RNA Therapeutics, and siRNA.
 
 
   The ADARx Pharmaceuticals catalog on APIs.io includes 1 JSON-LD context.
@@ -272,7 +272,7 @@ score:
     regime_id: health
     score: 31.3
   schema_version: 0.17.2
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/adarx-pharmaceuticals/refs/heads/main/screenshots/adarx-pharmaceuticals-2026-08-07T160902.png
 security:
@@ -287,16 +287,16 @@ security:
 slug: adarx-pharmaceuticals
 tags:
 - Company
-- biotechnology
+- Biotechnology
 - biopharmaceuticals
-- rna-therapeutics
-- sirna
-- rna-editing
-- clinical-trials
-- rare-disease
-- drug-development
-- life-sciences
-- san-diego
+- RNA Therapeutics
+- siRNA
+- RNA Editing
+- Clinical Trials
+- Rare Disease
+- Drug Development
+- Life Sciences
+- San Diego
 - content-api
 website: https://www.adarx.com/
 ---

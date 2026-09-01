@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 2.5
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
 api_count: 1
 apis:
 - description: W3C WebDriver + Appium-compatible endpoint for creating sessions on Waldo cloud devices and driving native, hybrid, and mobile-web apps programmatically.
@@ -117,7 +117,7 @@ modified: '2026-07-21'
 name: Waldo
 nav: Providers
 network: true
-overview: 'Waldo publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Devops, Testing, Mobile, and Test Automation.
+overview: 'Waldo publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, DevOps, Testing, Mobile, and Test Automation.
 
 
   Waldo''s developer surface includes documentation, API reference, getting-started guide, pricing, engineering blog, signup flow, CLI, and 10 more developer resources.'
@@ -144,7 +144,7 @@ score:
   provenance:
     conformance: first-party
   schema_version: 0.17.2
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
   trend: flat
 security:
 - kind: authentication
@@ -154,7 +154,7 @@ security:
 slug: waldo
 tags:
 - Company
-- Devops
+- DevOps
 - Testing
 - Mobile
 - Test Automation

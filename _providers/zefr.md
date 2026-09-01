@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 5.0
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
 api_count: 0
 artifact_total: 6
 common:
@@ -137,7 +137,7 @@ modified: '2026-08-12'
 name: Zefr
 nav: Providers
 network: true
-overview: 'Zefr is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Adtech, Brand Safety, Brand Suitability, and Content Intelligence.
+overview: 'Zefr is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, AdTech, Brand Safety, Brand Suitability, and Content Intelligence.
 
 
   Zefr''s developer surface includes authentication, support, engineering blog, and 15 more developer resources.'
@@ -177,7 +177,7 @@ score:
   provenance:
     conformance: first-party
   schema_version: 0.17.2
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
   trend: flat
 security:
 - kind: authentication
@@ -195,7 +195,7 @@ security:
 slug: zefr
 tags:
 - Company
-- Adtech
+- AdTech
 - Brand Safety
 - Brand Suitability
 - Content Intelligence

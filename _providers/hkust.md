@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 28.8
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
 api_count: 1
 apis:
 - description: 'Public, keyless JSON API behind HKUST Path Advisor, the university''s campus wayfinding service. Serves the campus spatial model: 7 buildings, 43 calibrated floor plans with metres-per-pixel and origin'
@@ -234,7 +234,7 @@ score:
     catalog_gap: 41.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: 25.3
+  delta: 0.0
   facets:
     access_clarity: 52.6
     commercial_clarity: 52.6
@@ -247,7 +247,7 @@ score:
   open_source:
     applies: true
     score: 65.0
-  previous_composite: 27.1
+  previous_composite: 52.4
   regulatory:
     applies: true
     matched_via: tags
@@ -255,8 +255,8 @@ score:
     regime_id: education
     score: 57.4
   schema_version: 0.17.2
-  scored_at: '2026-08-30'
-  trend: rising
+  scored_at: '2026-09-01'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/hkust/refs/heads/main/screenshots/hkust-2026-06-20T182813.png
 security:
 - kind: authentication

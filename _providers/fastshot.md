@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
 api_count: 0
 artifact_total: 1
 common:
@@ -92,7 +92,7 @@ modified: '2026-07-19'
 name: Fastshot
 nav: Providers
 network: true
-overview: 'Fastshot is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, No Code, Mobile, App Builder, and Artificial Intelligence.
+overview: 'Fastshot is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, No-Code, Mobile, App Builder, and Artificial Intelligence.
 
 
   Fastshot''s developer surface includes documentation, getting-started guide, support, pricing, signup flow, and 7 more developer resources.'
@@ -117,7 +117,7 @@ score:
     operational_transparency: 0.0
   previous_composite: 12.9
   schema_version: 0.17.2
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/fastshot/refs/heads/main/screenshots/fastshot-2026-07-25T214248.png
 security:
@@ -128,7 +128,7 @@ security:
 slug: fastshot
 tags:
 - Company
-- No Code
+- No-Code
 - Mobile
 - App Builder
 - Artificial Intelligence

@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
 agentic_access:
 - acting_count: 37
   human_in_the_loop: 0
@@ -530,7 +530,7 @@ modified: '2026-05-19'
 name: Citrix
 nav: Providers
 network: true
-overview: 'Citrix publishes 22 APIs on the [APIs.io](https://apis.io/) network, including Access Policies API, Application Domains API, Applications API, and 19 more. Tagged areas include Application Delivery, Desktop-As-A-Service, Networking, Virtualization, and Workspace.
+overview: 'Citrix publishes 22 APIs on the [APIs.io](https://apis.io/) network, including Access Policies API, Application Domains API, Applications API, and 19 more. Tagged areas include Application Delivery, Desktop as a Service, Networking, Virtualization, and Workspace.
 
 
   The Citrix catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
@@ -611,7 +611,7 @@ score:
       marker_coverage: 0.0
       total: 22
   schema_version: 0.17.2
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/citrix/refs/heads/main/screenshots/citrix-2026-06-20T174413.png
 security:
@@ -626,7 +626,7 @@ security:
 slug: citrix
 tags:
 - Application Delivery
-- Desktop-As-A-Service
+- Desktop as a Service
 - Networking
 - Virtualization
 - Workspace

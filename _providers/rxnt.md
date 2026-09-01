@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 14.7
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -105,7 +105,7 @@ modified: '2026-07-04'
 name: RXNT
 nav: Providers
 network: true
-overview: 'RXNT publishes 2 APIs on the [APIs.io](https://apis.io/) network: Authentication API and Clinical Data API. Tagged areas include Healthcare, EHR, E-Prescribing, Clinical Data, and ONC Certified.
+overview: 'RXNT publishes 2 APIs on the [APIs.io](https://apis.io/) network: Authentication API and Clinical Data API. Tagged areas include Healthcare, EHR, e-Prescribing, Clinical Data, and ONC Certified.
 
 
   RXNT''s developer surface includes documentation, pricing, engineering blog, and 6 more developer resources.'
@@ -147,7 +147,7 @@ score:
     regime_id: health
     score: 7.5
   schema_version: 0.17.2
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
   trend: flat
 security:
 - kind: domain-security
@@ -158,7 +158,7 @@ slug: rxnt
 tags:
 - Healthcare
 - EHR
-- E-Prescribing
+- e-Prescribing
 - Clinical Data
 - ONC Certified
 - CCDS

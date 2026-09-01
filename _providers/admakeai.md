@@ -23,7 +23,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 38.1
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -44,6 +44,10 @@ apis:
   slug: admakeai-agent-skill
 artifact_total: 11
 common:
+- group: commercial
+  title: ''
+  type: License
+  url: https://github.com/mesmerlord/admakeai-agent-skills/blob/main/LICENSE
 - group: agent
   title: ''
   type: WellKnown
@@ -166,7 +170,7 @@ network: true
 overview: 'AdMakeAI publishes 3 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Advertising, Marketing, AdTech, Generative AI, and Image-Generation.
 
 
-  AdMakeAI''s developer surface includes authentication, documentation, API reference, getting-started guide, support, engineering blog, pricing, and 19 more developer resources.'
+  AdMakeAI''s developer surface includes authentication, documentation, API reference, getting-started guide, support, engineering blog, pricing, and 20 more developer resources.'
 plans:
 - name: Admakeai Plans Pricing
   plan_count: 4
@@ -206,7 +210,7 @@ score:
     mcp: first-party
     skills: first-party
   schema_version: 0.17.2
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
   trend: flat
 security:
 - kind: authentication

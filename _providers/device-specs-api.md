@@ -23,7 +23,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 27.3
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -193,7 +193,7 @@ modified: '2026-08-09'
 name: Device Specs API
 nav: Providers
 network: true
-overview: 'Device Specs API publishes 1 API on the [APIs.io](https://apis.io/) network: Values API. Tagged areas include Mobile, smartphones, phone-specs, chipsets, and hardware.
+overview: 'Device Specs API publishes 1 API on the [APIs.io](https://apis.io/) network: Values API. Tagged areas include Mobile, Smartphones, Phone Specs, Chipsets, and Hardware.
 
 
   The Device Specs API catalog on APIs.io includes 1 Spectral governance ruleset.
@@ -251,7 +251,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.17.2
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/device-specs-api/refs/heads/main/screenshots/device-specs-api-2026-08-17T080857.png
 security:
@@ -266,15 +266,15 @@ security:
 slug: device-specs-api
 tags:
 - Mobile
-- smartphones
-- phone-specs
-- chipsets
-- hardware
+- Smartphones
+- Phone Specs
+- Chipsets
+- Hardware
 - mobile-specs
 - Devices
 - rapidapi
 - gsmarena
-- reference-data
+- Reference Data
 - Developer Tools
 website: https://ds.gtgroup.dev/
 ---

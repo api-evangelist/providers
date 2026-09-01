@@ -23,7 +23,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 25.0
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
 api_count: 2
 apis:
 - description: The data API from Swiss Food Composition Database — 13 operation(s) for data.
@@ -153,7 +153,7 @@ modified: '2026-08-27'
 name: Swiss Food Composition Database
 nav: Providers
 network: true
-overview: 'Swiss Food Composition Database publishes 4 APIs on the [APIs.io](https://apis.io/) network, including Data API, Stats API, System API, and 1 more. Tagged areas include food, nutrition, food-composition, Health, and Open Data.
+overview: 'Swiss Food Composition Database publishes 4 APIs on the [APIs.io](https://apis.io/) network, including Data API, Stats API, System API, and 1 more. Tagged areas include Food, Nutrition, food-composition, Health, and Open Data.
 
 
   Swiss Food Composition Database''s developer surface includes documentation, API reference, support, changelog, authentication, and 20 more developer resources.'
@@ -174,7 +174,7 @@ score:
     catalog_gap: 70.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.6
+  delta: 0.0
   facets:
     access_clarity: 42.1
     commercial_clarity: 42.1
@@ -184,7 +184,7 @@ score:
     discoverability: 68.5
     governance: 18.2
     operational_transparency: 26.3
-  previous_composite: 45.2
+  previous_composite: 44.6
   regulatory:
     applies: true
     matched_via: tags
@@ -192,7 +192,7 @@ score:
     regime_id: government
     score: 57.4
   schema_version: 0.17.2
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
   trend: flat
 security:
 - kind: authentication
@@ -209,15 +209,15 @@ security:
   summary_line: security.txt · contact published
 slug: swiss-food-composition-database
 tags:
-- food
-- nutrition
+- Food
+- Nutrition
 - food-composition
 - Health
 - Open Data
-- government
-- switzerland
-- reference-data
-- public-sector
-- research
+- Government
+- Switzerland
+- Reference Data
+- Public Sector
+- Research
 website: https://naehrwertdaten.ch
 ---

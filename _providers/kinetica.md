@@ -23,7 +23,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 33.8
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
 api_count: 3
 apis:
 - description: 'POST-only JSON REST API exposed by every Kinetica deployment on port 9191. Endpoints cover SQL execution (/execute/sql), record ingest and egress (/insert/records/json, /get/records/json), schema and '
@@ -189,7 +189,7 @@ modified: '2026-08-04'
 name: Kinetica
 nav: Providers
 network: true
-overview: 'Kinetica publishes 3 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Database, Analytics, gpu-acceleration, real-time-analytics, and vector-search.
+overview: 'Kinetica publishes 3 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Database, Analytics, gpu-acceleration, Real-Time Analytics, and Vector Search.
 
 
   Kinetica''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 27 more developer resources.'
@@ -223,7 +223,7 @@ score:
     mcp: first-party
     skills: first-party
   schema_version: 0.17.2
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/kinetica/refs/heads/main/screenshots/kinetica-2026-08-07T171232.png
 security:
@@ -244,14 +244,14 @@ tags:
 - Database
 - Analytics
 - gpu-acceleration
-- real-time-analytics
-- vector-search
-- graph-analytics
-- geospatial
-- time-series
+- Real-Time Analytics
+- Vector Search
+- Graph Analytics
+- Geospatial
+- Time Series
 - SQL
-- streaming
-- data-infrastructure
+- Streaming
+- Data Infrastructure
 - MCP
 - agent-native
 - RAG

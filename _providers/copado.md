@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 2.5
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
 api_count: 0
 artifact_total: 4
 common:
@@ -149,7 +149,7 @@ modified: '2026-07-18'
 name: Copado
 nav: Providers
 network: true
-overview: 'Copado is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Devops, Salesforce, CI/CD, and Release Management.
+overview: 'Copado is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, DevOps, Salesforce, CI/CD, and Release Management.
 
 
   Copado''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, CLI, and 19 more developer resources.'
@@ -176,7 +176,7 @@ score:
   provenance:
     conformance: first-party
   schema_version: 0.17.2
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/copado/refs/heads/main/screenshots/copado-2026-07-25T210407.png
 security:
@@ -199,7 +199,7 @@ security:
 slug: copado
 tags:
 - Company
-- Devops
+- DevOps
 - Salesforce
 - CI/CD
 - Release Management

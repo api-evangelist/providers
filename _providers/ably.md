@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 29.1
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
 agentic_access:
 - acting_count: 25
   human_in_the_loop: 1
@@ -461,7 +461,7 @@ modified: '2026-05-29'
 name: Ably
 nav: Providers
 network: true
-overview: 'Ably publishes 12 APIs on the [APIs.io](https://apis.io/) network, including apps API, Authentication API, History API, and 9 more. Tagged areas include Real-Time, WebSockets, Pub/Sub, Messaging, and Streaming.
+overview: 'Ably publishes 12 APIs on the [APIs.io](https://apis.io/) network, including apps API, Authentication API, History API, and 9 more. Tagged areas include Real-Time, WebSockets, Pub-Sub, Messaging, and Streaming.
 
 
   The Ably catalog on APIs.io includes 1 event-driven AsyncAPI specification and 2 Spectral governance rulesets.
@@ -507,7 +507,7 @@ score:
     catalog_gap: 64.5
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.6
+  delta: 0.0
   facets:
     access_clarity: 34.2
     commercial_clarity: 34.2
@@ -517,7 +517,7 @@ score:
     discoverability: 75.9
     governance: 13.6
     operational_transparency: 28.9
-  previous_composite: 43.6
+  previous_composite: 43.0
   provenance:
     agentic_access: derived
     contracts:
@@ -526,7 +526,7 @@ score:
       marker_coverage: 0.0
       total: 12
   schema_version: 0.17.2
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/ably/refs/heads/main/screenshots/ably-2026-06-20T163221.png
 security:
@@ -550,7 +550,7 @@ slug: ably
 tags:
 - Real-Time
 - WebSockets
-- Pub/Sub
+- Pub-Sub
 - Messaging
 - Streaming
 - Push Notifications

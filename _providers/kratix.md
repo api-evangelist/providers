@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 2.5
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
 api_count: 1
 apis:
 - description: 'Kratix is an open-source framework for building internal developer platforms using Kubernetes. Platform teams author Promises that wrap complex services into self-service APIs delivered as Kubernetes '
@@ -130,7 +130,7 @@ score:
     catalog_gap: 74.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: 3.1
+  delta: 0.0
   facets:
     access_clarity: 15.8
     commercial_clarity: 15.8
@@ -143,9 +143,9 @@ score:
   open_source:
     applies: true
     score: 50.0
-  previous_composite: 19.4
+  previous_composite: 22.5
   schema_version: 0.17.2
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/kratix/refs/heads/main/screenshots/kratix-2026-06-20T184151.png
 security:

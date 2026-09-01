@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 20.7
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
 api_count: 1
 apis:
 - description: 'Qover''s REST API for embedded insurance: a Claims API (file, retrieve, track status history, and download claim reports), a Policy API (manage policies and dynamically add/remove risk items), and a Do'
@@ -175,7 +175,7 @@ score:
     regime_id: insurance
     score: 45.5
   schema_version: 0.17.2
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/qover/refs/heads/main/screenshots/qover-2026-08-17T081419.png
 security:

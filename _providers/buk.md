@@ -24,7 +24,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 46.9
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
 api_count: 14
 apis:
 - description: The Absences requests API from Buk — 4 operation(s) for absences requests.
@@ -679,7 +679,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.17.2
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/buk/refs/heads/main/screenshots/buk-2026-08-17T080728.png
 security:

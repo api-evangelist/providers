@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 5.0
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
 api_count: 1
 apis:
 - description: Domo API allows users to integrate and interact with data from various sources within the Domo platform. With Domo API, users can access real-time data, automate data processes, and create custom data
@@ -103,7 +103,7 @@ score:
     operational_transparency: 10.5
   previous_composite: 14.5
   schema_version: 0.17.2
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/domo/refs/heads/main/screenshots/domo-2026-06-20T180144.png
 security:

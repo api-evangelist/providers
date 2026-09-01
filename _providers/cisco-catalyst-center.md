@@ -23,7 +23,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 37.4
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
 api_count: 27
 apis:
 - description: 'First-party open-source Model Context Protocol server for Catalyst Center, published by Cisco under Apache-2.0 at cisco-en-programmability/catc-mcp-oss. It is self-hosted: the operator builds the Dock'
@@ -122,6 +122,10 @@ asyncapis:
   name: Cisco Catalyst Center Webhooks
   slug: cisco-catalyst-center-webhooks
 common:
+- group: commercial
+  title: ''
+  type: License
+  url: https://github.com/cisco-en-programmability/catc-mcp-oss/blob/main/LICENSE
 - group: other
   title: ''
   type: CapabilityMap
@@ -432,7 +436,7 @@ overview: 'Cisco Catalyst Center publishes 29 APIs on the [APIs.io](https://apis
   The Cisco Catalyst Center catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  Cisco Catalyst Center''s developer surface includes developer portal, documentation, API reference, sandbox, changelog, authentication, getting-started guide, and 66 more developer resources.'
+  Cisco Catalyst Center''s developer surface includes developer portal, documentation, API reference, sandbox, changelog, authentication, getting-started guide, and 67 more developer resources.'
 plans:
 - name: Cisco Catalyst Center Plans Pricing
   plan_count: 0
@@ -477,7 +481,7 @@ score:
     regime_id: education
     score: 66.7
   schema_version: 0.17.2
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
   trend: flat
 security:
 - kind: authentication
@@ -510,7 +514,7 @@ tags:
 - Observability
 - Telemetry
 - MCP
-- Agent Native
+- agent-native
 - Cisco
 website: https://developer.cisco.com/
 ---

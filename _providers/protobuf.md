@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 2.5
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
 api_count: 1
 apis:
 - description: 'Protocol Buffers (protobuf) is Google''s language-neutral, platform-neutral extensible mechanism for serializing structured data, providing a code generation engine that produces efficient data access '
@@ -106,7 +106,7 @@ score:
     operational_transparency: 10.5
   previous_composite: 14.3
   schema_version: 0.17.2
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/protobuf/refs/heads/main/screenshots/protobuf-2026-06-20T192219.png
 security:

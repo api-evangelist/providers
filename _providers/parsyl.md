@@ -23,7 +23,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 2.5
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
 api_count: 1
 apis:
 - description: 'Parsyl offers custom API integration into the Parsyl Platform so customers and Data Partner Program vendors can push or pull shipment, sensor and condition data. Documentation is served from Parsyl''s '
@@ -148,7 +148,7 @@ score:
     regime_id: insurance
     score: 36.4
   schema_version: 0.17.2
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
   trend: flat
 security:
 - kind: domain-security

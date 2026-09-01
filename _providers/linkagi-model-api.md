@@ -23,7 +23,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 24.3
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
 api_count: 1
 apis:
 - description: Messages-shaped route advertised by the service. The route reaches authentication without a key; authenticated native compatibility has not been verified in the latest evidence set.
@@ -178,7 +178,7 @@ modified: '2026-08-09'
 name: LinkAGI Model API
 nav: Providers
 network: true
-overview: 'LinkAGI Model API publishes 5 APIs on the [APIs.io](https://apis.io/) network, including Anthropic-style route API, Discovery API, Gemini-style route API, and 2 more. Tagged areas include Artificial Intelligence, LLM, AI API gateway, relay, and OpenAI-compatible.
+overview: 'LinkAGI Model API publishes 5 APIs on the [APIs.io](https://apis.io/) network, including Anthropic-style route API, Discovery API, Gemini-style route API, and 2 more. Tagged areas include Artificial Intelligence, LLM, AI API Gateway, Relay, and OpenAI-Compatible.
 
 
   LinkAGI Model API''s developer surface includes authentication, documentation, getting-started guide, support, engineering blog, GitHub presence, pricing, and 19 more developer resources.'
@@ -191,7 +191,7 @@ score:
     catalog_gap: 78.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.5
+  delta: 0.0
   facets:
     access_clarity: 0.0
     commercial_clarity: 0.0
@@ -201,7 +201,7 @@ score:
     discoverability: 75.9
     governance: 4.5
     operational_transparency: 36.8
-  previous_composite: 36.5
+  previous_composite: 36.0
   provenance:
     conformance: derived
     contracts:
@@ -212,7 +212,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.17.2
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/linkagi-model-api/refs/heads/main/screenshots/linkagi-model-api-2026-08-17T081030.png
 security:
@@ -228,14 +228,14 @@ slug: linkagi-model-api
 tags:
 - Artificial Intelligence
 - LLM
-- AI API gateway
-- relay
-- OpenAI-compatible
-- Anthropic-compatible
+- AI API Gateway
+- Relay
+- OpenAI-Compatible
+- Anthropic Compatible
 - Gemini-compatible
 - Developer Tools
 - CLI coding agents
-- model routing
+- Model Routing
 - China
 website: https://api.linktoagi.com/
 ---

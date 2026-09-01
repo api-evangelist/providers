@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 24.8
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -159,7 +159,7 @@ score:
       marker_coverage: 0.0
       total: 1
   schema_version: 0.17.2
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/plain-support/refs/heads/main/screenshots/plain-support-2026-06-20T191749.png
 security:
@@ -178,6 +178,6 @@ tags:
 - GraphQL
 - Threads
 - Customer Communication
-- API First
+- API-First
 website: https://www.plain.com
 ---

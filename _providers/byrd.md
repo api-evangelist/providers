@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 8.8
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
 api_count: 1
 apis:
 - description: REST API to create and manage products, deliveries (inbound stock), shipments (outbound orders), and returns across byrd's European fulfillment network. JWT bearer auth; JSON over HTTPS (TLS 1.2+); re
@@ -166,7 +166,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.17.2
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/byrd/refs/heads/main/screenshots/byrd-2026-07-25T204138.png
 security:

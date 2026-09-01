@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
 api_count: 0
 artifact_total: 1
 common:
@@ -61,7 +61,7 @@ modified: '2026-07-19'
 name: Espressive
 nav: Providers
 network: true
-overview: Espressive is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Conversational AI, Virtual Agent, IT Service Management, and ITSM.
+overview: Espressive is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Conversational AI, Virtual Agent, ITSM, and Employee Experience.
 random_paper: 5
 score:
   band: minimal
@@ -83,7 +83,7 @@ score:
     operational_transparency: 0.0
   previous_composite: 7.1
   schema_version: 0.17.2
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/espressive/refs/heads/main/screenshots/espressive-2026-07-25T213629.png
 security:
@@ -96,7 +96,6 @@ tags:
 - Company
 - Conversational AI
 - Virtual Agent
-- IT Service Management
 - ITSM
 - Employee Experience
 - Enterprise AI

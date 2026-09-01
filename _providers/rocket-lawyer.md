@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 21.5
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
 agentic_access:
 - acting_count: 34
   human_in_the_loop: 0
@@ -294,7 +294,7 @@ score:
       marker_coverage: 0.0
       total: 8
   schema_version: 0.17.2
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/rocket-lawyer/refs/heads/main/screenshots/rocket-lawyer-2026-06-20T193152.png
 security:
@@ -317,7 +317,7 @@ tags:
 - Legal Tech
 - Legal Documents
 - Electronic Signature
-- eSignature
+- E-Signature
 - Document Creation
 - Document-Management
 - Business Formation

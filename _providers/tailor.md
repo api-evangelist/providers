@@ -23,7 +23,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 32.2
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
 api_count: 3
 apis:
 - description: 'The Tailor Platform control plane. A single tailor.v1.OperatorService with 254 RPCs covering organizations, folders, teams, access grants, IP restrictions, workspaces, applications and every platform '
@@ -41,6 +41,10 @@ asyncapis:
   name: Tailor Webhooks
   slug: tailor-webhooks
 common:
+- group: commercial
+  title: ''
+  type: License
+  url: https://github.com/tailor-inc/proto/blob/main/LICENSE
 - group: company
   title: ''
   type: Website
@@ -207,7 +211,7 @@ overview: 'Tailor publishes 3 APIs on the [APIs.io](https://apis.io/) network. T
   The Tailor catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  Tailor''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, signup flow, CLI, and 30 more developer resources.'
+  Tailor''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, signup flow, CLI, and 31 more developer resources.'
 plans:
 - name: Tailor Plans Pricing
   plan_count: 0
@@ -242,7 +246,7 @@ score:
     operational_transparency: 65.8
   previous_composite: 52.0
   schema_version: 0.17.2
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
   trend: flat
 security:
 - kind: authentication

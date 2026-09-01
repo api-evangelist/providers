@@ -23,7 +23,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 2.5
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
 api_count: 1
 apis:
 - description: EchoLeads provider surfaces. The agent-native artifacts (llms.txt, llms-full.txt, security.txt) are confirmed publicly reachable and are saved verbatim in this repo. A REST API for triggering calls, r
@@ -104,7 +104,7 @@ modified: '2026-08-11'
 name: EchoLeads
 nav: Providers
 network: true
-overview: 'EchoLeads publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include AI voice sales, AI voice agents, cold calling automation, AI SDR, and Lead Generation.
+overview: 'EchoLeads publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include AI voice sales, AI Voice Agents, cold calling automation, AI SDR, and Lead Generation.
 
 
   EchoLeads'' developer surface includes engineering blog, support, and 10 more developer resources.'
@@ -145,7 +145,7 @@ score:
   provenance:
     conformance: first-party
   schema_version: 0.17.2
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
   trend: flat
 security:
 - kind: domain-security
@@ -159,16 +159,16 @@ security:
 slug: echoleads
 tags:
 - AI voice sales
-- AI voice agents
+- AI Voice Agents
 - cold calling automation
 - AI SDR
 - Lead Generation
-- conversational AI
+- Conversational AI
 - omnichannel sales automation
-- appointment scheduling
+- Appointment Scheduling
 - WhatsApp automation
 - Instagram DM automation
-- voice AI
-- sales automation
+- Voice AI
+- Sales Automation
 - India
 ---

@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 2.5
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
 api_count: 3
 apis:
 - description: The libiio library provides a cross-platform C API for interfacing with Linux Industrial I/O (IIO) devices including ADCs, DACs, and RF transceivers. It supports local and remote device access via a n
@@ -146,7 +146,7 @@ modified: '2026-04-19'
 name: Analog Devices
 nav: Providers
 network: true
-overview: 'Analog Devices publishes 3 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Embedded Systems, Hardware, IoT, Semiconductor, and Signal Processing.
+overview: 'Analog Devices publishes 3 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Embedded Systems, Hardware, IoT, Semiconductors, and Signal Processing.
 
 
   The Analog Devices catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
@@ -219,7 +219,7 @@ score:
     operational_transparency: 7.9
   previous_composite: 22.2
   schema_version: 0.17.2
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/analog-devices/refs/heads/main/screenshots/analog-devices-2026-08-07T161354.png
 security:
@@ -232,7 +232,7 @@ tags:
 - Embedded Systems
 - Hardware
 - IoT
-- Semiconductor
+- Semiconductors
 - Signal Processing
 - Fortune 1000
 use_cases:

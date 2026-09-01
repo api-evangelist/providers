@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
 api_count: 0
 artifact_total: 0
 common:
@@ -64,7 +64,7 @@ modified: '2026-07-20'
 name: Numan
 nav: Providers
 network: true
-overview: 'Numan is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Healthtech, Telemedicine, Telehealth, and Digital Health.
+overview: 'Numan is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Health Tech, Telemedicine, Telehealth, and Digital Health.
 
 
   Numan''s developer surface includes support and 4 more developer resources.'
@@ -101,13 +101,13 @@ score:
     regime_id: health
     score: 10.0
   schema_version: 0.17.2
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/numan/refs/heads/main/screenshots/numan-2026-08-07T185726.png
 slug: numan
 tags:
 - Company
-- Healthtech
+- Health Tech
 - Telemedicine
 - Telehealth
 - Digital Health

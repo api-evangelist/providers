@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 15.5
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
 api_count: 1
 apis:
 - description: 'OAI-PMH 2.0 metadata harvesting interface for UR Research, the University of Rochester''s legacy institutional repository, served from the university''s own domain and running IR+ — repository software '
@@ -50,6 +50,10 @@ apis:
   slug: primo-discovery-tenancy
 artifact_total: 8
 common:
+- group: commercial
+  title: ''
+  type: License
+  url: https://github.com/rochester-rcl/irplus/blob/master/LICENSE
 - group: company
   title: ''
   type: Website
@@ -158,7 +162,7 @@ network: true
 overview: 'University of Rochester publishes 1 API on the [APIs.io](https://apis.io/) network: UR Research OAI-PMH Interface. Tagged areas include University, Higher Education, Education, United States, and New York.
 
 
-  University of Rochester''s developer surface includes GitHub presence, support, engineering blog, and 20 more developer resources.'
+  University of Rochester''s developer surface includes GitHub presence, support, engineering blog, and 21 more developer resources.'
 plans:
 - name: University Of Rochester Plans Pricing
   plan_count: 2
@@ -176,7 +180,7 @@ score:
     catalog_gap: 59.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -5.3
+  delta: 0.0
   facets:
     access_clarity: 50.0
     commercial_clarity: 50.0
@@ -186,7 +190,7 @@ score:
     discoverability: 68.5
     governance: 0.0
     operational_transparency: 26.3
-  previous_composite: 44.8
+  previous_composite: 39.5
   provenance:
     agentic_access: derived
     contracts:
@@ -201,8 +205,8 @@ score:
     regime_id: education
     score: 35.2
   schema_version: 0.17.2
-  scored_at: '2026-08-30'
-  trend: falling
+  scored_at: '2026-09-01'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/university-of-rochester/refs/heads/main/screenshots/university-of-rochester-2026-06-20T200223.png
 security:
 - kind: domain-security

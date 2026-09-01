@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 6.0
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
 api_count: 10
 apis:
 - description: Versioned external REST API introduced in Sourcegraph 7.0 and intended as the stable integration surface going forward. Each Sourcegraph instance exposes its own /api-reference path where the live Ope
@@ -198,7 +198,7 @@ modified: '2026-05-30'
 name: Sourcegraph
 nav: Providers
 network: true
-overview: 'Sourcegraph publishes 10 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Code Intelligence, Code Search, Cody, Amp, and AI Coding Agent.
+overview: 'Sourcegraph publishes 10 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Code Intelligence, Code Search, Cody, AMP, and AI Coding Agent.
 
 
   Sourcegraph''s developer surface includes developer portal, documentation, API reference, engineering blog, CLI, pricing, support, and 13 more developer resources.'
@@ -234,7 +234,7 @@ score:
     score: 25.0
   previous_composite: 30.9
   schema_version: 0.17.2
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/sourcegraph/refs/heads/main/screenshots/sourcegraph-2026-06-20T194223.png
 security:
@@ -255,7 +255,7 @@ tags:
 - Code Intelligence
 - Code Search
 - Cody
-- Amp
+- AMP
 - AI Coding Agent
 - GraphQL
 - REST API

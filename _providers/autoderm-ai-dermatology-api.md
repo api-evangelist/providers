@@ -23,7 +23,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 27.7
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
 agentic_access:
 - acting_count: 5
   human_in_the_loop: 0
@@ -280,7 +280,7 @@ modified: '2026-08-09'
 name: Autoderm – AI Dermatology API
 nav: Providers
 network: true
-overview: 'Autoderm – AI Dermatology API publishes 4 APIs on the [APIs.io](https://apis.io/) network, including Device API, Inference API, System API, and 1 more. Tagged areas include dermatology-api, ai-dermatology, medical-imaging, telemedicine, and skin-analysis.
+overview: 'Autoderm – AI Dermatology API publishes 4 APIs on the [APIs.io](https://apis.io/) network, including Device API, Inference API, System API, and 1 more. Tagged areas include dermatology-api, ai-dermatology, Medical Imaging, Telemedicine, and skin-analysis.
 
 
   Autoderm – AI Dermatology API''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 27 more developer resources.'
@@ -301,7 +301,7 @@ score:
     catalog_gap: 54.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.5
+  delta: 0.0
   facets:
     access_clarity: 84.2
     commercial_clarity: 84.2
@@ -311,7 +311,7 @@ score:
     discoverability: 75.9
     governance: 18.2
     operational_transparency: 57.9
-  previous_composite: 64.7
+  previous_composite: 64.2
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -329,7 +329,7 @@ score:
     regime_id: health
     score: 37.5
   schema_version: 0.17.2
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/autoderm-ai-dermatology-api/refs/heads/main/screenshots/autoderm-ai-dermatology-api-2026-08-17T080622.png
 security:
@@ -345,21 +345,21 @@ slug: autoderm-ai-dermatology-api
 tags:
 - dermatology-api
 - ai-dermatology
-- medical-imaging
-- telemedicine
+- Medical Imaging
+- Telemedicine
 - skin-analysis
 - REST API
 - OpenAPI
 - llms-txt
 - ce-marked
-- white-label
-- healthcare
-- medical-ai
-- computer-vision
-- medical-device
-- icd-10
+- White Label
+- Healthcare
+- Medical AI
+- Computer-Vision
+- Medical Device
+- ICD-10
 - image-classification
-- clinical-decision-support
+- Clinical Decision Support
 - triage
 website: https://autoderm.ai/
 ---

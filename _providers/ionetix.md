@@ -23,7 +23,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 25.9
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
 api_count: 9
 apis:
 - description: News releases, careers postings, conference listings, case studies, presentations and publications published on ionetix.com, served as JSON by the WordPress REST wp/v2 namespace. 66 posts across 10 ca
@@ -214,7 +214,7 @@ score:
     regime_id: health
     score: 26.3
   schema_version: 0.17.2
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
   trend: flat
 security:
 - kind: authentication

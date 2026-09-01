@@ -23,7 +23,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 31.3
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
 api_count: 13
 apis:
 - description: The Administration - Audit Log API from Cisco Catalyst SD-WAN — 8 operation(s) for administration - audit log.
@@ -1178,6 +1178,10 @@ asyncapis:
   name: Cisco Catalyst Sdwan Webhooks
   slug: cisco-catalyst-sdwan-webhooks
 common:
+- group: commercial
+  title: ''
+  type: License
+  url: https://github.com/CiscoDevNet/sastre/blob/master/LICENSE
 - group: other
   title: ''
   type: CapabilityMap
@@ -1432,7 +1436,7 @@ overview: 'Cisco Catalyst SD-WAN publishes 382 APIs on the [APIs.io](https://api
   The Cisco Catalyst SD-WAN catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  Cisco Catalyst SD-WAN''s developer surface includes developer portal, documentation, API reference, getting-started guide, support, engineering blog, signup flow, and 51 more developer resources.'
+  Cisco Catalyst SD-WAN''s developer surface includes developer portal, documentation, API reference, getting-started guide, support, engineering blog, signup flow, and 52 more developer resources.'
 plans:
 - name: Cisco Catalyst Sdwan Plans Pricing
   plan_count: 0
@@ -1482,7 +1486,7 @@ score:
     regime_id: insurance
     score: 80.3
   schema_version: 0.17.2
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
   trend: flat
 security:
 - kind: authentication

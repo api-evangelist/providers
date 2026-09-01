@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
 api_count: 0
 artifact_total: 1
 common:
@@ -56,7 +56,7 @@ modified: '2026-07-21'
 name: SpotPay
 nav: Providers
 network: true
-overview: 'SpotPay is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Payments, Neobank, Stablecoin, and Blockchain.
+overview: 'SpotPay is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Payments, Neobank, Stablecoins, and Blockchain.
 
 
   SpotPay''s developer surface includes signup flow and 2 more developer resources.'
@@ -87,7 +87,7 @@ score:
     regime_id: payments
     score: 9.4
   schema_version: 0.17.2
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
   trend: flat
 security:
 - kind: domain-security
@@ -99,7 +99,7 @@ tags:
 - Company
 - Payments
 - Neobank
-- Stablecoin
+- Stablecoins
 - Blockchain
 - Fintech
 - Digital Wallet

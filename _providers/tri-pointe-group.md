@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
 api_count: 0
 artifact_total: 1
 common:
@@ -116,7 +116,7 @@ modified: '2026-05-23'
 name: Tri Pointe Homes
 nav: Providers
 network: true
-overview: 'Tri Pointe Homes is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Homebuilding, Real-Estate, Residential Construction, Mortgage, and Title And Escrow.
+overview: 'Tri Pointe Homes is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Homebuilding, Real-Estate, Residential Construction, Mortgage, and Title and Escrow.
 
 
   Tri Pointe Homes'' developer surface includes engineering blog, YouTube channel, and 12 more developer resources.'
@@ -147,7 +147,7 @@ score:
     regime_id: insurance
     score: 9.1
   schema_version: 0.17.2
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/tri-pointe-group/refs/heads/main/screenshots/tri-pointe-group-2026-06-20T195700.png
 security:
@@ -161,7 +161,7 @@ tags:
 - Real-Estate
 - Residential Construction
 - Mortgage
-- Title And Escrow
+- Title and Escrow
 - Insurance
 - Smart Home
 - Fortune 1000

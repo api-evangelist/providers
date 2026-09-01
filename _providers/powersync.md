@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 2.5
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
 api_count: 6
 apis:
 - description: The PowerSync Service exposes a streaming sync protocol over HTTP/WebSocket that client SDKs connect to using JWT authentication. Clients submit their current bucket state and the service streams real
@@ -161,7 +161,7 @@ score:
     operational_transparency: 65.8
   previous_composite: 30.1
   schema_version: 0.17.2
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/powersync/refs/heads/main/screenshots/powersync-2026-06-20T192032.png
 security:

@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
 api_count: 0
 artifact_total: 1
 common:
@@ -64,7 +64,7 @@ modified: '2026-07-19'
 name: General Medicine
 nav: Providers
 network: true
-overview: 'General Medicine is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Healthtech, Telehealth, Telemedicine, and Healthcare.
+overview: 'General Medicine is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Health Tech, Telehealth, Telemedicine, and Healthcare.
 
 
   General Medicine''s developer surface includes support and 4 more developer resources.'
@@ -95,7 +95,7 @@ score:
     regime_id: health
     score: 17.5
   schema_version: 0.17.2
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/general-medicine/refs/heads/main/screenshots/general-medicine-2026-07-25T215546.png
 security:
@@ -106,7 +106,7 @@ security:
 slug: general-medicine
 tags:
 - Company
-- Healthtech
+- Health Tech
 - Telehealth
 - Telemedicine
 - Healthcare

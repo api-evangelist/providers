@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 25.5
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
 agentic_access:
 - acting_count: 251
   human_in_the_loop: 10
@@ -532,7 +532,7 @@ modified: '2026-05-25'
 name: Wowza
 nav: Providers
 network: true
-overview: 'Wowza publishes 44 APIs on the [APIs.io](https://apis.io/) network, including advanced_token_authentication API, analytics_engagement API, analytics_ingest API, and 41 more. Tagged areas include Video, Streaming, Live Streaming, Video On Demand, and Transcoding.
+overview: 'Wowza publishes 44 APIs on the [APIs.io](https://apis.io/) network, including advanced_token_authentication API, analytics_engagement API, analytics_ingest API, and 41 more. Tagged areas include Video, Streaming, Live Streaming, Video-on-Demand, and Transcoding.
 
 
   Wowza''s developer surface includes authentication, developer portal, documentation, API reference, signup flow, developer console, pricing, and 27 more developer resources.'
@@ -545,7 +545,7 @@ score:
     catalog_gap: 81.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.6
+  delta: 0.0
   facets:
     access_clarity: 44.7
     commercial_clarity: 44.7
@@ -555,7 +555,7 @@ score:
     discoverability: 63.0
     governance: 0.0
     operational_transparency: 36.8
-  previous_composite: 50.2
+  previous_composite: 49.6
   provenance:
     agentic_access: derived
     contracts:
@@ -564,7 +564,7 @@ score:
       marker_coverage: 0.0
       total: 44
   schema_version: 0.17.2
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/wowza/refs/heads/main/screenshots/wowza-2026-06-20T201630.png
 security:
@@ -594,7 +594,7 @@ tags:
 - Video
 - Streaming
 - Live Streaming
-- Video On Demand
+- Video-on-Demand
 - Transcoding
 - Media Server
 - RTMP

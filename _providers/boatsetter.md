@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
 api_count: 0
 artifact_total: 1
 common:
@@ -149,7 +149,7 @@ modified: '2026-08-02'
 name: Boatsetter
 nav: Providers
 network: true
-overview: 'Boatsetter is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Boat Rental, Peer To Peer, Marketplace, Travel, and Boating.
+overview: 'Boatsetter is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Boat Rental, Peer-to-Peer, Marketplace, Travel, and Boating.
 
 
   Boatsetter''s developer surface includes support, engineering blog, signup flow, YouTube channel, and 22 more developer resources.'
@@ -174,7 +174,7 @@ score:
     operational_transparency: 2.6
   previous_composite: 14.3
   schema_version: 0.17.2
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/boatsetter/refs/heads/main/screenshots/boatsetter-2026-08-07T162655.png
 security:
@@ -185,7 +185,7 @@ security:
 slug: boatsetter
 tags:
 - Boat Rental
-- Peer To Peer
+- Peer-to-Peer
 - Marketplace
 - Travel
 - Boating

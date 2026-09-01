@@ -23,7 +23,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 20.9
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
 api_count: 1
 apis:
 - description: The KeystoneJS 5 headless-CMS GraphQL backend that serves the provivi.com marketing site. It exposes 199 types, 83 query fields and 122 mutation fields covering the site's content model — Article, Pre
@@ -135,7 +135,7 @@ modified: '2026-08-26'
 name: Provivi
 nav: Providers
 network: true
-overview: 'Provivi publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Agriculture, agtech, biotechnology, crop-protection, and pheromones.
+overview: 'Provivi publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Agriculture, AgTech, Biotechnology, Crop Protection, and Pheromones.
 
 
   Provivi''s developer surface includes engineering blog, support, FAQ, YouTube channel, authentication, and 18 more developer resources.'
@@ -170,7 +170,7 @@ score:
   provenance:
     conformance: derived
   schema_version: 0.17.2
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
   trend: flat
 security:
 - kind: authentication
@@ -184,12 +184,12 @@ security:
 slug: provivi
 tags:
 - Agriculture
-- agtech
-- biotechnology
-- crop-protection
-- pheromones
-- sustainability
-- content-management
-- graphql
+- AgTech
+- Biotechnology
+- Crop Protection
+- Pheromones
+- Sustainability
+- Content Management
+- GraphQL
 website: https://www.provivi.com/en
 ---

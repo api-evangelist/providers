@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
 api_count: 0
 artifact_total: 1
 common:
@@ -52,7 +52,7 @@ modified: '2026-07-18'
 name: Ebates
 nav: Providers
 network: true
-overview: Ebates is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Cash Back, Rewards, Shopping, and E-Commerce.
+overview: Ebates is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Cashback, Rewards, Shopping, and E-Commerce.
 random_paper: 19
 score:
   band: minimal
@@ -74,7 +74,7 @@ score:
     operational_transparency: 0.0
   previous_composite: 5.0
   schema_version: 0.17.2
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/ebates/refs/heads/main/screenshots/ebates-2026-07-25T212753.png
 security:
@@ -85,7 +85,7 @@ security:
 slug: ebates
 tags:
 - Company
-- Cash Back
+- Cashback
 - Rewards
 - Shopping
 - E-Commerce

@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
 api_count: 0
 artifact_total: 1
 common:
@@ -100,7 +100,7 @@ modified: '2026-07-20'
 name: Puffer Finance
 nav: Providers
 network: true
-overview: 'Puffer Finance is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Defi, Ethereum, Liquid Restaking, and Staking.
+overview: 'Puffer Finance is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, DeFi, Ethereum, Liquid Restaking, and Staking.
 
 
   Puffer Finance''s developer surface includes documentation, engineering blog, signup flow, support, CLI, and 9 more developer resources.'
@@ -125,7 +125,7 @@ score:
     operational_transparency: 2.6
   previous_composite: 18.4
   schema_version: 0.17.2
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
   trend: flat
 security:
 - kind: domain-security
@@ -135,7 +135,7 @@ security:
 slug: puffer-finance
 tags:
 - Company
-- Defi
+- DeFi
 - Ethereum
 - Liquid Restaking
 - Staking

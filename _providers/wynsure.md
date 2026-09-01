@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 2.5
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
 api_count: 6
 apis:
 - description: 'RESTful API exposing Wynsure''s core insurance platform capabilities for integration with third-party systems. Provides programmatic access to policy administration, underwriting, billing, claims, and '
@@ -152,7 +152,7 @@ modified: '2026-05-03'
 name: Wynsure
 nav: Providers
 network: true
-overview: 'Wynsure publishes 6 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Insurance, InsurTech, Policy Administration, Claims Management, and Billing.
+overview: 'Wynsure publishes 6 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Insurance, Insurtech, Policy Administration, Claims Management, and Billing.
 
 
   Wynsure''s developer surface includes documentation, developer portal, support, and 9 more developer resources.'
@@ -191,7 +191,7 @@ score:
     regime_id: insurance
     score: 30.3
   schema_version: 0.17.2
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/wynsure/refs/heads/main/screenshots/wynsure-2026-06-20T201645.png
 security:
@@ -227,7 +227,7 @@ solutions:
   name: Wynsure Data Analytics
 tags:
 - Insurance
-- InsurTech
+- Insurtech
 - Policy Administration
 - Claims Management
 - Billing

@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 24.8
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
 agentic_access:
 - acting_count: 57
   human_in_the_loop: 0
@@ -211,7 +211,7 @@ modified: '2026-06-13'
 name: farmOS
 nav: Providers
 network: true
-overview: 'farmOS publishes 6 APIs on the [APIs.io](https://apis.io/) network, including Assets API, Logs API, Plans API, and 3 more. Tagged areas include Agriculture, Farm Management, Open-Source, JSON:API, and Record Keeping.
+overview: 'farmOS publishes 6 APIs on the [APIs.io](https://apis.io/) network, including Assets API, Logs API, Plans API, and 3 more. Tagged areas include Agriculture, Farm Management, Open-Source, JSON:API, and Recordkeeping.
 
 
   The farmOS catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
@@ -251,7 +251,7 @@ score:
     catalog_gap: 48.8
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: 1.8
+  delta: 0.0
   facets:
     access_clarity: 50.0
     commercial_clarity: 50.0
@@ -264,7 +264,7 @@ score:
   open_source:
     applies: true
     score: 65.0
-  previous_composite: 42.4
+  previous_composite: 44.2
   provenance:
     agentic_access: derived
     contracts:
@@ -273,7 +273,7 @@ score:
       marker_coverage: 0.0
       total: 6
   schema_version: 0.17.2
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/farmos/refs/heads/main/screenshots/farmos-2026-06-20T181044.png
 security:
@@ -291,7 +291,7 @@ tags:
 - Farm Management
 - Open-Source
 - JSON:API
-- Record Keeping
+- Recordkeeping
 - Self-Hosted
 - Drupal
 website: https://farmos.org/

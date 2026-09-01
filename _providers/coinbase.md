@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 29.1
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
 agentic_access:
 - acting_count: 32
   human_in_the_loop: 0
@@ -561,7 +561,7 @@ modified: '2026-05-19'
 name: Coinbase
 nav: Providers
 network: true
-overview: 'Coinbase publishes 26 APIs on the [APIs.io](https://apis.io/) network, including Accounts API, Activities API, Address Book API, and 23 more. Tagged areas include Blockchain, Cryptocurrency, Custody, Exchange, and Onramp.
+overview: 'Coinbase publishes 26 APIs on the [APIs.io](https://apis.io/) network, including Accounts API, Activities API, Address Book API, and 23 more. Tagged areas include Blockchain, Cryptocurrency, Custody, Exchange, and On-Ramp.
 
 
   The Coinbase catalog on APIs.io includes 3 event-driven AsyncAPI specifications, 1 JSON-LD context, and 3 Spectral governance rulesets.
@@ -643,7 +643,7 @@ score:
     regime_id: payments
     score: 48.4
   schema_version: 0.17.2
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/coinbase/refs/heads/main/screenshots/coinbase-2026-06-20T174726.png
 security:
@@ -665,7 +665,7 @@ tags:
 - Cryptocurrency
 - Custody
 - Exchange
-- Onramp
+- On-Ramp
 - Payments
 - Trading
 - Wallets

@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
 agentic_access:
 - acting_count: 65
   human_in_the_loop: 2
@@ -4201,7 +4201,7 @@ modified: '2026-05-19'
 name: Amazon EC2 Auto Scaling
 nav: Providers
 network: true
-overview: 'Amazon EC2 Auto Scaling publishes 65 APIs on the [APIs.io](https://apis.io/) network, including #Action=AttachInstances API, #Action=AttachLoadBalancers API, #Action=AttachLoadBalancerTargetGroups API, and 62 more. Tagged areas include Amazon Web Services, Auto Scaling, Compute, EC2, and High Availability.
+overview: 'Amazon EC2 Auto Scaling publishes 65 APIs on the [APIs.io](https://apis.io/) network, including #Action=AttachInstances API, #Action=AttachLoadBalancers API, #Action=AttachLoadBalancerTargetGroups API, and 62 more. Tagged areas include Amazon Web Services, Auto-Scaling, Compute, EC2, and High Availability.
 
 
   The Amazon EC2 Auto Scaling catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
@@ -4247,7 +4247,7 @@ score:
     catalog_gap: 41.5
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.6
+  delta: 0.0
   facets:
     access_clarity: 69.7
     commercial_clarity: 69.7
@@ -4257,7 +4257,7 @@ score:
     discoverability: 70.4
     governance: 28.8
     operational_transparency: 36.8
-  previous_composite: 62.9
+  previous_composite: 62.3
   provenance:
     agentic_access: derived
     contracts:
@@ -4266,7 +4266,7 @@ score:
       marker_coverage: 0.0
       total: 65
   schema_version: 0.17.2
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/amazon-ec2-auto-scaling/refs/heads/main/screenshots/amazon-ec2-auto-scaling-2026-07-25T200006.png
 security:
@@ -4289,7 +4289,7 @@ security:
 slug: amazon-ec2-auto-scaling
 tags:
 - Amazon Web Services
-- Auto Scaling
+- Auto-Scaling
 - Compute
 - EC2
 - High Availability

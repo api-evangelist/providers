@@ -24,7 +24,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 62.1
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
 api_count: 1
 apis:
 - description: Real-time organization change events delivered over a STOMP 1.2 session framed on a secure WebSocket. Clients subscribe to /topic/change/{orgUuid} and receive a MESSAGE frame for every entity change i
@@ -441,7 +441,7 @@ score:
     catalog_gap: 74.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -1.5
+  delta: 0.0
   facets:
     access_clarity: 78.9
     commercial_clarity: 78.9
@@ -451,7 +451,7 @@ score:
     discoverability: 61.1
     governance: 18.2
     operational_transparency: 44.7
-  previous_composite: 59.5
+  previous_composite: 58.0
   provenance:
     conformance: first-party
     contracts:
@@ -462,7 +462,7 @@ score:
     mcp: first-party
     skills: first-party
   schema_version: 0.17.2
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
   trend: flat
 security:
 - kind: authentication

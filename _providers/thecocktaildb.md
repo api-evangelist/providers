@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 25.8
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -187,7 +187,7 @@ modified: '2026-06-13'
 name: TheCocktailDB
 nav: Providers
 network: true
-overview: 'TheCocktailDB publishes 4 APIs on the [APIs.io](https://apis.io/) network, including Filter API, List API, Lookup API, and 1 more. Tagged areas include Cocktails, Drinks, Recipes, Food And Beverage, and Open Data.
+overview: 'TheCocktailDB publishes 4 APIs on the [APIs.io](https://apis.io/) network, including Filter API, List API, Lookup API, and 1 more. Tagged areas include Cocktails, Drinks, Recipes, Food and Beverage, and Open Data.
 
 
   The TheCocktailDB catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
@@ -258,7 +258,7 @@ score:
     regime_id: government
     score: 20.4
   schema_version: 0.17.2
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/thecocktaildb/refs/heads/main/screenshots/thecocktaildb-2026-06-20T195244.png
 security:
@@ -271,7 +271,7 @@ tags:
 - Cocktails
 - Drinks
 - Recipes
-- Food And Beverage
+- Food and Beverage
 - Open Data
 website: https://www.thecocktaildb.com/
 ---

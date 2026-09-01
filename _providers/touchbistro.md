@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 2.5
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
 api_count: 0
 artifact_total: 47
 common:
@@ -161,7 +161,7 @@ modified: '2026-07-25'
 name: TouchBistro
 nav: Providers
 network: true
-overview: 'TouchBistro is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include POS, Restaurant, Hospitality, Payments, and Integration.
+overview: 'TouchBistro is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Point-of-Sale, Restaurant, Hospitality, Payments, and Integration.
 
 
   TouchBistro''s developer surface includes pricing and 10 more developer resources.'
@@ -200,7 +200,7 @@ score:
     regime_id: payments
     score: 18.8
   schema_version: 0.17.2
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/touchbistro/refs/heads/main/screenshots/touchbistro-2026-06-20T195504.png
 security:
@@ -223,7 +223,7 @@ solutions:
 - description: Quick checkout and loyalty for cafes.
   name: Cafes and Coffee Shops
 tags:
-- POS
+- Point-of-Sale
 - Restaurant
 - Hospitality
 - Payments

@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 35.1
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
 api_count: 2
 apis:
 - description: The documented, third-party-facing REST API of the AutoGPT Platform. Twenty operations that find and run AutoGPT agents, execute individual blocks, create agent graphs, read graph execution results, b
@@ -227,7 +227,7 @@ score:
     operational_transparency: 42.1
   previous_composite: 55.7
   schema_version: 0.17.2
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/autogpt/refs/heads/main/screenshots/autogpt-2026-06-20T172646.png
 security:

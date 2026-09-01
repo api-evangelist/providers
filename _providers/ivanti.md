@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 2.5
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
 api_count: 5
 apis:
 - description: REST APIs for the Ivanti Neurons platform covering inventory, patch management, and bots.
@@ -93,7 +93,7 @@ modified: '2026-04-28'
 name: Ivanti
 nav: Providers
 network: true
-overview: 'Ivanti publishes 5 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Endpoint Management, IT Asset Management, IT Service Management, Patch Management, and Mobile Device Management.
+overview: 'Ivanti publishes 5 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Endpoint Management, IT Asset Management, ITSM, Patch Management, and Mobile Device Management.
 
 
   Ivanti''s developer surface includes engineering blog and 6 more developer resources.'
@@ -126,7 +126,7 @@ score:
     operational_transparency: 7.9
   previous_composite: 13.0
   schema_version: 0.17.2
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/ivanti/refs/heads/main/screenshots/ivanti-2026-06-20T183639.png
 security:
@@ -142,7 +142,7 @@ slug: ivanti
 tags:
 - Endpoint Management
 - IT Asset Management
-- IT Service Management
+- ITSM
 - Patch Management
 - Mobile Device Management
 - Zero Trust

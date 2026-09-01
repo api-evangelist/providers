@@ -23,7 +23,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 62.3
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
 api_count: 4
 apis:
 - description: The Activity API from Taskfolk — 1 operation(s) for activity.
@@ -296,7 +296,7 @@ modified: '2026-08-20'
 name: Taskfolk
 nav: Providers
 network: true
-overview: 'Taskfolk publishes 32 APIs on the [APIs.io](https://apis.io/) network, including Activity API, Agents API, Attachments API, and 29 more. Tagged areas include project-management, issue-tracking, task-management, productivity, and Collaboration.
+overview: 'Taskfolk publishes 32 APIs on the [APIs.io](https://apis.io/) network, including Activity API, Agents API, Attachments API, and 29 more. Tagged areas include Project Management, Issue Tracking, Task Management, Productivity, and Collaboration.
 
 
   The Taskfolk catalog on APIs.io includes 1 event-driven AsyncAPI specification.
@@ -346,7 +346,7 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.17.2
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
   trend: flat
 security:
 - kind: authentication
@@ -359,23 +359,23 @@ security:
   summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 slug: taskfolk
 tags:
-- project-management
-- issue-tracking
-- task-management
-- productivity
+- Project Management
+- Issue Tracking
+- Task Management
+- Productivity
 - Collaboration
 - MCP
 - AI Agents
 - agent-native
-- agentic-commerce
+- Agentic Commerce
 - A2A
 - REST API
 - OpenAPI
 - Webhook
 - Authentication
-- agile
-- sprints
-- okr
+- Agile
+- Sprints
+- OKR
 - Developer Tools
 website: https://taskfolk.ai
 ---

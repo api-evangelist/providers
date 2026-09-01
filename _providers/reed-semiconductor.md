@@ -23,7 +23,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 11.4
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
 api_count: 3
 apis:
 - description: 'The WooCommerce Store API served from the Reed Semiconductor corporate site. Anonymous, read-only over the product catalog: 99 power-management parts (multiphase controllers, smart power stages, eFuse'
@@ -185,7 +185,7 @@ score:
     regime_id: energy_utilities
     score: 52.7
   schema_version: 0.17.2
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
   trend: flat
 security:
 - kind: authentication

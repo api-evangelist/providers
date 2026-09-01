@@ -23,7 +23,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 29.7
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
 api_count: 7
 apis:
 - description: Pathalys Pharma news, press releases and scientific updates
@@ -158,7 +158,7 @@ modified: '2026-08-26'
 name: Pathalys Pharma
 nav: Providers
 network: true
-overview: 'Pathalys Pharma publishes 7 APIs on the [APIs.io](https://apis.io/) network, including Posts API, Pages API, Media API, and 4 more. Tagged areas include Company, pharmaceuticals, biotechnology, nephrology, and chronic-kidney-disease.
+overview: 'Pathalys Pharma publishes 7 APIs on the [APIs.io](https://apis.io/) network, including Posts API, Pages API, Media API, and 4 more. Tagged areas include Company, Pharmaceuticals, Biotechnology, Nephrology, and Chronic Kidney Disease.
 
 
   Pathalys Pharma''s developer surface includes product news, engineering blog, support, documentation, authentication, and 20 more developer resources.'
@@ -206,7 +206,7 @@ score:
     regime_id: health
     score: 31.3
   schema_version: 0.17.2
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
   trend: flat
 security:
 - kind: authentication
@@ -220,12 +220,12 @@ security:
 slug: pathalys-pharma
 tags:
 - Company
-- pharmaceuticals
-- biotechnology
-- nephrology
-- chronic-kidney-disease
-- clinical-trials
-- life-sciences
+- Pharmaceuticals
+- Biotechnology
+- Nephrology
+- Chronic Kidney Disease
+- Clinical Trials
+- Life Sciences
 - content-api
 website: https://pathalys.com/
 ---

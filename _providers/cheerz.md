@@ -23,7 +23,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 2.5
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
 api_count: 0
 artifact_total: 3
 common:
@@ -162,7 +162,7 @@ score:
     operational_transparency: 2.6
   previous_composite: 11.7
   schema_version: 0.17.2
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
   trend: flat
 security:
 - kind: domain-security
@@ -177,7 +177,7 @@ tags:
 - E-Commerce
 - Personalized Gifts
 - Mobile Commerce
-- Print On Demand
+- Print on Demand
 - France
 website: https://www.cheerz.com/en
 ---

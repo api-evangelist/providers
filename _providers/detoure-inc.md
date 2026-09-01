@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
 api_count: 0
 artifact_total: 1
 common:
@@ -82,7 +82,7 @@ score:
     operational_transparency: 0.0
   previous_composite: 9.2
   schema_version: 0.17.2
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/detoure-inc/refs/heads/main/screenshots/detoure-inc-2026-08-07T164316.png
 security:
@@ -97,7 +97,7 @@ tags:
 - Resale Marketplace
 - E-Commerce
 - Sustainable Fashion
-- Re-Commerce
+- Recommerce
 - Retail
 website: https://detoure.co
 ---

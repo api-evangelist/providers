@@ -23,7 +23,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 2.5
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
 api_count: 1
 apis:
 - description: Implicity markets a "comprehensive API and integration framework for seamless data exchange with core hospital systems" and bidirectional EHR integration to hospital IT teams. The API host api.implici
@@ -128,7 +128,7 @@ modified: '2026-08-17'
 name: Implicity
 nav: Providers
 network: true
-overview: 'Implicity publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Healthtech, Digital Health, Remote Patient Monitoring, and Cardiology.
+overview: 'Implicity publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Health Tech, Digital Health, Remote Patient Monitoring, and Cardiology.
 
 
   Implicity''s developer surface includes documentation, support, engineering blog, signup flow, and 14 more developer resources.'
@@ -175,7 +175,7 @@ score:
     regime_id: health
     score: 37.5
   schema_version: 0.17.2
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
   trend: flat
 security:
 - kind: domain-security
@@ -189,7 +189,7 @@ security:
 slug: implicity
 tags:
 - Company
-- Healthtech
+- Health Tech
 - Digital Health
 - Remote Patient Monitoring
 - Cardiology

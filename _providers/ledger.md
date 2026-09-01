@@ -23,7 +23,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 40.3
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
 api_count: 14
 apis:
 - description: Bi-directional JSON-RPC 2.0 interface between a Live App (dApp) and a wallet implementing the Wallet API Server, such as Ledger Wallet. Currency-agnostic modules for accounts, currencies, transactions
@@ -339,7 +339,7 @@ modified: '2026-08-25'
 name: Ledger
 nav: Providers
 network: true
-overview: 'Ledger publishes 40 APIs on the [APIs.io](https://apis.io/) network, including 4337 API, Accounts API, Authentication API, and 37 more. Tagged areas include cryptocurrency, digital-assets, hardware-wallet, self-custody, and Institutional Custody.
+overview: 'Ledger publishes 40 APIs on the [APIs.io](https://apis.io/) network, including 4337 API, Accounts API, Authentication API, and 37 more. Tagged areas include Cryptocurrency, Digital Assets, Hardware Wallet, Self-Custody, and institutional-custody.
 
 
   The Ledger catalog on APIs.io includes 1 event-driven AsyncAPI specification.
@@ -390,7 +390,7 @@ score:
     regime_id: payments
     score: 56.3
   schema_version: 0.17.2
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
   trend: flat
 security:
 - kind: authentication
@@ -411,16 +411,16 @@ security:
   summary_line: SOC 2 Type 2, ISO 27001, ISO 22301, CSPN V4 (ANSSI security visa), FIPS 140 Level III, Common Criteria EAL5+
 slug: ledger
 tags:
-- cryptocurrency
-- digital-assets
-- hardware-wallet
-- self-custody
-- Institutional Custody
+- Cryptocurrency
+- Digital Assets
+- Hardware Wallet
+- Self-Custody
+- institutional-custody
 - Blockchain
 - Payments
-- staking
+- Staking
 - Security
-- agent-skills
+- Agent Skills
 - agent-native
 website: https://www.ledger.com/
 ---

@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
 api_count: 0
 artifact_total: 0
 common:
@@ -80,7 +80,7 @@ modified: '2026-07-21'
 name: Zibo
 nav: Providers
 network: true
-overview: 'Zibo is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Property Management, Real-Estate, Rental, and Fintech.
+overview: 'Zibo is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Property Management, Real-Estate, Rentals, and Fintech.
 
 
   Zibo''s developer surface includes pricing, engineering blog, support, signup flow, and 5 more developer resources.'
@@ -119,14 +119,14 @@ score:
     regime_id: banking_open_finance
     score: 10.1
   schema_version: 0.17.2
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
   trend: flat
 slug: zibo
 tags:
 - Company
 - Property Management
 - Real-Estate
-- Rental
+- Rentals
 - Fintech
 - Landlord Software
 - Rent Collection

@@ -24,7 +24,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 47.7
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
 api_count: 6
 apis:
 - description: 'WordPress core content API (posts, pages, media, taxonomies, users, settings) plus the site''s custom post types — products, careers, events, partners, team members and FAQs — and the optical hardware '
@@ -267,7 +267,7 @@ score:
     regime_id: telecommunications
     score: 65.3
   schema_version: 0.17.2
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
   trend: flat
 security:
 - kind: authentication

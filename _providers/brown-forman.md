@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
 api_count: 0
 artifact_total: 1
 common:
@@ -76,7 +76,7 @@ modified: '2026-04-21'
 name: Brown-Forman
 nav: Providers
 network: true
-overview: 'Brown-Forman is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Beverages, Consumer Goods, Gin, RTD, and Rum.
+overview: 'Brown-Forman is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Beverages, Consumer Goods, Gin, RTD, and RUM.
 
 
   Brown-Forman''s developer surface includes engineering blog and 7 more developer resources.'
@@ -117,7 +117,7 @@ score:
     operational_transparency: 2.6
   previous_composite: 5.8
   schema_version: 0.17.2
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/brown-forman/refs/heads/main/screenshots/brown-forman-2026-06-20T173721.png
 security:
@@ -131,7 +131,7 @@ tags:
 - Consumer Goods
 - Gin
 - RTD
-- Rum
+- RUM
 - Spirits
 - Tequila
 - Whiskey

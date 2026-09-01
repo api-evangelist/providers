@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
 api_count: 0
 artifact_total: 1
 common:
@@ -212,7 +212,7 @@ score:
     regime_id: insurance
     score: 21.2
   schema_version: 0.17.2
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
   trend: flat
 security:
 - kind: domain-security
@@ -226,7 +226,7 @@ tags:
 - Commercial Insurance
 - Insurtech
 - Startup Insurance
-- Directors And Officers
+- Directors and Officers
 - Errors And Omissions
 - Cyber Insurance
 - Employment Practices Liability

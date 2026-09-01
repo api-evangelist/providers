@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
 api_count: 0
 artifact_total: 1
 common:
@@ -76,7 +76,7 @@ modified: '2026-07-20'
 name: Mangata Finance
 nav: Providers
 network: true
-overview: 'Mangata Finance is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Defi, Decentralized Exchange, Blockchain, and Polkadot.
+overview: 'Mangata Finance is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, DeFi, Decentralized Exchange, Blockchain, and Polkadot.
 
 
   Mangata Finance''s developer surface includes documentation, engineering blog, and 6 more developer resources.'
@@ -107,7 +107,7 @@ score:
     regime_id: securities_market_data
     score: 10.0
   schema_version: 0.17.2
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/mangata-finance/refs/heads/main/screenshots/mangata-finance-2026-07-25T230038.png
 security:
@@ -118,7 +118,7 @@ security:
 slug: mangata-finance
 tags:
 - Company
-- Defi
+- DeFi
 - Decentralized Exchange
 - Blockchain
 - Polkadot

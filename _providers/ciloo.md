@@ -23,7 +23,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 31.1
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
 api_count: 4
 apis:
 - description: OAuth 1.0a (HMAC-SHA1) REST API on the ciloo/v1 namespace of a Ciloo brand store. Read, add, update and remove cart items; mint per-customer OAuth credentials from admin credentials; and issue one-hou
@@ -165,7 +165,7 @@ modified: '2026-08-12'
 name: Ciloo
 nav: Providers
 network: true
-overview: 'Ciloo publishes 3 APIs on the [APIs.io](https://apis.io/) network: Cart API, Authentication API, and Customers API. Tagged areas include Company, Printing, Branded Merchandise, Promotional Products, and Print On Demand.
+overview: 'Ciloo publishes 3 APIs on the [APIs.io](https://apis.io/) network: Cart API, Authentication API, and Customers API. Tagged areas include Company, Printing, Branded Merchandise, Promotional Products, and Print on Demand.
 
 
   The Ciloo catalog on APIs.io includes 1 event-driven AsyncAPI specification.
@@ -210,7 +210,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.17.2
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/ciloo/refs/heads/main/screenshots/ciloo-2026-08-17T080820.png
 security:
@@ -228,7 +228,7 @@ tags:
 - Printing
 - Branded Merchandise
 - Promotional Products
-- Print On Demand
+- Print on Demand
 - E-Commerce
 - Digital Asset Management
 - Procurement

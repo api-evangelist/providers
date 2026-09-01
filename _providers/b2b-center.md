@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
 api_count: 0
 artifact_total: 1
 common:
@@ -52,7 +52,7 @@ modified: '2026-07-18'
 name: B2B-Center
 nav: Providers
 network: true
-overview: B2B-Center is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Procurement, E-Procurement, Marketplace, and B2B.
+overview: B2B-Center is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Procurement, eProcurement, Marketplace, and B2B.
 random_paper: 8
 score:
   band: minimal
@@ -80,7 +80,7 @@ score:
     regime_id: securities_market_data
     score: 10.0
   schema_version: 0.17.2
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/b2b-center/refs/heads/main/screenshots/b2b-center-2026-07-25T202142.png
 security:
@@ -92,7 +92,7 @@ slug: b2b-center
 tags:
 - Company
 - Procurement
-- E-Procurement
+- eProcurement
 - Marketplace
 - B2B
 - Trading Platform

@@ -23,7 +23,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 35.8
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
 api_count: 7
 apis:
 - description: Per-dispensary POS surface exposing the functionality of an individual Treez retail instance - customer records and check-in queue, tickets/orders with a non-committing preview, product and stock read
@@ -188,7 +188,7 @@ modified: '2026-08-30'
 name: Treez
 nav: Providers
 network: true
-overview: 'Treez publishes 7 APIs on the [APIs.io](https://apis.io/) network, including Dispensary API v3, Catalog Service API, Discount Service API, and 4 more. Tagged areas include cannabis, point-of-sale, Retail, dispensary, and inventory-management.
+overview: 'Treez publishes 7 APIs on the [APIs.io](https://apis.io/) network, including Dispensary API v3, Catalog Service API, Discount Service API, and 4 more. Tagged areas include Cannabis, Point-of-Sale, Retail, Dispensary, and Inventory Management.
 
 
   Treez''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 23 more developer resources.'
@@ -209,6 +209,7 @@ score:
     catalog_gap: 75.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: 0.0
   facets:
     access_clarity: 52.6
     commercial_clarity: 52.6
@@ -218,6 +219,7 @@ score:
     discoverability: 92.6
     governance: 18.2
     operational_transparency: 0.0
+  previous_composite: 46.7
   regulatory:
     applies: true
     matched_via: tags
@@ -225,7 +227,8 @@ score:
     regime_id: payments
     score: 46.9
   schema_version: 0.17.2
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
+  trend: flat
 security:
 - kind: authentication
   name: Treez Authentication
@@ -237,17 +240,17 @@ security:
   summary_line: TLSv1.3 · HSTS · DMARC
 slug: treez
 tags:
-- cannabis
-- point-of-sale
+- Cannabis
+- Point-of-Sale
 - Retail
-- dispensary
-- inventory-management
+- Dispensary
+- Inventory Management
 - E-Commerce
 - Payments
 - Compliance
 - Track and Trace
-- metrc
-- product-catalog
-- customer-data
+- Metrc
+- Product Catalog
+- Customer Data
 website: https://www.treez.io/
 ---

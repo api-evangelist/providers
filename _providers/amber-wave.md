@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
 api_count: 0
 artifact_total: 0
 common:
@@ -48,7 +48,7 @@ modified: '2026-07-17'
 name: Amber Wave
 nav: Providers
 network: true
-overview: Amber Wave is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Semiconductor, Solar, Photovoltaics, and Materials Science.
+overview: Amber Wave is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Semiconductors, Solar, Photovoltaics, and Materials Science.
 random_paper: 12
 score:
   band: minimal
@@ -82,13 +82,13 @@ score:
     regime_id: energy_utilities
     score: 0.0
   schema_version: 0.17.2
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/amber-wave/refs/heads/main/screenshots/amber-wave-2026-07-25T200019.png
 slug: amber-wave
 tags:
 - Company
-- Semiconductor
+- Semiconductors
 - Solar
 - Photovoltaics
 - Materials Science

@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 22.9
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -334,7 +334,7 @@ modified: '2026-05-25'
 name: Bazel
 nav: Providers
 network: true
-overview: 'Bazel publishes 2 APIs on the [APIs.io](https://apis.io/) network: Modules API and Registry API. Tagged areas include Build Systems, Build Tool, Bzlmod, CI/CD, and Developer Tools.
+overview: 'Bazel publishes 2 APIs on the [APIs.io](https://apis.io/) network: Modules API and Registry API. Tagged areas include Build Systems, Build Tools, Bzlmod, CI/CD, and Developer Tools.
 
 
   The Bazel catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
@@ -372,7 +372,7 @@ score:
     catalog_gap: 40.5
     catalog_max: 100.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.3
+  delta: 0.0
   facets:
     access_clarity: 28.6
     commercial_clarity: 28.6
@@ -385,7 +385,7 @@ score:
   open_source:
     applies: true
     score: 50.0
-  previous_composite: 48.2
+  previous_composite: 47.9
   provenance:
     agentic_access: derived
     contracts:
@@ -394,7 +394,7 @@ score:
       marker_coverage: 0.0
       total: 2
   schema_version: 0.17.2
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/bazel-build/refs/heads/main/screenshots/bazel-build-2026-06-20T173055.png
 security:
@@ -405,7 +405,7 @@ security:
 slug: bazel-build
 tags:
 - Build Systems
-- Build Tool
+- Build Tools
 - Bzlmod
 - CI/CD
 - Developer Tools

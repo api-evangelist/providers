@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 24.8
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
 agentic_access:
 - acting_count: 9
   human_in_the_loop: 0
@@ -160,7 +160,7 @@ modified: '2026-05-19'
 name: Google Tasks
 nav: Providers
 network: true
-overview: 'Google Tasks publishes 2 APIs on the [APIs.io](https://apis.io/) network: Lists API and Users API. Tagged areas include Google, Productivity, Task Management, Task, and Workspace.
+overview: 'Google Tasks publishes 2 APIs on the [APIs.io](https://apis.io/) network: Lists API and Users API. Tagged areas include Google, Productivity, Task Management, Task, and To-Do.
 
 
   The Google Tasks catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
@@ -219,7 +219,7 @@ score:
       marker_coverage: 0.0
       total: 2
   schema_version: 0.17.2
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/google-tasks/refs/heads/main/screenshots/google-tasks-2026-06-20T182240.png
 security:
@@ -241,6 +241,7 @@ tags:
 - Productivity
 - Task Management
 - Task
+- To-Do
 - Workspace
 website: https://developers.google.com/tasks
 ---

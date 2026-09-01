@@ -23,7 +23,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 32.2
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
 api_count: 6
 apis:
 - description: The API Auth API from Diagnostic Robotics — 1 operation(s) for api auth.
@@ -214,7 +214,7 @@ modified: '2026-08-12'
 name: Diagnostic Robotics
 nav: Providers
 network: true
-overview: 'Diagnostic Robotics publishes 12 APIs on the [APIs.io](https://apis.io/) network, including API Auth API, Dataset Upload API, Default API, and 9 more. Tagged areas include Health, healthcare, clinical-ai, population-health, and risk-adjustment.
+overview: 'Diagnostic Robotics publishes 12 APIs on the [APIs.io](https://apis.io/) network, including API Auth API, Dataset Upload API, Default API, and 9 more. Tagged areas include Health, Healthcare, Clinical AI, Population Health, and Risk Adjustment.
 
 
   Diagnostic Robotics'' developer surface includes documentation, API reference, getting-started guide, support, engineering blog, authentication, sandbox, and 26 more developer resources.'
@@ -271,7 +271,7 @@ score:
     regime_id: health
     score: 68.8
   schema_version: 0.17.2
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/diagnostic-robotics/refs/heads/main/screenshots/diagnostic-robotics-2026-08-17T080902.png
 security:
@@ -290,16 +290,16 @@ security:
 slug: diagnostic-robotics
 tags:
 - Health
-- healthcare
-- clinical-ai
-- population-health
-- risk-adjustment
-- predictive-analytics
+- Healthcare
+- Clinical AI
+- Population Health
+- Risk Adjustment
+- Predictive Analytics
 - triage
-- fhir
-- claims-data
-- care-management
-- payers
-- medical-coding
+- FHIR
+- Claims Data
+- Care Management
+- Payers
+- Medical Coding
 website: https://diagnosticrobotics.com/
 ---

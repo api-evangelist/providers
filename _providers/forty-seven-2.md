@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
 api_count: 0
 artifact_total: 0
 common:
@@ -56,7 +56,7 @@ modified: '2026-07-20'
 name: Forty Seven 2
 nav: Providers
 network: true
-overview: Forty Seven 2 is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Biopharmaceutical, Immuno-Oncology, Healthcare, and Clinical-Stage.
+overview: Forty Seven 2 is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Biopharmaceutical, Immuno-Oncology, Healthcare, and Clinical Stage.
 random_paper: 10
 score:
   band: minimal
@@ -90,7 +90,7 @@ score:
     regime_id: health
     score: 0.0
   schema_version: 0.17.2
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/forty-seven-2/refs/heads/main/screenshots/forty-seven-2-2026-07-25T215018.png
 slug: forty-seven-2
@@ -99,7 +99,7 @@ tags:
 - Biopharmaceutical
 - Immuno-Oncology
 - Healthcare
-- Clinical-Stage
+- Clinical Stage
 - Acquired
 - Life Sciences
 website: https://www.gilead.com/

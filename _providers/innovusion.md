@@ -23,7 +23,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 23.2
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
 api_count: 1
 apis:
 - description: A live, OAuth-gated Model Context Protocol endpoint served from Seyond's own corporate host at https://seyond.com/wp-json/mcp/mcp-oauth-server. It is provided by the WordPress MCP adapter running on s
@@ -200,7 +200,7 @@ score:
     conformance: first-party
     mcp: first-party
   schema_version: 0.17.2
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
   trend: flat
 security:
 - kind: authentication

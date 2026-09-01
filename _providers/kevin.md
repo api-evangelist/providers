@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 23.6
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
 api_count: 1
 apis:
 - description: 'PSD2 open-banking platform API: Authentication, General, Payment Initiation (PIS) and Account Information (AIS) services for account-to-account bank payments, card (hybrid) payments, refunds and accou'
@@ -133,7 +133,7 @@ modified: '2026-07-19'
 name: Kevin.
 nav: Providers
 network: true
-overview: 'Kevin. publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Payments, Open Banking, Account to Account, and PSD2.
+overview: 'Kevin. publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Payments, Open Banking, Account-to-Account, and PSD2.
 
 
   The Kevin. catalog on APIs.io includes 1 event-driven AsyncAPI specification.
@@ -180,7 +180,7 @@ score:
     regime_id: banking_open_finance
     score: 43.0
   schema_version: 0.17.2
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
   trend: flat
 security:
 - kind: authentication
@@ -196,7 +196,7 @@ tags:
 - Company
 - Payments
 - Open Banking
-- Account to Account
+- Account-to-Account
 - PSD2
 - Fintech
 - Bank Payments

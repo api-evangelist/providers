@@ -23,7 +23,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 20.4
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
 api_count: 1
 apis:
 - description: 'The SimSpace Portal Suite platform API. SimSpace describes the cyber range platform as built API-first, giving partners and customers programmatic access for custom integrations, automation, advanced '
@@ -196,7 +196,7 @@ score:
     regime_id: government
     score: 74.1
   schema_version: 0.17.2
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
   trend: flat
 security:
 - kind: authentication

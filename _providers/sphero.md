@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
 api_count: 0
 artifact_total: 1
 common:
@@ -88,7 +88,7 @@ modified: '2026-07-21'
 name: Sphero
 nav: Providers
 network: true
-overview: 'Sphero is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Hardware, Robotics, Education, and STEAM.
+overview: 'Sphero is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Hardware, Robotics, Education, and Steam.
 
 
   Sphero''s developer surface includes documentation, support, engineering blog, and 8 more developer resources.'
@@ -119,7 +119,7 @@ score:
     regime_id: education
     score: 18.5
   schema_version: 0.17.2
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
   trend: flat
 security:
 - kind: domain-security
@@ -132,7 +132,7 @@ tags:
 - Hardware
 - Robotics
 - Education
-- STEAM
+- Steam
 - SDK
 - Robots
 - EdTech

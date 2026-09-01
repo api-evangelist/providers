@@ -36,7 +36,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 10.1
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
 api_count: 2
 apis:
 - description: OpenAI-wire-compatible REST API for chat completions, responses-style requests and the model catalog, authenticated with a bearer API key in the Authorization header. Three endpoints are documented (P
@@ -147,7 +147,7 @@ modified: '2026-08-11'
 name: WeaveAPI - OpenAI-compatible AI API Gateway
 nav: Providers
 network: true
-overview: 'WeaveAPI - OpenAI-compatible AI API Gateway publishes 2 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Artificial Intelligence, LLM, AI inference, API gateway, and aggregator.
+overview: 'WeaveAPI - OpenAI-compatible AI API Gateway publishes 2 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Artificial Intelligence, LLM, AI Inference, API Gateway, and Aggregator.
 
 
   WeaveAPI - OpenAI-compatible AI API Gateway''s developer surface includes documentation, API reference, getting-started guide, support, pricing, signup flow, authentication, and 16 more developer resources.'
@@ -182,7 +182,7 @@ score:
   provenance:
     conformance: first-party
   schema_version: 0.17.2
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
   trend: flat
 security:
 - kind: authentication
@@ -197,15 +197,15 @@ slug: weaveapi
 tags:
 - Artificial Intelligence
 - LLM
-- AI inference
-- API gateway
-- aggregator
-- OpenAI-compatible
+- AI Inference
+- API Gateway
+- Aggregator
+- OpenAI-Compatible
 - Developer Tools
-- model routing
-- LLM gateway
+- Model Routing
+- LLM Gateway
 - prepaid credits
-- agent tools
-- model marketplace
+- Agent Tools
+- Model Marketplace
 website: https://weaveapi.dev/
 ---

@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
 api_count: 0
 artifact_total: 1
 common:
@@ -80,7 +80,7 @@ modified: '2026-07-21'
 name: Robeaute
 nav: Providers
 network: true
-overview: 'Robeaute is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Medical Technology, Surgical Robotics, Microrobotics, and Neurosurgery.
+overview: 'Robeaute is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Medical Technology, Surgical Robotics, Micro-Robotics, and Neurosurgery.
 
 
   Robeaute''s developer surface includes engineering blog and 8 more developer resources.'
@@ -111,7 +111,7 @@ score:
     regime_id: health
     score: 17.5
   schema_version: 0.17.2
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
   trend: flat
 security:
 - kind: domain-security
@@ -123,10 +123,10 @@ tags:
 - Company
 - Medical Technology
 - Surgical Robotics
-- Microrobotics
+- Micro-Robotics
 - Neurosurgery
 - Healthcare
-- Deeptech
+- Deep Tech
 - Medical Devices
 website: https://robeaute.com/
 ---

@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 42.1
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
 api_count: 1
 apis:
 - description: Unique IDs that retain all the essential information about the data without compromising its security.
@@ -272,7 +272,7 @@ score:
     regime_id: payments
     score: 75.0
   schema_version: 0.17.2
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/very-good-security/refs/heads/main/screenshots/very-good-security-2026-08-17T082738.png
 security:

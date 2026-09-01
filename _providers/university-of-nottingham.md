@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 2.5
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
 api_count: 5
 apis:
 - description: Keyless, read-only HAL+JSON REST API of the university's self-hosted DSpace 8.2 / DSpace-CRIS (cris-2024.02.04) institutional repository, served from the university's own domain at repository.nottingh
@@ -191,7 +191,7 @@ score:
     catalog_gap: 53.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: 11.6
+  delta: 0.0
   facets:
     access_clarity: 50.0
     commercial_clarity: 50.0
@@ -201,7 +201,7 @@ score:
     discoverability: 64.8
     governance: 18.2
     operational_transparency: 23.7
-  previous_composite: 20.5
+  previous_composite: 32.1
   regulatory:
     applies: true
     matched_via: tags
@@ -209,8 +209,8 @@ score:
     regime_id: education
     score: 50.0
   schema_version: 0.17.2
-  scored_at: '2026-08-30'
-  trend: rising
+  scored_at: '2026-09-01'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/university-of-nottingham/refs/heads/main/screenshots/university-of-nottingham-2026-06-20T200211.png
 security:
 - kind: domain-security

@@ -23,7 +23,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 37.3
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
 api_count: 1
 apis:
 - description: Multi-tenant REST backend for the Superb Platform. 164 operations across tenants, workspaces, image datasets and assets, projects and labeling workflow, annotations, comments, auto-label runs, model t
@@ -204,7 +204,7 @@ score:
     operational_transparency: 18.4
   previous_composite: 45.5
   schema_version: 0.17.2
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
   trend: flat
 security:
 - kind: authentication

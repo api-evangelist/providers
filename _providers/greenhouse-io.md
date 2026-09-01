@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 24.5
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
 agentic_access:
 - acting_count: 66
   human_in_the_loop: 0
@@ -493,7 +493,7 @@ modified: '2026-05-25'
 name: Greenhouse
 nav: Providers
 network: true
-overview: 'Greenhouse publishes 25 APIs on the [APIs.io](https://apis.io/) network, including ActivityFeed API, Applications API, Approvals API, and 22 more. Tagged areas include ATS, Recruiting, Hiring, Talent Acquisition, and Enterprise SaaS.
+overview: 'Greenhouse publishes 25 APIs on the [APIs.io](https://apis.io/) network, including ActivityFeed API, Applications API, Approvals API, and 22 more. Tagged areas include ATS, Recruiting, Hiring, Talent Acquisition, and Enterprise Saas.
 
 
   The Greenhouse catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
@@ -552,7 +552,7 @@ score:
       marker_coverage: 0.0
       total: 25
   schema_version: 0.17.2
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/greenhouse-io/refs/heads/main/screenshots/greenhouse-io-2026-06-20T182402.png
 security:
@@ -578,7 +578,7 @@ tags:
 - Recruiting
 - Hiring
 - Talent Acquisition
-- Enterprise SaaS
+- Enterprise Saas
 - Human Resources
 - Onboarding
 website: https://www.greenhouse.com

@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 34.1
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
 api_count: 1
 apis:
 - description: Programmatic outbound phone calls executed by an AI voice agent. Submit a task either as a plain-language brief or as a structured intent plus slots (inquiry, info_gathering, issue_resolution, booking
@@ -49,6 +49,10 @@ apis:
   slug: voygr-core-api
 artifact_total: 7
 common:
+- group: commercial
+  title: ''
+  type: License
+  url: https://github.com/voygr-tech/dev-tools/blob/main/LICENSE
 - group: company
   title: ''
   type: Website
@@ -149,7 +153,7 @@ network: true
 overview: 'VOYGR publishes 2 APIs on the [APIs.io](https://apis.io/) network: Calls API and Core API. Tagged areas include Company, Location Intelligence, POI Data, Data Enrichment, and Data Validation.
 
 
-  VOYGR''s developer surface includes documentation, API reference, getting-started guide, signup flow, pricing, support, CLI, and 15 more developer resources.'
+  VOYGR''s developer surface includes documentation, API reference, getting-started guide, signup flow, pricing, support, CLI, and 16 more developer resources.'
 plans:
 - name: Voygr Plans Pricing
   plan_count: 4
@@ -167,7 +171,7 @@ score:
     catalog_gap: 54.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.6
+  delta: 0.0
   facets:
     access_clarity: 76.3
     commercial_clarity: 76.3
@@ -177,7 +181,7 @@ score:
     discoverability: 68.5
     governance: 4.5
     operational_transparency: 34.2
-  previous_composite: 56.1
+  previous_composite: 55.5
   provenance:
     conformance: derived
     contracts:
@@ -188,7 +192,7 @@ score:
     mcp: derived
     skills: first-party
   schema_version: 0.17.2
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/voygr/refs/heads/main/screenshots/voygr-2026-08-17T082827.png
 security:

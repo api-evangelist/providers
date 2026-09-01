@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 38.0
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
 agentic_access:
 - acting_count: 54
   human_in_the_loop: 1
@@ -300,7 +300,7 @@ modified: '2026-08-13'
 name: Smartlead
 nav: Providers
 network: true
-overview: 'Smartlead publishes 11 APIs on the [APIs.io](https://apis.io/) network, including Campaign Statistics API, Campaigns API, Analytics API, and 8 more. Tagged areas include Cold Email, Outbound, Sales, Deliverability, and Email Warmup.
+overview: 'Smartlead publishes 11 APIs on the [APIs.io](https://apis.io/) network, including Campaign Statistics API, Campaigns API, Analytics API, and 8 more. Tagged areas include Cold Email, Outbound, Sales, Deliverability, and Email Warm-up.
 
 
   The Smartlead catalog on APIs.io includes 1 event-driven AsyncAPI specification.
@@ -324,7 +324,7 @@ score:
     catalog_gap: 51.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.6
+  delta: 0.0
   facets:
     access_clarity: 85.5
     commercial_clarity: 85.5
@@ -334,7 +334,7 @@ score:
     discoverability: 75.9
     governance: 4.5
     operational_transparency: 42.1
-  previous_composite: 61.9
+  previous_composite: 61.3
   provenance:
     agentic_access: derived
     conformance: derived
@@ -346,7 +346,7 @@ score:
     mcp: first-party
     skills: first-party
   schema_version: 0.17.2
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/smartlead-ai/refs/heads/main/screenshots/smartlead-ai-2026-06-20T194043.png
 security:
@@ -364,7 +364,7 @@ tags:
 - Outbound
 - Sales
 - Deliverability
-- Email Warmup
+- Email Warm-up
 - Automation
 - Sequences
 website: https://www.smartlead.ai

@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 5.0
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
 api_count: 8
 apis:
 - description: 'OAI-PMH 2.0 metadata harvesting interface for the UC Research Repository, a self-hosted DSpace 7 institutional repository of theses, dissertations and research outputs. Verified live 2026-08-30: verb='
@@ -154,7 +154,7 @@ score:
     catalog_gap: 56.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -18.1
+  delta: 0.0
   facets:
     access_clarity: 39.5
     commercial_clarity: 39.5
@@ -164,7 +164,7 @@ score:
     discoverability: 74.1
     governance: 0.0
     operational_transparency: 23.7
-  previous_composite: 43.7
+  previous_composite: 25.6
   provenance:
     agentic_access: derived
     contracts:
@@ -179,8 +179,8 @@ score:
     regime_id: education
     score: 29.6
   schema_version: 0.17.2
-  scored_at: '2026-08-30'
-  trend: falling
+  scored_at: '2026-09-01'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/university-of-canterbury/refs/heads/main/screenshots/university-of-canterbury-2026-06-20T200141.png
 security:
 - kind: domain-security

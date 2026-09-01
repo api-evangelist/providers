@@ -23,7 +23,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 21.8
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
 api_count: 9
 apis:
 - description: News archive — press releases, Q&A interviews, event listings and scientific presentations (36 published on 2026-08-25).
@@ -172,7 +172,7 @@ modified: '2026-08-25'
 name: Memo Therapeutics
 nav: Providers
 network: true
-overview: 'Memo Therapeutics publishes 9 APIs on the [APIs.io](https://apis.io/) network, including Posts API, Pages API, Media API, and 6 more. Tagged areas include Company, biotechnology, pharmaceuticals, antibody-therapeutics, and rare-disease.
+overview: 'Memo Therapeutics publishes 9 APIs on the [APIs.io](https://apis.io/) network, including Posts API, Pages API, Media API, and 6 more. Tagged areas include Company, Biotechnology, Pharmaceuticals, Antibody Therapeutics, and Rare Disease.
 
 
   Memo Therapeutics'' developer surface includes product news, authentication, and 25 more developer resources.'
@@ -220,7 +220,7 @@ score:
     regime_id: health
     score: 31.3
   schema_version: 0.17.2
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
   trend: flat
 security:
 - kind: authentication
@@ -234,17 +234,17 @@ security:
 slug: memo-therapeutics
 tags:
 - Company
-- biotechnology
-- pharmaceuticals
-- antibody-therapeutics
-- rare-disease
-- nephrology
+- Biotechnology
+- Pharmaceuticals
+- Antibody Therapeutics
+- Rare Disease
+- Nephrology
 - transplantation
 - virology
-- oncology
-- clinical-trials
-- life-sciences
-- switzerland
+- Oncology
+- Clinical Trials
+- Life Sciences
+- Switzerland
 - content-api
 website: https://memo-therapeutics.com/
 ---

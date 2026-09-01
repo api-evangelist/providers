@@ -23,7 +23,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 17.1
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
 api_count: 1
 apis:
 - description: The management REST API served by the Hammerspace Anvil metadata server at the base path /mgmt/v1.2/rest. It is the programmatic control plane behind the Hammerspace GUI and admin CLI, covering shares
@@ -163,7 +163,7 @@ modified: '2026-08-04'
 name: Hammerspace
 nav: Providers
 network: true
-overview: 'Hammerspace publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Storage, Data Management, File Systems, and Data Orchestration.
+overview: 'Hammerspace publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Storage, Data Management, Filesystem, and Data Orchestration.
 
 
   Hammerspace''s developer surface includes documentation, support, engineering blog, authentication, changelog, CLI, and 24 more developer resources.'
@@ -181,7 +181,7 @@ score:
     catalog_gap: 78.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: 0.7
+  delta: 0.0
   facets:
     access_clarity: 6.6
     commercial_clarity: 6.6
@@ -194,12 +194,12 @@ score:
   open_source:
     applies: true
     score: 25.0
-  previous_composite: 18.0
+  previous_composite: 18.7
   provenance:
     conformance: first-party
     mcp: first-party
   schema_version: 0.17.2
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/hammerspace/refs/heads/main/screenshots/hammerspace-2026-08-07T165941.png
 security:
@@ -216,7 +216,7 @@ tags:
 - Company
 - Storage
 - Data Management
-- File Systems
+- Filesystem
 - Data Orchestration
 - Hybrid Cloud
 - Kubernetes

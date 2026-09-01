@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 29.8
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
 agentic_access:
 - acting_count: 24
   human_in_the_loop: 2
@@ -791,7 +791,7 @@ modified: '2026-06-20'
 name: Amazon AppFlow
 nav: Providers
 network: true
-overview: 'Amazon AppFlow publishes 3 APIs on the [APIs.io](https://apis.io/) network: Connectors API, Flows API, and Tags API. Tagged areas include Connectors, Data Flow, Data Integration, ETL, and Integration.
+overview: 'Amazon AppFlow publishes 3 APIs on the [APIs.io](https://apis.io/) network: Connectors API, Flows API, and Tags API. Tagged areas include Connectors, Dataflows, Data Integration, ETL, and Integration.
 
 
   The Amazon AppFlow catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
@@ -850,7 +850,7 @@ score:
       total: 3
     mcp: derived
   schema_version: 0.17.2
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/amazon-appflow/refs/heads/main/screenshots/amazon-appflow-2026-07-25T195916.png
 security:
@@ -869,7 +869,7 @@ security:
 slug: amazon-appflow
 tags:
 - Connectors
-- Data Flow
+- Dataflows
 - Data Integration
 - ETL
 - Integration

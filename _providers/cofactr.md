@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 38.3
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -208,7 +208,7 @@ modified: '2026-07-18'
 name: Cofactr
 nav: Providers
 network: true
-overview: 'Cofactr publishes 2 APIs on the [APIs.io](https://apis.io/) network: batch API and products API. Tagged areas include Company, Physical Ai, Component Intelligence, Electronics, and Supply Chain.
+overview: 'Cofactr publishes 2 APIs on the [APIs.io](https://apis.io/) network: batch API and products API. Tagged areas include Company, Physical AI, Component Intelligence, Electronics, and Supply Chain.
 
 
   The Cofactr catalog on APIs.io includes 1 event-driven AsyncAPI specification.
@@ -228,7 +228,7 @@ score:
     catalog_gap: 78.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.5
+  delta: 0.0
   facets:
     access_clarity: 21.1
     commercial_clarity: 21.1
@@ -238,7 +238,7 @@ score:
     discoverability: 75.9
     governance: 4.5
     operational_transparency: 21.1
-  previous_composite: 46.6
+  previous_composite: 46.1
   provenance:
     agentic_access: derived
     conformance: derived
@@ -250,7 +250,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.17.2
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/cofactr/refs/heads/main/screenshots/cofactr-2026-07-25T205951.png
 security:
@@ -269,13 +269,13 @@ security:
 slug: cofactr
 tags:
 - Company
-- Physical Ai
+- Physical AI
 - Component Intelligence
 - Electronics
 - Supply Chain
 - Procurement
 - Manufacturing
 - Hardware
-- Bill Of Materials
+- Bill of Materials
 website: https://www.cofactr.com/
 ---

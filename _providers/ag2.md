@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.8
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
 api_count: 3
 apis:
 - description: Core open-source Python library for building agentic AI applications. Provides ConversableAgent, AssistantAgent, UserProxyAgent, GroupChat, GroupChatManager, tool/function registration, code execution
@@ -144,7 +144,7 @@ score:
     catalog_gap: 56.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: 2.0
+  delta: 0.0
   facets:
     access_clarity: 28.9
     commercial_clarity: 28.9
@@ -157,9 +157,9 @@ score:
   open_source:
     applies: true
     score: 50.0
-  previous_composite: 29.8
+  previous_composite: 31.8
   schema_version: 0.17.2
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/ag2/refs/heads/main/screenshots/ag2-2026-06-20T165746.png
 security:
@@ -176,8 +176,8 @@ tags:
 - Python
 - Open-Source
 - LLM
-- GroupChat
+- Group Chat
 - Tool Use
-- Human-in-the-loop
+- Human-in-the-Loop
 website: https://ag2.ai
 ---

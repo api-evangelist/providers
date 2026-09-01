@@ -24,7 +24,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 41.0
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
 api_count: 2
 apis:
 - description: The News API from NewTqnia | Technology News, AI and Innovation — 2 operation(s) for news.
@@ -192,7 +192,7 @@ score:
     operational_transparency: 39.5
   previous_composite: 53.9
   schema_version: 0.17.2
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
   trend: flat
 security:
 - kind: authentication

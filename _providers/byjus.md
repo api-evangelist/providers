@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
 api_count: 0
 artifact_total: 1
 common:
@@ -52,7 +52,7 @@ modified: '2026-07-18'
 name: Byjus
 nav: Providers
 network: true
-overview: Byjus is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Edtech, Education, E-Learning, and Online Learning.
+overview: Byjus is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, EdTech, Education, E-Learning, and Online Learning.
 random_paper: 11
 score:
   band: minimal
@@ -80,7 +80,7 @@ score:
     regime_id: education
     score: 11.1
   schema_version: 0.17.2
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/byjus/refs/heads/main/screenshots/byjus-2026-07-25T204138.png
 security:
@@ -91,7 +91,7 @@ security:
 slug: byjus
 tags:
 - Company
-- Edtech
+- EdTech
 - Education
 - E-Learning
 - Online Learning

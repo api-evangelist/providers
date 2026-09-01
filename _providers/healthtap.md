@@ -23,7 +23,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
 api_count: 0
 artifact_total: 2
 common:
@@ -103,7 +103,7 @@ modified: '2026-08-04'
 name: HealthTap
 nav: Providers
 network: true
-overview: 'HealthTap is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Healthtech, Telehealth, Telemedicine, and Virtual Care.
+overview: 'HealthTap is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Health Tech, Telehealth, Telemedicine, and Virtual Care.
 
 
   HealthTap''s developer surface includes engineering blog, support, pricing, signup flow, and 13 more developer resources.'
@@ -140,7 +140,7 @@ score:
     regime_id: health
     score: 30.0
   schema_version: 0.17.2
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/healthtap/refs/heads/main/screenshots/healthtap-2026-08-07T170028.png
 security:
@@ -155,7 +155,7 @@ security:
 slug: healthtap
 tags:
 - Company
-- Healthtech
+- Health Tech
 - Telehealth
 - Telemedicine
 - Virtual Care

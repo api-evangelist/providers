@@ -23,7 +23,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 7.9
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
 api_count: 2
 apis:
 - description: The one Everlit surface an agent or a third-party CMS can call today with no credential and no onboarding. GET /oembed resolves an Everlit embed or hosted URL to an oEmbed 1.0 "rich" record (title, de
@@ -119,7 +119,7 @@ modified: '2026-08-20'
 name: Everlit
 nav: Providers
 network: true
-overview: 'Everlit publishes 2 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Audio, Video, social, Podcasts, and Media.
+overview: 'Everlit publishes 2 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Audio, Video, Social, Podcasts, and Media.
 
 
   Everlit''s developer surface includes authentication, support, engineering blog, and 16 more developer resources.'
@@ -155,7 +155,7 @@ score:
     conformance: first-party
     mcp: derived
   schema_version: 0.17.2
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
   trend: flat
 security:
 - kind: authentication
@@ -170,16 +170,16 @@ slug: everlit
 tags:
 - Audio
 - Video
-- social
+- Social
 - Podcasts
 - Media
-- publishers
+- Publishers
 - News
-- text-to-speech
+- Text-to-Speech
 - AI-voice
-- content-distribution
-- monetization
-- accessibility
+- Content Distribution
+- Monetization
+- Accessibility
 - oEmbed
 - embeddable-player
 - Advertising

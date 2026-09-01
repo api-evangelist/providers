@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
 api_count: 0
 artifact_total: 1
 common:
@@ -52,7 +52,7 @@ modified: '2026-07-20'
 name: LeapStack
 nav: Providers
 network: true
-overview: LeapStack is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Fintech, InsurTech, Insurance, and Health Insurance.
+overview: LeapStack is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Fintech, Insurtech, Insurance, and Health Insurance.
 random_paper: 7
 score:
   band: minimal
@@ -80,7 +80,7 @@ score:
     regime_id: insurance
     score: 9.1
   schema_version: 0.17.2
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/leapstack/refs/heads/main/screenshots/leapstack-2026-07-25T224801.png
 security:
@@ -92,7 +92,7 @@ slug: leapstack
 tags:
 - Company
 - Fintech
-- InsurTech
+- Insurtech
 - Insurance
 - Health Insurance
 - Data Analytics

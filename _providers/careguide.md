@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
 api_count: 0
 artifact_total: 1
 common:
@@ -68,7 +68,7 @@ modified: '2026-07-18'
 name: CareGuide
 nav: Providers
 network: true
-overview: 'CareGuide is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Care, Marketplace, Caregiving, and Child Care.
+overview: 'CareGuide is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Care, Marketplace, Caregiving, and Childcare.
 
 
   CareGuide''s developer surface includes engineering blog, support, and 4 more developer resources.'
@@ -93,7 +93,7 @@ score:
     operational_transparency: 0.0
   previous_composite: 10.6
   schema_version: 0.17.2
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/careguide/refs/heads/main/screenshots/careguide-2026-07-25T204543.png
 security:
@@ -107,7 +107,7 @@ tags:
 - Care
 - Marketplace
 - Caregiving
-- Child Care
+- Childcare
 - Elder Care
 - Pet Care
 - Payroll

@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 2.5
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
 api_count: 1
 apis:
 - description: APA Corporation explores for and produces oil and natural gas in the United States, Egypt, the United Kingdom, and Suriname through its Apache Corporation and APA Suriname subsidiaries.
@@ -91,7 +91,7 @@ modified: '2026-04-19'
 name: APA Corporation
 nav: Providers
 network: true
-overview: 'APA Corporation publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Oil And Gas, Energy, Exploration, and Production.
+overview: 'APA Corporation publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Oil and Gas, Energy, Exploration, and Production.
 
 
   APA Corporation''s developer surface includes documentation, support, engineering blog, and 3 more developer resources.'
@@ -130,7 +130,7 @@ score:
     regime_id: energy_utilities
     score: 8.1
   schema_version: 0.17.2
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/apa/refs/heads/main/screenshots/apa-2026-06-20T172039.png
 security:
@@ -140,7 +140,7 @@ security:
   summary_line: TLSv1.3
 slug: apa
 tags:
-- Oil And Gas
+- Oil and Gas
 - Energy
 - Exploration
 - Production

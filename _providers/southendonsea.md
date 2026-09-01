@@ -23,7 +23,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 14.2
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
 api_count: 2
 apis:
 - description: Current and archived source-linked city observations
@@ -66,7 +66,7 @@ modified: '2026-08-23'
 name: SouthendOnSea.city
 nav: Providers
 network: true
-overview: 'SouthendOnSea.city publishes 1 API on the [APIs.io](https://apis.io/) network: Southend Now API. Tagged areas include open data, Southend-on-Sea, weather, environment, and local data.
+overview: 'SouthendOnSea.city publishes 1 API on the [APIs.io](https://apis.io/) network: Southend Now API. Tagged areas include Open Data, Southend-on-Sea, Weather, Environment, and local data.
 
 
   SouthendOnSea.city''s developer surface includes documentation and 5 more developer resources.'
@@ -103,14 +103,14 @@ score:
     regime_id: government
     score: 14.8
   schema_version: 0.17.2
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
   trend: flat
 slug: southendonsea
 tags:
-- open data
+- Open Data
 - Southend-on-Sea
-- weather
-- environment
+- Weather
+- Environment
 - local data
 website: https://southendonsea.city
 ---

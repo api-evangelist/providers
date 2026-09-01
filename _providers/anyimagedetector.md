@@ -23,7 +23,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 32.2
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
 api_count: 1
 apis:
 - description: Analyze an image and report whether it is AI-generated.
@@ -148,7 +148,7 @@ modified: '2026-08-11'
 name: AnyImageDetector
 nav: Providers
 network: true
-overview: 'AnyImageDetector publishes 1 API on the [APIs.io](https://apis.io/) network: Detection API. Tagged areas include AI image detection, image analysis, Computer-Vision, Content Moderation, and trust & safety.
+overview: 'AnyImageDetector publishes 1 API on the [APIs.io](https://apis.io/) network: Detection API. Tagged areas include AI image detection, Image Analysis, Computer-Vision, Content Moderation, and Trust and Safety.
 
 
   AnyImageDetector''s developer surface includes documentation, API reference, support, engineering blog, pricing, signup flow, authentication, and 18 more developer resources.'
@@ -190,7 +190,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.17.2
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/anyimagedetector/refs/heads/main/screenshots/anyimagedetector-2026-08-17T080553.png
 security:
@@ -205,14 +205,14 @@ security:
 slug: anyimagedetector
 tags:
 - AI image detection
-- image analysis
+- Image Analysis
 - Computer-Vision
 - Content Moderation
-- trust & safety
-- fact-checking
+- Trust and Safety
+- Fact Checking
 - media verification
 - Developer Tools
-- synthetic media
-- fraud prevention
+- Synthetic Media
+- Fraud Prevention
 website: https://imagedetector.online/api
 ---

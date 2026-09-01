@@ -23,7 +23,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.2
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -226,7 +226,7 @@ modified: '2026-08-04'
 name: CodaMetrix
 nav: Providers
 network: true
-overview: 'CodaMetrix publishes 5 APIs on the [APIs.io](https://apis.io/) network, including Components API, Incidents API, Scheduled Maintenances API, and 2 more. Tagged areas include Company, healthcare, health-systems, medical-coding, and autonomous-coding.
+overview: 'CodaMetrix publishes 5 APIs on the [APIs.io](https://apis.io/) network, including Components API, Incidents API, Scheduled Maintenances API, and 2 more. Tagged areas include Company, Healthcare, Health Systems, Medical Coding, and Autonomous Coding.
 
 
   CodaMetrix''s developer surface includes engineering blog, support, code examples, authentication, documentation, and 25 more developer resources.'
@@ -239,7 +239,7 @@ score:
     catalog_gap: 63.0
     catalog_max: 100.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.5
+  delta: 0.0
   facets:
     access_clarity: 71.4
     commercial_clarity: 71.4
@@ -249,7 +249,7 @@ score:
     discoverability: 68.5
     governance: 18.2
     operational_transparency: 15.8
-  previous_composite: 39.6
+  previous_composite: 39.1
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -267,7 +267,7 @@ score:
     regime_id: health
     score: 32.5
   schema_version: 0.17.2
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/codametrix/refs/heads/main/screenshots/codametrix-2026-08-07T163535.png
 security:
@@ -286,16 +286,16 @@ security:
 slug: codametrix
 tags:
 - Company
-- healthcare
-- health-systems
-- medical-coding
-- autonomous-coding
-- revenue-cycle-management
-- clinical-documentation
-- healthcare-ai
-- machine-learning
-- natural-language-processing
-- ehr-integration
+- Healthcare
+- Health Systems
+- Medical Coding
+- Autonomous Coding
+- Revenue Cycle Management
+- Clinical Documentation
+- Healthcare AI
+- Machine-Learning
+- Natural Language Processing
+- EHR Integration
 - Status
 website: https://www.codametrix.com/
 ---

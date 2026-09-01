@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 7.9
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
 api_count: 1
 apis:
 - description: A POST-only REST API for programmatically writing data into Marin. Five bulk endpoints — /campaigns, /groups, /keywords, /ads and /strategies — accept a JSON body containing a single "data" array of r
@@ -141,7 +141,7 @@ modified: '2026-08-12'
 name: Marin Software
 nav: Providers
 network: true
-overview: 'Marin Software publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Martech, Advertising, Marketing, and Performance Marketing.
+overview: 'Marin Software publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, MarTech, Advertising, Marketing, and Performance Marketing.
 
 
   Marin Software''s developer surface includes pricing, engineering blog, signup flow, documentation, API reference, support, authentication, and 16 more developer resources.'
@@ -176,7 +176,7 @@ score:
   provenance:
     conformance: derived
   schema_version: 0.17.2
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/marin-software/refs/heads/main/screenshots/marin-software-2026-07-25T230152.png
 security:
@@ -191,7 +191,7 @@ security:
 slug: marin-software
 tags:
 - Company
-- Martech
+- MarTech
 - Advertising
 - Marketing
 - Performance Marketing

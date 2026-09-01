@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 12.9
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
 api_count: 0
 artifact_total: 1
 common:
@@ -88,7 +88,7 @@ modified: '2026-07-21'
 name: Unlonely
 nav: Providers
 network: true
-overview: Unlonely is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Crypto Web3, Livestreaming, Video, and Base.
+overview: Unlonely is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Crypto Web3, Live Streaming, Video, and Base.
 random_paper: 4
 score:
   band: emerging
@@ -113,16 +113,16 @@ score:
     score: 25.0
   previous_composite: 17.8
   schema_version: 0.17.2
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
   trend: flat
 slug: unlonely
 tags:
 - Company
 - Crypto Web3
-- Livestreaming
+- Live Streaming
 - Video
 - Base
-- NFTs
+- NFT
 - Creator Economy
 - GraphQL
 website: https://unlonely.app

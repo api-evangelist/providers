@@ -23,7 +23,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 5.0
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
 api_count: 3
 apis:
 - description: ERC-4337 bundler JSON-RPC endpoint. Accepts User Operations into the mempool, estimates UserOp gas, returns a UserOp and its receipt by hash, and lists supported EntryPoint addresses. One endpoint per
@@ -142,7 +142,7 @@ modified: '2026-08-17'
 name: Cometh
 nav: Providers
 network: true
-overview: 'Cometh publishes 3 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Blockchain, account-abstraction, erc-4337, and smart-wallet.
+overview: 'Cometh publishes 3 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Blockchain, Account Abstraction, ERC-4337, and Smart Wallet.
 
 
   Cometh''s developer surface includes documentation, API reference, getting-started guide, signup flow, YouTube channel, authentication, sandbox, and 17 more developer resources.'
@@ -184,7 +184,7 @@ score:
     regime_id: payments
     score: 34.4
   schema_version: 0.17.2
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
   trend: flat
 security:
 - kind: authentication
@@ -203,21 +203,21 @@ slug: cometh
 tags:
 - Company
 - Blockchain
-- account-abstraction
-- erc-4337
-- smart-wallet
-- paymaster
-- bundler
-- passkeys
-- webauthn
-- gasless-transactions
+- Account Abstraction
+- ERC-4337
+- Smart Wallet
+- Paymaster
+- Bundler
+- Passkeys
+- WebAuthn
+- Gasless Transactions
 - DeFi
-- custody
-- staking
+- Custody
+- Staking
 - Payments
-- json-rpc
-- mica
-- safe
+- JSON-RPC
+- MiCA
+- SAFe
 - Web3
 website: https://www.cometh.io/
 ---

@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 25.1
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
 agentic_access:
 - acting_count: 228
   human_in_the_loop: 9
@@ -592,23 +592,23 @@ rules:
   slug: sumo-logic-rules
 score:
   band: developing
-  composite: 42.9
+  composite: 44.7
   coverage:
     artifact_dirs: 19
-    catalog_gap: 69.5
+    catalog_gap: 59.5
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -2.4
+  delta: 0.0
   facets:
     access_clarity: 23.7
     commercial_clarity: 23.7
     contract_governance: 13.6
     contract_quality: 72.7
     developer_ergonomics: 52.4
-    discoverability: 44.4
+    discoverability: 63.0
     governance: 13.6
     operational_transparency: 26.3
-  previous_composite: 45.3
+  previous_composite: 44.7
   provenance:
     agentic_access: derived
     contracts:
@@ -617,7 +617,7 @@ score:
       marker_coverage: 0.0
       total: 61
   schema_version: 0.17.2
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/sumo-logic/refs/heads/main/screenshots/sumo-logic-2026-06-20T194649.png
 security:

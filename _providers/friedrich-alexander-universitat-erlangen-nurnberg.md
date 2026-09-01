@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 5.0
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
 api_count: 9
 apis:
 - description: 'Open Archives Initiative Protocol for Metadata Harvesting 2.0 service for OPEN FAU, the university''s open-access publication repository. Verified live on 2026-08-30: Identify returns repositoryName "O'
@@ -65,6 +65,10 @@ apis:
   slug: cris-converis-ws
 artifact_total: 15
 common:
+- group: commercial
+  title: ''
+  type: License
+  url: https://github.com/ClusterCockpit/cc-backend/blob/main/LICENSE
 - group: company
   title: ''
   type: Website
@@ -198,7 +202,7 @@ overview: 'Friedrich-Alexander-Universität Erlangen-Nürnberg publishes 9 APIs 
   The Friedrich-Alexander-Universität Erlangen-Nürnberg catalog on APIs.io includes 1 JSON-LD context.
 
 
-  Friedrich-Alexander-Universität Erlangen-Nürnberg''s developer surface includes documentation, GitHub presence, authentication, developer portal, support, and 22 more developer resources.'
+  Friedrich-Alexander-Universität Erlangen-Nürnberg''s developer surface includes documentation, GitHub presence, authentication, developer portal, support, and 23 more developer resources.'
 plans:
 - name: Friedrich Alexander Universitat Erlangen Nurnberg Plans Pricing
   plan_count: 2
@@ -216,7 +220,7 @@ score:
     catalog_gap: 48.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: 11.3
+  delta: 0.0
   facets:
     access_clarity: 50.0
     commercial_clarity: 50.0
@@ -226,7 +230,7 @@ score:
     discoverability: 85.2
     governance: 0.0
     operational_transparency: 26.3
-  previous_composite: 24.9
+  previous_composite: 36.2
   regulatory:
     applies: true
     matched_via: tags
@@ -234,8 +238,8 @@ score:
     regime_id: education
     score: 57.4
   schema_version: 0.17.2
-  scored_at: '2026-08-30'
-  trend: rising
+  scored_at: '2026-09-01'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/friedrich-alexander-universitat-erlangen-nurnberg/refs/heads/main/screenshots/friedrich-alexander-universitat-erlangen-nurnberg-2026-06-20T181545.png
 security:
 - kind: domain-security

@@ -23,7 +23,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 50.9
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
 api_count: 4
 apis:
 - description: The Admin API from Tradeshift — 11 operation(s) for admin.
@@ -495,7 +495,7 @@ modified: '2026-08-02'
 name: Tradeshift
 nav: Providers
 network: true
-overview: 'Tradeshift publishes 38 APIs on the [APIs.io](https://apis.io/) network, including Admin API, Document Validation API, Dx Category Accounts Branches API, and 35 more. Tagged areas include e-invoicing, accounts-payable, ap-automation, procure-to-pay, and Supply Chain.
+overview: 'Tradeshift publishes 38 APIs on the [APIs.io](https://apis.io/) network, including Admin API, Document Validation API, Dx Category Accounts Branches API, and 35 more. Tagged areas include E-Invoicing, Accounts Payable, AP Automation, Procure-to-Pay, and Supply Chain.
 
 
   The Tradeshift catalog on APIs.io includes 1 event-driven AsyncAPI specification.
@@ -537,7 +537,7 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.17.2
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/tradeshift/refs/heads/main/screenshots/tradeshift-2026-08-17T082420.png
 security:
@@ -559,17 +559,17 @@ security:
   summary_line: SOC 1 Type II, SOC 2 Type II, ISAE 3402 Type II, PCI DSS Level 1, ISO 27001
 slug: tradeshift
 tags:
-- e-invoicing
-- accounts-payable
-- ap-automation
-- procure-to-pay
+- E-Invoicing
+- Accounts Payable
+- AP Automation
+- Procure-to-Pay
 - Supply Chain
-- b2b-commerce
+- B2B Commerce
 - Invoicing
 - UBL
-- peppol
+- PEPPOL
 - e-invoicing-compliance
-- supplier-network
+- Supplier Network
 - business-documents
 - Fintech
 - MCP

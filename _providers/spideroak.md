@@ -23,7 +23,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 11.4
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
 api_count: 1
 apis:
 - description: The Aranya Client API is the library interface an application uses to talk to the Aranya daemon. It covers team creation, device onboarding and removal, role and permission management (including custo
@@ -31,6 +31,10 @@ apis:
   slug: spideroak-aranya-client
 artifact_total: 6
 common:
+- group: commercial
+  title: ''
+  type: License
+  url: https://github.com/aranya-project/aranya/blob/main/LICENSE
 - group: company
   title: ''
   type: Website
@@ -170,7 +174,7 @@ network: true
 overview: 'SpiderOak publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Security, Zero Trust, Encryption, and Access Control.
 
 
-  SpiderOak''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 25 more developer resources.'
+  SpiderOak''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 26 more developer resources.'
 plans:
 - name: Spideroak Plans Pricing
   plan_count: 2
@@ -200,7 +204,7 @@ score:
     operational_transparency: 28.9
   previous_composite: 42.0
   schema_version: 0.17.2
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
   trend: flat
 security:
 - kind: authentication

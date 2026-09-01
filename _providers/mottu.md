@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
 api_count: 0
 artifact_total: 1
 common:
@@ -76,7 +76,7 @@ modified: '2026-07-20'
 name: Mottu
 nav: Providers
 network: true
-overview: 'Mottu is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Fintech, Mobility, Motorcycle Rental, and Last-Mile Delivery.
+overview: 'Mottu is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Fintech, Mobility, Motorcycle Rental, and Last Mile Delivery.
 
 
   Mottu''s developer surface includes support, signup flow, and 6 more developer resources.'
@@ -101,7 +101,7 @@ score:
     operational_transparency: 0.0
   previous_composite: 13.5
   schema_version: 0.17.2
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/mottu/refs/heads/main/screenshots/mottu-2026-08-07T184345.png
 security:
@@ -115,7 +115,7 @@ tags:
 - Fintech
 - Mobility
 - Motorcycle Rental
-- Last-Mile Delivery
+- Last Mile Delivery
 - Logistics
 - Brazil
 - Latin America

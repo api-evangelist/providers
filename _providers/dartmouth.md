@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 26.7
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
 api_count: 1
 apis:
 - description: 'The JSON backend of Dartmouth Class Search, the institution''s public timetable of class meetings. Keyless: an unauthenticated POST returned 1393 sections for term 202609 on 2026-08-30. Two routes — se'
@@ -249,7 +249,7 @@ score:
     catalog_gap: 50.5
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: 5.1
+  delta: 0.0
   facets:
     access_clarity: 39.5
     commercial_clarity: 39.5
@@ -259,7 +259,7 @@ score:
     discoverability: 59.3
     governance: 22.7
     operational_transparency: 26.3
-  previous_composite: 40.9
+  previous_composite: 46.0
   provenance:
     agentic_access: derived
     contracts:
@@ -274,8 +274,8 @@ score:
     regime_id: education
     score: 38.9
   schema_version: 0.17.2
-  scored_at: '2026-08-30'
-  trend: rising
+  scored_at: '2026-09-01'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/dartmouth/refs/heads/main/screenshots/dartmouth-2026-07-25T211220.png
 security:
 - kind: authentication

@@ -23,7 +23,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 23.2
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
 api_count: 1
 apis:
 - description: The WordPress REST API served by the Mobia Medical corporate site at https://www.mobia.com/wp-json/. It is the content-management API behind the marketing site — 320 routes across 22 namespaces includ
@@ -178,7 +178,7 @@ score:
     regime_id: health
     score: 53.8
   schema_version: 0.17.2
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
   trend: flat
 security:
 - kind: authentication

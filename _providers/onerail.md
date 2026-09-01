@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 44.0
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
 agentic_access:
 - acting_count: 284
   human_in_the_loop: 22
@@ -636,7 +636,7 @@ modified: '2026-08-02'
 name: OneRail
 nav: Providers
 network: true
-overview: 'OneRail publishes 75 APIs on the [APIs.io](https://apis.io/) network, including Delivery API, Api Auth API, Assets API, and 72 more. Tagged areas include last-mile-delivery, delivery-orchestration, Logistics, Supply Chain, and route-optimization.
+overview: 'OneRail publishes 75 APIs on the [APIs.io](https://apis.io/) network, including Delivery API, Api Auth API, Assets API, and 72 more. Tagged areas include Last Mile Delivery, Delivery Orchestration, Logistics, Supply Chain, and Route Optimization.
 
 
   The OneRail catalog on APIs.io includes 1 event-driven AsyncAPI specification.
@@ -679,7 +679,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.17.2
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/onerail/refs/heads/main/screenshots/onerail-2026-08-07T190340.png
 security:
@@ -697,17 +697,17 @@ security:
   summary_line: SOC 2 Type II, ISO/IEC 27001:2022, GDPR
 slug: onerail
 tags:
-- last-mile-delivery
-- delivery-orchestration
+- Last Mile Delivery
+- Delivery Orchestration
 - Logistics
 - Supply Chain
-- route-optimization
+- Route Optimization
 - courier-network
 - Shipping
-- fleet-management
+- Fleet Management
 - Transportation
-- order-management
+- Order Management
 - Webhook
-- final-mile
+- Final Mile
 website: https://www.onerail.com/
 ---

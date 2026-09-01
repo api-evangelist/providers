@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
 api_count: 0
 artifact_total: 1
 common:
@@ -72,7 +72,7 @@ modified: '2026-05-16'
 name: Nestlé
 nav: Providers
 network: true
-overview: 'Nestlé is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Food & Beverage, Consumer Products, Pet Food, Fortune Global 500, and Consumer Packaged Goods.
+overview: 'Nestlé is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Food and Beverage, Consumer Products, Pet Food, Fortune Global 500, and Consumer Packaged Goods.
 
 
   Nestlé''s developer surface includes engineering blog and 6 more developer resources.'
@@ -97,7 +97,7 @@ score:
     operational_transparency: 2.6
   previous_composite: 5.8
   schema_version: 0.17.2
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
   trend: flat
 security:
 - kind: domain-security
@@ -106,7 +106,7 @@ security:
   summary_line: TLSv1.3 · DMARC
 slug: nestle
 tags:
-- Food & Beverage
+- Food and Beverage
 - Consumer Products
 - Pet Food
 - Fortune Global 500

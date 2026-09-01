@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 2.5
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
 api_count: 1
 apis:
 - description: Partner-gated API for onboarded Meesho suppliers and integration partners to sync catalog and inventory, fetch and update orders, retrieve shipping labels, and process returns/RTO. Credentials (client
@@ -126,7 +126,7 @@ score:
     operational_transparency: 2.6
   previous_composite: 19.7
   schema_version: 0.17.2
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/meesho/refs/heads/main/screenshots/meesho-2026-08-07T172419.png
 security:

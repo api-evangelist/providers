@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 25.2
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
 api_count: 1
 apis:
 - description: Inbound custom webhook triggers that start Rewst workflows. An external system sends an HTTP request (method configured per trigger) to a per-trigger URL; the normalized payload ({body, headers, metho
@@ -165,7 +165,7 @@ modified: '2026-07-21'
 name: Rewst
 nav: Providers
 network: true
-overview: 'Rewst publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Devops, Automation, iPaaS, and RPA.
+overview: 'Rewst publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, DevOps, Automation, iPaaS, and RPA.
 
 
   The Rewst catalog on APIs.io includes 1 event-driven AsyncAPI specification.
@@ -199,7 +199,7 @@ score:
   provenance:
     conformance: first-party
   schema_version: 0.17.2
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/rewst/refs/heads/main/screenshots/rewst-2026-08-17T081551.png
 security:
@@ -222,7 +222,7 @@ security:
 slug: rewst
 tags:
 - Company
-- Devops
+- DevOps
 - Automation
 - iPaaS
 - RPA

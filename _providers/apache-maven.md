@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 2.5
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
 api_count: 2
 apis:
 - description: Maven provides a Java API for programmatic build execution, a Plugin API (Mojo) for extending build capabilities, a Repository API for artifact management via Maven Artifact Resolver, and the Wagon tr
@@ -178,7 +178,7 @@ modified: '2026-04-19'
 name: Apache Maven
 nav: Providers
 network: true
-overview: 'Apache Maven publishes 2 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Build Tool, Dependency Management, Java, Project Management, and Maven.
+overview: 'Apache Maven publishes 2 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Build Tools, Dependency Management, Java, Project Management, and Maven.
 
 
   Apache Maven''s developer surface includes developer portal, engineering blog, and 19 more developer resources.'
@@ -199,7 +199,7 @@ score:
     catalog_gap: 74.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: 7.5
+  delta: 0.0
   facets:
     access_clarity: 26.3
     commercial_clarity: 26.3
@@ -212,10 +212,10 @@ score:
   open_source:
     applies: true
     score: 100.0
-  previous_composite: 25.0
+  previous_composite: 32.5
   schema_version: 0.17.2
-  scored_at: '2026-08-30'
-  trend: rising
+  scored_at: '2026-09-01'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/apache-maven/refs/heads/main/screenshots/apache-maven-2026-06-20T172120.png
 security:
 - kind: domain-security
@@ -228,7 +228,7 @@ security:
   summary_line: security.txt · contact published
 slug: apache-maven
 tags:
-- Build Tool
+- Build Tools
 - Dependency Management
 - Java
 - Project Management

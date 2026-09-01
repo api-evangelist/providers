@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.8
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
 api_count: 3
 apis:
 - description: 'Partner-only REST API for reservations, availability, and restaurant metadata. Access is granted through Resy''s partnerships team for approved POS, CRM, loyalty, and discovery integrations. No public '
@@ -156,7 +156,7 @@ score:
     operational_transparency: 7.9
   previous_composite: 16.1
   schema_version: 0.17.2
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/resy/refs/heads/main/screenshots/resy-2026-06-20T193036.png
 security:

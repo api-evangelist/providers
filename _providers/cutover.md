@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 26.1
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
 api_count: 1
 apis:
 - description: The Cutover Core API is a RESTful, JSON:API-style interface for programmatically managing workspaces, runbooks, tasks, teams, and users in the Cutover collaborative automation platform. It uses predic
@@ -196,7 +196,7 @@ score:
     conformance: first-party
     mcp: first-party
   schema_version: 0.17.2
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/cutover/refs/heads/main/screenshots/cutover-2026-07-25T211011.png
 security:

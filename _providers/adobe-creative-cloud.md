@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 25.9
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
 agentic_access:
 - acting_count: 20
   human_in_the_loop: 0
@@ -644,7 +644,7 @@ modified: '2026-05-19'
 name: Adobe Creative Cloud
 nav: Providers
 network: true
-overview: 'Adobe Creative Cloud publishes 12 APIs on the [APIs.io](https://apis.io/) network, including Adobe I/O Events, Assets API, Elements API, and 9 more. Tagged areas include AI/ML, Cloud, Creative, Design, and Documents.
+overview: 'Adobe Creative Cloud publishes 12 APIs on the [APIs.io](https://apis.io/) network, including Adobe I/O Events, Assets API, Elements API, and 9 more. Tagged areas include Ai Ml, Cloud, Creative, Design, and Documents.
 
 
   The Adobe Creative Cloud catalog on APIs.io includes 1 event-driven AsyncAPI specification, 1 JSON-LD context, and 3 Spectral governance rulesets.
@@ -701,7 +701,7 @@ score:
     catalog_gap: 44.5
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -1.4
+  delta: 0.0
   facets:
     access_clarity: 47.4
     commercial_clarity: 47.4
@@ -714,7 +714,7 @@ score:
   open_source:
     applies: true
     score: 40.0
-  previous_composite: 54.4
+  previous_composite: 53.0
   provenance:
     agentic_access: derived
     contracts:
@@ -723,7 +723,7 @@ score:
       marker_coverage: 0.0
       total: 11
   schema_version: 0.17.2
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/adobe-creative-cloud/refs/heads/main/screenshots/adobe-creative-cloud-2026-07-25T181653.png
 security:
@@ -750,7 +750,7 @@ solutions:
 - description: Full-stack application framework for building custom enterprise extensions on Adobe infrastructure.
   name: Adobe App Builder
 tags:
-- AI/ML
+- Ai Ml
 - Cloud
 - Creative
 - Design

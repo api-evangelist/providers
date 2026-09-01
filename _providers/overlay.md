@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 25.4
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
 api_count: 1
 apis:
 - description: CoinGecko/CMC-style aggregator market-data feed.
@@ -156,7 +156,7 @@ modified: '2026-07-20'
 name: Overlay
 nav: Providers
 network: true
-overview: 'Overlay publishes 3 APIs on the [APIs.io](https://apis.io/) network: Aggregator API, Charts API, and Markets API. Tagged areas include Company, Defi, Perpetual Futures, Derivatives, and Trading.
+overview: 'Overlay publishes 3 APIs on the [APIs.io](https://apis.io/) network: Aggregator API, Charts API, and Markets API. Tagged areas include Company, DeFi, Perpetual Futures, Derivatives, and Trading.
 
 
   Overlay''s developer surface includes documentation, API reference, support, authentication, and 17 more developer resources.'
@@ -169,7 +169,7 @@ score:
     catalog_gap: 63.0
     catalog_max: 100.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.5
+  delta: 0.0
   facets:
     access_clarity: 0.0
     commercial_clarity: 0.0
@@ -179,7 +179,7 @@ score:
     discoverability: 75.9
     governance: 4.5
     operational_transparency: 2.6
-  previous_composite: 31.8
+  previous_composite: 31.3
   provenance:
     conformance: derived
     contracts:
@@ -196,7 +196,7 @@ score:
     regime_id: securities_market_data
     score: 28.3
   schema_version: 0.17.2
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/overlay/refs/heads/main/screenshots/overlay-2026-08-07T191129.png
 security:
@@ -211,7 +211,7 @@ security:
 slug: overlay
 tags:
 - Company
-- Defi
+- DeFi
 - Perpetual Futures
 - Derivatives
 - Trading

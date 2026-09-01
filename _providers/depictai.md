@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 36.5
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
 agentic_access:
 - acting_count: 79
   human_in_the_loop: 0
@@ -411,7 +411,7 @@ modified: '2026-07-18'
 name: Depict.AI
 nav: Providers
 network: true
-overview: 'Depict.AI publishes 35 APIs on the [APIs.io](https://apis.io/) network, including Ab Test API, Analytics API, Boost Bury API, and 32 more. Tagged areas include Company, E Commerce, Search, Recommendations, and Merchandising.
+overview: 'Depict.AI publishes 35 APIs on the [APIs.io](https://apis.io/) network, including Ab Test API, Analytics API, Boost Bury API, and 32 more. Tagged areas include Company, E-Commerce, Search, Recommendations, and Merchandising.
 
 
   Depict.AI''s developer surface includes documentation, API reference, getting-started guide, authentication, changelog, engineering blog, pricing, and 28 more developer resources.'
@@ -451,7 +451,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.17.2
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/depictai/refs/heads/main/screenshots/depictai-2026-07-25T211734.png
 security:
@@ -470,7 +470,7 @@ security:
 slug: depictai
 tags:
 - Company
-- E Commerce
+- E-Commerce
 - Search
 - Recommendations
 - Merchandising

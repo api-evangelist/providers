@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 20.5
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
 api_count: 1
 apis:
 - description: Keyless read-only JSON, RSS and SVG feeds describing the operational state of 678 University of Queensland systems across 43 service categories, plus every published incident. All five endpoints retur
@@ -224,7 +224,7 @@ score:
     catalog_gap: 46.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: 25.3
+  delta: 0.0
   facets:
     access_clarity: 50.0
     commercial_clarity: 50.0
@@ -234,7 +234,7 @@ score:
     discoverability: 59.3
     governance: 30.3
     operational_transparency: 23.7
-  previous_composite: 20.5
+  previous_composite: 45.8
   regulatory:
     applies: true
     matched_via: tags
@@ -242,8 +242,8 @@ score:
     regime_id: education
     score: 46.3
   schema_version: 0.17.2
-  scored_at: '2026-08-30'
-  trend: rising
+  scored_at: '2026-09-01'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/uq/refs/heads/main/screenshots/uq-2026-06-20T200520.png
 security:
 - kind: authentication

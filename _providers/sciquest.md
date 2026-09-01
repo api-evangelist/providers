@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
 api_count: 1
 apis:
 - description: 'REST/JSON API surface for the JAGGAER (formerly SciQuest) Advanced Sourcing Optimizer, secured with OAuth 2.0 client-credentials. Grouped into the Customer Host Entity Service (query ASO events for a '
@@ -93,7 +93,7 @@ modified: '2026-07-21'
 name: SciQuest
 nav: Providers
 network: true
-overview: 'SciQuest publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Enterprise Software, Procurement, E-Procurement, and Spend Management.
+overview: 'SciQuest publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Enterprise Software, Procurement, eProcurement, and Spend Management.
 
 
   The SciQuest catalog on APIs.io includes 1 event-driven AsyncAPI specification.
@@ -123,7 +123,7 @@ score:
   provenance:
     conformance: first-party
   schema_version: 0.17.2
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
   trend: flat
 security:
 - kind: authentication
@@ -143,7 +143,7 @@ tags:
 - Company
 - Enterprise Software
 - Procurement
-- E-Procurement
+- eProcurement
 - Spend Management
 - Source-to-Pay
 - Supplier Management

@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 22.1
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
 api_count: 1
 apis:
 - description: Project Tycho is an open-access repository for global health surveillance data, built and run at the University of Pittsburgh and served from www.tycho.pitt.edu. It holds case counts for 78 notifiable
@@ -57,6 +57,10 @@ apis:
   slug: pittapi
 artifact_total: 18
 common:
+- group: commercial
+  title: ''
+  type: License
+  url: https://github.com/pittcsc/PittAPI/blob/dev/LICENSE
 - group: company
   title: ''
   type: Website
@@ -263,7 +267,7 @@ overview: 'University of Pittsburgh publishes 1 API on the [APIs.io](https://api
   The University of Pittsburgh catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
 
 
-  University of Pittsburgh''s developer surface includes documentation, API reference, status page, support, engineering blog, authentication, code examples, and 35 more developer resources.'
+  University of Pittsburgh''s developer surface includes documentation, API reference, status page, support, engineering blog, authentication, code examples, and 36 more developer resources.'
 plans:
 - name: University Of Pittsburgh Plans Pricing
   plan_count: 2
@@ -298,7 +302,7 @@ score:
     catalog_gap: 30.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: 32.6
+  delta: 0.0
   facets:
     access_clarity: 52.6
     commercial_clarity: 52.6
@@ -308,7 +312,7 @@ score:
     discoverability: 59.3
     governance: 60.6
     operational_transparency: 23.7
-  previous_composite: 21.8
+  previous_composite: 54.4
   regulatory:
     applies: true
     matched_via: tags
@@ -316,8 +320,8 @@ score:
     regime_id: education
     score: 57.4
   schema_version: 0.17.2
-  scored_at: '2026-08-30'
-  trend: rising
+  scored_at: '2026-09-01'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/university-of-pittsburgh/refs/heads/main/screenshots/university-of-pittsburgh-2026-06-20T200224.png
 security:
 - kind: authentication

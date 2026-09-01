@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 12.6
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
 api_count: 3
 apis:
 - description: 'ACUS maintains an online database of Equal Access to Justice Act (EAJA) awards, tracking awards of attorney''s fees and other costs against the United States government. ACUS collects and reports this '
@@ -189,7 +189,7 @@ score:
     catalog_gap: 77.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: 16.4
+  delta: 0.0
   facets:
     access_clarity: 18.4
     commercial_clarity: 18.4
@@ -199,7 +199,7 @@ score:
     discoverability: 64.8
     governance: 18.2
     operational_transparency: 10.5
-  previous_composite: 12.3
+  previous_composite: 28.7
   regulatory:
     applies: true
     matched_via: tags
@@ -207,8 +207,8 @@ score:
     regime_id: government
     score: 50.0
   schema_version: 0.17.2
-  scored_at: '2026-08-30'
-  trend: rising
+  scored_at: '2026-09-01'
+  trend: flat
 security:
 - kind: authentication
   name: Administrative Conference Of The United States Authentication

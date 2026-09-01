@@ -23,7 +23,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 32.9
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
 api_count: 4
 apis:
 - description: 'The first-party gRPC/ProtoBuf interface Picarro publishes for external access to Picarro SAM (semiconductor airborne molecular contamination) systems. The `picarro-edge` server exposes three services '
@@ -272,7 +272,7 @@ score:
     regime_id: energy_utilities
     score: 63.5
   schema_version: 0.17.2
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/picarro/refs/heads/main/screenshots/picarro-2026-08-17T081215.png
 security:
@@ -297,7 +297,7 @@ tags:
 - Methane
 - Greenhouse Gas
 - Scientific Instruments
-- Semiconductor
+- Semiconductors
 - Industrial IoT
 - Sensors
 - Analytics

@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 27.3
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -407,7 +407,7 @@ modified: '2026-05-25'
 name: Tibber
 nav: Providers
 network: true
-overview: 'Tibber publishes 4 APIs on the [APIs.io](https://apis.io/) network, including GraphQL API, Devices API, History API, and 1 more. Tagged areas include Energy, SmartHome, SmartMeter, ElectricityPricing, and ElectricVehicleCharging.
+overview: 'Tibber publishes 4 APIs on the [APIs.io](https://apis.io/) network, including GraphQL API, Devices API, History API, and 1 more. Tagged areas include Energy, Smart Home, Smart Meter, ElectricityPricing, and Electric Vehicle Charging.
 
 
   The Tibber catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
@@ -458,7 +458,7 @@ score:
     catalog_gap: 27.5
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.5
+  delta: 0.0
   facets:
     access_clarity: 73.7
     commercial_clarity: 73.7
@@ -471,7 +471,7 @@ score:
   open_source:
     applies: true
     score: 0.0
-  previous_composite: 62.8
+  previous_composite: 62.3
   provenance:
     agentic_access: derived
     contracts:
@@ -486,7 +486,7 @@ score:
     regime_id: energy_utilities
     score: 56.8
   schema_version: 0.17.2
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/tibber/refs/heads/main/screenshots/tibber-2026-06-20T195331.png
 security:
@@ -508,13 +508,13 @@ solutions:
   name: Tibber Grid Services (Sweden)
 tags:
 - Energy
-- SmartHome
-- SmartMeter
+- Smart Home
+- Smart Meter
 - ElectricityPricing
-- ElectricVehicleCharging
+- Electric Vehicle Charging
 - HeatPump
 - SolarInverter
-- HomeBattery
+- Home Battery
 - GraphQL
 - Authentication
 - Nordic

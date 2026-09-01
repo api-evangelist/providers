@@ -23,7 +23,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 38.3
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
 api_count: 4
 apis:
 - description: REST API for exchanging patient, prescription, encounter and assistance-program application data between a health system, clinic or pharmacy and the TailorMed platform. Part of TailorMed's DTA (Data T
@@ -197,7 +197,7 @@ score:
     regime_id: health
     score: 76.3
   schema_version: 0.17.2
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
   trend: flat
 security:
 - kind: authentication

@@ -23,7 +23,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 55.0
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
 api_count: 3
 apis:
 - description: Sourced and timestamped Binance Spot observations.
@@ -206,7 +206,7 @@ modified: '2026-08-11'
 name: BTC War Live Market Data API
 nav: Providers
 network: true
-overview: 'BTC War Live Market Data API publishes 1 API on the [APIs.io](https://apis.io/) network: Market data API. Tagged areas include Finance, cryptocurrency, Market Data, bitcoin, and crypto-price.
+overview: 'BTC War Live Market Data API publishes 1 API on the [APIs.io](https://apis.io/) network: Market data API. Tagged areas include Finance, Cryptocurrency, Market Data, Bitcoin, and crypto-price.
 
 
   The BTC War Live Market Data API catalog on APIs.io includes 2 JSON-LD contexts.
@@ -230,7 +230,7 @@ score:
     catalog_gap: 44.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: 0.5
+  delta: 0.0
   facets:
     access_clarity: 21.1
     commercial_clarity: 21.1
@@ -240,7 +240,7 @@ score:
     discoverability: 92.6
     governance: 19.7
     operational_transparency: 44.7
-  previous_composite: 47.4
+  previous_composite: 47.9
   provenance:
     agentic_access: unknown
     conformance: derived
@@ -258,7 +258,7 @@ score:
     regime_id: securities_market_data
     score: 48.3
   schema_version: 0.17.2
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/btc-war-live-market-data-api/refs/heads/main/screenshots/btc-war-live-market-data-api-2026-08-17T123059.png
 security:
@@ -277,21 +277,21 @@ security:
 slug: btc-war-live-market-data-api
 tags:
 - Finance
-- cryptocurrency
+- Cryptocurrency
 - Market Data
-- bitcoin
+- Bitcoin
 - crypto-price
 - binance-spot
-- order-flow
+- Orderflow
 - market-depth
-- json-ld
-- schema.org
+- JSON-LD
+- Schema.org
 - OpenAPI
 - MCP
 - Read Only
-- no-authentication
+- No Authentication
 - agent-native
-- arazzo
-- json-schema
-- agent-skill
+- Arazzo
+- JSON-Schema
+- AgentSkill
 ---

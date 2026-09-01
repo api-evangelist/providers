@@ -23,7 +23,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.8
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
 api_count: 4
 apis:
 - description: Provider-published Model Context Protocol server ("governance-hub") distributed as the npm package @credoai/governance-hub-mcp and run over stdio via npx. Grounds the Credo AI Claude Code Agent Skills
@@ -284,7 +284,7 @@ modified: '2026-08-11'
 name: Credo AI
 nav: Providers
 network: true
-overview: 'Credo AI publishes 39 APIs on the [APIs.io](https://apis.io/) network, including Alerts API, Audit Logs API, Comment Threads API, and 36 more. Tagged areas include Company, ai-governance, ai-risk-management, responsible-ai, and Compliance.
+overview: 'Credo AI publishes 39 APIs on the [APIs.io](https://apis.io/) network, including Alerts API, Audit Logs API, Comment Threads API, and 36 more. Tagged areas include Company, AI Governance, ai-risk-management, Responsible AI, and Compliance.
 
 
   Credo AI''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, signup flow, pricing, and 22 more developer resources.'
@@ -305,7 +305,7 @@ score:
     catalog_gap: 88.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -1.9
+  delta: 0.0
   facets:
     access_clarity: 60.5
     commercial_clarity: 60.5
@@ -315,13 +315,13 @@ score:
     discoverability: 57.4
     governance: 18.2
     operational_transparency: 13.2
-  previous_composite: 51.0
+  previous_composite: 49.1
   provenance:
     conformance: first-party
     mcp: first-party
     skills: first-party
   schema_version: 0.17.2
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/credo-ai/refs/heads/main/screenshots/credo-ai-2026-08-17T080838.png
 security:
@@ -344,20 +344,20 @@ security:
 slug: credo-ai
 tags:
 - Company
-- ai-governance
+- AI Governance
 - ai-risk-management
-- responsible-ai
+- Responsible AI
 - Compliance
-- regulatory-technology
-- model-registry
-- vendor-risk
-- eu-ai-act
-- nist-ai-rmf
-- iso-42001
-- shadow-ai
-- agent-governance
+- Regulatory Technology
+- Model Registry
+- Vendor Risk
+- EU AI Act
+- NIST AI RMF
+- ISO 42001
+- Shadow AI
+- Agent Governance
 - Audit
-- json-api
-- agent-skills
+- JSON:API
+- Agent Skills
 website: https://www.credo.ai/
 ---

@@ -23,7 +23,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 43.4
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
 api_count: 1
 apis:
 - description: Company profiles, funding rounds, SEC filings and fund formations, keyed to real-time business events.
@@ -223,7 +223,7 @@ modified: '2026-08-14'
 name: Fundz
 nav: Providers
 network: true
-overview: 'Fundz publishes 6 APIs on the [APIs.io](https://apis.io/) network, including Acquisitions API, Agreements API, Crowdfundings API, and 3 more. Tagged areas include Business Intelligence, Funding, Private Markets, Mergers And Acquisitions, and SEC Filings.
+overview: 'Fundz publishes 6 APIs on the [APIs.io](https://apis.io/) network, including Acquisitions API, Agreements API, Crowdfundings API, and 3 more. Tagged areas include Business Intelligence, Funding, Private Markets, Mergers and Acquisitions, and SEC Filings.
 
 
   The Fundz catalog on APIs.io includes 1 event-driven AsyncAPI specification.
@@ -250,7 +250,7 @@ score:
     catalog_gap: 54.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.6
+  delta: 0.0
   facets:
     access_clarity: 76.3
     commercial_clarity: 76.3
@@ -266,7 +266,7 @@ score:
     reasons:
     - owner: catalog
       reason: no_resolvable_host
-  previous_composite: 64.1
+  previous_composite: 63.5
   provenance:
     conformance: derived
     contracts:
@@ -283,7 +283,7 @@ score:
     regime_id: securities_market_data
     score: 51.7
   schema_version: 0.17.2
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/fundz/refs/heads/main/screenshots/fundz-2026-08-17T123449.png
 security:
@@ -300,7 +300,7 @@ tags:
 - Business Intelligence
 - Funding
 - Private Markets
-- Mergers And Acquisitions
+- Mergers and Acquisitions
 - SEC Filings
 - Signals
 - Sales Intelligence

@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
 api_count: 10
 apis:
 - description: Unified lease and loan management platform delivering originations, servicing, and remarketing on a single asset-level data model with an API-first integration framework, low-code configuration toolin
@@ -160,7 +160,7 @@ score:
     operational_transparency: 5.3
   previous_composite: 9.5
   schema_version: 0.17.2
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/odessa-technologies/refs/heads/main/screenshots/odessa-technologies-2026-06-20T190623.png
 security:
@@ -178,7 +178,7 @@ tags:
 - Originations
 - Servicing
 - Remarketing
-- Low Code
+- Low-Code
 - Financial-Services
 website: https://www.odessainc.com/
 ---

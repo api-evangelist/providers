@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 29.8
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
 agentic_access:
 - acting_count: 31
   human_in_the_loop: 0
@@ -223,7 +223,7 @@ modified: '2026-06-13'
 name: Celcoin
 nav: Providers
 network: true
-overview: 'Celcoin publishes 12 APIs on the [APIs.io](https://apis.io/) network, including AnnotationCompetenceCalendar API, BankCorrespondentAgent API, Consignee API, and 9 more. Tagged areas include Banking as a Service, BaaS, Pix, Boleto, and TED.
+overview: 'Celcoin publishes 12 APIs on the [APIs.io](https://apis.io/) network, including AnnotationCompetenceCalendar API, BankCorrespondentAgent API, Consignee API, and 9 more. Tagged areas include Banking as a Service, Backend-as-a-Service, Pix, Boleto, and TED.
 
 
   Celcoin''s developer surface includes authentication, documentation, engineering blog, pricing, code examples, and 14 more developer resources.'
@@ -269,7 +269,7 @@ score:
     regime_id: banking_open_finance
     score: 21.5
   schema_version: 0.17.2
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/celcoin/refs/heads/main/screenshots/celcoin-2026-06-20T174114.png
 security:
@@ -284,7 +284,7 @@ security:
 slug: celcoin
 tags:
 - Banking as a Service
-- BaaS
+- Backend-as-a-Service
 - Pix
 - Boleto
 - TED

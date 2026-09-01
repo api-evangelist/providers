@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
 api_count: 0
 artifact_total: 1
 common:
@@ -76,7 +76,7 @@ modified: '2026-07-21'
 name: Pedestal Health (formerly Target RWE)
 nav: Providers
 network: true
-overview: 'Pedestal Health (formerly Target RWE) is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Healthcare, Life Sciences, Real World Evidence, and Health Data.
+overview: 'Pedestal Health (formerly Target RWE) is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Healthcare, Life Sciences, Real-World Evidence, and Health Data.
 
 
   Pedestal Health (formerly Target RWE)''s developer surface includes engineering blog, support, and 6 more developer resources.'
@@ -107,7 +107,7 @@ score:
     regime_id: health
     score: 17.5
   schema_version: 0.17.2
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
   trend: flat
 security:
 - kind: domain-security
@@ -119,7 +119,7 @@ tags:
 - Company
 - Healthcare
 - Life Sciences
-- Real World Evidence
+- Real-World Evidence
 - Health Data
 - Clinical Research
 - Analytics

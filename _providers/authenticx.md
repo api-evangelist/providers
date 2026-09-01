@@ -24,7 +24,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 44.1
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
 agentic_access:
 - acting_count: 18
   human_in_the_loop: 0
@@ -296,7 +296,7 @@ modified: '2026-08-14'
 name: Authenticx
 nav: Providers
 network: true
-overview: 'Authenticx publishes 18 APIs on the [APIs.io](https://apis.io/) network, including Agent API, Conversations API, Evaluations API, and 15 more. Tagged areas include Conversation Intelligence, healthcare, speech-analytics, contact-center, and customer-experience.
+overview: 'Authenticx publishes 18 APIs on the [APIs.io](https://apis.io/) network, including Agent API, Conversations API, Evaluations API, and 15 more. Tagged areas include Conversation Intelligence, Healthcare, Speech Analytics, Contact Center, and Customer Experience.
 
 
   The Authenticx catalog on APIs.io includes 1 event-driven AsyncAPI specification.
@@ -353,7 +353,7 @@ score:
     regime_id: health
     score: 58.8
   schema_version: 0.17.2
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/authenticx/refs/heads/main/screenshots/authenticx-2026-08-07T161942.png
 security:
@@ -372,15 +372,15 @@ security:
 slug: authenticx
 tags:
 - Conversation Intelligence
-- healthcare
-- speech-analytics
-- contact-center
-- customer-experience
-- quality-assurance
-- pharmacovigilance
-- patient-experience
+- Healthcare
+- Speech Analytics
+- Contact Center
+- Customer Experience
+- Quality Assurance
+- Pharmacovigilance
+- Patient Experience
 - Transcription
-- life-sciences
+- Life Sciences
 - SCIM
 - Authentication
 website: https://authenticx.com/

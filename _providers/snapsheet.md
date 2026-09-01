@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
 api_count: 0
 artifact_total: 2
 common:
@@ -76,7 +76,7 @@ modified: '2026-07-21'
 name: Snapsheet
 nav: Providers
 network: true
-overview: 'Snapsheet is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Insurance, Claims, Claims Management, and InsurTech.
+overview: 'Snapsheet is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Insurance, Claims, Claims Management, and Insurtech.
 
 
   Snapsheet''s developer surface includes engineering blog, support, and 6 more developer resources.'
@@ -107,7 +107,7 @@ score:
     regime_id: insurance
     score: 15.2
   schema_version: 0.17.2
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
   trend: flat
 security:
 - kind: domain-security
@@ -124,7 +124,7 @@ tags:
 - Insurance
 - Claims
 - Claims Management
-- InsurTech
+- Insurtech
 - Property and Casualty
 - Payments
 - Workflow-Automation

@@ -23,7 +23,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 35.8
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
 api_count: 2
 apis:
 - description: POST-based REST/JSON API fronting a catalog of web-data engines. Auth via x-api-key header; uniform {ok,data,meta,error} response envelope with stable error codes. Declared OpenAPI contract and RFC 97
@@ -34,6 +34,10 @@ apis:
   slug: reefapi-mcp-server
 artifact_total: 8
 common:
+- group: commercial
+  title: ''
+  type: License
+  url: https://github.com/reefapi/reefapi-mcp/blob/main/LICENSE
 - group: auth
   title: ''
   type: DomainSecurity
@@ -138,10 +142,10 @@ modified: '2026-08-31'
 name: ReefAPI
 nav: Providers
 network: true
-overview: 'ReefAPI publishes 1 API on the [APIs.io](https://apis.io/) network: REST API. Tagged areas include web-data, data-aggregation, web-scraping, serp, and e-commerce.
+overview: 'ReefAPI publishes 1 API on the [APIs.io](https://apis.io/) network: REST API. Tagged areas include Web Data, Data Aggregation, Web Scraping, SERP, and E-Commerce.
 
 
-  ReefAPI''s developer surface includes authentication, sandbox, pricing, signup flow, support, developer console, getting-started guide, and 15 more developer resources.'
+  ReefAPI''s developer surface includes authentication, sandbox, pricing, signup flow, support, developer console, getting-started guide, and 16 more developer resources.'
 plans:
 - name: Reefapi Plans Pricing
   plan_count: 6
@@ -159,6 +163,7 @@ score:
     catalog_gap: 58.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: 0.0
   facets:
     access_clarity: 76.3
     commercial_clarity: 76.3
@@ -168,8 +173,10 @@ score:
     discoverability: 68.5
     governance: 18.2
     operational_transparency: 42.1
+  previous_composite: 55.5
   schema_version: 0.17.2
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
+  trend: flat
 security:
 - kind: authentication
   name: Reefapi Authentication
@@ -181,26 +188,26 @@ security:
   summary_line: TLSv1.3 · HSTS · DMARC
 slug: reefapi
 tags:
-- web-data
-- data-aggregation
-- web-scraping
-- serp
-- e-commerce
-- social-media
-- real-estate
-- jobs
-- travel
-- news
-- finance
-- reviews
-- company-intelligence
-- mcp
+- Web Data
+- Data Aggregation
+- Web Scraping
+- SERP
+- E-Commerce
+- Social-Media
+- Real-Estate
+- Job
+- Travel
+- News
+- Finance
+- Reviews
+- Company Intelligence
+- MCP
 - agent-native
-- rest
-- openapi
+- REST
+- OpenAPI
 - llms-txt
-- api-catalog
-- free-tier
-- credits
-- gateway
+- API Catalog
+- Free Tier
+- Credits
+- Gateway
 ---

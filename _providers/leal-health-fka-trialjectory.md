@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
 api_count: 1
 apis:
 - description: 'Private platform API host backing the Leal Health patient-matching web application and the Patient Match Optimizer dashboard. Verified live on 2026-07-19: the root path returns HTTP 200 with a {"succe'
@@ -138,7 +138,7 @@ score:
     regime_id: health
     score: 23.8
   schema_version: 0.17.2
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/leal-health-fka-trialjectory/refs/heads/main/screenshots/leal-health-fka-trialjectory-2026-07-25T224729.png
 security:

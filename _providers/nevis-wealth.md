@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
 api_count: 0
 artifact_total: 1
 common:
@@ -72,7 +72,7 @@ modified: '2026-07-20'
 name: Nevis Wealth
 nav: Providers
 network: true
-overview: 'Nevis Wealth is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Fintech, Wealth Management, Wealth Tech, and Financial Advisors.
+overview: 'Nevis Wealth is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Fintech, Wealth Management, WealthTech, and Financial Advisors.
 
 
   Nevis Wealth''s developer surface includes support and 6 more developer resources.'
@@ -99,7 +99,7 @@ score:
   provenance:
     conformance: first-party
   schema_version: 0.17.2
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/nevis-wealth/refs/heads/main/screenshots/nevis-wealth-2026-08-07T185050.png
 security:
@@ -112,7 +112,7 @@ tags:
 - Company
 - Fintech
 - Wealth Management
-- Wealth Tech
+- WealthTech
 - Financial Advisors
 - Artificial Intelligence
 website: https://www.neviswealth.com/

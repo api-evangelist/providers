@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
 api_count: 0
 artifact_total: 2
 common:
@@ -96,7 +96,7 @@ modified: '2026-07-20'
 name: Lively
 nav: Providers
 network: true
-overview: 'Lively is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Fintech, Healthtech, Health Savings Account, and HSA.
+overview: 'Lively is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Fintech, Health Tech, Health Savings Account, and HSA.
 
 
   Lively''s developer surface includes pricing, engineering blog, support, and 10 more developer resources.'
@@ -127,7 +127,7 @@ score:
     regime_id: insurance
     score: 37.9
   schema_version: 0.17.2
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/lively/refs/heads/main/screenshots/lively-2026-07-25T225358.png
 security:
@@ -143,7 +143,7 @@ slug: lively
 tags:
 - Company
 - Fintech
-- Healthtech
+- Health Tech
 - Health Savings Account
 - HSA
 - FSA

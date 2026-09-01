@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 18.0
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
 api_count: 7
 apis:
 - description: Create and manage bank accounts and their account holders through the GraphQL Partner API - open accounts, read balances and status, and access the IBAN and BIC distributed to each account. Queries in
@@ -116,7 +116,7 @@ modified: '2026-07-12'
 name: Swan
 nav: Providers
 network: true
-overview: 'Swan publishes 7 APIs on the [APIs.io](https://apis.io/) network, including Accounts API, Account Memberships API, Cards API, and 4 more. Tagged areas include Embedded Banking, Banking as a Service, BaaS, Payments, and Account.
+overview: 'Swan publishes 7 APIs on the [APIs.io](https://apis.io/) network, including Accounts API, Account Memberships API, Cards API, and 4 more. Tagged areas include Embedded Banking, Banking as a Service, Backend-as-a-Service, Payments, and Account.
 
 
   Swan''s developer surface includes authentication, documentation, engineering blog, and 7 more developer resources.'
@@ -155,7 +155,7 @@ score:
     regime_id: payments
     score: 18.8
   schema_version: 0.17.2
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
   trend: flat
 security:
 - kind: authentication
@@ -170,7 +170,7 @@ slug: swan-io
 tags:
 - Embedded Banking
 - Banking as a Service
-- BaaS
+- Backend-as-a-Service
 - Payments
 - Account
 - Cards

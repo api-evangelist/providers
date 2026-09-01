@@ -24,7 +24,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 48.6
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
 api_count: 5
 apis:
 - description: The long-standing public Uphold API at api.uphold.com/v0 — tickers and exchange rates, supported currencies and assets, plus OAuth 2.0 authenticated access to a member's cards, transactions and accoun
@@ -381,7 +381,7 @@ modified: '2026-08-05'
 name: Uphold
 nav: Providers
 network: true
-overview: 'Uphold publishes 23 APIs on the [APIs.io](https://apis.io/) network, including Accounts API, Assets API, Authentication API, and 20 more. Tagged areas include Company, cryptocurrency, digital-assets, Payments, and banking.
+overview: 'Uphold publishes 23 APIs on the [APIs.io](https://apis.io/) network, including Accounts API, Assets API, Authentication API, and 20 more. Tagged areas include Company, Cryptocurrency, Digital Assets, Payments, and Banking.
 
 
   The Uphold catalog on APIs.io includes 1 event-driven AsyncAPI specification.
@@ -432,7 +432,7 @@ score:
     regime_id: securities_market_data
     score: 76.7
   schema_version: 0.17.2
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/uphold/refs/heads/main/screenshots/uphold-2026-08-17T081941.png
 security:
@@ -455,17 +455,17 @@ security:
 slug: uphold
 tags:
 - Company
-- cryptocurrency
-- digital-assets
+- Cryptocurrency
+- Digital Assets
 - Payments
-- banking
+- Banking
 - Fintech
-- kyc
+- KYC
 - Compliance
-- crypto-exchange
+- Crypto Exchange
 - Market Data
-- embedded-finance
-- travel-rule
+- Embedded Finance
+- Travel Rule
 - Webhook
 - agent-native
 website: https://uphold.com/

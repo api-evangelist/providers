@@ -23,7 +23,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 55.4
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
 api_count: 3
 apis:
 - description: 'RESTful API over HTTPS covering all 1Lookup products (phone/email/IP validation, fraud, enrichment, B2B data, SEO intelligence). API-key Bearer auth (sk_live_ keys, organization-scoped), JSON bodies, '
@@ -221,7 +221,7 @@ modified: '2026-08-14'
 name: 1Lookup
 nav: Providers
 network: true
-overview: '1Lookup publishes 3 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include phone validation, email validation, IP intelligence, fraud & risk, and data enrichment.
+overview: '1Lookup publishes 3 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Phone Validation, Email Validation, IP Intelligence, Fraud and Risk, and Data Enrichment.
 
 
   The 1Lookup catalog on APIs.io includes 1 event-driven AsyncAPI specification.
@@ -266,7 +266,7 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.17.2
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/1lookup/refs/heads/main/screenshots/1lookup-2026-08-17T080542.png
 security:
@@ -288,14 +288,14 @@ security:
   summary_line: trust center published
 slug: 1lookup
 tags:
-- phone validation
-- email validation
-- IP intelligence
-- fraud & risk
-- data enrichment
+- Phone Validation
+- Email Validation
+- IP Intelligence
+- Fraud and Risk
+- Data Enrichment
 - B2B contact & company data
 - SEO / web analytics
-- audio transcription
+- Audio Transcription
 - MCP / agent-native
 - REST API
 website: https://www.1lookup.io

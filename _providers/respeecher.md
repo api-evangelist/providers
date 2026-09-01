@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 24.1
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
 agentic_access:
 - acting_count: 31
   human_in_the_loop: 0
@@ -212,7 +212,7 @@ modified: '2026-07-11'
 name: Respeecher
 nav: Providers
 network: true
-overview: 'Respeecher publishes 17 APIs on the [APIs.io](https://apis.io/) network, including Space Real-Time TTS API, accents API, auth API, and 14 more. Tagged areas include Voice AI, Voice Cloning, Speech to Speech, Text to Speech, and Voice Conversion.
+overview: 'Respeecher publishes 17 APIs on the [APIs.io](https://apis.io/) network, including Space Real-Time TTS API, accents API, auth API, and 14 more. Tagged areas include Voice AI, Voice Cloning, Speech to Speech, Text-to-Speech, and Voice Conversion.
 
 
   The Respeecher catalog on APIs.io includes 1 event-driven AsyncAPI specification and 1 Spectral governance ruleset.
@@ -248,7 +248,7 @@ score:
     catalog_gap: 59.3
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.6
+  delta: 0.0
   facets:
     access_clarity: 39.5
     commercial_clarity: 39.5
@@ -258,7 +258,7 @@ score:
     discoverability: 68.5
     governance: 11.4
     operational_transparency: 0.0
-  previous_composite: 34.5
+  previous_composite: 33.9
   provenance:
     agentic_access: derived
     contracts:
@@ -267,7 +267,7 @@ score:
       marker_coverage: 0.0
       total: 16
   schema_version: 0.17.2
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
   trend: flat
 security:
 - kind: domain-security
@@ -279,7 +279,7 @@ tags:
 - Voice AI
 - Voice Cloning
 - Speech to Speech
-- Text to Speech
+- Text-to-Speech
 - Voice Conversion
 - Real-Time
 - Media and Entertainment

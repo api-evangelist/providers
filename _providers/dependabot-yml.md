@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.8
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
 api_count: 1
 apis:
 - description: The dependabot.yml schema, examples, validation rules, and capability catalog for configuring GitHub Dependabot.
@@ -133,7 +133,7 @@ score:
       reason: no_resolvable_host
   previous_composite: 22.4
   schema_version: 0.17.2
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/dependabot-yml/refs/heads/main/screenshots/dependabot-yml-2026-06-20T175926.png
 slug: dependabot-yml

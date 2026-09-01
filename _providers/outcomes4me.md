@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
 api_count: 0
 artifact_total: 1
 common:
@@ -99,7 +99,7 @@ score:
     regime_id: health
     score: 17.5
   schema_version: 0.17.2
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/outcomes4me/refs/heads/main/screenshots/outcomes4me-2026-08-07T191049.png
 security:
@@ -115,7 +115,7 @@ tags:
 - Cancer
 - Oncology
 - Patient Engagement
-- Real-world Data
+- Real-World Data
 - Clinical Trials
 website: https://outcomes4me.com/
 ---

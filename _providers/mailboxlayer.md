@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 33.1
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -374,7 +374,7 @@ score:
     catalog_gap: 23.5
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.6
+  delta: 0.0
   facets:
     access_clarity: 84.2
     commercial_clarity: 84.2
@@ -384,7 +384,7 @@ score:
     discoverability: 83.3
     governance: 47.0
     operational_transparency: 50.0
-  previous_composite: 73.2
+  previous_composite: 72.6
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -396,7 +396,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.17.2
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/mailboxlayer/refs/heads/main/screenshots/mailboxlayer-2026-08-17T124041.png
 security:
@@ -431,7 +431,7 @@ tags:
 - Free Email Provider
 - Role Address
 - Quality Score
-- apilayer
+- APILayer
 - Public APIs
 - Data Quality
 - Anti-Fraud

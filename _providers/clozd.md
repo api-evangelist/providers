@@ -23,7 +23,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 59.5
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
 agentic_access:
 - acting_count: 4
   human_in_the_loop: 0
@@ -251,7 +251,7 @@ modified: '2026-08-14'
 name: Clozd
 nav: Providers
 network: true
-overview: 'Clozd publishes 7 APIs on the [APIs.io](https://apis.io/) network, including /programs API, /programs/:program Id/competitors API, /programs/:program Id/deals API, and 4 more. Tagged areas include win-loss-analysis, customer-feedback, decision-intelligence, sales-intelligence, and market-research.
+overview: 'Clozd publishes 7 APIs on the [APIs.io](https://apis.io/) network, including /programs API, /programs/:program Id/competitors API, /programs/:program Id/deals API, and 4 more. Tagged areas include Win-Loss Analysis, Customer Feedback, Decision Intelligence, Sales Intelligence, and Market Research.
 
 
   Clozd''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, signup flow, authentication, and 31 more developer resources.'
@@ -299,7 +299,7 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.17.2
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/clozd/refs/heads/main/screenshots/clozd-2026-08-07T163518.png
 security:
@@ -321,15 +321,15 @@ security:
   summary_line: ISO 27001, ISO 27701, SOC 2 Type II
 slug: clozd
 tags:
-- win-loss-analysis
-- customer-feedback
-- decision-intelligence
-- sales-intelligence
-- market-research
+- Win-Loss Analysis
+- Customer Feedback
+- Decision Intelligence
+- Sales Intelligence
+- Market Research
 - Competitive Intelligence
-- voice-of-customer
-- revenue-intelligence
-- saas
+- Voice of Customer
+- Revenue Intelligence
+- Software-as-a-Service
 - MCP
 - agent-native
 website: https://www.clozd.com/

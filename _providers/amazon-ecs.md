@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 24.8
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
 agentic_access:
 - acting_count: 28
   human_in_the_loop: 1
@@ -743,7 +743,7 @@ modified: '2026-05-19'
 name: Amazon ECS
 nav: Providers
 network: true
-overview: 'Amazon ECS publishes 10 APIs on the [APIs.io](https://apis.io/) network, including Capacity Providers API, Clusters API, Container Instances API, and 7 more. Tagged areas include Amazon, Aws, Containers, Docker, and Ecs.
+overview: 'Amazon ECS publishes 10 APIs on the [APIs.io](https://apis.io/) network, including Capacity Providers API, Clusters API, Container Instances API, and 7 more. Tagged areas include Amazon, Containers, Docker, ECS, and Orchestration.
 
 
   The Amazon ECS catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
@@ -789,7 +789,7 @@ score:
     catalog_gap: 62.5
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: 0.6
+  delta: 0.0
   facets:
     access_clarity: 42.1
     commercial_clarity: 42.1
@@ -802,7 +802,7 @@ score:
   open_source:
     applies: true
     score: 65.0
-  previous_composite: 54.3
+  previous_composite: 54.9
   provenance:
     agentic_access: derived
     contracts:
@@ -811,7 +811,7 @@ score:
       marker_coverage: 0.0
       total: 10
   schema_version: 0.17.2
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/amazon-ecs/refs/heads/main/screenshots/amazon-ecs-2026-06-20T171639.png
 security:
@@ -834,10 +834,9 @@ security:
 slug: amazon-ecs
 tags:
 - Amazon
-- Aws
 - Containers
 - Docker
-- Ecs
+- ECS
 - Orchestration
 use_cases:
 - description: Deploy and manage microservices with independent scaling, deployment, and lifecycle management per service.

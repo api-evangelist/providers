@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
 api_count: 0
 artifact_total: 4
 common:
@@ -81,7 +81,7 @@ modified: '2026-05-02'
 name: RPC
 nav: Providers
 network: true
-overview: 'RPC is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Oilfield Services, Energy, Oil And Gas, Well Services, and Pressure Pumping.
+overview: 'RPC is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Oilfield Services, Energy, Oil and Gas, Well Services, and Pressure Pumping.
 
 
   The RPC catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
@@ -142,7 +142,7 @@ score:
     regime_id: energy_utilities
     score: 14.9
   schema_version: 0.17.2
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/rpc/refs/heads/main/screenshots/rpc-2026-06-20T193232.png
 security:
@@ -154,7 +154,7 @@ slug: rpc
 tags:
 - Oilfield Services
 - Energy
-- Oil And Gas
+- Oil and Gas
 - Well Services
 - Pressure Pumping
 - Fortune 1000

@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 38.3
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
 agentic_access:
 - acting_count: 53
   human_in_the_loop: 8
@@ -381,23 +381,23 @@ scopes:
   summary_line: 51 scopes · authorizationCode/password
 score:
   band: developing
-  composite: 47.9
+  composite: 46.1
   coverage:
     artifact_dirs: 21
-    catalog_gap: 73.0
+    catalog_gap: 83.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: 1.3
+  delta: 0.0
   facets:
     access_clarity: 27.6
     commercial_clarity: 27.6
     contract_governance: 4.5
     contract_quality: 63.4
     developer_ergonomics: 58.9
-    discoverability: 70.4
+    discoverability: 51.9
     governance: 4.5
     operational_transparency: 55.3
-  previous_composite: 46.6
+  previous_composite: 46.1
   provenance:
     agentic_access: derived
     conformance: derived
@@ -409,7 +409,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.17.2
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/angelcam/refs/heads/main/screenshots/angelcam-2026-07-25T200231.png
 security:

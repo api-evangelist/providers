@@ -23,7 +23,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
 api_count: 5
 apis:
 - description: Create and manage shipments and receive status-based data updates, including risk summaries, driver details and next-delivery insights. Marketed as part of Overhaul's tiered API subscription. No publi
@@ -116,7 +116,7 @@ modified: '2026-08-02'
 name: Overhaul
 nav: Providers
 network: true
-overview: 'Overhaul publishes 5 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Supply Chain, supply-chain-visibility, Logistics, Transportation, and cargo-security.
+overview: 'Overhaul publishes 5 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Supply Chain, Supply Chain Visibility, Logistics, Transportation, and cargo-security.
 
 
   Overhaul''s developer surface includes engineering blog, support, changelog, and 13 more developer resources.'
@@ -143,7 +143,7 @@ score:
   provenance:
     conformance: first-party
   schema_version: 0.17.2
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/overhaul/refs/heads/main/screenshots/overhaul-2026-08-07T191132.png
 security:
@@ -158,16 +158,16 @@ security:
 slug: overhaul
 tags:
 - Supply Chain
-- supply-chain-visibility
+- Supply Chain Visibility
 - Logistics
 - Transportation
 - cargo-security
-- risk-management
-- fraud-prevention
-- cold-chain
-- iot
+- Risk Management
+- Fraud Prevention
+- Cold Chain
+- IoT
 - Track and Trace
-- freight
+- Freight
 - Compliance
 website: https://www.over-haul.com/
 ---

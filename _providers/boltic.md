@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 21.5
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
 agentic_access:
 - acting_count: 36
   human_in_the_loop: 0
@@ -353,7 +353,7 @@ modified: '2026-05-19'
 name: Boltic
 nav: Providers
 network: true
-overview: 'Boltic publishes 11 APIs on the [APIs.io](https://apis.io/) network, including Certificates API, Consumers API, Destinations API, and 8 more. Tagged areas include Automation, DataSync, Gateways, NoCode, and Streaming.
+overview: 'Boltic publishes 11 APIs on the [APIs.io](https://apis.io/) network, including Certificates API, Consumers API, Destinations API, and 8 more. Tagged areas include Automation, Data Sync, Gateways, No-Code, and Streaming.
 
 
   The Boltic catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
@@ -407,7 +407,7 @@ score:
       marker_coverage: 0.0
       total: 17
   schema_version: 0.17.2
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/boltic/refs/heads/main/screenshots/boltic-2026-06-20T173556.png
 security:
@@ -422,9 +422,9 @@ security:
 slug: boltic
 tags:
 - Automation
-- DataSync
+- Data Sync
 - Gateways
-- NoCode
+- No-Code
 - Streaming
 - Workflows
 website: https://www.boltic.io/

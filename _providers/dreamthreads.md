@@ -23,7 +23,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 34.6
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -213,7 +213,7 @@ modified: '2026-08-14'
 name: DreamThreads
 nav: Providers
 network: true
-overview: 'DreamThreads publishes 2 APIs on the [APIs.io](https://apis.io/) network: Dream interpretation API and Dream parsing API. Tagged areas include dream analysis, Dream interpretation, natural language processing, structured parsing, and AI Agents.
+overview: 'DreamThreads publishes 2 APIs on the [APIs.io](https://apis.io/) network: Dream interpretation API and Dream parsing API. Tagged areas include dream analysis, Dream interpretation, Natural Language Processing, structured parsing, and AI Agents.
 
 
   DreamThreads'' developer surface includes documentation, API reference, getting-started guide, support, GitHub presence, pricing, signup flow, and 29 more developer resources.'
@@ -256,7 +256,7 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.17.2
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/dreamthreads/refs/heads/main/screenshots/dreamthreads-2026-08-17T080903.png
 security:
@@ -276,10 +276,10 @@ slug: dreamthreads
 tags:
 - dream analysis
 - Dream interpretation
-- natural language processing
+- Natural Language Processing
 - structured parsing
 - AI Agents
-- MCP server
+- MCP Server
 - OpenAPI
 - wellness / sleep
 - research tooling

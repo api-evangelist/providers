@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 23.6
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
 agentic_access:
 - acting_count: 12
   human_in_the_loop: 0
@@ -107,6 +107,10 @@ collections:
   name: Plausible Events CustomProps Teams API
   slug: open-plausible-teams-api
 common:
+- group: commercial
+  title: ''
+  type: License
+  url: https://github.com/plausible/analytics/blob/master/LICENSE
 - group: build
   title: ''
   type: Packages
@@ -330,7 +334,7 @@ network: true
 overview: 'Plausible publishes 8 APIs on the [APIs.io](https://apis.io/) network, including CustomProps API, Events API, Goals API, and 5 more. Tagged areas include Analytics, Cookie-Free, Event Tracking, GDPR, and Goal Conversions.
 
 
-  Plausible''s developer surface includes changelog, sandbox, API reference, authentication, documentation, getting-started guide, engineering blog, and 44 more developer resources.'
+  Plausible''s developer surface includes changelog, sandbox, API reference, authentication, documentation, getting-started guide, engineering blog, and 45 more developer resources.'
 plans:
 - name: Plausible Plans Pricing
   plan_count: 4
@@ -370,7 +374,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.17.2
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/plausible/refs/heads/main/screenshots/plausible-2026-06-20T191759.png
 security:

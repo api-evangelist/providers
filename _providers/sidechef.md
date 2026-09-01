@@ -23,7 +23,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 11.4
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
 api_count: 2
 apis:
 - description: The live REST surface behind SideChef's embeddable partner widgets. Observed endpoints include /v3/widget/recipes/ (shoppable recipe lookup and cart hand-off) and /v3/widget/events/ (widget telemetry)
@@ -159,7 +159,7 @@ score:
     operational_transparency: 23.7
   previous_composite: 26.1
   schema_version: 0.17.2
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
   trend: flat
 security:
 - kind: authentication

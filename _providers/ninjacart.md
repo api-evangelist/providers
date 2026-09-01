@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
 api_count: 0
 artifact_total: 1
 common:
@@ -60,7 +60,7 @@ modified: '2026-07-20'
 name: Ninjacart
 nav: Providers
 network: true
-overview: 'Ninjacart is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, B2B, Agritech, Supply Chain, and Fresh Produce.
+overview: 'Ninjacart is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, B2B, AgriTech, Supply Chain, and Fresh Produce.
 
 
   Ninjacart''s developer surface includes engineering blog and 3 more developer resources.'
@@ -85,7 +85,7 @@ score:
     operational_transparency: 0.0
   previous_composite: 5.5
   schema_version: 0.17.2
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/ninjacart/refs/heads/main/screenshots/ninjacart-2026-08-07T185331.png
 security:
@@ -97,7 +97,7 @@ slug: ninjacart
 tags:
 - Company
 - B2B
-- Agritech
+- AgriTech
 - Supply Chain
 - Fresh Produce
 - Agriculture

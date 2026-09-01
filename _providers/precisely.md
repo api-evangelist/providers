@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 5.0
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
 api_count: 1
 apis:
 - description: A range of APIs for address verification, geocoding, demographics, property data, and location intelligence.
@@ -149,7 +149,7 @@ score:
     score: 35.0
   previous_composite: 22.9
   schema_version: 0.17.2
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/precisely/refs/heads/main/screenshots/precisely-2026-06-20T192040.png
 security:

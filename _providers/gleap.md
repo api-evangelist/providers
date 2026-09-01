@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 22.3
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
 agentic_access:
 - acting_count: 129
   human_in_the_loop: 0
@@ -420,7 +420,7 @@ modified: '2026-06-13'
 name: Gleap
 nav: Providers
 network: true
-overview: 'Gleap publishes 33 APIs on the [APIs.io](https://apis.io/) network, including AI content API, AiModels API, Code API, and 30 more. Tagged areas include Customer Feedback, Bug Reporting, In-App Support, Feature Requests, and Roadmap.
+overview: 'Gleap publishes 33 APIs on the [APIs.io](https://apis.io/) network, including AI content API, AiModels API, Code API, and 30 more. Tagged areas include Customer Feedback, Bug Reporting, In-App Support, Feature Requests, and Roadmaps.
 
 
   The Gleap catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
@@ -455,7 +455,7 @@ score:
     catalog_gap: 43.8
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.5
+  delta: 0.0
   facets:
     access_clarity: 50.0
     commercial_clarity: 50.0
@@ -465,7 +465,7 @@ score:
     discoverability: 68.5
     governance: 9.8
     operational_transparency: 26.3
-  previous_composite: 43.1
+  previous_composite: 42.6
   provenance:
     agentic_access: derived
     contracts:
@@ -474,7 +474,7 @@ score:
       marker_coverage: 0.0
       total: 33
   schema_version: 0.17.2
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/gleap/refs/heads/main/screenshots/gleap-2026-06-20T181906.png
 security:
@@ -492,7 +492,7 @@ tags:
 - Bug Reporting
 - In-App Support
 - Feature Requests
-- Roadmap
+- Roadmaps
 - Live Chat
 - AI Agents
 - Session Replay

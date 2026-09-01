@@ -23,7 +23,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 8.5
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
 api_count: 1
 apis:
 - description: The Wix-platform Site MCP server Photys serves from its own production host. Nine tools over public site content — business details, in-site search, site API docs discovery, an anonymous visitor-token
@@ -126,7 +126,7 @@ score:
     regime_id: health
     score: 21.3
   schema_version: 0.17.2
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
   trend: flat
 security:
 - kind: authentication

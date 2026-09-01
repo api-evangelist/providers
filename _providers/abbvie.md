@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 5.4
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
 api_count: 0
 artifact_total: 16
 common:
@@ -128,7 +128,7 @@ modified: '2026-08-29'
 name: AbbVie
 nav: Providers
 network: true
-overview: 'AbbVie is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Pharmaceuticals, Biopharmaceuticals, Healthcare, Life Sciences, and Drug Discovery.
+overview: 'AbbVie is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Pharmaceuticals, biopharmaceuticals, Healthcare, Life Sciences, and Drug Discovery.
 
 
   AbbVie''s developer surface includes engineering blog and 12 more developer resources.'
@@ -183,7 +183,7 @@ score:
     regime_id: health
     score: 25.0
   schema_version: 0.17.2
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/abbvie/refs/heads/main/screenshots/abbvie-2026-06-20T163132.png
 security:
@@ -198,7 +198,7 @@ security:
 slug: abbvie
 tags:
 - Pharmaceuticals
-- Biopharmaceuticals
+- biopharmaceuticals
 - Healthcare
 - Life Sciences
 - Drug Discovery

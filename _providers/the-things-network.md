@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 39.9
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
 agentic_access:
 - acting_count: 174
   human_in_the_loop: 3
@@ -1075,7 +1075,7 @@ modified: '2026-08-27'
 name: The Things Network / The Things Stack
 nav: Providers
 network: true
-overview: 'The Things Network / The Things Stack publishes 58 APIs on the [APIs.io](https://apis.io/) network, including AppAs API, ApplicationAccess API, ApplicationActivationSettingRegistry API, and 55 more. Tagged areas include LoRaWAN, IoT, Internet Of Things, Open-Source, and Network Server.
+overview: 'The Things Network / The Things Stack publishes 58 APIs on the [APIs.io](https://apis.io/) network, including AppAs API, ApplicationAccess API, ApplicationActivationSettingRegistry API, and 55 more. Tagged areas include LoRaWAN, IoT, Internet of Things, Open-Source, and Network Server.
 
 
   The The Things Network / The Things Stack catalog on APIs.io includes 1 event-driven AsyncAPI specification, 1 JSON-LD context, and 2 Spectral governance rulesets.
@@ -1145,7 +1145,7 @@ score:
       marker_coverage: 0.0
       total: 58
   schema_version: 0.17.2
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/the-things-network/refs/heads/main/screenshots/the-things-network-2026-06-20T195339.png
 security:
@@ -1165,7 +1165,7 @@ slug: the-things-network
 tags:
 - LoRaWAN
 - IoT
-- Internet Of Things
+- Internet of Things
 - Open-Source
 - Network Server
 - LPWAN

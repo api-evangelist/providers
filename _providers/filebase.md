@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
 agentic_access:
 - acting_count: 23
   human_in_the_loop: 0
@@ -224,7 +224,7 @@ modified: '2026-06-13'
 name: Filebase
 nav: Providers
 network: true
-overview: 'Filebase publishes 11 APIs on the [APIs.io](https://apis.io/) network, including Buckets API, Data Management API, IPNS API, and 8 more. Tagged areas include Object Storage, IPFS, S3-Compatible, Decentralized Storage, and Pinning.
+overview: 'Filebase publishes 11 APIs on the [APIs.io](https://apis.io/) network, including Buckets API, Data Management API, IPNS API, and 8 more. Tagged areas include Object Storage, IPFS, S3 Compatible, Decentralized Storage, and Pinning.
 
 
   The Filebase catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
@@ -278,7 +278,7 @@ score:
       marker_coverage: 0.0
       total: 11
   schema_version: 0.17.2
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/filebase/refs/heads/main/screenshots/filebase-2026-06-20T181207.png
 security:
@@ -294,7 +294,7 @@ slug: filebase
 tags:
 - Object Storage
 - IPFS
-- S3-Compatible
+- S3 Compatible
 - Decentralized Storage
 - Pinning
 - Web3

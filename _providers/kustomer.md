@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 20.9
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -133,7 +133,7 @@ modified: '2026-05-30'
 name: Kustomer
 nav: Providers
 network: true
-overview: 'Kustomer publishes 2 APIs on the [APIs.io](https://apis.io/) network: Conversations API and Customers API. Tagged areas include Customer Service, CRM, Helpdesk, Messaging, and Artificial Intelligence.
+overview: 'Kustomer publishes 2 APIs on the [APIs.io](https://apis.io/) network: Conversations API and Customers API. Tagged areas include Customer Service, CRM, Help Desk, Messaging, and Artificial Intelligence.
 
 
   The Kustomer catalog on APIs.io includes 1 event-driven AsyncAPI specification and 1 Spectral governance ruleset.
@@ -188,7 +188,7 @@ score:
       marker_coverage: 0.0
       total: 2
   schema_version: 0.17.2
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/kustomer/refs/heads/main/screenshots/kustomer-2026-06-20T184221.png
 security:
@@ -204,7 +204,7 @@ slug: kustomer
 tags:
 - Customer Service
 - CRM
-- Helpdesk
+- Help Desk
 - Messaging
 - Artificial Intelligence
 website: https://www.kustomer.com/

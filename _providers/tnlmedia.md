@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 4.7
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
 api_count: 1
 apis:
 - description: The header-bidding demand endpoint operated by Ad2iction, TNL Mediagene's ad-technology subsidiary (acquired by TNL Media Group in 2020). Publishers reach it through the `ad2iction` bidder adapter shi
@@ -40,6 +40,10 @@ apis:
   slug: ad2iction-prebid-bid-endpoint
 artifact_total: 4
 common:
+- group: commercial
+  title: ''
+  type: License
+  url: https://github.com/prebid/Prebid.js/blob/master/LICENSE
 - group: auth
   title: ''
   type: DomainSecurity
@@ -112,7 +116,7 @@ network: true
 overview: 'TNL Mediagene publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Media, Publishing, Advertising, and AdTech.
 
 
-  TNL Mediagene''s developer surface includes API reference, engineering blog, and 13 more developer resources.'
+  TNL Mediagene''s developer surface includes API reference, engineering blog, and 14 more developer resources.'
 plans:
 - name: Tnlmedia Plans Pricing
   plan_count: 0
@@ -144,7 +148,7 @@ score:
   provenance:
     conformance: derived
   schema_version: 0.17.2
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
   trend: flat
 security:
 - kind: domain-security

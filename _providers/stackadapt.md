@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 26.3
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
 api_count: 5
 apis:
 - description: Read-only REST API for fetching reporting data across dimensions and metrics to analyze campaign performance. Write operations are deprecated; use the GraphQL API for write operations.
@@ -237,7 +237,7 @@ modified: '2026-08-13'
 name: StackAdapt
 nav: Providers
 network: true
-overview: 'StackAdapt publishes 5 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Programmatic Advertising, Digital Advertising, Campaign Management, Ad Tech, and DSP.
+overview: 'StackAdapt publishes 5 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Programmatic Advertising, Digital Advertising, Campaign Management, AdTech, and DSP.
 
 
   The StackAdapt catalog on APIs.io includes 1 event-driven AsyncAPI specification.
@@ -282,7 +282,7 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.17.2
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/stackadapt/refs/heads/main/screenshots/stackadapt-2026-06-20T194444.png
 security:
@@ -307,7 +307,7 @@ tags:
 - Programmatic Advertising
 - Digital Advertising
 - Campaign Management
-- Ad Tech
+- AdTech
 - DSP
 - Demand-Side Platform
 - Native Advertising

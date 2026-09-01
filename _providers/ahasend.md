@@ -11,10 +11,10 @@ access_model:
   trial: false
   try_now: true
 agent_readiness:
-  band: agent-ready
+  band: agent-native
   dimensions:
     agent_card: false
-    agent_skills: false
+    agent_skills: true
     agentic_access: derived
     agentic_commerce: false
     auth_clarity: bearer
@@ -23,18 +23,18 @@ agent_readiness:
     dry_run_mode: false
     dynamic_client_registration: false
     error_semantics: verified
-    event_surface_described: false
-    idempotency: false
+    event_surface_described: true
+    idempotency: documented
     mcp_server: documented
     openapi_examples: verified
     protected_resource_metadata: false
-    rate_limit_signal: documented
+    rate_limit_signal: verified
     reversibility_documented: documented
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 35.8
-  scored_at: '2026-08-30'
+  score: 49.4
+  scored_at: '2026-09-01'
 agentic_access:
 - acting_count: 25
   human_in_the_loop: 0
@@ -42,7 +42,7 @@ agentic_access:
   operation_count: 44
   slug: ahasend-agentic-access
   summary_line: 44 operations · 25 acting
-api_count: 11
+api_count: 2
 apis:
 - description: Manage account settings and members
   name: AhaSend Accounts API
@@ -77,7 +77,17 @@ apis:
 - description: Manage webhook notifications
   name: AhaSend Webhooks API
   slug: ahasend-webhooks-api
-artifact_total: 256
+- description: Provision and manage isolated sub accounts under a parent account, their API keys, and their usage.
+  name: AhaSend Sub Accounts API
+  slug: ahasend-sub-accounts-api
+artifact_total: 254
+asyncapis:
+- description: 'AhaSend webhook events documentation. This specification describes all webhook events that AhaSend sends to your configured webhook URLs. ## Overview Webhooks are HTTP callbacks that AhaSend sends to '
+  name: AhaSend Webhooks
+  slug: ahasend-webhooks-openapi
+- description: ''
+  name: Ahasend Webhooks
+  slug: ahasend-webhooks
 collections:
 - collection_type: postman
   name: AhaSend API v2 Accounts API
@@ -152,6 +162,14 @@ collections:
   name: AhaSend Email API
   slug: open-ahasend
 common:
+- group: company
+  title: ''
+  type: Website
+  url: https://ahasend.com/
+- group: auth
+  title: ''
+  type: TrustCenter
+  url: security/ahasend-trust-center.yml
 - group: build
   title: ''
   type: PostmanWorkspace
@@ -232,6 +250,106 @@ common:
   title: ''
   type: Vocabulary
   url: vocabulary/ahasend-vocabulary.yaml
+- group: agent
+  title: ''
+  type: LLMsTxt
+  url: llms/ahasend-llms.txt
+- group: build
+  title: ''
+  type: Packages
+  url: packages/ahasend-packages.yml
+- group: build
+  title: ''
+  type: SDKs
+  url: packages/ahasend-packages.yml
+- group: design
+  title: ''
+  type: Conventions
+  url: conventions/ahasend-conventions.yml
+- group: design
+  title: ''
+  type: Idempotency
+  url: conventions/ahasend-conventions.yml
+- group: design
+  title: ''
+  type: ErrorCatalog
+  url: errors/ahasend-problem-types.yml
+- group: design
+  title: ''
+  type: Lifecycle
+  url: lifecycle/ahasend-lifecycle.yml
+- group: operate
+  title: ''
+  type: StatusPage
+  url: https://status.ahasend.com
+- group: operate
+  title: ''
+  type: ChangeLog
+  url: https://ahasend.com/docs/changelog
+- group: operate
+  title: ''
+  type: ChangeLog
+  url: changelog/ahasend-changelog.yml
+- group: operate
+  title: ''
+  type: Roadmap
+  url: https://ahasend.com/docs/roadmap
+- group: auth
+  title: ''
+  type: OAuthScopes
+  url: scopes/ahasend-scopes.yml
+- group: design
+  title: ''
+  type: Conformance
+  url: conformance/ahasend-conformance.yml
+- group: auth
+  title: ''
+  type: Compliance
+  url: conformance/ahasend-conformance.yml
+- group: auth
+  title: ''
+  type: Security
+  url: security/ahasend-vulnerability-disclosure.yml
+- group: start
+  title: ''
+  type: Sandbox
+  url: sandbox/ahasend-sandbox.yml
+- group: design
+  title: ''
+  type: Webhooks
+  url: asyncapi/ahasend-webhooks.yml
+- group: design
+  title: ''
+  type: DataModel
+  url: data-model/ahasend-data-model.yml
+- group: operate
+  title: ''
+  type: RateLimits
+  url: rate-limits/ahasend-rate-limits.yml
+- group: commercial
+  title: ''
+  type: Plans
+  url: plans/ahasend-plans-pricing.yml
+- group: agent
+  title: ''
+  type: AgentSkill
+  url: skills/_index.yml
+- group: build
+  title: ''
+  type: CLI
+  url: cli/ahasend-cli.yml
+- group: start
+  title: ''
+  type: DeveloperPortal
+  url: https://ahasend.com/docs
+- group: operate
+  title: ''
+  type: Community
+  url: https://discord.com/invite/WN4puKFqAA
+- group: commercial
+  title: ''
+  type: DataProcessingAgreement
+  url: https://ahasend.com/dpa
 created: '2025-02-06'
 description: AhaSend is a developer-focused transactional email platform providing fast, reliable email delivery via REST API and SMTP relay. It offers features including email tracking, webhooks, email routing, suppression management, domain management, SMTP credentials, and detailed delivery statistics.
 examples:
@@ -447,21 +565,6 @@ finops:
   service_category: API
   slug: ahasend-finops
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/ahasend.png
-integrations:
-- description: Native Node.js integration with code examples and SDK support.
-  name: Node.js
-- description: Python integration examples for sending emails via API or SMTP.
-  name: Python
-- description: PHP integration including Symfony Mailer transport support.
-  name: PHP / Symfony
-- description: Ruby integration with Rails ActionMailer transport.
-  name: Ruby on Rails
-- description: Official Go SDK for the AhaSend API.
-  name: Go
-- description: WordPress plugin for routing site emails through AhaSend.
-  name: WordPress
-- description: Java client generated from OpenAPI spec.
-  name: Java
 json_schemas:
 - name: AccessDeniedResponse
   property_count: 1
@@ -852,24 +955,24 @@ jsonld:
   property_count: 129
   slug: ahasend-openapi-v2-context
 layout: provider
-modified: '2026-04-19'
+modified: '2026-08-30'
 name: AhaSend
 nav: Providers
 network: true
-overview: 'AhaSend publishes 11 APIs on the [APIs.io](https://apis.io/) network, including Accounts API, API Keys API, Domains API, and 8 more. Tagged areas include Email, Transactional Email, Developer Tools, SMTP, and Webhook.
+overview: 'AhaSend publishes 12 APIs on the [APIs.io](https://apis.io/) network, including Accounts API, API Keys API, Domains API, and 9 more. Tagged areas include Email, Transactional Email, Developer Tools, SMTP, and Webhook.
 
 
-  The AhaSend catalog on APIs.io includes 2 JSON-LD contexts and 2 Spectral governance rulesets.
+  The AhaSend catalog on APIs.io includes 2 event-driven AsyncAPI specifications, 2 JSON-LD contexts, and 2 Spectral governance rulesets.
 
 
-  AhaSend''s developer surface includes authentication, pricing, engineering blog, support, signup flow, CLI, and 14 more developer resources.'
+  AhaSend''s developer surface includes authentication, pricing, engineering blog, support, signup flow, CLI, changelog, and 40 more developer resources.'
 plans:
 - name: Ahasend Plans Pricing
   plan_count: 3
   slug: ahasend-plans-pricing
 random_paper: 10
 rate_limits:
-- limit_count: 5
+- limit_count: 8
   name: Ahasend Rate Limits
   slug: ahasend-rate-limits
 rules:
@@ -894,25 +997,28 @@ rules:
     info: 3
     warn: 24
   slug: ahasend-spectral-rules
+scopes:
+- name: Ahasend Scopes
+  scope_count: 0
+  slug: ahasend-scopes
+  summary_line: OAuth 2.0 · no documented scopes
 score:
-  band: strong
-  composite: 57.1
+  band: exemplar
+  composite: 76.5
   coverage:
     artifact_dirs: 33
-    catalog_gap: 50.5
+    catalog_gap: 48.5
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: 2.2
   facets:
-    access_clarity: 60.5
-    commercial_clarity: 60.5
+    access_clarity: 76.3
+    commercial_clarity: 76.3
     contract_governance: 47.0
-    contract_quality: 71.2
-    developer_ergonomics: 66.7
-    discoverability: 64.8
+    contract_quality: 79.3
+    developer_ergonomics: 100.0
+    discoverability: 68.5
     governance: 47.0
-    operational_transparency: 13.2
-  previous_composite: 54.9
+    operational_transparency: 68.4
   provenance:
     agentic_access: derived
     contracts:
@@ -921,14 +1027,13 @@ score:
       marker_coverage: 0.0
       total: 11
   schema_version: 0.17.2
-  scored_at: '2026-08-30'
-  trend: flat
+  scored_at: '2026-09-01'
 screenshot: https://raw.githubusercontent.com/api-evangelist/ahasend/refs/heads/main/screenshots/ahasend-2026-06-20T170542.png
 security:
 - kind: authentication
   name: Ahasend Authentication
   slug: ahasend-authentication
-  summary_line: apiKey/http · 2 schemes
+  summary_line: http · 1 scheme
 - kind: domain-security
   name: Ahasend Domain Security
   slug: ahasend-domain-security
@@ -936,7 +1041,11 @@ security:
 - kind: vulnerability-disclosure
   name: Ahasend Vulnerability Disclosure
   slug: ahasend-vulnerability-disclosure
-  summary_line: disclosure policy published
+  summary_line: Hackerone
+- kind: trust-center
+  name: Ahasend Trust Center
+  slug: ahasend-trust-center
+  summary_line: GDPR, Certified Senders Alliance (CSA), ISO/IEC 27001, SOC 2
 slug: ahasend
 tags:
 - Email
@@ -955,4 +1064,5 @@ use_cases:
   name: System Alerts
 - description: Route and process incoming emails in applications using email routing.
   name: Inbound Email Processing
+website: https://ahasend.com/
 ---

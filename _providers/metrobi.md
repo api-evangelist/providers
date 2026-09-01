@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.4
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -183,7 +183,7 @@ modified: '2026-07-20'
 name: Metrobi
 nav: Providers
 network: true
-overview: 'Metrobi publishes 1 API on the [APIs.io](https://apis.io/) network: Deliveries API. Tagged areas include Company, Delivery, Logistics, Courier, and Last Mile Delivery.
+overview: 'Metrobi publishes 1 API on the [APIs.io](https://apis.io/) network: Deliveries API. Tagged areas include Company, Delivery, Logistics, Couriers, and Last Mile Delivery.
 
 
   The Metrobi catalog on APIs.io includes 1 event-driven AsyncAPI specification.
@@ -221,7 +221,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.17.2
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/metrobi/refs/heads/main/screenshots/metrobi-2026-08-07T172751.png
 security:
@@ -238,7 +238,7 @@ tags:
 - Company
 - Delivery
 - Logistics
-- Courier
+- Couriers
 - Last Mile Delivery
 - Route Optimization
 - Fulfillment

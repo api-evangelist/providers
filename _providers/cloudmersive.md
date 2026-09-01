@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
 agentic_access:
 - acting_count: 12
   human_in_the_loop: 0
@@ -134,7 +134,7 @@ modified: '2026-05-19'
 name: Cloudmersive
 nav: Providers
 network: true
-overview: 'Cloudmersive publishes 2 APIs on the [APIs.io](https://apis.io/) network: Scan API and ScanCloudStorage API. Tagged areas include Barcodes, Conversions, Documents, Image Recognition, and Natural Language.
+overview: 'Cloudmersive publishes 2 APIs on the [APIs.io](https://apis.io/) network: Scan API and ScanCloudStorage API. Tagged areas include Barcodes, Conversions, Documents, Image Recognition, and Natural-Language.
 
 
   The Cloudmersive catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
@@ -189,7 +189,7 @@ score:
       marker_coverage: 0.0
       total: 2
   schema_version: 0.17.2
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/cloudmersive/refs/heads/main/screenshots/cloudmersive-2026-06-20T174612.png
 security:
@@ -207,7 +207,7 @@ tags:
 - Conversions
 - Documents
 - Image Recognition
-- Natural Language
+- Natural-Language
 - OCR
 - Processing
 - Validation

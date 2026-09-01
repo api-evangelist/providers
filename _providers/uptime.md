@@ -23,7 +23,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
 api_count: 0
 artifact_total: 0
 coverage:
@@ -48,7 +48,7 @@ modified: '2026-08-17'
 name: Uptime
 nav: Providers
 network: true
-overview: Uptime is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Ai Data, Predictive Maintenance, Elevators, and Internet Of Things.
+overview: Uptime is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Ai Data, Predictive Maintenance, Elevators, and Internet of Things.
 random_paper: 9
 score:
   band: minimal
@@ -78,7 +78,7 @@ score:
       reason: never_enriched
   previous_composite: 4.6
   schema_version: 0.17.2
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
   trend: flat
 slug: uptime
 tags:
@@ -86,7 +86,7 @@ tags:
 - Ai Data
 - Predictive Maintenance
 - Elevators
-- Internet Of Things
+- Internet of Things
 - PropTech
 - Building Management
 - France

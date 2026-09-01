@@ -23,7 +23,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 23.6
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
 api_count: 2
 apis:
 - description: Server-to-server REST API for Sunbit partners and SaaS platforms. Covers pre-qualification links, "As Low As" payment estimation, Text to Pay-Over-Time SMS links, checkout transaction initialization a
@@ -166,7 +166,7 @@ modified: '2026-07-31'
 name: Sunbit
 nav: Providers
 network: true
-overview: 'Sunbit publishes 2 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include buy-now-pay-later, Point of Sale Financing, consumer-lending, Payments, and Fintech.
+overview: 'Sunbit publishes 2 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Buy Now Pay Later, Point of Sale Financing, Consumer Lending, Payments, and Fintech.
 
 
   The Sunbit catalog on APIs.io includes 1 event-driven AsyncAPI specification.
@@ -207,7 +207,7 @@ score:
     regime_id: payments
     score: 48.4
   schema_version: 0.17.2
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/sunbit/refs/heads/main/screenshots/sunbit-2026-08-17T082155.png
 security:
@@ -225,19 +225,19 @@ security:
   summary_line: Hackerone · security.txt · contact published
 slug: sunbit
 tags:
-- buy-now-pay-later
+- Buy Now Pay Later
 - Point of Sale Financing
-- consumer-lending
+- Consumer Lending
 - Payments
 - Fintech
-- checkout
-- merchant-onboarding
+- Checkout
+- Merchant Onboarding
 - Webhook
-- automotive
-- dental
-- veterinary
-- eyewear
+- Automotive
+- Dental
+- Veterinary
+- Eyewear
 - healthcare-financing
-- embedded-finance
+- Embedded Finance
 website: https://sunbit.com/
 ---

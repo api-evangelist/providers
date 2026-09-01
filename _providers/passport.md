@@ -23,7 +23,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 26.0
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
 api_count: 1
 apis:
 - description: The Cart API from Passport — 1 operation(s) for cart.
@@ -204,7 +204,7 @@ modified: '2026-08-04'
 name: Passport
 nav: Providers
 network: true
-overview: 'Passport publishes 8 APIs on the [APIs.io](https://apis.io/) network, including Cart API, Healthcheck API, Order API, and 5 more. Tagged areas include Company, Shipping, Logistics, cross-border-ecommerce, and international-shipping.
+overview: 'Passport publishes 8 APIs on the [APIs.io](https://apis.io/) network, including Cart API, Healthcheck API, Order API, and 5 more. Tagged areas include Company, Shipping, Logistics, Cross-border eCommerce, and International Shipping.
 
 
   Passport''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, changelog, authentication, and 21 more developer resources.'
@@ -217,7 +217,7 @@ score:
     catalog_gap: 78.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.6
+  delta: 0.0
   facets:
     access_clarity: 35.5
     commercial_clarity: 35.5
@@ -227,7 +227,7 @@ score:
     discoverability: 75.9
     governance: 18.2
     operational_transparency: 15.8
-  previous_composite: 45.4
+  previous_composite: 44.8
   provenance:
     conformance: first-party
     contracts:
@@ -244,7 +244,7 @@ score:
     regime_id: payments
     score: 46.9
   schema_version: 0.17.2
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/passport/refs/heads/main/screenshots/passport-2026-08-07T191541.png
 security:
@@ -261,14 +261,14 @@ tags:
 - Company
 - Shipping
 - Logistics
-- cross-border-ecommerce
-- international-shipping
-- customs-compliance
-- landed-cost
+- Cross-border eCommerce
+- International Shipping
+- Customs Compliance
+- Landed Cost
 - duties-and-taxes
-- parcel-delivery
+- Parcel Delivery
 - E-Commerce
-- merchant-of-record
-- trade-compliance
+- Merchant of Record
+- Trade Compliance
 website: https://passportglobal.com/
 ---

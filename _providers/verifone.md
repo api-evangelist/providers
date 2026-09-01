@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 36.3
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
 agentic_access:
 - acting_count: 60
   human_in_the_loop: 0
@@ -1789,7 +1789,7 @@ modified: '2026-06-13'
 name: Verifone
 nav: Providers
 network: true
-overview: 'Verifone publishes 22 APIs on the [APIs.io](https://apis.io/) network, including 3DS Authentication API, Batch API, Billing Agreement API, and 19 more. Tagged areas include Payments, POS, Terminal Management, E-Commerce, and Fintech.
+overview: 'Verifone publishes 22 APIs on the [APIs.io](https://apis.io/) network, including 3DS Authentication API, Batch API, Billing Agreement API, and 19 more. Tagged areas include Payments, Point-of-Sale, Terminal Management, E-Commerce, and Fintech.
 
 
   The Verifone catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
@@ -1849,7 +1849,7 @@ score:
     regime_id: payments
     score: 26.6
   schema_version: 0.17.2
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/verifone/refs/heads/main/screenshots/verifone-2026-06-20T200926.png
 security:
@@ -1864,7 +1864,7 @@ security:
 slug: verifone
 tags:
 - Payments
-- POS
+- Point-of-Sale
 - Terminal Management
 - E-Commerce
 - Fintech

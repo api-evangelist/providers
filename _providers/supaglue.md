@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.4
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
 agentic_access:
 - acting_count: 65
   human_in_the_loop: 0
@@ -309,6 +309,10 @@ collections:
   name: Unified CRM Accounts Users API
   slug: open-supaglue-users-api
 common:
+- group: commercial
+  title: ''
+  type: License
+  url: https://github.com/supaglue-labs/supaglue/blob/main/LICENSE
 - group: other
   title: ''
   type: CapabilityMap
@@ -509,7 +513,7 @@ overview: 'Supaglue publishes 41 APIs on the [APIs.io](https://apis.io/) network
   The Supaglue catalog on APIs.io includes 1 event-driven AsyncAPI specification, 1 JSON-LD context, and 2 Spectral governance rulesets.
 
 
-  Supaglue''s developer surface includes authentication, changelog, documentation, API reference, getting-started guide, and 36 more developer resources.'
+  Supaglue''s developer surface includes authentication, changelog, documentation, API reference, getting-started guide, and 37 more developer resources.'
 plans:
 - name: Supaglue Plans Pricing
   plan_count: 1
@@ -571,7 +575,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.17.2
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/supaglue/refs/heads/main/screenshots/supaglue-2026-08-17T083633.png
 security:

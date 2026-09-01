@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 15.1
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
 api_count: 0
 artifact_total: 1
 common:
@@ -94,7 +94,7 @@ modified: '2026-08-12'
 name: Shoelace
 nav: Providers
 network: true
-overview: 'Shoelace is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Marketing, Growth Marketing, DTC, and E-Commerce.
+overview: 'Shoelace is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Marketing, Growth Marketing, Direct to Consumer, and E-Commerce.
 
 
   Shoelace''s developer surface includes engineering blog and 8 more developer resources.'
@@ -119,7 +119,7 @@ score:
     operational_transparency: 0.0
   previous_composite: 5.7
   schema_version: 0.17.2
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
   trend: flat
 security:
 - kind: domain-security
@@ -131,7 +131,7 @@ tags:
 - Company
 - Marketing
 - Growth Marketing
-- DTC
+- Direct to Consumer
 - E-Commerce
 - Advertising
 - Paid Media

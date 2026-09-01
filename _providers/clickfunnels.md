@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 35.6
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
 agentic_access:
 - acting_count: 224
   human_in_the_loop: 4
@@ -365,6 +365,10 @@ collections:
   name: ClickFunnels 2.0 API
   slug: open-clickfunnels
 common:
+- group: commercial
+  title: ''
+  type: License
+  url: https://github.com/clickfunnels/cli/blob/main/LICENSE
 - group: other
   title: ''
   type: CapabilityMap
@@ -555,7 +559,7 @@ overview: 'ClickFunnels publishes 102 APIs on the [APIs.io](https://apis.io/) ne
   The ClickFunnels catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  ClickFunnels'' developer surface includes authentication, changelog, CLI, sandbox, documentation, API reference, getting-started guide, and 37 more developer resources.'
+  ClickFunnels'' developer surface includes authentication, changelog, CLI, sandbox, documentation, API reference, getting-started guide, and 38 more developer resources.'
 plans:
 - name: Clickfunnels Plans Pricing
   plan_count: 4
@@ -578,7 +582,7 @@ score:
     catalog_gap: 69.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.6
+  delta: 0.0
   facets:
     access_clarity: 76.3
     commercial_clarity: 76.3
@@ -588,7 +592,7 @@ score:
     discoverability: 70.4
     governance: 18.2
     operational_transparency: 34.2
-  previous_composite: 62.4
+  previous_composite: 61.8
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -601,7 +605,7 @@ score:
     regime_id: payments
     score: 54.7
   schema_version: 0.17.2
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/clickfunnels/refs/heads/main/screenshots/clickfunnels-2026-06-20T174514.png
 security:

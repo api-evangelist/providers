@@ -23,7 +23,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 7.9
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
 api_count: 2
 apis:
 - description: The first-party Mantra Health API. The host api.mantrahealth.com answers 200 with the plain-text banner "Mantra Health API" and exposes a GraphQL endpoint at /graphql that is served by Apollo Server (
@@ -172,7 +172,7 @@ score:
     regime_id: health
     score: 35.0
   schema_version: 0.17.2
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
   trend: flat
 security:
 - kind: authentication

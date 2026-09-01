@@ -24,7 +24,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 59.4
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -243,7 +243,7 @@ modified: '2026-08-09'
 name: StayingAPI
 nav: Providers
 network: true
-overview: 'StayingAPI publishes 3 APIs on the [APIs.io](https://apis.io/) network: Account API, Data API, and Jobs API. Tagged areas include travel, hospitality, accommodation-data, hotel-api, and vacation-rental.
+overview: 'StayingAPI publishes 3 APIs on the [APIs.io](https://apis.io/) network: Account API, Data API, and Jobs API. Tagged areas include Travel, Hospitality, accommodation-data, hotel-api, and Vacation Rental.
 
 
   StayingAPI''s developer surface includes authentication, changelog, sandbox, developer console, documentation, API reference, getting-started guide, and 33 more developer resources.'
@@ -269,7 +269,7 @@ score:
     catalog_gap: 54.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.6
+  delta: 0.0
   facets:
     access_clarity: 76.3
     commercial_clarity: 76.3
@@ -279,7 +279,7 @@ score:
     discoverability: 87.0
     governance: 4.5
     operational_transparency: 73.7
-  previous_composite: 64.2
+  previous_composite: 63.6
   provenance:
     agentic_access: derived
     conformance: derived
@@ -291,7 +291,7 @@ score:
     mcp: first-party
     skills: first-party
   schema_version: 0.17.2
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/stayingapi/refs/heads/main/screenshots/stayingapi-2026-08-17T080426.png
 security:
@@ -305,20 +305,20 @@ security:
   summary_line: TLSv1.3 · DMARC
 slug: stayingapi
 tags:
-- travel
-- hospitality
+- Travel
+- Hospitality
 - accommodation-data
 - hotel-api
-- vacation-rental
-- short-term-rental
-- airbnb
-- booking.com
-- vrbo
+- Vacation Rental
+- Short-Term Rental
+- Airbnb
+- Booking.com
+- Vrbo
 - google-hotels
 - cross-ota-price-comparison
 - Availability
 - Reviews
-- rest
+- REST
 - MCP
 - agent-native
 - OpenAPI

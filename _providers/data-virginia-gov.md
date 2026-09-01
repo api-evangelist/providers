@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 2.5
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
 api_count: 1
 apis:
 - description: CKAN Action API for Virginia Open Data, a consistent JSON-over-HTTP interface over a catalog of 33,247 datasets. Standard actions include package_search, package_show, package_list, organization_list,
@@ -120,7 +120,7 @@ score:
     regime_id: government
     score: 11.1
   schema_version: 0.17.2
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/data-virginia-gov/refs/heads/main/screenshots/data-virginia-gov-2026-06-20T175622.png
 security:
@@ -135,7 +135,7 @@ tags:
 - Data Catalog
 - DCAT
 - Government Data
-- State Government
+- State-Government
 - United States
 website: https://data.virginia.gov
 ---

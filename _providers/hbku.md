@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 28.8
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
 api_count: 1
 apis:
 - description: Fanar is Qatar's Arabic generative-AI platform, developed by the Qatar Computing Research Institute at Hamad Bin Khalifa University with support from Qatar's Ministry of Communications and Information
@@ -225,7 +225,7 @@ score:
     catalog_gap: 45.3
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: 10.1
+  delta: 0.0
   facets:
     access_clarity: 63.2
     commercial_clarity: 63.2
@@ -235,7 +235,7 @@ score:
     discoverability: 59.3
     governance: 26.5
     operational_transparency: 18.4
-  previous_composite: 42.9
+  previous_composite: 53.0
   provenance:
     agentic_access: derived
     contracts:
@@ -250,8 +250,8 @@ score:
     regime_id: education
     score: 46.3
   schema_version: 0.17.2
-  scored_at: '2026-08-30'
-  trend: rising
+  scored_at: '2026-09-01'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/hbku/refs/heads/main/screenshots/hbku-2026-06-20T182545.png
 security:
 - kind: authentication

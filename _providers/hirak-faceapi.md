@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
 api_count: 1
 apis:
 - description: Face detection, face recognition with age estimation/gender estimation, accurate, no quota limits
@@ -82,7 +82,7 @@ score:
     operational_transparency: 0.0
   previous_composite: 7.6
   schema_version: 0.17.2
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/hirak-faceapi/refs/heads/main/screenshots/hirak-faceapi-2026-06-20T182753.png
 security:

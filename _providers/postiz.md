@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 48.4
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
 agentic_access:
 - acting_count: 143
   human_in_the_loop: 122
@@ -163,6 +163,10 @@ collections:
   name: Postiz Public API
   slug: open-postiz
 common:
+- group: commercial
+  title: ''
+  type: License
+  url: https://github.com/gitroomhq/postiz-app/blob/main/LICENSE
 - group: other
   title: ''
   type: CapabilityMap
@@ -365,7 +369,7 @@ overview: 'Postiz publishes 28 APIs on the [APIs.io](https://apis.io/) network, 
   The Postiz catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  Postiz''s developer surface includes authentication, documentation, engineering blog, CLI, changelog, sandbox, API reference, and 38 more developer resources.'
+  Postiz''s developer surface includes authentication, documentation, engineering blog, CLI, changelog, sandbox, API reference, and 39 more developer resources.'
 plans:
 - name: Postiz Plans Pricing
   plan_count: 5
@@ -410,7 +414,7 @@ score:
     mcp: first-party
     skills: first-party
   schema_version: 0.17.2
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/postiz/refs/heads/main/screenshots/postiz-2026-08-17T080412.png
 security:

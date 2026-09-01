@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
 api_count: 0
 artifact_total: 2
 common:
@@ -84,7 +84,7 @@ modified: '2026-07-18'
 name: DeHaat
 nav: Providers
 network: true
-overview: 'DeHaat is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Agtech, Agriculture, Marketplace, and Rural.
+overview: 'DeHaat is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, AgTech, Agriculture, Marketplace, and Rural.
 
 
   DeHaat''s developer surface includes support, engineering blog, and 8 more developer resources.'
@@ -109,7 +109,7 @@ score:
     operational_transparency: 13.2
   previous_composite: 12.4
   schema_version: 0.17.2
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/dehaat/refs/heads/main/screenshots/dehaat-2026-07-25T211629.png
 security:
@@ -124,7 +124,7 @@ security:
 slug: dehaat
 tags:
 - Company
-- Agtech
+- AgTech
 - Agriculture
 - Marketplace
 - Rural

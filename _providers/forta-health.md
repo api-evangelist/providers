@@ -23,7 +23,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 27.7
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
 api_count: 2
 apis:
 - description: The assessment_surveys API from Forta Health — 1 operation(s) for assessment_surveys.
@@ -332,7 +332,7 @@ modified: '2026-08-04'
 name: Forta Health
 nav: Providers
 network: true
-overview: 'Forta Health publishes 34 APIs on the [APIs.io](https://apis.io/) network, including Assessment Surveys API, Behavior API, Bt Supervisions API, and 31 more. Tagged areas include healthcare, autism, aba-therapy, behavioral-health, and telehealth.
+overview: 'Forta Health publishes 34 APIs on the [APIs.io](https://apis.io/) network, including Assessment Surveys API, Behavior API, Bt Supervisions API, and 31 more. Tagged areas include Healthcare, Autism, ABA Therapy, Behavioral Health, and Telehealth.
 
 
   Forta Health''s developer surface includes signup flow, support, engineering blog, and 18 more developer resources.'
@@ -345,7 +345,7 @@ score:
     catalog_gap: 78.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.6
+  delta: 0.0
   facets:
     access_clarity: 42.1
     commercial_clarity: 42.1
@@ -355,7 +355,7 @@ score:
     discoverability: 68.5
     governance: 4.5
     operational_transparency: 2.6
-  previous_composite: 38.7
+  previous_composite: 38.1
   provenance:
     conformance: derived
     contracts:
@@ -377,7 +377,7 @@ score:
     regime_id: health
     score: 37.5
   schema_version: 0.17.2
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/forta-health/refs/heads/main/screenshots/forta-health-2026-08-07T165415.png
 security:
@@ -391,17 +391,17 @@ security:
   summary_line: TLSv1.3 · DNSSEC · DMARC
 slug: forta-health
 tags:
-- healthcare
-- autism
-- aba-therapy
-- behavioral-health
-- telehealth
-- digital-health
+- Healthcare
+- Autism
+- ABA Therapy
+- Behavioral Health
+- Telehealth
+- Digital Health
 - pediatric-care
-- clinical-operations
-- medicaid
-- health-insurance
-- ehr
-- machine-learning
+- Clinical Operations
+- Medicaid
+- Health Insurance
+- EHR
+- Machine-Learning
 website: https://www.fortahealth.com/
 ---

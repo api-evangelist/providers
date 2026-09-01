@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 41.4
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
 agentic_access:
 - acting_count: 81
   human_in_the_loop: 0
@@ -468,7 +468,7 @@ modified: '2026-08-13'
 name: LiveRamp
 nav: Providers
 network: true
-overview: 'LiveRamp publishes 42 APIs on the [APIs.io](https://apis.io/) network, including Billable Configs API, Cleanroom API, Cleanroom Datasets API, and 39 more. Tagged areas include Data Connectivity, Data Collaboration, Identity Resolution, Activation, and Clean Room.
+overview: 'LiveRamp publishes 42 APIs on the [APIs.io](https://apis.io/) network, including Billable Configs API, Cleanroom API, Cleanroom Datasets API, and 39 more. Tagged areas include Data Connectivity, Data Collaboration, Identity Resolution, Activation, and Cleanroom.
 
 
   LiveRamp''s developer surface includes developer portal, documentation, API reference, getting-started guide, support, engineering blog, pricing, and 46 more developer resources.'
@@ -516,7 +516,7 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.17.2
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/liveramp/refs/heads/main/screenshots/liveramp-2026-06-20T184618.png
 security:
@@ -542,7 +542,7 @@ tags:
 - Data Collaboration
 - Identity Resolution
 - Activation
-- Clean Room
+- Cleanroom
 - Privacy
 - AdTech
 - Marketing

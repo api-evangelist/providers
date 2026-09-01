@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 8.3
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
 api_count: 0
 artifact_total: 2
 common:
@@ -132,7 +132,7 @@ score:
   provenance:
     conformance: derived
   schema_version: 0.17.2
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/carserv/refs/heads/main/screenshots/carserv-2026-07-25T204649.png
 security:
@@ -153,7 +153,7 @@ tags:
 - Vehicle Inspection
 - Field Service
 - Software-as-a-Service
-- JSON API
+- JSON:API
 - Defunct
 website: https://carserv.com/
 ---

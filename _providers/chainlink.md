@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 12.9
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
 api_count: 1
 apis:
 - description: Build hybrid smart contracts with Chainlink
@@ -90,7 +90,7 @@ score:
     operational_transparency: 0.0
   previous_composite: 16.9
   schema_version: 0.17.2
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/chainlink/refs/heads/main/screenshots/chainlink-2026-06-20T174200.png
 security:

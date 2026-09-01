@@ -23,7 +23,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 25.2
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
 api_count: 1
 apis:
 - description: The Prizeout partner integration surface. A partner loads the first-party JavaScript publisher SDK (prizeout-publisher-sdk.js), or the native iOS/Android SDK, and passes partner credentials plus a use
@@ -188,7 +188,7 @@ score:
     regime_id: banking_open_finance
     score: 46.8
   schema_version: 0.17.2
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
   trend: flat
 security:
 - kind: authentication

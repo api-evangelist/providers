@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 18.1
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -166,7 +166,7 @@ modified: '2026-07-20'
 name: Loon Finance
 nav: Providers
 network: true
-overview: 'Loon Finance publishes 3 APIs on the [APIs.io](https://apis.io/) network: Attestations API, Issuances API, and Supply API. Tagged areas include Company, Fintech, Stablecoin, Cryptocurrency, and Payments.
+overview: 'Loon Finance publishes 3 APIs on the [APIs.io](https://apis.io/) network: Attestations API, Issuances API, and Supply API. Tagged areas include Company, Fintech, Stablecoins, Cryptocurrency, and Payments.
 
 
   Loon Finance''s developer surface includes documentation, engineering blog, support, and 19 more developer resources.'
@@ -179,7 +179,7 @@ score:
     catalog_gap: 63.0
     catalog_max: 100.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.6
+  delta: 0.0
   facets:
     access_clarity: 78.6
     commercial_clarity: 78.6
@@ -189,7 +189,7 @@ score:
     discoverability: 75.9
     governance: 18.2
     operational_transparency: 5.3
-  previous_composite: 45.3
+  previous_composite: 44.7
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -207,7 +207,7 @@ score:
     regime_id: payments
     score: 46.9
   schema_version: 0.17.2
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/loon-finance/refs/heads/main/screenshots/loon-finance-2026-07-25T225523.png
 security:
@@ -223,7 +223,7 @@ slug: loon-finance
 tags:
 - Company
 - Fintech
-- Stablecoin
+- Stablecoins
 - Cryptocurrency
 - Payments
 - Canada

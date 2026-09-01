@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
 api_count: 0
 artifact_total: 1
 common:
@@ -60,7 +60,7 @@ modified: '2026-07-19'
 name: Fitmint
 nav: Providers
 network: true
-overview: 'Fitmint is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Fitness, Health, Wellness, and Move to Earn.
+overview: 'Fitmint is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Fitness, Health, Wellness, and Move-to-Earn.
 
 
   Fitmint''s developer surface includes engineering blog and 3 more developer resources.'
@@ -91,7 +91,7 @@ score:
     regime_id: health
     score: 12.5
   schema_version: 0.17.2
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/fitmint/refs/heads/main/screenshots/fitmint-2026-07-25T214639.png
 security:
@@ -105,7 +105,7 @@ tags:
 - Fitness
 - Health
 - Wellness
-- Move to Earn
+- Move-to-Earn
 - Mobile
 - Rewards
 - Gamification

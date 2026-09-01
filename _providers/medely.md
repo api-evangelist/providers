@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
 api_count: 0
 artifact_total: 1
 common:
@@ -107,7 +107,7 @@ score:
     regime_id: health
     score: 17.5
   schema_version: 0.17.2
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/medely/refs/heads/main/screenshots/medely-2026-08-07T172323.png
 security:
@@ -123,7 +123,7 @@ tags:
 - Workforce Management
 - Marketplace
 - Nursing
-- Per-Diem
+- Per Diem
 - Health
 website: https://medely.com/
 ---

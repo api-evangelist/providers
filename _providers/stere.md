@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
 api_count: 4
 apis:
 - description: Stere's API-as-a-Service lets an insurer or MGA either bring its own existing underwriting API ("Bring-your-own-API") or have Stere build one, with rate, quote, bind, policy issuance, data enrichment,
@@ -122,7 +122,7 @@ score:
     regime_id: insurance
     score: 9.1
   schema_version: 0.17.2
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
   trend: flat
 security:
 - kind: domain-security

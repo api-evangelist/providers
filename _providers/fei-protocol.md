@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
 api_count: 0
 artifact_total: 0
 common:
@@ -48,7 +48,7 @@ modified: '2026-07-19'
 name: Fei Protocol
 nav: Providers
 network: true
-overview: Fei Protocol is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, DeFi, Stablecoin, Ethereum, and Smart Contracts.
+overview: Fei Protocol is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, DeFi, Stablecoins, Ethereum, and Smart Contracts.
 random_paper: 17
 score:
   band: minimal
@@ -78,14 +78,14 @@ score:
       reason: never_enriched
   previous_composite: 5.3
   schema_version: 0.17.2
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/fei-protocol/refs/heads/main/screenshots/fei-protocol-2026-07-25T214335.png
 slug: fei-protocol
 tags:
 - Company
 - DeFi
-- Stablecoin
+- Stablecoins
 - Ethereum
 - Smart Contracts
 - DAO

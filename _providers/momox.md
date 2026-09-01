@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
 api_count: 0
 artifact_total: 1
 common:
@@ -68,7 +68,7 @@ modified: '2026-07-20'
 name: Momox
 nav: Providers
 network: true
-overview: 'Momox is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Re-Commerce, Marketplace, Second-Hand, and Books.
+overview: 'Momox is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Recommerce, Marketplace, Secondhand, and Books.
 
 
   Momox''s developer surface includes support, engineering blog, and 4 more developer resources.'
@@ -93,7 +93,7 @@ score:
     operational_transparency: 0.0
   previous_composite: 10.6
   schema_version: 0.17.2
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/momox/refs/heads/main/screenshots/momox-2026-08-07T184126.png
 security:
@@ -104,9 +104,9 @@ security:
 slug: momox
 tags:
 - Company
-- Re-Commerce
+- Recommerce
 - Marketplace
-- Second-Hand
+- Secondhand
 - Books
 - Media
 - Fashion

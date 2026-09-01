@@ -23,7 +23,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 24.6
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
 api_count: 14
 apis:
 - description: News and blog posts published on habiteo.com, plus their revisions. DERIVED by API Evangelist from the WordPress REST route index at https://www.habiteo.com/wp-json/ — this is the CMS content API behi
@@ -213,7 +213,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.17.2
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
   trend: flat
 security:
 - kind: authentication

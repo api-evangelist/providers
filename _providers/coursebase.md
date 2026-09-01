@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
 api_count: 0
 artifact_total: 1
 common:
@@ -76,7 +76,7 @@ modified: '2026-07-18'
 name: Coursebase
 nav: Providers
 network: true
-overview: 'Coursebase is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Learning Management System, LMS, Corporate Training, and eLearning.
+overview: 'Coursebase is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Learning Management System, LMS, Corporate Training, and E-Learning.
 
 
   Coursebase''s developer surface includes documentation, pricing, support, signup flow, and 4 more developer resources.'
@@ -107,7 +107,7 @@ score:
     regime_id: education
     score: 25.9
   schema_version: 0.17.2
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/coursebase/refs/heads/main/screenshots/coursebase-2026-07-25T210518.png
 security:
@@ -121,7 +121,7 @@ tags:
 - Learning Management System
 - LMS
 - Corporate Training
-- eLearning
+- E-Learning
 - Education
 - Employee Development
 - Human Resources

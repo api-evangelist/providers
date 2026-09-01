@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 27.5
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
 agentic_access:
 - acting_count: 12
   human_in_the_loop: 0
@@ -208,7 +208,7 @@ modified: '2026-07-21'
 name: Upsie
 nav: Providers
 network: true
-overview: 'Upsie publishes 8 APIs on the [APIs.io](https://apis.io/) network, including Authorization API, Repair Assignments (/repairassignments) API, Repair Categories API, and 5 more. Tagged areas include Company, Warranties, Protection Plans, Consumer Electronics, and Repairs.
+overview: 'Upsie publishes 8 APIs on the [APIs.io](https://apis.io/) network, including Authorization API, Repair Assignments (/repairassignments) API, Repair Categories API, and 5 more. Tagged areas include Company, Warranties, Protection-Plans, Consumer Electronics, and Repairs.
 
 
   The Upsie catalog on APIs.io includes 1 event-driven AsyncAPI specification.
@@ -252,7 +252,7 @@ score:
     regime_id: insurance
     score: 37.9
   schema_version: 0.17.2
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/upsie/refs/heads/main/screenshots/upsie-2026-08-17T082639.png
 security:
@@ -268,7 +268,7 @@ slug: upsie
 tags:
 - Company
 - Warranties
-- Protection Plans
+- Protection-Plans
 - Consumer Electronics
 - Repairs
 - Insurance

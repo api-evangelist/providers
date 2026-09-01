@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 25.8
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
 api_count: 17
 apis:
 - description: RESTful JSON API returning Zillow property, rental and foreclosure Zestimates for approximately 100 million US properties. Zillow Group documents it on its own developer portal and routes the referenc
@@ -236,7 +236,7 @@ score:
       reason: no_resolvable_host
   previous_composite: 40.3
   schema_version: 0.17.2
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/zillow-group/refs/heads/main/screenshots/zillow-group-2026-06-20T201913.png
 security:
@@ -260,7 +260,7 @@ tags:
 - Mortgage
 - Rentals
 - Valuation
-- Housing-Data
+- Housing Data
 - Transaction Management
 website: https://www.zillowgroup.com/
 ---

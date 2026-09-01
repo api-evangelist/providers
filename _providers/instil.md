@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
 api_count: 0
 artifact_total: 2
 common:
@@ -126,7 +126,7 @@ modified: '2026-08-14'
 name: Instil
 nav: Providers
 network: true
-overview: 'Instil is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Saas, Non-Profit, CRM, and Fundraising.
+overview: 'Instil is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Software-as-a-Service, Non-Profit, CRM, and Fundraising.
 
 
   Instil''s developer surface includes engineering blog, signup flow, and 14 more developer resources.'
@@ -155,7 +155,7 @@ score:
     operational_transparency: 0.0
   previous_composite: 12.3
   schema_version: 0.17.2
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/instil/refs/heads/main/screenshots/instil-2026-07-25T222615.png
 security:
@@ -166,7 +166,7 @@ security:
 slug: instil
 tags:
 - Company
-- Saas
+- Software-as-a-Service
 - Non-Profit
 - CRM
 - Fundraising

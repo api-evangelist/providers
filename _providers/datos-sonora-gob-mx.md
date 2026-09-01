@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 2.5
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
 api_count: 1
 apis:
 - description: CKAN Action API for Sonora Open Data, ~90 datasets. Base URL https://datos.sonora.gob.mx/api/3/action/.
@@ -119,7 +119,7 @@ score:
     regime_id: government
     score: 11.1
   schema_version: 0.17.2
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/datos-sonora-gob-mx/refs/heads/main/screenshots/datos-sonora-gob-mx-2026-06-20T175726.png
 security:
@@ -134,7 +134,7 @@ tags:
 - Data Catalog
 - DCAT
 - Government Data
-- State Government
+- State-Government
 - Mexico
 website: https://datos.sonora.gob.mx
 ---

@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 2.5
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
 api_count: 4
 apis:
 - description: SOAP web services (DataService, ReadDataService, FileService, FileStreamService, InstanceService) to automate workflows by managing courses, content, files and assessments on an itslearning site. Used
@@ -158,7 +158,7 @@ modified: '2026-07-19'
 name: itslearning
 nav: Providers
 network: true
-overview: 'itslearning publishes 4 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Saas, Education, EdTech, and Learning Management System.
+overview: 'itslearning publishes 4 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Software-as-a-Service, Education, EdTech, and Learning Management System.
 
 
   itslearning''s developer surface includes authentication, documentation, API reference, support, engineering blog, pricing, signup flow, and 18 more developer resources.'
@@ -195,7 +195,7 @@ score:
     regime_id: education
     score: 66.7
   schema_version: 0.17.2
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/itslearning/refs/heads/main/screenshots/itslearning-2026-07-25T223009.png
 security:
@@ -214,7 +214,7 @@ security:
 slug: itslearning
 tags:
 - Company
-- Saas
+- Software-as-a-Service
 - Education
 - EdTech
 - Learning Management System

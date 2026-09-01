@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 2.5
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
 api_count: 5
 apis:
 - description: The Intermedia Voice API enables developers to embed voice calling capabilities into CRMs, ERPs, ticketing systems, and other business applications.
@@ -130,7 +130,7 @@ score:
     operational_transparency: 10.5
   previous_composite: 16.2
   schema_version: 0.17.2
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/intermedia/refs/heads/main/screenshots/intermedia-2026-06-20T183449.png
 security:

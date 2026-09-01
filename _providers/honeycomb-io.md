@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 41.9
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
 agentic_access:
 - acting_count: 50
   human_in_the_loop: 0
@@ -282,6 +282,10 @@ collections:
   name: Honeycomb Triggers API
   slug: open-honeycomb-triggers-api
 common:
+- group: commercial
+  title: ''
+  type: License
+  url: https://github.com/honeycombio/agent-skill/blob/main/LICENSE
 - group: auth
   title: ''
   type: Authentication
@@ -658,7 +662,7 @@ overview: 'Honeycomb publishes 22 APIs on the [APIs.io](https://apis.io/) networ
   The Honeycomb catalog on APIs.io includes 1 event-driven AsyncAPI specification, 1 JSON-LD context, and 2 Spectral governance rulesets.
 
 
-  Honeycomb''s developer surface includes authentication, documentation, developer portal, engineering blog, pricing, support, tooling, and 71 more developer resources.'
+  Honeycomb''s developer surface includes authentication, documentation, developer portal, engineering blog, pricing, support, tooling, and 72 more developer resources.'
 plans:
 - name: Honeycomb Io Plans Pricing
   plan_count: 4
@@ -726,7 +730,7 @@ score:
     mcp: first-party
     skills: first-party
   schema_version: 0.17.2
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/honeycomb-io/refs/heads/main/screenshots/honeycomb-io-2026-06-20T182823.png
 security:

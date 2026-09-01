@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 24.8
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -123,7 +123,7 @@ modified: '2026-06-21'
 name: Stitch
 nav: Providers
 network: true
-overview: 'Stitch publishes 1 API on the [APIs.io](https://apis.io/) network: GraphQL API. Tagged areas include Payments, Open Banking, Pay By Bank, GraphQL, and Africa.
+overview: 'Stitch publishes 1 API on the [APIs.io](https://apis.io/) network: GraphQL API. Tagged areas include Payments, Open Banking, Pay by Bank, GraphQL, and Africa.
 
 
   Stitch''s developer surface includes authentication, documentation, engineering blog, and 9 more developer resources.'
@@ -169,7 +169,7 @@ score:
     regime_id: banking_open_finance
     score: 22.8
   schema_version: 0.17.2
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
   trend: flat
 security:
 - kind: authentication
@@ -188,7 +188,7 @@ slug: stitch-money
 tags:
 - Payments
 - Open Banking
-- Pay By Bank
+- Pay by Bank
 - GraphQL
 - Africa
 - South Africa

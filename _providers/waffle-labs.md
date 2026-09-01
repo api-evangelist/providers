@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
 api_count: 0
 artifact_total: 1
 common:
@@ -76,7 +76,7 @@ modified: '2026-07-21'
 name: Waffle Labs
 nav: Providers
 network: true
-overview: 'Waffle Labs is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Insurance, InsurTech, Fintech, and Consumer.
+overview: 'Waffle Labs is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Insurance, Insurtech, Fintech, and Consumer.
 
 
   Waffle Labs'' developer surface includes support, signup flow, and 6 more developer resources.'
@@ -107,7 +107,7 @@ score:
     regime_id: insurance
     score: 21.2
   schema_version: 0.17.2
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
   trend: flat
 security:
 - kind: domain-security
@@ -118,7 +118,7 @@ slug: waffle-labs
 tags:
 - Company
 - Insurance
-- InsurTech
+- Insurtech
 - Fintech
 - Consumer
 - Embedded Insurance

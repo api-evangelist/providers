@@ -23,7 +23,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 42.3
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
 api_count: 3
 apis:
 - description: Referral coupon API published as a public Postman collection. Checks and burns coupons for a referrer or a newly referred prospect, authenticated by a SHA-256 hash of the coupon code concatenated with
@@ -262,7 +262,7 @@ modified: '2026-08-29'
 name: Splio
 nav: Providers
 network: true
-overview: 'Splio publishes 18 APIs on the [APIs.io](https://apis.io/) network, including Referral API, Blacklist API, Contact API, and 15 more. Tagged areas include marketing-automation, customer-data-platform, loyalty, CRM, and email-marketing.
+overview: 'Splio publishes 18 APIs on the [APIs.io](https://apis.io/) network, including Referral API, Blacklist API, Contact API, and 15 more. Tagged areas include Marketing Automation, Customer Data Platform, Loyalty, CRM, and Email Marketing.
 
 
   Splio''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, signup flow, changelog, and 36 more developer resources.'
@@ -305,7 +305,7 @@ score:
     regime_id: telecommunications
     score: 51.4
   schema_version: 0.17.2
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
   trend: flat
 security:
 - kind: authentication
@@ -318,17 +318,17 @@ security:
   summary_line: TLSv1.3 · HSTS · DMARC
 slug: splio
 tags:
-- marketing-automation
-- customer-data-platform
-- loyalty
+- Marketing Automation
+- Customer Data Platform
+- Loyalty
 - CRM
-- email-marketing
+- Email Marketing
 - SMS
-- mobile-wallet
+- Mobile Wallet
 - Retail
 - E-Commerce
-- predictive-ai
+- Predictive AI
 - Customer Engagement
-- france
+- France
 website: https://splio.com/en/
 ---

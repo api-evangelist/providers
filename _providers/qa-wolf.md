@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 23.6
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
 api_count: 1
 apis:
 - description: Continuous integration triggers and pipeline gating
@@ -194,7 +194,7 @@ modified: '2026-07-20'
 name: QA Wolf
 nav: Providers
 network: true
-overview: 'QA Wolf publishes 2 APIs on the [APIs.io](https://apis.io/) network: CI API and Webhooks API. Tagged areas include Company, Devtools, Testing, Test Automation, and QA.
+overview: 'QA Wolf publishes 2 APIs on the [APIs.io](https://apis.io/) network: CI API and Webhooks API. Tagged areas include Company, DevTools, Testing, Test Automation, and QA.
 
 
   The QA Wolf catalog on APIs.io includes 1 event-driven AsyncAPI specification.
@@ -231,7 +231,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.17.2
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/qa-wolf/refs/heads/main/screenshots/qa-wolf-2026-08-17T081412.png
 security:
@@ -250,7 +250,7 @@ security:
 slug: qa-wolf
 tags:
 - Company
-- Devtools
+- DevTools
 - Testing
 - Test Automation
 - QA

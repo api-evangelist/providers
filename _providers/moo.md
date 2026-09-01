@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
 api_count: 0
 artifact_total: 1
 common:
@@ -76,7 +76,7 @@ modified: '2026-07-20'
 name: MOO
 nav: Providers
 network: true
-overview: 'MOO is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Retail, Printing, Print On Demand, and Business Cards.
+overview: 'MOO is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Retail, Printing, Print on Demand, and Business Cards.
 
 
   MOO''s developer surface includes support, engineering blog, pricing, and 5 more developer resources.'
@@ -107,7 +107,7 @@ score:
     regime_id: payments
     score: 21.9
   schema_version: 0.17.2
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/moo/refs/heads/main/screenshots/moo-2026-08-07T184227.png
 security:
@@ -120,7 +120,7 @@ tags:
 - Company
 - Retail
 - Printing
-- Print On Demand
+- Print on Demand
 - Business Cards
 - Design
 - Stationery

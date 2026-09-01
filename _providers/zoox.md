@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
 api_count: 0
 artifact_total: 2
 common:
@@ -116,7 +116,7 @@ modified: '2026-05-23'
 name: Zoox
 nav: Providers
 network: true
-overview: 'Zoox is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Autonomous Vehicles, Robotaxi, Purpose-Built Vehicle, Ride-Hailing, and Amazon.
+overview: 'Zoox is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Autonomous Vehicles, Robotaxi, Purpose-Built Vehicle, Ride Hailing, and Amazon.
 
 
   Zoox''s developer surface includes support, YouTube channel, and 16 more developer resources.'
@@ -141,7 +141,7 @@ score:
     operational_transparency: 0.0
   previous_composite: 10.2
   schema_version: 0.17.2
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/zoox/refs/heads/main/screenshots/zoox-2026-06-20T201952.png
 security:
@@ -158,7 +158,7 @@ tags:
 - Autonomous Vehicles
 - Robotaxi
 - Purpose-Built Vehicle
-- Ride-Hailing
+- Ride Hailing
 - Amazon
 - Self-Driving
 website: https://zoox.com

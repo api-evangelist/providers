@@ -23,7 +23,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 23.0
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
 api_count: 1
 apis:
 - description: The Catalog API from Catalog Guard API — 2 operation(s) for catalog.
@@ -143,7 +143,7 @@ modified: '2026-08-09'
 name: Catalog Guard API
 nav: Providers
 network: true
-overview: 'Catalog Guard API publishes 1 API on the [APIs.io](https://apis.io/) network: Catalog API. Tagged areas include E-Commerce, catalog-validation, shopify, data-quality, and csv-validation.
+overview: 'Catalog Guard API publishes 1 API on the [APIs.io](https://apis.io/) network: Catalog API. Tagged areas include E-Commerce, catalog-validation, Shopify, Data Quality, and csv-validation.
 
 
   Catalog Guard API''s developer surface includes documentation, API reference, getting-started guide, pricing, authentication, code examples, and 17 more developer resources.'
@@ -181,7 +181,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.17.2
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
   trend: flat
 security:
 - kind: authentication
@@ -196,11 +196,11 @@ slug: catalog-guard-api
 tags:
 - E-Commerce
 - catalog-validation
-- shopify
-- data-quality
+- Shopify
+- Data Quality
 - csv-validation
 - product-data-qa
 - data-preflight
-- data-validation
+- Data Validation
 - Retail
 ---

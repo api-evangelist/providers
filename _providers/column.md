@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 25.8
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
 agentic_access:
 - acting_count: 21
   human_in_the_loop: 0
@@ -239,7 +239,7 @@ modified: '2026-05-30'
 name: Column
 nav: Providers
 network: true
-overview: 'Column publishes 18 APIs on the [APIs.io](https://apis.io/) network, including ACH Transfers API, Wire Transfers API, International Wires API, and 15 more. Tagged areas include Fintech, Banking, BaaS, ACH, and Wires.
+overview: 'Column publishes 18 APIs on the [APIs.io](https://apis.io/) network, including ACH Transfers API, Wire Transfers API, International Wires API, and 15 more. Tagged areas include Fintech, Banking, Backend-as-a-Service, ACH, and Wires.
 
 
   Column''s developer surface includes sandbox, API reference, changelog, getting-started guide, authentication, engineering blog, and 12 more developer resources.'
@@ -260,7 +260,7 @@ score:
     catalog_gap: 76.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.5
+  delta: 0.0
   facets:
     access_clarity: 19.7
     commercial_clarity: 19.7
@@ -270,7 +270,7 @@ score:
     discoverability: 66.7
     governance: 0.0
     operational_transparency: 44.7
-  previous_composite: 39.0
+  previous_composite: 38.5
   provenance:
     agentic_access: derived
     contracts:
@@ -285,7 +285,7 @@ score:
     regime_id: banking_open_finance
     score: 15.2
   schema_version: 0.17.2
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
   trend: flat
 security:
 - kind: authentication
@@ -300,7 +300,7 @@ slug: column
 tags:
 - Fintech
 - Banking
-- BaaS
+- Backend-as-a-Service
 - ACH
 - Wires
 website: https://column.com/

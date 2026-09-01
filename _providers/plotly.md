@@ -23,7 +23,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 23.2
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
 api_count: 2
 apis:
 - description: A remote Model Context Protocol server published by Plotly that lets AI agents search and read the Dash documentation directly. Exposes list_pages, search_pages and get_page_as_markdown. Authenticated
@@ -34,6 +34,10 @@ apis:
   slug: dash-enterprise-graphql-api
 artifact_total: 10
 common:
+- group: commercial
+  title: ''
+  type: License
+  url: https://github.com/plotly/dds-client/blob/master/LICENSE
 - group: auth
   title: ''
   type: DomainSecurity
@@ -193,7 +197,7 @@ network: true
 overview: 'Plotly publishes 2 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Data Visualization, Analytics, Data Apps, and Business Intelligence.
 
 
-  Plotly''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 29 more developer resources.'
+  Plotly''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 30 more developer resources.'
 plans:
 - name: Plotly Plans Pricing
   plan_count: 3
@@ -231,7 +235,7 @@ score:
     conformance: first-party
     mcp: first-party
   schema_version: 0.17.2
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
   trend: flat
 security:
 - kind: authentication

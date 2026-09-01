@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
 api_count: 1
 apis:
 - description: 'Administrator-facing API for integrating NetBeez network-performance telemetry with external tools. v2 is a JSON API (read-write: create targets, run ad-hoc tests) documented on Postman at api.netbeez'
@@ -102,7 +102,7 @@ modified: '2026-07-20'
 name: Netbeez
 nav: Providers
 network: true
-overview: 'Netbeez publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Infrastructure SaaS, Network Monitoring, Network Performance Monitoring, and Observability.
+overview: 'Netbeez publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Infrastructure Saas, Network Monitoring, Network Performance Monitoring, and Observability.
 
 
   The Netbeez catalog on APIs.io includes 1 event-driven AsyncAPI specification.
@@ -130,7 +130,7 @@ score:
     operational_transparency: 31.6
   previous_composite: 37.7
   schema_version: 0.17.2
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/netbeez/refs/heads/main/screenshots/netbeez-2026-08-07T184928.png
 security:
@@ -145,7 +145,7 @@ security:
 slug: netbeez
 tags:
 - Company
-- Infrastructure SaaS
+- Infrastructure Saas
 - Network Monitoring
 - Network Performance Monitoring
 - Observability

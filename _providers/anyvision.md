@@ -23,7 +23,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
 api_count: 2
 apis:
 - description: Per-deployment REST API and Socket.IO event stream for Oosto OnWatch, the real-time watchlist alerting and person-of-interest monitoring product. Served from the customer's own OnWatch server under th
@@ -138,7 +138,7 @@ modified: '2026-08-06'
 name: AnyVision
 nav: Providers
 network: true
-overview: 'AnyVision publishes 2 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include facial-recognition, computer-vision, video-analytics, physical-security, and access-control.
+overview: 'AnyVision publishes 2 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Facial Recognition, Computer-Vision, Video Analytics, Physical Security, and Access Control.
 
 
   The AnyVision catalog on APIs.io includes 1 event-driven AsyncAPI specification.
@@ -168,7 +168,7 @@ score:
   provenance:
     conformance: first-party
   schema_version: 0.17.2
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/anyvision/refs/heads/main/screenshots/anyvision-2026-08-07T161431.png
 security:
@@ -182,17 +182,17 @@ security:
   summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 slug: anyvision
 tags:
-- facial-recognition
-- computer-vision
-- video-analytics
-- physical-security
-- access-control
-- biometrics
-- surveillance
-- edge-ai
+- Facial Recognition
+- Computer-Vision
+- Video Analytics
+- Physical Security
+- Access Control
+- Biometrics
+- Surveillance
+- Edge AI
 - watchlist-alerting
-- visitor-management
-- israel
+- Visitor Management
+- Israel
 - Company
 website: https://oosto.com/
 ---

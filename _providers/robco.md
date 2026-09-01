@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
 api_count: 0
 artifact_total: 1
 common:
@@ -72,7 +72,7 @@ modified: '2026-07-21'
 name: Robco
 nav: Providers
 network: true
-overview: 'Robco is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Robotics, Industrial Automation, Robotics-as-a-Service, and Manufacturing.
+overview: 'Robco is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Robotics, Industrial Automation, Robotics as a Service, and Manufacturing.
 
 
   Robco''s developer surface includes developer portal, engineering blog, support, and 4 more developer resources.'
@@ -97,7 +97,7 @@ score:
     operational_transparency: 0.0
   previous_composite: 12.6
   schema_version: 0.17.2
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
   trend: flat
 security:
 - kind: domain-security
@@ -109,7 +109,7 @@ tags:
 - Company
 - Robotics
 - Industrial Automation
-- Robotics-as-a-Service
+- Robotics as a Service
 - Manufacturing
 - No-Code
 - Computer-Vision

@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 23.0
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
 api_count: 6
 apis:
 - description: SNU's federated identity provider, entityID https://kafegw.snu.ac.kr/idp/simplesamlphp, registered by the Korea Access Federation (registrationAuthority http://kafe.kreonet.net, registrationInstant 20
@@ -237,7 +237,7 @@ score:
     regime_id: education
     score: 72.2
   schema_version: 0.17.2
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/snu/refs/heads/main/screenshots/snu-2026-06-20T194118.png
 security:

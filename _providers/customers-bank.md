@@ -23,7 +23,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 48.4
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
 agentic_access:
 - acting_count: 84
   human_in_the_loop: 4
@@ -352,7 +352,7 @@ modified: '2026-07-23'
 name: Customers Bank
 nav: Providers
 network: true
-overview: 'Customers Bank publishes 38 APIs on the [APIs.io](https://apis.io/) network, including Account Access API, Account Control Type API, Account Entitlements API, and 35 more. Tagged areas include Financial-Services, Banking, United States, Banking-as-a-Service, and Embedded Finance.
+overview: 'Customers Bank publishes 38 APIs on the [APIs.io](https://apis.io/) network, including Account Access API, Account Control Type API, Account Entitlements API, and 35 more. Tagged areas include Financial-Services, Banking, United States, Banking as a Service, and Embedded Finance.
 
 
   The Customers Bank catalog on APIs.io includes 1 event-driven AsyncAPI specification.
@@ -391,7 +391,7 @@ score:
     regime_id: banking_open_finance
     score: 39.2
   schema_version: 0.17.2
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/customers-bank/refs/heads/main/screenshots/customers-bank-2026-07-25T211012.png
 security:
@@ -408,7 +408,7 @@ tags:
 - Financial-Services
 - Banking
 - United States
-- Banking-as-a-Service
+- Banking as a Service
 - Embedded Finance
 - Payments
 - Commercial Banking

@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 33.1
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
 agentic_access:
 - acting_count: 197
   human_in_the_loop: 5
@@ -4468,7 +4468,7 @@ score:
       marker_coverage: 0.0
       total: 117
   schema_version: 0.17.2
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/merge/refs/heads/main/screenshots/merge-2026-06-20T185219.png
 security:

@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
 api_count: 1
 apis:
 - description: 'Swytchcode''s publicly consumable surfaces: developer documentation and a published llms.txt. The primary interface is an npm-installable CLI plus a local MCP server (localhost-only, not a hosted endpo'
@@ -88,7 +88,7 @@ modified: '2026-06-20'
 name: Swytchcode
 nav: Providers
 network: true
-overview: 'Swytchcode publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include AI agent tooling, agentic middleware, API integration, API orchestration, and API execution layer.
+overview: 'Swytchcode publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include AI / Agent Tooling, agentic middleware, API Integration, API Orchestration, and API execution layer.
 
 
   Swytchcode''s developer surface includes engineering blog and 8 more developer resources.'
@@ -116,7 +116,7 @@ score:
     conformance: first-party
     mcp: first-party
   schema_version: 0.17.2
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
   trend: flat
 security:
 - kind: domain-security
@@ -125,14 +125,14 @@ security:
   summary_line: TLSv1.3 · HSTS · DMARC
 slug: swytchcode
 tags:
-- AI agent tooling
+- AI / Agent Tooling
 - agentic middleware
-- API integration
-- API orchestration
+- API Integration
+- API Orchestration
 - API execution layer
 - LLM tool execution
-- MCP server
+- MCP Server
 - Developer Tools
-- API documentation
+- API Documentation
 - API playground
 ---

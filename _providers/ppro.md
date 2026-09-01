@@ -23,7 +23,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 46.8
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
 api_count: 21
 apis:
 - description: The Authorization Endpoints API from PPRO — 5 operation(s) for authorization endpoints.
@@ -289,7 +289,7 @@ score:
     regime_id: payments
     score: 46.9
   schema_version: 0.17.2
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
   trend: flat
 security:
 - kind: authentication

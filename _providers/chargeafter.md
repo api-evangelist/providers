@@ -23,7 +23,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 60.2
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
 api_count: 26
 apis:
 - description: The Accounts API from ChargeAfter — 10 operation(s) for accounts.
@@ -303,7 +303,7 @@ score:
     regime_id: payments
     score: 32.8
   schema_version: 0.17.2
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/chargeafter/refs/heads/main/screenshots/chargeafter-2026-08-17T080818.png
 security:

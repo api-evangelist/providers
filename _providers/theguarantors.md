@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
 api_count: 1
 apis:
 - description: Partner integration API that enables property management systems and screening providers to embed TheGuarantors Lease Guarantee directly into their rental application and leasing workflow. Supports em
@@ -135,7 +135,7 @@ score:
     regime_id: insurance
     score: 28.8
   schema_version: 0.17.2
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
   trend: flat
 security:
 - kind: domain-security
@@ -149,7 +149,7 @@ tags:
 - Fintech
 - Insurance
 - Real-Estate
-- Rental
+- Rentals
 - PropTech
 - Lease Guarantee
 - Renters Insurance

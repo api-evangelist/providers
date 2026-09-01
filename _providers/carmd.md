@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 37.1
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
 api_count: 3
 apis:
 - description: CarMD's vehicle API (marketed as CarScan) provides access to OBD-II code definitions, vehicle images, repair information and predicted upcoming issues. Registration issues credentials that are sent on
@@ -181,7 +181,7 @@ score:
     operational_transparency: 5.3
   previous_composite: 32.1
   schema_version: 0.17.2
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/carmd/refs/heads/main/screenshots/carmd-2026-06-20T174011.png
 security:

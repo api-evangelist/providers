@@ -23,7 +23,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
 api_count: 0
 artifact_total: 1
 common:
@@ -52,7 +52,7 @@ modified: '2026-07-23'
 name: Vancity
 nav: Providers
 network: true
-overview: 'Vancity is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Financial-Services, Banking, Canada, Credit Union, and Co-operative.
+overview: 'Vancity is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Financial-Services, Banking, Canada, Credit Union, and Cooperative.
 
 
   Vancity''s developer surface includes support and 3 more developer resources.'
@@ -83,7 +83,7 @@ score:
     regime_id: banking_open_finance
     score: 7.6
   schema_version: 0.17.2
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
   trend: flat
 security:
 - kind: domain-security
@@ -96,7 +96,7 @@ tags:
 - Banking
 - Canada
 - Credit Union
-- Co-operative
+- Cooperative
 - Interac
 - Payments
 - Data Aggregation

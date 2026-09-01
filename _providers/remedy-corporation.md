@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
 api_count: 0
 artifact_total: 0
 common:
@@ -48,7 +48,7 @@ modified: '2026-07-21'
 name: Remedy Corporation
 nav: Providers
 network: true
-overview: Remedy Corporation is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, IT Service Management, Enterprise Software, Help Desk, and Acquired.
+overview: Remedy Corporation is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, ITSM, Enterprise Software, Help Desk, and Acquired.
 random_paper: 1
 score:
   band: minimal
@@ -78,12 +78,12 @@ score:
       reason: never_enriched
   previous_composite: 5.0
   schema_version: 0.17.2
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
   trend: flat
 slug: remedy-corporation
 tags:
 - Company
-- IT Service Management
+- ITSM
 - Enterprise Software
 - Help Desk
 - Acquired

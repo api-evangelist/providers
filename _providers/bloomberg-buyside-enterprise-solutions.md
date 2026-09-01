@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 27.3
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
 agentic_access:
 - acting_count: 19
   human_in_the_loop: 0
@@ -327,7 +327,7 @@ score:
     regime_id: securities_market_data
     score: 61.7
   schema_version: 0.17.2
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/bloomberg-buyside-enterprise-solutions/refs/heads/main/screenshots/bloomberg-buyside-enterprise-solutions-2026-07-25T203359.png
 security:

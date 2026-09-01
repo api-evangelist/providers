@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
 api_count: 0
 artifact_total: 1
 common:
@@ -56,7 +56,7 @@ modified: '2026-07-21'
 name: Shpock
 nav: Providers
 network: true
-overview: Shpock is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Classifieds, Marketplace, Second-hand, and E-Commerce.
+overview: Shpock is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Classifieds, Marketplace, Secondhand, and E-Commerce.
 random_paper: 18
 score:
   band: minimal
@@ -78,7 +78,7 @@ score:
     operational_transparency: 0.0
   previous_composite: 6.0
   schema_version: 0.17.2
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
   trend: flat
 security:
 - kind: domain-security
@@ -90,7 +90,7 @@ tags:
 - Company
 - Classifieds
 - Marketplace
-- Second-hand
+- Secondhand
 - E-Commerce
 - Consumer
 - Mobile App

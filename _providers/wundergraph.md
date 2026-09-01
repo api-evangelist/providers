@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 32.4
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
 agentic_access:
 - acting_count: 24
   human_in_the_loop: 0
@@ -146,6 +146,10 @@ collections:
   name: WunderGraph Cosmo Platform Analytics Subgraphs API
   slug: open-wundergraph-subgraphs-api
 common:
+- group: commercial
+  title: ''
+  type: License
+  url: https://github.com/wundergraph/cosmo/blob/main/LICENSE
 - group: operate
   title: ''
   type: StatusPage
@@ -388,7 +392,7 @@ overview: 'WunderGraph publishes 10 APIs on the [APIs.io](https://apis.io/) netw
   The WunderGraph catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
 
 
-  WunderGraph''s developer surface includes changelog, authentication, pricing, engineering blog, CLI, support, documentation, and 31 more developer resources.'
+  WunderGraph''s developer surface includes changelog, authentication, pricing, engineering blog, CLI, support, documentation, and 32 more developer resources.'
 plans:
 - name: Wundergraph Plans Pricing
   plan_count: 3
@@ -437,7 +441,7 @@ score:
       total: 10
     mcp: first-party
   schema_version: 0.17.2
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/wundergraph/refs/heads/main/screenshots/wundergraph-2026-06-20T201655.png
 security:

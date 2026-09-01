@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
 api_count: 0
 artifact_total: 2
 common:
@@ -174,7 +174,7 @@ score:
     operational_transparency: 5.3
   previous_composite: 10.3
   schema_version: 0.17.2
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/1x-robotics/refs/heads/main/screenshots/1x-robotics-2026-06-20T162600.png
 security:
@@ -191,7 +191,7 @@ tags:
 - Embodied AI
 - World Models
 - Foundation Models
-- ROS2
+- ROS 2
 - EVE
 - NEO
 - Home Robotics

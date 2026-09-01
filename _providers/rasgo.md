@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 21.4
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
 api_count: 1
 apis:
 - description: Table metadata operations
@@ -132,7 +132,7 @@ modified: '2026-07-20'
 name: Rasgo
 nav: Providers
 network: true
-overview: 'Rasgo publishes 1 API on the [APIs.io](https://apis.io/) network: Metadata API. Tagged areas include Company, Data Warehouse, Analytics, Artificial Intelligence, and Natural Language.
+overview: 'Rasgo publishes 1 API on the [APIs.io](https://apis.io/) network: Metadata API. Tagged areas include Company, Data Warehouse, Analytics, Artificial Intelligence, and Natural-Language.
 
 
   Rasgo''s developer surface includes documentation, API reference, getting-started guide, signup flow, changelog, authentication, and 12 more developer resources.'
@@ -166,7 +166,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.17.2
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
   trend: flat
 security:
 - kind: authentication
@@ -183,7 +183,7 @@ tags:
 - Data Warehouse
 - Analytics
 - Artificial Intelligence
-- Natural Language
+- Natural-Language
 - Snowflake
 - BigQuery
 - Business Intelligence

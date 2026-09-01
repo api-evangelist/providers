@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -125,7 +125,7 @@ modified: '2026-05-19'
 name: Azure Application Gateway
 nav: Providers
 network: true
-overview: 'Azure Application Gateway publishes 2 APIs on the [APIs.io](https://apis.io/) network: Application Gateways API and Operations API. Tagged areas include Layer 7, Load Balancing, Reverse Proxy, and WAF.
+overview: 'Azure Application Gateway publishes 2 APIs on the [APIs.io](https://apis.io/) network: Application Gateways API and Operations API. Tagged areas include Layer-7, Load Balancing, Reverse Proxy, and WAF.
 
 
   Azure Application Gateway''s developer surface includes authentication, developer portal, pricing, support, engineering blog, and 7 more developer resources.'
@@ -170,7 +170,7 @@ score:
       marker_coverage: 0.0
       total: 2
   schema_version: 0.17.2
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-application-gateway/refs/heads/main/screenshots/microsoft-azure-application-gateway-2026-06-20T185354.png
 security:
@@ -184,7 +184,7 @@ security:
   summary_line: TLSv1.3 · HSTS · DMARC
 slug: microsoft-azure-application-gateway
 tags:
-- Layer 7
+- Layer-7
 - Load Balancing
 - Reverse Proxy
 - WAF

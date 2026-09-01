@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
 api_count: 0
 artifact_total: 1
 common:
@@ -56,7 +56,7 @@ modified: '2026-07-20'
 name: Privitar
 nav: Providers
 network: true
-overview: Privitar is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Big Data, Data Privacy, De-identification, and Data Governance.
+overview: Privitar is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Big Data, Data Privacy, De-Identification, and Data Governance.
 random_paper: 20
 score:
   band: minimal
@@ -78,7 +78,7 @@ score:
     operational_transparency: 0.0
   previous_composite: 5.0
   schema_version: 0.17.2
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
   trend: flat
 security:
 - kind: domain-security
@@ -90,7 +90,7 @@ tags:
 - Company
 - Big Data
 - Data Privacy
-- De-identification
+- De-Identification
 - Data Governance
 - Data Anonymization
 - Acquired

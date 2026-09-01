@@ -23,7 +23,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
 api_count: 1
 apis:
 - description: RESTful API marketed to lenders for integrating loan portfolios with Clerkie's recovery platform — payment arrangement recommendations, multi-currency payment processing, delinquency intervention, and
@@ -92,7 +92,7 @@ modified: '2026-08-09'
 name: Clerkie
 nav: Providers
 network: true
-overview: 'Clerkie publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Fintech, debt-management, Lending, and loan-servicing.
+overview: 'Clerkie publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Fintech, Debt Management, Lending, and Loan Servicing.
 
 
   Clerkie''s developer surface includes developer portal, engineering blog, signup flow, and 6 more developer resources.'
@@ -125,7 +125,7 @@ score:
     regime_id: payments
     score: 29.7
   schema_version: 0.17.2
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
   trend: flat
 security:
 - kind: domain-security
@@ -136,15 +136,15 @@ slug: clerkie
 tags:
 - Company
 - Fintech
-- debt-management
+- Debt Management
 - Lending
-- loan-servicing
-- debt-collection
+- Loan Servicing
+- Debt Collection
 - Payments
 - Credit
 - Financial-Services
-- personal-finance
-- ai-agent
-- consumer-finance
+- Personal Finance
+- AI Agent
+- Consumer Finance
 website: https://www.clerkie.io/
 ---

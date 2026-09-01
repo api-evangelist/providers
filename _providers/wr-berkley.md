@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
 api_count: 0
 artifact_total: 2
 common:
@@ -73,7 +73,7 @@ modified: '2026-05-03'
 name: W. R. Berkley
 nav: Providers
 network: true
-overview: 'W. R. Berkley is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Insurance, Property And Casualty, Commercial Lines, Reinsurance, and Workers Compensation.
+overview: 'W. R. Berkley is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Insurance, Property and Casualty, Commercial Lines, Reinsurance, and Workers Compensation.
 
 
   The W. R. Berkley catalog on APIs.io includes 1 JSON-LD context.
@@ -123,7 +123,7 @@ score:
     regime_id: insurance
     score: 16.7
   schema_version: 0.17.2
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/wr-berkley/refs/heads/main/screenshots/wr-berkley-2026-06-20T201630.png
 security:
@@ -134,7 +134,7 @@ security:
 slug: wr-berkley
 tags:
 - Insurance
-- Property And Casualty
+- Property and Casualty
 - Commercial Lines
 - Reinsurance
 - Workers Compensation

@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 2.5
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
 api_count: 2
 apis:
 - description: The Sliplane Control API is a REST API at https://ctrl.sliplane.io/v0 for programmatically managing organizations, projects, services, deployments, custom domains, registry credentials, servers, volum
@@ -156,7 +156,7 @@ modified: '2026-05-25'
 name: Sliplane
 nav: Providers
 network: true
-overview: 'Sliplane publishes 2 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Container Hosting, Docker Hosting, Container As A Service, Platform As A Service, and Push To Deploy.
+overview: 'Sliplane publishes 2 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Container Hosting, Docker Hosting, Container As A Service, Platform-as-a-Service, and Push To Deploy.
 
 
   Sliplane''s developer surface includes pricing, documentation, API reference, tooling, engineering blog, changelog, status page, and 19 more developer resources.'
@@ -184,7 +184,7 @@ score:
     score: 0.0
   previous_composite: 24.5
   schema_version: 0.17.2
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/sliplane/refs/heads/main/screenshots/sliplane-2026-06-20T194030.png
 security:
@@ -201,7 +201,7 @@ tags:
 - Container Hosting
 - Docker Hosting
 - Container As A Service
-- Platform As A Service
+- Platform-as-a-Service
 - Push To Deploy
 - Cloud Infrastructure
 - European Cloud

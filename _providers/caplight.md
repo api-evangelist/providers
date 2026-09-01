@@ -23,7 +23,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 62.3
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -265,7 +265,7 @@ modified: '2026-08-09'
 name: Caplight
 nav: Providers
 network: true
-overview: 'Caplight publishes 16 APIs on the [APIs.io](https://apis.io/) network, including Companies API, Company API, Company Details API, and 13 more. Tagged areas include private-markets, secondary-market, Market Data, venture-capital, and company-data.
+overview: 'Caplight publishes 16 APIs on the [APIs.io](https://apis.io/) network, including Companies API, Company API, Company Details API, and 13 more. Tagged areas include Private Markets, Secondary Market, Market Data, Venture Capital, and Company Data.
 
 
   Caplight''s developer surface includes documentation, API reference, getting-started guide, engineering blog, signup flow, changelog, authentication, and 21 more developer resources.'
@@ -278,7 +278,7 @@ score:
     catalog_gap: 78.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.6
+  delta: 0.0
   facets:
     access_clarity: 27.6
     commercial_clarity: 27.6
@@ -294,7 +294,7 @@ score:
     reasons:
     - owner: catalog
       reason: venue_as_website
-  previous_composite: 40.4
+  previous_composite: 39.8
   provenance:
     agentic_access: derived
     conformance: derived
@@ -312,7 +312,7 @@ score:
     regime_id: securities_market_data
     score: 41.7
   schema_version: 0.17.2
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/caplight/refs/heads/main/screenshots/caplight-2026-08-17T080811.png
 security:
@@ -326,14 +326,14 @@ security:
   summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 slug: caplight
 tags:
-- private-markets
-- secondary-market
+- Private Markets
+- Secondary Market
 - Market Data
-- venture-capital
-- company-data
+- Venture Capital
+- Company Data
 - investor-data
-- funding-rounds
-- pricing-data
+- Funding Rounds
+- Pricing Data
 - Financial Data
 - Fintech
 - MCP

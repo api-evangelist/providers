@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
 agentic_access:
 - acting_count: 10
   human_in_the_loop: 3
@@ -164,7 +164,7 @@ modified: '2026-04-28'
 name: Dify
 nav: Providers
 network: true
-overview: 'Dify publishes 6 APIs on the [APIs.io](https://apis.io/) network, including Chat API, Completion API, Conversations API, and 3 more. Tagged areas include Artificial Intelligence, Backend-As-A-Service, and LLMOps.
+overview: 'Dify publishes 6 APIs on the [APIs.io](https://apis.io/) network, including Chat API, Completion API, Conversations API, and 3 more. Tagged areas include Artificial Intelligence, Backend-as-a-Service, and LLMOps.
 
 
   Dify''s developer surface includes authentication, pricing, documentation, engineering blog, and 11 more developer resources.'
@@ -185,7 +185,7 @@ score:
     catalog_gap: 79.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.6
+  delta: 0.0
   facets:
     access_clarity: 55.3
     commercial_clarity: 55.3
@@ -201,7 +201,7 @@ score:
     reasons:
     - owner: catalog
       reason: no_resolvable_host
-  previous_composite: 36.1
+  previous_composite: 35.5
   provenance:
     agentic_access: derived
     contracts:
@@ -210,7 +210,7 @@ score:
       marker_coverage: 0.0
       total: 6
   schema_version: 0.17.2
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/dify/refs/heads/main/screenshots/dify-2026-06-20T180051.png
 security:
@@ -229,7 +229,7 @@ security:
 slug: dify
 tags:
 - Artificial Intelligence
-- Backend-As-A-Service
+- Backend-as-a-Service
 - LLMOps
 website: https://dify.ai/
 ---

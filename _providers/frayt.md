@@ -23,7 +23,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 33.3
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
 agentic_access:
 - acting_count: 7
   human_in_the_loop: 7
@@ -128,7 +128,7 @@ modified: '2026-08-16'
 name: FRAYT
 nav: Providers
 network: true
-overview: 'FRAYT publishes 3 APIs on the [APIs.io](https://apis.io/) network: match estimates API, Matches API, and OAUTH API. Tagged areas include Company, Last Mile Delivery, Logistics, Courier, and On Demand Delivery.
+overview: 'FRAYT publishes 3 APIs on the [APIs.io](https://apis.io/) network: match estimates API, Matches API, and OAUTH API. Tagged areas include Company, Last Mile Delivery, Logistics, Couriers, and On-Demand Delivery.
 
 
   The FRAYT catalog on APIs.io includes 1 event-driven AsyncAPI specification.
@@ -174,7 +174,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.17.2
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
   trend: flat
 security:
 - kind: authentication
@@ -190,8 +190,8 @@ tags:
 - Company
 - Last Mile Delivery
 - Logistics
-- Courier
-- On Demand Delivery
+- Couriers
+- On-Demand Delivery
 - Shipping
 - Freight
 - Supply Chain

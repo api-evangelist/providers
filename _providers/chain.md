@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 10.1
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
 api_count: 1
 apis:
 - description: Chain's unified REST API for stablecoin payments (funding, payouts, payees), card issuing, wallets, and a double-entry ledger. Bearer API-key auth with sandbox and live key prefixes (sk_sandbox_ / sk_
@@ -141,7 +141,7 @@ modified: '2026-07-18'
 name: Chain
 nav: Providers
 network: true
-overview: 'Chain publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Payments, Stablecoin, Cryptocurrency, and Blockchain.
+overview: 'Chain publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Payments, Stablecoins, Cryptocurrency, and Blockchain.
 
 
   Chain''s developer surface includes documentation, API reference, getting-started guide, authentication, sandbox, engineering blog, support, and 16 more developer resources.'
@@ -172,7 +172,7 @@ score:
     regime_id: payments
     score: 31.3
   schema_version: 0.17.2
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/chain/refs/heads/main/screenshots/chain-2026-07-25T205022.png
 security:
@@ -188,7 +188,7 @@ slug: chain
 tags:
 - Company
 - Payments
-- Stablecoin
+- Stablecoins
 - Cryptocurrency
 - Blockchain
 - Financial-Services

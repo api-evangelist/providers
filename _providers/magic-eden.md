@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 24.0
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
 agentic_access:
 - acting_count: 25
   human_in_the_loop: 0
@@ -438,7 +438,7 @@ score:
       marker_coverage: 0.0
       total: 24
   schema_version: 0.17.2
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/magic-eden/refs/heads/main/screenshots/magic-eden-2026-06-20T184844.png
 security:
@@ -465,7 +465,7 @@ tags:
 - Bitcoin
 - Ordinals
 - Runes
-- Multi-chain
+- Multi-Chain
 use_cases:
 - description: Retrieve tokens owned by a wallet and activity history to build a multi-chain NFT portfolio dashboard
   name: NFT Portfolio Tracker

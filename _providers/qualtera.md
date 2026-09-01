@@ -23,7 +23,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
 api_count: 0
 artifact_total: 0
 common:
@@ -69,7 +69,7 @@ modified: '2026-08-17'
 name: Qualtera
 nav: Providers
 network: true
-overview: 'Qualtera is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Defunct, Acquired, Semiconductor, and Manufacturing Analytics.
+overview: 'Qualtera is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Defunct, Acquired, Semiconductors, and Manufacturing Analytics.
 
 
   Qualtera''s developer surface includes product news and 3 more developer resources.'
@@ -102,14 +102,14 @@ score:
       reason: never_enriched
   previous_composite: 4.6
   schema_version: 0.17.2
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
   trend: flat
 slug: qualtera
 tags:
 - Company
 - Defunct
 - Acquired
-- Semiconductor
+- Semiconductors
 - Manufacturing Analytics
 - Test Data
 - Yield Management

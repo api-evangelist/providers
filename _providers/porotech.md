@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
 api_count: 0
 artifact_total: 0
 common:
@@ -68,7 +68,7 @@ modified: '2026-07-20'
 name: Porotech
 nav: Providers
 network: true
-overview: Porotech is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, MicroLED, Display, Semiconductor, and GaN.
+overview: Porotech is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Micro-LED, Display, Semiconductors, and GaN.
 random_paper: 7
 score:
   band: minimal
@@ -96,14 +96,14 @@ score:
       reason: never_enriched
   previous_composite: 5.0
   schema_version: 0.17.2
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
   trend: flat
 slug: porotech
 tags:
 - Company
-- MicroLED
+- Micro-LED
 - Display
-- Semiconductor
+- Semiconductors
 - GaN
 - Gallium Nitride
 - Deep Tech

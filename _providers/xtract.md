@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
 api_count: 0
 artifact_total: 0
 common:
@@ -48,7 +48,7 @@ modified: '2026-07-21'
 name: Xtract
 nav: Providers
 network: true
-overview: Xtract is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Saas, Analytics, Social Intelligence, and Telecom.
+overview: Xtract is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Software-as-a-Service, Analytics, Social Intelligence, and Telecom.
 random_paper: 11
 score:
   band: minimal
@@ -82,12 +82,12 @@ score:
     regime_id: telecommunications
     score: 0.0
   schema_version: 0.17.2
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
   trend: flat
 slug: xtract
 tags:
 - Company
-- Saas
+- Software-as-a-Service
 - Analytics
 - Social Intelligence
 - Telecom

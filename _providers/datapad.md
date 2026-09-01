@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
 api_count: 0
 artifact_total: 3
 common:
@@ -139,7 +139,7 @@ score:
   provenance:
     conformance: first-party
   schema_version: 0.17.2
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/datapad/refs/heads/main/screenshots/datapad-2026-07-25T211346.png
 security:
@@ -162,7 +162,7 @@ tags:
 - Artificial Intelligence
 - Data
 - Business Intelligence
-- Natural Language
+- Natural-Language
 - Dashboards
 - Software-as-a-Service
 website: https://datapad.io

@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 26.3
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
 api_count: 5
 apis:
 - description: Persistent URLs into the Stanford Digital Repository. GET /{druid} returns HTML, /{druid}.xml returns the cocina publicObject document, /{druid}.mods returns MODS 3.7. Open, no credential. Verified li
@@ -117,6 +117,10 @@ apis:
   slug: stanford-workspaces-api
 artifact_total: 43
 common:
+- group: commercial
+  title: ''
+  type: License
+  url: https://github.com/SU-SWS/cap-api/blob/master/LICENSE
 - group: company
   title: ''
   type: Website
@@ -311,7 +315,7 @@ overview: 'Stanford University publishes 16 APIs on the [APIs.io](https://apis.i
   The Stanford University catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
 
 
-  Stanford University''s developer surface includes API reference, documentation, GitHub presence, authentication, status page, support, code examples, and 29 more developer resources.'
+  Stanford University''s developer surface includes API reference, documentation, GitHub presence, authentication, status page, support, code examples, and 30 more developer resources.'
 plans:
 - name: Stanford Plans Pricing
   plan_count: 2
@@ -370,7 +374,7 @@ score:
     regime_id: education
     score: 74.1
   schema_version: 0.17.2
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/stanford/refs/heads/main/screenshots/stanford-2026-06-20T194502.png
 security:

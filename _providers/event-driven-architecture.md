@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
 api_count: 0
 artifact_total: 0
 common:
@@ -102,7 +102,7 @@ score:
       reason: never_enriched
   previous_composite: 6.4
   schema_version: 0.17.2
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/event-driven-architecture/refs/heads/main/screenshots/event-driven-architecture-2026-06-20T180859.png
 slug: event-driven-architecture
@@ -112,7 +112,7 @@ tags:
 - Asynchronous
 - CloudEvents
 - Distributed Systems
-- Event Driven
+- Event-Driven
 - Messaging
 - Streaming
 ---

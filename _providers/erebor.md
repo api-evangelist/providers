@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 5.4
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
 api_count: 1
 apis:
 - description: Erebor's developer API for programmatic access to banking, money-movement, and stablecoin operations. The gateway at api.erebor.bank authenticates requests with an API key and returns a structured JSO
@@ -105,7 +105,7 @@ modified: '2026-07-19'
 name: Erebor
 nav: Providers
 network: true
-overview: 'Erebor publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Fintech, Banking, Digital Bank, and Stablecoin.
+overview: 'Erebor publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Fintech, Banking, Digital Bank, and Stablecoins.
 
 
   Erebor''s developer surface includes documentation, API reference, signup flow, authentication, sandbox, and 9 more developer resources.'
@@ -138,7 +138,7 @@ score:
     regime_id: banking_open_finance
     score: 21.5
   schema_version: 0.17.2
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/erebor/refs/heads/main/screenshots/erebor-2026-07-25T213607.png
 security:
@@ -156,7 +156,7 @@ tags:
 - Fintech
 - Banking
 - Digital Bank
-- Stablecoin
+- Stablecoins
 - Cryptocurrency
 - Payments
 - Financial-Services

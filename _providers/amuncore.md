@@ -24,7 +24,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 41.5
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -199,7 +199,7 @@ modified: '2026-08-10'
 name: AmunCore
 nav: Providers
 network: true
-overview: 'AmunCore publishes 1 API on the [APIs.io](https://apis.io/) network: Dynamic API. Tagged areas include Database, API Management, Backend, No Code, and SQL.
+overview: 'AmunCore publishes 1 API on the [APIs.io](https://apis.io/) network: Dynamic API. Tagged areas include Database, API Management, Backend, No-Code, and SQL.
 
 
   The AmunCore catalog on APIs.io includes 1 event-driven AsyncAPI specification.
@@ -256,7 +256,7 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.17.2
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/amuncore/refs/heads/main/screenshots/amuncore-2026-08-07T161347.png
 security:
@@ -277,7 +277,7 @@ tags:
 - Database
 - API Management
 - Backend
-- No Code
+- No-Code
 - SQL
 - PostgreSQL
 - MySQL
@@ -288,7 +288,7 @@ tags:
 - SQL Server
 - Webhook
 - OpenAPI
-- Low Code
+- Low-Code
 - Egypt
 website: https://amuncore.com
 ---

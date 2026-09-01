@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
 agentic_access:
 - acting_count: 25
   human_in_the_loop: 1
@@ -1123,7 +1123,7 @@ modified: '2026-05-19'
 name: AWS CloudWatch
 nav: Providers
 network: true
-overview: 'AWS CloudWatch publishes 6 APIs on the [APIs.io](https://apis.io/) network, including Alarms API, Anomaly Detection API, Composite Alarms API, and 3 more. Tagged areas include Alarms, Aws, Dashboards, Logs, and Metrics.
+overview: 'AWS CloudWatch publishes 6 APIs on the [APIs.io](https://apis.io/) network, including Alarms API, Anomaly Detection API, Composite Alarms API, and 3 more. Tagged areas include Alarms, Dashboards, Logs, Metrics, and Monitoring.
 
 
   The AWS CloudWatch catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
@@ -1169,7 +1169,7 @@ score:
     catalog_gap: 49.5
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.5
+  delta: 0.0
   facets:
     access_clarity: 44.7
     commercial_clarity: 44.7
@@ -1179,7 +1179,7 @@ score:
     discoverability: 59.3
     governance: 28.8
     operational_transparency: 39.5
-  previous_composite: 55.3
+  previous_composite: 54.8
   provenance:
     agentic_access: derived
     contracts:
@@ -1188,7 +1188,7 @@ score:
       marker_coverage: 0.0
       total: 6
   schema_version: 0.17.2
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/cloudwatch/refs/heads/main/screenshots/cloudwatch-2026-06-20T174619.png
 security:
@@ -1211,7 +1211,6 @@ security:
 slug: cloudwatch
 tags:
 - Alarms
-- Aws
 - Dashboards
 - Logs
 - Metrics

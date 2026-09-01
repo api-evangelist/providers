@@ -23,7 +23,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 36.3
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
 api_count: 2
 apis:
 - description: REST API for public Twitter/X data with X-API-Key auth, JSON responses, and 76 documented endpoints across users, tweets, posting, interactions, lists, profiles, communities, Spaces, search, auth, X C
@@ -169,7 +169,7 @@ modified: '2026-08-11'
 name: TweetAPI
 nav: Providers
 network: true
-overview: 'TweetAPI publishes 2 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Twitter, x, social-media, social-data, and Search.
+overview: 'TweetAPI publishes 2 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include twitter, X, Social-Media, Social Data, and Search.
 
 
   TweetAPI''s developer surface includes documentation, API reference, getting-started guide, engineering blog, support, pricing, signup flow, and 23 more developer resources.'
@@ -211,7 +211,7 @@ score:
     mcp: first-party
     skills: first-party
   schema_version: 0.17.2
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/tweetapi/refs/heads/main/screenshots/tweetapi-2026-08-17T082504.png
 security:
@@ -229,13 +229,13 @@ security:
   summary_line: security.txt · contact published
 slug: tweetapi
 tags:
-- Twitter
-- x
-- social-media
-- social-data
+- twitter
+- X
+- Social-Media
+- Social Data
 - Search
 - Analytics
-- research
+- Research
 - Developer Tools
 - MCP
 - agent-native

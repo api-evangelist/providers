@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 2.5
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
 api_count: 0
 artifact_total: 3
 common:
@@ -96,7 +96,7 @@ modified: '2026-08-12'
 name: 451 Degrees
 nav: Providers
 network: true
-overview: '451 Degrees is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Artificial Intelligence, Ad Tech, Brand Safety, and Contextual Advertising.
+overview: '451 Degrees is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Artificial Intelligence, AdTech, Brand Safety, and Contextual Advertising.
 
 
   451 Degrees'' developer surface includes support and 8 more developer resources.'
@@ -131,7 +131,7 @@ score:
   provenance:
     conformance: first-party
   schema_version: 0.17.2
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/451-degrees/refs/heads/main/screenshots/451-degrees-2026-07-25T181204.png
 security:
@@ -143,7 +143,7 @@ slug: 451-degrees
 tags:
 - Company
 - Artificial Intelligence
-- Ad Tech
+- AdTech
 - Brand Safety
 - Contextual Advertising
 - Content Moderation

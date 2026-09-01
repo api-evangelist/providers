@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
 api_count: 0
 artifact_total: 1
 common:
@@ -76,7 +76,7 @@ modified: '2026-07-18'
 name: checkout51
 nav: Providers
 network: true
-overview: 'checkout51 is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Cash Back, Rewards, Grocery, and Retail.
+overview: 'checkout51 is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Cashback, Rewards, Grocery, and Retail.
 
 
   checkout51''s developer surface includes support, getting-started guide, signup flow, and 5 more developer resources.'
@@ -101,7 +101,7 @@ score:
     operational_transparency: 0.0
   previous_composite: 15.2
   schema_version: 0.17.2
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/checkout51/refs/heads/main/screenshots/checkout51-2026-07-25T205132.png
 security:
@@ -112,7 +112,7 @@ security:
 slug: checkout51
 tags:
 - Company
-- Cash Back
+- Cashback
 - Rewards
 - Grocery
 - Retail

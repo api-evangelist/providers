@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
 api_count: 0
 artifact_total: 0
 created: '2026-07-17'
@@ -43,7 +43,7 @@ modified: '2026-07-20'
 name: Omniata
 nav: Providers
 network: true
-overview: Omniata is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company and Saas.
+overview: Omniata is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company and Software-as-a-Service.
 random_paper: 10
 score:
   band: minimal
@@ -73,10 +73,10 @@ score:
       reason: never_enriched
   previous_composite: 4.1
   schema_version: 0.17.2
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
   trend: flat
 slug: omniata
 tags:
 - Company
-- Saas
+- Software-as-a-Service
 ---

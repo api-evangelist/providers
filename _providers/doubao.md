@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 0
@@ -138,7 +138,7 @@ modified: '2026-05-08'
 name: ByteDance Doubao
 nav: Providers
 network: true
-overview: 'ByteDance Doubao publishes 5 APIs on the [APIs.io](https://apis.io/) network, including Batch API, Chat API, Embeddings API, and 2 more. Tagged areas include Artificial Intelligence, LLM, Inference, ByteDance, and Multimodal.
+overview: 'ByteDance Doubao publishes 5 APIs on the [APIs.io](https://apis.io/) network, including Batch API, Chat API, Embeddings API, and 2 more. Tagged areas include Artificial Intelligence, LLM, Inference, ByteDance, and Multi-Modal.
 
 
   ByteDance Doubao''s developer surface includes authentication, documentation, and 8 more developer resources.'
@@ -159,7 +159,7 @@ score:
     catalog_gap: 70.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.6
+  delta: 0.0
   facets:
     access_clarity: 23.7
     commercial_clarity: 23.7
@@ -169,7 +169,7 @@ score:
     discoverability: 68.5
     governance: 0.0
     operational_transparency: 7.9
-  previous_composite: 31.5
+  previous_composite: 30.9
   provenance:
     agentic_access: derived
     contracts:
@@ -178,7 +178,7 @@ score:
       marker_coverage: 0.0
       total: 5
   schema_version: 0.17.2
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/doubao/refs/heads/main/screenshots/doubao-2026-06-20T180218.png
 security:
@@ -200,7 +200,7 @@ tags:
 - LLM
 - Inference
 - ByteDance
-- Multimodal
+- Multi-Modal
 - Volcano Engine
 website: https://www.volcengine.com/product/doubao
 ---

@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 21.9
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
 agentic_access:
 - acting_count: 12
   human_in_the_loop: 0
@@ -373,7 +373,7 @@ modified: '2026-05-19'
 name: Choreo
 nav: Providers
 network: true
-overview: 'Choreo publishes 16 APIs on the [APIs.io](https://apis.io/) network, including Alerts API, Apis API, Application Keys API, and 13 more. Tagged areas include AI Apps, API Management, CI/CD, Cloud-Native, and DevOps.
+overview: 'Choreo publishes 16 APIs on the [APIs.io](https://apis.io/) network, including Alerts API, Apis API, Application Keys API, and 13 more. Tagged areas include Ai Apps, API Management, CI/CD, Cloud-Native, and DevOps.
 
 
   The Choreo catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
@@ -432,7 +432,7 @@ score:
       marker_coverage: 0.0
       total: 16
   schema_version: 0.17.2
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/choreo/refs/heads/main/screenshots/choreo-2026-06-20T174326.png
 security:
@@ -454,7 +454,7 @@ security:
   summary_line: SOC 2, ISO 27001, PCI DSS, HIPAA, GDPR
 slug: choreo
 tags:
-- AI Apps
+- Ai Apps
 - API Management
 - CI/CD
 - Cloud-Native
@@ -468,7 +468,7 @@ tags:
 - Observability
 - Orchestration
 - Platform Engineering
-- Pro-Code API Composition
+- Pro-Code-API-Composition
 - Unified
 - WSO2
 - Workflows

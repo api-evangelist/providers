@@ -23,7 +23,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 35.5
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
 api_count: 1
 apis:
 - description: The OpenBao HTTP API gives full access to every OpenBao capability over REST-like HTTP verbs. All routes are prefixed with /v1/ and the API is versioned only at that prefix. Authentication is by clien
@@ -188,7 +188,7 @@ score:
     operational_transparency: 50.0
   previous_composite: 49.9
   schema_version: 0.17.2
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
   trend: flat
 security:
 - kind: authentication

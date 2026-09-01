@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 8.8
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
 api_count: 1
 apis:
 - description: The Ematic Solutions Core API is a RESTful, JSON-only web service (labelled "beta" by Ematic) that lets an e-commerce site record product events — browse, cart, checkout and conversion — plus batch ev
@@ -153,7 +153,7 @@ modified: '2026-08-13'
 name: Ematic Solutions
 nav: Providers
 network: true
-overview: 'Ematic Solutions publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Marketing, Digital Marketing, Marketing Technology, and Martech.
+overview: 'Ematic Solutions publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Marketing, Digital Marketing, Marketing Technology, and MarTech.
 
 
   Ematic Solutions'' developer surface includes documentation, API reference, getting-started guide, engineering blog, support, authentication, and 19 more developer resources.'
@@ -190,7 +190,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.17.2
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/ematic-solutions/refs/heads/main/screenshots/ematic-solutions-2026-07-25T213225.png
 security:
@@ -208,7 +208,7 @@ tags:
 - Marketing
 - Digital Marketing
 - Marketing Technology
-- Martech
+- MarTech
 - Email Marketing
 - CRM
 - E-Commerce

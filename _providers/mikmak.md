@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 33.1
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
 api_count: 4
 apis:
 - description: MikMak Aura provides real-time intelligence, fueled by AI, to connect marketing spend across channels to actual sales performance at retailers.
@@ -267,7 +267,7 @@ modified: '2026-08-12'
 name: MikMak
 nav: Providers
 network: true
-overview: 'MikMak publishes 11 APIs on the [APIs.io](https://apis.io/) network, including Authentication API, Availabilities API, Cart API, and 8 more. Tagged areas include Analytics, Commerce, E-Commerce, Multichannel, and Retail Media.
+overview: 'MikMak publishes 11 APIs on the [APIs.io](https://apis.io/) network, including Authentication API, Availabilities API, Cart API, and 8 more. Tagged areas include Analytics, Commerce, E-Commerce, Multi-Channel, and Retail Media.
 
 
   MikMak''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, changelog, authentication, and 33 more developer resources.'
@@ -314,7 +314,7 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.17.2
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/mikmak/refs/heads/main/screenshots/mikmak-2026-06-20T185553.png
 security:
@@ -335,13 +335,13 @@ tags:
 - Analytics
 - Commerce
 - E-Commerce
-- Multichannel
+- Multi-Channel
 - Retail Media
 - Where to Buy
 - Shoppable Media
 - Product Availability
 - MCP
-- Agent Native
+- agent-native
 - Reporting
 - CPG
 website: https://www.mikmak.com

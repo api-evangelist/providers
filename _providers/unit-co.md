@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 32.8
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
 agentic_access:
 - acting_count: 73
   human_in_the_loop: 8
@@ -446,7 +446,7 @@ modified: '2026-08-08'
 name: Unit
 nav: Providers
 network: true
-overview: 'Unit publishes 17 APIs on the [APIs.io](https://apis.io/) network, including Accounts API, API Tokens API, Applications API, and 14 more. Tagged areas include Fintech, BaaS, Banking, Payments, and Card Issuing.
+overview: 'Unit publishes 17 APIs on the [APIs.io](https://apis.io/) network, including Accounts API, API Tokens API, Applications API, and 14 more. Tagged areas include Fintech, Backend-as-a-Service, Banking, Payments, and Card Issuing.
 
 
   The Unit catalog on APIs.io includes 1 event-driven AsyncAPI specification.
@@ -503,7 +503,7 @@ score:
     regime_id: payments
     score: 84.4
   schema_version: 0.17.2
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/unit-co/refs/heads/main/screenshots/unit-co-2026-06-20T200056.png
 security:
@@ -526,7 +526,7 @@ security:
 slug: unit-co
 tags:
 - Fintech
-- BaaS
+- Backend-as-a-Service
 - Banking
 - Payments
 - Card Issuing

@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 15.1
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
 api_count: 0
 artifact_total: 5
 common:
@@ -145,7 +145,7 @@ modified: '2026-07-18'
 name: Articulate
 nav: Providers
 network: true
-overview: 'Articulate is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Edtech, E-Learning, Learning Management, and Training.
+overview: 'Articulate is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, EdTech, E-Learning, Learning Management, and Training.
 
 
   Articulate''s developer surface includes documentation, support, engineering blog, pricing, signup flow, authentication, and 19 more developer resources.'
@@ -189,7 +189,7 @@ score:
     regime_id: education
     score: 85.2
   schema_version: 0.17.2
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/articulate/refs/heads/main/screenshots/articulate-2026-07-25T201329.png
 security:
@@ -212,7 +212,7 @@ security:
 slug: articulate
 tags:
 - Company
-- Edtech
+- EdTech
 - E-Learning
 - Learning Management
 - Training

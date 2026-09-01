@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 9.6
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
 api_count: 1
 apis:
 - description: The Specific control plane and CLI that builds, deploys and runs agent-defined infrastructure from a single specific.hcl file, spanning local development and production on Specific Cloud.
@@ -141,7 +141,7 @@ modified: '2026-07-21'
 name: Specific
 nav: Providers
 network: true
-overview: 'Specific publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Infrastructure, Infrastructure as Code, Platform-as-a-Service, and Backend as a Service.
+overview: 'Specific publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Infrastructure, Infrastructure as Code, Platform-as-a-Service, and Backend-as-a-Service.
 
 
   Specific''s developer surface includes documentation, getting-started guide, engineering blog, pricing, signup flow, changelog, CLI, and 15 more developer resources.'
@@ -169,7 +169,7 @@ score:
     mcp: first-party
     skills: first-party
   schema_version: 0.17.2
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
   trend: flat
 security:
 - kind: authentication
@@ -186,7 +186,7 @@ tags:
 - Infrastructure
 - Infrastructure as Code
 - Platform-as-a-Service
-- Backend as a Service
+- Backend-as-a-Service
 - Coding Agents
 - Deployment
 - PostgreSQL

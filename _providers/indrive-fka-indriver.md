@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
 api_count: 0
 artifact_total: 1
 common:
@@ -80,7 +80,7 @@ modified: '2026-07-19'
 name: InDrive (fka inDriver)
 nav: Providers
 network: true
-overview: 'InDrive (fka inDriver) is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Mobility, Ride-Hailing, Transportation, and Delivery.
+overview: 'InDrive (fka inDriver) is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Mobility, Ride Hailing, Transportation, and Delivery.
 
 
   InDrive (fka inDriver)''s developer surface includes engineering blog and 8 more developer resources.'
@@ -105,7 +105,7 @@ score:
     operational_transparency: 2.6
   previous_composite: 10.8
   schema_version: 0.17.2
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
   trend: flat
 security:
 - kind: domain-security
@@ -116,7 +116,7 @@ slug: indrive-fka-indriver
 tags:
 - Company
 - Mobility
-- Ride-Hailing
+- Ride Hailing
 - Transportation
 - Delivery
 - Super App

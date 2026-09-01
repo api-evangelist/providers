@@ -23,7 +23,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 36.9
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
 api_count: 1
 apis:
 - description: 'The TCS northbound REST API is how operators wire the Tarana Cloud Suite into their own OSS/BSS: device inventory, network topology discovery and geo-mapping, subscriber provisioning, billing integrat'
@@ -217,7 +217,7 @@ score:
     regime_id: telecommunications
     score: 43.1
   schema_version: 0.17.2
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
   trend: flat
 security:
 - kind: authentication

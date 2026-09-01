@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 2.5
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
 api_count: 4
 apis:
 - description: Deliver rich document interactions directly in the browser including PDF rendering, annotation, form filling, and signature collection.
@@ -130,7 +130,7 @@ modified: '2026-04-28'
 name: Nutrient.io
 nav: Providers
 network: true
-overview: 'Nutrient.io publishes 4 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Documents, PDF, Document Processing, eSignature, and Accessibility.
+overview: 'Nutrient.io publishes 4 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Documents, PDF, Document Processing, E-Signature, and Accessibility.
 
 
   Nutrient.io''s developer surface includes documentation, getting-started guide, pricing, engineering blog, signup flow, support, and 11 more developer resources.'
@@ -163,7 +163,7 @@ score:
     operational_transparency: 10.5
   previous_composite: 23.9
   schema_version: 0.17.2
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/nutrient-io/refs/heads/main/screenshots/nutrient-io-2026-06-20T190530.png
 security:
@@ -180,7 +180,7 @@ tags:
 - Documents
 - PDF
 - Document Processing
-- eSignature
+- E-Signature
 - Accessibility
 - OCR
 website: https://www.nutrient.io

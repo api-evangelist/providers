@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
 api_count: 13
 apis:
 - description: Official Python SDK for the QUA pulse-level programming language. Provides the QuantumMachinesManager client, qua DSL (program, declare, play, measure, wait, save, stream_processing, math, casting, ra
@@ -202,7 +202,7 @@ score:
     operational_transparency: 21.1
   previous_composite: 14.0
   schema_version: 0.17.2
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/quantum-machines/refs/heads/main/screenshots/quantum-machines-2026-06-20T192413.png
 security:

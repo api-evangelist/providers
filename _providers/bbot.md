@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
 api_count: 0
 artifact_total: 1
 common:
@@ -64,7 +64,7 @@ modified: '2026-06-02'
 name: Bbot
 nav: Providers
 network: true
-overview: 'Bbot is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Restaurant, Order And Pay, Tableside, Hospitality, and Point-of-Sale.
+overview: 'Bbot is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Restaurant, Order and Pay, Tableside, Hospitality, and Point-of-Sale.
 
 
   Bbot''s developer surface includes support and 4 more developer resources.'
@@ -89,7 +89,7 @@ score:
     operational_transparency: 0.0
   previous_composite: 7.3
   schema_version: 0.17.2
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/bbot/refs/heads/main/screenshots/bbot-2026-06-20T173055.png
 security:
@@ -100,7 +100,7 @@ security:
 slug: bbot
 tags:
 - Restaurant
-- Order And Pay
+- Order and Pay
 - Tableside
 - Hospitality
 - Point-of-Sale

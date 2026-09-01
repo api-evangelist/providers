@@ -23,7 +23,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 26.8
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
 api_count: 2
 apis:
 - description: National Open business days
@@ -154,7 +154,7 @@ modified: '2026-08-18'
 name: API Calendrier Marocain | Jours Fériés & Ouvrables REST + SDK Python
 nav: Providers
 network: true
-overview: 'API Calendrier Marocain | Jours Fériés & Ouvrables REST + SDK Python publishes 3 APIs on the [APIs.io](https://apis.io/) network: Business Days API, Holidays API, and Misc API. Tagged areas include holidays, morocco, Calendar, business-days, and date-utilities.
+overview: 'API Calendrier Marocain | Jours Fériés & Ouvrables REST + SDK Python publishes 3 APIs on the [APIs.io](https://apis.io/) network: Business Days API, Holidays API, and Misc API. Tagged areas include Holidays, Morocco, Calendar, Business Days, and date-utilities.
 
 
   API Calendrier Marocain | Jours Fériés & Ouvrables REST + SDK Python''s developer surface includes documentation, API reference, getting-started guide, support, signup flow, authentication, changelog, and 20 more developer resources.'
@@ -175,7 +175,7 @@ score:
     catalog_gap: 70.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.5
+  delta: 0.0
   facets:
     access_clarity: 44.7
     commercial_clarity: 44.7
@@ -185,7 +185,7 @@ score:
     discoverability: 68.5
     governance: 4.5
     operational_transparency: 21.1
-  previous_composite: 49.0
+  previous_composite: 48.5
   provenance:
     conformance: derived
     contracts:
@@ -202,7 +202,7 @@ score:
     regime_id: energy_utilities
     score: 28.4
   schema_version: 0.17.2
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
   trend: flat
 security:
 - kind: authentication
@@ -215,17 +215,17 @@ security:
   summary_line: TLSv1.3
 slug: calendar-api-ma
 tags:
-- holidays
-- morocco
+- Holidays
+- Morocco
 - Calendar
-- business-days
+- Business Days
 - date-utilities
-- data-engineering
+- Data Engineering
 - ETL
-- python-sdk
+- Python SDK
 - Localization
-- reference-data
-- public-holidays
-- scheduling
+- Reference Data
+- Public Holidays
+- Scheduling
 website: https://calendar-api.ma
 ---

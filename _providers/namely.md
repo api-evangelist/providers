@@ -23,7 +23,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 25.1
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
 api_count: 1
 apis:
 - description: The Comments API from Namely — 3 operation(s) for comments.
@@ -222,7 +222,7 @@ modified: '2026-08-26'
 name: Namely
 nav: Providers
 network: true
-overview: 'Namely publishes 19 APIs on the [APIs.io](https://apis.io/) network, including Comments API, Company Info API, Company Resources API, and 16 more. Tagged areas include hr, human-capital-management, payroll, employee-data, and Onboarding.
+overview: 'Namely publishes 19 APIs on the [APIs.io](https://apis.io/) network, including Comments API, Company Info API, Company Resources API, and 16 more. Tagged areas include HR, HCM, Payroll, Employee Data, and Onboarding.
 
 
   Namely''s developer surface includes documentation, API reference, getting-started guide, authentication, engineering blog, support, pricing, and 24 more developer resources.'
@@ -243,7 +243,7 @@ score:
     catalog_gap: 58.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.6
+  delta: 0.0
   facets:
     access_clarity: 69.7
     commercial_clarity: 69.7
@@ -253,7 +253,7 @@ score:
     discoverability: 75.9
     governance: 18.2
     operational_transparency: 55.3
-  previous_composite: 57.1
+  previous_composite: 56.5
   provenance:
     conformance: first-party
     contracts:
@@ -264,7 +264,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.17.2
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
   trend: flat
 security:
 - kind: authentication
@@ -277,17 +277,17 @@ security:
   summary_line: TLSv1.3 · HSTS · DMARC
 slug: namely
 tags:
-- hr
-- human-capital-management
-- payroll
-- employee-data
+- HR
+- HCM
+- Payroll
+- Employee Data
 - Onboarding
 - Benefits
-- applicant-tracking
-- performance-management
+- Applicant Tracking
+- Performance Management
 - SCIM
-- single-sign-on
-- identity-provisioning
-- workforce-management
+- Single Sign-On
+- Identity Provisioning
+- Workforce Management
 website: https://namely.com/
 ---

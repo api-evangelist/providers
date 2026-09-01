@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 2.5
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
 api_count: 1
 apis:
 - description: 'The Syncloop API Management Platform provides REST APIs for managing API services, configurations, deployments, and developer portal operations. The platform enables organizations to create, publish, '
@@ -81,7 +81,7 @@ modified: '2026-05-03'
 name: Syncloop
 nav: Providers
 network: true
-overview: 'Syncloop publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include API Management, API Development, Integration Platform, Low Code, and API Gateway.
+overview: 'Syncloop publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include API Management, API Development, Integration Platform, Low-Code, and API Gateway.
 
 
   Syncloop''s developer surface includes documentation, engineering blog, and 5 more developer resources.'
@@ -114,7 +114,7 @@ score:
     operational_transparency: 10.5
   previous_composite: 11.3
   schema_version: 0.17.2
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/syncloop/refs/heads/main/screenshots/syncloop-2026-06-20T194825.png
 security:
@@ -127,7 +127,7 @@ tags:
 - API Management
 - API Development
 - Integration Platform
-- Low Code
+- Low-Code
 - API Gateway
 website: https://www.syncloop.com
 ---

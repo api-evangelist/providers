@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
 api_count: 0
 artifact_total: 0
 common:
@@ -52,7 +52,7 @@ modified: '2026-07-20'
 name: Graviti
 nav: Providers
 network: true
-overview: Graviti is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Fintech, Financial-Services, BNPL, and PayGo.
+overview: Graviti is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Fintech, Financial-Services, BNPL, and PAYGO.
 random_paper: 2
 score:
   band: minimal
@@ -86,7 +86,7 @@ score:
     regime_id: energy_utilities
     score: 0.0
   schema_version: 0.17.2
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
   trend: flat
 slug: graviti
 tags:
@@ -94,7 +94,7 @@ tags:
 - Fintech
 - Financial-Services
 - BNPL
-- PayGo
+- PAYGO
 - Solar
 - Clean Energy
 - Consumer Lending

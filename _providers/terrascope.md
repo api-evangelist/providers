@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
 api_count: 0
 artifact_total: 1
 common:
@@ -119,7 +119,7 @@ score:
     operational_transparency: 5.3
   previous_composite: 7.7
   schema_version: 0.17.2
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/terrascope/refs/heads/main/screenshots/terrascope-2026-06-20T195134.png
 security:
@@ -140,7 +140,7 @@ tags:
 - GHG Protocol
 - CDP
 - SBTi
-- FLAG
+- Flag
 - TCFD
 - CSRD
 - Climate Reporting
@@ -152,6 +152,6 @@ tags:
 - Food And Agriculture
 - Supply Chain
 - Singapore
-- Enterprise SaaS
+- Enterprise Saas
 website: https://www.terrascope.com
 ---

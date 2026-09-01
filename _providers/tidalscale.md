@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
 api_count: 0
 artifact_total: 1
 common:
@@ -52,7 +52,7 @@ modified: '2026-07-21'
 name: TidalScale
 nav: Providers
 network: true
-overview: TidalScale is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Ai Infrastructure, Server Virtualization, Software-Defined Infrastructure, and In-Memory Computing.
+overview: TidalScale is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, AI Infrastructure, Server Virtualization, Software-Defined Infrastructure, and In-Memory Computing.
 random_paper: 17
 score:
   band: minimal
@@ -74,7 +74,7 @@ score:
     operational_transparency: 0.0
   previous_composite: 5.0
   schema_version: 0.17.2
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
   trend: flat
 security:
 - kind: domain-security
@@ -84,7 +84,7 @@ security:
 slug: tidalscale
 tags:
 - Company
-- Ai Infrastructure
+- AI Infrastructure
 - Server Virtualization
 - Software-Defined Infrastructure
 - In-Memory Computing

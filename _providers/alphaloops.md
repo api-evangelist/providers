@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.3
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
 api_count: 5
 apis:
 - description: Hosted remote Model Context Protocol server exposing 2.7M U.S. motor carriers as tools for LLM clients (Claude Desktop/Code, Cursor, Windsurf, VS Code Copilot, Clay). Advertises 30+ tools across six c
@@ -190,7 +190,7 @@ modified: '2026-08-11'
 name: AlphaLoops FMCSA Carrier Data API
 nav: Providers
 network: true
-overview: 'AlphaLoops FMCSA Carrier Data API publishes 4 APIs on the [APIs.io](https://apis.io/) network, including Carriers API, Contacts API, Inspections API, and 1 more. Tagged areas include fmcsa api, safer web api, dot lookup, carrier data, and freight.
+overview: 'AlphaLoops FMCSA Carrier Data API publishes 4 APIs on the [APIs.io](https://apis.io/) network, including Carriers API, Contacts API, Inspections API, and 1 more. Tagged areas include fmcsa api, safer web api, dot lookup, carrier data, and Freight.
 
 
   AlphaLoops FMCSA Carrier Data API''s developer surface includes authentication, CLI, changelog, pricing, support, and 24 more developer resources.'
@@ -238,7 +238,7 @@ score:
     regime_id: telecommunications
     score: 50.0
   schema_version: 0.17.2
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/alphaloops/refs/heads/main/screenshots/alphaloops-2026-07-25T195758.png
 security:
@@ -264,13 +264,13 @@ tags:
 - safer web api
 - dot lookup
 - carrier data
-- freight
-- trucking
+- Freight
+- Trucking
 - motor carrier
 - fleet intelligence
 - Sales Intelligence
-- mcp server
-- contact enrichment
-- risk
-- fraud
+- MCP Server
+- Contact Enrichment
+- Risk
+- Fraud
 ---

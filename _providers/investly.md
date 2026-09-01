@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
 api_count: 1
 apis:
 - description: Production HAL/HATEOAS (Spring Data REST style) backend API served at api.investly.co. The root returns a hypermedia _links document exposing a profile link; no public OpenAPI/Swagger specification, d
@@ -109,7 +109,7 @@ score:
     operational_transparency: 0.0
   previous_composite: 16.2
   schema_version: 0.17.2
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/investly/refs/heads/main/screenshots/investly-2026-07-25T222744.png
 security:

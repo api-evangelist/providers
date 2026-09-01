@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 2.5
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
 api_count: 1
 apis:
 - description: REST API for querying biomedical and genomic datasets (now the QuartzBio EDP REST API). Served per-customer on instance hosts; requires authentication.
@@ -126,7 +126,7 @@ score:
     regime_id: health
     score: 15.0
   schema_version: 0.17.2
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
   trend: flat
 security:
 - kind: authentication

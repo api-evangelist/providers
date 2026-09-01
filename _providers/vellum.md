@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 25.5
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
 agentic_access:
 - acting_count: 32
   human_in_the_loop: 0
@@ -218,7 +218,7 @@ modified: '2026-05-23'
 name: Vellum AI
 nav: Providers
 network: true
-overview: 'Vellum AI publishes 15 APIs on the [APIs.io](https://apis.io/) network, including Default API, subpackage_deployments API, subpackage_documentIndexes API, and 12 more. Tagged areas include LLM Platform, Prompt Engineering, Workflows, Evaluations, and LLM Ops.
+overview: 'Vellum AI publishes 15 APIs on the [APIs.io](https://apis.io/) network, including Default API, subpackage_deployments API, subpackage_documentIndexes API, and 12 more. Tagged areas include LLM Platform, Prompt Engineering, Workflows, Evaluations, and LLMOps.
 
 
   Vellum AI''s developer surface includes authentication, documentation, engineering blog, pricing, signup flow, and 10 more developer resources.'
@@ -239,7 +239,7 @@ score:
     catalog_gap: 59.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.5
+  delta: 0.0
   facets:
     access_clarity: 46.1
     commercial_clarity: 46.1
@@ -249,7 +249,7 @@ score:
     discoverability: 75.9
     governance: 0.0
     operational_transparency: 23.7
-  previous_composite: 39.6
+  previous_composite: 39.1
   provenance:
     agentic_access: derived
     contracts:
@@ -258,7 +258,7 @@ score:
       marker_coverage: 0.0
       total: 15
   schema_version: 0.17.2
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/vellum/refs/heads/main/screenshots/vellum-2026-06-20T200908.png
 security:
@@ -276,7 +276,7 @@ tags:
 - Prompt Engineering
 - Workflows
 - Evaluations
-- LLM Ops
+- LLMOps
 - RAG
 - Observability
 - Datasets

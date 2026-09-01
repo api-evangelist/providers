@@ -23,7 +23,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 31.5
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
 api_count: 2
 apis:
 - description: The Account API from ProofDraw — 2 operation(s) for account.
@@ -51,6 +51,10 @@ collections:
   name: ProofDraw API
   slug: open-proofdraw-api
 common:
+- group: commercial
+  title: ''
+  type: License
+  url: https://github.com/proofdraw/verifier/blob/main/LICENSE
 - group: other
   title: ''
   type: Overlay
@@ -179,13 +183,13 @@ modified: '2026-08-11'
 name: ProofDraw
 nav: Providers
 network: true
-overview: 'ProofDraw publishes 5 APIs on the [APIs.io](https://apis.io/) network, including Account API, Auth API, Draws API, and 2 more. Tagged areas include randomness, provably-fair, drand, Verifiable Randomness, and cryptography.
+overview: 'ProofDraw publishes 5 APIs on the [APIs.io](https://apis.io/) network, including Account API, Auth API, Draws API, and 2 more. Tagged areas include Randomness, Provably Fair, drand, Verifiable Randomness, and Cryptography.
 
 
   The ProofDraw catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  ProofDraw''s developer surface includes documentation, API reference, support, signup flow, authentication, sandbox, and 24 more developer resources.'
+  ProofDraw''s developer surface includes documentation, API reference, support, signup flow, authentication, sandbox, and 25 more developer resources.'
 plans:
 - name: Proofdraw Plans Pricing
   plan_count: 2
@@ -203,7 +207,7 @@ score:
     catalog_gap: 70.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.6
+  delta: 0.0
   facets:
     access_clarity: 27.6
     commercial_clarity: 27.6
@@ -213,7 +217,7 @@ score:
     discoverability: 68.5
     governance: 4.5
     operational_transparency: 10.5
-  previous_composite: 34.1
+  previous_composite: 33.5
   provenance:
     conformance: derived
     contracts:
@@ -224,7 +228,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.17.2
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/proofdraw/refs/heads/main/screenshots/proofdraw-2026-08-17T081348.png
 security:
@@ -242,15 +246,15 @@ security:
   summary_line: Hackerone · security.txt · contact published
 slug: proofdraw
 tags:
-- randomness
-- provably-fair
+- Randomness
+- Provably Fair
 - drand
 - Verifiable Randomness
-- cryptography
+- Cryptography
 - raffle
 - giveaway
-- sweepstakes
-- lottery
+- Sweepstakes
+- Lottery
 - Verification
 - Webhook
 - REST API

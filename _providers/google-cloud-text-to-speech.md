@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -155,7 +155,7 @@ modified: '2026-05-19'
 name: Google Cloud Text-To-Speech
 nav: Providers
 network: true
-overview: 'Google Cloud Text-To-Speech publishes 2 APIs on the [APIs.io](https://apis.io/) network: Text:synthesize API and Voices API. Tagged areas include Audio, Google Cloud, Machine-Learning, Speech Synthesis, and Text-To-Speech.
+overview: 'Google Cloud Text-To-Speech publishes 2 APIs on the [APIs.io](https://apis.io/) network: Text:synthesize API and Voices API. Tagged areas include Audio, Google Cloud, Machine-Learning, Speech Synthesis, and Text-to-Speech.
 
 
   The Google Cloud Text-To-Speech catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
@@ -209,7 +209,7 @@ score:
       marker_coverage: 0.0
       total: 2
   schema_version: 0.17.2
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/google-cloud-text-to-speech/refs/heads/main/screenshots/google-cloud-text-to-speech-2026-06-20T182149.png
 security:
@@ -227,6 +227,6 @@ tags:
 - Google Cloud
 - Machine-Learning
 - Speech Synthesis
-- Text-To-Speech
+- Text-to-Speech
 website: https://cloud.google.com/text-to-speech
 ---

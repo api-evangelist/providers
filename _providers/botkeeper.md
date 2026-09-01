@@ -23,7 +23,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 2.5
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
 api_count: 1
 apis:
 - description: 'Botkeeper''s partner platform API. The company does not publish a reference, a portal or a specification for it; the only public evidence of its shape is Botkeeper''s own status page, which lists three '
@@ -185,7 +185,7 @@ score:
     regime_id: banking_open_finance
     score: 67.1
   schema_version: 0.17.2
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
   trend: flat
 security:
 - kind: authentication

@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 11.4
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
 api_count: 1
 apis:
 - description: Hosted, remote Model Context Protocol server that lets external AI clients — Claude Desktop, Cursor and other MCP clients — work with an Instant project. Documented tools list, create, edit, publish a
@@ -194,7 +194,7 @@ modified: '2026-08-13'
 name: Instant Commerce
 nav: Providers
 network: true
-overview: 'Instant Commerce publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Ai Enterprise Software, E-Commerce, Shopify, and No Code.
+overview: 'Instant Commerce publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Ai Enterprise Software, E-Commerce, Shopify, and No-Code.
 
 
   Instant Commerce''s developer surface includes documentation, pricing, signup flow, engineering blog, support, changelog, getting-started guide, and 27 more developer resources.'
@@ -230,7 +230,7 @@ score:
     conformance: first-party
     mcp: first-party
   schema_version: 0.17.2
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/instant-commerce/refs/heads/main/screenshots/instant-commerce-2026-07-25T222609.png
 security:
@@ -248,13 +248,13 @@ tags:
 - Ai Enterprise Software
 - E-Commerce
 - Shopify
-- No Code
+- No-Code
 - Page Builder
 - Artificial Intelligence
 - AI Agents
 - Conversion Rate Optimization
 - Developer Tools
 - MCP
-- Agent Native
+- agent-native
 website: https://instant.so/
 ---

@@ -23,7 +23,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 41.5
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -78,6 +78,10 @@ asyncapis:
   name: SiftingIO Live Stream
   slug: siftingio-asyncapi
 common:
+- group: commercial
+  title: ''
+  type: License
+  url: https://github.com/SiftingIO/siftingio-mcp/blob/main/LICENSE
 - group: agent
   title: ''
   type: AgenticAccess
@@ -303,7 +307,7 @@ overview: 'SiftingIO publishes 12 APIs on the [APIs.io](https://apis.io/) networ
   The SiftingIO catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  SiftingIO''s developer surface includes authentication, changelog, sandbox, documentation, API reference, getting-started guide, support, and 44 more developer resources.'
+  SiftingIO''s developer surface includes authentication, changelog, sandbox, documentation, API reference, getting-started guide, support, and 45 more developer resources.'
 plans:
 - name: Siftingio Plans Pricing
   plan_count: 5
@@ -321,7 +325,7 @@ score:
     catalog_gap: 59.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.5
+  delta: 0.0
   facets:
     access_clarity: 76.3
     commercial_clarity: 76.3
@@ -331,7 +335,7 @@ score:
     discoverability: 66.7
     governance: 4.5
     operational_transparency: 57.9
-  previous_composite: 64.6
+  previous_composite: 64.1
   provenance:
     agentic_access: derived
     conformance: derived
@@ -349,7 +353,7 @@ score:
     regime_id: securities_market_data
     score: 51.7
   schema_version: 0.17.2
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
   trend: flat
 security:
 - kind: authentication
@@ -368,21 +372,21 @@ tags:
 - Cryptocurrency
 - DeFi/on-chain
 - Commodities
-- SEC filings
+- SEC Filings
 - XBRL
 - Fundamentals
 - Fintech
 - Quant/trading infrastructure
-- Real-time streaming
+- Real-Time Streaming
 - WebSocket
 - FIX
-- financial data
+- Financial Data
 - Market Data
-- stocks
+- Stocks
 - DeFi
 - Real-Time
 - REST API
-- MCP server
+- MCP Server
 - agent-native
 website: https://sifting.io
 ---

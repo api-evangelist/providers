@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
 api_count: 0
 artifact_total: 1
 common:
@@ -92,7 +92,7 @@ modified: '2026-07-20'
 name: Maker
 nav: Providers
 network: true
-overview: 'Maker is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, DeFi, Blockchain, Ethereum, and Stablecoin.
+overview: 'Maker is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, DeFi, Blockchain, Ethereum, and Stablecoins.
 
 
   Maker''s developer surface includes developer portal, documentation, getting-started guide, engineering blog, support, and 7 more developer resources.'
@@ -117,7 +117,7 @@ score:
     operational_transparency: 2.6
   previous_composite: 10.8
   schema_version: 0.17.2
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/maker/refs/heads/main/screenshots/maker-2026-07-25T225943.png
 security:
@@ -131,7 +131,7 @@ tags:
 - DeFi
 - Blockchain
 - Ethereum
-- Stablecoin
+- Stablecoins
 - Smart Contracts
 - Cryptocurrency
 - Governance

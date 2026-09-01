@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 34.0
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
 api_count: 11
 apis:
 - description: The Account Services API from Return Path — 13 operation(s) for account services.
@@ -221,7 +221,7 @@ modified: '2026-08-13'
 name: Return Path
 nav: Providers
 network: true
-overview: 'Return Path publishes 11 APIs on the [APIs.io](https://apis.io/) network, including Account Services API, Apps & Integrations API, Certification API, and 8 more. Tagged areas include Company, Martech, Email, Email Deliverability, and Email Marketing.
+overview: 'Return Path publishes 11 APIs on the [APIs.io](https://apis.io/) network, including Account Services API, Apps & Integrations API, Certification API, and 8 more. Tagged areas include Company, MarTech, Email, Email Deliverability, and Email Marketing.
 
 
   The Return Path catalog on APIs.io includes 1 event-driven AsyncAPI specification.
@@ -266,7 +266,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.17.2
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/return-path/refs/heads/main/screenshots/return-path-2026-08-17T081538.png
 security:
@@ -289,7 +289,7 @@ security:
 slug: return-path
 tags:
 - Company
-- Martech
+- MarTech
 - Email
 - Email Deliverability
 - Email Marketing

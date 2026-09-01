@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
 api_count: 0
 artifact_total: 0
 created: '2026-07-17'
@@ -43,7 +43,7 @@ modified: '2026-07-19'
 name: KNO
 nav: Providers
 network: true
-overview: KNO is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Education, EdTech, Digital Textbooks, and E-Books.
+overview: KNO is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Education, EdTech, Digital Textbooks, and Ebooks.
 random_paper: 13
 score:
   band: minimal
@@ -79,7 +79,7 @@ score:
     regime_id: education
     score: 0.0
   schema_version: 0.17.2
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
   trend: flat
 slug: kno
 tags:
@@ -87,7 +87,7 @@ tags:
 - Education
 - EdTech
 - Digital Textbooks
-- E-Books
+- Ebooks
 - Learning Platform
 - Publishing
 - Consumer

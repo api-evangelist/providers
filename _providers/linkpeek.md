@@ -23,7 +23,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
 api_count: 3
 apis:
 - description: GET-based HTTP image API that returns a screenshot for any given web page URI. Embeddable directly in HTML via img/anchor tags. Supports request options such as size=original and viewport for mobile/t
@@ -76,7 +76,7 @@ modified: '2026-08-26'
 name: LinkPeek
 nav: Providers
 network: true
-overview: 'LinkPeek publishes 3 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Screenshots, webpage-capture, website-thumbnails, Image-Generation, and rendering.
+overview: 'LinkPeek publishes 3 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Screenshots, webpage-capture, website-thumbnails, Image-Generation, and Rendering.
 
 
   LinkPeek''s developer surface includes documentation, API reference, support, engineering blog, and 4 more developer resources.'
@@ -107,7 +107,7 @@ score:
     regime_id: energy_utilities
     score: 0.0
   schema_version: 0.17.2
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
   trend: flat
 slug: linkpeek
 tags:
@@ -115,10 +115,10 @@ tags:
 - webpage-capture
 - website-thumbnails
 - Image-Generation
-- rendering
+- Rendering
 - web-scraping-adjacent
 - Developer Tools
-- saas
+- Software-as-a-Service
 - rest-image-api
 - Utility API
 - URL Metadata
@@ -132,7 +132,7 @@ tags:
 - IP Geolocation
 - Data Conversion
 - LLM-Compatible API
-- api-utilities
+- API Utilities
 - dns-whois
 - openai-compatible-llm
 website: https://linkpeek.com/

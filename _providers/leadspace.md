@@ -36,7 +36,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 48.8
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 0
@@ -325,7 +325,7 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.17.2
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/leadspace/refs/heads/main/screenshots/leadspace-2026-07-25T224715.png
 security:
@@ -354,7 +354,7 @@ tags:
 - Data Enrichment
 - Intent Data
 - Sales Intelligence
-- Account-Based Marketing
+- Account Based Marketing
 - Identity Resolution
 - Firmographics
 - Lead Scoring

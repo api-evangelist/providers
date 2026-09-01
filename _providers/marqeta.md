@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 33.5
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
 agentic_access:
 - acting_count: 204
   human_in_the_loop: 12
@@ -643,7 +643,7 @@ modified: '2026-05-08'
 name: Marqeta
 nav: Providers
 network: true
-overview: 'Marqeta publishes 79 APIs on the [APIs.io](https://apis.io/) network, including accepted countries API, Account API, Account Bundle Transitions API, and 76 more. Tagged areas include Fintech, BaaS, Card Issuing, Payments, and Embedded Finance.
+overview: 'Marqeta publishes 79 APIs on the [APIs.io](https://apis.io/) network, including accepted countries API, Account API, Account Bundle Transitions API, and 76 more. Tagged areas include Fintech, Backend-as-a-Service, Card Issuing, Payments, and Embedded Finance.
 
 
   The Marqeta catalog on APIs.io includes 1 event-driven AsyncAPI specification, 1 JSON-LD context, and 2 Spectral governance rulesets.
@@ -683,23 +683,23 @@ rules:
   slug: marqeta-jsonschema-spectral-rules
 score:
   band: developing
-  composite: 49.3
+  composite: 47.4
   coverage:
     artifact_dirs: 16
-    catalog_gap: 61.5
+    catalog_gap: 71.5
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: 1.3
+  delta: 0.0
   facets:
     access_clarity: 42.1
     commercial_clarity: 42.1
     contract_governance: 13.6
     contract_quality: 72.5
     developer_ergonomics: 23.8
-    discoverability: 63.0
+    discoverability: 44.4
     governance: 13.6
     operational_transparency: 50.0
-  previous_composite: 48.0
+  previous_composite: 47.4
   provenance:
     agentic_access: derived
     contracts:
@@ -714,7 +714,7 @@ score:
     regime_id: payments
     score: 56.3
   schema_version: 0.17.2
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/marqeta/refs/heads/main/screenshots/marqeta-2026-06-20T185001.png
 security:
@@ -737,7 +737,7 @@ security:
 slug: marqeta
 tags:
 - Fintech
-- BaaS
+- Backend-as-a-Service
 - Card Issuing
 - Payments
 - Embedded Finance

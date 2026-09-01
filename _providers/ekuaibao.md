@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 22.7
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
 api_count: 1
 apis:
 - description: The 合思开放平台 (Ekuaibao / HOSE Open Platform) REST API. 200+ documented operations across contacts, corporation, budgets, expense flows, forms, fee types, pay, payer info, checking bills, city and curren
@@ -153,7 +153,7 @@ modified: '2026-07-19'
 name: Ekuaibao
 nav: Providers
 network: true
-overview: 'Ekuaibao publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Enterprise, Expense Management, Spend Management, and Travel and Expense.
+overview: 'Ekuaibao publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Enterprise, Expense Management, Spend Management, and Travel And Expense.
 
 
   The Ekuaibao catalog on APIs.io includes 1 event-driven AsyncAPI specification.
@@ -183,7 +183,7 @@ score:
   provenance:
     mcp: derived
   schema_version: 0.17.2
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/ekuaibao/refs/heads/main/screenshots/ekuaibao-2026-07-25T213044.png
 security:
@@ -201,7 +201,7 @@ tags:
 - Enterprise
 - Expense Management
 - Spend Management
-- Travel and Expense
+- Travel And Expense
 - Reimbursement
 - Finance
 - Accounting

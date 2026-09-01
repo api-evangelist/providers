@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
 api_count: 0
 artifact_total: 1
 common:
@@ -64,7 +64,7 @@ modified: '2026-07-21'
 name: Slingshot
 nav: Providers
 network: true
-overview: 'Slingshot is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Defi, Cryptocurrency, Wallets, and Trading.
+overview: 'Slingshot is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, DeFi, Cryptocurrency, Wallets, and Trading.
 
 
   Slingshot''s developer surface includes support and 4 more developer resources.'
@@ -95,7 +95,7 @@ score:
     regime_id: payments
     score: 9.4
   schema_version: 0.17.2
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
   trend: flat
 security:
 - kind: domain-security
@@ -105,7 +105,7 @@ security:
 slug: slingshot
 tags:
 - Company
-- Defi
+- DeFi
 - Cryptocurrency
 - Wallets
 - Trading

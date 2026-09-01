@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
 api_count: 0
 artifact_total: 2
 common:
@@ -101,7 +101,7 @@ modified: '2026-07-19'
 name: Levelpath
 nav: Providers
 network: true
-overview: 'Levelpath is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Procurement, Source to Pay, Spend Management, and Contract Management.
+overview: 'Levelpath is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Procurement, Source-to-Pay, Spend Management, and Contract Management.
 
 
   Levelpath''s developer surface includes engineering blog, support, and 12 more developer resources.'
@@ -128,7 +128,7 @@ score:
   provenance:
     conformance: first-party
   schema_version: 0.17.2
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/levelpath/refs/heads/main/screenshots/levelpath-2026-07-25T224947.png
 security:
@@ -144,7 +144,7 @@ slug: levelpath
 tags:
 - Company
 - Procurement
-- Source to Pay
+- Source-to-Pay
 - Spend Management
 - Contract Management
 - Supplier Management

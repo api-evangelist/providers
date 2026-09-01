@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 5.0
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
 api_count: 8
 apis:
 - description: REST API for managing general ledger operations including journals, chartfields, budgets, and financial reporting.
@@ -135,7 +135,7 @@ score:
     operational_transparency: 7.9
   previous_composite: 17.7
   schema_version: 0.17.2
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/peoplesoft-financials/refs/heads/main/screenshots/peoplesoft-financials-2026-06-20T191554.png
 security:

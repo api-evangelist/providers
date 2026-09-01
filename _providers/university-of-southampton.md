@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 18.0
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
 api_count: 3
 apis:
 - description: 'Institution-built, institution-hosted linked open data covering the physical and organisational University: buildings and sites, term dates, organisational structure, research facilities, points of se'
@@ -231,7 +231,7 @@ score:
     catalog_gap: 35.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: 28.2
+  delta: 0.0
   facets:
     access_clarity: 60.5
     commercial_clarity: 60.5
@@ -241,7 +241,7 @@ score:
     discoverability: 74.1
     governance: 15.2
     operational_transparency: 34.2
-  previous_composite: 22.5
+  previous_composite: 50.7
   regulatory:
     applies: true
     matched_via: tags
@@ -249,8 +249,8 @@ score:
     regime_id: education
     score: 64.8
   schema_version: 0.17.2
-  scored_at: '2026-08-30'
-  trend: rising
+  scored_at: '2026-09-01'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/university-of-southampton/refs/heads/main/screenshots/university-of-southampton-2026-06-20T200226.png
 security:
 - kind: authentication

@@ -23,7 +23,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 31.5
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
 api_count: 2
 apis:
 - description: Geo-targeting reference data - the countries, states, cities and ASNs available for each proxy product. Read this before setting a country, state or city on any collection call or in a proxy username,
@@ -250,7 +250,7 @@ modified: '2026-08-11'
 name: Thordata
 nav: Providers
 network: true
-overview: 'Thordata publishes 10 APIs on the [APIs.io](https://apis.io/) network, including Locations API, Proxy IP Extract API, Account API, and 7 more. Tagged areas include Proxy network, Web scraping, Data extraction, SERP, and Search data.
+overview: 'Thordata publishes 10 APIs on the [APIs.io](https://apis.io/) network, including Locations API, Proxy IP Extract API, Account API, and 7 more. Tagged areas include Proxy network, Web Scraping, Data Extraction, SERP, and Search data.
 
 
   The Thordata catalog on APIs.io includes 1 event-driven AsyncAPI specification.
@@ -274,7 +274,7 @@ score:
     catalog_gap: 78.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.5
+  delta: 0.0
   facets:
     access_clarity: 38.2
     commercial_clarity: 38.2
@@ -284,7 +284,7 @@ score:
     discoverability: 75.9
     governance: 4.5
     operational_transparency: 36.8
-  previous_composite: 37.7
+  previous_composite: 37.2
   provenance:
     conformance: derived
     contracts:
@@ -295,7 +295,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.17.2
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/thordata/refs/heads/main/screenshots/thordata-2026-08-17T082346.png
 security:
@@ -314,18 +314,18 @@ security:
 slug: thordata
 tags:
 - Proxy network
-- Web scraping
-- Data extraction
+- Web Scraping
+- Data Extraction
 - SERP
 - Search data
 - Web unblocking
-- Residential proxies
-- Mobile proxies
-- ISP proxies
-- Datacenter proxies
-- Scraping browser
+- Residential Proxies
+- Mobile Proxies
+- ISP Proxies
+- Datacenter Proxies
+- Scraping Browser
 - Data-for-AI
 - RAG data pipelines
-- Web data
+- Web Data
 website: https://dashboard.thordata.com/
 ---

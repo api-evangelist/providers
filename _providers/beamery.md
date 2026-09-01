@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
 api_count: 0
 artifact_total: 3
 common:
@@ -96,7 +96,7 @@ modified: '2026-07-18'
 name: Beamery
 nav: Providers
 network: true
-overview: 'Beamery is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Hr Tech, Talent, Recruiting, and Talent CRM.
+overview: 'Beamery is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, HR Tech, Talent, Recruiting, and Talent CRM.
 
 
   Beamery''s developer surface includes support, engineering blog, and 11 more developer resources.'
@@ -123,7 +123,7 @@ score:
   provenance:
     conformance: first-party
   schema_version: 0.17.2
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/beamery/refs/heads/main/screenshots/beamery-2026-07-25T202542.png
 security:
@@ -142,7 +142,7 @@ security:
 slug: beamery
 tags:
 - Company
-- Hr Tech
+- HR Tech
 - Talent
 - Recruiting
 - Talent CRM

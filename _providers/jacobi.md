@@ -23,7 +23,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
 api_count: 0
 artifact_total: 1
 common:
@@ -96,7 +96,7 @@ modified: '2026-08-04'
 name: Jacobi
 nav: Providers
 network: true
-overview: 'Jacobi is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, investment-management, portfolio-analytics, asset-allocation, and multi-asset.
+overview: 'Jacobi is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Investment Management, Portfolio Analytics, Asset Allocation, and Multi-Asset.
 
 
   Jacobi''s developer surface includes engineering blog, support, YouTube channel, and 12 more developer resources.'
@@ -121,7 +121,7 @@ score:
     operational_transparency: 0.0
   previous_composite: 10.6
   schema_version: 0.17.2
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/jacobi/refs/heads/main/screenshots/jacobi-2026-08-07T170939.png
 security:
@@ -132,16 +132,16 @@ security:
 slug: jacobi
 tags:
 - Company
-- investment-management
-- portfolio-analytics
-- asset-allocation
-- multi-asset
-- wealth-management
+- Investment Management
+- Portfolio Analytics
+- Asset Allocation
+- Multi-Asset
+- Wealth Management
 - Fintech
-- risk-analytics
+- Risk Analytics
 - model-portfolios
 - ocio
 - Financial-Services
-- saas
+- Software-as-a-Service
 website: https://www.jacobistrategies.com/
 ---

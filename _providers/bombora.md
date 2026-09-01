@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 46.4
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
 api_count: 11
 apis:
 - description: 'Streams Bombora''s Company Surge intent signals — account-level scores against 18,000+ B2B intent topics — derived from the Bombora Data Cooperative. Subscribers pull weekly Surge scores for monitored '
@@ -358,7 +358,7 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.17.2
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/bombora/refs/heads/main/screenshots/bombora-2026-06-20T173557.png
 security:
@@ -383,8 +383,8 @@ tags:
 - Data Cooperative
 - Webhook
 - Reference Data
-- Adtech
-- Martech
+- AdTech
+- MarTech
 - B2B
 - Account Lists
 - Digital Audience Builder

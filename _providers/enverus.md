@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 2.5
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
 api_count: 1
 apis:
 - description: Token-authenticated REST API (v2) for bulk programmatic access to Enverus' energy datasets — well origins, rigs, permits, producing entities, and production. Authenticate with an API key plus client c
@@ -154,7 +154,7 @@ score:
     regime_id: energy_utilities
     score: 33.8
   schema_version: 0.17.2
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/enverus/refs/heads/main/screenshots/enverus-2026-07-25T213445.png
 security:
@@ -176,7 +176,7 @@ tags:
 - Market Intelligence
 - Well Data
 - Software-as-a-Service
-- DirectAccess
+- Direct Access
 - Trading and Risk
 website: https://www.enverus.com/
 ---

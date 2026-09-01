@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 35.9
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
 agentic_access:
 - acting_count: 18
   human_in_the_loop: 0
@@ -333,7 +333,7 @@ modified: '2026-06-02'
 name: Clover
 nav: Providers
 network: true
-overview: 'Clover publishes 9 APIs on the [APIs.io](https://apis.io/) network, including CHARGES API, CHECKOUT API, CUSTOMERS API, and 6 more. Tagged areas include Restaurant, POS, Payments, Retail, and SMB.
+overview: 'Clover publishes 9 APIs on the [APIs.io](https://apis.io/) network, including CHARGES API, CHECKOUT API, CUSTOMERS API, and 6 more. Tagged areas include Restaurant, Point-of-Sale, Payments, Retail, and SMB.
 
 
   The Clover catalog on APIs.io includes 2 JSON-LD contexts and 2 Spectral governance rulesets.
@@ -409,7 +409,7 @@ score:
     regime_id: payments
     score: 54.7
   schema_version: 0.17.2
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/clover/refs/heads/main/screenshots/clover-2026-06-20T174623.png
 security:
@@ -424,7 +424,7 @@ security:
 slug: clover
 tags:
 - Restaurant
-- POS
+- Point-of-Sale
 - Payments
 - Retail
 - SMB

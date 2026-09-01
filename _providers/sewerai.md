@@ -23,7 +23,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 27.9
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
 api_count: 1
 apis:
 - description: The account_usage API from SewerAI — 4 operation(s) for account_usage.
@@ -250,7 +250,7 @@ modified: '2026-08-27'
 name: SewerAI
 nav: Providers
 network: true
-overview: 'SewerAI publishes 27 APIs on the [APIs.io](https://apis.io/) network, including Account Usage API, Accounts API, Analytics API, and 24 more. Tagged areas include wastewater, water-infrastructure, sewer-inspection, asset-management, and computer-vision.
+overview: 'SewerAI publishes 27 APIs on the [APIs.io](https://apis.io/) network, including Account Usage API, Accounts API, Analytics API, and 24 more. Tagged areas include Wastewater, Water Infrastructure, Sewer Inspection, Asset Management, and Computer-Vision.
 
 
   SewerAI''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 26 more developer resources.'
@@ -271,7 +271,7 @@ score:
     catalog_gap: 66.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -2.4
+  delta: 0.0
   facets:
     access_clarity: 92.1
     commercial_clarity: 92.1
@@ -281,9 +281,9 @@ score:
     discoverability: 68.5
     governance: 18.2
     operational_transparency: 34.2
-  previous_composite: 54.9
+  previous_composite: 52.5
   schema_version: 0.17.2
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
   trend: flat
 security:
 - kind: authentication
@@ -300,15 +300,15 @@ security:
   summary_line: SOC 2, ISO 27001
 slug: sewerai
 tags:
-- wastewater
-- water-infrastructure
-- sewer-inspection
-- asset-management
-- computer-vision
-- artificial-intelligence
-- gis
-- public-works
-- construction-technology
+- Wastewater
+- Water Infrastructure
+- Sewer Inspection
+- Asset Management
+- Computer-Vision
+- Artificial Intelligence
+- GIS
+- Public Works
+- Construction Technology
 - nassco
 - cctv-inspection
 website: https://www.sewerai.com/

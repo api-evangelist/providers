@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 5.0
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
 api_count: 8
 apis:
 - description: Retrieves daily performance statistics for dealer inventory including search result page views, vehicle detail page clicks, and lead generation metrics across email, phone, chat, and SMS channels.
@@ -159,7 +159,7 @@ score:
     operational_transparency: 5.3
   previous_composite: 25.0
   schema_version: 0.17.2
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
   trend: flat
 security:
 - kind: domain-security

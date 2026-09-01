@@ -23,7 +23,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 25.5
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
 api_count: 3
 apis:
 - description: The RegScale REST API is the primary programmable surface of the RegScale platform. It is served from each customer's own RegScale tenant under the /api path, authenticated with a JSON Web Token obtai
@@ -221,7 +221,7 @@ score:
     regime_id: government
     score: 66.7
   schema_version: 0.17.2
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
   trend: flat
 security:
 - kind: authentication

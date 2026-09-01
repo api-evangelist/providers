@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
 api_count: 0
 artifact_total: 1
 common:
@@ -68,7 +68,7 @@ modified: '2026-07-19'
 name: Gourmey
 nav: Providers
 network: true
-overview: 'Gourmey is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Food & Agritech, Cultivated Meat, Foodtech, and Sustainability.
+overview: 'Gourmey is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Food & Agritech, Cultivated Meat, Food Tech, and Sustainability.
 
 
   Gourmey''s developer surface includes engineering blog, support, and 4 more developer resources.'
@@ -93,7 +93,7 @@ score:
     operational_transparency: 0.0
   previous_composite: 10.6
   schema_version: 0.17.2
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/gourmey/refs/heads/main/screenshots/gourmey-2026-07-25T220125.png
 security:
@@ -106,7 +106,7 @@ tags:
 - Company
 - Food & Agritech
 - Cultivated Meat
-- Foodtech
+- Food Tech
 - Sustainability
 - Biotechnology
 - France

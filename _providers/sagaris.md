@@ -23,7 +23,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.5
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
 api_count: 0
 artifact_total: 1
 common:
@@ -54,7 +54,7 @@ modified: '2026-08-24'
 name: SAGARIS
 nav: Providers
 network: true
-overview: 'SAGARIS is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include CRM, Sales, revenue operations, MCP, and ai agents.
+overview: 'SAGARIS is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include CRM, Sales, Revenue Operations, MCP, and AI Agents.
 
 
   SAGARIS''s developer surface includes documentation and 3 more developer resources.'
@@ -79,14 +79,14 @@ score:
     operational_transparency: 0.0
   previous_composite: 7.3
   schema_version: 0.17.2
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
   trend: flat
 slug: sagaris
 tags:
 - CRM
 - Sales
-- revenue operations
+- Revenue Operations
 - MCP
-- ai agents
+- AI Agents
 website: https://www.sagaris.ai/
 ---

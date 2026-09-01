@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 15.5
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
 api_count: 1
 apis:
 - description: RedwoodJS exposes a schema-first GraphQL API via GraphQL Yoga at the /graphql endpoint. SDL files define queries and mutations while service functions act as resolvers; Redwood combines them automatic
@@ -119,7 +119,7 @@ score:
       reason: no_resolvable_host
   previous_composite: 20.4
   schema_version: 0.17.2
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/redwoodjs/refs/heads/main/screenshots/redwoodjs-2026-06-20T192742.png
 security:

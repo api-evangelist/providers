@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 2.5
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
 api_count: 3
 apis:
 - description: Public OpenID Connect / OAuth 2.0 identity provider operated by Rockstar Games at signin.rockstargames.com. Backs authentication for the Rockstar Games website, Rockstar Games Launcher, Social Club, R
@@ -140,7 +140,7 @@ score:
     operational_transparency: 2.6
   previous_composite: 14.3
   schema_version: 0.17.2
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/rockstar-games/refs/heads/main/screenshots/rockstar-games-2026-06-20T193200.png
 security:

@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 29.8
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
 agentic_access:
 - acting_count: 376
   human_in_the_loop: 13
@@ -1763,7 +1763,7 @@ score:
       marker_coverage: 0.0
       total: 79
   schema_version: 0.17.2
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/keboola/refs/heads/main/screenshots/keboola-2026-06-20T183937.png
 security:
@@ -1790,7 +1790,7 @@ tags:
 - ELT
 - Data Pipeline
 - Data Storage
-- Transformations
+- Transformation
 - Orchestration
 - Data Operations
 - Cloud Data

@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 7.9
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
 api_count: 3
 apis:
 - description: REST API for advertisers and agencies to manage campaigns, teasers, targeting, conversion tracking, and access detailed statistics and reporting for native advertising campaigns.
@@ -180,7 +180,7 @@ modified: '2026-08-12'
 name: MGID
 nav: Providers
 network: true
-overview: 'MGID publishes 3 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Native Advertising, Ad Tech, Publishers, Advertisers, and Campaigns.
+overview: 'MGID publishes 3 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Native Advertising, AdTech, Publishers, Advertisers, and Campaigns.
 
 
   The MGID catalog on APIs.io includes 1 JSON-LD context.
@@ -218,7 +218,7 @@ score:
   provenance:
     conformance: first-party
   schema_version: 0.17.2
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/mgid/refs/heads/main/screenshots/mgid-2026-06-20T185319.png
 security:
@@ -233,7 +233,7 @@ security:
 slug: mgid
 tags:
 - Native Advertising
-- Ad Tech
+- AdTech
 - Publishers
 - Advertisers
 - Campaigns

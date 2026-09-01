@@ -23,7 +23,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 28.1
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
 api_count: 1
 apis:
 - description: Comment collection. Registered and reachable, but empty — no post on this deployment carries comments.
@@ -195,7 +195,7 @@ modified: '2026-08-05'
 name: Star Therapeutics
 nav: Providers
 network: true
-overview: 'Star Therapeutics publishes 9 APIs on the [APIs.io](https://apis.io/) network, including Comments API, Custom Types API, Discovery API, and 6 more. Tagged areas include Company, biotechnology, pharmaceuticals, hematology, and immunology.
+overview: 'Star Therapeutics publishes 9 APIs on the [APIs.io](https://apis.io/) network, including Comments API, Custom Types API, Discovery API, and 6 more. Tagged areas include Company, Biotechnology, Pharmaceuticals, Hematology, and Immunology.
 
 
   Star Therapeutics'' developer surface includes product news, authentication, and 23 more developer resources.'
@@ -208,7 +208,7 @@ score:
     catalog_gap: 63.0
     catalog_max: 100.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.6
+  delta: 0.0
   facets:
     access_clarity: 57.1
     commercial_clarity: 57.1
@@ -218,7 +218,7 @@ score:
     discoverability: 68.5
     governance: 4.5
     operational_transparency: 0.0
-  previous_composite: 37.3
+  previous_composite: 36.7
   provenance:
     conformance: derived
     contracts:
@@ -234,7 +234,7 @@ score:
     regime_id: health
     score: 31.3
   schema_version: 0.17.2
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
   trend: flat
 security:
 - kind: authentication
@@ -248,14 +248,14 @@ security:
 slug: star-therapeutics
 tags:
 - Company
-- biotechnology
-- pharmaceuticals
-- hematology
-- immunology
-- rare-disease
-- antibody-therapeutics
-- clinical-trials
-- life-sciences
+- Biotechnology
+- Pharmaceuticals
+- Hematology
+- Immunology
+- Rare Disease
+- Antibody Therapeutics
+- Clinical Trials
+- Life Sciences
 - content-api
 website: https://star-therapeutics.com/
 ---

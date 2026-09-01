@@ -23,7 +23,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 24.3
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
 api_count: 4
 apis:
 - description: Attempting to make API requests without authentication will fail. API requests must be made over HTTPS. Authentication tokens are used to help identify the user attempting to make the HTTP requests. <
@@ -204,7 +204,7 @@ score:
     regime_id: energy_utilities
     score: 23.0
   schema_version: 0.17.2
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
   trend: flat
 security:
 - kind: authentication

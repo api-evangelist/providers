@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
 api_count: 0
 artifact_total: 1
 common:
@@ -84,7 +84,7 @@ modified: '2026-07-19'
 name: Gustav
 nav: Providers
 network: true
-overview: 'Gustav is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Staffing, Vendor Management, VMS, and Recruiting.
+overview: 'Gustav is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Staffing, Vendor Management, VMs, and Recruiting.
 
 
   Gustav''s developer surface includes support, signup flow, and 8 more developer resources.'
@@ -109,7 +109,7 @@ score:
     operational_transparency: 0.0
   previous_composite: 11.5
   schema_version: 0.17.2
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/gustav/refs/heads/main/screenshots/gustav-2026-07-25T220441.png
 security:
@@ -122,7 +122,7 @@ tags:
 - Company
 - Staffing
 - Vendor Management
-- VMS
+- VMs
 - Recruiting
 - Marketplace
 - Contingent Workforce

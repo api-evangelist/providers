@@ -23,7 +23,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 41.5
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
 api_count: 3
 apis:
 - description: REST API returning structured JSON search results across 100+ engines (Google, Bing, Maps, News, Scholar, Images, Shopping, Trends, Jobs, YouTube, Amazon, Walmart, eBay). Single /api/v1/search endpoin
@@ -200,7 +200,7 @@ modified: '2026-08-13'
 name: SearchApi
 nav: Providers
 network: true
-overview: 'SearchApi publishes 3 APIs on the [APIs.io](https://apis.io/) network: SERP API, Account & Analytics API, and Analytics API. Tagged areas include Search, serp-api, google-search, Web Scraping, and search-data.
+overview: 'SearchApi publishes 3 APIs on the [APIs.io](https://apis.io/) network: SERP API, Account & Analytics API, and Analytics API. Tagged areas include Search, SERP API, Google Search, Web Scraping, and Search data.
 
 
   SearchApi''s developer surface includes documentation, API reference, pricing, signup flow, support, changelog, authentication, and 29 more developer resources.'
@@ -247,7 +247,7 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.17.2
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/searchapi/refs/heads/main/screenshots/searchapi-2026-08-17T081744.png
 security:
@@ -266,10 +266,10 @@ security:
 slug: searchapi
 tags:
 - Search
-- serp-api
-- google-search
+- SERP API
+- Google Search
 - Web Scraping
-- search-data
+- Search data
 - Market Intelligence
 - SEO
 - MCP

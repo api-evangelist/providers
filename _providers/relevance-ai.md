@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 54.5
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
 api_count: 2
 apis:
 - description: REST API for the Relevance AI agent platform — 521 paths and 566 operations covering agents, tools (called "studios" in the API), multi-agent workforces, knowledge tables, conversations, triggers, eva
@@ -271,7 +271,7 @@ score:
     operational_transparency: 34.2
   previous_composite: 54.4
   schema_version: 0.17.2
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/relevance-ai/refs/heads/main/screenshots/relevance-ai-2026-06-20T192832.png
 security:

@@ -23,7 +23,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
 api_count: 0
 artifact_total: 1
 common:
@@ -94,7 +94,7 @@ modified: '2026-08-04'
 name: Mighty Buildings
 nav: Providers
 network: true
-overview: Mighty Buildings is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Construction, Construction Technology, Contech, and 3D Printing.
+overview: Mighty Buildings is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Construction, Construction Technology, ConTech, and 3D Printing.
 random_paper: 5
 score:
   band: minimal
@@ -116,7 +116,7 @@ score:
     operational_transparency: 2.6
   previous_composite: 7.4
   schema_version: 0.17.2
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/mighty-buildings/refs/heads/main/screenshots/mighty-buildings-2026-08-07T172857.png
 security:
@@ -129,7 +129,7 @@ tags:
 - Company
 - Construction
 - Construction Technology
-- Contech
+- ConTech
 - 3D Printing
 - Additive Manufacturing
 - Advanced Manufacturing

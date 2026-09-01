@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
 agentic_access:
 - acting_count: 56
   human_in_the_loop: 11
@@ -614,7 +614,7 @@ modified: '2026-05-29'
 name: VirusTotal
 nav: Providers
 network: true
-overview: 'VirusTotal publishes 33 APIs on the [APIs.io](https://apis.io/) network, including Access Control - Group Management API, Access Control - Quota Management API, Access Control - Service Account Management API, and 30 more. Tagged areas include Anti-Malware, Threat Intelligence, Security, File Analysis, and URL Analysis.
+overview: 'VirusTotal publishes 33 APIs on the [APIs.io](https://apis.io/) network, including Access Control - Group Management API, Access Control - Quota Management API, Access Control - Service Account Management API, and 30 more. Tagged areas include Anti Malware, Threat Intelligence, Security, File Analysis, and URL Analysis.
 
 
   The VirusTotal catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
@@ -679,7 +679,7 @@ score:
       marker_coverage: 0.0
       total: 33
   schema_version: 0.17.2
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/virustotal/refs/heads/main/screenshots/virustotal-2026-06-20T201042.png
 security:
@@ -693,13 +693,13 @@ security:
   summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 slug: virustotal
 tags:
-- Anti-Malware
+- Anti Malware
 - Threat Intelligence
 - Security
 - File Analysis
 - URL Analysis
 - YARA
-- IoC
+- IOC
 - Sandbox
 - MITRE ATT&CK
 - Google Cloud

@@ -23,7 +23,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 29.0
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
 api_count: 4
 apis:
 - description: The ChangeOrders API from D-Tools — 2 operation(s) for changeorders.
@@ -249,7 +249,7 @@ modified: '2026-08-11'
 name: D-Tools
 nav: Providers
 network: true
-overview: 'D-Tools publishes 27 APIs on the [APIs.io](https://apis.io/) network, including Change Orders API, Clients API, Files API, and 24 more. Tagged areas include av-integration, systems-integration, project-management, estimation, and Quoting.
+overview: 'D-Tools publishes 27 APIs on the [APIs.io](https://apis.io/) network, including Change Orders API, Clients API, Files API, and 24 more. Tagged areas include av-integration, Systems Integration, Project Management, Estimation, and Quoting.
 
 
   The D-Tools catalog on APIs.io includes 1 event-driven AsyncAPI specification.
@@ -294,7 +294,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.17.2
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/d-tools/refs/heads/main/screenshots/d-tools-2026-08-17T080847.png
 security:
@@ -309,15 +309,15 @@ security:
 slug: d-tools
 tags:
 - av-integration
-- systems-integration
-- project-management
-- estimation
+- Systems Integration
+- Project Management
+- Estimation
 - Quoting
-- field-service-management
-- construction-tech
+- Field Service Management
+- Construction Tech
 - low-voltage
-- product-catalog
-- erp-integration
-- vertical-saas
+- Product Catalog
+- ERP Integration
+- Vertical SaaS
 website: https://www.d-tools.com/
 ---

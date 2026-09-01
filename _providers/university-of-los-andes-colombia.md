@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 2.5
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
 api_count: 2
 apis:
 - description: OAI-PMH metadata harvesting interface for the DSpace-based institutional repository "Seneca", which collects and preserves the University's open-access scholarly output (articles, theses, books, datas
@@ -128,7 +128,7 @@ score:
     regime_id: education
     score: 20.4
   schema_version: 0.17.2
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/university-of-los-andes-colombia/refs/heads/main/screenshots/university-of-los-andes-colombia-2026-06-20T200202.png
 security:

@@ -23,7 +23,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.4
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
 agentic_access:
 - acting_count: 16
   human_in_the_loop: 1
@@ -218,7 +218,7 @@ modified: '2026-08-06'
 name: ActiveFence
 nav: Providers
 network: true
-overview: 'ActiveFence publishes 7 APIs on the [APIs.io](https://apis.io/) network, including api keys API, Collection API, Content API, and 4 more. Tagged areas include ai-safety, ai-security, trust-and-safety, content-moderation, and guardrails.
+overview: 'ActiveFence publishes 7 APIs on the [APIs.io](https://apis.io/) network, including api keys API, Collection API, Content API, and 4 more. Tagged areas include AI Safety, AI Security, Trust and Safety, Content Moderation, and Guardrails.
 
 
   The ActiveFence catalog on APIs.io includes 1 event-driven AsyncAPI specification.
@@ -234,7 +234,7 @@ score:
     catalog_gap: 78.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -1.8
+  delta: 0.0
   facets:
     access_clarity: 35.5
     commercial_clarity: 35.5
@@ -244,7 +244,7 @@ score:
     discoverability: 75.9
     governance: 18.2
     operational_transparency: 10.5
-  previous_composite: 50.2
+  previous_composite: 48.4
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -256,7 +256,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.17.2
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/activefence/refs/heads/main/screenshots/activefence-2026-08-07T160856.png
 security:
@@ -270,17 +270,17 @@ security:
   summary_line: TLSv1.3 · HSTS · DMARC
 slug: activefence
 tags:
-- ai-safety
-- ai-security
-- trust-and-safety
-- content-moderation
-- guardrails
-- red-teaming
-- llm-security
-- prompt-injection
-- ai-governance
-- risk-scoring
-- user-generated-content
-- child-safety
+- AI Safety
+- AI Security
+- Trust and Safety
+- Content Moderation
+- Guardrails
+- Red Teaming
+- LLM Security
+- Prompt Injection
+- AI Governance
+- Risk Scoring
+- User Generated Content
+- Child Safety
 website: https://alice.io/
 ---

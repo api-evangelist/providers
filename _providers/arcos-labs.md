@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
 api_count: 0
 artifact_total: 0
 common:
@@ -60,7 +60,7 @@ modified: '2026-07-18'
 name: Arcos Labs
 nav: Providers
 network: true
-overview: 'Arcos Labs is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Legal, Legal Technology, Legaltech, and Artificial Intelligence.
+overview: 'Arcos Labs is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Legal, Legal Technology, Legal Tech, and Artificial Intelligence.
 
 
   Arcos Labs'' developer surface includes signup flow and 3 more developer resources.'
@@ -91,14 +91,14 @@ score:
       reason: never_enriched
   previous_composite: 5.0
   schema_version: 0.17.2
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
   trend: flat
 slug: arcos-labs
 tags:
 - Company
 - Legal
 - Legal Technology
-- Legaltech
+- Legal Tech
 - Artificial Intelligence
 - Stealth
 - Early Access

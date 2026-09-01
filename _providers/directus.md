@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 18.0
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
 api_count: 2
 apis:
 - description: Auto-generated REST API built on top of any SQL database schema. Provides full CRUD operations on all collections, authentication endpoints, file management, user and role management, and system confi
@@ -160,7 +160,7 @@ score:
     catalog_gap: 83.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: 7.5
+  delta: 0.0
   facets:
     access_clarity: 10.5
     commercial_clarity: 10.5
@@ -173,10 +173,10 @@ score:
   open_source:
     applies: true
     score: 100.0
-  previous_composite: 25.0
+  previous_composite: 32.5
   schema_version: 0.17.2
-  scored_at: '2026-08-30'
-  trend: rising
+  scored_at: '2026-09-01'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/directus/refs/heads/main/screenshots/directus-2026-06-20T180049.png
 security:
 - kind: domain-security

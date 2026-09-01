@@ -23,7 +23,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 15.8
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
 api_count: 2
 apis:
 - description: Publicly reachable GraphQL endpoint served by the Craft CMS instance behind level.co. Introspection is enabled anonymously, but the published public schema scope is deliberately narrow — a `ping` quer
@@ -143,7 +143,7 @@ modified: '2026-08-04'
 name: Level Home
 nav: Providers
 network: true
-overview: 'Level Home publishes 2 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include smart-lock, smart-home, home-automation, iot, and access-control.
+overview: 'Level Home publishes 2 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Smart Lock, Smart Home, Home Automation, IoT, and Access Control.
 
 
   Level Home''s developer surface includes documentation, support, engineering blog, pricing, signup flow, legal docs, and 19 more developer resources.'
@@ -170,7 +170,7 @@ score:
   provenance:
     conformance: derived
   schema_version: 0.17.2
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/level-home/refs/heads/main/screenshots/level-home-2026-08-07T171558.png
 security:
@@ -184,18 +184,18 @@ security:
   summary_line: TLSv1.3 · DMARC
 slug: level-home
 tags:
-- smart-lock
-- smart-home
-- home-automation
-- iot
-- access-control
-- matter
-- thread
-- bluetooth-le
+- Smart Lock
+- Smart Home
+- Home Automation
+- IoT
+- Access Control
+- Matter
+- Thread
+- Bluetooth LE
 - apple-home-key
-- consumer-hardware
-- multifamily
-- proptech
-- graphql
+- Consumer Hardware
+- Multifamily
+- PropTech
+- GraphQL
 website: https://level.co/
 ---

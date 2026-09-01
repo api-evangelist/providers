@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
 api_count: 0
 artifact_total: 2
 common:
@@ -88,7 +88,7 @@ modified: '2026-05-16'
 name: TotalEnergies
 nav: Providers
 network: true
-overview: 'TotalEnergies is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Energy, Oil & Gas, Renewables, Electricity, and Charging.
+overview: 'TotalEnergies is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Energy, Oil and Gas, Renewables, Electricity, and Charging.
 
 
   TotalEnergies'' developer surface includes product news and 10 more developer resources.'
@@ -119,7 +119,7 @@ score:
     regime_id: energy_utilities
     score: 16.2
   schema_version: 0.17.2
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/totalenergies/refs/heads/main/screenshots/totalenergies-2026-06-20T195501.png
 security:
@@ -134,7 +134,7 @@ security:
 slug: totalenergies
 tags:
 - Energy
-- Oil & Gas
+- Oil and Gas
 - Renewables
 - Electricity
 - Charging

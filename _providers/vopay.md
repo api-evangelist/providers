@@ -23,7 +23,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 36.9
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
 agentic_access:
 - acting_count: 258
   human_in_the_loop: 0
@@ -468,7 +468,7 @@ modified: '2026-07-24'
 name: VoPay
 nav: Providers
 network: true
-overview: 'VoPay publishes 61 APIs on the [APIs.io](https://apis.io/) network, including Account Endpoints API, Account Onboarding Endpoints API, Account Verification Endpoints API, and 58 more. Tagged areas include Payments, Canada, Embedded Finance, Payments as a Service, and Account-to-Account.
+overview: 'VoPay publishes 61 APIs on the [APIs.io](https://apis.io/) network, including Account Endpoints API, Account Onboarding Endpoints API, Account Verification Endpoints API, and 58 more. Tagged areas include Payments, Canada, Embedded Finance, Payments-as-a-Service, and Account-to-Account.
 
 
   The VoPay catalog on APIs.io includes 1 event-driven AsyncAPI specification.
@@ -507,7 +507,7 @@ score:
     regime_id: banking_open_finance
     score: 39.2
   schema_version: 0.17.2
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/vopay/refs/heads/main/screenshots/vopay-2026-08-17T082823.png
 security:
@@ -528,7 +528,7 @@ tags:
 - Payments
 - Canada
 - Embedded Finance
-- Payments as a Service
+- Payments-as-a-Service
 - Account-to-Account
 - EFT
 - Interac e-Transfer

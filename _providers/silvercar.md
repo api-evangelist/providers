@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 32.4
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
 api_count: 1
 apis:
 - description: 'Versioned (mob-api-v4) REST API for Dealerware fleet-management and courtesy/loaner mobility workflows: contracts, reservations, contactless check-in, customers, drivers, employees, dealerships, fleet'
@@ -145,7 +145,7 @@ score:
     operational_transparency: 11.8
   previous_composite: 30.7
   schema_version: 0.17.2
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
   trend: flat
 security:
 - kind: authentication
@@ -164,7 +164,7 @@ tags:
 - Fleet Management
 - Mobility
 - Dealership
-- Rental
+- Rentals
 - Software-as-a-Service
 website: https://silvercar.com
 ---

@@ -23,7 +23,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 23.9
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -176,7 +176,7 @@ modified: '2026-08-02'
 name: Taalas
 nav: Providers
 network: true
-overview: 'Taalas publishes 3 APIs on the [APIs.io](https://apis.io/) network, including Models API, Monitoring API, and 1 more. Tagged areas include Company, artificial-intelligence, ai-inference, semiconductors, and ai-accelerator.
+overview: 'Taalas publishes 3 APIs on the [APIs.io](https://apis.io/) network, including Models API, Monitoring API, and 1 more. Tagged areas include Company, Artificial Intelligence, AI Inference, Semiconductors, and AI Accelerator.
 
 
   Taalas'' developer surface includes documentation, API reference, signup flow, support, engineering blog, authentication, and 20 more developer resources.'
@@ -211,7 +211,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.17.2
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
   trend: flat
 security:
 - kind: authentication
@@ -225,15 +225,15 @@ security:
 slug: taalas
 tags:
 - Company
-- artificial-intelligence
-- ai-inference
-- semiconductors
-- ai-accelerator
-- large-language-models
-- llama
-- inference-api
-- openai-compatible
-- hardware
-- deep-tech
+- Artificial Intelligence
+- AI Inference
+- Semiconductors
+- AI Accelerator
+- Large Language Models
+- Llama
+- Inference API
+- OpenAI-Compatible
+- Hardware
+- Deep Tech
 website: https://taalas.com/
 ---

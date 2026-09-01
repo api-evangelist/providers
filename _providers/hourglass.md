@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
 api_count: 0
 artifact_total: 2
 common:
@@ -88,7 +88,7 @@ modified: '2026-07-19'
 name: Hourglass
 nav: Providers
 network: true
-overview: 'Hourglass is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Defi, Blockchain, Ethereum, and Tokenization.
+overview: 'Hourglass is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, DeFi, Blockchain, Ethereum, and Tokenization.
 
 
   Hourglass'' developer surface includes documentation and 10 more developer resources.'
@@ -113,7 +113,7 @@ score:
     operational_transparency: 7.9
   previous_composite: 10.1
   schema_version: 0.17.2
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/hourglass/refs/heads/main/screenshots/hourglass-2026-07-25T221517.png
 security:
@@ -128,7 +128,7 @@ security:
 slug: hourglass
 tags:
 - Company
-- Defi
+- DeFi
 - Blockchain
 - Ethereum
 - Tokenization

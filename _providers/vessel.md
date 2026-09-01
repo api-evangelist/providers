@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 32.9
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
 agentic_access:
 - acting_count: 304
   human_in_the_loop: 0
@@ -398,7 +398,7 @@ modified: '2026-08-13'
 name: Vessel
 nav: Providers
 network: true
-overview: 'Vessel publishes 37 APIs on the [APIs.io](https://apis.io/) network, including Accounts API, Actions API, Attendees API, and 34 more. Tagged areas include CRM, Chat, Dialer, Embedded Integrations, and GTM.
+overview: 'Vessel publishes 37 APIs on the [APIs.io](https://apis.io/) network, including Accounts API, Actions API, Attendees API, and 34 more. Tagged areas include CRM, Chat, Dialer, Embedded Integrations, and Go-To-Market.
 
 
   The Vessel catalog on APIs.io includes 1 event-driven AsyncAPI specification, 1 JSON-LD context, and 2 Spectral governance rulesets.
@@ -444,7 +444,7 @@ score:
     catalog_gap: 17.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: 1.2
+  delta: 0.0
   facets:
     access_clarity: 78.9
     commercial_clarity: 78.9
@@ -457,7 +457,7 @@ score:
   open_source:
     applies: true
     score: 0.0
-  previous_composite: 64.0
+  previous_composite: 65.2
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -469,7 +469,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.17.2
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/vessel/refs/heads/main/screenshots/vessel-2026-06-20T200959.png
 security:
@@ -487,7 +487,7 @@ tags:
 - Chat
 - Dialer
 - Embedded Integrations
-- GTM
+- Go-To-Market
 - Integration
 - iPaaS
 - Marketing Automation

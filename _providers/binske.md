@@ -23,7 +23,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 22.9
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
 api_count: 1
 apis:
 - description: Anonymous, publicly callable MCP server on binske's direct-to-consumer storefront host implementing the Universal Commerce Protocol shopping service. A live JSON-RPC 2.0 tools/list returned 13 tools w
@@ -130,7 +130,7 @@ modified: '2026-08-07'
 name: Binske
 nav: Providers
 network: true
-overview: 'Binske publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include cannabis, consumer-packaged-goods, direct-to-consumer, E-Commerce, and Retail.
+overview: 'Binske publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Cannabis, Consumer Packaged Goods, Direct to Consumer, E-Commerce, and Retail.
 
 
   Binske''s developer surface includes documentation, authentication, engineering blog, support, and 17 more developer resources.'
@@ -164,7 +164,7 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.17.2
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/binske/refs/heads/main/screenshots/binske-2026-08-07T162438.png
 security:
@@ -178,15 +178,15 @@ security:
   summary_line: TLSv1.3 · HSTS · DMARC
 slug: binske
 tags:
-- cannabis
-- consumer-packaged-goods
-- direct-to-consumer
+- Cannabis
+- Consumer Packaged Goods
+- Direct to Consumer
 - E-Commerce
 - Retail
-- shopify
-- agent-commerce
+- Shopify
+- Agent Commerce
 - UCP
 - MCP
-- storefront
+- Storefront
 website: https://binske.com/
 ---

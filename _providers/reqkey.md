@@ -23,7 +23,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 7.9
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
 api_count: 1
 apis:
 - description: REST API for API key management, usage credits/metering, rate limiting, and traffic analytics. POST/JSON endpoints authenticated with a project root key via Bearer token; single unauthenticated GET /h
@@ -151,7 +151,7 @@ modified: '2026-08-09'
 name: ReqKey
 nav: Providers
 network: true
-overview: 'ReqKey publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include APIKeys, Authentication, Authorization, rate-limiting, and usage-metering.
+overview: 'ReqKey publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include APIKeys, Authentication, Authorization, Rate Limiting, and Usage Metering.
 
 
   ReqKey''s developer surface includes authentication, documentation, API reference, getting-started guide, support, engineering blog, pricing, and 20 more developer resources.'
@@ -187,7 +187,7 @@ score:
     conformance: derived
     mcp: derived
   schema_version: 0.17.2
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
   trend: flat
 security:
 - kind: authentication
@@ -207,12 +207,12 @@ tags:
 - APIKeys
 - Authentication
 - Authorization
-- rate-limiting
-- usage-metering
-- api-analytics
-- api-management
+- Rate Limiting
+- Usage Metering
+- API Analytics
+- API Management
 - Developer Tools
-- middleware
-- observability
+- Middleware
+- Observability
 website: https://www.reqkey.com
 ---

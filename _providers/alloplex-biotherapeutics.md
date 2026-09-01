@@ -23,7 +23,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 25.2
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
 api_count: 1
 apis:
 - description: Route, type, taxonomy and status discovery documents.
@@ -216,7 +216,7 @@ modified: '2026-08-06'
 name: Alloplex Biotherapeutics
 nav: Providers
 network: true
-overview: 'Alloplex Biotherapeutics publishes 7 APIs on the [APIs.io](https://apis.io/) network, including Discovery API, Media API, Oembed API, and 4 more. Tagged areas include Company, biotechnology, cell-therapy, immunotherapy, and oncology.
+overview: 'Alloplex Biotherapeutics publishes 7 APIs on the [APIs.io](https://apis.io/) network, including Discovery API, Media API, Oembed API, and 4 more. Tagged areas include Company, Biotechnology, Cell Therapy, Immunotherapy, and Oncology.
 
 
   The Alloplex Biotherapeutics catalog on APIs.io includes 1 JSON-LD context.
@@ -232,7 +232,7 @@ score:
     catalog_gap: 58.0
     catalog_max: 100.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.5
+  delta: 0.0
   facets:
     access_clarity: 57.1
     commercial_clarity: 57.1
@@ -242,7 +242,7 @@ score:
     discoverability: 68.5
     governance: 4.5
     operational_transparency: 0.0
-  previous_composite: 39.4
+  previous_composite: 38.9
   provenance:
     conformance: derived
     contracts:
@@ -258,7 +258,7 @@ score:
     regime_id: health
     score: 31.3
   schema_version: 0.17.2
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/alloplex-biotherapeutics/refs/heads/main/screenshots/alloplex-biotherapeutics-2026-08-07T161225.png
 security:
@@ -273,14 +273,14 @@ security:
 slug: alloplex-biotherapeutics
 tags:
 - Company
-- biotechnology
-- cell-therapy
-- immunotherapy
-- oncology
-- cancer
-- clinical-trials
-- life-sciences
-- drug-development
+- Biotechnology
+- Cell Therapy
+- Immunotherapy
+- Oncology
+- Cancer
+- Clinical Trials
+- Life Sciences
+- Drug Development
 - autoimmunity
 - content-api
 website: https://alloplexbio.com/

@@ -23,7 +23,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 32.9
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
 agentic_access:
 - acting_count: 23
   human_in_the_loop: 1
@@ -196,7 +196,7 @@ modified: '2026-08-12'
 name: Delos
 nav: Providers
 network: true
-overview: 'Delos publishes 11 APIs on the [APIs.io](https://apis.io/) network, including Actions API, Admin/installations API, Admin/products API, and 8 more. Tagged areas include wellness-real-estate, indoor-air-quality, indoor-environmental-quality, iot, and smart-buildings.
+overview: 'Delos publishes 11 APIs on the [APIs.io](https://apis.io/) network, including Actions API, Admin/installations API, Admin/products API, and 8 more. Tagged areas include wellness-real-estate, Indoor Air Quality, indoor-environmental-quality, IoT, and Smart Buildings.
 
 
   The Delos catalog on APIs.io includes 1 event-driven AsyncAPI specification.
@@ -220,7 +220,7 @@ score:
     catalog_gap: 78.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.6
+  delta: 0.0
   facets:
     access_clarity: 27.6
     commercial_clarity: 27.6
@@ -230,7 +230,7 @@ score:
     discoverability: 68.5
     governance: 4.5
     operational_transparency: 2.6
-  previous_composite: 35.0
+  previous_composite: 34.4
   provenance:
     agentic_access: derived
     conformance: derived
@@ -242,7 +242,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.17.2
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/delos/refs/heads/main/screenshots/delos-2026-08-17T080906.png
 security:
@@ -257,16 +257,16 @@ security:
 slug: delos
 tags:
 - wellness-real-estate
-- indoor-air-quality
+- Indoor Air Quality
 - indoor-environmental-quality
-- iot
-- smart-buildings
-- building-automation
-- air-purification
+- IoT
+- Smart Buildings
+- Building Automation
+- Air Purification
 - environmental-sensors
-- commercial-real-estate
+- Commercial Real Estate
 - healthy-buildings
-- hospitality
+- Hospitality
 - ESG
 website: https://delos.com/
 ---

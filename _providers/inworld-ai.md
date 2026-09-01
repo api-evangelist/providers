@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 23.4
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
 agentic_access:
 - acting_count: 9
   human_in_the_loop: 0
@@ -413,7 +413,7 @@ modified: '2026-05-25'
 name: Inworld AI
 nav: Providers
 network: true
-overview: 'Inworld AI publishes 7 APIs on the [APIs.io](https://apis.io/) network, including Models API, Realtime API, Speech To Text API, and 4 more. Tagged areas include Artificial Intelligence, Voice, Text-to-Speech, Speech To Text, and Real-Time.
+overview: 'Inworld AI publishes 7 APIs on the [APIs.io](https://apis.io/) network, including Models API, Realtime API, Speech To Text API, and 4 more. Tagged areas include Artificial Intelligence, Voice, Text-to-Speech, Speech-to-Text, and Real-Time.
 
 
   The Inworld AI catalog on APIs.io includes 1 event-driven AsyncAPI specification, 1 JSON-LD context, and 3 Spectral governance rulesets.
@@ -489,7 +489,7 @@ score:
       marker_coverage: 0.0
       total: 7
   schema_version: 0.17.2
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/inworld-ai/refs/heads/main/screenshots/inworld-ai-2026-06-20T183526.png
 security:
@@ -510,7 +510,7 @@ tags:
 - Artificial Intelligence
 - Voice
 - Text-to-Speech
-- Speech To Text
+- Speech-to-Text
 - Real-Time
 - LLM Routing
 - Voice Cloning

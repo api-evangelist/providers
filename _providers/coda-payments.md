@@ -23,7 +23,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 25.9
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
 api_count: 4
 apis:
 - description: Initiate a payment request, redirect the shopper to Coda's hosted payment page, receive the transaction completion notification, and check transaction status. Available as v1.0 (API key per title/coun
@@ -230,7 +230,7 @@ score:
     regime_id: payments
     score: 65.6
   schema_version: 0.17.2
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/coda-payments/refs/heads/main/screenshots/coda-payments-2026-08-07T163530.png
 security:

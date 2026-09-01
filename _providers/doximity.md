@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 34.7
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 1
@@ -202,7 +202,7 @@ modified: '2026-07-18'
 name: Doximity
 nav: Providers
 network: true
-overview: 'Doximity publishes 2 APIs on the [APIs.io](https://apis.io/) network: OAuth API and OpenID Connect API. Tagged areas include Company, Healthtech, Identity, Authentication, and OpenID Connect.
+overview: 'Doximity publishes 2 APIs on the [APIs.io](https://apis.io/) network: OAuth API and OpenID Connect API. Tagged areas include Company, Health Tech, Identity, Authentication, and OpenID Connect.
 
 
   Doximity''s developer surface includes documentation, getting-started guide, signup flow, support, authentication, and 27 more developer resources.'
@@ -252,7 +252,7 @@ score:
     regime_id: health
     score: 72.5
   schema_version: 0.17.2
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/doximity/refs/heads/main/screenshots/doximity-2026-07-25T212328.png
 security:
@@ -275,7 +275,7 @@ security:
 slug: doximity
 tags:
 - Company
-- Healthtech
+- Health Tech
 - Identity
 - Authentication
 - OpenID Connect

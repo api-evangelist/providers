@@ -23,7 +23,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 27.9
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
 api_count: 2
 apis:
 - description: The HTTP surface for Victoria, the SOJO Planning Assistant — a LangGraph-backed agent over Sojo's production and machine-telemetry data. Publishes a public OpenAPI 3.0.3 describing non-streaming orche
@@ -164,7 +164,7 @@ score:
     operational_transparency: 0.0
   previous_composite: 26.0
   schema_version: 0.17.2
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
   trend: flat
 security:
 - kind: authentication

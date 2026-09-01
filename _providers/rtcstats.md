@@ -23,7 +23,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 37.6
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
 agentic_access:
 - acting_count: 5
   human_in_the_loop: 0
@@ -197,7 +197,7 @@ modified: '2026-08-09'
 name: rtcStats
 nav: Providers
 network: true
-overview: 'rtcStats publishes 1 API on the [APIs.io](https://apis.io/) network: rtcStats API API. Tagged areas include WebRTC, observability, Monitoring, debugging, and real-time-communications.
+overview: 'rtcStats publishes 1 API on the [APIs.io](https://apis.io/) network: rtcStats API API. Tagged areas include WebRTC, Observability, Monitoring, Debugging, and Real-Time Communications.
 
 
   rtcStats'' developer surface includes authentication, changelog, documentation, API reference, getting-started guide, support, engineering blog, and 28 more developer resources.'
@@ -243,7 +243,7 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.17.2
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/rtcstats/refs/heads/main/screenshots/rtcstats-2026-08-17T081649.png
 security:
@@ -258,10 +258,10 @@ security:
 slug: rtcstats
 tags:
 - WebRTC
-- observability
+- Observability
 - Monitoring
-- debugging
-- real-time-communications
+- Debugging
+- Real-Time Communications
 - Video
 - Voice
 - Artificial Intelligence

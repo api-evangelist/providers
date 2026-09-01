@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
 api_count: 0
 artifact_total: 2
 common:
@@ -125,7 +125,7 @@ score:
     operational_transparency: 0.0
   previous_composite: 18.5
   schema_version: 0.17.2
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/modeinspect/refs/heads/main/screenshots/modeinspect-2026-08-07T183920.png
 security:
@@ -145,7 +145,7 @@ tags:
 - Developer Tools
 - Design Engineering
 - Artificial Intelligence
-- Design To Code
+- Design to Code
 - UI Design
 - Prototyping
 website: https://modeinspect.com/

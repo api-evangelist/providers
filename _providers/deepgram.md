@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 26.6
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
 agentic_access:
 - acting_count: 11
   human_in_the_loop: 0
@@ -478,7 +478,7 @@ modified: '2026-05-19'
 name: Deepgram
 nav: Providers
 network: true
-overview: 'Deepgram publishes 12 APIs on the [APIs.io](https://apis.io/) network, including Voice Agent API, Balances API, Invitations API, and 9 more. Tagged areas include Artificial Intelligence, Speech-To-Text, Text-To-Speech, Transcription, and Voice AI.
+overview: 'Deepgram publishes 12 APIs on the [APIs.io](https://apis.io/) network, including Voice Agent API, Balances API, Invitations API, and 9 more. Tagged areas include Artificial Intelligence, Speech-to-Text, Text-to-Speech, Transcription, and Voice AI.
 
 
   The Deepgram catalog on APIs.io includes 3 event-driven AsyncAPI specifications, 1 JSON-LD context, and 5 Spectral governance rulesets.
@@ -576,7 +576,7 @@ score:
       marker_coverage: 0.0
       total: 11
   schema_version: 0.17.2
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/deepgram/refs/heads/main/screenshots/deepgram-2026-06-20T175821.png
 security:
@@ -591,8 +591,8 @@ security:
 slug: deepgram
 tags:
 - Artificial Intelligence
-- Speech-To-Text
-- Text-To-Speech
+- Speech-to-Text
+- Text-to-Speech
 - Transcription
 - Voice AI
 website: https://deepgram.com/

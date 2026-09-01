@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
 api_count: 0
 artifact_total: 1
 common:
@@ -60,7 +60,7 @@ modified: '2026-04-28'
 name: Lam Research
 nav: Providers
 network: true
-overview: 'Lam Research is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Fortune 500, Semiconductor, and Wafer Fabrication.
+overview: 'Lam Research is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Fortune 500, Semiconductors, and Wafer Fabrication.
 
 
   Lam Research''s developer surface includes engineering blog and 3 more developer resources.'
@@ -101,7 +101,7 @@ score:
     operational_transparency: 0.0
   previous_composite: 3.6
   schema_version: 0.17.2
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/lam-research/refs/heads/main/screenshots/lam-research-2026-06-20T184250.png
 security:
@@ -112,7 +112,7 @@ security:
 slug: lam-research
 tags:
 - Fortune 500
-- Semiconductor
+- Semiconductors
 - Wafer Fabrication
 website: https://www.lamresearch.com
 ---

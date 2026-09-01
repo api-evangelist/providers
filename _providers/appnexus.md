@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 7.9
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
 api_count: 1
 apis:
 - description: RESTful JSON API for the AppNexus/Xandr programmatic advertising platform - manage advertisers, campaigns, line items, creatives, placements, inventory, deals, and pull reporting. Token authentication
@@ -170,7 +170,7 @@ modified: '2026-08-12'
 name: AppNexus
 nav: Providers
 network: true
-overview: 'AppNexus publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Adtech, Advertising, Programmatic, and Ad Exchange.
+overview: 'AppNexus publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, AdTech, Advertising, Programmatic, and Ad Exchange.
 
 
   AppNexus'' developer surface includes documentation, API reference, getting-started guide, authentication, changelog, support, and 24 more developer resources.'
@@ -205,7 +205,7 @@ score:
   provenance:
     conformance: first-party
   schema_version: 0.17.2
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/appnexus/refs/heads/main/screenshots/appnexus-2026-07-25T200821.png
 security:
@@ -224,7 +224,7 @@ security:
 slug: appnexus
 tags:
 - Company
-- Adtech
+- AdTech
 - Advertising
 - Programmatic
 - Ad Exchange

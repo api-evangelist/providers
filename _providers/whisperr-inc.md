@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 27.9
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
 api_count: 2
 apis:
 - description: The Dashboard API from Whisperr, Inc. — 23 operation(s) for dashboard.
@@ -61,6 +61,10 @@ apis:
   slug: whisperr-inc-users-api
 artifact_total: 14
 common:
+- group: commercial
+  title: ''
+  type: License
+  url: https://github.com/WhisperrAI/whisperr-spec/blob/main/LICENSE
 - group: docs
   title: ''
   type: OpenAPI
@@ -194,7 +198,7 @@ network: true
 overview: 'Whisperr, Inc. publishes 7 APIs on the [APIs.io](https://apis.io/) network, including Dashboard API, Decisioning API, Delivery API, and 4 more. Tagged areas include Company, Customer Retention, Churn, Marketing Automation, and Artificial Intelligence.
 
 
-  Whisperr, Inc.''s developer surface includes documentation, API reference, getting-started guide, authentication, CLI, engineering blog, signup flow, and 21 more developer resources.'
+  Whisperr, Inc.''s developer surface includes documentation, API reference, getting-started guide, authentication, CLI, engineering blog, signup flow, and 22 more developer resources.'
 plans:
 - name: Whisperr Inc Plans Pricing
   plan_count: 0
@@ -212,7 +216,7 @@ score:
     catalog_gap: 68.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.5
+  delta: 0.0
   facets:
     access_clarity: 0.0
     commercial_clarity: 0.0
@@ -222,13 +226,13 @@ score:
     discoverability: 68.5
     governance: 18.2
     operational_transparency: 2.6
-  previous_composite: 37.3
+  previous_composite: 36.8
   provenance:
     conformance: first-party
     mcp: derived
     skills: derived
   schema_version: 0.17.2
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
   trend: flat
 security:
 - kind: authentication

@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
 api_count: 0
 artifact_total: 1
 common:
@@ -107,7 +107,7 @@ score:
     regime_id: securities_market_data
     score: 23.3
   schema_version: 0.17.2
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/enfusion/refs/heads/main/screenshots/enfusion-2026-07-25T213344.png
 security:
@@ -123,7 +123,7 @@ tags:
 - Hedge Funds
 - Asset Management
 - Portfolio-Management
-- Order Management System
+- OMS
 - Trading
 - Compliance
 - Software-as-a-Service

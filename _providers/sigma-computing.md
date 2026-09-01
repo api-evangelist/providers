@@ -23,7 +23,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 43.7
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
 api_count: 3
 apis:
 - description: Sigma's first-party remote Model Context Protocol server. AI assistants such as Claude, ChatGPT, Codex, Cursor and Snowflake Cortex Code connect over HTTP with OAuth and can then search a Sigma organi
@@ -152,6 +152,10 @@ asyncapis:
   name: Sigma Computing Webhooks
   slug: sigma-computing-webhooks
 common:
+- group: commercial
+  title: ''
+  type: License
+  url: https://github.com/sigmacomputing/embed-sdk/blob/main/LICENSE
 - group: company
   title: ''
   type: Website
@@ -344,13 +348,13 @@ modified: '2026-08-27'
 name: Sigma Computing
 nav: Providers
 network: true
-overview: 'Sigma Computing publishes 38 APIs on the [APIs.io](https://apis.io/) network, including Account Types API, API Connectors API, API Credentials API, and 35 more. Tagged areas include business-intelligence, Analytics, embedded-analytics, data-modeling, and data-warehouse.
+overview: 'Sigma Computing publishes 38 APIs on the [APIs.io](https://apis.io/) network, including Account Types API, API Connectors API, API Credentials API, and 35 more. Tagged areas include Business Intelligence, Analytics, Embedded Analytics, Data Modeling, and Data Warehouse.
 
 
   The Sigma Computing catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  Sigma Computing''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, signup flow, pricing, and 38 more developer resources.'
+  Sigma Computing''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, signup flow, pricing, and 39 more developer resources.'
 plans:
 - name: Sigma Computing Plans Pricing
   plan_count: 0
@@ -373,7 +377,7 @@ score:
     catalog_gap: 66.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: 1.9
+  delta: 0.0
   facets:
     access_clarity: 60.5
     commercial_clarity: 60.5
@@ -383,9 +387,9 @@ score:
     discoverability: 75.9
     governance: 18.2
     operational_transparency: 92.1
-  previous_composite: 63.9
+  previous_composite: 65.8
   schema_version: 0.17.2
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
   trend: flat
 security:
 - kind: authentication
@@ -406,17 +410,17 @@ security:
   summary_line: SOC 1, SOC 2, SOC 3, ISO/IEC 27001, ISO/IEC 27017:2015, ISO/IEC 27018:2019, ISO/IEC 27701, HIPAA, GDPR, CCPA, EU-US Data Privacy Framework
 slug: sigma-computing
 tags:
-- business-intelligence
+- Business Intelligence
 - Analytics
-- embedded-analytics
-- data-modeling
-- data-warehouse
+- Embedded Analytics
+- Data Modeling
+- Data Warehouse
 - Reporting
-- spreadsheets
+- Spreadsheets
 - MCP
 - AI Agents
-- snowflake
-- databricks
-- data-governance
+- Snowflake
+- Databricks
+- Data Governance
 website: https://www.sigmacomputing.com/
 ---

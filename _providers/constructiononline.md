@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 2.5
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
 api_count: 1
 apis:
 - description: REST API for the ConstructionOnline platform that lets approved Business and Enterprise customers programmatically read and write projects, contacts, schedules, daily logs, change orders, budgets, and
@@ -134,7 +134,7 @@ score:
     operational_transparency: 7.9
   previous_composite: 17.0
   schema_version: 0.17.2
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/constructiononline/refs/heads/main/screenshots/constructiononline-2026-06-20T174916.png
 security:

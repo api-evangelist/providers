@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 15.5
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
 api_count: 1
 apis:
 - description: The Homads marketplace surface for searching and browsing mid-term (30+ day) furnished rental listings by location, dates, and neighborhood. As of the catalog date this is a consumer-facing web produc
@@ -91,7 +91,7 @@ modified: '2026-06-21'
 name: Homads
 nav: Providers
 network: true
-overview: 'Homads publishes 2 APIs on the [APIs.io](https://apis.io/) network: Rental Market Data and Rent Comparison. Tagged areas include Rental, Mid-Term Rental, Real-Estate, Marketplace, and Neighborhood Data.
+overview: 'Homads publishes 2 APIs on the [APIs.io](https://apis.io/) network: Rental Market Data and Rent Comparison. Tagged areas include Rentals, Mid-Term Rental, Real-Estate, Marketplace, and Neighborhood Data.
 
 
   Homads'' developer surface includes documentation and 6 more developer resources.'
@@ -124,7 +124,7 @@ score:
     operational_transparency: 21.1
   previous_composite: 24.2
   schema_version: 0.17.2
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/homads/refs/heads/main/screenshots/homads-2026-07-25T221327.png
 security:
@@ -134,7 +134,7 @@ security:
   summary_line: TLSv1.3 · HSTS · DMARC
 slug: homads
 tags:
-- Rental
+- Rentals
 - Mid-Term Rental
 - Real-Estate
 - Marketplace

@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 43.4
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
 api_count: 6
 apis:
 - description: REST API for Oracle Fusion Cloud ERP providing access to financial management, procurement, and project management capabilities.
@@ -263,7 +263,7 @@ modified: '2026-08-27'
 name: Oracle Platforms
 nav: Providers
 network: true
-overview: 'Oracle Platforms publishes 9 APIs on the [APIs.io](https://apis.io/) network, including Analytics API, Blockstorage API, Compute API, and 6 more. Tagged areas include Analytics, Cloud Computing, Database, Enterprise Software, and Infrastructure as a Service.
+overview: 'Oracle Platforms publishes 9 APIs on the [APIs.io](https://apis.io/) network, including Analytics API, Blockstorage API, Compute API, and 6 more. Tagged areas include Analytics, Cloud Computing, Database, Enterprise Software, and Infrastructure-as-a-Service.
 
 
   The Oracle Platforms catalog on APIs.io includes 1 event-driven AsyncAPI specification.
@@ -299,7 +299,7 @@ score:
     operational_transparency: 68.4
   previous_composite: 63.8
   schema_version: 0.17.2
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/oracle-platforms/refs/heads/main/screenshots/oracle-platforms-2026-06-20T191139.png
 security:
@@ -325,7 +325,7 @@ tags:
 - Cloud Computing
 - Database
 - Enterprise Software
-- Infrastructure as a Service
+- Infrastructure-as-a-Service
 - Integration
 - Machine-Learning
 - Platform-as-a-Service

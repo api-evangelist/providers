@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 28.1
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
 agentic_access:
 - acting_count: 83
   human_in_the_loop: 0
@@ -400,7 +400,7 @@ modified: '2026-06-13'
 name: Basware
 nav: Providers
 network: true
-overview: 'Basware publishes 39 APIs on the [APIs.io](https://apis.io/) network, including AccountingDocuments API, Accounts API, AdvancedPermissions API, and 36 more. Tagged areas include E-Invoicing, Purchase-to-Pay, Accounts Payable, Procurement, and Electronic Invoicing.
+overview: 'Basware publishes 39 APIs on the [APIs.io](https://apis.io/) network, including AccountingDocuments API, Accounts API, AdvancedPermissions API, and 36 more. Tagged areas include E-Invoicing, Purchase-To-Pay, Accounts Payable, Procurement, and Electronic Invoicing.
 
 
   The Basware catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
@@ -465,7 +465,7 @@ score:
     regime_id: payments
     score: 42.2
   schema_version: 0.17.2
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/basware/refs/heads/main/screenshots/basware-2026-06-20T173043.png
 security:
@@ -480,7 +480,7 @@ security:
 slug: basware
 tags:
 - E-Invoicing
-- Purchase-to-Pay
+- Purchase-To-Pay
 - Accounts Payable
 - Procurement
 - Electronic Invoicing

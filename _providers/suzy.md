@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
 api_count: 0
 artifact_total: 2
 common:
@@ -80,7 +80,7 @@ modified: '2026-07-21'
 name: Suzy
 nav: Providers
 network: true
-overview: 'Suzy is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Saas, Consumer Insights, Market Research, and Survey.
+overview: 'Suzy is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Software-as-a-Service, Consumer Insights, Market Research, and Survey.
 
 
   Suzy''s developer surface includes engineering blog and 8 more developer resources.'
@@ -105,7 +105,7 @@ score:
     operational_transparency: 0.0
   previous_composite: 14.5
   schema_version: 0.17.2
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
   trend: flat
 security:
 - kind: domain-security
@@ -119,7 +119,7 @@ security:
 slug: suzy
 tags:
 - Company
-- Saas
+- Software-as-a-Service
 - Consumer Insights
 - Market Research
 - Survey

@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
 api_count: 0
 artifact_total: 2
 common:
@@ -80,7 +80,7 @@ modified: '2026-07-21'
 name: Wonderschool
 nav: Providers
 network: true
-overview: 'Wonderschool is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Child Care, Early Childhood Education, Daycare, and Preschool.
+overview: 'Wonderschool is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Childcare, Early Childhood Education, Daycare, and Preschool.
 
 
   Wonderschool''s developer surface includes engineering blog, support, and 7 more developer resources.'
@@ -111,7 +111,7 @@ score:
     regime_id: education
     score: 35.2
   schema_version: 0.17.2
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
   trend: flat
 security:
 - kind: domain-security
@@ -125,7 +125,7 @@ security:
 slug: wonderschool
 tags:
 - Company
-- Child Care
+- Childcare
 - Early Childhood Education
 - Daycare
 - Preschool

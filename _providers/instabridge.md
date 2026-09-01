@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
 api_count: 0
 artifact_total: 1
 common:
@@ -80,7 +80,7 @@ modified: '2026-07-19'
 name: instabridge
 nav: Providers
 network: true
-overview: 'instabridge is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, WiFi, eSIM, Connectivity, and Mobile Data.
+overview: 'instabridge is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Wi-Fi, eSIM, Connectivity, and Mobile Data.
 
 
   instabridge''s developer surface includes engineering blog, support, pricing, and 6 more developer resources.'
@@ -111,7 +111,7 @@ score:
     regime_id: telecommunications
     score: 19.4
   schema_version: 0.17.2
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/instabridge/refs/heads/main/screenshots/instabridge-2026-07-25T222600.png
 security:
@@ -122,7 +122,7 @@ security:
 slug: instabridge
 tags:
 - Company
-- WiFi
+- Wi-Fi
 - eSIM
 - Connectivity
 - Mobile Data

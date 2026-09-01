@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 33.3
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
 agentic_access:
 - acting_count: 264
   human_in_the_loop: 25
@@ -439,7 +439,7 @@ modified: '2026-07-21'
 name: Weka
 nav: Providers
 network: true
-overview: 'Weka publishes 45 APIs on the [APIs.io](https://apis.io/) network, including Active Directory API, Alerts API, Catalog API, and 42 more. Tagged areas include Company, AI Storage, Data Platform, High Performance Computing, and File System.
+overview: 'Weka publishes 45 APIs on the [APIs.io](https://apis.io/) network, including Active Directory API, Alerts API, Catalog API, and 42 more. Tagged areas include Company, AI Storage, Data Platform, High Performance Computing, and Filesystem.
 
 
   Weka''s developer surface includes authentication, CLI, changelog, documentation, API reference, getting-started guide, engineering blog, and 20 more developer resources.'
@@ -452,7 +452,7 @@ score:
     catalog_gap: 83.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.6
+  delta: 0.0
   facets:
     access_clarity: 34.2
     commercial_clarity: 34.2
@@ -462,7 +462,7 @@ score:
     discoverability: 66.7
     governance: 4.5
     operational_transparency: 36.8
-  previous_composite: 47.3
+  previous_composite: 46.7
   provenance:
     agentic_access: derived
     conformance: derived
@@ -474,7 +474,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.17.2
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/weka/refs/heads/main/screenshots/weka-2026-08-17T082907.png
 security:
@@ -496,7 +496,7 @@ tags:
 - AI Storage
 - Data Platform
 - High Performance Computing
-- File System
+- Filesystem
 - Object Storage
 - Kubernetes
 - Cloud Infrastructure

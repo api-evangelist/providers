@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
 api_count: 0
 artifact_total: 0
 created: '2026-07-17'
@@ -43,7 +43,7 @@ modified: '2026-07-20'
 name: Nubisio (Tracxn)
 nav: Providers
 network: true
-overview: Nubisio (Tracxn) is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company and Ai Infrastructure.
+overview: Nubisio (Tracxn) is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company and AI Infrastructure.
 random_paper: 13
 score:
   band: minimal
@@ -73,10 +73,10 @@ score:
       reason: never_enriched
   previous_composite: 4.1
   schema_version: 0.17.2
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
   trend: flat
 slug: nubisio-tracxn
 tags:
 - Company
-- Ai Infrastructure
+- AI Infrastructure
 ---

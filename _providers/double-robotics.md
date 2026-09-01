@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 2.5
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
 api_count: 2
 apis:
 - description: Local developer API for the Double 3 telepresence robot. Commands and events are exchanged as JSON packets over a standard Unix domain socket with the core D3 system service (Ubuntu 18.04, aarch64). A
@@ -96,7 +96,7 @@ modified: '2026-07-18'
 name: Double Robotics
 nav: Providers
 network: true
-overview: 'Double Robotics publishes 2 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Telepresence, Robotics, Videoconferencing, and Hybrid Work.
+overview: 'Double Robotics publishes 2 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Telepresence, Robotics, Video Conferencing, and Hybrid Work.
 
 
   Double Robotics'' developer surface includes documentation, authentication, and 9 more developer resources.'
@@ -121,7 +121,7 @@ score:
     operational_transparency: 2.6
   previous_composite: 18.0
   schema_version: 0.17.2
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/double-robotics/refs/heads/main/screenshots/double-robotics-2026-07-25T212319.png
 security:
@@ -138,7 +138,7 @@ tags:
 - Company
 - Telepresence
 - Robotics
-- Videoconferencing
+- Video Conferencing
 - Hybrid Work
 - SDK
 - Fleet Management

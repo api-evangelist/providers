@@ -23,7 +23,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
 api_count: 0
 artifact_total: 0
 common:
@@ -118,7 +118,7 @@ score:
       reason: never_enriched
   previous_composite: 6.5
   schema_version: 0.17.2
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/evri/refs/heads/main/screenshots/evri-2026-08-07T165054.png
 slug: evri
@@ -128,7 +128,7 @@ tags:
 - United Kingdom
 - Parcel
 - Last Mile Delivery
-- Courier
+- Couriers
 - Track and Trace
 - Returns
 - E-Commerce

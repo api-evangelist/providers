@@ -23,7 +23,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 5.4
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
 api_count: 1
 apis:
 - description: 'The Sensel API is a C library for communicating with Sensel devices (Morph and Sensel sensor boards). It is a LOCAL DEVICE API, not an HTTP service: an application links LibSensel and LibSenselDecompr'
@@ -31,6 +31,10 @@ apis:
   slug: sensel-api-libsensel
 artifact_total: 4
 common:
+- group: commercial
+  title: ''
+  type: License
+  url: https://github.com/sensel/sensel-api/blob/master/LICENSE
 - group: auth
   title: ''
   type: DomainSecurity
@@ -122,7 +126,7 @@ network: true
 overview: 'Sensel publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Touch Input, Haptics, Sensors, and Hardware.
 
 
-  Sensel''s developer surface includes documentation, API reference, getting-started guide, support, and 12 more developer resources.'
+  Sensel''s developer surface includes documentation, API reference, getting-started guide, support, and 13 more developer resources.'
 plans:
 - name: Sensel Plans Pricing
   plan_count: 0
@@ -152,7 +156,7 @@ score:
     operational_transparency: 2.6
   previous_composite: 17.2
   schema_version: 0.17.2
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
   trend: flat
 security:
 - kind: domain-security

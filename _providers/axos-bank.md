@@ -23,7 +23,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 2.5
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
 api_count: 4
 apis:
 - description: Submit new account applications and open new Axos deposit and commercial accounts programmatically. Partner-gated access secured with OAuth 2.0; no public OpenAPI specification is published.
@@ -101,7 +101,7 @@ modified: '2026-07-23'
 name: Axos Bank
 nav: Providers
 network: true
-overview: 'Axos Bank publishes 4 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Financial-Services, Banking, United States, Banking-as-a-Service, and Open Finance.
+overview: 'Axos Bank publishes 4 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Financial-Services, Banking, United States, Banking as a Service, and Open Finance.
 
 
   Axos Bank''s developer surface includes engineering blog, authentication, documentation, support, and 9 more developer resources.'
@@ -132,7 +132,7 @@ score:
     regime_id: banking_open_finance
     score: 25.3
   schema_version: 0.17.2
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/axos-bank/refs/heads/main/screenshots/axos-bank-2026-07-25T202103.png
 security:
@@ -149,7 +149,7 @@ tags:
 - Financial-Services
 - Banking
 - United States
-- Banking-as-a-Service
+- Banking as a Service
 - Open Finance
 - Payments
 - Digital Bank

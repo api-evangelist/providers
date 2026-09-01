@@ -23,7 +23,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 2.5
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
 api_count: 0
 artifact_total: 3
 common:
@@ -116,7 +116,7 @@ modified: '2026-08-12'
 name: Elorian AI
 nav: Providers
 network: true
-overview: 'Elorian AI is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Artificial Intelligence, Machine-Learning, Foundation Models, and Multimodal.
+overview: 'Elorian AI is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Artificial Intelligence, Machine-Learning, Foundation Models, and Multi-Modal.
 
 
   Elorian AI''s developer surface includes YouTube channel and 15 more developer resources.'
@@ -149,7 +149,7 @@ score:
     operational_transparency: 2.6
   previous_composite: 5.3
   schema_version: 0.17.2
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
   trend: flat
 security:
 - kind: domain-security
@@ -162,7 +162,7 @@ tags:
 - Artificial Intelligence
 - Machine-Learning
 - Foundation Models
-- Multimodal
+- Multi-Modal
 - Computer-Vision
 - Visual Reasoning
 - Robotics

@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 2.5
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
 api_count: 3
 apis:
 - description: REST API for Griffith Research Online, the university's institutional repository, running on DSpace 7.6. Provides programmatic access to communities, collections, items, bitstreams, and metadata for G
@@ -142,7 +142,7 @@ score:
     regime_id: education
     score: 20.4
   schema_version: 0.17.2
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/griffith/refs/heads/main/screenshots/griffith-2026-06-20T182409.png
 security:

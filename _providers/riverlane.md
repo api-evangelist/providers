@@ -23,7 +23,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 5.4
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
 api_count: 1
 apis:
 - description: 'Bearer-token cloud service backing the Deltakit SDK. Exposes the compute-heavy and proprietary parts of the QEC workflow that do not run locally: leakage noise generation and simulation, decoding with'
@@ -164,7 +164,7 @@ modified: '2026-08-05'
 name: Riverlane
 nav: Providers
 network: true
-overview: 'Riverlane publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include quantum-computing, quantum-error-correction, Decoders, scientific-computing, and python-sdk.
+overview: 'Riverlane publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Quantum Computing, Quantum Error Correction, Decoders, Scientific Computing, and Python SDK.
 
 
   Riverlane''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, signup flow, changelog, and 24 more developer resources.'
@@ -194,7 +194,7 @@ score:
   provenance:
     conformance: derived
   schema_version: 0.17.2
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
   trend: flat
 security:
 - kind: authentication
@@ -211,15 +211,15 @@ security:
   summary_line: Hackerone
 slug: riverlane
 tags:
-- quantum-computing
-- quantum-error-correction
+- Quantum Computing
+- Quantum Error Correction
 - Decoders
-- scientific-computing
-- python-sdk
-- graphql
-- simulation
-- research-tools
+- Scientific Computing
+- Python SDK
+- GraphQL
+- Simulation
+- Research Tools
 - Open-Source
-- hpc
+- HPC
 website: https://www.riverlane.com/
 ---

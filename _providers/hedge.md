@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
 api_count: 0
 artifact_total: 1
 common:
@@ -60,7 +60,7 @@ modified: '2026-07-19'
 name: Hedge
 nav: Providers
 network: true
-overview: 'Hedge is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Crypto, DeFi, Solana, and Stablecoin.
+overview: 'Hedge is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Crypto, DeFi, Solana, and Stablecoins.
 
 
   Hedge''s developer surface includes documentation and 3 more developer resources.'
@@ -85,7 +85,7 @@ score:
     operational_transparency: 0.0
   previous_composite: 7.6
   schema_version: 0.17.2
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/hedge/refs/heads/main/screenshots/hedge-2026-07-25T220900.png
 security:
@@ -99,7 +99,7 @@ tags:
 - Crypto
 - DeFi
 - Solana
-- Stablecoin
+- Stablecoins
 - Lending
 - Blockchain
 website: https://www.hedge.so/

@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 21.8
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
 api_count: 2
 apis:
 - description: The AI API from Trend — 3 operation(s) for ai.
@@ -216,7 +216,7 @@ modified: '2026-08-13'
 name: Trend
 nav: Providers
 network: true
-overview: 'Trend publishes 20 APIs on the [APIs.io](https://apis.io/) network, including AI API, Auth API, Basic Authentication (AI) API, and 17 more. Tagged areas include Company, User-Generated Content, Creator Economy, Content Marketing, and Video Production.
+overview: 'Trend publishes 20 APIs on the [APIs.io](https://apis.io/) network, including AI API, Auth API, Basic Authentication (AI) API, and 17 more. Tagged areas include Company, User Generated Content, Creator Economy, Content Marketing, and Video Production.
 
 
   Trend''s developer surface includes pricing, signup flow, support, engineering blog, API reference, authentication, and 19 more developer resources.'
@@ -237,7 +237,7 @@ score:
     catalog_gap: 66.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.5
+  delta: 0.0
   facets:
     access_clarity: 76.3
     commercial_clarity: 76.3
@@ -247,7 +247,7 @@ score:
     discoverability: 68.5
     governance: 4.5
     operational_transparency: 2.6
-  previous_composite: 40.8
+  previous_composite: 40.3
   provenance:
     conformance: derived
     contracts:
@@ -264,7 +264,7 @@ score:
     regime_id: payments
     score: 39.1
   schema_version: 0.17.2
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/trend/refs/heads/main/screenshots/trend-2026-08-17T082448.png
 security:
@@ -279,7 +279,7 @@ security:
 slug: trend
 tags:
 - Company
-- User-Generated Content
+- User Generated Content
 - Creator Economy
 - Content Marketing
 - Video Production

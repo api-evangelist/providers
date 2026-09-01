@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 34.2
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
 agentic_access:
 - acting_count: 92
   human_in_the_loop: 92
@@ -683,7 +683,7 @@ modified: '2026-05-29'
 name: Novu
 nav: Providers
 network: true
-overview: 'Novu publishes 18 APIs on the [APIs.io](https://apis.io/) network, including Inbox / In-App API, Activity API, Channel Connections API, and 15 more. Tagged areas include Notification, Messaging, In App, Email, and SMS.
+overview: 'Novu publishes 18 APIs on the [APIs.io](https://apis.io/) network, including Inbox / In-App API, Activity API, Channel Connections API, and 15 more. Tagged areas include Notification, Messaging, In-App, Email, and SMS.
 
 
   The Novu catalog on APIs.io includes 1 event-driven AsyncAPI specification, 1 JSON-LD context, and 3 Spectral governance rulesets.
@@ -740,7 +740,7 @@ score:
     catalog_gap: 23.5
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.5
+  delta: 0.0
   facets:
     access_clarity: 77.6
     commercial_clarity: 77.6
@@ -750,7 +750,7 @@ score:
     discoverability: 70.4
     governance: 28.8
     operational_transparency: 57.9
-  previous_composite: 72.6
+  previous_composite: 72.1
   provenance:
     agentic_access: derived
     contracts:
@@ -765,7 +765,7 @@ score:
     regime_id: telecommunications
     score: 34.7
   schema_version: 0.17.2
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/novu/refs/heads/main/screenshots/novu-2026-06-20T190442.png
 security:
@@ -790,7 +790,7 @@ solutions:
 tags:
 - Notification
 - Messaging
-- In App
+- In-App
 - Email
 - SMS
 - Push
@@ -801,7 +801,7 @@ tags:
 - Topics
 - Inbox
 - Workflow Orchestration
-- Multi Channel
+- Multi-Channel
 - Digest
 - MCP
 - Framework

@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 51.3
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
 api_count: 3
 apis:
 - description: Monte Carlo's single GraphQL endpoint. Every piece of information the web application presents can be retrieved and mutated programmatically — alerts and incidents, monitors and monitors-as-code, asse
@@ -250,7 +250,7 @@ score:
     operational_transparency: 44.7
   previous_composite: 50.5
   schema_version: 0.17.2
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/monte-carlo-data/refs/heads/main/screenshots/monte-carlo-data-2026-06-20T185743.png
 security:

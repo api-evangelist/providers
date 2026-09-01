@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 2.5
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
 api_count: 1
 apis:
 - description: The Opterrix Data API provides real-time and historical weather and hazard data through high-performance endpoints designed for the insurance industry. It supports storm event history with location-ba
@@ -113,7 +113,7 @@ score:
     regime_id: insurance
     score: 9.1
   schema_version: 0.17.2
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/opterrix/refs/heads/main/screenshots/opterrix-2026-06-20T191110.png
 security:

@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 15.5
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
 api_count: 4
 apis:
 - description: Query and manage recurring subscriptions - list and fetch subscriptions and their lines, then create, cancel, pause, unpause, reactivate, skip, ship now, swap product variants, edit interval, apply di
@@ -98,7 +98,7 @@ modified: '2026-07-10'
 name: Skio
 nav: Providers
 network: true
-overview: 'Skio publishes 4 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Subscription, Shopify, E-Commerce, DTC, and Recurring Billing.
+overview: 'Skio publishes 4 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Subscription, Shopify, E-Commerce, Direct to Consumer, and Recurring Billing.
 
 
   Skio''s developer surface includes documentation and 7 more developer resources.'
@@ -131,7 +131,7 @@ score:
     operational_transparency: 31.6
   previous_composite: 29.9
   schema_version: 0.17.2
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
   trend: flat
 security:
 - kind: domain-security
@@ -143,7 +143,7 @@ tags:
 - Subscription
 - Shopify
 - E-Commerce
-- DTC
+- Direct to Consumer
 - Recurring Billing
 - GraphQL
 website: https://skio.com

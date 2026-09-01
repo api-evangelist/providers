@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 34.4
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
 agentic_access:
 - acting_count: 10
   human_in_the_loop: 0
@@ -301,7 +301,7 @@ modified: '2026-07-21'
 name: Zalando
 nav: Providers
 network: true
-overview: 'Zalando publishes 20 APIs on the [APIs.io](https://apis.io/) network, including AnnouncedReturns API, attribute-types API, attribute-values API, and 17 more. Tagged areas include Company, Consumer; Marketplace, Fashion, E-Commerce, and Retail.
+overview: 'Zalando publishes 20 APIs on the [APIs.io](https://apis.io/) network, including AnnouncedReturns API, attribute-types API, attribute-values API, and 17 more. Tagged areas include Company, Consumer Marketplace, Fashion, E-Commerce, and Retail.
 
 
   Zalando''s developer surface includes authentication, documentation, API reference, getting-started guide, changelog, signup flow, engineering blog, and 23 more developer resources.'
@@ -347,7 +347,7 @@ score:
     regime_id: payments
     score: 42.2
   schema_version: 0.17.2
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
   trend: flat
 security:
 - kind: authentication
@@ -361,7 +361,7 @@ security:
 slug: zalando
 tags:
 - Company
-- Consumer; Marketplace
+- Consumer Marketplace
 - Fashion
 - E-Commerce
 - Retail

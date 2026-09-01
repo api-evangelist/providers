@@ -23,7 +23,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 14.2
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
 api_count: 1
 apis:
 - description: Hosted Model Context Protocol server operated by Acrisure at https://api.acrisure.com/v1/mcp. Production and live, protected by Microsoft Entra ID via an authorization-code + PKCE flow carrying the si
@@ -139,7 +139,7 @@ modified: '2026-08-06'
 name: Acrisure
 nav: Providers
 network: true
-overview: 'Acrisure publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Insurance, insurance-brokerage, Fintech, employee-benefits, and payroll-hr.
+overview: 'Acrisure publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Insurance, Insurance Brokerage, Fintech, Employee Benefits, and payroll-hr.
 
 
   Acrisure''s developer surface includes engineering blog, product news, support, signup flow, authentication, and 14 more developer resources.'
@@ -178,7 +178,7 @@ score:
     regime_id: insurance
     score: 72.7
   schema_version: 0.17.2
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/acrisure/refs/heads/main/screenshots/acrisure-2026-08-07T160845.png
 security:
@@ -197,15 +197,15 @@ security:
 slug: acrisure
 tags:
 - Insurance
-- insurance-brokerage
+- Insurance Brokerage
 - Fintech
-- employee-benefits
+- Employee Benefits
 - payroll-hr
-- reinsurance
-- risk-management
+- Reinsurance
+- Risk Management
 - Cybersecurity
-- mortgage
-- surety-bonds
+- Mortgage
+- Surety Bonds
 - MCP
 - Authentication
 website: https://www.acrisure.com/

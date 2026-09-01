@@ -23,7 +23,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 28.6
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -179,7 +179,7 @@ modified: '2026-08-09'
 name: legal.ge Public APIs
 nav: Providers
 network: true
-overview: 'legal.ge Public APIs publishes 2 APIs on the [APIs.io](https://apis.io/) network: Directory API and Matching API. Tagged areas include Legal, law, legal-services, Directory, and georgia.
+overview: 'legal.ge Public APIs publishes 2 APIs on the [APIs.io](https://apis.io/) network: Directory API and Matching API. Tagged areas include Legal, Law, Legal Services, Directory, and Georgia.
 
 
   legal.ge Public APIs'' developer surface includes documentation, API reference, support, engineering blog, pricing, signup flow, authentication, and 21 more developer resources.'
@@ -218,7 +218,7 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.17.2
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/legal-ge-public-apis/refs/heads/main/screenshots/legal-ge-public-apis-2026-08-17T081028.png
 security:
@@ -233,15 +233,15 @@ security:
 slug: legal-ge-public-apis
 tags:
 - Legal
-- law
-- legal-services
+- Law
+- Legal Services
 - Directory
-- georgia
+- Georgia
 - AI Agents
 - MCP
 - specialists
-- professional-services
+- Professional Services
 - Marketplace
-- multilingual
-- legal-tech
+- Multilingual
+- Legal Tech
 ---

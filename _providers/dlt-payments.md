@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
 api_count: 0
 artifact_total: 1
 common:
@@ -72,7 +72,7 @@ modified: '2026-07-18'
 name: DLT Payments
 nav: Providers
 network: true
-overview: 'DLT Payments is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Payments, Stablecoin, Cryptocurrency, and Blockchain.
+overview: 'DLT Payments is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Payments, Stablecoins, Cryptocurrency, and Blockchain.
 
 
   DLT Payments'' developer surface includes engineering blog and 6 more developer resources.'
@@ -103,7 +103,7 @@ score:
     regime_id: payments
     score: 21.9
   schema_version: 0.17.2
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/dlt-payments/refs/heads/main/screenshots/dlt-payments-2026-07-25T212145.png
 security:
@@ -115,7 +115,7 @@ slug: dlt-payments
 tags:
 - Company
 - Payments
-- Stablecoin
+- Stablecoins
 - Cryptocurrency
 - Blockchain
 - Web3

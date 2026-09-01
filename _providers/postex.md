@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.2
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
 api_count: 1
 apis:
 - description: Booking, tracking, and listing shipment orders
@@ -98,7 +98,7 @@ modified: '2026-07-20'
 name: PostEx
 nav: Providers
 network: true
-overview: 'PostEx publishes 2 APIs on the [APIs.io](https://apis.io/) network: Orders API and Reference API. Tagged areas include Company, Logistics, Courier, Shipping, and E-Commerce.
+overview: 'PostEx publishes 2 APIs on the [APIs.io](https://apis.io/) network: Orders API and Reference API. Tagged areas include Company, Logistics, Couriers, Shipping, and E-Commerce.
 
 
   PostEx''s developer surface includes authentication and 7 more developer resources.'
@@ -138,7 +138,7 @@ score:
     regime_id: payments
     score: 26.6
   schema_version: 0.17.2
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
   trend: flat
 security:
 - kind: authentication
@@ -153,7 +153,7 @@ slug: postex
 tags:
 - Company
 - Logistics
-- Courier
+- Couriers
 - Shipping
 - E-Commerce
 - Fulfillment

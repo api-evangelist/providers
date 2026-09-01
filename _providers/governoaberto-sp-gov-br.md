@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 2.5
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
 api_count: 1
 apis:
 - description: CKAN Action API for Governo Aberto do Estado de São Paulo, a consistent JSON-over-HTTP interface over a catalog of 419 datasets. Standard actions include package_search, package_show, package_list, or
@@ -120,7 +120,7 @@ score:
     regime_id: government
     score: 11.1
   schema_version: 0.17.2
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/governoaberto-sp-gov-br/refs/heads/main/screenshots/governoaberto-sp-gov-br-2026-06-20T182307.png
 security:

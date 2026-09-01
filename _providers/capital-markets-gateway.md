@@ -23,7 +23,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 17.3
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
 api_count: 3
 apis:
 - description: Schema-driven GraphQL access to CMG's live and historical ECM dataset. Per CMG's published FAQ the feed lets teams "query specific fields across deals, participants, terms and activity through a singl
@@ -156,7 +156,7 @@ score:
     regime_id: securities_market_data
     score: 31.7
   schema_version: 0.17.2
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
   trend: flat
 security:
 - kind: domain-security

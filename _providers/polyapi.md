@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 24.1
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
 agentic_access:
 - acting_count: 29
   human_in_the_loop: 0
@@ -372,7 +372,7 @@ modified: '2026-05-19'
 name: PolyAPI
 nav: Providers
 network: true
-overview: 'PolyAPI publishes 10 APIs on the [APIs.io](https://apis.io/) network, including API Functions API, Assistants API, Client Functions API, and 7 more. Tagged areas include Integration, Microservices, Middleware, Orchestrations, and Pro-Code API Composition.
+overview: 'PolyAPI publishes 10 APIs on the [APIs.io](https://apis.io/) network, including API Functions API, Assistants API, Client Functions API, and 7 more. Tagged areas include Integration, Microservices, Middleware, Orchestrations, and Pro-Code-API-Composition.
 
 
   The PolyAPI catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
@@ -407,7 +407,7 @@ score:
     catalog_gap: 52.8
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.5
+  delta: 0.0
   facets:
     access_clarity: 39.5
     commercial_clarity: 39.5
@@ -417,7 +417,7 @@ score:
     discoverability: 66.7
     governance: 9.8
     operational_transparency: 55.3
-  previous_composite: 51.3
+  previous_composite: 50.8
   provenance:
     agentic_access: derived
     contracts:
@@ -426,7 +426,7 @@ score:
       marker_coverage: 0.0
       total: 10
   schema_version: 0.17.2
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/polyapi/refs/heads/main/screenshots/polyapi-2026-06-20T191900.png
 security:
@@ -444,7 +444,7 @@ tags:
 - Microservices
 - Middleware
 - Orchestrations
-- Pro-Code API Composition
+- Pro-Code-API-Composition
 use_cases:
 - name: Service Development
 - name: Operational Applications

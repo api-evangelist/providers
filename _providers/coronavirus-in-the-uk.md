@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
 api_count: 1
 apis:
 - description: UK Government coronavirus data, including deaths and cases by region
@@ -92,7 +92,7 @@ score:
     regime_id: health
     score: 15.0
   schema_version: 0.17.2
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/coronavirus-in-the-uk/refs/heads/main/screenshots/coronavirus-in-the-uk-2026-06-20T175037.png
 security:

@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 2.5
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
 api_count: 0
 artifact_total: 3
 common:
@@ -107,7 +107,7 @@ modified: '2026-08-13'
 name: Provus
 nav: Providers
 network: true
-overview: 'Provus is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, CPQ, Configure Price Quote, Services Quoting, and Professional Services.
+overview: 'Provus is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, CPQ, Services Quoting, Professional Services, and Pricing.
 
 
   Provus'' developer surface includes documentation, engineering blog, pricing, signup flow, support, and 6 more developer resources.'
@@ -140,7 +140,7 @@ score:
     operational_transparency: 0.0
   previous_composite: 18.2
   schema_version: 0.17.2
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
   trend: flat
 security:
 - kind: domain-security
@@ -151,7 +151,6 @@ slug: provusinc
 tags:
 - Company
 - CPQ
-- Configure Price Quote
 - Services Quoting
 - Professional Services
 - Pricing

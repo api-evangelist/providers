@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 24.4
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -266,7 +266,7 @@ modified: '2026-05-29'
 name: Studio Ghibli
 nav: Providers
 network: true
-overview: 'Studio Ghibli publishes 5 APIs on the [APIs.io](https://apis.io/) network, including Films API, Locations API, People API, and 2 more. Tagged areas include Anime, Studio Ghibli, Films, Characters, and Locations.
+overview: 'Studio Ghibli publishes 5 APIs on the [APIs.io](https://apis.io/) network, including Films API, Locations API, People API, and 2 more. Tagged areas include Anime, Studio Ghibli, Film, Characters, and Locations.
 
 
   The Studio Ghibli catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
@@ -334,7 +334,7 @@ score:
       marker_coverage: 100.0
       total: 5
   schema_version: 0.17.2
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/studio-ghibli/refs/heads/main/screenshots/studio-ghibli-2026-06-20T194625.png
 security:
@@ -349,14 +349,14 @@ solutions:
 tags:
 - Anime
 - Studio Ghibli
-- Films
+- Film
 - Characters
 - Locations
 - Species
 - Vehicles
 - Public APIs
 - Open-Source
-- Read-Only
+- Read Only
 use_cases:
 - description: A safe, stable, no-auth API frequently used in front-end tutorials, REST workshops, and language-SDK demonstrations.
   name: Tutorial / Workshop Target

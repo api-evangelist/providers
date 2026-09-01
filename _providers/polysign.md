@@ -23,7 +23,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 24.6
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
 api_count: 3
 apis:
 - description: The ABC Accounts API from PolySign — 3 operation(s) for abc accounts.
@@ -242,7 +242,7 @@ modified: '2026-08-02'
 name: PolySign
 nav: Providers
 network: true
-overview: 'PolySign publishes 17 APIs on the [APIs.io](https://apis.io/) network, including ABC Accounts API, ABC Memorials API, ABC Signing API, and 14 more. Tagged areas include digital-assets, Blockchain, Institutional Custody, settlement, and escrow.
+overview: 'PolySign publishes 17 APIs on the [APIs.io](https://apis.io/) network, including ABC Accounts API, ABC Memorials API, ABC Signing API, and 14 more. Tagged areas include Digital Assets, Blockchain, institutional-custody, Settlement, and Escrow.
 
 
   PolySign''s developer surface includes documentation, API reference, support, authentication, sandbox, and 19 more developer resources.'
@@ -287,7 +287,7 @@ score:
     regime_id: payments
     score: 42.2
   schema_version: 0.17.2
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
   trend: flat
 security:
 - kind: authentication
@@ -300,15 +300,15 @@ security:
   summary_line: TLSv1.3 · DMARC
 slug: polysign
 tags:
-- digital-assets
+- Digital Assets
 - Blockchain
-- Institutional Custody
-- settlement
-- escrow
-- capital-markets
+- institutional-custody
+- Settlement
+- Escrow
+- Capital Markets
 - Payments
 - Fintech
-- distributed-ledger
+- Distributed Ledger
 - atomicnet
 website: https://www.polysign.io/
 ---

@@ -23,7 +23,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
 api_count: 0
 artifact_total: 1
 common:
@@ -96,7 +96,7 @@ modified: '2026-08-02'
 name: Petfolk
 nav: Providers
 network: true
-overview: 'Petfolk is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include veterinary, veterinary-care, animal-health, pet-care, and pet-health.
+overview: 'Petfolk is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Veterinary, veterinary-care, Animal Health, Pet Care, and Pet Health.
 
 
   Petfolk''s developer surface includes signup flow, support, FAQ, engineering blog, pricing, and 10 more developer resources.'
@@ -127,7 +127,7 @@ score:
     regime_id: health
     score: 17.5
   schema_version: 0.17.2
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
   trend: flat
 security:
 - kind: domain-security
@@ -136,19 +136,19 @@ security:
   summary_line: TLSv1.3 · HSTS · DMARC
 slug: petfolk
 tags:
-- veterinary
+- Veterinary
 - veterinary-care
-- animal-health
-- pet-care
-- pet-health
-- healthcare
-- telehealth
-- virtual-care
-- urgent-care
-- clinics
-- membership
-- consumer-health
-- mobile-app
-- north-carolina
+- Animal Health
+- Pet Care
+- Pet Health
+- Healthcare
+- Telehealth
+- Virtual Care
+- Urgent Care
+- Clinics
+- Membership
+- Consumer Health
+- Mobile App
+- North Carolina
 website: https://petfolk.com/
 ---

@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 5.0
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
 api_count: 3
 apis:
 - description: Public REST API for the Knowledge Bank, Ohio State University Libraries' DSpace 7.6 institutional repository. Exposes communities, collections, items, and bitstreams as JSON (HAL) for the digital scho
@@ -142,7 +142,7 @@ score:
     regime_id: education
     score: 31.5
   schema_version: 0.17.2
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/ohio-state-university/refs/heads/main/screenshots/ohio-state-university-2026-06-20T190643.png
 security:

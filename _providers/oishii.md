@@ -23,7 +23,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.4
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
 api_count: 2
 apis:
 - description: Anonymous, live Model Context Protocol server for the Oishii storefront, served from oishii.com and provided by the Shopify storefront-renderer platform. A tools/list call returns five tools with full
@@ -164,7 +164,7 @@ score:
     mcp: first-party
     skills: first-party
   schema_version: 0.17.2
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/oishii/refs/heads/main/screenshots/oishii-2026-08-07T190044.png
 security:

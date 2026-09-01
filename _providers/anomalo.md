@@ -23,7 +23,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 23.2
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
 api_count: 19
 apis:
 - description: Official Anomalo MCP (Model Context Protocol) server, published by Anomalo as a Google Gemini CLI extension under the Apache-2.0 license. Runs locally over stdio against a customer's own Anomalo insta
@@ -221,7 +221,7 @@ modified: '2026-07-31'
 name: Anomalo
 nav: Providers
 network: true
-overview: 'Anomalo publishes 18 APIs on the [APIs.io](https://apis.io/) network, including Access Groups API, API Keys API, Check Runs API, and 15 more. Tagged areas include data-quality, data-observability, data-monitoring, anomaly-detection, and data-governance.
+overview: 'Anomalo publishes 18 APIs on the [APIs.io](https://apis.io/) network, including Access Groups API, API Keys API, Check Runs API, and 15 more. Tagged areas include Data Quality, Data Observability, Data Monitoring, Anomaly Detection, and Data Governance.
 
 
   Anomalo''s developer surface includes documentation, support, engineering blog, signup flow, CLI, authentication, changelog, and 22 more developer resources.'
@@ -260,7 +260,7 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.17.2
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/anomalo/refs/heads/main/screenshots/anomalo-2026-08-07T161419.png
 security:
@@ -274,20 +274,20 @@ security:
   summary_line: TLSv1.3 · HSTS · DMARC
 slug: anomalo
 tags:
-- data-quality
-- data-observability
-- data-monitoring
-- anomaly-detection
-- data-governance
-- data-lineage
-- data-profiling
-- data-validation
-- data-engineering
-- machine-learning
-- snowflake
-- databricks
-- bigquery
-- enterprise-data
+- Data Quality
+- Data Observability
+- Data Monitoring
+- Anomaly Detection
+- Data Governance
+- Data Lineage
+- Data Profiling
+- Data Validation
+- Data Engineering
+- Machine-Learning
+- Snowflake
+- Databricks
+- BigQuery
+- Enterprise Data
 - MCP
 - agent-native
 website: https://www.anomalo.com/

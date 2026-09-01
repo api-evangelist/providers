@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 14.2
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
 api_count: 4
 apis:
 - description: REST API to programmatically create and manage Firebase projects, apps (Web, Android, Apple), and their configuration.
@@ -198,7 +198,7 @@ modified: '2026-07-19'
 name: Firebase
 nav: Providers
 network: true
-overview: 'Firebase publishes 4 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Backend as a Service, Application Development, Mobile, and Web.
+overview: 'Firebase publishes 4 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Backend-as-a-Service, Application Development, Mobile, and Web.
 
 
   Firebase''s developer surface includes documentation, API reference, getting-started guide, developer console, signup flow, pricing, engineering blog, and 27 more developer resources.'
@@ -230,7 +230,7 @@ score:
   provenance:
     mcp: first-party
   schema_version: 0.17.2
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/firebase/refs/heads/main/screenshots/firebase-2026-07-25T214552.png
 security:
@@ -249,7 +249,7 @@ security:
 slug: firebase
 tags:
 - Company
-- Backend as a Service
+- Backend-as-a-Service
 - Application Development
 - Mobile
 - Web

@@ -23,7 +23,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 27.9
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
 api_count: 1
 apis:
 - description: Real-time scoring service for intraday trade predictions, published as an auto-generated FastAPI OpenAPI 3.1.0 document served without authentication at api.stockgro.club/openapi.json. Three operation
@@ -146,7 +146,7 @@ score:
     regime_id: securities_market_data
     score: 60.0
   schema_version: 0.17.2
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
   trend: flat
 security:
 - kind: authentication

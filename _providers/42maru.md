@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
 api_count: 0
 artifact_total: 1
 common:
@@ -105,7 +105,7 @@ score:
     operational_transparency: 2.6
   previous_composite: 11.3
   schema_version: 0.17.2
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/42maru/refs/heads/main/screenshots/42maru-2026-07-25T181206.png
 security:
@@ -122,7 +122,7 @@ tags:
 - Question Answering
 - Cognitive Search
 - Machine Reading Comprehension
-- Chatbot
+- Chatbots
 - Enterprise Search
 - Deep Learning
 website: https://42maru.ai/

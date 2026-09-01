@@ -23,7 +23,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 63.1
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
 api_count: 12
 apis:
 - description: The activity API from OpenGov — 1 operation(s) for activity.
@@ -860,7 +860,7 @@ score:
     regime_id: government
     score: 77.8
   schema_version: 0.17.2
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/opengov/refs/heads/main/screenshots/opengov-2026-08-07T190607.png
 security:

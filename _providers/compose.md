@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
 api_count: 0
 artifact_total: 0
 common:
@@ -81,7 +81,7 @@ modified: '2026-07-18'
 name: Compose
 nav: Providers
 network: true
-overview: 'Compose is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Database, Database as a Service, DBaaS, and MongoDB.
+overview: 'Compose is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Database, Database-as-a-Service, MongoDB, and PostgreSQL.
 
 
   Compose''s developer surface includes CLI and 8 more developer resources.'
@@ -94,7 +94,7 @@ score:
     catalog_gap: 88.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: 1.4
+  delta: 0.0
   facets:
     access_clarity: 0.0
     commercial_clarity: 0.0
@@ -115,17 +115,16 @@ score:
   open_source:
     applies: true
     score: 25.0
-  previous_composite: 10.3
+  previous_composite: 11.7
   schema_version: 0.17.2
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/compose/refs/heads/main/screenshots/compose-2026-07-25T210212.png
 slug: compose
 tags:
 - Company
 - Database
-- Database as a Service
-- DBaaS
+- Database-as-a-Service
 - MongoDB
 - PostgreSQL
 - Redis

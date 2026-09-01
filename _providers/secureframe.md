@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 46.6
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
 api_count: 1
 apis:
 - description: REST API providing programmatic access to Secureframe controls, frameworks, framework requirements, tests, evidence, policies, tasks, risks, personnel, devices, cloud resources, repositories, third-pa
@@ -264,7 +264,7 @@ score:
     operational_transparency: 57.9
   previous_composite: 49.6
   schema_version: 0.17.2
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/secureframe/refs/heads/main/screenshots/secureframe-2026-06-20T193625.png
 security:

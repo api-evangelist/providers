@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
 api_count: 0
 artifact_total: 1
 common:
@@ -181,7 +181,7 @@ modified: '2026-05-25'
 name: HiddenLayer
 nav: Providers
 network: true
-overview: 'HiddenLayer is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include AI Security, ML Security, AISec, AIDR, and AI Detection And Response.
+overview: 'HiddenLayer is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include AI Security, ML Security, AISec, AIDR, and AI Detection & Response.
 
 
   HiddenLayer''s developer surface includes engineering blog, GitHub presence, YouTube channel, and 31 more developer resources.'
@@ -206,7 +206,7 @@ score:
     operational_transparency: 5.3
   previous_composite: 6.2
   schema_version: 0.17.2
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/hidden-layer/refs/heads/main/screenshots/hidden-layer-2026-06-20T182729.png
 security:
@@ -220,7 +220,7 @@ tags:
 - ML Security
 - AISec
 - AIDR
-- AI Detection And Response
+- AI Detection & Response
 - AI Runtime Security
 - Model Scanning
 - AI Supply Chain

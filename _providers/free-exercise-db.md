@@ -23,7 +23,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 9.7
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
 api_count: 1
 apis:
 - description: Read-only, unauthenticated dataset surface. The provider's own README documents consumption as an HTTPS GET of the combined exercises.json array (873 records) or of a single exercise document, with im
@@ -31,6 +31,10 @@ apis:
   slug: free-exercise-db-dataset
 artifact_total: 6
 common:
+- group: commercial
+  title: ''
+  type: License
+  url: https://github.com/yuhonas/free-exercise-db/blob/main/LICENSE
 - group: company
   title: ''
   type: Website
@@ -118,7 +122,7 @@ network: true
 overview: 'Free Exercise DB publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Open Data, Fitness, Exercise, and Health.
 
 
-  Free Exercise DB''s developer surface includes documentation, API reference, getting-started guide, support, authentication, and 12 more developer resources.'
+  Free Exercise DB''s developer surface includes documentation, API reference, getting-started guide, support, authentication, and 13 more developer resources.'
 plans:
 - name: Free Exercise Db Plans Pricing
   plan_count: 0
@@ -154,7 +158,7 @@ score:
     regime_id: health
     score: 18.8
   schema_version: 0.17.2
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
   trend: flat
 security:
 - kind: authentication

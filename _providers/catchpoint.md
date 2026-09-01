@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 25.4
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
 agentic_access:
 - acting_count: 54
   human_in_the_loop: 0
@@ -375,7 +375,7 @@ modified: '2026-07-18'
 name: Catchpoint
 nav: Providers
 network: true
-overview: 'Catchpoint publishes 31 APIs on the [APIs.io](https://apis.io/) network, including Account API, Alerts API, ASNs API, and 28 more. Tagged areas include Company, Devops, Monitoring, Observability, and Internet Performance Monitoring.
+overview: 'Catchpoint publishes 31 APIs on the [APIs.io](https://apis.io/) network, including Account API, Alerts API, ASNs API, and 28 more. Tagged areas include Company, DevOps, Monitoring, Observability, and Internet Performance Monitoring.
 
 
   The Catchpoint catalog on APIs.io includes 1 event-driven AsyncAPI specification.
@@ -391,7 +391,7 @@ score:
     catalog_gap: 78.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.6
+  delta: 0.0
   facets:
     access_clarity: 53.9
     commercial_clarity: 53.9
@@ -401,7 +401,7 @@ score:
     discoverability: 75.9
     governance: 4.5
     operational_transparency: 42.1
-  previous_composite: 51.2
+  previous_composite: 50.6
   provenance:
     agentic_access: derived
     conformance: derived
@@ -413,7 +413,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.17.2
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/catchpoint/refs/heads/main/screenshots/catchpoint-2026-07-25T204806.png
 security:
@@ -432,7 +432,7 @@ security:
 slug: catchpoint
 tags:
 - Company
-- Devops
+- DevOps
 - Monitoring
 - Observability
 - Internet Performance Monitoring

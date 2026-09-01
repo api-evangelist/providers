@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 38.3
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
 api_count: 3
 apis:
 - description: 'A single POST /extract operation that retrieves any public URL through Zyte''s automatic ban-avoidance network and returns any combination of raw HTTP body, browser-rendered HTML, screenshots, network '
@@ -240,7 +240,7 @@ score:
     operational_transparency: 42.1
   previous_composite: 50.4
   schema_version: 0.17.2
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/zyte/refs/heads/main/screenshots/zyte-2026-06-20T202012.png
 security:

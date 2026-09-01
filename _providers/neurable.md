@@ -23,7 +23,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 22.1
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
 api_count: 6
 apis:
 - description: The Core API from Neurable — 2 operation(s) for core.
@@ -168,7 +168,7 @@ modified: '2026-08-04'
 name: Neurable
 nav: Providers
 network: true
-overview: 'Neurable publishes 5 APIs on the [APIs.io](https://apis.io/) network, including Core API, O Auth API, OIDC API, and 2 more. Tagged areas include neurotechnology, brain-computer-interface, eeg, neuroscience, and wearables.
+overview: 'Neurable publishes 5 APIs on the [APIs.io](https://apis.io/) network, including Core API, O Auth API, OIDC API, and 2 more. Tagged areas include Neurotechnology, Brain-Computer Interface, EEG, Neuroscience, and Wearables.
 
 
   Neurable''s developer surface includes engineering blog, support, authentication, and 18 more developer resources.'
@@ -213,7 +213,7 @@ score:
     regime_id: health
     score: 62.5
   schema_version: 0.17.2
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
   trend: flat
 security:
 - kind: authentication
@@ -226,18 +226,18 @@ security:
   summary_line: TLSv1.3 · HSTS · DMARC
 slug: neurable
 tags:
-- neurotechnology
-- brain-computer-interface
-- eeg
-- neuroscience
-- wearables
+- Neurotechnology
+- Brain-Computer Interface
+- EEG
+- Neuroscience
+- Wearables
 - biosignals
-- hardware
-- consumer-electronics
-- research-tools
+- Hardware
+- Consumer Electronics
+- Research Tools
 - cognitive-analytics
-- health-data
+- Health Data
 - Authentication
-- openid-connect
+- OpenID Connect
 website: https://www.neurable.com/
 ---

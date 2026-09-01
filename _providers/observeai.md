@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 29.7
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
 api_count: 1
 apis:
 - description: Ack Dispute API can be used to pull all evaluation related data which are sent for acknowledgment or dispute. Please note - <ol> <li>Allow 24 hrs to pass before pulling Ack Dispute Data. ie., For Eval
@@ -268,7 +268,7 @@ score:
     catalog_gap: 48.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -2.2
+  delta: 0.0
   facets:
     access_clarity: 63.2
     commercial_clarity: 63.2
@@ -278,7 +278,7 @@ score:
     discoverability: 75.9
     governance: 4.5
     operational_transparency: 80.3
-  previous_composite: 55.9
+  previous_composite: 53.7
   provenance:
     conformance: derived
     contracts:
@@ -289,7 +289,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.17.2
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/observeai/refs/heads/main/screenshots/observeai-2026-08-07T185911.png
 security:

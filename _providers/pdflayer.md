@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 15.5
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
 api_count: 1
 apis:
 - description: REST API for converting HTML content and web page URLs to PDF documents with support for custom page sizes, margins, headers, footers, watermarks, page numbering, and 256-bit HTTPS encryption.
@@ -153,7 +153,7 @@ score:
     score: 0.0
   previous_composite: 31.4
   schema_version: 0.17.2
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/pdflayer/refs/heads/main/screenshots/pdflayer-2026-06-20T191518.png
 security:

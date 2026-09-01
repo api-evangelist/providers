@@ -23,7 +23,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 22.3
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
 api_count: 10
 apis:
 - description: Post categories
@@ -175,7 +175,7 @@ modified: '2026-08-01'
 name: Circle Pharma
 nav: Providers
 network: true
-overview: 'Circle Pharma publishes 10 APIs on the [APIs.io](https://apis.io/) network, including Categories API, Comments API, Discovery API, and 7 more. Tagged areas include Company, biotechnology, pharmaceuticals, oncology, and drug-discovery.
+overview: 'Circle Pharma publishes 10 APIs on the [APIs.io](https://apis.io/) network, including Categories API, Comments API, Discovery API, and 7 more. Tagged areas include Company, Biotechnology, Pharmaceuticals, Oncology, and Drug Discovery.
 
 
   Circle Pharma''s developer surface includes engineering blog, support, authentication, and 23 more developer resources.'
@@ -214,7 +214,7 @@ score:
     regime_id: health
     score: 31.3
   schema_version: 0.17.2
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/circle-pharma/refs/heads/main/screenshots/circle-pharma-2026-08-07T163423.png
 security:
@@ -229,13 +229,13 @@ security:
 slug: circle-pharma
 tags:
 - Company
-- biotechnology
-- pharmaceuticals
-- oncology
-- drug-discovery
-- macrocycles
-- clinical-trials
-- life-sciences
+- Biotechnology
+- Pharmaceuticals
+- Oncology
+- Drug Discovery
+- Macrocycles
+- Clinical Trials
+- Life Sciences
 - content-api
 website: https://circlepharma.com/
 ---

@@ -23,7 +23,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 31.5
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
 api_count: 3
 apis:
 - description: Endpoints for managing account settings, configurations, and account-level information
@@ -380,7 +380,7 @@ modified: '2026-08-26'
 name: ObservePoint
 nav: Providers
 network: true
-overview: 'ObservePoint publishes 65 APIs on the [APIs.io](https://apis.io/) network, including Account API, Account Triggered Alerts API, Account Usage Alerts API, and 62 more. Tagged areas include company, web-governance, tag-management, analytics-validation, and privacy-compliance.
+overview: 'ObservePoint publishes 65 APIs on the [APIs.io](https://apis.io/) network, including Account API, Account Triggered Alerts API, Account Usage Alerts API, and 62 more. Tagged areas include Company, web-governance, Tag Management, analytics-validation, and Privacy Compliance.
 
 
   The ObservePoint catalog on APIs.io includes 1 event-driven AsyncAPI specification.
@@ -404,7 +404,7 @@ score:
     catalog_gap: 76.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -1.8
+  delta: 0.0
   facets:
     access_clarity: 38.2
     commercial_clarity: 38.2
@@ -414,7 +414,7 @@ score:
     discoverability: 57.4
     governance: 4.5
     operational_transparency: 57.9
-  previous_composite: 51.6
+  previous_composite: 49.8
   provenance:
     conformance: derived
     contracts:
@@ -425,7 +425,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.17.2
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
   trend: flat
 security:
 - kind: authentication
@@ -438,17 +438,17 @@ security:
   summary_line: TLSv1.3 · HSTS · DMARC
 slug: observepoint
 tags:
-- company
+- Company
 - web-governance
-- tag-management
+- Tag Management
 - analytics-validation
-- privacy-compliance
-- consent-management
-- web-accessibility
-- data-quality
-- marketing-technology
+- Privacy Compliance
+- Consent Management
+- Web Accessibility
+- Data Quality
+- Marketing Technology
 - website-auditing
-- digital-analytics
+- Digital Analytics
 - Webhook
 website: https://www.observepoint.com/
 ---

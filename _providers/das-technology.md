@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 24.6
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
 api_count: 4
 apis:
 - description: The Account API from DAS Technology — 30 operation(s) for account.
@@ -196,7 +196,7 @@ modified: '2026-08-12'
 name: DAS Technology
 nav: Providers
 network: true
-overview: 'DAS Technology publishes 27 APIs on the [APIs.io](https://apis.io/) network, including Account API, Account V2 API, Client API, and 24 more. Tagged areas include Company, Martech, Automotive, Automotive Retail, and Marketing.
+overview: 'DAS Technology publishes 27 APIs on the [APIs.io](https://apis.io/) network, including Account API, Account V2 API, Client API, and 24 more. Tagged areas include Company, MarTech, Automotive, Automotive Retail, and Marketing.
 
 
   DAS Technology''s developer surface includes engineering blog, support, and 12 more developer resources.'
@@ -238,7 +238,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.17.2
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/das-technology/refs/heads/main/screenshots/das-technology-2026-07-25T211222.png
 security:
@@ -253,7 +253,7 @@ security:
 slug: das-technology
 tags:
 - Company
-- Martech
+- MarTech
 - Automotive
 - Automotive Retail
 - Marketing

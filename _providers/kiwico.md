@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
 api_count: 0
 artifact_total: 1
 common:
@@ -80,7 +80,7 @@ modified: '2026-07-19'
 name: KiwiCo
 nav: Providers
 network: true
-overview: 'KiwiCo is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Education, STEAM, Subscription Boxes, and E-Commerce.
+overview: 'KiwiCo is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Education, Steam, Subscription Boxes, and E-Commerce.
 
 
   KiwiCo''s developer surface includes engineering blog, support, pricing, signup flow, and 5 more developer resources.'
@@ -111,7 +111,7 @@ score:
     regime_id: education
     score: 25.9
   schema_version: 0.17.2
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/kiwico/refs/heads/main/screenshots/kiwico-2026-07-25T223920.png
 security:
@@ -123,7 +123,7 @@ slug: kiwico
 tags:
 - Company
 - Education
-- STEAM
+- Steam
 - Subscription Boxes
 - E-Commerce
 - Consumer

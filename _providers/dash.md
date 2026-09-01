@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 2.5
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
 api_count: 2
 apis:
 - description: Open-source REST and WebSocket API for querying the Dash Core (layer 1) blockchain. Provides endpoints for blocks (by hash or height), raw blocks, transactions (by txid), raw transactions, addresses (
@@ -101,7 +101,7 @@ modified: '2026-06-14'
 name: Dash
 nav: Providers
 network: true
-overview: 'Dash publishes 2 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Cryptocurrency, Blockchain, Dash, InstantSend, and Masternode.
+overview: 'Dash publishes 2 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Cryptocurrency, Blockchain, DASH, InstantSend, and Masternode.
 
 
   The Dash catalog on APIs.io includes 1 JSON-LD context.'
@@ -140,7 +140,7 @@ score:
     regime_id: payments
     score: 17.2
   schema_version: 0.17.2
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/dash/refs/heads/main/screenshots/dash-2026-06-20T175502.png
 security:
@@ -152,7 +152,7 @@ slug: dash
 tags:
 - Cryptocurrency
 - Blockchain
-- Dash
+- DASH
 - InstantSend
 - Masternode
 - DashPay

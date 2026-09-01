@@ -23,7 +23,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 28.6
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
 agentic_access:
 - acting_count: 27
   human_in_the_loop: 1
@@ -403,7 +403,7 @@ modified: '2026-08-11'
 name: _done
 nav: Providers
 network: true
-overview: '_done publishes 26 APIs on the [APIs.io](https://apis.io/) network, including asn lookup API, cors headers API, Data API, and 23 more. Tagged areas include Developer Tools, utility-apis, AI Agents, agent-native, and x402.
+overview: '_done publishes 26 APIs on the [APIs.io](https://apis.io/) network, including asn lookup API, cors headers API, Data API, and 23 more. Tagged areas include Developer Tools, Utility APIs, AI Agents, agent-native, and x402.
 
 
   _done''s developer surface includes documentation, API reference, support, authentication, code examples, pricing, and 43 more developer resources.'
@@ -424,7 +424,7 @@ score:
     catalog_gap: 70.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -1.0
+  delta: 0.0
   facets:
     access_clarity: 26.3
     commercial_clarity: 26.3
@@ -434,7 +434,7 @@ score:
     discoverability: 75.9
     governance: 4.5
     operational_transparency: 2.6
-  previous_composite: 39.4
+  previous_composite: 38.4
   provenance:
     agentic_access: derived
     conformance: derived
@@ -452,7 +452,7 @@ score:
     regime_id: energy_utilities
     score: 23.0
   schema_version: 0.17.2
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
   trend: flat
 security:
 - kind: authentication
@@ -466,17 +466,17 @@ security:
 slug: done
 tags:
 - Developer Tools
-- utility-apis
+- Utility APIs
 - AI Agents
 - agent-native
 - x402
 - pay-per-call
 - Web3
-- crypto-payments
-- dns
+- Crypto Payments
+- DNS
 - Domains
-- email-security
-- network-security
+- Email Security
+- Network Security
 - SEO
 - OCR
 - Data

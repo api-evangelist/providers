@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 15.3
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
 api_count: 1
 apis:
 - description: 'The v1 REST API behind Cloutdesk''s Agent Platform — the programmatic surface agencies, brands, and talent representatives use to run influencer marketing through AI agents. Cursor-paginated, URI-path '
@@ -41,6 +41,10 @@ apis:
   slug: agent-platform
 artifact_total: 7
 common:
+- group: commercial
+  title: ''
+  type: License
+  url: https://github.com/cloutdesk/agents/blob/main/LICENSE
 - group: agent
   title: ''
   type: MCPServer
@@ -156,7 +160,7 @@ network: true
 overview: 'CloutJam publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Influencer Marketing, Creator Management, Creator Economy, and Marketing.
 
 
-  CloutJam''s developer surface includes documentation, support, authentication, CLI, getting-started guide, and 20 more developer resources.'
+  CloutJam''s developer surface includes documentation, support, authentication, CLI, getting-started guide, and 21 more developer resources.'
 plans:
 - name: Cloutjam Plans Pricing
   plan_count: 0
@@ -195,7 +199,7 @@ score:
     mcp: first-party
     skills: first-party
   schema_version: 0.17.2
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/cloutjam/refs/heads/main/screenshots/cloutjam-2026-07-25T205717.png
 security:

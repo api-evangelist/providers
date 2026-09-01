@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
 api_count: 0
 artifact_total: 0
 created: '2025-01-01'
@@ -43,7 +43,7 @@ modified: '2026-04-28'
 name: ITSM
 nav: Providers
 network: true
-overview: ITSM is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include IT Service Management, ITIL, ITSM, and Service Desk.
+overview: ITSM is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include ITSM, ITIL, and Service Desk.
 random_paper: 4
 score:
   band: minimal
@@ -73,12 +73,11 @@ score:
       reason: never_enriched
   previous_composite: 4.1
   schema_version: 0.17.2
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
   trend: flat
 slug: itsm
 tags:
-- IT Service Management
-- ITIL
 - ITSM
+- ITIL
 - Service Desk
 ---

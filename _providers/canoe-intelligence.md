@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 28.2
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
 agentic_access:
 - acting_count: 26
   human_in_the_loop: 0
@@ -227,7 +227,7 @@ modified: '2026-08-09'
 name: Canoe Intelligence
 nav: Providers
 network: true
-overview: 'Canoe Intelligence publishes 10 APIs on the [APIs.io](https://apis.io/) network, including Allocations API, Authentication API, Custom Fields API, and 7 more. Tagged areas include alternative-investments, private-markets, document-automation, data-extraction, and fund-administration.
+overview: 'Canoe Intelligence publishes 10 APIs on the [APIs.io](https://apis.io/) network, including Allocations API, Authentication API, Custom Fields API, and 7 more. Tagged areas include Alternative Investments, Private Markets, Document Automation, Data Extraction, and Fund Administration.
 
 
   Canoe Intelligence''s developer surface includes documentation, API reference, support, engineering blog, authentication, code examples, and 22 more developer resources.'
@@ -267,7 +267,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.17.2
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/canoe-intelligence/refs/heads/main/screenshots/canoe-intelligence-2026-08-17T080804.png
 security:
@@ -289,17 +289,17 @@ security:
   summary_line: SOC 2 Type II
 slug: canoe-intelligence
 tags:
-- alternative-investments
-- private-markets
-- document-automation
-- data-extraction
-- fund-administration
+- Alternative Investments
+- Private Markets
+- Document Automation
+- Data Extraction
+- Fund Administration
 - capital-calls
 - k-1-tax-documents
-- portfolio-reporting
+- Portfolio Reporting
 - Financial-Services
 - Fintech
-- wealth-management
-- institutional-investors
+- Wealth Management
+- Institutional Investors
 website: https://canoeintelligence.com/
 ---

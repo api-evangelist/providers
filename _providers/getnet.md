@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
 api_count: 19
 apis:
 - description: Getnet's core REST API and Single Entry Point (SEP) for direct payment integration across Argentina, Brazil, Chile, Colombia, Mexico, Portugal, Spain, and Uruguay. One contract gives merchants omnicha
@@ -130,7 +130,7 @@ modified: '2026-05-25'
 name: Getnet
 nav: Providers
 network: true
-overview: 'Getnet publishes 1 API on the [APIs.io](https://apis.io/) network: SAP Immediate Delivery APIs. Tagged areas include Payments, Acquirer, Brazil, LATAM, and Santander.
+overview: 'Getnet publishes 1 API on the [APIs.io](https://apis.io/) network: SAP Immediate Delivery APIs. Tagged areas include Payments, Acquirer, Brazil, LatAm, and Santander.
 
 
   Getnet''s developer surface includes documentation, authentication, FAQ, pricing, sandbox, and 2 more developer resources.'
@@ -167,7 +167,7 @@ score:
     regime_id: payments
     score: 18.8
   schema_version: 0.17.2
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/getnet/refs/heads/main/screenshots/getnet-2026-06-20T181816.png
 security:
@@ -180,11 +180,11 @@ tags:
 - Payments
 - Acquirer
 - Brazil
-- LATAM
+- LatAm
 - Santander
 - E-Commerce
 - In-Store Payments
-- POS
+- Point-of-Sale
 - Pix
 - Boleto
 - Cards

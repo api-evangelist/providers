@@ -23,7 +23,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 21.8
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
 api_count: 2
 apis:
 - description: 'Open-source gRPC geocoding and timezone-lookup service Rentberry built and runs for its own property search, with published proto3 definitions and PHP client bindings on Packagist. Two services: Geoco'
@@ -457,7 +457,7 @@ modified: '2026-08-02'
 name: Rentberry
 nav: Providers
 network: true
-overview: 'Rentberry publishes 45 APIs on the [APIs.io](https://apis.io/) network, including Applications API, Auth API, Breadcrumbs API, and 42 more. Tagged areas include real-estate, proptech, Rentals, rental-marketplace, and property-management.
+overview: 'Rentberry publishes 45 APIs on the [APIs.io](https://apis.io/) network, including Applications API, Auth API, Breadcrumbs API, and 42 more. Tagged areas include Real-Estate, PropTech, Rentals, Rental Marketplace, and Property Management.
 
 
   Rentberry''s developer surface includes API reference, documentation, support, engineering blog, pricing, signup flow, authentication, and 28 more developer resources.'
@@ -470,7 +470,7 @@ score:
     catalog_gap: 81.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.5
+  delta: 0.0
   facets:
     access_clarity: 44.7
     commercial_clarity: 44.7
@@ -483,7 +483,7 @@ score:
   open_source:
     applies: true
     score: 25.0
-  previous_composite: 41.4
+  previous_composite: 40.9
   provenance:
     conformance: derived
     contracts:
@@ -500,7 +500,7 @@ score:
     regime_id: payments
     score: 39.1
   schema_version: 0.17.2
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
   trend: flat
 security:
 - kind: authentication
@@ -513,17 +513,17 @@ security:
   summary_line: TLSv1.3 · HSTS · DMARC
 slug: rentberry
 tags:
-- real-estate
-- proptech
+- Real-Estate
+- PropTech
 - Rentals
-- rental-marketplace
-- property-management
-- tenant-screening
-- e-signature
+- Rental Marketplace
+- Property Management
+- Tenant Screening
+- E-Signature
 - Payments
 - Listings
 - Search
-- geocoding
+- Geocoding
 - Marketplace
 website: https://rentberry.com/
 ---

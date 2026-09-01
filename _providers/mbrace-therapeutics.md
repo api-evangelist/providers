@@ -23,7 +23,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 21.8
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
 api_count: 9
 apis:
 - description: Route, type, taxonomy and status discovery documents.
@@ -176,7 +176,7 @@ modified: '2026-08-25'
 name: MBrace Therapeutics
 nav: Providers
 network: true
-overview: 'MBrace Therapeutics publishes 9 APIs on the [APIs.io](https://apis.io/) network, including Discovery API, Media API, News API, and 6 more. Tagged areas include Company, biotechnology, pharmaceuticals, oncology, and antibody-drug-conjugates.
+overview: 'MBrace Therapeutics publishes 9 APIs on the [APIs.io](https://apis.io/) network, including Discovery API, Media API, News API, and 6 more. Tagged areas include Company, Biotechnology, Pharmaceuticals, Oncology, and Antibody-Drug Conjugates.
 
 
   MBrace Therapeutics'' developer surface includes product news, authentication, and 26 more developer resources.'
@@ -224,7 +224,7 @@ score:
     regime_id: health
     score: 31.3
   schema_version: 0.17.2
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
   trend: flat
 security:
 - kind: authentication
@@ -238,14 +238,14 @@ security:
 slug: mbrace-therapeutics
 tags:
 - Company
-- biotechnology
-- pharmaceuticals
-- oncology
-- antibody-drug-conjugates
-- drug-discovery
-- clinical-trials
-- life-sciences
-- precision-medicine
+- Biotechnology
+- Pharmaceuticals
+- Oncology
+- Antibody-Drug Conjugates
+- Drug Discovery
+- Clinical Trials
+- Life Sciences
+- Precision Medicine
 - content-api
 website: https://mbracetrx.com/
 ---

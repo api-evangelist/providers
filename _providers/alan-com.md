@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
 api_count: 0
 artifact_total: 2
 common:
@@ -117,7 +117,7 @@ modified: '2026-08-08'
 name: Alan
 nav: Providers
 network: true
-overview: 'Alan is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Health Insurance, Digital Health, Healthtech, Insurance, and Mutuelle.
+overview: 'Alan is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Health Insurance, Digital Health, Health Tech, Insurance, and Mutuelle.
 
 
   Alan''s developer surface includes engineering blog, GitHub presence, and 16 more developer resources.'
@@ -148,7 +148,7 @@ score:
     regime_id: insurance
     score: 18.2
   schema_version: 0.17.2
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/alan-com/refs/heads/main/screenshots/alan-com-2026-07-25T195537.png
 security:
@@ -164,7 +164,7 @@ slug: alan-com
 tags:
 - Health Insurance
 - Digital Health
-- Healthtech
+- Health Tech
 - Insurance
 - Mutuelle
 - Employee Benefits

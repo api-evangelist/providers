@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 15.5
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
 api_count: 1
 apis:
 - description: The Forest Admin Admin Backend is a REST API deployed on the customer's own infrastructure. It translates UI calls from the Forest Admin browser interface into database queries covering CRUD operation
@@ -114,7 +114,7 @@ modified: 2026-06-12
 name: Forest Admin
 nav: Providers
 network: true
-overview: 'Forest Admin publishes 1 API on the [APIs.io](https://apis.io/) network: REST API (Admin Backend). Tagged areas include admin panel, internal tools, RBAC, workflow automation, and CRUD.
+overview: 'Forest Admin publishes 1 API on the [APIs.io](https://apis.io/) network: REST API (Admin Backend). Tagged areas include Admin Panel, Internal Tools, RBAC, Workflow-Automation, and CRUD.
 
 
   The Forest Admin catalog on APIs.io includes 1 JSON-LD context.
@@ -150,7 +150,7 @@ score:
     operational_transparency: 34.2
   previous_composite: 34.4
   schema_version: 0.17.2
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/forestadmin/refs/heads/main/screenshots/forestadmin-2026-06-20T181423.png
 security:
@@ -160,14 +160,14 @@ security:
   summary_line: TLSv1.3 · HSTS · DMARC
 slug: forestadmin
 tags:
-- admin panel
-- internal tools
+- Admin Panel
+- Internal Tools
 - RBAC
-- workflow automation
+- Workflow-Automation
 - CRUD
 - Fintech
 - Compliance
-- low-code
+- Low-Code
 - AI Agents
 website: https://www.forestadmin.com
 ---

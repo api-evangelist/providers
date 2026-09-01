@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 32.8
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
 agentic_access:
 - acting_count: 8
   human_in_the_loop: 0
@@ -324,7 +324,7 @@ modified: '2026-05-24'
 name: Truework
 nav: Providers
 network: true
-overview: 'Truework publishes 5 APIs on the [APIs.io](https://apis.io/) network, including subpackage_orders API, subpackage_qualificationChecks API, subpackage_reports API, and 2 more. Tagged areas include Verifications, Income Verification, Employment Verification, VOIE, and Mortgage.
+overview: 'Truework publishes 5 APIs on the [APIs.io](https://apis.io/) network, including subpackage_orders API, subpackage_qualificationChecks API, subpackage_reports API, and 2 more. Tagged areas include Verification, Income Verification, Employment Verification, VOIE, and Mortgage.
 
 
   The Truework catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
@@ -384,7 +384,7 @@ score:
     regime_id: banking_open_finance
     score: 21.5
   schema_version: 0.17.2
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/truework/refs/heads/main/screenshots/truework-2026-06-20T195901.png
 security:
@@ -398,7 +398,7 @@ security:
   summary_line: TLSv1.3 · HSTS · DMARC
 slug: truework
 tags:
-- Verifications
+- Verification
 - Income Verification
 - Employment Verification
 - VOIE

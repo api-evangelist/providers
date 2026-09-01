@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 25.2
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
 api_count: 4
 apis:
 - description: OData 4 (recommended) and legacy OData 3 access to Creatio platform entities. The OData 4 service is at /0/odata with EDMX metadata at /0/odata/$metadata; supports $filter/$select/$expand/$orderby/$to
@@ -178,7 +178,7 @@ modified: '2026-08-13'
 name: Creatio
 nav: Providers
 network: true
-overview: 'Creatio publishes 4 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Saas, CRM, No-Code, and Low-Code.
+overview: 'Creatio publishes 4 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Software-as-a-Service, CRM, No-Code, and Low-Code.
 
 
   The Creatio catalog on APIs.io includes 1 event-driven AsyncAPI specification.
@@ -217,7 +217,7 @@ score:
     conformance: first-party
     mcp: derived
   schema_version: 0.17.2
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/creatio/refs/heads/main/screenshots/creatio-2026-07-25T210701.png
 security:
@@ -236,7 +236,7 @@ security:
 slug: creatio
 tags:
 - Company
-- Saas
+- Software-as-a-Service
 - CRM
 - No-Code
 - Low-Code

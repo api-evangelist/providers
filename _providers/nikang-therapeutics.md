@@ -23,7 +23,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 25.5
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
 api_count: 9
 apis:
 - description: News archive — press releases, clinical data announcements and scientific presentations. Sixteen posts published at harvest time, all in the `news` category.
@@ -168,7 +168,7 @@ modified: '2026-08-26'
 name: NiKang Therapeutics
 nav: Providers
 network: true
-overview: 'NiKang Therapeutics publishes 9 APIs on the [APIs.io](https://apis.io/) network, including Posts API, Pages API, Team API, and 6 more. Tagged areas include Company, biotechnology, pharmaceuticals, oncology, and precision-medicine.
+overview: 'NiKang Therapeutics publishes 9 APIs on the [APIs.io](https://apis.io/) network, including Posts API, Pages API, Team API, and 6 more. Tagged areas include Company, Biotechnology, Pharmaceuticals, Oncology, and Precision Medicine.
 
 
   NiKang Therapeutics'' developer surface includes product news, authentication, and 23 more developer resources.'
@@ -216,7 +216,7 @@ score:
     regime_id: health
     score: 48.8
   schema_version: 0.17.2
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
   trend: flat
 security:
 - kind: authentication
@@ -230,14 +230,14 @@ security:
 slug: nikang-therapeutics
 tags:
 - Company
-- biotechnology
-- pharmaceuticals
-- oncology
-- precision-medicine
-- drug-discovery
-- targeted-protein-degradation
-- clinical-trials
-- life-sciences
+- Biotechnology
+- Pharmaceuticals
+- Oncology
+- Precision Medicine
+- Drug Discovery
+- Targeted Protein Degradation
+- Clinical Trials
+- Life Sciences
 - content-api
 website: https://www.nikangtx.com/
 ---

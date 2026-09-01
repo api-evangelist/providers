@@ -23,7 +23,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 35.1
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
 api_count: 2
 apis:
 - description: REST API over the Stream Security CloudTwin. 34 operations across twelve resource groups - inventory, attack paths, config changes, threat detections, detection rules, posture security rules and viola
@@ -166,7 +166,7 @@ score:
     operational_transparency: 10.5
   previous_composite: 41.3
   schema_version: 0.17.2
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
   trend: flat
 security:
 - kind: authentication

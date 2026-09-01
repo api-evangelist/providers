@@ -23,7 +23,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 36.9
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
 api_count: 3
 apis:
 - description: The AdvancedForm API from Alleva — 8 operation(s) for advancedform.
@@ -371,7 +371,7 @@ modified: '2026-08-06'
 name: Alleva
 nav: Providers
 network: true
-overview: 'Alleva publishes 37 APIs on the [APIs.io](https://apis.io/) network, including Advanced Form API, Advanced Form Data Backup API, Advanced Form Element API, and 34 more. Tagged areas include behavioral-health, electronic-health-records, emr, ehr, and substance-use-disorder.
+overview: 'Alleva publishes 37 APIs on the [APIs.io](https://apis.io/) network, including Advanced Form API, Advanced Form Data Backup API, Advanced Form Element API, and 34 more. Tagged areas include Behavioral Health, Electronic Health Records, EMR, EHR, and Substance Use Disorder.
 
 
   Alleva''s developer surface includes documentation, API reference, support, engineering blog, authentication, and 21 more developer resources.'
@@ -420,7 +420,7 @@ score:
     regime_id: health
     score: 65.0
   schema_version: 0.17.2
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/alleva/refs/heads/main/screenshots/alleva-2026-08-07T161220.png
 security:
@@ -438,17 +438,17 @@ security:
   summary_line: SOC 2 Type II, HIPAA, ONC Certification (ONC Health IT Certification Program)
 slug: alleva
 tags:
-- behavioral-health
-- electronic-health-records
-- emr
-- ehr
-- substance-use-disorder
-- mental-health
-- healthcare
+- Behavioral Health
+- Electronic Health Records
+- EMR
+- EHR
+- Substance Use Disorder
+- Mental Health
+- Healthcare
 - treatment-centers
-- clinical-documentation
-- revenue-cycle-management
-- patient-intake
-- healthcare-compliance
+- Clinical Documentation
+- Revenue Cycle Management
+- Patient Intake
+- Healthcare Compliance
 website: https://helloalleva.com/
 ---

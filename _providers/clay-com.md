@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 36.9
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
 agentic_access:
 - acting_count: 8
   human_in_the_loop: 0
@@ -286,7 +286,7 @@ modified: '2026-08-14'
 name: Clay
 nav: Providers
 network: true
-overview: 'Clay publishes 4 APIs on the [APIs.io](https://apis.io/) network, including Me API, Routines API, Search API, and 1 more. Tagged areas include Prospecting, GTM, Sales, Enrichment, and Automation.
+overview: 'Clay publishes 4 APIs on the [APIs.io](https://apis.io/) network, including Me API, Routines API, Search API, and 1 more. Tagged areas include Prospecting, Go-To-Market, Sales, Enrichment, and Automation.
 
 
   The Clay catalog on APIs.io includes 1 event-driven AsyncAPI specification.
@@ -315,7 +315,7 @@ score:
     catalog_gap: 55.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.6
+  delta: 0.0
   facets:
     access_clarity: 82.9
     commercial_clarity: 82.9
@@ -325,14 +325,14 @@ score:
     discoverability: 75.9
     governance: 4.5
     operational_transparency: 73.7
-  previous_composite: 64.3
+  previous_composite: 63.7
   provenance:
     agentic_access: derived
     conformance: derived
     mcp: first-party
     skills: first-party
   schema_version: 0.17.2
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/clay-com/refs/heads/main/screenshots/clay-com-2026-06-20T174453.png
 security:
@@ -355,7 +355,7 @@ security:
 slug: clay-com
 tags:
 - Prospecting
-- GTM
+- Go-To-Market
 - Sales
 - Enrichment
 - Automation

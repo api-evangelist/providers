@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 13.7
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
 api_count: 1
 apis:
 - description: The CentralReach Enhanced API lets partner organizations connect securely to the CentralReach platform and integrate with third-party applications. Authentication is OAuth 2.0 client-credentials again
@@ -185,7 +185,7 @@ score:
     regime_id: health
     score: 58.8
   schema_version: 0.17.2
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/centralreach/refs/heads/main/screenshots/centralreach-2026-07-25T204931.png
 security:

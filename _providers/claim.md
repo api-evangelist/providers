@@ -23,7 +23,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
 api_count: 0
 artifact_total: 1
 common:
@@ -86,7 +86,7 @@ modified: '2026-08-09'
 name: Claim
 nav: Providers
 network: true
-overview: 'Claim is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Consumer Apps, Rewards, Loyalty, and Cash Back.
+overview: 'Claim is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Consumer Apps, Rewards, Loyalty, and Cashback.
 
 
   Claim''s developer surface includes engineering blog, support, and 4 more developer resources.'
@@ -111,7 +111,7 @@ score:
     operational_transparency: 0.0
   previous_composite: 10.6
   schema_version: 0.17.2
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
   trend: flat
 security:
 - kind: domain-security
@@ -124,7 +124,7 @@ tags:
 - Consumer Apps
 - Rewards
 - Loyalty
-- Cash Back
+- Cashback
 - Restaurant
 - Food and Beverage
 - Social Network

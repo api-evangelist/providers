@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 24.8
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -262,7 +262,7 @@ modified: '2026-05-19'
 name: Apache CloudStack
 nav: Providers
 network: true
-overview: 'Apache CloudStack publishes 4 APIs on the [APIs.io](https://apis.io/) network, including Networks API, Virtual Machines API, Volumes API, and 1 more. Tagged areas include Apache, Cloud, IaaS, Infrastructure, and Open-Source.
+overview: 'Apache CloudStack publishes 4 APIs on the [APIs.io](https://apis.io/) network, including Networks API, Virtual Machines API, Volumes API, and 1 more. Tagged areas include Apache, Cloud, Infrastructure-as-a-Service, Infrastructure, and Open-Source.
 
 
   The Apache CloudStack catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
@@ -308,7 +308,7 @@ score:
     catalog_gap: 50.5
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: 6.7
+  delta: 0.0
   facets:
     access_clarity: 26.3
     commercial_clarity: 26.3
@@ -321,7 +321,7 @@ score:
   open_source:
     applies: true
     score: 100.0
-  previous_composite: 32.8
+  previous_composite: 39.5
   provenance:
     agentic_access: derived
     contracts:
@@ -330,8 +330,8 @@ score:
       marker_coverage: 100.0
       total: 4
   schema_version: 0.17.2
-  scored_at: '2026-08-30'
-  trend: rising
+  scored_at: '2026-09-01'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/apache-cloudstack/refs/heads/main/screenshots/apache-cloudstack-2026-06-20T172047.png
 security:
 - kind: authentication
@@ -350,7 +350,7 @@ slug: apache-cloudstack
 tags:
 - Apache
 - Cloud
-- IaaS
+- Infrastructure-as-a-Service
 - Infrastructure
 - Open-Source
 - Virtualization

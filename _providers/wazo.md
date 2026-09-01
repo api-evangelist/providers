@@ -23,7 +23,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 35.0
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
 agentic_access:
 - acting_count: 540
   human_in_the_loop: 26
@@ -414,6 +414,10 @@ asyncapis:
   name: wazo-webhookd events
   slug: wazo-webhookd-asyncapi
 common:
+- group: commercial
+  title: ''
+  type: License
+  url: https://github.com/wazo-platform/wazo-provd/blob/master/LICENSE
 - group: other
   title: ''
   type: Overlay
@@ -682,13 +686,13 @@ modified: '2026-08-17'
 name: Wazo
 nav: Providers
 network: true
-overview: 'Wazo publishes 113 APIs on the [APIs.io](https://apis.io/) network, including Phone Provisioning API (wazo-provd), Websocket Event Stream (wazo-websocketd), Aastra API, and 110 more. Tagged areas include telephony, voip, unified-communications, ucaas, and contact-center.
+overview: 'Wazo publishes 113 APIs on the [APIs.io](https://apis.io/) network, including Phone Provisioning API (wazo-provd), Websocket Event Stream (wazo-websocketd), Aastra API, and 110 more. Tagged areas include Telephony, VoIP, Unified Communications, UCaaS, and Contact Center.
 
 
   The Wazo catalog on APIs.io includes 13 event-driven AsyncAPI specifications.
 
 
-  Wazo''s developer surface includes developer portal, documentation, API reference, getting-started guide, quickstart, support, engineering blog, and 58 more developer resources.'
+  Wazo''s developer surface includes developer portal, documentation, API reference, getting-started guide, quickstart, support, engineering blog, and 59 more developer resources.'
 plans:
 - name: Wazo Plans Pricing
   plan_count: 0
@@ -734,7 +738,7 @@ score:
     regime_id: banking_open_finance
     score: 21.5
   schema_version: 0.17.2
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
   trend: flat
 security:
 - kind: authentication
@@ -747,25 +751,25 @@ security:
   summary_line: TLSv1.3 · HSTS · DMARC
 slug: wazo
 tags:
-- telephony
-- voip
-- unified-communications
-- ucaas
-- contact-center
+- Telephony
+- VoIP
+- Unified Communications
+- UCaaS
+- Contact Center
 - SIP
 - asterisk
 - WebRTC
 - Open-Source
-- self-hosted
-- white-label
-- pbx
-- msp
-- call-center
+- Self-Hosted
+- White Label
+- PBX
+- MSP
+- Call Center
 - Provisioning
 - Webhook
-- event-driven
+- Event-Driven
 - Chat
-- presence
+- Presence
 - CDR
 website: https://wazo.io/
 ---

@@ -23,7 +23,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 22.3
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
 api_count: 6
 apis:
 - description: Posts, pages and cross-content search.
@@ -166,7 +166,7 @@ modified: '2026-08-07'
 name: Bluejay Therapeutics
 nav: Providers
 network: true
-overview: 'Bluejay Therapeutics publishes 6 APIs on the [APIs.io](https://apis.io/) network, including Content API, Discovery API, Embed API, and 3 more. Tagged areas include Company, biopharmaceuticals, pharmaceuticals, life-sciences, and hepatology.
+overview: 'Bluejay Therapeutics publishes 6 APIs on the [APIs.io](https://apis.io/) network, including Content API, Discovery API, Embed API, and 3 more. Tagged areas include Company, biopharmaceuticals, Pharmaceuticals, Life Sciences, and hepatology.
 
 
   The Bluejay Therapeutics catalog on APIs.io includes 1 JSON-LD context.
@@ -208,7 +208,7 @@ score:
     regime_id: health
     score: 21.3
   schema_version: 0.17.2
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/bluejay-therapeutics/refs/heads/main/screenshots/bluejay-therapeutics-2026-08-07T162648.png
 security:
@@ -224,13 +224,13 @@ slug: bluejay-therapeutics
 tags:
 - Company
 - biopharmaceuticals
-- pharmaceuticals
-- life-sciences
+- Pharmaceuticals
+- Life Sciences
 - hepatology
-- infectious-disease
-- clinical-trials
-- drug-development
-- monoclonal-antibodies
+- Infectious Disease
+- Clinical Trials
+- Drug Development
+- Monoclonal Antibodies
 - content-api
 website: https://bluejaytx.com/
 ---

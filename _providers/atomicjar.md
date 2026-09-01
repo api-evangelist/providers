@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
 api_count: 0
 artifact_total: 1
 common:
@@ -92,7 +92,7 @@ modified: '2026-07-18'
 name: AtomicJar
 nav: Providers
 network: true
-overview: 'AtomicJar is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Devops, Testing, Integration Testing, and Testcontainers.
+overview: 'AtomicJar is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, DevOps, Testing, Integration Testing, and Testcontainers.
 
 
   AtomicJar''s developer surface includes documentation, getting-started guide, engineering blog, pricing, signup flow, support, and 6 more developer resources.'
@@ -117,7 +117,7 @@ score:
     operational_transparency: 2.6
   previous_composite: 18.8
   schema_version: 0.17.2
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/atomicjar/refs/heads/main/screenshots/atomicjar-2026-07-25T201608.png
 security:
@@ -128,7 +128,7 @@ security:
 slug: atomicjar
 tags:
 - Company
-- Devops
+- DevOps
 - Testing
 - Integration Testing
 - Testcontainers

@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
 api_count: 0
 artifact_total: 2
 common:
@@ -193,7 +193,7 @@ modified: '2026-05-23'
 name: Bassetts Ice Cream
 nav: Providers
 network: true
-overview: 'Bassetts Ice Cream is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Ice Cream, Frozen Desserts, Consumer Packaged Goods, Food And Beverage, and Philadelphia.
+overview: 'Bassetts Ice Cream is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Ice Cream, Frozen Desserts, Consumer Packaged Goods, Food and Beverage, and Philadelphia.
 
 
   The Bassetts Ice Cream catalog on APIs.io includes 1 JSON-LD context.
@@ -221,7 +221,7 @@ score:
     operational_transparency: 0.0
   previous_composite: 7.2
   schema_version: 0.17.2
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/bassetts-ice-cream/refs/heads/main/screenshots/bassetts-ice-cream-2026-06-20T173048.png
 security:
@@ -234,7 +234,7 @@ tags:
 - Ice Cream
 - Frozen Desserts
 - Consumer Packaged Goods
-- Food And Beverage
+- Food and Beverage
 - Philadelphia
 - Reading Terminal Market
 - Family Business

@@ -23,7 +23,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 24.3
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
 api_count: 10
 apis:
 - description: News archive — company press releases, media coverage, peer-reviewed publications and conference presentations (32 published at harvest time, spanning April 2020 through August 2026).
@@ -179,7 +179,7 @@ modified: '2026-08-26'
 name: MOMA Therapeutics
 nav: Providers
 network: true
-overview: 'MOMA Therapeutics publishes 10 APIs on the [APIs.io](https://apis.io/) network, including Content Posts API, Content Pages API, Team API, and 7 more. Tagged areas include Company, biotechnology, pharmaceuticals, drug-discovery, and oncology.
+overview: 'MOMA Therapeutics publishes 10 APIs on the [APIs.io](https://apis.io/) network, including Content Posts API, Content Pages API, Team API, and 7 more. Tagged areas include Company, Biotechnology, Pharmaceuticals, Drug Discovery, and Oncology.
 
 
   MOMA Therapeutics'' developer surface includes product news, engineering blog, YouTube channel, authentication, and 24 more developer resources.'
@@ -227,7 +227,7 @@ score:
     regime_id: health
     score: 31.3
   schema_version: 0.17.2
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
   trend: flat
 security:
 - kind: authentication
@@ -241,14 +241,14 @@ security:
 slug: moma-therapeutics
 tags:
 - Company
-- biotechnology
-- pharmaceuticals
-- drug-discovery
-- oncology
-- precision-medicine
-- life-sciences
-- structural-biology
-- machine-learning
+- Biotechnology
+- Pharmaceuticals
+- Drug Discovery
+- Oncology
+- Precision Medicine
+- Life Sciences
+- Structural Biology
+- Machine-Learning
 - content-api
 website: https://momatx.com/
 ---

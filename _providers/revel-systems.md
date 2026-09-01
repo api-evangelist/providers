@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 25.9
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
 agentic_access:
 - acting_count: 5
   human_in_the_loop: 0
@@ -346,7 +346,7 @@ modified: '2026-06-03'
 name: Revel Systems
 nav: Providers
 network: true
-overview: 'Revel Systems publishes 6 APIs on the [APIs.io](https://apis.io/) network, including Revel Webhooks, Customers API, Establishments API, and 3 more. Tagged areas include POS, Restaurant, Retail, and iPad.
+overview: 'Revel Systems publishes 6 APIs on the [APIs.io](https://apis.io/) network, including Revel Webhooks, Customers API, Establishments API, and 3 more. Tagged areas include Point-of-Sale, Restaurant, Retail, and iPad.
 
 
   The Revel Systems catalog on APIs.io includes 1 event-driven AsyncAPI specification, 2 JSON-LD contexts, and 3 Spectral governance rulesets.
@@ -422,7 +422,7 @@ score:
       marker_coverage: 100.0
       total: 5
   schema_version: 0.17.2
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/revel-systems/refs/heads/main/screenshots/revel-systems-2026-06-20T193052.png
 security:
@@ -436,7 +436,7 @@ security:
   summary_line: TLSv1.3 · HSTS · DMARC
 slug: revel-systems
 tags:
-- POS
+- Point-of-Sale
 - Restaurant
 - Retail
 - iPad

@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
 api_count: 0
 artifact_total: 3
 common:
@@ -92,7 +92,7 @@ modified: '2026-07-21'
 name: Shapr3D
 nav: Providers
 network: true
-overview: 'Shapr3D is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Saas, CAD, 3D Modeling, and Design.
+overview: 'Shapr3D is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Software-as-a-Service, CAD, 3D Modeling, and Design.
 
 
   Shapr3D''s developer surface includes pricing, support, engineering blog, signup flow, and 8 more developer resources.'
@@ -117,7 +117,7 @@ score:
     operational_transparency: 10.5
   previous_composite: 17.3
   schema_version: 0.17.2
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
   trend: flat
 security:
 - kind: domain-security
@@ -135,7 +135,7 @@ security:
 slug: shapr3d
 tags:
 - Company
-- Saas
+- Software-as-a-Service
 - CAD
 - 3D Modeling
 - Design

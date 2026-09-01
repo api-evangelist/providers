@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
 api_count: 0
 artifact_total: 1
 common:
@@ -109,7 +109,7 @@ score:
     operational_transparency: 2.6
   previous_composite: 14.8
   schema_version: 0.17.2
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/bevspot/refs/heads/main/screenshots/bevspot-2026-07-25T202824.png
 security:
@@ -124,7 +124,7 @@ tags:
 - Restaurant
 - Hospitality
 - Inventory Management
-- Food And Beverage
+- Food and Beverage
 - Point-of-Sale
 - Analytics
 - Software-as-a-Service

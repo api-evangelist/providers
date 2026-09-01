@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 2.5
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
 api_count: 3
 apis:
 - description: Returns an estimated auto insurance rate from consumer-supplied vehicle and driver data; partners embed the quote flow directly inside their own product surfaces and complete the policy purchase end-t
@@ -87,7 +87,7 @@ modified: '2026-05-23'
 name: Progressive Insurance
 nav: Providers
 network: true
-overview: Progressive Insurance publishes 3 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Insurance, Auto Insurance, Property & Casualty, Telematics, and Fortune 500.
+overview: Progressive Insurance publishes 3 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Insurance, Auto Insurance, Property and Casualty, Telematics, and Fortune 500.
 plans:
 - name: Progressive Insurance Plans Pricing
   plan_count: 1
@@ -123,7 +123,7 @@ score:
     regime_id: insurance
     score: 9.1
   schema_version: 0.17.2
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/progressive-insurance/refs/heads/main/screenshots/progressive-insurance-2026-06-20T192148.png
 security:
@@ -135,7 +135,7 @@ slug: progressive-insurance
 tags:
 - Insurance
 - Auto Insurance
-- Property & Casualty
+- Property and Casualty
 - Telematics
 - Fortune 500
 - Personal Lines

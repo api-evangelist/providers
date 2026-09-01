@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
 api_count: 0
 artifact_total: 1
 common:
@@ -88,7 +88,7 @@ modified: '2026-07-17'
 name: Albertinvent
 nav: Providers
 network: true
-overview: 'Albertinvent is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Developer Tools, Chemistry, Materials Science, and Research And Development.
+overview: 'Albertinvent is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Developer Tools, Chemistry, Materials Science, and Research and Development.
 
 
   Albertinvent''s developer surface includes engineering blog and 10 more developer resources.'
@@ -113,7 +113,7 @@ score:
     operational_transparency: 2.6
   previous_composite: 14.2
   schema_version: 0.17.2
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/albertinvent/refs/heads/main/screenshots/albertinvent-2026-07-25T195542.png
 security:
@@ -127,7 +127,7 @@ tags:
 - Developer Tools
 - Chemistry
 - Materials Science
-- Research And Development
+- Research and Development
 - Artificial Intelligence
 - Laboratory Informatics
 - Data Management

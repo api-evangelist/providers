@@ -23,7 +23,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 8.5
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
 api_count: 1
 apis:
 - description: Remote Model Context Protocol server operated by Wayground at https://wayground.com/_quizizzmcp/main/mcp. Its existence is declared by Wayground's own /.well-known/oauth-protected-resource document, w
@@ -170,7 +170,7 @@ score:
     regime_id: education
     score: 74.1
   schema_version: 0.17.2
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
   trend: flat
 security:
 - kind: authentication

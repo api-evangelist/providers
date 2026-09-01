@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 25.5
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
 agentic_access:
 - acting_count: 5
   human_in_the_loop: 0
@@ -278,7 +278,7 @@ modified: '2026-05-19'
 name: Workday Report Writer
 nav: Providers
 network: true
-overview: 'Workday Report Writer publishes 8 APIs on the [APIs.io](https://apis.io/) network, including agentDefinition API, Buckets API, Custom Reports API, and 5 more. Tagged areas include Analytics, Enterprise, Erp, Financials, and Hrms.
+overview: 'Workday Report Writer publishes 8 APIs on the [APIs.io](https://apis.io/) network, including agentDefinition API, Buckets API, Custom Reports API, and 5 more. Tagged areas include Analytics, Enterprise, ERP, Financials, and HRMS.
 
 
   The Workday Report Writer catalog on APIs.io includes 1 Spectral governance ruleset.
@@ -335,7 +335,7 @@ score:
       marker_coverage: 0.0
       total: 8
   schema_version: 0.17.2
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/workday-report-writer/refs/heads/main/screenshots/workday-report-writer-2026-06-20T201608.png
 security:
@@ -362,11 +362,11 @@ solutions:
 tags:
 - Analytics
 - Enterprise
-- Erp
+- ERP
 - Financials
-- Hrms
+- HRMS
 - Reporting
-- Saas
+- Software-as-a-Service
 use_cases:
 - description: Extract headcount, compensation, and turnover metrics from Workday HCM for downstream analytics, dashboards, and board reporting.
   name: HR Analytics and Workforce Reporting

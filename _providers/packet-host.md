@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 26.4
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
 agentic_access:
 - acting_count: 98
   human_in_the_loop: 4
@@ -397,7 +397,7 @@ modified: '2026-07-20'
 name: Packet Host
 nav: Providers
 network: true
-overview: 'Packet Host publishes 40 APIs on the [APIs.io](https://apis.io/) network, including Authentication API, Batches API, BGP API, and 37 more. Tagged areas include Company, Bare Metal, Cloud Infrastructure, Infrastructure as a Service, and Servers.
+overview: 'Packet Host publishes 40 APIs on the [APIs.io](https://apis.io/) network, including Authentication API, Batches API, BGP API, and 37 more. Tagged areas include Company, Bare Metal, Cloud Infrastructure, Infrastructure-as-a-Service, and Servers.
 
 
   Packet Host''s developer surface includes documentation, API reference, authentication, CLI, and 20 more developer resources.'
@@ -410,7 +410,7 @@ score:
     catalog_gap: 78.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.6
+  delta: 0.0
   facets:
     access_clarity: 21.1
     commercial_clarity: 21.1
@@ -420,7 +420,7 @@ score:
     discoverability: 75.9
     governance: 4.5
     operational_transparency: 26.3
-  previous_composite: 42.1
+  previous_composite: 41.5
   provenance:
     agentic_access: derived
     conformance: derived
@@ -432,7 +432,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.17.2
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/packet-host/refs/heads/main/screenshots/packet-host-2026-08-07T191242.png
 security:
@@ -449,7 +449,7 @@ tags:
 - Company
 - Bare Metal
 - Cloud Infrastructure
-- Infrastructure as a Service
+- Infrastructure-as-a-Service
 - Servers
 - Compute
 - Provisioning

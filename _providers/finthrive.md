@@ -23,7 +23,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 2.5
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
 api_count: 1
 apis:
 - description: The FinThrive API, published through a Microsoft Azure API Management instance. The developer portal at api-portal.nthrive.com is publicly reachable and describes auto-generated API documentation, mul
@@ -165,7 +165,7 @@ score:
     regime_id: insurance
     score: 36.4
   schema_version: 0.17.2
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
   trend: flat
 security:
 - kind: authentication

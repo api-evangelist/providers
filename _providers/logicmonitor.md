@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 32.2
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
 api_count: 2
 apis:
 - description: The LogicMonitor platform API. Swagger 2.0, 220 paths, 403 operations and 743 definitions covering devices and device groups, collectors and collector groups, alerts, alert rules and escalation chains
@@ -48,6 +48,10 @@ asyncapis:
   name: Logicmonitor Webhooks
   slug: logicmonitor-webhooks
 common:
+- group: commercial
+  title: ''
+  type: License
+  url: https://github.com/logicmonitor/logicmonitor-api-mcp/blob/main/LICENSE
 - group: company
   title: ''
   type: Website
@@ -190,7 +194,7 @@ overview: 'LogicMonitor publishes 1 API on the [APIs.io](https://apis.io/) netwo
   The LogicMonitor catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  LogicMonitor''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 23 more developer resources.'
+  LogicMonitor''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 24 more developer resources.'
 plans:
 - name: Logicmonitor Plans Pricing
   plan_count: 0
@@ -225,7 +229,7 @@ score:
     operational_transparency: 50.0
   previous_composite: 54.7
   schema_version: 0.17.2
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/logicmonitor/refs/heads/main/screenshots/logicmonitor-2026-06-20T184653.png
 security:

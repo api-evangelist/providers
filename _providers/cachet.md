@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 21.0
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
 agentic_access:
 - acting_count: 4
   human_in_the_loop: 0
@@ -185,7 +185,7 @@ modified: '2026-07-18'
 name: Cachet
 nav: Providers
 network: true
-overview: 'Cachet publishes 4 APIs on the [APIs.io](https://apis.io/) network, including Connect API, Gig-Events API, User API, and 1 more. Tagged areas include Company, Insurance, InsurTech, Mobility, and Gig Economy.
+overview: 'Cachet publishes 4 APIs on the [APIs.io](https://apis.io/) network, including Connect API, Gig-Events API, User API, and 1 more. Tagged areas include Company, Insurance, Insurtech, Mobility, and Gig Economy.
 
 
   Cachet''s developer surface includes documentation, API reference, support, engineering blog, pricing, signup flow, authentication, and 17 more developer resources.'
@@ -226,7 +226,7 @@ score:
     regime_id: insurance
     score: 37.9
   schema_version: 0.17.2
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/cachet/refs/heads/main/screenshots/cachet-2026-07-25T204205.png
 security:
@@ -242,7 +242,7 @@ slug: cachet
 tags:
 - Company
 - Insurance
-- InsurTech
+- Insurtech
 - Mobility
 - Gig Economy
 - Car Sharing

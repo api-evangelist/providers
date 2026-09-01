@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 39.8
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
 agentic_access:
 - acting_count: 95
   human_in_the_loop: 1
@@ -516,7 +516,7 @@ modified: '2026-08-17'
 name: Koyeb
 nav: Providers
 network: true
-overview: 'Koyeb publishes 44 APIs on the [APIs.io](https://apis.io/) network, including activity API, Apps API, Archives API, and 41 more. Tagged areas include Cloud Platform, Deployment, PaaS, Serverless, and Serverless GPU.
+overview: 'Koyeb publishes 44 APIs on the [APIs.io](https://apis.io/) network, including activity API, Apps API, Archives API, and 41 more. Tagged areas include Cloud Platform, Deployment, Platform-as-a-Service, Serverless, and Serverless GPU.
 
 
   Koyeb''s developer surface includes authentication, documentation, getting-started guide, engineering blog, changelog, CLI, sandbox, and 40 more developer resources.'
@@ -537,7 +537,7 @@ score:
     catalog_gap: 55.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.6
+  delta: 0.0
   facets:
     access_clarity: 75.0
     commercial_clarity: 75.0
@@ -547,7 +547,7 @@ score:
     discoverability: 68.5
     governance: 18.2
     operational_transparency: 44.7
-  previous_composite: 59.0
+  previous_composite: 58.4
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -559,7 +559,7 @@ score:
     mcp: first-party
     skills: first-party
   schema_version: 0.17.2
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/koyeb/refs/heads/main/screenshots/koyeb-2026-06-20T184145.png
 security:
@@ -579,7 +579,7 @@ slug: koyeb
 tags:
 - Cloud Platform
 - Deployment
-- PaaS
+- Platform-as-a-Service
 - Serverless
 - Serverless GPU
 - AI Infrastructure

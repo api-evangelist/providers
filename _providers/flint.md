@@ -36,7 +36,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 42.8
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -65,6 +65,10 @@ collections:
   name: Flint Agent Tasks API
   slug: open-flint-agent-tasks-api
 common:
+- group: commercial
+  title: ''
+  type: License
+  url: https://github.com/tryflint/claude-code-plugin/blob/main/LICENSE
 - group: other
   title: ''
   type: Overlay
@@ -259,7 +263,7 @@ overview: 'Flint publishes 1 API on the [APIs.io](https://apis.io/) network: Age
   The Flint catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  Flint''s developer surface includes documentation, API reference, getting-started guide, pricing, engineering blog, signup flow, authentication, and 37 more developer resources.'
+  Flint''s developer surface includes documentation, API reference, getting-started guide, pricing, engineering blog, signup flow, authentication, and 38 more developer resources.'
 plans:
 - name: Flint Plans Pricing
   plan_count: 3
@@ -304,7 +308,7 @@ score:
     mcp: first-party
     skills: first-party
   schema_version: 0.17.2
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/flint/refs/heads/main/screenshots/flint-2026-07-25T214758.png
 security:

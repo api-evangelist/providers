@@ -23,7 +23,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 5.0
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
 api_count: 1
 apis:
 - description: RuhAN exposes two HTTP endpoints under https://www.ruhan.co/api and publishes no contract for either. GET /api/health returns 200 application/json and is named in the provider's own llms.txt; on 2026-
@@ -124,7 +124,7 @@ score:
     operational_transparency: 0.0
   previous_composite: 27.4
   schema_version: 0.17.2
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
   trend: flat
 security:
 - kind: authentication

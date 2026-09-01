@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
 api_count: 0
 artifact_total: 1
 common:
@@ -117,7 +117,7 @@ modified: '2026-05-25'
 name: Easypanel
 nav: Providers
 network: true
-overview: 'Easypanel is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Server Control Panel, PaaS, Self-Hosted, Docker, and Docker Swarm.
+overview: 'Easypanel is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Server Control Panel, Platform-as-a-Service, Self-Hosted, Docker, and Docker Swarm.
 
 
   Easypanel''s developer surface includes documentation, pricing, engineering blog, GitHub presence, and 14 more developer resources.'
@@ -142,7 +142,7 @@ score:
     operational_transparency: 5.3
   previous_composite: 10.6
   schema_version: 0.17.2
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/easypanel/refs/heads/main/screenshots/easypanel-2026-06-20T180400.png
 security:
@@ -153,7 +153,7 @@ security:
 slug: easypanel
 tags:
 - Server Control Panel
-- PaaS
+- Platform-as-a-Service
 - Self-Hosted
 - Docker
 - Docker Swarm

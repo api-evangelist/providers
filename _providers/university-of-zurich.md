@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 5.0
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
 api_count: 5
 apis:
 - description: The Zurich Open Repository and Archive (ZORA) is UZH's institutional repository for the peer-reviewed research output of the university. Its OAI-PMH 2.0 interface serves metadata for harvesting with n
@@ -54,6 +54,10 @@ apis:
   slug: eduid-idp
 artifact_total: 9
 common:
+- group: commercial
+  title: ''
+  type: License
+  url: https://github.com/uzh-bf/klicker-uzh/blob/v3/LICENSE
 - group: company
   title: ''
   type: Website
@@ -158,7 +162,7 @@ network: true
 overview: 'University of Zurich publishes 5 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Education, Higher Education, University, Public Research University, and Switzerland.
 
 
-  University of Zurich''s developer surface includes engineering blog, support, GitHub presence, authentication, and 18 more developer resources.'
+  University of Zurich''s developer surface includes engineering blog, support, GitHub presence, authentication, and 19 more developer resources.'
 plans:
 - name: University Of Zurich Plans Pricing
   plan_count: 2
@@ -176,7 +180,7 @@ score:
     catalog_gap: 56.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -7.9
+  delta: 0.0
   facets:
     access_clarity: 50.0
     commercial_clarity: 50.0
@@ -186,7 +190,7 @@ score:
     discoverability: 74.1
     governance: 0.0
     operational_transparency: 23.7
-  previous_composite: 38.6
+  previous_composite: 30.7
   provenance:
     agentic_access: derived
     contracts:
@@ -201,8 +205,8 @@ score:
     regime_id: education
     score: 46.3
   schema_version: 0.17.2
-  scored_at: '2026-08-30'
-  trend: falling
+  scored_at: '2026-09-01'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/university-of-zurich/refs/heads/main/screenshots/university-of-zurich-2026-06-20T200336.png
 security:
 - kind: domain-security

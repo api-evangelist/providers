@@ -23,7 +23,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 35.2
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
 api_count: 21
 apis:
 - description: The bulk-shipments API from Maven Machines — 1 operation(s) for bulk-shipments.
@@ -302,7 +302,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.17.2
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
   trend: flat
 security:
 - kind: authentication

@@ -23,7 +23,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 41.8
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
 agentic_access:
 - acting_count: 87
   human_in_the_loop: 1
@@ -363,7 +363,7 @@ modified: '2026-08-04'
 name: Figment
 nav: Providers
 network: true
-overview: 'Figment publishes 24 APIs on the [APIs.io](https://apis.io/) network, including Addresses API, Aptos API, Avalanche API, and 21 more. Tagged areas include staking, Blockchain, digital-assets, proof-of-stake, and validators.
+overview: 'Figment publishes 24 APIs on the [APIs.io](https://apis.io/) network, including Addresses API, Aptos API, Avalanche API, and 21 more. Tagged areas include Staking, Blockchain, Digital Assets, Proof of Stake, and Validators.
 
 
   Figment''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, signup flow, changelog, and 34 more developer resources.'
@@ -380,7 +380,7 @@ score:
     catalog_gap: 70.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.6
+  delta: 0.0
   facets:
     access_clarity: 50.0
     commercial_clarity: 50.0
@@ -390,7 +390,7 @@ score:
     discoverability: 75.9
     governance: 18.2
     operational_transparency: 36.8
-  previous_composite: 48.0
+  previous_composite: 47.4
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -402,7 +402,7 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.17.2
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/figment/refs/heads/main/screenshots/figment-2026-08-07T165258.png
 security:
@@ -424,17 +424,17 @@ security:
   summary_line: SOC 2 Type II, ISO Certificate
 slug: figment
 tags:
-- staking
+- Staking
 - Blockchain
-- digital-assets
-- proof-of-stake
-- validators
-- institutional-finance
+- Digital Assets
+- Proof of Stake
+- Validators
+- Institutional Finance
 - rewards-reporting
-- ethereum
-- solana
-- web3-infrastructure
-- custody
+- Ethereum
+- Solana
+- Web3 Infrastructure
+- Custody
 - x402
 website: https://www.figment.io/
 ---

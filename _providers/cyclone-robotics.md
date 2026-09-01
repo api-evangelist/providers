@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
 api_count: 0
 artifact_total: 1
 common:
@@ -68,7 +68,7 @@ modified: '2026-07-18'
 name: Cyclone Robotics
 nav: Providers
 network: true
-overview: 'Cyclone Robotics is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Enterprise, Robotic Process Automation, RPA, and Hyperautomation.
+overview: 'Cyclone Robotics is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Enterprise, Robotic Process Automation, RPA, and Hyper-Automation.
 
 
   Cyclone Robotics'' developer surface includes signup flow, support, engineering blog, and 3 more developer resources.'
@@ -93,7 +93,7 @@ score:
     operational_transparency: 0.0
   previous_composite: 11.2
   schema_version: 0.17.2
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/cyclone-robotics/refs/heads/main/screenshots/cyclone-robotics-2026-07-25T211040.png
 security:
@@ -107,7 +107,7 @@ tags:
 - Enterprise
 - Robotic Process Automation
 - RPA
-- Hyperautomation
+- Hyper-Automation
 - Automation
 - Artificial Intelligence
 - Intelligent Document Processing

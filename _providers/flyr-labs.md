@@ -23,7 +23,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 2.9
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
 api_count: 2
 apis:
 - description: FLYR's airline retailing API surface — the Offer & Order Management System (OOMS), a certified NDC+ API for rich-content offers and orders, an NDC Gateway that extends modern retailing to indirect and
@@ -119,7 +119,7 @@ modified: '2026-08-04'
 name: FLYR Labs
 nav: Providers
 network: true
-overview: 'FLYR Labs publishes 2 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Company, travel-technology, airlines, hospitality, and revenue-management.
+overview: 'FLYR Labs publishes 2 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Travel Technology, Airlines, Hospitality, and Revenue Management.
 
 
   FLYR Labs'' developer surface includes documentation, support, engineering blog, legal docs, and 15 more developer resources.'
@@ -146,7 +146,7 @@ score:
   provenance:
     conformance: first-party
   schema_version: 0.17.2
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/flyr-labs/refs/heads/main/screenshots/flyr-labs-2026-08-07T165355.png
 security:
@@ -157,17 +157,17 @@ security:
 slug: flyr-labs
 tags:
 - Company
-- travel-technology
-- airlines
-- hospitality
-- revenue-management
-- dynamic-pricing
-- artificial-intelligence
+- Travel Technology
+- Airlines
+- Hospitality
+- Revenue Management
+- Dynamic Pricing
+- Artificial Intelligence
 - airline-retailing
-- ndc
+- NDC
 - offer-and-order
-- hotel-technology
-- forecasting
-- cargo
+- Hotel Technology
+- Forecasting
+- Cargo
 website: https://flyr.com/
 ---

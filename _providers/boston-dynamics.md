@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 2.5
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
 api_count: 1
 apis:
 - description: The Spot SDK is an open-source SDK for developing applications and payloads for the Spot quadruped robot. Built on gRPC and Protocol Buffers, it provides Python and C++ libraries to control Spot, read
@@ -170,7 +170,7 @@ score:
     operational_transparency: 23.7
   previous_composite: 26.1
   schema_version: 0.17.2
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/boston-dynamics/refs/heads/main/screenshots/boston-dynamics-2026-06-20T173614.png
 security:

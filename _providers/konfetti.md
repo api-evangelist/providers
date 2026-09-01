@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 21.8
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
 api_count: 5
 apis:
 - description: Authenticated customer profile and registration.
@@ -253,7 +253,7 @@ score:
     regime_id: payments
     score: 39.1
   schema_version: 0.17.2
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/konfetti/refs/heads/main/screenshots/konfetti-2026-07-25T224149.png
 security:
@@ -275,7 +275,7 @@ tags:
 - Workshops
 - Ticketing
 - Gift Cards
-- Travel and Leisure
+- Travel And Leisure
 - Germany
 - Commerce
 website: https://gokonfetti.com

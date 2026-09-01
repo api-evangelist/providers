@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 15.5
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
 api_count: 1
 apis:
 - description: REST API providing full programmatic control over Cal.com resources including calendars, event types, bookings, schedules, teams, and organizations. Supports OAuth and API key authentication with rate
@@ -131,7 +131,7 @@ score:
       reason: no_resolvable_host
   previous_composite: 22.7
   schema_version: 0.17.2
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/calcom/refs/heads/main/screenshots/calcom-2026-06-20T173843.png
 security:

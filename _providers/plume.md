@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
 api_count: 0
 artifact_total: 3
 common:
@@ -104,7 +104,7 @@ modified: '2026-07-20'
 name: Plume
 nav: Providers
 network: true
-overview: 'Plume is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Enterprise, WiFi, ISP, and Smart Home.
+overview: 'Plume is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Enterprise, Wi-Fi, ISP, and Smart Home.
 
 
   Plume''s developer surface includes documentation, sandbox, support, and 12 more developer resources.'
@@ -129,7 +129,7 @@ score:
     operational_transparency: 28.9
   previous_composite: 22.3
   schema_version: 0.17.2
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
   trend: flat
 security:
 - kind: domain-security
@@ -148,11 +148,11 @@ slug: plume
 tags:
 - Company
 - Enterprise
-- WiFi
+- Wi-Fi
 - ISP
 - Smart Home
 - Network Intelligence
-- Cyber Security
+- Cybersecurity
 - Software-as-a-Service
 - OpenSync
 - CPE

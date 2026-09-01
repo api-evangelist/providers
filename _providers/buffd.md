@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
 api_count: 0
 artifact_total: 1
 common:
@@ -52,7 +52,7 @@ modified: '2026-07-18'
 name: Buffd
 nav: Providers
 network: true
-overview: Buffd is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Gaming, Esports, Consumer, and Progressive-Web-App.
+overview: Buffd is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Gaming, Esports, Consumer, and Progressive Web App.
 random_paper: 15
 score:
   band: minimal
@@ -74,7 +74,7 @@ score:
     operational_transparency: 0.0
   previous_composite: 5.0
   schema_version: 0.17.2
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/buffd/refs/heads/main/screenshots/buffd-2026-07-25T204035.png
 security:
@@ -88,7 +88,7 @@ tags:
 - Gaming
 - Esports
 - Consumer
-- Progressive-Web-App
+- Progressive Web App
 - Mobile
 website: https://www.buffd.gg
 ---

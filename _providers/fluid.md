@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 2.5
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
 api_count: 1
 apis:
 - description: Fluid is a CSS framework that provides a responsive grid system, UI components, and utility classes for building flexible and adaptive web layouts. It uses ITCSS architecture for its file and folder s
@@ -85,7 +85,7 @@ modified: '2026-04-28'
 name: Fluid
 nav: Providers
 network: true
-overview: 'Fluid publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include CSS Framework, Front-End, and Responsive Design.
+overview: 'Fluid publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include CSS Framework, Frontend, and Responsive Design.
 
 
   Fluid''s developer surface includes documentation and 7 more developer resources.'
@@ -106,7 +106,7 @@ score:
     catalog_gap: 84.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: 2.6
+  delta: 0.0
   facets:
     access_clarity: 15.8
     commercial_clarity: 15.8
@@ -119,14 +119,14 @@ score:
   open_source:
     applies: true
     score: 40.0
-  previous_composite: 14.0
+  previous_composite: 16.6
   schema_version: 0.17.2
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/fluid/refs/heads/main/screenshots/fluid-2026-06-20T181340.png
 slug: fluid
 tags:
 - CSS Framework
-- Front-End
+- Frontend
 - Responsive Design
 ---

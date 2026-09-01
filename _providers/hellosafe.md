@@ -23,7 +23,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 24.5
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
 api_count: 2
 apis:
 - description: Server-to-server conversion postback.
@@ -68,7 +68,7 @@ modified: '2026-08-25'
 name: HelloSafe
 nav: Providers
 network: true
-overview: 'HelloSafe publishes 3 APIs on the [APIs.io](https://apis.io/) network: Conversion API, Links API, and Quotes API. Tagged areas include travel insurance, insurance distribution, Pricing, and travel.'
+overview: 'HelloSafe publishes 3 APIs on the [APIs.io](https://apis.io/) network: Conversion API, Links API, and Quotes API. Tagged areas include Travel Insurance, Insurance Distribution, Pricing, and Travel.'
 random_paper: 2
 score:
   band: thin
@@ -78,7 +78,7 @@ score:
     catalog_gap: 85.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -1.5
+  delta: 0.0
   facets:
     access_clarity: 34.2
     commercial_clarity: 34.2
@@ -88,7 +88,7 @@ score:
     discoverability: 63.0
     governance: 0.0
     operational_transparency: 0.0
-  previous_composite: 32.2
+  previous_composite: 30.7
   provenance:
     contracts:
       callable: 100.0
@@ -102,13 +102,13 @@ score:
     regime_id: insurance
     score: 12.1
   schema_version: 0.17.2
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
   trend: flat
 slug: hellosafe
 tags:
-- travel insurance
-- insurance distribution
+- Travel Insurance
+- Insurance Distribution
 - Pricing
-- travel
+- Travel
 website: https://hellosafe.com
 ---

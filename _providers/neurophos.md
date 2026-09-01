@@ -23,7 +23,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 11.2
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
 api_count: 1
 apis:
 - description: A live, unauthenticated Model Context Protocol endpoint served from the neurophos.com host and advertised in the company's own llms.txt. It is provided by the Wix site platform rather than authored by
@@ -91,7 +91,7 @@ modified: '2026-08-04'
 name: Neurophos
 nav: Providers
 network: true
-overview: 'Neurophos publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, photonics, Optical Computing, ai-inference, and ai-accelerators.
+overview: 'Neurophos publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Photonics, Optical Computing, AI Inference, and AI Accelerators.
 
 
   Neurophos'' developer surface includes authentication, product news, and 10 more developer resources.'
@@ -119,7 +119,7 @@ score:
     conformance: derived
     mcp: first-party
   schema_version: 0.17.2
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/neurophos/refs/heads/main/screenshots/neurophos-2026-08-07T185039.png
 security:
@@ -134,14 +134,14 @@ security:
 slug: neurophos
 tags:
 - Company
-- photonics
+- Photonics
 - Optical Computing
-- ai-inference
-- ai-accelerators
-- semiconductors
+- AI Inference
+- AI Accelerators
+- Semiconductors
 - Metamaterials
-- data-center
-- deep-tech
+- Data-Center
+- Deep Tech
 - MCP
 website: https://www.neurophos.com/
 ---

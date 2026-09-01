@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 41.9
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
 agentic_access:
 - acting_count: 134
   human_in_the_loop: 9
@@ -349,6 +349,10 @@ collections:
   name: Snyk AccessRequests Users API
   slug: open-snyk-users-api
 common:
+- group: commercial
+  title: ''
+  type: License
+  url: https://github.com/snyk/studio-mcp/blob/main/LICENSE
 - group: other
   title: ''
   type: CapabilityMap
@@ -547,7 +551,7 @@ overview: 'Snyk publishes 48 APIs on the [APIs.io](https://apis.io/) network, in
   The Snyk catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  Snyk''s developer surface includes authentication, documentation, API reference, CLI, changelog, getting-started guide, support, and 37 more developer resources.'
+  Snyk''s developer surface includes authentication, documentation, API reference, CLI, changelog, getting-started guide, support, and 38 more developer resources.'
 plans:
 - name: Snyk Plans Pricing
   plan_count: 4
@@ -570,7 +574,7 @@ score:
     catalog_gap: 77.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.6
+  delta: 0.0
   facets:
     access_clarity: 76.3
     commercial_clarity: 76.3
@@ -580,7 +584,7 @@ score:
     discoverability: 61.1
     governance: 18.2
     operational_transparency: 68.4
-  previous_composite: 64.4
+  previous_composite: 63.8
   provenance:
     agentic_access: derived
     contracts:
@@ -589,7 +593,7 @@ score:
       marker_coverage: 0.0
       total: 46
   schema_version: 0.17.2
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/snyk/refs/heads/main/screenshots/snyk-2026-06-20T194114.png
 security:

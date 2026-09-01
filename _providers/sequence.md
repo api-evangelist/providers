@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 22.8
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
 api_count: 7
 apis:
 - description: The Analytics API from Sequence — 177 operation(s) for analytics.
@@ -251,7 +251,7 @@ score:
     regime_id: payments
     score: 26.6
   schema_version: 0.17.2
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/sequence/refs/heads/main/screenshots/sequence-2026-08-17T081813.png
 security:

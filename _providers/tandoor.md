@@ -23,7 +23,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 27.6
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
 api_count: 2
 apis:
 - description: The api API from Tandoor Recipes — 243 operation(s) for api.
@@ -163,7 +163,7 @@ modified: '2026-08-27'
 name: Tandoor Recipes
 nav: Providers
 network: true
-overview: 'Tandoor Recipes publishes 2 APIs on the [APIs.io](https://apis.io/) network, including API Token Auth API, and 1 more. Tagged areas include recipes, meal-planning, food, nutrition, and shopping-lists.
+overview: 'Tandoor Recipes publishes 2 APIs on the [APIs.io](https://apis.io/) network, including API Token Auth API, and 1 more. Tagged areas include Recipes, Meal Planning, Food, Nutrition, and Shopping Lists.
 
 
   Tandoor Recipes'' developer surface includes documentation, getting-started guide, support, pricing, signup flow, changelog, authentication, and 23 more developer resources.'
@@ -184,7 +184,7 @@ score:
     catalog_gap: 54.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -1.1
+  delta: 0.0
   facets:
     access_clarity: 71.1
     commercial_clarity: 71.1
@@ -194,7 +194,7 @@ score:
     discoverability: 68.5
     governance: 18.2
     operational_transparency: 76.3
-  previous_composite: 60.0
+  previous_composite: 58.9
   regulatory:
     applies: true
     matched_via: tags
@@ -202,7 +202,7 @@ score:
     regime_id: government
     score: 57.4
   schema_version: 0.17.2
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
   trend: flat
 security:
 - kind: authentication
@@ -219,15 +219,15 @@ security:
   summary_line: disclosure policy published
 slug: tandoor
 tags:
-- recipes
-- meal-planning
-- food
-- nutrition
-- shopping-lists
+- Recipes
+- Meal Planning
+- Food
+- Nutrition
+- Shopping Lists
 - Open-Source
-- self-hosted
-- home-automation
-- django
+- Self-Hosted
+- Home Automation
+- Django
 - Open Data
 website: https://tandoor.dev
 ---

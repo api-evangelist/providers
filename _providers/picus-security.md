@@ -23,7 +23,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 27.8
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
 agentic_access:
 - acting_count: 25
   human_in_the_loop: 0
@@ -271,7 +271,7 @@ modified: '2026-08-02'
 name: Picus Security
 nav: Providers
 network: true
-overview: 'Picus Security publishes 14 APIs on the [APIs.io](https://apis.io/) network, including Activity Logs API, Agents API, Authentication API, and 11 more. Tagged areas include Cybersecurity, security-validation, breach-and-attack-simulation, adversarial-exposure-validation, and continuous-threat-exposure-management.
+overview: 'Picus Security publishes 14 APIs on the [APIs.io](https://apis.io/) network, including Activity Logs API, Agents API, Authentication API, and 11 more. Tagged areas include Cybersecurity, Security Validation, Breach and Attack Simulation, Adversarial Exposure Validation, and Continuous Threat Exposure Management.
 
 
   Picus Security''s developer surface includes authentication, documentation, API reference, getting-started guide, support, engineering blog, signup flow, and 27 more developer resources.'
@@ -310,7 +310,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.17.2
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/picus-security/refs/heads/main/screenshots/picus-security-2026-08-17T081225.png
 security:
@@ -333,14 +333,14 @@ security:
 slug: picus-security
 tags:
 - Cybersecurity
-- security-validation
-- breach-and-attack-simulation
-- adversarial-exposure-validation
-- continuous-threat-exposure-management
-- penetration-testing
+- Security Validation
+- Breach and Attack Simulation
+- Adversarial Exposure Validation
+- Continuous Threat Exposure Management
+- Penetration Testing
 - Threat Intelligence
 - mitre-attack
-- detection-engineering
-- security-operations
+- Detection Engineering
+- Security Operations
 website: https://www.picussecurity.com/
 ---

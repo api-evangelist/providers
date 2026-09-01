@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
 api_count: 0
 artifact_total: 0
 common:
@@ -56,7 +56,7 @@ modified: '2026-05-03'
 name: Targa Energy
 nav: Providers
 network: true
-overview: Targa Energy is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Energy Infrastructure, Midstream, Natural Gas, Natural Gas Liquids, and Oil And Gas.
+overview: Targa Energy is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Energy Infrastructure, Midstream, Natural Gas, Natural Gas Liquids, and Oil and Gas.
 press:
 - date: '2026-05-25'
   title: Brandon Palomino, P.E., MBA - Nuclear Engineer
@@ -106,7 +106,7 @@ score:
     regime_id: energy_utilities
     score: 0.0
   schema_version: 0.17.2
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
   trend: flat
 slug: targa-energy
 tags:
@@ -114,6 +114,6 @@ tags:
 - Midstream
 - Natural Gas
 - Natural Gas Liquids
-- Oil And Gas
+- Oil and Gas
 website: https://www.targa-energy.com
 ---

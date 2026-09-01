@@ -23,7 +23,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 34.0
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
 agentic_access:
 - acting_count: 53
   human_in_the_loop: 10
@@ -267,7 +267,7 @@ modified: '2026-08-01'
 name: Iru
 nav: Providers
 network: true
-overview: 'Iru publishes 14 APIs on the [APIs.io](https://apis.io/) network, including Audit API, Behavioral Detections API, Blueprints API, and 11 more. Tagged areas include Company, device-management, mobile-device-management, apple-management, and endpoint-security.
+overview: 'Iru publishes 14 APIs on the [APIs.io](https://apis.io/) network, including Audit API, Behavioral Detections API, Blueprints API, and 11 more. Tagged areas include Company, Device Management, Mobile Device Management, apple-management, and Endpoint Security.
 
 
   Iru''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 35 more developer resources.'
@@ -284,7 +284,7 @@ score:
     catalog_gap: 70.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.6
+  delta: 0.0
   facets:
     access_clarity: 60.5
     commercial_clarity: 60.5
@@ -294,7 +294,7 @@ score:
     discoverability: 75.9
     governance: 18.2
     operational_transparency: 65.8
-  previous_composite: 58.4
+  previous_composite: 57.8
   provenance:
     agentic_access: first-party
     conformance: first-party
@@ -306,7 +306,7 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.17.2
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/kandji/refs/heads/main/screenshots/kandji-2026-08-07T171059.png
 security:
@@ -329,15 +329,15 @@ security:
 slug: kandji
 tags:
 - Company
-- device-management
-- mobile-device-management
+- Device Management
+- Mobile Device Management
 - apple-management
-- endpoint-security
+- Endpoint Security
 - endpoint-detection-response
-- vulnerability-management
-- compliance-automation
-- workforce-identity
-- it-operations
+- Vulnerability Management
+- Compliance Automation
+- Workforce Identity
+- IT Operations
 - MCP
 - agent-native
 website: https://www.iru.com/

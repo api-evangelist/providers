@@ -23,7 +23,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 36.7
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
 api_count: 1
 apis:
 - description: Вход, регистрация, управление JWT-токенами и API ключами, привязка Telegram
@@ -164,7 +164,7 @@ modified: '2026-08-16'
 name: uChecker
 nav: Providers
 network: true
-overview: 'uChecker publishes 3 APIs on the [APIs.io](https://apis.io/) network: Аутентификация API, Валидация Email API, and ESP Провайдеры API. Tagged areas include email-verification, Email, SMTP, dns, and deliverability.
+overview: 'uChecker publishes 3 APIs on the [APIs.io](https://apis.io/) network: Аутентификация API, Валидация Email API, and ESP Провайдеры API. Tagged areas include Email Verification, Email, SMTP, DNS, and Deliverability.
 
 
   The uChecker catalog on APIs.io includes 1 event-driven AsyncAPI specification.
@@ -188,7 +188,7 @@ score:
     catalog_gap: 66.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.6
+  delta: 0.0
   facets:
     access_clarity: 63.2
     commercial_clarity: 63.2
@@ -198,7 +198,7 @@ score:
     discoverability: 75.9
     governance: 4.5
     operational_transparency: 7.9
-  previous_composite: 46.5
+  previous_composite: 45.9
   provenance:
     conformance: derived
     contracts:
@@ -209,7 +209,7 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.17.2
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/uchecker/refs/heads/main/screenshots/uchecker-2026-08-17T082530.png
 security:
@@ -223,16 +223,16 @@ security:
   summary_line: TLSv1.3 · HSTS · DMARC
 slug: uchecker
 tags:
-- email-verification
+- Email Verification
 - Email
 - SMTP
-- dns
-- deliverability
+- DNS
+- Deliverability
 - mx
-- spf
-- dkim
+- SPF
+- DKIM
 - DMARC
 - MCP
 - agent-native
-- data-quality
+- Data Quality
 ---

@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 20.0
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -100,7 +100,7 @@ modified: '2026-05-19'
 name: Httpstat.us
 nav: Providers
 network: true
-overview: 'Httpstat.us publishes 2 APIs on the [APIs.io](https://apis.io/) network: Httpstat API and Random API. Tagged areas include HTTP, Status Codes, Testing, and Utilities.
+overview: 'Httpstat.us publishes 2 APIs on the [APIs.io](https://apis.io/) network: Httpstat API and Random API. Tagged areas include HTTP, Status-Codes, Testing, and Utilities.
 
 
   The Httpstat.us catalog on APIs.io includes 1 Spectral governance ruleset.'
@@ -157,7 +157,7 @@ score:
     regime_id: energy_utilities
     score: 8.1
   schema_version: 0.17.2
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
   trend: flat
 security:
 - kind: domain-security
@@ -167,7 +167,7 @@ security:
 slug: httpstat
 tags:
 - HTTP
-- Status Codes
+- Status-Codes
 - Testing
 - Utilities
 website: https://httpstat.us/

@@ -23,7 +23,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 26.8
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
 api_count: 2
 apis:
 - description: Activity
@@ -256,6 +256,10 @@ apis:
   slug: bonitasoft-usertask-api
 artifact_total: 82
 common:
+- group: commercial
+  title: ''
+  type: License
+  url: https://github.com/bonitasoft/bonita-openapi/blob/master/LICENSE
 - group: other
   title: ''
   type: CapabilityMap
@@ -417,10 +421,10 @@ modified: '2026-08-17'
 name: Bonitasoft
 nav: Providers
 network: true
-overview: 'Bonitasoft publishes 76 APIs on the [APIs.io](https://apis.io/) network, including Activity API, Activity Variable API, Actor API, and 73 more. Tagged areas include Company, Saas, Business Process Management, Process Automation, and Workflows.
+overview: 'Bonitasoft publishes 76 APIs on the [APIs.io](https://apis.io/) network, including Activity API, Activity Variable API, Actor API, and 73 more. Tagged areas include Company, Software-as-a-Service, Business Process Management, Process Automation, and Workflows.
 
 
-  Bonitasoft''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 30 more developer resources.'
+  Bonitasoft''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 31 more developer resources.'
 plans:
 - name: Bonitasoft Plans Pricing
   plan_count: 4
@@ -438,7 +442,7 @@ score:
     catalog_gap: 61.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.5
+  delta: 0.0
   facets:
     access_clarity: 84.2
     commercial_clarity: 84.2
@@ -448,7 +452,7 @@ score:
     discoverability: 63.0
     governance: 18.2
     operational_transparency: 50.0
-  previous_composite: 62.2
+  previous_composite: 61.7
   provenance:
     conformance: first-party
     contracts:
@@ -459,7 +463,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.17.2
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
   trend: flat
 security:
 - kind: authentication
@@ -477,12 +481,12 @@ security:
 slug: bonitasoft
 tags:
 - Company
-- Saas
+- Software-as-a-Service
 - Business Process Management
 - Process Automation
 - Workflows
 - BPMN
-- Low Code
+- Low-Code
 - Open-Source
 - Orchestration
 - Agentic AI

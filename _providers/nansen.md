@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 22.9
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -126,7 +126,7 @@ modified: '2026-05-08'
 name: Nansen
 nav: Providers
 network: true
-overview: 'Nansen publishes 1 API on the [APIs.io](https://apis.io/) network: Smart Money API. Tagged areas include Web3, Crypto, On-Chain, Wallet Labels, and Smart Money.
+overview: 'Nansen publishes 1 API on the [APIs.io](https://apis.io/) network: Smart Money API. Tagged areas include Web3, Crypto, Onchain, Wallet Labels, and Smart Money.
 
 
   Nansen''s developer surface includes authentication, developer portal, documentation, pricing, engineering blog, and 8 more developer resources.'
@@ -172,7 +172,7 @@ score:
     regime_id: payments
     score: 18.8
   schema_version: 0.17.2
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/nansen/refs/heads/main/screenshots/nansen-2026-06-20T185943.png
 security:
@@ -188,10 +188,10 @@ slug: nansen
 tags:
 - Web3
 - Crypto
-- On-Chain
+- Onchain
 - Wallet Labels
 - Smart Money
 - Analytics
-- Multi-chain
+- Multi-Chain
 website: https://www.nansen.ai/
 ---

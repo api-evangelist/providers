@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 2.5
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
 api_count: 1
 apis:
 - description: Burlington Stores offers off-price retail with brand-name clothing, footwear, accessories, baby products, and home decor. No public API is currently documented, but the website provides online shoppin
@@ -115,7 +115,7 @@ score:
     operational_transparency: 0.0
   previous_composite: 7.5
   schema_version: 0.17.2
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/burlington-stores/refs/heads/main/screenshots/burlington-stores-2026-06-20T173818.png
 security:

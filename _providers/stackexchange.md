@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 28.7
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -503,7 +503,7 @@ modified: '2026-05-29'
 name: Stack Exchange
 nav: Providers
 network: true
-overview: 'Stack Exchange publishes 16 APIs on the [APIs.io](https://apis.io/) network, including Access Tokens API, Answers API, Badges API, and 13 more. Tagged areas include Q And A, Developer Community, Knowledge Graph, Stack Overflow, and Stack Exchange.
+overview: 'Stack Exchange publishes 16 APIs on the [APIs.io](https://apis.io/) network, including Access Tokens API, Answers API, Badges API, and 13 more. Tagged areas include Q&A, Developer Community, Knowledge Graph, Stack Overflow, and Stack Exchange.
 
 
   The Stack Exchange catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
@@ -573,7 +573,7 @@ score:
       marker_coverage: 100.0
       total: 16
   schema_version: 0.17.2
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/stackexchange/refs/heads/main/screenshots/stackexchange-2026-06-20T194445.png
 security:
@@ -587,7 +587,7 @@ security:
   summary_line: TLSv1.3 · HSTS · DMARC
 slug: stackexchange
 tags:
-- Q And A
+- Q&A
 - Developer Community
 - Knowledge Graph
 - Stack Overflow

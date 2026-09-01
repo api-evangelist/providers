@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
 api_count: 0
 artifact_total: 1
 common:
@@ -56,7 +56,7 @@ modified: '2026-07-18'
 name: Docplanner
 nav: Providers
 network: true
-overview: Docplanner is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Healthcare, HealthTech, Appointments, and Booking.
+overview: Docplanner is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Healthcare, Health Tech, Appointments, and Booking.
 random_paper: 12
 score:
   band: minimal
@@ -84,7 +84,7 @@ score:
     regime_id: health
     score: 13.8
   schema_version: 0.17.2
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/docplanner/refs/heads/main/screenshots/docplanner-2026-07-25T212205.png
 security:
@@ -96,7 +96,7 @@ slug: docplanner
 tags:
 - Company
 - Healthcare
-- HealthTech
+- Health Tech
 - Appointments
 - Booking
 - Medical

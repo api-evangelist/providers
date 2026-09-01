@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
 api_count: 0
 artifact_total: 0
 common:
@@ -90,7 +90,7 @@ score:
     regime_id: health
     score: 0.0
   schema_version: 0.17.2
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/biotyx-medical/refs/heads/main/screenshots/biotyx-medical-2026-07-25T203111.png
 slug: biotyx-medical
@@ -100,7 +100,7 @@ tags:
 - Medical Devices
 - Cardiovascular
 - Bioresorbable Scaffold
-- Medtech
+- MedTech
 - Life Sciences
 website: https://www.biotyxmed.com/en_index.html
 ---

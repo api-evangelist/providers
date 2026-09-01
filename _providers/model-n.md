@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
 api_count: 0
 artifact_total: 2
 common:
@@ -68,7 +68,7 @@ modified: '2026-07-20'
 name: Model N
 nav: Providers
 network: true
-overview: 'Model N is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Healthcare, Life Sciences, Pharmaceuticals, and Medtech.
+overview: 'Model N is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Healthcare, Life Sciences, Pharmaceuticals, and MedTech.
 
 
   Model N''s developer surface includes engineering blog, support, and 4 more developer resources.'
@@ -99,7 +99,7 @@ score:
     regime_id: health
     score: 13.8
   schema_version: 0.17.2
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/model-n/refs/heads/main/screenshots/model-n-2026-08-07T183928.png
 security:
@@ -117,7 +117,7 @@ tags:
 - Healthcare
 - Life Sciences
 - Pharmaceuticals
-- Medtech
+- MedTech
 - Revenue Management
 - Government Pricing
 - Compliance

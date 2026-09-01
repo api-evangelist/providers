@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 25.3
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
 api_count: 5
 apis:
 - description: Create, configure, send, sign and manage contracts.
@@ -204,7 +204,7 @@ modified: '2026-07-21'
 name: Trato
 nav: Providers
 network: true
-overview: 'Trato publishes 5 APIs on the [APIs.io](https://apis.io/) network, including Contracts API, Custom Properties API, Participants API, and 2 more. Tagged areas include Company, Contract Management, Contract Lifecycle Management, Electronic Signature, and Legaltech.
+overview: 'Trato publishes 5 APIs on the [APIs.io](https://apis.io/) network, including Contracts API, Custom Properties API, Participants API, and 2 more. Tagged areas include Company, Contract Management, Contract Lifecycle Management, Electronic Signature, and Legal Tech.
 
 
   The Trato catalog on APIs.io includes 1 event-driven AsyncAPI specification.
@@ -220,7 +220,7 @@ score:
     catalog_gap: 75.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -1.1
+  delta: 0.0
   facets:
     access_clarity: 32.9
     commercial_clarity: 32.9
@@ -230,7 +230,7 @@ score:
     discoverability: 81.5
     governance: 4.5
     operational_transparency: 26.3
-  previous_composite: 47.4
+  previous_composite: 46.3
   provenance:
     conformance: derived
     contracts:
@@ -241,7 +241,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.17.2
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/trato/refs/heads/main/screenshots/trato-2026-08-17T082426.png
 security:
@@ -259,7 +259,7 @@ tags:
 - Contract Management
 - Contract Lifecycle Management
 - Electronic Signature
-- Legaltech
+- Legal Tech
 - Document-Management
 - Workflow-Automation
 - Legal

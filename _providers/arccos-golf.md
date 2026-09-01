@@ -23,7 +23,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 36.2
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
 api_count: 2
 apis:
 - description: 'Universal Commerce Protocol (UCP) MCP endpoint published on the Arccos Golf Shopify storefront for agent-driven commerce. An anonymous JSON-RPC tools/list returns 13 tools covering catalog search and '
@@ -215,7 +215,7 @@ modified: '2026-08-06'
 name: Arccos Golf
 nav: Providers
 network: true
-overview: 'Arccos Golf publishes 5 APIs on the [APIs.io](https://apis.io/) network, including Clubs API, Courses API, Rounds API, and 2 more. Tagged areas include Company, golf, sports-technology, wearables, and iot.
+overview: 'Arccos Golf publishes 5 APIs on the [APIs.io](https://apis.io/) network, including Clubs API, Courses API, Rounds API, and 2 more. Tagged areas include Company, Golf, Sports Technology, Wearables, and IoT.
 
 
   The Arccos Golf catalog on APIs.io includes 1 event-driven AsyncAPI specification.
@@ -236,7 +236,7 @@ score:
     catalog_gap: 78.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.6
+  delta: 0.0
   facets:
     access_clarity: 34.2
     commercial_clarity: 34.2
@@ -246,7 +246,7 @@ score:
     discoverability: 75.9
     governance: 4.5
     operational_transparency: 10.5
-  previous_composite: 42.9
+  previous_composite: 42.3
   provenance:
     conformance: derived
     contracts:
@@ -257,7 +257,7 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.17.2
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/arccos-golf/refs/heads/main/screenshots/arccos-golf-2026-08-07T161622.png
 security:
@@ -272,15 +272,15 @@ security:
 slug: arccos-golf
 tags:
 - Company
-- golf
-- sports-technology
-- wearables
-- iot
+- Golf
+- Sports Technology
+- Wearables
+- IoT
 - shot-tracking
-- sports-analytics
-- performance-analytics
-- geospatial
-- consumer-hardware
+- Sports Analytics
+- Performance Analytics
+- Geospatial
+- Consumer Hardware
 - Webhook
 - Authentication
 - MCP

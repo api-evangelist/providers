@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 7.9
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
 api_count: 2
 apis:
 - description: The Tapestry Web API is Tapad's cross-device identity and audience endpoint. A client sends a GET request carrying a Tapad-issued partner id plus one or more device or user identifiers, and Tapad reso
@@ -45,6 +45,10 @@ apis:
   slug: tapad-event-tracking-api
 artifact_total: 6
 common:
+- group: commercial
+  title: ''
+  type: License
+  url: https://github.com/Tapad/tapestry-android-sdk/blob/master/LICENSE
 - group: company
   title: ''
   type: Website
@@ -113,7 +117,7 @@ network: true
 overview: 'TapAd publishes 2 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Advertising, AdTech, Identity, and Cross-Device.
 
 
-  TapAd''s developer surface includes authentication and 13 more developer resources.'
+  TapAd''s developer surface includes authentication and 14 more developer resources.'
 plans:
 - name: Tapad Plans Pricing
   plan_count: 0
@@ -145,7 +149,7 @@ score:
   provenance:
     conformance: derived
   schema_version: 0.17.2
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
   trend: flat
 security:
 - kind: authentication

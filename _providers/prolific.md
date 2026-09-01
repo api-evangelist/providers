@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 29.7
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
 api_count: 1
 apis:
 - description: The aiTaskBuilder API from Prolific — 24 operation(s) for aitaskbuilder.
@@ -298,7 +298,7 @@ modified: '2026-07-20'
 name: Prolific
 nav: Providers
 network: true
-overview: 'Prolific publishes 18 APIs on the [APIs.io](https://apis.io/) network, including aiTaskBuilder API, bonuses API, credentials API, and 15 more. Tagged areas include Company, Ai/Ml, Human Data, Research, and Participant Recruitment.
+overview: 'Prolific publishes 18 APIs on the [APIs.io](https://apis.io/) network, including aiTaskBuilder API, bonuses API, credentials API, and 15 more. Tagged areas include Company, Ai Ml, Human Data, Research, and Participant Recruitment.
 
 
   The Prolific catalog on APIs.io includes 1 event-driven AsyncAPI specification.
@@ -314,7 +314,7 @@ score:
     catalog_gap: 78.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.6
+  delta: 0.0
   facets:
     access_clarity: 21.1
     commercial_clarity: 21.1
@@ -324,7 +324,7 @@ score:
     discoverability: 75.9
     governance: 4.5
     operational_transparency: 21.1
-  previous_composite: 47.8
+  previous_composite: 47.2
   provenance:
     conformance: derived
     contracts:
@@ -335,7 +335,7 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.17.2
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/prolific/refs/heads/main/screenshots/prolific-2026-08-17T081352.png
 security:
@@ -350,7 +350,7 @@ security:
 slug: prolific
 tags:
 - Company
-- Ai/Ml
+- Ai Ml
 - Human Data
 - Research
 - Participant Recruitment

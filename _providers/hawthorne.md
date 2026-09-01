@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 20.3
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
 api_count: 1
 apis:
 - description: Agent-facing Universal Commerce Protocol (UCP) shopping surface for the Hawthorne Shopify store — catalog search/lookup, cart, checkout, fulfillment, discount and order capabilities over an MCP endpoi
@@ -125,7 +125,7 @@ score:
   provenance:
     mcp: first-party
   schema_version: 0.17.2
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/hawthorne/refs/heads/main/screenshots/hawthorne-2026-08-07T170020.png
 security:

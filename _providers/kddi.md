@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
 api_count: 0
 artifact_total: 1
 common:
@@ -125,7 +125,7 @@ modified: '2026-05-25'
 name: KDDI
 nav: Providers
 network: true
-overview: 'KDDI is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Telecommunications, Mobile Network Operator, Carrier, Japan, and au.
+overview: 'KDDI is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Telecommunications, Mobile Network Operator, Carrier, Japan, and AU.
 
 
   KDDI''s developer surface includes product news, GitHub presence, YouTube channel, and 17 more developer resources.'
@@ -156,7 +156,7 @@ score:
     regime_id: telecommunications
     score: 8.3
   schema_version: 0.17.2
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/kddi/refs/heads/main/screenshots/kddi-2026-07-25T223539.png
 security:
@@ -170,7 +170,7 @@ tags:
 - Mobile Network Operator
 - Carrier
 - Japan
-- au
+- AU
 - UQ Mobile
 - povo
 - Network API

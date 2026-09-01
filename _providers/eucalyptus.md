@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
 api_count: 0
 artifact_total: 2
 common:
@@ -80,7 +80,7 @@ modified: '2026-07-19'
 name: Eucalyptus
 nav: Providers
 network: true
-overview: 'Eucalyptus is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Healthtech, Telehealth, Digital Health, and Telemedicine.
+overview: 'Eucalyptus is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Health Tech, Telehealth, Digital Health, and Telemedicine.
 
 
   Eucalyptus'' developer surface includes engineering blog, support, and 7 more developer resources.'
@@ -111,7 +111,7 @@ score:
     regime_id: health
     score: 20.0
   schema_version: 0.17.2
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/eucalyptus/refs/heads/main/screenshots/eucalyptus-2026-07-25T213704.png
 security:
@@ -126,7 +126,7 @@ security:
 slug: eucalyptus
 tags:
 - Company
-- Healthtech
+- Health Tech
 - Telehealth
 - Digital Health
 - Telemedicine

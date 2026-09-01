@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
 api_count: 0
 artifact_total: 1
 common:
@@ -113,7 +113,7 @@ score:
     operational_transparency: 18.4
   previous_composite: 16.8
   schema_version: 0.17.2
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/devv/refs/heads/main/screenshots/devv-2026-07-25T211830.png
 security:
@@ -130,6 +130,6 @@ tags:
 - Developer Tools
 - Application Development
 - No-Code
-- Backend as a Service
+- Backend-as-a-Service
 website: https://devv.ai/
 ---

@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 23.4
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
 agentic_access:
 - acting_count: 8
   human_in_the_loop: 0
@@ -157,7 +157,7 @@ modified: '2026-05-30'
 name: Dropbox Sign
 nav: Providers
 network: true
-overview: 'Dropbox Sign publishes 6 APIs on the [APIs.io](https://apis.io/) network, including Events and Callbacks API, Account API, API App API, and 3 more. Tagged areas include eSignature, Electronic Signature, Document Signing, Workflow-Automation, and Documents.
+overview: 'Dropbox Sign publishes 6 APIs on the [APIs.io](https://apis.io/) network, including Events and Callbacks API, Account API, API App API, and 3 more. Tagged areas include E-Signature, Electronic Signature, Document Signing, Workflow-Automation, and Documents.
 
 
   The Dropbox Sign catalog on APIs.io includes 1 event-driven AsyncAPI specification and 1 Spectral governance ruleset.
@@ -190,7 +190,7 @@ score:
     catalog_gap: 79.3
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.5
+  delta: 0.0
   facets:
     access_clarity: 21.1
     commercial_clarity: 21.1
@@ -200,7 +200,7 @@ score:
     discoverability: 66.7
     governance: 11.4
     operational_transparency: 2.6
-  previous_composite: 35.1
+  previous_composite: 34.6
   provenance:
     agentic_access: derived
     contracts:
@@ -209,7 +209,7 @@ score:
       marker_coverage: 0.0
       total: 5
   schema_version: 0.17.2
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/dropbox-sign/refs/heads/main/screenshots/dropbox-sign-2026-06-20T180245.png
 security:
@@ -227,7 +227,7 @@ security:
   summary_line: SOC 2, ISO 27001, ISO 27017, ISO 27018, PCI DSS, HIPAA, GDPR, CSA STAR
 slug: dropbox-sign
 tags:
-- eSignature
+- E-Signature
 - Electronic Signature
 - Document Signing
 - Workflow-Automation

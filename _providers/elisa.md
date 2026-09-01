@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 30.8
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
 api_count: 1
 apis:
 - description: BASIL — "The FuSa Spice" — is ELISA's own software quality management tool. It decomposes a software component specification into snippets, maps work items (software requirements, test specifications,
@@ -59,6 +59,10 @@ apis:
   slug: elisa-venues-api
 artifact_total: 12
 common:
+- group: commercial
+  title: ''
+  type: License
+  url: https://github.com/elisa-tech/BASIL/blob/main/LICENSE
 - group: start
   title: ''
   type: DeveloperPortal
@@ -206,7 +210,7 @@ network: true
 overview: 'ELISA publishes 6 APIs on the [APIs.io](https://apis.io/) network, including Categories API, Doc API, Events API, and 3 more. Tagged areas include Embedded, Linux, Linux Foundation, Safety, and Functional Safety.
 
 
-  ELISA''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, signup flow, pricing, and 26 more developer resources.'
+  ELISA''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, signup flow, pricing, and 27 more developer resources.'
 plans:
 - name: Elisa Plans Pricing
   plan_count: 3
@@ -224,7 +228,7 @@ score:
     catalog_gap: 77.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.6
+  delta: 0.0
   facets:
     access_clarity: 60.5
     commercial_clarity: 60.5
@@ -234,7 +238,7 @@ score:
     discoverability: 66.7
     governance: 18.2
     operational_transparency: 21.1
-  previous_composite: 47.5
+  previous_composite: 46.9
   regulatory:
     applies: true
     matched_via: tags
@@ -242,7 +246,7 @@ score:
     regime_id: health
     score: 31.3
   schema_version: 0.17.2
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/elisa/refs/heads/main/screenshots/elisa-2026-06-20T180611.png
 security:

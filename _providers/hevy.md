@@ -23,7 +23,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.4
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
 api_count: 2
 apis:
 - description: The ExerciseHistory API from Hevy — 1 operation(s) for exercisehistory.
@@ -173,7 +173,7 @@ modified: '2026-08-27'
 name: Hevy
 nav: Providers
 network: true
-overview: 'Hevy publishes 7 APIs on the [APIs.io](https://apis.io/) network, including Exercise History API, Exercise Templates API, Measurements API, and 4 more. Tagged areas include company, fitness, Health, workout-tracking, and strength-training.
+overview: 'Hevy publishes 7 APIs on the [APIs.io](https://apis.io/) network, including Exercise History API, Exercise Templates API, Measurements API, and 4 more. Tagged areas include Company, Fitness, Health, Workout Tracking, and Strength Training.
 
 
   Hevy''s developer surface includes documentation, API reference, support, engineering blog, pricing, signup flow, changelog, and 22 more developer resources.'
@@ -194,7 +194,7 @@ score:
     catalog_gap: 70.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.6
+  delta: 0.0
   facets:
     access_clarity: 65.8
     commercial_clarity: 65.8
@@ -204,7 +204,7 @@ score:
     discoverability: 75.9
     governance: 18.2
     operational_transparency: 34.2
-  previous_composite: 51.3
+  previous_composite: 50.7
   regulatory:
     applies: true
     matched_via: tags
@@ -212,7 +212,7 @@ score:
     regime_id: health
     score: 31.3
   schema_version: 0.17.2
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
   trend: flat
 security:
 - kind: authentication
@@ -225,15 +225,15 @@ security:
   summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 slug: hevy
 tags:
-- company
-- fitness
+- Company
+- Fitness
 - Health
-- workout-tracking
-- strength-training
-- consumer-apps
+- Workout Tracking
+- Strength Training
+- Consumer Apps
 - Mobile
-- quantified-self
-- personal-training
-- health-data
+- Quantified Self
+- Personal Training
+- Health Data
 website: https://www.hevyapp.com
 ---

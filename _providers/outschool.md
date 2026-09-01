@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
 api_count: 0
 artifact_total: 1
 common:
@@ -80,7 +80,7 @@ modified: '2026-07-20'
 name: Outschool
 nav: Providers
 network: true
-overview: 'Outschool is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Edtech, Online Learning, Education, and Marketplace.
+overview: 'Outschool is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, EdTech, Online Learning, Education, and Marketplace.
 
 
   Outschool''s developer surface includes signup flow, support, engineering blog, and 6 more developer resources.'
@@ -111,7 +111,7 @@ score:
     regime_id: education
     score: 25.9
   schema_version: 0.17.2
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/outschool/refs/heads/main/screenshots/outschool-2026-08-07T191104.png
 security:
@@ -122,7 +122,7 @@ security:
 slug: outschool
 tags:
 - Company
-- Edtech
+- EdTech
 - Online Learning
 - Education
 - Marketplace

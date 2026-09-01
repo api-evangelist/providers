@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 21.0
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -197,7 +197,7 @@ modified: '2026-05-19'
 name: Ubuntu
 nav: Providers
 network: true
-overview: 'Ubuntu publishes 12 APIs on the [APIs.io](https://apis.io/) network, including Bugs API, Categories API, CVEs API, and 9 more. Tagged areas include Cloud, Containers, Devops, Enterprise, and Linux.
+overview: 'Ubuntu publishes 12 APIs on the [APIs.io](https://apis.io/) network, including Bugs API, Categories API, CVEs API, and 9 more. Tagged areas include Cloud, Containers, DevOps, Enterprise, and Linux.
 
 
   The Ubuntu catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
@@ -262,7 +262,7 @@ score:
       marker_coverage: 0.0
       total: 12
   schema_version: 0.17.2
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/ubuntu/refs/heads/main/screenshots/ubuntu-2026-06-20T195936.png
 security:
@@ -278,7 +278,7 @@ slug: ubuntu
 tags:
 - Cloud
 - Containers
-- Devops
+- DevOps
 - Enterprise
 - Linux
 - Security

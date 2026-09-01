@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
 api_count: 0
 artifact_total: 7
 asyncapis:
@@ -205,7 +205,7 @@ score:
     catalog_gap: 76.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.7
+  delta: 0.0
   facets:
     access_clarity: 69.7
     commercial_clarity: 69.7
@@ -215,11 +215,11 @@ score:
     discoverability: 50.0
     governance: 18.2
     operational_transparency: 36.8
-  previous_composite: 44.9
+  previous_composite: 44.2
   provenance:
     conformance: first-party
   schema_version: 0.17.2
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/rox/refs/heads/main/screenshots/rox-2026-08-17T081645.png
 security:
@@ -246,7 +246,7 @@ tags:
 - AI Agents
 - Sales
 - Revenue Operations
-- Go-to-Market
+- Go-To-Market
 - CRM
 - Sales Intelligence
 - Enterprise

@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
 api_count: 0
 artifact_total: 1
 common:
@@ -52,7 +52,7 @@ modified: '2026-07-18'
 name: cn
 nav: Providers
 network: true
-overview: cn is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Biotechnology, Pharmaceuticals, Biopharmaceutical, and Clinical-Stage.
+overview: cn is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Biotechnology, Pharmaceuticals, Biopharmaceutical, and Clinical Stage.
 random_paper: 20
 score:
   band: minimal
@@ -80,7 +80,7 @@ score:
     regime_id: health
     score: 7.5
   schema_version: 0.17.2
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/cn/refs/heads/main/screenshots/cn-2026-07-25T205815.png
 security:
@@ -94,7 +94,7 @@ tags:
 - Biotechnology
 - Pharmaceuticals
 - Biopharmaceutical
-- Clinical-Stage
+- Clinical Stage
 - Oligonucleotide Therapeutics
 - Hepatitis B
 - Drug Development

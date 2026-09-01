@@ -24,7 +24,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 57.2
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
 api_count: 2
 apis:
 - description: Hosted Model Context Protocol server that lets Claude, ChatGPT and Cursor act on a user's own PlantPredict account — creating and running predictions, importing weather and shade scenes, browsing proj
@@ -341,7 +341,7 @@ modified: '2026-08-05'
 name: Terabase Energy
 nav: Providers
 network: true
-overview: 'Terabase Energy publishes 24 APIs on the [APIs.io](https://apis.io/) network, including ASHRAE API, Company API, Country API, and 21 more. Tagged areas include Solar, renewable-energy, energy-modeling, utility-scale-solar, and simulation.
+overview: 'Terabase Energy publishes 24 APIs on the [APIs.io](https://apis.io/) network, including ASHRAE API, Company API, Country API, and 21 more. Tagged areas include Solar, Renewable Energy, Energy Modeling, utility-scale-solar, and Simulation.
 
 
   Terabase Energy''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 28 more developer resources.'
@@ -363,7 +363,7 @@ score:
     catalog_gap: 81.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.5
+  delta: 0.0
   facets:
     access_clarity: 52.6
     commercial_clarity: 52.6
@@ -373,7 +373,7 @@ score:
     discoverability: 70.4
     governance: 18.2
     operational_transparency: 18.4
-  previous_composite: 58.8
+  previous_composite: 58.3
   provenance:
     conformance: first-party
     contracts:
@@ -390,7 +390,7 @@ score:
     regime_id: energy_utilities
     score: 63.5
   schema_version: 0.17.2
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/terabase-energy/refs/heads/main/screenshots/terabase-energy-2026-08-17T082317.png
 security:
@@ -405,16 +405,16 @@ security:
 slug: terabase-energy
 tags:
 - Solar
-- renewable-energy
-- energy-modeling
+- Renewable Energy
+- Energy Modeling
 - utility-scale-solar
-- simulation
-- photovoltaics
-- construction-technology
-- geospatial
+- Simulation
+- Photovoltaics
+- Construction Technology
+- Geospatial
 - terrain-analysis
-- climate-tech
+- Climate Tech
 - MCP
-- energy-storage
+- Energy Storage
 website: https://www.terabase.energy/
 ---

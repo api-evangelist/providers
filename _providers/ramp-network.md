@@ -23,7 +23,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 25.2
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
 api_count: 2
 apis:
 - description: Public REST API used alongside the Ramp Instant widget. Exposes available on-ramp assets and prices, off-ramp assets and prices, supported fiat currencies, payment methods, payout methods, on-ramp pur
@@ -38,6 +38,10 @@ asyncapis:
   name: Ramp Network Webhooks
   slug: ramp-network-webhooks
 common:
+- group: commercial
+  title: ''
+  type: License
+  url: https://github.com/RampNetwork/ramp-instant-sdk/blob/master/LICENSE
 - group: auth
   title: ''
   type: TrustCenter
@@ -177,7 +181,7 @@ overview: 'Ramp Network publishes 2 APIs on the [APIs.io](https://apis.io/) netw
   The Ramp Network catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  Ramp Network''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 24 more developer resources.'
+  Ramp Network''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 25 more developer resources.'
 plans:
 - name: Ramp Network Plans Pricing
   plan_count: 0
@@ -220,7 +224,7 @@ score:
     regime_id: payments
     score: 65.6
   schema_version: 0.17.2
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
   trend: flat
 security:
 - kind: authentication

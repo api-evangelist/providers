@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
 api_count: 0
 artifact_total: 1
 common:
@@ -84,7 +84,7 @@ modified: '2026-07-20'
 name: Oxford Science Enterprises
 nav: Providers
 network: true
-overview: 'Oxford Science Enterprises is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Life Sciences, Deep Tech, HealthTech, and Venture Capital.
+overview: 'Oxford Science Enterprises is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Life Sciences, Deep Tech, Health Tech, and Venture Capital.
 
 
   Oxford Science Enterprises'' developer surface includes engineering blog, support, and 8 more developer resources.'
@@ -115,7 +115,7 @@ score:
     regime_id: health
     score: 17.5
   schema_version: 0.17.2
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/oxford-science-enterprises/refs/heads/main/screenshots/oxford-science-enterprises-2026-08-07T191210.png
 security:
@@ -128,7 +128,7 @@ tags:
 - Company
 - Life Sciences
 - Deep Tech
-- HealthTech
+- Health Tech
 - Venture Capital
 - Investment
 - University Spinouts

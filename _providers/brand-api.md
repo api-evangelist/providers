@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 53.5
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
 api_count: 3
 apis:
 - description: Hosted, remote, streamable-HTTP MCP server exposing seven Brandfetch tools — brand_search, get_brand, get_brand_context, enrich_transaction, build_logo_urls, get_asset_base64 and send_feedback — to an
@@ -74,6 +74,10 @@ collections:
   name: Brandfetch Brand Brands API
   slug: open-brand-api-brands-api
 common:
+- group: commercial
+  title: ''
+  type: License
+  url: https://github.com/Brandfetch/brandfetch-mcp-server/blob/main/LICENSE
 - group: other
   title: ''
   type: Overlay
@@ -260,7 +264,7 @@ overview: 'Brand API (Brandfetch) publishes 4 APIs on the [APIs.io](https://apis
   The Brand API (Brandfetch) catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  Brand API (Brandfetch)''s developer surface includes authentication, sandbox, API reference, getting-started guide, engineering blog, pricing, support, and 34 more developer resources.'
+  Brand API (Brandfetch)''s developer surface includes authentication, sandbox, API reference, getting-started guide, engineering blog, pricing, support, and 35 more developer resources.'
 plans:
 - name: Brand Api Plans Pricing
   plan_count: 4
@@ -310,7 +314,7 @@ score:
     regime_id: payments
     score: 56.3
   schema_version: 0.17.2
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/brand-api/refs/heads/main/screenshots/brand-api-2026-06-20T173632.png
 security:

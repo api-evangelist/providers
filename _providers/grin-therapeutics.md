@@ -23,7 +23,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 25.2
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
 api_count: 1
 apis:
 - description: Route, type, taxonomy and status discovery documents.
@@ -197,7 +197,7 @@ modified: '2026-08-04'
 name: GRIN Therapeutics
 nav: Providers
 network: true
-overview: 'GRIN Therapeutics publishes 8 APIs on the [APIs.io](https://apis.io/) network, including Discovery API, Media API, Oembed API, and 5 more. Tagged areas include Company, biotechnology, pharmaceuticals, neuroscience, and rare-disease.
+overview: 'GRIN Therapeutics publishes 8 APIs on the [APIs.io](https://apis.io/) network, including Discovery API, Media API, Oembed API, and 5 more. Tagged areas include Company, Biotechnology, Pharmaceuticals, Neuroscience, and Rare Disease.
 
 
   GRIN Therapeutics'' developer surface includes product news, support, authentication, and 24 more developer resources.'
@@ -210,7 +210,7 @@ score:
     catalog_gap: 63.0
     catalog_max: 100.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.6
+  delta: 0.0
   facets:
     access_clarity: 28.6
     commercial_clarity: 28.6
@@ -220,7 +220,7 @@ score:
     discoverability: 68.5
     governance: 4.5
     operational_transparency: 0.0
-  previous_composite: 30.9
+  previous_composite: 30.3
   provenance:
     conformance: derived
     contracts:
@@ -236,7 +236,7 @@ score:
     regime_id: health
     score: 26.3
   schema_version: 0.17.2
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/grin-therapeutics/refs/heads/main/screenshots/grin-therapeutics-2026-08-07T165843.png
 security:
@@ -251,15 +251,15 @@ security:
 slug: grin-therapeutics
 tags:
 - Company
-- biotechnology
-- pharmaceuticals
-- neuroscience
-- rare-disease
-- precision-medicine
-- clinical-trials
-- pediatrics
-- epilepsy
-- life-sciences
+- Biotechnology
+- Pharmaceuticals
+- Neuroscience
+- Rare Disease
+- Precision Medicine
+- Clinical Trials
+- Pediatrics
+- Epilepsy
+- Life Sciences
 - content-api
 website: https://grintherapeutics.com/
 ---

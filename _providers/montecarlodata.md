@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 15.5
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
 api_count: 1
 apis:
 - description: GraphQL API powering the full Monte Carlo platform, enabling programmatic access to data monitors, incidents, field health, lineage, table and warehouse asset management, and the Push Ingest API for c
@@ -150,7 +150,7 @@ score:
     operational_transparency: 52.6
   previous_composite: 41.3
   schema_version: 0.17.2
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/montecarlodata/refs/heads/main/screenshots/montecarlodata-2026-06-20T185743.png
 security:

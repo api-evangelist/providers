@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
 api_count: 0
 artifact_total: 1
 common:
@@ -72,7 +72,7 @@ modified: '2026-07-20'
 name: Phil
 nav: Providers
 network: true
-overview: 'Phil is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Healthcare, Healthtech, Pharmacy, and Direct-to-Patient.
+overview: 'Phil is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Healthcare, Health Tech, Pharmacy, and Direct-to-Patient.
 
 
   Phil''s developer surface includes support, engineering blog, and 5 more developer resources.'
@@ -103,7 +103,7 @@ score:
     regime_id: health
     score: 17.5
   schema_version: 0.17.2
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
   trend: flat
 security:
 - kind: domain-security
@@ -114,7 +114,7 @@ slug: phil
 tags:
 - Company
 - Healthcare
-- Healthtech
+- Health Tech
 - Pharmacy
 - Direct-to-Patient
 - Medication Access

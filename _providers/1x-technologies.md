@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 2.5
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
 api_count: 0
 artifact_total: 4
 common:
@@ -146,7 +146,7 @@ score:
     operational_transparency: 23.7
   previous_composite: 14.3
   schema_version: 0.17.2
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/1x-technologies/refs/heads/main/screenshots/1x-technologies-2026-06-20T162615.png
 security:
@@ -164,7 +164,7 @@ tags:
 - World Models
 - NEO
 - EVE
-- ROS2
+- ROS 2
 - Manufacturing
 - Open-Source
 - 1xgpt

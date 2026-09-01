@@ -23,7 +23,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 24.8
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
 api_count: 2
 apis:
 - description: API related to audio projects
@@ -59,7 +59,7 @@ modified: '2026-08-22'
 name: Magic Hour
 nav: Providers
 network: true
-overview: Magic Hour publishes 4 APIs on the [APIs.io](https://apis.io/) network, including Audio Projects API, Files API, Image Projects API, and 1 more. Tagged areas include ai video, image generation, Audio, and generative ai.
+overview: Magic Hour publishes 4 APIs on the [APIs.io](https://apis.io/) network, including Audio Projects API, Files API, Image Projects API, and 1 more. Tagged areas include AI Video, Image-Generation, Audio, and Generative AI.
 random_paper: 14
 score:
   band: thin
@@ -69,7 +69,7 @@ score:
     catalog_gap: 85.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -1.5
+  delta: 0.0
   facets:
     access_clarity: 0.0
     commercial_clarity: 0.0
@@ -79,7 +79,7 @@ score:
     discoverability: 63.0
     governance: 0.0
     operational_transparency: 7.9
-  previous_composite: 32.8
+  previous_composite: 31.3
   provenance:
     contracts:
       callable: 100.0
@@ -87,13 +87,13 @@ score:
       marker_coverage: 0.0
       total: 1
   schema_version: 0.17.2
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
   trend: flat
 slug: magichour
 tags:
-- ai video
-- image generation
+- AI Video
+- Image-Generation
 - Audio
-- generative ai
+- Generative AI
 website: https://magichour.ai
 ---

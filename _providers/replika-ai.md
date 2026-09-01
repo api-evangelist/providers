@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
 api_count: 0
 artifact_total: 12
 common:
@@ -131,7 +131,7 @@ modified: '2026-08-08'
 name: Replika
 nav: Providers
 network: true
-overview: 'Replika is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Artificial Intelligence, Chatbot, Companion, Consumer, and Mental Wellness.
+overview: 'Replika is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Artificial Intelligence, Chatbots, Companion, Consumer, and Mental Wellness.
 
 
   Replika''s developer surface includes support and 16 more developer resources.'
@@ -162,7 +162,7 @@ score:
       reason: no_resolvable_host
   previous_composite: 10.9
   schema_version: 0.17.2
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
   trend: flat
 security:
 - kind: domain-security
@@ -172,7 +172,7 @@ security:
 slug: replika-ai
 tags:
 - Artificial Intelligence
-- Chatbot
+- Chatbots
 - Companion
 - Consumer
 - Mental Wellness

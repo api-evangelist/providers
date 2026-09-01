@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
 api_count: 0
 artifact_total: 1
 common:
@@ -80,7 +80,7 @@ modified: '2026-07-21'
 name: Skootar
 nav: Providers
 network: true
-overview: 'Skootar is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Logistics, Delivery, Courier, and Messenger.
+overview: 'Skootar is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Logistics, Delivery, Couriers, and Messenger.
 
 
   Skootar''s developer surface includes engineering blog, pricing, signup flow, support, and 5 more developer resources.'
@@ -105,7 +105,7 @@ score:
     operational_transparency: 0.0
   previous_composite: 16.1
   schema_version: 0.17.2
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
   trend: flat
 security:
 - kind: domain-security
@@ -117,7 +117,7 @@ tags:
 - Company
 - Logistics
 - Delivery
-- Courier
+- Couriers
 - Messenger
 - Last Mile
 - Transportation

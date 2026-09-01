@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.4
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
 api_count: 2
 apis:
 - description: 'The zeroheight REST API automates design system workflows: read styleguides, their categories, pages and page content (Markdown available via ?format=markdown), read published styleguide versions and '
@@ -262,7 +262,7 @@ score:
     operational_transparency: 23.7
   previous_composite: 57.3
   schema_version: 0.17.2
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/zeroheight/refs/heads/main/screenshots/zeroheight-2026-06-20T201844.png
 security:

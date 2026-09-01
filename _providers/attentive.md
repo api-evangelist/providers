@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 34.2
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
 api_count: 2
 apis:
 - description: Public applications must authenticate using the OAuth 2.0 specification to use Attentive’s API resources. Attentive uses OAuth 2.0’s authorization code grant flow to issue access tokens on behalf of u
@@ -387,7 +387,7 @@ modified: '2026-08-13'
 name: Attentive
 nav: Providers
 network: true
-overview: 'Attentive publishes 18 APIs on the [APIs.io](https://apis.io/) network, including Access Token API, Bulk Segment Operations API, Bulk Status API, and 15 more. Tagged areas include Company, Martech, SMS Marketing, Email Marketing, and E-Commerce.
+overview: 'Attentive publishes 18 APIs on the [APIs.io](https://apis.io/) network, including Access Token API, Bulk Segment Operations API, Bulk Status API, and 15 more. Tagged areas include Company, MarTech, SMS Marketing, Email Marketing, and E-Commerce.
 
 
   The Attentive catalog on APIs.io includes 1 event-driven AsyncAPI specification.
@@ -416,7 +416,7 @@ score:
     catalog_gap: 67.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.5
+  delta: 0.0
   facets:
     access_clarity: 92.1
     commercial_clarity: 92.1
@@ -426,7 +426,7 @@ score:
     discoverability: 51.9
     governance: 4.5
     operational_transparency: 84.2
-  previous_composite: 70.0
+  previous_composite: 69.5
   provenance:
     conformance: derived
     contracts:
@@ -449,7 +449,7 @@ score:
     regime_id: telecommunications
     score: 73.6
   schema_version: 0.17.2
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/attentive/refs/heads/main/screenshots/attentive-2026-07-25T201630.png
 security:
@@ -472,7 +472,7 @@ security:
 slug: attentive
 tags:
 - Company
-- Martech
+- MarTech
 - SMS Marketing
 - Email Marketing
 - E-Commerce

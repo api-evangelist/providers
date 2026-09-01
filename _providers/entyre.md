@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
 api_count: 0
 artifact_total: 1
 common:
@@ -72,7 +72,7 @@ modified: '2026-07-19'
 name: Entyre Care
 nav: Providers
 network: true
-overview: 'Entyre Care is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Healthcare, Home Health Care, Caregiving, and Family Caregiver.
+overview: 'Entyre Care is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Healthcare, Home Healthcare, Caregiving, and Family Caregiver.
 
 
   Entyre Care''s developer surface includes engineering blog, support, and 5 more developer resources.'
@@ -103,7 +103,7 @@ score:
     regime_id: health
     score: 17.5
   schema_version: 0.17.2
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/entyre/refs/heads/main/screenshots/entyre-2026-07-25T213436.png
 security:
@@ -115,7 +115,7 @@ slug: entyre
 tags:
 - Company
 - Healthcare
-- Home Health Care
+- Home Healthcare
 - Caregiving
 - Family Caregiver
 - Medicaid

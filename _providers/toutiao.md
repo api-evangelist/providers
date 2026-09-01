@@ -23,7 +23,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 5.4
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
 api_count: 1
 apis:
 - description: Toutiao account OAuth 2.0 and user-profile API, served from the open.snssdk.com host and documented on the Douyin Open Platform under the toutiao-or-xigua permission section. Supports the authorizatio
@@ -155,7 +155,7 @@ score:
   provenance:
     conformance: derived
   schema_version: 0.17.2
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
   trend: flat
 security:
 - kind: authentication

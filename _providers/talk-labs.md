@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
 api_count: 0
 artifact_total: 0
 common:
@@ -52,7 +52,7 @@ modified: '2026-07-21'
 name: Talk Labs
 nav: Providers
 network: true
-overview: Talk Labs is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Artificial Intelligence, Voice, Corporate Training, and Learning & Development.
+overview: Talk Labs is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Artificial Intelligence, Voice, Corporate Training, and Learning and Development.
 random_paper: 9
 score:
   band: minimal
@@ -86,7 +86,7 @@ score:
     regime_id: education
     score: 0.0
   schema_version: 0.17.2
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
   trend: flat
 slug: talk-labs
 tags:
@@ -94,7 +94,7 @@ tags:
 - Artificial Intelligence
 - Voice
 - Corporate Training
-- Learning & Development
+- Learning and Development
 - Conversational AI
 - EdTech
 - Customer Service

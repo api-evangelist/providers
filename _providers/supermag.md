@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
 api_count: 0
 artifact_total: 1
 common:
@@ -52,7 +52,7 @@ modified: '2026-07-21'
 name: supermag
 nav: Providers
 network: true
-overview: supermag is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Hardware, Magnetic Levitation, Semiconductors, and Biopharmaceuticals.
+overview: supermag is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Hardware, Magnetic Levitation, Semiconductors, and biopharmaceuticals.
 random_paper: 7
 score:
   band: minimal
@@ -74,7 +74,7 @@ score:
     operational_transparency: 0.0
   previous_composite: 5.0
   schema_version: 0.17.2
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
   trend: flat
 security:
 - kind: domain-security
@@ -87,7 +87,7 @@ tags:
 - Hardware
 - Magnetic Levitation
 - Semiconductors
-- Biopharmaceuticals
+- biopharmaceuticals
 - Industrial Automation
 - Vacuum Technology
 - Manufacturing

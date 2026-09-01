@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 5.4
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
 api_count: 1
 apis:
 - description: REST API for the Koalaboox / Cegid Click & Finance invoicing and invoice-financing platform. Resource-oriented URLs, JSON-encoded requests and responses, standard HTTP status codes, and OAuth 2.0 auth
@@ -150,7 +150,7 @@ modified: '2026-07-19'
 name: Koalaboox
 nav: Providers
 network: true
-overview: 'Koalaboox publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Invoicing, Electronic Invoicing, Peppol, and Accounting.
+overview: 'Koalaboox publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Invoicing, Electronic Invoicing, PEPPOL, and Accounting.
 
 
   Koalaboox''s developer surface includes documentation, pricing, signup flow, support, authentication, and 19 more developer resources.'
@@ -182,7 +182,7 @@ score:
     conformance: first-party
     mcp: derived
   schema_version: 0.17.2
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/koalaboox/refs/heads/main/screenshots/koalaboox-2026-07-25T224027.png
 security:
@@ -203,7 +203,7 @@ tags:
 - Company
 - Invoicing
 - Electronic Invoicing
-- Peppol
+- PEPPOL
 - Accounting
 - Invoice Financing
 - Working Capital

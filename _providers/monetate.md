@@ -24,7 +24,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 52.0
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
 api_count: 6
 apis:
 - description: Create and manage data schemas and send customer, product and catalog data into Monetate in real time for use by the decision engine. Covers schema CRUD, schema types, upload history, row-level data P
@@ -263,7 +263,7 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.17.2
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/monetate/refs/heads/main/screenshots/monetate-2026-08-17T081059.png
 security:

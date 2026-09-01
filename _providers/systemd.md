@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 16.5
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
 agentic_access:
 - acting_count: 69
   human_in_the_loop: 10
@@ -537,7 +537,7 @@ score:
       marker_coverage: 0.0
       total: 25
   schema_version: 0.17.2
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/systemd/refs/heads/main/screenshots/systemd-2026-06-20T194839.png
 security:
@@ -553,7 +553,7 @@ tags:
 - D-Bus
 - Init
 - IPC
-- journal
+- Journal
 - Linux
 - Logging
 - Network
@@ -561,7 +561,7 @@ tags:
 - PID 1
 - Service Manager
 - System
-- Systemd
+- systemd
 - Varlink
 website: https://systemd.io
 ---

@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 42.3
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
 agentic_access:
 - acting_count: 15
   human_in_the_loop: 0
@@ -349,7 +349,7 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.17.2
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/moveworks/refs/heads/main/screenshots/moveworks-2026-08-07T184356.png
 security:
@@ -378,7 +378,7 @@ tags:
 - Enterprise Automation
 - Conversational AI
 - Employee Experience
-- IT Service Management
+- ITSM
 - Enterprise Search
 website: https://www.moveworks.com
 ---

@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
 api_count: 1
 apis:
 - description: Local, build-time GraphQL data layer exposed by the Gatsby framework to query content sourced from plugins (CMSs, filesystem, APIs). This is not a hosted public API; it runs inside a developer's Gatsb
@@ -104,7 +104,7 @@ modified: '2026-05-11'
 name: Gatsby
 nav: Providers
 network: true
-overview: 'Gatsby publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Static Site Generator, JAMstack, React, GraphQL, and Build Tool.
+overview: 'Gatsby publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Static Site Generator, JAMstack, React, GraphQL, and Build Tools.
 
 
   Gatsby''s developer surface includes documentation and 12 more developer resources.'
@@ -117,7 +117,7 @@ score:
     catalog_gap: 78.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: 8.7
+  delta: 0.0
   facets:
     access_clarity: 0.0
     commercial_clarity: 0.0
@@ -130,10 +130,10 @@ score:
   open_source:
     applies: true
     score: 100.0
-  previous_composite: 13.0
+  previous_composite: 21.7
   schema_version: 0.17.2
-  scored_at: '2026-08-30'
-  trend: rising
+  scored_at: '2026-09-01'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/gatsby/refs/heads/main/screenshots/gatsby-2026-06-20T181654.png
 security:
 - kind: domain-security
@@ -146,7 +146,7 @@ tags:
 - JAMstack
 - React
 - GraphQL
-- Build Tool
+- Build Tools
 - Frontend Framework
 - Web Development
 website: https://www.gatsbyjs.com

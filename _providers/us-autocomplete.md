@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
 api_count: 1
 apis:
 - description: Enter address data quickly with real-time address suggestions
@@ -89,7 +89,7 @@ score:
     operational_transparency: 0.0
   previous_composite: 8.1
   schema_version: 0.17.2
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/us-autocomplete/refs/heads/main/screenshots/us-autocomplete-2026-06-20T200559.png
 security:

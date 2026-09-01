@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
 api_count: 0
 artifact_total: 0
 common:
@@ -48,7 +48,7 @@ modified: '2026-07-20'
 name: Makelog
 nav: Providers
 network: true
-overview: Makelog is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Productivity, ChangeLog, Release Notes, and Product Updates.
+overview: Makelog is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Productivity, Changelog, Release Notes, and Product Updates.
 random_paper: 1
 score:
   band: minimal
@@ -76,14 +76,14 @@ score:
       reason: never_enriched
   previous_composite: 5.0
   schema_version: 0.17.2
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/makelog/refs/heads/main/screenshots/makelog-2026-07-25T225938.png
 slug: makelog
 tags:
 - Company
 - Productivity
-- ChangeLog
+- Changelog
 - Release Notes
 - Product Updates
 - Communications

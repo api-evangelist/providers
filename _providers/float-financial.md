@@ -23,7 +23,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 32.6
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
 api_count: 2
 apis:
 - description: The Account Transactions API from Float Financial — 2 operation(s) for account transactions.
@@ -241,7 +241,7 @@ modified: '2026-08-16'
 name: Float Financial
 nav: Providers
 network: true
-overview: 'Float Financial publishes 23 APIs on the [APIs.io](https://apis.io/) network, including Account Transactions API, Accounting Connections API, Accounts API, and 20 more. Tagged areas include spend-management, corporate-cards, expense-management, accounts-payable, and bill-pay.
+overview: 'Float Financial publishes 23 APIs on the [APIs.io](https://apis.io/) network, including Account Transactions API, Accounting Connections API, Accounts API, and 20 more. Tagged areas include Spend Management, Corporate Cards, Expense Management, Accounts Payable, and Bill Pay.
 
 
   The Float Financial catalog on APIs.io includes 1 event-driven AsyncAPI specification.
@@ -265,7 +265,7 @@ score:
     catalog_gap: 66.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.5
+  delta: 0.0
   facets:
     access_clarity: 85.5
     commercial_clarity: 85.5
@@ -275,7 +275,7 @@ score:
     discoverability: 75.9
     governance: 18.2
     operational_transparency: 36.8
-  previous_composite: 60.7
+  previous_composite: 60.2
   provenance:
     conformance: first-party
     contracts:
@@ -292,7 +292,7 @@ score:
     regime_id: payments
     score: 56.3
   schema_version: 0.17.2
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/float-financial/refs/heads/main/screenshots/float-financial-2026-08-17T080932.png
 security:
@@ -314,17 +314,17 @@ security:
   summary_line: SOC 2 Type 2, PCI DSS
 slug: float-financial
 tags:
-- spend-management
-- corporate-cards
-- expense-management
-- accounts-payable
-- bill-pay
-- reimbursements
-- business-banking
-- accounting-integration
+- Spend Management
+- Corporate Cards
+- Expense Management
+- Accounts Payable
+- Bill Pay
+- Reimbursement
+- Business Banking
+- Accounting Integration
 - Fintech
-- canada
+- Canada
 - Payments
-- erp-integration
+- ERP Integration
 website: https://floatfinancial.com/
 ---

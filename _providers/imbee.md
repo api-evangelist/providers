@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
 api_count: 0
 artifact_total: 1
 common:
@@ -127,7 +127,7 @@ score:
   provenance:
     conformance: first-party
   schema_version: 0.17.2
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/imbee/refs/heads/main/screenshots/imbee-2026-07-25T222122.png
 security:
@@ -144,8 +144,8 @@ tags:
 - WhatsApp Business
 - Customer Engagement
 - Conversational AI
-- Chatbot
+- Chatbots
 - Customer-Support
-- Asia-Pacific
+- Asia Pacific
 website: https://www.imbee.io/
 ---

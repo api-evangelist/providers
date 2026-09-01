@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 39.0
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -513,7 +513,7 @@ score:
     regime_id: health
     score: 76.3
   schema_version: 0.17.2
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/independence-blue-cross/refs/heads/main/screenshots/independence-blue-cross-2026-06-20T183313.png
 security:
@@ -559,7 +559,7 @@ tags:
 - Pharmacy Benefits
 - Interoperability
 - FHIR
-- SMART On FHIR
+- SMART on FHIR
 - CMS
 - Patient Access
 - Provider Directory

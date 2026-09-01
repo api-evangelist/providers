@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 33.7
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
 agentic_access:
 - acting_count: 227
   human_in_the_loop: 2
@@ -193,7 +193,7 @@ modified: '2026-05-29'
 name: Fireworks AI
 nav: Providers
 network: true
-overview: 'Fireworks AI publishes 10 APIs on the [APIs.io](https://apis.io/) network, including anthropic-messages.openapi_other API, Chat API, Completions API, and 7 more. Tagged areas include Artificial Intelligence, LLM, Inference, Multimodal, and Fine-tuning.
+overview: 'Fireworks AI publishes 10 APIs on the [APIs.io](https://apis.io/) network, including anthropic-messages.openapi_other API, Chat API, Completions API, and 7 more. Tagged areas include Artificial Intelligence, LLM, Inference, Multi-Modal, and Fine-Tuning.
 
 
   The Fireworks AI catalog on APIs.io includes 1 event-driven AsyncAPI specification and 1 Spectral governance ruleset.
@@ -248,7 +248,7 @@ score:
       marker_coverage: 20.0
       total: 10
   schema_version: 0.17.2
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/fireworks-ai/refs/heads/main/screenshots/fireworks-ai-2026-06-20T181235.png
 security:
@@ -265,8 +265,8 @@ tags:
 - Artificial Intelligence
 - LLM
 - Inference
-- Multimodal
-- Fine-tuning
+- Multi-Modal
+- Fine-Tuning
 - GPU
 website: https://fireworks.ai/
 ---

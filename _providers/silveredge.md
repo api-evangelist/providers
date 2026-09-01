@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 5.0
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
 api_count: 1
 apis:
 - description: Silverpush's first-party programmatic bid endpoint, registered upstream in the Prebid ecosystem under the bidder code "silverpush" and maintained from prebid@silverpush.co. It speaks OpenRTB over HTTP
@@ -41,6 +41,10 @@ apis:
   slug: silverpush-prebid-bidder-chocolate-ad-exchange
 artifact_total: 6
 common:
+- group: commercial
+  title: ''
+  type: License
+  url: https://github.com/prebid/prebid-server/blob/master/LICENSE
 - group: company
   title: ''
   type: Website
@@ -141,7 +145,7 @@ network: true
 overview: 'Silveredge publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Advertising, AdTech, Contextual Intelligence, and Artificial Intelligence.
 
 
-  Silveredge''s developer surface includes developer portal, documentation, API reference, support, engineering blog, signup flow, authentication, and 14 more developer resources.'
+  Silveredge''s developer surface includes developer portal, documentation, API reference, support, engineering blog, signup flow, authentication, and 15 more developer resources.'
 plans:
 - name: Silveredge Plans Pricing
   plan_count: 0
@@ -173,7 +177,7 @@ score:
   provenance:
     conformance: first-party
   schema_version: 0.17.2
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
   trend: flat
 security:
 - kind: authentication

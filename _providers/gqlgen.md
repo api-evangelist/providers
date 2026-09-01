@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 15.5
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
 api_count: 1
 apis:
 - description: Schema-first Go library for building type-safe GraphQL servers with automatic code generation, resolver scaffolding, DataLoader integration, subscriptions, and middleware support.
@@ -88,7 +88,7 @@ modified: 2026-06-14
 name: gqlgen
 nav: Providers
 network: true
-overview: 'gqlgen publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include GraphQL, Go, Code Generation, Schema First, and Open-Source.
+overview: 'gqlgen publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include GraphQL, Go, Code Generation, Schema-First, and Open-Source.
 
 
   gqlgen''s developer surface includes documentation, pricing, and 7 more developer resources.'
@@ -119,7 +119,7 @@ score:
       reason: no_resolvable_host
   previous_composite: 20.4
   schema_version: 0.17.2
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/gqlgen/refs/heads/main/screenshots/gqlgen-2026-06-20T182306.png
 security:
@@ -132,7 +132,7 @@ tags:
 - GraphQL
 - Go
 - Code Generation
-- Schema First
+- Schema-First
 - Open-Source
 website: https://gqlgen.com/
 ---

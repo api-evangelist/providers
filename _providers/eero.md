@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
 api_count: 0
 artifact_total: 1
 common:
@@ -80,7 +80,7 @@ modified: '2026-07-19'
 name: Eero
 nav: Providers
 network: true
-overview: 'Eero is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Networking, WiFi, Mesh Networking, and Home Networking.
+overview: 'Eero is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Networking, Wi-Fi, Mesh Networking, and Home Networking.
 
 
   Eero''s developer surface includes support, engineering blog, pricing, and 6 more developer resources.'
@@ -105,7 +105,7 @@ score:
     operational_transparency: 0.0
   previous_composite: 13.5
   schema_version: 0.17.2
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/eero/refs/heads/main/screenshots/eero-2026-07-25T212928.png
 security:
@@ -117,7 +117,7 @@ slug: eero
 tags:
 - Company
 - Networking
-- WiFi
+- Wi-Fi
 - Mesh Networking
 - Home Networking
 - Smart Home

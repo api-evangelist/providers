@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
 api_count: 1
 apis:
 - description: Simple API to retrieve the lyrics of a song
@@ -82,7 +82,7 @@ score:
     operational_transparency: 0.0
   previous_composite: 6.7
   schema_version: 0.17.2
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/lyrics-ovh/refs/heads/main/screenshots/lyrics-ovh-2026-06-20T184811.png
 security:

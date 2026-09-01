@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 7.1
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
 api_count: 1
 apis:
 - description: Official remote MCP (Model Context Protocol) server that connects AI assistants such as Claude Desktop and Microsoft 365 Copilot to the UpSlide add-in. Exposes selected UpSlide features (Excel link li
@@ -173,7 +173,7 @@ score:
     mcp: first-party
     skills: first-party
   schema_version: 0.17.2
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
   trend: flat
 security:
 - kind: domain-security

@@ -23,7 +23,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 49.0
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
 agentic_access:
 - acting_count: 108
   human_in_the_loop: 0
@@ -453,7 +453,7 @@ modified: '2026-08-12'
 name: Decisiv
 nav: Providers
 network: true
-overview: 'Decisiv publishes 69 APIs on the [APIs.io](https://apis.io/) network, including Account Roles API, Account User Roles API, Account Users API, and 66 more. Tagged areas include Company, commercial-vehicle, fleet-management, service-relationship-management, and telematics.
+overview: 'Decisiv publishes 69 APIs on the [APIs.io](https://apis.io/) network, including Account Roles API, Account User Roles API, Account Users API, and 66 more. Tagged areas include Company, commercial-vehicle, Fleet Management, service-relationship-management, and Telematics.
 
 
   The Decisiv catalog on APIs.io includes 1 event-driven AsyncAPI specification.
@@ -503,7 +503,7 @@ score:
       total: 6
     skills: derived
   schema_version: 0.17.2
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/decisiv/refs/heads/main/screenshots/decisiv-2026-08-17T080849.png
 security:
@@ -523,15 +523,15 @@ slug: decisiv
 tags:
 - Company
 - commercial-vehicle
-- fleet-management
+- Fleet Management
 - service-relationship-management
-- telematics
-- asset-management
+- Telematics
+- Asset Management
 - maintenance-and-repair
-- heavy-duty-trucking
+- Heavy Duty Trucking
 - Transportation
-- dealer-management
-- json-api
+- Dealer Management
+- JSON:API
 - Webhook
 website: https://www.decisiv.com/
 ---

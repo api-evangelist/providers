@@ -23,7 +23,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
 api_count: 0
 artifact_total: 2
 common:
@@ -97,7 +97,7 @@ modified: '2026-08-06'
 name: Academia
 nav: Providers
 network: true
-overview: 'Academia is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, academic-research, research-papers, scholarly-publishing, and higher-education.
+overview: 'Academia is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Academic Research, research-papers, Scholarly Publishing, and Higher Education.
 
 
   Academia''s developer surface includes support and 10 more developer resources.'
@@ -128,7 +128,7 @@ score:
     regime_id: education
     score: 37.0
   schema_version: 0.17.2
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/academia/refs/heads/main/screenshots/academia-2026-08-07T160744.png
 security:
@@ -143,11 +143,11 @@ security:
 slug: academia
 tags:
 - Company
-- academic-research
+- Academic Research
 - research-papers
-- scholarly-publishing
-- higher-education
-- open-access
+- Scholarly Publishing
+- Higher Education
+- Open Access
 - academic-social-network
 - Preprints
 - research-discovery

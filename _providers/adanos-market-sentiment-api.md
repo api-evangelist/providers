@@ -23,7 +23,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 12.9
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
 api_count: 1
 apis:
 - description: RESTful JSON API grouping five sentiment services (Reddit Stocks, X.com Stocks, Stock News, Polymarket Stocks, Reddit Crypto) with 41 base endpoints plus PRO raw-mention endpoints. Authenticated via X
@@ -37,7 +37,7 @@ modified: '2026-07-17'
 name: Adanos Market Sentiment API
 nav: Providers
 network: true
-overview: 'Adanos Market Sentiment API publishes 1 API on the [APIs.io](https://apis.io/) network: Adanos Market Sentiment API. Tagged areas include Market, sentiment, stocks, Crypto, and Finance.'
+overview: 'Adanos Market Sentiment API publishes 1 API on the [APIs.io](https://apis.io/) network: Adanos Market Sentiment API. Tagged areas include Market, Sentiment, Stocks, Crypto, and Finance.'
 random_paper: 18
 score:
   band: minimal
@@ -71,26 +71,26 @@ score:
     regime_id: securities_market_data
     score: 0.0
   schema_version: 0.17.2
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/adanos-market-sentiment-api/refs/heads/main/screenshots/adanos-market-sentiment-api-2026-07-25T181547.png
 slug: adanos-market-sentiment-api
 tags:
 - Market
-- sentiment
-- stocks
+- Sentiment
+- Stocks
 - Crypto
 - Finance
 - Trading
-- social-data
+- Social Data
 - News
-- prediction-markets
+- Prediction Markets
 - Reddit
-- x-twitter
+- X / Twitter
 - Polymarket
 - AI Agents
 - REST API
 - OpenAPI
 - llms-txt
-- agent-skills
+- Agent Skills
 ---

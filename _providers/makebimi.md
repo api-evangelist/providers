@@ -23,7 +23,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 12.9
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
 api_count: 1
 apis:
 - description: Single unauthenticated endpoint that validates a remotely hosted SVG for BIMI suitability (SVG Tiny P/S). Described by the provider's own llms.txt as "the unauthenticated SVG validation endpoint", con
@@ -62,7 +62,7 @@ modified: '2026-08-21'
 name: makeBIMI
 nav: Providers
 network: true
-overview: 'makeBIMI publishes 1 API on the [APIs.io](https://apis.io/) network: SVG Validation API. Tagged areas include BIMI, DMARC, email authentication, SVG, and brand indicators.
+overview: 'makeBIMI publishes 1 API on the [APIs.io](https://apis.io/) network: SVG Validation API. Tagged areas include BIMI, DMARC, Email Authentication, SVG, and brand indicators.
 
 
   makeBIMI''s developer surface includes documentation, support, and 4 more developer resources.'
@@ -87,13 +87,13 @@ score:
     operational_transparency: 10.5
   previous_composite: 18.7
   schema_version: 0.17.2
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
   trend: flat
 slug: makebimi
 tags:
 - BIMI
 - DMARC
-- email authentication
+- Email Authentication
 - SVG
 - brand indicators
 - SVG validation

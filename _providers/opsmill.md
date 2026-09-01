@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.1
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
 agentic_access:
 - acting_count: 10
   human_in_the_loop: 0
@@ -270,7 +270,7 @@ modified: '2026-07-20'
 name: OpsMill
 nav: Providers
 network: true
-overview: 'OpsMill publishes 15 APIs on the [APIs.io](https://apis.io/) network, including Artifact API, Auth API, Config API, and 12 more. Tagged areas include Company, Infrastructure Saas, Network Automation, Source Of Truth, and Data Management.
+overview: 'OpsMill publishes 15 APIs on the [APIs.io](https://apis.io/) network, including Artifact API, Auth API, Config API, and 12 more. Tagged areas include Company, Infrastructure Saas, Network Automation, Source of Truth, and Data Management.
 
 
   OpsMill''s developer surface includes authentication, documentation, API reference, getting-started guide, sandbox, engineering blog, support, and 22 more developer resources.'
@@ -283,7 +283,7 @@ score:
     catalog_gap: 78.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.5
+  delta: 0.0
   facets:
     access_clarity: 44.7
     commercial_clarity: 44.7
@@ -293,7 +293,7 @@ score:
     discoverability: 75.9
     governance: 4.5
     operational_transparency: 18.4
-  previous_composite: 48.4
+  previous_composite: 47.9
   provenance:
     agentic_access: derived
     conformance: derived
@@ -305,7 +305,7 @@ score:
     mcp: first-party
     skills: first-party
   schema_version: 0.17.2
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/opsmill/refs/heads/main/screenshots/opsmill-2026-08-07T190749.png
 security:
@@ -322,7 +322,7 @@ tags:
 - Company
 - Infrastructure Saas
 - Network Automation
-- Source Of Truth
+- Source of Truth
 - Data Management
 - GraphQL
 - DevOps

@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 51.8
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
 agentic_access:
 - acting_count: 109
   human_in_the_loop: 0
@@ -482,7 +482,7 @@ score:
     regime_id: payments
     score: 62.5
   schema_version: 0.17.2
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/ripple-labs/refs/heads/main/screenshots/ripple-labs-2026-08-17T081609.png
 security:
@@ -506,7 +506,7 @@ tags:
 - Cross-Border Payments
 - Blockchain
 - Cryptocurrency
-- Stablecoin
+- Stablecoins
 - Digital Assets
 - Custody
 - Wallets

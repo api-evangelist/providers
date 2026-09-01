@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 6.0
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
 api_count: 1
 apis:
 - description: Graybar's Azure API Management developer portal. The portal is publicly reachable and serves a sign-in/sign-up flow and a single published product ("Starter", the Azure APIM default), but the anonymou
@@ -149,7 +149,7 @@ score:
     operational_transparency: 23.7
   previous_composite: 23.4
   schema_version: 0.17.2
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
   trend: flat
 security:
 - kind: domain-security

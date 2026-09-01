@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 24.9
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
 api_count: 1
 apis:
 - description: The Query API API from StarTree (Cortexdata) — 1 operation(s) for query api.
@@ -164,7 +164,7 @@ modified: '2026-07-21'
 name: StarTree (Cortexdata)
 nav: Providers
 network: true
-overview: 'StarTree (Cortexdata) publishes 1 API on the [APIs.io](https://apis.io/) network: Query API API. Tagged areas include Company, Ai Infrastructure, Real-Time Analytics, Apache Pinot, and OLAP.
+overview: 'StarTree (Cortexdata) publishes 1 API on the [APIs.io](https://apis.io/) network: Query API API. Tagged areas include Company, AI Infrastructure, Real-Time Analytics, Apache Pinot, and OLAP.
 
 
   StarTree (Cortexdata)''s developer surface includes authentication, changelog, documentation, API reference, support, engineering blog, pricing, and 19 more developer resources.'
@@ -198,7 +198,7 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.17.2
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/startree-cortexdata/refs/heads/main/screenshots/startree-cortexdata-2026-08-17T082112.png
 security:
@@ -217,7 +217,7 @@ security:
 slug: startree-cortexdata
 tags:
 - Company
-- Ai Infrastructure
+- AI Infrastructure
 - Real-Time Analytics
 - Apache Pinot
 - OLAP

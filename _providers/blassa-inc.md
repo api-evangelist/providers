@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
 api_count: 0
 artifact_total: 3
 asyncapis:
@@ -129,7 +129,7 @@ score:
     operational_transparency: 7.9
   previous_composite: 27.1
   schema_version: 0.17.2
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/blassa-inc/refs/heads/main/screenshots/blassa-inc-2026-07-25T203300.png
 security:
@@ -149,7 +149,7 @@ tags:
 - Address Verification
 - Maps
 - Logistics
-- Last-Mile Delivery
+- Last Mile Delivery
 - E-Commerce
 - Middle East
 - Africa

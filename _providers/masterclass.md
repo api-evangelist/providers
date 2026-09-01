@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
 api_count: 0
 artifact_total: 1
 common:
@@ -68,7 +68,7 @@ modified: '2026-07-20'
 name: MasterClass
 nav: Providers
 network: true
-overview: 'MasterClass is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Edtech, Education, Online Learning, and Streaming.
+overview: 'MasterClass is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, EdTech, Education, Online Learning, and Streaming.
 
 
   MasterClass'' developer surface includes support, pricing, engineering blog, and 3 more developer resources.'
@@ -99,7 +99,7 @@ score:
     regime_id: education
     score: 11.1
   schema_version: 0.17.2
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/masterclass/refs/heads/main/screenshots/masterclass-2026-07-25T230343.png
 security:
@@ -110,7 +110,7 @@ security:
 slug: masterclass
 tags:
 - Company
-- Edtech
+- EdTech
 - Education
 - Online Learning
 - Streaming

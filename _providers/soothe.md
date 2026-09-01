@@ -23,7 +23,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.8
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
 api_count: 1
 apis:
 - description: The auto-generated OpenAPI 3.1.0 schema published by the FastAPI application Soothe runs at help.soothe.com to serve a self-hosted mirror of its Document360 help centre. It describes the mirror servic
@@ -171,7 +171,7 @@ score:
     regime_id: health
     score: 31.3
   schema_version: 0.17.2
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
   trend: flat
 security:
 - kind: authentication

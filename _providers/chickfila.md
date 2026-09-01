@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 23.0
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -515,7 +515,7 @@ modified: '2026-07-25'
 name: Chick-fil-A
 nav: Providers
 network: true
-overview: 'Chick-fil-A publishes 9 APIs on the [APIs.io](https://apis.io/) network, including Accounts API, Compliance API, Compute API, and 6 more. Tagged areas include Fast Food, Restaurant, Food & Beverage, Loyalty, and Mobile Ordering.
+overview: 'Chick-fil-A publishes 9 APIs on the [APIs.io](https://apis.io/) network, including Accounts API, Compliance API, Compute API, and 6 more. Tagged areas include Fast Food, Restaurant, Food and Beverage, Loyalty, and Mobile Ordering.
 
 
   The Chick-fil-A catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
@@ -572,7 +572,7 @@ score:
       marker_coverage: 100.0
       total: 9
   schema_version: 0.17.2
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/chickfila/refs/heads/main/screenshots/chickfila-2026-06-20T174304.png
 security:
@@ -584,7 +584,7 @@ slug: chickfila
 tags:
 - Fast Food
 - Restaurant
-- Food & Beverage
+- Food and Beverage
 - Loyalty
 - Mobile Ordering
 - Catering

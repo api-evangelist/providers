@@ -24,7 +24,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 47.9
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
 agentic_access:
 - acting_count: 190
   human_in_the_loop: 10
@@ -621,7 +621,7 @@ modified: '2026-08-06'
 name: ALTR
 nav: Providers
 network: true
-overview: 'ALTR publishes 66 APIs on the [APIs.io](https://apis.io/) network, including Access Request API, Administrators API, Agent API, and 63 more. Tagged areas include data-security, data-governance, data-masking, tokenization, and data-classification.
+overview: 'ALTR publishes 66 APIs on the [APIs.io](https://apis.io/) network, including Access Request API, Administrators API, Agent API, and 63 more. Tagged areas include Data Security, Data Governance, Data Masking, Tokenization, and Data Classification.
 
 
   The ALTR catalog on APIs.io includes 1 event-driven AsyncAPI specification.
@@ -659,7 +659,7 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.17.2
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/altr/refs/heads/main/screenshots/altr-2026-08-07T161253.png
 security:
@@ -681,20 +681,20 @@ security:
   summary_line: SOC 2, PCI DSS, HIPAA
 slug: altr
 tags:
-- data-security
-- data-governance
-- data-masking
-- tokenization
-- data-classification
-- access-control
-- snowflake
-- databricks
+- Data Security
+- Data Governance
+- Data Masking
+- Tokenization
+- Data Classification
+- Access Control
+- Snowflake
+- Databricks
 - format-preserving-encryption
-- database-activity-monitoring
-- rbac
+- Database Activity Monitoring
+- RBAC
 - PII
 - Compliance
-- data-privacy
+- Data Privacy
 - MCP
 - agent-native
 website: https://altr.com/

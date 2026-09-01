@@ -23,7 +23,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 2.5
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
 api_count: 1
 apis:
 - description: The member-facing Accelerant Risk Exchange platform and its supporting API surface. Accelerant states that its risk indices plug directly into Member underwriting and policy administration systems via
@@ -140,7 +140,7 @@ modified: '2026-08-02'
 name: Accelerant
 nav: Providers
 network: true
-overview: 'Accelerant publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Insurance, InsurTech, Specialty Insurance, Underwriting, and Risk Management.
+overview: 'Accelerant publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Insurance, Insurtech, Specialty Insurance, Underwriting, and Risk Management.
 
 
   Accelerant''s developer surface includes documentation, support, engineering blog, product news, authentication, and 20 more developer resources.'
@@ -178,7 +178,7 @@ score:
     regime_id: insurance
     score: 71.2
   schema_version: 0.17.2
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/accelerant/refs/heads/main/screenshots/accelerant-2026-08-07T160750.png
 security:
@@ -193,7 +193,7 @@ security:
 slug: accelerant
 tags:
 - Insurance
-- InsurTech
+- Insurtech
 - Specialty Insurance
 - Underwriting
 - Risk Management

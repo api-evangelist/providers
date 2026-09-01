@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
 api_count: 0
 artifact_total: 1
 common:
@@ -119,7 +119,7 @@ modified: '2026-08-01'
 name: Modern Meadow
 nav: Providers
 network: true
-overview: 'Modern Meadow is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Materials, Biotechnology, Synthetic Biology, and Biofabrication.
+overview: 'Modern Meadow is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Materials, Biotechnology, Synthetic Biology, and Bio-Fabrication.
 
 
   Modern Meadow''s developer surface includes engineering blog, support, YouTube channel, and 15 more developer resources.'
@@ -144,7 +144,7 @@ score:
     operational_transparency: 0.0
   previous_composite: 11.4
   schema_version: 0.17.2
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/modern-meadow/refs/heads/main/screenshots/modern-meadow-2026-08-07T184009.png
 security:
@@ -158,7 +158,7 @@ tags:
 - Materials
 - Biotechnology
 - Synthetic Biology
-- Biofabrication
+- Bio-Fabrication
 - Sustainability
 - Advanced Materials
 - Fashion

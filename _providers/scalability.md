@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 15.5
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
 api_count: 7
 apis:
 - description: KEDA is a Kubernetes-based event-driven autoscaling component and CNCF graduate project. It provides fine-grained autoscaling (including to/from zero) for event-driven Kubernetes workloads by bridging
@@ -125,7 +125,7 @@ modified: '2026-05-02'
 name: Scalability
 nav: Providers
 network: true
-overview: 'Scalability publishes 6 APIs on the [APIs.io](https://apis.io/) network, including KEDA (Kubernetes Event-Driven Autoscaling) API, AWS Auto Scaling API, Google Cloud Compute Engine Autoscaler API, and 3 more. Tagged areas include Auto Scaling, Cloud Computing, DevOps, Distributed Systems, and Elasticity.
+overview: 'Scalability publishes 6 APIs on the [APIs.io](https://apis.io/) network, including KEDA (Kubernetes Event-Driven Autoscaling) API, AWS Auto Scaling API, Google Cloud Compute Engine Autoscaler API, and 3 more. Tagged areas include Auto-Scaling, Cloud Computing, DevOps, Distributed Systems, and Elasticity.
 
 
   The Scalability catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
@@ -172,12 +172,12 @@ score:
     operational_transparency: 26.3
   previous_composite: 32.8
   schema_version: 0.17.2
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/scalability/refs/heads/main/screenshots/scalability-2026-06-20T193457.png
 slug: scalability
 tags:
-- Auto Scaling
+- Auto-Scaling
 - Cloud Computing
 - DevOps
 - Distributed Systems

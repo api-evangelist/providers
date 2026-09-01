@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.5
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
 api_count: 0
 artifact_total: 3
 common:
@@ -92,7 +92,7 @@ modified: '2026-07-18'
 name: Cabal
 nav: Providers
 network: true
-overview: 'Cabal is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Saas, Relationship Intelligence, Warm Introductions, and Venture Capital.
+overview: 'Cabal is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Software-as-a-Service, Relationship Intelligence, Warm Introductions, and Venture Capital.
 
 
   Cabal''s developer surface includes engineering blog, pricing, and 9 more developer resources.'
@@ -119,7 +119,7 @@ score:
   provenance:
     mcp: first-party
   schema_version: 0.17.2
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/cabal/refs/heads/main/screenshots/cabal-2026-07-25T204200.png
 security:
@@ -134,7 +134,7 @@ security:
 slug: cabal
 tags:
 - Company
-- Saas
+- Software-as-a-Service
 - Relationship Intelligence
 - Warm Introductions
 - Venture Capital

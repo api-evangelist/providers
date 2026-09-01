@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 37.6
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
 api_count: 17
 apis:
 - description: This API enables you to retrieve and update alerts and incidents, and other APIs relating to them
@@ -292,7 +292,7 @@ score:
     operational_transparency: 60.5
   previous_composite: 58.7
   schema_version: 0.17.2
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/moogsoft/refs/heads/main/screenshots/moogsoft-2026-06-20T185754.png
 security:

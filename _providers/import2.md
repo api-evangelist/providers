@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 21.8
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
 api_count: 1
 apis:
 - description: Create and manage data migration (import) jobs.
@@ -170,7 +170,7 @@ modified: '2026-07-19'
 name: Import2
 nav: Providers
 network: true
-overview: 'Import2 publishes 2 APIs on the [APIs.io](https://apis.io/) network: Imports API and Tools API. Tagged areas include Company, Data Migration, Data Integration, CRM, and Helpdesk.
+overview: 'Import2 publishes 2 APIs on the [APIs.io](https://apis.io/) network: Imports API and Tools API. Tagged areas include Company, Data Migration, Data Integration, CRM, and Help Desk.
 
 
   Import2''s developer surface includes developer portal, documentation, API reference, getting-started guide, support, pricing, signup flow, and 19 more developer resources.'
@@ -208,7 +208,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.17.2
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/import2/refs/heads/main/screenshots/import2-2026-07-25T222154.png
 security:
@@ -230,7 +230,7 @@ tags:
 - Data Migration
 - Data Integration
 - CRM
-- Helpdesk
+- Help Desk
 - Software-as-a-Service
 - Migration
 - Onboarding

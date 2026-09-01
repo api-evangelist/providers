@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
 api_count: 0
 artifact_total: 1
 common:
@@ -88,7 +88,7 @@ modified: '2026-07-19'
 name: Electric.ai
 nav: Providers
 network: true
-overview: 'Electric.ai is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, It Management, IT Support, Device Management, and MDM.
+overview: 'Electric.ai is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, IT Management, IT Support, Device Management, and MDM.
 
 
   Electric.ai''s developer surface includes documentation, support, engineering blog, pricing, changelog, and 6 more developer resources.'
@@ -113,7 +113,7 @@ score:
     operational_transparency: 31.6
   previous_composite: 20.1
   schema_version: 0.17.2
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/electricai/refs/heads/main/screenshots/electricai-2026-07-25T213105.png
 security:
@@ -124,7 +124,7 @@ security:
 slug: electricai
 tags:
 - Company
-- It Management
+- IT Management
 - IT Support
 - Device Management
 - MDM

@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
 api_count: 0
 artifact_total: 1
 common:
@@ -68,7 +68,7 @@ modified: '2026-07-20'
 name: Omnitron Sensors
 nav: Providers
 network: true
-overview: 'Omnitron Sensors is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, MEMS Sensors, Semiconductor, Sensor Hardware, and Autonomous Systems.
+overview: 'Omnitron Sensors is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, MEMS Sensors, Semiconductors, Sensor Hardware, and Autonomous Systems.
 
 
   Omnitron Sensors'' developer surface includes engineering blog, support, and 4 more developer resources.'
@@ -93,7 +93,7 @@ score:
     operational_transparency: 0.0
   previous_composite: 10.6
   schema_version: 0.17.2
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/omnitron-sensors/refs/heads/main/screenshots/omnitron-sensors-2026-08-07T190157.png
 security:
@@ -105,7 +105,7 @@ slug: omnitron-sensors
 tags:
 - Company
 - MEMS Sensors
-- Semiconductor
+- Semiconductors
 - Sensor Hardware
 - Autonomous Systems
 - AI Infrastructure

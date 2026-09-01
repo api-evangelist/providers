@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 15.5
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
 api_count: 1
 apis:
 - description: Chewy provides vendor and supplier integration through the Dsco platform, enabling third-party brands and logistics providers to connect with Chewy's e-commerce marketplace. The integration supports E
@@ -128,7 +128,7 @@ modified: '2026-04-23'
 name: Chewy
 nav: Providers
 network: true
-overview: 'Chewy publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Autoship, Drop Shipping, Dsco, E-Commerce, and EDI.
+overview: 'Chewy publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Autoship, Dropshipping, Dsco, E-Commerce, and EDI.
 
 
   Chewy''s developer surface includes GitHub presence and 13 more developer resources.'
@@ -167,7 +167,7 @@ score:
     regime_id: health
     score: 20.0
   schema_version: 0.17.2
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/chewy/refs/heads/main/screenshots/chewy-2026-07-25T205222.png
 security:
@@ -182,7 +182,7 @@ security:
 slug: chewy
 tags:
 - Autoship
-- Drop Shipping
+- Dropshipping
 - Dsco
 - E-Commerce
 - EDI

@@ -23,7 +23,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 15.0
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
 api_count: 1
 apis:
 - description: Read-only shopping tools for finding grouped products, comparing current merchant offers and delivered totals, and checking price history.
@@ -31,6 +31,10 @@ apis:
   slug: shopping-mcp
 artifact_total: 14
 common:
+- group: commercial
+  title: ''
+  type: License
+  url: https://github.com/TheBestCo/bestprice-mcp/blob/main/LICENSE
 - group: auth
   title: ''
   type: DomainSecurity
@@ -184,7 +188,7 @@ network: true
 overview: 'BestPrice Agent Commerce publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Shopping, Price Comparison, E-Commerce, Retail, and MCP.
 
 
-  BestPrice Agent Commerce''s developer surface includes authentication, changelog, documentation, engineering blog, support, and 24 more developer resources.'
+  BestPrice Agent Commerce''s developer surface includes authentication, changelog, documentation, engineering blog, support, and 25 more developer resources.'
 plans:
 - name: Bestprice Plans Pricing
   plan_count: 0
@@ -214,7 +218,7 @@ score:
     operational_transparency: 31.6
   previous_composite: 34.0
   schema_version: 0.17.2
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
   trend: flat
 security:
 - kind: authentication

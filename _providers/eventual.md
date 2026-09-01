@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.6
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
 api_count: 0
 artifact_total: 1
 common:
@@ -116,7 +116,7 @@ modified: '2026-07-19'
 name: Eventual
 nav: Providers
 network: true
-overview: 'Eventual is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Data, Data Engine, Artificial Intelligence, and Multimodal.
+overview: 'Eventual is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Data, Data Engine, Artificial Intelligence, and Multi-Modal.
 
 
   Eventual''s developer surface includes documentation, API reference, getting-started guide, quickstart, engineering blog, support, changelog, and 11 more developer resources.'
@@ -143,7 +143,7 @@ score:
   provenance:
     skills: first-party
   schema_version: 0.17.2
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/eventual/refs/heads/main/screenshots/eventual-2026-07-25T213718.png
 security:
@@ -157,12 +157,12 @@ tags:
 - Data
 - Data Engine
 - Artificial Intelligence
-- Multimodal
+- Multi-Modal
 - Analytics
 - Open-Source
 - Python
 - Rust
-- Dataframe
+- DataFrame
 - Physical AI
 - Distributed Computing
 website: https://www.eventual.ai/

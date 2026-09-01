@@ -23,7 +23,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 2.5
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
 api_count: 0
 artifact_total: 3
 common:
@@ -105,7 +105,7 @@ modified: '2026-08-12'
 name: Elpha Secure
 nav: Providers
 network: true
-overview: 'Elpha Secure is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Cybersecurity, Cyber Insurance, Insurance, and InsurTech.
+overview: 'Elpha Secure is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Cybersecurity, Cyber Insurance, Insurance, and Insurtech.
 
 
   Elpha Secure''s developer surface includes engineering blog, support, and 12 more developer resources.'
@@ -146,7 +146,7 @@ score:
     regime_id: insurance
     score: 36.4
   schema_version: 0.17.2
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
   trend: flat
 security:
 - kind: domain-security
@@ -159,7 +159,7 @@ tags:
 - Cybersecurity
 - Cyber Insurance
 - Insurance
-- InsurTech
+- Insurtech
 - Endpoint Security
 - Managed Detection and Response
 - Email Security

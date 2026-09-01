@@ -24,7 +24,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 60.4
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
 agentic_access:
 - acting_count: 70
   human_in_the_loop: 2
@@ -334,7 +334,7 @@ modified: '2026-08-09'
 name: Sarj AI Developer API
 nav: Providers
 network: true
-overview: 'Sarj AI Developer API publishes 27 APIs on the [APIs.io](https://apis.io/) network, including Admin API, Agent Profiles API, Analytics API, and 24 more. Tagged areas include voice AI, voice agents, conversational AI, Arabic AI, and outbound calls.
+overview: 'Sarj AI Developer API publishes 27 APIs on the [APIs.io](https://apis.io/) network, including Admin API, Agent Profiles API, Analytics API, and 24 more. Tagged areas include Voice AI, Voice Agents, Conversational AI, Arabic AI, and Outbound Calls.
 
 
   The Sarj AI Developer API catalog on APIs.io includes 1 event-driven AsyncAPI specification.
@@ -377,7 +377,7 @@ score:
     mcp: first-party
     skills: first-party
   schema_version: 0.17.2
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/sarj-ai-developer-api/refs/heads/main/screenshots/sarj-ai-developer-api-2026-08-17T081723.png
 security:
@@ -391,15 +391,15 @@ security:
   summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 slug: sarj-ai-developer-api
 tags:
-- voice AI
-- voice agents
-- conversational AI
+- Voice AI
+- Voice Agents
+- Conversational AI
 - Arabic AI
-- outbound calls
-- telephony
-- speech to text
-- text to speech
-- voice cloning
+- Outbound Calls
+- Telephony
+- Speech-to-Text
+- Text-to-Speech
+- Voice Cloning
 - MCP
 - agent-native
 - Saudi Arabia

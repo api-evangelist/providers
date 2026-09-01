@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 2.5
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
 api_count: 1
 apis:
 - description: 'The CAOC publishes its charter, membership roster, meeting summaries, working group output, and federal acquisition guidance through Acquisition.gov. The Council does not expose a dedicated developer '
@@ -152,7 +152,7 @@ score:
     regime_id: government
     score: 11.1
   schema_version: 0.17.2
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/chief-acquisition-officers-council/refs/heads/main/screenshots/chief-acquisition-officers-council-2026-06-20T174313.png
 security:

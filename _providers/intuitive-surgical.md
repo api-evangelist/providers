@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
 api_count: 0
 artifact_total: 1
 common:
@@ -60,7 +60,7 @@ modified: '2026-04-28'
 name: Intuitive Surgical
 nav: Providers
 network: true
-overview: Intuitive Surgical is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Robotic Surgery, Medical Devices, Healthcare, Surgery, and da Vinci.
+overview: Intuitive Surgical is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Robotic Surgery, Medical Devices, Healthcare, Surgery, and Da Vinci.
 press:
 - date: '2026-05-25'
   title: Future of Surgical Robotics | Da Vinci | Ion
@@ -104,7 +104,7 @@ score:
     regime_id: health
     score: 7.5
   schema_version: 0.17.2
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/intuitive-surgical/refs/heads/main/screenshots/intuitive-surgical-2026-06-20T183520.png
 security:
@@ -118,7 +118,7 @@ tags:
 - Medical Devices
 - Healthcare
 - Surgery
-- da Vinci
+- Da Vinci
 - Fortune 500
 website: https://www.intuitive.com
 ---

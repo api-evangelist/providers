@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 2.5
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
 api_count: 1
 apis:
 - description: The IBM App Connect API provides programmatic access to manage integration flows, connectors, accounts, and other integration platform resources.
@@ -132,7 +132,7 @@ score:
     operational_transparency: 10.5
   previous_composite: 14.8
   schema_version: 0.17.2
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/ibm-app-connect/refs/heads/main/screenshots/ibm-app-connect-2026-06-20T183128.png
 security:

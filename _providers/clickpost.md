@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 21.5
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
 agentic_access:
 - acting_count: 7
   human_in_the_loop: 0
@@ -176,7 +176,7 @@ modified: '2026-05-19'
 name: ClickPost
 nav: Providers
 network: true
-overview: 'ClickPost publishes 7 APIs on the [APIs.io](https://apis.io/) network, including Cancellation API, Label API, Order API, and 4 more. Tagged areas include Carriers, Delivery, E-Commerce Logistics, Logistics, and Returns.
+overview: 'ClickPost publishes 7 APIs on the [APIs.io](https://apis.io/) network, including Cancellation API, Label API, Order API, and 4 more. Tagged areas include Carriers, Delivery, E-commerce Logistics, Logistics, and Returns.
 
 
   The ClickPost catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
@@ -237,7 +237,7 @@ score:
     regime_id: telecommunications
     score: 43.1
   schema_version: 0.17.2
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/clickpost/refs/heads/main/screenshots/clickpost-2026-06-20T174515.png
 security:
@@ -257,7 +257,7 @@ slug: clickpost
 tags:
 - Carriers
 - Delivery
-- E-Commerce Logistics
+- E-commerce Logistics
 - Logistics
 - Returns
 - Shipping

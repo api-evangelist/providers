@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 37.6
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
 api_count: 1
 apis:
 - description: The Blue Prism API is the REST contract for Blue Prism Enterprise. It exposes work queues and work queue items, sessions and session logs, schedules, scheduled tasks and schedule logs, calendars and h
@@ -253,7 +253,7 @@ score:
     operational_transparency: 36.8
   previous_composite: 49.5
   schema_version: 0.17.2
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/blue-prism/refs/heads/main/screenshots/blue-prism-2026-06-20T173529.png
 security:

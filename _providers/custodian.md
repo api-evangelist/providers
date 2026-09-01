@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
 api_count: 0
 artifact_total: 1
 common:
@@ -76,7 +76,7 @@ modified: '2026-07-18'
 name: Custodian
 nav: Providers
 network: true
-overview: 'Custodian is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Insurance, InsurTech, Claims Management, and Automotive.
+overview: 'Custodian is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Insurance, Insurtech, Claims Management, and Automotive.
 
 
   Custodian''s developer surface includes engineering blog, support, and 6 more developer resources.'
@@ -107,7 +107,7 @@ score:
     regime_id: insurance
     score: 21.2
   schema_version: 0.17.2
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/custodian/refs/heads/main/screenshots/custodian-2026-07-25T211006.png
 security:
@@ -119,7 +119,7 @@ slug: custodian
 tags:
 - Company
 - Insurance
-- InsurTech
+- Insurtech
 - Claims Management
 - Automotive
 - Mobile App

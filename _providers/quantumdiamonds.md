@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
 api_count: 0
 artifact_total: 1
 common:
@@ -64,7 +64,7 @@ modified: '2026-07-20'
 name: Quantumdiamonds
 nav: Providers
 network: true
-overview: 'Quantumdiamonds is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Quantum, Quantum Sensing, Semiconductor, and Failure Analysis.
+overview: 'Quantumdiamonds is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Quantum, Quantum Sensing, Semiconductors, and Failure Analysis.
 
 
   Quantumdiamonds'' developer surface includes engineering blog, support, and 3 more developer resources.'
@@ -89,7 +89,7 @@ score:
     operational_transparency: 0.0
   previous_composite: 6.4
   schema_version: 0.17.2
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
   trend: flat
 security:
 - kind: domain-security
@@ -101,7 +101,7 @@ tags:
 - Company
 - Quantum
 - Quantum Sensing
-- Semiconductor
+- Semiconductors
 - Failure Analysis
 - Deep Tech
 - Hardware

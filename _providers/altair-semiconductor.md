@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
 api_count: 0
 artifact_total: 1
 common:
@@ -80,7 +80,7 @@ modified: '2026-07-17'
 name: Altair Semiconductor
 nav: Providers
 network: true
-overview: 'Altair Semiconductor is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Semiconductor, Cellular IoT, Chipset, and LPWA.
+overview: 'Altair Semiconductor is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Semiconductors, Cellular IoT, Chipset, and LPWA.
 
 
   Altair Semiconductor''s developer surface includes engineering blog and 8 more developer resources.'
@@ -105,7 +105,7 @@ score:
     operational_transparency: 0.0
   previous_composite: 5.5
   schema_version: 0.17.2
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/altair-semiconductor/refs/heads/main/screenshots/altair-semiconductor-2026-07-25T195813.png
 security:
@@ -116,7 +116,7 @@ security:
 slug: altair-semiconductor
 tags:
 - Company
-- Semiconductor
+- Semiconductors
 - Cellular IoT
 - Chipset
 - LPWA

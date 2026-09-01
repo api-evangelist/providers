@@ -23,7 +23,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 31.5
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
 agentic_access:
 - acting_count: 23
   human_in_the_loop: 0
@@ -216,7 +216,7 @@ modified: '2026-08-05'
 name: 73 Strings
 nav: Providers
 network: true
-overview: '73 Strings publishes 6 APIs on the [APIs.io](https://apis.io/) network, including Asset Info API, Captable API, Documents API, and 3 more. Tagged areas include private-markets, valuation, portfolio-monitoring, private-equity, and private-credit.
+overview: '73 Strings publishes 6 APIs on the [APIs.io](https://apis.io/) network, including Asset Info API, Captable API, Documents API, and 3 more. Tagged areas include Private Markets, Valuation, Portfolio Monitoring, Private Equity, and Private Credit.
 
 
   73 Strings'' developer surface includes authentication, documentation, API reference, signup flow, support, engineering blog, and 26 more developer resources.'
@@ -259,7 +259,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.17.2
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/73-strings/refs/heads/main/screenshots/73-strings-2026-08-07T160710.png
 security:
@@ -273,17 +273,17 @@ security:
   summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 slug: 73-strings
 tags:
-- private-markets
-- valuation
-- portfolio-monitoring
-- private-equity
-- private-credit
-- venture-capital
-- alternative-assets
+- Private Markets
+- Valuation
+- Portfolio Monitoring
+- Private Equity
+- Private Credit
+- Venture Capital
+- Alternative Assets
 - Financial Data
-- data-extraction
+- Data Extraction
 - Fintech
-- asset-management
-- azure-api-management
+- Asset Management
+- Azure API Management
 website: https://www.73strings.com/
 ---

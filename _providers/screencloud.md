@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 15.5
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
 api_count: 6
 apis:
 - description: GraphQL operations for managing screens - pair and depair devices (pairScreen, depairScreen), list and search screens (allScreens, screen, screenByDeviceId, searchScreen), organize screen groups, assi
@@ -153,7 +153,7 @@ score:
     operational_transparency: 34.2
   previous_composite: 36.8
   schema_version: 0.17.2
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
   trend: flat
 security:
 - kind: domain-security

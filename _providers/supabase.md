@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 29.6
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
 agentic_access:
 - acting_count: 49
   human_in_the_loop: 0
@@ -316,7 +316,7 @@ modified: '2026-05-19'
 name: Supabase
 nav: Providers
 network: true
-overview: 'Supabase publishes 21 APIs on the [APIs.io](https://apis.io/) network, including Realtime API, Admin API, Authentication API, and 18 more. Tagged areas include Backend As A Service, PostgreSQL, Open-Source, Authentication, and Real-Time.
+overview: 'Supabase publishes 21 APIs on the [APIs.io](https://apis.io/) network, including Realtime API, Admin API, Authentication API, and 18 more. Tagged areas include Backend-as-a-Service, PostgreSQL, Open-Source, Authentication, and Real-Time.
 
 
   The Supabase catalog on APIs.io includes 1 event-driven AsyncAPI specification, 1 JSON-LD context, and 3 Spectral governance rulesets.
@@ -392,7 +392,7 @@ score:
       marker_coverage: 0.0
       total: 20
   schema_version: 0.17.2
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/supabase/refs/heads/main/screenshots/supabase-2026-06-20T194707.png
 security:
@@ -420,7 +420,7 @@ skills:
   slug: supabase
 slug: supabase
 tags:
-- Backend As A Service
+- Backend-as-a-Service
 - PostgreSQL
 - Open-Source
 - Authentication

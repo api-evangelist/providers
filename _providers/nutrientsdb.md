@@ -23,7 +23,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 29.2
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -161,7 +161,7 @@ modified: '2026-08-09'
 name: NutrientsDB
 nav: Providers
 network: true
-overview: 'NutrientsDB publishes 1 API on the [APIs.io](https://apis.io/) network: Foods API. Tagged areas include nutrition, food, nutrients, food-composition, and Data.
+overview: 'NutrientsDB publishes 1 API on the [APIs.io](https://apis.io/) network: Foods API. Tagged areas include Nutrition, Food, Nutrients, food-composition, and Data.
 
 
   NutrientsDB''s developer surface includes authentication, documentation, API reference, engineering blog, support, pricing, and 14 more developer resources.'
@@ -202,7 +202,7 @@ score:
     regime_id: government
     score: 31.5
   schema_version: 0.17.2
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
   trend: flat
 security:
 - kind: authentication
@@ -215,16 +215,16 @@ security:
   summary_line: TLSv1.3 · HSTS · DMARC
 slug: nutrientsdb
 tags:
-- nutrition
-- food
-- nutrients
+- Nutrition
+- Food
+- Nutrients
 - food-composition
 - Data
 - Search
-- sample-data
+- Sample Data
 - Dataset
 - ai-builders
-- reference-data
+- Reference Data
 - Open Data
 - keyless-api
 ---

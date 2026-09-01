@@ -23,7 +23,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 34.6
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
 api_count: 2
 apis:
 - description: Open-source Model Context Protocol server, written in Go and published under MIT by Cyware Labs, that exposes Cyware Intel Exchange and Cyware Orchestrate to LLM agents as MCP tools. Self-hosted along
@@ -388,7 +388,7 @@ modified: '2026-08-04'
 name: Cyware
 nav: Providers
 network: true
-overview: 'Cyware publishes 34 APIs on the [APIs.io](https://apis.io/) network, including Administration API, Allowed Indicators API, Analytics API, and 31 more. Tagged areas include Threat Intelligence, cyber-threat-intelligence, Cybersecurity, security-operations, and threat-intelligence-platform.
+overview: 'Cyware publishes 34 APIs on the [APIs.io](https://apis.io/) network, including Administration API, Allowed Indicators API, Analytics API, and 31 more. Tagged areas include Threat Intelligence, cyber-threat-intelligence, Cybersecurity, Security Operations, and Threat Intelligence Platform.
 
 
   The Cyware catalog on APIs.io includes 1 event-driven AsyncAPI specification.
@@ -408,7 +408,7 @@ score:
     catalog_gap: 81.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -1.6
+  delta: 0.0
   facets:
     access_clarity: 60.5
     commercial_clarity: 60.5
@@ -421,7 +421,7 @@ score:
   open_source:
     applies: true
     score: 35.0
-  previous_composite: 45.5
+  previous_composite: 43.9
   provenance:
     conformance: first-party
     contracts:
@@ -432,7 +432,7 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.17.2
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/cyware/refs/heads/main/screenshots/cyware-2026-08-07T164015.png
 security:
@@ -453,18 +453,18 @@ tags:
 - Threat Intelligence
 - cyber-threat-intelligence
 - Cybersecurity
-- security-operations
-- threat-intelligence-platform
+- Security Operations
+- Threat Intelligence Platform
 - STIX
-- taxii
+- TAXII
 - mitre-attack
-- soar
-- security-orchestration
-- incident-response
+- SOAR
+- Security Orchestration
+- Incident Response
 - threat-intelligence-sharing
 - isac
-- indicators-of-compromise
+- Indicators of Compromise
 - MCP
-- agentic-ai
+- Agentic AI
 website: https://www.cyware.com/
 ---

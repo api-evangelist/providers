@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 5.0
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
 api_count: 5
 apis:
 - description: 'DSpace 7.6.5 REST API for the University of Waikato''s Research Commons open access institutional repository, providing programmatic access to communities, collections, items, bitstreams and discovery '
@@ -159,7 +159,7 @@ score:
     regime_id: education
     score: 31.5
   schema_version: 0.17.2
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/university-of-waikato/refs/heads/main/screenshots/university-of-waikato-2026-06-20T200327.png
 security:

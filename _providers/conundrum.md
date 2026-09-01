@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
 api_count: 0
 artifact_total: 1
 common:
@@ -68,7 +68,7 @@ modified: '2026-07-18'
 name: Conundrum
 nav: Providers
 network: true
-overview: 'Conundrum is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Artificial Intelligence, Industrial, Metals and Mining, and Process Control.
+overview: 'Conundrum is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Artificial Intelligence, Industrial, Metals And Mining, and Process Control.
 
 
   Conundrum''s developer surface includes support and 5 more developer resources.'
@@ -81,7 +81,7 @@ score:
     catalog_gap: 88.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.5
+  delta: 0.0
   facets:
     access_clarity: 0.0
     commercial_clarity: 0.0
@@ -91,9 +91,9 @@ score:
     discoverability: 57.4
     governance: 0.0
     operational_transparency: 0.0
-  previous_composite: 6.7
+  previous_composite: 6.2
   schema_version: 0.17.2
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/conundrum/refs/heads/main/screenshots/conundrum-2026-07-25T210341.png
 security:
@@ -106,7 +106,7 @@ tags:
 - Company
 - Artificial Intelligence
 - Industrial
-- Metals and Mining
+- Metals And Mining
 - Process Control
 - Model Predictive Control
 - Machine-Learning

@@ -23,7 +23,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 32.9
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
 api_count: 1
 apis:
 - description: The Sonde Platform Service API lets partners run Sonde Vocal Biomarker Health Checks from their own mobile, web and embedded applications. Services cover user registration (UserService), signed-URL au
@@ -214,7 +214,7 @@ score:
     regime_id: health
     score: 66.3
   schema_version: 0.17.2
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
   trend: flat
 security:
 - kind: authentication

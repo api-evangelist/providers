@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 29.6
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
 agentic_access:
 - acting_count: 100
   human_in_the_loop: 0
@@ -565,7 +565,7 @@ modified: '2026-05-25'
 name: Bringg
 nav: Providers
 network: true
-overview: 'Bringg publishes 30 APIs on the [APIs.io](https://apis.io/) network, including Administration API, Analytics API, Authentication API, and 27 more. Tagged areas include Last-Mile Delivery, Delivery Orchestration, Fulfillment, Logistics, and Retail.
+overview: 'Bringg publishes 30 APIs on the [APIs.io](https://apis.io/) network, including Administration API, Analytics API, Authentication API, and 27 more. Tagged areas include Last Mile Delivery, Delivery Orchestration, Fulfillment, Logistics, and Retail.
 
 
   The Bringg catalog on APIs.io includes 1 event-driven AsyncAPI specification, 1 JSON-LD context, and 3 Spectral governance rulesets.
@@ -652,7 +652,7 @@ score:
     regime_id: telecommunications
     score: 56.9
   schema_version: 0.17.2
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/bringg/refs/heads/main/screenshots/bringg-2026-06-20T173708.png
 security:
@@ -679,7 +679,7 @@ solutions:
 - description: Equip drivers with the Bringg Driver App, optimized routes, and geofence-aware workflows.
   name: Driver Productivity
 tags:
-- Last-Mile Delivery
+- Last Mile Delivery
 - Delivery Orchestration
 - Fulfillment
 - Logistics

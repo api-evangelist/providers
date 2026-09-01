@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 55.4
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
 agentic_access:
 - acting_count: 142
   human_in_the_loop: 1
@@ -557,7 +557,7 @@ modified: '2026-08-26'
 name: Losant
 nav: Providers
 network: true
-overview: 'Losant publishes 6 APIs on the [APIs.io](https://apis.io/) network, including Authentication and Account API, Data and Data Tables API, Edge and Embedded Compute API, and 3 more. Tagged areas include IoT, Internet Of Things, Devices, Edge Compute, and Embedded.
+overview: 'Losant publishes 6 APIs on the [APIs.io](https://apis.io/) network, including Authentication and Account API, Data and Data Tables API, Edge and Embedded Compute API, and 3 more. Tagged areas include IoT, Internet of Things, Devices, Edge Compute, and Embedded.
 
 
   The Losant catalog on APIs.io includes 1 event-driven AsyncAPI specification, 1 JSON-LD context, and 2 Spectral governance rulesets.
@@ -630,7 +630,7 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.17.2
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/losant/refs/heads/main/screenshots/losant-2026-06-20T184729.png
 security:
@@ -649,7 +649,7 @@ security:
 slug: losant
 tags:
 - IoT
-- Internet Of Things
+- Internet of Things
 - Devices
 - Edge Compute
 - Embedded

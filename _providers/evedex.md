@@ -23,7 +23,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 34.1
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
 agentic_access:
 - acting_count: 281
   human_in_the_loop: 14
@@ -547,7 +547,7 @@ modified: '2026-08-26'
 name: EVEDEX
 nav: Providers
 network: true
-overview: 'EVEDEX publishes 107 APIs on the [APIs.io](https://apis.io/) network, including ACL API, AI Strategy API, Aml API, and 104 more. Tagged areas include cryptocurrency-exchange, defi, decentralized-exchange, derivatives, and perpetual-futures.
+overview: 'EVEDEX publishes 107 APIs on the [APIs.io](https://apis.io/) network, including ACL API, AI Strategy API, Aml API, and 104 more. Tagged areas include Cryptocurrency Exchange, DeFi, Decentralized Exchange, Derivatives, and Perpetual Futures.
 
 
   The EVEDEX catalog on APIs.io includes 1 event-driven AsyncAPI specification.
@@ -594,7 +594,7 @@ score:
     regime_id: securities_market_data
     score: 51.7
   schema_version: 0.17.2
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
   trend: flat
 security:
 - kind: authentication
@@ -607,16 +607,16 @@ security:
   summary_line: TLSv1.3 · HSTS · DMARC
 slug: evedex
 tags:
-- cryptocurrency-exchange
-- defi
-- decentralized-exchange
-- derivatives
-- perpetual-futures
-- trading
-- market-data
-- blockchain
-- web3
+- Cryptocurrency Exchange
+- DeFi
+- Decentralized Exchange
+- Derivatives
+- Perpetual Futures
+- Trading
+- Market Data
+- Blockchain
+- Web3
 - arbitrum-layer3
-- fintech
+- Fintech
 website: https://evedex.com/
 ---

@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 21.9
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
 api_count: 2
 apis:
 - description: 'Self-hosted HTTP API of Parallax, the Apache-2.0 runtime security engine Scalarr publishes for AI agents. Two endpoints: POST /evaluate takes a lifecycle event (message.before, tool.before, tool.after'
@@ -49,6 +49,10 @@ asyncapis:
   name: Scalarr Parallax Webhooks
   slug: scalarr-parallax-webhooks
 common:
+- group: commercial
+  title: ''
+  type: License
+  url: https://github.com/agent-defense/parallax/blob/main/LICENSE
 - group: company
   title: ''
   type: Website
@@ -184,7 +188,7 @@ overview: 'Scalarr publishes 2 APIs on the [APIs.io](https://apis.io/) network. 
   The Scalarr catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  Scalarr''s developer surface includes engineering blog, pricing, signup flow, support, CLI, changelog, authentication, and 23 more developer resources.'
+  Scalarr''s developer surface includes engineering blog, pricing, signup flow, support, CLI, changelog, authentication, and 24 more developer resources.'
 plans:
 - name: Scalarr Plans Pricing
   plan_count: 5
@@ -216,7 +220,7 @@ score:
   provenance:
     conformance: first-party
   schema_version: 0.17.2
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/scalarr/refs/heads/main/screenshots/scalarr-2026-08-17T081729.png
 security:

@@ -23,7 +23,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 6.5
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
 api_count: 2
 apis:
 - description: First-party backend API for the Sollis Health Member Portal (mp.sollishealth.com), the members-only web application used to book appointments, view records and manage membership. Authentication is Mic
@@ -172,7 +172,7 @@ score:
     regime_id: health
     score: 52.5
   schema_version: 0.17.2
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
   trend: flat
 security:
 - kind: authentication

@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
 api_count: 0
 artifact_total: 0
 common:
@@ -48,7 +48,7 @@ modified: '2026-07-20'
 name: Fuego
 nav: Providers
 network: true
-overview: Fuego is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Enterprise Software, Business Process Management, BPM, and Service Oriented Architecture.
+overview: Fuego is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Enterprise Software, Business Process Management, BPM, and Service-Oriented Architecture.
 random_paper: 9
 score:
   band: minimal
@@ -78,7 +78,7 @@ score:
       reason: never_enriched
   previous_composite: 5.0
   schema_version: 0.17.2
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
   trend: flat
 slug: fuego
 tags:
@@ -86,7 +86,7 @@ tags:
 - Enterprise Software
 - Business Process Management
 - BPM
-- Service Oriented Architecture
+- Service-Oriented Architecture
 - Acquired
 - Defunct
 ---

@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
 api_count: 0
 artifact_total: 3
 common:
@@ -104,7 +104,7 @@ modified: '2026-07-21'
 name: Top Hat
 nav: Providers
 network: true
-overview: 'Top Hat is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Edtech, Education, Higher Education, and Learning Management.
+overview: 'Top Hat is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, EdTech, Education, Higher Education, and Learning Management.
 
 
   Top Hat''s developer surface includes engineering blog, pricing, support, signup flow, and 11 more developer resources.'
@@ -135,7 +135,7 @@ score:
     regime_id: education
     score: 46.3
   schema_version: 0.17.2
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
   trend: flat
 security:
 - kind: domain-security
@@ -153,7 +153,7 @@ security:
 slug: top-hat
 tags:
 - Company
-- Edtech
+- EdTech
 - Education
 - Higher Education
 - Learning Management

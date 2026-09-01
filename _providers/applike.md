@@ -23,7 +23,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 34.7
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
 api_count: 2
 apis:
 - description: Reporting API exposing the metrics behind the justtrack dashboard — acquisition tables, cohort analysis and event drill-down — as POST endpoints under /reporting/v2 (v1 also documented). Requests carr
@@ -250,7 +250,7 @@ modified: '2026-08-06'
 name: AppLike Group
 nav: Providers
 network: true
-overview: 'AppLike Group publishes 7 APIs on the [APIs.io](https://apis.io/) network, including App Partner Connection API, Appevents API, Apps API, and 4 more. Tagged areas include mobile-attribution, user-acquisition, adtech, mobile-advertising, and app-monetization.
+overview: 'AppLike Group publishes 7 APIs on the [APIs.io](https://apis.io/) network, including App Partner Connection API, Appevents API, Apps API, and 4 more. Tagged areas include Mobile Attribution, User Acquisition, AdTech, Mobile Advertising, and App Monetization.
 
 
   The AppLike Group catalog on APIs.io includes 1 event-driven AsyncAPI specification.
@@ -270,7 +270,7 @@ score:
     catalog_gap: 70.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.5
+  delta: 0.0
   facets:
     access_clarity: 53.9
     commercial_clarity: 53.9
@@ -280,7 +280,7 @@ score:
     discoverability: 75.9
     governance: 18.2
     operational_transparency: 71.1
-  previous_composite: 59.0
+  previous_composite: 58.5
   provenance:
     conformance: first-party
     contracts:
@@ -290,7 +290,7 @@ score:
       total: 7
     skills: derived
   schema_version: 0.17.2
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/applike/refs/heads/main/screenshots/applike-2026-08-07T161506.png
 security:
@@ -308,17 +308,17 @@ security:
   summary_line: trust center published
 slug: applike
 tags:
-- mobile-attribution
-- user-acquisition
-- adtech
-- mobile-advertising
-- app-monetization
+- Mobile Attribution
+- User Acquisition
+- AdTech
+- Mobile Advertising
+- App Monetization
 - rewarded-advertising
-- mobile-sdk
-- mobile-analytics
-- marketing-attribution
-- mobile-games
-- event-tracking
-- company
+- Mobile SDK
+- Mobile Analytics
+- Marketing Attribution
+- Mobile Games
+- Event Tracking
+- Company
 website: https://applike-group.com/
 ---

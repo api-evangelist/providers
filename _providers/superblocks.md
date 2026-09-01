@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 28.1
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -174,7 +174,7 @@ modified: 2026-06-12
 name: Superblocks
 nav: Providers
 network: true
-overview: 'Superblocks publishes 2 APIs on the [APIs.io](https://apis.io/) network: Applications API and Workflows API. Tagged areas include internal tools, low-code, no-code, Application, and Workflows.
+overview: 'Superblocks publishes 2 APIs on the [APIs.io](https://apis.io/) network: Applications API and Workflows API. Tagged areas include Internal Tools, Low-Code, No-Code, Application, and Workflows.
 
 
   The Superblocks catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
@@ -228,7 +228,7 @@ score:
       marker_coverage: 0.0
       total: 2
   schema_version: 0.17.2
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/superblocks/refs/heads/main/screenshots/superblocks-2026-06-20T194714.png
 security:
@@ -246,14 +246,14 @@ security:
   summary_line: SOC 2, HIPAA
 slug: superblocks
 tags:
-- internal tools
-- low-code
-- no-code
+- Internal Tools
+- Low-Code
+- No-Code
 - Application
 - Workflows
-- scheduled jobs
+- Scheduled Jobs
 - Integration
-- enterprise
+- Enterprise
 - Artificial Intelligence
 - Databases
 - REST API

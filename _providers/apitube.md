@@ -23,7 +23,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 24.0
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
 api_count: 2
 apis:
 - description: News search and retrieval — everything, top headlines, trends, companies, journalists, fact-checks and taxonomy suggestion. 26 operations, API key by header or query.
@@ -80,7 +80,7 @@ modified: '2026-08-21'
 name: APITube
 nav: Providers
 network: true
-overview: APITube publishes 7 APIs on the [APIs.io](https://apis.io/) network, including News API, Account API, Fact Check API, and 4 more. Tagged areas include News, media monitoring, news api, fact check, and journalists.
+overview: APITube publishes 7 APIs on the [APIs.io](https://apis.io/) network, including News API, Account API, Fact Check API, and 4 more. Tagged areas include News, Media Monitoring, News API, Fact Check, and Journalists.
 random_paper: 11
 score:
   band: thin
@@ -90,7 +90,7 @@ score:
     catalog_gap: 83.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.5
+  delta: 0.0
   facets:
     access_clarity: 0.0
     commercial_clarity: 0.0
@@ -100,7 +100,7 @@ score:
     discoverability: 66.7
     governance: 0.0
     operational_transparency: 0.0
-  previous_composite: 29.0
+  previous_composite: 28.5
   provenance:
     contracts:
       callable: 100.0
@@ -108,14 +108,14 @@ score:
       marker_coverage: 0.0
       total: 1
   schema_version: 0.17.2
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
   trend: flat
 slug: apitube
 tags:
 - News
-- media monitoring
-- news api
-- fact check
-- journalists
+- Media Monitoring
+- News API
+- Fact Check
+- Journalists
 website: https://apitube.io
 ---

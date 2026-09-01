@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 16.8
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
 agentic_access:
 - acting_count: 132
   human_in_the_loop: 124
@@ -51,6 +51,10 @@ apis:
   slug: soku-nexstudio-api
 artifact_total: 10
 common:
+- group: commercial
+  title: ''
+  type: License
+  url: https://github.com/About-Intelligence/soku-cli/blob/main/LICENSE
 - group: company
   title: ''
   type: Website
@@ -211,7 +215,7 @@ network: true
 overview: 'Nexad publishes 2 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Artificial Intelligence, Advertising, Marketing, and Marketing Automation.
 
 
-  Nexad''s developer surface includes documentation, API reference, getting-started guide, engineering blog, changelog, pricing, signup flow, and 29 more developer resources.'
+  Nexad''s developer surface includes documentation, API reference, getting-started guide, engineering blog, changelog, pricing, signup flow, and 30 more developer resources.'
 plans:
 - name: Nexad Plans Pricing
   plan_count: 4
@@ -246,7 +250,7 @@ score:
     mcp: first-party
     skills: first-party
   schema_version: 0.17.2
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/nexad/refs/heads/main/screenshots/nexad-2026-08-07T185142.png
 security:

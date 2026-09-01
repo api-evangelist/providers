@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
 api_count: 0
 artifact_total: 1
 common:
@@ -52,7 +52,7 @@ modified: '2026-07-19'
 name: GoatChat AI - Adaptive Plus Inc.
 nav: Providers
 network: true
-overview: GoatChat AI - Adaptive Plus Inc. is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Artificial Intelligence, Conversational AI, Chatbot, and LLM.
+overview: GoatChat AI - Adaptive Plus Inc. is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Artificial Intelligence, Conversational AI, Chatbots, and LLM.
 random_paper: 2
 score:
   band: minimal
@@ -74,7 +74,7 @@ score:
     operational_transparency: 0.0
   previous_composite: 5.0
   schema_version: 0.17.2
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/goatchat-ai-adaptive-plus-inc/refs/heads/main/screenshots/goatchat-ai-adaptive-plus-inc-2026-07-25T220001.png
 security:
@@ -87,7 +87,7 @@ tags:
 - Company
 - Artificial Intelligence
 - Conversational AI
-- Chatbot
+- Chatbots
 - LLM
 - Machine-Learning
 website: https://goat.ai

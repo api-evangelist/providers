@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 24.8
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
 agentic_access:
 - acting_count: 11
   human_in_the_loop: 1
@@ -222,7 +222,7 @@ modified: 2026-06-13
 name: Verdaccio
 nav: Providers
 network: true
-overview: 'Verdaccio publishes 8 APIs on the [APIs.io](https://apis.io/) network, including dist-tags API, packages API, profile API, and 5 more. Tagged areas include npm, Registry, package-manager, private-registry, and Proxy.
+overview: 'Verdaccio publishes 8 APIs on the [APIs.io](https://apis.io/) network, including dist-tags API, packages API, profile API, and 5 more. Tagged areas include npm, Registry, Package Manager, private-registry, and Proxy.
 
 
   The Verdaccio catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
@@ -253,7 +253,7 @@ score:
     catalog_gap: 60.8
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.5
+  delta: 0.0
   facets:
     access_clarity: 28.9
     commercial_clarity: 28.9
@@ -266,7 +266,7 @@ score:
   open_source:
     applies: true
     score: 100.0
-  previous_composite: 42.0
+  previous_composite: 41.5
   provenance:
     agentic_access: derived
     contracts:
@@ -275,7 +275,7 @@ score:
       marker_coverage: 0.0
       total: 8
   schema_version: 0.17.2
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/verdaccio/refs/heads/main/screenshots/verdaccio-2026-06-20T200918.png
 security:
@@ -291,15 +291,15 @@ slug: verdaccio
 tags:
 - npm
 - Registry
-- package-manager
+- Package Manager
 - private-registry
 - Proxy
-- nodejs
+- Node.js
 - Open-Source
-- self-hosted
-- yarn
+- Self-Hosted
+- YARN
 - pnpm
-- docker
-- kubernetes
+- Docker
+- Kubernetes
 website: https://www.verdaccio.org/
 ---

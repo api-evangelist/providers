@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
 api_count: 0
 artifact_total: 1
 common:
@@ -121,7 +121,7 @@ modified: '2026-05-23'
 name: Commonwealth Fusion Systems
 nav: Providers
 network: true
-overview: 'Commonwealth Fusion Systems is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Fusion Energy, Tokamak, SPARC, ARC, and HTS Magnets.
+overview: 'Commonwealth Fusion Systems is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Fusion Energy, Tokamak, SPARC, Arc, and HTS Magnets.
 
 
   Commonwealth Fusion Systems'' developer surface includes product news, engineering blog, YouTube channel, and 16 more developer resources.'
@@ -152,7 +152,7 @@ score:
     regime_id: energy_utilities
     score: 13.5
   schema_version: 0.17.2
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/commonwealth-fusion-systems/refs/heads/main/screenshots/commonwealth-fusion-systems-2026-06-20T174822.png
 security:
@@ -165,7 +165,7 @@ tags:
 - Fusion Energy
 - Tokamak
 - SPARC
-- ARC
+- Arc
 - HTS Magnets
 - High-Temperature Superconductors
 - REBCO

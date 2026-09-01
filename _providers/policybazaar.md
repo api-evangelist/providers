@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
 api_count: 0
 artifact_total: 1
 common:
@@ -72,7 +72,7 @@ modified: '2026-07-20'
 name: Policybazaar
 nav: Providers
 network: true
-overview: 'Policybazaar is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Fintech, Insurance, InsurTech, and Marketplace.
+overview: 'Policybazaar is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Fintech, Insurance, Insurtech, and Marketplace.
 
 
   Policybazaar''s developer surface includes support, engineering blog, and 5 more developer resources.'
@@ -103,7 +103,7 @@ score:
     regime_id: insurance
     score: 15.2
   schema_version: 0.17.2
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
   trend: flat
 security:
 - kind: domain-security
@@ -115,7 +115,7 @@ tags:
 - Company
 - Fintech
 - Insurance
-- InsurTech
+- Insurtech
 - Marketplace
 - India
 - Insurance Aggregator

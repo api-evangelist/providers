@@ -24,7 +24,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 49.1
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
 api_count: 2
 apis:
 - description: 'Hosted Model Context Protocol endpoint served from the Playable web property and advertised through RFC 9728 protected-resource metadata at playable.com/.well-known/oauth-protected-resource. Requires '
@@ -218,7 +218,7 @@ modified: '2026-08-12'
 name: Playable
 nav: Providers
 network: true
-overview: 'Playable publishes 4 APIs on the [APIs.io](https://apis.io/) network, including Campaigns API, Media API, OAUTH API, and 1 more. Tagged areas include Company, marketing-gamification, interactive-marketing, campaign-management, and zero-party-data.
+overview: 'Playable publishes 4 APIs on the [APIs.io](https://apis.io/) network, including Campaigns API, Media API, OAUTH API, and 1 more. Tagged areas include Company, marketing-gamification, interactive-marketing, Campaign Management, and Zero-Party Data.
 
 
   The Playable catalog on APIs.io includes 1 event-driven AsyncAPI specification.
@@ -247,7 +247,7 @@ score:
     catalog_gap: 58.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.6
+  delta: 0.0
   facets:
     access_clarity: 92.1
     commercial_clarity: 92.1
@@ -257,7 +257,7 @@ score:
     discoverability: 68.5
     governance: 4.5
     operational_transparency: 44.7
-  previous_composite: 61.7
+  previous_composite: 61.1
   provenance:
     conformance: derived
     contracts:
@@ -268,7 +268,7 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.17.2
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/playable/refs/heads/main/screenshots/playable-2026-08-17T080409.png
 security:
@@ -289,11 +289,11 @@ tags:
 - Company
 - marketing-gamification
 - interactive-marketing
-- campaign-management
-- zero-party-data
-- lead-generation
-- loyalty
-- martech
+- Campaign Management
+- Zero-Party Data
+- Lead Generation
+- Loyalty
+- MarTech
 - Webhook
 - Authentication
 website: https://playable.com/

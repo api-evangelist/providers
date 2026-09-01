@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
 api_count: 0
 artifact_total: 2
 common:
@@ -130,7 +130,7 @@ modified: '2026-05-25'
 name: Nile
 nav: Providers
 network: true
-overview: 'Nile is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Networking, Enterprise Networking, Network As A Service, NaaS, and Wi-Fi.
+overview: 'Nile is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Networking, Enterprise Networking, Network as a Service, NaaS, and Wi-Fi.
 
 
   The Nile catalog on APIs.io includes 1 JSON-LD context.
@@ -158,7 +158,7 @@ score:
     operational_transparency: 0.0
   previous_composite: 13.0
   schema_version: 0.17.2
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/nile-com/refs/heads/main/screenshots/nile-com-2026-06-20T190325.png
 security:
@@ -170,7 +170,7 @@ slug: nile-com
 tags:
 - Networking
 - Enterprise Networking
-- Network As A Service
+- Network as a Service
 - NaaS
 - Wi-Fi
 - LAN
@@ -185,7 +185,7 @@ tags:
 - AIOps
 - AI Native Networking
 - Autonomous Networking
-- Cloud Managed Networking
+- Cloud-Managed Networking
 - Digital Twin
 - Webhook
 website: https://nilesecure.com

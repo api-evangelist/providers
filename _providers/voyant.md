@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 38.1
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
 agentic_access:
 - acting_count: 350
   human_in_the_loop: 4
@@ -474,7 +474,7 @@ modified: '2026-08-13'
 name: Voyant.io
 nav: Providers
 network: true
-overview: 'Voyant.io publishes 98 APIs on the [APIs.io](https://apis.io/) network, including Admin API, Admin Migration API, AI Assistant API, and 95 more. Tagged areas include artificial-intelligence, context-management, brand-governance, product-marketing, and gtm-operations.
+overview: 'Voyant.io publishes 98 APIs on the [APIs.io](https://apis.io/) network, including Admin API, Admin Migration API, AI Assistant API, and 95 more. Tagged areas include Artificial Intelligence, Context Management, Brand Governance, Product Marketing, and gtm-operations.
 
 
   The Voyant.io catalog on APIs.io includes 1 event-driven AsyncAPI specification.
@@ -498,7 +498,7 @@ score:
     catalog_gap: 71.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.5
+  delta: 0.0
   facets:
     access_clarity: 38.2
     commercial_clarity: 38.2
@@ -508,7 +508,7 @@ score:
     discoverability: 51.9
     governance: 4.5
     operational_transparency: 26.3
-  previous_composite: 41.4
+  previous_composite: 40.9
   provenance:
     agentic_access: derived
     conformance: derived
@@ -520,7 +520,7 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.17.2
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/voyant/refs/heads/main/screenshots/voyant-2026-08-17T082904.png
 security:
@@ -534,15 +534,15 @@ security:
   summary_line: TLSv1.3 · HSTS · DMARC
 slug: voyant
 tags:
-- artificial-intelligence
-- context-management
-- brand-governance
-- product-marketing
+- Artificial Intelligence
+- Context Management
+- Brand Governance
+- Product Marketing
 - gtm-operations
-- marketing-automation
-- content-generation
+- Marketing Automation
+- Content Generation
 - Competitive Intelligence
-- semantic-search
+- Semantic Search
 - RAG
 - MCP
 - agent-native

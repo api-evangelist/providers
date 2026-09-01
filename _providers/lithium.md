@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 35.7
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
 api_count: 28
 apis:
 - description: The Lithium/Khoros Community platform API. Version 2 is driven by LiQL (Lithium Query Language), a SQL-like query language over community objects such as messages, users, boards and categories; the le
@@ -844,7 +844,7 @@ modified: '2026-08-13'
 name: Lithium
 nav: Providers
 network: true
-overview: 'Lithium publishes 99 APIs on the [APIs.io](https://apis.io/) network, including AccountSet API, Active API, Admin API, and 96 more. Tagged areas include Company, Martech, Community, Social-Media, and Customer Engagement.
+overview: 'Lithium publishes 99 APIs on the [APIs.io](https://apis.io/) network, including AccountSet API, Active API, Admin API, and 96 more. Tagged areas include Company, MarTech, Community, Social-Media, and Customer Engagement.
 
 
   The Lithium catalog on APIs.io includes 1 event-driven AsyncAPI specification.
@@ -894,7 +894,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.17.2
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/lithium/refs/heads/main/screenshots/lithium-2026-07-25T225335.png
 security:
@@ -917,7 +917,7 @@ security:
 slug: lithium
 tags:
 - Company
-- Martech
+- MarTech
 - Community
 - Social-Media
 - Customer Engagement

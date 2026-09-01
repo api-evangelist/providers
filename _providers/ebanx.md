@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 23.8
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
 agentic_access:
 - acting_count: 29
   human_in_the_loop: 0
@@ -162,7 +162,7 @@ modified: '2026-05-24'
 name: EBANX
 nav: Providers
 network: true
-overview: 'EBANX publishes 6 APIs on the [APIs.io](https://apis.io/) network, including Tokenization API, FX API, Payment Notifications, and 3 more. Tagged areas include Payments, Pay-in, Payouts, Foreign Exchange, and Tokenization.
+overview: 'EBANX publishes 6 APIs on the [APIs.io](https://apis.io/) network, including Tokenization API, FX API, Payment Notifications, and 3 more. Tagged areas include Payments, Pay-In, Payouts, Foreign Exchange, and Tokenization.
 
 
   The EBANX catalog on APIs.io includes 1 event-driven AsyncAPI specification, 1 JSON-LD context, and 3 Spectral governance rulesets.
@@ -244,7 +244,7 @@ score:
     regime_id: payments
     score: 40.6
   schema_version: 0.17.2
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/ebanx/refs/heads/main/screenshots/ebanx-2026-06-20T180446.png
 security:
@@ -263,11 +263,11 @@ security:
 slug: ebanx
 tags:
 - Payments
-- Pay-in
+- Pay-In
 - Payouts
 - Foreign Exchange
 - Tokenization
-- LATAM
+- LatAm
 - Emerging Markets
 - Pix
 - Boleto

@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
 agentic_access:
 - acting_count: 4
   human_in_the_loop: 0
@@ -269,7 +269,7 @@ modified: '2026-04-19'
 name: AmTrust Financial Services
 nav: Providers
 network: true
-overview: 'AmTrust Financial Services publishes 4 APIs on the [APIs.io](https://apis.io/) network, including Appetite API, Authentication API, Policies API, and 1 more. Tagged areas include Commercial Insurance, Insurance, Property And Casualty, Small Business, and Workers Compensation.
+overview: 'AmTrust Financial Services publishes 4 APIs on the [APIs.io](https://apis.io/) network, including Appetite API, Authentication API, Policies API, and 1 more. Tagged areas include Commercial Insurance, Insurance, Property and Casualty, Small Business, and Workers Compensation.
 
 
   The AmTrust Financial Services catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
@@ -356,7 +356,7 @@ score:
     regime_id: insurance
     score: 34.8
   schema_version: 0.17.2
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/amtrust-financial-services/refs/heads/main/screenshots/amtrust-financial-services-2026-06-20T171943.png
 security:
@@ -376,7 +376,7 @@ slug: amtrust-financial-services
 tags:
 - Commercial Insurance
 - Insurance
-- Property And Casualty
+- Property and Casualty
 - Small Business
 - Workers Compensation
 - Fortune 1000

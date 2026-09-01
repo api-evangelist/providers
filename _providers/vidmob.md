@@ -23,7 +23,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 54.1
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -206,7 +206,7 @@ modified: '2026-08-05'
 name: VidMob
 nav: Providers
 network: true
-overview: 'VidMob publishes 4 APIs on the [APIs.io](https://apis.io/) network, including Media API, Organization API, Scoring API, and 1 more. Tagged areas include creative-intelligence, creative-data, Advertising, Marketing, and media-measurement.
+overview: 'VidMob publishes 4 APIs on the [APIs.io](https://apis.io/) network, including Media API, Organization API, Scoring API, and 1 more. Tagged areas include Creative Intelligence, creative-data, Advertising, Marketing, and Media Measurement.
 
 
   VidMob''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, signup flow, authentication, and 24 more developer resources.'
@@ -246,7 +246,7 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.17.2
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/vidmob/refs/heads/main/screenshots/vidmob-2026-08-17T082749.png
 security:
@@ -264,17 +264,17 @@ security:
   summary_line: trust center published
 slug: vidmob
 tags:
-- creative-intelligence
+- Creative Intelligence
 - creative-data
 - Advertising
 - Marketing
-- media-measurement
+- Media Measurement
 - Video
-- computer-vision
-- creative-analytics
-- adtech
+- Computer-Vision
+- Creative Analytics
+- AdTech
 - MCP
 - agent-native
-- martech
+- MarTech
 website: https://vidmob.com/
 ---

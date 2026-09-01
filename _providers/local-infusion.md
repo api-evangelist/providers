@@ -24,7 +24,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 44.6
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
 api_count: 5
 apis:
 - description: WordPress core content API (posts, pages, media, taxonomies, settings) plus the site's `location` custom post type, which carries the company's public infusion-center directory. Read access to publish
@@ -226,7 +226,7 @@ score:
     regime_id: health
     score: 65.0
   schema_version: 0.17.2
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
   trend: flat
 security:
 - kind: authentication

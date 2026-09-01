@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
 api_count: 0
 artifact_total: 0
 common:
@@ -48,7 +48,7 @@ modified: '2026-07-20'
 name: Luma Home
 nav: Providers
 network: true
-overview: Luma Home is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Smart Home, Networking, WiFi, and Consumer Hardware.
+overview: Luma Home is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Smart Home, Networking, Wi-Fi, and Consumer Hardware.
 random_paper: 19
 score:
   band: minimal
@@ -78,14 +78,14 @@ score:
       reason: never_enriched
   previous_composite: 5.0
   schema_version: 0.17.2
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
   trend: flat
 slug: luma-home
 tags:
 - Company
 - Smart Home
 - Networking
-- WiFi
+- Wi-Fi
 - Consumer Hardware
 - IoT
 ---

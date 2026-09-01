@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
 api_count: 0
 artifact_total: 1
 common:
@@ -52,7 +52,7 @@ modified: '2026-07-21'
 name: Verse Medical
 nav: Providers
 network: true
-overview: Verse Medical is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Healthtech, Durable Medical Equipment, Home Healthcare, and Medical Supplies.
+overview: Verse Medical is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Health Tech, Durable Medical Equipment, Home Healthcare, and Medical Supplies.
 random_paper: 11
 score:
   band: minimal
@@ -80,7 +80,7 @@ score:
     regime_id: health
     score: 7.5
   schema_version: 0.17.2
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
   trend: flat
 security:
 - kind: domain-security
@@ -90,7 +90,7 @@ security:
 slug: verse-medical
 tags:
 - Company
-- Healthtech
+- Health Tech
 - Durable Medical Equipment
 - Home Healthcare
 - Medical Supplies

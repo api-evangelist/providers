@@ -23,7 +23,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 11.4
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
 api_count: 1
 apis:
 - description: Two HundredX-operated Model Context Protocol servers reachable on the public internet — "HX BigQuery MCP Server" 2.0.0 at hx-bigquery-mcp.hundredx.com and "Jupyter MCP Server" 2.0.0 at jupyter-mcp.hun
@@ -127,7 +127,7 @@ modified: '2026-08-22'
 name: HundredX
 nav: Providers
 network: true
-overview: 'HundredX publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include customer-experience, consumer-insights, market-research, alternative-data, and investment-research.
+overview: 'HundredX publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Customer Experience, Consumer Insights, Market Research, Alternative Data, and Investment Research.
 
 
   HundredX''s developer surface includes support, engineering blog, authentication, and 18 more developer resources.'
@@ -168,7 +168,7 @@ score:
     conformance: first-party
     mcp: first-party
   schema_version: 0.17.2
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
   trend: flat
 security:
 - kind: authentication
@@ -185,11 +185,11 @@ security:
   summary_line: security.txt · contact published
 slug: hundredx
 tags:
-- customer-experience
-- consumer-insights
-- market-research
-- alternative-data
-- investment-research
-- data-licensing
+- Customer Experience
+- Consumer Insights
+- Market Research
+- Alternative Data
+- Investment Research
+- Data Licensing
 website: https://hundredx.com/
 ---

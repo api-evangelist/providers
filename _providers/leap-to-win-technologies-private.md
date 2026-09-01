@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
 api_count: 1
 apis:
 - description: 'Undocumented, authentication-required API gateway serving the Propico web application. Observed on 2026-07-19: an unauthenticated GET /health returns 200 and reports a gateway fronting four internal s'
@@ -93,7 +93,7 @@ modified: '2026-07-20'
 name: Leap To Win Technologies Private
 nav: Providers
 network: true
-overview: 'Leap To Win Technologies Private publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Real-Estate, PropTech, Property Management, and Rental.
+overview: 'Leap To Win Technologies Private publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Real-Estate, PropTech, Property Management, and Rentals.
 
 
   Leap To Win Technologies Private''s developer surface includes support, engineering blog, signup flow, and 8 more developer resources.'
@@ -124,7 +124,7 @@ score:
     regime_id: insurance
     score: 9.1
   schema_version: 0.17.2
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/leap-to-win-technologies-private/refs/heads/main/screenshots/leap-to-win-technologies-private-2026-07-25T224746.png
 security:
@@ -138,7 +138,7 @@ tags:
 - Real-Estate
 - PropTech
 - Property Management
-- Rental
+- Rentals
 - Insurance
 - India
 - Consumer

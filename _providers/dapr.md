@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 18.3
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
 agentic_access:
 - acting_count: 33
   human_in_the_loop: 1
@@ -287,7 +287,7 @@ modified: '2026-05-19'
 name: Dapr
 nav: Providers
 network: true
-overview: 'Dapr publishes 13 APIs on the [APIs.io](https://apis.io/) network, including Actors API, Bindings API, Configuration API, and 10 more. Tagged areas include Distributed Systems, Microservices, Platform, Pub/Sub, and State Management.
+overview: 'Dapr publishes 13 APIs on the [APIs.io](https://apis.io/) network, including Actors API, Bindings API, Configuration API, and 10 more. Tagged areas include Distributed Systems, Microservices, Platform, Pub-Sub, and State Management.
 
 
   The Dapr catalog on APIs.io includes 1 event-driven AsyncAPI specification, 1 JSON-LD context, and 3 Spectral governance rulesets.
@@ -363,7 +363,7 @@ score:
       marker_coverage: 0.0
       total: 13
   schema_version: 0.17.2
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/dapr/refs/heads/main/screenshots/dapr-2026-06-20T175454.png
 security:
@@ -376,7 +376,7 @@ tags:
 - Distributed Systems
 - Microservices
 - Platform
-- Pub/Sub
+- Pub-Sub
 - State Management
 - Workflows
 website: https://dapr.io/

@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
 api_count: 0
 artifact_total: 1
 common:
@@ -121,7 +121,7 @@ modified: '2026-05-24'
 name: Tractable
 nav: Providers
 network: true
-overview: 'Tractable is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Insurance, InsurTech, Claims, Auto Insurance, and Property Insurance.
+overview: 'Tractable is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Insurance, Insurtech, Claims, Auto Insurance, and Property Insurance.
 
 
   Tractable''s developer surface includes product news, YouTube channel, engineering blog, and 16 more developer resources.'
@@ -152,7 +152,7 @@ score:
     regime_id: insurance
     score: 9.1
   schema_version: 0.17.2
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/tractable/refs/heads/main/screenshots/tractable-2026-06-20T195521.png
 security:
@@ -163,7 +163,7 @@ security:
 slug: tractable
 tags:
 - Insurance
-- InsurTech
+- Insurtech
 - Claims
 - Auto Insurance
 - Property Insurance

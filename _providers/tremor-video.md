@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 22.7
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
 api_count: 5
 apis:
 - description: REST API for the Nexxen DSP (formerly Amobee / Tremor Video DSP) Campaign Management service — advertisers, insertion orders, packages, line items, ads, creatives, audience segments, retargeting segme
@@ -179,7 +179,7 @@ modified: '2026-08-13'
 name: Tremor Video
 nav: Providers
 network: true
-overview: 'Tremor Video publishes 5 APIs on the [APIs.io](https://apis.io/) network, including Nexxen DSP API, Nexxen DSP Token Service, Nexxen DSP Reporting API, and 2 more. Tagged areas include Company, Martech, Advertising, AdTech, and DSP.
+overview: 'Tremor Video publishes 5 APIs on the [APIs.io](https://apis.io/) network, including Nexxen DSP API, Nexxen DSP Token Service, Nexxen DSP Reporting API, and 2 more. Tagged areas include Company, MarTech, Advertising, AdTech, and DSP.
 
 
   Tremor Video''s developer surface includes documentation, API reference, getting-started guide, authentication, code examples, engineering blog, support, and 21 more developer resources.'
@@ -221,7 +221,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.17.2
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
   trend: flat
 security:
 - kind: authentication
@@ -235,7 +235,7 @@ security:
 slug: tremor-video
 tags:
 - Company
-- Martech
+- MarTech
 - Advertising
 - AdTech
 - DSP

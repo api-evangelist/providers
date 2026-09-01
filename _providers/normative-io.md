@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
 api_count: 0
 artifact_total: 3
 common:
@@ -154,7 +154,7 @@ score:
     operational_transparency: 5.3
   previous_composite: 9.4
   schema_version: 0.17.2
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/normative-io/refs/heads/main/screenshots/normative-io-2026-06-20T190412.png
 security:
@@ -184,6 +184,6 @@ tags:
 - Supply Chain
 - Climate Tech
 - Net Zero
-- Enterprise SaaS
+- Enterprise Saas
 website: https://normative.io
 ---

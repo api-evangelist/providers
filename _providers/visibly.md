@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
 api_count: 0
 artifact_total: 1
 common:
@@ -72,7 +72,7 @@ modified: '2026-07-21'
 name: Visibly
 nav: Providers
 network: true
-overview: 'Visibly is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Saas, Compliance, Workforce Management, and Health and Safety.
+overview: 'Visibly is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Software-as-a-Service, Compliance, Workforce Management, and Health and Safety.
 
 
   Visibly''s developer surface includes pricing, support, and 5 more developer resources.'
@@ -103,7 +103,7 @@ score:
     regime_id: health
     score: 17.5
   schema_version: 0.17.2
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
   trend: flat
 security:
 - kind: domain-security
@@ -113,7 +113,7 @@ security:
 slug: visibly
 tags:
 - Company
-- Saas
+- Software-as-a-Service
 - Compliance
 - Workforce Management
 - Health and Safety

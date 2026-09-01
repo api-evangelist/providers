@@ -23,7 +23,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 47.5
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
 agentic_access:
 - acting_count: 8
   human_in_the_loop: 1
@@ -156,7 +156,7 @@ modified: '2026-07-31'
 name: Olipop
 nav: Providers
 network: true
-overview: 'Olipop publishes 3 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include beverage, consumer-packaged-goods, direct-to-consumer, E-Commerce, and Retail.
+overview: 'Olipop publishes 3 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Beverage, Consumer Packaged Goods, Direct to Consumer, E-Commerce, and Retail.
 
 
   Olipop''s developer surface includes documentation, support, engineering blog, signup flow, authentication, and 20 more developer resources.'
@@ -191,7 +191,7 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.17.2
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/olipop/refs/heads/main/screenshots/olipop-2026-08-07T190120.png
 security:
@@ -205,17 +205,17 @@ security:
   summary_line: TLSv1.3 · HSTS · DMARC
 slug: olipop
 tags:
-- beverage
-- consumer-packaged-goods
-- direct-to-consumer
+- Beverage
+- Consumer Packaged Goods
+- Direct to Consumer
 - E-Commerce
 - Retail
-- agent-commerce
-- universal-commerce-protocol
+- Agent Commerce
+- Universal Commerce Protocol
 - MCP
-- graphql
-- shopify
+- GraphQL
+- Shopify
 - prebiotic-soda
-- functional-beverage
+- Functional Beverage
 website: https://drinkolipop.com/
 ---

@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 18.0
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
 api_count: 3
 apis:
 - description: 'A public, keyless JSON endpoint served by the university''s own website CMS at www.wgtn.ac.nz/api/globalobject. It returns the global site object every page is built from: canonical base URLs including'
@@ -257,7 +257,7 @@ score:
     catalog_gap: 35.3
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: 14.3
+  delta: 0.0
   facets:
     access_clarity: 50.0
     commercial_clarity: 50.0
@@ -267,7 +267,7 @@ score:
     discoverability: 74.1
     governance: 11.4
     operational_transparency: 23.7
-  previous_composite: 33.0
+  previous_composite: 47.3
   provenance:
     agentic_access: derived
     contracts:
@@ -282,8 +282,8 @@ score:
     regime_id: education
     score: 53.7
   schema_version: 0.17.2
-  scored_at: '2026-08-30'
-  trend: rising
+  scored_at: '2026-09-01'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/victoria-university-of-wellington/refs/heads/main/screenshots/victoria-university-of-wellington-2026-06-20T201017.png
 security:
 - kind: authentication

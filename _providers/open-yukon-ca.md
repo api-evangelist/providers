@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 2.5
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
 api_count: 1
 apis:
 - description: CKAN Action API for Yukon Open Data, a consistent JSON-over-HTTP interface over a catalog of 3,773 datasets. Standard actions include package_search, package_show, package_list, organization_list, gro
@@ -124,7 +124,7 @@ score:
     regime_id: government
     score: 22.2
   schema_version: 0.17.2
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/open-yukon-ca/refs/heads/main/screenshots/open-yukon-ca-2026-06-20T190859.png
 security:

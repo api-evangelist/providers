@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 17.3
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -107,7 +107,7 @@ modified: '2026-05-19'
 name: Google Assistant
 nav: Providers
 network: true
-overview: 'Google Assistant publishes 1 API on the [APIs.io](https://apis.io/) network: Assistant API. Tagged areas include Actions on Google, Conversational AI, Google Assistant, Natural Language, and Smart Home.
+overview: 'Google Assistant publishes 1 API on the [APIs.io](https://apis.io/) network: Assistant API. Tagged areas include Actions on Google, Conversational AI, Google Assistant, Natural-Language, and Smart Home.
 
 
   The Google Assistant catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
@@ -167,7 +167,7 @@ score:
       marker_coverage: 0.0
       total: 1
   schema_version: 0.17.2
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/google-assistant/refs/heads/main/screenshots/google-assistant-2026-06-20T182023.png
 security:
@@ -184,7 +184,7 @@ tags:
 - Actions on Google
 - Conversational AI
 - Google Assistant
-- Natural Language
+- Natural-Language
 - Smart Home
 - Voice Assistant
 ---

@@ -23,7 +23,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 38.2
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
 agentic_access:
 - acting_count: 198
   human_in_the_loop: 4
@@ -588,7 +588,7 @@ modified: '2026-08-04'
 name: Crusoe
 nav: Providers
 network: true
-overview: 'Crusoe publishes 61 APIs on the [APIs.io](https://apis.io/) network, including Audit Logs API, AutoCluster Operations API, Auto Clusters API, and 58 more. Tagged areas include ai-infrastructure, cloud-computing, gpu-compute, machine-learning, and Inference.
+overview: 'Crusoe publishes 61 APIs on the [APIs.io](https://apis.io/) network, including Audit Logs API, AutoCluster Operations API, Auto Clusters API, and 58 more. Tagged areas include AI Infrastructure, Cloud Computing, GPU Compute, Machine-Learning, and Inference.
 
 
   The Crusoe catalog on APIs.io includes 1 event-driven AsyncAPI specification.
@@ -604,7 +604,7 @@ score:
     catalog_gap: 81.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -3.5
+  delta: 0.0
   facets:
     access_clarity: 36.8
     commercial_clarity: 36.8
@@ -614,7 +614,7 @@ score:
     discoverability: 70.4
     governance: 4.5
     operational_transparency: 55.3
-  previous_composite: 58.0
+  previous_composite: 54.5
   provenance:
     agentic_access: derived
     conformance: derived
@@ -632,7 +632,7 @@ score:
     regime_id: energy_utilities
     score: 43.2
   schema_version: 0.17.2
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/crusoe/refs/heads/main/screenshots/crusoe-2026-08-07T163934.png
 security:
@@ -654,14 +654,14 @@ security:
   summary_line: SOC 2 Type II, SOC 2 Type I, ISO 27001, ISO 42001, GDPR
 slug: crusoe
 tags:
-- ai-infrastructure
-- cloud-computing
-- gpu-compute
-- machine-learning
+- AI Infrastructure
+- Cloud Computing
+- GPU Compute
+- Machine-Learning
 - Inference
-- kubernetes
-- object-storage
-- infrastructure-as-a-service
+- Kubernetes
+- Object Storage
+- Infrastructure-as-a-Service
 - Energy
 - MCP
 website: https://www.crusoe.ai/

@@ -23,7 +23,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
 api_count: 2
 apis:
 - description: 'OGC-standard web services served from a GeoServer instance. Verified anonymously on 2026-08-20: a WMS 1.3.0 GetCapabilities document declaring 48 layers and a WFS 2.0.0 GetCapabilities document declar'
@@ -67,7 +67,7 @@ score:
     operational_transparency: 0.0
   previous_composite: 7.8
   schema_version: 0.17.2
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
   trend: flat
 slug: geocat
 tags:

@@ -23,7 +23,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
 api_count: 0
 artifact_total: 2
 common:
@@ -107,7 +107,7 @@ modified: '2026-08-12'
 name: Carrd
 nav: Providers
 network: true
-overview: 'Carrd is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Website Builder, No Code, Landing Pages, and Web Hosting.
+overview: 'Carrd is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Website Builder, No-Code, Landing Pages, and Web Hosting.
 
 
   Carrd''s developer surface includes documentation, getting-started guide, support, pricing, signup flow, changelog, and 8 more developer resources.'
@@ -136,7 +136,7 @@ score:
     operational_transparency: 15.8
   previous_composite: 27.6
   schema_version: 0.17.2
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
   trend: flat
 security:
 - kind: domain-security
@@ -147,7 +147,7 @@ slug: carrd
 tags:
 - Company
 - Website Builder
-- No Code
+- No-Code
 - Landing Pages
 - Web Hosting
 - Site Builder

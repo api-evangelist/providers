@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 24.4
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -183,7 +183,7 @@ modified: '2026-07-20'
 name: Mashvisor
 nav: Providers
 network: true
-overview: 'Mashvisor publishes 5 APIs on the [APIs.io](https://apis.io/) network, including Investment Analysis API, Property Info API, Rental Rates API, and 2 more. Tagged areas include Company, Real-Estate, Property Data, Analytics, and Rental.
+overview: 'Mashvisor publishes 5 APIs on the [APIs.io](https://apis.io/) network, including Investment Analysis API, Property Info API, Rental Rates API, and 2 more. Tagged areas include Company, Real-Estate, Property Data, Analytics, and Rentals.
 
 
   Mashvisor''s developer surface includes documentation, API reference, getting-started guide, pricing, signup flow, engineering blog, support, and 16 more developer resources.'
@@ -196,7 +196,7 @@ score:
     catalog_gap: 78.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.6
+  delta: 0.0
   facets:
     access_clarity: 23.7
     commercial_clarity: 23.7
@@ -206,7 +206,7 @@ score:
     discoverability: 75.9
     governance: 4.5
     operational_transparency: 0.0
-  previous_composite: 34.9
+  previous_composite: 34.3
   provenance:
     agentic_access: derived
     conformance: derived
@@ -218,7 +218,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.17.2
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/mashvisor/refs/heads/main/screenshots/mashvisor-2026-07-25T230328.png
 security:
@@ -236,7 +236,7 @@ tags:
 - Real-Estate
 - Property Data
 - Analytics
-- Rental
+- Rentals
 - Airbnb
 - Investment
 - MLS

@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 31.8
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
 agentic_access:
 - acting_count: 46
   human_in_the_loop: 2
@@ -326,7 +326,7 @@ modified: '2026-07-20'
 name: Prewave
 nav: Providers
 network: true
-overview: 'Prewave publishes 25 APIs on the [APIs.io](https://apis.io/) network, including Actions API, Alerts API, Collections - Management API, and 22 more. Tagged areas include Company, Saas, Supply Chain, Risk Intelligence, and Sustainability.
+overview: 'Prewave publishes 25 APIs on the [APIs.io](https://apis.io/) network, including Actions API, Alerts API, Collections - Management API, and 22 more. Tagged areas include Company, Software-as-a-Service, Supply Chain, Risk Intelligence, and Sustainability.
 
 
   Prewave''s developer surface includes documentation, API reference, engineering blog, changelog, authentication, and 22 more developer resources.'
@@ -339,7 +339,7 @@ score:
     catalog_gap: 78.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.6
+  delta: 0.0
   facets:
     access_clarity: 28.9
     commercial_clarity: 28.9
@@ -349,7 +349,7 @@ score:
     discoverability: 75.9
     governance: 4.5
     operational_transparency: 26.3
-  previous_composite: 41.0
+  previous_composite: 40.4
   provenance:
     agentic_access: derived
     conformance: derived
@@ -361,7 +361,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.17.2
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/prewave/refs/heads/main/screenshots/prewave-2026-08-17T081335.png
 security:
@@ -380,7 +380,7 @@ security:
 slug: prewave
 tags:
 - Company
-- Saas
+- Software-as-a-Service
 - Supply Chain
 - Risk Intelligence
 - Sustainability

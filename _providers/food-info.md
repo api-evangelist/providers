@@ -23,7 +23,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 27.7
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -175,7 +175,7 @@ modified: '2026-08-04'
 name: Food Info
 nav: Providers
 network: true
-overview: 'Food Info publishes 2 APIs on the [APIs.io](https://apis.io/) network: API V1 API and Recipes API API. Tagged areas include Nutrition, Food, Food Composition, Nutrients, and Data.
+overview: 'Food Info publishes 2 APIs on the [APIs.io](https://apis.io/) network: API V1 API and Recipes API API. Tagged areas include Nutrition, Food, food-composition, Nutrients, and Data.
 
 
   Food Info''s developer surface includes documentation, authentication, support, code examples, and 24 more developer resources.'
@@ -224,7 +224,7 @@ score:
     regime_id: health
     score: 38.8
   schema_version: 0.17.2
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
   trend: flat
 security:
 - kind: authentication
@@ -243,7 +243,7 @@ slug: food-info
 tags:
 - Nutrition
 - Food
-- Food Composition
+- food-composition
 - Nutrients
 - Data
 - Open Data

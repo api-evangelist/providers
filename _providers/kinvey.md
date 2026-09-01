@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
 api_count: 0
 artifact_total: 1
 common:
@@ -76,7 +76,7 @@ modified: '2026-07-19'
 name: Kinvey
 nav: Providers
 network: true
-overview: 'Kinvey is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Backend as a Service, BaaS, Mobile, and SDK.
+overview: 'Kinvey is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Backend-as-a-Service, Mobile, SDK, and Serverless.
 
 
   Kinvey''s developer surface includes CLI and 7 more developer resources.'
@@ -101,7 +101,7 @@ score:
     operational_transparency: 2.6
   previous_composite: 8.9
   schema_version: 0.17.2
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
   trend: flat
 security:
 - kind: domain-security
@@ -111,8 +111,7 @@ security:
 slug: kinvey
 tags:
 - Company
-- Backend as a Service
-- BaaS
+- Backend-as-a-Service
 - Mobile
 - SDK
 - Serverless

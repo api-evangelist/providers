@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
 agentic_access:
 - acting_count: 8
   human_in_the_loop: 0
@@ -137,7 +137,7 @@ modified: '2026-06-20'
 name: Glide
 nav: Providers
 network: true
-overview: 'Glide publishes 4 APIs on the [APIs.io](https://apis.io/) network, including Queries API, Rows API, Stashes API, and 1 more. Tagged areas include No Code, App Builder, Tables, Big Tables, and Data.
+overview: 'Glide publishes 4 APIs on the [APIs.io](https://apis.io/) network, including Queries API, Rows API, Stashes API, and 1 more. Tagged areas include No-Code, App Builder, Tables, Big Tables, and Data.
 
 
   Glide''s developer surface includes authentication, documentation, engineering blog, and 9 more developer resources.'
@@ -158,7 +158,7 @@ score:
     catalog_gap: 51.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.6
+  delta: 0.0
   facets:
     access_clarity: 47.4
     commercial_clarity: 47.4
@@ -168,7 +168,7 @@ score:
     discoverability: 68.5
     governance: 0.0
     operational_transparency: 34.2
-  previous_composite: 42.7
+  previous_composite: 42.1
   provenance:
     agentic_access: derived
     contracts:
@@ -177,7 +177,7 @@ score:
       marker_coverage: 0.0
       total: 4
   schema_version: 0.17.2
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/glide-apps/refs/heads/main/screenshots/glide-apps-2026-06-20T181910.png
 security:
@@ -195,7 +195,7 @@ security:
   summary_line: SOC 2, ISO 27001, FedRAMP, GDPR
 slug: glide-apps
 tags:
-- No Code
+- No-Code
 - App Builder
 - Tables
 - Big Tables

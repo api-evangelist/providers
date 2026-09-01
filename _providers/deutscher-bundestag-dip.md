@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
 api_count: 1
 apis:
 - description: This API provides read access to DIP entities (e.g. activities, persons, printed material)
@@ -92,7 +92,7 @@ score:
     regime_id: government
     score: 22.2
   schema_version: 0.17.2
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/deutscher-bundestag-dip/refs/heads/main/screenshots/deutscher-bundestag-dip-2026-06-20T175945.png
 security:

@@ -23,7 +23,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 34.0
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
 api_count: 35
 apis:
 - description: SafeIQ brand safety timeline API
@@ -289,7 +289,7 @@ modified: '2026-08-11'
 name: CreatorIQ
 nav: Providers
 network: true
-overview: 'CreatorIQ publishes 20 APIs on the [APIs.io](https://apis.io/) network, including Brand Safety API, Campaign API, and 18 more. Tagged areas include influencer-marketing, creator-economy, social-media, Marketing, and campaign-management.
+overview: 'CreatorIQ publishes 20 APIs on the [APIs.io](https://apis.io/) network, including Brand Safety API, Campaign API, and 18 more. Tagged areas include Influencer Marketing, Creator Economy, Social-Media, Marketing, and Campaign Management.
 
 
   The CreatorIQ catalog on APIs.io includes 1 event-driven AsyncAPI specification.
@@ -346,7 +346,7 @@ score:
     regime_id: payments
     score: 56.3
   schema_version: 0.17.2
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/creatoriq/refs/heads/main/screenshots/creatoriq-2026-08-17T080838.png
 security:
@@ -368,15 +368,15 @@ security:
   summary_line: ISO/IEC 27001:2022
 slug: creatoriq
 tags:
-- influencer-marketing
-- creator-economy
-- social-media
+- Influencer Marketing
+- Creator Economy
+- Social-Media
 - Marketing
-- campaign-management
+- Campaign Management
 - creator-crm
-- social-analytics
-- brand-safety
-- affiliate-marketing
+- Social Analytics
+- Brand Safety
+- Affiliate Marketing
 - creator-payments
 - E-Commerce
 - Reporting

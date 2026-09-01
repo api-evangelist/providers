@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 58.1
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
 agentic_access:
 - acting_count: 70
   human_in_the_loop: 0
@@ -230,7 +230,7 @@ modified: '2026-08-14'
 name: Harmonic.ai
 nav: Providers
 network: true
-overview: 'Harmonic.ai publishes 1 API on the [APIs.io](https://apis.io/) network: Harmonic REST & GraphQL API. Tagged areas include startup-intelligence, venture-capital, company-data, people-data, and investor-data.
+overview: 'Harmonic.ai publishes 1 API on the [APIs.io](https://apis.io/) network: Harmonic REST & GraphQL API. Tagged areas include Startup Intelligence, Venture Capital, Company Data, People Data, and investor-data.
 
 
   The Harmonic.ai catalog on APIs.io includes 1 event-driven AsyncAPI specification.
@@ -281,7 +281,7 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.17.2
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/harmonic-ai/refs/heads/main/screenshots/harmonic-ai-2026-07-25T220821.png
 security:
@@ -299,16 +299,16 @@ security:
   summary_line: Hackerone
 slug: harmonic-ai
 tags:
-- startup-intelligence
-- venture-capital
-- company-data
-- people-data
+- Startup Intelligence
+- Venture Capital
+- Company Data
+- People Data
 - investor-data
-- funding-data
+- Funding Data
 - Data Enrichment
-- sales-intelligence
+- Sales Intelligence
 - Market Intelligence
-- graphql
+- GraphQL
 - MCP
 - agent-native
 website: https://console.harmonic.ai/

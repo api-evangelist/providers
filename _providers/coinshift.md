@@ -23,7 +23,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
 api_count: 0
 artifact_total: 1
 common:
@@ -100,7 +100,7 @@ modified: '2026-08-09'
 name: Coinshift
 nav: Providers
 network: true
-overview: 'Coinshift is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, crypto-treasury-management, digital-assets, decentralized-finance, and stablecoins.
+overview: 'Coinshift is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, crypto-treasury-management, Digital Assets, Decentralized Finance, and Stablecoins.
 
 
   Coinshift''s developer surface includes documentation, getting-started guide, support, signup flow, and 8 more developer resources.'
@@ -133,7 +133,7 @@ score:
     regime_id: payments
     score: 17.2
   schema_version: 0.17.2
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
   trend: flat
 security:
 - kind: domain-security
@@ -144,15 +144,15 @@ slug: coinshift
 tags:
 - Company
 - crypto-treasury-management
-- digital-assets
-- decentralized-finance
-- stablecoins
-- multisig
+- Digital Assets
+- Decentralized Finance
+- Stablecoins
+- Multisig
 - Payments
 - Payouts
-- accounting
+- Accounting
 - Web3
-- ethereum
+- Ethereum
 - daos
 website: https://www.coinshift.xyz/
 ---

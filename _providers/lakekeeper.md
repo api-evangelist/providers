@@ -23,7 +23,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 43.7
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
 api_count: 3
 apis:
 - description: Lakekeeper's data-plane API served under /lakekeeper/v1, cataloging non-Iceberg table formats — Lance, Delta, CSV, Parquet — alongside Iceberg tables in the same Warehouse and Namespace, with the same
@@ -204,7 +204,7 @@ modified: '2026-08-27'
 name: Lakekeeper
 nav: Providers
 network: true
-overview: 'Lakekeeper publishes 13 APIs on the [APIs.io](https://apis.io/) network, including Generic Table (Data) API, Authorization API, Catalog API, and 10 more. Tagged areas include apache-iceberg, data-catalog, lakehouse, Open-Source, and rust.
+overview: 'Lakekeeper publishes 13 APIs on the [APIs.io](https://apis.io/) network, including Generic Table (Data) API, Authorization API, Catalog API, and 10 more. Tagged areas include Apache Iceberg, Data Catalog, Lakehouse, Open-Source, and Rust.
 
 
   The Lakekeeper catalog on APIs.io includes 1 event-driven AsyncAPI specification.
@@ -245,7 +245,7 @@ score:
     operational_transparency: 18.4
   previous_composite: 55.2
   schema_version: 0.17.2
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
   trend: flat
 security:
 - kind: authentication
@@ -258,17 +258,17 @@ security:
   summary_line: TLSv1.3 · HSTS
 slug: lakekeeper
 tags:
-- apache-iceberg
-- data-catalog
-- lakehouse
+- Apache Iceberg
+- Data Catalog
+- Lakehouse
 - Open-Source
-- rust
-- data-governance
-- access-control
-- object-storage
+- Rust
+- Data Governance
+- Access Control
+- Object Storage
 - Metadata
-- self-hosted
+- Self-Hosted
 - openfga
-- data-engineering
+- Data Engineering
 website: https://lakekeeper.io/
 ---

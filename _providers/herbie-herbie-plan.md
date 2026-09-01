@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
 api_count: 0
 artifact_total: 1
 common:
@@ -76,7 +76,7 @@ modified: '2026-07-19'
 name: Herbie, Herbie Plan
 nav: Providers
 network: true
-overview: 'Herbie, Herbie Plan is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Estate Planning, Legal Technology, Wills and Trusts, and Artificial Intelligence.
+overview: 'Herbie, Herbie Plan is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Estate Planning, Legal Technology, Wills And Trusts, and Artificial Intelligence.
 
 
   Herbie, Herbie Plan''s developer surface includes pricing, engineering blog, signup flow, support, and 4 more developer resources.'
@@ -101,7 +101,7 @@ score:
     operational_transparency: 0.0
   previous_composite: 15.4
   schema_version: 0.17.2
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/herbie-herbie-plan/refs/heads/main/screenshots/herbie-herbie-plan-2026-07-25T221017.png
 security:
@@ -114,7 +114,7 @@ tags:
 - Company
 - Estate Planning
 - Legal Technology
-- Wills and Trusts
+- Wills And Trusts
 - Artificial Intelligence
 - Wealth Management
 - Document Automation

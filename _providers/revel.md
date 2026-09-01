@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 5.0
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
 api_count: 1
 apis:
 - description: REST API for the Revel Systems iPad POS platform, covering orders, payments, products, inventory, customers, employees, scheduling, cash management, discounts, tax, tables, purchase orders, house acco
@@ -109,7 +109,7 @@ modified: '2026-06-13'
 name: Revel Systems
 nav: Providers
 network: true
-overview: 'Revel Systems publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include POS, Point-of-Sale, Restaurant, Retail, and iPad.
+overview: 'Revel Systems publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Point-of-Sale, Restaurant, Retail, iPad, and Order.
 
 
   Revel Systems'' developer surface includes documentation, engineering blog, pricing, support, changelog, and 9 more developer resources.'
@@ -148,7 +148,7 @@ score:
     regime_id: payments
     score: 18.8
   schema_version: 0.17.2
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/revel/refs/heads/main/screenshots/revel-2026-06-20T193052.png
 security:
@@ -158,7 +158,6 @@ security:
   summary_line: TLSv1.3 · HSTS · DMARC
 slug: revel
 tags:
-- POS
 - Point-of-Sale
 - Restaurant
 - Retail

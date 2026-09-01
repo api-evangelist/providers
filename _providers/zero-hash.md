@@ -23,7 +23,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 37.2
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
 api_count: 4
 apis:
 - description: Authenticated WebSocket feed delivering a full account-balance snapshot on subscribe followed by incremental balance-updated events, plus RFQ liquidity bid/ask price levels per subscribed symbol. Ever
@@ -392,7 +392,7 @@ modified: '2026-08-05'
 name: Zero Hash
 nav: Providers
 network: true
-overview: 'Zero Hash publishes 30 APIs on the [APIs.io](https://apis.io/) network, including Accounts API, Assets API, Awards API, and 27 more. Tagged areas include Company, crypto-infrastructure, digital-assets, stablecoins, and Payments.
+overview: 'Zero Hash publishes 30 APIs on the [APIs.io](https://apis.io/) network, including Accounts API, Assets API, Awards API, and 27 more. Tagged areas include Company, Crypto Infrastructure, Digital Assets, Stablecoins, and Payments.
 
 
   The Zero Hash catalog on APIs.io includes 1 event-driven AsyncAPI specification.
@@ -440,7 +440,7 @@ score:
     regime_id: payments
     score: 65.6
   schema_version: 0.17.2
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/zero-hash/refs/heads/main/screenshots/zero-hash-2026-08-17T083054.png
 security:
@@ -463,24 +463,24 @@ security:
 slug: zero-hash
 tags:
 - Company
-- crypto-infrastructure
-- digital-assets
-- stablecoins
+- Crypto Infrastructure
+- Digital Assets
+- Stablecoins
 - Payments
 - Payouts
-- tokenization
-- custody
-- staking
-- settlement
-- embedded-finance
-- on-off-ramp
-- liquidity
-- fix-protocol
+- Tokenization
+- Custody
+- Staking
+- Settlement
+- Embedded Finance
+- On-Off Ramp
+- Liquidity
+- FIX Protocol
 - Webhook
-- websockets
-- kyc
+- WebSockets
+- KYC
 - Compliance
-- remittances
-- agentic-finance
+- Remittances
+- Agentic Finance
 website: https://zerohash.com/
 ---

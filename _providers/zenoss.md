@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 32.2
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
 api_count: 3
 apis:
 - description: Versioned /v1 REST API for the Zenoss (Virtana Service Observability) platform. Covers the data receiver (metrics, events, entity models), event query and event management, model context (entity searc
@@ -51,6 +51,10 @@ asyncapis:
   name: Zenoss Webhooks
   slug: zenoss-webhooks
 common:
+- group: commercial
+  title: ''
+  type: License
+  url: https://github.com/zenoss/zenoss-protobufs/blob/master/LICENSE
 - group: company
   title: ''
   type: Website
@@ -205,7 +209,7 @@ overview: 'Zenoss publishes 3 APIs on the [APIs.io](https://apis.io/) network. T
   The Zenoss catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  Zenoss'' developer surface includes documentation, API reference, getting-started guide, engineering blog, support, changelog, authentication, and 27 more developer resources.'
+  Zenoss'' developer surface includes documentation, API reference, getting-started guide, engineering blog, support, changelog, authentication, and 28 more developer resources.'
 plans:
 - name: Zenoss Plans Pricing
   plan_count: 0
@@ -235,7 +239,7 @@ score:
     operational_transparency: 50.0
   previous_composite: 52.0
   schema_version: 0.17.2
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/zenoss/refs/heads/main/screenshots/zenoss-2026-06-20T201817.png
 security:

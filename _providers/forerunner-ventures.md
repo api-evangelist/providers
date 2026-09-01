@@ -31,7 +31,7 @@ tags:
 - Consumer
 - Commerce
 - Fintech
-- Health & Wellness
+- Health and Wellness
 - Artificial Intelligence
 - San Francisco
 - North America

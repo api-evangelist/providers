@@ -24,7 +24,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 51.6
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
 api_count: 10
 apis:
 - description: Remote Model Context Protocol server operated by IRONSCALES at mcp.ironscales.com, served over streamable HTTP at /mcp/. Access is OAuth 2.0 protected — an unauthenticated tools/list returns an RFC 67
@@ -246,7 +246,7 @@ modified: '2026-08-04'
 name: IRONSCALES
 nav: Providers
 network: true
-overview: 'IRONSCALES publishes 9 APIs on the [APIs.io](https://apis.io/) network, including Authorization API, Campaigns API, Deepfake API, and 6 more. Tagged areas include email-security, Cybersecurity, phishing, anti-phishing, and business-email-compromise.
+overview: 'IRONSCALES publishes 9 APIs on the [APIs.io](https://apis.io/) network, including Authorization API, Campaigns API, Deepfake API, and 6 more. Tagged areas include Email Security, Cybersecurity, Phishing, Anti-Phishing, and Business Email Compromise.
 
 
   IRONSCALES''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 28 more developer resources.'
@@ -284,7 +284,7 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.17.2
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/ironscales/refs/heads/main/screenshots/ironscales-2026-08-07T170920.png
 security:
@@ -306,20 +306,20 @@ security:
   summary_line: ISO/IEC 27001:2022, ISO/IEC 42001:2023, SOC 2 Type 2
 slug: ironscales
 tags:
-- email-security
+- Email Security
 - Cybersecurity
-- phishing
-- anti-phishing
-- business-email-compromise
-- account-takeover
+- Phishing
+- Anti-Phishing
+- Business Email Compromise
+- Account Takeover
 - Threat Intelligence
-- incident-response
-- security-awareness-training
-- phishing-simulation
-- microsoft-365
-- google-workspace
-- soc-automation
-- deepfake-detection
+- Incident Response
+- Security Awareness Training
+- Phishing Simulation
+- Microsoft-365
+- Google Workspace
+- SOC Automation
+- Deepfake Detection
 - MCP
 website: https://ironscales.com/
 ---

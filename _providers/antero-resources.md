@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 2.5
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
 api_count: 1
 apis:
 - description: 'Antero Resources Corporation (NYSE: AR) files annual reports (10-K), quarterly reports (10-Q), current reports (8-K), proxy statements, and other regulatory disclosures with the U.S. Securities and Ex'
@@ -77,7 +77,7 @@ modified: '2026-04-19'
 name: Antero Resources
 nav: Providers
 network: true
-overview: 'Antero Resources publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Energy, Natural Gas, NGL, Oil And Gas, and Upstream.
+overview: 'Antero Resources publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Energy, Natural Gas, NGL, Oil and Gas, and Upstream.
 
 
   Antero Resources'' developer surface includes developer portal, engineering blog, and 4 more developer resources.'
@@ -141,7 +141,7 @@ score:
     regime_id: energy_utilities
     score: 8.1
   schema_version: 0.17.2
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/antero-resources/refs/heads/main/screenshots/antero-resources-2026-06-20T172022.png
 security:
@@ -154,7 +154,7 @@ tags:
 - Energy
 - Natural Gas
 - NGL
-- Oil And Gas
+- Oil and Gas
 - Upstream
 website: https://www.anteroresources.com
 ---

@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
 api_count: 0
 artifact_total: 1
 common:
@@ -92,7 +92,7 @@ modified: '2026-07-18'
 name: Decorte Future Industries
 nav: Providers
 network: true
-overview: 'Decorte Future Industries is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, HealthTech, Artificial Intelligence, Diagnostics, and Veterinary.
+overview: 'Decorte Future Industries is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Health Tech, Artificial Intelligence, Diagnostics, and Veterinary.
 
 
   Decorte Future Industries'' developer surface includes engineering blog, support, signup flow, pricing, and 8 more developer resources.'
@@ -123,7 +123,7 @@ score:
     regime_id: health
     score: 17.5
   schema_version: 0.17.2
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/decorte-future-industries/refs/heads/main/screenshots/decorte-future-industries-2026-07-25T211536.png
 security:
@@ -134,7 +134,7 @@ security:
 slug: decorte-future-industries
 tags:
 - Company
-- HealthTech
+- Health Tech
 - Artificial Intelligence
 - Diagnostics
 - Veterinary

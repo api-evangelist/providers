@@ -23,7 +23,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 12.9
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
 api_count: 0
 artifact_total: 3
 common:
@@ -187,7 +187,7 @@ score:
     regime_id: energy_utilities
     score: 56.8
   schema_version: 0.17.2
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/nerc/refs/heads/main/screenshots/nerc-2026-08-07T184904.png
 security:
@@ -211,7 +211,7 @@ tags:
 - Reliability
 - Bulk Power System
 - Critical Infrastructure
-- Cyber Security
+- Cybersecurity
 - Energy Markets
 - Compliance
 website: https://www.nerc.com/

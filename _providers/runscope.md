@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 2.5
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
 api_count: 1
 apis:
 - description: REST API for the Runscope (now BlazeMeter API Monitoring) platform. Manages buckets, API tests, environments, scheduled runs, and test results, plus account administration. Authenticated with OAuth2 b
@@ -118,7 +118,7 @@ score:
     operational_transparency: 15.8
   previous_composite: 20.0
   schema_version: 0.17.2
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
   trend: flat
 security:
 - kind: authentication

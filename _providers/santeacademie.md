@@ -23,7 +23,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 25.2
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
 api_count: 4
 apis:
 - description: Article
@@ -180,7 +180,7 @@ modified: '2026-08-17'
 name: Santé Académie
 nav: Providers
 network: true
-overview: 'Santé Académie publishes 12 APIs on the [APIs.io](https://apis.io/) network, including Article API, Custom Catalog API, Faq API, and 9 more. Tagged areas include Company, Edtech, healthcare-training, continuing-education, and dpc.
+overview: 'Santé Académie publishes 12 APIs on the [APIs.io](https://apis.io/) network, including Article API, Custom Catalog API, Faq API, and 9 more. Tagged areas include Company, EdTech, Healthcare Training, Continuing Education, and DPC.
 
 
   Santé Académie''s developer surface includes support, engineering blog, authentication, and 23 more developer resources.'
@@ -228,7 +228,7 @@ score:
     regime_id: education
     score: 55.6
   schema_version: 0.17.2
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
   trend: flat
 security:
 - kind: authentication
@@ -242,14 +242,14 @@ security:
 slug: santeacademie
 tags:
 - Company
-- Edtech
-- healthcare-training
-- continuing-education
-- dpc
-- e-learning
-- france
-- healthcare-professionals
-- course-catalog
-- lms
+- EdTech
+- Healthcare Training
+- Continuing Education
+- DPC
+- E-Learning
+- France
+- Healthcare Professionals
+- Course Catalog
+- LMS
 website: https://www.santeacademie.com/
 ---

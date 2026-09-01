@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 5.0
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
 api_count: 1
 apis:
 - description: Data-as-a-Service access to Onclusive's media intelligence corpus — 28M+ daily media content items across print, online, broadcast and social media, 300K+ verified journalist contacts, and 250K+ globa
@@ -172,7 +172,7 @@ score:
   provenance:
     conformance: first-party
   schema_version: 0.17.2
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/airpr/refs/heads/main/screenshots/airpr-2026-07-25T195431.png
 security:

@@ -23,7 +23,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 23.7
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
 api_count: 2
 apis:
 - description: The bidding API from OnTopX402 — 1 operation(s) for bidding.
@@ -57,7 +57,7 @@ modified: '2026-08-24'
 name: OnTopX402
 nav: Providers
 network: true
-overview: 'OnTopX402 publishes 2 APIs on the [APIs.io](https://apis.io/) network: Bidding API and Leaderboard API. Tagged areas include x402, USDC, agent-payments, paid-placement, and Leaderboard.'
+overview: 'OnTopX402 publishes 2 APIs on the [APIs.io](https://apis.io/) network: Bidding API and Leaderboard API. Tagged areas include x402, USDC, Agent Payments, paid-placement, and Leaderboard.'
 random_paper: 11
 score:
   band: emerging
@@ -91,13 +91,13 @@ score:
     regime_id: payments
     score: 0.0
   schema_version: 0.17.2
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
   trend: flat
 slug: ontopx402
 tags:
 - x402
 - USDC
-- agent-payments
+- Agent Payments
 - paid-placement
 - Leaderboard
 website: https://ontopx402.com/

@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
 api_count: 0
 artifact_total: 1
 common:
@@ -60,7 +60,7 @@ modified: '2026-07-20'
 name: Mipsology
 nav: Providers
 network: true
-overview: Mipsology is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Ai/Ml, Artificial Intelligence, Machine-Learning, and Deep Learning.
+overview: Mipsology is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Ai Ml, Artificial Intelligence, Machine-Learning, and Deep Learning.
 random_paper: 8
 score:
   band: minimal
@@ -82,7 +82,7 @@ score:
     operational_transparency: 2.6
   previous_composite: 5.3
   schema_version: 0.17.2
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/mipsology/refs/heads/main/screenshots/mipsology-2026-08-07T183704.png
 security:
@@ -93,7 +93,7 @@ security:
 slug: mipsology
 tags:
 - Company
-- Ai/Ml
+- Ai Ml
 - Artificial Intelligence
 - Machine-Learning
 - Deep Learning

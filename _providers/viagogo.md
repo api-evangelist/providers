@@ -23,7 +23,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 25.4
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
 api_count: 5
 apis:
 - description: The Addresses API from viagogo — 2 operation(s) for addresses.
@@ -337,7 +337,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.17.2
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/viagogo/refs/heads/main/screenshots/viagogo-2026-08-17T082740.png
 security:
@@ -358,6 +358,6 @@ tags:
 - Entertainment
 - Secondary Market
 - Commerce
-- Travel and Leisure
+- Travel And Leisure
 website: https://www.viagogo.com/
 ---

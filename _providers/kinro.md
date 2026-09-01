@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
 api_count: 0
 artifact_total: 1
 common:
@@ -60,7 +60,7 @@ modified: '2026-07-19'
 name: Kinro
 nav: Providers
 network: true
-overview: 'Kinro is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Insurance, InsurTech, Artificial Intelligence, and Small Business.
+overview: 'Kinro is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Insurance, Insurtech, Artificial Intelligence, and Small Business.
 
 
   Kinro''s developer surface includes engineering blog and 3 more developer resources.'
@@ -91,7 +91,7 @@ score:
     regime_id: insurance
     score: 15.2
   schema_version: 0.17.2
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/kinro/refs/heads/main/screenshots/kinro-2026-07-25T223834.png
 security:
@@ -103,7 +103,7 @@ slug: kinro
 tags:
 - Company
 - Insurance
-- InsurTech
+- Insurtech
 - Artificial Intelligence
 - Small Business
 - Commercial Insurance

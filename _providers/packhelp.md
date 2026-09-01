@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
 api_count: 1
 apis:
 - description: 'Packhelp''s "first-ever API for packaging" — a sales-gated set of web services for building packaging workflows into your own application: sell and quote packaging, access a curated EU-producer catalog'
@@ -101,7 +101,7 @@ score:
     operational_transparency: 2.6
   previous_composite: 11.9
   schema_version: 0.17.2
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/packhelp/refs/heads/main/screenshots/packhelp-2026-08-07T191245.png
 security:

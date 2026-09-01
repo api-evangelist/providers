@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 22.3
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
 agentic_access:
 - acting_count: 17
   human_in_the_loop: 0
@@ -358,7 +358,7 @@ modified: '2026-05-19'
 name: Amazon Kendra
 nav: Providers
 network: true
-overview: 'Amazon Kendra publishes 8 APIs on the [APIs.io](https://apis.io/) network, including Data Sources API, Documents API, Experience API, and 5 more. Tagged areas include Artificial Intelligence, Enterprise Search, Knowledge-Management, Machine-Learning, and Natural Language.
+overview: 'Amazon Kendra publishes 8 APIs on the [APIs.io](https://apis.io/) network, including Data Sources API, Documents API, Experience API, and 5 more. Tagged areas include Artificial Intelligence, Enterprise Search, Knowledge-Management, Machine-Learning, and Natural-Language.
 
 
   The Amazon Kendra catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
@@ -404,7 +404,7 @@ score:
     catalog_gap: 41.5
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.6
+  delta: 0.0
   facets:
     access_clarity: 76.3
     commercial_clarity: 76.3
@@ -414,7 +414,7 @@ score:
     discoverability: 75.9
     governance: 28.8
     operational_transparency: 26.3
-  previous_composite: 63.1
+  previous_composite: 62.5
   provenance:
     agentic_access: derived
     contracts:
@@ -423,7 +423,7 @@ score:
       marker_coverage: 0.0
       total: 8
   schema_version: 0.17.2
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/amazon-kendra/refs/heads/main/screenshots/amazon-kendra-2026-06-20T171715.png
 security:
@@ -449,7 +449,7 @@ tags:
 - Enterprise Search
 - Knowledge-Management
 - Machine-Learning
-- Natural Language
+- Natural-Language
 use_cases:
 - description: Help employees find accurate answers and data-driven insights across internal knowledge bases and document repositories.
   name: Employee Productivity

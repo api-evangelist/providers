@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.5
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
 api_count: 0
 artifact_total: 2
 common:
@@ -100,7 +100,7 @@ modified: '2026-07-19'
 name: Extensity
 nav: Providers
 network: true
-overview: 'Extensity is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Artificial Intelligence, Neurosymbolic AI, Large Language Models, and Knowledge Graphs.
+overview: 'Extensity is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Artificial Intelligence, Neuro-Symbolic AI, Large Language Models, and Knowledge Graphs.
 
 
   Extensity''s developer surface includes documentation, support, and 11 more developer resources.'
@@ -113,7 +113,7 @@ score:
     catalog_gap: 88.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: 1.3
+  delta: 0.0
   facets:
     access_clarity: 0.0
     commercial_clarity: 0.0
@@ -126,11 +126,11 @@ score:
   open_source:
     applies: true
     score: 25.0
-  previous_composite: 12.4
+  previous_composite: 13.7
   provenance:
     mcp: first-party
   schema_version: 0.17.2
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/extensity/refs/heads/main/screenshots/extensity-2026-07-25T213949.png
 security:
@@ -142,7 +142,7 @@ slug: extensity
 tags:
 - Company
 - Artificial Intelligence
-- Neurosymbolic AI
+- Neuro-Symbolic AI
 - Large Language Models
 - Knowledge Graphs
 - Developer Tools

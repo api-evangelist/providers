@@ -23,7 +23,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 35.7
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
 api_count: 24
 apis:
 - description: Official Model Context Protocol server published by ControlUp as the npm package @controlup-ai/mcp. Runs locally over stdio via npx, authenticates with a ControlUp API key plus organization ID, and ex
@@ -628,7 +628,7 @@ modified: '2026-08-04'
 name: ControlUp
 nav: Providers
 network: true
-overview: 'ControlUp publishes 60 APIs on the [APIs.io](https://apis.io/) network, including Alerts API, Alerts - Devices API, Applications API, and 57 more. Tagged areas include digital-employee-experience, endpoint-management, vdi, daas, and virtual-desktop.
+overview: 'ControlUp publishes 60 APIs on the [APIs.io](https://apis.io/) network, including Alerts API, Alerts - Devices API, Applications API, and 57 more. Tagged areas include Digital Employee Experience, Endpoint Management, VDI, DaaS, and Virtual Desktop.
 
 
   The ControlUp catalog on APIs.io includes 1 event-driven AsyncAPI specification.
@@ -669,7 +669,7 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.17.2
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/controlup/refs/heads/main/screenshots/controlup-2026-08-07T163802.png
 security:
@@ -691,20 +691,20 @@ security:
   summary_line: ISO/IEC 27001:2022, ISO/IEC 27017:2015, ISO/IEC 27018:2019, ISO/IEC 27701:2019, SOC 2 Type 2, SOC 3, FIPS 140-2 Level 1, CSA STAR Level 1, GDPR
 slug: controlup
 tags:
-- digital-employee-experience
-- endpoint-management
-- vdi
-- daas
-- virtual-desktop
-- observability
+- Digital Employee Experience
+- Endpoint Management
+- VDI
+- DaaS
+- Virtual Desktop
+- Observability
 - Monitoring
-- synthetic-monitoring
-- device-management
+- Synthetic Monitoring
+- Device Management
 - Compliance
-- vulnerability-management
-- workflow-automation
-- citrix
-- azure-virtual-desktop
+- Vulnerability Management
+- Workflow-Automation
+- Citrix
+- Azure Virtual Desktop
 - MCP
 - agent-native
 website: https://www.controlup.com/

@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
 api_count: 0
 artifact_total: 1
 common:
@@ -122,7 +122,7 @@ score:
     operational_transparency: 2.6
   previous_composite: 19.8
   schema_version: 0.17.2
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/madcap-software/refs/heads/main/screenshots/madcap-software-2026-07-25T225825.png
 security:
@@ -139,7 +139,7 @@ tags:
 - DITA
 - CCMS
 - Knowledge Base
-- eLearning
+- E-Learning
 - Localization
 - AI-Ready Content
 website: https://www.madcapsoftware.com/

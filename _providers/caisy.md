@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 15.5
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
 api_count: 1
 apis:
 - description: Real-time GraphQL content API for querying and mutating content stored in Caisy projects. Supports filtering, pagination, sorting, nested document referencing, and rich text as AST. Each project expos
@@ -96,7 +96,7 @@ modified: 2026-06-14
 name: Caisy
 nav: Providers
 network: true
-overview: 'Caisy publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include GraphQL, Headless CMS, Content Management, content-api, and Multi-site.
+overview: 'Caisy publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include GraphQL, Headless CMS, Content Management, content-api, and Multi-Site.
 
 
   Caisy''s developer surface includes documentation, pricing, changelog, engineering blog, and 7 more developer resources.'
@@ -127,7 +127,7 @@ score:
       reason: no_resolvable_host
   previous_composite: 23.2
   schema_version: 0.17.2
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/caisy/refs/heads/main/screenshots/caisy-2026-06-20T173839.png
 security:
@@ -141,6 +141,6 @@ tags:
 - Headless CMS
 - Content Management
 - content-api
-- Multi-site
+- Multi-Site
 website: https://caisy.io/
 ---

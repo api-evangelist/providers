@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
 api_count: 0
 artifact_total: 1
 common:
@@ -105,7 +105,7 @@ modified: '2026-05-24'
 name: MNT-Halan
 nav: Providers
 network: true
-overview: 'MNT-Halan is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Financial-Services, Fintech, Micro-Finance, Consumer Lending, and SME Lending.
+overview: 'MNT-Halan is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Financial-Services, Fintech, Microfinance, Consumer Lending, and SME Lending.
 
 
   MNT-Halan''s developer surface includes product news, engineering blog, and 13 more developer resources.'
@@ -136,7 +136,7 @@ score:
     regime_id: payments
     score: 9.4
   schema_version: 0.17.2
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/mnt-halan/refs/heads/main/screenshots/mnt-halan-2026-06-20T185648.png
 security:
@@ -148,7 +148,7 @@ slug: mnt-halan
 tags:
 - Financial-Services
 - Fintech
-- Micro-Finance
+- Microfinance
 - Consumer Lending
 - SME Lending
 - Digital Payments

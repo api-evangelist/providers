@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 50.0
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -100,6 +100,10 @@ collections:
   name: Wappalyzer Public Basics Verify API
   slug: open-wappalyzer-verify-api
 common:
+- group: commercial
+  title: ''
+  type: License
+  url: https://github.com/wappalyzer/mcp/blob/master/LICENSE
 - group: agent
   title: ''
   type: AgenticAccess
@@ -316,7 +320,7 @@ overview: 'Wappalyzer publishes 6 APIs on the [APIs.io](https://apis.io/) networ
   The Wappalyzer catalog on APIs.io includes 1 event-driven AsyncAPI specification, 1 JSON-LD context, and 1 Spectral governance ruleset.
 
 
-  Wappalyzer''s developer surface includes authentication, documentation, API reference, getting-started guide, engineering blog, support, pricing, and 36 more developer resources.'
+  Wappalyzer''s developer surface includes authentication, documentation, API reference, getting-started guide, engineering blog, support, pricing, and 37 more developer resources.'
 plans:
 - name: Wappalyzer Plans Pricing
   plan_count: 4
@@ -345,7 +349,7 @@ score:
     catalog_gap: 25.8
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.6
+  delta: 0.0
   facets:
     access_clarity: 84.2
     commercial_clarity: 84.2
@@ -355,7 +359,7 @@ score:
     discoverability: 75.9
     governance: 29.5
     operational_transparency: 63.2
-  previous_composite: 69.2
+  previous_composite: 68.6
   provenance:
     agentic_access: derived
     conformance: derived
@@ -367,7 +371,7 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.17.2
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/wappalyzer/refs/heads/main/screenshots/wappalyzer-2026-06-20T201222.png
 security:

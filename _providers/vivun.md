@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
 api_count: 0
 artifact_total: 2
 common:
@@ -72,7 +72,7 @@ modified: '2026-07-21'
 name: Vivun
 nav: Providers
 network: true
-overview: 'Vivun is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, B2B, Sales, Artificial Intelligence, and PreSales.
+overview: 'Vivun is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, B2B, Sales, Artificial Intelligence, and Presales.
 
 
   Vivun''s developer surface includes engineering blog and 6 more developer resources.'
@@ -97,7 +97,7 @@ score:
     operational_transparency: 0.0
   previous_composite: 12.8
   schema_version: 0.17.2
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
   trend: flat
 security:
 - kind: domain-security
@@ -114,7 +114,7 @@ tags:
 - B2B
 - Sales
 - Artificial Intelligence
-- PreSales
+- Presales
 - Sales Engineering
 - Revenue
 - Software-as-a-Service

@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 2.5
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
 api_count: 1
 apis:
 - description: 'The API Stack Directory is a searchable catalog of 213+ API tools and services organized into 50+ categories. Each listing includes descriptions, features, pricing, screenshots, and external links to '
@@ -141,7 +141,7 @@ score:
     operational_transparency: 10.5
   previous_composite: 12.4
   schema_version: 0.17.2
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/api-stack/refs/heads/main/screenshots/api-stack-2026-06-20T172221.png
 security:

@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 2.5
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
 api_count: 5
 apis:
 - description: Read Applied Epic client (account) records - client lookup, benefits data such as employee counts and HIPAA compliance, and identifiers used for VoIP caller identification. Confirmed endpoint GET /crm
@@ -97,7 +97,7 @@ modified: '2026-07-10'
 name: Applied Systems
 nav: Providers
 network: true
-overview: 'Applied Systems publishes 5 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Insurance, InsurTech, Agency Management, Applied Epic, and CRM.
+overview: 'Applied Systems publishes 5 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Insurance, Insurtech, Agency Management, Applied Epic, and CRM.
 
 
   Applied Systems'' developer surface includes documentation and 7 more developer resources.'
@@ -136,7 +136,7 @@ score:
     regime_id: insurance
     score: 9.1
   schema_version: 0.17.2
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/applied-systems/refs/heads/main/screenshots/applied-systems-2026-07-25T200753.png
 security:
@@ -147,7 +147,7 @@ security:
 slug: applied-systems
 tags:
 - Insurance
-- InsurTech
+- Insurtech
 - Agency Management
 - Applied Epic
 - CRM

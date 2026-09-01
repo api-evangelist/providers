@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 2.5
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
 api_count: 1
 apis:
 - description: REST API for managing customer satisfaction surveys, retrieving ratings and comments, tracking CSAT, CES, and NPS scores, and managing users, teams, and customers within the Nicereply platform.
@@ -134,7 +134,7 @@ score:
     operational_transparency: 21.1
   previous_composite: 22.0
   schema_version: 0.17.2
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/nicereply/refs/heads/main/screenshots/nicereply-2026-06-20T190319.png
 security:
@@ -149,7 +149,7 @@ tags:
 - CES
 - NPS
 - Surveys
-- Helpdesk
+- Help Desk
 - Customer Experience
 website: https://www.nicereply.com
 ---

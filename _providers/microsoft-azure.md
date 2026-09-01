@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 47.5
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
 agentic_access:
 - acting_count: 6530
   human_in_the_loop: 347
@@ -13868,7 +13868,7 @@ modified: '2026-06-20'
 name: Microsoft Azure
 nav: Providers
 network: true
-overview: 'Microsoft Azure publishes 1659 APIs on the [APIs.io](https://apis.io/) network, including AccessConnector API, AccessControlRecords API, AccessPolicies API, and 1656 more. Tagged areas include API Management, Cloud, Cloud Computing, Enterprise, and Infrastructure as a Service.
+overview: 'Microsoft Azure publishes 1659 APIs on the [APIs.io](https://apis.io/) network, including AccessConnector API, AccessControlRecords API, AccessPolicies API, and 1656 more. Tagged areas include API Management, Cloud, Cloud Computing, Enterprise, and Infrastructure-as-a-Service.
 
 
   The Microsoft Azure catalog on APIs.io includes 9 JSON-LD contexts and 2 Spectral governance rulesets.
@@ -13940,7 +13940,7 @@ score:
       total: 1659
     mcp: first-party
   schema_version: 0.17.2
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/screenshots/microsoft-azure-2026-06-20T185349.png
 security:
@@ -13966,7 +13966,7 @@ tags:
 - Cloud
 - Cloud Computing
 - Enterprise
-- Infrastructure as a Service
+- Infrastructure-as-a-Service
 - Platform-as-a-Service
 - T1
 use_cases:

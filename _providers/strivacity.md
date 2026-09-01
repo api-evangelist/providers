@@ -24,7 +24,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 40.5
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
 api_count: 6
 apis:
 - description: The administrative REST API for a Strivacity instance — accounts and identity stores, applications and clients, adaptive access and MFA policies, journeys, branding, consents, claims and dialects, gro
@@ -202,7 +202,7 @@ modified: '2026-08-29'
 name: Strivacity
 nav: Providers
 network: true
-overview: 'Strivacity publishes 3 APIs on the [APIs.io](https://apis.io/) network: Admin API, MyAccount API, and Journey Flow API. Tagged areas include Identity, customer-identity-and-access-management, ciam, Authentication, and Authorization.
+overview: 'Strivacity publishes 3 APIs on the [APIs.io](https://apis.io/) network: Admin API, MyAccount API, and Journey Flow API. Tagged areas include Identity, customer-identity-and-access-management, CIAM, Authentication, and Authorization.
 
 
   The Strivacity catalog on APIs.io includes 1 event-driven AsyncAPI specification.
@@ -243,7 +243,7 @@ score:
     operational_transparency: 88.2
   previous_composite: 66.8
   schema_version: 0.17.2
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
   trend: flat
 security:
 - kind: authentication
@@ -266,15 +266,15 @@ slug: strivacity
 tags:
 - Identity
 - customer-identity-and-access-management
-- ciam
+- CIAM
 - Authentication
 - Authorization
-- openid-connect
-- consent-management
-- multi-factor-authentication
+- OpenID Connect
+- Consent Management
+- Multi-Factor Authentication
 - Identity Verification
-- fraud-detection
-- agentic-identity
+- Fraud Detection
+- Agentic Identity
 - Security
 website: https://www.strivacity.com/
 ---

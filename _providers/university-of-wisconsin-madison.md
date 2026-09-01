@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 31.7
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
 api_count: 12
 apis:
 - description: Campus location, building and room reference data. 3 operations, OAuth 2.0 client credentials, maintained by the DoIT EBS/IBS API team (locations-api@doit.wisc.edu).
@@ -428,7 +428,7 @@ score:
     regime_id: education
     score: 79.6
   schema_version: 0.17.2
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/university-of-wisconsin-madison/refs/heads/main/screenshots/university-of-wisconsin-madison-2026-06-20T200421.png
 security:

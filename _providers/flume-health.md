@@ -23,7 +23,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 29.8
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
 api_count: 2
 apis:
 - description: A remote Model Context Protocol endpoint served by the Flume Console at /api/v1/context/mcp. It is protected by OAuth 2.0 and advertises RFC 9728 protected-resource metadata, returning a 401 with a WW
@@ -227,7 +227,7 @@ modified: '2026-08-16'
 name: Flume Health
 nav: Providers
 network: true
-overview: 'Flume Health publishes 19 APIs on the [APIs.io](https://apis.io/) network, including Account Contracts API, Accounts API, Automap Jobs API, and 16 more. Tagged areas include healthcare, health-plans, payers, healthcare-data, and data-integration.
+overview: 'Flume Health publishes 19 APIs on the [APIs.io](https://apis.io/) network, including Account Contracts API, Accounts API, Automap Jobs API, and 16 more. Tagged areas include Healthcare, Health Plans, Payers, Healthcare Data, and Data Integration.
 
 
   Flume Health''s developer surface includes documentation, API reference, support, authentication, and 27 more developer resources.'
@@ -253,7 +253,7 @@ score:
     catalog_gap: 78.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.5
+  delta: 0.0
   facets:
     access_clarity: 43.4
     commercial_clarity: 43.4
@@ -263,7 +263,7 @@ score:
     discoverability: 68.5
     governance: 18.2
     operational_transparency: 18.4
-  previous_composite: 49.5
+  previous_composite: 49.0
   provenance:
     conformance: first-party
     contracts:
@@ -280,7 +280,7 @@ score:
     regime_id: health
     score: 65.0
   schema_version: 0.17.2
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/flume-health/refs/heads/main/screenshots/flume-health-2026-08-17T080932.png
 security:
@@ -298,19 +298,19 @@ security:
   summary_line: SOC 2 Type II, HITRUST CSF, HIPAA
 slug: flume-health
 tags:
-- healthcare
-- health-plans
-- payers
-- healthcare-data
-- data-integration
-- ipaas
+- Healthcare
+- Health Plans
+- Payers
+- Healthcare Data
+- Data Integration
+- iPaaS
 - Eligibility
-- claims
-- knowledge-graph
+- Claims
+- Knowledge Graph
 - MCP
 - agent-native
 - Authentication
-- data-engineering
-- interoperability
+- Data Engineering
+- Interoperability
 website: https://www.flumehealth.com/
 ---

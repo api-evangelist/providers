@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
 api_count: 0
 artifact_total: 2
 common:
@@ -84,7 +84,7 @@ modified: '2026-07-21'
 name: Sword Health
 nav: Providers
 network: true
-overview: 'Sword Health is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Healthtech, Musculoskeletal, Physical Therapy, and Digital Health.
+overview: 'Sword Health is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Health Tech, Musculoskeletal, Physical Therapy, and Digital Health.
 
 
   Sword Health''s developer surface includes engineering blog, support, and 8 more developer resources.'
@@ -115,7 +115,7 @@ score:
     regime_id: health
     score: 18.8
   schema_version: 0.17.2
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
   trend: flat
 security:
 - kind: domain-security
@@ -129,7 +129,7 @@ security:
 slug: sword-health
 tags:
 - Company
-- Healthtech
+- Health Tech
 - Musculoskeletal
 - Physical Therapy
 - Digital Health

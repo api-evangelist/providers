@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 27.8
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
 agentic_access:
 - acting_count: 23
   human_in_the_loop: 0
@@ -602,7 +602,7 @@ score:
       marker_coverage: 0.0
       total: 14
   schema_version: 0.17.2
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/workday-extend/refs/heads/main/screenshots/workday-extend-2026-06-20T201559.png
 security:
@@ -627,6 +627,6 @@ tags:
 - HCM
 - Integration
 - Orchestration
-- PaaS
+- Platform-as-a-Service
 website: https://www.workday.com/en-us/products/platform-product-extensions/app-development.html
 ---

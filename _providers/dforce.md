@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
 api_count: 0
 artifact_total: 1
 common:
@@ -84,7 +84,7 @@ modified: '2026-07-18'
 name: dForce
 nav: Providers
 network: true
-overview: 'dForce is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Crypto Web3, DeFi, Stablecoin, and Lending.
+overview: 'dForce is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Crypto Web3, DeFi, Stablecoins, and Lending.
 
 
   dForce''s developer surface includes documentation, engineering blog, support, and 7 more developer resources.'
@@ -109,7 +109,7 @@ score:
     operational_transparency: 2.6
   previous_composite: 8.9
   schema_version: 0.17.2
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/dforce/refs/heads/main/screenshots/dforce-2026-07-25T211850.png
 security:
@@ -122,7 +122,7 @@ tags:
 - Company
 - Crypto Web3
 - DeFi
-- Stablecoin
+- Stablecoins
 - Lending
 - Blockchain
 - RWA

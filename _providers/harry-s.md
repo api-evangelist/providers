@@ -23,7 +23,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 26.8
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
 api_count: 2
 apis:
 - description: 'Anonymous Model Context Protocol server exposed by the Harry''s storefront at /api/mcp. Five tools — search_catalog, get_product_details, get_cart, update_cart and search_shop_policies_and_faqs — each '
@@ -148,7 +148,7 @@ score:
     mcp: first-party
     skills: first-party
   schema_version: 0.17.2
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/harry-s/refs/heads/main/screenshots/harry-s-2026-08-07T170002.png
 security:

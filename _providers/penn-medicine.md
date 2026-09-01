@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.2
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -259,7 +259,7 @@ modified: '2026-05-23'
 name: Penn Medicine
 nav: Providers
 network: true
-overview: 'Penn Medicine publishes 4 APIs on the [APIs.io](https://apis.io/) network, including Bulk Data API, Patient Access API, Provider Directory API, and 1 more. Tagged areas include Healthcare, Hospital, Academic Medical Center, FHIR, and SMART On FHIR.
+overview: 'Penn Medicine publishes 4 APIs on the [APIs.io](https://apis.io/) network, including Bulk Data API, Patient Access API, Provider Directory API, and 1 more. Tagged areas include Healthcare, Hospital, Academic Medical Center, FHIR, and SMART on FHIR.
 
 
   The Penn Medicine catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
@@ -310,7 +310,7 @@ score:
     catalog_gap: 15.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.5
+  delta: 0.0
   facets:
     access_clarity: 39.5
     commercial_clarity: 39.5
@@ -323,7 +323,7 @@ score:
   open_source:
     applies: true
     score: 35.0
-  previous_composite: 54.5
+  previous_composite: 54.0
   provenance:
     agentic_access: derived
     contracts:
@@ -338,7 +338,7 @@ score:
     regime_id: health
     score: 42.5
   schema_version: 0.17.2
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/penn-medicine/refs/heads/main/screenshots/penn-medicine-2026-06-20T191538.png
 security:
@@ -365,7 +365,7 @@ tags:
 - Hospital
 - Academic Medical Center
 - FHIR
-- SMART On FHIR
+- SMART on FHIR
 - Patient Access
 - Provider Directory
 - CMS Interoperability

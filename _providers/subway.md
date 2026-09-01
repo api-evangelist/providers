@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
 api_count: 0
 artifact_total: 11
 common:
@@ -108,7 +108,7 @@ modified: '2026-06-03'
 name: Subway
 nav: Providers
 network: true
-overview: 'Subway is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Fast Food, Restaurant, Food & Beverage, Quick Service Restaurant, and Loyalty.
+overview: 'Subway is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Fast Food, Restaurant, Food and Beverage, Quick Service Restaurant, and Loyalty.
 
 
   Subway''s developer surface includes signup flow, FAQ, and 10 more developer resources.'
@@ -133,7 +133,7 @@ score:
     operational_transparency: 0.0
   previous_composite: 11.8
   schema_version: 0.17.2
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/subway/refs/heads/main/screenshots/subway-2026-06-20T194635.png
 security:
@@ -145,7 +145,7 @@ slug: subway
 tags:
 - Fast Food
 - Restaurant
-- Food & Beverage
+- Food and Beverage
 - Quick Service Restaurant
 - Loyalty
 use_cases:

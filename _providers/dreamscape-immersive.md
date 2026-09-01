@@ -23,7 +23,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 2.5
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
 api_count: 0
 artifact_total: 3
 common:
@@ -79,7 +79,7 @@ modified: '2026-08-12'
 name: Dreamscape Immersive
 nav: Providers
 network: true
-overview: Dreamscape Immersive is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Virtual Reality, Immersive Experiences, Location Based Entertainment, and Entertainment.
+overview: Dreamscape Immersive is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Virtual Reality, Immersive Experiences, Location-Based Entertainment, and Entertainment.
 plans:
 - name: Dreamscape Immersive Plans Pricing
   plan_count: 0
@@ -115,7 +115,7 @@ score:
     regime_id: education
     score: 11.1
   schema_version: 0.17.2
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
   trend: flat
 security:
 - kind: domain-security
@@ -127,7 +127,7 @@ tags:
 - Company
 - Virtual Reality
 - Immersive Experiences
-- Location Based Entertainment
+- Location-Based Entertainment
 - Entertainment
 - Media
 - Ticketing

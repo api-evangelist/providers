@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 26.4
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -555,7 +555,7 @@ modified: '2026-07-21'
 name: THORChain
 nav: Providers
 network: true
-overview: 'THORChain publishes 65 APIs on the [APIs.io](https://apis.io/) network, including Actions API, AGENTS.md API, Auth API, and 62 more. Tagged areas include Company, Crypto Web3, Blockchain, DeFi, and Cross-chain.
+overview: 'THORChain publishes 65 APIs on the [APIs.io](https://apis.io/) network, including Actions API, AGENTS.md API, Auth API, and 62 more. Tagged areas include Company, Crypto Web3, Blockchain, DeFi, and Cross-Chain.
 
 
   THORChain''s developer surface includes documentation, API reference, support, authentication, and 22 more developer resources.'
@@ -596,7 +596,7 @@ score:
     regime_id: securities_market_data
     score: 45.0
   schema_version: 0.17.2
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
   trend: flat
 security:
 - kind: authentication
@@ -617,7 +617,7 @@ tags:
 - Crypto Web3
 - Blockchain
 - DeFi
-- Cross-chain
+- Cross-Chain
 - Liquidity
 - Decentralized Exchange
 - Cosmos

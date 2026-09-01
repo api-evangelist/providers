@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
 api_count: 0
 artifact_total: 3
 common:
@@ -85,7 +85,7 @@ modified: '2026-07-20'
 name: nference
 nav: Providers
 network: true
-overview: 'nference is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Healthtech, Artificial Intelligence, Clinical Research, and Life Sciences.
+overview: 'nference is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Health Tech, Artificial Intelligence, Clinical Research, and Life Sciences.
 
 
   nference''s developer surface includes engineering blog and 9 more developer resources.'
@@ -116,7 +116,7 @@ score:
     regime_id: health
     score: 31.3
   schema_version: 0.17.2
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/nference/refs/heads/main/screenshots/nference-2026-08-07T185227.png
 security:
@@ -135,7 +135,7 @@ security:
 slug: nference
 tags:
 - Company
-- Healthtech
+- Health Tech
 - Artificial Intelligence
 - Clinical Research
 - Life Sciences

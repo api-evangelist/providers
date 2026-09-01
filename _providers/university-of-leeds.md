@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 20.5
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
 api_count: 4
 apis:
 - description: 'The University of Leeds institutional research data repository, running EPrints 3 on the university''s own infrastructure, with a live unauthenticated OAI-PMH 2.0 interface. Verified 2026-08-30: Identi'
@@ -56,6 +56,10 @@ apis:
   slug: white-rose-research-online
 artifact_total: 16
 common:
+- group: commercial
+  title: ''
+  type: License
+  url: https://github.com/uol-library/spacefinder/blob/main/LICENSE
 - group: company
   title: ''
   type: Website
@@ -188,7 +192,7 @@ overview: 'University of Leeds publishes 4 APIs on the [APIs.io](https://apis.io
   The University of Leeds catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
 
 
-  University of Leeds'' developer surface includes GitHub presence, support, engineering blog, authentication, and 21 more developer resources.'
+  University of Leeds'' developer surface includes GitHub presence, support, engineering blog, authentication, and 22 more developer resources.'
 plans:
 - name: University Of Leeds Plans Pricing
   plan_count: 2
@@ -222,7 +226,7 @@ score:
     catalog_gap: 42.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: 25.3
+  delta: 0.0
   facets:
     access_clarity: 50.0
     commercial_clarity: 50.0
@@ -232,7 +236,7 @@ score:
     discoverability: 64.8
     governance: 15.2
     operational_transparency: 23.7
-  previous_composite: 23.2
+  previous_composite: 48.5
   regulatory:
     applies: true
     matched_via: tags
@@ -240,8 +244,8 @@ score:
     regime_id: education
     score: 64.8
   schema_version: 0.17.2
-  scored_at: '2026-08-30'
-  trend: rising
+  scored_at: '2026-09-01'
+  trend: flat
 security:
 - kind: authentication
   name: University Of Leeds Authentication

@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 24.5
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
 agentic_access:
 - acting_count: 4
   human_in_the_loop: 1
@@ -182,7 +182,7 @@ modified: '2026-07-20'
 name: P0 Security
 nav: Providers
 network: true
-overview: 'P0 Security publishes 2 APIs on the [APIs.io](https://apis.io/) network: Command API and Permission Requests API. Tagged areas include Company, Security, Privileged Access Management, Identity and Access Management, and Just-in-Time Access.
+overview: 'P0 Security publishes 2 APIs on the [APIs.io](https://apis.io/) network: Command API and Permission Requests API. Tagged areas include Company, Security, Privileged Access Management, Identity and Access Management, and Just-In-Time Access.
 
 
   P0 Security''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, signup flow, CLI, and 20 more developer resources.'
@@ -217,7 +217,7 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.17.2
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/p0-security/refs/heads/main/screenshots/p0-security-2026-08-07T191227.png
 security:
@@ -239,7 +239,7 @@ tags:
 - Security
 - Privileged Access Management
 - Identity and Access Management
-- Just-in-Time Access
+- Just-In-Time Access
 - Cloud Security
 - Authorization
 - Zero Trust

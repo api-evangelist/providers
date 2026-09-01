@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 31.3
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
 api_count: 1
 apis:
 - description: REST API for the KASKO insurance platform. All platform functionality and data is accessible via the API, covering the Quote, Offer, Payment and Policy insurance transaction flow plus a Data API for d
@@ -141,7 +141,7 @@ modified: '2026-07-19'
 name: Kasko
 nav: Providers
 network: true
-overview: 'Kasko publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Insurance, InsurTech, Insurance API, and Policy Management.
+overview: 'Kasko publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Insurance, Insurtech, Insurance API, and Policy Management.
 
 
   The Kasko catalog on APIs.io includes 1 event-driven AsyncAPI specification.
@@ -182,7 +182,7 @@ score:
     regime_id: insurance
     score: 45.5
   schema_version: 0.17.2
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/kasko/refs/heads/main/screenshots/kasko-2026-07-25T223521.png
 security:
@@ -198,7 +198,7 @@ slug: kasko
 tags:
 - Company
 - Insurance
-- InsurTech
+- Insurtech
 - Insurance API
 - Policy Management
 - Payments

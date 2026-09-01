@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
 api_count: 0
 artifact_total: 1
 common:
@@ -68,7 +68,7 @@ modified: '2026-07-21'
 name: Shopeando
 nav: Providers
 network: true
-overview: 'Shopeando is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Logistics, Shipping, Import Export, and Cross-border Commerce.
+overview: 'Shopeando is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Logistics, Shipping, Import Export, and Cross-Border Commerce.
 
 
   Shopeando''s developer surface includes engineering blog, support, and 4 more developer resources.'
@@ -93,7 +93,7 @@ score:
     operational_transparency: 0.0
   previous_composite: 10.6
   schema_version: 0.17.2
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
   trend: flat
 security:
 - kind: domain-security
@@ -106,7 +106,7 @@ tags:
 - Logistics
 - Shipping
 - Import Export
-- Cross-border Commerce
+- Cross-Border Commerce
 - E-Commerce
 - Fulfillment
 - Mexico

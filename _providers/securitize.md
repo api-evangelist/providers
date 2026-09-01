@@ -23,7 +23,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 36.9
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
 agentic_access:
 - acting_count: 64
   human_in_the_loop: 64
@@ -207,7 +207,7 @@ modified: '2026-08-05'
 name: Securitize
 nav: Providers
 network: true
-overview: 'Securitize publishes 5 APIs on the [APIs.io](https://apis.io/) network, including APAC API, Domains API, Health Check API, and 2 more. Tagged areas include tokenization, digital-securities, real-world-assets, capital-markets, and fund-administration.
+overview: 'Securitize publishes 5 APIs on the [APIs.io](https://apis.io/) network, including APAC API, Domains API, Health Check API, and 2 more. Tagged areas include Tokenization, Digital Securities, Real World Assets, Capital Markets, and Fund Administration.
 
 
   The Securitize catalog on APIs.io includes 1 event-driven AsyncAPI specification.
@@ -228,7 +228,7 @@ score:
     catalog_gap: 78.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.5
+  delta: 0.0
   facets:
     access_clarity: 13.2
     commercial_clarity: 13.2
@@ -238,7 +238,7 @@ score:
     discoverability: 75.9
     governance: 4.5
     operational_transparency: 21.1
-  previous_composite: 43.8
+  previous_composite: 43.3
   provenance:
     agentic_access: derived
     conformance: derived
@@ -256,7 +256,7 @@ score:
     regime_id: securities_market_data
     score: 55.0
   schema_version: 0.17.2
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/securitize/refs/heads/main/screenshots/securitize-2026-08-17T081751.png
 security:
@@ -274,18 +274,18 @@ security:
   summary_line: contact published
 slug: securitize
 tags:
-- tokenization
-- digital-securities
-- real-world-assets
-- capital-markets
-- fund-administration
-- transfer-agent
-- kyc
+- Tokenization
+- Digital Securities
+- Real World Assets
+- Capital Markets
+- Fund Administration
+- Transfer Agent
+- KYC
 - AML
 - Identity Verification
 - Blockchain
-- broker-dealer
-- private-credit
+- Broker-Dealer
+- Private Credit
 - MCP
 - Webhook
 website: https://securitize.io/

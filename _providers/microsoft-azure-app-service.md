@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -129,7 +129,7 @@ modified: '2026-05-19'
 name: Microsoft Azure App Service
 nav: Providers
 network: true
-overview: 'Microsoft Azure App Service publishes 2 APIs on the [APIs.io](https://apis.io/) network: Operations API and Web Apps API. Tagged areas include App Service, Hosting, Microsoft Azure, PaaS, and Web Apps.
+overview: 'Microsoft Azure App Service publishes 2 APIs on the [APIs.io](https://apis.io/) network: Operations API and Web Apps API. Tagged areas include App Service, Hosting, Microsoft Azure, Platform-as-a-Service, and Web App.
 
 
   Microsoft Azure App Service''s developer surface includes authentication, developer portal, documentation, pricing, support, and 8 more developer resources.'
@@ -174,7 +174,7 @@ score:
       marker_coverage: 0.0
       total: 2
   schema_version: 0.17.2
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-app-service/refs/heads/main/screenshots/microsoft-azure-app-service-2026-06-20T185356.png
 security:
@@ -191,7 +191,7 @@ tags:
 - App Service
 - Hosting
 - Microsoft Azure
-- PaaS
-- Web Apps
+- Platform-as-a-Service
+- Web App
 website: https://portal.azure.com/
 ---

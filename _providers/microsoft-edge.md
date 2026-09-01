@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
 agentic_access:
 - acting_count: 5
   human_in_the_loop: 0
@@ -438,7 +438,7 @@ score:
       marker_coverage: 100.0
       total: 6
   schema_version: 0.17.2
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/microsoft-edge/refs/heads/main/screenshots/microsoft-edge-2026-08-07T172849.png
 security:
@@ -464,7 +464,7 @@ tags:
 - Microsoft
 - Progressive Web Apps
 - Web Development
-- WebView
+- Webview
 use_cases:
 - description: Use the Add-ons API to automate CI/CD pipelines for publishing and updating browser extensions.
   name: Automated Extension Deployment

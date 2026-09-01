@@ -23,7 +23,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 24.3
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
 api_count: 9
 apis:
 - description: Comment collection. Registered and reachable, but empty — no object on this deployment carries comments.
@@ -152,7 +152,7 @@ modified: '2026-08-25'
 name: Matchpoint Therapeutics
 nav: Providers
 network: true
-overview: 'Matchpoint Therapeutics publishes 9 APIs on the [APIs.io](https://apis.io/) network, including Comments API, Discovery API, Media API, and 6 more. Tagged areas include Company, biotechnology, pharmaceuticals, drug-discovery, and immunology.
+overview: 'Matchpoint Therapeutics publishes 9 APIs on the [APIs.io](https://apis.io/) network, including Comments API, Discovery API, Media API, and 6 more. Tagged areas include Company, Biotechnology, Pharmaceuticals, Drug Discovery, and Immunology.
 
 
   Matchpoint Therapeutics'' developer surface includes authentication and 21 more developer resources.'
@@ -200,7 +200,7 @@ score:
     regime_id: health
     score: 26.3
   schema_version: 0.17.2
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
   trend: flat
 security:
 - kind: authentication
@@ -214,14 +214,14 @@ security:
 slug: matchpoint-therapeutics
 tags:
 - Company
-- biotechnology
-- pharmaceuticals
-- drug-discovery
-- immunology
-- covalent-chemistry
+- Biotechnology
+- Pharmaceuticals
+- Drug Discovery
+- Immunology
+- Covalent Chemistry
 - chemoproteomics
-- machine-learning
-- life-sciences
+- Machine-Learning
+- Life Sciences
 - content-api
 website: https://matchpointtx.com/
 ---

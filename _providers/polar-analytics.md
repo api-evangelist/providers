@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 24.6
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
 api_count: 2
 apis:
 - description: Hosted Model Context Protocol server that doubles as Polar's HTTP API surface; invoke tools at POST https://api.polaranalytics.com/mcp/tool/<tool_name> with a Bearer API key. Exposes 8 tools for gener
@@ -173,7 +173,7 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.17.2
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
   trend: flat
 security:
 - kind: authentication

@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 15.1
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
 api_count: 0
 artifact_total: 2
 common:
@@ -93,7 +93,7 @@ modified: '2026-07-18'
 name: Cyberwrite
 nav: Providers
 network: true
-overview: 'Cyberwrite is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Cyber Insurance, Cyber Risk, InsurTech, and Risk Quantification.
+overview: 'Cyberwrite is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Cyber Insurance, Cyber Risk, Insurtech, and Risk Quantification.
 
 
   Cyberwrite''s developer surface includes documentation, engineering blog, support, signup flow, and 8 more developer resources.'
@@ -124,7 +124,7 @@ score:
     regime_id: insurance
     score: 27.3
   schema_version: 0.17.2
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/cyberwrite/refs/heads/main/screenshots/cyberwrite-2026-07-25T211032.png
 security:
@@ -141,7 +141,7 @@ tags:
 - Company
 - Cyber Insurance
 - Cyber Risk
-- InsurTech
+- Insurtech
 - Risk Quantification
 - Catastrophe Modeling
 - Underwriting

@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 34.6
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -467,7 +467,7 @@ modified: '2026-06-13'
 name: Financial Data Exchange (FDX)
 nav: Providers
 network: true
-overview: 'Financial Data Exchange (FDX) publishes 6 APIs on the [APIs.io](https://apis.io/) network, including Account Information API, Account Statements API, Account Transactions API, and 3 more. Tagged areas include Financial Data, Open Banking, Open Finance, Financial Data Exchange, and Consumer Permissioned.
+overview: 'Financial Data Exchange (FDX) publishes 6 APIs on the [APIs.io](https://apis.io/) network, including Account Information API, Account Statements API, Account Transactions API, and 3 more. Tagged areas include Financial Data, Open Banking, Open Finance, Financial Data Exchange, and Consumer-Permissioned.
 
 
   The Financial Data Exchange (FDX) catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
@@ -532,7 +532,7 @@ score:
     regime_id: banking_open_finance
     score: 43.0
   schema_version: 0.17.2
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/fdx/refs/heads/main/screenshots/fdx-2026-06-20T181106.png
 security:
@@ -550,7 +550,7 @@ tags:
 - Open Banking
 - Open Finance
 - Financial Data Exchange
-- Consumer Permissioned
+- Consumer-Permissioned
 - Account Data
 - Transaction
 - Investments

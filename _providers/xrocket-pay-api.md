@@ -23,7 +23,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 12.9
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
 api_count: 3
 apis:
 - description: 'Bearer-authenticated REST API for crypto payments: cheques, transfers, invoices, withdrawals, mass transfers, app-info, currencies and rates. Endpoints served under /api/v1/.'
@@ -71,7 +71,7 @@ score:
     regime_id: payments
     score: 0.0
   schema_version: 0.17.2
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
   trend: flat
 slug: xrocket-pay-api
 tags:
@@ -94,7 +94,7 @@ tags:
 - Bitcoin
 - Solana
 - BNB Chain
-- Tron
+- TRON
 - Telegram-native
 - bot platform
 - P2P trading

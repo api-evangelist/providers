@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 45.5
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
 agentic_access:
 - acting_count: 26
   human_in_the_loop: 0
@@ -434,7 +434,7 @@ modified: 2026-08-14
 name: Ada
 nav: Providers
 network: true
-overview: 'Ada publishes 18 APIs on the [APIs.io](https://apis.io/) network, including Conversations API, Audit Log API, Channels API, and 15 more. Tagged areas include Artificial Intelligence, customer-service, Chatbots, automation, and conversational-ai.
+overview: 'Ada publishes 18 APIs on the [APIs.io](https://apis.io/) network, including Conversations API, Audit Log API, Channels API, and 15 more. Tagged areas include Artificial Intelligence, Customer Service, Chatbots, Automation, and Conversational AI.
 
 
   The Ada catalog on APIs.io includes 1 event-driven AsyncAPI specification, 1 JSON-LD context, and 1 Spectral governance ruleset.
@@ -496,7 +496,7 @@ score:
     mcp: first-party
     skills: first-party
   schema_version: 0.17.2
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/ada/refs/heads/main/screenshots/ada-2026-06-20T164442.png
 security:
@@ -519,14 +519,14 @@ security:
 slug: ada
 tags:
 - Artificial Intelligence
-- customer-service
+- Customer Service
 - Chatbots
-- automation
-- conversational-ai
-- helpdesk
+- Automation
+- Conversational AI
+- Help Desk
 - CRM
 - Integration
-- knowledge-management
-- data-export
+- Knowledge-Management
+- Data Export
 website: https://www.ada.cx/
 ---

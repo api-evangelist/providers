@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
 api_count: 0
 artifact_total: 1
 common:
@@ -133,7 +133,7 @@ score:
     regime_id: health
     score: 30.0
   schema_version: 0.17.2
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/lighten/refs/heads/main/screenshots/lighten-2026-07-25T225112.png
 security:
@@ -148,7 +148,7 @@ tags:
 - Life Sciences
 - Artificial Intelligence
 - Electronic Health Records
-- Real World Evidence
+- Real-World Evidence
 - Clinical Data
 - Data Curation
 website: https://lighten-ai.com

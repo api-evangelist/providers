@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
 api_count: 2
 apis:
 - description: The Lexoo website is built on WordPress and exposes the standard WordPress REST API at /wp-json/, serving JSON representations of the site's pages, media, taxonomies and settings. The live discovery d
@@ -110,7 +110,7 @@ score:
     operational_transparency: 0.0
   previous_composite: 9.5
   schema_version: 0.17.2
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/lexoo/refs/heads/main/screenshots/lexoo-2026-07-25T225002.png
 security:

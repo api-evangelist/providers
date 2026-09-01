@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 26.1
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
 api_count: 2
 apis:
 - description: The Event Notification API pushes real-time campaign event data to a customer-owned callback URL. Register a callback, verify it, then subscribe it to any of the 26 supported event types across email,
@@ -291,7 +291,7 @@ score:
     catalog_gap: 66.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: 1.3
+  delta: 0.0
   facets:
     access_clarity: 36.8
     commercial_clarity: 36.8
@@ -301,7 +301,7 @@ score:
     discoverability: 68.5
     governance: 4.5
     operational_transparency: 68.4
-  previous_composite: 50.5
+  previous_composite: 51.8
   provenance:
     conformance: derived
     contracts:
@@ -318,7 +318,7 @@ score:
     regime_id: telecommunications
     score: 50.0
   schema_version: 0.17.2
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/responsys/refs/heads/main/screenshots/responsys-2026-08-17T081535.png
 security:
@@ -351,6 +351,6 @@ tags:
 - SMS
 - Webhook
 - Oracle
-- Martech
+- MarTech
 website: https://www.oracle.com/cx/marketing/campaign-management/
 ---

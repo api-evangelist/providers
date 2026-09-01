@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 23.2
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
 api_count: 1
 apis:
 - description: The client-api-assessment-rest-resource API from VISO Trust — 7 operation(s) for client-api-assessment-rest-resource.
@@ -238,7 +238,7 @@ modified: '2026-07-21'
 name: VISO Trust
 nav: Providers
 network: true
-overview: 'VISO Trust publishes 12 APIs on the [APIs.io](https://apis.io/) network, including client-api-assessment-rest-resource API, client-api-audit-log-rest-resource API, client-api-chat-rest-resource API, and 9 more. Tagged areas include Company, Security, Third Party Risk Management, TPRM, and Vendor Risk.
+overview: 'VISO Trust publishes 12 APIs on the [APIs.io](https://apis.io/) network, including client-api-assessment-rest-resource API, client-api-audit-log-rest-resource API, client-api-chat-rest-resource API, and 9 more. Tagged areas include Company, Security, Third-Party Risk Management, TPRM, and Vendor Risk.
 
 
   The VISO Trust catalog on APIs.io includes 1 event-driven AsyncAPI specification.
@@ -254,7 +254,7 @@ score:
     catalog_gap: 78.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.5
+  delta: 0.0
   facets:
     access_clarity: 35.5
     commercial_clarity: 35.5
@@ -264,7 +264,7 @@ score:
     discoverability: 75.9
     governance: 4.5
     operational_transparency: 52.6
-  previous_composite: 47.6
+  previous_composite: 47.1
   provenance:
     conformance: derived
     contracts:
@@ -275,7 +275,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.17.2
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/viso-trust/refs/heads/main/screenshots/viso-trust-2026-08-17T082801.png
 security:
@@ -295,7 +295,7 @@ slug: viso-trust
 tags:
 - Company
 - Security
-- Third Party Risk Management
+- Third-Party Risk Management
 - TPRM
 - Vendor Risk
 - Risk Management

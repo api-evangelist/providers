@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 36.7
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
 api_count: 134
 apis:
 - description: The Account API from Impact Radius — 2 operation(s) for account.
@@ -673,7 +673,7 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.17.2
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/impact-radius/refs/heads/main/screenshots/impact-radius-2026-07-25T222140.png
 security:
@@ -701,7 +701,7 @@ tags:
 - Influencer Marketing
 - Referral Marketing
 - Attribution
-- Martech
+- MarTech
 - Advocate
 - Creator Economy
 - E-Commerce

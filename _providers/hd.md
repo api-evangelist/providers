@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
 api_count: 0
 artifact_total: 1
 common:
@@ -72,7 +72,7 @@ modified: '2026-07-19'
 name: HD
 nav: Providers
 network: true
-overview: 'HD is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Healthcare, Healthtech, Marketplace, and Patient Navigation.
+overview: 'HD is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Healthcare, Health Tech, Marketplace, and Patient Navigation.
 
 
   HD''s developer surface includes engineering blog, support, and 5 more developer resources.'
@@ -103,7 +103,7 @@ score:
     regime_id: health
     score: 17.5
   schema_version: 0.17.2
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/hd/refs/heads/main/screenshots/hd-2026-07-25T220815.png
 security:
@@ -115,7 +115,7 @@ slug: hd
 tags:
 - Company
 - Healthcare
-- Healthtech
+- Health Tech
 - Marketplace
 - Patient Navigation
 - Telehealth

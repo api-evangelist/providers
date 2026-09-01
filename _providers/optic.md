@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 2.5
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
 api_count: 1
 apis:
 - description: The Optic CLI provides OpenAPI diffing, linting and breaking-change detection from the command line, comparing two versions of an OpenAPI specification with behaviour-aware diffing and applying style-
@@ -197,7 +197,7 @@ score:
     score: 25.0
   previous_composite: 22.6
   schema_version: 0.17.2
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/optic/refs/heads/main/screenshots/optic-2026-08-07T190759.png
 security:

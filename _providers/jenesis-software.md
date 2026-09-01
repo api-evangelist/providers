@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
 api_count: 0
 artifact_total: 1
 common:
@@ -76,7 +76,7 @@ modified: '2026-07-25'
 name: Jenesis Software
 nav: Providers
 network: true
-overview: 'Jenesis Software is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Insurance, Agency Management System, InsurTech, Property and Casualty, and Policy Management.
+overview: 'Jenesis Software is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Insurance, Agency Management System, Insurtech, Property and Casualty, and Policy Management.
 
 
   Jenesis Software''s developer surface includes documentation, YouTube channel, engineering blog, and 5 more developer resources.'
@@ -107,7 +107,7 @@ score:
     regime_id: insurance
     score: 9.1
   schema_version: 0.17.2
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/jenesis-software/refs/heads/main/screenshots/jenesis-software-2026-07-25T223132.png
 security:
@@ -119,7 +119,7 @@ slug: jenesis-software
 tags:
 - Insurance
 - Agency Management System
-- InsurTech
+- Insurtech
 - Property and Casualty
 - Policy Management
 - ACORD

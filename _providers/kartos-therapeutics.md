@@ -23,7 +23,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 25.2
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
 api_count: 7
 apis:
 - description: Published pages and the site-wide search index.
@@ -171,7 +171,7 @@ modified: '2026-08-04'
 name: Kartos Therapeutics
 nav: Providers
 network: true
-overview: 'Kartos Therapeutics publishes 7 APIs on the [APIs.io](https://apis.io/) network, including Content API, Discovery API, Media API, and 4 more. Tagged areas include Company, biotechnology, pharmaceuticals, oncology, and hematology.
+overview: 'Kartos Therapeutics publishes 7 APIs on the [APIs.io](https://apis.io/) network, including Content API, Discovery API, Media API, and 4 more. Tagged areas include Company, Biotechnology, Pharmaceuticals, Oncology, and Hematology.
 
 
   Kartos Therapeutics'' developer surface includes support, authentication, and 20 more developer resources.'
@@ -210,7 +210,7 @@ score:
     regime_id: health
     score: 26.3
   schema_version: 0.17.2
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/kartos-therapeutics/refs/heads/main/screenshots/kartos-therapeutics-2026-08-07T171100.png
 security:
@@ -225,14 +225,14 @@ security:
 slug: kartos-therapeutics
 tags:
 - Company
-- biotechnology
-- pharmaceuticals
-- oncology
-- hematology
-- rare-disease
-- precision-medicine
-- clinical-trials
-- life-sciences
+- Biotechnology
+- Pharmaceuticals
+- Oncology
+- Hematology
+- Rare Disease
+- Precision Medicine
+- Clinical Trials
+- Life Sciences
 - content-api
 website: https://kartosthera.com/
 ---

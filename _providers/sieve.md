@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 24.8
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -121,7 +121,7 @@ modified: '2026-06-20'
 name: Sieve
 nav: Providers
 network: true
-overview: 'Sieve publishes 2 APIs on the [APIs.io](https://apis.io/) network: Functions API and Jobs API. Tagged areas include Artificial Intelligence, Video, Audio, Media Processing, and Async Jobs.
+overview: 'Sieve publishes 2 APIs on the [APIs.io](https://apis.io/) network: Functions API and Jobs API. Tagged areas include Artificial Intelligence, Video, Audio, Media Processing, and AsyncJobs.
 
 
   Sieve''s developer surface includes authentication, documentation, engineering blog, and 8 more developer resources.'
@@ -161,7 +161,7 @@ score:
       marker_coverage: 0.0
       total: 2
   schema_version: 0.17.2
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
   trend: flat
 security:
 - kind: authentication
@@ -178,6 +178,6 @@ tags:
 - Video
 - Audio
 - Media Processing
-- Async Jobs
+- AsyncJobs
 website: https://www.sievedata.com
 ---

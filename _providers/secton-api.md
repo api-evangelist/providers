@@ -23,7 +23,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 21.8
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
 api_count: 1
 apis:
 - description: The Chat API from Secton API — 1 operation(s) for chat.
@@ -146,7 +146,7 @@ modified: '2026-08-16'
 name: Secton API
 nav: Providers
 network: true
-overview: 'Secton API publishes 2 APIs on the [APIs.io](https://apis.io/) network: Chat API and Models API. Tagged areas include Artificial Intelligence, Inference, llm, chat-completions, and generative-ai.
+overview: 'Secton API publishes 2 APIs on the [APIs.io](https://apis.io/) network: Chat API and Models API. Tagged areas include Artificial Intelligence, Inference, LLM, Chat Completions, and Generative AI.
 
 
   Secton API''s developer surface includes authentication, documentation, engineering blog, support, and 22 more developer resources.'
@@ -188,7 +188,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.17.2
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/secton-api/refs/heads/main/screenshots/secton-api-2026-08-17T081749.png
 security:
@@ -208,12 +208,12 @@ slug: secton-api
 tags:
 - Artificial Intelligence
 - Inference
-- llm
-- chat-completions
-- generative-ai
+- LLM
+- Chat Completions
+- Generative AI
 - Developer Tools
-- openai-compatible
-- streaming
-- machine-learning
+- OpenAI-Compatible
+- Streaming
+- Machine-Learning
 website: https://console.secton.org/api
 ---

@@ -30,6 +30,6 @@ tags:
 - Interoperability
 - JavaScript
 - Standards
-- Web APIs
+- Web API
 - Web Development
 ---

@@ -23,7 +23,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 31.7
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
 api_count: 50
 apis:
 - description: The Add Credentials API from Cisco Crosswork — 1 operation(s) for add credentials.
@@ -560,7 +560,7 @@ score:
     regime_id: telecommunications
     score: 50.0
   schema_version: 0.17.2
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
   trend: flat
 security:
 - kind: authentication

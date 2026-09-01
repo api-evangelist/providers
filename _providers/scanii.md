@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
 api_count: 1
 apis:
 - description: Simple REST API that can scan submitted documents/files for the presence of threats
@@ -86,7 +86,7 @@ score:
     operational_transparency: 0.0
   previous_composite: 9.2
   schema_version: 0.17.2
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/scanii/refs/heads/main/screenshots/scanii-2026-06-20T193508.png
 security:

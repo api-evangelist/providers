@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
 api_count: 0
 artifact_total: 1
 common:
@@ -68,7 +68,7 @@ modified: '2026-07-20'
 name: Pallet
 nav: Providers
 network: true
-overview: 'Pallet is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Physical Ai, Logistics, Supply Chain, and Freight.
+overview: 'Pallet is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Physical AI, Logistics, Supply Chain, and Freight.
 
 
   Pallet''s developer surface includes engineering blog, signup flow, and 4 more developer resources.'
@@ -93,7 +93,7 @@ score:
     operational_transparency: 0.0
   previous_composite: 12.3
   schema_version: 0.17.2
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/pallet/refs/heads/main/screenshots/pallet-2026-08-07T191322.png
 security:
@@ -104,7 +104,7 @@ security:
 slug: pallet
 tags:
 - Company
-- Physical Ai
+- Physical AI
 - Logistics
 - Supply Chain
 - Freight

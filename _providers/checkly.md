@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 53.1
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
 agentic_access:
 - acting_count: 117
   human_in_the_loop: 0
@@ -232,6 +232,10 @@ collections:
   name: Checkly Public API
   slug: open-checkly
 common:
+- group: commercial
+  title: ''
+  type: License
+  url: https://github.com/checkly/checkly-cli/blob/main/LICENSE
 - group: agent
   title: ''
   type: AgenticAccess
@@ -446,7 +450,7 @@ overview: 'Checkly publishes 41 APIs on the [APIs.io](https://apis.io/) network,
   The Checkly catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  Checkly''s developer surface includes authentication, documentation, engineering blog, CLI, changelog, API reference, getting-started guide, and 41 more developer resources.'
+  Checkly''s developer surface includes authentication, documentation, engineering blog, CLI, changelog, API reference, getting-started guide, and 42 more developer resources.'
 plans:
 - name: Checkly Plans Pricing
   plan_count: 4
@@ -469,7 +473,7 @@ score:
     catalog_gap: 70.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.5
+  delta: 0.0
   facets:
     access_clarity: 69.7
     commercial_clarity: 69.7
@@ -479,7 +483,7 @@ score:
     discoverability: 75.9
     governance: 18.2
     operational_transparency: 71.1
-  previous_composite: 64.9
+  previous_composite: 64.4
   provenance:
     agentic_access: derived
     contracts:
@@ -488,7 +492,7 @@ score:
       marker_coverage: 0.0
       total: 16
   schema_version: 0.17.2
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/checkly/refs/heads/main/screenshots/checkly-2026-06-20T174251.png
 security:

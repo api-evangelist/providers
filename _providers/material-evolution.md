@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
 api_count: 0
 artifact_total: 1
 common:
@@ -64,7 +64,7 @@ modified: '2026-07-20'
 name: Material Evolution
 nav: Providers
 network: true
-overview: 'Material Evolution is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Cement, Construction, Sustainability, and Low Carbon.
+overview: 'Material Evolution is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Cement, Construction, Sustainability, and Low-Carbon.
 
 
   Material Evolution''s developer surface includes engineering blog, support, and 3 more developer resources.'
@@ -89,7 +89,7 @@ score:
     operational_transparency: 0.0
   previous_composite: 8.5
   schema_version: 0.17.2
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/material-evolution/refs/heads/main/screenshots/material-evolution-2026-07-25T230407.png
 security:
@@ -103,7 +103,7 @@ tags:
 - Cement
 - Construction
 - Sustainability
-- Low Carbon
+- Low-Carbon
 - Cleantech
 - Manufacturing
 - Materials

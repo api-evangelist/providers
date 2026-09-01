@@ -23,7 +23,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 36.3
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
 api_count: 4
 apis:
 - description: On-appliance REST API exposed by every SC//HyperCore (HC3) clustered node for automating virtual machines, virtual disks, networks, snapshots, snapshot schedules, replication, node and cluster operati
@@ -223,7 +223,7 @@ modified: '2026-08-26'
 name: Scale Computing
 nav: Providers
 network: true
-overview: 'Scale Computing publishes 17 APIs on the [APIs.io](https://apis.io/) network, including API Keys API, Clusters API, Conditions API, and 14 more. Tagged areas include edge-computing, hyperconverged-infrastructure, Virtualization, infrastructure-management, and fleet-management.
+overview: 'Scale Computing publishes 17 APIs on the [APIs.io](https://apis.io/) network, including API Keys API, Clusters API, Conditions API, and 14 more. Tagged areas include Edge Computing, Hyperconverged Infrastructure, Virtualization, Infrastructure Management, and Fleet Management.
 
 
   Scale Computing''s developer surface includes documentation, API reference, support, engineering blog, pricing, authentication, and 25 more developer resources.'
@@ -260,7 +260,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.17.2
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
   trend: flat
 security:
 - kind: authentication
@@ -281,14 +281,14 @@ security:
   summary_line: trust center published
 slug: scale-computing
 tags:
-- edge-computing
-- hyperconverged-infrastructure
+- Edge Computing
+- Hyperconverged Infrastructure
 - Virtualization
-- infrastructure-management
-- fleet-management
-- virtual-machines
-- observability
-- infrastructure-as-code
-- kubernetes
+- Infrastructure Management
+- Fleet Management
+- Virtual Machines
+- Observability
+- Infrastructure as Code
+- Kubernetes
 website: https://www.scalecomputing.com/
 ---

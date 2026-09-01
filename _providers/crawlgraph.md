@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 28.1
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
 api_count: 2
 apis:
 - description: Hosted remote Model Context Protocol server at https://crawlgraph.com/mcp over Streamable HTTP, plus an open-source local stdio fallback published to npm as crawlgraph-mcp (MIT). Four tools — backlink
@@ -50,6 +50,10 @@ collections:
   name: CrawlGraph
   slug: open-crawlgraph-v1
 common:
+- group: commercial
+  title: ''
+  type: License
+  url: https://github.com/pucilpet/crawlgraph-mcp/blob/master/LICENSE
 - group: start
   title: ''
   type: DeveloperPortal
@@ -178,10 +182,10 @@ modified: '2026-08-13'
 name: CrawlGraph
 nav: Providers
 network: true
-overview: 'CrawlGraph publishes 1 API on the [APIs.io](https://apis.io/) network: V1 API. Tagged areas include SEO, backlink-intelligence, martech, Competitive Intelligence, and Web Data.
+overview: 'CrawlGraph publishes 1 API on the [APIs.io](https://apis.io/) network: V1 API. Tagged areas include SEO, backlink-intelligence, MarTech, Competitive Intelligence, and Web Data.
 
 
-  CrawlGraph''s developer surface includes documentation, API reference, getting-started guide, engineering blog, authentication, and 24 more developer resources.'
+  CrawlGraph''s developer surface includes documentation, API reference, getting-started guide, engineering blog, authentication, and 25 more developer resources.'
 plans:
 - name: Crawlgraph Plans Pricing
   plan_count: 3
@@ -220,7 +224,7 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.17.2
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/crawlgraph/refs/heads/main/screenshots/crawlgraph-2026-07-25T210652.png
 security:
@@ -240,7 +244,7 @@ slug: crawlgraph
 tags:
 - SEO
 - backlink-intelligence
-- martech
+- MarTech
 - Competitive Intelligence
 - Web Data
 - Common-Crawl

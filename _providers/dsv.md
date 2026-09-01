@@ -23,7 +23,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 32.3
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
 api_count: 29
 apis:
 - description: Booking Api Service
@@ -337,7 +337,7 @@ score:
       marker_coverage: 0.0
       total: 29
   schema_version: 0.17.2
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/dsv/refs/heads/main/screenshots/dsv-2026-08-07T164531.png
 slug: dsv

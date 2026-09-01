@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 12.1
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
 api_count: 1
 apis:
 - description: The public Model Context Protocol endpoint served by LIFT Aircraft's Wix-hosted site. Exposes nine tools that let an agent read business details, search the site, read the installed Wix business-solut
@@ -118,7 +118,7 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.17.2
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/lift/refs/heads/main/screenshots/lift-2026-07-25T225052.png
 security:

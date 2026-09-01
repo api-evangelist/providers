@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 9.7
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
 api_count: 20
 apis:
 - description: Core Payments API on the AstroPay platform for creating, retrieving, and managing payment transactions across the AstroPay wallet network and supported local payment methods. Backs merchant pay-in flo
@@ -272,7 +272,7 @@ score:
     regime_id: payments
     score: 18.8
   schema_version: 0.17.2
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/astropay/refs/heads/main/screenshots/astropay-2026-06-20T172512.png
 security:
@@ -297,11 +297,11 @@ tags:
 - Payouts
 - Wallets
 - Digital Wallet
-- Multicurrency
+- Multi-Currency
 - Cards
 - Card Issuing
-- PIX
-- LATAM
+- Pix
+- LatAm
 - Latin America
 - Brazil
 - Argentina

@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 22.3
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -245,7 +245,7 @@ modified: '2026-05-25'
 name: Ubiquiti
 nav: Providers
 network: true
-overview: 'Ubiquiti publishes 5 APIs on the [APIs.io](https://apis.io/) network, including Devices API, Hosts API, ISP Metrics API, and 2 more. Tagged areas include Networking, WiFi, Switching, Routing, and Surveillance.
+overview: 'Ubiquiti publishes 5 APIs on the [APIs.io](https://apis.io/) network, including Devices API, Hosts API, ISP Metrics API, and 2 more. Tagged areas include Networking, Wi-Fi, Switching, Routing, and Surveillance.
 
 
   Ubiquiti''s developer surface includes authentication, developer portal, documentation, getting-started guide, signup flow, engineering blog, support, and 26 more developer resources.'
@@ -266,7 +266,7 @@ score:
     catalog_gap: 59.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.6
+  delta: 0.0
   facets:
     access_clarity: 65.8
     commercial_clarity: 65.8
@@ -276,7 +276,7 @@ score:
     discoverability: 59.3
     governance: 0.0
     operational_transparency: 65.8
-  previous_composite: 53.2
+  previous_composite: 52.6
   provenance:
     agentic_access: derived
     contracts:
@@ -285,7 +285,7 @@ score:
       marker_coverage: 0.0
       total: 5
   schema_version: 0.17.2
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/ubiquiti/refs/heads/main/screenshots/ubiquiti-2026-06-20T195930.png
 security:
@@ -304,7 +304,7 @@ security:
 slug: ubiquiti
 tags:
 - Networking
-- WiFi
+- Wi-Fi
 - Switching
 - Routing
 - Surveillance

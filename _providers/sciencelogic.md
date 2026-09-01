@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 50.6
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
 api_count: 5
 apis:
 - description: The ScienceLogic AI Platform (Skylar) — AIOps, IT infrastructure and application observability, service management, network configuration compliance, and automated remediation.
@@ -259,7 +259,7 @@ score:
     operational_transparency: 34.2
   previous_composite: 54.8
   schema_version: 0.17.2
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/sciencelogic/refs/heads/main/screenshots/sciencelogic-2026-06-20T193537.png
 security:

@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
 api_count: 2
 apis:
 - description: Zebra Data Services provides cloud REST APIs for managing Zebra devices, printers, and scanners enrolled in the Zebra cloud. The API covers asset ownership service (AOS), cloud print via SendFileToPri
@@ -100,7 +100,7 @@ modified: '2026-06-05'
 name: Zebra Technologies
 nav: Providers
 network: true
-overview: 'Zebra Technologies publishes 2 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Manufacturing, RFID, Barcode, Warehouse Automation, and IoT.
+overview: 'Zebra Technologies publishes 2 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Manufacturing, RFID, Barcodes, Warehouse Automation, and IoT.
 
 
   The Zebra Technologies catalog on APIs.io includes 1 JSON-LD context.
@@ -128,7 +128,7 @@ score:
     operational_transparency: 2.6
   previous_composite: 20.1
   schema_version: 0.17.2
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/zebra-technologies/refs/heads/main/screenshots/zebra-technologies-2026-06-20T201804.png
 security:
@@ -140,7 +140,7 @@ slug: zebra-technologies
 tags:
 - Manufacturing
 - RFID
-- Barcode
+- Barcodes
 - Warehouse Automation
 - IoT
 - Industrial IoT

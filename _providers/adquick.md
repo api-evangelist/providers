@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 28.5
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
 api_count: 1
 apis:
 - description: REST API for planning and launching guaranteed and auction out-of-home (OOH) campaigns, placing insertion orders, submitting and scheduling creatives, and gathering in-flight delivery reporting. Authe
@@ -157,7 +157,7 @@ modified: '2026-08-13'
 name: AdQuick
 nav: Providers
 network: true
-overview: 'AdQuick publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Enterprise Saas, Advertising, Out Of Home Advertising, and DOOH.
+overview: 'AdQuick publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Enterprise Saas, Advertising, Out-of-Home Advertising, and DOOH.
 
 
   AdQuick''s developer surface includes documentation, API reference, getting-started guide, engineering blog, support, authentication, and 20 more developer resources.'
@@ -199,7 +199,7 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.17.2
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/adquick/refs/heads/main/screenshots/adquick-2026-07-25T181659.png
 security:
@@ -220,7 +220,7 @@ tags:
 - Company
 - Enterprise Saas
 - Advertising
-- Out Of Home Advertising
+- Out-of-Home Advertising
 - DOOH
 - Programmatic Advertising
 - Media Buying

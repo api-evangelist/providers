@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.4
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
 agentic_access:
 - acting_count: 80
   human_in_the_loop: 0
@@ -321,7 +321,7 @@ modified: '2026-07-20'
 name: Paraşüt
 nav: Providers
 network: true
-overview: 'Paraşüt publishes 24 APIs on the [APIs.io](https://apis.io/) network, including Accounts API, ApiHome API, BankFees API, and 21 more. Tagged areas include Company, Accounting, Pre-Accounting, e-Invoicing, and Invoicing.
+overview: 'Paraşüt publishes 24 APIs on the [APIs.io](https://apis.io/) network, including Accounts API, ApiHome API, BankFees API, and 21 more. Tagged areas include Company, Accounting, Pre-Accounting, E-Invoicing, and Invoicing.
 
 
   Paraşüt''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, authentication, and 21 more developer resources.'
@@ -339,7 +339,7 @@ score:
     catalog_gap: 78.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.6
+  delta: 0.0
   facets:
     access_clarity: 38.2
     commercial_clarity: 38.2
@@ -349,7 +349,7 @@ score:
     discoverability: 75.9
     governance: 4.5
     operational_transparency: 18.4
-  previous_composite: 41.9
+  previous_composite: 41.3
   provenance:
     agentic_access: derived
     conformance: derived
@@ -361,7 +361,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.17.2
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/para-t/refs/heads/main/screenshots/para-t-2026-08-07T191400.png
 security:
@@ -378,7 +378,7 @@ tags:
 - Company
 - Accounting
 - Pre-Accounting
-- e-Invoicing
+- E-Invoicing
 - Invoicing
 - Fintech
 - Software-as-a-Service

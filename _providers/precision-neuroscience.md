@@ -23,7 +23,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
 api_count: 0
 artifact_total: 1
 common:
@@ -128,7 +128,7 @@ modified: '2026-08-05'
 name: Precision Neuroscience
 nav: Providers
 network: true
-overview: 'Precision Neuroscience is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, brain-computer-interface, neurotechnology, medical-devices, and neuroscience.
+overview: 'Precision Neuroscience is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Brain-Computer Interface, Neurotechnology, Medical Devices, and Neuroscience.
 
 
   Precision Neuroscience''s developer surface includes product news, engineering blog, and 17 more developer resources.'
@@ -164,7 +164,7 @@ score:
     regime_id: health
     score: 23.8
   schema_version: 0.17.2
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
   trend: flat
 security:
 - kind: domain-security
@@ -174,14 +174,14 @@ security:
 slug: precision-neuroscience
 tags:
 - Company
-- brain-computer-interface
-- neurotechnology
-- medical-devices
-- neuroscience
-- implantable-devices
+- Brain-Computer Interface
+- Neurotechnology
+- Medical Devices
+- Neuroscience
+- Implantable Devices
 - neural-interfaces
-- health-technology
-- clinical-research
-- deep-tech
+- Health Technology
+- Clinical Research
+- Deep Tech
 website: https://www.precisionneuro.io/
 ---

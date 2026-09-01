@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
 api_count: 0
 artifact_total: 2
 common:
@@ -72,7 +72,7 @@ modified: '2026-07-18'
 name: Earnix
 nav: Providers
 network: true
-overview: 'Earnix is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Insurance, InsurTech, Pricing, and Rating.
+overview: 'Earnix is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Insurance, Insurtech, Pricing, and Rating.
 
 
   Earnix''s developer surface includes engineering blog, support, and 5 more developer resources.'
@@ -103,7 +103,7 @@ score:
     regime_id: insurance
     score: 22.7
   schema_version: 0.17.2
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/earnix/refs/heads/main/screenshots/earnix-2026-07-25T212659.png
 security:
@@ -119,7 +119,7 @@ slug: earnix
 tags:
 - Company
 - Insurance
-- InsurTech
+- Insurtech
 - Pricing
 - Rating
 - Underwriting

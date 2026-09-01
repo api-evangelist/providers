@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
 api_count: 0
 artifact_total: 1
 common:
@@ -68,7 +68,7 @@ modified: '2026-07-19'
 name: Improovy
 nav: Providers
 network: true
-overview: 'Improovy is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Home Services, Marketplace, Painting, and Prop-Tech.
+overview: 'Improovy is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Home Services, Marketplace, Painting, and PropTech.
 
 
   Improovy''s developer surface includes engineering blog, support, and 4 more developer resources.'
@@ -93,7 +93,7 @@ score:
     operational_transparency: 0.0
   previous_composite: 10.6
   schema_version: 0.17.2
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/improovy/refs/heads/main/screenshots/improovy-2026-07-25T222203.png
 security:
@@ -107,7 +107,7 @@ tags:
 - Home Services
 - Marketplace
 - Painting
-- Prop-Tech
+- PropTech
 - Construction
 - Consumer
 website: https://improovy.com/

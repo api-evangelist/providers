@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 31.8
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
 agentic_access:
 - acting_count: 23
   human_in_the_loop: 0
@@ -353,7 +353,7 @@ modified: '2026-06-20'
 name: Terraform
 nav: Providers
 network: true
-overview: 'Terraform publishes 9 APIs on the [APIs.io](https://apis.io/) network, including Modules API, Organizations API, Policies API, and 6 more. Tagged areas include Infrastructure As Code, Cloud Infrastructure, DevOps, Open-Source, and HashiCorp.
+overview: 'Terraform publishes 9 APIs on the [APIs.io](https://apis.io/) network, including Modules API, Organizations API, Policies API, and 6 more. Tagged areas include Infrastructure as Code, Cloud Infrastructure, DevOps, Open-Source, and HashiCorp.
 
 
   The Terraform catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
@@ -399,7 +399,7 @@ score:
     catalog_gap: 43.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.6
+  delta: 0.0
   facets:
     access_clarity: 23.7
     commercial_clarity: 23.7
@@ -409,7 +409,7 @@ score:
     discoverability: 68.5
     governance: 59.1
     operational_transparency: 28.9
-  previous_composite: 49.6
+  previous_composite: 49.0
   provenance:
     agentic_access: derived
     conformance: derived
@@ -420,7 +420,7 @@ score:
       total: 9
     mcp: first-party
   schema_version: 0.17.2
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/terraform/refs/heads/main/screenshots/terraform-2026-06-20T195132.png
 security:
@@ -442,7 +442,7 @@ security:
   summary_line: SOC 2 Type 2, ISO 27001, ISO 27017, ISO 27018
 slug: terraform
 tags:
-- Infrastructure As Code
+- Infrastructure as Code
 - Cloud Infrastructure
 - DevOps
 - Open-Source

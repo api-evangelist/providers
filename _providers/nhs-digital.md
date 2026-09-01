@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 32.3
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
 agentic_access:
 - acting_count: 25
   human_in_the_loop: 0
@@ -231,7 +231,7 @@ modified: '2026-06-13'
 name: NHS Digital
 nav: Providers
 network: true
-overview: 'NHS Digital publishes 8 APIs on the [APIs.io](https://apis.io/) network, including Booking API, communication API, Message API, and 5 more. Tagged areas include NHS, Health, FHIR, UK, and patient demographics.
+overview: 'NHS Digital publishes 8 APIs on the [APIs.io](https://apis.io/) network, including Booking API, communication API, Message API, and 5 more. Tagged areas include NHS, Health, FHIR, UK, and Patient Demographics.
 
 
   The NHS Digital catalog on APIs.io includes 1 JSON-LD context.
@@ -280,7 +280,7 @@ score:
     regime_id: health
     score: 33.8
   schema_version: 0.17.2
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/nhs-digital/refs/heads/main/screenshots/nhs-digital-2026-08-07T185239.png
 security:
@@ -302,11 +302,11 @@ tags:
 - Health
 - FHIR
 - UK
-- patient demographics
-- prescriptions
+- Patient Demographics
+- Prescriptions
 - Referrals
-- clinical data
-- digital health
-- government
+- Clinical Data
+- Digital Health
+- Government
 website: https://digital.nhs.uk/developer
 ---

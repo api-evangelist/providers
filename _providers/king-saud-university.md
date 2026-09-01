@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 5.0
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
 api_count: 1
 apis:
 - description: As of this review, King Saud University exposes no public, documented developer API. University digital services (Edugate SIS, LMS, library catalog, Saudi Digital Library access, manuscripts portal, a
@@ -136,7 +136,7 @@ score:
     regime_id: education
     score: 31.5
   schema_version: 0.17.2
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/king-saud-university/refs/heads/main/screenshots/king-saud-university-2026-06-20T184048.png
 security:

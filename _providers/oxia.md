@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 2.5
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
 api_count: 1
 apis:
 - description: Scalable metadata store and coordination service for distributed systems with strong consistency guarantees.
@@ -91,7 +91,7 @@ score:
     operational_transparency: 13.2
   previous_composite: 11.8
   schema_version: 0.17.2
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/oxia/refs/heads/main/screenshots/oxia-2026-06-20T191257.png
 slug: oxia

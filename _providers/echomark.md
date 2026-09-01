@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 2.5
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
 api_count: 1
 apis:
 - description: 'Embed forensic watermarking into applications, internal tools, and custom workflows, and programmatically retrieve forensic results to identify leaked artifacts and attribute which recipient''s marked '
@@ -152,7 +152,7 @@ score:
   provenance:
     conformance: first-party
   schema_version: 0.17.2
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/echomark/refs/heads/main/screenshots/echomark-2026-07-25T212737.png
 security:

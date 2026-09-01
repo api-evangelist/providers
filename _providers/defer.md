@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 2.5
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
 api_count: 1
 apis:
 - description: The Defer platform exposes a TypeScript SDK for declaring deferred functions and a managed control plane that schedules, queues, retries, and observes their execution. Functions are defined with decor
@@ -73,7 +73,7 @@ modified: '2026-04-28'
 name: Defer
 nav: Providers
 network: true
-overview: 'Defer publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Background Jobs, CRON, Developer-First, Node.js, and Queues.
+overview: 'Defer publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Background Jobs, Cron, Developer-First, Node.js, and Queues.
 
 
   Defer''s developer surface includes documentation, GitHub presence, and 3 more developer resources.'
@@ -106,7 +106,7 @@ score:
     operational_transparency: 10.5
   previous_composite: 11.4
   schema_version: 0.17.2
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
   trend: flat
 security:
 - kind: domain-security
@@ -116,7 +116,7 @@ security:
 slug: defer
 tags:
 - Background Jobs
-- CRON
+- Cron
 - Developer-First
 - Node.js
 - Queues

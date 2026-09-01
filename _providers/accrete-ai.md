@@ -23,7 +23,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 2.2
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
 api_count: 0
 artifact_total: 3
 common:
@@ -137,7 +137,7 @@ score:
     regime_id: government
     score: 55.6
   schema_version: 0.17.2
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/accrete-ai/refs/heads/main/screenshots/accrete-ai-2026-08-07T160807.png
 security:
@@ -161,7 +161,7 @@ tags:
 - Knowledge Graphs
 - Defense
 - Government
-- IT Service Management
+- ITSM
 - Supply Chain
 - Social Media Intelligence
 - Enterprise Software

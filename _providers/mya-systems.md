@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
 api_count: 0
 artifact_total: 0
 common:
@@ -56,7 +56,7 @@ modified: '2026-07-20'
 name: Mya Systems
 nav: Providers
 network: true
-overview: Mya Systems is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Hr Tech, Recruiting, Conversational AI, and Talent Acquisition.
+overview: Mya Systems is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, HR Tech, Recruiting, Conversational AI, and Talent Acquisition.
 random_paper: 9
 score:
   band: minimal
@@ -84,17 +84,17 @@ score:
       reason: never_enriched
   previous_composite: 5.0
   schema_version: 0.17.2
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/mya-systems/refs/heads/main/screenshots/mya-systems-2026-08-07T184505.png
 slug: mya-systems
 tags:
 - Company
-- Hr Tech
+- HR Tech
 - Recruiting
 - Conversational AI
 - Talent Acquisition
-- Chatbot
+- Chatbots
 - Acquired
 website: https://www.mya.com
 ---

@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
 api_count: 12
 apis:
 - description: OpenAI-compatible chat completions for the Step model family (e.g. step-3.7-flash, step-3.5-flash, stepaudio-2.5-chat), with multimodal image/video/audio message parts, tool calling, JSON mode, stream
@@ -190,7 +190,7 @@ modified: '2026-07-21'
 name: StepFun
 nav: Providers
 network: true
-overview: 'StepFun publishes 1 API on the [APIs.io](https://apis.io/) network: Realtime API. Tagged areas include Artificial Intelligence, LLM, Multimodal, Chat Completion, and Audio.
+overview: 'StepFun publishes 1 API on the [APIs.io](https://apis.io/) network: Realtime API. Tagged areas include Artificial Intelligence, LLM, Multi-Modal, Chat Completion, and Audio.
 
 
   The StepFun catalog on APIs.io includes 1 event-driven AsyncAPI specification.
@@ -225,7 +225,7 @@ score:
     conformance: first-party
     mcp: first-party
   schema_version: 0.17.2
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/stepfun/refs/heads/main/screenshots/stepfun-2026-08-17T082149.png
 security:
@@ -241,11 +241,11 @@ slug: stepfun
 tags:
 - Artificial Intelligence
 - LLM
-- Multimodal
+- Multi-Modal
 - Chat Completion
 - Audio
 - Speech
-- Text to Speech
+- Text-to-Speech
 - Speech Recognition
 - Image
 - Real-Time

@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 5.4
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
 api_count: 1
 apis:
 - description: 'Sunyur''s enterprise procurement open integration platform ("聚贤阁"). Exposes an accessToken-authenticated API base at https://open.sunyur.com/api that connects buyers to mainstream e-commerce platforms '
@@ -77,7 +77,7 @@ modified: '2026-07-21'
 name: Sunyur
 nav: Providers
 network: true
-overview: 'Sunyur publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Procurement, SRM, E-Procurement, and Supplier Management.
+overview: 'Sunyur publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Procurement, SRM, eProcurement, and Supplier Management.
 
 
   Sunyur''s developer surface includes documentation, authentication, and 5 more developer resources.'
@@ -102,7 +102,7 @@ score:
     operational_transparency: 0.0
   previous_composite: 13.1
   schema_version: 0.17.2
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
   trend: flat
 security:
 - kind: authentication
@@ -118,7 +118,7 @@ tags:
 - Company
 - Procurement
 - SRM
-- E-Procurement
+- eProcurement
 - Supplier Management
 - Digital Procurement
 - Enterprise Software

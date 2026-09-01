@@ -23,7 +23,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 21.8
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
 api_count: 9
 apis:
 - description: Juvenescence's news stream — 57 published posts across Press Releases, In the News, Juv on the Road, Publications and Videos — read from the WordPress REST content API behind juvlabs.com.
@@ -204,7 +204,7 @@ modified: '2026-08-23'
 name: Juvenescence
 nav: Providers
 network: true
-overview: 'Juvenescence publishes 9 APIs on the [APIs.io](https://apis.io/) network, including Posts API, Pages API, Media API, and 6 more. Tagged areas include Company, biotechnology, pharmaceuticals, longevity, and drug-discovery.
+overview: 'Juvenescence publishes 9 APIs on the [APIs.io](https://apis.io/) network, including Posts API, Pages API, Media API, and 6 more. Tagged areas include Company, Biotechnology, Pharmaceuticals, Longevity, and Drug Discovery.
 
 
   Juvenescence''s developer surface includes documentation, API reference, engineering blog, support, authentication, and 30 more developer resources.'
@@ -252,7 +252,7 @@ score:
     regime_id: health
     score: 48.8
   schema_version: 0.17.2
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
   trend: flat
 security:
 - kind: authentication
@@ -266,14 +266,14 @@ security:
 slug: juvenescence
 tags:
 - Company
-- biotechnology
-- pharmaceuticals
-- longevity
-- drug-discovery
-- life-sciences
-- clinical-trials
-- artificial-intelligence
-- aging
+- Biotechnology
+- Pharmaceuticals
+- Longevity
+- Drug Discovery
+- Life Sciences
+- Clinical Trials
+- Artificial Intelligence
+- Aging
 - content-api
 website: https://juvlabs.com/
 ---

@@ -23,7 +23,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 36.4
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
 api_count: 1
 apis:
 - description: REST management API for the Skyvia platform. Programmatically read and control account users and invitations, workspaces and workspace membership, on-premise agents, data-source connections, data inte
@@ -216,7 +216,7 @@ modified: '2026-08-12'
 name: Skyvia
 nav: Providers
 network: true
-overview: 'Skyvia publishes 1 API on the [APIs.io](https://apis.io/) network: Public API. Tagged areas include data-integration, ipaas, etl, elt, and data-replication.
+overview: 'Skyvia publishes 1 API on the [APIs.io](https://apis.io/) network: Public API. Tagged areas include Data Integration, iPaaS, ETL, ELT, and Data Replication.
 
 
   The Skyvia catalog on APIs.io includes 1 event-driven AsyncAPI specification.
@@ -245,7 +245,7 @@ score:
     catalog_gap: 78.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -1.9
+  delta: 0.0
   facets:
     access_clarity: 53.9
     commercial_clarity: 53.9
@@ -255,7 +255,7 @@ score:
     discoverability: 75.9
     governance: 18.2
     operational_transparency: 15.8
-  previous_composite: 43.3
+  previous_composite: 41.4
   provenance:
     conformance: first-party
     contracts:
@@ -266,7 +266,7 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.17.2
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/skyvia/refs/heads/main/screenshots/skyvia-2026-08-17T081918.png
 security:
@@ -284,20 +284,20 @@ security:
   summary_line: SOC 2, ISO 27001, PCI DSS, HIPAA, GDPR
 slug: skyvia
 tags:
-- data-integration
-- ipaas
-- etl
-- elt
-- data-replication
-- cloud-backup
-- odata
+- Data Integration
+- iPaaS
+- ETL
+- ELT
+- Data Replication
+- Cloud Backup
+- OData
 - SQL
-- workflow-automation
-- no-code
+- Workflow-Automation
+- No-Code
 - Connectors
-- data-management
+- Data Management
 - MCP
 - agent-native
-- data-access
+- Data Access
 website: https://skyvia.com/
 ---

@@ -23,7 +23,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 25.2
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
 api_count: 4
 apis:
 - description: Read-only, unauthenticated JSON status API served from Empowerly's own status subdomain by Atlassian Statuspage. Exposes the overall page status indicator, the component roster (currently a single "Em
@@ -176,7 +176,7 @@ modified: '2026-08-12'
 name: Empowerly
 nav: Providers
 network: true
-overview: 'Empowerly publishes 4 APIs on the [APIs.io](https://apis.io/) network, including Status API, Components API, Incidents API, and 1 more. Tagged areas include Company, education, edtech, college-admissions, and counseling.
+overview: 'Empowerly publishes 4 APIs on the [APIs.io](https://apis.io/) network, including Status API, Components API, Incidents API, and 1 more. Tagged areas include Company, Education, EdTech, College Admissions, and Counseling.
 
 
   Empowerly''s developer surface includes engineering blog, pricing, authentication, and 23 more developer resources.'
@@ -224,7 +224,7 @@ score:
     regime_id: education
     score: 66.7
   schema_version: 0.17.2
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
   trend: flat
 security:
 - kind: authentication
@@ -246,13 +246,13 @@ security:
 slug: empowerly
 tags:
 - Company
-- education
-- edtech
-- college-admissions
-- counseling
-- students
-- career-services
-- consumer-services
-- status-page
+- Education
+- EdTech
+- College Admissions
+- Counseling
+- Students
+- Career Services
+- Consumer Services
+- Status Page
 website: https://empowerly.com/
 ---

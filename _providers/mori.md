@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 21.2
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
 api_count: 0
 artifact_total: 4
 common:
@@ -135,7 +135,7 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.17.2
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/mori/refs/heads/main/screenshots/mori-2026-08-07T184304.png
 security:
@@ -158,7 +158,7 @@ tags:
 - Direct to Consumer
 - Shopify
 - MCP
-- Agent Native
+- agent-native
 - Universal Commerce Protocol
 website: https://babymori.com
 ---

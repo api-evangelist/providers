@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
 api_count: 0
 artifact_total: 1
 common:
@@ -129,7 +129,7 @@ modified: '2026-05-25'
 name: Dokku
 nav: Providers
 network: true
-overview: 'Dokku is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include PaaS, Self-Hosted, Docker, Containers, and Buildpacks.
+overview: 'Dokku is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Platform-as-a-Service, Self-Hosted, Docker, Containers, and Buildpacks.
 
 
   Dokku''s developer surface includes documentation, getting-started guide, engineering blog, GitHub presence, release notes, and 16 more developer resources.'
@@ -154,7 +154,7 @@ score:
     operational_transparency: 18.4
   previous_composite: 13.1
   schema_version: 0.17.2
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/dokku/refs/heads/main/screenshots/dokku-2026-06-20T180131.png
 security:
@@ -164,7 +164,7 @@ security:
   summary_line: TLSv1.3 · HSTS
 slug: dokku
 tags:
-- PaaS
+- Platform-as-a-Service
 - Self-Hosted
 - Docker
 - Containers

@@ -24,7 +24,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 41.0
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
 agentic_access:
 - acting_count: 154
   human_in_the_loop: 4
@@ -560,7 +560,7 @@ modified: '2026-08-04'
 name: Dream Sports
 nav: Providers
 network: true
-overview: 'Dream Sports publishes 61 APIs on the [APIs.io](https://apis.io/) network, including Access Keys API, Account API, and 59 more. Tagged areas include Company, sports-technology, fantasy-sports, Open-Source, and Developer Tools.
+overview: 'Dream Sports publishes 61 APIs on the [APIs.io](https://apis.io/) network, including Access Keys API, Account API, and 59 more. Tagged areas include Company, Sports Technology, Fantasy Sports, Open-Source, and Developer Tools.
 
 
   The Dream Sports catalog on APIs.io includes 1 event-driven AsyncAPI specification.
@@ -603,7 +603,7 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.17.2
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/dream-sports/refs/heads/main/screenshots/dream-sports-2026-08-07T164521.png
 security:
@@ -622,21 +622,21 @@ security:
 slug: dream-sports
 tags:
 - Company
-- sports-technology
-- fantasy-sports
+- Sports Technology
+- Fantasy Sports
 - Open-Source
 - Developer Tools
-- platform-engineering
+- Platform Engineering
 - Authentication
-- openid-connect
+- OpenID Connect
 - Mobile
-- react-native
-- devops
-- observability
-- test-management
-- ota-updates
-- feature-flags
-- india
+- React Native
+- DevOps
+- Observability
+- Test Management
+- OTA Updates
+- Feature Flags
+- India
 - MCP
 - agent-native
 website: https://www.dreamsports.group/

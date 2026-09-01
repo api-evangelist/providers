@@ -23,7 +23,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 37.1
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
 api_count: 10
 apis:
 - description: 'Two Model Context Protocol endpoints advertised in the scimar.ca WordPress REST route index under the "mcp" namespace — /wp-json/mcp/mcp-oauth-server and /wp-json/mcp/mcp-adapter-default-server. Both '
@@ -252,7 +252,7 @@ score:
     regime_id: health
     score: 52.5
   schema_version: 0.17.2
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
   trend: flat
 security:
 - kind: authentication

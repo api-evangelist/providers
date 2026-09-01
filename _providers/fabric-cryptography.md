@@ -23,7 +23,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
 api_count: 0
 artifact_total: 2
 common:
@@ -74,7 +74,7 @@ modified: '2026-08-12'
 name: Fabric Cryptography
 nav: Providers
 network: true
-overview: 'Fabric Cryptography is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Cryptography, Hardware, Semiconductors, and Zero Knowledge Proofs.
+overview: 'Fabric Cryptography is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Cryptography, Hardware, Semiconductors, and Zero-Knowledge Proofs.
 
 
   Fabric Cryptography''s developer surface includes engineering blog and 4 more developer resources.'
@@ -103,7 +103,7 @@ score:
     operational_transparency: 0.0
   previous_composite: 5.5
   schema_version: 0.17.2
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
   trend: flat
 security:
 - kind: domain-security
@@ -116,7 +116,7 @@ tags:
 - Cryptography
 - Hardware
 - Semiconductors
-- Zero Knowledge Proofs
+- Zero-Knowledge Proofs
 - Fully Homomorphic Encryption
 - Privacy
 - Accelerated Computing

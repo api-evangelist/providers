@@ -32,7 +32,7 @@ tags:
 - Healthcare
 - Developer Tools
 - Climate
-- Aerospace & Defense
+- Aerospace and Defense
 - San Francisco
 - North America
 ---

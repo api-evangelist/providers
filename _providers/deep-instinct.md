@@ -23,7 +23,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.2
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
 api_count: 2
 apis:
 - description: Versioned REST API exposed by the Deep Instinct DSX management console (D-Appliance) at https://<your-tenant-fqdn>/api/v1. Covers devices, device groups, policies, events (including the JSON event-sea
@@ -141,7 +141,7 @@ modified: '2026-08-01'
 name: Deep Instinct
 nav: Providers
 network: true
-overview: 'Deep Instinct publishes 2 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Cybersecurity, endpoint-security, malware-prevention, ransomware, and deep-learning.
+overview: 'Deep Instinct publishes 2 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Cybersecurity, Endpoint Security, malware-prevention, Ransomware, and Deep Learning.
 
 
   Deep Instinct''s developer surface includes support, engineering blog, signup flow, authentication, and 19 more developer resources.'
@@ -174,7 +174,7 @@ score:
     conformance: first-party
     mcp: first-party
   schema_version: 0.17.2
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/deep-instinct/refs/heads/main/screenshots/deep-instinct-2026-08-07T164228.png
 security:
@@ -193,14 +193,14 @@ security:
 slug: deep-instinct
 tags:
 - Cybersecurity
-- endpoint-security
+- Endpoint Security
 - malware-prevention
-- ransomware
-- deep-learning
-- threat-prevention
-- data-security
-- edr
-- soc-automation
+- Ransomware
+- Deep Learning
+- Threat Prevention
+- Data Security
+- EDR
+- SOC Automation
 - MCP
 website: https://www.deepinstinct.com/
 ---

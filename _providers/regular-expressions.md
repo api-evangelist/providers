@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 1.3
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
 api_count: 0
 artifact_total: 6
 common:
@@ -156,7 +156,7 @@ score:
     operational_transparency: 5.3
   previous_composite: 14.9
   schema_version: 0.17.2
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/regular-expressions/refs/heads/main/screenshots/regular-expressions-2026-06-20T192758.png
 security:

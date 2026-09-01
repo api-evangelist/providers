@@ -23,7 +23,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 15.1
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
 api_count: 1
 apis:
 - description: The authenticated GraphQL API behind the Deepwatch Security Center console (devportal.deepwatch.com). The endpoint is an AWS AppSync GraphQL service at devportalapi.deepwatch.com/graphql/ with a realt
@@ -168,7 +168,7 @@ score:
   provenance:
     conformance: first-party
   schema_version: 0.17.2
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/deepwatch/refs/heads/main/screenshots/deepwatch-2026-08-07T164239.png
 security:

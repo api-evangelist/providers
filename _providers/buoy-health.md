@@ -23,7 +23,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 36.9
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
 api_count: 2
 apis:
 - description: Auth0-backed OAuth 2.0 / OpenID Connect authorization server that issues the bearer tokens the Buoy Symptom Checker API requires. Publishes anonymous RFC 8414 authorization-server metadata and OIDC di
@@ -195,7 +195,7 @@ modified: '2026-08-08'
 name: Buoy Health
 nav: Providers
 network: true
-overview: 'Buoy Health publishes 6 APIs on the [APIs.io](https://apis.io/) network, including Complaints API, Intents API, Interviews API, and 3 more. Tagged areas include symptom-checker, medical-triage, digital-health, healthcare, and clinical-ai.
+overview: 'Buoy Health publishes 6 APIs on the [APIs.io](https://apis.io/) network, including Complaints API, Intents API, Interviews API, and 3 more. Tagged areas include Symptom Checker, medical-triage, Digital Health, Healthcare, and Clinical AI.
 
 
   Buoy Health''s developer surface includes documentation, API reference, support, engineering blog, authentication, sandbox, and 22 more developer resources.'
@@ -213,7 +213,7 @@ score:
     catalog_gap: 78.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.6
+  delta: 0.0
   facets:
     access_clarity: 28.9
     commercial_clarity: 28.9
@@ -223,7 +223,7 @@ score:
     discoverability: 75.9
     governance: 18.2
     operational_transparency: 10.5
-  previous_composite: 51.6
+  previous_composite: 51.0
   provenance:
     conformance: first-party
     contracts:
@@ -240,7 +240,7 @@ score:
     regime_id: health
     score: 82.5
   schema_version: 0.17.2
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/buoy-health/refs/heads/main/screenshots/buoy-health-2026-08-17T080742.png
 security:
@@ -258,15 +258,15 @@ security:
   summary_line: Hackerone · security.txt · contact published
 slug: buoy-health
 tags:
-- symptom-checker
+- Symptom Checker
 - medical-triage
-- digital-health
-- healthcare
-- clinical-ai
-- care-navigation
-- patient-engagement
-- diagnosis
-- telehealth
+- Digital Health
+- Healthcare
+- Clinical AI
+- Care Navigation
+- Patient Engagement
+- Diagnosis
+- Telehealth
 - Authentication
 website: https://www.buoyhealth.com/
 ---

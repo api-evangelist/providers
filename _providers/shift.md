@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
 api_count: 0
 artifact_total: 2
 common:
@@ -80,7 +80,7 @@ modified: '2026-07-21'
 name: Shift Technology
 nav: Providers
 network: true
-overview: 'Shift Technology is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Insurance, InsurTech, Artificial Intelligence, and Fraud Detection.
+overview: 'Shift Technology is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Insurance, Insurtech, Artificial Intelligence, and Fraud Detection.
 
 
   Shift Technology''s developer surface includes engineering blog, signup flow, and 7 more developer resources.'
@@ -111,7 +111,7 @@ score:
     regime_id: insurance
     score: 28.8
   schema_version: 0.17.2
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
   trend: flat
 security:
 - kind: domain-security
@@ -126,12 +126,12 @@ slug: shift
 tags:
 - Company
 - Insurance
-- InsurTech
+- Insurtech
 - Artificial Intelligence
 - Fraud Detection
 - Claims Automation
 - Decision Automation
 - Machine-Learning
-- Enterprise SaaS
+- Enterprise Saas
 website: https://www.shift-technology.com
 ---

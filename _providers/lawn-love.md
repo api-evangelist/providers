@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
 api_count: 0
 artifact_total: 1
 common:
@@ -124,7 +124,7 @@ modified: '2026-07-25'
 name: Lawn Love
 nav: Providers
 network: true
-overview: 'Lawn Love is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Home Services, Lawn Care, Marketplace, and On Demand.
+overview: 'Lawn Love is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Home Services, Lawn Care, Marketplace, and On-Demand.
 
 
   Lawn Love''s developer surface includes engineering blog, pricing, signup flow, support, and 16 more developer resources.'
@@ -149,7 +149,7 @@ score:
     operational_transparency: 2.6
   previous_composite: 11.8
   schema_version: 0.17.2
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/lawn-love/refs/heads/main/screenshots/lawn-love-2026-07-25T224637.png
 security:
@@ -163,7 +163,7 @@ tags:
 - Home Services
 - Lawn Care
 - Marketplace
-- On Demand
+- On-Demand
 - Field Service
 - Scheduling
 - Local Services

@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 25.5
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
 agentic_access:
 - acting_count: 14
   human_in_the_loop: 0
@@ -176,7 +176,7 @@ modified: '2026-05-19'
 name: Microsoft Bicep
 nav: Providers
 network: true
-overview: 'Microsoft Bicep publishes 3 APIs on the [APIs.io](https://apis.io/) network: Deployments API, Template Spec Versions API, and Template Specs API. Tagged areas include ARM Templates, Azure, Cloud, Deployment, and DevOps.
+overview: 'Microsoft Bicep publishes 3 APIs on the [APIs.io](https://apis.io/) network: Deployments API, Template Spec Versions API, and Template Specs API. Tagged areas include ArmTemplates, Azure, Cloud, Deployment, and DevOps.
 
 
   The Microsoft Bicep catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
@@ -216,7 +216,7 @@ score:
     catalog_gap: 60.8
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: 5.9
+  delta: 0.0
   facets:
     access_clarity: 15.8
     commercial_clarity: 15.8
@@ -229,7 +229,7 @@ score:
   open_source:
     applies: true
     score: 100.0
-  previous_composite: 36.5
+  previous_composite: 42.4
   provenance:
     agentic_access: derived
     contracts:
@@ -238,8 +238,8 @@ score:
       marker_coverage: 0.0
       total: 3
   schema_version: 0.17.2
-  scored_at: '2026-08-30'
-  trend: rising
+  scored_at: '2026-09-01'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/microsoft-bicep/refs/heads/main/screenshots/microsoft-bicep-2026-06-20T185444.png
 security:
 - kind: authentication
@@ -256,7 +256,7 @@ security:
   summary_line: security.txt · contact published
 slug: microsoft-bicep
 tags:
-- ARM Templates
+- ArmTemplates
 - Azure
 - Cloud
 - Deployment

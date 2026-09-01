@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 39.6
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
 agentic_access:
 - acting_count: 5
   human_in_the_loop: 0
@@ -250,7 +250,7 @@ modified: '2026-06-20'
 name: Google Drive
 nav: Providers
 network: true
-overview: 'Google Drive publishes 1 API on the [APIs.io](https://apis.io/) network: Files API. Tagged areas include Cloud Storage, Collaboration, Document-Management, Drive, and File.
+overview: 'Google Drive publishes 1 API on the [APIs.io](https://apis.io/) network: Files API. Tagged areas include Cloud Storage, Collaboration, Document-Management, Drives, and File.
 
 
   The Google Drive catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
@@ -322,7 +322,7 @@ score:
       total: 1
     mcp: first-party
   schema_version: 0.17.2
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/google-drive/refs/heads/main/screenshots/google-drive-2026-08-17T083537.png
 security:
@@ -347,7 +347,7 @@ tags:
 - Cloud Storage
 - Collaboration
 - Document-Management
-- Drive
+- Drives
 - File
 - Google
 - Storage

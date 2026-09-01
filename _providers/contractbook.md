@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 32.4
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
 agentic_access:
 - acting_count: 9
   human_in_the_loop: 0
@@ -144,7 +144,7 @@ modified: '2026-07-11'
 name: Contractbook
 nav: Providers
 network: true
-overview: 'Contractbook publishes 6 APIs on the [APIs.io](https://apis.io/) network, including Attachments API, Automations API, Document sharing API, and 3 more. Tagged areas include Contract Management, CLM, Contract Lifecycle, Legal, and eSignature.
+overview: 'Contractbook publishes 6 APIs on the [APIs.io](https://apis.io/) network, including Attachments API, Automations API, Document sharing API, and 3 more. Tagged areas include Contract Management, CLM, Contract Lifecycle, Legal, and E-Signature.
 
 
   Contractbook''s developer surface includes authentication, documentation, engineering blog, and 7 more developer resources.'
@@ -165,7 +165,7 @@ score:
     catalog_gap: 51.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.6
+  delta: 0.0
   facets:
     access_clarity: 39.5
     commercial_clarity: 39.5
@@ -175,7 +175,7 @@ score:
     discoverability: 68.5
     governance: 0.0
     operational_transparency: 39.5
-  previous_composite: 40.9
+  previous_composite: 40.3
   provenance:
     agentic_access: derived
     contracts:
@@ -184,7 +184,7 @@ score:
       marker_coverage: 0.0
       total: 6
   schema_version: 0.17.2
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/contractbook/refs/heads/main/screenshots/contractbook-2026-07-25T210337.png
 security:
@@ -198,7 +198,7 @@ tags:
 - CLM
 - Contract Lifecycle
 - Legal
-- eSignature
+- E-Signature
 - Contracts
 - Document Automation
 - Legal Tech

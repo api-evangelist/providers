@@ -23,7 +23,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 20.9
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
 api_count: 1
 apis:
 - description: Partner-facing API gateway at open.yuanqisenlin.com serving a Swagger 2.0 document titled "经销商&账款管理" (Distributor & Receivables Management, service name "arthur-merchant"). The document is publicly re
@@ -144,7 +144,7 @@ score:
       total: 1
     mcp: derived
   schema_version: 0.17.2
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
   trend: flat
 security:
 - kind: authentication

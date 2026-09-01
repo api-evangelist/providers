@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 26.1
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -155,7 +155,7 @@ modified: '2026-07-18'
 name: Acko
 nav: Providers
 network: true
-overview: 'Acko publishes 1 API on the [APIs.io](https://apis.io/) network: APIs API. Tagged areas include Company, Consumer, Insurance, InsurTech, and Financial-Services.
+overview: 'Acko publishes 1 API on the [APIs.io](https://apis.io/) network: APIs API. Tagged areas include Company, Consumer, Insurance, Insurtech, and Financial-Services.
 
 
   Acko''s developer surface includes authentication, documentation, API reference, engineering blog, support, and 17 more developer resources.'
@@ -196,7 +196,7 @@ score:
     regime_id: insurance
     score: 48.5
   schema_version: 0.17.2
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/acko/refs/heads/main/screenshots/acko-2026-07-25T181503.png
 security:
@@ -213,7 +213,7 @@ tags:
 - Company
 - Consumer
 - Insurance
-- InsurTech
+- Insurtech
 - Financial-Services
 - Digital Insurance
 - India

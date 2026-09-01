@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 2.5
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
 api_count: 1
 apis:
 - description: Pull normalized advertising data of any granularity from many ad networks and marketing analytics tools through a unified HAL+JSON interface (v1 and v2). Access user/organization/advertising-entity da
@@ -92,7 +92,7 @@ score:
       reason: never_enriched
   previous_composite: 12.9
   schema_version: 0.17.2
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/adstageio/refs/heads/main/screenshots/adstageio-2026-07-25T181704.png
 security:

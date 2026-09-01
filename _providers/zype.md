@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 33.3
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
 api_count: 15
 apis:
 - description: 'The core Zype content API: videos, playlists, categories, subtitles and subtitle playlists, transcriptions and translations, AI metadata suggestions, segments, program guides, video imports and source'
@@ -307,7 +307,7 @@ score:
       reason: no_resolvable_host
   previous_composite: 53.4
   schema_version: 0.17.2
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/zype/refs/heads/main/screenshots/zype-2026-06-20T202013.png
 security:

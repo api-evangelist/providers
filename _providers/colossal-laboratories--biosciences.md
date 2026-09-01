@@ -23,7 +23,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.9
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
 agentic_access:
 - acting_count: 43
   human_in_the_loop: 0
@@ -258,7 +258,7 @@ score:
     regime_id: health
     score: 31.3
   schema_version: 0.17.2
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
   trend: flat
 security:
 - kind: authentication
@@ -276,7 +276,7 @@ tags:
 - Genomics
 - Genetic Engineering
 - Synthetic Biology
-- De-extinction
+- De-Extinction
 - Conservation
 - Wildlife
 - Life Sciences

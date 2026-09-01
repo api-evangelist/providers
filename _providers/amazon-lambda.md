@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
 agentic_access:
 - acting_count: 7
   human_in_the_loop: 0
@@ -299,7 +299,7 @@ modified: '2026-05-19'
 name: Amazon Lambda
 nav: Providers
 network: true
-overview: 'Amazon Lambda publishes 2 APIs on the [APIs.io](https://apis.io/) network: Event Source Mappings API and Functions API. Tagged areas include Compute, Event-Driven, FaaS, Functions, and Serverless.
+overview: 'Amazon Lambda publishes 2 APIs on the [APIs.io](https://apis.io/) network: Event Source Mappings API and Functions API. Tagged areas include Compute, Event-Driven, Function-as-a-Service, Functions, and Serverless.
 
 
   The Amazon Lambda catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
@@ -364,7 +364,7 @@ score:
       marker_coverage: 0.0
       total: 2
   schema_version: 0.17.2
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/amazon-lambda/refs/heads/main/screenshots/amazon-lambda-2026-06-20T171722.png
 security:
@@ -388,7 +388,7 @@ slug: amazon-lambda
 tags:
 - Compute
 - Event-Driven
-- FaaS
+- Function-as-a-Service
 - Functions
 - Serverless
 use_cases:

@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
 api_count: 3
 apis:
 - description: Modeled catalog surface for browsing Printi's printable product lines (business cards, flyers, stationery, labels, packaging, promotional items) and their configurable options - format, paper stock, f
@@ -97,7 +97,7 @@ score:
     operational_transparency: 0.0
   previous_composite: 6.5
   schema_version: 0.17.2
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
   trend: flat
 security:
 - kind: domain-security

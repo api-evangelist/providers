@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 21.4
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
 api_count: 5
 apis:
 - description: Scalable virtual servers in the cloud.
@@ -179,7 +179,7 @@ modified: '2026-05-19'
 name: Amazon Web Services (AWS)
 nav: Providers
 network: true
-overview: 'Amazon Web Services (AWS) publishes 5 APIs on the [APIs.io](https://apis.io/) network, including Amazon EC2, Amazon S3, Amazon Lambda, and 2 more. Tagged areas include Cloud Computing, IaaS, Infrastructure, PaaS, and Platform-as-a-Service.
+overview: 'Amazon Web Services (AWS) publishes 5 APIs on the [APIs.io](https://apis.io/) network, including Amazon EC2, Amazon S3, Amazon Lambda, and 2 more. Tagged areas include Cloud Computing, Infrastructure-as-a-Service, Infrastructure, Platform-as-a-Service, and Serverless.
 
 
   Amazon Web Services (AWS)''s developer surface includes developer portal, documentation, authentication, engineering blog, support, pricing, developer console, and 11 more developer resources.'
@@ -212,7 +212,7 @@ score:
     operational_transparency: 39.5
   previous_composite: 40.8
   schema_version: 0.17.2
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/aws/refs/heads/main/screenshots/aws-2026-06-20T172738.png
 security:
@@ -231,9 +231,8 @@ security:
 slug: aws
 tags:
 - Cloud Computing
-- IaaS
+- Infrastructure-as-a-Service
 - Infrastructure
-- PaaS
 - Platform-as-a-Service
 - Serverless
 use_cases:

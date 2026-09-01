@@ -36,7 +36,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 51.3
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
 agentic_access:
 - acting_count: 1137
   human_in_the_loop: 57
@@ -476,6 +476,10 @@ collections:
   name: Elasticsearch REST API
   slug: open-elk-stack
 common:
+- group: commercial
+  title: ''
+  type: License
+  url: https://github.com/elastic/elasticsearch-specification/blob/main/LICENSE
 - group: other
   title: ''
   type: CapabilityMap
@@ -690,7 +694,7 @@ overview: 'Elastic Stack (ELK Stack) publishes 132 APIs on the [APIs.io](https:/
   The Elastic Stack (ELK Stack) catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  Elastic Stack (ELK Stack)''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 41 more developer resources.'
+  Elastic Stack (ELK Stack)''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 42 more developer resources.'
 plans:
 - name: Elk Stack Plans Pricing
   plan_count: 4
@@ -708,7 +712,7 @@ score:
     catalog_gap: 72.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: 1.8
+  delta: 0.0
   facets:
     access_clarity: 76.3
     commercial_clarity: 76.3
@@ -718,7 +722,7 @@ score:
     discoverability: 83.3
     governance: 18.2
     operational_transparency: 60.5
-  previous_composite: 63.3
+  previous_composite: 65.1
   provenance:
     agentic_access: derived
     contracts:
@@ -727,7 +731,7 @@ score:
       marker_coverage: 0.0
       total: 7
   schema_version: 0.17.2
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/elk-stack/refs/heads/main/screenshots/elk-stack-2026-06-20T180610.png
 security:

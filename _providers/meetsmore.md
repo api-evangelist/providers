@@ -23,7 +23,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 28.6
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
 api_count: 2
 apis:
 - description: Nittei is MeetsMore's self-hosted calendar and scheduler server, written in Rust (Axum + SQLx + PostgreSQL) and published under the MIT licence. It exposes a multi-tenant REST API under /api/v1 coveri
@@ -38,6 +38,10 @@ asyncapis:
   name: Meetsmore Nittei Webhooks
   slug: meetsmore-nittei-webhooks
 common:
+- group: commercial
+  title: ''
+  type: License
+  url: https://github.com/meetsmore/nittei/blob/master/LICENSE
 - group: company
   title: ''
   type: Website
@@ -153,7 +157,7 @@ overview: 'MeetsMore publishes 2 APIs on the [APIs.io](https://apis.io/) network
   The MeetsMore catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  MeetsMore''s developer surface includes engineering blog, pricing, signup flow, support, changelog, authentication, and 18 more developer resources.'
+  MeetsMore''s developer surface includes engineering blog, pricing, signup flow, support, changelog, authentication, and 19 more developer resources.'
 plans:
 - name: Meetsmore Plans Pricing
   plan_count: 3
@@ -186,7 +190,7 @@ score:
     conformance: first-party
     mcp: first-party
   schema_version: 0.17.2
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
   trend: flat
 security:
 - kind: authentication

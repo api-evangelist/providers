@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 8.6
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
 api_count: 0
 artifact_total: 2
 common:
@@ -76,7 +76,7 @@ modified: '2026-07-18'
 name: dehaze
 nav: Providers
 network: true
-overview: dehaze is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Healthtech, Artificial Intelligence, Machine-Learning, and Digital Health.
+overview: dehaze is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Health Tech, Artificial Intelligence, Machine-Learning, and Digital Health.
 random_paper: 16
 score:
   band: minimal
@@ -106,7 +106,7 @@ score:
     regime_id: health
     score: 7.5
   schema_version: 0.17.2
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/dehaze/refs/heads/main/screenshots/dehaze-2026-07-25T211635.png
 security:
@@ -117,7 +117,7 @@ security:
 slug: dehaze
 tags:
 - Company
-- Healthtech
+- Health Tech
 - Artificial Intelligence
 - Machine-Learning
 - Digital Health

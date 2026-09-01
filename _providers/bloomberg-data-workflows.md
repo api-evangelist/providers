@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.6
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
 api_count: 2
 apis:
 - description: Batch and per-security delivery of Bloomberg's reference, pricing, regulatory and alternative data for integration into proprietary applications and workflows. The REST / hypermedia entry point is htt
@@ -213,7 +213,7 @@ score:
     regime_id: securities_market_data
     score: 78.3
   schema_version: 0.17.2
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/bloomberg-data-workflows/refs/heads/main/screenshots/bloomberg-data-workflows-2026-06-20T173412.png
 security:

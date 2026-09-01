@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 52.0
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
 api_count: 15
 apis:
 - description: Core indexing and search API for adding, updating and deleting records and querying them with typo-tolerant, faceted, geo-aware and rule-driven search served from globally distributed search nodes. Th
@@ -304,7 +304,7 @@ score:
       reason: not_a_repo
   previous_composite: 61.1
   schema_version: 0.17.2
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/algolia/refs/heads/main/screenshots/algolia-2026-06-20T171526.png
 security:

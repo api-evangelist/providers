@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 1.3
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
 api_count: 0
 artifact_total: 2
 common:
@@ -129,7 +129,7 @@ modified: '2026-05-25'
 name: MosaicML
 nav: Providers
 network: true
-overview: 'MosaicML is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Artificial Intelligence, Foundation Models, Model Training, Pretraining, and Finetuning.
+overview: 'MosaicML is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Artificial Intelligence, Foundation Models, Model Training, Pretraining, and Fine-Tuning.
 
 
   MosaicML''s developer surface includes documentation, GitHub presence, code examples, engineering blog, pricing, and 16 more developer resources.'
@@ -154,7 +154,7 @@ score:
     operational_transparency: 5.3
   previous_composite: 12.8
   schema_version: 0.17.2
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/mosaicml/refs/heads/main/screenshots/mosaicml-2026-06-20T185818.png
 security:
@@ -172,7 +172,7 @@ tags:
 - Foundation Models
 - Model Training
 - Pretraining
-- Finetuning
+- Fine-Tuning
 - LLM
 - Generative AI
 - PyTorch

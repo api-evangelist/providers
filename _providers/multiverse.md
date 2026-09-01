@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
 api_count: 0
 artifact_total: 2
 common:
@@ -84,7 +84,7 @@ modified: '2026-07-20'
 name: Multiverse
 nav: Providers
 network: true
-overview: 'Multiverse is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Edtech, Education, Apprenticeships, and Workforce Development.
+overview: 'Multiverse is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, EdTech, Education, Apprenticeships, and Workforce Development.
 
 
   Multiverse''s developer surface includes engineering blog, support, and 8 more developer resources.'
@@ -115,7 +115,7 @@ score:
     regime_id: education
     score: 35.2
   schema_version: 0.17.2
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/multiverse/refs/heads/main/screenshots/multiverse-2026-08-07T184438.png
 security:
@@ -130,7 +130,7 @@ security:
 slug: multiverse
 tags:
 - Company
-- Edtech
+- EdTech
 - Education
 - Apprenticeships
 - Workforce Development

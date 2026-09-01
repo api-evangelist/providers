@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.4
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
 agentic_access:
 - acting_count: 104
   human_in_the_loop: 104
@@ -321,7 +321,7 @@ modified: '2026-07-17'
 name: 360Learning
 nav: Providers
 network: true
-overview: '360Learning publishes 23 APIs on the [APIs.io](https://apis.io/) network, including Authentication API, Certificate Outlines API, Classrooms API, and 20 more. Tagged areas include Company, Edtech, Learning Management System, E-Learning, and Training.
+overview: '360Learning publishes 23 APIs on the [APIs.io](https://apis.io/) network, including Authentication API, Certificate Outlines API, Classrooms API, and 20 more. Tagged areas include Company, EdTech, Learning Management System, E-Learning, and Training.
 
 
   The 360Learning catalog on APIs.io includes 1 event-driven AsyncAPI specification.
@@ -374,7 +374,7 @@ score:
     regime_id: education
     score: 66.7
   schema_version: 0.17.2
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/360learning/refs/heads/main/screenshots/360learning-2026-07-25T181148.png
 security:
@@ -393,7 +393,7 @@ security:
 slug: 360learning
 tags:
 - Company
-- Edtech
+- EdTech
 - Learning Management System
 - E-Learning
 - Training

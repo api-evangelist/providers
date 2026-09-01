@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 2.5
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
 api_count: 2
 apis:
 - description: 'Public REST API of the FenixEdu academic information system operated by Instituto Superior Tecnico, a school of the University of Lisbon. Exposes institutional data including people, spaces, degrees, '
@@ -139,7 +139,7 @@ score:
     regime_id: education
     score: 20.4
   schema_version: 0.17.2
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/university-of-lisbon/refs/heads/main/screenshots/university-of-lisbon-2026-06-20T200201.png
 security:

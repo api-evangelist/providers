@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
 api_count: 0
 artifact_total: 1
 common:
@@ -56,7 +56,7 @@ modified: '2026-07-20'
 name: Peerby
 nav: Providers
 network: true
-overview: Peerby is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Sharing Economy, Peer to Peer, Marketplace, and Rental.
+overview: Peerby is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Sharing Economy, Peer-to-Peer, Marketplace, and Rentals.
 random_paper: 17
 score:
   band: minimal
@@ -78,7 +78,7 @@ score:
     operational_transparency: 2.6
   previous_composite: 5.3
   schema_version: 0.17.2
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
   trend: flat
 security:
 - kind: domain-security
@@ -89,9 +89,9 @@ slug: peerby
 tags:
 - Company
 - Sharing Economy
-- Peer to Peer
+- Peer-to-Peer
 - Marketplace
-- Rental
+- Rentals
 - Sustainability
 - Consumer
 - Netherlands

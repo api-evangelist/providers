@@ -23,7 +23,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 35.8
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
 api_count: 1
 apis:
 - description: 'Hosted, zero-install MCP server (Streamable HTTP, protocol 2025-06-18) exposing the attestation service to MCP-capable agents. The eight tools were read live from tools/list on 2026-08-11: service_sta'
@@ -77,6 +77,10 @@ collections:
   name: imgauth — API di attestazione opere digitali
   slug: open-imgauth-api-di-attestazione-opere-digitali-openapi-original
 common:
+- group: commercial
+  title: ''
+  type: License
+  url: https://github.com/SPAZIO-GENESI/imgauth/blob/main/LICENSE
 - group: other
   title: ''
   type: Overlay
@@ -237,10 +241,10 @@ modified: '2026-08-11'
 name: imgauth — API di attestazione opere digitali
 nav: Providers
 network: true
-overview: 'imgauth — API di attestazione opere digitali publishes 14 APIs on the [APIs.io](https://apis.io/) network, including Agent API, Badge API, C API, and 11 more. Tagged areas include digital notarization, timestamping, proof-of-existence, content authenticity, and provenance.
+overview: 'imgauth — API di attestazione opere digitali publishes 14 APIs on the [APIs.io](https://apis.io/) network, including Agent API, Badge API, C API, and 11 more. Tagged areas include digital notarization, Timestamping, proof-of-existence, content authenticity, and Provenance.
 
 
-  imgauth — API di attestazione opere digitali''s developer surface includes authentication, documentation, API reference, getting-started guide, signup flow, pricing, support, and 29 more developer resources.'
+  imgauth — API di attestazione opere digitali''s developer surface includes authentication, documentation, API reference, getting-started guide, signup flow, pricing, support, and 30 more developer resources.'
 plans:
 - name: Imgauth Api Di Attestazione Opere Digitali Plans Pricing
   plan_count: 4
@@ -258,7 +262,7 @@ score:
     catalog_gap: 54.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.5
+  delta: 0.0
   facets:
     access_clarity: 92.1
     commercial_clarity: 92.1
@@ -268,7 +272,7 @@ score:
     discoverability: 68.5
     governance: 18.2
     operational_transparency: 76.3
-  previous_composite: 64.7
+  previous_composite: 64.2
   provenance:
     conformance: first-party
     contracts:
@@ -279,7 +283,7 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.17.2
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/imgauth-api-di-attestazione-opere-digitali/refs/heads/main/screenshots/imgauth-api-di-attestazione-opere-digitali-2026-08-17T080953.png
 security:
@@ -302,10 +306,10 @@ security:
 slug: imgauth-api-di-attestazione-opere-digitali
 tags:
 - digital notarization
-- timestamping
+- Timestamping
 - proof-of-existence
 - content authenticity
-- provenance
+- Provenance
 - Copyright
 - IP protection
 - Blockchain
@@ -313,7 +317,7 @@ tags:
 - OpenTimestamps
 - Security
 - Document
-- e-signature
+- E-Signature
 - MCP
 website: https://attestazione.spaziogenesi.org/en/developer/
 ---

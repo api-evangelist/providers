@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
 api_count: 0
 artifact_total: 1
 common:
@@ -52,7 +52,7 @@ modified: '2026-07-19'
 name: Ethereal Exploration Guild
 nav: Providers
 network: true
-overview: Ethereal Exploration Guild is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Frontier Tech, Aerospace, Spacetech, and Launch Vehicles.
+overview: Ethereal Exploration Guild is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Frontier Tech, Aerospace, SpaceTech, and Launch Vehicles.
 random_paper: 3
 score:
   band: minimal
@@ -74,7 +74,7 @@ score:
     operational_transparency: 0.0
   previous_composite: 5.0
   schema_version: 0.17.2
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/ethereal-exploration-guild/refs/heads/main/screenshots/ethereal-exploration-guild-2026-07-25T213648.png
 security:
@@ -87,7 +87,7 @@ tags:
 - Company
 - Frontier Tech
 - Aerospace
-- Spacetech
+- SpaceTech
 - Launch Vehicles
 - Reusable Rockets
 - Space

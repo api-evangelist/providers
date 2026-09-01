@@ -23,7 +23,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
 api_count: 0
 artifact_total: 1
 common:
@@ -123,7 +123,7 @@ modified: '2026-08-01'
 name: Mission Bio
 nav: Providers
 network: true
-overview: 'Mission Bio is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Life Sciences, Genomics, Single Cell, and Multi-omics.
+overview: 'Mission Bio is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Life Sciences, Genomics, Single Cell, and Multiomics.
 
 
   Mission Bio''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, changelog, CLI, and 15 more developer resources.'
@@ -156,7 +156,7 @@ score:
     regime_id: health
     score: 23.8
   schema_version: 0.17.2
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/mission-bio/refs/heads/main/screenshots/mission-bio-2026-08-07T183750.png
 security:
@@ -170,7 +170,7 @@ tags:
 - Life Sciences
 - Genomics
 - Single Cell
-- Multi-omics
+- Multiomics
 - Bioinformatics
 - Oncology
 - Precision Medicine

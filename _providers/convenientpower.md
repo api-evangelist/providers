@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
 api_count: 0
 artifact_total: 1
 common:
@@ -65,7 +65,7 @@ modified: '2026-07-18'
 name: ConvenientPower
 nav: Providers
 network: true
-overview: 'ConvenientPower is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Semiconductor, Wireless Charging, Power Management, and USB Power Delivery.
+overview: 'ConvenientPower is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Semiconductors, Wireless Charging, Power Management, and USB Power Delivery.
 
 
   ConvenientPower''s developer surface includes support and 4 more developer resources.'
@@ -96,7 +96,7 @@ score:
     regime_id: energy_utilities
     score: 8.1
   schema_version: 0.17.2
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/convenientpower/refs/heads/main/screenshots/convenientpower-2026-07-25T210346.png
 security:
@@ -107,7 +107,7 @@ security:
 slug: convenientpower
 tags:
 - Company
-- Semiconductor
+- Semiconductors
 - Wireless Charging
 - Power Management
 - USB Power Delivery

@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 39.4
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
 api_count: 138
 apis:
 - description: Remote Model Context Protocol server for impact.com. Fifteen documented tools give an AI assistant account-scoped access to performance analytics, invoices, partner and program discovery, promo codes,
@@ -500,7 +500,7 @@ score:
     mcp: first-party
     skills: first-party
   schema_version: 0.17.2
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/impact/refs/heads/main/screenshots/impact-2026-06-20T183254.png
 security:

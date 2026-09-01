@@ -23,7 +23,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 38.2
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
 agentic_access:
 - acting_count: 13
   human_in_the_loop: 0
@@ -182,7 +182,7 @@ modified: '2026-08-11'
 name: QR Code Crafter
 nav: Providers
 network: true
-overview: 'QR Code Crafter publishes 5 APIs on the [APIs.io](https://apis.io/) network, including Dynamic Qr API, Dynamic Qr Vaults API, .netlify API, and 2 more. Tagged areas include QR code, QR code generation, static QR, dynamic QR, and dynamic redirects.
+overview: 'QR Code Crafter publishes 5 APIs on the [APIs.io](https://apis.io/) network, including Dynamic Qr API, Dynamic Qr Vaults API, .netlify API, and 2 more. Tagged areas include QR Code, QR Code Generation, Static Qr, Dynamic QR, and dynamic redirects.
 
 
   QR Code Crafter''s developer surface includes documentation, API reference, pricing, support, authentication, changelog, code examples, and 23 more developer resources.'
@@ -203,7 +203,7 @@ score:
     catalog_gap: 58.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.6
+  delta: 0.0
   facets:
     access_clarity: 52.6
     commercial_clarity: 52.6
@@ -213,7 +213,7 @@ score:
     discoverability: 75.9
     governance: 4.5
     operational_transparency: 47.4
-  previous_composite: 49.0
+  previous_composite: 48.4
   provenance:
     agentic_access: derived
     conformance: derived
@@ -225,7 +225,7 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.17.2
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/qr-code-crafter/refs/heads/main/screenshots/qr-code-crafter-2026-08-17T081420.png
 security:
@@ -239,10 +239,10 @@ security:
   summary_line: TLSv1.3 · HSTS
 slug: qr-code-crafter
 tags:
-- QR code
-- QR code generation
-- static QR
-- dynamic QR
+- QR Code
+- QR Code Generation
+- Static Qr
+- Dynamic QR
 - dynamic redirects
 - image export
 - bulk generation

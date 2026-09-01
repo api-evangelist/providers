@@ -23,10 +23,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
 api_count: 0
 artifact_total: 1
 common:
+- group: commercial
+  title: ''
+  type: License
+  url: https://github.com/immunitastx/monkeybread/blob/main/LICENSE
 - group: company
   title: ''
   type: Website
@@ -95,7 +99,7 @@ network: true
 overview: 'Immunitas Therapeutics is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Biotechnology, Therapeutics, Oncology, and Immunology.
 
 
-  Immunitas Therapeutics'' developer surface includes support and 9 more developer resources.'
+  Immunitas Therapeutics'' developer surface includes support and 10 more developer resources.'
 random_paper: 15
 score:
   band: emerging
@@ -123,7 +127,7 @@ score:
     regime_id: health
     score: 17.5
   schema_version: 0.17.2
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
   trend: flat
 security:
 - kind: domain-security

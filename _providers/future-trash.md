@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
 api_count: 0
 artifact_total: 0
 common:
@@ -91,7 +91,7 @@ score:
       reason: never_enriched
   previous_composite: 8.5
   schema_version: 0.17.2
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/future-trash/refs/heads/main/screenshots/future-trash-2026-07-25T215331.png
 slug: future-trash
@@ -102,7 +102,7 @@ tags:
 - Video Games
 - UEFN
 - Fortnite
-- User-Generated Content
+- User Generated Content
 - Creative Studio
 - Entertainment
 website: https://www.foad.gg

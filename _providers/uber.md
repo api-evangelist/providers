@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 22.8
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
 agentic_access:
 - acting_count: 27
   human_in_the_loop: 0
@@ -519,7 +519,7 @@ modified: '2026-06-03'
 name: Uber
 nav: Providers
 network: true
-overview: 'Uber publishes 19 APIs on the [APIs.io](https://apis.io/) network, including Codes API, Deliveries API, Estimates API, and 16 more. Tagged areas include Ride-Sharing, Rides, Taxis, Transportation, and Food Delivery.
+overview: 'Uber publishes 19 APIs on the [APIs.io](https://apis.io/) network, including Codes API, Deliveries API, Estimates API, and 16 more. Tagged areas include Ridesharing, Rides, Taxis, Transportation, and Food Delivery.
 
 
   The Uber catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
@@ -587,7 +587,7 @@ score:
       marker_coverage: 0.0
       total: 19
   schema_version: 0.17.2
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/uber/refs/heads/main/screenshots/uber-2026-06-20T195925.png
 security:
@@ -601,7 +601,7 @@ security:
   summary_line: TLSv1.3 · DMARC
 slug: uber
 tags:
-- Ride-Sharing
+- Ridesharing
 - Rides
 - Taxis
 - Transportation

@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 20.3
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
 api_count: 0
 artifact_total: 4
 common:
@@ -97,7 +97,7 @@ modified: '2026-07-19'
 name: Innovist
 nav: Providers
 network: true
-overview: 'Innovist is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Consumer, Personal Care, Skincare, and Haircare.
+overview: 'Innovist is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Consumer, Personal Care, Skincare, and Hair Care.
 
 
   Innovist''s developer surface includes engineering blog, support, authentication, and 9 more developer resources.'
@@ -129,7 +129,7 @@ score:
   provenance:
     mcp: first-party
   schema_version: 0.17.2
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/innovist/refs/heads/main/screenshots/innovist-2026-08-07T170712.png
 security:
@@ -147,7 +147,7 @@ tags:
 - Consumer
 - Personal Care
 - Skincare
-- Haircare
+- Hair Care
 - Suncare
 - Direct to Consumer
 - E-Commerce

@@ -23,7 +23,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 25.2
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
 api_count: 7
 apis:
 - description: Post categories
@@ -183,7 +183,7 @@ modified: '2026-08-04'
 name: DalCor Pharmaceuticals
 nav: Providers
 network: true
-overview: 'DalCor Pharmaceuticals publishes 7 APIs on the [APIs.io](https://apis.io/) network, including Categories API, Comments API, Discovery API, and 4 more. Tagged areas include Company, pharmaceuticals, biotechnology, cardiovascular, and precision-medicine.
+overview: 'DalCor Pharmaceuticals publishes 7 APIs on the [APIs.io](https://apis.io/) network, including Categories API, Comments API, Discovery API, and 4 more. Tagged areas include Company, Pharmaceuticals, Biotechnology, Cardiovascular, and Precision Medicine.
 
 
   DalCor Pharmaceuticals'' developer surface includes support, authentication, and 23 more developer resources.'
@@ -222,7 +222,7 @@ score:
     regime_id: health
     score: 26.3
   schema_version: 0.17.2
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/dalcor-pharmaceuticals/refs/heads/main/screenshots/dalcor-pharmaceuticals-2026-08-07T164031.png
 security:
@@ -237,13 +237,13 @@ security:
 slug: dalcor-pharmaceuticals
 tags:
 - Company
-- pharmaceuticals
-- biotechnology
-- cardiovascular
-- precision-medicine
-- pharmacogenomics
-- clinical-trials
-- life-sciences
+- Pharmaceuticals
+- Biotechnology
+- Cardiovascular
+- Precision Medicine
+- Pharmacogenomics
+- Clinical Trials
+- Life Sciences
 - content-api
 website: https://dalcorpharma.com/
 ---

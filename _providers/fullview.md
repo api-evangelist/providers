@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 24.6
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
 api_count: 1
 apis:
 - description: The Bug Report API from Fullview — 2 operation(s) for bug report.
@@ -176,7 +176,7 @@ modified: '2026-07-19'
 name: Fullview
 nav: Providers
 network: true
-overview: 'Fullview publishes 1 API on the [APIs.io](https://apis.io/) network: Bug Report API. Tagged areas include Company, Customer-Support, Cobrowsing, Session Replay, and Customer Experience.
+overview: 'Fullview publishes 1 API on the [APIs.io](https://apis.io/) network: Bug Report API. Tagged areas include Company, Customer-Support, Co-Browsing, Session Replay, and Customer Experience.
 
 
   Fullview''s developer surface includes documentation, API reference, getting-started guide, engineering blog, pricing, signup flow, authentication, and 22 more developer resources.'
@@ -215,7 +215,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.17.2
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/fullview/refs/heads/main/screenshots/fullview-2026-07-25T215258.png
 security:
@@ -239,7 +239,7 @@ slug: fullview
 tags:
 - Company
 - Customer-Support
-- Cobrowsing
+- Co-Browsing
 - Session Replay
 - Customer Experience
 - Developer Tools

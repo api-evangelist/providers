@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
 api_count: 0
 artifact_total: 1
 common:
@@ -56,7 +56,7 @@ modified: '2026-07-18'
 name: Dora
 nav: Providers
 network: true
-overview: Dora is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Real-Estate, PropTech, Fintech, and Rental.
+overview: Dora is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Real-Estate, PropTech, Fintech, and Rentals.
 random_paper: 2
 score:
   band: minimal
@@ -84,7 +84,7 @@ score:
     regime_id: payments
     score: 9.4
   schema_version: 0.17.2
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/dora/refs/heads/main/screenshots/dora-2026-07-25T212308.png
 security:
@@ -98,7 +98,7 @@ tags:
 - Real-Estate
 - PropTech
 - Fintech
-- Rental
+- Rentals
 - Colombia
 - Property Management
 - Payments

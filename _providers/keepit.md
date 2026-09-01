@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 2.5
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
 api_count: 1
 apis:
 - description: Keepit is a SaaS backup and recovery platform providing independent cloud-to-cloud data protection for Microsoft 365, Google Workspace, Salesforce, and other SaaS applications.
@@ -85,7 +85,7 @@ modified: '2026-04-28'
 name: Keepit
 nav: Providers
 network: true
-overview: 'Keepit publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Data Protection, SaaS Backup, Backup And Recovery, and Cloud.
+overview: 'Keepit publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Data Protection, SaaS Backup, Backup and Recovery, and Cloud.
 
 
   Keepit''s developer surface includes documentation, engineering blog, and 6 more developer resources.'
@@ -118,7 +118,7 @@ score:
     operational_transparency: 10.5
   previous_composite: 16.8
   schema_version: 0.17.2
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/keepit/refs/heads/main/screenshots/keepit-2026-06-20T183941.png
 security:
@@ -134,7 +134,7 @@ slug: keepit
 tags:
 - Data Protection
 - SaaS Backup
-- Backup And Recovery
+- Backup and Recovery
 - Cloud
 website: https://www.keepit.com
 ---

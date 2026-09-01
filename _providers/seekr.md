@@ -23,7 +23,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 35.8
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
 agentic_access:
 - acting_count: 113
   human_in_the_loop: 0
@@ -426,7 +426,7 @@ modified: '2026-08-05'
 name: Seekr
 nav: Providers
 network: true
-overview: 'Seekr publishes 34 APIs on the [APIs.io](https://apis.io/) network, including Agents API, Agents v1 - legacy API, Alignment API, and 31 more. Tagged areas include artificial-intelligence, generative-ai, Agents, llm, and Fine-Tuning.
+overview: 'Seekr publishes 34 APIs on the [APIs.io](https://apis.io/) network, including Agents API, Agents v1 - legacy API, Alignment API, and 31 more. Tagged areas include Artificial Intelligence, Generative AI, Agents, LLM, and Fine-Tuning.
 
 
   Seekr''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 35 more developer resources.'
@@ -471,7 +471,7 @@ score:
     regime_id: government
     score: 55.6
   schema_version: 0.17.2
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/seekr/refs/heads/main/screenshots/seekr-2026-08-17T081750.png
 security:
@@ -489,22 +489,22 @@ security:
   summary_line: SOC 2 Type 1, SOC 2 Type 2, ISO/IEC 27001:2022, CMMC Certified
 slug: seekr
 tags:
-- artificial-intelligence
-- generative-ai
+- Artificial Intelligence
+- Generative AI
 - Agents
-- llm
+- LLM
 - Fine-Tuning
 - Inference
 - RAG
-- vector-database
-- explainability
-- ai-governance
-- model-evaluation
-- observability
-- geospatial-intelligence
-- defense
-- government
-- regulated-industries
+- Vector Database
+- Explainability
+- AI Governance
+- Model Evaluation
+- Observability
+- Geospatial Intelligence
+- Defense
+- Government
+- Regulated Industries
 - MCP
 - agent-native
 website: https://www.seekr.com/

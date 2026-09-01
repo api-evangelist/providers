@@ -23,7 +23,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 27.1
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
 api_count: 2
 apis:
 - description: The Datasets API from A-Alpha Bio — 9 operation(s) for datasets.
@@ -191,7 +191,7 @@ modified: '2026-08-06'
 name: A-Alpha Bio
 nav: Providers
 network: true
-overview: 'A-Alpha Bio publishes 1 API on the [APIs.io](https://apis.io/) network: Datasets API. Tagged areas include protein-interactions, biotechnology, drug-discovery, antibody-engineering, and synthetic-biology.
+overview: 'A-Alpha Bio publishes 1 API on the [APIs.io](https://apis.io/) network: Datasets API. Tagged areas include protein-interactions, Biotechnology, Drug Discovery, Antibody Engineering, and Synthetic Biology.
 
 
   A-Alpha Bio''s developer surface includes signup flow, engineering blog, product news, support, authentication, CLI, and 24 more developer resources.'
@@ -231,7 +231,7 @@ score:
     regime_id: health
     score: 31.3
   schema_version: 0.17.2
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/a-alpha-bio/refs/heads/main/screenshots/a-alpha-bio-2026-08-07T160731.png
 security:
@@ -246,16 +246,16 @@ security:
 slug: a-alpha-bio
 tags:
 - protein-interactions
-- biotechnology
-- drug-discovery
-- antibody-engineering
-- synthetic-biology
-- machine-learning
-- training-data
-- data-licensing
-- life-sciences
+- Biotechnology
+- Drug Discovery
+- Antibody Engineering
+- Synthetic Biology
+- Machine-Learning
+- Training Data
+- Data Licensing
+- Life Sciences
 - Datasets
-- protein-design
-- bioinformatics
+- Protein Design
+- Bioinformatics
 website: https://www.aalphabio.com/
 ---

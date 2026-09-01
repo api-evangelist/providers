@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 10.8
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
 api_count: 2
 apis:
 - description: The enterprise REST API. Callers upload files of broker conversations for asynchronous processing and retrieve the extracted RFQs once parsing completes, or call the prediction operations synchronousl
@@ -204,7 +204,7 @@ score:
     regime_id: securities_market_data
     score: 53.3
   schema_version: 0.17.2
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
   trend: flat
 security:
 - kind: authentication

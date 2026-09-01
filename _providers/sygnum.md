@@ -24,7 +24,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 41.2
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
 api_count: 10
 apis:
 - description: Real-time account and balance retrieval across fiat, digital assets and traditional securities held at Sygnum, with role-based permissions, exposed to B2B partners as REST.
@@ -262,7 +262,7 @@ score:
     regime_id: banking_open_finance
     score: 74.7
   schema_version: 0.17.2
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
   trend: flat
 security:
 - kind: authentication

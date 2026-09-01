@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 22.7
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
 api_count: 1
 apis:
 - description: Loggi's REST integration platform for freight quotation, shipment creation (sync/async), label generation, package update/cancel, package details, real-time tracking, webhooks, integrator management a
@@ -145,7 +145,7 @@ modified: '2026-07-20'
 name: Loggi
 nav: Providers
 network: true
-overview: 'Loggi publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Logistics, Shipping, Last-Mile Delivery, and Freight.
+overview: 'Loggi publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Logistics, Shipping, Last Mile Delivery, and Freight.
 
 
   The Loggi catalog on APIs.io includes 1 event-driven AsyncAPI specification.
@@ -176,7 +176,7 @@ score:
     conformance: derived
     mcp: derived
   schema_version: 0.17.2
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/loggi/refs/heads/main/screenshots/loggi-2026-07-25T225453.png
 security:
@@ -193,7 +193,7 @@ tags:
 - Company
 - Logistics
 - Shipping
-- Last-Mile Delivery
+- Last Mile Delivery
 - Freight
 - Tracking
 - Brazil

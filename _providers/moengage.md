@@ -23,7 +23,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 62.6
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
 api_count: 30
 apis:
 - description: Hosted, OAuth-secured Model Context Protocol server that lets AI assistants build campaign drafts, author content, create and count segments, read and analyze flows, browse dashboards, search campaign
@@ -555,7 +555,7 @@ modified: '2026-08-14'
 name: MoEngage
 nav: Providers
 network: true
-overview: 'MoEngage publishes 45 APIs on the [APIs.io](https://apis.io/) network, including Bulk API, Business Events API, Campaign Reports API, and 42 more. Tagged areas include Customer Engagement, marketing-automation, customer-data-platform, Push Notifications, and Email.
+overview: 'MoEngage publishes 45 APIs on the [APIs.io](https://apis.io/) network, including Bulk API, Business Events API, Campaign Reports API, and 42 more. Tagged areas include Customer Engagement, Marketing Automation, Customer Data Platform, Push Notifications, and Email.
 
 
   The MoEngage catalog on APIs.io includes 1 event-driven AsyncAPI specification.
@@ -617,7 +617,7 @@ score:
     regime_id: telecommunications
     score: 73.6
   schema_version: 0.17.2
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/moengage/refs/heads/main/screenshots/moengage-2026-08-07T184040.png
 security:
@@ -640,19 +640,19 @@ security:
 slug: moengage
 tags:
 - Customer Engagement
-- marketing-automation
-- customer-data-platform
+- Marketing Automation
+- Customer Data Platform
 - Push Notifications
 - Email
 - SMS
 - WhatsApp
-- in-app-messaging
-- segmentation
-- personalization
-- campaign-management
+- In-App Messaging
+- Segmentation
+- Personalization
+- Campaign Management
 - Analytics
-- mobile-sdk
+- Mobile SDK
 - MCP
-- martech
+- MarTech
 website: https://www.moengage.com/
 ---

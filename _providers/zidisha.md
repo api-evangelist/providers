@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
 api_count: 0
 artifact_total: 1
 common:
@@ -92,7 +92,7 @@ modified: '2026-07-21'
 name: Zidisha
 nav: Providers
 network: true
-overview: 'Zidisha is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Microlending, Crowdfunding, Fintech, and Non-Profit.
+overview: 'Zidisha is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Micro-Lending, Crowdfunding, Fintech, and Non-Profit.
 
 
   Zidisha''s developer surface includes getting-started guide, signup flow, support, engineering blog, and 8 more developer resources.'
@@ -117,7 +117,7 @@ score:
     operational_transparency: 0.0
   previous_composite: 15.6
   schema_version: 0.17.2
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
   trend: flat
 security:
 - kind: domain-security
@@ -127,12 +127,12 @@ security:
 slug: zidisha
 tags:
 - Company
-- Microlending
+- Micro-Lending
 - Crowdfunding
 - Fintech
 - Non-Profit
 - Financial Inclusion
 - Philanthropy
-- Peer to Peer Lending
+- Peer-to-Peer Lending
 website: https://www.zidisha.org/
 ---

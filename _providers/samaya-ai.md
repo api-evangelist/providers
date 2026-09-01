@@ -24,7 +24,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 41.4
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
 api_count: 1
 apis:
 - description: 'Hosted remote MCP server at https://mcp.samaya.ai/mcp that connects ChatGPT, Claude and other AI applications to Samaya''s expert financial research capabilities. Live and reachable: an anonymous tools'
@@ -171,7 +171,7 @@ modified: '2026-08-26'
 name: Samaya AI
 nav: Providers
 network: true
-overview: 'Samaya AI publishes 3 APIs on the [APIs.io](https://apis.io/) network: Organizations API, Teams API, and Users API. Tagged areas include artificial-intelligence, Financial-Services, investment-research, AI Agents, and MCP.
+overview: 'Samaya AI publishes 3 APIs on the [APIs.io](https://apis.io/) network: Organizations API, Teams API, and Users API. Tagged areas include Artificial Intelligence, Financial-Services, Investment Research, AI Agents, and MCP.
 
 
   Samaya AI''s developer surface includes API reference, engineering blog, signup flow, support, authentication, and 23 more developer resources.'
@@ -197,7 +197,7 @@ score:
     catalog_gap: 78.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.6
+  delta: 0.0
   facets:
     access_clarity: 26.3
     commercial_clarity: 26.3
@@ -207,13 +207,13 @@ score:
     discoverability: 75.9
     governance: 18.2
     operational_transparency: 18.4
-  previous_composite: 35.0
+  previous_composite: 34.4
   provenance:
     conformance: first-party
     mcp: first-party
     skills: derived
   schema_version: 0.17.2
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
   trend: flat
 security:
 - kind: authentication
@@ -230,15 +230,15 @@ security:
   summary_line: SOC 2
 slug: samaya-ai
 tags:
-- artificial-intelligence
+- Artificial Intelligence
 - Financial-Services
-- investment-research
+- Investment Research
 - AI Agents
 - MCP
 - agent-native
-- capital-markets
-- enterprise-search
-- retrieval
-- graphql
+- Capital Markets
+- Enterprise Search
+- Retrieval
+- GraphQL
 website: https://samaya.ai/
 ---

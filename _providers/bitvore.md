@@ -23,7 +23,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 26.4
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
 agentic_access:
 - acting_count: 53
   human_in_the_loop: 0
@@ -297,7 +297,7 @@ modified: '2026-08-14'
 name: Bitvore
 nav: Providers
 network: true
-overview: 'Bitvore publishes 19 APIs on the [APIs.io](https://apis.io/) network, including Alert API API, Bond API, Corporate News API, and 16 more. Tagged areas include Financial Data, Market Intelligence, alternative-data, news-api, and NLP.
+overview: 'Bitvore publishes 19 APIs on the [APIs.io](https://apis.io/) network, including Alert API API, Bond API, Corporate News API, and 16 more. Tagged areas include Financial Data, Market Intelligence, Alternative Data, News API, and NLP.
 
 
   Bitvore''s developer surface includes documentation, API reference, getting-started guide, signup flow, support, changelog, authentication, and 27 more developer resources.'
@@ -351,7 +351,7 @@ score:
     regime_id: government
     score: 64.8
   schema_version: 0.17.2
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/bitvore/refs/heads/main/screenshots/bitvore-2026-08-07T162558.png
 security:
@@ -367,15 +367,15 @@ slug: bitvore
 tags:
 - Financial Data
 - Market Intelligence
-- alternative-data
-- news-api
+- Alternative Data
+- News API
 - NLP
 - ESG
-- municipal-bonds
-- credit-risk
-- company-data
-- sentiment-analysis
-- unstructured-data
-- fixed-income
+- Municipal Bonds
+- Credit Risk
+- Company Data
+- Sentiment Analysis
+- Unstructured Data
+- Fixed Income
 website: https://bondwave.com/muni-news/
 ---

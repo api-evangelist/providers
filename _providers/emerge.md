@@ -23,7 +23,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 35.7
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
 api_count: 4
 apis:
 - description: The Authentication API from Emerge — 3 operation(s) for authentication.
@@ -231,7 +231,7 @@ modified: '2026-08-12'
 name: Emerge
 nav: Providers
 network: true
-overview: 'Emerge publishes 9 APIs on the [APIs.io](https://apis.io/) network, including Authentication API, Awards API, Network Partners API, and 6 more. Tagged areas include freight, Logistics, Transportation, Supply Chain, and Procurement.
+overview: 'Emerge publishes 9 APIs on the [APIs.io](https://apis.io/) network, including Authentication API, Awards API, Network Partners API, and 6 more. Tagged areas include Freight, Logistics, Transportation, Supply Chain, and Procurement.
 
 
   The Emerge catalog on APIs.io includes 1 event-driven AsyncAPI specification.
@@ -276,7 +276,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.17.2
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/emerge/refs/heads/main/screenshots/emerge-2026-08-17T080921.png
 security:
@@ -298,17 +298,17 @@ security:
   summary_line: trust center published
 slug: emerge
 tags:
-- freight
+- Freight
 - Logistics
 - Transportation
 - Supply Chain
 - Procurement
-- trucking
-- freight-marketplace
-- transportation-management
+- Trucking
+- Freight Marketplace
+- Transportation Management
 - Shipping
 - rate-benchmarking
 - Webhook
-- b2b-marketplace
+- B2B Marketplace
 website: https://www.emergemarket.com/
 ---

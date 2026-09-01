@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 22.7
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
 agentic_access:
 - acting_count: 8
   human_in_the_loop: 0
@@ -155,7 +155,7 @@ modified: '2026-07-05'
 name: LearnWorlds
 nav: Providers
 network: true
-overview: 'LearnWorlds publishes 7 APIs on the [APIs.io](https://apis.io/) network, including Courses API, Enrollments API, Payments API, and 4 more. Tagged areas include Online Courses, LMS, eLearning, Education, and Course Platform.
+overview: 'LearnWorlds publishes 7 APIs on the [APIs.io](https://apis.io/) network, including Courses API, Enrollments API, Payments API, and 4 more. Tagged areas include Online Courses, LMS, E-Learning, Education, and Course Platform.
 
 
   LearnWorlds'' developer surface includes authentication, documentation, engineering blog, and 9 more developer resources.'
@@ -181,7 +181,7 @@ score:
     catalog_gap: 55.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.6
+  delta: 0.0
   facets:
     access_clarity: 39.5
     commercial_clarity: 39.5
@@ -191,7 +191,7 @@ score:
     discoverability: 68.5
     governance: 0.0
     operational_transparency: 21.1
-  previous_composite: 36.4
+  previous_composite: 35.8
   provenance:
     agentic_access: derived
     contracts:
@@ -206,7 +206,7 @@ score:
     regime_id: education
     score: 40.7
   schema_version: 0.17.2
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/learnworlds/refs/heads/main/screenshots/learnworlds-2026-07-25T224802.png
 security:
@@ -222,7 +222,7 @@ slug: learnworlds
 tags:
 - Online Courses
 - LMS
-- eLearning
+- E-Learning
 - Education
 - Course Platform
 - Creator Economy

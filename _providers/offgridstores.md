@@ -23,7 +23,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 41.2
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
 api_count: 4
 apis:
 - description: Universal Commerce Protocol (UCP) shopping service, exposed over MCP at https://offgridstores.com/api/ucp/mcp. The server identifies itself as "universal-commerce" 0.1.0 speaking MCP protocol 2025-06-
@@ -212,7 +212,7 @@ score:
     regime_id: energy_utilities
     score: 56.8
   schema_version: 0.17.2
-  scored_at: '2026-08-30'
+  scored_at: '2026-09-01'
   trend: flat
 security:
 - kind: authentication
