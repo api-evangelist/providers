@@ -14,7 +14,7 @@ agent_readiness:
   band: agent-native
   dimensions:
     agent_card: false
-    agent_skills: true
+    agent_skills: derived
     agentic_access: false
     agentic_commerce: false
     auth_clarity: served
@@ -33,7 +33,7 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 49.9
+  score: 47.2
   scored_at: '2026-09-01'
 api_count: 1
 apis:
@@ -317,27 +317,36 @@ scopes:
   slug: service-cloud-scopes
   summary_line: 36 scopes · authorizationCode/implicit
 score:
-  band: strong
-  composite: 60.4
+  band: exemplar
+  composite: 67.8
   coverage:
     artifact_dirs: 26
-    catalog_gap: 79.0
+    catalog_gap: 61.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: 0.0
+  delta: 7.4
   facets:
-    access_clarity: 76.3
-    commercial_clarity: 76.3
+    access_clarity: 100.0
+    commercial_clarity: 100.0
     contract_governance: 18.2
-    contract_quality: 52.9
-    developer_ergonomics: 85.7
+    contract_quality: 55.6
+    developer_ergonomics: 80.4
     discoverability: 57.4
     governance: 18.2
-    operational_transparency: 52.6
+    operational_transparency: 76.3
   previous_composite: 60.4
-  schema_version: 0.17.2
+  provenance:
+    conformance: first-party
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 3
+    mcp: first-party
+    skills: derived
+  schema_version: 0.18.0
   scored_at: '2026-09-01'
-  trend: flat
+  trend: rising
 screenshot: https://raw.githubusercontent.com/api-evangelist/service-cloud/refs/heads/main/screenshots/service-cloud-2026-06-20T193724.png
 security:
 - kind: authentication

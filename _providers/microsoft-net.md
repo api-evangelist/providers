@@ -14,7 +14,7 @@ agent_readiness:
   band: agent-ready
   dimensions:
     agent_card: false
-    agent_skills: true
+    agent_skills: derived
     agentic_access: derived
     agentic_commerce: false
     auth_clarity: bearer
@@ -33,7 +33,7 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 34.4
+  score: 31.3
   scored_at: '2026-09-01'
 agentic_access:
 - acting_count: 0
@@ -349,31 +349,34 @@ rate_limits:
   slug: microsoft-net-rate-limits
 score:
   band: strong
-  composite: 59.1
+  composite: 61.1
   coverage:
     artifact_dirs: 24
-    catalog_gap: 69.0
+    catalog_gap: 60.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: 0.0
+  delta: 2.0
   facets:
     access_clarity: 57.9
     commercial_clarity: 57.9
     contract_governance: 18.2
     contract_quality: 49.0
-    developer_ergonomics: 85.7
+    developer_ergonomics: 80.4
     discoverability: 74.1
     governance: 18.2
-    operational_transparency: 65.8
+    operational_transparency: 89.5
   previous_composite: 59.1
   provenance:
     agentic_access: derived
+    conformance: first-party
     contracts:
       callable: 100.0
       derived: 0
       marker_coverage: 0.0
-      total: 4
-  schema_version: 0.17.2
+      total: 5
+    mcp: first-party
+    skills: derived
+  schema_version: 0.18.0
   scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/microsoft-net/refs/heads/main/screenshots/microsoft-net-2026-06-20T185509.png

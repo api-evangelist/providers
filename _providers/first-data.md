@@ -124,7 +124,7 @@ score:
     regime: Payments
     regime_id: payments
     score: 9.4
-  schema_version: 0.17.2
+  schema_version: 0.18.0
   scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/first-data/refs/heads/main/screenshots/first-data-2026-06-20T181236.png

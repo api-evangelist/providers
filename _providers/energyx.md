@@ -328,19 +328,19 @@ rate_limits:
   name: Energyx Rate Limits
   slug: energyx-rate-limits
 score:
-  band: thin
-  composite: 29.9
+  band: emerging
+  composite: 19.5
   coverage:
     artifact_dirs: 21
     catalog_gap: 75.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: 0.0
+  delta: -10.4
   facets:
     access_clarity: 10.5
     commercial_clarity: 10.5
     contract_governance: 4.5
-    contract_quality: 58.0
+    contract_quality: 16.5
     developer_ergonomics: 16.1
     discoverability: 81.5
     governance: 4.5
@@ -351,9 +351,9 @@ score:
     conformance: derived
     contracts:
       callable: 100.0
-      derived: 0
-      marker_coverage: 0.0
-      total: 15
+      derived: 20
+      marker_coverage: 100.0
+      total: 20
     mcp: derived
     skills: derived
   regulatory:
@@ -362,9 +362,9 @@ score:
     regime: Energy & Utilities
     regime_id: energy_utilities
     score: 28.4
-  schema_version: 0.17.2
+  schema_version: 0.18.0
   scored_at: '2026-09-01'
-  trend: flat
+  trend: falling
 security:
 - kind: authentication
   name: Energyx Authentication

@@ -488,18 +488,18 @@ rules:
   slug: oura-ring-rules
 score:
   band: strong
-  composite: 58.6
+  composite: 58.7
   coverage:
     artifact_dirs: 17
     catalog_gap: 47.5
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: 0.0
+  delta: 0.1
   facets:
     access_clarity: 81.6
     commercial_clarity: 81.6
     contract_governance: 13.6
-    contract_quality: 55.9
+    contract_quality: 56.5
     developer_ergonomics: 54.8
     discoverability: 59.3
     governance: 13.6
@@ -518,7 +518,7 @@ score:
     regime: Health
     regime_id: health
     score: 45.0
-  schema_version: 0.17.2
+  schema_version: 0.18.0
   scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/oura-ring/refs/heads/main/screenshots/oura-ring-2026-06-20T191228.png

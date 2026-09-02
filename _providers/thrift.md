@@ -167,7 +167,7 @@ score:
     governance: 25.0
     operational_transparency: 26.3
   previous_composite: 26.4
-  schema_version: 0.17.2
+  schema_version: 0.18.0
   scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/thrift/refs/heads/main/screenshots/thrift-2026-06-20T195317.png

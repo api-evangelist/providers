@@ -214,18 +214,18 @@ scopes:
   summary_line: OAuth 2.0 · no documented scopes
 score:
   band: thin
-  composite: 34.4
+  composite: 35.1
   coverage:
     artifact_dirs: 18
     catalog_gap: 43.8
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: 0.0
+  delta: 0.7
   facets:
     access_clarity: 28.9
     commercial_clarity: 28.9
     contract_governance: 3.8
-    contract_quality: 26.0
+    contract_quality: 28.9
     developer_ergonomics: 33.3
     discoverability: 68.5
     governance: 3.8
@@ -235,16 +235,16 @@ score:
     conformance: first-party
     contracts:
       callable: 100.0
-      derived: 1
+      derived: 2
       marker_coverage: 100.0
-      total: 1
+      total: 2
   regulatory:
     applies: true
     matched_via: tags
     regime: Education & Research
     regime_id: education
     score: 61.1
-  schema_version: 0.17.2
+  schema_version: 0.18.0
   scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/zhejiang/refs/heads/main/screenshots/zhejiang-2026-06-20T201856.png

@@ -16,12 +16,12 @@
      "slug": "iyzico",
      "description": "iyzico is a Turkish payment service provider (part of PayU / Prosus) that gives online businesses a single API and hosted payment surface to accept cards and alternative payment methods across Turkey and cross-border. Its developer platform (docs.iyzico.com, api.iyzipay.com) covers NON-3DS and 3D Secure card payments, the hosted CheckoutForm and Pay with iyzico flows, iyzico Link, subscriptions/recurring billing, a marketplace/submerchant model with payouts, card storage/tokenization, installment and BIN services, reporting, and server-to-server webhooks. Authentication uses an HMACSHA256-signed IYZWSv2 scheme with an apiKey/secretKey pair, and a full sandbox (sandbox-api.iyzipay.com) with published test cards mirrors production. First party SDKs are published for PHP, Python, Node.js, Java, Ruby and .NET plus e-commerce plugins (WooCommerce, Magento 2, PrestaShop, OpenCart).",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/iyzico/refs/heads/main/screenshots/iyzico-2026-07-25T223026.png",
-     "score": 50.6,
+     "score": 50.3,
      "band": "developing",
      "band_label": "Developing",
      "facets": {
       "discoverability": 75.9,
-      "contract_quality": 42.7,
+      "contract_quality": 41.6,
       "governance": 4.5,
       "contract_governance": 4.5,
       "operational_transparency": 65.8,
@@ -30,7 +30,7 @@
       "access_clarity": 34.2
      },
      "scored_at": "2026-09-01",
-     "schema_version": "0.17.2",
+     "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
       "regime": "Payments",
@@ -82,7 +82,7 @@
       "access_clarity": 52.6
      },
      "scored_at": "2026-09-01",
-     "schema_version": "0.17.2",
+     "schema_version": "0.18.0",
      "agent_score": 29.0,
      "agent_band": "agent-ready",
      "agent_dims": {
@@ -127,7 +127,7 @@
       "access_clarity": 38.2
      },
      "scored_at": "2026-09-01",
-     "schema_version": "0.17.2",
+     "schema_version": "0.18.0",
      "agent_score": 30.4,
      "agent_band": "agent-ready",
      "agent_dims": {
@@ -169,12 +169,12 @@
      "slug": "ikas-ikas-teknoloji-as",
      "description": "ikas (IKAS Teknoloji AS) is an all-in-one e-commerce platform, headquartered in Turkey and backed by 500 Global, that lets merchants build online stores, manage products, inventory, orders, customers, and campaigns, and sell across multiple sales channels. For developers and partners, ikas exposes a public GraphQL Admin API at api.myikas.com that covers products, variants, orders, transactions, customers, price lists, campaigns, coupons, stock locations, sales channels, storefronts, and webhooks. Apps authenticate with OAuth 2.0 (client_credentials for private/store apps and authorization_code for public admin apps) using scoped permissions such as read_products/write_products and read_orders/write_orders. ikas also ships a TypeScript SDK, an ikas CLI, an App Bridge for embedded dashboard apps, a theme development kit, and an official MCP server for its code components.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/ikas-ikas-teknoloji-as/refs/heads/main/screenshots/ikas-ikas-teknoloji-as-2026-07-25T222057.png",
-     "score": 37.9,
+     "score": 37.7,
      "band": "thin",
      "band_label": "Thin",
      "facets": {
       "discoverability": 75.9,
-      "contract_quality": 42.7,
+      "contract_quality": 41.6,
       "governance": 4.5,
       "contract_governance": 4.5,
       "operational_transparency": 18.4,
@@ -183,7 +183,7 @@
       "access_clarity": 10.5
      },
      "scored_at": "2026-09-01",
-     "schema_version": "0.17.2",
+     "schema_version": "0.18.0",
      "agent_score": 27.0,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -214,12 +214,12 @@
      "slug": "trendyol",
      "description": "Trendyol is Turkey's largest e-commerce marketplace and a leading fashion and retail platform operating across Türkiye, the Gulf, Azerbaijan, and Central & Eastern Europe. Its Marketplace (Partner) API lets sellers and integrators manage the full commerce lifecycle: product catalog with category/brand/ attribute data, price and stock updates, order and shipment-package fulfillment, returns and claims, invoicing, settlements and financial reconciliation, the Export Center, customer questions, and order webhooks. Authentication is HTTP Basic (API key/secret) with a mandatory User-Agent header, plus an OAuth 2.0 authorization-code flow for multi-supplier integrators. Bulk writes are asynchronous and confirmed via a batchRequestId.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/trendyol/refs/heads/main/screenshots/trendyol-2026-08-17T082435.png",
-     "score": 36.3,
+     "score": 36.0,
      "band": "thin",
      "band_label": "Thin",
      "facets": {
       "discoverability": 75.9,
-      "contract_quality": 42.7,
+      "contract_quality": 41.6,
       "governance": 4.5,
       "contract_governance": 4.5,
       "operational_transparency": 65.8,
@@ -228,7 +228,7 @@
       "access_clarity": 0.0
      },
      "scored_at": "2026-09-01",
-     "schema_version": "0.17.2",
+     "schema_version": "0.18.0",
      "agent_score": 26.1,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -259,12 +259,12 @@
      "slug": "getir",
      "description": "Getir is an Istanbul-based on-demand delivery company, founded in 2015, that pioneered the ultrafast \"groceries in minutes\" model and grew into a super-app spanning rapid grocery (Getir), large-basket grocery (GetirBüyük), water (GetirSu), restaurant food delivery (GetirYemek / GetirFood) and local-merchant commerce (GetirÇarşı / GetirLocals). Its developer-facing surface is a partner-integration platform rather than a public product API: Getir publishes the GetirFood API — a Swagger 2.0 contract at food-external-api-gateway.getirapi.com covering restaurant onboarding, menu and product status, working hours, delivery zones, payment methods and the full food-order lifecycle (verify, prepare, handover, deliver, cancel, transfer) — for POS and integrator companies that connect restaurant point-of-sale systems to GetirFood. Orders are pushed to partners over webhooks, with a documented rate limiter, a 99-entry service error registry, published test cards and a dedicated test environment. In February 2026 Uber agreed to acquire Getir's Türkiye delivery business, cleared by the Turkish Competition Authority in June 2026.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/getir/refs/heads/main/screenshots/getir-2026-08-07T165703.png",
-     "score": 34.8,
+     "score": 34.7,
      "band": "thin",
      "band_label": "Thin",
      "facets": {
       "discoverability": 75.9,
-      "contract_quality": 47.8,
+      "contract_quality": 47.1,
       "governance": 4.5,
       "contract_governance": 4.5,
       "operational_transparency": 57.9,
@@ -273,7 +273,7 @@
       "access_clarity": 10.5
      },
      "scored_at": "2026-09-01",
-     "schema_version": "0.17.2",
+     "schema_version": "0.18.0",
      "agent_score": 33.1,
      "agent_band": "agent-ready",
      "agent_dims": {
@@ -317,7 +317,7 @@
       "access_clarity": 76.3
      },
      "scored_at": "2026-09-01",
-     "schema_version": "0.17.2",
+     "schema_version": "0.18.0",
      "agent_score": 5.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -373,7 +373,7 @@
       "access_clarity": 10.5
      },
      "scored_at": "2026-09-01",
-     "schema_version": "0.17.2",
+     "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -417,7 +417,7 @@
       "access_clarity": 10.5
      },
      "scored_at": "2026-09-01",
-     "schema_version": "0.17.2",
+     "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -462,7 +462,7 @@
       "access_clarity": 6.6
      },
      "scored_at": "2026-09-01",
-     "schema_version": "0.17.2",
+     "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -507,7 +507,7 @@
       "access_clarity": 0.0
      },
      "scored_at": "2026-09-01",
-     "schema_version": "0.17.2",
+     "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -552,7 +552,7 @@
       "access_clarity": 0.0
      },
      "scored_at": "2026-09-01",
-     "schema_version": "0.17.2",
+     "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
       "regime": "Payments",

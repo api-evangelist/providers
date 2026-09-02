@@ -917,18 +917,18 @@ scopes:
   summary_line: 6 scopes · authorizationCode
 score:
   band: exemplar
-  composite: 85.5
+  composite: 85.4
   coverage:
     artifact_dirs: 31
     catalog_gap: 36.8
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: 0.0
+  delta: -0.1
   facets:
     access_clarity: 89.5
     commercial_clarity: 89.5
     contract_governance: 43.2
-    contract_quality: 63.2
+    contract_quality: 62.8
     developer_ergonomics: 82.7
     discoverability: 66.7
     governance: 43.2
@@ -941,10 +941,10 @@ score:
     agentic_access: derived
     conformance: first-party
     contracts:
-      callable: 94.1
+      callable: 81.8
       derived: 0
-      marker_coverage: 11.8
-      total: 17
+      marker_coverage: 0.0
+      total: 33
     mcp: derived
     skills: derived
   regulatory:
@@ -953,7 +953,7 @@ score:
     regime: Health
     regime_id: health
     score: 83.8
-  schema_version: 0.17.2
+  schema_version: 0.18.0
   scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/cms/refs/heads/main/screenshots/cms-2026-06-20T174629.png

@@ -209,7 +209,7 @@ score:
     governance: 25.0
     operational_transparency: 13.2
   previous_composite: 23.0
-  schema_version: 0.17.2
+  schema_version: 0.18.0
   scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/scala/refs/heads/main/screenshots/scala-2026-06-20T193449.png

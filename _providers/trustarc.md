@@ -13,8 +13,8 @@ agent_readiness:
   band_gated_from: agent-native
   dimensions:
     agent_card: false
-    agent_skills: true
-    agentic_access: true
+    agent_skills: derived
+    agentic_access: derived
     agentic_commerce: false
     auth_clarity: served
     consent_identity: false
@@ -24,7 +24,7 @@ agent_readiness:
     error_semantics: documented
     event_surface_described: true
     idempotency: false
-    mcp_server: documented
+    mcp_server: false
     openapi_examples: partial
     protected_resource_metadata: false
     rate_limit_signal: documented
@@ -32,7 +32,7 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 50.2
+  score: 38.7
   scored_at: '2026-09-01'
 agentic_access:
 - acting_count: 132
@@ -482,24 +482,34 @@ scopes:
   summary_line: 1 scope · implicit
 score:
   band: developing
-  composite: 45.2
+  composite: 44.8
   coverage:
     artifact_dirs: 24
     catalog_gap: 81.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: 0.0
+  delta: -0.4
   facets:
     access_clarity: 23.7
     commercial_clarity: 23.7
     contract_governance: 18.2
-    contract_quality: 46.7
-    developer_ergonomics: 69.0
+    contract_quality: 49.5
+    developer_ergonomics: 63.7
     discoverability: 63.0
     governance: 18.2
     operational_transparency: 50.0
   previous_composite: 45.2
-  schema_version: 0.17.2
+  provenance:
+    agentic_access: derived
+    conformance: first-party
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 50
+    mcp: derived
+    skills: derived
+  schema_version: 0.18.0
   scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/trustarc/refs/heads/main/screenshots/trustarc-2026-06-20T195803.png

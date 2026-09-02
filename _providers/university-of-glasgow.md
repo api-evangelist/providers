@@ -205,33 +205,40 @@ rate_limits:
   name: University Of Glasgow Rate Limits
   slug: university-of-glasgow-rate-limits
 score:
-  band: developing
-  composite: 40.8
+  band: thin
+  composite: 32.1
   coverage:
     artifact_dirs: 14
     catalog_gap: 56.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: 0.0
+  delta: -8.7
   facets:
     access_clarity: 50.0
     commercial_clarity: 50.0
     contract_governance: 0.0
-    contract_quality: 55.1
+    contract_quality: 20.3
     developer_ergonomics: 26.2
     discoverability: 59.3
     governance: 0.0
     operational_transparency: 23.7
   previous_composite: 40.8
+  provenance:
+    conformance: derived
+    contracts:
+      callable: 100.0
+      derived: 1
+      marker_coverage: 100.0
+      total: 1
   regulatory:
     applies: true
     matched_via: tags
     regime: Education & Research
     regime_id: education
     score: 46.3
-  schema_version: 0.17.2
+  schema_version: 0.18.0
   scored_at: '2026-09-01'
-  trend: flat
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/university-of-glasgow/refs/heads/main/screenshots/university-of-glasgow-2026-06-20T200152.png
 security:
 - kind: authentication

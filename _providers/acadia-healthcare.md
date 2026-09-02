@@ -139,6 +139,8 @@ score:
     governance: 18.2
     operational_transparency: 2.6
   previous_composite: 15.2
+  provenance:
+    conformance: first-party
   regulatory:
     applies: true
     jurisdictions:
@@ -149,7 +151,7 @@ score:
     regime: Health
     regime_id: health
     score: 18.8
-  schema_version: 0.17.2
+  schema_version: 0.18.0
   scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/acadia-healthcare/refs/heads/main/screenshots/acadia-healthcare-2026-08-07T160746.png

@@ -131,7 +131,7 @@ score:
     governance: 0.0
     operational_transparency: 7.9
   previous_composite: 15.0
-  schema_version: 0.17.2
+  schema_version: 0.18.0
   scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/cava/refs/heads/main/screenshots/cava-2026-08-07T163134.png

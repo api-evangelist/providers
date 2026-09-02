@@ -1,9 +1,9 @@
 ---
 agent_readiness:
-  band: agent-ready
+  band: agent-aware
   dimensions:
     agent_card: false
-    agent_skills: true
+    agent_skills: derived
     agentic_access: false
     agentic_commerce: false
     auth_clarity: bearer
@@ -14,7 +14,7 @@ agent_readiness:
     error_semantics: documented
     event_surface_described: false
     idempotency: false
-    mcp_server: documented
+    mcp_server: false
     openapi_examples: documented
     protected_resource_metadata: false
     rate_limit_signal: documented
@@ -22,7 +22,7 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 29.2
+  score: 23.0
   scored_at: '2026-09-01'
 api_count: 1
 apis:
@@ -164,24 +164,33 @@ rate_limits:
   slug: tradedatahub-rate-limits
 score:
   band: developing
-  composite: 40.4
+  composite: 39.3
   coverage:
     artifact_dirs: 18
     catalog_gap: 68.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: 0.0
+  delta: -1.1
   facets:
     access_clarity: 63.2
     commercial_clarity: 63.2
-    contract_governance: 18.2
-    contract_quality: 33.3
-    developer_ergonomics: 50.0
+    contract_governance: 4.5
+    contract_quality: 40.0
+    developer_ergonomics: 44.6
     discoverability: 72.2
-    governance: 18.2
+    governance: 4.5
     operational_transparency: 0.0
   previous_composite: 40.4
-  schema_version: 0.17.2
+  provenance:
+    conformance: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 1
+    mcp: derived
+    skills: derived
+  schema_version: 0.18.0
   scored_at: '2026-09-01'
   trend: flat
 security:

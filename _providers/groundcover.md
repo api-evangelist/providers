@@ -233,26 +233,29 @@ scopes:
   summary_line: OAuth 2.0 · no documented scopes
 score:
   band: strong
-  composite: 54.6
+  composite: 61.2
   coverage:
     artifact_dirs: 21
-    catalog_gap: 70.0
+    catalog_gap: 55.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: 0.0
+  delta: 6.6
   facets:
-    access_clarity: 76.3
-    commercial_clarity: 76.3
+    access_clarity: 100.0
+    commercial_clarity: 100.0
     contract_governance: 18.2
-    contract_quality: 42.7
+    contract_quality: 41.6
     developer_ergonomics: 69.0
     discoverability: 75.9
     governance: 18.2
-    operational_transparency: 39.5
+    operational_transparency: 55.3
   previous_composite: 54.6
-  schema_version: 0.17.2
+  provenance:
+    conformance: first-party
+    mcp: first-party
+  schema_version: 0.18.0
   scored_at: '2026-09-01'
-  trend: flat
+  trend: rising
 screenshot: https://raw.githubusercontent.com/api-evangelist/groundcover/refs/heads/main/screenshots/groundcover-2026-06-20T182415.png
 security:
 - kind: authentication

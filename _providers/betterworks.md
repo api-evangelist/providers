@@ -153,7 +153,7 @@ score:
     governance: 0.0
     operational_transparency: 5.3
   previous_composite: 33.4
-  schema_version: 0.17.2
+  schema_version: 0.18.0
   scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/betterworks/refs/heads/main/screenshots/betterworks-2026-06-20T173210.png

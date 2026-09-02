@@ -1212,19 +1212,19 @@ rules:
     warn: 35
   slug: yugabytedb-spectral-rules
 score:
-  band: developing
-  composite: 48.8
+  band: strong
+  composite: 57.0
   coverage:
     artifact_dirs: 19
     catalog_gap: 66.5
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: 0.0
+  delta: 8.2
   facets:
     access_clarity: 65.8
     commercial_clarity: 65.8
     contract_governance: 13.6
-    contract_quality: 23.0
+    contract_quality: 56.0
     developer_ergonomics: 83.3
     discoverability: 57.4
     governance: 13.6
@@ -1233,13 +1233,13 @@ score:
   provenance:
     agentic_access: derived
     contracts:
-      callable: 100.0
-      derived: 73
-      marker_coverage: 100.0
-      total: 73
-  schema_version: 0.17.2
+      callable: 12.2
+      derived: 8
+      marker_coverage: 10.8
+      total: 74
+  schema_version: 0.18.0
   scored_at: '2026-09-01'
-  trend: flat
+  trend: rising
 screenshot: https://raw.githubusercontent.com/api-evangelist/yugabytedb/refs/heads/main/screenshots/yugabytedb-2026-06-20T201754.png
 security:
 - kind: authentication

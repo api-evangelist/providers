@@ -969,37 +969,31 @@ rules:
   slug: postman-rules
 score:
   band: exemplar
-  composite: 67.2
+  composite: 67.0
   coverage:
     artifact_dirs: 24
     catalog_gap: 51.5
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: 0.0
+  delta: -0.2
   facets:
     access_clarity: 76.3
     commercial_clarity: 76.3
     contract_governance: 28.8
-    contract_quality: 72.9
+    contract_quality: 72.0
     developer_ergonomics: 73.8
     discoverability: 83.3
     governance: 28.8
     operational_transparency: 55.3
-  needs_work:
-    note: Recorded so this provider's gaps can be attributed. Does not affect the composite above.
-    owner: catalog
-    reasons:
-    - owner: catalog
-      reason: no_resolvable_host
   previous_composite: 67.2
   provenance:
     agentic_access: derived
     contracts:
       callable: 100.0
       derived: 0
-      marker_coverage: 100.0
-      total: 34
-  schema_version: 0.17.2
+      marker_coverage: 58.7
+      total: 46
+  schema_version: 0.18.0
   scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/postman/refs/heads/main/screenshots/postman-2026-06-20T192015.png

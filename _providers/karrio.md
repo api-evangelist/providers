@@ -12,10 +12,9 @@ access_model:
   try_now: true
 agent_readiness:
   band: agent-ready
-  band_gated_from: agent-native
   dimensions:
     agent_card: false
-    agent_skills: true
+    agent_skills: derived
     agentic_access: derived
     agentic_commerce: false
     auth_clarity: bearer
@@ -24,7 +23,7 @@ agent_readiness:
     dry_run_mode: true
     dynamic_client_registration: false
     error_semantics: verified
-    event_surface_described: true
+    event_surface_described: derived
     idempotency: false
     mcp_server: documented
     openapi_examples: partial
@@ -34,7 +33,7 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 44.5
+  score: 38.5
   scored_at: '2026-09-01'
 agentic_access:
 - acting_count: 60
@@ -294,37 +293,40 @@ scopes:
   summary_line: 3 scopes · authorizationCode
 score:
   band: strong
-  composite: 56.8
+  composite: 59.0
   coverage:
     artifact_dirs: 29
-    catalog_gap: 72.0
+    catalog_gap: 63.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: 0.0
+  delta: 2.2
   facets:
-    access_clarity: 47.4
-    commercial_clarity: 47.4
-    contract_governance: 18.2
-    contract_quality: 60.4
-    developer_ergonomics: 64.3
+    access_clarity: 71.1
+    commercial_clarity: 71.1
+    contract_governance: 4.5
+    contract_quality: 60.9
+    developer_ergonomics: 58.9
     discoverability: 68.5
-    governance: 18.2
+    governance: 4.5
     operational_transparency: 36.8
   previous_composite: 56.8
   provenance:
     agentic_access: derived
+    conformance: derived
     contracts:
       callable: 0.0
       derived: 0
       marker_coverage: 0.0
-      total: 1
+      total: 16
+    mcp: first-party
+    skills: derived
   regulatory:
     applies: true
     matched_via: tags
     regime: Telecommunications
     regime_id: telecommunications
     score: 66.7
-  schema_version: 0.17.2
+  schema_version: 0.18.0
   scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/karrio/refs/heads/main/screenshots/karrio-2026-06-20T183922.png

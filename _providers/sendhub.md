@@ -239,18 +239,18 @@ rate_limits:
   slug: sendhub-rate-limits
 score:
   band: strong
-  composite: 57.8
+  composite: 57.6
   coverage:
     artifact_dirs: 21
     catalog_gap: 66.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: 0.0
+  delta: -0.2
   facets:
     access_clarity: 76.3
     commercial_clarity: 76.3
     contract_governance: 18.2
-    contract_quality: 63.9
+    contract_quality: 63.1
     developer_ergonomics: 66.1
     discoverability: 75.9
     governance: 18.2
@@ -272,7 +272,7 @@ score:
     regime: Telecommunications
     regime_id: telecommunications
     score: 44.4
-  schema_version: 0.17.2
+  schema_version: 0.18.0
   scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/sendhub/refs/heads/main/screenshots/sendhub-2026-08-17T081802.png

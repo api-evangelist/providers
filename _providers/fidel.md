@@ -151,7 +151,6 @@ common:
   url: llms/fidel-llms.txt
 created: '2026-07-17'
 description: Fidel (Enigmatic Smile Ltd, trading as Fidel API) is a card-linking and payments-data platform that lets developers connect Visa, Mastercard and Amex cards to web and mobile applications through a single API. PCI-compliant card-capture SDKs (Web, iOS, Android, React Native) securely tokenize card details, and Fidel then delivers enriched, real-time transaction records to the integrator's servers over webhooks whenever a linked card is used at a participating merchant. Products include the Select Transactions API, an Offers / card-linked-rewards API, card enrollment SDKs, and attribution & insights. Founded in 2015 and headquartered in the UK, Fidel operates in the United States, United Kingdom, Ireland, Canada, Sweden and the UAE, and absorbs PCI scope on behalf of its integrators.
-image: https://fidelapi.com/fidel_social.png
 layout: provider
 modified: '2026-07-19'
 name: Fidel
@@ -167,20 +166,20 @@ overview: 'Fidel publishes 1 API on the [APIs.io](https://apis.io/) network. Tag
 random_paper: 12
 score:
   band: developing
-  composite: 42.5
+  composite: 41.8
   coverage:
     artifact_dirs: 14
-    catalog_gap: 78.0
+    catalog_gap: 80.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: 0.0
+  delta: -0.7
   facets:
     access_clarity: 28.9
     commercial_clarity: 28.9
     contract_governance: 18.2
-    contract_quality: 42.7
+    contract_quality: 41.6
     developer_ergonomics: 44.0
-    discoverability: 75.9
+    discoverability: 72.2
     governance: 18.2
     operational_transparency: 26.3
   previous_composite: 42.5
@@ -192,7 +191,7 @@ score:
     regime: Payments
     regime_id: payments
     score: 59.4
-  schema_version: 0.17.2
+  schema_version: 0.18.0
   scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/fidel/refs/heads/main/screenshots/fidel-2026-07-25T214420.png

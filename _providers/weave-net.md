@@ -281,10 +281,10 @@ score:
     agentic_access: derived
     contracts:
       callable: 0.0
-      derived: 5
+      derived: 6
       marker_coverage: 100.0
-      total: 5
-  schema_version: 0.17.2
+      total: 6
+  schema_version: 0.18.0
   scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/weave-net/refs/heads/main/screenshots/weave-net-2026-06-20T201316.png

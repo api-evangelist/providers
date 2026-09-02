@@ -255,9 +255,9 @@ score:
     conformance: derived
     contracts:
       callable: 0.0
-      derived: 1
+      derived: 11
       marker_coverage: 100.0
-      total: 1
+      total: 11
     mcp: first-party
     skills: derived
   regulatory:
@@ -266,7 +266,7 @@ score:
     regime: Payments
     regime_id: payments
     score: 39.1
-  schema_version: 0.17.2
+  schema_version: 0.18.0
   scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/memberpress/refs/heads/main/screenshots/memberpress-2026-08-17T081042.png

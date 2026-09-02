@@ -175,7 +175,10 @@ score:
     governance: 18.2
     operational_transparency: 15.8
   previous_composite: 32.8
-  schema_version: 0.17.2
+  provenance:
+    conformance: first-party
+    mcp: first-party
+  schema_version: 0.18.0
   scored_at: '2026-09-01'
   trend: flat
 security:

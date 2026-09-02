@@ -62,7 +62,6 @@ common:
   url: https://en.wikipedia.org/wiki/TCF_Financial_Corporation
 created: '2026-05-05'
 description: Profile for TCF Financial Corporation, a former Detroit-headquartered regional bank holding company (Twin City Building and Loan Association, founded 1923). TCF was merged into Huntington Bancshares Incorporated on June 9, 2021, and the TCF brand was fully retired. This repository is preserved for historical record only — TCF Financial no longer operates and exposes no APIs. All banking, treasury, deposit, and lending services formerly offered under the TCF brand are now operated by Huntington National Bank under the Huntington brand. See the huntington-bancshares repository for current API surface (which is itself minimal; Huntington exposes no public developer portal).
-image: https://avatars.githubusercontent.com/u/api-evangelist
 layout: provider
 modified: '2026-05-23'
 name: TCF Financial Corporation
@@ -72,20 +71,20 @@ overview: TCF Financial Corporation is profiled on the [APIs.io](https://apis.io
 random_paper: 14
 score:
   band: minimal
-  composite: 0.3
+  composite: 0.0
   coverage:
     artifact_dirs: 1
-    catalog_gap: 88.0
+    catalog_gap: 90.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: 0.0
+  delta: -0.3
   facets:
     access_clarity: 0.0
     commercial_clarity: 0.0
     contract_governance: 0.0
     contract_quality: 0.0
     developer_ergonomics: 0.0
-    discoverability: 50.0
+    discoverability: 46.3
     governance: 0.0
     operational_transparency: 0.0
   needs_work:
@@ -103,7 +102,7 @@ score:
     regime: Banking & Open Finance
     regime_id: banking_open_finance
     score: 0.0
-  schema_version: 0.17.2
+  schema_version: 0.18.0
   scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/tcf-financial/refs/heads/main/screenshots/tcf-financial-2026-06-20T194942.png

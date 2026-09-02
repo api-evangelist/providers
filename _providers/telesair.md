@@ -144,13 +144,16 @@ score:
     governance: 18.2
     operational_transparency: 0.0
   previous_composite: 15.0
+  provenance:
+    conformance: first-party
+    mcp: first-party
   regulatory:
     applies: true
     matched_via: tags
     regime: Health
     regime_id: health
     score: 26.3
-  schema_version: 0.17.2
+  schema_version: 0.18.0
   scored_at: '2026-09-01'
   trend: flat
 security:

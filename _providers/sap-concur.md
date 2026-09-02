@@ -446,7 +446,6 @@ graphqls:
 - description: This is a conceptual GraphQL schema for the SAP Concur platform, the leading provider of integrated travel, expense, and invoice management solutions. The schema unifies SAP Concur's multiple REST API
   name: SAP Concur GraphQL Schema
   slug: sap-concur-graphql
-image: https://www.concur.com/themes/custom/concur/logo.svg
 json_schemas:
 - name: Allocation
   property_count: 11
@@ -788,20 +787,20 @@ rules:
   slug: sap-concur-spectral-rules
 score:
   band: developing
-  composite: 44.1
+  composite: 43.7
   coverage:
     artifact_dirs: 18
-    catalog_gap: 55.5
+    catalog_gap: 57.5
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: 0.0
+  delta: -0.4
   facets:
     access_clarity: 36.8
     commercial_clarity: 36.8
     contract_governance: 13.6
     contract_quality: 73.7
     developer_ergonomics: 33.3
-    discoverability: 70.4
+    discoverability: 66.7
     governance: 13.6
     operational_transparency: 26.3
   open_source:
@@ -815,7 +814,7 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 5
-  schema_version: 0.17.2
+  schema_version: 0.18.0
   scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/sap-concur/refs/heads/main/screenshots/sap-concur-2026-06-20T193423.png

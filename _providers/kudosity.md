@@ -328,18 +328,18 @@ rate_limits:
   slug: kudosity-rate-limits
 score:
   band: strong
-  composite: 58.9
+  composite: 59.6
   coverage:
     artifact_dirs: 24
     catalog_gap: 58.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: 0.0
+  delta: 0.7
   facets:
     access_clarity: 92.1
     commercial_clarity: 92.1
     contract_governance: 4.5
-    contract_quality: 59.3
+    contract_quality: 61.9
     developer_ergonomics: 39.9
     discoverability: 75.9
     governance: 4.5
@@ -348,6 +348,11 @@ score:
   provenance:
     agentic_access: derived
     conformance: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 12
     mcp: first-party
     skills: derived
   regulatory:
@@ -360,7 +365,7 @@ score:
     regime: Telecommunications
     regime_id: telecommunications
     score: 50.0
-  schema_version: 0.17.2
+  schema_version: 0.18.0
   scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/kudosity/refs/heads/main/screenshots/kudosity-2026-07-27T062805.png

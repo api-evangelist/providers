@@ -958,37 +958,40 @@ scopes:
   slug: netlify-scopes
   summary_line: OAuth 2.0 · no documented scopes
 score:
-  band: strong
-  composite: 61.6
+  band: exemplar
+  composite: 66.9
   coverage:
     artifact_dirs: 34
-    catalog_gap: 72.5
+    catalog_gap: 54.5
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: 0.0
+  delta: 5.3
   facets:
-    access_clarity: 63.2
-    commercial_clarity: 63.2
-    contract_governance: 47.0
-    contract_quality: 52.7
+    access_clarity: 86.8
+    commercial_clarity: 86.8
+    contract_governance: 33.3
+    contract_quality: 52.0
     developer_ergonomics: 83.3
     discoverability: 51.9
-    governance: 47.0
-    operational_transparency: 60.5
+    governance: 33.3
+    operational_transparency: 84.2
   open_source:
     applies: true
     score: 65.0
   previous_composite: 61.6
   provenance:
     agentic_access: derived
+    conformance: derived
     contracts:
       callable: 100.0
       derived: 0
       marker_coverage: 0.0
-      total: 35
-  schema_version: 0.17.2
+      total: 42
+    mcp: first-party
+    skills: first-party
+  schema_version: 0.18.0
   scored_at: '2026-09-01'
-  trend: flat
+  trend: rising
 screenshot: https://raw.githubusercontent.com/api-evangelist/netlify/refs/heads/main/screenshots/netlify-2026-06-20T190259.png
 security:
 - kind: authentication

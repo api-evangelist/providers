@@ -569,7 +569,6 @@ finops:
 - name: Microsoft Office 365 Finops
   service_category: Productivity
   slug: microsoft-office-365-finops
-image: https://www.microsoft.com/en-us/microsoft-365/blog/wp-content/uploads/sites/2/2020/04/Microsoft-365.png
 integrations:
 - description: Integrate with Azure AD for user authentication, authorization, and directory management.
   name: Azure Active Directory
@@ -1016,20 +1015,20 @@ scopes:
   summary_line: 18 scopes · authorizationCode/clientCredentials
 score:
   band: strong
-  composite: 56.4
+  composite: 56.0
   coverage:
     artifact_dirs: 20
-    catalog_gap: 60.5
+    catalog_gap: 62.5
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: 0.0
+  delta: -0.4
   facets:
     access_clarity: 55.3
     commercial_clarity: 55.3
     contract_governance: 13.6
     contract_quality: 77.2
     developer_ergonomics: 76.2
-    discoverability: 57.4
+    discoverability: 53.7
     governance: 13.6
     operational_transparency: 26.3
   previous_composite: 56.4
@@ -1040,7 +1039,7 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 4
-  schema_version: 0.17.2
+  schema_version: 0.18.0
   scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/microsoft-office-365/refs/heads/main/screenshots/microsoft-office-365-2026-06-20T185511.png

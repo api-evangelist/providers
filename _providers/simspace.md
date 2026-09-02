@@ -189,13 +189,16 @@ score:
     governance: 18.2
     operational_transparency: 34.2
   previous_composite: 39.0
+  provenance:
+    conformance: first-party
+    mcp: first-party
   regulatory:
     applies: true
     matched_via: tags
     regime: Government & Public Sector
     regime_id: government
     score: 74.1
-  schema_version: 0.17.2
+  schema_version: 0.18.0
   scored_at: '2026-09-01'
   trend: flat
 security:

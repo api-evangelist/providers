@@ -16,7 +16,7 @@ agent_readiness:
   band_gated_from: agent-native
   dimensions:
     agent_card: false
-    agent_skills: true
+    agent_skills: derived
     agentic_access: derived
     agentic_commerce: false
     auth_clarity: served
@@ -35,7 +35,7 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: true
   schema_version: 0.2
-  score: 55.6
+  score: 52.9
   scored_at: '2026-09-01'
 agentic_access:
 - acting_count: 389
@@ -373,32 +373,35 @@ scopes:
   slug: onetrust-scopes
   summary_line: 51 scopes · clientCredentials
 score:
-  band: developing
-  composite: 53.0
+  band: strong
+  composite: 57.9
   coverage:
     artifact_dirs: 26
-    catalog_gap: 80.0
+    catalog_gap: 65.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: 0.0
+  delta: 4.9
   facets:
-    access_clarity: 39.5
-    commercial_clarity: 39.5
+    access_clarity: 55.3
+    commercial_clarity: 55.3
     contract_governance: 18.2
-    contract_quality: 67.3
-    developer_ergonomics: 57.1
+    contract_quality: 66.4
+    developer_ergonomics: 51.8
     discoverability: 57.4
     governance: 18.2
-    operational_transparency: 68.4
+    operational_transparency: 92.1
   previous_composite: 53.0
   provenance:
     agentic_access: derived
+    conformance: first-party
     contracts:
       callable: 100.0
       derived: 0
       marker_coverage: 0.0
-      total: 7
-  schema_version: 0.17.2
+      total: 8
+    mcp: first-party
+    skills: derived
+  schema_version: 0.18.0
   scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/onetrust/refs/heads/main/screenshots/onetrust-2026-06-20T190718.png

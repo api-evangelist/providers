@@ -10,7 +10,7 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: human-only
+  band: agent-aware
   dimensions:
     agent_card: false
     agent_skills: false
@@ -29,27 +29,126 @@ agent_readiness:
     protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
-    spec_presence: false
+    spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 5.0
+  score: 18.0
   scored_at: '2026-09-01'
-api_count: 4
+api_count: 9
 apis:
-- description: 'KITopen is KIT''s central open-access institutional repository for bibliographic data, full texts, images, research data, and AV media of KIT scientists. It is built on the KIT Library dbkit framework '
+- description: KITopen is KIT's central open-access institutional repository for the bibliographic data, full texts, images, research data and AV media of KIT scientists. It is built on dbkit, the web application fr
   name: KITopen OAI-PMH Interface
   slug: kitopen-oai
-- description: dbkit is a web application framework developed by the KIT Library that provides both an API interface and an OAI interface, enabling import and export of bibliographic data (BibTeX, EndNote, RIS, CSL-
-  name: dbkit API
-  slug: dbkit
-- description: RADAR4KIT is KIT's interdisciplinary research-data repository for archiving and publishing research data, based on the RADAR service operated by FIZ Karlsruhe. RADAR provides a RESTful "Archive API" c
-  name: RADAR / RADAR4KIT Archive API
+- description: 'The KIT Library self-hosts Koha, the open-source integrated library system, at katalog.bibliothek.kit.edu, and its REST API is live and served from KIT''s own registrable domain. Verified 2026-09-01: /'
+  name: KIT Library Catalogue REST API (self-hosted Koha)
+  slug: library-catalog-api
+- description: 'RADAR4KIT is KIT''s interdisciplinary research-data repository for archiving and publishing research data with DOI assignment. It is a tenancy on the RADAR service operated by FIZ Karlsruhe, served on '
+  name: RADAR4KIT Research Data Repository (RADAR tenancy)
   slug: radar4kit
-- description: KIT operates a Shibboleth/SAML 2.0 Identity Provider via the Scientific Computing Center (SCC) for single sign-on and federated authentication across KIT services and the DFN-AAI federation.
-  name: KIT Shibboleth Identity Provider (SCC)
+- description: 'The Scientific Computing Center operates KIT''s Shibboleth SAML 2.0 Identity Provider and publishes its metadata as application/xml from KIT''s own host. Verified 2026-09-01: entityID https://idp.scc.ki'
+  name: DFN-AAI Identity Federation — KIT Shibboleth Identity Provider
   slug: shibboleth-idp
-artifact_total: 10
+- description: 'Separately from the Shibboleth IdP, the Scientific Computing Center operates a Keycloak OpenID Connect provider for the "kit" realm on KIT''s own domain. Verified 2026-09-01: the discovery document at '
+  name: KIT OpenID Connect Provider (SCC Keycloak realm)
+  slug: scc-oidc
+- description: The Scientific Computing Center operates the KI-Toolbox, KIT's generative-AI service for staff, students and guest accounts, on KIT's own host. It fronts large language models hosted locally at the SC
+  name: KI-Toolbox — KIT Generative AI Service (Open WebUI)
+  slug: ki-toolbox
+- description: 'KIT is a DataCite direct member, registering DOIs for its own research output rather than through a consortium proxy. Verified 2026-09-01 at https://api.datacite.org/providers/kit (200): id "kit", sym'
+  name: DataCite Membership — Karlsruhe Institute of Technology (KIT)
+  slug: datacite-member
+- description: 'The KIT Library is a Crossref member in its own right, depositing DOIs under the prefix 10.58895. Verified 2026-09-01 at https://api.crossref.org/members/37766 (200): primary-name "Karlsruhe Institute'
+  name: Crossref Membership — KIT Library
+  slug: crossref-member
+- description: KIT's Research Organization Registry identifier, https://ror.org/04t3en479, verified live 2026-09-01 against https://api.ror.org/organizations/04t3en479 (200). The record carries the website https://w
+  name: ROR Registry Record — Karlsruhe Institute of Technology
+  slug: ror-record
+artifact_total: 15
 common:
+- group: company
+  title: ''
+  type: Website
+  url: https://www.kit.edu/english/
+- group: other
+  title: ''
+  type: ResearchRepository
+  url: https://publikationen.bibliothek.kit.edu/
+- group: other
+  title: ''
+  type: ResearchRepository
+  url: https://radar.kit.edu/
+- group: build
+  title: ''
+  type: LibraryCatalog
+  url: https://katalog.bibliothek.kit.edu/
+- group: learn
+  title: ''
+  type: CourseCatalog
+  url: https://campus.studium.kit.edu/
+- group: other
+  title: ''
+  type: IdentityFederation
+  url: https://idp.scc.kit.edu/idp/shibboleth
+- group: other
+  title: ''
+  type: ResearchComputing
+  url: https://www.nhr.kit.edu/
+- group: other
+  title: ''
+  type: AIPolicy
+  url: https://www.kit.edu/downloads/KI-Leitlinien-de.pdf
+- group: build
+  title: ''
+  type: AITooling
+  url: https://www.scc.kit.edu/en/services/ki-toolbox.php
+- group: design
+  title: ''
+  type: Conformance
+  url: conformance/karlsruhe-institute-of-technology-conformance.yml
+- group: build
+  title: ''
+  type: GitHubOrganization
+  url: https://github.com/KIT-SCC
+- group: build
+  title: ''
+  type: GitHub
+  url: https://github.com/kit-data-manager
+- group: build
+  title: ''
+  type: SourceCode
+  url: https://gitlab.kit.edu/
+- group: operate
+  title: ''
+  type: Support
+  url: https://www.scc.kit.edu/en/services/servicedesk.php
+- group: operate
+  title: ''
+  type: Support
+  url: https://www.bibliothek.kit.edu/english/contact.php
+- group: auth
+  title: ''
+  type: SecurityTxt
+  url: https://www.kit.edu/.well-known/security.txt
+- group: commercial
+  title: ''
+  type: TermsOfService
+  url: https://www.kit.edu/legals.php
+- group: commercial
+  title: ''
+  type: PrivacyPolicy
+  url: https://www.kit.edu/privacypolicy.php
+- group: company
+  title: ''
+  type: Blog
+  url: https://www.kit.edu/kit/english/press_releases.php
+- group: company
+  title: ''
+  type: BlogRSS
+  url: https://www.kit.edu/english/news.rss
+- group: company
+  title: ''
+  type: LinkedIn
+  url: https://www.linkedin.com/school/kit/
 - group: auth
   title: ''
   type: VulnerabilityDisclosure
@@ -58,18 +157,6 @@ common:
   title: ''
   type: DomainSecurity
   url: security/karlsruhe-institute-of-technology-domain-security.yml
-- group: company
-  title: ''
-  type: Website
-  url: https://www.kit.edu/english/
-- group: build
-  title: ''
-  type: GitHub
-  url: https://github.com/KIT-SCC
-- group: company
-  title: ''
-  type: LinkedIn
-  url: https://www.linkedin.com/school/kit/
 - group: commercial
   title: ''
   type: Plans
@@ -87,7 +174,8 @@ common:
   type: Review
   url: review.yml
 created: '2026-06-03'
-description: 'Karlsruhe Institute of Technology (KIT) is a public research university and national research center in Karlsruhe, Germany, ranked #102 in the QS World University Rankings 2025. KIT''s public developer/API footprint is centered on research infrastructure operated by the KIT Library and partner FIZ Karlsruhe: the KITopen institutional repository (built on the dbkit framework, exposing an OAI-PMH harvesting interface), and the RADAR / RADAR4KIT research-data repository which offers a RESTful, OAuth-secured archive API. Identity is handled via a Shibboleth/SAML IdP operated by the Scientific Computing Center (SCC). KIT does not publish a single consolidated developer portal; its open-source code is spread across many institute-level GitHub organizations.'
+description: 'Karlsruhe Institute of Technology (KIT) is a public research university and national research center of the Helmholtz Association in Karlsruhe, Germany, and a member of the TU9 alliance of German institutes of technology. KIT publishes no central developer portal and no institution-authored API contract: api.kit.edu, developer.kit.edu, data.kit.edu and opendata.kit.edu do not resolve at all. What it does operate, and what this profile records, is a set of standards-protocol and self-hosted surfaces on its own kit.edu domain, every one of them probed live on 2026-09-01 rather than taken from a link. The KIT Library runs an OAI-PMH 2.0 provider for the KITopen institutional repository (repositoryName "KITopen", built on the Library''s own dbkit framework) and a self-hosted Koha catalogue whose REST API answers keyless on its /public path. The Scientific Computing Center runs a Shibboleth SAML 2.0 Identity Provider registered in the DFN-AAI federation, a Keycloak OpenID Connect
+  realm, and the KI-Toolbox, an Open WebUI deployment serving locally hosted large language models. RADAR4KIT, KIT''s research-data repository, is a tenancy on FIZ Karlsruhe''s RADAR service running on KIT infrastructure. KIT is a DataCite direct member and a Crossref member in its own right. Three of these surfaces answer with a product''s generic contract (Koha, RADAR, Open WebUI) rather than KIT''s own engineering; the deployments are recorded here and those contracts are deliberately not saved under KIT''s name.'
 finops:
 - name: Karlsruhe Institute Of Technology Finops
   service_category: Education
@@ -99,17 +187,17 @@ jsonld:
   property_count: 0
   slug: karlsruhe-institute-of-technology-context
 layout: provider
-modified: '2026-06-03'
+modified: '2026-09-01'
 name: Karlsruhe Institute of Technology
 nav: Providers
 network: true
-overview: 'Karlsruhe Institute of Technology publishes 4 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Education, Higher Education, University, Research, and Open Data.
+overview: 'Karlsruhe Institute of Technology publishes 1 API on the [APIs.io](https://apis.io/) network: KIT Library Catalogue REST API (self-hosted Koha). Tagged areas include Education, Higher Education, University, Technical University, and Germany.
 
 
   The Karlsruhe Institute of Technology catalog on APIs.io includes 1 JSON-LD context.
 
 
-  Karlsruhe Institute of Technology''s developer surface includes GitHub presence and 8 more developer resources.'
+  Karlsruhe Institute of Technology''s developer surface includes GitHub presence, support, engineering blog, and 24 more developer resources.'
 plans:
 - name: Karlsruhe Institute Of Technology Plans Pricing
   plan_count: 2
@@ -120,33 +208,35 @@ rate_limits:
   name: Karlsruhe Institute Of Technology Rate Limits
   slug: karlsruhe-institute-of-technology-rate-limits
 score:
-  band: emerging
-  composite: 24.9
+  band: developing
+  composite: 43.3
   coverage:
-    artifact_dirs: 7
-    catalog_gap: 53.0
+    artifact_dirs: 8
+    catalog_gap: 48.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: 0.0
+  delta: 18.4
   facets:
-    access_clarity: 28.9
-    commercial_clarity: 28.9
+    access_clarity: 50.0
+    commercial_clarity: 50.0
     contract_governance: 0.0
-    contract_quality: 10.7
-    developer_ergonomics: 21.4
-    discoverability: 64.8
+    contract_quality: 39.0
+    developer_ergonomics: 35.7
+    discoverability: 85.2
     governance: 0.0
     operational_transparency: 26.3
   previous_composite: 24.9
+  provenance:
+    conformance: first-party
   regulatory:
     applies: true
     matched_via: tags
     regime: Education & Research
     regime_id: education
-    score: 42.6
-  schema_version: 0.17.2
+    score: 57.4
+  schema_version: 0.18.0
   scored_at: '2026-09-01'
-  trend: flat
+  trend: rising
 screenshot: https://raw.githubusercontent.com/api-evangelist/karlsruhe-institute-of-technology/refs/heads/main/screenshots/karlsruhe-institute-of-technology-2026-06-20T183922.png
 security:
 - kind: domain-security
@@ -162,10 +252,20 @@ tags:
 - Education
 - Higher Education
 - University
-- Research
-- Open Data
-- Research Data
-- Library
+- Technical University
 - Germany
+- Europe
+- Research
+- Research Data
+- Open Access
+- Open Science
+- Institutional Repository
+- Library
+- OAI-PMH
+- Identity Federation
+- Shibboleth
+- Research Computing
+- TU9
+- Helmholtz Association
 website: https://www.kit.edu/english/
 ---

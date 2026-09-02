@@ -97,7 +97,7 @@ score:
     governance: 15.2
     operational_transparency: 0.0
   previous_composite: 11.9
-  schema_version: 0.17.2
+  schema_version: 0.18.0
   scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/rest-services/refs/heads/main/screenshots/rest-services-2026-06-20T193005.png

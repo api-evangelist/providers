@@ -16,12 +16,12 @@
      "slug": "jane-app",
      "description": "Jane is a cloud-based practice management platform for health and wellness clinics, headquartered in North Vancouver, Canada, with regional data residency across Canada, the USA, the United Kingdom, and Australia. Jane combines online booking, scheduling, charting and clinical documentation (including AI-assisted notes), insurance billing, payments, patient intake, a patient mobile app, and telehealth in a single system used by interdisciplinary clinics — physiotherapy, massage therapy, chiropractic, counselling, midwifery, and more. The Jane Developer Platform (developers.jane.app) exposes a documented REST API that lets approved Technology Partners build \"Jane Extensions\" — practitioner-authorized integrations that read and write clinic data. Authentication is OAuth 2.0 with PKCE over OpenID Connect (Keycloak realms), using RS256 JWT bearer access tokens and granular scopes (e.g. observations:read). The API is date-versioned in the URL path and is per-clinic (https://<clinic>/api/YYYY-MM-DD/), covering patients, appointments, locations, staff, disciplines, treatments, medical records (observations, care plans, medications), document uploads, webhooks, and extension management. Jane is not FHIR/HL7-based: it is a proprietary REST practice-management API rather than a SMART-on-FHIR EHR interoperability surface.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/jane-app/refs/heads/main/screenshots/jane-app-2026-07-25T223058.png",
-     "score": 58.0,
+     "score": 57.7,
      "band": "strong",
      "band_label": "Strong",
      "facets": {
       "discoverability": 66.7,
-      "contract_quality": 67.2,
+      "contract_quality": 66.3,
       "governance": 18.2,
       "contract_governance": 18.2,
       "operational_transparency": 36.8,
@@ -30,7 +30,7 @@
       "access_clarity": 47.4
      },
      "scored_at": "2026-09-01",
-     "schema_version": "0.17.2",
+     "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
       "regime": "Health",
@@ -80,12 +80,12 @@
      "slug": "canada-health-infoway",
      "description": "Canada Health Infoway is an independent, federally funded not-for-profit organization that leads the adoption of digital health and pan-Canadian interoperability across Canada's province- and territory-fragmented healthcare system. Infoway stewards the pan-Canadian FHIR interoperability specifications - CA Core+ and the CA Baseline profiles developed with the Canadian Institute for Health Information (CIHI) - and operates the Canadian FHIR Registry, the Canadian URI Registry, and a national Terminology Gateway. Its developer-facing API surface, published through the Accelero developer portal, is a HAPI-FHIR R4 (4.0.1) Terminology Service exposing CodeSystem, ValueSet, and ConceptMap resources with $lookup, $expand, $translate, and $validate-code operations, alongside a companion RESTful Terminology API for browsing code systems, subsets, maps, and packages. Infoway is a standards steward and terminology infrastructure operator for the Canadian market rather than a commercial clinical-data platform; the terminology content APIs are gated behind free registration and a session/token login, while the FHIR CapabilityStatement is served anonymously.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/canada-health-infoway/refs/heads/main/screenshots/canada-health-infoway-2026-07-25T204326.png",
-     "score": 42.5,
+     "score": 42.4,
      "band": "developing",
      "band_label": "Developing",
      "facets": {
       "discoverability": 75.9,
-      "contract_quality": 53.7,
+      "contract_quality": 53.0,
       "governance": 18.2,
       "contract_governance": 18.2,
       "operational_transparency": 7.9,
@@ -94,7 +94,7 @@
       "access_clarity": 34.2
      },
      "scored_at": "2026-09-01",
-     "schema_version": "0.17.2",
+     "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
       "regime": "Health",
@@ -157,7 +157,7 @@
       "access_clarity": 0.0
      },
      "scored_at": "2026-09-01",
-     "schema_version": "0.17.2",
+     "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
       "regime": "Health",
@@ -210,7 +210,7 @@
       "access_clarity": 23.7
      },
      "scored_at": "2026-09-01",
-     "schema_version": "0.17.2",
+     "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
       "regime": "Health",
@@ -272,7 +272,7 @@
       "access_clarity": 21.1
      },
      "scored_at": "2026-09-01",
-     "schema_version": "0.17.2",
+     "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
       "regime": "Health",
@@ -325,7 +325,7 @@
       "access_clarity": 53.9
      },
      "scored_at": "2026-09-01",
-     "schema_version": "0.17.2",
+     "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
       "regime": "Health",
@@ -378,7 +378,7 @@
       "access_clarity": 38.2
      },
      "scored_at": "2026-09-01",
-     "schema_version": "0.17.2",
+     "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
       "regime": "Health",
@@ -431,7 +431,7 @@
       "access_clarity": 31.6
      },
      "scored_at": "2026-09-01",
-     "schema_version": "0.17.2",
+     "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
       "regime": "Health",
@@ -483,7 +483,7 @@
       "access_clarity": 32.9
      },
      "scored_at": "2026-09-01",
-     "schema_version": "0.17.2",
+     "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
       "regime": "Health",
@@ -545,7 +545,7 @@
       "access_clarity": 5.3
      },
      "scored_at": "2026-09-01",
-     "schema_version": "0.17.2",
+     "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
       "regime": "Health",

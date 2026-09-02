@@ -361,18 +361,18 @@ rules:
   slug: politecnico-di-torino-rules
 score:
   band: developing
-  composite: 47.0
+  composite: 46.4
   coverage:
     artifact_dirs: 17
     catalog_gap: 56.5
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: 0.0
+  delta: -0.6
   facets:
     access_clarity: 39.5
     commercial_clarity: 39.5
     contract_governance: 13.6
-    contract_quality: 61.0
+    contract_quality: 58.5
     developer_ergonomics: 21.4
     discoverability: 50.0
     governance: 13.6
@@ -383,18 +383,19 @@ score:
   previous_composite: 47.0
   provenance:
     agentic_access: derived
+    conformance: first-party
     contracts:
       callable: 100.0
-      derived: 0
-      marker_coverage: 0.0
-      total: 15
+      derived: 1
+      marker_coverage: 6.3
+      total: 16
   regulatory:
     applies: true
     matched_via: tags
     regime: Education & Research
     regime_id: education
     score: 38.9
-  schema_version: 0.17.2
+  schema_version: 0.18.0
   scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/politecnico-di-torino/refs/heads/main/screenshots/politecnico-di-torino-2026-06-20T191855.png

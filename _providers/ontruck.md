@@ -112,7 +112,7 @@ score:
     governance: 0.0
     operational_transparency: 2.6
   previous_composite: 13.6
-  schema_version: 0.17.2
+  schema_version: 0.18.0
   scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/ontruck/refs/heads/main/screenshots/ontruck-2026-08-07T190427.png

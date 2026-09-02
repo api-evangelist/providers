@@ -407,8 +407,8 @@ score:
       callable: 0.0
       derived: 0
       marker_coverage: 0.0
-      total: 34
-  schema_version: 0.17.2
+      total: 35
+  schema_version: 0.18.0
   scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/amazon-verified-permissions/refs/heads/main/screenshots/amazon-verified-permissions-2026-06-20T171845.png

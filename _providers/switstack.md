@@ -261,7 +261,7 @@ score:
       callable: 0.0
       derived: 0
       marker_coverage: 0.0
-      total: 2
+      total: 8
     mcp: derived
     skills: derived
   regulatory:
@@ -270,7 +270,7 @@ score:
     regime: Payments
     regime_id: payments
     score: 42.2
-  schema_version: 0.17.2
+  schema_version: 0.18.0
   scored_at: '2026-09-01'
   trend: flat
 security:

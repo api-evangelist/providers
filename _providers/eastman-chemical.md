@@ -124,7 +124,7 @@ score:
     governance: 0.0
     operational_transparency: 0.0
   previous_composite: 7.9
-  schema_version: 0.17.2
+  schema_version: 0.18.0
   scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/eastman-chemical/refs/heads/main/screenshots/eastman-chemical-2026-06-20T180400.png

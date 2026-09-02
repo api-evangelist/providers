@@ -101,7 +101,7 @@ score:
     governance: 0.0
     operational_transparency: 13.2
   previous_composite: 11.8
-  schema_version: 0.17.2
+  schema_version: 0.18.0
   scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/open-voice-network/refs/heads/main/screenshots/open-voice-network-2026-06-20T190859.png

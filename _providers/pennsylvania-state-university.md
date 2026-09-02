@@ -287,37 +287,38 @@ rules:
   slug: pennsylvania-state-university-rules
 score:
   band: developing
-  composite: 49.9
+  composite: 46.3
   coverage:
     artifact_dirs: 17
-    catalog_gap: 33.5
+    catalog_gap: 45.5
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: 0.0
+  delta: -3.6
   facets:
-    access_clarity: 71.1
-    commercial_clarity: 71.1
-    contract_governance: 31.8
-    contract_quality: 24.4
+    access_clarity: 55.3
+    commercial_clarity: 55.3
+    contract_governance: 18.2
+    contract_quality: 37.4
     developer_ergonomics: 35.7
     discoverability: 74.1
-    governance: 31.8
-    operational_transparency: 23.7
+    governance: 18.2
+    operational_transparency: 7.9
   previous_composite: 49.9
   provenance:
     agentic_access: derived
+    conformance: derived
     contracts:
       callable: 100.0
       derived: 5
       marker_coverage: 100.0
-      total: 5
+      total: 7
   regulatory:
     applies: true
     matched_via: tags
     regime: Education & Research
     regime_id: education
     score: 81.5
-  schema_version: 0.17.2
+  schema_version: 0.18.0
   scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/pennsylvania-state-university/refs/heads/main/screenshots/pennsylvania-state-university-2026-06-20T191542.png

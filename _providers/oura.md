@@ -396,18 +396,18 @@ scopes:
   summary_line: 8 scopes · authorizationCode
 score:
   band: developing
-  composite: 53.1
+  composite: 52.9
   coverage:
     artifact_dirs: 17
     catalog_gap: 29.8
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: 0.0
+  delta: -0.2
   facets:
     access_clarity: 42.1
     commercial_clarity: 42.1
     contract_governance: 25.0
-    contract_quality: 70.4
+    contract_quality: 69.6
     developer_ergonomics: 23.8
     discoverability: 68.5
     governance: 25.0
@@ -426,7 +426,7 @@ score:
     regime: Health
     regime_id: health
     score: 56.3
-  schema_version: 0.17.2
+  schema_version: 0.18.0
   scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/oura/refs/heads/main/screenshots/oura-2026-06-20T191225.png

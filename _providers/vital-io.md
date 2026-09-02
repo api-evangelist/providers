@@ -703,18 +703,18 @@ rules:
   slug: vital-rules
 score:
   band: exemplar
-  composite: 71.0
+  composite: 70.8
   coverage:
     artifact_dirs: 22
     catalog_gap: 55.5
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: 0.0
+  delta: -0.2
   facets:
     access_clarity: 100.0
     commercial_clarity: 100.0
     contract_governance: 47.0
-    contract_quality: 61.0
+    contract_quality: 60.2
     developer_ergonomics: 85.7
     discoverability: 50.0
     governance: 47.0
@@ -727,7 +727,7 @@ score:
       callable: 100.0
       derived: 0
       marker_coverage: 0.0
-      total: 17
+      total: 19
   regulatory:
     applies: true
     jurisdictions:
@@ -738,7 +738,7 @@ score:
     regime: Health
     regime_id: health
     score: 37.5
-  schema_version: 0.17.2
+  schema_version: 0.18.0
   scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/vital-io/refs/heads/main/screenshots/vital-io-2026-06-20T201103.png

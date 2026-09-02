@@ -227,13 +227,13 @@ scopes:
   summary_line: OAuth 2.0 · no documented scopes
 score:
   band: thin
-  composite: 36.0
+  composite: 39.1
   coverage:
     artifact_dirs: 21
-    catalog_gap: 69.0
+    catalog_gap: 60.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: 0.0
+  delta: 3.1
   facets:
     access_clarity: 42.1
     commercial_clarity: 42.1
@@ -242,15 +242,12 @@ score:
     developer_ergonomics: 57.1
     discoverability: 81.5
     governance: 18.2
-    operational_transparency: 44.7
-  needs_work:
-    note: Recorded so this provider's gaps can be attributed. Does not affect the composite above.
-    owner: catalog
-    reasons:
-    - owner: catalog
-      reason: no_resolvable_host
+    operational_transparency: 68.4
   previous_composite: 36.0
-  schema_version: 0.17.2
+  provenance:
+    conformance: first-party
+    mcp: first-party
+  schema_version: 0.18.0
   scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/yahoo/refs/heads/main/screenshots/yahoo-2026-06-20T201726.png

@@ -555,10 +555,10 @@ score:
       callable: 100.0
       derived: 0
       marker_coverage: 0.0
-      total: 42
+      total: 44
     mcp: first-party
     skills: first-party
-  schema_version: 0.17.2
+  schema_version: 0.18.0
   scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/koyeb/refs/heads/main/screenshots/koyeb-2026-06-20T184145.png

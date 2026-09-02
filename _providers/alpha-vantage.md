@@ -355,19 +355,19 @@ scopes:
   slug: alpha-vantage-scopes
   summary_line: 1 scope · authorizationCode
 score:
-  band: strong
-  composite: 54.9
+  band: developing
+  composite: 53.4
   coverage:
     artifact_dirs: 30
     catalog_gap: 51.5
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: 0.0
+  delta: -1.5
   facets:
     access_clarity: 60.5
     commercial_clarity: 60.5
     contract_governance: 33.3
-    contract_quality: 39.2
+    contract_quality: 33.0
     developer_ergonomics: 75.6
     discoverability: 75.9
     governance: 33.3
@@ -378,9 +378,9 @@ score:
     conformance: derived
     contracts:
       callable: 100.0
-      derived: 1
-      marker_coverage: 50.0
-      total: 2
+      derived: 2
+      marker_coverage: 66.7
+      total: 3
     mcp: first-party
     skills: derived
   regulatory:
@@ -389,7 +389,7 @@ score:
     regime: Securities & Market Data
     regime_id: securities_market_data
     score: 68.3
-  schema_version: 0.17.2
+  schema_version: 0.18.0
   scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/alpha-vantage/refs/heads/main/screenshots/alpha-vantage-2026-06-20T171545.png

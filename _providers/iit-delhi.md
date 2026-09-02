@@ -224,32 +224,39 @@ rate_limits:
   slug: iit-delhi-rate-limits
 score:
   band: thin
-  composite: 36.9
+  composite: 26.8
   coverage:
     artifact_dirs: 13
     catalog_gap: 50.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: 0.0
+  delta: -10.1
   facets:
     access_clarity: 28.9
     commercial_clarity: 28.9
     contract_governance: 0.0
-    contract_quality: 68.9
+    contract_quality: 28.6
     developer_ergonomics: 21.4
     discoverability: 59.3
     governance: 0.0
     operational_transparency: 23.7
   previous_composite: 36.9
+  provenance:
+    conformance: derived
+    contracts:
+      callable: 100.0
+      derived: 1
+      marker_coverage: 100.0
+      total: 1
   regulatory:
     applies: true
     matched_via: tags
     regime: Education & Research
     regime_id: education
     score: 31.5
-  schema_version: 0.17.2
+  schema_version: 0.18.0
   scored_at: '2026-09-01'
-  trend: flat
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/iit-delhi/refs/heads/main/screenshots/iit-delhi-2026-06-20T183235.png
 security:
 - kind: authentication

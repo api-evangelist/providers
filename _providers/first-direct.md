@@ -349,7 +349,7 @@ score:
       callable: 0.0
       derived: 0
       marker_coverage: 0.0
-      total: 4
+      total: 34
     mcp: derived
     skills: derived
   regulatory:
@@ -362,7 +362,7 @@ score:
     regime: Banking & Open Finance
     regime_id: banking_open_finance
     score: 78.5
-  schema_version: 0.17.2
+  schema_version: 0.18.0
   scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/first-direct/refs/heads/main/screenshots/first-direct-2026-07-25T214603.png

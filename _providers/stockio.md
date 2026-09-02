@@ -133,7 +133,7 @@ score:
     governance: 0.0
     operational_transparency: 13.2
   previous_composite: 14.3
-  schema_version: 0.17.2
+  schema_version: 0.18.0
   scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/stockio/refs/heads/main/screenshots/stockio-2026-06-20T194554.png

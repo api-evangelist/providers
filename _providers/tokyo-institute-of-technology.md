@@ -213,33 +213,40 @@ rate_limits:
   name: Tokyo Institute Of Technology Rate Limits
   slug: tokyo-institute-of-technology-rate-limits
 score:
-  band: developing
-  composite: 48.5
+  band: thin
+  composite: 38.7
   coverage:
     artifact_dirs: 13
     catalog_gap: 51.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: 0.0
+  delta: -9.8
   facets:
     access_clarity: 50.0
     commercial_clarity: 50.0
-    contract_governance: 18.2
-    contract_quality: 55.1
+    contract_governance: 4.5
+    contract_quality: 22.3
     developer_ergonomics: 38.1
     discoverability: 68.5
-    governance: 18.2
+    governance: 4.5
     operational_transparency: 23.7
   previous_composite: 48.5
+  provenance:
+    conformance: derived
+    contracts:
+      callable: 100.0
+      derived: 1
+      marker_coverage: 100.0
+      total: 1
   regulatory:
     applies: true
     matched_via: tags
     regime: Education & Research
     regime_id: education
     score: 61.1
-  schema_version: 0.17.2
+  schema_version: 0.18.0
   scored_at: '2026-09-01'
-  trend: flat
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/tokyo-institute-of-technology/refs/heads/main/screenshots/tokyo-institute-of-technology-2026-06-20T195440.png
 security:
 - kind: authentication

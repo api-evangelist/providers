@@ -126,7 +126,7 @@ score:
     regime: Payments
     regime_id: payments
     score: 21.9
-  schema_version: 0.17.2
+  schema_version: 0.18.0
   scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/parallel-universe/refs/heads/main/screenshots/parallel-universe-2026-08-07T191423.png

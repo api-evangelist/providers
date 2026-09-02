@@ -421,18 +421,18 @@ rules:
   slug: statsd-jsonschema-spectral-rules
 score:
   band: thin
-  composite: 36.1
+  composite: 35.9
   coverage:
     artifact_dirs: 11
     catalog_gap: 48.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: 0.0
+  delta: -0.2
   facets:
     access_clarity: 0.0
     commercial_clarity: 0.0
     contract_governance: 69.7
-    contract_quality: 63.9
+    contract_quality: 63.1
     developer_ergonomics: 26.2
     discoverability: 53.7
     governance: 69.7
@@ -448,7 +448,7 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 6
-  schema_version: 0.17.2
+  schema_version: 0.18.0
   scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/statsd/refs/heads/main/screenshots/statsd-2026-06-20T194527.png

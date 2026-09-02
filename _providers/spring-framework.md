@@ -169,7 +169,6 @@ finops:
 - name: Spring Framework Finops
   service_category: API
   slug: spring-framework-finops
-image: https://spring.io/img/spring-logo.svg
 json_schemas:
 - name: Spring Framework Bean Definition
   property_count: 1
@@ -228,20 +227,20 @@ rules:
   slug: spring-framework-rules
 score:
   band: developing
-  composite: 39.9
+  composite: 39.6
   coverage:
     artifact_dirs: 15
-    catalog_gap: 49.5
+    catalog_gap: 51.5
     catalog_max: 100.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: 0.0
+  delta: -0.3
   facets:
     access_clarity: 0.0
     commercial_clarity: 0.0
     contract_governance: 13.6
     contract_quality: 55.8
     developer_ergonomics: 31.0
-    discoverability: 66.7
+    discoverability: 63.0
     governance: 13.6
     operational_transparency: 36.8
   open_source:
@@ -255,7 +254,7 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 3
-  schema_version: 0.17.2
+  schema_version: 0.18.0
   scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/spring-framework/refs/heads/main/screenshots/spring-framework-2026-06-20T194413.png

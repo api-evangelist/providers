@@ -415,18 +415,18 @@ rules:
   slug: red-hat-openshift-rules
 score:
   band: developing
-  composite: 49.7
+  composite: 50.1
   coverage:
     artifact_dirs: 17
     catalog_gap: 52.5
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: 0.0
+  delta: 0.4
   facets:
     access_clarity: 60.5
     commercial_clarity: 60.5
     contract_governance: 28.8
-    contract_quality: 60.5
+    contract_quality: 62.1
     developer_ergonomics: 45.2
     discoverability: 68.5
     governance: 28.8
@@ -435,11 +435,11 @@ score:
   provenance:
     agentic_access: derived
     contracts:
-      callable: 0.0
+      callable: 45.5
       derived: 0
       marker_coverage: 0.0
       total: 11
-  schema_version: 0.17.2
+  schema_version: 0.18.0
   scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/red-hat-openshift/refs/heads/main/screenshots/red-hat-openshift-2026-06-20T192719.png

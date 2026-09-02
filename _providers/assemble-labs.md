@@ -88,7 +88,7 @@ score:
     governance: 0.0
     operational_transparency: 2.6
   previous_composite: 8.0
-  schema_version: 0.17.2
+  schema_version: 0.18.0
   scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/assemble-labs/refs/heads/main/screenshots/assemble-labs-2026-07-25T201443.png

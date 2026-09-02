@@ -435,18 +435,18 @@ rules:
   slug: kubernetes-services-jsonschema-spectral-rules
 score:
   band: developing
-  composite: 44.9
+  composite: 44.6
   coverage:
     artifact_dirs: 18
     catalog_gap: 54.5
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: 0.0
+  delta: -0.3
   facets:
     access_clarity: 13.2
     commercial_clarity: 13.2
     contract_governance: 13.6
-    contract_quality: 73.5
+    contract_quality: 72.5
     developer_ergonomics: 45.2
     discoverability: 64.8
     governance: 13.6
@@ -462,7 +462,7 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 12
-  schema_version: 0.17.2
+  schema_version: 0.18.0
   scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/kubernetes-services/refs/heads/main/screenshots/kubernetes-services-2026-06-20T184207.png

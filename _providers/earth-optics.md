@@ -168,7 +168,7 @@ score:
     regime: Health
     regime_id: health
     score: 38.8
-  schema_version: 0.17.2
+  schema_version: 0.18.0
   scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/earth-optics/refs/heads/main/screenshots/earth-optics-2026-08-07T164636.png

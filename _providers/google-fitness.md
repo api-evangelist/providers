@@ -173,12 +173,6 @@ score:
     discoverability: 68.5
     governance: 13.6
     operational_transparency: 7.9
-  needs_work:
-    note: Recorded so this provider's gaps can be attributed. Does not affect the composite above.
-    owner: catalog
-    reasons:
-    - owner: catalog
-      reason: no_resolvable_host
   previous_composite: 40.7
   provenance:
     agentic_access: derived
@@ -193,7 +187,7 @@ score:
     regime: Health
     regime_id: health
     score: 50.0
-  schema_version: 0.17.2
+  schema_version: 0.18.0
   scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/google-fitness/refs/heads/main/screenshots/google-fitness-2026-06-20T182201.png

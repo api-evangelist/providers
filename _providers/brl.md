@@ -227,18 +227,18 @@ overview: 'BRL publishes 11 APIs on the [APIs.io](https://apis.io/) network, inc
 random_paper: 5
 score:
   band: thin
-  composite: 38.6
+  composite: 38.4
   coverage:
     artifact_dirs: 15
     catalog_gap: 78.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: 0.0
+  delta: -0.2
   facets:
     access_clarity: 23.7
     commercial_clarity: 23.7
     contract_governance: 4.5
-    contract_quality: 58.6
+    contract_quality: 57.8
     developer_ergonomics: 50.0
     discoverability: 75.9
     governance: 4.5
@@ -251,7 +251,7 @@ score:
       callable: 100.0
       derived: 0
       marker_coverage: 0.0
-      total: 10
+      total: 11
     mcp: derived
   regulatory:
     applies: true
@@ -259,7 +259,7 @@ score:
     regime: Payments
     regime_id: payments
     score: 32.8
-  schema_version: 0.17.2
+  schema_version: 0.18.0
   scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/brl/refs/heads/main/screenshots/brl-2026-07-25T203938.png

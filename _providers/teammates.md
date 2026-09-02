@@ -186,18 +186,18 @@ overview: 'Teammates publishes 2 APIs on the [APIs.io](https://apis.io/) network
 random_paper: 16
 score:
   band: thin
-  composite: 38.2
+  composite: 38.0
   coverage:
     artifact_dirs: 15
     catalog_gap: 78.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: 0.0
+  delta: -0.2
   facets:
     access_clarity: 26.3
     commercial_clarity: 26.3
     contract_governance: 0.0
-    contract_quality: 51.0
+    contract_quality: 50.3
     developer_ergonomics: 45.8
     discoverability: 75.9
     governance: 0.0
@@ -212,7 +212,7 @@ score:
       total: 2
     mcp: derived
     skills: derived
-  schema_version: 0.17.2
+  schema_version: 0.18.0
   scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/teammates/refs/heads/main/screenshots/teammates-2026-08-17T082257.png

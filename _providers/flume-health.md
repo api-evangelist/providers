@@ -270,7 +270,7 @@ score:
       callable: 100.0
       derived: 0
       marker_coverage: 0.0
-      total: 1
+      total: 19
     mcp: first-party
     skills: derived
   regulatory:
@@ -279,7 +279,7 @@ score:
     regime: Health
     regime_id: health
     score: 65.0
-  schema_version: 0.17.2
+  schema_version: 0.18.0
   scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/flume-health/refs/heads/main/screenshots/flume-health-2026-08-17T080932.png

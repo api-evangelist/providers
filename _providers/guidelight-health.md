@@ -106,7 +106,7 @@ score:
     regime: Health
     regime_id: health
     score: 17.5
-  schema_version: 0.17.2
+  schema_version: 0.18.0
   scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/guidelight-health/refs/heads/main/screenshots/guidelight-health-2026-07-25T220422.png

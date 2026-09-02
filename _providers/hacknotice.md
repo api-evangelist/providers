@@ -229,18 +229,18 @@ rate_limits:
   slug: hacknotice-rate-limits
 score:
   band: developing
-  composite: 52.0
+  composite: 51.8
   coverage:
     artifact_dirs: 18
     catalog_gap: 58.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: 0.0
+  delta: -0.2
   facets:
     access_clarity: 71.1
     commercial_clarity: 71.1
     contract_governance: 4.5
-    contract_quality: 65.7
+    contract_quality: 64.8
     developer_ergonomics: 49.4
     discoverability: 68.5
     governance: 4.5
@@ -252,10 +252,10 @@ score:
       callable: 100.0
       derived: 0
       marker_coverage: 0.0
-      total: 1
+      total: 8
     mcp: first-party
     skills: derived
-  schema_version: 0.17.2
+  schema_version: 0.18.0
   scored_at: '2026-09-01'
   trend: flat
 security:

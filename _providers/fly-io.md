@@ -306,28 +306,22 @@ rules:
   slug: fly-io-jsonschema-spectral-rules
 score:
   band: thin
-  composite: 35.6
+  composite: 35.4
   coverage:
     artifact_dirs: 18
     catalog_gap: 66.5
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: 0.0
+  delta: -0.2
   facets:
     access_clarity: 23.7
     commercial_clarity: 23.7
     contract_governance: 13.6
-    contract_quality: 72.6
+    contract_quality: 71.6
     developer_ergonomics: 23.8
     discoverability: 50.0
     governance: 13.6
     operational_transparency: 10.5
-  needs_work:
-    note: Recorded so this provider's gaps can be attributed. Does not affect the composite above.
-    owner: catalog
-    reasons:
-    - owner: catalog
-      reason: no_resolvable_host
   previous_composite: 35.6
   provenance:
     agentic_access: derived
@@ -340,7 +334,7 @@ score:
     applies: false
     note: provider carries no tags; regime could not be determined
     undetermined: true
-  schema_version: 0.17.2
+  schema_version: 0.18.0
   scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/fly-io/refs/heads/main/screenshots/fly-io-2026-06-20T181357.png

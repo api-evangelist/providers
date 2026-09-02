@@ -106,7 +106,7 @@ score:
     regime: Insurance
     regime_id: insurance
     score: 21.2
-  schema_version: 0.17.2
+  schema_version: 0.18.0
   scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/alude/refs/heads/main/screenshots/alude-2026-07-25T195855.png

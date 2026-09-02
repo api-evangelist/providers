@@ -30,7 +30,7 @@
       "access_clarity": 76.3
      },
      "scored_at": "2026-09-01",
-     "schema_version": "0.17.2",
+     "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
       "regime": "Government & Public Sector",
@@ -100,7 +100,7 @@
       "access_clarity": 55.3
      },
      "scored_at": "2026-09-01",
-     "schema_version": "0.17.2",
+     "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
       "regime": "Energy & Utilities",
@@ -152,7 +152,7 @@
       "access_clarity": 21.1
      },
      "scored_at": "2026-09-01",
-     "schema_version": "0.17.2",
+     "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
       "regime": "Payments",
@@ -195,7 +195,7 @@
      "band_label": "Developing",
      "facets": {
       "discoverability": 59.3,
-      "contract_quality": 52.4,
+      "contract_quality": 52.7,
       "governance": 15.2,
       "contract_governance": 15.2,
       "operational_transparency": 23.7,
@@ -204,7 +204,7 @@
       "access_clarity": 50.0
      },
      "scored_at": "2026-09-01",
-     "schema_version": "0.17.2",
+     "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
       "regime": "Education & Research",
@@ -241,12 +241,74 @@
    "open": true
   },
   {
+   "band": "thin",
+   "label": "Thin",
+   "range": "26.2 – 39.2",
+   "blurb": "Limited machine-readable signal beyond documentation a human can read.",
+   "count": 1,
+   "shown": 1,
+   "providers": [
+    {
+     "name": "Trinity College Dublin",
+     "slug": "trinity-college-dublin",
+     "description": "Trinity College Dublin, the University of Dublin, founded in 1592, is Ireland's oldest university and a legal deposit library for Ireland and the United Kingdom since 1801. Trinity operates no public developer portal, publishes no OpenAPI, issues no API keys and runs no documented open-API programme — and this profile says so rather than padding the gap. What Trinity does operate, and what is recorded here, is standards-based scholarly and identity infrastructure: a self-hosted Shibboleth Identity Provider on its own domain (idp.tcd.ie, scope tcd.ie) registered in HEAnet's Edugate federation and exported to eduGAIN; a Microsoft Entra ID tenant with live OIDC discovery; an OpenSearch 1.1 description document authored by Trinity's own Digital and Web team; DataCite consortium membership with five prefixes and 16,031 DOIs across five registered repositories; and Crossref membership. Its two flagship repositories — TARA (DSpace) and Digital Collections (Hyrax/Samvera, home of the Book of Kells) — sit on Trinity's own hosts but are fronted by Cloudflare and F5 bot-mitigation that returns a challenge to every unattended client, so they are live but not machine-callable. eDeposit Ireland, the national legal-deposit repository Trinity Library administers, is the one repository that answers a harvester, and it does so as a tenant on Atmire's Open Repository platform rather than as Trinity's own engineering.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/trinity-college-dublin/refs/heads/main/screenshots/trinity-college-dublin-2026-06-20T195720.png",
+     "score": 29.5,
+     "band": "thin",
+     "band_label": "Thin",
+     "facets": {
+      "discoverability": 74.1,
+      "contract_quality": 14.3,
+      "governance": 0.0,
+      "contract_governance": 0.0,
+      "operational_transparency": 26.3,
+      "developer_ergonomics": 26.2,
+      "commercial_clarity": 50.0,
+      "access_clarity": 50.0
+     },
+     "scored_at": "2026-09-01",
+     "schema_version": "0.18.0",
+     "regulatory": {
+      "applies": true,
+      "regime": "Education & Research",
+      "regime_id": "education",
+      "score": 46.3,
+      "matched_via": "tags"
+     },
+     "agent_score": 5.0,
+     "agent_band": "human-only",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": false,
+      "reversibility_documented": false,
+      "mcp_server": false,
+      "auth_clarity": "bearer",
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": "documented",
+      "event_surface_described": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
+     "rank": 5
+    }
+   ]
+  },
+  {
    "band": "emerging",
    "label": "Emerging",
    "range": "11 – 26.1",
    "blurb": "More than an index entry but still mostly links rather than artifacts.",
-   "count": 6,
-   "shown": 6,
+   "count": 5,
+   "shown": 5,
    "providers": [
     {
      "name": "LegitFit",
@@ -267,7 +329,7 @@
       "access_clarity": 34.2
      },
      "scored_at": "2026-09-01",
-     "schema_version": "0.17.2",
+     "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
       "regime": "Payments",
@@ -298,7 +360,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 5
+     "rank": 6
     },
     {
      "name": "Ceartas",
@@ -319,59 +381,7 @@
       "access_clarity": 76.3
      },
      "scored_at": "2026-09-01",
-     "schema_version": "0.17.2",
-     "agent_score": 0.0,
-     "agent_band": "human-only",
-     "agent_dims": {
-      "spec_presence": false,
-      "agentic_access": false,
-      "reversibility_documented": false,
-      "mcp_server": false,
-      "auth_clarity": false,
-      "idempotency": false,
-      "error_semantics": false,
-      "openapi_examples": false,
-      "rate_limit_signal": false,
-      "event_surface_described": false,
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false,
-      "delegated_identity": false,
-      "protected_resource_metadata": false,
-      "dynamic_client_registration": false,
-      "agentic_commerce": false
-     },
-     "rank": 6
-    },
-    {
-     "name": "Open GI",
-     "slug": "open-gi",
-     "description": "Open GI is a Worcester-headquartered insurance software house that has supplied the UK and Ireland general insurance market for more than 45 years, serving over 600 broker, MGA and insurer customers across personal and commercial lines. Its product estate spans the legacy Core policy administration system and the newer cloud Mobius platform — policy administration and client management, product management, Insurer Hosted Pricing (IHP and IHP+), Ratings, the Dynamic Pricing Tool, quote-and-buy websites, customer portals and a Partner Network of 150-plus insurers, aggregators, premium finance, payment and data-enrichment providers. Its API posture is honestly partner-gated. Mobius genuinely ships APIs — Open GI's own public release notes describe Client Checks / sanctions-check endpoints and an API-triggered custom-event call — but the Mobius Developer Portal is a customer-only surface whose URL Open GI does not publish, no developer, docs, api or partners subdomain resolves on opengi.co.uk, every /developers, /developer, /api and /partners path on the marketing site returns 404, and even the company's own API Terms of Use page is password-protected. There is no public self-serve developer portal, no downloadable OpenAPI or Swagger, no public sandbox, no published auth model and no ACORD reference anywhere on the public site; insurer connectivity is delivered through UK-market EDI messaging inside the platform and through pre-agreed Partner Network integrations rather than through an open API programme.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/open-gi/refs/heads/main/screenshots/open-gi-2026-08-07T190454.png",
-     "score": 20.7,
-     "band": "emerging",
-     "band_label": "Emerging",
-     "facets": {
-      "discoverability": 59.3,
-      "contract_quality": 0.0,
-      "governance": 18.2,
-      "contract_governance": 18.2,
-      "operational_transparency": 15.8,
-      "developer_ergonomics": 16.7,
-      "commercial_clarity": 28.9,
-      "access_clarity": 28.9
-     },
-     "scored_at": "2026-09-01",
-     "schema_version": "0.17.2",
-     "regulatory": {
-      "applies": true,
-      "regime": "Insurance",
-      "regime_id": "insurance",
-      "score": 36.4,
-      "matched_via": "tags"
-     },
+     "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -398,44 +408,44 @@
      "rank": 7
     },
     {
-     "name": "Trinity College Dublin",
-     "slug": "trinity-college-dublin",
-     "description": "Trinity College Dublin (the University of Dublin) is Ireland's oldest university, founded in 1592, and ranked #98 in the QS World University Rankings 2025. Its public developer/API footprint is not organized around a dedicated developer portal or a documented open-API program; instead it is expressed through standards-based scholarly infrastructure. The Library of Trinity College Dublin runs TARA (Trinity's Access to Research Archive), a DSpace institutional repository that exposes an OAI-PMH metadata interface, and Digital Collections, a Hyrax/Samvera platform that serves IIIF Presentation manifests for digitised manuscripts including the Book of Kells. Both are publicly reachable in a browser but currently sit behind bot-mitigation (Cloudflare / reCAPTCHA), so they are not openly machine-callable without interactive access. Federated identity is provided through HEAnet's Edugate (eduGAIN) SAML federation rather than a public OAuth/OpenID developer API.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/trinity-college-dublin/refs/heads/main/screenshots/trinity-college-dublin-2026-06-20T195720.png",
-     "score": 20.5,
+     "name": "Open GI",
+     "slug": "open-gi",
+     "description": "Open GI is a Worcester-headquartered insurance software house that has supplied the UK and Ireland general insurance market for more than 45 years, serving over 600 broker, MGA and insurer customers across personal and commercial lines. Its product estate spans the legacy Core policy administration system and the newer cloud Mobius platform — policy administration and client management, product management, Insurer Hosted Pricing (IHP and IHP+), Ratings, the Dynamic Pricing Tool, quote-and-buy websites, customer portals and a Partner Network of 150-plus insurers, aggregators, premium finance, payment and data-enrichment providers. Its API posture is honestly partner-gated. Mobius genuinely ships APIs — Open GI's own public release notes describe Client Checks / sanctions-check endpoints and an API-triggered custom-event call — but the Mobius Developer Portal is a customer-only surface whose URL Open GI does not publish, no developer, docs, api or partners subdomain resolves on opengi.co.uk, every /developers, /developer, /api and /partners path on the marketing site returns 404, and even the company's own API Terms of Use page is password-protected. There is no public self-serve developer portal, no downloadable OpenAPI or Swagger, no public sandbox, no published auth model and no ACORD reference anywhere on the public site; insurer connectivity is delivered through UK-market EDI messaging inside the platform and through pre-agreed Partner Network integrations rather than through an open API programme.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/open-gi/refs/heads/main/screenshots/open-gi-2026-08-07T190454.png",
+     "score": 20.7,
      "band": "emerging",
      "band_label": "Emerging",
      "facets": {
       "discoverability": 59.3,
-      "contract_quality": 10.7,
-      "governance": 0.0,
-      "contract_governance": 0.0,
-      "operational_transparency": 26.3,
-      "developer_ergonomics": 21.4,
+      "contract_quality": 0.0,
+      "governance": 18.2,
+      "contract_governance": 18.2,
+      "operational_transparency": 15.8,
+      "developer_ergonomics": 16.7,
       "commercial_clarity": 28.9,
       "access_clarity": 28.9
      },
      "scored_at": "2026-09-01",
-     "schema_version": "0.17.2",
+     "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
-      "regime": "Education & Research",
-      "regime_id": "education",
-      "score": 31.5,
+      "regime": "Insurance",
+      "regime_id": "insurance",
+      "score": 36.4,
       "matched_via": "tags"
      },
-     "agent_score": 5.0,
+     "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
       "spec_presence": false,
       "agentic_access": false,
       "reversibility_documented": false,
       "mcp_server": false,
-      "auth_clarity": "bearer",
+      "auth_clarity": false,
       "idempotency": false,
       "error_semantics": false,
       "openapi_examples": false,
-      "rate_limit_signal": "documented",
+      "rate_limit_signal": false,
       "event_surface_described": false,
       "agent_skills": false,
       "well_known_catalog": false,
@@ -468,7 +478,7 @@
       "access_clarity": 52.6
      },
      "scored_at": "2026-09-01",
-     "schema_version": "0.17.2",
+     "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -513,7 +523,7 @@
       "access_clarity": 28.9
      },
      "scored_at": "2026-09-01",
-     "schema_version": "0.17.2",
+     "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
       "regime": "Government & Public Sector",
@@ -575,7 +585,7 @@
       "access_clarity": 7.9
      },
      "scored_at": "2026-09-01",
-     "schema_version": "0.17.2",
+     "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
       "regime": "Government & Public Sector",
@@ -627,7 +637,7 @@
       "access_clarity": 7.9
      },
      "scored_at": "2026-09-01",
-     "schema_version": "0.17.2",
+     "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
       "regime": "Government & Public Sector",
@@ -679,7 +689,7 @@
       "access_clarity": 7.9
      },
      "scored_at": "2026-09-01",
-     "schema_version": "0.17.2",
+     "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
       "regime": "Government & Public Sector",
@@ -731,7 +741,7 @@
       "access_clarity": 7.9
      },
      "scored_at": "2026-09-01",
-     "schema_version": "0.17.2",
+     "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
       "regime": "Government & Public Sector",
@@ -783,7 +793,7 @@
       "access_clarity": 7.9
      },
      "scored_at": "2026-09-01",
-     "schema_version": "0.17.2",
+     "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
       "regime": "Government & Public Sector",
@@ -835,7 +845,7 @@
       "access_clarity": 7.9
      },
      "scored_at": "2026-09-01",
-     "schema_version": "0.17.2",
+     "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
       "regime": "Government & Public Sector",
@@ -887,7 +897,7 @@
       "access_clarity": 7.9
      },
      "scored_at": "2026-09-01",
-     "schema_version": "0.17.2",
+     "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
       "regime": "Government & Public Sector",
@@ -939,7 +949,7 @@
       "access_clarity": 7.9
      },
      "scored_at": "2026-09-01",
-     "schema_version": "0.17.2",
+     "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
       "regime": "Government & Public Sector",
@@ -991,7 +1001,7 @@
       "access_clarity": 7.9
      },
      "scored_at": "2026-09-01",
-     "schema_version": "0.17.2",
+     "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
       "regime": "Government & Public Sector",
@@ -1043,7 +1053,7 @@
       "access_clarity": 7.9
      },
      "scored_at": "2026-09-01",
-     "schema_version": "0.17.2",
+     "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
       "regime": "Government & Public Sector",
@@ -1095,7 +1105,7 @@
       "access_clarity": 7.9
      },
      "scored_at": "2026-09-01",
-     "schema_version": "0.17.2",
+     "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
       "regime": "Government & Public Sector",
@@ -1147,7 +1157,7 @@
       "access_clarity": 7.9
      },
      "scored_at": "2026-09-01",
-     "schema_version": "0.17.2",
+     "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
       "regime": "Government & Public Sector",
@@ -1198,7 +1208,7 @@
       "access_clarity": 0.0
      },
      "scored_at": "2026-09-01",
-     "schema_version": "0.17.2",
+     "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
       "regime": "Health",

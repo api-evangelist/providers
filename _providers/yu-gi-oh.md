@@ -343,7 +343,7 @@ score:
     access_clarity: 23.7
     commercial_clarity: 23.7
     contract_governance: 28.8
-    contract_quality: 23.7
+    contract_quality: 23.4
     developer_ergonomics: 26.2
     discoverability: 81.5
     governance: 28.8
@@ -353,16 +353,16 @@ score:
     agentic_access: derived
     contracts:
       callable: 100.0
-      derived: 5
+      derived: 6
       marker_coverage: 100.0
-      total: 5
+      total: 6
   regulatory:
     applies: true
     matched_via: tags
     regime: Government & Public Sector
     regime_id: government
     score: 20.4
-  schema_version: 0.17.2
+  schema_version: 0.18.0
   scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/yu-gi-oh/refs/heads/main/screenshots/yu-gi-oh-2026-06-20T201751.png

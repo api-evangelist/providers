@@ -534,18 +534,18 @@ rules:
   slug: dolby-io-rules
 score:
   band: strong
-  composite: 61.9
+  composite: 61.7
   coverage:
     artifact_dirs: 30
     catalog_gap: 36.5
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: 0.0
+  delta: -0.2
   facets:
     access_clarity: 67.1
     commercial_clarity: 67.1
     contract_governance: 18.2
-    contract_quality: 65.7
+    contract_quality: 64.8
     developer_ergonomics: 78.6
     discoverability: 66.7
     governance: 18.2
@@ -560,7 +560,7 @@ score:
       marker_coverage: 0.0
       total: 14
     mcp: derived
-  schema_version: 0.17.2
+  schema_version: 0.18.0
   scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/dolby-io/refs/heads/main/screenshots/dolby-io-2026-06-20T180134.png

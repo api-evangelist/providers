@@ -255,10 +255,10 @@ score:
     agentic_access: derived
     contracts:
       callable: 0.0
-      derived: 1
+      derived: 2
       marker_coverage: 100.0
-      total: 1
-  schema_version: 0.17.2
+      total: 2
+  schema_version: 0.18.0
   scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/vector/refs/heads/main/screenshots/vector-2026-06-20T200848.png

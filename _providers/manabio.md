@@ -102,7 +102,7 @@ score:
   previous_composite: 6.2
   provenance:
     mcp: first-party
-  schema_version: 0.17.2
+  schema_version: 0.18.0
   scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/manabio/refs/heads/main/screenshots/manabio-2026-07-25T230017.png

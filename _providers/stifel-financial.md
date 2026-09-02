@@ -145,7 +145,7 @@ score:
     regime: Banking & Open Finance
     regime_id: banking_open_finance
     score: 13.9
-  schema_version: 0.17.2
+  schema_version: 0.18.0
   scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/stifel-financial/refs/heads/main/screenshots/stifel-financial-2026-06-20T194550.png

@@ -264,18 +264,18 @@ scopes:
   summary_line: 11 scopes · authorizationCode
 score:
   band: strong
-  composite: 59.3
+  composite: 59.1
   coverage:
     artifact_dirs: 25
     catalog_gap: 55.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: 0.0
+  delta: -0.2
   facets:
     access_clarity: 93.4
     commercial_clarity: 93.4
     contract_governance: 18.2
-    contract_quality: 57.8
+    contract_quality: 57.0
     developer_ergonomics: 47.6
     discoverability: 75.9
     governance: 18.2
@@ -290,7 +290,7 @@ score:
       total: 1
     mcp: first-party
     skills: first-party
-  schema_version: 0.17.2
+  schema_version: 0.18.0
   scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/navattic/refs/heads/main/screenshots/navattic-2026-06-20T190058.png

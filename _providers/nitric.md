@@ -154,7 +154,7 @@ score:
     governance: 0.0
     operational_transparency: 23.7
   previous_composite: 26.0
-  schema_version: 0.17.2
+  schema_version: 0.18.0
   scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/nitric/refs/heads/main/screenshots/nitric-2026-06-20T190332.png

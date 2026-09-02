@@ -229,19 +229,19 @@ rate_limits:
   name: Albacross Rate Limits
   slug: albacross-rate-limits
 score:
-  band: thin
-  composite: 37.4
+  band: developing
+  composite: 46.7
   coverage:
     artifact_dirs: 21
     catalog_gap: 66.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: 0.0
+  delta: 9.3
   facets:
     access_clarity: 76.3
     commercial_clarity: 76.3
     contract_governance: 4.5
-    contract_quality: 20.7
+    contract_quality: 57.7
     developer_ergonomics: 37.5
     discoverability: 75.9
     governance: 4.5
@@ -252,14 +252,14 @@ score:
     conformance: derived
     contracts:
       callable: 100.0
-      derived: 1
-      marker_coverage: 100.0
+      derived: 0
+      marker_coverage: 0.0
       total: 1
     mcp: derived
     skills: derived
-  schema_version: 0.17.2
+  schema_version: 0.18.0
   scored_at: '2026-09-01'
-  trend: flat
+  trend: rising
 screenshot: https://raw.githubusercontent.com/api-evangelist/albacross/refs/heads/main/screenshots/albacross-2026-08-17T080546.png
 security:
 - kind: authentication

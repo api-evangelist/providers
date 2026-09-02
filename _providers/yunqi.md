@@ -173,7 +173,7 @@ score:
     conformance: derived
     mcp: first-party
     skills: first-party
-  schema_version: 0.17.2
+  schema_version: 0.18.0
   scored_at: '2026-09-01'
   trend: flat
 security:

@@ -560,7 +560,6 @@ finops:
 - name: Sap Ariba Finops
   service_category: Procurement / B2B Network
   slug: sap-ariba-finops
-image: https://www.ariba.com/ariba-logo.png
 integrations:
 - description: Native integration with SAP ERP for purchase order, invoice, and master data synchronization.
   name: SAP S/4HANA
@@ -932,20 +931,20 @@ scopes:
   summary_line: OAuth 2.0 · no documented scopes
 score:
   band: thin
-  composite: 37.6
+  composite: 39.1
   coverage:
     artifact_dirs: 19
-    catalog_gap: 71.5
+    catalog_gap: 63.5
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: 0.0
+  delta: 1.5
   facets:
     access_clarity: 23.7
     commercial_clarity: 23.7
     contract_governance: 13.6
     contract_quality: 65.3
     developer_ergonomics: 29.8
-    discoverability: 51.9
+    discoverability: 66.7
     governance: 13.6
     operational_transparency: 28.9
   previous_composite: 37.6
@@ -956,7 +955,7 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 6
-  schema_version: 0.17.2
+  schema_version: 0.18.0
   scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/sap-ariba/refs/heads/main/screenshots/sap-ariba-2026-06-20T193415.png

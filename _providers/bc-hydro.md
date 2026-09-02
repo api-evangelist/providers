@@ -188,7 +188,7 @@ score:
     regime: Energy & Utilities
     regime_id: energy_utilities
     score: 31.8
-  schema_version: 0.17.2
+  schema_version: 0.18.0
   scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/bc-hydro/refs/heads/main/screenshots/bc-hydro-2026-08-07T162216.png

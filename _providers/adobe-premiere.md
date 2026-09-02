@@ -12,10 +12,9 @@ access_model:
   try_now: true
 agent_readiness:
   band: agent-ready
-  band_gated_from: agent-native
   dimensions:
     agent_card: false
-    agent_skills: true
+    agent_skills: derived
     agentic_access: derived
     agentic_commerce: false
     auth_clarity: negotiable
@@ -34,7 +33,7 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 41.9
+  score: 36.7
   scored_at: '2026-09-01'
 agentic_access:
 - acting_count: 5
@@ -492,31 +491,34 @@ scopes:
   summary_line: 4 scopes · authorizationCode
 score:
   band: strong
-  composite: 60.8
+  composite: 59.5
   coverage:
     artifact_dirs: 32
     catalog_gap: 44.5
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: 0.0
+  delta: -1.3
   facets:
     access_clarity: 28.9
     commercial_clarity: 28.9
     contract_governance: 47.0
-    contract_quality: 80.3
-    developer_ergonomics: 83.3
+    contract_quality: 79.2
+    developer_ergonomics: 78.0
     discoverability: 68.5
     governance: 47.0
     operational_transparency: 44.7
   previous_composite: 60.8
   provenance:
     agentic_access: derived
+    conformance: first-party
     contracts:
       callable: 100.0
       derived: 0
       marker_coverage: 0.0
-      total: 3
-  schema_version: 0.17.2
+      total: 4
+    mcp: derived
+    skills: derived
+  schema_version: 0.18.0
   scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/adobe-premiere/refs/heads/main/screenshots/adobe-premiere-2026-06-20T165010.png

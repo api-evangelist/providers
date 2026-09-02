@@ -527,18 +527,18 @@ scopes:
   summary_line: 1 scope · authorizationCode/clientCredentials
 score:
   band: developing
-  composite: 50.7
+  composite: 51.5
   coverage:
     artifact_dirs: 16
     catalog_gap: 39.8
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: 0.0
+  delta: 0.8
   facets:
     access_clarity: 68.4
     commercial_clarity: 68.4
     contract_governance: 9.8
-    contract_quality: 65.7
+    contract_quality: 68.8
     developer_ergonomics: 38.1
     discoverability: 50.0
     governance: 9.8
@@ -547,11 +547,11 @@ score:
   provenance:
     agentic_access: derived
     contracts:
-      callable: 0.0
+      callable: 92.0
       derived: 0
       marker_coverage: 0.0
       total: 25
-  schema_version: 0.17.2
+  schema_version: 0.18.0
   scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/greenhouse-io/refs/heads/main/screenshots/greenhouse-io-2026-06-20T182402.png

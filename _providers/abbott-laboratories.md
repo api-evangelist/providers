@@ -202,13 +202,15 @@ score:
     governance: 18.2
     operational_transparency: 10.5
   previous_composite: 21.3
+  provenance:
+    conformance: first-party
   regulatory:
     applies: true
     matched_via: tags
     regime: Health
     regime_id: health
     score: 46.3
-  schema_version: 0.17.2
+  schema_version: 0.18.0
   scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/abbott-laboratories/refs/heads/main/screenshots/abbott-laboratories-2026-06-20T163122.png

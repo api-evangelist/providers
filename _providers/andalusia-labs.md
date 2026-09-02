@@ -130,7 +130,7 @@ score:
     regime: Payments
     regime_id: payments
     score: 31.3
-  schema_version: 0.17.2
+  schema_version: 0.18.0
   scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/andalusia-labs/refs/heads/main/screenshots/andalusia-labs-2026-07-25T200216.png

@@ -230,18 +230,18 @@ overview: 'Barogo publishes 5 APIs on the [APIs.io](https://apis.io/) network, i
 random_paper: 4
 score:
   band: thin
-  composite: 38.5
+  composite: 38.7
   coverage:
     artifact_dirs: 22
     catalog_gap: 78.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: 0.0
+  delta: 0.2
   facets:
     access_clarity: 21.1
     commercial_clarity: 21.1
     contract_governance: 4.5
-    contract_quality: 70.1
+    contract_quality: 71.1
     developer_ergonomics: 39.9
     discoverability: 68.5
     governance: 4.5
@@ -251,13 +251,13 @@ score:
     agentic_access: derived
     conformance: derived
     contracts:
-      callable: 83.3
+      callable: 100.0
       derived: 0
       marker_coverage: 0.0
       total: 6
     mcp: first-party
     skills: derived
-  schema_version: 0.17.2
+  schema_version: 0.18.0
   scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/barogo/refs/heads/main/screenshots/barogo-2026-08-07T162156.png

@@ -314,40 +314,41 @@ scopes:
   slug: nthu-scopes
   summary_line: 6 scopes · authorizationCode
 score:
-  band: developing
-  composite: 48.3
+  band: thin
+  composite: 37.4
   coverage:
     artifact_dirs: 20
     catalog_gap: 39.8
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: 0.0
+  delta: -10.9
   facets:
     access_clarity: 39.5
     commercial_clarity: 39.5
-    contract_governance: 43.2
-    contract_quality: 59.2
+    contract_governance: 29.5
+    contract_quality: 22.0
     developer_ergonomics: 28.6
     discoverability: 68.5
-    governance: 43.2
+    governance: 29.5
     operational_transparency: 26.3
   previous_composite: 48.3
   provenance:
     agentic_access: derived
+    conformance: derived
     contracts:
       callable: 100.0
-      derived: 0
-      marker_coverage: 0.0
-      total: 9
+      derived: 10
+      marker_coverage: 100.0
+      total: 10
   regulatory:
     applies: true
     matched_via: tags
     regime: Education & Research
     regime_id: education
     score: 57.4
-  schema_version: 0.17.2
+  schema_version: 0.18.0
   scored_at: '2026-09-01'
-  trend: flat
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/nthu/refs/heads/main/screenshots/nthu-2026-06-20T190502.png
 security:
 - kind: authentication

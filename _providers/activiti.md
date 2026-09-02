@@ -517,7 +517,7 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 42
-  schema_version: 0.17.2
+  schema_version: 0.18.0
   scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/activiti/refs/heads/main/screenshots/activiti-2026-06-20T164259.png

@@ -75,7 +75,6 @@ common:
   url: security/approvecom-domain-security.yml
 created: '2026-07-17'
 description: Approve.com is a cloud-based procurement platform founded in 2019 in Israel that lets businesses stand up a proper purchase-order process quickly, streamlining purchase requisitions, multi-step approvals, real-time budgets, and vendor onboarding with real-time spend controls and insights. Tipalti acquired Approve.com in April 2021 and now operates it as Tipalti Procurement (Tipalti Approve). Its Procurement REST API is still served from the approve.com domain (production https://triggers.approve.com, sandbox https://triggers.sandbox.approve.com), authenticating with an x-api-key header and exchanging JSON with ISO 8601 dates; the purchase-orders API exposes GET and Update purchase-order operations so an external system can stay in sync with Tipalti.
-image: https://avatars.githubusercontent.com/u/api-evangelist
 layout: provider
 modified: '2026-07-18'
 name: Approve.com
@@ -88,24 +87,24 @@ overview: 'Approve.com publishes 1 API on the [APIs.io](https://apis.io/) networ
 random_paper: 13
 score:
   band: emerging
-  composite: 14.0
+  composite: 13.6
   coverage:
     artifact_dirs: 5
-    catalog_gap: 78.0
+    catalog_gap: 80.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: 0.0
+  delta: -0.4
   facets:
     access_clarity: 0.0
     commercial_clarity: 0.0
     contract_governance: 0.0
     contract_quality: 0.0
     developer_ergonomics: 35.7
-    discoverability: 68.5
+    discoverability: 64.8
     governance: 0.0
     operational_transparency: 0.0
   previous_composite: 14.0
-  schema_version: 0.17.2
+  schema_version: 0.18.0
   scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/approvecom/refs/heads/main/screenshots/approvecom-2026-07-25T200843.png

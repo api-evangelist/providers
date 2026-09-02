@@ -5314,7 +5314,7 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 63
-  schema_version: 0.17.2
+  schema_version: 0.18.0
   scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/amazon-route53-resolver/refs/heads/main/screenshots/amazon-route53-resolver-2026-06-20T171815.png

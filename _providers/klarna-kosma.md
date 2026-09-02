@@ -195,12 +195,6 @@ score:
     discoverability: 74.1
     governance: 0.0
     operational_transparency: 5.3
-  needs_work:
-    note: Recorded so this provider's gaps can be attributed. Does not affect the composite above.
-    owner: catalog
-    reasons:
-    - owner: catalog
-      reason: no_resolvable_host
   previous_composite: 25.2
   regulatory:
     applies: true
@@ -208,7 +202,7 @@ score:
     regime: Banking & Open Finance
     regime_id: banking_open_finance
     score: 32.9
-  schema_version: 0.17.2
+  schema_version: 0.18.0
   scored_at: '2026-09-01'
   trend: flat
 security:

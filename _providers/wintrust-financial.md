@@ -128,7 +128,7 @@ score:
     regime: Banking & Open Finance
     regime_id: banking_open_finance
     score: 16.5
-  schema_version: 0.17.2
+  schema_version: 0.18.0
   scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/wintrust-financial/refs/heads/main/screenshots/wintrust-financial-2026-06-20T201518.png

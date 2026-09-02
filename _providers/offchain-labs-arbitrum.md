@@ -136,7 +136,7 @@ score:
     governance: 0.0
     operational_transparency: 28.9
   previous_composite: 20.5
-  schema_version: 0.17.2
+  schema_version: 0.18.0
   scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/offchain-labs-arbitrum/refs/heads/main/screenshots/offchain-labs-arbitrum-2026-08-07T190017.png

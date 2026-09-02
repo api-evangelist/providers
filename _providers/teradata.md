@@ -492,10 +492,10 @@ score:
     agentic_access: derived
     contracts:
       callable: 100.0
-      derived: 11
+      derived: 13
       marker_coverage: 100.0
-      total: 11
-  schema_version: 0.17.2
+      total: 13
+  schema_version: 0.18.0
   scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/teradata/refs/heads/main/screenshots/teradata-2026-06-20T195123.png

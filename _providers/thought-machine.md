@@ -134,18 +134,18 @@ scopes:
   summary_line: 5 scopes · authorizationCode/clientCredentials/deviceCode
 score:
   band: thin
-  composite: 35.1
+  composite: 34.9
   coverage:
     artifact_dirs: 10
     catalog_gap: 83.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: 0.0
+  delta: -0.2
   facets:
     access_clarity: 28.9
     commercial_clarity: 28.9
     contract_governance: 18.2
-    contract_quality: 42.7
+    contract_quality: 41.6
     developer_ergonomics: 26.2
     discoverability: 66.7
     governance: 18.2
@@ -159,7 +159,7 @@ score:
     regime: Banking & Open Finance
     regime_id: banking_open_finance
     score: 59.5
-  schema_version: 0.17.2
+  schema_version: 0.18.0
   scored_at: '2026-09-01'
   trend: flat
 security:

@@ -436,7 +436,6 @@ finops:
 - name: Tomorrow Io Finops
   service_category: Weather Intelligence
   slug: tomorrow-io-finops
-image: https://www.tomorrow.io/favicon-32x32.png
 integrations:
 - description: Drop Tomorrow.io map tiles directly into Mapbox GL JS basemaps; official tomorrow-route-mapbox sample.
   name: Mapbox
@@ -526,20 +525,20 @@ rules:
   slug: tomorrow-io-rules
 score:
   band: exemplar
-  composite: 66.9
+  composite: 66.5
   coverage:
     artifact_dirs: 18
-    catalog_gap: 27.5
+    catalog_gap: 29.5
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: 0.0
+  delta: -0.4
   facets:
     access_clarity: 84.2
     commercial_clarity: 84.2
     contract_governance: 28.8
     contract_quality: 69.8
     developer_ergonomics: 77.4
-    discoverability: 68.5
+    discoverability: 64.8
     governance: 28.8
     operational_transparency: 52.6
   previous_composite: 66.9
@@ -550,7 +549,7 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 10
-  schema_version: 0.17.2
+  schema_version: 0.18.0
   scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/tomorrow-io/refs/heads/main/screenshots/tomorrow-io-2026-06-20T195444.png

@@ -466,34 +466,37 @@ scopes:
   slug: checkly-scopes
   summary_line: OAuth 2.0 · no documented scopes
 score:
-  band: strong
-  composite: 64.4
+  band: exemplar
+  composite: 70.9
   coverage:
     artifact_dirs: 25
-    catalog_gap: 70.0
+    catalog_gap: 55.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: 0.0
+  delta: 6.5
   facets:
-    access_clarity: 69.7
-    commercial_clarity: 69.7
+    access_clarity: 93.4
+    commercial_clarity: 93.4
     contract_governance: 18.2
-    contract_quality: 62.7
+    contract_quality: 61.9
     developer_ergonomics: 78.6
     discoverability: 75.9
     governance: 18.2
-    operational_transparency: 71.1
+    operational_transparency: 86.8
   previous_composite: 64.4
   provenance:
     agentic_access: derived
+    conformance: first-party
     contracts:
       callable: 100.0
       derived: 0
       marker_coverage: 0.0
-      total: 16
-  schema_version: 0.17.2
+      total: 41
+    mcp: first-party
+    skills: first-party
+  schema_version: 0.18.0
   scored_at: '2026-09-01'
-  trend: flat
+  trend: rising
 screenshot: https://raw.githubusercontent.com/api-evangelist/checkly/refs/heads/main/screenshots/checkly-2026-06-20T174251.png
 security:
 - kind: authentication

@@ -338,18 +338,18 @@ scopes:
   summary_line: OAuth 2.0 · no documented scopes
 score:
   band: strong
-  composite: 58.7
+  composite: 58.4
   coverage:
     artifact_dirs: 25
     catalog_gap: 70.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: 0.0
+  delta: -0.3
   facets:
     access_clarity: 44.7
     commercial_clarity: 44.7
     contract_governance: 33.3
-    contract_quality: 61.4
+    contract_quality: 59.9
     developer_ergonomics: 54.2
     discoverability: 74.1
     governance: 33.3
@@ -359,10 +359,10 @@ score:
     agentic_access: derived
     conformance: first-party
     contracts:
-      callable: 33.3
+      callable: 12.5
       derived: 0
       marker_coverage: 0.0
-      total: 3
+      total: 8
     mcp: derived
     skills: derived
   regulatory:
@@ -371,7 +371,7 @@ score:
     regime: Energy & Utilities
     regime_id: energy_utilities
     score: 82.4
-  schema_version: 0.17.2
+  schema_version: 0.18.0
   scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/green-button-alliance/refs/heads/main/screenshots/green-button-alliance-2026-08-07T165838.png

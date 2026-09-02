@@ -386,18 +386,18 @@ rules:
   slug: nomba-jsonschema-spectral-rules
 score:
   band: thin
-  composite: 37.4
+  composite: 37.1
   coverage:
     artifact_dirs: 19
     catalog_gap: 58.5
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: 0.0
+  delta: -0.3
   facets:
     access_clarity: 13.2
     commercial_clarity: 13.2
     contract_governance: 13.6
-    contract_quality: 70.3
+    contract_quality: 69.3
     developer_ergonomics: 33.3
     discoverability: 81.5
     governance: 13.6
@@ -416,7 +416,7 @@ score:
     regime: Payments
     regime_id: payments
     score: 32.8
-  schema_version: 0.17.2
+  schema_version: 0.18.0
   scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/nomba/refs/heads/main/screenshots/nomba-2026-06-20T190355.png

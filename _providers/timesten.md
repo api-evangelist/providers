@@ -66,7 +66,6 @@ common:
   url: llms/timesten-llms.txt
 created: '2026-07-17'
 description: TimesTen is an in-memory relational database company that spun out of Hewlett-Packard Labs in Palo Alto in 1996 as TimesTen Performance Software, taking venture backing that included Lightspeed Venture Partners, and was acquired by Oracle Corporation in 2005. The product lives on as Oracle TimesTen In-Memory Database, a persistent, ACID-compliant OLTP database with SQL support, replication, JSON support, and a Kubernetes operator, documented today under Oracle Help Center with releases 11.2.2, 18.1, 22.1, and 26.1. The company no longer operates independently and publishes no standalone web API; timesten.com redirects into oracle.com.
-image: https://kinlane-productions.s3.amazonaws.com/apis-json-icon.png
 layout: provider
 modified: '2026-08-21'
 name: TimesTen
@@ -79,30 +78,24 @@ overview: 'TimesTen is profiled on the [APIs.io](https://apis.io/) network. Tagg
 random_paper: 12
 score:
   band: minimal
-  composite: 10.4
+  composite: 10.0
   coverage:
     artifact_dirs: 3
-    catalog_gap: 88.0
+    catalog_gap: 90.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: 0.0
+  delta: -0.4
   facets:
     access_clarity: 0.0
     commercial_clarity: 0.0
     contract_governance: 0.0
     contract_quality: 0.0
     developer_ergonomics: 9.5
-    discoverability: 57.4
+    discoverability: 53.7
     governance: 0.0
     operational_transparency: 21.1
-  needs_work:
-    note: Recorded so this provider's gaps can be attributed. Does not affect the composite above.
-    owner: catalog
-    reasons:
-    - owner: catalog
-      reason: no_resolvable_host
   previous_composite: 10.4
-  schema_version: 0.17.2
+  schema_version: 0.18.0
   scored_at: '2026-09-01'
   trend: flat
 security:

@@ -130,7 +130,7 @@ score:
     regime: Securities & Market Data
     regime_id: securities_market_data
     score: 23.3
-  schema_version: 0.17.2
+  schema_version: 0.18.0
   scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/azura/refs/heads/main/screenshots/azura-2026-07-25T202329.png

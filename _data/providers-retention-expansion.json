@@ -16,12 +16,12 @@
      "slug": "hubspot",
      "description": "HubSpot is an AI-native customer platform built around the Smart CRM, unifying marketing, sales, customer service, content, commerce and operations on a single shared customer record. Its developer platform exposes that record through a broad REST surface at api.hubapi.com covering CRM objects and associations, engagements, lists and segments, marketing and transactional email, CMS pages, blogs and HubDB, conversations, commerce payments and subscriptions, custom workflow actions, webhooks and analytics events. HubSpot ships first-party Node, Python, Ruby and PHP clients, a CLI, OAuth 2.0 with a granular scope model, a public developer changelog, date-based API versioning and a hosted MCP server for agents.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/hubspot/refs/heads/main/screenshots/hubspot-2026-06-20T182920.png",
-     "score": 80.4,
+     "score": 80.2,
      "band": "exemplar",
      "band_label": "Exemplar",
      "facets": {
       "discoverability": 75.9,
-      "contract_quality": 83.3,
+      "contract_quality": 82.4,
       "governance": 31.8,
       "contract_governance": 31.8,
       "operational_transparency": 71.1,
@@ -30,7 +30,7 @@
       "access_clarity": 100.0
      },
      "scored_at": "2026-09-01",
-     "schema_version": "0.17.2",
+     "schema_version": "0.18.0",
      "agent_score": 52.2,
      "agent_band": "agent-ready",
      "agent_dims": {
@@ -61,12 +61,12 @@
      "slug": "ada",
      "description": "Ada is an AI-powered customer service automation platform that enables enterprises to deploy AI agents capable of resolving customer inquiries across digital channels without human intervention. The platform exposes a suite of REST APIs for managing knowledge bases, end-user profiles, conversation handling, data export, data compliance, and external integrations. All APIs use rotatable API keys for authentication, return JSON, and support cursor-based pagination. Ada serves global brands including Pinterest, Square, Ancestry, and Zendesk, and has powered more than 6.4 billion customer interactions since its founding in 2016.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/ada/refs/heads/main/screenshots/ada-2026-06-20T164442.png",
-     "score": 74.0,
+     "score": 73.8,
      "band": "exemplar",
      "band_label": "Exemplar",
      "facets": {
       "discoverability": 92.6,
-      "contract_quality": 72.0,
+      "contract_quality": 71.1,
       "governance": 43.2,
       "contract_governance": 43.2,
       "operational_transparency": 60.5,
@@ -75,7 +75,7 @@
       "access_clarity": 82.9
      },
      "scored_at": "2026-09-01",
-     "schema_version": "0.17.2",
+     "schema_version": "0.18.0",
      "agent_score": 45.5,
      "agent_band": "agent-native",
      "agent_dims": {
@@ -117,12 +117,12 @@
      "slug": "constant-contact",
      "description": "Constant Contact is a small-business email and digital marketing platform offering email campaigns, automation, SMS, contact management, surveys, and events. The Constant Contact V3 API is a REST + JSON, OAuth2-protected service published at api.cc.email/v3 covering accounts, contacts, lists, tags, custom fields, segments, email campaigns, A/B tests, schedules and tests, bulk activities (CSV/JSON import, export, list and tag mutations), events with registration and check-in, reporting, and partner provisioning.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/constant-contact/refs/heads/main/screenshots/constant-contact-2026-06-20T175012.png",
-     "score": 63.6,
+     "score": 63.4,
      "band": "strong",
      "band_label": "Strong",
      "facets": {
       "discoverability": 75.9,
-      "contract_quality": 68.7,
+      "contract_quality": 67.9,
       "governance": 18.2,
       "contract_governance": 18.2,
       "operational_transparency": 73.7,
@@ -131,7 +131,7 @@
       "access_clarity": 47.4
      },
      "scored_at": "2026-09-01",
-     "schema_version": "0.17.2",
+     "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
       "regime": "Telecommunications",
@@ -169,12 +169,12 @@
      "slug": "sugarcrm",
      "description": "SugarCRM — rebranded as SugarAI in April 2026, with www.sugarcrm.com now redirecting to www.sugarai.com — is a B2B sales CRM platform serving 4,000+ customers and over one million users across 120+ countries. Its product suite spans Sugar Sell (sales automation), Sugar Serve (customer service), Sugar Market (marketing automation), and sales-i (sales intelligence from ERP data), with an emphasis on domain-specific AI that surfaces opportunities and recommends next actions and native integration with 180+ ERP systems. Sugar exposes a REST API on every deployment at https://<site_url>/rest/v{version}/ (v10 through v11.27 as of the 26.1 Developer Guide), authenticated with two-legged OAuth 2.0 and returning JSON. The API covers CRM modules (Accounts, Contacts, Leads, Opportunities, Cases and more) with offset pagination, a /{module}/filter query surface, and role-based access control. Outbound events are delivered as Web Logic Hooks through the instance job queue. Official client libraries include the JavaScript Ventana connector and the PHP REST SDK. There is no public OpenAPI — the endpoint reference is served per instance at /rest/v{version}/help.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/sugarcrm/refs/heads/main/screenshots/sugarcrm-2026-08-17T080426.png",
-     "score": 62.2,
+     "score": 61.9,
      "band": "strong",
      "band_label": "Strong",
      "facets": {
       "discoverability": 75.9,
-      "contract_quality": 42.7,
+      "contract_quality": 41.6,
       "governance": 18.2,
       "contract_governance": 18.2,
       "operational_transparency": 65.8,
@@ -183,7 +183,7 @@
       "access_clarity": 92.1
      },
      "scored_at": "2026-09-01",
-     "schema_version": "0.17.2",
+     "schema_version": "0.18.0",
      "agent_score": 25.2,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -214,12 +214,12 @@
      "slug": "reachdesk",
      "description": "Reachdesk is a global B2B corporate gifting and direct mail platform that enables sales, marketing, and customer success teams to send physical gifts, branded merchandise, and digital rewards at scale. The Reachdesk REST API allows programmatic triggering of gift campaigns, integration with CRM and marketing automation tools, and management of sending workflows across 180+ countries. API tokens are generated via the platform settings and used to authenticate requests for campaign triggering and gift delivery operations.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/reachdesk/refs/heads/main/screenshots/reachdesk-2026-06-20T192631.png",
-     "score": 57.1,
+     "score": 56.9,
      "band": "strong",
      "band_label": "Strong",
      "facets": {
       "discoverability": 75.9,
-      "contract_quality": 72.1,
+      "contract_quality": 71.1,
       "governance": 4.5,
       "contract_governance": 4.5,
       "operational_transparency": 28.9,
@@ -228,7 +228,7 @@
       "access_clarity": 85.5
      },
      "scored_at": "2026-09-01",
-     "schema_version": "0.17.2",
+     "schema_version": "0.18.0",
      "agent_score": 34.6,
      "agent_band": "agent-ready",
      "agent_dims": {
@@ -273,7 +273,7 @@
       "access_clarity": 60.5
      },
      "scored_at": "2026-09-01",
-     "schema_version": "0.17.2",
+     "schema_version": "0.18.0",
      "agent_score": 27.7,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -304,12 +304,12 @@
      "slug": "replicant",
      "description": "Replicant is an enterprise agentic customer service platform that automates high-volume contact center conversations across voice, chat, and messaging, and analyzes 100% of interactions for QA, compliance, and automation insights. Its two products — Conversation Automation and Conversation Intelligence — replicate top-performing human agents using a hybrid agentic-plus-deterministic architecture with human-in-the-loop escalation, and integrate with existing CCaaS, CRM, telephony, and ticketing stacks. Replicant is telephony-native, runs multi-region on Google Cloud, and is built for SOC 2, HIPAA, PCI, and GDPR requirements. It is sales-led with no public developer portal, but it does publish one machine-readable contract — the Replicant Outbound API (OpenAPI 3.0.0, v2.0.1), served from the provider's own Swagger UI at docs.replicant.ai and live on api.replicant.ai — which places outbound AI voice calls and SMS against a configured campaign and notifies the caller of call status.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/replicant/refs/heads/main/screenshots/replicant-2026-08-17T081526.png",
-     "score": 54.5,
+     "score": 54.3,
      "band": "strong",
      "band_label": "Strong",
      "facets": {
       "discoverability": 75.9,
-      "contract_quality": 66.7,
+      "contract_quality": 65.8,
       "governance": 18.2,
       "contract_governance": 18.2,
       "operational_transparency": 36.8,
@@ -318,7 +318,7 @@
       "access_clarity": 78.9
      },
      "scored_at": "2026-09-01",
-     "schema_version": "0.17.2",
+     "schema_version": "0.18.0",
      "agent_score": 29.7,
      "agent_band": "agent-ready",
      "agent_dims": {
@@ -360,12 +360,12 @@
      "slug": "involve-me",
      "description": "involve.me is an AI quiz, form and funnel builder with built-in email automation and a lightweight CRM, operated by stereosense GmbH and used by marketing teams to capture, qualify and follow up on leads. Customers build quizzes, assessments, calculators, product finders, landing pages, surveys and payment pages in a no-code editor, publish them as a hosted page or an embedded widget, and route submissions into 55+ native CRM and email destinations. Its programmable surface is deliberately narrow: there is no public REST API and no OpenAPI, and the only machine-addressable paths are an outbound webhook that fires when a participant completes a funnel (Scale plan and above), a copy-paste JavaScript embed loader, Zapier and Make connectors, and an OAuth-protected Model Context Protocol server that exposes the marketing website's Statamic CMS rather than the product itself.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/involve-me/refs/heads/main/screenshots/involve-me-2026-08-17T081000.png",
-     "score": 49.4,
+     "score": 49.1,
      "band": "developing",
      "band_label": "Developing",
      "facets": {
       "discoverability": 75.9,
-      "contract_quality": 42.7,
+      "contract_quality": 41.6,
       "governance": 18.2,
       "contract_governance": 18.2,
       "operational_transparency": 36.8,
@@ -374,7 +374,7 @@
       "access_clarity": 92.1
      },
      "scored_at": "2026-09-01",
-     "schema_version": "0.17.2",
+     "schema_version": "0.18.0",
      "agent_score": 30.9,
      "agent_band": "agent-ready",
      "agent_dims": {
@@ -405,12 +405,12 @@
      "slug": "cast-corporation",
      "description": "Cast Corporation (Cast.app) is an AI-agent platform that automates customer success and post-sales revenue operations for B2B SaaS and technology companies. Its autonomous \"digital CSM\" agents deliver personalized business reviews, grounded answers, onboarding, usage adoption, churn reduction, renewal influence, and referral workflows across email, in-app, and chat in 17 languages. Cast positions itself as an autopilot layer over an existing stack, connecting natively to 60+ systems including Salesforce, HubSpot, Gainsight, Totango, and data warehouses, with customers such as Pure Storage, HPE, and Aruba Networks. Backed by Techstars, Array Ventures, Soma Capital, New York Venture Partners, Leonis Capital, and Comcast NBCUniversal LiftLabs. Cast publishes two documented REST surfaces: a Cast Analytics API for exporting campaign engagement events and summaries, and an In-app Delivery API plus embeddable loader for minting personalized presentation permalinks inside a customer's own web app. Both are documented in prose only — Cast publishes no OpenAPI, AsyncAPI, GraphQL SDL, or Postman collection.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/cast-corporation/refs/heads/main/screenshots/cast-corporation-2026-07-25T204732.png",
-     "score": 48.4,
+     "score": 48.1,
      "band": "developing",
      "band_label": "Developing",
      "facets": {
       "discoverability": 75.9,
-      "contract_quality": 42.7,
+      "contract_quality": 41.6,
       "governance": 18.2,
       "contract_governance": 18.2,
       "operational_transparency": 10.5,
@@ -419,7 +419,7 @@
       "access_clarity": 71.1
      },
      "scored_at": "2026-09-01",
-     "schema_version": "0.17.2",
+     "schema_version": "0.18.0",
      "agent_score": 25.2,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -450,12 +450,12 @@
      "slug": "bonjoro",
      "description": "Bonjoro is a personal-video customer engagement platform operated by Vimily Pty Ltd of Sydney, Australia. Sales, marketing, customer success and education teams use it to record short one-to-one videos — \"Bonjoros\" — and deliver them at the moments that decide a relationship: signup, onboarding, first purchase, renewal and churn risk. Alongside the messaging product it runs a video testimonial collection surface. Bonjoro publishes a REST API (API V2, 94 paths and 123 operations) covering greets, recipient profiles, campaigns and workspaces, recordings and media, message templates, engagement results and stats, transmissions and deliverability, replies, teams and users, custom sending domains and verified signatures, and the trigger/action automation engine that wires Bonjoro into CRMs and email platforms. REST API access is published as a Company-tier entitlement; the wider integration surface runs through 18+ native connectors and a first-party Zapier app.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/bonjoro/refs/heads/main/screenshots/bonjoro-2026-08-17T080658.png",
-     "score": 46.6,
+     "score": 46.4,
      "band": "developing",
      "band_label": "Developing",
      "facets": {
       "discoverability": 51.9,
-      "contract_quality": 57.3,
+      "contract_quality": 56.5,
       "governance": 4.5,
       "contract_governance": 4.5,
       "operational_transparency": 28.9,
@@ -464,7 +464,7 @@
       "access_clarity": 76.3
      },
      "scored_at": "2026-09-01",
-     "schema_version": "0.17.2",
+     "schema_version": "0.18.0",
      "agent_score": 31.5,
      "agent_band": "agent-ready",
      "agent_dims": {
@@ -495,12 +495,12 @@
      "slug": "matik",
      "description": "Matik is a data-driven content automation platform that generates personalized presentations, documents, spreadsheets, reports, and emails directly from connected data sources — BI tools, CRMs, data warehouses, spreadsheets, and REST APIs. Teams in Sales, Customer Success, and Revenue Operations use templates with dynamic content, conditional logic, and AI-generated narratives to produce on-brand content at scale across Google Slides, PowerPoint, PDF, and email. Matik exposes a REST External API (OAuth 2.0) covering templates, presentations, dynamic content, data sources, bulk generation, analytics, webhooks, and AI query building, plus a beta MCP server for agent-driven content generation.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/matik/refs/heads/main/screenshots/matik-2026-07-25T230412.png",
-     "score": 46.6,
+     "score": 46.3,
      "band": "developing",
      "band_label": "Developing",
      "facets": {
       "discoverability": 75.9,
-      "contract_quality": 42.7,
+      "contract_quality": 41.6,
       "governance": 18.2,
       "contract_governance": 18.2,
       "operational_transparency": 26.3,
@@ -509,7 +509,7 @@
       "access_clarity": 50.0
      },
      "scored_at": "2026-09-01",
-     "schema_version": "0.17.2",
+     "schema_version": "0.18.0",
      "agent_score": 29.5,
      "agent_band": "agent-ready",
      "agent_dims": {
@@ -554,7 +554,7 @@
       "access_clarity": 78.9
      },
      "scored_at": "2026-09-01",
-     "schema_version": "0.17.2",
+     "schema_version": "0.18.0",
      "agent_score": 15.0,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -594,12 +594,12 @@
      "name": "Whisperr, Inc.",
      "slug": "whisperr-inc",
      "description": "Whisperr, Inc. builds an autonomous customer-retention platform that detects churn risk and acts on it automatically, without a lifecycle marketing team operating campaigns. Whisperr combines behavioral intelligence, autonomous decisioning, and AI-generated content to spot at-risk customers and deliver interventions in under ten seconds. It serves SaaS, DTC and subscription-commerce, and mobile-game businesses, and publishes churn calculators plus a voice retention agent (Whisperr Recall). Whisperr is a 500 Global portfolio company. It publishes a real developer surface: an OpenAPI 3.0.3 document served at https://api.whisperr.net/openapi.json, a documented three-endpoint ingestion API (track, batch, identify) authenticated with a publishable wrk_ key, ten first-party SDKs spanning JavaScript, Python, PHP, .NET, Dart and Swift, an agentic integration CLI (npx @whisperr/wizard), and a public wire-contract repository whose executable conformance fixtures every SDK runs in CI.",
-     "score": 36.8,
+     "score": 37.6,
      "band": "thin",
      "band_label": "Thin",
      "facets": {
       "discoverability": 68.5,
-      "contract_quality": 54.8,
+      "contract_quality": 58.2,
       "governance": 18.2,
       "contract_governance": 18.2,
       "operational_transparency": 2.6,
@@ -608,7 +608,7 @@
       "access_clarity": 0.0
      },
      "scored_at": "2026-09-01",
-     "schema_version": "0.17.2",
+     "schema_version": "0.18.0",
      "agent_score": 27.9,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -653,7 +653,7 @@
       "access_clarity": 10.5
      },
      "scored_at": "2026-09-01",
-     "schema_version": "0.17.2",
+     "schema_version": "0.18.0",
      "agent_score": 44.3,
      "agent_band": "agent-ready",
      "agent_dims": {
@@ -698,7 +698,7 @@
       "access_clarity": 35.5
      },
      "scored_at": "2026-09-01",
-     "schema_version": "0.17.2",
+     "schema_version": "0.18.0",
      "agent_score": 11.5,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -753,7 +753,7 @@
       "access_clarity": 6.6
      },
      "scored_at": "2026-09-01",
-     "schema_version": "0.17.2",
+     "schema_version": "0.18.0",
      "agent_score": 24.6,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -798,7 +798,7 @@
       "access_clarity": 43.4
      },
      "scored_at": "2026-09-01",
-     "schema_version": "0.17.2",
+     "schema_version": "0.18.0",
      "agent_score": 5.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -843,7 +843,7 @@
       "access_clarity": 43.4
      },
      "scored_at": "2026-09-01",
-     "schema_version": "0.17.2",
+     "schema_version": "0.18.0",
      "agent_score": 2.5,
      "agent_band": "human-only",
      "agent_dims": {
@@ -898,7 +898,7 @@
       "access_clarity": 0.0
      },
      "scored_at": "2026-09-01",
-     "schema_version": "0.17.2",
+     "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
       "regime": "Health",
@@ -949,7 +949,7 @@
       "access_clarity": 0.0
      },
      "scored_at": "2026-09-01",
-     "schema_version": "0.17.2",
+     "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
       "regime": "Health",

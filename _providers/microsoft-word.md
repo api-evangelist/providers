@@ -629,7 +629,7 @@ score:
     access_clarity: 57.9
     commercial_clarity: 57.9
     contract_governance: 33.3
-    contract_quality: 27.1
+    contract_quality: 27.0
     developer_ergonomics: 92.9
     discoverability: 40.7
     governance: 33.3
@@ -642,12 +642,12 @@ score:
     agentic_access: derived
     conformance: derived
     contracts:
-      callable: 100.0
-      derived: 18
+      callable: 85.7
+      derived: 21
       marker_coverage: 100.0
-      total: 18
+      total: 21
     mcp: first-party
-  schema_version: 0.17.2
+  schema_version: 0.18.0
   scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/microsoft-word/refs/heads/main/screenshots/microsoft-word-2026-08-07T172841.png

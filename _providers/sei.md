@@ -187,18 +187,18 @@ rate_limits:
   slug: sei-evm-json-rpc-api-rate-limits
 score:
   band: thin
-  composite: 30.1
+  composite: 29.9
   coverage:
     artifact_dirs: 11
     catalog_gap: 56.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: 0.0
+  delta: -0.2
   facets:
     access_clarity: 0.0
     commercial_clarity: 0.0
     contract_governance: 15.2
-    contract_quality: 49.7
+    contract_quality: 48.9
     developer_ergonomics: 28.6
     discoverability: 68.5
     governance: 15.2
@@ -207,7 +207,7 @@ score:
   provenance:
     agentic_access: derived
     contracts:
-      callable: 100.0
+      callable: 77.8
       derived: 0
       marker_coverage: 0.0
       total: 9
@@ -217,7 +217,7 @@ score:
     regime: Securities & Market Data
     regime_id: securities_market_data
     score: 18.3
-  schema_version: 0.17.2
+  schema_version: 0.18.0
   scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/sei/refs/heads/main/screenshots/sei-2026-06-20T193635.png

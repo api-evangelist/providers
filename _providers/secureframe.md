@@ -15,7 +15,7 @@ agent_readiness:
   band_gated_from: agent-native
   dimensions:
     agent_card: false
-    agent_skills: true
+    agent_skills: derived
     agentic_access: false
     agentic_commerce: false
     auth_clarity: served
@@ -34,7 +34,7 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 46.6
+  score: 43.9
   scored_at: '2026-09-01'
 api_count: 1
 apis:
@@ -245,27 +245,36 @@ scopes:
   slug: secureframe-scopes
   summary_line: OAuth 2.0 · no documented scopes
 score:
-  band: developing
-  composite: 49.6
+  band: strong
+  composite: 56.1
   coverage:
     artifact_dirs: 21
-    catalog_gap: 70.0
+    catalog_gap: 55.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: 0.0
+  delta: 6.5
   facets:
-    access_clarity: 57.9
-    commercial_clarity: 57.9
+    access_clarity: 81.6
+    commercial_clarity: 81.6
     contract_governance: 18.2
-    contract_quality: 48.4
-    developer_ergonomics: 42.9
+    contract_quality: 51.8
+    developer_ergonomics: 37.5
     discoverability: 75.9
     governance: 18.2
-    operational_transparency: 57.9
+    operational_transparency: 73.7
   previous_composite: 49.6
-  schema_version: 0.17.2
+  provenance:
+    conformance: first-party
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 1
+    mcp: first-party
+    skills: derived
+  schema_version: 0.18.0
   scored_at: '2026-09-01'
-  trend: flat
+  trend: rising
 screenshot: https://raw.githubusercontent.com/api-evangelist/secureframe/refs/heads/main/screenshots/secureframe-2026-06-20T193625.png
 security:
 - kind: authentication

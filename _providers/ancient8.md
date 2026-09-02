@@ -113,7 +113,7 @@ score:
   previous_composite: 17.0
   provenance:
     conformance: derived
-  schema_version: 0.17.2
+  schema_version: 0.18.0
   scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/ancient8/refs/heads/main/screenshots/ancient8-2026-07-25T200216.png

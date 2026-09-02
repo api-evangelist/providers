@@ -120,7 +120,7 @@ score:
   previous_composite: 12.3
   provenance:
     mcp: first-party
-  schema_version: 0.17.2
+  schema_version: 0.18.0
   scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/casper/refs/heads/main/screenshots/casper-2026-08-07T163102.png

@@ -366,18 +366,18 @@ overview: 'Tribe Payments publishes 38 APIs on the [APIs.io](https://apis.io/) n
 random_paper: 11
 score:
   band: developing
-  composite: 44.2
+  composite: 44.4
   coverage:
     artifact_dirs: 21
     catalog_gap: 83.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: 0.0
+  delta: 0.2
   facets:
     access_clarity: 31.6
     commercial_clarity: 31.6
     contract_governance: 18.2
-    contract_quality: 51.5
+    contract_quality: 52.2
     developer_ergonomics: 28.0
     discoverability: 66.7
     governance: 18.2
@@ -390,7 +390,7 @@ score:
       callable: 0.0
       derived: 0
       marker_coverage: 0.0
-      total: 15
+      total: 38
     mcp: derived
     skills: derived
   regulatory:
@@ -407,7 +407,7 @@ score:
     regime: Payments
     regime_id: payments
     score: 68.8
-  schema_version: 0.17.2
+  schema_version: 0.18.0
   scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/tribe-payments/refs/heads/main/screenshots/tribe-payments-2026-08-17T082436.png

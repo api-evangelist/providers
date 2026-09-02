@@ -1253,10 +1253,10 @@ score:
     agentic_access: derived
     contracts:
       callable: 0.0
-      derived: 12
+      derived: 13
       marker_coverage: 100.0
-      total: 12
-  schema_version: 0.17.2
+      total: 13
+  schema_version: 0.18.0
   scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/amazon-connect/refs/heads/main/screenshots/amazon-connect-2026-06-20T171608.png

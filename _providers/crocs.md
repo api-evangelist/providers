@@ -50,7 +50,6 @@ common:
   url: https://www.crocs.com
 created: '2026-05-04'
 description: Crocs, Inc. is a global designer, manufacturer, and retailer of casual footwear known for its iconic molded clog. The company sells through e-commerce, owned retail, and wholesale channels worldwide and also owns the HEYDUDE casual footwear brand. Crocs does not publish a public developer API portal.
-image: https://avatars.githubusercontent.com/u/api-evangelist
 layout: provider
 modified: '2026-05-04'
 name: Crocs
@@ -60,24 +59,24 @@ overview: Crocs is profiled on the [APIs.io](https://apis.io/) network. Tagged a
 random_paper: 13
 score:
   band: minimal
-  composite: 4.4
+  composite: 4.1
   coverage:
     artifact_dirs: 2
-    catalog_gap: 91.0
+    catalog_gap: 93.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: 0.0
+  delta: -0.3
   facets:
     access_clarity: 0.0
     commercial_clarity: 0.0
     contract_governance: 0.0
     contract_quality: 0.0
     developer_ergonomics: 0.0
-    discoverability: 44.4
+    discoverability: 40.7
     governance: 0.0
     operational_transparency: 0.0
   previous_composite: 4.4
-  schema_version: 0.17.2
+  schema_version: 0.18.0
   scored_at: '2026-09-01'
   trend: flat
 security:

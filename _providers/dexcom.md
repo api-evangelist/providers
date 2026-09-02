@@ -513,16 +513,16 @@ score:
     agentic_access: derived
     contracts:
       callable: 100.0
-      derived: 7
+      derived: 8
       marker_coverage: 100.0
-      total: 7
+      total: 8
   regulatory:
     applies: true
     matched_via: tags
     regime: Health
     regime_id: health
     score: 52.5
-  schema_version: 0.17.2
+  schema_version: 0.18.0
   scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/dexcom/refs/heads/main/screenshots/dexcom-2026-06-20T175957.png

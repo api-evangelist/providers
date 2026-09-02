@@ -206,7 +206,7 @@ score:
       callable: 0.0
       derived: 0
       marker_coverage: 0.0
-      total: 1
+      total: 6
     mcp: derived
     skills: derived
   regulatory:
@@ -219,7 +219,7 @@ score:
     regime: Banking & Open Finance
     regime_id: banking_open_finance
     score: 65.8
-  schema_version: 0.17.2
+  schema_version: 0.18.0
   scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/metro-bank/refs/heads/main/screenshots/metro-bank-2026-08-07T172746.png

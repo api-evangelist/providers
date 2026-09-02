@@ -83,7 +83,7 @@ score:
     - owner: catalog
       reason: never_enriched
   previous_composite: 7.6
-  schema_version: 0.17.2
+  schema_version: 0.18.0
   scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/uk-carbon-intensity/refs/heads/main/screenshots/uk-carbon-intensity-2026-06-20T200001.png

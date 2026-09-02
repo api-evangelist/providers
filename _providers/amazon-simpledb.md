@@ -655,7 +655,7 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 10
-  schema_version: 0.17.2
+  schema_version: 0.18.0
   scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/amazon-simpledb/refs/heads/main/screenshots/amazon-simpledb-2026-06-20T171823.png

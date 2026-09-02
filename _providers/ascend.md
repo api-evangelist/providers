@@ -325,18 +325,18 @@ overview: 'Ascend publishes 23 APIs on the [APIs.io](https://apis.io/) network, 
 random_paper: 13
 score:
   band: developing
-  composite: 48.3
+  composite: 48.1
   coverage:
     artifact_dirs: 18
     catalog_gap: 78.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: 0.0
+  delta: -0.2
   facets:
     access_clarity: 42.1
     commercial_clarity: 42.1
     contract_governance: 18.2
-    contract_quality: 58.9
+    contract_quality: 58.1
     developer_ergonomics: 44.6
     discoverability: 75.9
     governance: 18.2
@@ -358,7 +358,7 @@ score:
     regime: Insurance
     regime_id: insurance
     score: 54.5
-  schema_version: 0.17.2
+  schema_version: 0.18.0
   scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/ascend/refs/heads/main/screenshots/ascend-2026-07-25T201401.png

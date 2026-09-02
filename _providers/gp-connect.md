@@ -209,18 +209,18 @@ rate_limits:
   slug: gp-connect-rate-limits
 score:
   band: developing
-  composite: 48.4
+  composite: 48.2
   coverage:
     artifact_dirs: 10
     catalog_gap: 43.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: 0.0
+  delta: -0.2
   facets:
     access_clarity: 52.6
     commercial_clarity: 52.6
     contract_governance: 0.0
-    contract_quality: 53.1
+    contract_quality: 52.1
     developer_ergonomics: 54.8
     discoverability: 74.1
     governance: 0.0
@@ -229,7 +229,7 @@ score:
   provenance:
     agentic_access: derived
     contracts:
-      callable: 100.0
+      callable: 71.4
       derived: 0
       marker_coverage: 0.0
       total: 7
@@ -239,7 +239,7 @@ score:
     regime: Health
     regime_id: health
     score: 28.7
-  schema_version: 0.17.2
+  schema_version: 0.18.0
   scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/gp-connect/refs/heads/main/screenshots/gp-connect-2026-07-25T220156.png

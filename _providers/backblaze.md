@@ -830,11 +830,11 @@ score:
     conformance: derived
     contracts:
       callable: 100.0
-      derived: 6
+      derived: 7
       marker_coverage: 100.0
-      total: 6
+      total: 7
     mcp: derived
-  schema_version: 0.17.2
+  schema_version: 0.18.0
   scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/backblaze/refs/heads/main/screenshots/backblaze-2026-07-25T202216.png

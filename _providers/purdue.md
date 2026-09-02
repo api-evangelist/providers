@@ -220,37 +220,37 @@ rules:
   slug: purdue-openapi-spectral-rules
 score:
   band: developing
-  composite: 47.6
+  composite: 47.1
   coverage:
     artifact_dirs: 15
-    catalog_gap: 39.5
+    catalog_gap: 29.8
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: 0.0
+  delta: -0.5
   facets:
     access_clarity: 50.0
     commercial_clarity: 50.0
-    contract_governance: 28.8
-    contract_quality: 57.2
+    contract_governance: 58.3
+    contract_quality: 41.1
     developer_ergonomics: 35.7
     discoverability: 68.5
-    governance: 28.8
+    governance: 58.3
     operational_transparency: 23.7
   previous_composite: 47.6
   provenance:
-    agentic_access: derived
+    conformance: derived
     contracts:
       callable: 100.0
-      derived: 0
-      marker_coverage: 0.0
-      total: 10
+      derived: 1
+      marker_coverage: 100.0
+      total: 2
   regulatory:
     applies: true
     matched_via: tags
     regime: Education & Research
     regime_id: education
     score: 46.3
-  schema_version: 0.17.2
+  schema_version: 0.18.0
   scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/purdue/refs/heads/main/screenshots/purdue-2026-06-20T192313.png

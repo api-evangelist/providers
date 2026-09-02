@@ -121,7 +121,7 @@ score:
     governance: 0.0
     operational_transparency: 2.6
   previous_composite: 15.3
-  schema_version: 0.17.2
+  schema_version: 0.18.0
   scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/metamarkets-group/refs/heads/main/screenshots/metamarkets-group-2026-08-07T172649.png

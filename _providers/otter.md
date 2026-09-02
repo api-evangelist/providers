@@ -3151,18 +3151,18 @@ scopes:
   summary_line: 31 scopes · clientCredentials/authorizationCode
 score:
   band: thin
-  composite: 36.1
+  composite: 36.0
   coverage:
     artifact_dirs: 17
     catalog_gap: 21.5
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: 0.0
+  delta: -0.1
   facets:
     access_clarity: 50.0
     commercial_clarity: 50.0
     contract_governance: 28.8
-    contract_quality: 26.8
+    contract_quality: 26.7
     developer_ergonomics: 7.1
     discoverability: 74.1
     governance: 28.8
@@ -3175,10 +3175,10 @@ score:
     agentic_access: derived
     contracts:
       callable: 0.0
-      derived: 19
+      derived: 28
       marker_coverage: 100.0
-      total: 19
-  schema_version: 0.17.2
+      total: 28
+  schema_version: 0.18.0
   scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/otter/refs/heads/main/screenshots/otter-2026-06-20T191236.png

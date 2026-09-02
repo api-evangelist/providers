@@ -275,7 +275,7 @@ score:
       callable: 100.0
       derived: 0
       marker_coverage: 0.0
-      total: 13
+      total: 9
     mcp: first-party
     skills: derived
   regulatory:
@@ -290,7 +290,7 @@ score:
     regime: Insurance
     regime_id: insurance
     score: 71.2
-  schema_version: 0.17.2
+  schema_version: 0.18.0
   scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/plansource/refs/heads/main/screenshots/plansource-2026-08-17T081304.png

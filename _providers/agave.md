@@ -14,7 +14,7 @@ agent_readiness:
   band: agent-native
   dimensions:
     agent_card: false
-    agent_skills: true
+    agent_skills: derived
     agentic_access: derived
     agentic_commerce: false
     auth_clarity: bearer
@@ -33,7 +33,7 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 45.2
+  score: 42.5
   scored_at: '2026-09-01'
 agentic_access:
 - acting_count: 2
@@ -813,31 +813,34 @@ rules:
   slug: agave-spectral-rules
 score:
   band: strong
-  composite: 60.9
+  composite: 61.2
   coverage:
     artifact_dirs: 32
-    catalog_gap: 48.5
+    catalog_gap: 39.5
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: 0.0
+  delta: 0.3
   facets:
     access_clarity: 68.4
     commercial_clarity: 68.4
-    contract_governance: 47.0
-    contract_quality: 38.6
-    developer_ergonomics: 83.3
+    contract_governance: 33.3
+    contract_quality: 38.1
+    developer_ergonomics: 78.0
     discoverability: 74.1
-    governance: 47.0
-    operational_transparency: 60.5
+    governance: 33.3
+    operational_transparency: 84.2
   previous_composite: 60.9
   provenance:
     agentic_access: derived
+    conformance: derived
     contracts:
       callable: 100.0
-      derived: 9
+      derived: 11
       marker_coverage: 100.0
-      total: 9
-  schema_version: 0.17.2
+      total: 11
+    mcp: first-party
+    skills: derived
+  schema_version: 0.18.0
   scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/agave/refs/heads/main/screenshots/agave-2026-06-20T165757.png

@@ -232,7 +232,7 @@ score:
       callable: 100.0
       derived: 0
       marker_coverage: 0.0
-      total: 1
+      total: 15
     mcp: derived
     skills: derived
   regulatory:
@@ -241,7 +241,7 @@ score:
     regime: Payments
     regime_id: payments
     score: 56.3
-  schema_version: 0.17.2
+  schema_version: 0.18.0
   scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/weel/refs/heads/main/screenshots/weel-2026-08-17T082857.png

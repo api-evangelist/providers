@@ -577,28 +577,22 @@ scopes:
   summary_line: OAuth 2.0 · no documented scopes
 score:
   band: strong
-  composite: 56.9
+  composite: 56.8
   coverage:
     artifact_dirs: 33
     catalog_gap: 52.5
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: 0.0
+  delta: -0.1
   facets:
     access_clarity: 34.2
     commercial_clarity: 34.2
     contract_governance: 18.2
-    contract_quality: 53.5
+    contract_quality: 52.8
     developer_ergonomics: 80.4
     discoverability: 74.1
     governance: 18.2
     operational_transparency: 34.2
-  needs_work:
-    note: Recorded so this provider's gaps can be attributed. Does not affect the composite above.
-    owner: catalog
-    reasons:
-    - owner: catalog
-      reason: no_resolvable_host
   previous_composite: 56.9
   provenance:
     agentic_access: derived
@@ -607,7 +601,7 @@ score:
       callable: 100.0
       derived: 0
       marker_coverage: 0.0
-      total: 6
+      total: 21
     mcp: derived
     skills: derived
   regulatory:
@@ -616,7 +610,7 @@ score:
     regime: Insurance
     regime_id: insurance
     score: 71.2
-  schema_version: 0.17.2
+  schema_version: 0.18.0
   scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/moodys/refs/heads/main/screenshots/moodys-2026-06-20T185751.png

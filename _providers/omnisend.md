@@ -612,18 +612,18 @@ scopes:
   summary_line: 20 scopes · clientCredentials
 score:
   band: exemplar
-  composite: 67.3
+  composite: 67.1
   coverage:
     artifact_dirs: 30
     catalog_gap: 29.8
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: 0.0
+  delta: -0.2
   facets:
     access_clarity: 77.6
     commercial_clarity: 77.6
     contract_governance: 28.0
-    contract_quality: 73.0
+    contract_quality: 72.0
     developer_ergonomics: 47.0
     discoverability: 81.5
     governance: 28.0
@@ -636,10 +636,10 @@ score:
       callable: 100.0
       derived: 0
       marker_coverage: 100.0
-      total: 15
+      total: 16
     mcp: first-party
     skills: derived
-  schema_version: 0.17.2
+  schema_version: 0.18.0
   scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/omnisend/refs/heads/main/screenshots/omnisend-2026-06-20T190706.png

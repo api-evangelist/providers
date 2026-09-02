@@ -373,9 +373,9 @@ score:
     conformance: derived
     contracts:
       callable: 100.0
-      derived: 14
+      derived: 13
       marker_coverage: 100.0
-      total: 14
+      total: 13
     mcp: derived
     skills: derived
   regulatory:
@@ -384,7 +384,7 @@ score:
     regime: Energy & Utilities
     regime_id: energy_utilities
     score: 44.6
-  schema_version: 0.17.2
+  schema_version: 0.18.0
   scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/aeso/refs/heads/main/screenshots/aeso-2026-08-07T161010.png

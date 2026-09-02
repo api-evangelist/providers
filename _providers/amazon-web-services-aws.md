@@ -11,10 +11,10 @@ access_model:
   trial: false
   try_now: true
 agent_readiness:
-  band: agent-aware
+  band: agent-ready
   dimensions:
     agent_card: false
-    agent_skills: false
+    agent_skills: true
     agentic_access: derived
     agentic_commerce: false
     auth_clarity: bearer
@@ -22,18 +22,18 @@ agent_readiness:
     delegated_identity: false
     dry_run_mode: false
     dynamic_client_registration: false
-    error_semantics: false
-    event_surface_described: false
-    idempotency: false
-    mcp_server: false
-    openapi_examples: false
+    error_semantics: documented
+    event_surface_described: true
+    idempotency: documented
+    mcp_server: documented
+    openapi_examples: documented
     protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 19.8
+  score: 38.5
   scored_at: '2026-09-01'
 agentic_access:
 - acting_count: 1
@@ -68,7 +68,11 @@ apis:
 - description: The Amazon EC2 API API from Amazon Web Services (AWS) — 1 operation(s) for amazon ec2 api.
   name: Amazon Web Services (AWS) Amazon EC2 API API
   slug: amazon-web-services-aws-amazon-ec2-api-api
-artifact_total: 27
+artifact_total: 29
+asyncapis:
+- description: ''
+  name: Amazon Web Services Aws Events
+  slug: amazon-web-services-aws-events
 collections:
 - collection_type: postman
   name: Amazon EC2 Amazon EC2 API API
@@ -83,6 +87,10 @@ collections:
   name: Amazon EC2 API
   slug: open-amazon-web-services-aws
 common:
+- group: company
+  title: ''
+  type: Website
+  url: https://aws.amazon.com/
 - group: other
   title: ''
   type: CapabilityMap
@@ -134,7 +142,7 @@ common:
 - group: operate
   title: ''
   type: StatusPage
-  url: https://status.aws.amazon.com/
+  url: https://health.aws.amazon.com/health/status
 - group: commercial
   title: ''
   type: TermsOfService
@@ -215,10 +223,130 @@ common:
   title: ''
   type: Vocabulary
   url: https://raw.githubusercontent.com/api-evangelist/amazon-web-services-aws/refs/heads/main/vocabulary/amazon-web-services-aws-vocabulary.yaml
-created: '2024'
-description: Amazon Web Services offers reliable, scalable, and inexpensive cloud computing services. Free to join, pay only for what you use.
+- group: docs
+  title: ''
+  type: OpenAPI
+  url: openapi/amazon-web-services-aws-amazon-ec2-api-api-openapi.yml
+- group: other
+  title: ''
+  type: WSDL
+  url: wsdl/amazon-web-services-aws-amazon-s3.wsdl
+- group: other
+  title: ''
+  type: WSDL
+  url: wsdl/amazon-web-services-aws-amazon-sqs.wsdl
+- group: agent
+  title: ''
+  type: WellKnown
+  url: well-known/amazon-web-services-aws-well-known.yml
+- group: auth
+  title: ''
+  type: SecurityTxt
+  url: well-known/amazon-web-services-aws-security.txt
+- group: agent
+  title: ''
+  type: LLMsTxt
+  url: llms/amazon-web-services-aws-llms.txt
+- group: agent
+  title: ''
+  type: MCPServer
+  url: mcp/amazon-web-services-aws-mcp.yml
+- group: build
+  title: ''
+  type: ToolCrosswalk
+  url: mcp/amazon-web-services-aws-tool-crosswalk.yml
+- group: build
+  title: ''
+  type: Packages
+  url: packages/amazon-web-services-aws-packages.yml
+- group: design
+  title: ''
+  type: Conformance
+  url: conformance/amazon-web-services-aws-conformance.yml
+- group: design
+  title: ''
+  type: ErrorCatalog
+  url: errors/amazon-web-services-aws-problem-types.yml
+- group: design
+  title: ''
+  type: Lifecycle
+  url: lifecycle/amazon-web-services-aws-lifecycle.yml
+- group: operate
+  title: ''
+  type: Deprecation
+  url: https://docs.aws.amazon.com/sdkref/latest/guide/maint-policy.html
+- group: design
+  title: ''
+  type: Conventions
+  url: conventions/amazon-web-services-aws-conventions.yml
+- group: design
+  title: ''
+  type: Idempotency
+  url: conventions/amazon-web-services-aws-conventions.yml
+- group: operate
+  title: ''
+  type: ChangeLog
+  url: changelog/amazon-web-services-aws-changelog.yml
+- group: build
+  title: ''
+  type: CLI
+  url: cli/amazon-web-services-aws-cli.yml
+- group: design
+  title: ''
+  type: Components
+  url: components/amazon-web-services-aws-components.yml
+- group: start
+  title: ''
+  type: Sandbox
+  url: sandbox/amazon-web-services-aws-sandbox.yml
+- group: operate
+  title: ''
+  type: RateLimits
+  url: rate-limits/amazon-web-services-aws-rate-limits.yml
+- group: commercial
+  title: ''
+  type: Plans
+  url: plans/amazon-web-services-aws-plans-pricing.yml
+- group: design
+  title: ''
+  type: Webhooks
+  url: asyncapi/amazon-web-services-aws-events.yml
+- group: agent
+  title: ''
+  type: AgentSkill
+  url: skills/_index.yml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/amazon-web-services-aws-amazon-ec2-api-api-overlay.yaml
+- group: build
+  title: ''
+  type: Examples
+  url: examples/amazon-web-services-aws-example.json
+- group: commercial
+  title: ''
+  type: FinOps
+  url: finops/amazon-web-services-aws-finops.yml
+- group: docs
+  title: ''
+  type: APIReference
+  url: https://docs.aws.amazon.com/AWSEC2/latest/APIReference/
+- group: operate
+  title: ''
+  type: Roadmap
+  url: https://github.com/aws/containers-roadmap
+- group: start
+  title: ''
+  type: SignUp
+  url: https://portal.aws.amazon.com/billing/signup
+- group: build
+  title: ''
+  type: GitHubOrganization
+  url: https://github.com/aws
+created: '2024-01-01'
+description: 'Amazon Web Services is the cloud computing arm of Amazon and the largest public cloud provider in the world, offering more than 200 services across compute, storage, databases, networking, analytics, machine learning, security and developer tooling from data centers in dozens of Regions. Nearly every service is API-first: capacity is created, configured and destroyed through signed HTTPS calls, and the console, the AWS CLI and the CloudFormation and CDK toolchains are all clients of the same control plane. Requests are authenticated with AWS Signature Version 4 and authorized by IAM policy rather than by OAuth scope, versioned with a dated API version parameter instead of a URL path, and paginated uniformly with MaxResults and NextToken. Pricing is usage-based per service with a credit-capped Free Tier for new accounts rather than API request plans.'
 examples:
-- key_count: 2
+- key_count: 8
   name: Amazon Web Services Aws Example
   slug: amazon-web-services-aws-example
 features:
@@ -241,24 +369,28 @@ jsonld:
   property_count: 0
   slug: amazon-web-services-aws-context
 layout: provider
-modified: '2026-04-19'
+mcp_servers:
+- description: ''
+  name: AWS MCP servers (hosted Knowledge MCP + 62 awslabs stdio servers)
+  slug: aws-mcp-servers-hosted-knowledge-mcp-62-awslabs-stdio-servers
+modified: '2026-09-01'
 name: Amazon Web Services (AWS)
 nav: Providers
 network: true
 overview: 'Amazon Web Services (AWS) publishes 1 API on the [APIs.io](https://apis.io/) network: Amazon EC2 API API. Tagged areas include Analytics, Artificial Intelligence, Cloud Computing, Computing, and Containers.
 
 
-  The Amazon Web Services (AWS) catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
+  The Amazon Web Services (AWS) catalog on APIs.io includes 1 event-driven AsyncAPI specification, 1 JSON-LD context, and 1 Spectral governance ruleset.
 
 
-  Amazon Web Services (AWS)''s developer surface includes authentication, developer portal, documentation, getting-started guide, engineering blog, support, pricing, and 26 more developer resources.'
+  Amazon Web Services (AWS)''s developer surface includes authentication, developer portal, documentation, getting-started guide, engineering blog, support, pricing, and 57 more developer resources.'
 plans:
 - name: Amazon Web Services Aws Plans Pricing
-  plan_count: 3
+  plan_count: 2
   slug: amazon-web-services-aws-plans-pricing
 random_paper: 9
 rate_limits:
-- limit_count: 5
+- limit_count: 6
   name: Amazon Web Services Aws Rate Limits
   slug: amazon-web-services-aws-rate-limits
 rules:
@@ -274,40 +406,43 @@ rules:
     warn: 7
   slug: amazon-web-services-aws-spectral-rules
 score:
-  band: strong
-  composite: 58.2
+  band: exemplar
+  composite: 79.2
   coverage:
-    artifact_dirs: 17
-    catalog_gap: 73.3
+    artifact_dirs: 33
+    catalog_gap: 44.3
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: 0.0
+  delta: 21.0
   facets:
-    access_clarity: 76.3
-    commercial_clarity: 76.3
-    contract_governance: 26.5
-    contract_quality: 60.5
-    developer_ergonomics: 76.2
-    discoverability: 42.6
-    governance: 26.5
-    operational_transparency: 39.5
+    access_clarity: 89.5
+    commercial_clarity: 89.5
+    contract_governance: 44.7
+    contract_quality: 71.1
+    developer_ergonomics: 90.5
+    discoverability: 70.4
+    governance: 44.7
+    operational_transparency: 100.0
   previous_composite: 58.2
   provenance:
     agentic_access: derived
+    conformance: first-party
     contracts:
       callable: 100.0
       derived: 0
       marker_coverage: 0.0
       total: 1
-  schema_version: 0.17.2
+    mcp: first-party
+    skills: first-party
+  schema_version: 0.18.0
   scored_at: '2026-09-01'
-  trend: flat
+  trend: rising
 screenshot: https://raw.githubusercontent.com/api-evangelist/amazon-web-services-aws/refs/heads/main/screenshots/amazon-web-services-aws-2026-06-20T171847.png
 security:
 - kind: authentication
   name: Amazon Web Services Aws Authentication
   slug: amazon-web-services-aws-authentication
-  summary_line: apiKey · 1 scheme
+  summary_line: apiKey/custom-request-signing · 3 schemes
 - kind: domain-security
   name: Amazon Web Services Aws Domain Security
   slug: amazon-web-services-aws-domain-security
@@ -315,7 +450,7 @@ security:
 - kind: vulnerability-disclosure
   name: Amazon Web Services Aws Vulnerability Disclosure
   slug: amazon-web-services-aws-vulnerability-disclosure
-  summary_line: security.txt · contact published
+  summary_line: Hackerone · security.txt · contact published
 - kind: trust-center
   name: Amazon Web Services Aws Trust Center
   slug: amazon-web-services-aws-trust-center

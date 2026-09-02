@@ -249,18 +249,18 @@ scopes:
   summary_line: 12 scopes · authorizationCode/clientCredentials/implicit/password
 score:
   band: strong
-  composite: 62.1
+  composite: 61.8
   coverage:
     artifact_dirs: 21
     catalog_gap: 75.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: 0.0
+  delta: -0.3
   facets:
     access_clarity: 42.1
     commercial_clarity: 42.1
     contract_governance: 18.2
-    contract_quality: 47.3
+    contract_quality: 46.3
     developer_ergonomics: 78.6
     discoverability: 81.5
     governance: 18.2
@@ -282,7 +282,7 @@ score:
     regime: Health
     regime_id: health
     score: 71.3
-  schema_version: 0.17.2
+  schema_version: 0.18.0
   scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/aidbox/refs/heads/main/screenshots/aidbox-2026-07-25T195346.png

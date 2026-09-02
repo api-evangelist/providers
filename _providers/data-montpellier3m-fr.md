@@ -119,7 +119,7 @@ score:
     regime: Government & Public Sector
     regime_id: government
     score: 11.1
-  schema_version: 0.17.2
+  schema_version: 0.18.0
   scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/data-montpellier3m-fr/refs/heads/main/screenshots/data-montpellier3m-fr-2026-06-20T175553.png

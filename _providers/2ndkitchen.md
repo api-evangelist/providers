@@ -157,18 +157,18 @@ overview: '2ndKitchen publishes 12 APIs on the [APIs.io](https://apis.io/) netwo
 random_paper: 15
 score:
   band: emerging
-  composite: 21.2
+  composite: 22.0
   coverage:
     artifact_dirs: 7
     catalog_gap: 75.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: 0.0
+  delta: 0.8
   facets:
     access_clarity: 0.0
     commercial_clarity: 0.0
     contract_governance: 0.0
-    contract_quality: 40.6
+    contract_quality: 43.7
     developer_ergonomics: 28.6
     discoverability: 74.1
     governance: 0.0
@@ -176,7 +176,7 @@ score:
   previous_composite: 21.2
   provenance:
     contracts:
-      callable: 0.0
+      callable: 91.7
       derived: 0
       marker_coverage: 0.0
       total: 12
@@ -186,7 +186,7 @@ score:
     regime: Payments
     regime_id: payments
     score: 18.8
-  schema_version: 0.17.2
+  schema_version: 0.18.0
   scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/2ndkitchen/refs/heads/main/screenshots/2ndkitchen-2026-07-25T181134.png

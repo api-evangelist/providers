@@ -14,7 +14,7 @@ agent_readiness:
   band: agent-ready
   dimensions:
     agent_card: false
-    agent_skills: true
+    agent_skills: derived
     agentic_access: derived
     agentic_commerce: false
     auth_clarity: bearer
@@ -33,7 +33,7 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 34.0
+  score: 28.7
   scored_at: '2026-09-01'
 agentic_access:
 - acting_count: 16
@@ -259,31 +259,34 @@ rate_limits:
   slug: metaplane-rate-limits
 score:
   band: strong
-  composite: 56.6
+  composite: 60.1
   coverage:
     artifact_dirs: 24
-    catalog_gap: 72.0
+    catalog_gap: 63.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: 0.0
+  delta: 3.5
   facets:
-    access_clarity: 76.3
-    commercial_clarity: 76.3
+    access_clarity: 100.0
+    commercial_clarity: 100.0
     contract_governance: 18.2
-    contract_quality: 62.6
-    developer_ergonomics: 52.4
+    contract_quality: 61.7
+    developer_ergonomics: 47.0
     discoverability: 75.9
     governance: 18.2
     operational_transparency: 42.1
   previous_composite: 56.6
   provenance:
     agentic_access: derived
+    conformance: first-party
     contracts:
       callable: 100.0
       derived: 0
-      marker_coverage: 0.0
-      total: 4
-  schema_version: 0.17.2
+      marker_coverage: 100.0
+      total: 3
+    mcp: derived
+    skills: derived
+  schema_version: 0.18.0
   scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/metaplane/refs/heads/main/screenshots/metaplane-2026-06-20T185251.png

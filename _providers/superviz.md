@@ -162,7 +162,7 @@ score:
     access_clarity: 39.5
     commercial_clarity: 39.5
     contract_governance: 11.4
-    contract_quality: 22.8
+    contract_quality: 22.5
     developer_ergonomics: 31.0
     discoverability: 68.5
     governance: 11.4
@@ -175,7 +175,7 @@ score:
       derived: 6
       marker_coverage: 100.0
       total: 6
-  schema_version: 0.17.2
+  schema_version: 0.18.0
   scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/superviz/refs/heads/main/screenshots/superviz-2026-08-17T082204.png

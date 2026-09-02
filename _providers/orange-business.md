@@ -705,18 +705,18 @@ scopes:
   summary_line: 23 scopes · authorizationCode
 score:
   band: exemplar
-  composite: 67.3
+  composite: 67.7
   coverage:
     artifact_dirs: 31
     catalog_gap: 63.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: 0.0
+  delta: 0.4
   facets:
     access_clarity: 65.8
     commercial_clarity: 65.8
     contract_governance: 18.2
-    contract_quality: 62.4
+    contract_quality: 64.2
     developer_ergonomics: 82.7
     discoverability: 66.7
     governance: 18.2
@@ -729,10 +729,10 @@ score:
     agentic_access: derived
     conformance: first-party
     contracts:
-      callable: 0.0
+      callable: 79.7
       derived: 0
       marker_coverage: 0.0
-      total: 14
+      total: 69
     mcp: first-party
     skills: derived
   regulatory:
@@ -741,7 +741,7 @@ score:
     regime: Telecommunications
     regime_id: telecommunications
     score: 75.0
-  schema_version: 0.17.2
+  schema_version: 0.18.0
   scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/orange-business/refs/heads/main/screenshots/orange-business-2026-06-20T191153.png

@@ -240,18 +240,18 @@ overview: 'ADARx Pharmaceuticals publishes 8 APIs on the [APIs.io](https://apis.
 random_paper: 0
 score:
   band: thin
-  composite: 32.4
+  composite: 28.5
   coverage:
     artifact_dirs: 17
     catalog_gap: 70.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: 0.0
+  delta: -3.9
   facets:
     access_clarity: 21.1
     commercial_clarity: 21.1
     contract_governance: 4.5
-    contract_quality: 55.5
+    contract_quality: 39.8
     developer_ergonomics: 18.5
     discoverability: 81.5
     governance: 4.5
@@ -261,9 +261,9 @@ score:
     conformance: derived
     contracts:
       callable: 100.0
-      derived: 0
-      marker_coverage: 0.0
-      total: 8
+      derived: 4
+      marker_coverage: 40.0
+      total: 10
     skills: derived
   regulatory:
     applies: true
@@ -271,7 +271,7 @@ score:
     regime: Health
     regime_id: health
     score: 31.3
-  schema_version: 0.17.2
+  schema_version: 0.18.0
   scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/adarx-pharmaceuticals/refs/heads/main/screenshots/adarx-pharmaceuticals-2026-08-07T160902.png

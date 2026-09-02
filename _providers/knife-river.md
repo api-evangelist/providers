@@ -58,7 +58,6 @@ common:
   url: https://www.kniferiver.com/news/feed/
 created: '2026-05-04'
 description: Knife River Corporation is one of the leading aggregates-led construction materials and contracting companies in the United States. The company mines, processes, and sells construction aggregates, ready-mix concrete, asphalt, and related products, and also performs heavy-civil construction services. Knife River operates across multiple western and central U.S. states.
-image: https://avatars.githubusercontent.com/u/api-evangelist
 layout: provider
 modified: '2026-05-04'
 name: Knife River
@@ -71,24 +70,24 @@ overview: 'Knife River is profiled on the [APIs.io](https://apis.io/) network. T
 random_paper: 9
 score:
   band: minimal
-  composite: 6.8
+  composite: 6.5
   coverage:
     artifact_dirs: 3
-    catalog_gap: 91.0
+    catalog_gap: 93.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: 0.0
+  delta: -0.3
   facets:
     access_clarity: 0.0
     commercial_clarity: 0.0
     contract_governance: 0.0
     contract_quality: 0.0
     developer_ergonomics: 11.9
-    discoverability: 44.4
+    discoverability: 40.7
     governance: 0.0
     operational_transparency: 0.0
   previous_composite: 6.8
-  schema_version: 0.17.2
+  schema_version: 0.18.0
   scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/knife-river/refs/heads/main/screenshots/knife-river-2026-06-20T184107.png

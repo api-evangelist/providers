@@ -243,13 +243,22 @@ score:
     access_clarity: 71.1
     commercial_clarity: 71.1
     contract_governance: 18.2
-    contract_quality: 54.5
+    contract_quality: 54.6
     developer_ergonomics: 73.8
     discoverability: 81.5
     governance: 18.2
     operational_transparency: 34.2
   previous_composite: 57.4
-  schema_version: 0.17.2
+  provenance:
+    conformance: first-party
+    contracts:
+      callable: 25.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 8
+    mcp: first-party
+    skills: first-party
+  schema_version: 0.18.0
   scored_at: '2026-09-01'
   trend: flat
 security:

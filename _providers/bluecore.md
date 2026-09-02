@@ -310,18 +310,18 @@ scopes:
   summary_line: 7 scopes
 score:
   band: developing
-  composite: 52.0
+  composite: 51.8
   coverage:
     artifact_dirs: 25
     catalog_gap: 75.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: 0.0
+  delta: -0.2
   facets:
     access_clarity: 43.4
     commercial_clarity: 43.4
     contract_governance: 4.5
-    contract_quality: 61.3
+    contract_quality: 60.5
     developer_ergonomics: 44.6
     discoverability: 81.5
     governance: 4.5
@@ -333,8 +333,8 @@ score:
     contracts:
       callable: 100.0
       derived: 0
-      marker_coverage: 14.3
-      total: 7
+      marker_coverage: 0.0
+      total: 8
     mcp: derived
     skills: derived
   regulatory:
@@ -343,7 +343,7 @@ score:
     regime: Telecommunications
     regime_id: telecommunications
     score: 73.6
-  schema_version: 0.17.2
+  schema_version: 0.18.0
   scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/bluecore/refs/heads/main/screenshots/bluecore-2026-07-25T203448.png

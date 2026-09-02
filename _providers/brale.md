@@ -291,18 +291,18 @@ scopes:
   summary_line: 20 scopes · clientCredentials
 score:
   band: strong
-  composite: 60.5
+  composite: 60.3
   coverage:
     artifact_dirs: 25
     catalog_gap: 78.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: 0.0
+  delta: -0.2
   facets:
     access_clarity: 44.7
     commercial_clarity: 44.7
     contract_governance: 4.5
-    contract_quality: 64.6
+    contract_quality: 63.8
     developer_ergonomics: 73.2
     discoverability: 75.9
     governance: 4.5
@@ -323,7 +323,7 @@ score:
     regime: Payments
     regime_id: payments
     score: 64.1
-  schema_version: 0.17.2
+  schema_version: 0.18.0
   scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/brale/refs/heads/main/screenshots/brale-2026-07-25T203713.png

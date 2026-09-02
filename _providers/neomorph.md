@@ -227,7 +227,7 @@ score:
       callable: 100.0
       derived: 0
       marker_coverage: 0.0
-      total: 10
+      total: 12
     mcp: derived
     skills: derived
   regulatory:
@@ -236,7 +236,7 @@ score:
     regime: Health
     regime_id: health
     score: 48.8
-  schema_version: 0.17.2
+  schema_version: 0.18.0
   scored_at: '2026-09-01'
   trend: flat
 security:

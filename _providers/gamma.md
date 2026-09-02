@@ -156,7 +156,7 @@ score:
   provenance:
     conformance: first-party
     mcp: first-party
-  schema_version: 0.17.2
+  schema_version: 0.18.0
   scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/gamma/refs/heads/main/screenshots/gamma-2026-07-25T215428.png

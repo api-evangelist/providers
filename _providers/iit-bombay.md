@@ -181,30 +181,37 @@ scopes:
   summary_line: OAuth 2.0 · no documented scopes
 score:
   band: developing
-  composite: 48.8
+  composite: 45.7
   coverage:
     artifact_dirs: 17
-    catalog_gap: 30.0
+    catalog_gap: 41.3
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: 0.0
+  delta: -3.1
   facets:
     access_clarity: 39.5
     commercial_clarity: 39.5
-    contract_governance: 63.6
-    contract_quality: 49.0
+    contract_governance: 29.5
+    contract_quality: 52.7
     developer_ergonomics: 33.3
     discoverability: 68.5
-    governance: 63.6
+    governance: 29.5
     operational_transparency: 23.7
   previous_composite: 48.8
+  provenance:
+    conformance: first-party
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 100.0
+      total: 1
   regulatory:
     applies: true
     matched_via: tags
     regime: Education & Research
     regime_id: education
     score: 57.4
-  schema_version: 0.17.2
+  schema_version: 0.18.0
   scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/iit-bombay/refs/heads/main/screenshots/iit-bombay-2026-06-20T183229.png

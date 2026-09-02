@@ -160,7 +160,7 @@ score:
     governance: 0.0
     operational_transparency: 34.2
   previous_composite: 29.2
-  schema_version: 0.17.2
+  schema_version: 0.18.0
   scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/testcontainers/refs/heads/main/screenshots/testcontainers-2026-06-20T195150.png

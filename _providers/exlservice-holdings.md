@@ -94,7 +94,7 @@ score:
     governance: 0.0
     operational_transparency: 5.3
   previous_composite: 11.2
-  schema_version: 0.17.2
+  schema_version: 0.18.0
   scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/exlservice-holdings/refs/heads/main/screenshots/exlservice-holdings-2026-08-07T181101.png

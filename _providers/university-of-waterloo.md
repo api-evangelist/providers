@@ -22,7 +22,7 @@ agent_readiness:
     delegated_identity: false
     dry_run_mode: false
     dynamic_client_registration: false
-    error_semantics: false
+    error_semantics: documented
     event_surface_described: false
     idempotency: false
     mcp_server: false
@@ -31,9 +31,9 @@ agent_readiness:
     rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: true
-    well_known_catalog: false
+    well_known_catalog: true
   schema_version: 0.2
-  score: 21.0
+  score: 26.8
   scored_at: '2026-09-01'
 agentic_access:
 - acting_count: 2
@@ -80,7 +80,31 @@ apis:
 - description: The Wcms API from University of Waterloo — 8 operation(s) for wcms.
   name: University of Waterloo Wcms API
   slug: university-of-waterloo-wcms-api
-artifact_total: 48
+- description: A second, deliberately gated University of Waterloo API programme providing authenticated access to data from authoritative source systems including Quest (student information) and WatIAM (identity an
+  name: University of Waterloo SourceAPI
+  slug: university-of-waterloo-sourceapi
+- description: The REST backend of UWSpace, the University of Waterloo institutional repository, running DSpace 8.4 on a University of Waterloo Libraries host. The root document at /server/api returns a HAL index of
+  name: UWSpace DSpace REST API
+  slug: uwspace-dspace-rest-api
+- description: The OAI-PMH 2.0 metadata harvesting endpoint for UWSpace, the University of Waterloo institutional repository. A verb=Identify request returns protocolVersion 2.0, repositoryName UWSpace, an adminEmai
+  name: UWSpace OAI-PMH Endpoint
+  slug: uwspace-oai-pmh
+- description: The University of Waterloo's own SAML 2.0 identity provider metadata, served as XML from idp.uwaterloo.ca. The EntityDescriptor carries entityID https://idp.uwaterloo.ca/idp/shibboleth, a shibboleth S
+  name: University of Waterloo Shibboleth Identity Provider
+  slug: university-of-waterloo-shibboleth-idp
+- description: Waterloo's named research-data collection on Borealis, the Canadian consortial Dataverse repository operated by Scholars Portal for the Ontario Council of University Libraries. The collection is Water
+  name: University of Waterloo Dataverse Collection (Borealis)
+  slug: university-of-waterloo-borealis-collection
+- description: The University of Waterloo is Crossref member 6095, holding DOI prefix 10.15353 with 3,104 DOIs registered as of 2026-09-01. This is an identifier-registry membership — a fact about Waterloo, shared w
+  name: University of Waterloo Crossref Membership
+  slug: university-of-waterloo-crossref-member
+- description: The University of Waterloo's Research Organization Registry record, ROR ID https://ror.org/01aff2v68, carrying the uwaterloo.ca domain, an establishment year of 1956, and cross-references to Funder Re
+  name: University of Waterloo ROR Record
+  slug: university-of-waterloo-ror-record
+- description: Waterloo's public service status page at status.uwaterloo.ca, with the full Statuspage v2 JSON API behind it — status.json, summary.json and an RSS incident history all return 200 unauthenticated. The
+  name: University of Waterloo Status API
+  slug: university-of-waterloo-status-api
+artifact_total: 57
 collections:
 - collection_type: open
   name: API Collection
@@ -122,14 +146,130 @@ collections:
   name: Waterloo OpenData AcademicOrganizations Wcms API
   slug: open-university-of-waterloo-wcms-api
 common:
+- group: company
+  title: ''
+  type: Website
+  url: https://uwaterloo.ca/
+- group: start
+  title: ''
+  type: DeveloperPortal
+  url: https://uwaterloo.ca/api/
+- group: docs
+  title: ''
+  type: Documentation
+  url: https://uwaterloo.atlassian.net/wiki/spaces/UWAPI/overview
+- group: docs
+  title: ''
+  type: APIReference
+  url: https://openapi.data.uwaterloo.ca/swagger/v1/swagger.json
+- group: docs
+  title: ''
+  type: Swagger
+  url: https://openapi.data.uwaterloo.ca/api-docs/index.html
+- group: start
+  title: ''
+  type: GettingStarted
+  url: https://uwaterloo.atlassian.net/wiki/spaces/UWAPI/pages/34025641600/Getting+Started+-+OpenAPI
+- group: start
+  title: ''
+  type: SignUp
+  url: https://uwaterloo.atlassian.net/wiki/spaces/UWAPI/pages/34025641600/Getting+Started+-+OpenAPI
+- group: commercial
+  title: ''
+  type: TermsOfService
+  url: https://uwaterloo.atlassian.net/wiki/spaces/UWAPI/pages/34019780998/Terms+of+Service+SourceAPI
 - group: other
   title: ''
-  type: CapabilityMap
-  url: capabilities/university-of-waterloo-capability-edges.yml
+  type: AcceptableUsePolicy
+  url: https://uwaterloo.atlassian.net/wiki/spaces/UWAPI/pages/34019781061/Acceptable+Use+Policy+SourceAPI
+- group: commercial
+  title: ''
+  type: PrivacyPolicy
+  url: https://uwaterloo.ca/privacy/
+- group: auth
+  title: ''
+  type: Compliance
+  url: https://uwaterloo.ca/secretariat-general-counsel/policies-procedures-guidelines/policy-46-information-management
+- group: operate
+  title: ''
+  type: StatusPage
+  url: https://status.uwaterloo.ca/
+- group: operate
+  title: ''
+  type: ChangeLog
+  url: https://uwaterloo.atlassian.net/wiki/spaces/UWAPI/blog/2026/01/23/44869681282/Open+Data+API+Functional+Changes
+- group: operate
+  title: ''
+  type: Roadmap
+  url: https://uwaterloo.atlassian.net/wiki/spaces/UWAPI/pages/34019779689/Roadmap+-+OpenAPI
+- group: operate
+  title: ''
+  type: Support
+  url: https://uwaterloo.atlassian.net/servicedesk/customer/portal/115
 - group: operate
   title: ''
   type: IssueTracker
   url: https://github.com/uWaterloo/Datasets/issues
+- group: build
+  title: ''
+  type: GitHubOrganization
+  url: https://github.com/uWaterloo
+- group: build
+  title: ''
+  type: SourceCode
+  url: https://github.com/uWaterloo/Datasets
+- group: agent
+  title: ''
+  type: WellKnown
+  url: https://uwaterloo.ca/.well-known/security.txt
+- group: company
+  title: ''
+  type: LinkedIn
+  url: https://www.linkedin.com/school/university-of-waterloo/
+- group: company
+  title: ''
+  type: Blog
+  url: https://uwaterloo.ca/news/
+- group: other
+  title: ''
+  type: OpenData
+  url: https://uwaterloo.atlassian.net/wiki/spaces/UWAPI/pages/34019779691/Datasets+OpenAPI
+- group: learn
+  title: ''
+  type: CourseCatalog
+  url: https://uwaterloo.atlassian.net/wiki/spaces/UWAPI/pages/34006663321/Course+Schedule
+- group: other
+  title: ''
+  type: ResearchRepository
+  url: https://uwspace.uwaterloo.ca/
+- group: other
+  title: ''
+  type: IdentityFederation
+  url: https://idp.uwaterloo.ca/idp/shibboleth
+- group: other
+  title: ''
+  type: AIPolicy
+  url: https://uwaterloo.ca/artificial-intelligence-institute/
+- group: design
+  title: ''
+  type: Conformance
+  url: conformance/university-of-waterloo-conformance.yml
+- group: design
+  title: ''
+  type: ErrorCatalog
+  url: errors/university-of-waterloo-errors.yml
+- group: design
+  title: ''
+  type: Lifecycle
+  url: lifecycle/university-of-waterloo-lifecycle.yml
+- group: auth
+  title: ''
+  type: OAuthScopes
+  url: scopes/university-of-waterloo-scopes.yml
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/university-of-waterloo-capability-edges.yml
 - group: agent
   title: ''
   type: AgenticAccess
@@ -146,26 +286,6 @@ common:
   title: ''
   type: Authentication
   url: authentication/university-of-waterloo-authentication.yml
-- group: company
-  title: ''
-  type: Website
-  url: https://uwaterloo.ca/
-- group: start
-  title: ''
-  type: DeveloperPortal
-  url: https://uwaterloo.ca/api/
-- group: build
-  title: ''
-  type: GitHub
-  url: https://github.com/uWaterloo
-- group: company
-  title: ''
-  type: LinkedIn
-  url: https://www.linkedin.com/school/university-of-waterloo/
-- group: build
-  title: ''
-  type: SourceCode
-  url: https://github.com/uWaterloo/Datasets
 - group: commercial
   title: ''
   type: Plans
@@ -182,12 +302,9 @@ common:
   title: ''
   type: Review
   url: review.yml
-- group: company
-  title: ''
-  type: Blog
-  url: https://uwaterloo.ca/news/rss.xml
 created: '2026-06-03'
-description: 'The University of Waterloo is a public research university in Waterloo, Ontario, Canada, ranked #115 in the QS World University Rankings 2025 and known for its cooperative education programs and strength in mathematics, engineering, and computer science. Its developer footprint is centered on the University of Waterloo Open Data API (the Open Data Initiative), a public, key-authenticated REST API exposing authoritative academic, campus, and student-information datasets. Official code, documentation, and datasets are published under the verified uWaterloo GitHub organization.'
+description: 'The University of Waterloo is a public research university in Waterloo, Ontario, Canada, known for cooperative education and for strength in mathematics, engineering and computer science. Unusually for this cohort, Waterloo genuinely operates its own API programme rather than appearing programmable through a vendor''s contract: the Open Data API v3 at openapi.data.uwaterloo.ca is Waterloo-built and Waterloo-hosted, publishes a first-party OpenAPI at /swagger/v1/swagger.json, exposes 48 self-serve key-authenticated operations across courses, class and exam schedules, terms, subjects, academic organizations, locations, food services, important dates and web content, and carries a dated release-note stream, a published 120 requests-per-minute cap and a completed v2 retirement. Alongside it Waterloo runs a second, deliberately gated SourceAPI over authoritative Quest and WatIAM data, its own Shibboleth identity provider at idp.uwaterloo.ca, and the UWSpace institutional repository
+  with DSpace REST and OAI-PMH endpoints on a Waterloo Libraries host. What it does not run is the research-data platform: Waterloo''s data collection is a tenancy on the consortial Borealis Dataverse, and its status page is a Statuspage tenancy — both recorded here as relationships, not as Waterloo engineering. There is no unified developer portal spanning the three programmes; documentation is split between a Confluence space, a GitHub wiki and a Swagger UI.'
 examples:
 - key_count: 5
   name: University Of Waterloo Academicorganization Detail Example
@@ -241,7 +358,7 @@ jsonld:
   property_count: 0
   slug: university-of-waterloo-context
 layout: provider
-modified: '2026-06-03'
+modified: '2026-09-01'
 name: University of Waterloo
 nav: Providers
 network: true
@@ -251,14 +368,14 @@ overview: 'University of Waterloo publishes 12 APIs on the [APIs.io](https://api
   The University of Waterloo catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  University of Waterloo''s developer surface includes authentication, GitHub presence, engineering blog, and 13 more developer resources.'
+  University of Waterloo''s developer surface includes documentation, API reference, getting-started guide, signup flow, changelog, support, engineering blog, and 32 more developer resources.'
 plans:
 - name: University Of Waterloo Plans Pricing
   plan_count: 2
   slug: university-of-waterloo-plans-pricing
 random_paper: 13
 rate_limits:
-- limit_count: 1
+- limit_count: 3
   name: University Of Waterloo Rate Limits
   slug: university-of-waterloo-rate-limits
 rules:
@@ -282,30 +399,36 @@ rules:
     info: 0
     warn: 2
   slug: university-of-waterloo-rules
+scopes:
+- name: University Of Waterloo Scopes
+  scope_count: 0
+  slug: university-of-waterloo-scopes
+  summary_line: OAuth 2.0 · no documented scopes
 score:
-  band: developing
-  composite: 40.5
+  band: strong
+  composite: 61.7
   coverage:
-    artifact_dirs: 17
-    catalog_gap: 36.8
+    artifact_dirs: 21
+    catalog_gap: 40.8
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: 0.0
+  delta: 21.2
   facets:
-    access_clarity: 42.1
-    commercial_clarity: 42.1
+    access_clarity: 71.1
+    commercial_clarity: 71.1
     contract_governance: 25.0
-    contract_quality: 56.6
-    developer_ergonomics: 33.3
-    discoverability: 68.5
+    contract_quality: 56.8
+    developer_ergonomics: 57.1
+    discoverability: 64.8
     governance: 25.0
-    operational_transparency: 26.3
+    operational_transparency: 73.7
   open_source:
     applies: true
     score: 0.0
   previous_composite: 40.5
   provenance:
     agentic_access: derived
+    conformance: first-party
     contracts:
       callable: 100.0
       derived: 0
@@ -316,10 +439,10 @@ score:
     matched_via: tags
     regime: Education & Research
     regime_id: education
-    score: 42.6
-  schema_version: 0.17.2
+    score: 85.2
+  schema_version: 0.18.0
   scored_at: '2026-09-01'
-  trend: flat
+  trend: rising
 screenshot: https://raw.githubusercontent.com/api-evangelist/university-of-waterloo/refs/heads/main/screenshots/university-of-waterloo-2026-06-20T200326.png
 security:
 - kind: authentication
@@ -341,6 +464,12 @@ tags:
 - University
 - Open Data
 - Canada
+- Ontario
 - Research
+- Research Data
+- Course Catalog
+- Identity Federation
+- Research Repository
+- Campus Life
 website: https://uwaterloo.ca/
 ---

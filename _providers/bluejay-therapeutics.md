@@ -176,18 +176,18 @@ overview: 'Bluejay Therapeutics publishes 6 APIs on the [APIs.io](https://apis.i
 random_paper: 11
 score:
   band: emerging
-  composite: 25.7
+  composite: 16.3
   coverage:
     artifact_dirs: 17
     catalog_gap: 55.0
     catalog_max: 100.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: 0.0
+  delta: -9.4
   facets:
     access_clarity: 0.0
     commercial_clarity: 0.0
     contract_governance: 4.5
-    contract_quality: 53.5
+    contract_quality: 15.9
     developer_ergonomics: 16.1
     discoverability: 81.5
     governance: 4.5
@@ -197,9 +197,9 @@ score:
     conformance: derived
     contracts:
       callable: 100.0
-      derived: 0
-      marker_coverage: 0.0
-      total: 6
+      derived: 7
+      marker_coverage: 100.0
+      total: 7
     skills: derived
   regulatory:
     applies: true
@@ -207,9 +207,9 @@ score:
     regime: Health
     regime_id: health
     score: 21.3
-  schema_version: 0.17.2
+  schema_version: 0.18.0
   scored_at: '2026-09-01'
-  trend: flat
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/bluejay-therapeutics/refs/heads/main/screenshots/bluejay-therapeutics-2026-08-07T162648.png
 security:
 - kind: authentication

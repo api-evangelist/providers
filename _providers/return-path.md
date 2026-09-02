@@ -239,18 +239,18 @@ rate_limits:
   slug: return-path-rate-limits
 score:
   band: developing
-  composite: 40.7
+  composite: 40.6
   coverage:
     artifact_dirs: 20
     catalog_gap: 67.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: 0.0
+  delta: -0.1
   facets:
     access_clarity: 50.0
     commercial_clarity: 50.0
     contract_governance: 4.5
-    contract_quality: 25.9
+    contract_quality: 25.5
     developer_ergonomics: 51.8
     discoverability: 81.5
     governance: 4.5
@@ -260,12 +260,12 @@ score:
     conformance: derived
     contracts:
       callable: 100.0
-      derived: 1
+      derived: 12
       marker_coverage: 100.0
-      total: 1
+      total: 12
     mcp: derived
     skills: derived
-  schema_version: 0.17.2
+  schema_version: 0.18.0
   scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/return-path/refs/heads/main/screenshots/return-path-2026-08-17T081538.png

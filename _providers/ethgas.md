@@ -163,18 +163,18 @@ overview: 'ETHGas publishes 1 API on the [APIs.io](https://apis.io/) network. Ta
 random_paper: 6
 score:
   band: developing
-  composite: 41.9
+  composite: 41.6
   coverage:
     artifact_dirs: 15
     catalog_gap: 78.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: 0.0
+  delta: -0.3
   facets:
     access_clarity: 21.1
     commercial_clarity: 21.1
     contract_governance: 18.2
-    contract_quality: 42.7
+    contract_quality: 41.6
     developer_ergonomics: 64.3
     discoverability: 75.9
     governance: 18.2
@@ -189,7 +189,7 @@ score:
     regime: Securities & Market Data
     regime_id: securities_market_data
     score: 41.7
-  schema_version: 0.17.2
+  schema_version: 0.18.0
   scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/ethgas/refs/heads/main/screenshots/ethgas-2026-07-25T213653.png

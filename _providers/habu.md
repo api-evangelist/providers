@@ -316,18 +316,18 @@ scopes:
   summary_line: OAuth 2.0 · no documented scopes
 score:
   band: developing
-  composite: 45.1
+  composite: 46.0
   coverage:
     artifact_dirs: 22
     catalog_gap: 69.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: 0.0
+  delta: 0.9
   facets:
     access_clarity: 53.9
     commercial_clarity: 53.9
     contract_governance: 4.5
-    contract_quality: 54.6
+    contract_quality: 58.0
     developer_ergonomics: 16.1
     discoverability: 70.4
     governance: 4.5
@@ -336,13 +336,13 @@ score:
   provenance:
     conformance: derived
     contracts:
-      callable: 0.0
+      callable: 100.0
       derived: 0
       marker_coverage: 0.0
-      total: 1
+      total: 34
     mcp: first-party
     skills: derived
-  schema_version: 0.17.2
+  schema_version: 0.18.0
   scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/habu/refs/heads/main/screenshots/habu-2026-07-25T220519.png

@@ -215,18 +215,18 @@ rate_limits:
   slug: zotgpt-rate-limits
 score:
   band: developing
-  composite: 49.1
+  composite: 49.2
   coverage:
     artifact_dirs: 18
     catalog_gap: 51.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: 0.0
+  delta: 0.1
   facets:
     access_clarity: 68.4
     commercial_clarity: 68.4
     contract_governance: 0.0
-    contract_quality: 17.2
+    contract_quality: 17.6
     developer_ergonomics: 66.1
     discoverability: 75.9
     governance: 0.0
@@ -235,7 +235,7 @@ score:
   provenance:
     conformance: first-party
     contracts:
-      callable: 50.0
+      callable: 100.0
       derived: 2
       marker_coverage: 100.0
       total: 2
@@ -246,7 +246,7 @@ score:
     regime: Education & Research
     regime_id: education
     score: 48.1
-  schema_version: 0.17.2
+  schema_version: 0.18.0
   scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/zotgpt/refs/heads/main/screenshots/zotgpt-2026-08-17T083120.png

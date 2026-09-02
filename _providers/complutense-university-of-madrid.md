@@ -172,30 +172,32 @@ rate_limits:
   slug: complutense-university-of-madrid-rate-limits
 score:
   band: thin
-  composite: 30.4
+  composite: 29.6
   coverage:
     artifact_dirs: 8
     catalog_gap: 48.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: 0.0
+  delta: -0.8
   facets:
     access_clarity: 39.5
     commercial_clarity: 39.5
-    contract_governance: 18.2
-    contract_quality: 10.7
+    contract_governance: 4.5
+    contract_quality: 14.3
     developer_ergonomics: 22.6
     discoverability: 74.1
-    governance: 18.2
+    governance: 4.5
     operational_transparency: 26.3
   previous_composite: 30.4
+  provenance:
+    conformance: derived
   regulatory:
     applies: true
     matched_via: tags
     regime: Education & Research
     regime_id: education
     score: 42.6
-  schema_version: 0.17.2
+  schema_version: 0.18.0
   scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/complutense-university-of-madrid/refs/heads/main/screenshots/complutense-university-of-madrid-2026-06-20T174834.png

@@ -317,16 +317,16 @@ score:
     agentic_access: derived
     contracts:
       callable: 100.0
-      derived: 4
+      derived: 6
       marker_coverage: 100.0
-      total: 4
+      total: 6
   regulatory:
     applies: true
     matched_via: tags
     regime: Government & Public Sector
     regime_id: government
     score: 38.9
-  schema_version: 0.17.2
+  schema_version: 0.18.0
   scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/rijksmuseum/refs/heads/main/screenshots/rijksmuseum-2026-06-20T193120.png

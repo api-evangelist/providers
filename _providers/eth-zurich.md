@@ -531,18 +531,18 @@ rules:
   slug: eth-zurich-rules
 score:
   band: developing
-  composite: 45.3
+  composite: 45.4
   coverage:
     artifact_dirs: 19
     catalog_gap: 52.8
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: 0.0
+  delta: 0.1
   facets:
     access_clarity: 52.6
     commercial_clarity: 52.6
     contract_governance: 25.0
-    contract_quality: 56.7
+    contract_quality: 56.9
     developer_ergonomics: 23.8
     discoverability: 61.1
     governance: 25.0
@@ -554,15 +554,15 @@ score:
     contracts:
       callable: 100.0
       derived: 0
-      marker_coverage: 2.8
-      total: 36
+      marker_coverage: 0.0
+      total: 38
   regulatory:
     applies: true
     matched_via: tags
     regime: Education & Research
     regime_id: education
     score: 50.0
-  schema_version: 0.17.2
+  schema_version: 0.18.0
   scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/eth-zurich/refs/heads/main/screenshots/eth-zurich-2026-06-20T180834.png

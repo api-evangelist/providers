@@ -162,7 +162,7 @@ score:
     governance: 0.0
     operational_transparency: 15.8
   previous_composite: 13.3
-  schema_version: 0.17.2
+  schema_version: 0.18.0
   scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/ambi-robotics/refs/heads/main/screenshots/ambi-robotics-2026-06-20T171853.png

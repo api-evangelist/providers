@@ -289,7 +289,7 @@ score:
     access_clarity: 53.9
     commercial_clarity: 53.9
     contract_governance: 18.2
-    contract_quality: 20.7
+    contract_quality: 20.4
     developer_ergonomics: 70.8
     discoverability: 81.5
     governance: 18.2
@@ -299,12 +299,12 @@ score:
     conformance: first-party
     contracts:
       callable: 100.0
-      derived: 5
-      marker_coverage: 83.3
-      total: 6
+      derived: 8
+      marker_coverage: 88.9
+      total: 9
     mcp: derived
     skills: derived
-  schema_version: 0.17.2
+  schema_version: 0.18.0
   scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/crossenagage/refs/heads/main/screenshots/crossenagage-2026-07-25T210755.png

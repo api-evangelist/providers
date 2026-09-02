@@ -208,19 +208,19 @@ scopes:
   slug: brooklinen-scopes
   summary_line: 4 scopes · authorizationCode
 score:
-  band: developing
-  composite: 45.1
+  band: thin
+  composite: 35.1
   coverage:
     artifact_dirs: 18
     catalog_gap: 75.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: 0.0
+  delta: -10.0
   facets:
     access_clarity: 34.2
     commercial_clarity: 34.2
     contract_governance: 18.2
-    contract_quality: 53.2
+    contract_quality: 13.3
     developer_ergonomics: 54.8
     discoverability: 81.5
     governance: 18.2
@@ -230,9 +230,9 @@ score:
     conformance: first-party
     contracts:
       callable: 100.0
-      derived: 0
-      marker_coverage: 0.0
-      total: 5
+      derived: 6
+      marker_coverage: 100.0
+      total: 6
     mcp: first-party
     skills: first-party
   regulatory:
@@ -241,9 +241,9 @@ score:
     regime: Payments
     regime_id: payments
     score: 54.7
-  schema_version: 0.17.2
+  schema_version: 0.18.0
   scored_at: '2026-09-01'
-  trend: flat
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/brooklinen/refs/heads/main/screenshots/brooklinen-2026-08-07T162830.png
 security:
 - kind: authentication

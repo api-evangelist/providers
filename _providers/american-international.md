@@ -107,7 +107,7 @@ score:
     regime: Insurance
     regime_id: insurance
     score: 9.1
-  schema_version: 0.17.2
+  schema_version: 0.18.0
   scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/american-international/refs/heads/main/screenshots/american-international-2026-06-20T171919.png

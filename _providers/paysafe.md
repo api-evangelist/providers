@@ -195,12 +195,6 @@ score:
     discoverability: 74.1
     governance: 0.0
     operational_transparency: 52.6
-  needs_work:
-    note: Recorded so this provider's gaps can be attributed. Does not affect the composite above.
-    owner: catalog
-    reasons:
-    - owner: catalog
-      reason: no_resolvable_host
   previous_composite: 34.5
   regulatory:
     applies: true
@@ -208,7 +202,7 @@ score:
     regime: Payments
     regime_id: payments
     score: 25.0
-  schema_version: 0.17.2
+  schema_version: 0.18.0
   scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/paysafe/refs/heads/main/screenshots/paysafe-2026-06-20T191509.png

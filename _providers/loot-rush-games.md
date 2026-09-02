@@ -144,7 +144,6 @@ common:
   url: https://github.com/smelthq
 created: '2026-07-17'
 description: LootRush (Loot Rush Games) is a San Francisco company, backed by a16z, Paradigm and Y Combinator, that operates a crypto-native "global operating account" — wallets, cards, cryptocurrency withdrawals and transaction history for gamers and marketplaces. It began as a Steam-like platform for blockchain games with NFT rentals and has grown into a consumer crypto account and card product. For developers, LootRush publishes a Partner API (OpenAPI 3.1) exposing Withdraw, History and Connect (OAuth-style, consent-based user data) APIs, plus an official hosted, read-only Model Context Protocol (MCP) server that gives AI assistants scoped access to a user's own balances, cards, card transactions and account history.
-image: https://www.lootrush.com/favicon.ico
 layout: provider
 mcp_servers:
 - description: ''
@@ -161,20 +160,20 @@ overview: 'Loot Rush Games publishes 4 APIs on the [APIs.io](https://apis.io/) n
 random_paper: 20
 score:
   band: thin
-  composite: 33.9
+  composite: 33.6
   coverage:
     artifact_dirs: 15
-    catalog_gap: 78.0
+    catalog_gap: 80.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: 0.0
+  delta: -0.3
   facets:
     access_clarity: 0.0
     commercial_clarity: 0.0
     contract_governance: 4.5
     contract_quality: 56.1
     developer_ergonomics: 56.5
-    discoverability: 75.9
+    discoverability: 72.2
     governance: 4.5
     operational_transparency: 10.5
   previous_composite: 33.9
@@ -193,7 +192,7 @@ score:
     regime: Payments
     regime_id: payments
     score: 26.6
-  schema_version: 0.17.2
+  schema_version: 0.18.0
   scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/loot-rush-games/refs/heads/main/screenshots/loot-rush-games-2026-07-25T225531.png

@@ -122,7 +122,7 @@ score:
     regime: Health
     regime_id: health
     score: 20.0
-  schema_version: 0.17.2
+  schema_version: 0.18.0
   scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/ferrum-health/refs/heads/main/screenshots/ferrum-health-2026-07-25T214349.png

@@ -130,7 +130,7 @@ score:
   previous_composite: 15.5
   provenance:
     mcp: first-party
-  schema_version: 0.17.2
+  schema_version: 0.18.0
   scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/opgg/refs/heads/main/screenshots/opgg-2026-08-07T190721.png

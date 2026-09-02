@@ -142,7 +142,7 @@ score:
   previous_composite: 21.5
   provenance:
     conformance: first-party
-  schema_version: 0.17.2
+  schema_version: 0.18.0
   scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/kojo-technologies/refs/heads/main/screenshots/kojo-technologies-2026-07-25T224119.png

@@ -110,7 +110,7 @@ score:
     regime: Insurance
     regime_id: insurance
     score: 28.8
-  schema_version: 0.17.2
+  schema_version: 0.18.0
   scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/pasito/refs/heads/main/screenshots/pasito-2026-08-07T191530.png

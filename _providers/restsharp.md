@@ -156,7 +156,7 @@ score:
     governance: 9.8
     operational_transparency: 26.3
   previous_composite: 21.6
-  schema_version: 0.17.2
+  schema_version: 0.18.0
   scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/restsharp/refs/heads/main/screenshots/restsharp-2026-06-20T193032.png

@@ -30,7 +30,7 @@
       "access_clarity": 92.1
      },
      "scored_at": "2026-09-01",
-     "schema_version": "0.17.2",
+     "schema_version": "0.18.0",
      "agent_score": 22.3,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -62,12 +62,12 @@
      "slug": "kinde",
      "description": "Kinde is a developer-first authentication and customer identity platform that bundles authentication (passwords, passwordless, social, enterprise SSO), authorization (roles, permissions, scopes), B2B organizations, billing, and feature flags into a single integrated product. Founded in Australia, Kinde positions itself as \"the fully integrated developer platform — secure and monetize your product from day one\" and is used by over 70,000 developers. The platform exposes a Management API for tenant administration and an Account API for end-user self-service flows, both backed by published OpenAPI specs and a large open-source SDK ecosystem on GitHub (TypeScript, React, Next.js, Python, Go, Java, .NET, PHP, Ruby, Elixir, Flutter, iOS, Android, Expo, React Native, SvelteKit, Nuxt, Remix, TanStack Start) plus a Go-based CLI, a Terraform provider, and a Model Context Protocol (MCP) server for AI agents.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/kinde/refs/heads/main/screenshots/kinde-2026-06-20T184038.png",
-     "score": 65.5,
+     "score": 65.6,
      "band": "strong",
      "band_label": "Strong",
      "facets": {
       "discoverability": 61.1,
-      "contract_quality": 70.6,
+      "contract_quality": 71.0,
       "governance": 28.8,
       "contract_governance": 28.8,
       "operational_transparency": 57.9,
@@ -76,7 +76,7 @@
       "access_clarity": 75.0
      },
      "scored_at": "2026-09-01",
-     "schema_version": "0.17.2",
+     "schema_version": "0.18.0",
      "agent_score": 28.1,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -108,12 +108,12 @@
      "slug": "okta",
      "description": "Okta is the workforce identity incumbent — its Identity Cloud platform (also called the Okta Workforce Identity Platform) covers Single Sign-On, Adaptive MFA, Universal Directory, Lifecycle Management, Identity Governance, Privileged Access, Device Access, Identity Threat Protection, Identity Security Posture Management, Access Gateway, and API Access Management. Customer identity is handled by Auth0, which Okta acquired in 2021 and now operates as its consumer-facing identity arm. The platform now extends to securing AI agents via Okta for AI Agents and the Cross-App Access (XAA) protocol — an emerging OAuth profile based on the IETF ID-JAG draft for agent-to-app authorization. The Okta Management API is the primary developer surface, with an official MCP server (okta-mcp-server) exposing administrative operations to LLM agents under human-in-the-loop confirmation.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/okta/refs/heads/main/screenshots/okta-2026-08-07T190056.png",
-     "score": 61.0,
+     "score": 60.8,
      "band": "strong",
      "band_label": "Strong",
      "facets": {
       "discoverability": 53.7,
-      "contract_quality": 78.3,
+      "contract_quality": 77.4,
       "governance": 28.8,
       "contract_governance": 28.8,
       "operational_transparency": 42.1,
@@ -122,7 +122,7 @@
       "access_clarity": 61.8
      },
      "scored_at": "2026-09-01",
-     "schema_version": "0.17.2",
+     "schema_version": "0.18.0",
      "agent_score": 25.6,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -154,12 +154,12 @@
      "slug": "frontegg",
      "description": "Frontegg is a customer identity and access management (CIAM) platform for B2B SaaS. It provides self-serve authentication, multi-tenancy, role-based access control, single sign-on, SCIM provisioning, entitlements, and an admin portal that ships with the product. Frontegg publishes OpenAPI specifications for its Authentication and Identity, Account Management, Single Sign-On, SCIM Provisioning, Applications, Audits, Entitlements, Entitlements Agent (PDP), and Environment Authentication APIs, all served from regional gateway endpoints (api.frontegg.com, api.us.frontegg.com, api.au.frontegg.com, api.ca.frontegg.com).",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/frontegg/refs/heads/main/screenshots/frontegg-2026-08-17T083542.png",
-     "score": 58.6,
+     "score": 58.4,
      "band": "strong",
      "band_label": "Strong",
      "facets": {
       "discoverability": 66.7,
-      "contract_quality": 65.9,
+      "contract_quality": 65.0,
       "governance": 69.7,
       "contract_governance": 69.7,
       "operational_transparency": 68.4,
@@ -168,7 +168,7 @@
       "access_clarity": 52.6
      },
      "scored_at": "2026-09-01",
-     "schema_version": "0.17.2",
+     "schema_version": "0.18.0",
      "agent_score": 23.4,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -214,7 +214,7 @@
       "access_clarity": 60.5
      },
      "scored_at": "2026-09-01",
-     "schema_version": "0.17.2",
+     "schema_version": "0.18.0",
      "agent_score": 21.0,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -260,7 +260,7 @@
       "access_clarity": 57.9
      },
      "scored_at": "2026-09-01",
-     "schema_version": "0.17.2",
+     "schema_version": "0.18.0",
      "agent_score": 33.1,
      "agent_band": "agent-ready",
      "agent_dims": {
@@ -292,12 +292,12 @@
      "slug": "auth0",
      "description": "Auth0 (now part of Okta) is a leading identity-as-a-service platform providing authentication and authorization for applications, APIs, and AI agents. It implements OpenID Connect, OAuth 2.0, SAML 2.0, WS-Federation, and SCIM, and exposes a Management API (OpenAPI 3.1, 221 paths, 2,567 schemas), an Authentication API, a My Account API, a My Organization API, FGA (Fine-Grained Authorization, OpenFGA / Zanzibar-based), and Auth0 for AI Agents — covering Token Vault, asynchronous authorization, Auth for MCP, and FGA for RAG.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/auth0/refs/heads/main/screenshots/auth0-2026-06-20T172604.png",
-     "score": 56.3,
+     "score": 56.1,
      "band": "strong",
      "band_label": "Strong",
      "facets": {
       "discoverability": 59.3,
-      "contract_quality": 69.3,
+      "contract_quality": 68.4,
       "governance": 28.8,
       "contract_governance": 28.8,
       "operational_transparency": 42.1,
@@ -306,7 +306,7 @@
       "access_clarity": 51.3
      },
      "scored_at": "2026-09-01",
-     "schema_version": "0.17.2",
+     "schema_version": "0.18.0",
      "agent_score": 40.5,
      "agent_band": "agent-ready",
      "agent_dims": {
@@ -352,7 +352,7 @@
       "access_clarity": 34.2
      },
      "scored_at": "2026-09-01",
-     "schema_version": "0.17.2",
+     "schema_version": "0.18.0",
      "agent_score": 32.4,
      "agent_band": "agent-ready",
      "agent_dims": {
@@ -409,7 +409,7 @@
       "access_clarity": 55.3
      },
      "scored_at": "2026-09-01",
-     "schema_version": "0.17.2",
+     "schema_version": "0.18.0",
      "agent_score": 30.6,
      "agent_band": "agent-ready",
      "agent_dims": {
@@ -441,12 +441,12 @@
      "slug": "stytch",
      "description": "Stytch is an authentication and identity infrastructure provider. Its Consumer and B2B APIs cover passwordless authentication (Magic Links, OTP, OAuth, WebAuthn / Passkeys, TOTP), enterprise SSO (SAML / OIDC) and SCIM, sessions, M2M client-credentials tokens, and Device Fingerprinting / fraud defense. Connected Apps lets a Stytch-secured product act as an OAuth 2.0 / OIDC Authorization Server for third-party integrations, desktop apps, AI agents, and MCP servers — a posture Stytch describes as \"agent-ready\". A separate Management API plus a Terraform provider handle workspace configuration as code.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/stytch/refs/heads/main/screenshots/stytch-2026-06-20T194631.png",
-     "score": 51.5,
+     "score": 51.3,
      "band": "developing",
      "band_label": "Developing",
      "facets": {
       "discoverability": 68.5,
-      "contract_quality": 70.4,
+      "contract_quality": 69.6,
       "governance": 28.8,
       "contract_governance": 28.8,
       "operational_transparency": 18.4,
@@ -455,7 +455,7 @@
       "access_clarity": 36.8
      },
      "scored_at": "2026-09-01",
-     "schema_version": "0.17.2",
+     "schema_version": "0.18.0",
      "agent_score": 36.9,
      "agent_band": "agent-ready",
      "agent_dims": {
@@ -501,7 +501,7 @@
       "access_clarity": 50.0
      },
      "scored_at": "2026-09-01",
-     "schema_version": "0.17.2",
+     "schema_version": "0.18.0",
      "agent_score": 28.1,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -547,7 +547,7 @@
       "access_clarity": 52.6
      },
      "scored_at": "2026-09-01",
-     "schema_version": "0.17.2",
+     "schema_version": "0.18.0",
      "agent_score": 19.0,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -593,7 +593,7 @@
       "access_clarity": 57.9
      },
      "scored_at": "2026-09-01",
-     "schema_version": "0.17.2",
+     "schema_version": "0.18.0",
      "agent_score": 19.8,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -639,7 +639,7 @@
       "access_clarity": 34.2
      },
      "scored_at": "2026-09-01",
-     "schema_version": "0.17.2",
+     "schema_version": "0.18.0",
      "agent_score": 38.3,
      "agent_band": "agent-ready",
      "agent_dims": {
@@ -671,12 +671,12 @@
      "slug": "forgerock",
      "description": "ForgeRock, now part of Ping Identity, provides digital identity and access management solutions for secure authentication, authorization, and identity governance across cloud and hybrid environments.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/forgerock/refs/heads/main/screenshots/forgerock-2026-06-20T181426.png",
-     "score": 47.9,
+     "score": 48.1,
      "band": "developing",
      "band_label": "Developing",
      "facets": {
       "discoverability": 48.1,
-      "contract_quality": 61.5,
+      "contract_quality": 62.0,
       "governance": 9.8,
       "contract_governance": 9.8,
       "operational_transparency": 31.6,
@@ -685,7 +685,7 @@
       "access_clarity": 43.4
      },
      "scored_at": "2026-09-01",
-     "schema_version": "0.17.2",
+     "schema_version": "0.18.0",
      "agent_score": 28.1,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -731,7 +731,7 @@
       "access_clarity": 50.0
      },
      "scored_at": "2026-09-01",
-     "schema_version": "0.17.2",
+     "schema_version": "0.18.0",
      "agent_score": 22.3,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -777,7 +777,7 @@
       "access_clarity": 15.8
      },
      "scored_at": "2026-09-01",
-     "schema_version": "0.17.2",
+     "schema_version": "0.18.0",
      "agent_score": 28.1,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -809,12 +809,12 @@
      "slug": "clerk",
      "description": "Clerk is a drop-in authentication and user management platform for web and mobile applications. The product spans sign-up / sign-in flows, user profiles, multi-factor authentication, passkeys, social sign-on, magic links, bot and fraud detection, organizations (B2B / multi-tenant) with custom roles and invitations, and a Billing product for subscriptions. The Backend API at api.clerk.com is authenticated with a Bearer secret key and has an OpenAPI specification. Frontend SDKs cover Next.js, React, React Router, Expo, Astro, TanStack React Start, Chrome Extension, and vanilla JavaScript. Backend SDKs cover Node, Go, Python, Ruby, Java, PHP, and C#. Webhooks are delivered via Svix.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/clerk/refs/heads/main/screenshots/clerk-2026-06-20T174506.png",
-     "score": 46.6,
+     "score": 46.4,
      "band": "developing",
      "band_label": "Developing",
      "facets": {
       "discoverability": 75.9,
-      "contract_quality": 64.3,
+      "contract_quality": 63.6,
       "governance": 11.4,
       "contract_governance": 11.4,
       "operational_transparency": 52.6,
@@ -823,7 +823,7 @@
       "access_clarity": 39.5
      },
      "scored_at": "2026-09-01",
-     "schema_version": "0.17.2",
+     "schema_version": "0.18.0",
      "agent_score": 20.9,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -869,7 +869,7 @@
       "access_clarity": 57.9
      },
      "scored_at": "2026-09-01",
-     "schema_version": "0.17.2",
+     "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
       "regime": "Insurance",
@@ -922,7 +922,7 @@
       "access_clarity": 26.3
      },
      "scored_at": "2026-09-01",
-     "schema_version": "0.17.2",
+     "schema_version": "0.18.0",
      "agent_score": 19.8,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -968,7 +968,7 @@
       "access_clarity": 51.3
      },
      "scored_at": "2026-09-01",
-     "schema_version": "0.17.2",
+     "schema_version": "0.18.0",
      "agent_score": 29.7,
      "agent_band": "agent-ready",
      "agent_dims": {
@@ -1014,7 +1014,7 @@
       "access_clarity": 26.3
      },
      "scored_at": "2026-09-01",
-     "schema_version": "0.17.2",
+     "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
       "regime": "Insurance",
@@ -1067,7 +1067,7 @@
       "access_clarity": 47.4
      },
      "scored_at": "2026-09-01",
-     "schema_version": "0.17.2",
+     "schema_version": "0.18.0",
      "agent_score": 19.8,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -1113,7 +1113,7 @@
       "access_clarity": 47.4
      },
      "scored_at": "2026-09-01",
-     "schema_version": "0.17.2",
+     "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
       "regime": "Insurance",
@@ -1157,7 +1157,7 @@
      "band_label": "Developing",
      "facets": {
       "discoverability": 59.3,
-      "contract_quality": 49.0,
+      "contract_quality": 49.1,
       "governance": 0.0,
       "contract_governance": 0.0,
       "operational_transparency": 36.8,
@@ -1166,7 +1166,7 @@
       "access_clarity": 23.7
      },
      "scored_at": "2026-09-01",
-     "schema_version": "0.17.2",
+     "schema_version": "0.18.0",
      "agent_score": 33.7,
      "agent_band": "agent-ready",
      "agent_dims": {
@@ -1212,7 +1212,7 @@
       "access_clarity": 15.8
      },
      "scored_at": "2026-09-01",
-     "schema_version": "0.17.2",
+     "schema_version": "0.18.0",
      "agent_score": 19.8,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -1269,7 +1269,7 @@
       "access_clarity": 15.8
      },
      "scored_at": "2026-09-01",
-     "schema_version": "0.17.2",
+     "schema_version": "0.18.0",
      "agent_score": 21.9,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -1315,7 +1315,7 @@
       "access_clarity": 50.0
      },
      "scored_at": "2026-09-01",
-     "schema_version": "0.17.2",
+     "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
       "regime": "Insurance",
@@ -1368,7 +1368,7 @@
       "access_clarity": 15.8
      },
      "scored_at": "2026-09-01",
-     "schema_version": "0.17.2",
+     "schema_version": "0.18.0",
      "agent_score": 22.7,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -1414,7 +1414,7 @@
       "access_clarity": 15.8
      },
      "scored_at": "2026-09-01",
-     "schema_version": "0.17.2",
+     "schema_version": "0.18.0",
      "agent_score": 25.2,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -1460,7 +1460,7 @@
       "access_clarity": 44.7
      },
      "scored_at": "2026-09-01",
-     "schema_version": "0.17.2",
+     "schema_version": "0.18.0",
      "agent_score": 24.5,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -1506,7 +1506,7 @@
       "access_clarity": 15.8
      },
      "scored_at": "2026-09-01",
-     "schema_version": "0.17.2",
+     "schema_version": "0.18.0",
      "agent_score": 19.8,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -1552,7 +1552,7 @@
       "access_clarity": 15.8
      },
      "scored_at": "2026-09-01",
-     "schema_version": "0.17.2",
+     "schema_version": "0.18.0",
      "agent_score": 22.3,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -1598,7 +1598,7 @@
       "access_clarity": 21.1
      },
      "scored_at": "2026-09-01",
-     "schema_version": "0.17.2",
+     "schema_version": "0.18.0",
      "agent_score": 2.5,
      "agent_band": "human-only",
      "agent_dims": {
@@ -1644,7 +1644,7 @@
       "access_clarity": 23.7
      },
      "scored_at": "2026-09-01",
-     "schema_version": "0.17.2",
+     "schema_version": "0.18.0",
      "agent_score": 17.3,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -1690,7 +1690,7 @@
       "access_clarity": 23.7
      },
      "scored_at": "2026-09-01",
-     "schema_version": "0.17.2",
+     "schema_version": "0.18.0",
      "agent_score": 27.3,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -1736,7 +1736,7 @@
       "access_clarity": 15.8
      },
      "scored_at": "2026-09-01",
-     "schema_version": "0.17.2",
+     "schema_version": "0.18.0",
      "agent_score": 23.2,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -1782,7 +1782,7 @@
       "access_clarity": 15.8
      },
      "scored_at": "2026-09-01",
-     "schema_version": "0.17.2",
+     "schema_version": "0.18.0",
      "agent_score": 25.5,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -1838,7 +1838,7 @@
       "access_clarity": 23.7
      },
      "scored_at": "2026-09-01",
-     "schema_version": "0.17.2",
+     "schema_version": "0.18.0",
      "agent_score": 21.5,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -1883,7 +1883,7 @@
       "access_clarity": 15.8
      },
      "scored_at": "2026-09-01",
-     "schema_version": "0.17.2",
+     "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
       "regime": "Payments",

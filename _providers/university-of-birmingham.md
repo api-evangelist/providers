@@ -255,30 +255,31 @@ rules:
     warn: 2
   slug: university-of-birmingham-rules
 score:
-  band: developing
-  composite: 47.9
+  band: thin
+  composite: 33.4
   coverage:
     artifact_dirs: 19
-    catalog_gap: 41.8
+    catalog_gap: 53.8
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: 0.0
+  delta: -14.5
   facets:
-    access_clarity: 50.0
-    commercial_clarity: 50.0
+    access_clarity: 34.2
+    commercial_clarity: 34.2
     contract_governance: 25.0
-    contract_quality: 63.9
+    contract_quality: 26.5
     developer_ergonomics: 35.7
     discoverability: 59.3
     governance: 25.0
-    operational_transparency: 23.7
+    operational_transparency: 7.9
   previous_composite: 47.9
   provenance:
     agentic_access: derived
+    conformance: first-party
     contracts:
       callable: 100.0
-      derived: 0
-      marker_coverage: 0.0
+      derived: 1
+      marker_coverage: 100.0
       total: 1
   regulatory:
     applies: true
@@ -286,9 +287,9 @@ score:
     regime: Education & Research
     regime_id: education
     score: 46.3
-  schema_version: 0.17.2
+  schema_version: 0.18.0
   scored_at: '2026-09-01'
-  trend: flat
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/university-of-birmingham/refs/heads/main/screenshots/university-of-birmingham-2026-06-20T200137.png
 security:
 - kind: authentication

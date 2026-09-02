@@ -190,18 +190,18 @@ overview: 'Pixee publishes 5 APIs on the [APIs.io](https://apis.io/) network, in
 random_paper: 9
 score:
   band: developing
-  composite: 51.6
+  composite: 41.6
   coverage:
     artifact_dirs: 20
     catalog_gap: 75.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: 0.0
+  delta: -10.0
   facets:
     access_clarity: 47.4
     commercial_clarity: 47.4
     contract_governance: 4.5
-    contract_quality: 61.2
+    contract_quality: 21.1
     developer_ergonomics: 73.8
     discoverability: 81.5
     governance: 4.5
@@ -211,14 +211,14 @@ score:
     conformance: derived
     contracts:
       callable: 100.0
-      derived: 0
-      marker_coverage: 0.0
-      total: 5
+      derived: 6
+      marker_coverage: 100.0
+      total: 6
     mcp: derived
     skills: first-party
-  schema_version: 0.17.2
+  schema_version: 0.18.0
   scored_at: '2026-09-01'
-  trend: flat
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/pixee-ai/refs/heads/main/screenshots/pixee-ai-2026-08-17T081243.png
 security:
 - kind: authentication

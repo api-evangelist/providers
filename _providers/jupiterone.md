@@ -187,18 +187,18 @@ rate_limits:
   slug: jupiterone-rate-limits
 score:
   band: developing
-  composite: 54.2
+  composite: 53.9
   coverage:
     artifact_dirs: 15
     catalog_gap: 66.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: 0.0
+  delta: -0.3
   facets:
     access_clarity: 47.4
     commercial_clarity: 47.4
     contract_governance: 18.2
-    contract_quality: 42.7
+    contract_quality: 41.6
     developer_ergonomics: 66.7
     discoverability: 75.9
     governance: 18.2
@@ -207,7 +207,7 @@ score:
   provenance:
     conformance: first-party
     mcp: first-party
-  schema_version: 0.17.2
+  schema_version: 0.18.0
   scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/jupiterone/refs/heads/main/screenshots/jupiterone-2026-07-25T223332.png

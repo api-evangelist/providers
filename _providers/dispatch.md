@@ -242,18 +242,18 @@ overview: 'Dispatch publishes 11 APIs on the [APIs.io](https://apis.io/) network
 random_paper: 8
 score:
   band: thin
-  composite: 35.0
+  composite: 34.9
   coverage:
     artifact_dirs: 19
     catalog_gap: 78.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: 0.0
+  delta: -0.1
   facets:
     access_clarity: 27.6
     commercial_clarity: 27.6
     contract_governance: 4.5
-    contract_quality: 23.8
+    contract_quality: 23.5
     developer_ergonomics: 63.7
     discoverability: 68.5
     governance: 4.5
@@ -268,7 +268,7 @@ score:
       total: 11
     mcp: derived
     skills: derived
-  schema_version: 0.17.2
+  schema_version: 0.18.0
   scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/dispatch/refs/heads/main/screenshots/dispatch-2026-07-25T212107.png

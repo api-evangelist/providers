@@ -201,13 +201,13 @@ scopes:
   summary_line: OAuth 2.0 · no documented scopes
 score:
   band: thin
-  composite: 34.1
+  composite: 36.2
   coverage:
     artifact_dirs: 21
-    catalog_gap: 73.0
+    catalog_gap: 67.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: 0.0
+  delta: 2.1
   facets:
     access_clarity: 42.1
     commercial_clarity: 42.1
@@ -216,9 +216,13 @@ score:
     developer_ergonomics: 64.3
     discoverability: 75.9
     governance: 18.2
-    operational_transparency: 23.7
+    operational_transparency: 39.5
   previous_composite: 34.1
-  schema_version: 0.17.2
+  provenance:
+    conformance: first-party
+    mcp: first-party
+    skills: first-party
+  schema_version: 0.18.0
   scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/motadata/refs/heads/main/screenshots/motadata-2026-06-20T185837.png

@@ -190,18 +190,18 @@ rules:
   slug: zksync-asyncapi-spectral-rules
 score:
   band: developing
-  composite: 43.6
+  composite: 43.4
   coverage:
     artifact_dirs: 8
     catalog_gap: 51.5
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: 0.0
+  delta: -0.2
   facets:
     access_clarity: 28.9
     commercial_clarity: 28.9
     contract_governance: 13.6
-    contract_quality: 43.6
+    contract_quality: 42.7
     developer_ergonomics: 23.8
     discoverability: 74.1
     governance: 13.6
@@ -210,7 +210,7 @@ score:
     applies: true
     score: 100.0
   previous_composite: 43.6
-  schema_version: 0.17.2
+  schema_version: 0.18.0
   scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/zksync/refs/heads/main/screenshots/zksync-2026-06-20T201926.png

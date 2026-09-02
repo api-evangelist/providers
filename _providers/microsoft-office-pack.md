@@ -131,7 +131,6 @@ finops:
 - name: Microsoft Office Pack Finops
   service_category: API
   slug: microsoft-office-pack-finops
-image: https://www.microsoft.com/en-us/microsoft-365/blog/wp-content/uploads/sites/2/2020/04/Microsoft-365-logo.png
 layout: provider
 modified: '2026-04-28'
 name: Microsoft Office Pack
@@ -157,20 +156,20 @@ scopes:
   summary_line: 7 scopes · authorizationCode
 score:
   band: thin
-  composite: 38.1
+  composite: 37.7
   coverage:
     artifact_dirs: 11
-    catalog_gap: 86.0
+    catalog_gap: 88.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: 0.0
+  delta: -0.4
   facets:
     access_clarity: 42.1
     commercial_clarity: 42.1
     contract_governance: 0.0
     contract_quality: 53.7
     developer_ergonomics: 52.4
-    discoverability: 37.0
+    discoverability: 33.3
     governance: 0.0
     operational_transparency: 15.8
   previous_composite: 38.1
@@ -180,12 +179,12 @@ score:
       callable: 100.0
       derived: 0
       marker_coverage: 0.0
-      total: 3
+      total: 4
   regulatory:
     applies: false
     note: provider carries no tags; regime could not be determined
     undetermined: true
-  schema_version: 0.17.2
+  schema_version: 0.18.0
   scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/microsoft-office-pack/refs/heads/main/screenshots/microsoft-office-pack-2026-06-20T185514.png

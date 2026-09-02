@@ -80,8 +80,6 @@ score:
     owner: catalog
     reasons:
     - owner: catalog
-      reason: not_a_repo
-    - owner: catalog
       reason: no_resolvable_host
     - owner: catalog
       reason: never_enriched
@@ -90,7 +88,7 @@ score:
     applies: false
     note: provider carries no tags; regime could not be determined
     undetermined: true
-  schema_version: 0.17.2
+  schema_version: 0.18.0
   scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/altice-usa/refs/heads/main/screenshots/altice-usa-2026-06-20T171549.png

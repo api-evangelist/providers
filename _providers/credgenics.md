@@ -208,7 +208,7 @@ score:
     access_clarity: 43.4
     commercial_clarity: 43.4
     contract_governance: 18.2
-    contract_quality: 22.4
+    contract_quality: 22.1
     developer_ergonomics: 16.1
     discoverability: 75.9
     governance: 18.2
@@ -224,7 +224,7 @@ score:
       total: 3
     mcp: derived
     skills: derived
-  schema_version: 0.17.2
+  schema_version: 0.18.0
   scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/credgenics/refs/heads/main/screenshots/credgenics-2026-07-25T210716.png

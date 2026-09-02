@@ -119,7 +119,7 @@ score:
     regime: Health
     regime_id: health
     score: 13.8
-  schema_version: 0.17.2
+  schema_version: 0.18.0
   scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/idexx-labs/refs/heads/main/screenshots/idexx-labs-2026-07-25T222026.png

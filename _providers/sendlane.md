@@ -279,18 +279,18 @@ rate_limits:
   slug: sendlane-rate-limits
 score:
   band: strong
-  composite: 63.8
+  composite: 63.6
   coverage:
     artifact_dirs: 25
     catalog_gap: 47.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: 0.0
+  delta: -0.2
   facets:
     access_clarity: 84.2
     commercial_clarity: 84.2
     contract_governance: 4.5
-    contract_quality: 68.8
+    contract_quality: 67.8
     developer_ergonomics: 70.8
     discoverability: 68.5
     governance: 4.5
@@ -302,10 +302,10 @@ score:
       callable: 100.0
       derived: 0
       marker_coverage: 0.0
-      total: 1
+      total: 14
     mcp: derived
     skills: derived
-  schema_version: 0.17.2
+  schema_version: 0.18.0
   scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/sendlane/refs/heads/main/screenshots/sendlane-2026-06-20T193659.png

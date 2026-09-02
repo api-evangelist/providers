@@ -124,7 +124,7 @@ score:
     applies: true
     score: 65.0
   previous_composite: 21.6
-  schema_version: 0.17.2
+  schema_version: 0.18.0
   scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/habitat-lab/refs/heads/main/screenshots/habitat-lab-2026-06-20T182448.png

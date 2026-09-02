@@ -257,12 +257,6 @@ score:
     discoverability: 59.3
     governance: 25.0
     operational_transparency: 7.9
-  needs_work:
-    note: Recorded so this provider's gaps can be attributed. Does not affect the composite above.
-    owner: catalog
-    reasons:
-    - owner: catalog
-      reason: no_resolvable_host
   previous_composite: 36.2
   provenance:
     agentic_access: derived
@@ -271,7 +265,7 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 4
-  schema_version: 0.17.2
+  schema_version: 0.18.0
   scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/zdnet/refs/heads/main/screenshots/zdnet-2026-06-20T201804.png

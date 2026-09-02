@@ -154,7 +154,7 @@ score:
   previous_composite: 20.2
   provenance:
     conformance: first-party
-  schema_version: 0.17.2
+  schema_version: 0.18.0
   scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/lendbuzz/refs/heads/main/screenshots/lendbuzz-2026-08-07T171537.png

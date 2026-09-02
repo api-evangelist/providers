@@ -392,16 +392,16 @@ score:
     agentic_access: derived
     contracts:
       callable: 100.0
-      derived: 4
+      derived: 5
       marker_coverage: 100.0
-      total: 4
+      total: 5
   regulatory:
     applies: true
     matched_via: tags
     regime: Health
     regime_id: health
     score: 21.3
-  schema_version: 0.17.2
+  schema_version: 0.18.0
   scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/nutritionix/refs/heads/main/screenshots/nutritionix-2026-06-20T190531.png

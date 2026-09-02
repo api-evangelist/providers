@@ -241,12 +241,12 @@ score:
     conformance: first-party
     contracts:
       callable: 100.0
-      derived: 2
+      derived: 3
       marker_coverage: 100.0
-      total: 2
+      total: 3
     mcp: first-party
     skills: derived
-  schema_version: 0.17.2
+  schema_version: 0.18.0
   scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/searchapi/refs/heads/main/screenshots/searchapi-2026-08-17T081744.png

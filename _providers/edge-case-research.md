@@ -126,7 +126,7 @@ score:
   previous_composite: 11.4
   provenance:
     mcp: first-party
-  schema_version: 0.17.2
+  schema_version: 0.18.0
   scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/edge-case-research/refs/heads/main/screenshots/edge-case-research-2026-08-07T164729.png

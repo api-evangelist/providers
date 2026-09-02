@@ -472,18 +472,18 @@ scopes:
   summary_line: 1 scope · implicit
 score:
   band: strong
-  composite: 56.3
+  composite: 56.4
   coverage:
     artifact_dirs: 19
     catalog_gap: 35.5
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: 0.0
+  delta: 0.1
   facets:
     access_clarity: 47.4
     commercial_clarity: 47.4
     contract_governance: 28.8
-    contract_quality: 30.4
+    contract_quality: 31.0
     developer_ergonomics: 83.3
     discoverability: 74.1
     governance: 28.8
@@ -495,11 +495,11 @@ score:
   provenance:
     agentic_access: derived
     contracts:
-      callable: 0.0
-      derived: 5
+      callable: 75.0
+      derived: 8
       marker_coverage: 100.0
-      total: 5
-  schema_version: 0.17.2
+      total: 8
+  schema_version: 0.18.0
   scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/azure-log-analytics/refs/heads/main/screenshots/azure-log-analytics-2026-07-25T202128.png

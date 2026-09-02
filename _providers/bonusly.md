@@ -184,7 +184,7 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 6
-  schema_version: 0.17.2
+  schema_version: 0.18.0
   scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/bonusly/refs/heads/main/screenshots/bonusly-2026-07-25T203601.png

@@ -259,18 +259,18 @@ rate_limits:
   slug: paubox-rate-limits
 score:
   band: exemplar
-  composite: 72.1
+  composite: 71.9
   coverage:
     artifact_dirs: 21
     catalog_gap: 51.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: 0.0
+  delta: -0.2
   facets:
     access_clarity: 92.1
     commercial_clarity: 92.1
     contract_governance: 18.2
-    contract_quality: 65.5
+    contract_quality: 64.7
     developer_ergonomics: 78.6
     discoverability: 81.5
     governance: 18.2
@@ -282,7 +282,7 @@ score:
       callable: 100.0
       derived: 0
       marker_coverage: 0.0
-      total: 3
+      total: 12
     mcp: first-party
     skills: first-party
   regulatory:
@@ -299,7 +299,7 @@ score:
     regime: Health
     regime_id: health
     score: 43.8
-  schema_version: 0.17.2
+  schema_version: 0.18.0
   scored_at: '2026-09-01'
   trend: flat
 security:

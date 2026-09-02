@@ -299,7 +299,7 @@ score:
     access_clarity: 50.0
     commercial_clarity: 50.0
     contract_governance: 18.2
-    contract_quality: 44.5
+    contract_quality: 44.6
     developer_ergonomics: 47.0
     discoverability: 81.5
     governance: 18.2
@@ -308,13 +308,13 @@ score:
   provenance:
     conformance: first-party
     contracts:
-      callable: 62.5
+      callable: 66.7
       derived: 0
       marker_coverage: 0.0
-      total: 24
+      total: 21
     mcp: derived
     skills: derived
-  schema_version: 0.17.2
+  schema_version: 0.18.0
   scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/luminance/refs/heads/main/screenshots/luminance-2026-08-07T171838.png

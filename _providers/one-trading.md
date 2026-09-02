@@ -210,7 +210,7 @@ score:
     access_clarity: 38.2
     commercial_clarity: 38.2
     contract_governance: 4.5
-    contract_quality: 24.2
+    contract_quality: 23.9
     developer_ergonomics: 49.4
     discoverability: 75.9
     governance: 4.5
@@ -231,7 +231,7 @@ score:
     regime: Securities & Market Data
     regime_id: securities_market_data
     score: 41.7
-  schema_version: 0.17.2
+  schema_version: 0.18.0
   scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/one-trading/refs/heads/main/screenshots/one-trading-2026-08-07T190256.png

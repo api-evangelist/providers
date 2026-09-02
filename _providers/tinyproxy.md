@@ -167,7 +167,7 @@ score:
     applies: true
     score: 60.0
   previous_composite: 29.2
-  schema_version: 0.17.2
+  schema_version: 0.18.0
   scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/tinyproxy/refs/heads/main/screenshots/tinyproxy-2026-06-20T195408.png

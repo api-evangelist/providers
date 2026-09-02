@@ -146,7 +146,6 @@ finops:
 - name: Microsoft Office Applications Finops
   service_category: API
   slug: microsoft-office-applications-finops
-image: https://www.microsoft.com/en-us/microsoft-365/blog/wp-content/uploads/sites/2/2020/04/Microsoft-365-logo.png
 layout: provider
 modified: '2026-04-28'
 name: Microsoft Office Applications
@@ -172,20 +171,20 @@ scopes:
   summary_line: 7 scopes · authorizationCode
 score:
   band: developing
-  composite: 41.4
+  composite: 41.0
   coverage:
     artifact_dirs: 11
-    catalog_gap: 71.0
+    catalog_gap: 73.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: 0.0
+  delta: -0.4
   facets:
     access_clarity: 36.8
     commercial_clarity: 36.8
     contract_governance: 0.0
     contract_quality: 50.3
     developer_ergonomics: 64.3
-    discoverability: 72.2
+    discoverability: 68.5
     governance: 0.0
     operational_transparency: 10.5
   previous_composite: 41.4
@@ -195,8 +194,8 @@ score:
       callable: 100.0
       derived: 0
       marker_coverage: 0.0
-      total: 3
-  schema_version: 0.17.2
+      total: 4
+  schema_version: 0.18.0
   scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/microsoft-office-applications/refs/heads/main/screenshots/microsoft-office-applications-2026-06-20T185511.png

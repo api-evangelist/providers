@@ -50,7 +50,6 @@ common:
   url: https://www.fnni.com
 created: '2026-05-04'
 description: First National of Nebraska, Inc. is a privately held bank holding company headquartered in Omaha, Nebraska. Through its subsidiaries, including First National Bank of Omaha, the company provides a full range of consumer, commercial, and agricultural banking services along with credit card processing and merchant services. It is one of the largest privately owned banking companies in the United States.
-image: https://avatars.githubusercontent.com/u/api-evangelist
 layout: provider
 modified: '2026-05-04'
 name: First National of Nebraska
@@ -60,20 +59,20 @@ overview: First National of Nebraska is profiled on the [APIs.io](https://apis.i
 random_paper: 10
 score:
   band: minimal
-  composite: 0.9
+  composite: 0.5
   coverage:
     artifact_dirs: 2
-    catalog_gap: 91.0
+    catalog_gap: 93.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: 0.0
+  delta: -0.4
   facets:
     access_clarity: 0.0
     commercial_clarity: 0.0
     contract_governance: 0.0
     contract_quality: 0.0
     developer_ergonomics: 0.0
-    discoverability: 44.4
+    discoverability: 40.7
     governance: 0.0
     operational_transparency: 0.0
   previous_composite: 0.9
@@ -83,7 +82,7 @@ score:
     regime: Banking & Open Finance
     regime_id: banking_open_finance
     score: 7.6
-  schema_version: 0.17.2
+  schema_version: 0.18.0
   scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/first-national-of-nebraska/refs/heads/main/screenshots/first-national-of-nebraska-2026-06-20T181238.png

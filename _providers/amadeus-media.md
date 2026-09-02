@@ -440,11 +440,11 @@ score:
     conformance: derived
     contracts:
       callable: 0.0
-      derived: 3
+      derived: 4
       marker_coverage: 100.0
-      total: 3
+      total: 4
     mcp: derived
-  schema_version: 0.17.2
+  schema_version: 0.18.0
   scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/amadeus-media/refs/heads/main/screenshots/amadeus-media-2026-07-25T195903.png

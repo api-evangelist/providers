@@ -118,18 +118,18 @@ overview: 'Tanaza publishes 1 API on the [APIs.io](https://apis.io/) network. Ta
 random_paper: 9
 score:
   band: emerging
-  composite: 17.7
+  composite: 17.4
   coverage:
     artifact_dirs: 4
     catalog_gap: 83.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: 0.0
+  delta: -0.3
   facets:
     access_clarity: 0.0
     commercial_clarity: 0.0
     contract_governance: 0.0
-    contract_quality: 42.7
+    contract_quality: 41.6
     developer_ergonomics: 10.7
     discoverability: 66.7
     governance: 0.0
@@ -141,7 +141,7 @@ score:
     regime: Telecommunications
     regime_id: telecommunications
     score: 8.3
-  schema_version: 0.17.2
+  schema_version: 0.18.0
   scored_at: '2026-09-01'
   trend: flat
 security:

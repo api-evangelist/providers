@@ -573,7 +573,7 @@ score:
     access_clarity: 34.2
     commercial_clarity: 34.2
     contract_governance: 13.6
-    contract_quality: 71.0
+    contract_quality: 71.1
     developer_ergonomics: 40.5
     discoverability: 66.7
     governance: 13.6
@@ -582,11 +582,11 @@ score:
   provenance:
     agentic_access: derived
     contracts:
-      callable: 0.0
+      callable: 31.3
       derived: 0
       marker_coverage: 0.0
       total: 32
-  schema_version: 0.17.2
+  schema_version: 0.18.0
   scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/juniper-networks/refs/heads/main/screenshots/juniper-networks-2026-06-20T183831.png

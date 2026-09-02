@@ -16,12 +16,12 @@
      "slug": "hubspot",
      "description": "HubSpot is an AI-native customer platform built around the Smart CRM, unifying marketing, sales, customer service, content, commerce and operations on a single shared customer record. Its developer platform exposes that record through a broad REST surface at api.hubapi.com covering CRM objects and associations, engagements, lists and segments, marketing and transactional email, CMS pages, blogs and HubDB, conversations, commerce payments and subscriptions, custom workflow actions, webhooks and analytics events. HubSpot ships first-party Node, Python, Ruby and PHP clients, a CLI, OAuth 2.0 with a granular scope model, a public developer changelog, date-based API versioning and a hosted MCP server for agents.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/hubspot/refs/heads/main/screenshots/hubspot-2026-06-20T182920.png",
-     "score": 80.4,
+     "score": 80.2,
      "band": "exemplar",
      "band_label": "Exemplar",
      "facets": {
       "discoverability": 75.9,
-      "contract_quality": 83.3,
+      "contract_quality": 82.4,
       "governance": 31.8,
       "contract_governance": 31.8,
       "operational_transparency": 71.1,
@@ -30,7 +30,7 @@
       "access_clarity": 100.0
      },
      "scored_at": "2026-09-01",
-     "schema_version": "0.17.2",
+     "schema_version": "0.18.0",
      "agent_score": 52.2,
      "agent_band": "agent-ready",
      "agent_dims": {
@@ -62,12 +62,12 @@
      "slug": "adobe",
      "description": "Adobe provides APIs and developer resources for its creative, document, and experience cloud platforms. Developers can integrate with PDF services, Creative Cloud, generative AI (Firefly), analytics, e-commerce, e-signatures, and many other Adobe products and services.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/adobe/refs/heads/main/screenshots/adobe-2026-07-25T181652.png",
-     "score": 78.2,
+     "score": 78.0,
      "band": "exemplar",
      "band_label": "Exemplar",
      "facets": {
       "discoverability": 57.4,
-      "contract_quality": 74.2,
+      "contract_quality": 73.2,
       "governance": 47.0,
       "contract_governance": 47.0,
       "operational_transparency": 71.1,
@@ -76,7 +76,7 @@
       "access_clarity": 100.0
      },
      "scored_at": "2026-09-01",
-     "schema_version": "0.17.2",
+     "schema_version": "0.18.0",
      "agent_score": 41.9,
      "agent_band": "agent-ready",
      "agent_dims": {
@@ -107,12 +107,12 @@
      "slug": "ghost-org",
      "description": "Ghost is an open-source (MIT) publishing platform for professional publications, newsletters, memberships, and paid subscriptions. It can be self-hosted for free or run as the managed Ghost(Pro) service, with all Ghost(Pro) revenue funding the non-profit Ghost Foundation. Every Ghost site exposes two documented public REST APIs under https://{site}/ghost/api/. The Content API is a read-only, key-authenticated interface for delivering published posts, pages, tags, authors, tiers, and settings to front-ends and static sites. The Admin API is a read-write, token-authenticated (JWT) interface for managing posts, pages, members, tags, tiers, offers, newsletters, users, media, themes, and webhooks.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/ghost-org/refs/heads/main/screenshots/ghost-org-2026-07-25T215752.png",
-     "score": 75.1,
+     "score": 75.2,
      "band": "exemplar",
      "band_label": "Exemplar",
      "facets": {
       "discoverability": 57.4,
-      "contract_quality": 69.0,
+      "contract_quality": 69.4,
       "governance": 31.8,
       "contract_governance": 31.8,
       "operational_transparency": 81.6,
@@ -121,7 +121,7 @@
       "access_clarity": 84.2
      },
      "scored_at": "2026-09-01",
-     "schema_version": "0.17.2",
+     "schema_version": "0.18.0",
      "agent_score": 30.8,
      "agent_band": "agent-ready",
      "agent_dims": {
@@ -153,12 +153,12 @@
      "slug": "optimizely",
      "description": "Optimizely is a digital experience platform that provides A/B testing, feature flagging, content management, and commerce solutions for enterprises. Their developer platform offers a comprehensive suite of REST and GraphQL APIs spanning experimentation, content delivery, customer data, campaign management, and e-commerce capabilities.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/optimizely/refs/heads/main/screenshots/optimizely-2026-08-07T190808.png",
-     "score": 72.5,
+     "score": 72.2,
      "band": "exemplar",
      "band_label": "Exemplar",
      "facets": {
       "discoverability": 87.0,
-      "contract_quality": 70.7,
+      "contract_quality": 69.6,
       "governance": 47.0,
       "contract_governance": 47.0,
       "operational_transparency": 84.2,
@@ -167,7 +167,7 @@
       "access_clarity": 76.3
      },
      "scored_at": "2026-09-01",
-     "schema_version": "0.17.2",
+     "schema_version": "0.18.0",
      "agent_score": 41.6,
      "agent_band": "agent-ready",
      "agent_dims": {
@@ -198,12 +198,12 @@
      "slug": "beehiiv",
      "description": "beehiiv is a newsletter publishing platform offering email publishing, subscriber management, paid subscriptions, an ad network, referrals, polls, automations, segments, webhooks, and analytics for creators and media companies. Founded in 2021 by former Morning Brew operators and headquartered in New York City.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/beehiiv/refs/heads/main/screenshots/beehiiv-2026-06-20T173135.png",
-     "score": 71.0,
+     "score": 70.7,
      "band": "exemplar",
      "band_label": "Exemplar",
      "facets": {
       "discoverability": 75.9,
-      "contract_quality": 72.3,
+      "contract_quality": 71.4,
       "governance": 31.8,
       "contract_governance": 31.8,
       "operational_transparency": 55.3,
@@ -212,8 +212,8 @@
       "access_clarity": 100.0
      },
      "scored_at": "2026-09-01",
-     "schema_version": "0.17.2",
-     "agent_score": 52.7,
+     "schema_version": "0.18.0",
+     "agent_score": 56.0,
      "agent_band": "agent-ready",
      "agent_dims": {
       "spec_presence": true,
@@ -225,7 +225,7 @@
       "error_semantics": "verified",
       "openapi_examples": false,
       "rate_limit_signal": "documented",
-      "event_surface_described": "derived",
+      "event_surface_described": true,
       "agent_skills": true,
       "well_known_catalog": true,
       "consent_identity": false,
@@ -244,12 +244,12 @@
      "slug": "bloomreach",
      "description": "Bloomreach is a commerce experience cloud combining an e-commerce search and merchandising engine (Discovery), a marketing automation platform and customer data platform (Engagement, formerly Exponea), and a headless content management system (Content, formerly Hippo/brXM). It publishes REST APIs for product and category search, autosuggest, recommendation widgets, catalog management and indexing, customer tracking and segmentation, email and SMS campaigns, and headless content delivery and management. Its Loomi AI layer adds agentic capabilities, and Loomi Connect exposes the estate to AI agents as an OAuth-protected remote MCP server carrying more than 160 tools across marketing, analytics, search and data hub.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/bloomreach/refs/heads/main/screenshots/bloomreach-2026-08-17T083224.png",
-     "score": 70.8,
+     "score": 70.6,
      "band": "exemplar",
      "band_label": "Exemplar",
      "facets": {
       "discoverability": 66.7,
-      "contract_quality": 77.4,
+      "contract_quality": 76.4,
       "governance": 43.2,
       "contract_governance": 43.2,
       "operational_transparency": 81.6,
@@ -258,7 +258,7 @@
       "access_clarity": 86.8
      },
      "scored_at": "2026-09-01",
-     "schema_version": "0.17.2",
+     "schema_version": "0.18.0",
      "agent_score": 58.5,
      "agent_band": "agent-ready",
      "agent_dims": {
@@ -290,12 +290,12 @@
      "slug": "adobe-suite",
      "description": "Adobe operates one of the largest first-party API estates in software: 70 published OpenAPI and Swagger contracts covering 2,857 operations across Creative Cloud, Document Cloud and Experience Cloud. The surface spans generative AI (Firefly image, video, audio and Substance 3D), creative automation (Photoshop, Lightroom, Illustrator, InDesign, Express), document services (PDF Services, Extract, Accessibility Auto-Tag, Acrobat Sign), marketing and data (Analytics, Experience Platform, Journey Optimizer, Target, Campaign, Marketo Engage), commerce, work management (Workfront), and platform operations (Cloud Manager, User Management, Adobe I/O Events, Status). Every API authenticates through Adobe Identity Management Services (IMS) with an OAuth 2.0 access token plus an x-api-key client ID, provisioned per project and workspace in the Adobe Developer Console.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/adobe-suite/refs/heads/main/screenshots/adobe-suite-2026-06-20T165033.png",
-     "score": 69.5,
+     "score": 69.2,
      "band": "exemplar",
      "band_label": "Exemplar",
      "facets": {
       "discoverability": 66.7,
-      "contract_quality": 64.5,
+      "contract_quality": 63.3,
       "governance": 4.5,
       "contract_governance": 4.5,
       "operational_transparency": 63.2,
@@ -304,7 +304,7 @@
       "access_clarity": 100.0
      },
      "scored_at": "2026-09-01",
-     "schema_version": "0.17.2",
+     "schema_version": "0.18.0",
      "agent_score": 62.3,
      "agent_band": "agent-native",
      "agent_dims": {
@@ -335,12 +335,12 @@
      "slug": "prismic",
      "description": "Prismic is a headless CMS and page builder that lets marketing teams create and manage website content independently while developers work in their preferred stack. Content is modelled as custom types and reusable \"slices\", authored in a visual Page Builder or locally in Slice Machine, and delivered over a CDN-backed API. Prismic runs seven public HTTP APIs across four hosts: a Content API and Repository API for reads, a beta Tags API, a Types API for content models, an Asset API for the media library, a Migration API for bulk content creation, and a read-only GraphQL endpoint whose schema is generated per repository from the customer's own content model. Every read is addressed to a content \"ref\" naming a specific published version. Prismic also ships a first-party CLI, a published Agent Skill, and a remote OAuth-protected MCP server with sixteen tools, and supports Next.js, Nuxt and SvelteKit with first-party rendering components.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/prismic/refs/heads/main/screenshots/prismic-2026-06-20T192117.png",
-     "score": 69.2,
+     "score": 68.9,
      "band": "exemplar",
      "band_label": "Exemplar",
      "facets": {
       "discoverability": 88.9,
-      "contract_quality": 48.9,
+      "contract_quality": 47.9,
       "governance": 18.2,
       "contract_governance": 18.2,
       "operational_transparency": 84.2,
@@ -349,7 +349,7 @@
       "access_clarity": 84.2
      },
      "scored_at": "2026-09-01",
-     "schema_version": "0.17.2",
+     "schema_version": "0.18.0",
      "agent_score": 48.4,
      "agent_band": "agent-ready",
      "agent_dims": {
@@ -380,12 +380,12 @@
      "slug": "agorapulse",
      "description": "Agorapulse is a social media management and CRM platform offering a REST API for publishing content, managing inboxes, monitoring social listening, and accessing performance analytics across Facebook, Instagram, LinkedIn, YouTube, TikTok, and Threads.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/agorapulse/refs/heads/main/screenshots/agorapulse-2026-06-20T170402.png",
-     "score": 67.7,
+     "score": 67.4,
      "band": "exemplar",
      "band_label": "Exemplar",
      "facets": {
       "discoverability": 75.9,
-      "contract_quality": 68.5,
+      "contract_quality": 67.5,
       "governance": 14.4,
       "contract_governance": 14.4,
       "operational_transparency": 76.3,
@@ -394,7 +394,7 @@
       "access_clarity": 100.0
      },
      "scored_at": "2026-09-01",
-     "schema_version": "0.17.2",
+     "schema_version": "0.18.0",
      "agent_score": 50.0,
      "agent_band": "agent-ready",
      "agent_dims": {
@@ -426,12 +426,12 @@
      "slug": "canva",
      "description": "Canva is the visual design platform used by hundreds of millions of people, and it exposes four distinct developer surfaces: the Connect APIs (a REST API for creating, autofilling, exporting, resizing, importing and commenting on designs from another application), the Apps SDK (React apps that run inside the Canva editor), the SCIM and Audit Logs APIs for enterprise identity and compliance, and the partner-gated Print API. Canva publishes its own OpenAPI description, a dated changelog, per-product llms.txt indexes, a hosted MCP server and a public set of Agent Skills.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/canva/refs/heads/main/screenshots/canva-2026-06-20T173931.png",
-     "score": 67.0,
+     "score": 66.7,
      "band": "exemplar",
      "band_label": "Exemplar",
      "facets": {
       "discoverability": 77.8,
-      "contract_quality": 79.2,
+      "contract_quality": 78.1,
       "governance": 31.8,
       "contract_governance": 31.8,
       "operational_transparency": 60.5,
@@ -440,7 +440,7 @@
       "access_clarity": 55.3
      },
      "scored_at": "2026-09-01",
-     "schema_version": "0.17.2",
+     "schema_version": "0.18.0",
      "agent_score": 47.0,
      "agent_band": "agent-ready",
      "agent_dims": {
@@ -478,16 +478,62 @@
    "shown": 22,
    "providers": [
     {
+     "name": "Semrush",
+     "slug": "semrush",
+     "description": "SEMrush is an all-in-one digital marketing tool that helps businesses improve their online visibility and attract more customers. This powerful software provides a range of tools and features for keyword research, website analysis, competitive analysis, and more. With SEMrush, businesses can track their online rankings, discover new keywords to target, analyze their competitors' strategies, and optimize their website for better search engine performance.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/semrush/refs/heads/main/screenshots/semrush-2026-06-20T193655.png",
+     "score": 65.0,
+     "band": "strong",
+     "band_label": "Strong",
+     "facets": {
+      "discoverability": 75.9,
+      "contract_quality": 54.2,
+      "governance": 18.2,
+      "contract_governance": 18.2,
+      "operational_transparency": 68.4,
+      "developer_ergonomics": 63.7,
+      "commercial_clarity": 100.0,
+      "access_clarity": 100.0
+     },
+     "scored_at": "2026-09-01",
+     "schema_version": "0.18.0",
+     "agent_score": 27.0,
+     "agent_band": "agent-aware",
+     "agent_dims": {
+      "spec_presence": true,
+      "agentic_access": "derived",
+      "reversibility_documented": false,
+      "mcp_server": "documented",
+      "auth_clarity": "bearer",
+      "idempotency": false,
+      "error_semantics": "documented",
+      "openapi_examples": false,
+      "rate_limit_signal": "documented",
+      "event_surface_described": false,
+      "agent_skills": "derived",
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
+     "tier": "Sold to the advertiser (buy side)",
+     "rank": 11
+    },
+    {
      "name": "Dow Jones",
      "slug": "dow-jones",
      "description": "Dow Jones is a financial news and information company, publisher of The Wall Street Journal, Barron's, MarketWatch, and Dow Jones Newswires, and operator of the Factiva news archive and the Risk & Compliance data business. Its Developer Platform (developer.dowjones.com) publishes REST APIs for entity screening and monitoring, third-party risk, due-diligence reports, risk profile search, and news content (Newswires real-time search, top stories, calendars, newsletters), secured by the Dow Jones Identity Service (OAuth 2.0 / OIDC) or Factiva user keys.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/dow-jones/refs/heads/main/screenshots/dow-jones-2026-06-20T180210.png",
-     "score": 65.1,
+     "score": 64.6,
      "band": "strong",
      "band_label": "Strong",
      "facets": {
       "discoverability": 81.5,
-      "contract_quality": 68.0,
+      "contract_quality": 65.9,
       "governance": 18.2,
       "contract_governance": 18.2,
       "operational_transparency": 76.3,
@@ -496,7 +542,7 @@
       "access_clarity": 39.5
      },
      "scored_at": "2026-09-01",
-     "schema_version": "0.17.2",
+     "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
       "regime": "Securities & Market Data",
@@ -528,110 +574,19 @@
       "agentic_commerce": false
      },
      "tier": "Sold to the publisher (sell side)",
-     "rank": 11
-    },
-    {
-     "name": "Semrush",
-     "slug": "semrush",
-     "description": "SEMrush is an all-in-one digital marketing tool that helps businesses improve their online visibility and attract more customers. This powerful software provides a range of tools and features for keyword research, website analysis, competitive analysis, and more. With SEMrush, businesses can track their online rankings, discover new keywords to target, analyze their competitors' strategies, and optimize their website for better search engine performance.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/semrush/refs/heads/main/screenshots/semrush-2026-06-20T193655.png",
-     "score": 65.0,
-     "band": "strong",
-     "band_label": "Strong",
-     "facets": {
-      "discoverability": 75.9,
-      "contract_quality": 54.2,
-      "governance": 18.2,
-      "contract_governance": 18.2,
-      "operational_transparency": 68.4,
-      "developer_ergonomics": 63.7,
-      "commercial_clarity": 100.0,
-      "access_clarity": 100.0
-     },
-     "scored_at": "2026-09-01",
-     "schema_version": "0.17.2",
-     "agent_score": 27.0,
-     "agent_band": "agent-aware",
-     "agent_dims": {
-      "spec_presence": true,
-      "agentic_access": "derived",
-      "reversibility_documented": false,
-      "mcp_server": "documented",
-      "auth_clarity": "bearer",
-      "idempotency": false,
-      "error_semantics": "documented",
-      "openapi_examples": false,
-      "rate_limit_signal": "documented",
-      "event_surface_described": false,
-      "agent_skills": "derived",
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false,
-      "delegated_identity": false,
-      "protected_resource_metadata": false,
-      "dynamic_client_registration": false,
-      "agentic_commerce": false
-     },
-     "tier": "Sold to the advertiser (buy side)",
      "rank": 12
-    },
-    {
-     "name": "Postiz",
-     "slug": "postiz",
-     "description": "Postiz is an open-source social media scheduling and management platform for posting across 30+ social, video, community, and blogging channels from a single calendar. It ships as a free AGPL-licensed self-hosted app and as a paid managed Cloud. The Postiz Public API uses simple API-key auth to list connected channels, upload media, and create, schedule, list, and delete posts.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/postiz/refs/heads/main/screenshots/postiz-2026-08-17T080412.png",
-     "score": 64.3,
-     "band": "strong",
-     "band_label": "Strong",
-     "facets": {
-      "discoverability": 81.5,
-      "contract_quality": 50.5,
-      "governance": 4.5,
-      "contract_governance": 4.5,
-      "operational_transparency": 89.5,
-      "developer_ergonomics": 85.7,
-      "commercial_clarity": 71.1,
-      "access_clarity": 71.1
-     },
-     "scored_at": "2026-09-01",
-     "schema_version": "0.17.2",
-     "agent_score": 48.4,
-     "agent_band": "agent-ready",
-     "agent_dims": {
-      "spec_presence": true,
-      "agentic_access": "derived",
-      "reversibility_documented": false,
-      "mcp_server": "documented",
-      "auth_clarity": "served",
-      "idempotency": false,
-      "error_semantics": "documented",
-      "openapi_examples": "partial",
-      "rate_limit_signal": "documented",
-      "event_surface_described": true,
-      "agent_skills": true,
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false,
-      "delegated_identity": "served",
-      "protected_resource_metadata": "verified",
-      "dynamic_client_registration": false,
-      "agentic_commerce": false
-     },
-     "rank": 13
     },
     {
      "name": "FLORA",
      "slug": "flora-fauna",
      "description": "FLORA is a Brooklyn, New York-based applied AI / HCI company building a browser-based \"infinite canvas\" creative workspace for professional creators. Founded in 2024 by Weber Wong out of NYU's Interactive Telecommunications Program (ITP), FLORA unifies 50+ third-party text, image, and video AI models inside a single node-based visual workspace where designers, filmmakers, photographers, and creative agencies wire prompts, references, characters, and outputs into reusable generative workflows called Techniques. The platform integrates leading image models (FLUX.2, FLUX Kontext, Stable Diffusion 3.5, Nano Banana, Recraft, Seedream, Minimax Hailuo) and video models (Veo 3, Sora 2, Runway Gen-4 Turbo / Gen-3 Alpha / Act-Two, Pika, Kling, Luma Ray 2, Seedance, Marey) alongside reasoning models such as Gemini 3 Pro and GPT-5.4, and ships a creative agent named FAUNA for ideation, iteration, and workflow scaffolding. FLORA is used at agencies and studios including Pentagram, Milk, and MSCHF; the company raised a $6.5M seed led by Mike Volpi at Hanabi Capital with Menlo Ventures, a16z Games Speedrun, Long Journey Ventures, Company Ventures, Alumni Ventures, Embedding VC, and angels including Justin Kan (Twitch) and Gabe Whaley (MSCHF), and operates in-person from the Domino Refinery in Williamsburg. Beyond the canvas FLORA now ships a public developer surface: the Flora.ai REST API (OpenAPI 3.1.1, base https://app.flora.ai/api/v1) for running Techniques, one-off generations, assets, projects, canvas patches and actions programmatically; a hosted remote MCP server at https://agents.flora.ai/mcp exposing two tools (search_docs, execute) over OAuth 2.1 + PKCE; first-party TypeScript and Go SDKs and a Go CLI; signed HMAC-SHA256 run webhooks; idempotency keys; and a Stainless-generated developer portal at developer.flora.ai. API and MCP access begin on the paid Starter plan.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/flora-fauna/refs/heads/main/screenshots/flora-fauna-2026-06-20T181332.png",
-     "score": 63.3,
+     "score": 63.9,
      "band": "strong",
      "band_label": "Strong",
      "facets": {
       "discoverability": 75.9,
-      "contract_quality": 61.9,
+      "contract_quality": 64.4,
       "governance": 18.2,
       "contract_governance": 18.2,
       "operational_transparency": 42.1,
@@ -640,7 +595,7 @@
       "access_clarity": 92.1
      },
      "scored_at": "2026-09-01",
-     "schema_version": "0.17.2",
+     "schema_version": "0.18.0",
      "agent_score": 62.4,
      "agent_band": "agent-native",
      "agent_dims": {
@@ -665,6 +620,51 @@
       "agentic_commerce": false
      },
      "tier": "Sold to the publisher (sell side)",
+     "rank": 13
+    },
+    {
+     "name": "Postiz",
+     "slug": "postiz",
+     "description": "Postiz is an open-source social media scheduling and management platform for posting across 30+ social, video, community, and blogging channels from a single calendar. It ships as a free AGPL-licensed self-hosted app and as a paid managed Cloud. The Postiz Public API uses simple API-key auth to list connected channels, upload media, and create, schedule, list, and delete posts.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/postiz/refs/heads/main/screenshots/postiz-2026-08-17T080412.png",
+     "score": 63.8,
+     "band": "strong",
+     "band_label": "Strong",
+     "facets": {
+      "discoverability": 81.5,
+      "contract_quality": 48.5,
+      "governance": 4.5,
+      "contract_governance": 4.5,
+      "operational_transparency": 89.5,
+      "developer_ergonomics": 85.7,
+      "commercial_clarity": 71.1,
+      "access_clarity": 71.1
+     },
+     "scored_at": "2026-09-01",
+     "schema_version": "0.18.0",
+     "agent_score": 48.4,
+     "agent_band": "agent-ready",
+     "agent_dims": {
+      "spec_presence": true,
+      "agentic_access": "derived",
+      "reversibility_documented": false,
+      "mcp_server": "documented",
+      "auth_clarity": "served",
+      "idempotency": false,
+      "error_semantics": "documented",
+      "openapi_examples": "partial",
+      "rate_limit_signal": "documented",
+      "event_surface_described": true,
+      "agent_skills": true,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": "served",
+      "protected_resource_metadata": "verified",
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
      "rank": 14
     },
     {
@@ -686,7 +686,7 @@
       "access_clarity": 92.1
      },
      "scored_at": "2026-09-01",
-     "schema_version": "0.17.2",
+     "schema_version": "0.18.0",
      "agent_score": 44.1,
      "agent_band": "agent-ready",
      "agent_dims": {
@@ -718,12 +718,12 @@
      "slug": "acoustic",
      "description": "Acoustic is a real-time behavioral marketing platform for B2C companies, delivering omnichannel customer engagement across email, SMS, WhatsApp, mobile push and web. Its developer portal at developer.goacoustic.com publishes an RFC 9727 api-catalog advertising six API products: Acoustic Connect (a GraphQL API for contacts, consent, audiences, product catalog and signals), Acoustic Campaign (a long-lived REST + XML API estate inherited from Silverpop, with a live Swagger service description per regional pod), Acoustic Content (a headless CMS / digital asset management REST API covering authoring, delivery, rendering, publishing and webhooks), Acoustic Personalization (a client-side library for real-time content and product recommendations), Acoustic Experience Analytics (Tealeaf) and Acoustic Exchange. Formerly IBM Watson Marketing, Acoustic was carved out as an independent martech company and is a portfolio company of Sapphire Ventures.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/acoustic/refs/heads/main/screenshots/acoustic-2026-07-25T181511.png",
-     "score": 62.2,
+     "score": 62.4,
      "band": "strong",
      "band_label": "Strong",
      "facets": {
       "discoverability": 51.9,
-      "contract_quality": 53.6,
+      "contract_quality": 54.2,
       "governance": 4.5,
       "contract_governance": 4.5,
       "operational_transparency": 65.8,
@@ -732,7 +732,7 @@
       "access_clarity": 85.5
      },
      "scored_at": "2026-09-01",
-     "schema_version": "0.17.2",
+     "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
       "regime": "Telecommunications",
@@ -792,7 +792,7 @@
       "access_clarity": 92.1
      },
      "scored_at": "2026-09-01",
-     "schema_version": "0.17.2",
+     "schema_version": "0.18.0",
      "agent_score": 29.1,
      "agent_band": "agent-ready",
      "agent_dims": {
@@ -824,12 +824,12 @@
      "slug": "mediavalet",
      "description": "MediaValet is a cloud-native, Microsoft Azure-based digital asset management (DAM) platform for storing, organizing, governing, sharing and distributing an organization's images, videos, documents and other brand, campaign and product assets. Its Open API is a RESTful, JSON, hypermedia-driven service at https://api.mediavalet.com, fronted by Azure API Management and secured with BOTH an OAuth 2.0 / OpenID Connect bearer token (issuer https://iam.mediavalet.com) and a per-account Ocp-Apim-Subscription-Key. The published surface runs to 312 operations across 29 resources - assets, categories, attributes, keywords, uploads, users, user groups, branded portals, lightboxes, direct/CDN links, downloads, sharing, crops, persons, saved searches, reports, notifications, organizational units and third-party integrations - plus SkyHOOK, an event service that delivers CloudEvents 1.0 messages to a webhook or a private Azure Event Grid instance. API versions are selected per request with the x-mv-api-version header (1.0 default, 1.1, 1.2). MediaValet publishes no OpenAPI; its machine-readable contract is a Postman Collection v2.1.0 at docs.mediavalet.com, from which the definitions in this repo are derived. Access requires an existing MediaValet subscription and an approved Developer Portal account.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/mediavalet/refs/heads/main/screenshots/mediavalet-2026-08-07T172338.png",
-     "score": 61.5,
+     "score": 61.3,
      "band": "strong",
      "band_label": "Strong",
      "facets": {
       "discoverability": 81.5,
-      "contract_quality": 65.1,
+      "contract_quality": 64.3,
       "governance": 18.2,
       "contract_governance": 18.2,
       "operational_transparency": 34.2,
@@ -838,7 +838,7 @@
       "access_clarity": 89.5
      },
      "scored_at": "2026-09-01",
-     "schema_version": "0.17.2",
+     "schema_version": "0.18.0",
      "agent_score": 34.7,
      "agent_band": "agent-ready",
      "agent_dims": {
@@ -884,7 +884,7 @@
       "access_clarity": 76.3
      },
      "scored_at": "2026-09-01",
-     "schema_version": "0.17.2",
+     "schema_version": "0.18.0",
      "agent_score": 46.8,
      "agent_band": "agent-ready",
      "agent_dims": {
@@ -915,12 +915,12 @@
      "slug": "airops",
      "description": "AirOps is a growth platform for AI search and answer engine optimization (AEO) that helps brands measure and improve their visibility across AI assistants and search engines including ChatGPT, Perplexity, Gemini, Claude, and Google. The platform pairs Insights (citation tracking, share-of-voice, sentiment, and competitor intelligence) with Action (Playbooks, Workflows, Grids, and Campaigns that draft and ship content at scale) and Context (Brand Kits and Knowledge Bases). AirOps exposes a public REST API at api.airops.com for executing Workflows/Apps, managing Knowledge Bases, and pulling AEO analytics, a hosted Model Context Protocol (MCP) server at app.airops.com/mcp with roughly ninety tools, incoming webhook triggers, and first-party JavaScript and Python SDKs. It was surfaced as a portfolio company of Greylock and enriched into the API Evangelist network.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/airops/refs/heads/main/screenshots/airops-2026-07-25T195431.png",
-     "score": 60.2,
+     "score": 60.0,
      "band": "strong",
      "band_label": "Strong",
      "facets": {
       "discoverability": 75.9,
-      "contract_quality": 61.3,
+      "contract_quality": 60.5,
       "governance": 18.2,
       "contract_governance": 18.2,
       "operational_transparency": 31.6,
@@ -929,7 +929,7 @@
       "access_clarity": 76.3
      },
      "scored_at": "2026-09-01",
-     "schema_version": "0.17.2",
+     "schema_version": "0.18.0",
      "agent_score": 46.5,
      "agent_band": "agent-ready",
      "agent_dims": {
@@ -975,7 +975,7 @@
       "access_clarity": 86.8
      },
      "scored_at": "2026-09-01",
-     "schema_version": "0.17.2",
+     "schema_version": "0.18.0",
      "agent_score": 27.9,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -1006,12 +1006,12 @@
      "slug": "dyspatch",
      "description": "Dyspatch is an email template management and production platform that lets marketing, design, and engineering teams build, collaborate on, approve, localize, and publish transactional and marketing messages without hand-coding HTML. Content is authored in DML (Dyspatch Markup Language) using a modular, no-code drag-and-drop builder with reusable blocks and themes, then published to any ESP (Salesforce, HubSpot, Braze, Marketo, and others). Dyspatch also covers SMS, push, voice, and Live Activity messages, AMP for Email, and large-scale localization across hundreds of languages. The public REST API at api.dyspatch.io exposes published templates, drafts with an approval workflow, localizations and translations, customer profiles, themes, blocks, and tags, and is versioned by date through the Accept header. Dyspatch ships official OpenAPI-generated SDKs for six languages, a published MCP server, webhooks, and Agent Skills. Dyspatch is backed by Y Combinator.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/dyspatch/refs/heads/main/screenshots/dyspatch-2026-07-25T212608.png",
-     "score": 59.4,
+     "score": 59.2,
      "band": "strong",
      "band_label": "Strong",
      "facets": {
       "discoverability": 75.9,
-      "contract_quality": 66.2,
+      "contract_quality": 65.4,
       "governance": 4.5,
       "contract_governance": 4.5,
       "operational_transparency": 52.6,
@@ -1020,7 +1020,7 @@
       "access_clarity": 63.2
      },
      "scored_at": "2026-09-01",
-     "schema_version": "0.17.2",
+     "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
       "regime": "Telecommunications",
@@ -1072,7 +1072,7 @@
       "access_clarity": 76.3
      },
      "scored_at": "2026-09-01",
-     "schema_version": "0.17.2",
+     "schema_version": "0.18.0",
      "agent_score": 42.3,
      "agent_band": "agent-ready",
      "agent_dims": {
@@ -1104,12 +1104,12 @@
      "slug": "bynder",
      "description": "Bynder is a cloud-based digital asset management (DAM) platform used to store, organize, distribute and analyze brand and marketing assets. Its REST API is not one service but a federation of them behind each customer's own portal domain: the /api/v4 asset bank (assets, collections, metaproperties, brands, tags, smart filters, users and security profiles), an /api/1 taxonomy and content-access layer, /v6 OAuth 2.0 authorization, /v7 upload, webhooks and antivirus services, /api/workflow campaigns and jobs, and /api/store Brandstore ordering. Bynder publishes 34 OpenAPI 3.1 definitions covering 156 operations through its own API registry, a dated changelog, a documentation llms.txt, first-party SDKs for JavaScript, Python, PHP, Java and C#, and an embeddable asset-picker component. Authentication is OAuth 2.0 with JWT bearer tokens, layered on top of named security roles that gate operations independently of scope.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/bynder/refs/heads/main/screenshots/bynder-2026-06-20T173826.png",
-     "score": 57.4,
+     "score": 57.6,
      "band": "strong",
      "band_label": "Strong",
      "facets": {
       "discoverability": 75.9,
-      "contract_quality": 61.5,
+      "contract_quality": 62.3,
       "governance": 18.2,
       "contract_governance": 18.2,
       "operational_transparency": 73.7,
@@ -1118,7 +1118,7 @@
       "access_clarity": 47.4
      },
      "scored_at": "2026-09-01",
-     "schema_version": "0.17.2",
+     "schema_version": "0.18.0",
      "agent_score": 37.9,
      "agent_band": "agent-ready",
      "agent_dims": {
@@ -1149,12 +1149,12 @@
      "slug": "bluma",
      "description": "Bluma is a San Francisco-based AI company (Y Combinator Fall 2025) building a short-form AI content engine that lets creators, agencies, and brands produce social media video ads at scale. The platform \"de-edits\" existing reference videos into their individual scenes, captions, and overlays, then uses AI asset generation and a node-based canvas editor to recreate and remix shots into new ads, UGC, and template-based videos optimized for TikTok, Reels, and Shorts. Bluma ships a public developer program: a REST API at api.getbluma.com/api/v1 for asynchronous video generation, templates, credits, API keys, webhooks and usage analytics; Mintlify-hosted documentation at docs.getbluma.com; first-party TypeScript and Python SDKs; a seven-event HMAC-signed webhook surface; published per-tier rate limits; and an undocumented but live hosted MCP server at api.getbluma.com/api/mcp gated by Clerk OAuth 2.1 with dynamic client registration. Founded by Alisa Wu (formerly Zoox/Amazon) and Stephen Ni.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/bluma/refs/heads/main/screenshots/bluma-2026-07-25T203511.png",
-     "score": 57.1,
+     "score": 56.8,
      "band": "strong",
      "band_label": "Strong",
      "facets": {
       "discoverability": 75.9,
-      "contract_quality": 42.7,
+      "contract_quality": 41.6,
       "governance": 18.2,
       "contract_governance": 18.2,
       "operational_transparency": 55.3,
@@ -1163,7 +1163,7 @@
       "access_clarity": 76.3
      },
      "scored_at": "2026-09-01",
-     "schema_version": "0.17.2",
+     "schema_version": "0.18.0",
      "agent_score": 29.5,
      "agent_band": "agent-ready",
      "agent_dims": {
@@ -1195,12 +1195,12 @@
      "slug": "hashnode",
      "description": "Hashnode is a blogging platform for developers and engineering teams, offering publications on a custom domain, a headless CMS mode, and a public GraphQL API covering posts, drafts, publications, users, tags, series, comments and documentation projects. The API is a single GraphQL endpoint with anonymous introspection; authentication is a Personal Access Token in the Authorization header, with no OAuth and no scopes. Since 13 May 2026 the API has been a paid feature - anonymous public reads still work, but every publication-scoped read and every write mutation requires the target publication to hold an active Hashnode Pro plan. Hashnode publishes no OpenAPI and no MCP server, shipping an official Agent Skill instead.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/hashnode/refs/heads/main/screenshots/hashnode-2026-08-17T083521.png",
-     "score": 57.0,
+     "score": 56.8,
      "band": "strong",
      "band_label": "Strong",
      "facets": {
       "discoverability": 68.5,
-      "contract_quality": 50.0,
+      "contract_quality": 49.0,
       "governance": 4.5,
       "contract_governance": 4.5,
       "operational_transparency": 55.3,
@@ -1209,7 +1209,7 @@
       "access_clarity": 71.1
      },
      "scored_at": "2026-09-01",
-     "schema_version": "0.17.2",
+     "schema_version": "0.18.0",
      "agent_score": 28.8,
      "agent_band": "agent-ready",
      "agent_dims": {
@@ -1254,7 +1254,7 @@
       "access_clarity": 81.6
      },
      "scored_at": "2026-09-01",
-     "schema_version": "0.17.2",
+     "schema_version": "0.18.0",
      "agent_score": 51.5,
      "agent_band": "agent-ready",
      "agent_dims": {
@@ -1285,12 +1285,12 @@
      "slug": "knak",
      "description": "Knak is a no-code email and landing page creation platform built for enterprise marketing teams. Marketers design on-brand, responsive emails and landing pages in a drag-and-drop builder, then sync the finished HTML directly into their marketing automation platform (Marketo, Eloqua, Salesforce Marketing Cloud, Braze, HubSpot and others) without writing code or waiting on developers. For technical teams Knak publishes a documented developer surface -- the Knak Enterprise REST API for automating users, assets, themes, modules, brands, folders, merge tags and translation requests; the Knak Send Contacts API; a SCIM 2.0 API for identity-provider driven user provisioning; signed webhooks for asset and translation lifecycle events; a set of customer-implemented integration contracts (Custom DAM, Custom Validator, Custom Sync Location); and a hosted, OAuth 2.1 protected MCP server that lets AI clients generate and browse Knak assets.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/knak/refs/heads/main/screenshots/knak-2026-07-25T223953.png",
-     "score": 56.5,
+     "score": 56.3,
      "band": "strong",
      "band_label": "Strong",
      "facets": {
       "discoverability": 81.5,
-      "contract_quality": 61.6,
+      "contract_quality": 60.8,
       "governance": 4.5,
       "contract_governance": 4.5,
       "operational_transparency": 65.8,
@@ -1299,7 +1299,7 @@
       "access_clarity": 60.5
      },
      "scored_at": "2026-09-01",
-     "schema_version": "0.17.2",
+     "schema_version": "0.18.0",
      "agent_score": 58.8,
      "agent_band": "agent-ready",
      "agent_dims": {
@@ -1331,12 +1331,12 @@
      "slug": "brandfolder",
      "description": "Brandfolder is a digital asset management (DAM) platform and Smartsheet company that provides a RESTful API for managing brand assets, collections, sections, tags, share links, webhooks, and asset distribution permissions. The API enables organizations to push Brandfolder content to other applications, pull data from external sources, and synchronize Brandfolder with other platforms.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/brandfolder/refs/heads/main/screenshots/brandfolder-2026-06-20T173633.png",
-     "score": 55.8,
+     "score": 55.5,
      "band": "strong",
      "band_label": "Strong",
      "facets": {
       "discoverability": 75.9,
-      "contract_quality": 67.5,
+      "contract_quality": 66.5,
       "governance": 4.5,
       "contract_governance": 4.5,
       "operational_transparency": 36.8,
@@ -1345,7 +1345,7 @@
       "access_clarity": 82.9
      },
      "scored_at": "2026-09-01",
-     "schema_version": "0.17.2",
+     "schema_version": "0.18.0",
      "agent_score": 36.4,
      "agent_band": "agent-ready",
      "agent_dims": {
@@ -1377,12 +1377,12 @@
      "slug": "thebrief",
      "description": "The Brief (formerly Creatopy) is an AI-powered advertising creation platform that helps brands and agencies discover, create, launch, and optimize ads at scale. Its Ad Studio, AI agents (Discover, Create, Optimize), and native ad server generate on-brand creatives, resize a single design into 50+ ad formats, publish directly to networks like Meta, Google Ads, CM360, DV360 and Veeva, and optimize campaign performance with data-backed recommendations. Founded in 2021 and based in Romania, The Brief is a portfolio company of Point Nine. It ships a documented Public API on two co-equal surfaces — a REST API at https://api.thebrief.ai/v1 and a single GraphQL endpoint at https://graphql.thebrief.ai/public whose 186-type schema is readable by anonymous introspection — covering designs and templates, brand kits, projects and folders, exports and creatives, ad serving and ad-tag reporting, team users and roles, credits, and team webhooks. Authentication is a JWT bearer token minted from a clientId/clientSecret pair; the same signed token powers the App Integration flow that embeds the Ad Studio editor inside a customer's own product. No OpenAPI is published.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/thebrief/refs/heads/main/screenshots/thebrief-2026-08-17T082340.png",
-     "score": 55.7,
+     "score": 55.4,
      "band": "strong",
      "band_label": "Strong",
      "facets": {
       "discoverability": 75.9,
-      "contract_quality": 54.3,
+      "contract_quality": 53.1,
       "governance": 4.5,
       "contract_governance": 4.5,
       "operational_transparency": 39.5,
@@ -1391,7 +1391,7 @@
       "access_clarity": 85.5
      },
      "scored_at": "2026-09-01",
-     "schema_version": "0.17.2",
+     "schema_version": "0.18.0",
      "agent_score": 26.1,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -1418,61 +1418,16 @@
      "rank": 30
     },
     {
-     "name": "Frontify",
-     "slug": "frontify",
-     "description": "Frontify is a brand management and digital asset management (DAM) platform that gives teams a single, governed home for brand guidelines, logos, images, video, templates, and creative workflows. Its public developer surface is a per-instance GraphQL API (https://{instance}.frontify.com/graphql) for discovering brands, searching and retrieving assets, managing metadata, collaborating, browsing guidelines, exporting creative templates, and automating creative workflows, plus a Brand SDK (App Bridge, Frontify Finder, Frontify CLI) for building Content Blocks and Platform Apps, project-scoped webhooks across a 24-event vocabulary, an official hosted MCP server (54 tools in 10 role-scoped packs) for AI assistants, and a curated Agent Skills catalog. GraphQL introspection is open and unauthenticated, so the full schema is captured in this repository as the machine-readable contract; Frontify publishes no OpenAPI. Frontify was added to the API Evangelist network as a portfolio company of EQT Ventures and enriched here from its public developer, package, event, and trust surfaces.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/frontify/refs/heads/main/screenshots/frontify-2026-07-25T215242.png",
-     "score": 55.4,
-     "band": "strong",
-     "band_label": "Strong",
-     "facets": {
-      "discoverability": 68.5,
-      "contract_quality": 54.3,
-      "governance": 18.2,
-      "contract_governance": 18.2,
-      "operational_transparency": 60.5,
-      "developer_ergonomics": 78.6,
-      "commercial_clarity": 46.1,
-      "access_clarity": 46.1
-     },
-     "scored_at": "2026-09-01",
-     "schema_version": "0.17.2",
-     "agent_score": 45.2,
-     "agent_band": "agent-ready",
-     "agent_dims": {
-      "spec_presence": true,
-      "agentic_access": false,
-      "reversibility_documented": false,
-      "mcp_server": "documented",
-      "auth_clarity": "served",
-      "idempotency": false,
-      "error_semantics": "documented",
-      "openapi_examples": false,
-      "rate_limit_signal": "documented",
-      "event_surface_described": "derived",
-      "agent_skills": true,
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false,
-      "delegated_identity": "served",
-      "protected_resource_metadata": "verified",
-      "dynamic_client_registration": true,
-      "agentic_commerce": false
-     },
-     "rank": 31
-    },
-    {
      "name": "Wideo",
      "slug": "wideo",
      "description": "Wideo is an online video creation and automation platform that lets teams produce animated videos, presentations, and marketing content from drag-and-drop templates and AI tools. For developers, Wideo publishes a Video Automation API that renders finished MP4 videos at scale: a rendering batch is created from a reusable template plus a list of per-video variable objects, rendering runs asynchronously, and completion is delivered via a webhook callback and pollable batch status returning signed video and preview URLs. A legacy replace/encode flow supports single-video generation. Wideo also offers a white-label video API for embedding video creation into other products. Wideo was surfaced as a portfolio company of 500 Global.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/wideo/refs/heads/main/screenshots/wideo-2026-08-17T082920.png",
-     "score": 55.4,
+     "score": 55.2,
      "band": "strong",
      "band_label": "Strong",
      "facets": {
       "discoverability": 75.9,
-      "contract_quality": 68.7,
+      "contract_quality": 67.8,
       "governance": 4.5,
       "contract_governance": 4.5,
       "operational_transparency": 23.7,
@@ -1481,7 +1436,7 @@
       "access_clarity": 76.3
      },
      "scored_at": "2026-09-01",
-     "schema_version": "0.17.2",
+     "schema_version": "0.18.0",
      "agent_score": 29.7,
      "agent_band": "agent-ready",
      "agent_dims": {
@@ -1506,6 +1461,51 @@
       "agentic_commerce": false
      },
      "tier": "Sold to the publisher (sell side)",
+     "rank": 31
+    },
+    {
+     "name": "Frontify",
+     "slug": "frontify",
+     "description": "Frontify is a brand management and digital asset management (DAM) platform that gives teams a single, governed home for brand guidelines, logos, images, video, templates, and creative workflows. Its public developer surface is a per-instance GraphQL API (https://{instance}.frontify.com/graphql) for discovering brands, searching and retrieving assets, managing metadata, collaborating, browsing guidelines, exporting creative templates, and automating creative workflows, plus a Brand SDK (App Bridge, Frontify Finder, Frontify CLI) for building Content Blocks and Platform Apps, project-scoped webhooks across a 24-event vocabulary, an official hosted MCP server (54 tools in 10 role-scoped packs) for AI assistants, and a curated Agent Skills catalog. GraphQL introspection is open and unauthenticated, so the full schema is captured in this repository as the machine-readable contract; Frontify publishes no OpenAPI. Frontify was added to the API Evangelist network as a portfolio company of EQT Ventures and enriched here from its public developer, package, event, and trust surfaces.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/frontify/refs/heads/main/screenshots/frontify-2026-07-25T215242.png",
+     "score": 55.1,
+     "band": "strong",
+     "band_label": "Strong",
+     "facets": {
+      "discoverability": 68.5,
+      "contract_quality": 53.1,
+      "governance": 18.2,
+      "contract_governance": 18.2,
+      "operational_transparency": 60.5,
+      "developer_ergonomics": 78.6,
+      "commercial_clarity": 46.1,
+      "access_clarity": 46.1
+     },
+     "scored_at": "2026-09-01",
+     "schema_version": "0.18.0",
+     "agent_score": 45.2,
+     "agent_band": "agent-ready",
+     "agent_dims": {
+      "spec_presence": true,
+      "agentic_access": false,
+      "reversibility_documented": false,
+      "mcp_server": "documented",
+      "auth_clarity": "served",
+      "idempotency": false,
+      "error_semantics": "documented",
+      "openapi_examples": false,
+      "rate_limit_signal": "documented",
+      "event_surface_described": "derived",
+      "agent_skills": true,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": "served",
+      "protected_resource_metadata": "verified",
+      "dynamic_client_registration": true,
+      "agentic_commerce": false
+     },
      "rank": 32
     }
    ],
@@ -1524,12 +1524,12 @@
      "slug": "permutive",
      "description": "Permutive is a predictive data collaboration and activation platform for premium publishers, advertisers and agencies. Its platform spans a Data Management Platform, a Data Clean Room for privacy-safe collaboration with 150+ premium publishers, AI-curated audiences, and the Halo agentic suite that scales direct buying. The developer platform exposes six REST APIs — Events, Identity, Contextual, Custom Cohort Segmentation, Cohorts and Taxonomy — plus web, mobile and CTV SDKs, an anonymous documentation Model Context Protocol server, and an invitation-only audience-intelligence MCP server that makes cohort discovery, reach measurement and audience comparison available to AI agents. Authentication is a workspace-scoped API key; every call is bounded by the workspace that owns the key.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/permutive/refs/heads/main/screenshots/permutive-2026-08-17T081200.png",
-     "score": 54.2,
+     "score": 53.7,
      "band": "developing",
      "band_label": "Developing",
      "facets": {
       "discoverability": 81.5,
-      "contract_quality": 60.2,
+      "contract_quality": 58.0,
       "governance": 18.2,
       "contract_governance": 18.2,
       "operational_transparency": 52.6,
@@ -1538,7 +1538,7 @@
       "access_clarity": 43.4
      },
      "scored_at": "2026-09-01",
-     "schema_version": "0.17.2",
+     "schema_version": "0.18.0",
      "agent_score": 58.1,
      "agent_band": "agent-ready",
      "agent_dims": {
@@ -1570,12 +1570,12 @@
      "slug": "leadpages",
      "description": "Leadpages is an AI web platform with built-in conversion optimization, part of the Redbrick family of brands. It builds and hosts landing pages, multi-page sites and blogs that improve themselves through A/B testing, Smart Traffic variant routing, click and scroll heatmaps, dynamic text replacement and auto-personalization, with no traffic caps on any plan. For developers and agents it publishes a REST API covering pages, sites, assets, blogs, analytics, forms, custom domains and brand kits; a hosted Model Context Protocol server exposing 47 tools over OAuth 2.0 with PKCE; webhooks for page-publish, lead-capture and form-submission events; and an A2A agent card describing a nine-agent campaign team. Founded 2012 and rebuilt from scratch in 2026.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/leadpages/refs/heads/main/screenshots/leadpages-2026-08-17T081052.png",
-     "score": 53.6,
+     "score": 53.3,
      "band": "developing",
      "band_label": "Developing",
      "facets": {
       "discoverability": 81.5,
-      "contract_quality": 42.7,
+      "contract_quality": 41.6,
       "governance": 18.2,
       "contract_governance": 18.2,
       "operational_transparency": 21.1,
@@ -1584,7 +1584,7 @@
       "access_clarity": 92.1
      },
      "scored_at": "2026-09-01",
-     "schema_version": "0.17.2",
+     "schema_version": "0.18.0",
      "agent_score": 50.6,
      "agent_band": "agent-ready",
      "agent_dims": {
@@ -1629,7 +1629,7 @@
       "access_clarity": 76.3
      },
      "scored_at": "2026-09-01",
-     "schema_version": "0.17.2",
+     "schema_version": "0.18.0",
      "agent_score": 51.1,
      "agent_band": "agent-ready",
      "agent_dims": {
@@ -1674,7 +1674,7 @@
       "access_clarity": 77.6
      },
      "scored_at": "2026-09-01",
-     "schema_version": "0.17.2",
+     "schema_version": "0.18.0",
      "agent_score": 42.1,
      "agent_band": "agent-ready",
      "agent_dims": {
@@ -1720,7 +1720,7 @@
       "access_clarity": 61.8
      },
      "scored_at": "2026-09-01",
-     "schema_version": "0.17.2",
+     "schema_version": "0.18.0",
      "agent_score": 42.3,
      "agent_band": "agent-ready",
      "agent_dims": {
@@ -1765,7 +1765,7 @@
       "access_clarity": 52.6
      },
      "scored_at": "2026-09-01",
-     "schema_version": "0.17.2",
+     "schema_version": "0.18.0",
      "agent_score": 21.8,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -1796,12 +1796,12 @@
      "slug": "typeface",
      "description": "Typeface is an enterprise marketing AI platform that orchestrates AI agents, brand intelligence, and workflows to create personalized, on-brand campaigns at scale. Its developer platform exposes REST APIs (bearer JWT via application credentials) for identity discovery, teams, projects, brand kits, audiences, layouts, assets, tags, content workflows, document search, and asynchronous batch content generation, plus outbound/inbound webhooks, a hosted MCP server with OAuth 2.1, an A2A agent surface, SCIM 2.0 provisioning, and 30+ marketing-stack connectors.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/typeface/refs/heads/main/screenshots/typeface-2026-08-17T082511.png",
-     "score": 50.3,
+     "score": 50.1,
      "band": "developing",
      "band_label": "Developing",
      "facets": {
       "discoverability": 81.5,
-      "contract_quality": 59.6,
+      "contract_quality": 58.8,
       "governance": 18.2,
       "contract_governance": 18.2,
       "operational_transparency": 65.8,
@@ -1810,7 +1810,7 @@
       "access_clarity": 35.5
      },
      "scored_at": "2026-09-01",
-     "schema_version": "0.17.2",
+     "schema_version": "0.18.0",
      "agent_score": 50.0,
      "agent_band": "agent-ready",
      "agent_dims": {
@@ -1841,12 +1841,12 @@
      "slug": "blng",
      "description": "BLNG is an AI-driven creative suite for the jewelry industry, giving jewelers, designers, brands, and retailers tools to explore, refine, and present designs fast and without compromise. Its Design product turns sketches, doodles, photos, illustrations, or text prompts into photorealistic renderings on web and iOS; Studio transforms CAD models into market-ready marketing photos and videos at scale; and Retail enables live, made-to-order design in-store. BLNG is a Speedinvest portfolio company. BLNG publishes no developer program, but the web application is backed by three first-party REST APIs whose OpenAPI definitions are served publicly and unauthenticated behind Swagger UI on its own hosts — a Journey API for design journeys, prompts, image assets and 3D model generation, a User API for users, workspaces, invitations, organizations and subscriptions, and a Billing API for Stripe-backed products, checkout and subscription webhooks. All three authenticate with AWS Cognito bearer tokens issued at auth.app.blng.ai.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/blng/refs/heads/main/screenshots/blng-2026-07-25T203330.png",
-     "score": 48.9,
+     "score": 48.7,
      "band": "developing",
      "band_label": "Developing",
      "facets": {
       "discoverability": 74.1,
-      "contract_quality": 54.9,
+      "contract_quality": 54.3,
       "governance": 4.5,
       "contract_governance": 4.5,
       "operational_transparency": 23.7,
@@ -1855,7 +1855,7 @@
       "access_clarity": 71.1
      },
      "scored_at": "2026-09-01",
-     "schema_version": "0.17.2",
+     "schema_version": "0.18.0",
      "agent_score": 34.3,
      "agent_band": "agent-ready",
      "agent_dims": {
@@ -1887,12 +1887,12 @@
      "slug": "movable-ink",
      "description": "Movable Ink is a New York-headquartered marketing technology company that turns customer data into personalized content across email, mobile and web. Its two products are Studio, which generates composite images and interactive content at the moment a message is opened, and Da Vinci, an AI decisioning layer that chooses what content each customer sees. The integration surface is a write-only Customer Data API that streams behavioral events into Studio, a family of native and wrapper mobile SDKs (iOS, Android, React Native, Cordova, Flutter, Expo), a Studio app toolchain built around the `movable` CLI and the cropduster library, and dozens of ESP/CDP connectors. API reference material is customer-gated; no OpenAPI is published.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/movable-ink/refs/heads/main/screenshots/movable-ink-2026-08-07T184344.png",
-     "score": 48.8,
+     "score": 48.6,
      "band": "developing",
      "band_label": "Developing",
      "facets": {
       "discoverability": 75.9,
-      "contract_quality": 42.7,
+      "contract_quality": 41.6,
       "governance": 18.2,
       "contract_governance": 18.2,
       "operational_transparency": 52.6,
@@ -1901,7 +1901,7 @@
       "access_clarity": 43.4
      },
      "scored_at": "2026-09-01",
-     "schema_version": "0.17.2",
+     "schema_version": "0.18.0",
      "agent_score": 25.2,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -1932,12 +1932,12 @@
      "slug": "brightedge",
      "description": "BrightEdge is an enterprise SEO and content performance platform, founded in 2007 and headquartered in Silicon Valley, used by thousands of brands and a majority of the Fortune 100. Its products include the DataCube keyword and content data repository, ContentIQ site auditing, Autopilot, Copilot, and the DataMind AI engine plus AI Catalyst for generative-search visibility. The BrightEdge Platform API (v5.0) is a REST API published at api.brightedge.com that exposes accounts, keywords, keyword groups, competitors, domains, pages, backlinks, the DataCube dataset, recommendations, People-Also-Ask, SERP features, Core Web Vitals, bulk export, and user/organization management, so teams can integrate BrightEdge search and content intelligence into their own reporting, analytics, and data-warehouse workflows.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/brightedge/refs/heads/main/screenshots/brightedge-2026-07-25T203837.png",
-     "score": 48.6,
+     "score": 47.8,
      "band": "developing",
      "band_label": "Developing",
      "facets": {
       "discoverability": 75.9,
-      "contract_quality": 50.3,
+      "contract_quality": 46.9,
       "governance": 18.2,
       "contract_governance": 18.2,
       "operational_transparency": 18.4,
@@ -1946,7 +1946,7 @@
       "access_clarity": 60.5
      },
      "scored_at": "2026-09-01",
-     "schema_version": "0.17.2",
+     "schema_version": "0.18.0",
      "agent_score": 44.3,
      "agent_band": "agent-ready",
      "agent_dims": {
@@ -1992,7 +1992,7 @@
       "access_clarity": 34.2
      },
      "scored_at": "2026-09-01",
-     "schema_version": "0.17.2",
+     "schema_version": "0.18.0",
      "agent_score": 29.0,
      "agent_band": "agent-ready",
      "agent_dims": {
@@ -2038,7 +2038,7 @@
       "access_clarity": 85.5
      },
      "scored_at": "2026-09-01",
-     "schema_version": "0.17.2",
+     "schema_version": "0.18.0",
      "agent_score": 30.3,
      "agent_band": "agent-ready",
      "agent_dims": {
@@ -2069,12 +2069,12 @@
      "slug": "sprinklr",
      "description": "Sprinklr is a unified customer experience management (Unified-CXM) platform offering REST APIs for social media management, customer service, marketing, and advertising across 30+ digital channels. APIs support listening, publishing, reporting, user provisioning, digital asset management, and webhook integrations, all secured via OAuth 2.0 and accessible to enterprise license holders.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/sprinklr/refs/heads/main/screenshots/sprinklr-2026-06-20T194419.png",
-     "score": 47.4,
+     "score": 47.2,
      "band": "developing",
      "band_label": "Developing",
      "facets": {
       "discoverability": 75.9,
-      "contract_quality": 42.7,
+      "contract_quality": 41.6,
       "governance": 18.2,
       "contract_governance": 18.2,
       "operational_transparency": 50.0,
@@ -2083,7 +2083,7 @@
       "access_clarity": 76.3
      },
      "scored_at": "2026-09-01",
-     "schema_version": "0.17.2",
+     "schema_version": "0.18.0",
      "agent_score": 28.6,
      "agent_band": "agent-ready",
      "agent_dims": {
@@ -2129,7 +2129,7 @@
       "access_clarity": 44.7
      },
      "scored_at": "2026-09-01",
-     "schema_version": "0.17.2",
+     "schema_version": "0.18.0",
      "agent_score": 23.6,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -2175,7 +2175,7 @@
       "access_clarity": 75.0
      },
      "scored_at": "2026-09-01",
-     "schema_version": "0.17.2",
+     "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
       "regime": "Insurance",
@@ -2228,7 +2228,7 @@
       "access_clarity": 100.0
      },
      "scored_at": "2026-09-01",
-     "schema_version": "0.17.2",
+     "schema_version": "0.18.0",
      "agent_score": 5.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -2274,7 +2274,7 @@
       "access_clarity": 27.6
      },
      "scored_at": "2026-09-01",
-     "schema_version": "0.17.2",
+     "schema_version": "0.18.0",
      "agent_score": 26.4,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -2305,12 +2305,12 @@
      "slug": "later",
      "description": "Later is a visual social media scheduling and influencer marketing platform that enables brands, agencies, and creators to plan, schedule, and publish content across Instagram, TikTok, Facebook, Pinterest, LinkedIn, Threads, and YouTube. The platform offers a media library, analytics, Link in Bio tools, social inbox, content approval workflows, and AI-powered scheduling optimization. Later also provides enterprise influencer marketing campaign management and creator network services.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/later/refs/heads/main/screenshots/later-2026-06-20T184327.png",
-     "score": 44.1,
+     "score": 44.0,
      "band": "developing",
      "band_label": "Developing",
      "facets": {
       "discoverability": 51.9,
-      "contract_quality": 53.9,
+      "contract_quality": 53.2,
       "governance": 4.5,
       "contract_governance": 4.5,
       "operational_transparency": 28.9,
@@ -2319,7 +2319,7 @@
       "access_clarity": 68.4
      },
      "scored_at": "2026-09-01",
-     "schema_version": "0.17.2",
+     "schema_version": "0.18.0",
      "agent_score": 30.0,
      "agent_band": "agent-ready",
      "agent_dims": {
@@ -2364,7 +2364,7 @@
       "access_clarity": 76.3
      },
      "scored_at": "2026-09-01",
-     "schema_version": "0.17.2",
+     "schema_version": "0.18.0",
      "agent_score": 5.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -2410,7 +2410,7 @@
       "access_clarity": 39.5
      },
      "scored_at": "2026-09-01",
-     "schema_version": "0.17.2",
+     "schema_version": "0.18.0",
      "agent_score": 29.9,
      "agent_band": "agent-ready",
      "agent_dims": {
@@ -2438,51 +2438,6 @@
      "rank": 52
     },
     {
-     "name": "Kapost",
-     "slug": "kapost",
-     "description": "Kapost is a content operations platform — now part of Upland Software — that lets B2B marketing teams plan, produce, distribute, and analyze content across the customer journey through its Canvas, Studio, Gallery, and Insights modules. Kapost exposes a versioned REST Content API (/api/v1) secured with HTTP Basic authentication using a per-user API token and returning JSON, plus outbound content webhooks (create/update/publish/delete), an XML-RPC interface, and a first-party WordPress plugin for publishing content from Kapost to WordPress sites. This profile was enriched from Kapost's live developer portal.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/kapost/refs/heads/main/screenshots/kapost-2026-07-25T223456.png",
-     "score": 41.3,
-     "band": "developing",
-     "band_label": "Developing",
-     "facets": {
-      "discoverability": 75.9,
-      "contract_quality": 42.7,
-      "governance": 18.2,
-      "contract_governance": 18.2,
-      "operational_transparency": 10.5,
-      "developer_ergonomics": 64.3,
-      "commercial_clarity": 32.9,
-      "access_clarity": 32.9
-     },
-     "scored_at": "2026-09-01",
-     "schema_version": "0.17.2",
-     "agent_score": 22.3,
-     "agent_band": "agent-aware",
-     "agent_dims": {
-      "spec_presence": true,
-      "agentic_access": false,
-      "reversibility_documented": false,
-      "mcp_server": false,
-      "auth_clarity": "bearer",
-      "idempotency": false,
-      "error_semantics": false,
-      "openapi_examples": false,
-      "rate_limit_signal": "documented",
-      "event_surface_described": true,
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false,
-      "delegated_identity": false,
-      "protected_resource_metadata": false,
-      "dynamic_client_registration": false,
-      "agentic_commerce": false
-     },
-     "rank": 53
-    },
-    {
      "name": "Gist",
      "slug": "gist",
      "description": "Gist is an AI brand-visibility, answer-engine and content-monetization platform built by ProRata (founded 2024) that helps publishers and advertisers stay visible, measurable and monetizable inside generative AI experiences. It ships three products: Gist GEO (generative engine optimization for consistent organic visibility in AI answers), Gist Ads (paid brand amplification placed directly in AI search surfaces, with native iOS and Android ad SDKs and a publisher ad tag), and Gist Answers (an embeddable, publisher-backed AI answer engine for on-site engagement and monetization). Behind those products sits a real developer surface documented at the Gist Developer Hub: the Prorata API Service (chat, streaming completions, citations, per-source attribution, threads, recommended and related questions, publisher management and document summarization) at api.gist.ai, the Gist Content API for publisher article ingestion, the Gist Content Network crawler and CMS/RSS ingestion paths, and the gist-chat-widget web component distributed from cdn.gist.ai. Gist positions itself as turning AI from a black box into a measurable, actionable channel for brands and content owners, with fair attribution and a 50/50 publisher revenue share as the stated basis of the model.",
@@ -2501,7 +2456,7 @@
       "access_clarity": 27.6
      },
      "scored_at": "2026-09-01",
-     "schema_version": "0.17.2",
+     "schema_version": "0.18.0",
      "agent_score": 29.3,
      "agent_band": "agent-ready",
      "agent_dims": {
@@ -2526,6 +2481,51 @@
       "agentic_commerce": false
      },
      "tier": "Sold to the publisher (sell side)",
+     "rank": 53
+    },
+    {
+     "name": "Kapost",
+     "slug": "kapost",
+     "description": "Kapost is a content operations platform — now part of Upland Software — that lets B2B marketing teams plan, produce, distribute, and analyze content across the customer journey through its Canvas, Studio, Gallery, and Insights modules. Kapost exposes a versioned REST Content API (/api/v1) secured with HTTP Basic authentication using a per-user API token and returning JSON, plus outbound content webhooks (create/update/publish/delete), an XML-RPC interface, and a first-party WordPress plugin for publishing content from Kapost to WordPress sites. This profile was enriched from Kapost's live developer portal.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/kapost/refs/heads/main/screenshots/kapost-2026-07-25T223456.png",
+     "score": 41.0,
+     "band": "developing",
+     "band_label": "Developing",
+     "facets": {
+      "discoverability": 75.9,
+      "contract_quality": 41.6,
+      "governance": 18.2,
+      "contract_governance": 18.2,
+      "operational_transparency": 10.5,
+      "developer_ergonomics": 64.3,
+      "commercial_clarity": 32.9,
+      "access_clarity": 32.9
+     },
+     "scored_at": "2026-09-01",
+     "schema_version": "0.18.0",
+     "agent_score": 22.3,
+     "agent_band": "agent-aware",
+     "agent_dims": {
+      "spec_presence": true,
+      "agentic_access": false,
+      "reversibility_documented": false,
+      "mcp_server": false,
+      "auth_clarity": "bearer",
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": "documented",
+      "event_surface_described": true,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
      "rank": 54
     },
     {
@@ -2533,12 +2533,12 @@
      "slug": "voyant",
      "description": "Voyant.io is a brand-context platform that turns a company's positioning, messaging, personas, products, pricing, and competitive intelligence into structured \"context streams\" that any AI tool or agent can read at generation time, so AI-produced copy stays on-message instead of drifting or hallucinating claims. The product is delivered as a large FastAPI-based REST API (783 operations across 79 tags covering context streams, RAG search, messaging frameworks, target graph, telemetry, social signal harvesting, competitive intelligence, and content generation), a hosted MCP server exposing 15 tools to agent clients, and a set of published agent-governance files (`/.well-known/llms.txt`, `/.well-known/context.txt`) that declare training permissions and inference-control rules for the domain itself. Marketed to B2B GTM teams scaling from $5M to $100M ARR. Pre-seed, founded by Andrew M. Brown; the API runs under the internal name \"VoiceForge\".",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/voyant/refs/heads/main/screenshots/voyant-2026-08-17T082904.png",
-     "score": 40.9,
+     "score": 41.0,
      "band": "developing",
      "band_label": "Developing",
      "facets": {
       "discoverability": 51.9,
-      "contract_quality": 60.6,
+      "contract_quality": 61.3,
       "governance": 4.5,
       "contract_governance": 4.5,
       "operational_transparency": 26.3,
@@ -2547,7 +2547,7 @@
       "access_clarity": 38.2
      },
      "scored_at": "2026-09-01",
-     "schema_version": "0.17.2",
+     "schema_version": "0.18.0",
      "agent_score": 38.1,
      "agent_band": "agent-ready",
      "agent_dims": {
@@ -2593,7 +2593,7 @@
       "access_clarity": 76.3
      },
      "scored_at": "2026-09-01",
-     "schema_version": "0.17.2",
+     "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
       "regime": "Payments",
@@ -2633,20 +2633,20 @@
    "label": "Thin",
    "range": "26.2 – 39.2",
    "blurb": "Limited machine-readable signal beyond documentation a human can read.",
-   "count": 14,
-   "shown": 14,
+   "count": 13,
+   "shown": 13,
    "providers": [
     {
      "name": "Contently",
      "slug": "contently",
      "description": "Contently is an end-to-end content marketing platform pairing enterprise content operations software with a vetted global network of 10,000+ freelance writers, editors, designers, and strategists, positioned for regulated industries such as financial services, healthcare, and insurance. Brands use Contently to plan editorial calendars, source and manage creative talent, run review-and-approval workflows with credentialed reviewers, publish across channels, and measure content performance. For developers Contently documents the Talent API, a REST-first JSON API secured with scoped OAuth2 that lets teams search vetted creators, open NDA-scoped projects, brief and message contributors, submit draft reviews, approve and pay out work, and check funded balances, with state-change webhooks over Slack, Teams, or raw HTTP. Contently also advertises an MCP server registering six tools, though no endpoint is published. No OpenAPI specification, reference documentation, or developer portal is published; API access is obtained through a sales conversation. Contently maintains SOC 2 Type II, GDPR, CCPA, HIPAA (BAA), and FINRA reviewer-pool posture with a published controls matrix.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/contently/refs/heads/main/screenshots/contently-2026-07-25T210335.png",
-     "score": 39.0,
+     "score": 38.7,
      "band": "thin",
      "band_label": "Thin",
      "facets": {
       "discoverability": 75.9,
-      "contract_quality": 42.7,
+      "contract_quality": 41.6,
       "governance": 18.2,
       "contract_governance": 18.2,
       "operational_transparency": 21.1,
@@ -2655,7 +2655,7 @@
       "access_clarity": 43.4
      },
      "scored_at": "2026-09-01",
-     "schema_version": "0.17.2",
+     "schema_version": "0.18.0",
      "agent_score": 22.3,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -2701,7 +2701,7 @@
       "access_clarity": 10.5
      },
      "scored_at": "2026-09-01",
-     "schema_version": "0.17.2",
+     "schema_version": "0.18.0",
      "agent_score": 27.9,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -2747,7 +2747,7 @@
       "access_clarity": 38.2
      },
      "scored_at": "2026-09-01",
-     "schema_version": "0.17.2",
+     "schema_version": "0.18.0",
      "agent_score": 23.0,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -2792,7 +2792,7 @@
       "access_clarity": 35.5
      },
      "scored_at": "2026-09-01",
-     "schema_version": "0.17.2",
+     "schema_version": "0.18.0",
      "agent_score": 29.7,
      "agent_band": "agent-ready",
      "agent_dims": {
@@ -2838,7 +2838,7 @@
       "access_clarity": 27.6
      },
      "scored_at": "2026-09-01",
-     "schema_version": "0.17.2",
+     "schema_version": "0.18.0",
      "agent_score": 35.4,
      "agent_band": "agent-ready",
      "agent_dims": {
@@ -2884,7 +2884,7 @@
       "access_clarity": 77.6
      },
      "scored_at": "2026-09-01",
-     "schema_version": "0.17.2",
+     "schema_version": "0.18.0",
      "agent_score": 36.0,
      "agent_band": "agent-ready",
      "agent_dims": {
@@ -2915,12 +2915,12 @@
      "slug": "spredfast",
      "description": "Spredfast was an Austin-based social media marketing and management platform providing social publishing, engagement, listening, and analytics for enterprise brands and agencies. Backed by Battery Ventures, it acquired Mass Relevance in 2013, merged with Lithium Technologies in 2018, and the combined company rebranded as Khoros in 2019; the Spredfast product line is delivered today as Khoros Marketing and documented at developer.khoros.com. The API surface still carries the Spredfast name in production — the host is api.spredfast.com, OAuth 2.0 runs on login.spredfast.com, request headers use the x-sf- vendor prefix, and the Conversations v1 contract is still licensed as \"Spredfast API Terms of Use\". Nine OpenAPI documents covering 149 operations are published through the Khoros developer center: Conversations v2 and v1, an asynchronous Analytics Reporting API, a Notifications (Events) API with eleven documented event types, CRM registration, Label Sets, token introspection, the Experiences Stream API inherited from Mass Relevance, and an inverted Custom CRM contract the customer implements. The original devcenter.spredfast.com developer portal is dead and spredfast.com returns 503.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/spredfast/refs/heads/main/screenshots/spredfast-2026-08-17T082041.png",
-     "score": 36.5,
+     "score": 36.3,
      "band": "thin",
      "band_label": "Thin",
      "facets": {
       "discoverability": 57.4,
-      "contract_quality": 62.7,
+      "contract_quality": 61.8,
       "governance": 4.5,
       "contract_governance": 4.5,
       "operational_transparency": 39.5,
@@ -2929,7 +2929,7 @@
       "access_clarity": 26.3
      },
      "scored_at": "2026-09-01",
-     "schema_version": "0.17.2",
+     "schema_version": "0.18.0",
      "agent_score": 37.9,
      "agent_band": "agent-ready",
      "agent_dims": {
@@ -2975,7 +2975,7 @@
       "access_clarity": 65.8
      },
      "scored_at": "2026-09-01",
-     "schema_version": "0.17.2",
+     "schema_version": "0.18.0",
      "agent_score": 18.9,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -3021,7 +3021,7 @@
       "access_clarity": 65.8
      },
      "scored_at": "2026-09-01",
-     "schema_version": "0.17.2",
+     "schema_version": "0.18.0",
      "agent_score": 11.4,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -3066,7 +3066,7 @@
       "access_clarity": 76.3
      },
      "scored_at": "2026-09-01",
-     "schema_version": "0.17.2",
+     "schema_version": "0.18.0",
      "agent_score": 31.2,
      "agent_band": "agent-ready",
      "agent_dims": {
@@ -3110,7 +3110,7 @@
       "access_clarity": 84.2
      },
      "scored_at": "2026-09-01",
-     "schema_version": "0.17.2",
+     "schema_version": "0.18.0",
      "agent_score": 5.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -3141,12 +3141,12 @@
      "slug": "ciloo",
      "description": "Ciloo is a Rotterdam-headquartered global platform for branded products and promotional merchandise. Enterprises run a branded Ciloo store — business cards, apparel, stationery, signage, corporate gifts and sales collateral — and every order placed in it is produced on demand by a vetted production partner near the recipient, which Ciloo positions as cutting cost, waste and shipping distance while keeping brand control central. The platform is used by manufacturing, medical-device, professional- services and franchise organisations, and integrates with digital asset management (Frontify, Bynder, Canto, Aprimo, Papirfly, Brandfolder, Marvia), procurement and ERP (SAP Ariba, S/4HANA, Proactis, Proqura, Exact), SSO, and WooCommerce. Ciloo documents two APIs on its own knowledge centre at api.cilooprint.com: a per-brand-store Cart API secured with OAuth 1.0a, and a bidirectional Printer API integration that pushes orders to production partners and receives production and shipping status callbacks in return.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/ciloo/refs/heads/main/screenshots/ciloo-2026-08-17T080820.png",
-     "score": 30.5,
+     "score": 30.4,
      "band": "thin",
      "band_label": "Thin",
      "facets": {
       "discoverability": 74.1,
-      "contract_quality": 22.1,
+      "contract_quality": 21.8,
       "governance": 4.5,
       "contract_governance": 4.5,
       "operational_transparency": 7.9,
@@ -3155,7 +3155,7 @@
       "access_clarity": 21.1
      },
      "scored_at": "2026-09-01",
-     "schema_version": "0.17.2",
+     "schema_version": "0.18.0",
      "agent_score": 31.1,
      "agent_band": "agent-ready",
      "agent_dims": {
@@ -3182,51 +3182,6 @@
      "rank": 68
     },
     {
-     "name": "VaynerMedia",
-     "slug": "vaynermedia",
-     "description": "VaynerMedia is an integrated strategy, creative, and media agency founded by Gary Vaynerchuk, positioning itself as \"The Modern Agency of Record\" with social media at the center of its practice. Headquartered in New York with roughly 2,000 employees across offices in Los Angeles, Chattanooga, Chicago, Miami, Toronto, Amsterdam, London, Mexico City, Sydney, Mumbai, Tokyo, Kuala Lumpur, Singapore, and Bangkok, the agency serves clients including Bose, Coach, Diageo, Duracell, Indeed, Jimmy John's, Meta, Mondelez, NatWest, PepsiCo, Tinder, and Wingstop. VaynerMedia is the flagship brand of holding company VaynerX, whose portfolio also includes Gallery Media Group, ChukMedia, Tamara Group, Eva Nosidam Productions, VaynerSpeakers, Tingley Lane, and the Marketing for the Now podcast. VaynerMedia is a services agency, not an API or platform company — it does not publish a developer API, SDK, or public technology product, and its public GitHub presence (github.com/vaynermedia and github.com/vaynerx) consists primarily of forked open source libraries and internal build tooling rather than maintained API products. The one machine-readable surface VaynerMedia does serve is its own website: vaynermedia.com runs on self-hosted WordPress at WP Engine and leaves the WordPress REST API open for anonymous reads at vaynermedia.com/wp-json/, with 365 registered routes covering posts, pages, media, taxonomies and the agency's own case_study custom post type. The site also serves a Yoast-generated llms.txt. Neither is a developer product — they are the content surface of a marketing site — but both are real, public and callable, and they are what an agent researching the agency can actually read.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/vaynermedia/refs/heads/main/screenshots/vaynermedia-2026-06-20T200840.png",
-     "score": 30.4,
-     "band": "thin",
-     "band_label": "Thin",
-     "facets": {
-      "discoverability": 75.9,
-      "contract_quality": 56.5,
-      "governance": 4.5,
-      "contract_governance": 4.5,
-      "operational_transparency": 5.3,
-      "developer_ergonomics": 16.1,
-      "commercial_clarity": 21.1,
-      "access_clarity": 21.1
-     },
-     "scored_at": "2026-09-01",
-     "schema_version": "0.17.2",
-     "agent_score": 25.2,
-     "agent_band": "agent-aware",
-     "agent_dims": {
-      "spec_presence": true,
-      "agentic_access": false,
-      "reversibility_documented": "na",
-      "mcp_server": false,
-      "auth_clarity": "bearer",
-      "idempotency": "na",
-      "error_semantics": "documented",
-      "openapi_examples": false,
-      "rate_limit_signal": "documented",
-      "event_surface_described": false,
-      "agent_skills": "derived",
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": "na",
-      "delegated_identity": false,
-      "protected_resource_metadata": false,
-      "dynamic_client_registration": false,
-      "agentic_commerce": false
-     },
-     "rank": 69
-    },
-    {
      "name": "Kuaishou",
      "slug": "kuaishou",
      "description": "Kuaishou Technology (快手) is a Beijing-based short-video and live-streaming platform operating Kuaishou in mainland China and Kwai internationally, spanning short video, live commerce, local services and online marketing. Its developer surface is split across two public properties: the Kuaishou Open Platform (open.kuaishou.com), which exposes an OAuth 2.0 authorization-code flow and a JSON Open API for third-party apps, mini programs and merchant integrations; and Kwai for Business (developers.kwai.com), the international marketing/advertising API used by advertisers and measurement partners. A third and markedly more open surface is Kling AI (kling.ai), Kuaishou's generative video and image platform, which ships an asynchronous REST API, an official CLI, a hosted MCP server with published OAuth scopes, and the only llms.txt Kuaishou serves anywhere. Kuaishou also publishes open source under the Kwai GitHub organization. The Open Platform console and the Kwai for Business portal are JavaScript single-page applications, largely Chinese-language and gated behind developer registration, but the mini-program documentation subtree at open.kuaishou.com/docs is server-rendered and publicly readable, so this profile records endpoints and pages verified by live HTTP probe or read from that subtree.",
@@ -3245,7 +3200,7 @@
       "access_clarity": 21.1
      },
      "scored_at": "2026-09-01",
-     "schema_version": "0.17.2",
+     "schema_version": "0.18.0",
      "agent_score": 28.5,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -3269,7 +3224,7 @@
       "dynamic_client_registration": true,
       "agentic_commerce": false
      },
-     "rank": 70
+     "rank": 69
     }
    ]
   },
@@ -3278,8 +3233,8 @@
    "label": "Emerging",
    "range": "11 – 26.1",
    "blurb": "More than an index entry but still mostly links rather than artifacts.",
-   "count": 32,
-   "shown": 32,
+   "count": 33,
+   "shown": 33,
    "providers": [
     {
      "name": "Opensense (formerly SenderGen)",
@@ -3300,7 +3255,7 @@
       "access_clarity": 50.0
      },
      "scored_at": "2026-09-01",
-     "schema_version": "0.17.2",
+     "schema_version": "0.18.0",
      "agent_score": 7.9,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -3325,7 +3280,7 @@
       "agentic_commerce": false
      },
      "tier": "Sold to the advertiser (buy side)",
-     "rank": 71
+     "rank": 70
     },
     {
      "name": "PlayPlay",
@@ -3345,7 +3300,7 @@
       "access_clarity": 81.6
      },
      "scored_at": "2026-09-01",
-     "schema_version": "0.17.2",
+     "schema_version": "0.18.0",
      "agent_score": 2.5,
      "agent_band": "human-only",
      "agent_dims": {
@@ -3370,7 +3325,7 @@
       "agentic_commerce": false
      },
      "tier": "Sold to the publisher (sell side)",
-     "rank": 72
+     "rank": 71
     },
     {
      "name": "Brandripe",
@@ -3391,7 +3346,7 @@
       "access_clarity": 76.3
      },
      "scored_at": "2026-09-01",
-     "schema_version": "0.17.2",
+     "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -3415,7 +3370,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 73
+     "rank": 72
     },
     {
      "name": "Brand.ai",
@@ -3435,7 +3390,7 @@
       "access_clarity": 36.8
      },
      "scored_at": "2026-09-01",
-     "schema_version": "0.17.2",
+     "schema_version": "0.18.0",
      "agent_score": 24.0,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -3459,7 +3414,7 @@
       "dynamic_client_registration": true,
       "agentic_commerce": false
      },
-     "rank": 74
+     "rank": 73
     },
     {
      "name": "soona",
@@ -3479,7 +3434,7 @@
       "access_clarity": 69.7
      },
      "scored_at": "2026-09-01",
-     "schema_version": "0.17.2",
+     "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -3503,7 +3458,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 75
+     "rank": 74
     },
     {
      "name": "Stllr Network",
@@ -3523,7 +3478,7 @@
       "access_clarity": 76.3
      },
      "scored_at": "2026-09-01",
-     "schema_version": "0.17.2",
+     "schema_version": "0.18.0",
      "agent_score": 2.5,
      "agent_band": "human-only",
      "agent_dims": {
@@ -3547,7 +3502,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 76
+     "rank": 75
     },
     {
      "name": "Gleeful AI",
@@ -3568,7 +3523,7 @@
       "access_clarity": 5.3
      },
      "scored_at": "2026-09-01",
-     "schema_version": "0.17.2",
+     "schema_version": "0.18.0",
      "agent_score": 20.9,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -3593,7 +3548,7 @@
       "agentic_commerce": false
      },
      "tier": "Sold to the advertiser (buy side)",
-     "rank": 77
+     "rank": 76
     },
     {
      "name": "Rocksalt",
@@ -3613,7 +3568,7 @@
       "access_clarity": 69.7
      },
      "scored_at": "2026-09-01",
-     "schema_version": "0.17.2",
+     "schema_version": "0.18.0",
      "agent_score": 2.5,
      "agent_band": "human-only",
      "agent_dims": {
@@ -3637,7 +3592,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 78
+     "rank": 77
     },
     {
      "name": "Persado",
@@ -3657,7 +3612,7 @@
       "access_clarity": 35.5
      },
      "scored_at": "2026-09-01",
-     "schema_version": "0.17.2",
+     "schema_version": "0.18.0",
      "agent_score": 24.7,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -3681,7 +3636,7 @@
       "dynamic_client_registration": true,
       "agentic_commerce": false
      },
-     "rank": 79
+     "rank": 78
     },
     {
      "name": "Centric Brands",
@@ -3702,7 +3657,7 @@
       "access_clarity": 21.1
      },
      "scored_at": "2026-09-01",
-     "schema_version": "0.17.2",
+     "schema_version": "0.18.0",
      "agent_score": 22.8,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -3726,7 +3681,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": "platform"
      },
-     "rank": 80
+     "rank": 79
     },
     {
      "name": "Minute Media",
@@ -3747,7 +3702,7 @@
       "access_clarity": 27.6
      },
      "scored_at": "2026-09-01",
-     "schema_version": "0.17.2",
+     "schema_version": "0.18.0",
      "agent_score": 7.9,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -3772,7 +3727,7 @@
       "agentic_commerce": false
      },
      "tier": "Sold to the publisher (sell side)",
-     "rank": 81
+     "rank": 80
     },
     {
      "name": "Memoir",
@@ -3793,7 +3748,7 @@
       "access_clarity": 69.7
      },
      "scored_at": "2026-09-01",
-     "schema_version": "0.17.2",
+     "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -3818,7 +3773,7 @@
       "agentic_commerce": false
      },
      "tier": "Sold to the advertiser (buy side)",
-     "rank": 82
+     "rank": 81
     },
     {
      "name": "PUBLY",
@@ -3838,7 +3793,7 @@
       "access_clarity": 65.8
      },
      "scored_at": "2026-09-01",
-     "schema_version": "0.17.2",
+     "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -3863,7 +3818,7 @@
       "agentic_commerce": false
      },
      "tier": "Sold to the publisher (sell side)",
-     "rank": 83
+     "rank": 82
     },
     {
      "name": "Imagine Ai",
@@ -3884,7 +3839,7 @@
       "access_clarity": 69.7
      },
      "scored_at": "2026-09-01",
-     "schema_version": "0.17.2",
+     "schema_version": "0.18.0",
      "agent_score": 2.5,
      "agent_band": "human-only",
      "agent_dims": {
@@ -3903,6 +3858,51 @@
       "consent_identity": false,
       "agent_card": false,
       "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
+     "rank": 83
+    },
+    {
+     "name": "VaynerMedia",
+     "slug": "vaynermedia",
+     "description": "VaynerMedia is an integrated strategy, creative, and media agency founded by Gary Vaynerchuk, positioning itself as \"The Modern Agency of Record\" with social media at the center of its practice. Headquartered in New York with roughly 2,000 employees across offices in Los Angeles, Chattanooga, Chicago, Miami, Toronto, Amsterdam, London, Mexico City, Sydney, Mumbai, Tokyo, Kuala Lumpur, Singapore, and Bangkok, the agency serves clients including Bose, Coach, Diageo, Duracell, Indeed, Jimmy John's, Meta, Mondelez, NatWest, PepsiCo, Tinder, and Wingstop. VaynerMedia is the flagship brand of holding company VaynerX, whose portfolio also includes Gallery Media Group, ChukMedia, Tamara Group, Eva Nosidam Productions, VaynerSpeakers, Tingley Lane, and the Marketing for the Now podcast. VaynerMedia is a services agency, not an API or platform company — it does not publish a developer API, SDK, or public technology product, and its public GitHub presence (github.com/vaynermedia and github.com/vaynerx) consists primarily of forked open source libraries and internal build tooling rather than maintained API products. The one machine-readable surface VaynerMedia does serve is its own website: vaynermedia.com runs on self-hosted WordPress at WP Engine and leaves the WordPress REST API open for anonymous reads at vaynermedia.com/wp-json/, with 365 registered routes covering posts, pages, media, taxonomies and the agency's own case_study custom post type. The site also serves a Yoast-generated llms.txt. Neither is a developer product — they are the content surface of a marketing site — but both are real, public and callable, and they are what an agent researching the agency can actually read.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/vaynermedia/refs/heads/main/screenshots/vaynermedia-2026-06-20T200840.png",
+     "score": 19.8,
+     "band": "emerging",
+     "band_label": "Emerging",
+     "facets": {
+      "discoverability": 75.9,
+      "contract_quality": 14.1,
+      "governance": 4.5,
+      "contract_governance": 4.5,
+      "operational_transparency": 5.3,
+      "developer_ergonomics": 16.1,
+      "commercial_clarity": 21.1,
+      "access_clarity": 21.1
+     },
+     "scored_at": "2026-09-01",
+     "schema_version": "0.18.0",
+     "agent_score": 25.2,
+     "agent_band": "agent-aware",
+     "agent_dims": {
+      "spec_presence": true,
+      "agentic_access": false,
+      "reversibility_documented": "na",
+      "mcp_server": false,
+      "auth_clarity": "bearer",
+      "idempotency": "na",
+      "error_semantics": "documented",
+      "openapi_examples": false,
+      "rate_limit_signal": "documented",
+      "event_surface_described": false,
+      "agent_skills": "derived",
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": "na",
       "delegated_identity": false,
       "protected_resource_metadata": false,
       "dynamic_client_registration": false,
@@ -3929,7 +3929,7 @@
       "access_clarity": 65.8
      },
      "scored_at": "2026-09-01",
-     "schema_version": "0.17.2",
+     "schema_version": "0.18.0",
      "agent_score": 2.5,
      "agent_band": "human-only",
      "agent_dims": {
@@ -3973,7 +3973,7 @@
       "access_clarity": 65.8
      },
      "scored_at": "2026-09-01",
-     "schema_version": "0.17.2",
+     "schema_version": "0.18.0",
      "agent_score": 2.5,
      "agent_band": "human-only",
      "agent_dims": {
@@ -4019,7 +4019,7 @@
       "access_clarity": 50.0
      },
      "scored_at": "2026-09-01",
-     "schema_version": "0.17.2",
+     "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
       "regime": "Energy & Utilities",
@@ -4071,7 +4071,7 @@
       "access_clarity": 59.2
      },
      "scored_at": "2026-09-01",
-     "schema_version": "0.17.2",
+     "schema_version": "0.18.0",
      "agent_score": 2.5,
      "agent_band": "human-only",
      "agent_dims": {
@@ -4115,7 +4115,7 @@
       "access_clarity": 27.6
      },
      "scored_at": "2026-09-01",
-     "schema_version": "0.17.2",
+     "schema_version": "0.18.0",
      "agent_score": 7.9,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -4161,7 +4161,7 @@
       "access_clarity": 0.0
      },
      "scored_at": "2026-09-01",
-     "schema_version": "0.17.2",
+     "schema_version": "0.18.0",
      "agent_score": 27.2,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -4206,7 +4206,7 @@
       "access_clarity": 44.7
      },
      "scored_at": "2026-09-01",
-     "schema_version": "0.17.2",
+     "schema_version": "0.18.0",
      "agent_score": 2.5,
      "agent_band": "human-only",
      "agent_dims": {
@@ -4251,7 +4251,7 @@
       "access_clarity": 28.9
      },
      "scored_at": "2026-09-01",
-     "schema_version": "0.17.2",
+     "schema_version": "0.18.0",
      "agent_score": 2.5,
      "agent_band": "human-only",
      "agent_dims": {
@@ -4297,7 +4297,7 @@
       "access_clarity": 0.0
      },
      "scored_at": "2026-09-01",
-     "schema_version": "0.17.2",
+     "schema_version": "0.18.0",
      "agent_score": 7.9,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -4343,7 +4343,7 @@
       "access_clarity": 27.6
      },
      "scored_at": "2026-09-01",
-     "schema_version": "0.17.2",
+     "schema_version": "0.18.0",
      "agent_score": 2.5,
      "agent_band": "human-only",
      "agent_dims": {
@@ -4388,7 +4388,7 @@
       "access_clarity": 34.2
      },
      "scored_at": "2026-09-01",
-     "schema_version": "0.17.2",
+     "schema_version": "0.18.0",
      "agent_score": 5.4,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -4434,7 +4434,7 @@
       "access_clarity": 34.2
      },
      "scored_at": "2026-09-01",
-     "schema_version": "0.17.2",
+     "schema_version": "0.18.0",
      "agent_score": 2.5,
      "agent_band": "human-only",
      "agent_dims": {
@@ -4479,7 +4479,7 @@
       "access_clarity": 34.2
      },
      "scored_at": "2026-09-01",
-     "schema_version": "0.17.2",
+     "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -4524,7 +4524,7 @@
       "access_clarity": 21.1
      },
      "scored_at": "2026-09-01",
-     "schema_version": "0.17.2",
+     "schema_version": "0.18.0",
      "agent_score": 4.7,
      "agent_band": "human-only",
      "agent_dims": {
@@ -4569,7 +4569,7 @@
       "access_clarity": 23.7
      },
      "scored_at": "2026-09-01",
-     "schema_version": "0.17.2",
+     "schema_version": "0.18.0",
      "agent_score": 2.5,
      "agent_band": "human-only",
      "agent_dims": {
@@ -4614,7 +4614,7 @@
       "access_clarity": 27.6
      },
      "scored_at": "2026-09-01",
-     "schema_version": "0.17.2",
+     "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -4658,7 +4658,7 @@
       "access_clarity": 27.6
      },
      "scored_at": "2026-09-01",
-     "schema_version": "0.17.2",
+     "schema_version": "0.18.0",
      "agent_score": 2.5,
      "agent_band": "human-only",
      "agent_dims": {
@@ -4703,7 +4703,7 @@
       "access_clarity": 21.1
      },
      "scored_at": "2026-09-01",
-     "schema_version": "0.17.2",
+     "schema_version": "0.18.0",
      "agent_score": 2.5,
      "agent_band": "human-only",
      "agent_dims": {
@@ -4758,7 +4758,7 @@
       "access_clarity": 11.8
      },
      "scored_at": "2026-09-01",
-     "schema_version": "0.17.2",
+     "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -4803,7 +4803,7 @@
       "access_clarity": 10.5
      },
      "scored_at": "2026-09-01",
-     "schema_version": "0.17.2",
+     "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
       "regime": "Health",
@@ -4854,7 +4854,7 @@
       "access_clarity": 6.6
      },
      "scored_at": "2026-09-01",
-     "schema_version": "0.17.2",
+     "schema_version": "0.18.0",
      "agent_score": 2.9,
      "agent_band": "human-only",
      "agent_dims": {
@@ -4898,7 +4898,7 @@
       "access_clarity": 6.6
      },
      "scored_at": "2026-09-01",
-     "schema_version": "0.17.2",
+     "schema_version": "0.18.0",
      "agent_score": 17.6,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -4943,7 +4943,7 @@
       "access_clarity": 10.5
      },
      "scored_at": "2026-09-01",
-     "schema_version": "0.17.2",
+     "schema_version": "0.18.0",
      "agent_score": 2.2,
      "agent_band": "human-only",
      "agent_dims": {
@@ -4988,7 +4988,7 @@
       "access_clarity": 10.5
      },
      "scored_at": "2026-09-01",
-     "schema_version": "0.17.2",
+     "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -5034,7 +5034,7 @@
       "access_clarity": 0.0
      },
      "scored_at": "2026-09-01",
-     "schema_version": "0.17.2",
+     "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -5080,7 +5080,7 @@
       "access_clarity": 0.0
      },
      "scored_at": "2026-09-01",
-     "schema_version": "0.17.2",
+     "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -5125,7 +5125,7 @@
       "access_clarity": 0.0
      },
      "scored_at": "2026-09-01",
-     "schema_version": "0.17.2",
+     "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -5171,7 +5171,7 @@
       "access_clarity": 0.0
      },
      "scored_at": "2026-09-01",
-     "schema_version": "0.17.2",
+     "schema_version": "0.18.0",
      "agent_score": 2.5,
      "agent_band": "human-only",
      "agent_dims": {
@@ -5216,7 +5216,7 @@
       "access_clarity": 0.0
      },
      "scored_at": "2026-09-01",
-     "schema_version": "0.17.2",
+     "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -5262,7 +5262,7 @@
       "access_clarity": 0.0
      },
      "scored_at": "2026-09-01",
-     "schema_version": "0.17.2",
+     "schema_version": "0.18.0",
      "agent_score": 2.5,
      "agent_band": "human-only",
      "agent_dims": {
@@ -5307,7 +5307,7 @@
       "access_clarity": 0.0
      },
      "scored_at": "2026-09-01",
-     "schema_version": "0.17.2",
+     "schema_version": "0.18.0",
      "agent_score": 2.5,
      "agent_band": "human-only",
      "agent_dims": {

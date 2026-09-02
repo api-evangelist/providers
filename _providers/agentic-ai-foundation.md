@@ -346,27 +346,36 @@ rules:
   slug: agentic-ai-foundation-jsonschema-spectral-rules
 score:
   band: strong
-  composite: 57.7
+  composite: 56.2
   coverage:
     artifact_dirs: 28
     catalog_gap: 54.8
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: 0.0
+  delta: -1.5
   facets:
     access_clarity: 28.9
     commercial_clarity: 28.9
-    contract_governance: 43.2
+    contract_governance: 29.5
     contract_quality: 58.5
     developer_ergonomics: 78.6
     discoverability: 72.2
-    governance: 43.2
+    governance: 29.5
     operational_transparency: 34.2
   open_source:
     applies: true
     score: 100.0
   previous_composite: 57.7
-  schema_version: 0.17.2
+  provenance:
+    conformance: derived
+    contracts:
+      callable: 0.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 1
+    mcp: first-party
+    skills: first-party
+  schema_version: 0.18.0
   scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/agentic-ai-foundation/refs/heads/main/screenshots/agentic-ai-foundation-2026-06-20T170026.png

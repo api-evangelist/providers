@@ -222,24 +222,31 @@ overview: Open Geospatial Consortium (OGC) publishes 38 APIs on the [APIs.io](ht
 random_paper: 19
 score:
   band: emerging
-  composite: 20.5
+  composite: 20.8
   coverage:
     artifact_dirs: 11
     catalog_gap: 85.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: 0.0
+  delta: 0.3
   facets:
     access_clarity: 0.0
     commercial_clarity: 0.0
     contract_governance: 0.0
-    contract_quality: 50.0
+    contract_quality: 51.3
     developer_ergonomics: 0.0
     discoverability: 55.6
     governance: 0.0
     operational_transparency: 18.4
   previous_composite: 20.5
-  schema_version: 0.17.2
+  provenance:
+    conformance: unknown
+    contracts:
+      callable: 36.8
+      derived: 0
+      marker_coverage: 0.0
+      total: 38
+  schema_version: 0.18.0
   scored_at: '2026-09-01'
   trend: flat
 slug: ogc

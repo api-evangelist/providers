@@ -438,18 +438,18 @@ rules:
   slug: vessel-jsonschema-spectral-rules
 score:
   band: strong
-  composite: 65.2
+  composite: 64.7
   coverage:
     artifact_dirs: 30
     catalog_gap: 17.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: 0.0
+  delta: -0.5
   facets:
     access_clarity: 78.9
     commercial_clarity: 78.9
     contract_governance: 87.9
-    contract_quality: 72.3
+    contract_quality: 70.2
     developer_ergonomics: 73.2
     discoverability: 68.5
     governance: 87.9
@@ -462,13 +462,13 @@ score:
     agentic_access: derived
     conformance: first-party
     contracts:
-      callable: 95.0
+      callable: 62.2
       derived: 0
       marker_coverage: 0.0
-      total: 20
+      total: 37
     mcp: derived
     skills: derived
-  schema_version: 0.17.2
+  schema_version: 0.18.0
   scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/vessel/refs/heads/main/screenshots/vessel-2026-06-20T200959.png

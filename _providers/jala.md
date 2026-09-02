@@ -104,7 +104,7 @@ score:
     governance: 0.0
     operational_transparency: 0.0
   previous_composite: 14.6
-  schema_version: 0.17.2
+  schema_version: 0.18.0
   scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/jala/refs/heads/main/screenshots/jala-2026-07-25T223046.png

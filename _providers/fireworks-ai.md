@@ -223,18 +223,18 @@ rules:
   slug: fireworks-ai-asyncapi-spectral-rules
 score:
   band: thin
-  composite: 34.5
+  composite: 34.3
   coverage:
     artifact_dirs: 14
     catalog_gap: 62.3
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: 0.0
+  delta: -0.2
   facets:
     access_clarity: 15.8
     commercial_clarity: 15.8
     contract_governance: 11.4
-    contract_quality: 57.0
+    contract_quality: 56.3
     developer_ergonomics: 31.0
     discoverability: 81.5
     governance: 11.4
@@ -247,7 +247,7 @@ score:
       derived: 2
       marker_coverage: 20.0
       total: 10
-  schema_version: 0.17.2
+  schema_version: 0.18.0
   scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/fireworks-ai/refs/heads/main/screenshots/fireworks-ai-2026-06-20T181235.png

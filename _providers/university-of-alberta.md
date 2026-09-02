@@ -206,39 +206,34 @@ rate_limits:
   slug: university-of-alberta-rate-limits
 score:
   band: thin
-  composite: 35.1
+  composite: 29.3
   coverage:
     artifact_dirs: 7
-    catalog_gap: 61.0
+    catalog_gap: 73.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: 0.0
+  delta: -5.8
   facets:
-    access_clarity: 50.0
-    commercial_clarity: 50.0
+    access_clarity: 34.2
+    commercial_clarity: 34.2
     contract_governance: 18.2
-    contract_quality: 6.7
+    contract_quality: 4.4
     developer_ergonomics: 33.3
     discoverability: 64.8
     governance: 18.2
-    operational_transparency: 23.7
+    operational_transparency: 7.9
   previous_composite: 35.1
   provenance:
-    agentic_access: derived
-    contracts:
-      callable: 100.0
-      derived: 0
-      marker_coverage: 0.0
-      total: 2
+    conformance: first-party
   regulatory:
     applies: true
     matched_via: tags
     regime: Education & Research
     regime_id: education
     score: 61.1
-  schema_version: 0.17.2
+  schema_version: 0.18.0
   scored_at: '2026-09-01'
-  trend: flat
+  trend: falling
 security:
 - kind: domain-security
   name: University Of Alberta Domain Security

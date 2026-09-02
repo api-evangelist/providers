@@ -134,7 +134,7 @@ score:
     regime: Health
     regime_id: health
     score: 23.8
-  schema_version: 0.17.2
+  schema_version: 0.18.0
   scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/clara-2/refs/heads/main/screenshots/clara-2-2026-07-25T205458.png

@@ -190,7 +190,7 @@ score:
       derived: 4
       marker_coverage: 100.0
       total: 4
-  schema_version: 0.17.2
+  schema_version: 0.18.0
   scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/subbly/refs/heads/main/screenshots/subbly-2026-08-17T082145.png

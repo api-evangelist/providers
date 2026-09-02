@@ -257,18 +257,18 @@ scopes:
   summary_line: OAuth 2.0 · no documented scopes
 score:
   band: exemplar
-  composite: 68.7
+  composite: 68.5
   coverage:
     artifact_dirs: 26
     catalog_gap: 54.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: 0.0
+  delta: -0.2
   facets:
     access_clarity: 92.1
     commercial_clarity: 92.1
     contract_governance: 0.0
-    contract_quality: 63.9
+    contract_quality: 63.1
     developer_ergonomics: 58.9
     discoverability: 75.9
     governance: 0.0
@@ -280,7 +280,7 @@ score:
       callable: 100.0
       derived: 0
       marker_coverage: 0.0
-      total: 1
+      total: 21
     mcp: first-party
     skills: derived
   regulatory:
@@ -289,7 +289,7 @@ score:
     regime: Telecommunications
     regime_id: telecommunications
     score: 65.3
-  schema_version: 0.17.2
+  schema_version: 0.18.0
   scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/blueshift/refs/heads/main/screenshots/blueshift-2026-08-17T080647.png

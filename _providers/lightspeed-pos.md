@@ -12,7 +12,6 @@ access_model:
   try_now: false
 agent_readiness:
   band: agent-ready
-  band_gated_from: agent-native
   dimensions:
     agent_card: false
     agent_skills: false
@@ -24,7 +23,7 @@ agent_readiness:
     dry_run_mode: false
     dynamic_client_registration: false
     error_semantics: verified
-    event_surface_described: true
+    event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: verified
@@ -34,7 +33,7 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 39.9
+  score: 35.6
   scored_at: '2026-09-01'
 agentic_access:
 - acting_count: 53
@@ -1140,10 +1139,10 @@ score:
     agentic_access: derived
     contracts:
       callable: 100.0
-      derived: 21
-      marker_coverage: 100.0
-      total: 21
-  schema_version: 0.17.2
+      derived: 19
+      marker_coverage: 79.2
+      total: 24
+  schema_version: 0.18.0
   scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/lightspeed-pos/refs/heads/main/screenshots/lightspeed-pos-2026-06-20T184525.png

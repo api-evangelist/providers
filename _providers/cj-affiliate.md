@@ -285,18 +285,18 @@ rate_limits:
   slug: cj-affiliate-rate-limits
 score:
   band: developing
-  composite: 48.7
+  composite: 48.6
   coverage:
     artifact_dirs: 24
     catalog_gap: 55.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: 0.0
+  delta: -0.1
   facets:
     access_clarity: 63.2
     commercial_clarity: 63.2
     contract_governance: 18.2
-    contract_quality: 68.1
+    contract_quality: 67.4
     developer_ergonomics: 20.8
     discoverability: 75.9
     governance: 18.2
@@ -312,7 +312,7 @@ score:
       total: 6
     mcp: derived
     skills: derived
-  schema_version: 0.17.2
+  schema_version: 0.18.0
   scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/cj-affiliate/refs/heads/main/screenshots/cj-affiliate-2026-07-25T205448.png

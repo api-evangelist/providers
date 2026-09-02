@@ -1613,18 +1613,18 @@ rules:
   slug: hint-health-jsonschema-spectral-rules
 score:
   band: exemplar
-  composite: 67.9
+  composite: 67.6
   coverage:
     artifact_dirs: 30
     catalog_gap: 56.8
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: 0.0
+  delta: -0.3
   facets:
     access_clarity: 100.0
     commercial_clarity: 100.0
     contract_governance: 28.0
-    contract_quality: 69.9
+    contract_quality: 69.0
     developer_ergonomics: 64.3
     discoverability: 51.9
     governance: 28.0
@@ -1636,8 +1636,8 @@ score:
     contracts:
       callable: 100.0
       derived: 0
-      marker_coverage: 0.0
-      total: 49
+      marker_coverage: 26.9
+      total: 67
     mcp: first-party
     skills: first-party
   regulatory:
@@ -1646,7 +1646,7 @@ score:
     regime: Health
     regime_id: health
     score: 37.5
-  schema_version: 0.17.2
+  schema_version: 0.18.0
   scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/hint-health/refs/heads/main/screenshots/hint-health-2026-06-20T182747.png

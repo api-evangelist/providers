@@ -499,7 +499,7 @@ score:
     access_clarity: 68.4
     commercial_clarity: 68.4
     contract_governance: 18.2
-    contract_quality: 59.1
+    contract_quality: 59.3
     developer_ergonomics: 49.4
     discoverability: 77.8
     governance: 18.2
@@ -509,13 +509,13 @@ score:
     agentic_access: derived
     conformance: first-party
     contracts:
-      callable: 91.7
+      callable: 100.0
       derived: 0
       marker_coverage: 0.0
-      total: 12
+      total: 51
     mcp: first-party
     skills: derived
-  schema_version: 0.17.2
+  schema_version: 0.18.0
   scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/liveramp/refs/heads/main/screenshots/liveramp-2026-06-20T184618.png

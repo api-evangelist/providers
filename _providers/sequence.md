@@ -218,18 +218,18 @@ overview: 'Sequence publishes 5 APIs on the [APIs.io](https://apis.io/) network,
 random_paper: 17
 score:
   band: developing
-  composite: 40.6
+  composite: 40.4
   coverage:
     artifact_dirs: 22
     catalog_gap: 75.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: 0.0
+  delta: -0.2
   facets:
     access_clarity: 10.5
     commercial_clarity: 10.5
     contract_governance: 4.5
-    contract_quality: 53.6
+    contract_quality: 52.9
     developer_ergonomics: 58.9
     discoverability: 81.5
     governance: 4.5
@@ -250,7 +250,7 @@ score:
     regime: Payments
     regime_id: payments
     score: 26.6
-  schema_version: 0.17.2
+  schema_version: 0.18.0
   scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/sequence/refs/heads/main/screenshots/sequence-2026-08-17T081813.png

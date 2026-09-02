@@ -174,7 +174,6 @@ finops:
 - name: Spring Boot 3 Finops
   service_category: Open-Source Framework
   slug: spring-boot-3-finops
-image: https://spring.io/img/spring-logo.svg
 json_schemas:
 - name: Spring Boot 3 Health Response
   property_count: 2
@@ -236,20 +235,20 @@ rules:
   slug: spring-boot-3-rules
 score:
   band: thin
-  composite: 37.4
+  composite: 37.1
   coverage:
     artifact_dirs: 15
-    catalog_gap: 60.5
+    catalog_gap: 62.5
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: 0.0
+  delta: -0.3
   facets:
     access_clarity: 13.2
     commercial_clarity: 13.2
     contract_governance: 13.6
     contract_quality: 53.3
     developer_ergonomics: 33.3
-    discoverability: 66.7
+    discoverability: 63.0
     governance: 13.6
     operational_transparency: 26.3
   open_source:
@@ -263,7 +262,7 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 7
-  schema_version: 0.17.2
+  schema_version: 0.18.0
   scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/spring-boot-3/refs/heads/main/screenshots/spring-boot-3-2026-06-20T194407.png

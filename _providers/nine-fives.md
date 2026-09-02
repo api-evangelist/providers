@@ -176,18 +176,18 @@ overview: 'Nine Fives publishes 5 APIs on the [APIs.io](https://apis.io/) networ
 random_paper: 4
 score:
   band: thin
-  composite: 38.3
+  composite: 29.7
   coverage:
     artifact_dirs: 16
     catalog_gap: 75.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: 0.0
+  delta: -8.6
   facets:
     access_clarity: 23.7
     commercial_clarity: 23.7
     contract_governance: 18.2
-    contract_quality: 45.7
+    contract_quality: 11.4
     developer_ergonomics: 58.9
     discoverability: 81.5
     governance: 18.2
@@ -197,14 +197,14 @@ score:
     conformance: first-party
     contracts:
       callable: 0.0
-      derived: 0
-      marker_coverage: 0.0
-      total: 5
+      derived: 7
+      marker_coverage: 100.0
+      total: 7
     mcp: first-party
     skills: derived
-  schema_version: 0.17.2
+  schema_version: 0.18.0
   scored_at: '2026-09-01'
-  trend: flat
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/nine-fives/refs/heads/main/screenshots/nine-fives-2026-08-07T185318.png
 security:
 - kind: authentication

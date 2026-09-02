@@ -3,7 +3,7 @@ agent_readiness:
   band: agent-ready
   dimensions:
     agent_card: false
-    agent_skills: true
+    agent_skills: derived
     agentic_access: false
     agentic_commerce: false
     auth_clarity: bearer
@@ -22,7 +22,7 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 33.7
+  score: 31.0
   scored_at: '2026-09-01'
 api_count: 1
 apis:
@@ -212,33 +212,42 @@ rate_limits:
   name: Sparkyfitness Rate Limits
   slug: sparkyfitness-rate-limits
 score:
-  band: developing
-  composite: 42.0
+  band: thin
+  composite: 30.7
   coverage:
     artifact_dirs: 18
     catalog_gap: 70.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: 0.0
+  delta: -11.3
   facets:
     access_clarity: 10.5
     commercial_clarity: 10.5
-    contract_governance: 18.2
-    contract_quality: 45.8
-    developer_ergonomics: 61.9
+    contract_governance: 4.5
+    contract_quality: 11.5
+    developer_ergonomics: 56.5
     discoverability: 75.9
-    governance: 18.2
+    governance: 4.5
     operational_transparency: 39.5
   previous_composite: 42.0
+  provenance:
+    conformance: derived
+    contracts:
+      callable: 0.0
+      derived: 21
+      marker_coverage: 100.0
+      total: 21
+    mcp: first-party
+    skills: derived
   regulatory:
     applies: true
     matched_via: tags
     regime: Health
     regime_id: health
     score: 26.3
-  schema_version: 0.17.2
+  schema_version: 0.18.0
   scored_at: '2026-09-01'
-  trend: flat
+  trend: falling
 security:
 - kind: authentication
   name: Sparkyfitness Authentication

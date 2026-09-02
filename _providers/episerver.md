@@ -181,18 +181,18 @@ overview: 'Episerver publishes 3 APIs on the [APIs.io](https://apis.io/) network
 random_paper: 15
 score:
   band: developing
-  composite: 48.1
+  composite: 47.8
   coverage:
     artifact_dirs: 12
     catalog_gap: 75.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: 0.0
+  delta: -0.3
   facets:
     access_clarity: 47.4
     commercial_clarity: 47.4
     contract_governance: 18.2
-    contract_quality: 42.7
+    contract_quality: 41.6
     developer_ergonomics: 51.2
     discoverability: 81.5
     governance: 18.2
@@ -200,7 +200,7 @@ score:
   previous_composite: 48.1
   provenance:
     conformance: first-party
-  schema_version: 0.17.2
+  schema_version: 0.18.0
   scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/episerver/refs/heads/main/screenshots/episerver-2026-07-25T213522.png

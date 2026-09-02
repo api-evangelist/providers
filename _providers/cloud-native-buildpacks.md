@@ -158,7 +158,7 @@ score:
     governance: 54.5
     operational_transparency: 10.5
   previous_composite: 18.9
-  schema_version: 0.17.2
+  schema_version: 0.18.0
   scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/cloud-native-buildpacks/refs/heads/main/screenshots/cloud-native-buildpacks-2026-06-20T174537.png

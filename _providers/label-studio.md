@@ -590,18 +590,18 @@ rate_limits:
   slug: label-studio-rate-limits
 score:
   band: developing
-  composite: 39.9
+  composite: 40.0
   coverage:
     artifact_dirs: 12
     catalog_gap: 72.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: 0.0
+  delta: 0.1
   facets:
     access_clarity: 36.8
     commercial_clarity: 36.8
     contract_governance: 0.0
-    contract_quality: 49.2
+    contract_quality: 49.8
     developer_ergonomics: 33.3
     discoverability: 70.4
     governance: 0.0
@@ -617,7 +617,7 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 74
-  schema_version: 0.17.2
+  schema_version: 0.18.0
   scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/label-studio/refs/heads/main/screenshots/label-studio-2026-06-20T184236.png

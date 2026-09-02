@@ -2908,18 +2908,18 @@ rules:
   slug: oracle-spectral-rules
 score:
   band: strong
-  composite: 56.3
+  composite: 55.9
   coverage:
     artifact_dirs: 23
     catalog_gap: 70.5
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: 0.0
+  delta: -0.4
   facets:
     access_clarity: 53.9
     commercial_clarity: 53.9
     contract_governance: 28.8
-    contract_quality: 57.0
+    contract_quality: 55.6
     developer_ergonomics: 92.9
     discoverability: 40.7
     governance: 28.8
@@ -2928,11 +2928,11 @@ score:
   provenance:
     agentic_access: derived
     contracts:
-      callable: 11.5
-      derived: 0
-      marker_coverage: 95.0
+      callable: 11.8
+      derived: 16
+      marker_coverage: 100.0
       total: 322
-  schema_version: 0.17.2
+  schema_version: 0.18.0
   scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/oracle/refs/heads/main/screenshots/oracle-2026-06-20T191118.png

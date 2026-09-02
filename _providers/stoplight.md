@@ -13,7 +13,7 @@ agent_readiness:
   band: agent-ready
   dimensions:
     agent_card: false
-    agent_skills: true
+    agent_skills: derived
     agentic_access: false
     agentic_commerce: false
     auth_clarity: bearer
@@ -24,7 +24,7 @@ agent_readiness:
     error_semantics: verified
     event_surface_described: false
     idempotency: false
-    mcp_server: documented
+    mcp_server: false
     openapi_examples: verified
     protected_resource_metadata: false
     rate_limit_signal: documented
@@ -32,7 +32,7 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 35.8
+  score: 29.7
   scored_at: '2026-09-01'
 api_count: 2
 apis:
@@ -348,20 +348,20 @@ rules:
     warn: 3
   slug: stoplight-jsonschema-spectral-rules
 score:
-  band: strong
-  composite: 65.2
+  band: exemplar
+  composite: 69.2
   coverage:
     artifact_dirs: 28
-    catalog_gap: 60.8
+    catalog_gap: 51.8
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: 0.0
+  delta: 4.0
   facets:
-    access_clarity: 76.3
-    commercial_clarity: 76.3
+    access_clarity: 100.0
+    commercial_clarity: 100.0
     contract_governance: 43.2
-    contract_quality: 60.5
-    developer_ergonomics: 85.7
+    contract_quality: 63.9
+    developer_ergonomics: 80.4
     discoverability: 66.7
     governance: 43.2
     operational_transparency: 44.7
@@ -369,7 +369,16 @@ score:
     applies: true
     score: 65.0
   previous_composite: 65.2
-  schema_version: 0.17.2
+  provenance:
+    conformance: first-party
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 1
+    mcp: derived
+    skills: derived
+  schema_version: 0.18.0
   scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/stoplight/refs/heads/main/screenshots/stoplight-2026-06-20T194601.png

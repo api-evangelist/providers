@@ -3,7 +3,7 @@ agent_readiness:
   band: agent-ready
   dimensions:
     agent_card: false
-    agent_skills: true
+    agent_skills: derived
     agentic_access: false
     agentic_commerce: false
     auth_clarity: bearer
@@ -14,7 +14,7 @@ agent_readiness:
     error_semantics: verified
     event_surface_described: false
     idempotency: false
-    mcp_server: documented
+    mcp_server: false
     openapi_examples: verified
     protected_resource_metadata: false
     rate_limit_signal: documented
@@ -22,7 +22,7 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 35.8
+  score: 29.7
   scored_at: '2026-09-01'
 api_count: 9
 apis:
@@ -186,33 +186,42 @@ rate_limits:
   name: Tokamak Energy Rate Limits
   slug: tokamak-energy-rate-limits
 score:
-  band: thin
-  composite: 30.9
+  band: emerging
+  composite: 19.7
   coverage:
     artifact_dirs: 18
     catalog_gap: 75.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: 0.0
+  delta: -11.2
   facets:
     access_clarity: 10.5
     commercial_clarity: 10.5
     contract_governance: 0.0
-    contract_quality: 57.9
-    developer_ergonomics: 26.2
+    contract_quality: 17.4
+    developer_ergonomics: 20.8
     discoverability: 74.1
     governance: 0.0
     operational_transparency: 2.6
   previous_composite: 30.9
+  provenance:
+    conformance: first-party
+    contracts:
+      callable: 100.0
+      derived: 9
+      marker_coverage: 100.0
+      total: 9
+    mcp: derived
+    skills: derived
   regulatory:
     applies: true
     matched_via: tags
     regime: Energy & Utilities
     regime_id: energy_utilities
     score: 28.4
-  schema_version: 0.17.2
+  schema_version: 0.18.0
   scored_at: '2026-09-01'
-  trend: flat
+  trend: falling
 security:
 - kind: authentication
   name: Tokamak Energy Authentication

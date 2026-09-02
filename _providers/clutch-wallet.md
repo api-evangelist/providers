@@ -91,7 +91,7 @@ score:
     regime: Payments
     regime_id: payments
     score: 0.0
-  schema_version: 0.17.2
+  schema_version: 0.18.0
   scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/clutch-wallet/refs/heads/main/screenshots/clutch-wallet-2026-07-25T205753.png

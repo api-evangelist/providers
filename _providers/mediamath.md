@@ -1568,18 +1568,18 @@ scopes:
   summary_line: 2 scopes · authorizationCode/password/clientCredentials
 score:
   band: strong
-  composite: 60.5
+  composite: 60.2
   coverage:
     artifact_dirs: 31
     catalog_gap: 51.8
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: 0.0
+  delta: -0.3
   facets:
     access_clarity: 56.6
     commercial_clarity: 56.6
     contract_governance: 14.4
-    contract_quality: 71.2
+    contract_quality: 70.3
     developer_ergonomics: 70.8
     discoverability: 75.9
     governance: 14.4
@@ -1592,10 +1592,10 @@ score:
       callable: 100.0
       derived: 0
       marker_coverage: 0.0
-      total: 44
+      total: 56
     mcp: first-party
     skills: derived
-  schema_version: 0.17.2
+  schema_version: 0.18.0
   scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/mediamath/refs/heads/main/screenshots/mediamath-2026-06-20T185115.png

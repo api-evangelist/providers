@@ -403,7 +403,7 @@ score:
     access_clarity: 36.8
     commercial_clarity: 36.8
     contract_governance: 18.2
-    contract_quality: 57.1
+    contract_quality: 57.2
     developer_ergonomics: 75.6
     discoverability: 68.5
     governance: 18.2
@@ -416,10 +416,10 @@ score:
     agentic_access: derived
     conformance: first-party
     contracts:
-      callable: 50.0
+      callable: 52.5
       derived: 0
       marker_coverage: 0.0
-      total: 4
+      total: 40
     mcp: first-party
     skills: derived
   regulatory:
@@ -428,7 +428,7 @@ score:
     regime: Telecommunications
     regime_id: telecommunications
     score: 58.3
-  schema_version: 0.17.2
+  schema_version: 0.18.0
   scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/netcracker/refs/heads/main/screenshots/netcracker-2026-08-07T184931.png

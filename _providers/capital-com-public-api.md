@@ -196,18 +196,18 @@ rules:
   slug: capital-com-public-api-asyncapi-spectral-rules
 score:
   band: thin
-  composite: 34.3
+  composite: 34.1
   coverage:
     artifact_dirs: 12
     catalog_gap: 66.5
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: 0.0
+  delta: -0.2
   facets:
     access_clarity: 15.8
     commercial_clarity: 15.8
     contract_governance: 13.6
-    contract_quality: 63.9
+    contract_quality: 63.1
     developer_ergonomics: 25.0
     discoverability: 64.8
     governance: 13.6
@@ -219,14 +219,14 @@ score:
       callable: 100.0
       derived: 0
       marker_coverage: 0.0
-      total: 7
+      total: 8
   regulatory:
     applies: true
     matched_via: tags
     regime: Securities & Market Data
     regime_id: securities_market_data
     score: 40.0
-  schema_version: 0.17.2
+  schema_version: 0.18.0
   scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/capital-com-public-api/refs/heads/main/screenshots/capital-com-public-api-2026-06-20T173937.png

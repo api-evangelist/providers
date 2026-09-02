@@ -282,18 +282,18 @@ overview: 'Sprift publishes 7 APIs on the [APIs.io](https://apis.io/) network, i
 random_paper: 13
 score:
   band: developing
-  composite: 39.5
+  composite: 39.4
   coverage:
     artifact_dirs: 20
     catalog_gap: 85.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: 0.0
+  delta: -0.1
   facets:
     access_clarity: 38.2
     commercial_clarity: 38.2
     contract_governance: 4.5
-    contract_quality: 55.2
+    contract_quality: 54.5
     developer_ergonomics: 49.4
     discoverability: 63.0
     governance: 4.5
@@ -306,10 +306,10 @@ score:
       callable: 100.0
       derived: 0
       marker_coverage: 0.0
-      total: 1
+      total: 7
     mcp: derived
     skills: derived
-  schema_version: 0.17.2
+  schema_version: 0.18.0
   scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/sprift/refs/heads/main/screenshots/sprift-2026-08-17T082046.png

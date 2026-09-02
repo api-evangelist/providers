@@ -413,7 +413,6 @@ common:
   url: data-model/unisson-data-model.yml
 created: '2026-07-17'
 description: Unisson (YC W26) builds AI agents that act as subject-matter experts for B2B software implementation and customer-facing teams. Its Runner agent executes complex deployment, onboarding, and administration tasks directly inside a product, while Explorer maintains an always up-to-date knowledge base of how the product works. Agents are reachable over Slack, Microsoft Teams, WhatsApp, email, and an embeddable widget, and the platform exposes a bearer-token REST API (api.unisson.ai) covering agents, runs, scheduled runs, skills, knowledge base, integrations, customers, meetings, and an external Runner API for triggering runs and receiving webhook callbacks from your own tools.
-image: https://kinlane-productions.s3.amazonaws.com/apis-json-icon.png
 layout: provider
 mcp_servers:
 - description: No official hosted MCP server was found for Unisson (mcp.unisson.ai does not resolve; no registry listing). Candidate tool list derived from the external Runner API operations plus the highest-value p
@@ -433,20 +432,20 @@ overview: 'Unisson publishes 45 APIs on the [APIs.io](https://apis.io/) network,
 random_paper: 6
 score:
   band: thin
-  composite: 33.6
+  composite: 33.0
   coverage:
     artifact_dirs: 19
-    catalog_gap: 78.0
+    catalog_gap: 80.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: 0.0
+  delta: -0.6
   facets:
     access_clarity: 27.6
     commercial_clarity: 27.6
     contract_governance: 4.5
-    contract_quality: 64.0
+    contract_quality: 63.1
     developer_ergonomics: 18.5
-    discoverability: 68.5
+    discoverability: 64.8
     governance: 4.5
     operational_transparency: 7.9
   previous_composite: 33.6
@@ -460,7 +459,7 @@ score:
       total: 45
     mcp: derived
     skills: derived
-  schema_version: 0.17.2
+  schema_version: 0.18.0
   scored_at: '2026-09-01'
   trend: flat
 security:

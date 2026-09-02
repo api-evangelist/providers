@@ -337,28 +337,22 @@ rules:
   slug: dreamfactory-jsonschema-spectral-rules
 score:
   band: developing
-  composite: 42.7
+  composite: 42.5
   coverage:
     artifact_dirs: 15
     catalog_gap: 51.5
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: 0.0
+  delta: -0.2
   facets:
     access_clarity: 36.8
     commercial_clarity: 36.8
     contract_governance: 13.6
-    contract_quality: 76.4
+    contract_quality: 75.4
     developer_ergonomics: 28.6
     discoverability: 72.2
     governance: 13.6
     operational_transparency: 13.2
-  needs_work:
-    note: Recorded so this provider's gaps can be attributed. Does not affect the composite above.
-    owner: catalog
-    reasons:
-    - owner: catalog
-      reason: no_resolvable_host
   previous_composite: 42.7
   provenance:
     agentic_access: derived
@@ -367,7 +361,7 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 16
-  schema_version: 0.17.2
+  schema_version: 0.18.0
   scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/dreamfactory/refs/heads/main/screenshots/dreamfactory-2026-06-20T180322.png

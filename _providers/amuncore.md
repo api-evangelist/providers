@@ -222,28 +222,22 @@ scopes:
   summary_line: 1 scope · authorizationCode
 score:
   band: strong
-  composite: 55.1
+  composite: 54.9
   coverage:
     artifact_dirs: 23
     catalog_gap: 54.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: 0.0
+  delta: -0.2
   facets:
     access_clarity: 84.2
     commercial_clarity: 84.2
     contract_governance: 18.2
-    contract_quality: 65.3
+    contract_quality: 64.4
     developer_ergonomics: 35.1
     discoverability: 75.9
     governance: 18.2
     operational_transparency: 39.5
-  needs_work:
-    note: Recorded so this provider's gaps can be attributed. Does not affect the composite above.
-    owner: catalog
-    reasons:
-    - owner: catalog
-      reason: no_resolvable_host
   previous_composite: 55.1
   provenance:
     agentic_access: derived
@@ -255,7 +249,7 @@ score:
       total: 1
     mcp: first-party
     skills: derived
-  schema_version: 0.17.2
+  schema_version: 0.18.0
   scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/amuncore/refs/heads/main/screenshots/amuncore-2026-08-07T161347.png

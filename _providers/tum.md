@@ -293,18 +293,18 @@ scopes:
   summary_line: 108 scopes
 score:
   band: thin
-  composite: 36.3
+  composite: 36.7
   coverage:
     artifact_dirs: 20
     catalog_gap: 44.8
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: 0.0
+  delta: 0.4
   facets:
     access_clarity: 50.0
     commercial_clarity: 50.0
     contract_governance: 9.8
-    contract_quality: 17.2
+    contract_quality: 18.9
     developer_ergonomics: 23.8
     discoverability: 74.1
     governance: 9.8
@@ -324,7 +324,7 @@ score:
     regime: Education & Research
     regime_id: education
     score: 64.8
-  schema_version: 0.17.2
+  schema_version: 0.18.0
   scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/tum/refs/heads/main/screenshots/tum-2026-06-20T195827.png

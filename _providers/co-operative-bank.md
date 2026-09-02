@@ -234,7 +234,7 @@ score:
       callable: 0.0
       derived: 0
       marker_coverage: 0.0
-      total: 1
+      total: 6
   regulatory:
     applies: true
     jurisdictions:
@@ -245,7 +245,7 @@ score:
     regime: Banking & Open Finance
     regime_id: banking_open_finance
     score: 73.4
-  schema_version: 0.17.2
+  schema_version: 0.18.0
   scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/co-operative-bank/refs/heads/main/screenshots/co-operative-bank-2026-07-25T205806.png

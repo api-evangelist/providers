@@ -971,19 +971,19 @@ rules:
     warn: 7
   slug: cisco-voice-portal-spectral-rules
 score:
-  band: thin
-  composite: 32.2
+  band: developing
+  composite: 40.9
   coverage:
     artifact_dirs: 18
     catalog_gap: 63.5
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: 0.0
+  delta: 8.7
   facets:
     access_clarity: 47.4
     commercial_clarity: 47.4
     contract_governance: 13.6
-    contract_quality: 29.8
+    contract_quality: 64.4
     developer_ergonomics: 16.7
     discoverability: 72.2
     governance: 13.6
@@ -993,12 +993,12 @@ score:
     agentic_access: derived
     contracts:
       callable: 0.0
-      derived: 23
-      marker_coverage: 100.0
+      derived: 0
+      marker_coverage: 0.0
       total: 23
-  schema_version: 0.17.2
+  schema_version: 0.18.0
   scored_at: '2026-09-01'
-  trend: flat
+  trend: rising
 screenshot: https://raw.githubusercontent.com/api-evangelist/cisco-voice-portal/refs/heads/main/screenshots/cisco-voice-portal-2026-06-20T174408.png
 security:
 - kind: authentication

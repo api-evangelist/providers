@@ -15,7 +15,7 @@ agent_readiness:
   band_gated_from: agent-native
   dimensions:
     agent_card: false
-    agent_skills: true
+    agent_skills: derived
     agentic_access: derived
     agentic_commerce: false
     auth_clarity: bearer
@@ -24,7 +24,7 @@ agent_readiness:
     dry_run_mode: true
     dynamic_client_registration: false
     error_semantics: documented
-    event_surface_described: true
+    event_surface_described: derived
     idempotency: false
     mcp_server: documented
     openapi_examples: verified
@@ -34,7 +34,7 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: true
   schema_version: 0.2
-  score: 47.3
+  score: 41.4
   scored_at: '2026-09-01'
 agentic_access:
 - acting_count: 772
@@ -453,33 +453,36 @@ scopes:
   summary_line: 37 scopes · authorizationCode
 score:
   band: developing
-  composite: 44.3
+  composite: 50.1
   coverage:
     artifact_dirs: 26
-    catalog_gap: 69.0
+    catalog_gap: 51.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: 0.0
+  delta: 5.8
   facets:
-    access_clarity: 28.9
-    commercial_clarity: 28.9
+    access_clarity: 52.6
+    commercial_clarity: 52.6
     contract_governance: 0.0
-    contract_quality: 57.8
-    developer_ergonomics: 41.7
+    contract_quality: 53.8
+    developer_ergonomics: 36.3
     discoverability: 68.5
     governance: 0.0
-    operational_transparency: 68.4
+    operational_transparency: 92.1
   previous_composite: 44.3
   provenance:
     agentic_access: derived
+    conformance: derived
     contracts:
-      callable: 100.0
+      callable: 4.7
       derived: 0
       marker_coverage: 0.0
-      total: 3
-  schema_version: 0.17.2
+      total: 43
+    mcp: first-party
+    skills: derived
+  schema_version: 0.18.0
   scored_at: '2026-09-01'
-  trend: flat
+  trend: rising
 screenshot: https://raw.githubusercontent.com/api-evangelist/akamai-technologies/refs/heads/main/screenshots/akamai-technologies-2026-06-20T171446.png
 security:
 - kind: authentication

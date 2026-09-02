@@ -14,7 +14,7 @@ agent_readiness:
   band: agent-aware
   dimensions:
     agent_card: false
-    agent_skills: true
+    agent_skills: derived
     agentic_access: false
     agentic_commerce: false
     auth_clarity: bearer
@@ -25,7 +25,7 @@ agent_readiness:
     error_semantics: documented
     event_surface_described: false
     idempotency: false
-    mcp_server: documented
+    mcp_server: false
     openapi_examples: documented
     protected_resource_metadata: false
     rate_limit_signal: documented
@@ -33,7 +33,7 @@ agent_readiness:
     spec_presence: false
     well_known_catalog: false
   schema_version: 0.2
-  score: 16.2
+  score: 10.1
   scored_at: '2026-09-01'
 api_count: 1
 apis:
@@ -215,30 +215,28 @@ rate_limits:
   slug: sears-holdings-rate-limits
 score:
   band: thin
-  composite: 39.2
+  composite: 36.5
   coverage:
     artifact_dirs: 22
     catalog_gap: 58.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: 0.0
+  delta: -2.7
   facets:
     access_clarity: 43.4
     commercial_clarity: 43.4
-    contract_governance: 18.2
+    contract_governance: 4.5
     contract_quality: 6.7
-    developer_ergonomics: 63.1
+    developer_ergonomics: 57.7
     discoverability: 68.5
-    governance: 18.2
+    governance: 4.5
     operational_transparency: 55.3
-  needs_work:
-    note: Recorded so this provider's gaps can be attributed. Does not affect the composite above.
-    owner: catalog
-    reasons:
-    - owner: catalog
-      reason: never_enriched
   previous_composite: 39.2
-  schema_version: 0.17.2
+  provenance:
+    conformance: derived
+    mcp: derived
+    skills: derived
+  schema_version: 0.18.0
   scored_at: '2026-09-01'
   trend: flat
 security:

@@ -136,7 +136,7 @@ score:
     governance: 39.4
     operational_transparency: 7.9
   previous_composite: 20.4
-  schema_version: 0.17.2
+  schema_version: 0.18.0
   scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/google-optimize/refs/heads/main/screenshots/google-optimize-2026-06-20T182219.png

@@ -372,18 +372,18 @@ rate_limits:
   slug: coorpacademy-rate-limits
 score:
   band: developing
-  composite: 44.0
+  composite: 44.5
   coverage:
     artifact_dirs: 21
     catalog_gap: 78.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: 0.0
+  delta: 0.5
   facets:
     access_clarity: 35.5
     commercial_clarity: 35.5
     contract_governance: 18.2
-    contract_quality: 55.2
+    contract_quality: 57.0
     developer_ergonomics: 37.5
     discoverability: 68.5
     governance: 18.2
@@ -391,6 +391,11 @@ score:
   previous_composite: 44.0
   provenance:
     conformance: first-party
+    contracts:
+      callable: 77.8
+      derived: 0
+      marker_coverage: 0.0
+      total: 63
     mcp: derived
     skills: derived
   regulatory:
@@ -399,7 +404,7 @@ score:
     regime: Education & Research
     regime_id: education
     score: 55.6
-  schema_version: 0.17.2
+  schema_version: 0.18.0
   scored_at: '2026-09-01'
   trend: flat
 security:

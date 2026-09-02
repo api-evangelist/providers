@@ -173,18 +173,18 @@ rate_limits:
   slug: pact-rate-limits
 score:
   band: thin
-  composite: 33.3
+  composite: 33.5
   coverage:
     artifact_dirs: 11
     catalog_gap: 79.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: 0.0
+  delta: 0.2
   facets:
     access_clarity: 15.8
     commercial_clarity: 15.8
     contract_governance: 0.0
-    contract_quality: 46.9
+    contract_quality: 47.7
     developer_ergonomics: 28.6
     discoverability: 57.4
     governance: 0.0
@@ -200,7 +200,7 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 5
-  schema_version: 0.17.2
+  schema_version: 0.18.0
   scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/pact/refs/heads/main/screenshots/pact-2026-06-20T191316.png

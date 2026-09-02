@@ -288,12 +288,6 @@ score:
     discoverability: 68.5
     governance: 4.5
     operational_transparency: 15.8
-  needs_work:
-    note: Recorded so this provider's gaps can be attributed. Does not affect the composite above.
-    owner: catalog
-    reasons:
-    - owner: catalog
-      reason: venue_as_website
   previous_composite: 39.8
   provenance:
     agentic_access: derived
@@ -311,7 +305,7 @@ score:
     regime: Securities & Market Data
     regime_id: securities_market_data
     score: 41.7
-  schema_version: 0.17.2
+  schema_version: 0.18.0
   scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/caplight/refs/heads/main/screenshots/caplight-2026-08-17T080811.png

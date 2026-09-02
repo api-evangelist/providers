@@ -278,25 +278,26 @@ rules:
   slug: uppsala-rules
 score:
   band: developing
-  composite: 53.4
+  composite: 52.5
   coverage:
     artifact_dirs: 17
-    catalog_gap: 27.5
+    catalog_gap: 31.3
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: 0.0
+  delta: -0.9
   facets:
     access_clarity: 50.0
     commercial_clarity: 50.0
-    contract_governance: 47.0
-    contract_quality: 55.1
+    contract_governance: 35.6
+    contract_quality: 56.9
     developer_ergonomics: 35.7
     discoverability: 68.5
-    governance: 47.0
+    governance: 35.6
     operational_transparency: 34.2
   previous_composite: 53.4
   provenance:
     agentic_access: derived
+    conformance: first-party
     contracts:
       callable: 100.0
       derived: 0
@@ -308,7 +309,7 @@ score:
     regime: Education & Research
     regime_id: education
     score: 64.8
-  schema_version: 0.17.2
+  schema_version: 0.18.0
   scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/uppsala/refs/heads/main/screenshots/uppsala-2026-06-20T200453.png

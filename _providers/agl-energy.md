@@ -233,9 +233,9 @@ score:
     conformance: first-party
     contracts:
       callable: 0.0
-      derived: 2
+      derived: 9
       marker_coverage: 100.0
-      total: 2
+      total: 9
     mcp: derived
     skills: derived
   regulatory:
@@ -244,7 +244,7 @@ score:
     regime: Energy & Utilities
     regime_id: energy_utilities
     score: 64.9
-  schema_version: 0.17.2
+  schema_version: 0.18.0
   scored_at: '2026-09-01'
   trend: flat
 security:

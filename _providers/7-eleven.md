@@ -137,7 +137,7 @@ score:
     governance: 0.0
     operational_transparency: 23.7
   previous_composite: 17.3
-  schema_version: 0.17.2
+  schema_version: 0.18.0
   scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/7-eleven/refs/heads/main/screenshots/7-eleven-2026-06-20T162752.png

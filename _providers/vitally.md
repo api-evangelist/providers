@@ -269,19 +269,19 @@ rate_limits:
   name: Vitally Rate Limits
   slug: vitally-rate-limits
 score:
-  band: strong
-  composite: 59.4
+  band: developing
+  composite: 49.1
   coverage:
     artifact_dirs: 22
     catalog_gap: 67.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: 0.0
+  delta: -10.3
   facets:
     access_clarity: 60.5
     commercial_clarity: 60.5
     contract_governance: 18.2
-    contract_quality: 65.8
+    contract_quality: 24.4
     developer_ergonomics: 56.5
     discoverability: 81.5
     governance: 18.2
@@ -292,14 +292,14 @@ score:
     conformance: first-party
     contracts:
       callable: 100.0
-      derived: 0
-      marker_coverage: 0.0
-      total: 9
+      derived: 10
+      marker_coverage: 100.0
+      total: 10
     mcp: first-party
     skills: derived
-  schema_version: 0.17.2
+  schema_version: 0.18.0
   scored_at: '2026-09-01'
-  trend: flat
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/vitally/refs/heads/main/screenshots/vitally-2026-08-17T082804.png
 security:
 - kind: authentication

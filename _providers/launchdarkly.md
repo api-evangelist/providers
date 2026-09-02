@@ -15,7 +15,7 @@ agent_readiness:
   band_gated_from: agent-native
   dimensions:
     agent_card: false
-    agent_skills: true
+    agent_skills: derived
     agentic_access: derived
     agentic_commerce: false
     auth_clarity: served
@@ -34,7 +34,7 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: true
   schema_version: 0.2
-  score: 46.3
+  score: 43.6
   scored_at: '2026-09-01'
 agentic_access:
 - acting_count: 25
@@ -723,33 +723,36 @@ scopes:
   summary_line: OAuth 2.0 · no documented scopes
 score:
   band: exemplar
-  composite: 71.0
+  composite: 78.0
   coverage:
     artifact_dirs: 33
-    catalog_gap: 53.5
+    catalog_gap: 35.5
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: 0.0
+  delta: 7.0
   facets:
-    access_clarity: 76.3
-    commercial_clarity: 76.3
+    access_clarity: 100.0
+    commercial_clarity: 100.0
     contract_governance: 31.8
-    contract_quality: 70.8
-    developer_ergonomics: 85.7
+    contract_quality: 72.0
+    developer_ergonomics: 80.4
     discoverability: 81.5
     governance: 31.8
-    operational_transparency: 68.4
+    operational_transparency: 92.1
   previous_composite: 71.0
   provenance:
     agentic_access: derived
+    conformance: first-party
     contracts:
-      callable: 0.0
+      callable: 72.4
       derived: 0
       marker_coverage: 0.0
-      total: 26
-  schema_version: 0.17.2
+      total: 29
+    mcp: first-party
+    skills: derived
+  schema_version: 0.18.0
   scored_at: '2026-09-01'
-  trend: flat
+  trend: rising
 screenshot: https://raw.githubusercontent.com/api-evangelist/launchdarkly/refs/heads/main/screenshots/launchdarkly-2026-06-20T184335.png
 security:
 - kind: authentication

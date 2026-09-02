@@ -194,12 +194,12 @@ score:
     conformance: derived
     contracts:
       callable: 100.0
-      derived: 2
+      derived: 3
       marker_coverage: 100.0
-      total: 2
+      total: 3
     mcp: derived
     skills: derived
-  schema_version: 0.17.2
+  schema_version: 0.18.0
   scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/nous-research/refs/heads/main/screenshots/nous-research-2026-08-07T185555.png

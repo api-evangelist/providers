@@ -215,25 +215,29 @@ rate_limits:
   name: Lindy Rate Limits
   slug: lindy-rate-limits
 score:
-  band: developing
-  composite: 52.1
+  band: strong
+  composite: 56.5
   coverage:
     artifact_dirs: 19
-    catalog_gap: 72.0
+    catalog_gap: 63.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: 0.0
+  delta: 4.4
   facets:
-    access_clarity: 76.3
-    commercial_clarity: 76.3
+    access_clarity: 100.0
+    commercial_clarity: 100.0
     contract_governance: 18.2
-    contract_quality: 42.7
+    contract_quality: 41.6
     developer_ergonomics: 47.6
     discoverability: 75.9
     governance: 18.2
     operational_transparency: 52.6
   previous_composite: 52.1
-  schema_version: 0.17.2
+  provenance:
+    conformance: first-party
+    mcp: first-party
+    skills: first-party
+  schema_version: 0.18.0
   scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/lindy/refs/heads/main/screenshots/lindy-2026-06-20T184536.png

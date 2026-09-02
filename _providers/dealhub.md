@@ -455,18 +455,18 @@ rate_limits:
   slug: dealhub-rate-limits
 score:
   band: developing
-  composite: 47.2
+  composite: 47.1
   coverage:
     artifact_dirs: 21
     catalog_gap: 75.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: 0.0
+  delta: -0.1
   facets:
     access_clarity: 53.9
     commercial_clarity: 53.9
     contract_governance: 4.5
-    contract_quality: 57.9
+    contract_quality: 57.6
     developer_ergonomics: 54.2
     discoverability: 81.5
     governance: 4.5
@@ -475,13 +475,13 @@ score:
   provenance:
     conformance: derived
     contracts:
-      callable: 81.8
+      callable: 96.8
       derived: 0
       marker_coverage: 0.0
-      total: 11
+      total: 63
     mcp: first-party
     skills: derived
-  schema_version: 0.17.2
+  schema_version: 0.18.0
   scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/dealhub/refs/heads/main/screenshots/dealhub-2026-08-17T080848.png

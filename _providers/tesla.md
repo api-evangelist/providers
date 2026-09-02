@@ -159,7 +159,6 @@ graphqls:
 - description: This directory contains a conceptual GraphQL schema for the Tesla Fleet API and Owner API. Tesla does not publish an official GraphQL endpoint, but this schema models the domain objects and operations
   name: Tesla GraphQL Schema
   slug: tesla-graphql
-image: https://www.tesla.com/favicon.ico
 json_schemas:
 - name: Tesla Vehicle
   property_count: 10
@@ -218,20 +217,20 @@ rules:
   slug: tesla-rules
 score:
   band: developing
-  composite: 39.6
+  composite: 39.3
   coverage:
     artifact_dirs: 17
-    catalog_gap: 56.5
+    catalog_gap: 58.5
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: 0.0
+  delta: -0.3
   facets:
     access_clarity: 15.8
     commercial_clarity: 15.8
     contract_governance: 13.6
     contract_quality: 55.2
     developer_ergonomics: 42.9
-    discoverability: 83.3
+    discoverability: 79.6
     governance: 13.6
     operational_transparency: 28.9
   open_source:
@@ -251,7 +250,7 @@ score:
     regime: Energy & Utilities
     regime_id: energy_utilities
     score: 31.1
-  schema_version: 0.17.2
+  schema_version: 0.18.0
   scored_at: '2026-09-01'
   trend: flat
 security:

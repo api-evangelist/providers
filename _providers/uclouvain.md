@@ -181,39 +181,39 @@ rate_limits:
   slug: uclouvain-rate-limits
 score:
   band: thin
-  composite: 38.5
+  composite: 33.4
   coverage:
     artifact_dirs: 10
-    catalog_gap: 59.0
+    catalog_gap: 71.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: 0.0
+  delta: -5.1
   facets:
-    access_clarity: 39.5
-    commercial_clarity: 39.5
+    access_clarity: 23.7
+    commercial_clarity: 23.7
     contract_governance: 0.0
-    contract_quality: 46.3
+    contract_quality: 46.8
     developer_ergonomics: 28.6
     discoverability: 68.5
     governance: 0.0
-    operational_transparency: 23.7
+    operational_transparency: 7.9
   previous_composite: 38.5
   provenance:
-    agentic_access: derived
+    conformance: first-party
     contracts:
       callable: 100.0
       derived: 0
-      marker_coverage: 0.0
-      total: 36
+      marker_coverage: 100.0
+      total: 1
   regulatory:
     applies: true
     matched_via: tags
     regime: Education & Research
     regime_id: education
     score: 50.0
-  schema_version: 0.17.2
+  schema_version: 0.18.0
   scored_at: '2026-09-01'
-  trend: flat
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/uclouvain/refs/heads/main/screenshots/uclouvain-2026-06-20T195945.png
 security:
 - kind: domain-security

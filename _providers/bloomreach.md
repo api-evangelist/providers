@@ -464,18 +464,18 @@ scopes:
   summary_line: 3 scopes · authorizationCode
 score:
   band: exemplar
-  composite: 70.8
+  composite: 70.6
   coverage:
     artifact_dirs: 31
     catalog_gap: 26.8
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: 0.0
+  delta: -0.2
   facets:
     access_clarity: 86.8
     commercial_clarity: 86.8
     contract_governance: 43.2
-    contract_quality: 77.4
+    contract_quality: 76.4
     developer_ergonomics: 58.3
     discoverability: 66.7
     governance: 43.2
@@ -491,7 +491,7 @@ score:
       total: 21
     mcp: first-party
     skills: first-party
-  schema_version: 0.17.2
+  schema_version: 0.18.0
   scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/bloomreach/refs/heads/main/screenshots/bloomreach-2026-08-17T083224.png

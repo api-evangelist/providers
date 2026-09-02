@@ -1309,33 +1309,36 @@ scopes:
   summary_line: OAuth 2.0 · no documented scopes
 score:
   band: exemplar
-  composite: 76.8
+  composite: 84.3
   coverage:
     artifact_dirs: 39
-    catalog_gap: 46.5
+    catalog_gap: 28.5
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: 0.0
+  delta: 7.5
   facets:
-    access_clarity: 76.3
-    commercial_clarity: 76.3
+    access_clarity: 100.0
+    commercial_clarity: 100.0
     contract_governance: 47.0
-    contract_quality: 79.8
+    contract_quality: 78.9
     developer_ergonomics: 100.0
     discoverability: 66.7
     governance: 47.0
-    operational_transparency: 71.1
+    operational_transparency: 94.7
   previous_composite: 76.8
   provenance:
     agentic_access: derived
+    conformance: first-party
     contracts:
       callable: 100.0
       derived: 0
       marker_coverage: 0.0
-      total: 37
-  schema_version: 0.17.2
+      total: 38
+    mcp: first-party
+    skills: first-party
+  schema_version: 0.18.0
   scored_at: '2026-09-01'
-  trend: flat
+  trend: rising
 screenshot: https://raw.githubusercontent.com/api-evangelist/openai/refs/heads/main/screenshots/openai-2026-08-17T082822.png
 security:
 - kind: authentication

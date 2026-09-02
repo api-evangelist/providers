@@ -189,18 +189,18 @@ rate_limits:
   slug: evercontact-rate-limits
 score:
   band: strong
-  composite: 56.3
+  composite: 56.0
   coverage:
     artifact_dirs: 16
     catalog_gap: 54.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: 0.0
+  delta: -0.3
   facets:
     access_clarity: 84.2
     commercial_clarity: 84.2
     contract_governance: 18.2
-    contract_quality: 42.7
+    contract_quality: 41.6
     developer_ergonomics: 52.4
     discoverability: 75.9
     governance: 18.2
@@ -209,7 +209,7 @@ score:
   provenance:
     conformance: first-party
     mcp: derived
-  schema_version: 0.17.2
+  schema_version: 0.18.0
   scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/evercontact/refs/heads/main/screenshots/evercontact-2026-07-25T213720.png

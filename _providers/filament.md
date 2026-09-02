@@ -143,18 +143,18 @@ overview: 'Filament publishes 1 API on the [APIs.io](https://apis.io/) network. 
 random_paper: 8
 score:
   band: emerging
-  composite: 24.4
+  composite: 24.2
   coverage:
     artifact_dirs: 13
     catalog_gap: 78.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: 0.0
+  delta: -0.2
   facets:
     access_clarity: 0.0
     commercial_clarity: 0.0
     contract_governance: 0.0
-    contract_quality: 42.6
+    contract_quality: 41.7
     developer_ergonomics: 42.3
     discoverability: 75.9
     governance: 0.0
@@ -169,7 +169,7 @@ score:
     regime: Securities & Market Data
     regime_id: securities_market_data
     score: 20.0
-  schema_version: 0.17.2
+  schema_version: 0.18.0
   scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/filament/refs/heads/main/screenshots/filament-2026-07-25T214446.png

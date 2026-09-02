@@ -346,18 +346,18 @@ rate_limits:
   slug: cacheflow-rate-limits
 score:
   band: thin
-  composite: 28.3
+  composite: 28.2
   coverage:
     artifact_dirs: 20
     catalog_gap: 81.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: 0.0
+  delta: -0.1
   facets:
     access_clarity: 0.0
     commercial_clarity: 0.0
     contract_governance: 4.5
-    contract_quality: 49.1
+    contract_quality: 48.5
     developer_ergonomics: 39.9
     discoverability: 70.4
     governance: 4.5
@@ -369,7 +369,7 @@ score:
       callable: 0.0
       derived: 0
       marker_coverage: 0.0
-      total: 1
+      total: 57
     mcp: derived
     skills: derived
   regulatory:
@@ -378,7 +378,7 @@ score:
     regime: Payments
     regime_id: payments
     score: 26.6
-  schema_version: 0.17.2
+  schema_version: 0.18.0
   scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/cacheflow/refs/heads/main/screenshots/cacheflow-2026-07-25T204205.png

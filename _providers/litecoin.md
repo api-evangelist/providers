@@ -209,18 +209,18 @@ rate_limits:
   slug: litecoin-space-websocket
 score:
   band: thin
-  composite: 28.8
+  composite: 29.3
   coverage:
     artifact_dirs: 11
     catalog_gap: 69.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: 0.0
+  delta: 0.5
   facets:
     access_clarity: 28.9
     commercial_clarity: 28.9
     contract_governance: 0.0
-    contract_quality: 45.3
+    contract_quality: 47.5
     developer_ergonomics: 22.6
     discoverability: 64.8
     governance: 0.0
@@ -229,7 +229,7 @@ score:
   provenance:
     agentic_access: derived
     contracts:
-      callable: 0.0
+      callable: 66.7
       derived: 0
       marker_coverage: 0.0
       total: 9
@@ -239,7 +239,7 @@ score:
     regime: Payments
     regime_id: payments
     score: 18.8
-  schema_version: 0.17.2
+  schema_version: 0.18.0
   scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/litecoin/refs/heads/main/screenshots/litecoin-2026-06-20T184600.png

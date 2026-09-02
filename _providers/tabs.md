@@ -339,18 +339,18 @@ rate_limits:
   slug: tabs-rate-limits
 score:
   band: developing
-  composite: 48.3
+  composite: 47.5
   coverage:
     artifact_dirs: 19
     catalog_gap: 70.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: 0.0
+  delta: -0.8
   facets:
     access_clarity: 53.9
     commercial_clarity: 53.9
     contract_governance: 4.5
-    contract_quality: 49.8
+    contract_quality: 46.5
     developer_ergonomics: 58.9
     discoverability: 75.9
     governance: 4.5
@@ -360,12 +360,12 @@ score:
     conformance: derived
     contracts:
       callable: 100.0
-      derived: 0
+      derived: 2
       marker_coverage: 100.0
       total: 23
     mcp: first-party
     skills: derived
-  schema_version: 0.17.2
+  schema_version: 0.18.0
   scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/tabs/refs/heads/main/screenshots/tabs-2026-08-17T082234.png

@@ -167,7 +167,7 @@ score:
     governance: 28.8
     operational_transparency: 5.3
   previous_composite: 18.8
-  schema_version: 0.17.2
+  schema_version: 0.18.0
   scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/sony/refs/heads/main/screenshots/sony-2026-06-20T194211.png

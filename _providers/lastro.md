@@ -130,7 +130,7 @@ score:
   previous_composite: 14.7
   provenance:
     mcp: first-party
-  schema_version: 0.17.2
+  schema_version: 0.18.0
   scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/lastro/refs/heads/main/screenshots/lastro-2026-07-25T224549.png

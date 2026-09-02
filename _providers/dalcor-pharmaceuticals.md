@@ -189,19 +189,19 @@ overview: 'DalCor Pharmaceuticals publishes 7 APIs on the [APIs.io](https://apis
   DalCor Pharmaceuticals'' developer surface includes support, authentication, and 23 more developer resources.'
 random_paper: 17
 score:
-  band: thin
-  composite: 29.1
+  band: emerging
+  composite: 19.0
   coverage:
     artifact_dirs: 15
     catalog_gap: 75.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: 0.0
+  delta: -10.1
   facets:
     access_clarity: 10.5
     commercial_clarity: 10.5
     contract_governance: 4.5
-    contract_quality: 53.9
+    contract_quality: 13.5
     developer_ergonomics: 18.5
     discoverability: 81.5
     governance: 4.5
@@ -211,9 +211,9 @@ score:
     conformance: derived
     contracts:
       callable: 100.0
-      derived: 0
-      marker_coverage: 0.0
-      total: 7
+      derived: 8
+      marker_coverage: 100.0
+      total: 8
     skills: derived
   regulatory:
     applies: true
@@ -221,9 +221,9 @@ score:
     regime: Health
     regime_id: health
     score: 26.3
-  schema_version: 0.17.2
+  schema_version: 0.18.0
   scored_at: '2026-09-01'
-  trend: flat
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/dalcor-pharmaceuticals/refs/heads/main/screenshots/dalcor-pharmaceuticals-2026-08-07T164031.png
 security:
 - kind: authentication

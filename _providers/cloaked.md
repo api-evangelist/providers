@@ -116,7 +116,7 @@ score:
     governance: 0.0
     operational_transparency: 0.0
   previous_composite: 15.1
-  schema_version: 0.17.2
+  schema_version: 0.18.0
   scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/cloaked/refs/heads/main/screenshots/cloaked-2026-07-25T205639.png

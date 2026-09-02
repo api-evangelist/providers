@@ -83,7 +83,6 @@ common:
 created: '2026-05-23'
 description: 'Spectra (formerly Spectra Experiences, originally Comcast-Spectacor Ventures / Global Spectrum + Ovations Food Services + Paciolan + Front Row Marketing) was a North American venue management, food services & hospitality, and partnership-sales company headquartered in Philadelphia, PA. Owned jointly by Comcast Spectacor and Atairos, Spectra was acquired by Oak View Group (OVG) in a deal announced August 31, 2021 and closed on November 15, 2021 after receiving U.S. Department of Justice approval. On February 25, 2022, OVG formally consolidated Spectra and OVG Facilities into a single, rebranded division called OVG360. The Spectra and Spectra Experiences brands were retired as a result, and the spectraexperiences.com domain is no longer resolvable. This apis.yml is preserved as an historical record only — Spectra never published a public developer API, OpenAPI specification, SDK, or developer portal. Operational successor: OVG360 (https://www.oakviewgroup.com/ovg360-2/). Ticketing
   platform Paciolan, which had been part of the Spectra portfolio, was divested before the OVG deal and is now an independent Learfield subsidiary.'
-image: https://avatars.githubusercontent.com/u/api-evangelist
 jsonld:
 - class_count: 32
   name: Spectra Context
@@ -101,24 +100,24 @@ overview: 'Spectra (Defunct / Merged into OVG360) is profiled on the [APIs.io](h
 random_paper: 19
 score:
   band: minimal
-  composite: 10.5
+  composite: 10.1
   coverage:
     artifact_dirs: 5
-    catalog_gap: 72.0
+    catalog_gap: 74.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: 0.0
+  delta: -0.4
   facets:
     access_clarity: 0.0
     commercial_clarity: 0.0
     contract_governance: 15.2
     contract_quality: 14.7
     developer_ergonomics: 0.0
-    discoverability: 50.0
+    discoverability: 46.3
     governance: 15.2
     operational_transparency: 0.0
   previous_composite: 10.5
-  schema_version: 0.17.2
+  schema_version: 0.18.0
   scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/spectra/refs/heads/main/screenshots/spectra-2026-06-20T194300.png

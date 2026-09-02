@@ -10,10 +10,10 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-ready
+  band: agent-aware
   dimensions:
     agent_card: false
-    agent_skills: true
+    agent_skills: derived
     agentic_access: false
     agentic_commerce: false
     auth_clarity: bearer
@@ -24,7 +24,7 @@ agent_readiness:
     error_semantics: documented
     event_surface_described: false
     idempotency: false
-    mcp_server: documented
+    mcp_server: false
     openapi_examples: partial
     protected_resource_metadata: false
     rate_limit_signal: documented
@@ -32,7 +32,7 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 30.4
+  score: 24.3
   scored_at: '2026-09-01'
 api_count: 2
 apis:
@@ -201,26 +201,35 @@ rate_limits:
   slug: affiliated-managers-group-rate-limits
 score:
   band: thin
-  composite: 38.1
+  composite: 31.0
   coverage:
     artifact_dirs: 21
-    catalog_gap: 78.0
+    catalog_gap: 72.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: 0.0
+  delta: -7.1
   facets:
-    access_clarity: 47.4
-    commercial_clarity: 47.4
+    access_clarity: 63.2
+    commercial_clarity: 63.2
     contract_governance: 15.2
-    contract_quality: 49.8
-    developer_ergonomics: 42.9
+    contract_quality: 13.3
+    developer_ergonomics: 37.5
     discoverability: 57.4
     governance: 15.2
     operational_transparency: 0.0
   previous_composite: 38.1
-  schema_version: 0.17.2
+  provenance:
+    conformance: derived
+    contracts:
+      callable: 100.0
+      derived: 2
+      marker_coverage: 100.0
+      total: 2
+    mcp: derived
+    skills: derived
+  schema_version: 0.18.0
   scored_at: '2026-09-01'
-  trend: flat
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/affiliated-managers-group/refs/heads/main/screenshots/affiliated-managers-group-2026-06-20T165600.png
 security:
 - kind: authentication

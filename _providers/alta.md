@@ -92,7 +92,7 @@ score:
     governance: 0.0
     operational_transparency: 0.0
   previous_composite: 11.0
-  schema_version: 0.17.2
+  schema_version: 0.18.0
   scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/alta/refs/heads/main/screenshots/alta-2026-07-25T195810.png

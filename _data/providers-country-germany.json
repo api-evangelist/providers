@@ -16,12 +16,12 @@
      "slug": "egym",
      "description": "EGYM is a Munich-headquartered fitness and health technology company that builds the connected-gym platform used by commercial fitness operators worldwide: Smart Strength and Smart Flex networked equipment, the EGYM Genius AI training engine, the EGYM Fitness Hub and Trainer apps, and the EGYM Wellpass / Corporate Fitness membership network that lets employers give staff access to thousands of partner venues. For developers, EGYM operates a public developer portal at developer.egym.com covering eight machine-readable APIs across three integration audiences — member-management-system (MMS) vendors syncing members, memberships, RFID/NFC credentials, check-ins, products and trainer tasks into EGYM Cloud; equipment vendors submitting body, cardio and flexibility measurements from devices or backends; and analytics consumers exporting workout and measurement data. EGYM also publishes an official documentation MCP server, an llms.txt, a written AI-agent instruction page, a dated change log, published rate limits and a documented webhook event catalog.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/egym/refs/heads/main/screenshots/egym-2026-08-17T080915.png",
-     "score": 62.8,
+     "score": 62.6,
      "band": "strong",
      "band_label": "Strong",
      "facets": {
       "discoverability": 66.7,
-      "contract_quality": 67.1,
+      "contract_quality": 66.4,
       "governance": 4.5,
       "contract_governance": 4.5,
       "operational_transparency": 71.1,
@@ -30,7 +30,7 @@
       "access_clarity": 44.7
      },
      "scored_at": "2026-09-01",
-     "schema_version": "0.17.2",
+     "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
       "regime": "Health",
@@ -82,7 +82,7 @@
       "access_clarity": 76.3
      },
      "scored_at": "2026-09-01",
-     "schema_version": "0.17.2",
+     "schema_version": "0.18.0",
      "agent_score": 46.8,
      "agent_band": "agent-ready",
      "agent_dims": {
@@ -127,7 +127,7 @@
       "access_clarity": 63.2
      },
      "scored_at": "2026-09-01",
-     "schema_version": "0.17.2",
+     "schema_version": "0.18.0",
      "agent_score": 23.9,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -158,12 +158,12 @@
      "slug": "applike",
      "description": "AppLike Group is a Hamburg, Germany-based company builder in the mobile app economy, founded in 2015 by Jonas Thiemann and Carlo Szelinsky and backed by Bertelsmann. The group operates four independent businesses that cover the mobile app value chain: adjoe (rewarded user acquisition, the Playtime engagement ad format, the Arcade loyalty layer and a programmatic ads platform), justtrack (mobile attribution, user-acquisition automation, cohort and monetization analytics), JustDice (app-discovery products for mobile gamers) and Sunday (mobile game development and publishing). Two of the four brands publish public developer surfaces: justtrack ships OpenAPI 3.1 contracts for its Management and AppEvent APIs plus documented Reporting, Revenue Events and Raw Data Export interfaces, and adjoe publishes SSP reporting APIs and a server-to-server rewarded-payout callback alongside Android, iOS, Unity, Flutter, React Native and Cordova SDKs.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/applike/refs/heads/main/screenshots/applike-2026-08-07T161506.png",
-     "score": 58.5,
+     "score": 58.3,
      "band": "strong",
      "band_label": "Strong",
      "facets": {
       "discoverability": 75.9,
-      "contract_quality": 61.8,
+      "contract_quality": 61.0,
       "governance": 18.2,
       "contract_governance": 18.2,
       "operational_transparency": 71.1,
@@ -172,7 +172,7 @@
       "access_clarity": 53.9
      },
      "scored_at": "2026-09-01",
-     "schema_version": "0.17.2",
+     "schema_version": "0.18.0",
      "agent_score": 34.7,
      "agent_band": "agent-ready",
      "agent_dims": {
@@ -203,12 +203,12 @@
      "slug": "cobot",
      "description": "Cobot is coworking and flexible-workspace management software, built and operated by Upstream - Agile GmbH in Berlin, Germany. It runs the day-to-day of a coworking space or space network from one platform: memberships and plans, resource and meeting-room bookings, drop-in passes, events and ticketing, check-ins, automated invoicing and online payments, a white-label member portal and mobile app, analytics, and door access-control integrations (Kisi, Salto KS, Tapkey, Sensorberg, dormakaba Exivo). Cobot publishes a genuinely open developer surface: a 134-operation OpenAPI 3.1 contract for API 2 that follows the JSON:API standard, a legacy v1 REST API with a documented webhook event catalog, OAuth 2.0 with authorization-code + PKCE and dynamic client registration, OpenID Connect, an RFC 9727 api-catalog document, RFC 9728 protected-resource metadata, an llms.txt, and an OAuth-protected hosted MCP server at api.cobot.me/mcp.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/cobot/refs/heads/main/screenshots/cobot-2026-08-17T080822.png",
-     "score": 56.8,
+     "score": 56.6,
      "band": "strong",
      "band_label": "Strong",
      "facets": {
       "discoverability": 75.9,
-      "contract_quality": 69.8,
+      "contract_quality": 68.9,
       "governance": 18.2,
       "contract_governance": 18.2,
       "operational_transparency": 34.2,
@@ -217,7 +217,7 @@
       "access_clarity": 38.2
      },
      "scored_at": "2026-09-01",
-     "schema_version": "0.17.2",
+     "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
       "regime": "Payments",
@@ -258,8 +258,8 @@
    "label": "Developing",
    "range": "39.3 – 54.2",
    "blurb": "Real signal across most facets with visible, nameable gaps.",
-   "count": 26,
-   "shown": 26,
+   "count": 30,
+   "shown": 30,
    "providers": [
     {
      "name": "Polyteia",
@@ -280,7 +280,7 @@
       "access_clarity": 39.5
      },
      "scored_at": "2026-09-01",
-     "schema_version": "0.17.2",
+     "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
       "regime": "Government & Public Sector",
@@ -321,75 +321,16 @@
      "rank": 6
     },
     {
-     "name": "Nfon",
-     "slug": "nfon",
-     "description": "NFON AG is a European provider of cloud telephony and unified communications (UCaaS/CPaaS), headquartered in Munich and serving businesses across 15+ European countries. Its Cloudya cloud phone system and related products deliver business voice, video, contact centre and AI-assisted communication. For developers and integration partners, NFON publishes a set of RESTful JSON APIs hosted from the NFON-AG GitHub organisation: the flagship PBX Configuration API (OAuth 2.0, ~480 operations for provisioning tenants, extensions, devices, queues, groups, IVRs, phone books, licences and more — the successor to the legacy Service Portal API), the CTI API (server-to-server call control and Server-Sent-Event call/state streaming), and the Call History API offered under \"Login with NFON\" (OAuth 2.0 Authorization Code + PKCE) for retrieving, streaming and deleting call records with transcriptions and summaries. Use of the APIs is free of charge; access is provisioned by contacting integration@nfon.com.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/nfon/refs/heads/main/screenshots/nfon-2026-08-07T185227.png",
-     "score": 50.1,
-     "band": "developing",
-     "band_label": "Developing",
-     "facets": {
-      "discoverability": 81.5,
-      "contract_quality": 55.7,
-      "governance": 18.2,
-      "contract_governance": 18.2,
-      "operational_transparency": 42.1,
-      "developer_ergonomics": 49.4,
-      "commercial_clarity": 43.4,
-      "access_clarity": 43.4
-     },
-     "scored_at": "2026-09-01",
-     "schema_version": "0.17.2",
-     "regulatory": {
-      "applies": true,
-      "regime": "Telecommunications",
-      "regime_id": "telecommunications",
-      "score": 41.7,
-      "matched_via": "tags",
-      "jurisdictions_satisfied": 1,
-      "jurisdictions": [
-       {
-        "standard": "gdpr",
-        "jurisdiction": "EU"
-       }
-      ]
-     },
-     "agent_score": 26.4,
-     "agent_band": "agent-aware",
-     "agent_dims": {
-      "spec_presence": true,
-      "agentic_access": "derived",
-      "reversibility_documented": false,
-      "mcp_server": false,
-      "auth_clarity": "bearer",
-      "idempotency": false,
-      "error_semantics": "verified",
-      "openapi_examples": "partial",
-      "rate_limit_signal": false,
-      "event_surface_described": false,
-      "agent_skills": "derived",
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false,
-      "delegated_identity": false,
-      "protected_resource_metadata": false,
-      "dynamic_client_registration": false,
-      "agentic_commerce": false
-     },
-     "rank": 7
-    },
-    {
      "name": "Solaris",
      "slug": "solaris",
      "description": "Solaris SE is a Berlin-based embedded-finance / Banking-as-a-Service platform operating on a full German CRR commercial banking license. Its REST API lets partners embed regulated banking into their own products: digital banking with local German IBANs and SEPA credit transfers, direct debit and instant payments; debit and credit cards with 3D Secure, tokenization and spending controls; KYC/KYB identity verification (Bankident, VideoIdent, AutoIdent, Fourthline); and lending products including overdrafts, Splitpay and consumer and business loans. The API uses OAuth2 client-credentials bearer tokens, HMAC-SHA256-signed webhooks for ~80 real-time events, page-number pagination, and a structured Money object, and is certified under ISO/IEC 27001, PCI DSS 4.0, DORA and GDPR.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/solaris/refs/heads/main/screenshots/solaris-2026-08-17T081954.png",
-     "score": 49.8,
+     "score": 49.6,
      "band": "developing",
      "band_label": "Developing",
      "facets": {
       "discoverability": 75.9,
-      "contract_quality": 42.7,
+      "contract_quality": 41.6,
       "governance": 18.2,
       "contract_governance": 18.2,
       "operational_transparency": 50.0,
@@ -398,7 +339,7 @@
       "access_clarity": 18.4
      },
      "scored_at": "2026-09-01",
-     "schema_version": "0.17.2",
+     "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
       "regime": "Payments",
@@ -444,48 +385,55 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 8
+     "rank": 7
     },
     {
-     "name": "Ostrom",
-     "slug": "ostrom",
-     "description": "Ostrom is a fully digital green-energy provider based in Berlin, Germany, offering variable, fixed, and dynamic electricity tariffs managed entirely through a mobile app, with smart-meter integration, device control, EV-charging optimization, and a NeoGrid virtual power plant. Its developer API lets Ostrom customers and partners integrate with the smart energy-management platform: OAuth2-secured REST endpoints for user data, orders, contracts, smart-meter energy consumption, day-ahead EEX spot prices, product pricing, and partner webhooks.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/ostrom/refs/heads/main/screenshots/ostrom-2026-08-07T191022.png",
-     "score": 49.1,
+     "name": "Nfon",
+     "slug": "nfon",
+     "description": "NFON AG is a European provider of cloud telephony and unified communications (UCaaS/CPaaS), headquartered in Munich and serving businesses across 15+ European countries. Its Cloudya cloud phone system and related products deliver business voice, video, contact centre and AI-assisted communication. For developers and integration partners, NFON publishes a set of RESTful JSON APIs hosted from the NFON-AG GitHub organisation: the flagship PBX Configuration API (OAuth 2.0, ~480 operations for provisioning tenants, extensions, devices, queues, groups, IVRs, phone books, licences and more — the successor to the legacy Service Portal API), the CTI API (server-to-server call control and Server-Sent-Event call/state streaming), and the Call History API offered under \"Login with NFON\" (OAuth 2.0 Authorization Code + PKCE) for retrieving, streaming and deleting call records with transcriptions and summaries. Use of the APIs is free of charge; access is provisioned by contacting integration@nfon.com.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/nfon/refs/heads/main/screenshots/nfon-2026-08-07T185227.png",
+     "score": 49.3,
      "band": "developing",
      "band_label": "Developing",
      "facets": {
-      "discoverability": 75.9,
-      "contract_quality": 61.6,
-      "governance": 4.5,
-      "contract_governance": 4.5,
-      "operational_transparency": 23.7,
-      "developer_ergonomics": 51.8,
-      "commercial_clarity": 44.7,
-      "access_clarity": 44.7
+      "discoverability": 81.5,
+      "contract_quality": 52.5,
+      "governance": 18.2,
+      "contract_governance": 18.2,
+      "operational_transparency": 42.1,
+      "developer_ergonomics": 49.4,
+      "commercial_clarity": 43.4,
+      "access_clarity": 43.4
      },
      "scored_at": "2026-09-01",
-     "schema_version": "0.17.2",
+     "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
-      "regime": "Energy & Utilities",
-      "regime_id": "energy_utilities",
-      "score": 40.5,
-      "matched_via": "tags"
+      "regime": "Telecommunications",
+      "regime_id": "telecommunications",
+      "score": 41.7,
+      "matched_via": "tags",
+      "jurisdictions_satisfied": 1,
+      "jurisdictions": [
+       {
+        "standard": "gdpr",
+        "jurisdiction": "EU"
+       }
+      ]
      },
-     "agent_score": 31.1,
-     "agent_band": "agent-ready",
+     "agent_score": 26.4,
+     "agent_band": "agent-aware",
      "agent_dims": {
       "spec_presence": true,
       "agentic_access": "derived",
       "reversibility_documented": false,
       "mcp_server": false,
-      "auth_clarity": "negotiable",
+      "auth_clarity": "bearer",
       "idempotency": false,
       "error_semantics": "verified",
-      "openapi_examples": false,
+      "openapi_examples": "partial",
       "rate_limit_signal": false,
-      "event_surface_described": true,
+      "event_surface_described": false,
       "agent_skills": "derived",
       "well_known_catalog": false,
       "consent_identity": false,
@@ -496,19 +444,19 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 9
+     "rank": 8
     },
     {
      "name": "RWTH Aachen University",
      "slug": "rwth-aachen-university",
      "description": "RWTH Aachen University (Rheinisch-Westfaelische Technische Hochschule Aachen) is Germany's largest technical university and a member of the TU9 alliance of leading German institutes of technology. Unusually for a university, its principal programmable surface is genuinely its own engineering rather than a vendor contract running under its name: Coscine, the FAIR research data management platform built and operated by the IT Center, publishes a 132-path OpenAPI 3.0.1 contract at coscine.rwth-aachen.de whose servers[], contact (servicedesk@rwth-aachen.de) and terms all resolve to RWTH. Alongside it the University Library operates a live OAI-PMH 2.0 endpoint for RWTH Publications, and the IT Center runs a Shibboleth Identity Provider publishing signed SAML 2.0 metadata plus an OpenID Connect discovery document — an identity federation surface that is institution-operated by definition and rarely catalogued. The IT Center also self-hosts GitLab at git.rwth-aachen.de, whose REST API is reachable but is GitLab's contract rather than RWTH's. There is no central developer portal, no open data portal (data./opendata./api.rwth-aachen.de do not resolve), and no institution-authored course catalog or campus-life API. Every surface recorded here carries an x-operator; none of them is a vendor contract misattributed to the institution.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/rwth-aachen-university/refs/heads/main/screenshots/rwth-aachen-university-2026-06-20T193306.png",
-     "score": 48.8,
+     "score": 49.2,
      "band": "developing",
      "band_label": "Developing",
      "facets": {
       "discoverability": 55.6,
-      "contract_quality": 62.5,
+      "contract_quality": 64.0,
       "governance": 9.8,
       "contract_governance": 9.8,
       "operational_transparency": 26.3,
@@ -517,7 +465,7 @@
       "access_clarity": 50.0
      },
      "scored_at": "2026-09-01",
-     "schema_version": "0.17.2",
+     "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
       "regime": "Education & Research",
@@ -548,6 +496,58 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
+     "rank": 9
+    },
+    {
+     "name": "Ostrom",
+     "slug": "ostrom",
+     "description": "Ostrom is a fully digital green-energy provider based in Berlin, Germany, offering variable, fixed, and dynamic electricity tariffs managed entirely through a mobile app, with smart-meter integration, device control, EV-charging optimization, and a NeoGrid virtual power plant. Its developer API lets Ostrom customers and partners integrate with the smart energy-management platform: OAuth2-secured REST endpoints for user data, orders, contracts, smart-meter energy consumption, day-ahead EEX spot prices, product pricing, and partner webhooks.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/ostrom/refs/heads/main/screenshots/ostrom-2026-08-07T191022.png",
+     "score": 48.9,
+     "band": "developing",
+     "band_label": "Developing",
+     "facets": {
+      "discoverability": 75.9,
+      "contract_quality": 60.8,
+      "governance": 4.5,
+      "contract_governance": 4.5,
+      "operational_transparency": 23.7,
+      "developer_ergonomics": 51.8,
+      "commercial_clarity": 44.7,
+      "access_clarity": 44.7
+     },
+     "scored_at": "2026-09-01",
+     "schema_version": "0.18.0",
+     "regulatory": {
+      "applies": true,
+      "regime": "Energy & Utilities",
+      "regime_id": "energy_utilities",
+      "score": 40.5,
+      "matched_via": "tags"
+     },
+     "agent_score": 31.1,
+     "agent_band": "agent-ready",
+     "agent_dims": {
+      "spec_presence": true,
+      "agentic_access": "derived",
+      "reversibility_documented": false,
+      "mcp_server": false,
+      "auth_clarity": "negotiable",
+      "idempotency": false,
+      "error_semantics": "verified",
+      "openapi_examples": false,
+      "rate_limit_signal": false,
+      "event_surface_described": true,
+      "agent_skills": "derived",
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
      "rank": 10
     },
     {
@@ -569,7 +569,7 @@
       "access_clarity": 50.0
      },
      "scored_at": "2026-09-01",
-     "schema_version": "0.17.2",
+     "schema_version": "0.18.0",
      "agent_score": 22.3,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -600,12 +600,12 @@
      "slug": "kugelaudio",
      "description": "KugelAudio is a Y Combinator-backed, Germany-based voice AI company (KugelAudio GmbH) offering low-latency text-to-speech built, trained, and hosted entirely in the European Union. Its kugel-3 and kugel-2-turbo models produce natural speech in 26+ languages with accent and dialect coverage, voice cloning from a short reference sample, per-project pronunciation dictionaries with IPA support, word-level timestamps, and inline break, spell, and prosody tags. The platform positions EU data sovereignty as its core differentiator, operating outside the reach of the US CLOUD Act and offering a direct EU endpoint plus on-premise and dedicated deployment. The developer surface is a REST API for generation, voices, models, and dictionaries plus three WebSocket streaming channels tuned for real-time voice agents, including token-by-token input, barge-in, and up to 20 concurrent contexts per connection. Drop-in compatibility surfaces let ElevenLabs-compatible SDKs, LiveKit, PipeCat, and Vapi integrations point at KugelAudio without rewrites.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/kugelaudio/refs/heads/main/screenshots/kugelaudio-2026-07-25T224326.png",
-     "score": 47.9,
+     "score": 47.7,
      "band": "developing",
      "band_label": "Developing",
      "facets": {
       "discoverability": 75.9,
-      "contract_quality": 58.7,
+      "contract_quality": 57.9,
       "governance": 4.5,
       "contract_governance": 4.5,
       "operational_transparency": 26.3,
@@ -614,7 +614,7 @@
       "access_clarity": 39.5
      },
      "scored_at": "2026-09-01",
-     "schema_version": "0.17.2",
+     "schema_version": "0.18.0",
      "agent_score": 28.8,
      "agent_band": "agent-ready",
      "agent_dims": {
@@ -641,58 +641,6 @@
      "rank": 12
     },
     {
-     "name": "Nomos",
-     "slug": "nomos",
-     "description": "Nomos runs a whitelabel (embedded) energy platform for the German market: partners sell dynamic, EPEX-spot electricity plans under their own brand while Nomos, a licensed and regulated electricity retailer, handles customer onboarding, supplier switching, smart-meter (iMSys) orders, §14a EnWG grid-fee reductions, dynamic pricing, metering, billing and solar feed-in compensation behind a single REST API. The API (api.nomos.energy) uses OAuth 2.0 with read:*/write:* scopes, dated X-API-Version releases, cursor pagination, bracket-notation filtering, a structured error envelope and signed webhooks, plus hosted checkout and customer-portal surfaces.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/nomos/refs/heads/main/screenshots/nomos-2026-08-07T185448.png",
-     "score": 47.5,
-     "band": "developing",
-     "band_label": "Developing",
-     "facets": {
-      "discoverability": 75.9,
-      "contract_quality": 61.1,
-      "governance": 18.2,
-      "contract_governance": 18.2,
-      "operational_transparency": 31.6,
-      "developer_ergonomics": 57.1,
-      "commercial_clarity": 10.5,
-      "access_clarity": 10.5
-     },
-     "scored_at": "2026-09-01",
-     "schema_version": "0.17.2",
-     "regulatory": {
-      "applies": true,
-      "regime": "Energy & Utilities",
-      "regime_id": "energy_utilities",
-      "score": 51.4,
-      "matched_via": "tags"
-     },
-     "agent_score": 30.2,
-     "agent_band": "agent-ready",
-     "agent_dims": {
-      "spec_presence": true,
-      "agentic_access": "derived",
-      "reversibility_documented": false,
-      "mcp_server": false,
-      "auth_clarity": "bearer",
-      "idempotency": false,
-      "error_semantics": "verified",
-      "openapi_examples": "partial",
-      "rate_limit_signal": false,
-      "event_surface_described": "derived",
-      "agent_skills": true,
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false,
-      "delegated_identity": false,
-      "protected_resource_metadata": false,
-      "dynamic_client_registration": false,
-      "agentic_commerce": false
-     },
-     "rank": 13
-    },
-    {
      "name": "i6eal Open AI Data API",
      "slug": "i6eal-open-ai-data-api",
      "description": "A free, no-authentication open-data REST API from i6eal (a German AI studio operated by Syka Ventures UG) exposing 16 AI-related datasets and monitors for Germany and the EU as static JSON/CSV/JSON-LD/Atom files served over HTTPS from CloudFront. Coverage spans public procurement, federal budget lines, case law, supervisory authorities, standardisation work items, EU AI Act transparency evidence, medical devices, clinical trials, platform automation, enforcement actions and adoption statistics. Backed by a live OpenAPI 3.0.3 contract with 83 GET operations, a DCAT JSON-LD catalogue of 16 datasets and 82 distributions, a provider-published llms.txt, and per-dataset Atom change feeds. No authentication, no registration, no published rate limit; CORS is open and responses carry ETag validators. The i6eal compilation is CC BY 4.0; underlying official records retain their source-specific rights.",
@@ -710,7 +658,7 @@
       "access_clarity": 57.1
      },
      "scored_at": "2026-09-01",
-     "schema_version": "0.17.2",
+     "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
       "regime": "Government & Public Sector",
@@ -741,87 +689,49 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 14
+     "rank": 13
     },
     {
-     "name": "Xentral",
-     "slug": "xentral",
-     "description": "Xentral is a cloud ERP and business operations platform from Augsburg, Germany that helps small and mid-sized product businesses run sales orders, purchasing, warehousing, fulfillment, invoicing, accounting, POS, and production from one system. It exposes a versioned REST API (v1/v2/v3) with Personal Access Token authentication, a Kafka-backed event system with webhooks, an official OpenAPI specification on GitHub, a hosted MCP server behind its AgentOS, and a published Claude Code plugin with agent skills for automating the ERP.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/xentral/refs/heads/main/screenshots/xentral-2026-08-17T083012.png",
-     "score": 46.8,
-     "band": "developing",
-     "band_label": "Developing",
-     "facets": {
-      "discoverability": 70.4,
-      "contract_quality": 62.6,
-      "governance": 4.5,
-      "contract_governance": 4.5,
-      "operational_transparency": 31.6,
-      "developer_ergonomics": 52.4,
-      "commercial_clarity": 44.7,
-      "access_clarity": 44.7
-     },
-     "scored_at": "2026-09-01",
-     "schema_version": "0.17.2",
-     "agent_score": 46.4,
-     "agent_band": "agent-ready",
-     "agent_dims": {
-      "spec_presence": true,
-      "agentic_access": false,
-      "reversibility_documented": "verified",
-      "mcp_server": "verified",
-      "auth_clarity": "bearer",
-      "idempotency": false,
-      "error_semantics": "documented",
-      "openapi_examples": "verified",
-      "rate_limit_signal": "documented",
-      "event_surface_described": "derived",
-      "agent_skills": true,
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": true,
-      "delegated_identity": false,
-      "protected_resource_metadata": false,
-      "dynamic_client_registration": false,
-      "agentic_commerce": false
-     },
-     "rank": 15
-    },
-    {
-     "name": "Langdock",
-     "slug": "langdock",
-     "description": "Langdock is an enterprise AI platform — \"The Platform for AI Adoption\" — that lets organizations deploy model-agnostic AI across their workforce through Chat, Workflows, Agents, Skills, Integrations, and a public API. The platform is EU-hosted on Microsoft Azure with ISO 27001 and SOC 2 Type II certification and GDPR alignment, and supports multi-tenant SaaS, single-tenant SaaS, bring-your-own-cloud, and on-premise Kubernetes deployment. The Langdock API exposes provider-compatible completion and embedding endpoints for OpenAI, Anthropic, Google Gemini, and Mistral models across EU and US regions, alongside first-party Agents, Skills, Knowledge Folder, Integrations, Audit Logs, Usage Export, and User Management APIs, plus a hosted Model Context Protocol server that exposes workspace agents as MCP tools.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/langdock/refs/heads/main/screenshots/langdock-2026-07-25T224521.png",
-     "score": 46.7,
+     "name": "Nomos",
+     "slug": "nomos",
+     "description": "Nomos runs a whitelabel (embedded) energy platform for the German market: partners sell dynamic, EPEX-spot electricity plans under their own brand while Nomos, a licensed and regulated electricity retailer, handles customer onboarding, supplier switching, smart-meter (iMSys) orders, §14a EnWG grid-fee reductions, dynamic pricing, metering, billing and solar feed-in compensation behind a single REST API. The API (api.nomos.energy) uses OAuth 2.0 with read:*/write:* scopes, dated X-API-Version releases, cursor pagination, bracket-notation filtering, a structured error envelope and signed webhooks, plus hosted checkout and customer-portal surfaces.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/nomos/refs/heads/main/screenshots/nomos-2026-08-07T185448.png",
+     "score": 47.3,
      "band": "developing",
      "band_label": "Developing",
      "facets": {
       "discoverability": 75.9,
-      "contract_quality": 61.7,
-      "governance": 4.5,
-      "contract_governance": 4.5,
-      "operational_transparency": 65.8,
-      "developer_ergonomics": 25.6,
-      "commercial_clarity": 47.4,
-      "access_clarity": 47.4
+      "contract_quality": 60.3,
+      "governance": 18.2,
+      "contract_governance": 18.2,
+      "operational_transparency": 31.6,
+      "developer_ergonomics": 57.1,
+      "commercial_clarity": 10.5,
+      "access_clarity": 10.5
      },
      "scored_at": "2026-09-01",
-     "schema_version": "0.17.2",
-     "agent_score": 42.6,
+     "schema_version": "0.18.0",
+     "regulatory": {
+      "applies": true,
+      "regime": "Energy & Utilities",
+      "regime_id": "energy_utilities",
+      "score": 51.4,
+      "matched_via": "tags"
+     },
+     "agent_score": 30.2,
      "agent_band": "agent-ready",
      "agent_dims": {
       "spec_presence": true,
-      "agentic_access": false,
+      "agentic_access": "derived",
       "reversibility_documented": false,
-      "mcp_server": "verified",
+      "mcp_server": false,
       "auth_clarity": "bearer",
       "idempotency": false,
       "error_semantics": "verified",
-      "openapi_examples": "verified",
-      "rate_limit_signal": "documented",
-      "event_surface_described": true,
-      "agent_skills": "derived",
+      "openapi_examples": "partial",
+      "rate_limit_signal": false,
+      "event_surface_described": "derived",
+      "agent_skills": true,
       "well_known_catalog": false,
       "consent_identity": false,
       "agent_card": false,
@@ -831,7 +741,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 16
+     "rank": 14
     },
     {
      "name": "Aleph Alpha",
@@ -852,7 +762,7 @@
       "access_clarity": 26.3
      },
      "scored_at": "2026-09-01",
-     "schema_version": "0.17.2",
+     "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
       "regime": "Government & Public Sector",
@@ -883,53 +793,143 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 17
+     "rank": 15
     },
     {
-     "name": "University of Göttingen",
-     "slug": "university-of-gottingen",
-     "description": "The University of Göttingen (Georg-August-Universität Göttingen) is a public research university in Lower Saxony, Germany, founded 1737, a German U15 member and QS-ranked in the mid-200s. Its programmable footprint is real but small, and it belongs almost entirely to the Göttingen State and University Library (SUB Göttingen) rather than to the university's central IT: two live OAI-PMH 2.0 harvesting endpoints on the university's own domains — the Göttinger Digitalisierungszentrum, harvesting back to 1998, and the eDiss dissertation server, which disseminates the German national xMetaDissPlus, epicur and picaxml profiles — plus a IIIF Image API 2.0 level-2 image service and IIIF Presentation manifests for the digitised collections. The university also operates its own SAML 2.0 identity provider, registered in DFN-AAI, exported to eduGAIN and Sirtfi-compliant, and holds the DataCite prefix 10.25625 as repository client SUBGOE.GRO. There is no central developer portal, no self-service API key, no published rate limits and no OpenAPI authored by the institution; every specification in this repository was written by API Evangelist from live probes and is marked as such. The GRO.data research-data repository and the SUB library catalogue are recorded here as relationships rather than as Göttingen contracts — GRO.data runs Dataverse and the catalogue resolves onto the GBV/VZG library platform.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/university-of-gottingen/refs/heads/main/screenshots/university-of-gottingen-2026-06-20T200154.png",
-     "score": 46.2,
+     "name": "Langdock",
+     "slug": "langdock",
+     "description": "Langdock is an enterprise AI platform — \"The Platform for AI Adoption\" — that lets organizations deploy model-agnostic AI across their workforce through Chat, Workflows, Agents, Skills, Integrations, and a public API. The platform is EU-hosted on Microsoft Azure with ISO 27001 and SOC 2 Type II certification and GDPR alignment, and supports multi-tenant SaaS, single-tenant SaaS, bring-your-own-cloud, and on-premise Kubernetes deployment. The Langdock API exposes provider-compatible completion and embedding endpoints for OpenAI, Anthropic, Google Gemini, and Mistral models across EU and US regions, alongside first-party Agents, Skills, Knowledge Folder, Integrations, Audit Logs, Usage Export, and User Management APIs, plus a hosted Model Context Protocol server that exposes workspace agents as MCP tools.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/langdock/refs/heads/main/screenshots/langdock-2026-07-25T224521.png",
+     "score": 46.5,
      "band": "developing",
      "band_label": "Developing",
      "facets": {
-      "discoverability": 64.8,
-      "contract_quality": 54.0,
-      "governance": 15.2,
-      "contract_governance": 15.2,
-      "operational_transparency": 23.7,
-      "developer_ergonomics": 28.6,
-      "commercial_clarity": 50.0,
-      "access_clarity": 50.0
+      "discoverability": 75.9,
+      "contract_quality": 60.9,
+      "governance": 4.5,
+      "contract_governance": 4.5,
+      "operational_transparency": 65.8,
+      "developer_ergonomics": 25.6,
+      "commercial_clarity": 47.4,
+      "access_clarity": 47.4
      },
      "scored_at": "2026-09-01",
-     "schema_version": "0.17.2",
-     "regulatory": {
-      "applies": true,
-      "regime": "Education & Research",
-      "regime_id": "education",
-      "score": 64.8,
-      "matched_via": "tags"
-     },
-     "agent_score": 19.2,
-     "agent_band": "agent-aware",
+     "schema_version": "0.18.0",
+     "agent_score": 42.6,
+     "agent_band": "agent-ready",
      "agent_dims": {
       "spec_presence": true,
       "agentic_access": false,
       "reversibility_documented": false,
-      "mcp_server": false,
+      "mcp_server": "verified",
       "auth_clarity": "bearer",
       "idempotency": false,
+      "error_semantics": "verified",
+      "openapi_examples": "verified",
+      "rate_limit_signal": "documented",
+      "event_surface_described": true,
+      "agent_skills": "derived",
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
+     "rank": 16
+    },
+    {
+     "name": "Xentral",
+     "slug": "xentral",
+     "description": "Xentral is a cloud ERP and business operations platform from Augsburg, Germany that helps small and mid-sized product businesses run sales orders, purchasing, warehousing, fulfillment, invoicing, accounting, POS, and production from one system. It exposes a versioned REST API (v1/v2/v3) with Personal Access Token authentication, a Kafka-backed event system with webhooks, an official OpenAPI specification on GitHub, a hosted MCP server behind its AgentOS, and a published Claude Code plugin with agent skills for automating the ERP.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/xentral/refs/heads/main/screenshots/xentral-2026-08-17T083012.png",
+     "score": 46.5,
+     "band": "developing",
+     "band_label": "Developing",
+     "facets": {
+      "discoverability": 70.4,
+      "contract_quality": 61.7,
+      "governance": 4.5,
+      "contract_governance": 4.5,
+      "operational_transparency": 31.6,
+      "developer_ergonomics": 52.4,
+      "commercial_clarity": 44.7,
+      "access_clarity": 44.7
+     },
+     "scored_at": "2026-09-01",
+     "schema_version": "0.18.0",
+     "agent_score": 46.4,
+     "agent_band": "agent-ready",
+     "agent_dims": {
+      "spec_presence": true,
+      "agentic_access": false,
+      "reversibility_documented": "verified",
+      "mcp_server": "verified",
+      "auth_clarity": "bearer",
+      "idempotency": false,
+      "error_semantics": "documented",
+      "openapi_examples": "verified",
+      "rate_limit_signal": "documented",
+      "event_surface_described": "derived",
+      "agent_skills": true,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": true,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
+     "rank": 17
+    },
+    {
+     "name": "University of Bonn",
+     "slug": "university-of-bonn",
+     "description": "The University of Bonn (Rheinische Friedrich-Wilhelms-Universitaet Bonn), founded in 1818, is a public research university in North Rhine-Westphalia, Germany, and a member of the German Universities Excellence Initiative. Like every institution it is a federation of buyers rather than an API producer, but it is an unusually self-hosted one: the surfaces in this profile run on the university's own hosts, inside its own computing centre, rather than on a vendor's multi-tenant platform. bonndata, the institutional cross-disciplinary research data repository, runs Dataverse 6.7.1 at bonndata.uni-bonn.de (CNAME bonndata-produktiv.rhrz.uni-bonn.de, 131.220.213.19) and exposes a genuinely public, anonymous, read-only REST API — /search, /datasets, /datasets/export, /info/version, /info/metrics — plus a full OAI-PMH 2.0 endpoint; every documented path was re-verified live on 2026-09-01 and /search returned 376 indexed datasets. bonndoc, the university publication server at bonndoc.ulb.uni-bonn.de, answers OAI-PMH in ten metadata formats. The university runs its own Shibboleth Identity Provider at shibboleth.uni-bonn.de and is the only uni-bonn.de entity in the 11,457-entity DFN-AAI federation aggregate. It self-hosts GitLab at gitlab.uni-bonn.de, whose REST API v4 answers anonymously across 195 public projects, and keeps a GitHub organization at github.com/unibonn. It is a DataCite member (BXBQ) minting DOIs under prefix 10.60507 through the bonndata repository client, is registered in ROR as 041nas322 and in re3data as r3d100014222. What it does NOT have is equally clear and is stated here rather than padded: no central developer portal, no institution-authored OpenAPI or AsyncAPI, no llms.txt, sitemap.xml, apis.json or agent card on any host it controls, no public course, timetable or student-information API (BASIS runs HISinOne behind sign-in, eCampus runs ILIAS), and no institutional open-data portal — opendata.bonn.de belongs to the City of Bonn, not the university. Library discovery (bonnus) is Ex Libris Primo, self-hosted on a university IP, with no public API. The four OpenAPI documents in this repo are API-Evangelist-authored descriptions of the public read subset of the Dataverse Native API as deployed by Bonn; the Dataverse contract itself belongs to the Dataverse project, and no vendor specification is saved under this institution.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/university-of-bonn/refs/heads/main/screenshots/university-of-bonn-2026-06-20T200139.png",
+     "score": 45.7,
+     "band": "developing",
+     "band_label": "Developing",
+     "facets": {
+      "discoverability": 79.6,
+      "contract_quality": 23.7,
+      "governance": 28.0,
+      "contract_governance": 28.0,
+      "operational_transparency": 26.3,
+      "developer_ergonomics": 28.6,
+      "commercial_clarity": 63.2,
+      "access_clarity": 63.2
+     },
+     "scored_at": "2026-09-01",
+     "schema_version": "0.18.0",
+     "regulatory": {
+      "applies": true,
+      "regime": "Education & Research",
+      "regime_id": "education",
+      "score": 72.2,
+      "matched_via": "tags"
+     },
+     "agent_score": 22.9,
+     "agent_band": "agent-aware",
+     "agent_dims": {
+      "spec_presence": true,
+      "agentic_access": "derived",
+      "reversibility_documented": "na",
+      "mcp_server": false,
+      "auth_clarity": "bearer",
+      "idempotency": "na",
       "error_semantics": false,
-      "openapi_examples": "documented",
+      "openapi_examples": false,
       "rate_limit_signal": "documented",
       "event_surface_described": false,
       "agent_skills": false,
       "well_known_catalog": false,
       "consent_identity": false,
       "agent_card": false,
-      "dry_run_mode": false,
+      "dry_run_mode": "na",
       "delegated_identity": false,
       "protected_resource_metadata": false,
       "dynamic_client_registration": false,
@@ -947,7 +947,7 @@
      "band_label": "Developing",
      "facets": {
       "discoverability": 81.5,
-      "contract_quality": 20.7,
+      "contract_quality": 20.4,
       "governance": 18.2,
       "contract_governance": 18.2,
       "operational_transparency": 36.8,
@@ -956,7 +956,7 @@
       "access_clarity": 53.9
      },
      "scored_at": "2026-09-01",
-     "schema_version": "0.17.2",
+     "schema_version": "0.18.0",
      "agent_score": 34.0,
      "agent_band": "agent-ready",
      "agent_dims": {
@@ -1001,7 +1001,7 @@
       "access_clarity": 34.2
      },
      "scored_at": "2026-09-01",
-     "schema_version": "0.17.2",
+     "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
       "regime": "Banking & Open Finance",
@@ -1035,15 +1035,67 @@
      "rank": 20
     },
     {
+     "name": "University of Freiburg",
+     "slug": "university-of-freiburg",
+     "description": "The University of Freiburg (Albert-Ludwigs-Universität Freiburg) is a public research university in Baden-Württemberg, Germany, founded in 1457, a member of the German U15 and ranked #212 in the QS World University Rankings 2025. Like most universities it operates no central developer portal, publishes no OpenAPI description of anything, and offers no API program, keys, plans or support channel for developers — but unlike most of the cohort a meaningful part of what it does run is genuinely its own rather than a vendor contract wearing its name. Its library (Universitätsbibliothek Freiburg) operates FreiDok plus, an institutional repository and university bibliography whose read-only JSON API and OAI-PMH 2.0 endpoint are open, anonymous and live (267,771 publications, 238,730 persons, 1,277 institutions and 10,612 projects as probed on 2026-09-01). The university also runs a FreiData research-data repository (an InvenioRDM deployment minting DataCite DOIs under its own prefix 10.60493), a self-hosted GitLab whose REST API answers anonymously for 56 public projects, a public status page with a JSON monitor feed, and its own Shibboleth/SAML Identity Provider published into the DFN-AAI national federation. Its library discovery catalog is live but IP-blocked to automated clients, and its campus-management and LMS systems (HISinOne, ILIAS) are human-facing only. Everything programmable here is read-only metadata infrastructure built for harvesting, not a product; there is nothing to sign up for and nothing to buy.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/university-of-freiburg/refs/heads/main/screenshots/university-of-freiburg-2026-06-20T200150.png",
+     "score": 44.0,
+     "band": "developing",
+     "band_label": "Developing",
+     "facets": {
+      "discoverability": 79.6,
+      "contract_quality": 62.7,
+      "governance": 0.0,
+      "contract_governance": 0.0,
+      "operational_transparency": 36.8,
+      "developer_ergonomics": 21.4,
+      "commercial_clarity": 39.5,
+      "access_clarity": 39.5
+     },
+     "scored_at": "2026-09-01",
+     "schema_version": "0.18.0",
+     "regulatory": {
+      "applies": true,
+      "regime": "Education & Research",
+      "regime_id": "education",
+      "score": 50.0,
+      "matched_via": "tags"
+     },
+     "agent_score": 19.2,
+     "agent_band": "agent-aware",
+     "agent_dims": {
+      "spec_presence": true,
+      "agentic_access": false,
+      "reversibility_documented": false,
+      "mcp_server": false,
+      "auth_clarity": "bearer",
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": "documented",
+      "rate_limit_signal": "documented",
+      "event_surface_described": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
+     "rank": 21
+    },
+    {
      "name": "The Mobility House",
      "slug": "the-mobility-house",
      "description": "The Mobility House (TMH) is a Munich-headquartered electric-mobility and energy technology company, founded in 2009, with offices in Zurich, Montreal, Paris, Singapore and Belmont (USA). Its ChargePilot smart charging and energy management system pairs an on-site controller with a cloud dashboard to run dynamic load management across mixed-vendor AC and DC charging infrastructure, and its Vehicle-to-Grid (V2G) platform markets electric-vehicle battery capacity into energy and grid-balancing markets. ChargePilot integrates with third-party systems over open, standards-based interfaces rather than a public REST developer program: OCPP to charging stations, a VDV 463 WebSocket interface to depot and fleet management systems, a Modbus TCP/IP server for building and site energy management systems, and an outbound Charging Data Push-API that delivers completed charging sessions as JSON to a customer endpoint.",
-     "score": 43.8,
+     "score": 43.6,
      "band": "developing",
      "band_label": "Developing",
      "facets": {
       "discoverability": 75.9,
-      "contract_quality": 42.7,
+      "contract_quality": 41.6,
       "governance": 18.2,
       "contract_governance": 18.2,
       "operational_transparency": 26.3,
@@ -1052,7 +1104,7 @@
       "access_clarity": 34.2
      },
      "scored_at": "2026-09-01",
-     "schema_version": "0.17.2",
+     "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
       "regime": "Energy & Utilities",
@@ -1083,7 +1135,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 21
+     "rank": 22
     },
     {
      "name": "Causa Prima",
@@ -1104,7 +1156,7 @@
       "access_clarity": 28.9
      },
      "scored_at": "2026-09-01",
-     "schema_version": "0.17.2",
+     "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
       "regime": "Payments",
@@ -1135,49 +1187,49 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 22
+     "rank": 23
     },
     {
-     "name": "Topi",
-     "slug": "topi",
-     "description": "topi is a European hardware-as-a-service (HaaS) fintech that lets B2B sellers and retailers offer tech devices, IT hardware, and equipment as flexible monthly rental subscriptions instead of one-off purchases, across eCommerce, telesales, and point-of-sale channels. Merchants embed topi rentals into their checkout through the OAuth2-secured topi Seller API (catalog, offers, orders, shipments, and shipping methods) and the topi Elements embeddable web components, with a dedicated sandbox for end-to-end testing. Backed by Creandum.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/topi/refs/heads/main/screenshots/topi-2026-08-17T082405.png",
-     "score": 42.9,
+     "name": "Karlsruhe Institute of Technology",
+     "slug": "karlsruhe-institute-of-technology",
+     "description": "Karlsruhe Institute of Technology (KIT) is a public research university and national research center of the Helmholtz Association in Karlsruhe, Germany, and a member of the TU9 alliance of German institutes of technology. KIT publishes no central developer portal and no institution-authored API contract: api.kit.edu, developer.kit.edu, data.kit.edu and opendata.kit.edu do not resolve at all. What it does operate, and what this profile records, is a set of standards-protocol and self-hosted surfaces on its own kit.edu domain, every one of them probed live on 2026-09-01 rather than taken from a link. The KIT Library runs an OAI-PMH 2.0 provider for the KITopen institutional repository (repositoryName \"KITopen\", built on the Library's own dbkit framework) and a self-hosted Koha catalogue whose REST API answers keyless on its /public path. The Scientific Computing Center runs a Shibboleth SAML 2.0 Identity Provider registered in the DFN-AAI federation, a Keycloak OpenID Connect realm, and the KI-Toolbox, an Open WebUI deployment serving locally hosted large language models. RADAR4KIT, KIT's research-data repository, is a tenancy on FIZ Karlsruhe's RADAR service running on KIT infrastructure. KIT is a DataCite direct member and a Crossref member in its own right. Three of these surfaces answer with a product's generic contract (Koha, RADAR, Open WebUI) rather than KIT's own engineering; the deployments are recorded here and those contracts are deliberately not saved under KIT's name.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/karlsruhe-institute-of-technology/refs/heads/main/screenshots/karlsruhe-institute-of-technology-2026-06-20T183922.png",
+     "score": 43.3,
      "band": "developing",
      "band_label": "Developing",
      "facets": {
-      "discoverability": 75.9,
-      "contract_quality": 66.0,
-      "governance": 4.5,
-      "contract_governance": 4.5,
-      "operational_transparency": 7.9,
-      "developer_ergonomics": 63.7,
-      "commercial_clarity": 10.5,
-      "access_clarity": 10.5
+      "discoverability": 85.2,
+      "contract_quality": 39.0,
+      "governance": 0.0,
+      "contract_governance": 0.0,
+      "operational_transparency": 26.3,
+      "developer_ergonomics": 35.7,
+      "commercial_clarity": 50.0,
+      "access_clarity": 50.0
      },
      "scored_at": "2026-09-01",
-     "schema_version": "0.17.2",
+     "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
-      "regime": "Payments",
-      "regime_id": "payments",
-      "score": 48.4,
+      "regime": "Education & Research",
+      "regime_id": "education",
+      "score": 57.4,
       "matched_via": "tags"
      },
-     "agent_score": 37.9,
-     "agent_band": "agent-ready",
+     "agent_score": 18.0,
+     "agent_band": "agent-aware",
      "agent_dims": {
       "spec_presence": true,
-      "agentic_access": "derived",
-      "reversibility_documented": "documented",
+      "agentic_access": false,
+      "reversibility_documented": false,
       "mcp_server": false,
-      "auth_clarity": "negotiable",
+      "auth_clarity": "bearer",
       "idempotency": false,
-      "error_semantics": "verified",
-      "openapi_examples": "verified",
-      "rate_limit_signal": false,
-      "event_surface_described": true,
-      "agent_skills": "derived",
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": "documented",
+      "event_surface_described": false,
+      "agent_skills": false,
       "well_known_catalog": false,
       "consent_identity": false,
       "agent_card": false,
@@ -1187,19 +1239,19 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 23
+     "rank": 24
     },
     {
      "name": "Technical University of Berlin",
      "slug": "tu-berlin",
      "description": "Technische Universität Berlin (TU Berlin) is a public technical research university in Berlin, Germany, and a member of the Berlin University Alliance and the TU9 alliance of German institutes of technology. It operates no central developer portal, publishes no OpenAPI, AsyncAPI or apis.json of its own, and sells no API product — its programmable footprint is the set of standards-based endpoints its own IT units expose on its own hosts, running third-party software. Confirmed live and unauthenticated: the DepositOnce institutional repository (DSpace 9, OAI-PMH with 15 metadata formats, a REST/HAL API and an OpenSearch description, minting DataCite DOIs under prefix 10.14279); a Shibboleth SAML 2.0 Identity Provider whose federation metadata is public (entityID https://ephraim.tu-berlin.de/shibboleth, DFN-AAI); a self-hosted GitLab whose REST v4 lists 2,851 public projects without credentials and which is its own OAuth2/OIDC provider; a Matrix homeserver (Synapse) with the Client-Server API answering openly; and ISIS, the institutional Moodle, acting as an LTI 1.3 platform with a public keyset. Library discovery is an Ex Libris Primo tenant, not TU Berlin engineering. Nothing here is an institution-authored contract, and none is claimed.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/tu-berlin/refs/heads/main/screenshots/tu-berlin-2026-06-20T195818.png",
-     "score": 42.3,
+     "score": 43.2,
      "band": "developing",
      "band_label": "Developing",
      "facets": {
       "discoverability": 74.1,
-      "contract_quality": 10.7,
+      "contract_quality": 14.3,
       "governance": 18.2,
       "contract_governance": 18.2,
       "operational_transparency": 50.0,
@@ -1208,7 +1260,7 @@
       "access_clarity": 50.0
      },
      "scored_at": "2026-09-01",
-     "schema_version": "0.17.2",
+     "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
       "regime": "Education & Research",
@@ -1239,40 +1291,47 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 24
+     "rank": 25
     },
     {
-     "name": "Remberg",
-     "slug": "remberg",
-     "description": "remberg is a Munich-based B2B SaaS provider of an Intelligent Asset Platform for maintenance, operations, and service — CMMS/EAM/CAFM software used by industrial companies (Vaillant, Remondis, Liqui Moly, SCHUNK, EDEKA, OSRAM) to manage assets, work orders, spare parts, tickets, forms, and preventive maintenance, with an AI Copilot and a lightweight execution layer alongside SAP. remberg exposes a public REST API (api.remberg.de) across Assets, Work Orders, Work Requests, Tickets, Parts, Organizations, Contacts, Users, Files, Forms, Procedures, and AI, with API-key auth, Svix-based webhooks, documented rate limits, and ISO 27001 certification.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/remberg/refs/heads/main/screenshots/remberg-2026-08-17T081515.png",
-     "score": 42.1,
+     "name": "Topi",
+     "slug": "topi",
+     "description": "topi is a European hardware-as-a-service (HaaS) fintech that lets B2B sellers and retailers offer tech devices, IT hardware, and equipment as flexible monthly rental subscriptions instead of one-off purchases, across eCommerce, telesales, and point-of-sale channels. Merchants embed topi rentals into their checkout through the OAuth2-secured topi Seller API (catalog, offers, orders, shipments, and shipping methods) and the topi Elements embeddable web components, with a dedicated sandbox for end-to-end testing. Backed by Creandum.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/topi/refs/heads/main/screenshots/topi-2026-08-17T082405.png",
+     "score": 42.7,
      "band": "developing",
      "band_label": "Developing",
      "facets": {
-      "discoverability": 81.5,
-      "contract_quality": 65.6,
+      "discoverability": 75.9,
+      "contract_quality": 65.1,
       "governance": 4.5,
       "contract_governance": 4.5,
-      "operational_transparency": 28.9,
-      "developer_ergonomics": 39.9,
-      "commercial_clarity": 26.3,
-      "access_clarity": 26.3
+      "operational_transparency": 7.9,
+      "developer_ergonomics": 63.7,
+      "commercial_clarity": 10.5,
+      "access_clarity": 10.5
      },
      "scored_at": "2026-09-01",
-     "schema_version": "0.17.2",
-     "agent_score": 27.9,
-     "agent_band": "agent-aware",
+     "schema_version": "0.18.0",
+     "regulatory": {
+      "applies": true,
+      "regime": "Payments",
+      "regime_id": "payments",
+      "score": 48.4,
+      "matched_via": "tags"
+     },
+     "agent_score": 37.9,
+     "agent_band": "agent-ready",
      "agent_dims": {
       "spec_presence": true,
       "agentic_access": "derived",
-      "reversibility_documented": false,
+      "reversibility_documented": "documented",
       "mcp_server": false,
-      "auth_clarity": "bearer",
+      "auth_clarity": "negotiable",
       "idempotency": false,
-      "error_semantics": "documented",
-      "openapi_examples": false,
-      "rate_limit_signal": "documented",
+      "error_semantics": "verified",
+      "openapi_examples": "verified",
+      "rate_limit_signal": false,
       "event_surface_described": true,
       "agent_skills": "derived",
       "well_known_catalog": false,
@@ -1284,19 +1343,19 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 25
+     "rank": 26
     },
     {
      "name": "vivenu",
      "slug": "vivenu",
      "description": "vivenu is an enterprise-grade, API-first event ticketing platform for live entertainment — sports, music, festivals, and performing arts. It provides white-label ticketing infrastructure, a headless REST API with total access to every platform resource (events, tickets, transactions, dynamic pricing, inventory, checkouts, customers, purchase intents), real-time webhooks, prebuilt drop-in checkout and seatmap components, and a unified payments API spanning global payment gateways. Used by more than 1,000 organizers worldwide, vivenu GmbH is headquartered in Germany and backed by Balderton Capital. The public OpenAPI (450 paths, 504 schemas) is served from https://vivenu.com/api with a staging environment at https://vivenu.dev/api.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/vivenu/refs/heads/main/screenshots/vivenu-2026-08-17T082808.png",
-     "score": 42.1,
+     "score": 42.0,
      "band": "developing",
      "band_label": "Developing",
      "facets": {
       "discoverability": 75.9,
-      "contract_quality": 51.1,
+      "contract_quality": 50.4,
       "governance": 4.5,
       "contract_governance": 4.5,
       "operational_transparency": 26.3,
@@ -1305,7 +1364,7 @@
       "access_clarity": 28.9
      },
      "scored_at": "2026-09-01",
-     "schema_version": "0.17.2",
+     "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
       "regime": "Payments",
@@ -1343,7 +1402,52 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 26
+     "rank": 27
+    },
+    {
+     "name": "Remberg",
+     "slug": "remberg",
+     "description": "remberg is a Munich-based B2B SaaS provider of an Intelligent Asset Platform for maintenance, operations, and service — CMMS/EAM/CAFM software used by industrial companies (Vaillant, Remondis, Liqui Moly, SCHUNK, EDEKA, OSRAM) to manage assets, work orders, spare parts, tickets, forms, and preventive maintenance, with an AI Copilot and a lightweight execution layer alongside SAP. remberg exposes a public REST API (api.remberg.de) across Assets, Work Orders, Work Requests, Tickets, Parts, Organizations, Contacts, Users, Files, Forms, Procedures, and AI, with API-key auth, Svix-based webhooks, documented rate limits, and ISO 27001 certification.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/remberg/refs/heads/main/screenshots/remberg-2026-08-17T081515.png",
+     "score": 41.9,
+     "band": "developing",
+     "band_label": "Developing",
+     "facets": {
+      "discoverability": 81.5,
+      "contract_quality": 64.7,
+      "governance": 4.5,
+      "contract_governance": 4.5,
+      "operational_transparency": 28.9,
+      "developer_ergonomics": 39.9,
+      "commercial_clarity": 26.3,
+      "access_clarity": 26.3
+     },
+     "scored_at": "2026-09-01",
+     "schema_version": "0.18.0",
+     "agent_score": 27.9,
+     "agent_band": "agent-aware",
+     "agent_dims": {
+      "spec_presence": true,
+      "agentic_access": "derived",
+      "reversibility_documented": false,
+      "mcp_server": false,
+      "auth_clarity": "bearer",
+      "idempotency": false,
+      "error_semantics": "documented",
+      "openapi_examples": false,
+      "rate_limit_signal": "documented",
+      "event_surface_described": true,
+      "agent_skills": "derived",
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
+     "rank": 28
     },
     {
      "name": "Koppla",
@@ -1364,7 +1468,7 @@
       "access_clarity": 60.5
      },
      "scored_at": "2026-09-01",
-     "schema_version": "0.17.2",
+     "schema_version": "0.18.0",
      "agent_score": 19.2,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -1388,19 +1492,71 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 27
+     "rank": 29
+    },
+    {
+     "name": "University of Göttingen",
+     "slug": "university-of-gottingen",
+     "description": "The University of Göttingen (Georg-August-Universität Göttingen) is a public research university in Lower Saxony, Germany, founded 1737, a German U15 member and QS-ranked in the mid-200s. Its programmable footprint is real but small, and it belongs almost entirely to the Göttingen State and University Library (SUB Göttingen) rather than to the university's central IT: two live OAI-PMH 2.0 harvesting endpoints on the university's own domains — the Göttinger Digitalisierungszentrum, harvesting back to 1998, and the eDiss dissertation server, which disseminates the German national xMetaDissPlus, epicur and picaxml profiles — plus a IIIF Image API 2.0 level-2 image service and IIIF Presentation manifests for the digitised collections. The university also operates its own SAML 2.0 identity provider, registered in DFN-AAI, exported to eduGAIN and Sirtfi-compliant, and holds the DataCite prefix 10.25625 as repository client SUBGOE.GRO. There is no central developer portal, no self-service API key, no published rate limits and no OpenAPI authored by the institution; every specification in this repository was written by API Evangelist from live probes and is marked as such. The GRO.data research-data repository and the SUB library catalogue are recorded here as relationships rather than as Göttingen contracts — GRO.data runs Dataverse and the catalogue resolves onto the GBV/VZG library platform.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/university-of-gottingen/refs/heads/main/screenshots/university-of-gottingen-2026-06-20T200154.png",
+     "score": 41.0,
+     "band": "developing",
+     "band_label": "Developing",
+     "facets": {
+      "discoverability": 64.8,
+      "contract_quality": 54.2,
+      "governance": 15.2,
+      "contract_governance": 15.2,
+      "operational_transparency": 7.9,
+      "developer_ergonomics": 28.6,
+      "commercial_clarity": 34.2,
+      "access_clarity": 34.2
+     },
+     "scored_at": "2026-09-01",
+     "schema_version": "0.18.0",
+     "regulatory": {
+      "applies": true,
+      "regime": "Education & Research",
+      "regime_id": "education",
+      "score": 64.8,
+      "matched_via": "tags"
+     },
+     "agent_score": 19.2,
+     "agent_band": "agent-aware",
+     "agent_dims": {
+      "spec_presence": true,
+      "agentic_access": false,
+      "reversibility_documented": false,
+      "mcp_server": false,
+      "auth_clarity": "bearer",
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": "documented",
+      "rate_limit_signal": "documented",
+      "event_surface_described": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
+     "rank": 30
     },
     {
      "name": "lemon.markets",
      "slug": "lemonmarkets",
      "description": "lemon.markets is a Berlin-based, BaFin-licensed investment firm that sells brokerage infrastructure as an API. Its Brokerage API lets fintechs, banks and platforms embed investing — account opening and KYC/identification, securities accounts, order placement and execution, trades, positions, transactions, withdrawals, settlements, corporate actions, income distributions, tax exemption orders (Freistellungsauftrag) and treasury products — without building or licensing a broker-dealer stack themselves. Coverage spans 10,000+ ETFs, ETPs, stocks, bonds and funds, and the platform supports omnibus, fully disclosed and BPO (business process outsourcing) operating models. The REST API is complemented by a webhook/event surface, an Idempotency-Key contract on order placement, and a sandbox environment with published test ISINs. API access is invite-only.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/lemonmarkets/refs/heads/main/screenshots/lemonmarkets-2026-07-25T224849.png",
-     "score": 40.9,
+     "score": 40.7,
      "band": "developing",
      "band_label": "Developing",
      "facets": {
       "discoverability": 75.9,
-      "contract_quality": 61.0,
+      "contract_quality": 60.2,
       "governance": 4.5,
       "contract_governance": 4.5,
       "operational_transparency": 22.4,
@@ -1409,7 +1565,7 @@
       "access_clarity": 21.1
      },
      "scored_at": "2026-09-01",
-     "schema_version": "0.17.2",
+     "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
       "regime": "Securities & Market Data",
@@ -1440,7 +1596,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 28
+     "rank": 31
     },
     {
      "name": "sevdesk",
@@ -1460,7 +1616,7 @@
       "access_clarity": 39.5
      },
      "scored_at": "2026-09-01",
-     "schema_version": "0.17.2",
+     "schema_version": "0.18.0",
      "agent_score": 19.8,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -1484,7 +1640,59 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 29
+     "rank": 32
+    },
+    {
+     "name": "University of Tübingen",
+     "slug": "university-of-tubingen",
+     "description": "The University of Tübingen (Eberhard Karls Universität Tübingen), founded in 1477, is one of Germany's oldest public research universities and a member of the German Universities Excellence Initiative, with roughly 27,000 students in Baden-Württemberg. It runs no developer portal, publishes no OpenAPI and issues no API keys, and this profile does not pretend otherwise. What it does operate, on its own uni-tuebingen.de hosts, are four genuinely institution-run machine surfaces: the FDAT research data repository (InvenioRDM, Digital Humanities Center) exposing a keyless JSON REST API with IIIF manifests and DataCite DOIs; an OAI-PMH 2.0 provider on the same host; a second, much older OAI-PMH provider for the University Library's TOBIAS-lib publication server (DSpace, records back to 1998, xMetaDissPlus); and a Shibboleth SAML 2.0 identity provider registered in DFN-AAI since 2009 and exported to eduGAIN, asserting REFEDS Research & Scholarship and SIRTFI/SIRTFI2. Its DataCite membership is verifiable — member AWZY \"IKM Universität Tübingen\", repository client AWZY.FEDNNV, DOI prefix 10.57754 — as is its ROR record 03a1kwz48. The University Library additionally builds and operates TueFind, its own VuFind derivative, in the open on GitHub, and runs three national subject discovery services on it (ixTheo, RelBib, KrimDok), currently behind a proof-of-work browser challenge. Campus management (alma), the VLE and the licensed library estate sit behind SSO and are not publicly documented APIs. No InvenioRDM, DSpace or VuFind product contract is saved under this institution — those belong to their upstream projects.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/university-of-tubingen/refs/heads/main/screenshots/university-of-tubingen-2026-06-20T200240.png",
+     "score": 39.7,
+     "band": "developing",
+     "band_label": "Developing",
+     "facets": {
+      "discoverability": 74.1,
+      "contract_quality": 18.0,
+      "governance": 18.2,
+      "contract_governance": 18.2,
+      "operational_transparency": 26.3,
+      "developer_ergonomics": 35.7,
+      "commercial_clarity": 50.0,
+      "access_clarity": 50.0
+     },
+     "scored_at": "2026-09-01",
+     "schema_version": "0.18.0",
+     "regulatory": {
+      "applies": true,
+      "regime": "Education & Research",
+      "regime_id": "education",
+      "score": 61.1,
+      "matched_via": "tags"
+     },
+     "agent_score": 5.0,
+     "agent_band": "human-only",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": false,
+      "reversibility_documented": false,
+      "mcp_server": false,
+      "auth_clarity": "bearer",
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": "documented",
+      "event_surface_described": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
+     "rank": 33
     },
     {
      "name": "lexoffice",
@@ -1505,7 +1713,7 @@
       "access_clarity": 39.5
      },
      "scored_at": "2026-09-01",
-     "schema_version": "0.17.2",
+     "schema_version": "0.18.0",
      "agent_score": 22.3,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -1529,7 +1737,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 30
+     "rank": 34
     },
     {
      "name": "Candis",
@@ -1550,7 +1758,7 @@
       "access_clarity": 17.1
      },
      "scored_at": "2026-09-01",
-     "schema_version": "0.17.2",
+     "schema_version": "0.18.0",
      "agent_score": 51.3,
      "agent_band": "agent-native",
      "agent_dims": {
@@ -1574,7 +1782,7 @@
       "dynamic_client_registration": true,
       "agentic_commerce": false
      },
-     "rank": 31
+     "rank": 35
     }
    ],
    "open": true
@@ -1584,20 +1792,20 @@
    "label": "Thin",
    "range": "26.2 – 39.2",
    "blurb": "Limited machine-readable signal beyond documentation a human can read.",
-   "count": 21,
-   "shown": 21,
+   "count": 23,
+   "shown": 23,
    "providers": [
     {
      "name": "Billie",
      "slug": "billie",
      "description": "Billie is a Berlin-based B2B \"buy now, pay later\" (BNPL) payment provider that lets merchants offer business buyers invoice purchase, pay-after-delivery, and installment terms at checkout while Billie assumes the credit and fraud risk and pays the merchant out. Its Payment API v2 (paella.billie.io) uses OAuth 2.0 client-credentials and covers checkout sessions, a hosted payment page, direct backend order creation, order management, captures (invoicing), payment confirmation, refunds/credit notes, and a webhook event surface. Billie also ships an embeddable checkout widget, a PHP SDK, e-commerce plugins (Shopware, Magento, WooCommerce, JTL), and partner routes via Klarna, Mollie, Adyen, Stripe, and Kustom. Backed by Creandum and Speedinvest.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/billie/refs/heads/main/screenshots/billie-2026-07-25T202942.png",
-     "score": 38.6,
+     "score": 38.4,
      "band": "thin",
      "band_label": "Thin",
      "facets": {
       "discoverability": 75.9,
-      "contract_quality": 42.7,
+      "contract_quality": 41.6,
       "governance": 4.5,
       "contract_governance": 4.5,
       "operational_transparency": 31.6,
@@ -1606,7 +1814,7 @@
       "access_clarity": 17.1
      },
      "scored_at": "2026-09-01",
-     "schema_version": "0.17.2",
+     "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
       "regime": "Payments",
@@ -1637,19 +1845,19 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 32
+     "rank": 36
     },
     {
      "name": "Moonscale",
      "slug": "moonscale",
      "description": "Moonscale (formerly VidLab7) is a Munich-based AI sales advisor platform whose \"Digital Sales Human\" avatars automate top-of-funnel sales conversations — pitching products, qualifying inbound buyers, running interactive demos, handling objections, booking meetings and following up around the clock across websites, landing pages, emails and apps, with support for 130+ languages and CRM connections to Salesforce, HubSpot, Pipedrive, Slack and Clay. Moonscale does publish a real, machine-readable API: an OpenAPI 3.0.1 document titled \"Moonscale API\" served from its Mintlify documentation site, covering four operations across two surfaces — live-avatar meeting rooms with conversation transcripts and summaries (/api/v1/), and asynchronous studio-avatar video generation with a caller-registered completion webhook (/api/studio-avatar/). Requests authenticate with an x-api-key header against https://api-prd.moonscale.com; keys are issued from Moonscale Studio, but API access is feature-flagged per account and must be requested from support. There is no first-party SDK, MCP server, agent card, status page, changelog, published rate limit or published price. Backed by EQT Ventures.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/moonscale/refs/heads/main/screenshots/moonscale-2026-08-07T184246.png",
-     "score": 38.2,
+     "score": 38.0,
      "band": "thin",
      "band_label": "Thin",
      "facets": {
       "discoverability": 75.9,
-      "contract_quality": 54.4,
+      "contract_quality": 53.7,
       "governance": 4.5,
       "contract_governance": 4.5,
       "operational_transparency": 7.9,
@@ -1658,7 +1866,7 @@
       "access_clarity": 27.6
      },
      "scored_at": "2026-09-01",
-     "schema_version": "0.17.2",
+     "schema_version": "0.18.0",
      "agent_score": 25.9,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -1682,7 +1890,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 33
+     "rank": 37
     },
     {
      "name": "Conxai",
@@ -1703,7 +1911,7 @@
       "access_clarity": 36.8
      },
      "scored_at": "2026-09-01",
-     "schema_version": "0.17.2",
+     "schema_version": "0.18.0",
      "agent_score": 26.4,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -1727,7 +1935,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 34
+     "rank": 38
     },
     {
      "name": "weclapp",
@@ -1747,7 +1955,7 @@
       "access_clarity": 39.5
      },
      "scored_at": "2026-09-01",
-     "schema_version": "0.17.2",
+     "schema_version": "0.18.0",
      "agent_score": 19.8,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -1771,28 +1979,28 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 35
+     "rank": 39
     },
     {
-     "name": "TU Dresden",
-     "slug": "tu-dresden",
-     "description": "Technische Universität Dresden (TUD) is a German public technical university in Dresden, Saxony, a member of TU9 and one of the institutions funded under the German Universities Excellence Strategy. Re-profiled on 2026-08-30 under the API Evangelist university pipeline, which settles WHO OPERATES a surface before crediting it to the institution. The June 2026 profile credited TU Dresden with five OpenAPI contracts and five extra apis[] entries; all five were one document — the Linked Open Data API of the Sächsische Landesbibliothek – Staats- und Universitätsbibliothek Dresden (SLUB), a separate Saxon state institution, served from data.slub-dresden.de and split by tag into five apparent surfaces. Worse, every one of those entries carried a baseURL of vvz.phil.tu-dresden.de, a host the specs never mention, which is why a hostname-based audit read them as institution-owned. Those contracts and the twenty-two schema, structure, JSON-LD, vocabulary, ruleset, example, collection and agentic-access artifacts derived from them have been removed. What is left is what TU Dresden actually runs, and it is more than the old profile showed. The headline find is TUD:AI at llm.scads.ai/v1 — an OpenAI-compatible LLM inference API operated by ZIH and ScaDS.AI Dresden/Leipzig on TU Dresden's own network, keyed from the university's Self-Service Portal, serving nine open-weight chat models plus embedding, audio and image endpoints. Alongside it: OPARA, the DSpace 7.6.2 research-data repository TU Dresden operates for four Saxon institutions, with an open REST API and an OAI-PMH interface; the university's own Shibboleth identity provider, registered in DFN-AAI and exported to eduGAIN, which now also serves OpenID Connect discovery and a JWKS; and the gated lecture-directory JSON API of the Faculty of Arts. Two surfaces are real institutional facts running on somebody else's engineering: the Pure-based research information system at fis.tu-dresden.de and the TU Dresden view of the SLUB-operated Qucosa document server. TU Dresden publishes no OpenAPI of its own, no developer portal, no open data portal and no llms.txt — but it does publish a security.txt, and it holds its own DataCite membership and DOI prefix.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/tu-dresden/refs/heads/main/screenshots/tu-dresden-2026-06-20T195822.png",
-     "score": 37.3,
+     "name": "Friedrich-Alexander-Universität Erlangen-Nürnberg",
+     "slug": "friedrich-alexander-universitat-erlangen-nurnberg",
+     "description": "Friedrich-Alexander-Universität Erlangen-Nürnberg (FAU) is a public research university in Erlangen and Nuremberg, Bavaria, Germany, founded in 1743 and one of Germany's largest, with around 39,000 students across five faculties. FAU operates no central developer portal and publishes no OpenAPI definition of its own — but unlike most of this cohort its programmable footprint is real, and every surface in it runs on FAU's own infrastructure: every host recorded below resolves inside FAU's own 131.188.0.0/16 network, and not one of them CNAMEs to a vendor. The institution-operated, publicly readable surfaces verified live on 2026-08-30 are the OPEN FAU institutional repository on DSpace 7.4, which serves both a REST/HAL API and a fully functional OAI-PMH 2.0 harvesting endpoint with eight metadata crosswalks; a Matrix (Synapse 1.159.0) homeserver at matrix.fau.de, correctly delegated from .well-known/matrix/server and .well-known/matrix/client on fau.de, which makes FAU's chat service reachable by any standards-conformant Matrix client; the WordPress REST API behind the RRZE-operated FAU web platform, where the /wp-json index and search route are restricted but the wp/v2 content collections return real JSON on www.fau.de and a complete route index on ub.fau.de; and anonymous read access to the GitLab v4 REST API on FAU's self-hosted GitLab at gitlab.rrze.fau.de, which reports 132 public projects. Three further surfaces are live but gated: the FAU API gateway at api.fau.de, which fronts an authenticated API router behind SSO; the ClusterCockpit HPC job-monitoring REST API at monitoring.nhr.fau.de, run by NHR@FAU, the national high-performance computing centre FAU hosts; and the Clarivate Converis web service on cris.fau.de, which is FAU's research information system and returns HTTP 403 on its public web-service paths. FAU also operates a SAML 2.0 identity provider registered in the DFN-AAI federation, mints DOIs under its own DataCite prefix 10.25593, and maintains three active public GitHub organisations plus a self-hosted GitLab. No vendor contract is saved in this repository under FAU's name: where the software beneath a surface is someone else's product, the profile says so and keeps no copy of that product's specification.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/friedrich-alexander-universitat-erlangen-nurnberg/refs/heads/main/screenshots/friedrich-alexander-universitat-erlangen-nurnberg-2026-06-20T181545.png",
+     "score": 37.1,
      "band": "thin",
      "band_label": "Thin",
      "facets": {
-      "discoverability": 74.1,
-      "contract_quality": 6.7,
-      "governance": 18.2,
-      "contract_governance": 18.2,
-      "operational_transparency": 34.2,
+      "discoverability": 85.2,
+      "contract_quality": 14.3,
+      "governance": 0.0,
+      "contract_governance": 0.0,
+      "operational_transparency": 26.3,
       "developer_ergonomics": 35.7,
       "commercial_clarity": 50.0,
       "access_clarity": 50.0
      },
      "scored_at": "2026-09-01",
-     "schema_version": "0.17.2",
+     "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
       "regime": "Education & Research",
@@ -1823,49 +2031,49 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 36
+     "rank": 40
     },
     {
-     "name": "konfetti",
-     "slug": "konfetti",
-     "description": "konfetti (Konfetti GmbH, Berlin) operates a marketplace for bookable experiences — cooking classes, pottery and ceramics workshops, cocktail courses, tastings, boat tours, creative and craft workshops, DIY kits and team events — across Germany and Austria, with more than 7,600 bookable experience listings and coverage in Berlin, Munich, Cologne, Hamburg, Frankfurt, Stuttgart, Dusseldorf, Leipzig, Dresden, Hannover, Nuremberg, Muenster, Heidelberg and Vienna. Alongside the consumer storefront, konfetti sells an all-in-one booking-management product to its partner hosts: a back-office at backoffice.gokonfetti.com for managing experiences, dates, tickets, gift cards, invoicing and payouts, plus an embeddable booking solution and a set of embeddable widgets that partners place on their own websites and social channels. konfetti is backed by Speedinvest. It publishes no public developer portal or API reference; the JSON API behind the storefront at api.gokonfetti.com is documented here observationally by API Evangelist.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/konfetti/refs/heads/main/screenshots/konfetti-2026-07-25T224149.png",
-     "score": 36.9,
+     "name": "TU Dresden",
+     "slug": "tu-dresden",
+     "description": "Technische Universität Dresden (TUD) is a German public technical university in Dresden, Saxony, a member of TU9 and one of the institutions funded under the German Universities Excellence Strategy. Re-profiled on 2026-08-30 under the API Evangelist university pipeline, which settles WHO OPERATES a surface before crediting it to the institution. The June 2026 profile credited TU Dresden with five OpenAPI contracts and five extra apis[] entries; all five were one document — the Linked Open Data API of the Sächsische Landesbibliothek – Staats- und Universitätsbibliothek Dresden (SLUB), a separate Saxon state institution, served from data.slub-dresden.de and split by tag into five apparent surfaces. Worse, every one of those entries carried a baseURL of vvz.phil.tu-dresden.de, a host the specs never mention, which is why a hostname-based audit read them as institution-owned. Those contracts and the twenty-two schema, structure, JSON-LD, vocabulary, ruleset, example, collection and agentic-access artifacts derived from them have been removed. What is left is what TU Dresden actually runs, and it is more than the old profile showed. The headline find is TUD:AI at llm.scads.ai/v1 — an OpenAI-compatible LLM inference API operated by ZIH and ScaDS.AI Dresden/Leipzig on TU Dresden's own network, keyed from the university's Self-Service Portal, serving nine open-weight chat models plus embedding, audio and image endpoints. Alongside it: OPARA, the DSpace 7.6.2 research-data repository TU Dresden operates for four Saxon institutions, with an open REST API and an OAI-PMH interface; the university's own Shibboleth identity provider, registered in DFN-AAI and exported to eduGAIN, which now also serves OpenID Connect discovery and a JWKS; and the gated lecture-directory JSON API of the Faculty of Arts. Two surfaces are real institutional facts running on somebody else's engineering: the Pure-based research information system at fis.tu-dresden.de and the TU Dresden view of the SLUB-operated Qucosa document server. TU Dresden publishes no OpenAPI of its own, no developer portal, no open data portal and no llms.txt — but it does publish a security.txt, and it holds its own DataCite membership and DOI prefix.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/tu-dresden/refs/heads/main/screenshots/tu-dresden-2026-06-20T195822.png",
+     "score": 36.8,
      "band": "thin",
      "band_label": "Thin",
      "facets": {
       "discoverability": 74.1,
-      "contract_quality": 51.8,
-      "governance": 4.5,
-      "contract_governance": 4.5,
-      "operational_transparency": 0.0,
-      "developer_ergonomics": 30.4,
-      "commercial_clarity": 44.7,
-      "access_clarity": 44.7
+      "contract_quality": 4.4,
+      "governance": 18.2,
+      "contract_governance": 18.2,
+      "operational_transparency": 34.2,
+      "developer_ergonomics": 35.7,
+      "commercial_clarity": 50.0,
+      "access_clarity": 50.0
      },
      "scored_at": "2026-09-01",
-     "schema_version": "0.17.2",
+     "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
-      "regime": "Payments",
-      "regime_id": "payments",
-      "score": 39.1,
+      "regime": "Education & Research",
+      "regime_id": "education",
+      "score": 57.4,
       "matched_via": "tags"
      },
-     "agent_score": 21.8,
-     "agent_band": "agent-aware",
+     "agent_score": 5.0,
+     "agent_band": "human-only",
      "agent_dims": {
-      "spec_presence": true,
+      "spec_presence": false,
       "agentic_access": false,
       "reversibility_documented": false,
       "mcp_server": false,
       "auth_clarity": "bearer",
       "idempotency": false,
-      "error_semantics": "documented",
-      "openapi_examples": "partial",
-      "rate_limit_signal": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": "documented",
       "event_surface_described": false,
-      "agent_skills": "derived",
+      "agent_skills": false,
       "well_known_catalog": false,
       "consent_identity": false,
       "agent_card": false,
@@ -1875,19 +2083,19 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 37
+     "rank": 41
     },
     {
      "name": "Technical University of Munich",
      "slug": "tum",
      "description": "The Technical University of Munich (TUM) is a public technical research university in Munich, Germany, and one of Germany's eleven Universities of Excellence. Its programmable footprint is real but small, and almost none of it comes from a central IT developer program: TUM operates no public developer portal, publishes no API terms of service, and lists no API on www.tum.de. What it does operate, verified live on 2026-08-19, is four machine-readable surfaces. Two are OpenAPI contracts built and run by Open Source @ TUM e.V. (TUM-Dev), a TUM-affiliated association: the TUM Campus App backend at api.tum.app (19 operations, Swagger 2.0 generated from tumdev/campus_backend.proto, also served over gRPC at api-grpc.tum.app, listed by TUM IT as an official TUM mobile app), and NavigaTUM at nav.tum.de (room, building and campus navigation, taken into productive operation by TUM as the official room finder). The other two are the surfaces a university operates by definition and rarely catalogues: a SAML 2.0 / Shibboleth identity provider publishing DFN-AAI-registered metadata at login.tum.de with SIRTFI2 assurance, and an OAI-PMH 2.0 endpoint on mediaTUM, TUM's own institutional repository, harvestable back to 1959. Everything else is a tenant relationship on someone else's platform: the student information system TUMonline runs CAMPUSonline on campus.tum.de (live unauthenticated course REST plus a full OIDC discovery document with 108 scopes), the research information system TUMFIS runs Elsevier Pure, and the canteen menu API eat-api is static JSON on GitHub Pages carrying Studierendenwerk data. No open data portal exists: data.tum.de and opendata.tum.de do not resolve.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/tum/refs/heads/main/screenshots/tum-2026-06-20T195827.png",
-     "score": 36.3,
+     "score": 36.7,
      "band": "thin",
      "band_label": "Thin",
      "facets": {
       "discoverability": 74.1,
-      "contract_quality": 17.2,
+      "contract_quality": 18.9,
       "governance": 9.8,
       "contract_governance": 9.8,
       "operational_transparency": 23.7,
@@ -1896,7 +2104,7 @@
       "access_clarity": 50.0
      },
      "scored_at": "2026-09-01",
-     "schema_version": "0.17.2",
+     "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
       "regime": "Education & Research",
@@ -1927,59 +2135,59 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 38
+     "rank": 42
     },
     {
-     "name": "Friedrich-Alexander-Universität Erlangen-Nürnberg",
-     "slug": "friedrich-alexander-universitat-erlangen-nurnberg",
-     "description": "Friedrich-Alexander-Universität Erlangen-Nürnberg (FAU) is a public research university in Erlangen and Nuremberg, Bavaria, Germany, founded in 1743 and one of Germany's largest, with around 39,000 students across five faculties. FAU operates no central developer portal and publishes no OpenAPI definition of its own — but unlike most of this cohort its programmable footprint is real, and every surface in it runs on FAU's own infrastructure: every host recorded below resolves inside FAU's own 131.188.0.0/16 network, and not one of them CNAMEs to a vendor. The institution-operated, publicly readable surfaces verified live on 2026-08-30 are the OPEN FAU institutional repository on DSpace 7.4, which serves both a REST/HAL API and a fully functional OAI-PMH 2.0 harvesting endpoint with eight metadata crosswalks; a Matrix (Synapse 1.159.0) homeserver at matrix.fau.de, correctly delegated from .well-known/matrix/server and .well-known/matrix/client on fau.de, which makes FAU's chat service reachable by any standards-conformant Matrix client; the WordPress REST API behind the RRZE-operated FAU web platform, where the /wp-json index and search route are restricted but the wp/v2 content collections return real JSON on www.fau.de and a complete route index on ub.fau.de; and anonymous read access to the GitLab v4 REST API on FAU's self-hosted GitLab at gitlab.rrze.fau.de, which reports 132 public projects. Three further surfaces are live but gated: the FAU API gateway at api.fau.de, which fronts an authenticated API router behind SSO; the ClusterCockpit HPC job-monitoring REST API at monitoring.nhr.fau.de, run by NHR@FAU, the national high-performance computing centre FAU hosts; and the Clarivate Converis web service on cris.fau.de, which is FAU's research information system and returns HTTP 403 on its public web-service paths. FAU also operates a SAML 2.0 identity provider registered in the DFN-AAI federation, mints DOIs under its own DataCite prefix 10.25593, and maintains three active public GitHub organisations plus a self-hosted GitLab. No vendor contract is saved in this repository under FAU's name: where the software beneath a surface is someone else's product, the profile says so and keeps no copy of that product's specification.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/friedrich-alexander-universitat-erlangen-nurnberg/refs/heads/main/screenshots/friedrich-alexander-universitat-erlangen-nurnberg-2026-06-20T181545.png",
+     "name": "Humboldt-Universität zu Berlin",
+     "slug": "humboldt-universitat-zu-berlin",
+     "description": "Humboldt-Universität zu Berlin (HU Berlin) is a public research university in Berlin, Germany, founded in 1810 and ranked #126 in the QS World University Rankings 2025. Like almost every university, HU is a federation of buyers rather than an API producer: it publishes no developer portal, no API terms, no SDKs and not one OpenAPI of its own, and every OpenAPI in this repository was authored by API Evangelist from live probes and says so in its own info.description. What HU does genuinely operate is scholarly and identity infrastructure on its own hosts. The edoc-Server institutional repository at edoc.hu-berlin.de (DSpace 8, self-hosted by the University Library) exposes an unauthenticated read REST API and a full OAI-PMH 2.0 interface advertising eighteen metadata formats including oai_datacite. The LAUDATIO-Repository for historical linguistic corpora, run by the Corpus Linguistics department with the Computer- und Medienservice, publishes a documented, versioned, public REST API over its Elasticsearch index. HU operates its own Shibboleth/SAML identity provider, registered in DFN-AAI and published to eduGAIN, and is a DataCite member (VLEF) minting 32,950 DOIs under its own prefix 10.18452 across ten registered repositories. Its library discovery is an Ex Libris Primo/Alma tenancy and is not HU engineering. Note for machine consumers: hu-berlin.de web hosts, including the GitLab instance at scm.cms.hu-berlin.de, sit behind an Anubis proof-of-work bot wall that returns HTTP 200 with a JavaScript challenge instead of content — the data hosts (edoc, LAUDATIO) do not.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/humboldt-universitat-zu-berlin/refs/heads/main/screenshots/humboldt-universitat-zu-berlin-2026-06-20T182937.png",
      "score": 36.2,
      "band": "thin",
      "band_label": "Thin",
      "facets": {
-      "discoverability": 85.2,
-      "contract_quality": 10.7,
-      "governance": 0.0,
-      "contract_governance": 0.0,
+      "discoverability": 64.8,
+      "contract_quality": 19.2,
+      "governance": 28.0,
+      "contract_governance": 28.0,
       "operational_transparency": 26.3,
-      "developer_ergonomics": 35.7,
+      "developer_ergonomics": 7.1,
       "commercial_clarity": 50.0,
       "access_clarity": 50.0
      },
      "scored_at": "2026-09-01",
-     "schema_version": "0.17.2",
+     "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
       "regime": "Education & Research",
       "regime_id": "education",
-      "score": 57.4,
+      "score": 72.2,
       "matched_via": "tags"
      },
-     "agent_score": 5.0,
-     "agent_band": "human-only",
+     "agent_score": 25.8,
+     "agent_band": "agent-aware",
      "agent_dims": {
-      "spec_presence": false,
-      "agentic_access": false,
-      "reversibility_documented": false,
+      "spec_presence": true,
+      "agentic_access": "derived",
+      "reversibility_documented": "na",
       "mcp_server": false,
       "auth_clarity": "bearer",
-      "idempotency": false,
+      "idempotency": "na",
       "error_semantics": false,
-      "openapi_examples": false,
+      "openapi_examples": "partial",
       "rate_limit_signal": "documented",
       "event_surface_described": false,
       "agent_skills": false,
       "well_known_catalog": false,
       "consent_identity": false,
       "agent_card": false,
-      "dry_run_mode": false,
+      "dry_run_mode": "na",
       "delegated_identity": false,
       "protected_resource_metadata": false,
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 39
+     "rank": 43
     },
     {
      "name": "aWATTar",
@@ -2000,7 +2208,7 @@
       "access_clarity": 39.5
      },
      "scored_at": "2026-09-01",
-     "schema_version": "0.17.2",
+     "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
       "regime": "Energy & Utilities",
@@ -2031,7 +2239,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 40
+     "rank": 44
     },
     {
      "name": "Number26",
@@ -2052,7 +2260,7 @@
       "access_clarity": 21.1
      },
      "scored_at": "2026-09-01",
-     "schema_version": "0.17.2",
+     "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
       "regime": "Banking & Open Finance",
@@ -2090,7 +2298,59 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 41
+     "rank": 45
+    },
+    {
+     "name": "Universität Hamburg",
+     "slug": "universitat-hamburg",
+     "description": "Universität Hamburg is a public research university in Hamburg, Germany, and one of the largest in the country. It operates no central developer portal, publishes no OpenAPI of its own, and has no course, registrar, campus-life or open-data API — the STiNE campus-management system and the Katalogplus discovery service are both behind an authorization wall. What it does operate, on its own hosts and with its own engineering, is scholarly-communication and identity infrastructure: a research-data repository (ZFDM, www.fdr.uni-hamburg.de) whose read API returns unauthenticated JSON with CORS and rate-limit headers; five live OAI-PMH 2.0 repositories across dissertations, research data, the university press, its journal server and its digitized collections; and its own Shibboleth SAML 2.0 Identity Provider, whose metadata is published at login.uni-hamburg.de and registered in the DFN-AAI federation and thereby in eduGAIN. It is a DataCite registrant (prefix 10.25592) and its library is a Crossref member (prefix 10.15460). Almost all of this is library-and-computing-centre infrastructure rather than a product; none of it is documented for third-party developers.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/universitat-hamburg/refs/heads/main/screenshots/universitat-hamburg-2026-06-20T200115.png",
+     "score": 35.2,
+     "band": "thin",
+     "band_label": "Thin",
+     "facets": {
+      "discoverability": 59.3,
+      "contract_quality": 23.5,
+      "governance": 0.0,
+      "contract_governance": 0.0,
+      "operational_transparency": 26.3,
+      "developer_ergonomics": 35.7,
+      "commercial_clarity": 50.0,
+      "access_clarity": 50.0
+     },
+     "scored_at": "2026-09-01",
+     "schema_version": "0.18.0",
+     "regulatory": {
+      "applies": true,
+      "regime": "Education & Research",
+      "regime_id": "education",
+      "score": 46.3,
+      "matched_via": "tags"
+     },
+     "agent_score": 21.8,
+     "agent_band": "agent-aware",
+     "agent_dims": {
+      "spec_presence": true,
+      "agentic_access": false,
+      "reversibility_documented": false,
+      "mcp_server": false,
+      "auth_clarity": "bearer",
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": "documented",
+      "rate_limit_signal": "verified",
+      "event_surface_described": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
+     "rank": 46
     },
     {
      "name": "Kitchen Stories",
@@ -2111,7 +2371,7 @@
       "access_clarity": 44.7
      },
      "scored_at": "2026-09-01",
-     "schema_version": "0.17.2",
+     "schema_version": "0.18.0",
      "agent_score": 21.8,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -2135,7 +2395,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 42
+     "rank": 47
     },
     {
      "name": "1KOMMA5°",
@@ -2156,7 +2416,7 @@
       "access_clarity": 21.1
      },
      "scored_at": "2026-09-01",
-     "schema_version": "0.17.2",
+     "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
       "regime": "Energy & Utilities",
@@ -2187,71 +2447,71 @@
       "dynamic_client_registration": true,
       "agentic_commerce": false
      },
-     "rank": 43
+     "rank": 48
     },
     {
-     "name": "Humboldt-Universität zu Berlin",
-     "slug": "humboldt-universitat-zu-berlin",
-     "description": "Humboldt-Universität zu Berlin (HU Berlin) is a public research university in Berlin, Germany, ranked #126 in the QS World University Rankings 2025. Its public developer/API footprint is centered on scholarly and library infrastructure rather than a unified developer portal: the edoc Open Access publication server runs on DSpace 7 and exposes a public REST API and an OAI-PMH metadata interface, the University Library's Primus discovery service is built on Ex Libris Primo/Alma (which provides open APIs), and access management uses Shibboleth/SAML single sign-on. The University Library IT department also maintains a public GitHub organization (UB-HU-Berlin). No consolidated, self-service public API developer portal was confirmed.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/humboldt-universitat-zu-berlin/refs/heads/main/screenshots/humboldt-universitat-zu-berlin-2026-06-20T182937.png",
-     "score": 32.5,
+     "name": "Technical University of Darmstadt",
+     "slug": "technical-university-of-darmstadt",
+     "description": "The Technical University of Darmstadt (Technische Universitaet Darmstadt, TU Darmstadt) is a public technical research university in Darmstadt, Hesse, Germany, founded in 1877 and registered as ROR 05n911h24. It operates no central developer portal, publishes no OpenAPI description of its own, and its GitHub organization (TU-Darmstadt) is live but holds zero public repositories. What it does operate, and what makes this profile non-empty, is scholarly and identity infrastructure on its own domain: TUdatalib, the institutional research-data repository, runs DSpace 9.3 and exposes both a live HAL/JSON REST API and an OAI-PMH 2.0 interface; a DBRepo deployment at dbrepo.ulb.tu-darmstadt.de serves a live JSON API for research databases; and the Hochschulrechenzentrum (HRZ) runs the university's own Shibboleth SAML 2.0 identity provider, whose metadata is publicly retrievable and published into the German DFN-AAI federation and eduGAIN. TUbiblio and tuprints run on EPrints with OAI-PMH endpoints that are WAF-protected. The ULB is a DataCite consortium member (provider HLQC) registering DOIs for six repositories. TUjournals is real, machine-readable and busy, but it is a tenancy on Janeway shared hosting, not TU Darmstadt engineering. Every surface below is labelled with who actually operates it.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/technical-university-of-darmstadt/refs/heads/main/screenshots/technical-university-of-darmstadt-2026-06-20T195009.png",
+     "score": 32.9,
      "band": "thin",
      "band_label": "Thin",
      "facets": {
-      "discoverability": 59.3,
-      "contract_quality": 55.6,
-      "governance": 9.8,
-      "contract_governance": 9.8,
+      "discoverability": 74.1,
+      "contract_quality": 14.3,
+      "governance": 0.0,
+      "contract_governance": 0.0,
       "operational_transparency": 26.3,
-      "developer_ergonomics": 0.0,
-      "commercial_clarity": 28.9,
-      "access_clarity": 28.9
+      "developer_ergonomics": 28.6,
+      "commercial_clarity": 50.0,
+      "access_clarity": 50.0
      },
      "scored_at": "2026-09-01",
-     "schema_version": "0.17.2",
+     "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
       "regime": "Education & Research",
       "regime_id": "education",
-      "score": 42.6,
+      "score": 46.3,
       "matched_via": "tags"
      },
-     "agent_score": 25.8,
-     "agent_band": "agent-aware",
+     "agent_score": 5.0,
+     "agent_band": "human-only",
      "agent_dims": {
-      "spec_presence": true,
-      "agentic_access": "derived",
-      "reversibility_documented": "na",
+      "spec_presence": false,
+      "agentic_access": false,
+      "reversibility_documented": false,
       "mcp_server": false,
       "auth_clarity": "bearer",
-      "idempotency": "na",
+      "idempotency": false,
       "error_semantics": false,
-      "openapi_examples": "partial",
+      "openapi_examples": false,
       "rate_limit_signal": "documented",
       "event_surface_described": false,
       "agent_skills": false,
       "well_known_catalog": false,
       "consent_identity": false,
       "agent_card": false,
-      "dry_run_mode": "na",
+      "dry_run_mode": false,
       "delegated_identity": false,
       "protected_resource_metadata": false,
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 44
+     "rank": 49
     },
     {
      "name": "Deutsche Telekom",
      "slug": "deutsche-telekom",
      "description": "Deutsche Telekom AG is Europe's largest telecommunications operator, headquartered in Bonn, Germany, serving more than 250 million mobile customers across 50+ countries. It is the parent company of T-Mobile US (NASDAQ TMUS) and the majority owner of T-Systems International, its enterprise IT and cloud arm. For developers, Deutsche Telekom operates a public developer portal at developer.telekom.com offering a MagentaBusiness CPaaS suite (SMS, RCS, Voice, Video, Conversational Connect, Reports, AI Studio) built in partnership with Vonage, plus a growing portfolio of GSMA Open Gateway / CAMARA-aligned Network APIs (Number Verification, Verify, 5G Slices) launched jointly with T-Mobile US. T-Systems operates Open Telekom Cloud, an OpenStack-based sovereign public cloud with full REST APIs across compute, storage, networking, container, database, AI, and API Gateway services. Deutsche Telekom is also a substantial open-source contributor — its github.com/telekom organization publishes 245+ repositories including the Open Telekom Integration Platform (O28M), the TARDIS control-plane suite (with OpenAPI 3 specs for Rover, Controlplane, Identity, Discovery, File Manager, Secret Manager, and Stargate), the Horizon pub/sub event-streaming ecosystem, the Scale design system, Wurzel RAG ETL framework, and Kubernetes-native networking and IPAM operators.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/deutsche-telekom/refs/heads/main/screenshots/deutsche-telekom-2026-06-20T175944.png",
-     "score": 31.8,
+     "score": 31.1,
      "band": "thin",
      "band_label": "Thin",
      "facets": {
       "discoverability": 59.3,
-      "contract_quality": 51.1,
+      "contract_quality": 48.3,
       "governance": 0.0,
       "contract_governance": 0.0,
       "operational_transparency": 18.4,
@@ -2260,7 +2520,7 @@
       "access_clarity": 0.0
      },
      "scored_at": "2026-09-01",
-     "schema_version": "0.17.2",
+     "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
       "regime": "Telecommunications",
@@ -2291,7 +2551,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 45
+     "rank": 50
     },
     {
      "name": "LIQID Investments",
@@ -2311,7 +2571,7 @@
       "access_clarity": 84.2
      },
      "scored_at": "2026-09-01",
-     "schema_version": "0.17.2",
+     "schema_version": "0.18.0",
      "agent_score": 17.6,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -2335,7 +2595,7 @@
       "dynamic_client_registration": true,
       "agentic_commerce": false
      },
-     "rank": 46
+     "rank": 51
     },
     {
      "name": "samedi",
@@ -2355,7 +2615,7 @@
       "access_clarity": 34.2
      },
      "scored_at": "2026-09-01",
-     "schema_version": "0.17.2",
+     "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
       "regime": "Health",
@@ -2386,7 +2646,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 47
+     "rank": 52
     },
     {
      "name": "Thingsthinking",
@@ -2406,7 +2666,7 @@
       "access_clarity": 42.1
      },
      "scored_at": "2026-09-01",
-     "schema_version": "0.17.2",
+     "schema_version": "0.18.0",
      "agent_score": 2.5,
      "agent_band": "human-only",
      "agent_dims": {
@@ -2430,7 +2690,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 48
+     "rank": 53
     },
     {
      "name": "Porsche",
@@ -2451,7 +2711,7 @@
       "access_clarity": 28.9
      },
      "scored_at": "2026-09-01",
-     "schema_version": "0.17.2",
+     "schema_version": "0.18.0",
      "agent_score": 12.1,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -2475,7 +2735,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 49
+     "rank": 54
     },
     {
      "name": "Omaze",
@@ -2496,7 +2756,7 @@
       "access_clarity": 34.2
      },
      "scored_at": "2026-09-01",
-     "schema_version": "0.17.2",
+     "schema_version": "0.18.0",
      "agent_score": 30.2,
      "agent_band": "agent-ready",
      "agent_dims": {
@@ -2520,7 +2780,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": "platform"
      },
-     "rank": 50
+     "rank": 55
     },
     {
      "name": "Sdui",
@@ -2540,7 +2800,7 @@
       "access_clarity": 21.1
      },
      "scored_at": "2026-09-01",
-     "schema_version": "0.17.2",
+     "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
       "regime": "Education & Research",
@@ -2578,7 +2838,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 51
+     "rank": 56
     },
     {
      "name": "Lanes & Planes",
@@ -2599,256 +2859,7 @@
       "access_clarity": 60.5
      },
      "scored_at": "2026-09-01",
-     "schema_version": "0.17.2",
-     "agent_score": 2.5,
-     "agent_band": "human-only",
-     "agent_dims": {
-      "spec_presence": false,
-      "agentic_access": false,
-      "reversibility_documented": false,
-      "mcp_server": false,
-      "auth_clarity": "bearer",
-      "idempotency": false,
-      "error_semantics": false,
-      "openapi_examples": false,
-      "rate_limit_signal": false,
-      "event_surface_described": false,
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false,
-      "delegated_identity": false,
-      "protected_resource_metadata": false,
-      "dynamic_client_registration": false,
-      "agentic_commerce": false
-     },
-     "rank": 52
-    }
-   ]
-  },
-  {
-   "band": "emerging",
-   "label": "Emerging",
-   "range": "11 – 26.1",
-   "blurb": "More than an index entry but still mostly links rather than artifacts.",
-   "count": 68,
-   "shown": 68,
-   "providers": [
-    {
-     "name": "DB Schenker",
-     "slug": "db-schenker",
-     "description": "DB Schenker (Schenker AG, headquartered in Essen, Germany) is one of the world's largest freight forwarders and contract logistics providers, moving air, ocean, land and rail freight and running warehousing for shippers across roughly 1,850 locations. As a forwarder it sits in the intermediation layer of the supply chain — between the shipper who owns the cargo and the carriers, terminals and customs authorities who move and clear it — buying capacity it does not own and reselling visibility it did not have to publish. Its API posture is honestly a customer-contract posture, not a public developer posture. Deutsche Bahn sold DB Schenker to DSV A/S, completing 30 April 2025, and as of this profile www.dbschenker.com 301-redirects to dsv.com while the global developer portal at api-portal.dbschenker.com answers HTTP 410 Gone. The one DB Schenker-branded machine-readable API surface still live is the Nordic parcel \"Partner services API\" at parcelservices-se.dbschenker.com/Apipartner, which publishes four Swagger 2.0 documents openly but returns 401 on every operation without HTTP Basic credentials issued against a signed Swedish transport agreement. Its EDI endpoints are proprietary JSON, not EDIFACT or X12, and no DCSA, IATA ONE Record, GS1 EPCIS or WCO Data Model conformant contract was found on any reachable host.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/db-schenker/refs/heads/main/screenshots/db-schenker-2026-08-07T164220.png",
-     "score": 26.0,
-     "band": "emerging",
-     "band_label": "Emerging",
-     "facets": {
-      "discoverability": 74.1,
-      "contract_quality": 48.2,
-      "governance": 0.0,
-      "contract_governance": 0.0,
-      "operational_transparency": 2.6,
-      "developer_ergonomics": 31.0,
-      "commercial_clarity": 0.0,
-      "access_clarity": 0.0
-     },
-     "scored_at": "2026-09-01",
-     "schema_version": "0.17.2",
-     "agent_score": 15.5,
-     "agent_band": "agent-aware",
-     "agent_dims": {
-      "spec_presence": true,
-      "agentic_access": false,
-      "reversibility_documented": false,
-      "mcp_server": false,
-      "auth_clarity": "bearer",
-      "idempotency": false,
-      "error_semantics": false,
-      "openapi_examples": false,
-      "rate_limit_signal": false,
-      "event_surface_described": false,
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false,
-      "delegated_identity": false,
-      "protected_resource_metadata": false,
-      "dynamic_client_registration": false,
-      "agentic_commerce": false
-     },
-     "rank": 53
-    },
-    {
-     "name": "Aleph Alpha2",
-     "slug": "aleph-alpha2",
-     "description": "Aleph Alpha is a Heidelberg, Germany-based artificial intelligence company building sovereign, specialized large language models (SLLMs) for European enterprises and public-sector organizations operating in regulated and sensitive domains. Its PhariaAI suite is an end-to-end, self-hostable stack — PhariaStudio for building AI applications, PhariaAssistant for knowledge workers, and PhariaOS for resource management, alongside the PhariaInference, PhariaSearch, and PhariaData APIs — engineered for data sovereignty, transparency, and EU regulatory compliance while running on European infrastructure. The PhariaInference HTTP API exposes text completion, chat, embeddings, semantic search, tokenization, and explainability, accessed with a bearer token issued from app.aleph-alpha.com and supported by an official open-source Python client.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/aleph-alpha2/refs/heads/main/screenshots/aleph-alpha2-2026-07-25T195554.png",
-     "score": 25.3,
-     "band": "emerging",
-     "band_label": "Emerging",
-     "facets": {
-      "discoverability": 75.9,
-      "contract_quality": 0.0,
-      "governance": 0.0,
-      "contract_governance": 0.0,
-      "operational_transparency": 2.6,
-      "developer_ergonomics": 59.5,
-      "commercial_clarity": 27.6,
-      "access_clarity": 27.6
-     },
-     "scored_at": "2026-09-01",
-     "schema_version": "0.17.2",
-     "agent_score": 2.5,
-     "agent_band": "human-only",
-     "agent_dims": {
-      "spec_presence": false,
-      "agentic_access": false,
-      "reversibility_documented": false,
-      "mcp_server": false,
-      "auth_clarity": "bearer",
-      "idempotency": false,
-      "error_semantics": false,
-      "openapi_examples": false,
-      "rate_limit_signal": false,
-      "event_surface_described": false,
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false,
-      "delegated_identity": false,
-      "protected_resource_metadata": false,
-      "dynamic_client_registration": false,
-      "agentic_commerce": false
-     },
-     "rank": 54
-    },
-    {
-     "name": "University of Bonn",
-     "slug": "university-of-bonn",
-     "description": "The University of Bonn (Rheinische Friedrich-Wilhelms-Universität Bonn) is a public research university in Bonn, Germany, ranked #227 in the QS World University Rankings 2025. Its primary public, machine-readable developer footprint is bonndata, the institutional cross-disciplinary research data repository built on the open-source Dataverse platform, which exposes a public Dataverse Native REST API and an OAI-PMH metadata harvesting endpoint. The university also maintains an official GitHub organization (unibonn) with code from across the institution. Most other systems (library Alma/Primo discovery, identity/SSO, student information systems) are operated through standard vendor platforms without separately published public developer portals.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/university-of-bonn/refs/heads/main/screenshots/university-of-bonn-2026-06-20T200139.png",
-     "score": 25.3,
-     "band": "emerging",
-     "band_label": "Emerging",
-     "facets": {
-      "discoverability": 68.5,
-      "contract_quality": 20.6,
-      "governance": 9.8,
-      "contract_governance": 9.8,
-      "operational_transparency": 26.3,
-      "developer_ergonomics": 11.9,
-      "commercial_clarity": 28.9,
-      "access_clarity": 28.9
-     },
-     "scored_at": "2026-09-01",
-     "schema_version": "0.17.2",
-     "regulatory": {
-      "applies": true,
-      "regime": "Education & Research",
-      "regime_id": "education",
-      "score": 31.5,
-      "matched_via": "tags"
-     },
-     "agent_score": 20.0,
-     "agent_band": "agent-aware",
-     "agent_dims": {
-      "spec_presence": true,
-      "agentic_access": "derived",
-      "reversibility_documented": "na",
-      "mcp_server": false,
-      "auth_clarity": false,
-      "idempotency": "na",
-      "error_semantics": false,
-      "openapi_examples": false,
-      "rate_limit_signal": "documented",
-      "event_surface_described": false,
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": "na",
-      "delegated_identity": false,
-      "protected_resource_metadata": false,
-      "dynamic_client_registration": false,
-      "agentic_commerce": false
-     },
-     "rank": 55
-    },
-    {
-     "name": "Karlsruhe Institute of Technology",
-     "slug": "karlsruhe-institute-of-technology",
-     "description": "Karlsruhe Institute of Technology (KIT) is a public research university and national research center in Karlsruhe, Germany, ranked #102 in the QS World University Rankings 2025. KIT's public developer/API footprint is centered on research infrastructure operated by the KIT Library and partner FIZ Karlsruhe: the KITopen institutional repository (built on the dbkit framework, exposing an OAI-PMH harvesting interface), and the RADAR / RADAR4KIT research-data repository which offers a RESTful, OAuth-secured archive API. Identity is handled via a Shibboleth/SAML IdP operated by the Scientific Computing Center (SCC). KIT does not publish a single consolidated developer portal; its open-source code is spread across many institute-level GitHub organizations.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/karlsruhe-institute-of-technology/refs/heads/main/screenshots/karlsruhe-institute-of-technology-2026-06-20T183922.png",
-     "score": 24.9,
-     "band": "emerging",
-     "band_label": "Emerging",
-     "facets": {
-      "discoverability": 64.8,
-      "contract_quality": 10.7,
-      "governance": 0.0,
-      "contract_governance": 0.0,
-      "operational_transparency": 26.3,
-      "developer_ergonomics": 21.4,
-      "commercial_clarity": 28.9,
-      "access_clarity": 28.9
-     },
-     "scored_at": "2026-09-01",
-     "schema_version": "0.17.2",
-     "regulatory": {
-      "applies": true,
-      "regime": "Education & Research",
-      "regime_id": "education",
-      "score": 42.6,
-      "matched_via": "tags"
-     },
-     "agent_score": 5.0,
-     "agent_band": "human-only",
-     "agent_dims": {
-      "spec_presence": false,
-      "agentic_access": false,
-      "reversibility_documented": false,
-      "mcp_server": false,
-      "auth_clarity": "bearer",
-      "idempotency": false,
-      "error_semantics": false,
-      "openapi_examples": false,
-      "rate_limit_signal": "documented",
-      "event_surface_described": false,
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false,
-      "delegated_identity": false,
-      "protected_resource_metadata": false,
-      "dynamic_client_registration": false,
-      "agentic_commerce": false
-     },
-     "rank": 56
-    },
-    {
-     "name": "Sliplane",
-     "slug": "sliplane",
-     "description": "Sliplane is a Germany-based Container-as-a-Service (CaaS) platform that lets developers build, run, and monitor Dockerized applications in the cloud with simple, transparent, hourly server pricing and unlimited services per server. The platform positions itself as a European alternative to Heroku, Render, Fly.io, and Railway, offering push-to-deploy from GitHub, one-click deployment of 400k+ Docker Hub images, environment variable and secret management, free SSL certificates, custom domains, daily volume backups, private networking via Twingate, SSH access, health checks, log streaming, and service metrics. Servers are available in Germany, Finland, US East, US West, and Singapore, with five tier sizes ranging from a 2 vCPU / 2 GB Base server at roughly EUR 9/month to a 16 vCPU / 32 GB XX-Large server at roughly EUR 224/month. Sliplane exposes a public REST API at ctrl.sliplane.io/v0 covering identity, projects, services, deployments, domains, events, logs, metrics, pause/unpause, registry credentials, servers, volumes, and OAuth clients, with both API key (api_rw_/api_ro_) and OAuth authentication. Sliplane also operates a hosted Model Context Protocol (MCP) server at mcp.sliplane.io that mirrors the public API for AI-assistant-driven deployment management, alongside a Python MCP reference implementation, a Go SDK for the underlying DataPacket infrastructure, a reverse-proxy image, a Postgres-SSL image, an Open WebUI theme, and numerous Dockerized application boilerplates published under the sliplane GitHub organization.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/sliplane/refs/heads/main/screenshots/sliplane-2026-06-20T194030.png",
-     "score": 24.5,
-     "band": "emerging",
-     "band_label": "Emerging",
-     "facets": {
-      "discoverability": 68.5,
-      "contract_quality": 0.0,
-      "governance": 0.0,
-      "contract_governance": 0.0,
-      "operational_transparency": 21.1,
-      "developer_ergonomics": 35.7,
-      "commercial_clarity": 52.6,
-      "access_clarity": 52.6
-     },
-     "scored_at": "2026-09-01",
-     "schema_version": "0.17.2",
+     "schema_version": "0.18.0",
      "agent_score": 2.5,
      "agent_band": "human-only",
      "agent_dims": {
@@ -2875,6 +2886,203 @@
      "rank": 57
     },
     {
+     "name": "konfetti",
+     "slug": "konfetti",
+     "description": "konfetti (Konfetti GmbH, Berlin) operates a marketplace for bookable experiences — cooking classes, pottery and ceramics workshops, cocktail courses, tastings, boat tours, creative and craft workshops, DIY kits and team events — across Germany and Austria, with more than 7,600 bookable experience listings and coverage in Berlin, Munich, Cologne, Hamburg, Frankfurt, Stuttgart, Dusseldorf, Leipzig, Dresden, Hannover, Nuremberg, Muenster, Heidelberg and Vienna. Alongside the consumer storefront, konfetti sells an all-in-one booking-management product to its partner hosts: a back-office at backoffice.gokonfetti.com for managing experiences, dates, tickets, gift cards, invoicing and payouts, plus an embeddable booking solution and a set of embeddable widgets that partners place on their own websites and social channels. konfetti is backed by Speedinvest. It publishes no public developer portal or API reference; the JSON API behind the storefront at api.gokonfetti.com is documented here observationally by API Evangelist.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/konfetti/refs/heads/main/screenshots/konfetti-2026-07-25T224149.png",
+     "score": 27.2,
+     "band": "thin",
+     "band_label": "Thin",
+     "facets": {
+      "discoverability": 74.1,
+      "contract_quality": 12.9,
+      "governance": 4.5,
+      "contract_governance": 4.5,
+      "operational_transparency": 0.0,
+      "developer_ergonomics": 30.4,
+      "commercial_clarity": 44.7,
+      "access_clarity": 44.7
+     },
+     "scored_at": "2026-09-01",
+     "schema_version": "0.18.0",
+     "regulatory": {
+      "applies": true,
+      "regime": "Payments",
+      "regime_id": "payments",
+      "score": 39.1,
+      "matched_via": "tags"
+     },
+     "agent_score": 21.8,
+     "agent_band": "agent-aware",
+     "agent_dims": {
+      "spec_presence": true,
+      "agentic_access": false,
+      "reversibility_documented": false,
+      "mcp_server": false,
+      "auth_clarity": "bearer",
+      "idempotency": false,
+      "error_semantics": "documented",
+      "openapi_examples": "partial",
+      "rate_limit_signal": false,
+      "event_surface_described": false,
+      "agent_skills": "derived",
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
+     "rank": 58
+    }
+   ]
+  },
+  {
+   "band": "emerging",
+   "label": "Emerging",
+   "range": "11 – 26.1",
+   "blurb": "More than an index entry but still mostly links rather than artifacts.",
+   "count": 62,
+   "shown": 62,
+   "providers": [
+    {
+     "name": "DB Schenker",
+     "slug": "db-schenker",
+     "description": "DB Schenker (Schenker AG, headquartered in Essen, Germany) is one of the world's largest freight forwarders and contract logistics providers, moving air, ocean, land and rail freight and running warehousing for shippers across roughly 1,850 locations. As a forwarder it sits in the intermediation layer of the supply chain — between the shipper who owns the cargo and the carriers, terminals and customs authorities who move and clear it — buying capacity it does not own and reselling visibility it did not have to publish. Its API posture is honestly a customer-contract posture, not a public developer posture. Deutsche Bahn sold DB Schenker to DSV A/S, completing 30 April 2025, and as of this profile www.dbschenker.com 301-redirects to dsv.com while the global developer portal at api-portal.dbschenker.com answers HTTP 410 Gone. The one DB Schenker-branded machine-readable API surface still live is the Nordic parcel \"Partner services API\" at parcelservices-se.dbschenker.com/Apipartner, which publishes four Swagger 2.0 documents openly but returns 401 on every operation without HTTP Basic credentials issued against a signed Swedish transport agreement. Its EDI endpoints are proprietary JSON, not EDIFACT or X12, and no DCSA, IATA ONE Record, GS1 EPCIS or WCO Data Model conformant contract was found on any reachable host.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/db-schenker/refs/heads/main/screenshots/db-schenker-2026-08-07T164220.png",
+     "score": 26.0,
+     "band": "emerging",
+     "band_label": "Emerging",
+     "facets": {
+      "discoverability": 74.1,
+      "contract_quality": 48.2,
+      "governance": 0.0,
+      "contract_governance": 0.0,
+      "operational_transparency": 2.6,
+      "developer_ergonomics": 31.0,
+      "commercial_clarity": 0.0,
+      "access_clarity": 0.0
+     },
+     "scored_at": "2026-09-01",
+     "schema_version": "0.18.0",
+     "agent_score": 15.5,
+     "agent_band": "agent-aware",
+     "agent_dims": {
+      "spec_presence": true,
+      "agentic_access": false,
+      "reversibility_documented": false,
+      "mcp_server": false,
+      "auth_clarity": "bearer",
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": false,
+      "event_surface_described": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
+     "rank": 59
+    },
+    {
+     "name": "Aleph Alpha2",
+     "slug": "aleph-alpha2",
+     "description": "Aleph Alpha is a Heidelberg, Germany-based artificial intelligence company building sovereign, specialized large language models (SLLMs) for European enterprises and public-sector organizations operating in regulated and sensitive domains. Its PhariaAI suite is an end-to-end, self-hostable stack — PhariaStudio for building AI applications, PhariaAssistant for knowledge workers, and PhariaOS for resource management, alongside the PhariaInference, PhariaSearch, and PhariaData APIs — engineered for data sovereignty, transparency, and EU regulatory compliance while running on European infrastructure. The PhariaInference HTTP API exposes text completion, chat, embeddings, semantic search, tokenization, and explainability, accessed with a bearer token issued from app.aleph-alpha.com and supported by an official open-source Python client.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/aleph-alpha2/refs/heads/main/screenshots/aleph-alpha2-2026-07-25T195554.png",
+     "score": 25.3,
+     "band": "emerging",
+     "band_label": "Emerging",
+     "facets": {
+      "discoverability": 75.9,
+      "contract_quality": 0.0,
+      "governance": 0.0,
+      "contract_governance": 0.0,
+      "operational_transparency": 2.6,
+      "developer_ergonomics": 59.5,
+      "commercial_clarity": 27.6,
+      "access_clarity": 27.6
+     },
+     "scored_at": "2026-09-01",
+     "schema_version": "0.18.0",
+     "agent_score": 2.5,
+     "agent_band": "human-only",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": false,
+      "reversibility_documented": false,
+      "mcp_server": false,
+      "auth_clarity": "bearer",
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": false,
+      "event_surface_described": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
+     "rank": 60
+    },
+    {
+     "name": "Sliplane",
+     "slug": "sliplane",
+     "description": "Sliplane is a Germany-based Container-as-a-Service (CaaS) platform that lets developers build, run, and monitor Dockerized applications in the cloud with simple, transparent, hourly server pricing and unlimited services per server. The platform positions itself as a European alternative to Heroku, Render, Fly.io, and Railway, offering push-to-deploy from GitHub, one-click deployment of 400k+ Docker Hub images, environment variable and secret management, free SSL certificates, custom domains, daily volume backups, private networking via Twingate, SSH access, health checks, log streaming, and service metrics. Servers are available in Germany, Finland, US East, US West, and Singapore, with five tier sizes ranging from a 2 vCPU / 2 GB Base server at roughly EUR 9/month to a 16 vCPU / 32 GB XX-Large server at roughly EUR 224/month. Sliplane exposes a public REST API at ctrl.sliplane.io/v0 covering identity, projects, services, deployments, domains, events, logs, metrics, pause/unpause, registry credentials, servers, volumes, and OAuth clients, with both API key (api_rw_/api_ro_) and OAuth authentication. Sliplane also operates a hosted Model Context Protocol (MCP) server at mcp.sliplane.io that mirrors the public API for AI-assistant-driven deployment management, alongside a Python MCP reference implementation, a Go SDK for the underlying DataPacket infrastructure, a reverse-proxy image, a Postgres-SSL image, an Open WebUI theme, and numerous Dockerized application boilerplates published under the sliplane GitHub organization.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/sliplane/refs/heads/main/screenshots/sliplane-2026-06-20T194030.png",
+     "score": 24.5,
+     "band": "emerging",
+     "band_label": "Emerging",
+     "facets": {
+      "discoverability": 68.5,
+      "contract_quality": 0.0,
+      "governance": 0.0,
+      "contract_governance": 0.0,
+      "operational_transparency": 21.1,
+      "developer_ergonomics": 35.7,
+      "commercial_clarity": 52.6,
+      "access_clarity": 52.6
+     },
+     "scored_at": "2026-09-01",
+     "schema_version": "0.18.0",
+     "agent_score": 2.5,
+     "agent_band": "human-only",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": false,
+      "reversibility_documented": false,
+      "mcp_server": false,
+      "auth_clarity": "bearer",
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": false,
+      "event_surface_described": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
+     "rank": 61
+    },
+    {
      "name": "Linguidoor",
      "slug": "linguidoor",
      "description": "Linguidoor is a Berlin-based, ISO-branded human translation and localization agency serving businesses and individuals across Germany and internationally. It offers professional translation in 100+ languages, website / app / software / game localization, MTPE, certified and sworn document translation for German administrative processes (birth and marriage certificates, driving licences, Anmeldung, Schufa, diplomas), interpretation, subtitling and captioning, voice-over and dubbing, transcription, desktop publishing, content writing, international SEO, and AI data services (data annotation, tagging and labeling, voice and text data collection, text-to-speech and voice cloning). Pricing is published per translated word across three service tiers, with fixed-price certified document translations sold through an online shop. Linguidoor publishes NO developer program: enrichment found no OpenAPI, AsyncAPI, GraphQL, MCP server, agent card, SDK, CLI or API documentation of any kind. The site is WordPress + WooCommerce on Hostinger; its only machine-readable surfaces are the platform-default WordPress REST API at /wp-json/ (which includes the public unauthenticated WooCommerce Store API) and a plugin-generated llms.txt whose entire content is the default WordPress \"Hello world!\" post.",
@@ -2892,7 +3100,7 @@
       "access_clarity": 76.3
      },
      "scored_at": "2026-09-01",
-     "schema_version": "0.17.2",
+     "schema_version": "0.18.0",
      "agent_score": 2.5,
      "agent_band": "human-only",
      "agent_dims": {
@@ -2916,59 +3124,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 58
-    },
-    {
-     "name": "Technical University of Darmstadt",
-     "slug": "technical-university-of-darmstadt",
-     "description": "The Technical University of Darmstadt (Technische Universitat Darmstadt, TU Darmstadt) is a public research university in Darmstadt, Germany, ranked #241 in the QS World University Rankings 2025. Its public, machine-readable developer footprint is centered on the university and state library (ULB) scholarly infrastructure rather than a central developer portal. TUdatalib, the institutional research-data repository, runs DSpace 8.1 and exposes a live REST API and an OAI-PMH 2.0 metadata interface; the TUbiblio publication bibliography and the tuprints open-access repository run on EPrints with OAI-PMH harvesting. Authentication across university services is handled through a central SSO system operated by the Hochschulrechenzentrum (HRZ).",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/technical-university-of-darmstadt/refs/heads/main/screenshots/technical-university-of-darmstadt-2026-06-20T195009.png",
-     "score": 24.1,
-     "band": "emerging",
-     "band_label": "Emerging",
-     "facets": {
-      "discoverability": 74.1,
-      "contract_quality": 10.7,
-      "governance": 0.0,
-      "contract_governance": 0.0,
-      "operational_transparency": 26.3,
-      "developer_ergonomics": 21.4,
-      "commercial_clarity": 28.9,
-      "access_clarity": 28.9
-     },
-     "scored_at": "2026-09-01",
-     "schema_version": "0.17.2",
-     "regulatory": {
-      "applies": true,
-      "regime": "Education & Research",
-      "regime_id": "education",
-      "score": 31.5,
-      "matched_via": "tags"
-     },
-     "agent_score": 5.0,
-     "agent_band": "human-only",
-     "agent_dims": {
-      "spec_presence": false,
-      "agentic_access": false,
-      "reversibility_documented": false,
-      "mcp_server": false,
-      "auth_clarity": "bearer",
-      "idempotency": false,
-      "error_semantics": false,
-      "openapi_examples": false,
-      "rate_limit_signal": "documented",
-      "event_surface_described": false,
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false,
-      "delegated_identity": false,
-      "protected_resource_metadata": false,
-      "dynamic_client_registration": false,
-      "agentic_commerce": false
-     },
-     "rank": 59
+     "rank": 62
     },
     {
      "name": "Localyze",
@@ -2989,7 +3145,7 @@
       "access_clarity": 60.5
      },
      "scored_at": "2026-09-01",
-     "schema_version": "0.17.2",
+     "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -3013,7 +3169,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 60
+     "rank": 63
     },
     {
      "name": "AEB",
@@ -3034,7 +3190,7 @@
       "access_clarity": 18.4
      },
      "scored_at": "2026-09-01",
-     "schema_version": "0.17.2",
+     "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
       "regime": "Telecommunications",
@@ -3065,59 +3221,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 61
-    },
-    {
-     "name": "Universität Hamburg",
-     "slug": "universitat-hamburg",
-     "description": "Universität Hamburg is a public research university in Hamburg, Germany, ranked #191 in the QS World University Rankings 2025. Its public developer and machine-readable footprint is concentrated in library and open-access infrastructure operated by the Staats- und Universitätsbibliothek (SUB) and the Regionales Rechenzentrum (RRZ), rather than a single branded developer portal. Confirmed public interfaces include a DSpace-based institutional dissertation repository (ediss.sub.hamburg) exposing an OAI-PMH metadata endpoint, and an official Universität Hamburg open-source presence on GitHub. Campus systems such as the STiNE campus-management platform and Shibboleth/SAML single sign-on are gated and not openly documented as public APIs.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/universitat-hamburg/refs/heads/main/screenshots/universitat-hamburg-2026-06-20T200115.png",
-     "score": 22.7,
-     "band": "emerging",
-     "band_label": "Emerging",
-     "facets": {
-      "discoverability": 59.3,
-      "contract_quality": 10.7,
-      "governance": 0.0,
-      "contract_governance": 0.0,
-      "operational_transparency": 26.3,
-      "developer_ergonomics": 21.4,
-      "commercial_clarity": 28.9,
-      "access_clarity": 28.9
-     },
-     "scored_at": "2026-09-01",
-     "schema_version": "0.17.2",
-     "regulatory": {
-      "applies": true,
-      "regime": "Education & Research",
-      "regime_id": "education",
-      "score": 31.5,
-      "matched_via": "tags"
-     },
-     "agent_score": 5.0,
-     "agent_band": "human-only",
-     "agent_dims": {
-      "spec_presence": false,
-      "agentic_access": false,
-      "reversibility_documented": false,
-      "mcp_server": false,
-      "auth_clarity": "bearer",
-      "idempotency": false,
-      "error_semantics": false,
-      "openapi_examples": false,
-      "rate_limit_signal": "documented",
-      "event_surface_described": false,
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false,
-      "delegated_identity": false,
-      "protected_resource_metadata": false,
-      "dynamic_client_registration": false,
-      "agentic_commerce": false
-     },
-     "rank": 62
+     "rank": 64
     },
     {
      "name": "Lassie",
@@ -3138,7 +3242,7 @@
       "access_clarity": 52.6
      },
      "scored_at": "2026-09-01",
-     "schema_version": "0.17.2",
+     "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
       "regime": "Insurance",
@@ -3169,7 +3273,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 63
+     "rank": 65
     },
     {
      "name": "Lendis",
@@ -3190,7 +3294,7 @@
       "access_clarity": 27.6
      },
      "scored_at": "2026-09-01",
-     "schema_version": "0.17.2",
+     "schema_version": "0.18.0",
      "agent_score": 24.4,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -3214,59 +3318,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 64
-    },
-    {
-     "name": "University of Freiburg",
-     "slug": "university-of-freiburg",
-     "description": "The University of Freiburg (Albert-Ludwigs-Universität Freiburg) is a public research university in Freiburg im Breisgau, Germany, founded in 1457 and ranked #212 in the QS World University Rankings 2025. It does not operate a centralized public developer portal, but its university library (Universitätsbibliothek Freiburg) exposes several real, publicly reachable programmatic interfaces. The FreiDok plus institutional repository offers a JSON API and an OAI-PMH metadata-harvesting endpoint, and the FreiData research-data repository (built on InvenioRDM) provides a REST API. These are open, unauthenticated read endpoints intended for metadata harvesting and discovery rather than a formal developer program.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/university-of-freiburg/refs/heads/main/screenshots/university-of-freiburg-2026-06-20T200150.png",
-     "score": 21.8,
-     "band": "emerging",
-     "band_label": "Emerging",
-     "facets": {
-      "discoverability": 74.1,
-      "contract_quality": 10.7,
-      "governance": 0.0,
-      "contract_governance": 0.0,
-      "operational_transparency": 26.3,
-      "developer_ergonomics": 9.5,
-      "commercial_clarity": 28.9,
-      "access_clarity": 28.9
-     },
-     "scored_at": "2026-09-01",
-     "schema_version": "0.17.2",
-     "regulatory": {
-      "applies": true,
-      "regime": "Education & Research",
-      "regime_id": "education",
-      "score": 31.5,
-      "matched_via": "tags"
-     },
-     "agent_score": 2.5,
-     "agent_band": "human-only",
-     "agent_dims": {
-      "spec_presence": false,
-      "agentic_access": false,
-      "reversibility_documented": false,
-      "mcp_server": false,
-      "auth_clarity": false,
-      "idempotency": false,
-      "error_semantics": false,
-      "openapi_examples": false,
-      "rate_limit_signal": "documented",
-      "event_surface_described": false,
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false,
-      "delegated_identity": false,
-      "protected_resource_metadata": false,
-      "dynamic_client_registration": false,
-      "agentic_commerce": false
-     },
-     "rank": 65
+     "rank": 66
     },
     {
      "name": "Peopleix",
@@ -3286,7 +3338,7 @@
       "access_clarity": 32.9
      },
      "scored_at": "2026-09-01",
-     "schema_version": "0.17.2",
+     "schema_version": "0.18.0",
      "agent_score": 24.7,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -3310,58 +3362,6 @@
       "dynamic_client_registration": true,
       "agentic_commerce": false
      },
-     "rank": 66
-    },
-    {
-     "name": "University of Tübingen",
-     "slug": "university-of-tubingen",
-     "description": "The University of Tübingen (Eberhard Karls Universität Tübingen), founded in 1477 in Tübingen, Germany, is one of the oldest universities in the country and ranks #222 in the QS World University Rankings 2025. It is a public research university serving roughly 23,000 to 35,000 students. Its publicly documented developer/API footprint is modest and centers on its institutional research data repository, FDAT, run by the Digital Humanities Center on the InvenioRDM platform, which exposes a JSON REST API and an OAI-PMH metadata harvesting endpoint. Source code from several university units is published across multiple GitHub organizations, including the University Library.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/university-of-tubingen/refs/heads/main/screenshots/university-of-tubingen-2026-06-20T200240.png",
-     "score": 20.5,
-     "band": "emerging",
-     "band_label": "Emerging",
-     "facets": {
-      "discoverability": 68.5,
-      "contract_quality": 14.7,
-      "governance": 0.0,
-      "contract_governance": 0.0,
-      "operational_transparency": 26.3,
-      "developer_ergonomics": 9.5,
-      "commercial_clarity": 28.9,
-      "access_clarity": 28.9
-     },
-     "scored_at": "2026-09-01",
-     "schema_version": "0.17.2",
-     "regulatory": {
-      "applies": true,
-      "regime": "Education & Research",
-      "regime_id": "education",
-      "score": 20.4,
-      "matched_via": "tags"
-     },
-     "agent_score": 2.5,
-     "agent_band": "human-only",
-     "agent_dims": {
-      "spec_presence": false,
-      "agentic_access": false,
-      "reversibility_documented": false,
-      "mcp_server": false,
-      "auth_clarity": false,
-      "idempotency": false,
-      "error_semantics": false,
-      "openapi_examples": false,
-      "rate_limit_signal": "documented",
-      "event_surface_described": false,
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false,
-      "delegated_identity": false,
-      "protected_resource_metadata": false,
-      "dynamic_client_registration": false,
-      "agentic_commerce": false
-     },
      "rank": 67
     },
     {
@@ -3383,7 +3383,7 @@
       "access_clarity": 0.0
      },
      "scored_at": "2026-09-01",
-     "schema_version": "0.17.2",
+     "schema_version": "0.18.0",
      "agent_score": 18.0,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -3428,7 +3428,7 @@
       "access_clarity": 27.6
      },
      "scored_at": "2026-09-01",
-     "schema_version": "0.17.2",
+     "schema_version": "0.18.0",
      "agent_score": 23.9,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -3473,7 +3473,7 @@
       "access_clarity": 17.1
      },
      "scored_at": "2026-09-01",
-     "schema_version": "0.17.2",
+     "schema_version": "0.18.0",
      "agent_score": 10.8,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -3518,7 +3518,7 @@
       "access_clarity": 44.7
      },
      "scored_at": "2026-09-01",
-     "schema_version": "0.17.2",
+     "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
       "regime": "Health",
@@ -3570,7 +3570,7 @@
       "access_clarity": 28.9
      },
      "scored_at": "2026-09-01",
-     "schema_version": "0.17.2",
+     "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
       "regime": "Government & Public Sector",
@@ -3622,7 +3622,7 @@
       "access_clarity": 28.9
      },
      "scored_at": "2026-09-01",
-     "schema_version": "0.17.2",
+     "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
       "regime": "Government & Public Sector",
@@ -3674,7 +3674,7 @@
       "access_clarity": 28.9
      },
      "scored_at": "2026-09-01",
-     "schema_version": "0.17.2",
+     "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
       "regime": "Government & Public Sector",
@@ -3726,7 +3726,7 @@
       "access_clarity": 21.1
      },
      "scored_at": "2026-09-01",
-     "schema_version": "0.17.2",
+     "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -3771,7 +3771,7 @@
       "access_clarity": 38.2
      },
      "scored_at": "2026-09-01",
-     "schema_version": "0.17.2",
+     "schema_version": "0.18.0",
      "agent_score": 2.9,
      "agent_band": "human-only",
      "agent_dims": {
@@ -3816,7 +3816,7 @@
       "access_clarity": 53.9
      },
      "scored_at": "2026-09-01",
-     "schema_version": "0.17.2",
+     "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -3861,7 +3861,7 @@
       "access_clarity": 28.9
      },
      "scored_at": "2026-09-01",
-     "schema_version": "0.17.2",
+     "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
       "regime": "Government & Public Sector",
@@ -3913,7 +3913,7 @@
       "access_clarity": 28.9
      },
      "scored_at": "2026-09-01",
-     "schema_version": "0.17.2",
+     "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
       "regime": "Government & Public Sector",
@@ -3965,7 +3965,7 @@
       "access_clarity": 28.9
      },
      "scored_at": "2026-09-01",
-     "schema_version": "0.17.2",
+     "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
       "regime": "Government & Public Sector",
@@ -4017,7 +4017,7 @@
       "access_clarity": 28.9
      },
      "scored_at": "2026-09-01",
-     "schema_version": "0.17.2",
+     "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
       "regime": "Government & Public Sector",
@@ -4069,7 +4069,7 @@
       "access_clarity": 44.7
      },
      "scored_at": "2026-09-01",
-     "schema_version": "0.17.2",
+     "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -4114,7 +4114,7 @@
       "access_clarity": 17.1
      },
      "scored_at": "2026-09-01",
-     "schema_version": "0.17.2",
+     "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
       "regime": "Payments",
@@ -4165,7 +4165,7 @@
       "access_clarity": 43.4
      },
      "scored_at": "2026-09-01",
-     "schema_version": "0.17.2",
+     "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
       "regime": "Education & Research",
@@ -4217,7 +4217,7 @@
       "access_clarity": 43.4
      },
      "scored_at": "2026-09-01",
-     "schema_version": "0.17.2",
+     "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
       "regime": "Insurance",
@@ -4269,7 +4269,7 @@
       "access_clarity": 44.7
      },
      "scored_at": "2026-09-01",
-     "schema_version": "0.17.2",
+     "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
       "regime": "Education & Research",
@@ -4321,7 +4321,7 @@
       "access_clarity": 25.0
      },
      "scored_at": "2026-09-01",
-     "schema_version": "0.17.2",
+     "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
       "regime": "Insurance",
@@ -4380,7 +4380,7 @@
       "access_clarity": 43.4
      },
      "scored_at": "2026-09-01",
-     "schema_version": "0.17.2",
+     "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
       "regime": "Insurance",
@@ -4432,7 +4432,7 @@
       "access_clarity": 38.2
      },
      "scored_at": "2026-09-01",
-     "schema_version": "0.17.2",
+     "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -4477,7 +4477,7 @@
       "access_clarity": 27.6
      },
      "scored_at": "2026-09-01",
-     "schema_version": "0.17.2",
+     "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -4522,7 +4522,7 @@
       "access_clarity": 28.9
      },
      "scored_at": "2026-09-01",
-     "schema_version": "0.17.2",
+     "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -4567,7 +4567,7 @@
       "access_clarity": 34.2
      },
      "scored_at": "2026-09-01",
-     "schema_version": "0.17.2",
+     "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -4612,7 +4612,7 @@
       "access_clarity": 38.2
      },
      "scored_at": "2026-09-01",
-     "schema_version": "0.17.2",
+     "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -4656,7 +4656,7 @@
       "access_clarity": 18.4
      },
      "scored_at": "2026-09-01",
-     "schema_version": "0.17.2",
+     "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -4700,7 +4700,7 @@
       "access_clarity": 34.2
      },
      "scored_at": "2026-09-01",
-     "schema_version": "0.17.2",
+     "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -4744,7 +4744,7 @@
       "access_clarity": 38.2
      },
      "scored_at": "2026-09-01",
-     "schema_version": "0.17.2",
+     "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
       "regime": "Health",
@@ -4795,7 +4795,7 @@
       "access_clarity": 10.5
      },
      "scored_at": "2026-09-01",
-     "schema_version": "0.17.2",
+     "schema_version": "0.18.0",
      "agent_score": 11.2,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -4840,7 +4840,7 @@
       "access_clarity": 38.2
      },
      "scored_at": "2026-09-01",
-     "schema_version": "0.17.2",
+     "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
       "regime": "Energy & Utilities",
@@ -4891,7 +4891,7 @@
       "access_clarity": 34.2
      },
      "scored_at": "2026-09-01",
-     "schema_version": "0.17.2",
+     "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -4936,7 +4936,7 @@
       "access_clarity": 34.2
      },
      "scored_at": "2026-09-01",
-     "schema_version": "0.17.2",
+     "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -4981,7 +4981,7 @@
       "access_clarity": 34.2
      },
      "scored_at": "2026-09-01",
-     "schema_version": "0.17.2",
+     "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
       "regime": "Education & Research",
@@ -5033,7 +5033,7 @@
       "access_clarity": 27.6
      },
      "scored_at": "2026-09-01",
-     "schema_version": "0.17.2",
+     "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -5077,7 +5077,7 @@
       "access_clarity": 34.2
      },
      "scored_at": "2026-09-01",
-     "schema_version": "0.17.2",
+     "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
       "regime": "Health",
@@ -5085,13 +5085,13 @@
       "score": 17.5,
       "matched_via": "tags"
      },
-     "agent_score": 6.0,
-     "agent_band": "agent-aware",
+     "agent_score": 2.5,
+     "agent_band": "human-only",
      "agent_dims": {
       "spec_presence": false,
       "agentic_access": false,
       "reversibility_documented": false,
-      "mcp_server": "documented",
+      "mcp_server": false,
       "auth_clarity": false,
       "idempotency": false,
       "error_semantics": false,
@@ -5129,7 +5129,7 @@
       "access_clarity": 35.5
      },
      "scored_at": "2026-09-01",
-     "schema_version": "0.17.2",
+     "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -5174,7 +5174,7 @@
       "access_clarity": 26.3
      },
      "scored_at": "2026-09-01",
-     "schema_version": "0.17.2",
+     "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -5219,7 +5219,7 @@
       "access_clarity": 34.2
      },
      "scored_at": "2026-09-01",
-     "schema_version": "0.17.2",
+     "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -5264,7 +5264,7 @@
       "access_clarity": 27.6
      },
      "scored_at": "2026-09-01",
-     "schema_version": "0.17.2",
+     "schema_version": "0.18.0",
      "agent_score": 3.5,
      "agent_band": "human-only",
      "agent_dims": {
@@ -5308,7 +5308,7 @@
       "access_clarity": 31.6
      },
      "scored_at": "2026-09-01",
-     "schema_version": "0.17.2",
+     "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -5353,7 +5353,7 @@
       "access_clarity": 31.6
      },
      "scored_at": "2026-09-01",
-     "schema_version": "0.17.2",
+     "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
       "regime": "Health",
@@ -5405,7 +5405,7 @@
       "access_clarity": 35.5
      },
      "scored_at": "2026-09-01",
-     "schema_version": "0.17.2",
+     "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -5450,7 +5450,7 @@
       "access_clarity": 21.1
      },
      "scored_at": "2026-09-01",
-     "schema_version": "0.17.2",
+     "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
       "regime": "Insurance",
@@ -5502,7 +5502,7 @@
       "access_clarity": 27.6
      },
      "scored_at": "2026-09-01",
-     "schema_version": "0.17.2",
+     "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -5546,7 +5546,7 @@
       "access_clarity": 23.7
      },
      "scored_at": "2026-09-01",
-     "schema_version": "0.17.2",
+     "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -5591,7 +5591,7 @@
       "access_clarity": 28.9
      },
      "scored_at": "2026-09-01",
-     "schema_version": "0.17.2",
+     "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
       "regime": "Government & Public Sector",
@@ -5643,7 +5643,7 @@
       "access_clarity": 27.6
      },
      "scored_at": "2026-09-01",
-     "schema_version": "0.17.2",
+     "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -5688,7 +5688,7 @@
       "access_clarity": 21.1
      },
      "scored_at": "2026-09-01",
-     "schema_version": "0.17.2",
+     "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -5733,7 +5733,7 @@
       "access_clarity": 17.1
      },
      "scored_at": "2026-09-01",
-     "schema_version": "0.17.2",
+     "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -5778,7 +5778,7 @@
       "access_clarity": 21.1
      },
      "scored_at": "2026-09-01",
-     "schema_version": "0.17.2",
+     "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
       "regime": "Energy & Utilities",
@@ -5829,7 +5829,7 @@
       "access_clarity": 18.4
      },
      "scored_at": "2026-09-01",
-     "schema_version": "0.17.2",
+     "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -5874,7 +5874,7 @@
       "access_clarity": 21.1
      },
      "scored_at": "2026-09-01",
-     "schema_version": "0.17.2",
+     "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -5928,7 +5928,7 @@
       "access_clarity": 21.1
      },
      "scored_at": "2026-09-01",
-     "schema_version": "0.17.2",
+     "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
       "regime": "Insurance",
@@ -5980,7 +5980,7 @@
       "access_clarity": 21.1
      },
      "scored_at": "2026-09-01",
-     "schema_version": "0.17.2",
+     "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -6025,7 +6025,7 @@
       "access_clarity": 34.2
      },
      "scored_at": "2026-09-01",
-     "schema_version": "0.17.2",
+     "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
       "regime": "Banking & Open Finance",
@@ -6076,7 +6076,7 @@
       "access_clarity": 23.7
      },
      "scored_at": "2026-09-01",
-     "schema_version": "0.17.2",
+     "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -6121,7 +6121,7 @@
       "access_clarity": 21.1
      },
      "scored_at": "2026-09-01",
-     "schema_version": "0.17.2",
+     "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -6166,7 +6166,7 @@
       "access_clarity": 21.1
      },
      "scored_at": "2026-09-01",
-     "schema_version": "0.17.2",
+     "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -6211,7 +6211,7 @@
       "access_clarity": 21.1
      },
      "scored_at": "2026-09-01",
-     "schema_version": "0.17.2",
+     "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
       "regime": "Energy & Utilities",
@@ -6263,7 +6263,7 @@
       "access_clarity": 21.1
      },
      "scored_at": "2026-09-01",
-     "schema_version": "0.17.2",
+     "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -6308,7 +6308,7 @@
       "access_clarity": 21.1
      },
      "scored_at": "2026-09-01",
-     "schema_version": "0.17.2",
+     "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -6352,7 +6352,7 @@
       "access_clarity": 21.1
      },
      "scored_at": "2026-09-01",
-     "schema_version": "0.17.2",
+     "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -6396,7 +6396,7 @@
       "access_clarity": 21.1
      },
      "scored_at": "2026-09-01",
-     "schema_version": "0.17.2",
+     "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -6440,7 +6440,7 @@
       "access_clarity": 21.1
      },
      "scored_at": "2026-09-01",
-     "schema_version": "0.17.2",
+     "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -6485,7 +6485,7 @@
       "access_clarity": 27.6
      },
      "scored_at": "2026-09-01",
-     "schema_version": "0.17.2",
+     "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
       "regime": "Insurance",
@@ -6536,7 +6536,7 @@
       "access_clarity": 21.1
      },
      "scored_at": "2026-09-01",
-     "schema_version": "0.17.2",
+     "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
       "regime": "Energy & Utilities",
@@ -6588,7 +6588,7 @@
       "access_clarity": 21.1
      },
      "scored_at": "2026-09-01",
-     "schema_version": "0.17.2",
+     "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -6633,7 +6633,7 @@
       "access_clarity": 21.1
      },
      "scored_at": "2026-09-01",
-     "schema_version": "0.17.2",
+     "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -6678,7 +6678,7 @@
       "access_clarity": 27.6
      },
      "scored_at": "2026-09-01",
-     "schema_version": "0.17.2",
+     "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
       "regime": "Securities & Market Data",
@@ -6729,7 +6729,7 @@
       "access_clarity": 21.1
      },
      "scored_at": "2026-09-01",
-     "schema_version": "0.17.2",
+     "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -6774,7 +6774,7 @@
       "access_clarity": 21.1
      },
      "scored_at": "2026-09-01",
-     "schema_version": "0.17.2",
+     "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -6818,7 +6818,7 @@
       "access_clarity": 10.5
      },
      "scored_at": "2026-09-01",
-     "schema_version": "0.17.2",
+     "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -6862,7 +6862,7 @@
       "access_clarity": 17.1
      },
      "scored_at": "2026-09-01",
-     "schema_version": "0.17.2",
+     "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
       "regime": "Energy & Utilities",
@@ -6914,7 +6914,7 @@
       "access_clarity": 15.8
      },
      "scored_at": "2026-09-01",
-     "schema_version": "0.17.2",
+     "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -6958,7 +6958,7 @@
       "access_clarity": 21.1
      },
      "scored_at": "2026-09-01",
-     "schema_version": "0.17.2",
+     "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
       "regime": "Energy & Utilities",
@@ -7009,7 +7009,7 @@
       "access_clarity": 21.1
      },
      "scored_at": "2026-09-01",
-     "schema_version": "0.17.2",
+     "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
       "regime": "Health",
@@ -7061,7 +7061,7 @@
       "access_clarity": 26.3
      },
      "scored_at": "2026-09-01",
-     "schema_version": "0.17.2",
+     "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
       "regime": "Payments",
@@ -7113,7 +7113,7 @@
       "access_clarity": 0.0
      },
      "scored_at": "2026-09-01",
-     "schema_version": "0.17.2",
+     "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -7158,7 +7158,7 @@
       "access_clarity": 21.1
      },
      "scored_at": "2026-09-01",
-     "schema_version": "0.17.2",
+     "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
       "regime": "Securities & Market Data",
@@ -7210,7 +7210,7 @@
       "access_clarity": 21.1
      },
      "scored_at": "2026-09-01",
-     "schema_version": "0.17.2",
+     "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -7255,7 +7255,7 @@
       "access_clarity": 21.1
      },
      "scored_at": "2026-09-01",
-     "schema_version": "0.17.2",
+     "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
       "regime": "Health",
@@ -7307,7 +7307,7 @@
       "access_clarity": 17.1
      },
      "scored_at": "2026-09-01",
-     "schema_version": "0.17.2",
+     "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
       "regime": "Energy & Utilities",
@@ -7359,7 +7359,7 @@
       "access_clarity": 17.1
      },
      "scored_at": "2026-09-01",
-     "schema_version": "0.17.2",
+     "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
       "regime": "Energy & Utilities",
@@ -7411,7 +7411,7 @@
       "access_clarity": 17.1
      },
      "scored_at": "2026-09-01",
-     "schema_version": "0.17.2",
+     "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
       "regime": "Energy & Utilities",
@@ -7463,7 +7463,7 @@
       "access_clarity": 21.1
      },
      "scored_at": "2026-09-01",
-     "schema_version": "0.17.2",
+     "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
       "regime": "Health",
@@ -7514,7 +7514,7 @@
       "access_clarity": 10.5
      },
      "scored_at": "2026-09-01",
-     "schema_version": "0.17.2",
+     "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -7559,7 +7559,7 @@
       "access_clarity": 10.5
      },
      "scored_at": "2026-09-01",
-     "schema_version": "0.17.2",
+     "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -7604,7 +7604,7 @@
       "access_clarity": 10.5
      },
      "scored_at": "2026-09-01",
-     "schema_version": "0.17.2",
+     "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -7649,7 +7649,7 @@
       "access_clarity": 10.5
      },
      "scored_at": "2026-09-01",
-     "schema_version": "0.17.2",
+     "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -7694,7 +7694,7 @@
       "access_clarity": 10.5
      },
      "scored_at": "2026-09-01",
-     "schema_version": "0.17.2",
+     "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -7738,7 +7738,7 @@
       "access_clarity": 10.5
      },
      "scored_at": "2026-09-01",
-     "schema_version": "0.17.2",
+     "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -7783,7 +7783,7 @@
       "access_clarity": 10.5
      },
      "scored_at": "2026-09-01",
-     "schema_version": "0.17.2",
+     "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -7827,7 +7827,7 @@
       "access_clarity": 10.5
      },
      "scored_at": "2026-09-01",
-     "schema_version": "0.17.2",
+     "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -7871,7 +7871,7 @@
       "access_clarity": 17.1
      },
      "scored_at": "2026-09-01",
-     "schema_version": "0.17.2",
+     "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
       "regime": "Health",
@@ -7923,7 +7923,7 @@
       "access_clarity": 21.1
      },
      "scored_at": "2026-09-01",
-     "schema_version": "0.17.2",
+     "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
       "regime": "Health",
@@ -7975,7 +7975,7 @@
       "access_clarity": 10.5
      },
      "scored_at": "2026-09-01",
-     "schema_version": "0.17.2",
+     "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
       "regime": "Education & Research",
@@ -8027,7 +8027,7 @@
       "access_clarity": 10.5
      },
      "scored_at": "2026-09-01",
-     "schema_version": "0.17.2",
+     "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -8072,7 +8072,7 @@
       "access_clarity": 10.5
      },
      "scored_at": "2026-09-01",
-     "schema_version": "0.17.2",
+     "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
       "regime": "Energy & Utilities",
@@ -8124,7 +8124,7 @@
       "access_clarity": 10.5
      },
      "scored_at": "2026-09-01",
-     "schema_version": "0.17.2",
+     "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
       "regime": "Energy & Utilities",
@@ -8176,7 +8176,7 @@
       "access_clarity": 10.5
      },
      "scored_at": "2026-09-01",
-     "schema_version": "0.17.2",
+     "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
       "regime": "Health",
@@ -8228,7 +8228,7 @@
       "access_clarity": 0.0
      },
      "scored_at": "2026-09-01",
-     "schema_version": "0.17.2",
+     "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
       "regime": "Banking & Open Finance",
@@ -8280,7 +8280,7 @@
       "access_clarity": 10.5
      },
      "scored_at": "2026-09-01",
-     "schema_version": "0.17.2",
+     "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
       "regime": "Health",
@@ -8331,7 +8331,7 @@
       "access_clarity": 10.5
      },
      "scored_at": "2026-09-01",
-     "schema_version": "0.17.2",
+     "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
       "regime": "Health",
@@ -8383,7 +8383,7 @@
       "access_clarity": 10.5
      },
      "scored_at": "2026-09-01",
-     "schema_version": "0.17.2",
+     "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
       "regime": "Energy & Utilities",
@@ -8434,7 +8434,7 @@
       "access_clarity": 6.6
      },
      "scored_at": "2026-09-01",
-     "schema_version": "0.17.2",
+     "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -8478,7 +8478,7 @@
       "access_clarity": 10.5
      },
      "scored_at": "2026-09-01",
-     "schema_version": "0.17.2",
+     "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
       "regime": "Energy & Utilities",
@@ -8530,7 +8530,7 @@
       "access_clarity": 10.5
      },
      "scored_at": "2026-09-01",
-     "schema_version": "0.17.2",
+     "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
       "regime": "Insurance",
@@ -8581,7 +8581,7 @@
       "access_clarity": 6.6
      },
      "scored_at": "2026-09-01",
-     "schema_version": "0.17.2",
+     "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -8626,7 +8626,7 @@
       "access_clarity": 10.5
      },
      "scored_at": "2026-09-01",
-     "schema_version": "0.17.2",
+     "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
       "regime": "Energy & Utilities",
@@ -8678,7 +8678,7 @@
       "access_clarity": 0.0
      },
      "scored_at": "2026-09-01",
-     "schema_version": "0.17.2",
+     "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -8723,7 +8723,7 @@
       "access_clarity": 5.3
      },
      "scored_at": "2026-09-01",
-     "schema_version": "0.17.2",
+     "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -8767,7 +8767,7 @@
       "access_clarity": 0.0
      },
      "scored_at": "2026-09-01",
-     "schema_version": "0.17.2",
+     "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -8812,7 +8812,7 @@
       "access_clarity": 0.0
      },
      "scored_at": "2026-09-01",
-     "schema_version": "0.17.2",
+     "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -8857,7 +8857,7 @@
       "access_clarity": 0.0
      },
      "scored_at": "2026-09-01",
-     "schema_version": "0.17.2",
+     "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -8902,7 +8902,7 @@
       "access_clarity": 0.0
      },
      "scored_at": "2026-09-01",
-     "schema_version": "0.17.2",
+     "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -8947,7 +8947,7 @@
       "access_clarity": 10.5
      },
      "scored_at": "2026-09-01",
-     "schema_version": "0.17.2",
+     "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
       "regime": "Insurance",
@@ -8998,7 +8998,7 @@
       "access_clarity": 0.0
      },
      "scored_at": "2026-09-01",
-     "schema_version": "0.17.2",
+     "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -9042,7 +9042,7 @@
       "access_clarity": 0.0
      },
      "scored_at": "2026-09-01",
-     "schema_version": "0.17.2",
+     "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -9086,7 +9086,7 @@
       "access_clarity": 0.0
      },
      "scored_at": "2026-09-01",
-     "schema_version": "0.17.2",
+     "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -9130,7 +9130,7 @@
       "access_clarity": 0.0
      },
      "scored_at": "2026-09-01",
-     "schema_version": "0.17.2",
+     "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -9174,7 +9174,7 @@
       "access_clarity": 0.0
      },
      "scored_at": "2026-09-01",
-     "schema_version": "0.17.2",
+     "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -9219,7 +9219,7 @@
       "access_clarity": 10.5
      },
      "scored_at": "2026-09-01",
-     "schema_version": "0.17.2",
+     "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
       "regime": "Insurance",
@@ -9270,7 +9270,7 @@
       "access_clarity": 0.0
      },
      "scored_at": "2026-09-01",
-     "schema_version": "0.17.2",
+     "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
       "regime": "Energy & Utilities",
@@ -9321,7 +9321,7 @@
       "access_clarity": 0.0
      },
      "scored_at": "2026-09-01",
-     "schema_version": "0.17.2",
+     "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -9366,7 +9366,7 @@
       "access_clarity": 0.0
      },
      "scored_at": "2026-09-01",
-     "schema_version": "0.17.2",
+     "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -9410,7 +9410,7 @@
       "access_clarity": 0.0
      },
      "scored_at": "2026-09-01",
-     "schema_version": "0.17.2",
+     "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -9455,7 +9455,7 @@
       "access_clarity": 0.0
      },
      "scored_at": "2026-09-01",
-     "schema_version": "0.17.2",
+     "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -9499,7 +9499,7 @@
       "access_clarity": 0.0
      },
      "scored_at": "2026-09-01",
-     "schema_version": "0.17.2",
+     "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -9543,7 +9543,7 @@
       "access_clarity": 0.0
      },
      "scored_at": "2026-09-01",
-     "schema_version": "0.17.2",
+     "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -9588,7 +9588,7 @@
       "access_clarity": 0.0
      },
      "scored_at": "2026-09-01",
-     "schema_version": "0.17.2",
+     "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -9632,7 +9632,7 @@
       "access_clarity": 0.0
      },
      "scored_at": "2026-09-01",
-     "schema_version": "0.17.2",
+     "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -9676,7 +9676,7 @@
       "access_clarity": 0.0
      },
      "scored_at": "2026-09-01",
-     "schema_version": "0.17.2",
+     "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -9721,7 +9721,7 @@
       "access_clarity": 0.0
      },
      "scored_at": "2026-09-01",
-     "schema_version": "0.17.2",
+     "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -9765,7 +9765,7 @@
       "access_clarity": 0.0
      },
      "scored_at": "2026-09-01",
-     "schema_version": "0.17.2",
+     "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -9810,7 +9810,7 @@
       "access_clarity": 0.0
      },
      "scored_at": "2026-09-01",
-     "schema_version": "0.17.2",
+     "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -9854,7 +9854,7 @@
       "access_clarity": 0.0
      },
      "scored_at": "2026-09-01",
-     "schema_version": "0.17.2",
+     "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -9898,7 +9898,7 @@
       "access_clarity": 0.0
      },
      "scored_at": "2026-09-01",
-     "schema_version": "0.17.2",
+     "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -9942,7 +9942,7 @@
       "access_clarity": 6.6
      },
      "scored_at": "2026-09-01",
-     "schema_version": "0.17.2",
+     "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
       "regime": "Energy & Utilities",
@@ -9994,7 +9994,7 @@
       "access_clarity": 0.0
      },
      "scored_at": "2026-09-01",
-     "schema_version": "0.17.2",
+     "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
       "regime": "Health",
@@ -10045,7 +10045,7 @@
       "access_clarity": 0.0
      },
      "scored_at": "2026-09-01",
-     "schema_version": "0.17.2",
+     "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
       "regime": "Health",
@@ -10097,7 +10097,7 @@
       "access_clarity": 0.0
      },
      "scored_at": "2026-09-01",
-     "schema_version": "0.17.2",
+     "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
       "regime": "Health",
@@ -10149,7 +10149,7 @@
       "access_clarity": 0.0
      },
      "scored_at": "2026-09-01",
-     "schema_version": "0.17.2",
+     "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
       "regime": "Health",
@@ -10200,7 +10200,7 @@
       "access_clarity": 0.0
      },
      "scored_at": "2026-09-01",
-     "schema_version": "0.17.2",
+     "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
       "regime": "Health",
@@ -10252,7 +10252,7 @@
       "access_clarity": 0.0
      },
      "scored_at": "2026-09-01",
-     "schema_version": "0.17.2",
+     "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
       "regime": "Energy & Utilities",
@@ -10303,7 +10303,7 @@
       "access_clarity": 0.0
      },
      "scored_at": "2026-09-01",
-     "schema_version": "0.17.2",
+     "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
       "regime": "Health",
@@ -10354,7 +10354,7 @@
       "access_clarity": 0.0
      },
      "scored_at": "2026-09-01",
-     "schema_version": "0.17.2",
+     "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
       "regime": "Banking & Open Finance",
@@ -10406,7 +10406,7 @@
       "access_clarity": 0.0
      },
      "scored_at": "2026-09-01",
-     "schema_version": "0.17.2",
+     "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
       "regime": "Securities & Market Data",
@@ -10458,7 +10458,7 @@
       "access_clarity": 0.0
      },
      "scored_at": "2026-09-01",
-     "schema_version": "0.17.2",
+     "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
       "regime": "Payments",

@@ -986,34 +986,37 @@ rules:
     warn: 17
   slug: abstract-api-spectral-rules
 score:
-  band: developing
-  composite: 50.0
+  band: strong
+  composite: 57.8
   coverage:
     artifact_dirs: 30
-    catalog_gap: 38.5
+    catalog_gap: 20.5
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: 0.0
+  delta: 7.8
   facets:
-    access_clarity: 61.8
-    commercial_clarity: 61.8
+    access_clarity: 85.5
+    commercial_clarity: 85.5
     contract_governance: 47.0
     contract_quality: 31.2
     developer_ergonomics: 76.2
     discoverability: 75.9
     governance: 47.0
-    operational_transparency: 10.5
+    operational_transparency: 34.2
   previous_composite: 50.0
   provenance:
     agentic_access: derived
+    conformance: first-party
     contracts:
       callable: 100.0
-      derived: 14
+      derived: 28
       marker_coverage: 100.0
-      total: 14
-  schema_version: 0.17.2
+      total: 28
+    mcp: first-party
+    skills: first-party
+  schema_version: 0.18.0
   scored_at: '2026-09-01'
-  trend: flat
+  trend: rising
 screenshot: https://raw.githubusercontent.com/api-evangelist/abstract-api/refs/heads/main/screenshots/abstract-api-2026-06-20T163436.png
 security:
 - kind: authentication

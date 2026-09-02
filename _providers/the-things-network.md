@@ -12,10 +12,9 @@ access_model:
   try_now: true
 agent_readiness:
   band: agent-ready
-  band_gated_from: agent-native
   dimensions:
     agent_card: false
-    agent_skills: true
+    agent_skills: derived
     agentic_access: derived
     agentic_commerce: false
     auth_clarity: bearer
@@ -26,7 +25,7 @@ agent_readiness:
     error_semantics: documented
     event_surface_described: true
     idempotency: false
-    mcp_server: documented
+    mcp_server: false
     openapi_examples: documented
     protected_resource_metadata: false
     rate_limit_signal: documented
@@ -34,7 +33,7 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: true
   schema_version: 0.2
-  score: 39.9
+  score: 33.7
   scored_at: '2026-09-01'
 agentic_access:
 - acting_count: 174
@@ -1120,31 +1119,34 @@ scopes:
   summary_line: OAuth 2.0 · no documented scopes
 score:
   band: exemplar
-  composite: 78.1
+  composite: 76.8
   coverage:
     artifact_dirs: 35
     catalog_gap: 25.5
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: 0.0
+  delta: -1.3
   facets:
     access_clarity: 84.2
     commercial_clarity: 84.2
     contract_governance: 47.0
-    contract_quality: 73.4
-    developer_ergonomics: 90.5
+    contract_quality: 72.4
+    developer_ergonomics: 85.1
     discoverability: 72.2
     governance: 47.0
     operational_transparency: 92.1
   previous_composite: 78.1
   provenance:
     agentic_access: derived
+    conformance: first-party
     contracts:
       callable: 100.0
       derived: 0
       marker_coverage: 0.0
       total: 58
-  schema_version: 0.17.2
+    mcp: derived
+    skills: derived
+  schema_version: 0.18.0
   scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/the-things-network/refs/heads/main/screenshots/the-things-network-2026-06-20T195339.png

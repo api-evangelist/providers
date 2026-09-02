@@ -101,28 +101,22 @@ rules:
   slug: mango-markets-asyncapi-spectral-rules
 score:
   band: emerging
-  composite: 16.5
+  composite: 16.3
   coverage:
     artifact_dirs: 3
     catalog_gap: 73.5
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: 0.0
+  delta: -0.2
   facets:
     access_clarity: 0.0
     commercial_clarity: 0.0
     contract_governance: 13.6
-    contract_quality: 38.3
+    contract_quality: 37.5
     developer_ergonomics: 16.7
     discoverability: 68.5
     governance: 13.6
     operational_transparency: 2.6
-  needs_work:
-    note: Recorded so this provider's gaps can be attributed. Does not affect the composite above.
-    owner: catalog
-    reasons:
-    - owner: catalog
-      reason: not_a_repo
   previous_composite: 16.5
   regulatory:
     applies: true
@@ -130,7 +124,7 @@ score:
     regime: Securities & Market Data
     regime_id: securities_market_data
     score: 0.0
-  schema_version: 0.17.2
+  schema_version: 0.18.0
   scored_at: '2026-09-01'
   trend: flat
 slug: mango-markets

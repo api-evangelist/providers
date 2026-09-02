@@ -423,28 +423,22 @@ rules:
   slug: hasura-asyncapi-spectral-rules
 score:
   band: developing
-  composite: 53.3
+  composite: 53.1
   coverage:
     artifact_dirs: 15
     catalog_gap: 80.3
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: 0.0
+  delta: -0.2
   facets:
     access_clarity: 68.4
     commercial_clarity: 68.4
     contract_governance: 11.4
-    contract_quality: 57.5
+    contract_quality: 56.7
     developer_ergonomics: 59.5
     discoverability: 48.1
     governance: 11.4
     operational_transparency: 55.3
-  needs_work:
-    note: Recorded so this provider's gaps can be attributed. Does not affect the composite above.
-    owner: catalog
-    reasons:
-    - owner: catalog
-      reason: no_resolvable_host
   previous_composite: 53.3
   provenance:
     agentic_access: derived
@@ -453,7 +447,7 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 8
-  schema_version: 0.17.2
+  schema_version: 0.18.0
   scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/hasura/refs/heads/main/screenshots/hasura-2026-06-20T182534.png

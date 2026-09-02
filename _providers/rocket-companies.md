@@ -54,7 +54,6 @@ common:
   url: https://www.rocketcompanies.com/about
 created: '2026-05-04'
 description: Rocket Companies is a Detroit-based financial services firm that provides digital solutions for homeownership and personal finance. Its portfolio includes Rocket Mortgage for home loans, Rocket Homes for real estate search, and Rocket Money for personal finance management. Rocket Companies does not publish a public corporate developer API portal at the holding-company level.
-image: https://avatars.githubusercontent.com/u/api-evangelist
 layout: provider
 modified: '2026-05-04'
 name: Rocket Companies
@@ -64,24 +63,24 @@ overview: Rocket Companies is profiled on the [APIs.io](https://apis.io/) networ
 random_paper: 14
 score:
   band: minimal
-  composite: 4.4
+  composite: 4.1
   coverage:
     artifact_dirs: 3
-    catalog_gap: 91.0
+    catalog_gap: 93.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: 0.0
+  delta: -0.3
   facets:
     access_clarity: 0.0
     commercial_clarity: 0.0
     contract_governance: 0.0
     contract_quality: 0.0
     developer_ergonomics: 0.0
-    discoverability: 44.4
+    discoverability: 40.7
     governance: 0.0
     operational_transparency: 0.0
   previous_composite: 4.4
-  schema_version: 0.17.2
+  schema_version: 0.18.0
   scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/rocket-companies/refs/heads/main/screenshots/rocket-companies-2026-06-20T193150.png

@@ -205,19 +205,19 @@ overview: 'Miriel publishes 7 APIs on the [APIs.io](https://apis.io/) network, i
   Miriel''s developer surface includes documentation, API reference, engineering blog, signup flow, authentication, and 19 more developer resources.'
 random_paper: 12
 score:
-  band: thin
-  composite: 34.4
+  band: emerging
+  composite: 24.8
   coverage:
     artifact_dirs: 17
     catalog_gap: 75.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: 0.0
+  delta: -9.6
   facets:
     access_clarity: 13.2
     commercial_clarity: 13.2
     contract_governance: 4.5
-    contract_quality: 51.5
+    contract_quality: 12.9
     developer_ergonomics: 49.4
     discoverability: 81.5
     governance: 4.5
@@ -228,14 +228,14 @@ score:
     conformance: derived
     contracts:
       callable: 100.0
-      derived: 0
-      marker_coverage: 0.0
-      total: 7
+      derived: 8
+      marker_coverage: 100.0
+      total: 8
     mcp: derived
     skills: derived
-  schema_version: 0.17.2
+  schema_version: 0.18.0
   scored_at: '2026-09-01'
-  trend: flat
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/miriel/refs/heads/main/screenshots/miriel-2026-08-07T183723.png
 security:
 - kind: authentication

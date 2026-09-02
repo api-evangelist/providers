@@ -12,10 +12,10 @@ access_model:
   trial: true
   try_now: true
 agent_readiness:
-  band: agent-native
+  band: agent-ready
   dimensions:
     agent_card: false
-    agent_skills: true
+    agent_skills: derived
     agentic_access: derived
     agentic_commerce: false
     auth_clarity: bearer
@@ -34,7 +34,7 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 39.4
+  score: 33.3
   scored_at: '2026-09-01'
 agentic_access:
 - acting_count: 0
@@ -230,37 +230,34 @@ rate_limits:
   slug: serpwow-rate-limits
 score:
   band: strong
-  composite: 56.1
+  composite: 61.0
   coverage:
     artifact_dirs: 24
-    catalog_gap: 69.0
+    catalog_gap: 51.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: 0.0
+  delta: 4.9
   facets:
-    access_clarity: 55.3
-    commercial_clarity: 55.3
-    contract_governance: 18.2
-    contract_quality: 53.7
-    developer_ergonomics: 78.6
+    access_clarity: 78.9
+    commercial_clarity: 78.9
+    contract_governance: 4.5
+    contract_quality: 53.0
+    developer_ergonomics: 73.2
     discoverability: 75.9
-    governance: 18.2
-    operational_transparency: 47.4
-  needs_work:
-    note: Recorded so this provider's gaps can be attributed. Does not affect the composite above.
-    owner: catalog
-    reasons:
-    - owner: catalog
-      reason: no_resolvable_host
+    governance: 4.5
+    operational_transparency: 71.1
   previous_composite: 56.1
   provenance:
     agentic_access: derived
+    conformance: derived
     contracts:
       callable: 100.0
       derived: 0
       marker_coverage: 0.0
       total: 1
-  schema_version: 0.17.2
+    mcp: derived
+    skills: derived
+  schema_version: 0.18.0
   scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/serpwow/refs/heads/main/screenshots/serpwow-2026-06-20T193727.png

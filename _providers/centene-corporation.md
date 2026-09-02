@@ -80,12 +80,6 @@ score:
     discoverability: 44.4
     governance: 0.0
     operational_transparency: 2.6
-  needs_work:
-    note: Recorded so this provider's gaps can be attributed. Does not affect the composite above.
-    owner: catalog
-    reasons:
-    - owner: catalog
-      reason: not_a_repo
   previous_composite: 2.1
   regulatory:
     applies: true
@@ -93,7 +87,7 @@ score:
     regime: Insurance
     regime_id: insurance
     score: 9.1
-  schema_version: 0.17.2
+  schema_version: 0.18.0
   scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/centene-corporation/refs/heads/main/screenshots/centene-corporation-2026-06-20T174121.png

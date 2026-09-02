@@ -302,10 +302,10 @@ score:
     agentic_access: derived
     conformance: first-party
     contracts:
-      callable: 75.0
+      callable: 100.0
       derived: 0
       marker_coverage: 0.0
-      total: 4
+      total: 2
     mcp: first-party
     skills: derived
   regulatory:
@@ -314,7 +314,7 @@ score:
     regime: Health
     regime_id: health
     score: 73.8
-  schema_version: 0.17.2
+  schema_version: 0.18.0
   scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/b-well/refs/heads/main/screenshots/b-well-2026-08-07T162052.png

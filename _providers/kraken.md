@@ -1495,18 +1495,18 @@ rules:
   slug: kraken-rules
 score:
   band: exemplar
-  composite: 72.2
+  composite: 72.1
   coverage:
     artifact_dirs: 32
     catalog_gap: 27.5
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: 0.0
+  delta: -0.1
   facets:
     access_clarity: 92.1
     commercial_clarity: 92.1
     contract_governance: 33.3
-    contract_quality: 34.2
+    contract_quality: 33.8
     developer_ergonomics: 92.9
     discoverability: 88.9
     governance: 33.3
@@ -1517,9 +1517,9 @@ score:
     conformance: derived
     contracts:
       callable: 100.0
-      derived: 12
+      derived: 14
       marker_coverage: 100.0
-      total: 12
+      total: 14
     mcp: first-party
   regulatory:
     applies: true
@@ -1527,7 +1527,7 @@ score:
     regime: Securities & Market Data
     regime_id: securities_market_data
     score: 83.3
-  schema_version: 0.17.2
+  schema_version: 0.18.0
   scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/kraken/refs/heads/main/screenshots/kraken-2026-06-20T184148.png

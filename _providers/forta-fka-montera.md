@@ -98,7 +98,7 @@ score:
     regime: Health
     regime_id: health
     score: 17.5
-  schema_version: 0.17.2
+  schema_version: 0.18.0
   scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/forta-fka-montera/refs/heads/main/screenshots/forta-fka-montera-2026-07-25T214956.png

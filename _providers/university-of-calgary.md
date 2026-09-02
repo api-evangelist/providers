@@ -354,40 +354,41 @@ rules:
     warn: 3
   slug: university-of-calgary-rules
 score:
-  band: developing
-  composite: 47.3
+  band: thin
+  composite: 36.1
   coverage:
     artifact_dirs: 17
     catalog_gap: 42.8
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: 0.0
+  delta: -11.2
   facets:
     access_clarity: 28.9
     commercial_clarity: 28.9
-    contract_governance: 43.2
-    contract_quality: 59.1
+    contract_governance: 29.5
+    contract_quality: 20.8
     developer_ergonomics: 35.7
     discoverability: 68.5
-    governance: 43.2
+    governance: 29.5
     operational_transparency: 23.7
   previous_composite: 47.3
   provenance:
     agentic_access: derived
+    conformance: derived
     contracts:
       callable: 100.0
-      derived: 0
-      marker_coverage: 0.0
-      total: 14
+      derived: 15
+      marker_coverage: 100.0
+      total: 15
   regulatory:
     applies: true
     matched_via: tags
     regime: Education & Research
     regime_id: education
     score: 57.4
-  schema_version: 0.17.2
+  schema_version: 0.18.0
   scored_at: '2026-09-01'
-  trend: flat
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/university-of-calgary/refs/heads/main/screenshots/university-of-calgary-2026-06-20T200144.png
 security:
 - kind: authentication

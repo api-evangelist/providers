@@ -100,7 +100,7 @@ score:
     regime: Energy & Utilities
     regime_id: energy_utilities
     score: 5.4
-  schema_version: 0.17.2
+  schema_version: 0.18.0
   scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/ayr-energy/refs/heads/main/screenshots/ayr-energy-2026-07-25T202111.png

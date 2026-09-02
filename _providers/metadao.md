@@ -184,7 +184,7 @@ score:
       callable: 100.0
       derived: 0
       marker_coverage: 0.0
-      total: 4
+      total: 5
     mcp: derived
     skills: derived
   regulatory:
@@ -193,7 +193,7 @@ score:
     regime: Securities & Market Data
     regime_id: securities_market_data
     score: 28.3
-  schema_version: 0.17.2
+  schema_version: 0.18.0
   scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/metadao/refs/heads/main/screenshots/metadao-2026-08-07T172641.png

@@ -94,7 +94,7 @@ score:
     regime: Insurance
     regime_id: insurance
     score: 15.2
-  schema_version: 0.17.2
+  schema_version: 0.18.0
   scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/evolutioniq/refs/heads/main/screenshots/evolutioniq-2026-07-25T213808.png

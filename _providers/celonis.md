@@ -382,18 +382,18 @@ scopes:
   summary_line: 2 scopes
 score:
   band: strong
-  composite: 63.3
+  composite: 62.6
   coverage:
     artifact_dirs: 24
     catalog_gap: 75.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: 0.0
+  delta: -0.7
   facets:
     access_clarity: 60.5
     commercial_clarity: 60.5
     contract_governance: 18.2
-    contract_quality: 69.5
+    contract_quality: 66.6
     developer_ergonomics: 85.1
     discoverability: 81.5
     governance: 18.2
@@ -403,13 +403,13 @@ score:
     agentic_access: derived
     conformance: first-party
     contracts:
-      callable: 100.0
+      callable: 41.2
       derived: 0
       marker_coverage: 0.0
       total: 17
     mcp: first-party
     skills: derived
-  schema_version: 0.17.2
+  schema_version: 0.18.0
   scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/celonis/refs/heads/main/screenshots/celonis-2026-07-25T204910.png

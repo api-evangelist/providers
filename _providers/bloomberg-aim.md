@@ -1117,18 +1117,18 @@ scopes:
   summary_line: 3 scopes · clientCredentials
 score:
   band: developing
-  composite: 51.1
+  composite: 50.6
   coverage:
     artifact_dirs: 19
     catalog_gap: 63.5
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: 0.0
+  delta: -0.5
   facets:
     access_clarity: 34.2
     commercial_clarity: 34.2
     contract_governance: 13.6
-    contract_quality: 63.3
+    contract_quality: 61.3
     developer_ergonomics: 66.7
     discoverability: 64.8
     governance: 13.6
@@ -1140,7 +1140,7 @@ score:
   provenance:
     agentic_access: derived
     contracts:
-      callable: 100.0
+      callable: 41.2
       derived: 0
       marker_coverage: 0.0
       total: 17
@@ -1150,7 +1150,7 @@ score:
     regime: Securities & Market Data
     regime_id: securities_market_data
     score: 78.3
-  schema_version: 0.17.2
+  schema_version: 0.18.0
   scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/bloomberg-aim/refs/heads/main/screenshots/bloomberg-aim-2026-06-20T173406.png

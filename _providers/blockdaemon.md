@@ -421,18 +421,18 @@ rules:
   slug: blockdaemon-jsonschema-spectral-rules
 score:
   band: developing
-  composite: 47.5
+  composite: 47.4
   coverage:
     artifact_dirs: 11
     catalog_gap: 36.8
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: 0.0
+  delta: -0.1
   facets:
     access_clarity: 68.4
     commercial_clarity: 68.4
     contract_governance: 25.0
-    contract_quality: 17.3
+    contract_quality: 16.9
     developer_ergonomics: 52.4
     discoverability: 64.8
     governance: 25.0
@@ -444,7 +444,7 @@ score:
     regime: Payments
     regime_id: payments
     score: 46.9
-  schema_version: 0.17.2
+  schema_version: 0.18.0
   scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/blockdaemon/refs/heads/main/screenshots/blockdaemon-2026-06-20T173357.png

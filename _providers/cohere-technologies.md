@@ -106,7 +106,7 @@ score:
     regime: Telecommunications
     regime_id: telecommunications
     score: 13.9
-  schema_version: 0.17.2
+  schema_version: 0.18.0
   scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/cohere-technologies/refs/heads/main/screenshots/cohere-technologies-2026-07-25T210017.png

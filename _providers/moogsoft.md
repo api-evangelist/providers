@@ -15,7 +15,7 @@ agent_readiness:
   band: agent-ready
   dimensions:
     agent_card: false
-    agent_skills: true
+    agent_skills: derived
     agentic_access: false
     agentic_commerce: false
     auth_clarity: bearer
@@ -34,7 +34,7 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 37.6
+  score: 32.3
   scored_at: '2026-09-01'
 api_count: 17
 apis:
@@ -274,24 +274,33 @@ rate_limits:
   slug: moogsoft-rate-limits
 score:
   band: strong
-  composite: 58.7
+  composite: 58.2
   coverage:
     artifact_dirs: 22
     catalog_gap: 72.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: 0.0
+  delta: -0.5
   facets:
     access_clarity: 51.3
     commercial_clarity: 51.3
     contract_governance: 18.2
-    contract_quality: 61.0
-    developer_ergonomics: 78.6
+    contract_quality: 63.4
+    developer_ergonomics: 73.2
     discoverability: 74.1
     governance: 18.2
     operational_transparency: 60.5
   previous_composite: 58.7
-  schema_version: 0.17.2
+  provenance:
+    conformance: first-party
+    contracts:
+      callable: 94.1
+      derived: 0
+      marker_coverage: 0.0
+      total: 17
+    mcp: derived
+    skills: derived
+  schema_version: 0.18.0
   scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/moogsoft/refs/heads/main/screenshots/moogsoft-2026-06-20T185754.png

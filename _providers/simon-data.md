@@ -347,18 +347,18 @@ scopes:
   summary_line: OAuth 2.0 · no documented scopes
 score:
   band: strong
-  composite: 65.0
+  composite: 64.7
   coverage:
     artifact_dirs: 31
     catalog_gap: 39.8
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: 0.0
+  delta: -0.3
   facets:
     access_clarity: 82.9
     commercial_clarity: 82.9
     contract_governance: 29.5
-    contract_quality: 76.9
+    contract_quality: 75.8
     developer_ergonomics: 44.6
     discoverability: 81.5
     governance: 29.5
@@ -374,7 +374,7 @@ score:
       total: 2
     mcp: first-party
     skills: derived
-  schema_version: 0.17.2
+  schema_version: 0.18.0
   scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/simon-data/refs/heads/main/screenshots/simon-data-2026-06-20T193927.png

@@ -224,40 +224,40 @@ scopes:
   slug: maastricht-scopes
   summary_line: 10 scopes
 score:
-  band: developing
-  composite: 47.1
+  band: thin
+  composite: 38.3
   coverage:
     artifact_dirs: 15
     catalog_gap: 56.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: 0.0
+  delta: -8.8
   facets:
     access_clarity: 50.0
     commercial_clarity: 50.0
     contract_governance: 15.2
-    contract_quality: 51.0
+    contract_quality: 15.6
     developer_ergonomics: 28.6
     discoverability: 64.8
     governance: 15.2
     operational_transparency: 23.7
   previous_composite: 47.1
   provenance:
-    agentic_access: derived
+    conformance: first-party
     contracts:
       callable: 100.0
-      derived: 0
-      marker_coverage: 0.0
-      total: 36
+      derived: 2
+      marker_coverage: 100.0
+      total: 2
   regulatory:
     applies: true
     matched_via: tags
     regime: Education & Research
     regime_id: education
     score: 75.9
-  schema_version: 0.17.2
+  schema_version: 0.18.0
   scored_at: '2026-09-01'
-  trend: flat
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/maastricht/refs/heads/main/screenshots/maastricht-2026-06-20T184821.png
 security:
 - kind: authentication

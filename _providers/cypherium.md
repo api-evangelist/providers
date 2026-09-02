@@ -113,7 +113,7 @@ score:
   previous_composite: 13.9
   provenance:
     conformance: first-party
-  schema_version: 0.17.2
+  schema_version: 0.18.0
   scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/cypherium/refs/heads/main/screenshots/cypherium-2026-07-25T211054.png

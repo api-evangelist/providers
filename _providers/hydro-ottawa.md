@@ -208,9 +208,9 @@ score:
     conformance: derived
     contracts:
       callable: 0.0
-      derived: 1
+      derived: 4
       marker_coverage: 100.0
-      total: 1
+      total: 4
     skills: derived
   regulatory:
     applies: true
@@ -218,7 +218,7 @@ score:
     regime: Energy & Utilities
     regime_id: energy_utilities
     score: 56.8
-  schema_version: 0.17.2
+  schema_version: 0.18.0
   scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/hydro-ottawa/refs/heads/main/screenshots/hydro-ottawa-2026-08-07T170509.png

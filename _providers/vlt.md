@@ -208,7 +208,7 @@ score:
   previous_composite: 45.2
   provenance:
     conformance: first-party
-  schema_version: 0.17.2
+  schema_version: 0.18.0
   scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/vlt/refs/heads/main/screenshots/vlt-2026-08-17T082814.png

@@ -119,7 +119,25 @@ apis:
 - description: worker resource
   name: Emory University worker API
   slug: emory-worker-api
-artifact_total: 69
+- description: The Emory Libraries Digital Library Program discovery layer (dlp-lux) exposes its Blacklight search index as a JSON:API document at /catalog.json. Query, paginate and read digital collection records —
+  name: Emory Digital Library Program Search API (Blacklight JSON:API)
+  slug: dlp-lux-search
+- description: OpenEmory is Emory's open-access institutional repository, running Samvera Hyrax 5.2.0 on Emory infrastructure. It publishes a ResourceSync source description at /.well-known/resourcesync and a capabi
+  name: OpenEmory Repository (Samvera Hyrax / ResourceSync)
+  slug: openemory-resourcesync
+- description: Emory's Shibboleth identity provider is registered in the InCommon federation and is therefore resolvable through the InCommon Metadata Query service and, by InCommon's eduGAIN interfederation, intern
+  name: Emory in the InCommon Identity Federation
+  slug: incommon-federation
+- description: Emory University is registered in ROR, the open registry of research organization identifiers, under ROR ID 03czfpz43. The registry is shared because every research organization is in it — that is a f
+  name: Emory University in the Research Organization Registry (ROR)
+  slug: ror-registration
+- description: 'Library discovery and catalog search for Emory Libraries runs on Ex Libris Primo VE. The Emory entry point search.library.emory.edu redirects to the vendor''s hosted view. The collections and holdings '
+  name: Emory Libraries Discovery (Ex Libris Primo VE)
+  slug: primo-discovery
+- description: Course Atlas is Emory's published course catalog and class schedule. It is a CourseLeaf (Leepfrog Technologies) tenancy on an Emory hostname. The catalog content is Emory's; the application and any AP
+  name: Emory Course Atlas (CourseLeaf)
+  slug: course-atlas
+artifact_total: 75
 collections:
 - collection_type: open
   name: API Collection
@@ -251,8 +269,45 @@ common:
   title: ''
   type: Review
   url: review.yml
+- group: other
+  title: ''
+  type: ResearchRepository
+  url: https://open.library.emory.edu/
+- group: build
+  title: ''
+  type: LibraryCatalog
+  url: https://search.library.emory.edu/
+- group: learn
+  title: ''
+  type: CourseCatalog
+  url: https://atlas.emory.edu/
+- group: other
+  title: ''
+  type: IdentityFederation
+  url: https://login.emory.edu/idp/shibboleth
+- group: other
+  title: ''
+  type: OpenData
+  url: https://digital.library.emory.edu/catalog.json
+- group: design
+  title: ''
+  type: Conformance
+  url: conformance/emory-conformance.yml
+- group: design
+  title: ''
+  type: Lifecycle
+  url: lifecycle/emory-digital-slide-archive-lifecycle.yml
+- group: company
+  title: ''
+  type: Blog
+  url: https://emory-libraries.github.io/
+- group: operate
+  title: ''
+  type: Support
+  url: https://it.emory.edu/support/index.html
 created: '2026-06-03'
-description: 'Emory University is a private research university in Atlanta, Georgia, United States, ranked #196 in the QS World University Rankings 2025. Its public developer and API footprint is modest and largely tied to the libraries and research-computing units rather than a central developer portal. The most visible programmatic surfaces are the Emory Libraries open-source GitHub organization (digital-repository software built on the Samvera/Hyrax stack), a public Digital Slide Archive REST API operated by Emory''s biomedical imaging group, federated Shibboleth/SAML identity, and the Instructure Canvas LMS REST API exposed at the institution''s Canvas instance. Most institutional systems (OPUS student information, Course Atlas) are gated, browser-based applications without documented public APIs.'
+description: 'Emory University is a private research university in Atlanta, Georgia, and a member of the Association of American Universities. Its programmable footprint is small, federated across units, and — as of the 2026-09-01 re-profile — partly retired. Emory operates no central developer portal and no public course, campus or open-data API. The surfaces it genuinely runs itself are: a Shibboleth/SAML identity provider at login.emory.edu, registered in InCommon and reachable through eduGAIN, which is the strongest machine-readable thing the institution publishes; two Emory Libraries applications built on the division''s own open-source Rails code (a Blacklight JSON:API search endpoint at digital.library.emory.edu and a Samvera Hyrax repository at open.library.emory.edu that exposes a ResourceSync capability list); and a large public GitHub organization, emory-libraries, holding the Hyrax/Samvera software those systems run on. The Girder-based Digital Slide Archive REST API at computablebrain.emory.edu
+  was Emory-operated and is the source of the 22 OpenAPI contracts held here, but the host now serves a stock nginx page and refuses TLS; those contracts are kept as a retired, correctly attributed Emory surface. Everything else that looks like an Emory API is a tenancy: Canvas on Instructure, library discovery on Ex Libris Primo, and the Course Atlas catalog on CourseLeaf.'
 examples:
 - key_count: 2
   name: Emory Get Item Example
@@ -303,17 +358,17 @@ jsonld:
   property_count: 9
   slug: emory-context
 layout: provider
-modified: '2026-06-03'
+modified: '2026-09-01'
 name: Emory University
 nav: Providers
 network: true
-overview: 'Emory University publishes 22 APIs on the [APIs.io](https://apis.io/) network, including annotation API, api_key API, assetstore API, and 19 more. Tagged areas include Education, Higher Education, University, Research, and Libraries.
+overview: 'Emory University publishes 22 APIs on the [APIs.io](https://apis.io/) network, including annotation API, api_key API, assetstore API, and 19 more. Tagged areas include University, Higher Education, Education, Private Research University, and Association of American Universities.
 
 
   The Emory University catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  Emory University''s developer surface includes authentication, GitHub presence, and 13 more developer resources.'
+  Emory University''s developer surface includes authentication, GitHub presence, engineering blog, support, and 20 more developer resources.'
 plans:
 - name: Emory Plans Pricing
   plan_count: 2
@@ -346,20 +401,20 @@ rules:
   slug: emory-rules
 score:
   band: thin
-  composite: 38.4
+  composite: 39.2
   coverage:
-    artifact_dirs: 15
-    catalog_gap: 46.8
+    artifact_dirs: 17
+    catalog_gap: 49.8
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: 0.0
+  delta: 0.8
   facets:
     access_clarity: 28.9
     commercial_clarity: 28.9
     contract_governance: 9.8
-    contract_quality: 58.7
-    developer_ergonomics: 31.0
-    discoverability: 59.3
+    contract_quality: 58.8
+    developer_ergonomics: 38.1
+    discoverability: 53.7
     governance: 9.8
     operational_transparency: 42.1
   open_source:
@@ -368,6 +423,7 @@ score:
   previous_composite: 38.4
   provenance:
     agentic_access: derived
+    conformance: first-party
     contracts:
       callable: 100.0
       derived: 0
@@ -379,7 +435,7 @@ score:
     regime: Education & Research
     regime_id: education
     score: 31.5
-  schema_version: 0.17.2
+  schema_version: 0.18.0
   scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/emory/refs/heads/main/screenshots/emory-2026-07-25T213244.png
@@ -394,12 +450,20 @@ security:
   summary_line: TLSv1.3 · HSTS · DMARC
 slug: emory
 tags:
-- Education
-- Higher Education
 - University
+- Higher Education
+- Education
+- Private Research University
+- Association of American Universities
+- United States
+- Georgia
+- Atlanta
 - Research
 - Libraries
-- United States
-- Atlanta
+- Research Repository
+- Library Catalog
+- Course Catalog
+- Identity Federation
+- Digital Pathology
 website: https://www.emory.edu/
 ---

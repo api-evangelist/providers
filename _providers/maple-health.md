@@ -130,7 +130,7 @@ score:
     regime: Health
     regime_id: health
     score: 31.3
-  schema_version: 0.17.2
+  schema_version: 0.18.0
   scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/maple-health/refs/heads/main/screenshots/maple-health-2026-07-25T230125.png

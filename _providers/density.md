@@ -171,18 +171,18 @@ overview: 'Density publishes 1 API on the [APIs.io](https://apis.io/) network. T
 random_paper: 12
 score:
   band: developing
-  composite: 40.5
+  composite: 40.3
   coverage:
     artifact_dirs: 14
     catalog_gap: 78.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: 0.0
+  delta: -0.2
   facets:
     access_clarity: 31.6
     commercial_clarity: 31.6
     contract_governance: 4.5
-    contract_quality: 42.7
+    contract_quality: 41.6
     developer_ergonomics: 54.8
     discoverability: 75.9
     governance: 4.5
@@ -191,7 +191,7 @@ score:
   provenance:
     conformance: derived
     mcp: derived
-  schema_version: 0.17.2
+  schema_version: 0.18.0
   scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/density/refs/heads/main/screenshots/density-2026-07-25T211718.png

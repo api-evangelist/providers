@@ -153,7 +153,7 @@ score:
     regime: Insurance
     regime_id: insurance
     score: 39.4
-  schema_version: 0.17.2
+  schema_version: 0.18.0
   scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/kalepa/refs/heads/main/screenshots/kalepa-2026-07-25T223430.png

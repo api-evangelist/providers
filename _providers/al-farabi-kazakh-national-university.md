@@ -185,7 +185,19 @@ apis:
 - description: The xblock API from Al-Farabi Kazakh National University — 10 operation(s) for xblock.
   name: Al-Farabi Kazakh National University xblock API
   slug: al-farabi-kazakh-national-university-xblock-api
-artifact_total: 115
+- description: Seven OAI-PMH 2.0 metadata harvesting endpoints operated by Al-Farabi Kazakh National University on its own kaznu.kz hosts, one per Bulletin (Vestnik) journal series — Economic, Law, Historical, Physi
+  name: KazNU Bulletin OAI-PMH Repositories
+  slug: kaznu-bulletin-oai-pmh
+- description: The university's distance-learning platform runs Moodle at dl.kaznu.edu.kz, on the institution's own kaznu.edu.kz domain, with the Moodle Web Services REST endpoint enabled — an unauthenticated reques
+  name: KazNU Distance Learning (Moodle) Web Services
+  slug: kaznu-moodle-web-services
+- description: Al-Farabi Kazakh National University is a Crossref member in its own name (member 11115) and registers DOIs for its Bulletin journal series under its own prefix 10.26577, with 9,066 DOIs deposited. Th
+  name: Crossref Membership — al-Farabi Kazakh National University
+  slug: crossref-membership
+- description: The institution's Research Organization Registry identifier, ror.org/03q0vrn42, cross-walked to Crossref Funder ID 501100016254, GRID grid.77184.3d, ISNI 0000 0000 8887 5266 and Wikidata Q427677. A re
+  name: ROR Registration — Al-Farabi Kazakh National University
+  slug: ror-registration
+artifact_total: 119
 collections:
 - collection_type: open
   name: API Collection
@@ -352,14 +364,46 @@ common:
   title: ''
   type: Website
   url: https://farabi.university/?lang=en
-- group: company
-  title: ''
-  type: Website
-  url: https://www.kaznu.kz/en
 - group: start
   title: ''
   type: DeveloperPortal
   url: https://open.kaznu.kz/
+- group: docs
+  title: ''
+  type: APIReference
+  url: https://open.kaznu.kz/api-docs/
+- group: docs
+  title: ''
+  type: OpenAPI
+  url: https://open.kaznu.kz/swagger.json
+- group: learn
+  title: ''
+  type: CourseCatalog
+  url: https://open.kaznu.kz/courses
+- group: other
+  title: ''
+  type: ResearchRepository
+  url: https://be.kaznu.kz/index.php/math/en
+- group: build
+  title: ''
+  type: LibraryCatalog
+  url: https://lib.kaznu.kz/
+- group: commercial
+  title: ''
+  type: TermsOfService
+  url: https://open.kaznu.kz/tos
+- group: commercial
+  title: ''
+  type: PrivacyPolicy
+  url: https://open.kaznu.kz/privacy
+- group: operate
+  title: ''
+  type: Support
+  url: https://open.kaznu.kz/contact
+- group: design
+  title: ''
+  type: Conformance
+  url: conformance/al-farabi-kazakh-national-university-conformance.yml
 - group: build
   title: ''
   type: SourceCode
@@ -385,7 +429,8 @@ common:
   type: Review
   url: review.yml
 created: '2026-06-03'
-description: 'Al-Farabi Kazakh National University (KazNU) is the leading public research university in Kazakhstan, headquartered in Almaty, and is ranked #163 in the QS World University Rankings 2025. The institution operates a public web presence across kaznu.kz and farabi.university, an electronic library portal (elibrary.kaznu.kz), and an open courseware / MOOC platform (open.kaznu.kz). As of this review no public, documented developer portal or open API was found; the institution''s digital footprint is primarily web properties and internal information systems, so this profile catalogs the verified public properties rather than any open developer endpoints.'
+description: 'Al-Farabi Kazakh National University (KazNU) is Kazakhstan''s leading public research university, founded in 1934 in Almaty and ranked in the QS World University Rankings top 200. Unlike most of this cohort, KazNU does operate a genuine institution-owned programmable surface: a self-hosted Open edX platform at open.kaznu.kz that publishes a live Swagger 2.0 contract covering 284 paths across 47 service groups, including a publicly readable course catalog (510 courses, no authentication required) and LTI 1.3 Advantage grade and roster services. The deployment carries the institution''s own contact address (dl@kaznu.kz) and a KazNU-specific `univertest` service group, so it is their operation and not a vendor tenancy. Alongside it the university runs seven Open Journal Systems OAI-PMH repositories for its Bulletin (Vestnik) journal series on kaznu.kz hosts, a Moodle distance-learning platform with web services enabled at dl.kaznu.edu.kz, an IRBIS library catalog at lib.kaznu.kz,
+  and a Crossref membership under its own DOI prefix 10.26577. What KazNU does not have is a developer program: there is no developer portal, no published authentication guide, no rate-limit or terms-of-use document for the APIs, no SDKs, and no identity-federation metadata — Kazakhstan has no eduGAIN-participating federation. The main www.kaznu.kz site has additionally been serving an expired TLS certificate since May 2026. The programmable footprint here is real but accidental: it is what the software they installed happens to expose, published without any surrounding developer contract.'
 examples:
 - key_count: 2
   name: Al Farabi Kazakh National University Create Enrollment Example
@@ -433,7 +478,7 @@ jsonld:
   property_count: 5
   slug: al-farabi-kazakh-national-university-context
 layout: provider
-modified: '2026-06-03'
+modified: '2026-09-01'
 name: Al-Farabi Kazakh National University
 nav: Providers
 network: true
@@ -443,7 +488,7 @@ overview: 'Al-Farabi Kazakh National University publishes 47 APIs on the [APIs.i
   The Al-Farabi Kazakh National University catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  Al-Farabi Kazakh National University''s developer surface includes authentication and 12 more developer resources.'
+  Al-Farabi Kazakh National University''s developer surface includes authentication, API reference, support, and 18 more developer resources.'
 plans:
 - name: Al Farabi Kazakh National University Plans Pricing
   plan_count: 2
@@ -475,26 +520,27 @@ rules:
     warn: 3
   slug: al-farabi-kazakh-national-university-rules
 score:
-  band: thin
-  composite: 33.5
+  band: developing
+  composite: 41.0
   coverage:
-    artifact_dirs: 16
-    catalog_gap: 53.8
+    artifact_dirs: 17
+    catalog_gap: 63.8
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: 0.0
+  delta: 7.5
   facets:
-    access_clarity: 28.9
-    commercial_clarity: 28.9
+    access_clarity: 50.0
+    commercial_clarity: 50.0
     contract_governance: 9.8
-    contract_quality: 51.7
-    developer_ergonomics: 16.7
-    discoverability: 63.0
+    contract_quality: 53.6
+    developer_ergonomics: 28.6
+    discoverability: 44.4
     governance: 9.8
     operational_transparency: 26.3
   previous_composite: 33.5
   provenance:
     agentic_access: derived
+    conformance: derived
     contracts:
       callable: 100.0
       derived: 0
@@ -505,10 +551,10 @@ score:
     matched_via: tags
     regime: Education & Research
     regime_id: education
-    score: 31.5
-  schema_version: 0.17.2
+    score: 46.3
+  schema_version: 0.18.0
   scored_at: '2026-09-01'
-  trend: flat
+  trend: rising
 screenshot: https://raw.githubusercontent.com/api-evangelist/al-farabi-kazakh-national-university/refs/heads/main/screenshots/al-farabi-kazakh-national-university-2026-06-20T171458.png
 security:
 - kind: authentication
@@ -529,5 +575,13 @@ tags:
 - Open Education
 - Kazakhstan
 - Central Asia
+- Course Catalog
+- Learning Management
+- Open edX
+- MOOC
+- Scholarly Publishing
+- OAI-PMH
+- Open Access
+- Research Data
 website: https://farabi.university/?lang=en
 ---

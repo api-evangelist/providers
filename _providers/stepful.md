@@ -144,13 +144,15 @@ score:
     governance: 0.0
     operational_transparency: 2.6
   previous_composite: 17.1
+  provenance:
+    conformance: first-party
   regulatory:
     applies: true
     matched_via: tags
     regime: Education & Research
     regime_id: education
     score: 44.4
-  schema_version: 0.17.2
+  schema_version: 0.18.0
   scored_at: '2026-09-01'
   trend: flat
 security:

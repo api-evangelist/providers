@@ -117,37 +117,31 @@ rate_limits:
   slug: sparql-rate-limits
 score:
   band: emerging
-  composite: 25.8
+  composite: 25.3
   coverage:
     artifact_dirs: 9
     catalog_gap: 72.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: 0.0
+  delta: -0.5
   facets:
     access_clarity: 15.8
     commercial_clarity: 15.8
     contract_governance: 0.0
-    contract_quality: 58.4
+    contract_quality: 56.3
     developer_ergonomics: 0.0
     discoverability: 70.4
     governance: 0.0
     operational_transparency: 7.9
-  needs_work:
-    note: Recorded so this provider's gaps can be attributed. Does not affect the composite above.
-    owner: catalog
-    reasons:
-    - owner: catalog
-      reason: no_resolvable_host
   previous_composite: 25.8
   provenance:
     agentic_access: derived
     contracts:
-      callable: 100.0
+      callable: 40.0
       derived: 0
       marker_coverage: 0.0
       total: 5
-  schema_version: 0.17.2
+  schema_version: 0.18.0
   scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/sparql/refs/heads/main/screenshots/sparql-2026-06-20T194246.png

@@ -4319,7 +4319,7 @@ score:
     access_clarity: 57.9
     commercial_clarity: 57.9
     contract_governance: 13.6
-    contract_quality: 74.1
+    contract_quality: 73.9
     developer_ergonomics: 61.9
     discoverability: 48.1
     governance: 13.6
@@ -4328,11 +4328,11 @@ score:
   provenance:
     agentic_access: derived
     contracts:
-      callable: 100.0
+      callable: 94.4
       derived: 0
       marker_coverage: 0.0
       total: 36
-  schema_version: 0.17.2
+  schema_version: 0.18.0
   scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/snowflake/refs/heads/main/screenshots/snowflake-2026-06-20T194110.png

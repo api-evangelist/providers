@@ -399,10 +399,10 @@ score:
     agentic_access: derived
     conformance: derived
     contracts:
-      callable: 75.0
+      callable: 94.7
       derived: 0
       marker_coverage: 0.0
-      total: 4
+      total: 19
     mcp: derived
     skills: derived
   regulatory:
@@ -411,7 +411,7 @@ score:
     regime: Government & Public Sector
     regime_id: government
     score: 57.4
-  schema_version: 0.17.2
+  schema_version: 0.18.0
   scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/faa/refs/heads/main/screenshots/faa-2026-08-07T165207.png

@@ -521,18 +521,18 @@ overview: 'Weavr publishes 55 APIs on the [APIs.io](https://apis.io/) network, i
 random_paper: 3
 score:
   band: strong
-  composite: 59.9
+  composite: 60.0
   coverage:
     artifact_dirs: 23
     catalog_gap: 75.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: 0.0
+  delta: 0.1
   facets:
     access_clarity: 47.4
     commercial_clarity: 47.4
     contract_governance: 18.2
-    contract_quality: 55.6
+    contract_quality: 56.2
     developer_ergonomics: 76.2
     discoverability: 81.5
     governance: 18.2
@@ -545,7 +545,7 @@ score:
       callable: 100.0
       derived: 0
       marker_coverage: 0.0
-      total: 43
+      total: 55
     mcp: derived
     skills: first-party
   regulatory:
@@ -560,7 +560,7 @@ score:
     regime: Payments
     regime_id: payments
     score: 68.8
-  schema_version: 0.17.2
+  schema_version: 0.18.0
   scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/weavr/refs/heads/main/screenshots/weavr-2026-08-17T082854.png

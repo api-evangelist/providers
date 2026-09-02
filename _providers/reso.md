@@ -279,18 +279,18 @@ overview: 'RESO (Real Estate Standards Organization) publishes 2 APIs on the [AP
 random_paper: 0
 score:
   band: developing
-  composite: 43.7
+  composite: 43.5
   coverage:
     artifact_dirs: 21
     catalog_gap: 83.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: 0.0
+  delta: -0.2
   facets:
     access_clarity: 34.2
     commercial_clarity: 34.2
     contract_governance: 18.2
-    contract_quality: 42.7
+    contract_quality: 41.6
     developer_ergonomics: 80.4
     discoverability: 59.3
     governance: 18.2
@@ -303,7 +303,7 @@ score:
     conformance: first-party
     mcp: first-party
     skills: derived
-  schema_version: 0.17.2
+  schema_version: 0.18.0
   scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/reso/refs/heads/main/screenshots/reso-2026-08-17T081530.png

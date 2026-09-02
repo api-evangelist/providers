@@ -50,7 +50,6 @@ common:
   url: https://www.titanmachinery.com
 created: '2026-05-04'
 description: Titan Machinery Inc. owns and operates one of the largest networks of full-service agricultural and construction equipment dealer stores in North America and Europe. The company sells, services, and rents new and used Case IH, New Holland, Case Construction, and other branded equipment, along with parts and precision farming technology. Titan Machinery serves farmers, ranchers, and construction contractors across multiple states and countries.
-image: https://avatars.githubusercontent.com/u/api-evangelist
 layout: provider
 modified: '2026-05-04'
 name: Titan Machinery
@@ -60,24 +59,24 @@ overview: Titan Machinery is profiled on the [APIs.io](https://apis.io/) network
 random_paper: 16
 score:
   band: minimal
-  composite: 4.4
+  composite: 4.1
   coverage:
     artifact_dirs: 3
-    catalog_gap: 91.0
+    catalog_gap: 93.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: 0.0
+  delta: -0.3
   facets:
     access_clarity: 0.0
     commercial_clarity: 0.0
     contract_governance: 0.0
     contract_quality: 0.0
     developer_ergonomics: 0.0
-    discoverability: 44.4
+    discoverability: 40.7
     governance: 0.0
     operational_transparency: 0.0
   previous_composite: 4.4
-  schema_version: 0.17.2
+  schema_version: 0.18.0
   scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/titan-machinery/refs/heads/main/screenshots/titan-machinery-2026-06-20T195419.png

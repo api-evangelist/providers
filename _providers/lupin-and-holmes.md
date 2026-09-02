@@ -108,7 +108,7 @@ score:
     governance: 0.0
     operational_transparency: 7.9
   previous_composite: 10.7
-  schema_version: 0.17.2
+  schema_version: 0.18.0
   scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/lupin-and-holmes/refs/heads/main/screenshots/lupin-and-holmes-2026-07-25T225731.png

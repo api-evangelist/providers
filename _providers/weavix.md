@@ -243,7 +243,7 @@ score:
     access_clarity: 60.5
     commercial_clarity: 60.5
     contract_governance: 4.5
-    contract_quality: 21.8
+    contract_quality: 21.5
     developer_ergonomics: 58.9
     discoverability: 75.9
     governance: 4.5
@@ -259,7 +259,7 @@ score:
       total: 8
     mcp: derived
     skills: derived
-  schema_version: 0.17.2
+  schema_version: 0.18.0
   scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/weavix/refs/heads/main/screenshots/weavix-2026-08-17T082852.png

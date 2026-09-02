@@ -24,7 +24,7 @@ agent_readiness:
   schema_version: 0.2
   score: 48.8
   scored_at: '2026-09-01'
-api_count: 10
+api_count: 1
 apis:
 - description: Managed Cloud REST surface covering OAuth auth, a Proxy API to a Core instance, Data API, Filters API, Alerts API, and the MCP endpoint. Auth via API keys or OAuth.
   name: Blnk Cloud API
@@ -264,23 +264,32 @@ scopes:
   summary_line: 24 scopes
 score:
   band: exemplar
-  composite: 72.2
+  composite: 71.5
   coverage:
     artifact_dirs: 23
-    catalog_gap: 60.0
+    catalog_gap: 63.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: 0.0
+  delta: -0.7
   facets:
     access_clarity: 92.1
     commercial_clarity: 92.1
     contract_governance: 18.2
-    contract_quality: 51.2
+    contract_quality: 50.5
     developer_ergonomics: 85.7
-    discoverability: 72.2
+    discoverability: 66.7
     governance: 18.2
     operational_transparency: 65.8
   previous_composite: 72.2
+  provenance:
+    conformance: first-party
+    contracts:
+      callable: 0.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 8
+    mcp: first-party
+    skills: first-party
   regulatory:
     applies: true
     jurisdictions:
@@ -291,7 +300,7 @@ score:
     regime: Payments
     regime_id: payments
     score: 71.9
-  schema_version: 0.17.2
+  schema_version: 0.18.0
   scored_at: '2026-09-01'
   trend: flat
 security:

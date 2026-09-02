@@ -274,24 +274,24 @@ rules:
   slug: amqp-spectral-rules
 score:
   band: thin
-  composite: 29.3
+  composite: 29.1
   coverage:
     artifact_dirs: 12
     catalog_gap: 56.5
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: 0.0
+  delta: -0.2
   facets:
     access_clarity: 15.8
     commercial_clarity: 15.8
     contract_governance: 28.8
-    contract_quality: 51.1
+    contract_quality: 50.0
     developer_ergonomics: 9.5
     discoverability: 66.7
     governance: 28.8
     operational_transparency: 10.5
   previous_composite: 29.3
-  schema_version: 0.17.2
+  schema_version: 0.18.0
   scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/amqp/refs/heads/main/screenshots/amqp-2026-06-20T171940.png

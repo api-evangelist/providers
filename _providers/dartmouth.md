@@ -243,37 +243,37 @@ rules:
   slug: dartmouth-class-search-rules
 score:
   band: developing
-  composite: 46.0
+  composite: 44.7
   coverage:
     artifact_dirs: 15
-    catalog_gap: 50.5
+    catalog_gap: 54.3
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: 0.0
+  delta: -1.3
   facets:
     access_clarity: 39.5
     commercial_clarity: 39.5
-    contract_governance: 22.7
+    contract_governance: 11.4
     contract_quality: 61.2
     developer_ergonomics: 45.2
     discoverability: 59.3
-    governance: 22.7
+    governance: 11.4
     operational_transparency: 26.3
   previous_composite: 46.0
   provenance:
-    agentic_access: derived
+    conformance: first-party
     contracts:
       callable: 100.0
       derived: 0
-      marker_coverage: 0.0
-      total: 7
+      marker_coverage: 100.0
+      total: 1
   regulatory:
     applies: true
     matched_via: tags
     regime: Education & Research
     regime_id: education
     score: 38.9
-  schema_version: 0.17.2
+  schema_version: 0.18.0
   scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/dartmouth/refs/heads/main/screenshots/dartmouth-2026-07-25T211220.png

@@ -182,36 +182,32 @@ rate_limits:
   slug: seed-platform-rate-limits
 score:
   band: thin
-  composite: 34.3
+  composite: 39.1
   coverage:
     artifact_dirs: 12
-    catalog_gap: 74.0
+    catalog_gap: 65.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: 0.0
+  delta: 4.8
   facets:
-    access_clarity: 69.7
-    commercial_clarity: 69.7
+    access_clarity: 93.4
+    commercial_clarity: 93.4
     contract_governance: 18.2
     contract_quality: 0.0
     developer_ergonomics: 16.7
     discoverability: 72.2
     governance: 18.2
     operational_transparency: 42.1
-  needs_work:
-    note: Recorded so this provider's gaps can be attributed. Does not affect the composite above.
-    owner: catalog
-    reasons:
-    - owner: catalog
-      reason: no_resolvable_host
   previous_composite: 34.3
+  provenance:
+    conformance: first-party
   regulatory:
     applies: true
     matched_via: tags
     regime: Payments
     regime_id: payments
     score: 46.9
-  schema_version: 0.17.2
+  schema_version: 0.18.0
   scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/seed-platform/refs/heads/main/screenshots/seed-platform-2026-06-20T193637.png

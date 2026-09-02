@@ -103,7 +103,7 @@ score:
     regime: Insurance
     regime_id: insurance
     score: 9.1
-  schema_version: 0.17.2
+  schema_version: 0.18.0
   scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/igloo/refs/heads/main/screenshots/igloo-2026-07-25T222055.png

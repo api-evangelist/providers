@@ -236,7 +236,7 @@ score:
     access_clarity: 52.6
     commercial_clarity: 52.6
     contract_governance: 4.5
-    contract_quality: 22.2
+    contract_quality: 21.9
     developer_ergonomics: 57.7
     discoverability: 75.9
     governance: 4.5
@@ -251,7 +251,7 @@ score:
       total: 3
     mcp: derived
     skills: derived
-  schema_version: 0.17.2
+  schema_version: 0.18.0
   scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/banzai/refs/heads/main/screenshots/banzai-2026-08-07T162131.png

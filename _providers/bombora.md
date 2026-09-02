@@ -331,18 +331,18 @@ rate_limits:
   slug: bombora-rate-limits
 score:
   band: developing
-  composite: 42.1
+  composite: 41.9
   coverage:
     artifact_dirs: 22
     catalog_gap: 67.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: 0.0
+  delta: -0.2
   facets:
     access_clarity: 21.1
     commercial_clarity: 21.1
     contract_governance: 4.5
-    contract_quality: 67.6
+    contract_quality: 66.8
     developer_ergonomics: 30.4
     discoverability: 81.5
     governance: 4.5
@@ -354,10 +354,10 @@ score:
       callable: 100.0
       derived: 0
       marker_coverage: 0.0
-      total: 6
+      total: 16
     mcp: first-party
     skills: derived
-  schema_version: 0.17.2
+  schema_version: 0.18.0
   scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/bombora/refs/heads/main/screenshots/bombora-2026-06-20T173557.png

@@ -255,9 +255,9 @@ score:
     conformance: derived
     contracts:
       callable: 100.0
-      derived: 6
+      derived: 7
       marker_coverage: 100.0
-      total: 6
+      total: 7
     mcp: first-party
     skills: derived
   regulatory:
@@ -266,7 +266,7 @@ score:
     regime: Telecommunications
     regime_id: telecommunications
     score: 65.3
-  schema_version: 0.17.2
+  schema_version: 0.18.0
   scored_at: '2026-09-01'
   trend: flat
 security:

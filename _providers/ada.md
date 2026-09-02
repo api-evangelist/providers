@@ -468,18 +468,18 @@ scopes:
   summary_line: 8 scopes · authorizationCode/refreshToken
 score:
   band: exemplar
-  composite: 74.0
+  composite: 73.8
   coverage:
     artifact_dirs: 33
     catalog_gap: 44.8
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: 0.0
+  delta: -0.2
   facets:
     access_clarity: 82.9
     commercial_clarity: 82.9
     contract_governance: 43.2
-    contract_quality: 72.0
+    contract_quality: 71.1
     developer_ergonomics: 85.7
     discoverability: 92.6
     governance: 43.2
@@ -492,10 +492,10 @@ score:
       callable: 100.0
       derived: 0
       marker_coverage: 0.0
-      total: 10
+      total: 27
     mcp: first-party
     skills: first-party
-  schema_version: 0.17.2
+  schema_version: 0.18.0
   scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/ada/refs/heads/main/screenshots/ada-2026-06-20T164442.png

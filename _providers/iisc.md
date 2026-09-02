@@ -43,22 +43,28 @@ agentic_access:
   summary_line: 8 operations
 api_count: 1
 apis:
-- description: ePrints@IISc is the open-access institutional repository of IISc research publications, established in 2002 on EPrints software. It is OAI-compliant and exposes an OAI-PMH metadata-harvesting interfac
+- description: Institution-operated Shibboleth SAML 2.0 identity provider, self-published as machine-readable metadata on IISc's own host and registered in the INFLIBNET Access Management Federation (INFED), which c
+  name: IISc Shibboleth Identity Provider (INFED / eduGAIN)
+  slug: identity-federation
+- description: Live OAI-PMH 2.0 metadata-harvesting provider for the Journal of the Indian Institute of Science, served from IISc's own journal.iisc.ac.in host on an Open Journal Systems 3.3.0.22 (Public Knowledge P
+  name: Journal of the Indian Institute of Science OAI-PMH
+  slug: jiisc-oai
+- description: IISc's own learning management system, a self-hosted Moodle branded "IKEN" at courses.iisc.ac.in, exposing two machine surfaces verified live 2026-09-01. The LTI 1.3 Advantage platform endpoints are p
+  name: IKEN Moodle LMS — web services and LTI 1.3 platform
+  slug: courses-moodle
+- description: Read-only REST API of ETD@IISc, the Electronic Theses and Dissertations repository IISc runs on DSpace 6 at its own etd.iisc.ac.in host, serving the Community / Collection / Item / Bitstream hierarchy
+  name: ETD@IISc DSpace 6 REST API
+  slug: etd-dspace-rest
+- description: 'ePrints@IISc is the open-access institutional repository of IISc research publications, established in 2002 on EPrints software and self-hosted on the institute''s own eprints.iisc.ac.in domain. It is '
   name: ePrints@IISc OAI-PMH
   slug: eprints-oai
-- description: The Bitstreams API from Indian Institute of Science Bangalore — 2 operation(s) for bitstreams.
-  name: Indian Institute of Science Bangalore Bitstreams API
-  slug: iisc-bitstreams-api
-- description: The Collections API from Indian Institute of Science Bangalore — 2 operation(s) for collections.
-  name: Indian Institute of Science Bangalore Collections API
-  slug: iisc-collections-api
-- description: The Communities API from Indian Institute of Science Bangalore — 2 operation(s) for communities.
-  name: Indian Institute of Science Bangalore Communities API
-  slug: iisc-communities-api
-- description: The Items API from Indian Institute of Science Bangalore — 2 operation(s) for items.
-  name: Indian Institute of Science Bangalore Items API
-  slug: iisc-items-api
-artifact_total: 27
+- description: IISc is registered in the Research Organization Registry as https://ror.org/04dese585. Verified 2026-09-01 — https://api.ror.org/organizations/04dese585 returns 200 with names "Indian Institute of Sci
+  name: ROR registration — Indian Institute of Science
+  slug: ror-registration
+- description: IISc holds Crossref Open Funder Registry id 100007780. Verified 2026-09-01 — https://api.crossref.org/funders/100007780 returns 200 naming "Indian Institute of Science" with a hierarchy of its own cen
+  name: Crossref Open Funder Registry entry — Indian Institute of Science
+  slug: crossref-funder-registry
+artifact_total: 29
 collections:
 - collection_type: open
   name: API Collection
@@ -76,6 +82,62 @@ collections:
   name: ETD@IISc DSpace REST Bitstreams Items API
   slug: open-iisc-items-api
 common:
+- group: company
+  title: ''
+  type: Website
+  url: https://iisc.ac.in/
+- group: build
+  title: ''
+  type: Library
+  url: https://library.iisc.ac.in/
+- group: build
+  title: ''
+  type: LibraryCatalog
+  url: https://libraryopac.iisc.ac.in/
+- group: other
+  title: ''
+  type: ResearchRepository
+  url: https://eprints.iisc.ac.in/
+- group: other
+  title: ''
+  type: IdentityFederation
+  url: https://libraryidp.iisc.ac.in/idp/shibboleth
+- group: learn
+  title: ''
+  type: CourseCatalog
+  url: https://courses.iisc.ac.in/
+- group: other
+  title: ''
+  type: ResearchComputing
+  url: https://www.serc.iisc.ac.in/
+- group: docs
+  title: ''
+  type: APIReference
+  url: https://journal.iisc.ac.in/index.php/iisc/oai?verb=Identify
+- group: docs
+  title: ''
+  type: Documentation
+  url: https://iisc.ac.in/academics/
+- group: build
+  title: ''
+  type: SourceCode
+  url: https://github.com/val-iisc
+- group: build
+  title: ''
+  type: SourceCode
+  url: https://github.com/csl-iisc
+- group: build
+  title: ''
+  type: SourceCode
+  url: https://github.com/cni-iisc
+- group: company
+  title: ''
+  type: LinkedIn
+  url: https://www.linkedin.com/school/indian-institute-of-science/
+- group: design
+  title: ''
+  type: Conformance
+  url: conformance/iisc-conformance.yml
 - group: other
   title: ''
   type: CapabilityMap
@@ -88,22 +150,6 @@ common:
   title: ''
   type: DomainSecurity
   url: security/iisc-domain-security.yml
-- group: company
-  title: ''
-  type: Website
-  url: https://iisc.ac.in/
-- group: build
-  title: ''
-  type: Library
-  url: https://library.iisc.ac.in/
-- group: build
-  title: ''
-  type: GitHub
-  url: https://github.com/IISc
-- group: company
-  title: ''
-  type: LinkedIn
-  url: https://www.linkedin.com/school/indian-institute-of-science/
 - group: commercial
   title: ''
   type: Plans
@@ -121,15 +167,16 @@ common:
   type: Review
   url: review.yml
 created: '2026-06-03'
-description: 'The Indian Institute of Science (IISc) Bangalore is India''s premier research-intensive university, founded in 1909, and ranked #211 in the QS World University Rankings 2025. IISc does not operate a formal, centralized public developer portal. Its confirmable public machine-readable footprint is academic: the ePrints@IISc institutional repository (EPrints software) exposes an OAI-PMH metadata interface, and the DSpace-based ETD@IISc theses repository is likewise OAI-compliant. Individual labs and centres publish open source on GitHub (for example cni-iisc, csl-iisc, val-iisc), but there is no single official institutional GitHub org with public repositories or a documented REST API program.'
+description: 'The Indian Institute of Science (IISc) Bangalore, founded 1909, is India''s premier research-intensive institution — a deemed university, an Institute of Eminence, and ranked #211 in the QS World University Rankings 2025. It operates no developer portal, publishes no OpenAPI of its own, and this profile does not pretend otherwise. What it does run, on hosts under its own iisc.ac.in domain, are three verified institution-operated machine surfaces: a Shibboleth SAML 2.0 identity provider at libraryidp.iisc.ac.in registered in the INFLIBNET Access Management Federation (INFED) and carried into eduGAIN; an OAI-PMH 2.0 provider on the Open Journal Systems instance behind the Journal of the Indian Institute of Science at journal.iisc.ac.in; and a self-hosted Moodle LMS at courses.iisc.ac.in whose LTI 1.3 JWKS and token-gated web-services REST endpoint are both live. Two older repository surfaces are currently unreadable rather than absent — ETD@IISc (DSpace 6) has returned 502 on
+  every path since roughly May 2026, and ePrints@IISc sits behind an Azure WAF that 403s every automated client including the Internet Archive. IISc is registered in ROR (04dese585) and the Crossref Open Funder Registry (100007780) but is not a DataCite or Crossref member. Its public code lives in departmental GitHub organisations (val-iisc, csl-iisc, cni-iisc), not in a central institutional org — github.com/IISc exists but holds zero public repositories.'
 examples:
-- key_count: 2
+- key_count: 5
   name: Iisc Listcollections Example
   slug: iisc-listCollections-example
-- key_count: 2
+- key_count: 5
   name: Iisc Listcommunities Example
   slug: iisc-listCommunities-example
-- key_count: 2
+- key_count: 5
   name: Iisc Listitems Example
   slug: iisc-listItems-example
 finops:
@@ -163,17 +210,17 @@ jsonld:
   property_count: 1
   slug: iisc-context
 layout: provider
-modified: '2026-06-03'
+modified: '2026-09-01'
 name: Indian Institute of Science Bangalore
 nav: Providers
 network: true
-overview: 'Indian Institute of Science Bangalore publishes 4 APIs on the [APIs.io](https://apis.io/) network, including Bitstreams API, Collections API, Communities API, and 1 more. Tagged areas include Education, Higher Education, University, Research, and Open Access.
+overview: 'Indian Institute of Science Bangalore publishes 1 API on the [APIs.io](https://apis.io/) network: ETD@IISc DSpace 6 REST API. Tagged areas include Education, Higher Education, University, India, and Institute of Eminence.
 
 
   The Indian Institute of Science Bangalore catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  Indian Institute of Science Bangalore''s developer surface includes GitHub presence and 10 more developer resources.'
+  Indian Institute of Science Bangalore''s developer surface includes API reference, documentation, and 19 more developer resources.'
 plans:
 - name: Iisc Plans Pricing
   plan_count: 2
@@ -206,39 +253,40 @@ rules:
   slug: iisc-rules
 score:
   band: thin
-  composite: 31.6
+  composite: 37.9
   coverage:
-    artifact_dirs: 15
+    artifact_dirs: 16
     catalog_gap: 47.8
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: 0.0
+  delta: 6.3
   facets:
     access_clarity: 28.9
     commercial_clarity: 28.9
-    contract_governance: 9.8
-    contract_quality: 54.4
-    developer_ergonomics: 9.5
+    contract_governance: 28.0
+    contract_quality: 56.2
+    developer_ergonomics: 16.7
     discoverability: 68.5
-    governance: 9.8
+    governance: 28.0
     operational_transparency: 26.3
   previous_composite: 31.6
   provenance:
     agentic_access: derived
+    conformance: first-party
     contracts:
       callable: 100.0
       derived: 0
-      marker_coverage: 0.0
+      marker_coverage: 100.0
       total: 4
   regulatory:
     applies: true
     matched_via: tags
     regime: Education & Research
     regime_id: education
-    score: 20.4
-  schema_version: 0.17.2
+    score: 35.2
+  schema_version: 0.18.0
   scored_at: '2026-09-01'
-  trend: flat
+  trend: rising
 screenshot: https://raw.githubusercontent.com/api-evangelist/iisc/refs/heads/main/screenshots/iisc-2026-06-20T183226.png
 security:
 - kind: domain-security
@@ -250,10 +298,16 @@ tags:
 - Education
 - Higher Education
 - University
-- Research
-- Open Access
-- Institutional Repository
-- OAI-PMH
 - India
+- Institute of Eminence
+- Research
+- Research Repository
+- Open Access
+- OAI-PMH
+- Identity Federation
+- Shibboleth
+- Library
+- Learning Management
+- Research Computing
 website: https://iisc.ac.in/
 ---

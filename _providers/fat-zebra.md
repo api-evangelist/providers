@@ -347,18 +347,18 @@ overview: 'Fat Zebra publishes 31 APIs on the [APIs.io](https://apis.io/) networ
 random_paper: 10
 score:
   band: strong
-  composite: 55.8
+  composite: 56.4
   coverage:
     artifact_dirs: 22
     catalog_gap: 75.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: 0.0
+  delta: 0.6
   facets:
     access_clarity: 46.1
     commercial_clarity: 46.1
     contract_governance: 18.2
-    contract_quality: 63.3
+    contract_quality: 65.8
     developer_ergonomics: 54.2
     discoverability: 81.5
     governance: 18.2
@@ -367,6 +367,11 @@ score:
   provenance:
     agentic_access: derived
     conformance: first-party
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 31
     mcp: derived
     skills: derived
   regulatory:
@@ -375,7 +380,7 @@ score:
     regime: Payments
     regime_id: payments
     score: 58.6
-  schema_version: 0.17.2
+  schema_version: 0.18.0
   scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/fat-zebra/refs/heads/main/screenshots/fat-zebra-2026-07-25T214245.png

@@ -485,16 +485,16 @@ score:
     agentic_access: derived
     contracts:
       callable: 100.0
-      derived: 16
+      derived: 17
       marker_coverage: 100.0
-      total: 16
+      total: 17
   regulatory:
     applies: true
     matched_via: tags
     regime: Government & Public Sector
     regime_id: government
     score: 64.8
-  schema_version: 0.17.2
+  schema_version: 0.18.0
   scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/musicbrainz/refs/heads/main/screenshots/musicbrainz-2026-06-20T185906.png

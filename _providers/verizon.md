@@ -541,18 +541,18 @@ scopes:
   summary_line: 3 scopes · clientCredentials
 score:
   band: strong
-  composite: 64.0
+  composite: 63.9
   coverage:
     artifact_dirs: 35
     catalog_gap: 40.5
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: 0.0
+  delta: -0.1
   facets:
     access_clarity: 47.4
     commercial_clarity: 47.4
     contract_governance: 33.3
-    contract_quality: 44.7
+    contract_quality: 44.1
     developer_ergonomics: 80.4
     discoverability: 75.9
     governance: 33.3
@@ -563,9 +563,9 @@ score:
     conformance: derived
     contracts:
       callable: 100.0
-      derived: 5
+      derived: 6
       marker_coverage: 100.0
-      total: 5
+      total: 6
     mcp: derived
     skills: derived
   regulatory:
@@ -574,7 +574,7 @@ score:
     regime: Telecommunications
     regime_id: telecommunications
     score: 81.9
-  schema_version: 0.17.2
+  schema_version: 0.18.0
   scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/verizon/refs/heads/main/screenshots/verizon-2026-06-20T200943.png

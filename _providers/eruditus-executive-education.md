@@ -185,19 +185,19 @@ overview: 'Eruditus publishes 2 APIs on the [APIs.io](https://apis.io/) network:
   Eruditus'' developer surface includes documentation, getting-started guide, engineering blog, support, authentication, sandbox, and 23 more developer resources.'
 random_paper: 11
 score:
-  band: developing
-  composite: 48.3
+  band: thin
+  composite: 36.9
   coverage:
     artifact_dirs: 20
     catalog_gap: 78.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: 0.0
+  delta: -11.4
   facets:
     access_clarity: 21.1
     commercial_clarity: 21.1
     contract_governance: 4.5
-    contract_quality: 60.9
+    contract_quality: 15.2
     developer_ergonomics: 66.1
     discoverability: 68.5
     governance: 4.5
@@ -208,9 +208,9 @@ score:
     conformance: derived
     contracts:
       callable: 100.0
-      derived: 0
-      marker_coverage: 0.0
-      total: 2
+      derived: 4
+      marker_coverage: 100.0
+      total: 4
     mcp: derived
     skills: derived
   regulatory:
@@ -219,9 +219,9 @@ score:
     regime: Education & Research
     regime_id: education
     score: 57.4
-  schema_version: 0.17.2
+  schema_version: 0.18.0
   scored_at: '2026-09-01'
-  trend: flat
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/eruditus-executive-education/refs/heads/main/screenshots/eruditus-executive-education-2026-08-07T165004.png
 security:
 - kind: authentication

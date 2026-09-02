@@ -371,31 +371,38 @@ scopes:
   slug: ucsb-scopes
   summary_line: 3 scopes
 score:
-  band: strong
-  composite: 54.5
+  band: developing
+  composite: 54.1
   coverage:
     artifact_dirs: 17
-    catalog_gap: 48.0
+    catalog_gap: 51.8
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: 0.0
+  delta: -0.4
   facets:
     access_clarity: 52.6
     commercial_clarity: 52.6
-    contract_governance: 33.3
-    contract_quality: 49.4
+    contract_governance: 22.0
+    contract_quality: 53.1
     developer_ergonomics: 57.1
     discoverability: 64.8
-    governance: 33.3
+    governance: 22.0
     operational_transparency: 23.7
   previous_composite: 54.5
+  provenance:
+    conformance: first-party
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 21
   regulatory:
     applies: true
     matched_via: tags
     regime: Education & Research
     regime_id: education
     score: 72.2
-  schema_version: 0.17.2
+  schema_version: 0.18.0
   scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/ucsb/refs/heads/main/screenshots/ucsb-2026-06-20T195943.png

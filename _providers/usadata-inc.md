@@ -180,18 +180,12 @@ score:
     discoverability: 75.9
     governance: 18.2
     operational_transparency: 5.3
-  needs_work:
-    note: Recorded so this provider's gaps can be attributed. Does not affect the composite above.
-    owner: catalog
-    reasons:
-    - owner: catalog
-      reason: no_resolvable_host
   previous_composite: 31.0
   provenance:
     conformance: first-party
     mcp: derived
     skills: derived
-  schema_version: 0.17.2
+  schema_version: 0.18.0
   scored_at: '2026-09-01'
   trend: flat
 security:

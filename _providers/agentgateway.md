@@ -13,7 +13,7 @@ agent_readiness:
   band: agent-ready
   dimensions:
     agent_card: false
-    agent_skills: true
+    agent_skills: derived
     agentic_access: derived
     agentic_commerce: false
     auth_clarity: bearer
@@ -24,7 +24,7 @@ agent_readiness:
     error_semantics: documented
     event_surface_described: true
     idempotency: false
-    mcp_server: documented
+    mcp_server: false
     openapi_examples: documented
     protected_resource_metadata: false
     rate_limit_signal: documented
@@ -32,7 +32,7 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 35.3
+  score: 29.1
   scored_at: '2026-09-01'
 agentic_access:
 - acting_count: 2
@@ -410,19 +410,19 @@ rules:
   slug: agentgateway-jsonschema-spectral-rules
 score:
   band: strong
-  composite: 55.8
+  composite: 54.7
   coverage:
     artifact_dirs: 31
     catalog_gap: 49.8
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: 0.0
+  delta: -1.1
   facets:
     access_clarity: 28.9
     commercial_clarity: 28.9
     contract_governance: 43.2
-    contract_quality: 54.4
-    developer_ergonomics: 78.6
+    contract_quality: 53.7
+    developer_ergonomics: 73.2
     discoverability: 75.9
     governance: 43.2
     operational_transparency: 44.7
@@ -432,12 +432,15 @@ score:
   previous_composite: 55.8
   provenance:
     agentic_access: derived
+    conformance: first-party
     contracts:
       callable: 0.0
       derived: 0
       marker_coverage: 0.0
       total: 6
-  schema_version: 0.17.2
+    mcp: derived
+    skills: derived
+  schema_version: 0.18.0
   scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/agentgateway/refs/heads/main/screenshots/agentgateway-2026-06-20T170015.png

@@ -30,7 +30,7 @@
       "access_clarity": 60.5
      },
      "scored_at": "2026-09-01",
-     "schema_version": "0.17.2",
+     "schema_version": "0.18.0",
      "agent_score": 27.7,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -72,12 +72,12 @@
      "slug": "hubflo",
      "description": "Hubflo is a client portal platform for service businesses — consultants, agencies, accountants, and professional-service firms — bringing client onboarding, messaging, document management, e-signatures, forms, proposals, invoicing, tasks, and project collaboration into one branded workspace. Hubflo exposes a REST API (v2) at app.hubflo.com/api/v2 with bearer-token authentication, JSON request/response bodies, UUID resource identifiers, page-based pagination, a 1000 request/minute rate limit, and a native webhook system spanning 29 event types across companies, contacts, workspaces, invoices, forms, tasks, and e-signature submissions. Hubflo also publishes official TypeScript and MCP-server packages and a hosted remote MCP server. Backed by Seedcamp.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/hubflo/refs/heads/main/screenshots/hubflo-2026-07-25T221612.png",
-     "score": 45.6,
+     "score": 45.4,
      "band": "developing",
      "band_label": "Developing",
      "facets": {
       "discoverability": 75.9,
-      "contract_quality": 61.4,
+      "contract_quality": 60.5,
       "governance": 4.5,
       "contract_governance": 4.5,
       "operational_transparency": 28.9,
@@ -86,7 +86,7 @@
       "access_clarity": 44.7
      },
      "scored_at": "2026-09-01",
-     "schema_version": "0.17.2",
+     "schema_version": "0.18.0",
      "agent_score": 44.4,
      "agent_band": "agent-ready",
      "agent_dims": {
@@ -117,12 +117,12 @@
      "slug": "coordinate",
      "description": "Coordinate (CoordinateHQ) is a client project-execution platform and branded client portal for client-facing businesses — agencies, professional services, and B2B onboarding teams. It turns repeatable workflows into automated, interactive projects with tasks, task groups, goals, progress reports, forms, eSignatures, time tracking, and in-project chat, while giving each client a simple password-free portal. Coordinate exposes a REST API (base https://app.coordinatehq.com/api/v1) for creating and syncing projects, tasks, groups, stakeholders, goals, comments, and organizations, an /entity export firehose for bulk sync, and a webhook API for real-time create/update events, alongside bi-directional Zapier integrations. This profile was enriched by the API Evangelist pipeline from Coordinate's published API reference.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/coordinate/refs/heads/main/screenshots/coordinate-2026-07-25T210404.png",
-     "score": 42.7,
+     "score": 42.5,
      "band": "developing",
      "band_label": "Developing",
      "facets": {
       "discoverability": 75.9,
-      "contract_quality": 60.9,
+      "contract_quality": 60.1,
       "governance": 4.5,
       "contract_governance": 4.5,
       "operational_transparency": 7.9,
@@ -131,7 +131,7 @@
       "access_clarity": 44.7
      },
      "scored_at": "2026-09-01",
-     "schema_version": "0.17.2",
+     "schema_version": "0.18.0",
      "agent_score": 23.6,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -176,7 +176,7 @@
       "access_clarity": 39.5
      },
      "scored_at": "2026-09-01",
-     "schema_version": "0.17.2",
+     "schema_version": "0.18.0",
      "agent_score": 23.9,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -221,7 +221,7 @@
       "access_clarity": 44.7
      },
      "scored_at": "2026-09-01",
-     "schema_version": "0.17.2",
+     "schema_version": "0.18.0",
      "agent_score": 28.6,
      "agent_band": "agent-ready",
      "agent_dims": {
@@ -266,7 +266,7 @@
       "access_clarity": 52.6
      },
      "scored_at": "2026-09-01",
-     "schema_version": "0.17.2",
+     "schema_version": "0.18.0",
      "agent_score": 22.9,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -300,8 +300,8 @@
    "label": "Thin",
    "range": "26.2 – 39.2",
    "blurb": "Limited machine-readable signal beyond documentation a human can read.",
-   "count": 9,
-   "shown": 9,
+   "count": 8,
+   "shown": 8,
    "providers": [
     {
      "name": "Mosaic",
@@ -322,7 +322,7 @@
       "access_clarity": 47.4
      },
      "scored_at": "2026-09-01",
-     "schema_version": "0.17.2",
+     "schema_version": "0.18.0",
      "agent_score": 19.8,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -367,7 +367,7 @@
       "access_clarity": 21.1
      },
      "scored_at": "2026-09-01",
-     "schema_version": "0.17.2",
+     "schema_version": "0.18.0",
      "agent_score": 25.5,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -412,7 +412,7 @@
       "access_clarity": 31.6
      },
      "scored_at": "2026-09-01",
-     "schema_version": "0.17.2",
+     "schema_version": "0.18.0",
      "agent_score": 17.3,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -439,51 +439,6 @@
      "rank": 9
     },
     {
-     "name": "Advantage Solutions",
-     "slug": "advantage-solutions",
-     "description": "Advantage Solutions is a leading provider of outsourced sales, marketing, merchandising, and business intelligence services to consumer goods manufacturers and retailers across North America. The company supports brand growth through retail execution, in-store demos, digital commerce enablement, and shopper insights, and publishes Advantage360 shopper and market research alongside the MRKT industry publication. Advantage Solutions does not operate a developer program, publish API documentation, or offer a commercial API product. The only machine-readable surface it serves is the standard WordPress REST API of its corporate site (youradv.com) and of MRKT (mrktblog.com), both of which return published content anonymously.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/advantage-solutions/refs/heads/main/screenshots/advantage-solutions-2026-06-20T165343.png",
-     "score": 34.4,
-     "band": "thin",
-     "band_label": "Thin",
-     "facets": {
-      "discoverability": 75.9,
-      "contract_quality": 58.7,
-      "governance": 4.5,
-      "contract_governance": 4.5,
-      "operational_transparency": 0.0,
-      "developer_ergonomics": 30.4,
-      "commercial_clarity": 27.6,
-      "access_clarity": 27.6
-     },
-     "scored_at": "2026-09-01",
-     "schema_version": "0.17.2",
-     "agent_score": 26.4,
-     "agent_band": "agent-aware",
-     "agent_dims": {
-      "spec_presence": true,
-      "agentic_access": "derived",
-      "reversibility_documented": false,
-      "mcp_server": false,
-      "auth_clarity": "bearer",
-      "idempotency": false,
-      "error_semantics": "verified",
-      "openapi_examples": false,
-      "rate_limit_signal": "documented",
-      "event_surface_described": false,
-      "agent_skills": "derived",
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false,
-      "delegated_identity": false,
-      "protected_resource_metadata": false,
-      "dynamic_client_registration": false,
-      "agentic_commerce": false
-     },
-     "rank": 10
-    },
-    {
      "name": "CBRE",
      "slug": "cbre",
      "description": "CBRE Group, Inc. (NYSE: CBRE) is the world's largest commercial real estate services and investment firm, with 155,000 professionals across 500+ offices in 100+ countries. CBRE provides advisory and transaction, project management, property management, valuation, investment management, and consulting services. Its technology arm publishes developer APIs through developer.cbre.com that expose property, analytics, and facilities data to partners.",
@@ -502,7 +457,7 @@
       "access_clarity": 34.2
      },
      "scored_at": "2026-09-01",
-     "schema_version": "0.17.2",
+     "schema_version": "0.18.0",
      "agent_score": 22.9,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -526,7 +481,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 11
+     "rank": 10
     },
     {
      "name": "McKinsey & Company",
@@ -546,7 +501,7 @@
       "access_clarity": 57.9
      },
      "scored_at": "2026-09-01",
-     "schema_version": "0.17.2",
+     "schema_version": "0.18.0",
      "agent_score": 2.5,
      "agent_band": "human-only",
      "agent_dims": {
@@ -570,7 +525,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 12
+     "rank": 11
     },
     {
      "name": "COR",
@@ -591,7 +546,7 @@
       "access_clarity": 0.0
      },
      "scored_at": "2026-09-01",
-     "schema_version": "0.17.2",
+     "schema_version": "0.18.0",
      "agent_score": 33.3,
      "agent_band": "agent-ready",
      "agent_dims": {
@@ -615,7 +570,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 13
+     "rank": 12
     },
     {
      "name": "Memory",
@@ -636,7 +591,7 @@
       "access_clarity": 52.6
      },
      "scored_at": "2026-09-01",
-     "schema_version": "0.17.2",
+     "schema_version": "0.18.0",
      "agent_score": 2.5,
      "agent_band": "human-only",
      "agent_dims": {
@@ -660,7 +615,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 14
+     "rank": 13
     },
     {
      "name": "Ernst & Young (EY)",
@@ -681,7 +636,62 @@
       "access_clarity": 68.4
      },
      "scored_at": "2026-09-01",
-     "schema_version": "0.17.2",
+     "schema_version": "0.18.0",
+     "agent_score": 2.5,
+     "agent_band": "human-only",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": false,
+      "reversibility_documented": false,
+      "mcp_server": false,
+      "auth_clarity": false,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": "documented",
+      "event_surface_described": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
+     "rank": 14
+    }
+   ]
+  },
+  {
+   "band": "emerging",
+   "label": "Emerging",
+   "range": "11 – 26.1",
+   "blurb": "More than an index entry but still mostly links rather than artifacts.",
+   "count": 28,
+   "shown": 28,
+   "providers": [
+    {
+     "name": "Deloitte",
+     "slug": "deloitte",
+     "description": "Deloitte is one of the Big Four professional services organizations, operating through a network of member firms coordinated by Deloitte Touche Tohmatsu Limited (DTTL). The organization spans approximately 150 countries and territories, has more than 180 years of history (founded 1845), and serves roughly 90% of the Fortune Global 500. Deloitte organizes delivery across four primary service lines — Audit & Assurance, Consulting, Tax, and Legal — plus specialized cross-functional practices including Business Process Solutions and Global Employer Services. Consulting offerings cover Customer, Cyber, Engineering / AI & Data, Enterprise Technology & Performance, Finance Transformation, Human Capital, Strategy & Transactions, and Risk / Regulatory & Forensic. Deloitte Digital is the technology-and-experience practice with alliances spanning Salesforce, Adobe, SAP, Google Cloud, AWS, ServiceNow, Oracle, Shopify, Sitecore, and Genesys, and accelerators such as FrontOffice Advantage, Revenue Advantage, Agentic Marketing Cloud, CreativEdge, Blueprint, Content Studios, and TrustID. The organization serves six industries divided into twenty sectors: Consumer; Energy, Resources & Industrials; Financial Services; Government & Public Services; Life Sciences & Health Care; and Technology, Media & Telecommunications. Deloitte Insights is the organization's research-publishing surface, organized into eight research centers — Cross-Industry, Economics, Consumer, Energy & Industrials, Financial Services, Government & Public Services, Life Sciences & Health Care, and Tech, Media & Telecom — producing flagship series including Tech Trends, Global Human Capital Trends, Digital Media Trends, TMT Predictions, FSI Predictions, the Weekly Global Economic Outlook, and the annual Industry Outlooks. The Deloitte AI Institute drives applied-AI research and points of view. Deloitte does not publish a public developer API or open developer portal at the corporate level. The Deloitte US Consulting GitHub organization is small (5 visible repositories, mostly archived upstream forks; the original artifact is `beacon`, a first-party web-analytics packaging library in TypeScript). Reader-facing distribution flows through MyDeloitte (personalized content + newsletter subscriptions), Dbriefs (live webcasts with CPE credit), the Deloitte Insights Magazine, and the YouTube channel; no public RSS index page was discoverable on www.deloitte.com at the path published in legacy archives.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/deloitte/refs/heads/main/screenshots/deloitte-2026-06-20T175902.png",
+     "score": 25.4,
+     "band": "emerging",
+     "band_label": "Emerging",
+     "facets": {
+      "discoverability": 50.0,
+      "contract_quality": 10.7,
+      "governance": 0.0,
+      "contract_governance": 0.0,
+      "operational_transparency": 42.1,
+      "developer_ergonomics": 0.0,
+      "commercial_clarity": 47.4,
+      "access_clarity": 47.4
+     },
+     "scored_at": "2026-09-01",
+     "schema_version": "0.18.0",
      "agent_score": 2.5,
      "agent_band": "human-only",
      "agent_dims": {
@@ -706,37 +716,26 @@
       "agentic_commerce": false
      },
      "rank": 15
-    }
-   ]
-  },
-  {
-   "band": "emerging",
-   "label": "Emerging",
-   "range": "11 – 26.1",
-   "blurb": "More than an index entry but still mostly links rather than artifacts.",
-   "count": 27,
-   "shown": 27,
-   "providers": [
+    },
     {
-     "name": "Deloitte",
-     "slug": "deloitte",
-     "description": "Deloitte is one of the Big Four professional services organizations, operating through a network of member firms coordinated by Deloitte Touche Tohmatsu Limited (DTTL). The organization spans approximately 150 countries and territories, has more than 180 years of history (founded 1845), and serves roughly 90% of the Fortune Global 500. Deloitte organizes delivery across four primary service lines — Audit & Assurance, Consulting, Tax, and Legal — plus specialized cross-functional practices including Business Process Solutions and Global Employer Services. Consulting offerings cover Customer, Cyber, Engineering / AI & Data, Enterprise Technology & Performance, Finance Transformation, Human Capital, Strategy & Transactions, and Risk / Regulatory & Forensic. Deloitte Digital is the technology-and-experience practice with alliances spanning Salesforce, Adobe, SAP, Google Cloud, AWS, ServiceNow, Oracle, Shopify, Sitecore, and Genesys, and accelerators such as FrontOffice Advantage, Revenue Advantage, Agentic Marketing Cloud, CreativEdge, Blueprint, Content Studios, and TrustID. The organization serves six industries divided into twenty sectors: Consumer; Energy, Resources & Industrials; Financial Services; Government & Public Services; Life Sciences & Health Care; and Technology, Media & Telecommunications. Deloitte Insights is the organization's research-publishing surface, organized into eight research centers — Cross-Industry, Economics, Consumer, Energy & Industrials, Financial Services, Government & Public Services, Life Sciences & Health Care, and Tech, Media & Telecom — producing flagship series including Tech Trends, Global Human Capital Trends, Digital Media Trends, TMT Predictions, FSI Predictions, the Weekly Global Economic Outlook, and the annual Industry Outlooks. The Deloitte AI Institute drives applied-AI research and points of view. Deloitte does not publish a public developer API or open developer portal at the corporate level. The Deloitte US Consulting GitHub organization is small (5 visible repositories, mostly archived upstream forks; the original artifact is `beacon`, a first-party web-analytics packaging library in TypeScript). Reader-facing distribution flows through MyDeloitte (personalized content + newsletter subscriptions), Dbriefs (live webcasts with CPE credit), the Deloitte Insights Magazine, and the YouTube channel; no public RSS index page was discoverable on www.deloitte.com at the path published in legacy archives.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/deloitte/refs/heads/main/screenshots/deloitte-2026-06-20T175902.png",
-     "score": 25.4,
+     "name": "Linguidoor",
+     "slug": "linguidoor",
+     "description": "Linguidoor is a Berlin-based, ISO-branded human translation and localization agency serving businesses and individuals across Germany and internationally. It offers professional translation in 100+ languages, website / app / software / game localization, MTPE, certified and sworn document translation for German administrative processes (birth and marriage certificates, driving licences, Anmeldung, Schufa, diplomas), interpretation, subtitling and captioning, voice-over and dubbing, transcription, desktop publishing, content writing, international SEO, and AI data services (data annotation, tagging and labeling, voice and text data collection, text-to-speech and voice cloning). Pricing is published per translated word across three service tiers, with fixed-price certified document translations sold through an online shop. Linguidoor publishes NO developer program: enrichment found no OpenAPI, AsyncAPI, GraphQL, MCP server, agent card, SDK, CLI or API documentation of any kind. The site is WordPress + WooCommerce on Hostinger; its only machine-readable surfaces are the platform-default WordPress REST API at /wp-json/ (which includes the public unauthenticated WooCommerce Store API) and a plugin-generated llms.txt whose entire content is the default WordPress \"Hello world!\" post.",
+     "score": 24.3,
      "band": "emerging",
      "band_label": "Emerging",
      "facets": {
-      "discoverability": 50.0,
-      "contract_quality": 10.7,
+      "discoverability": 75.9,
+      "contract_quality": 0.0,
       "governance": 0.0,
       "contract_governance": 0.0,
-      "operational_transparency": 42.1,
-      "developer_ergonomics": 0.0,
-      "commercial_clarity": 47.4,
-      "access_clarity": 47.4
+      "operational_transparency": 0.0,
+      "developer_ergonomics": 7.1,
+      "commercial_clarity": 76.3,
+      "access_clarity": 76.3
      },
      "scored_at": "2026-09-01",
-     "schema_version": "0.17.2",
+     "schema_version": "0.18.0",
      "agent_score": 2.5,
      "agent_band": "human-only",
      "agent_dims": {
@@ -763,38 +762,39 @@
      "rank": 16
     },
     {
-     "name": "Linguidoor",
-     "slug": "linguidoor",
-     "description": "Linguidoor is a Berlin-based, ISO-branded human translation and localization agency serving businesses and individuals across Germany and internationally. It offers professional translation in 100+ languages, website / app / software / game localization, MTPE, certified and sworn document translation for German administrative processes (birth and marriage certificates, driving licences, Anmeldung, Schufa, diplomas), interpretation, subtitling and captioning, voice-over and dubbing, transcription, desktop publishing, content writing, international SEO, and AI data services (data annotation, tagging and labeling, voice and text data collection, text-to-speech and voice cloning). Pricing is published per translated word across three service tiers, with fixed-price certified document translations sold through an online shop. Linguidoor publishes NO developer program: enrichment found no OpenAPI, AsyncAPI, GraphQL, MCP server, agent card, SDK, CLI or API documentation of any kind. The site is WordPress + WooCommerce on Hostinger; its only machine-readable surfaces are the platform-default WordPress REST API at /wp-json/ (which includes the public unauthenticated WooCommerce Store API) and a plugin-generated llms.txt whose entire content is the default WordPress \"Hello world!\" post.",
-     "score": 24.3,
+     "name": "Advantage Solutions",
+     "slug": "advantage-solutions",
+     "description": "Advantage Solutions is a leading provider of outsourced sales, marketing, merchandising, and business intelligence services to consumer goods manufacturers and retailers across North America. The company supports brand growth through retail execution, in-store demos, digital commerce enablement, and shopper insights, and publishes Advantage360 shopper and market research alongside the MRKT industry publication. Advantage Solutions does not operate a developer program, publish API documentation, or offer a commercial API product. The only machine-readable surface it serves is the standard WordPress REST API of its corporate site (youradv.com) and of MRKT (mrktblog.com), both of which return published content anonymously.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/advantage-solutions/refs/heads/main/screenshots/advantage-solutions-2026-06-20T165343.png",
+     "score": 24.0,
      "band": "emerging",
      "band_label": "Emerging",
      "facets": {
       "discoverability": 75.9,
-      "contract_quality": 0.0,
-      "governance": 0.0,
-      "contract_governance": 0.0,
+      "contract_quality": 17.2,
+      "governance": 4.5,
+      "contract_governance": 4.5,
       "operational_transparency": 0.0,
-      "developer_ergonomics": 7.1,
-      "commercial_clarity": 76.3,
-      "access_clarity": 76.3
+      "developer_ergonomics": 30.4,
+      "commercial_clarity": 27.6,
+      "access_clarity": 27.6
      },
      "scored_at": "2026-09-01",
-     "schema_version": "0.17.2",
-     "agent_score": 2.5,
-     "agent_band": "human-only",
+     "schema_version": "0.18.0",
+     "agent_score": 26.4,
+     "agent_band": "agent-aware",
      "agent_dims": {
-      "spec_presence": false,
-      "agentic_access": false,
+      "spec_presence": true,
+      "agentic_access": "derived",
       "reversibility_documented": false,
       "mcp_server": false,
-      "auth_clarity": false,
+      "auth_clarity": "bearer",
       "idempotency": false,
-      "error_semantics": false,
+      "error_semantics": "verified",
       "openapi_examples": false,
       "rate_limit_signal": "documented",
       "event_surface_described": false,
-      "agent_skills": false,
+      "agent_skills": "derived",
       "well_known_catalog": false,
       "consent_identity": false,
       "agent_card": false,
@@ -825,7 +825,7 @@
       "access_clarity": 32.9
      },
      "scored_at": "2026-09-01",
-     "schema_version": "0.17.2",
+     "schema_version": "0.18.0",
      "agent_score": 10.8,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -870,7 +870,7 @@
       "access_clarity": 6.6
      },
      "scored_at": "2026-09-01",
-     "schema_version": "0.17.2",
+     "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
       "regime": "Government & Public Sector",
@@ -921,7 +921,7 @@
       "access_clarity": 43.4
      },
      "scored_at": "2026-09-01",
-     "schema_version": "0.17.2",
+     "schema_version": "0.18.0",
      "agent_score": 2.5,
      "agent_band": "human-only",
      "agent_dims": {
@@ -966,7 +966,7 @@
       "access_clarity": 53.9
      },
      "scored_at": "2026-09-01",
-     "schema_version": "0.17.2",
+     "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -1010,7 +1010,7 @@
       "access_clarity": 50.0
      },
      "scored_at": "2026-09-01",
-     "schema_version": "0.17.2",
+     "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -1054,7 +1054,7 @@
       "access_clarity": 55.3
      },
      "scored_at": "2026-09-01",
-     "schema_version": "0.17.2",
+     "schema_version": "0.18.0",
      "agent_score": 2.5,
      "agent_band": "human-only",
      "agent_dims": {
@@ -1099,7 +1099,7 @@
       "access_clarity": 50.0
      },
      "scored_at": "2026-09-01",
-     "schema_version": "0.17.2",
+     "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -1144,7 +1144,7 @@
       "access_clarity": 36.8
      },
      "scored_at": "2026-09-01",
-     "schema_version": "0.17.2",
+     "schema_version": "0.18.0",
      "agent_score": 5.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -1189,7 +1189,7 @@
       "access_clarity": 35.5
      },
      "scored_at": "2026-09-01",
-     "schema_version": "0.17.2",
+     "schema_version": "0.18.0",
      "agent_score": 2.9,
      "agent_band": "human-only",
      "agent_dims": {
@@ -1233,7 +1233,7 @@
       "access_clarity": 28.9
      },
      "scored_at": "2026-09-01",
-     "schema_version": "0.17.2",
+     "schema_version": "0.18.0",
      "agent_score": 6.0,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -1278,7 +1278,7 @@
       "access_clarity": 0.0
      },
      "scored_at": "2026-09-01",
-     "schema_version": "0.17.2",
+     "schema_version": "0.18.0",
      "agent_score": 12.9,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -1323,7 +1323,7 @@
       "access_clarity": 34.2
      },
      "scored_at": "2026-09-01",
-     "schema_version": "0.17.2",
+     "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -1367,7 +1367,7 @@
       "access_clarity": 27.6
      },
      "scored_at": "2026-09-01",
-     "schema_version": "0.17.2",
+     "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -1412,7 +1412,7 @@
       "access_clarity": 34.2
      },
      "scored_at": "2026-09-01",
-     "schema_version": "0.17.2",
+     "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -1457,7 +1457,7 @@
       "access_clarity": 34.2
      },
      "scored_at": "2026-09-01",
-     "schema_version": "0.17.2",
+     "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -1502,7 +1502,7 @@
       "access_clarity": 21.1
      },
      "scored_at": "2026-09-01",
-     "schema_version": "0.17.2",
+     "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -1547,7 +1547,7 @@
       "access_clarity": 27.6
      },
      "scored_at": "2026-09-01",
-     "schema_version": "0.17.2",
+     "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -1591,7 +1591,7 @@
       "access_clarity": 27.6
      },
      "scored_at": "2026-09-01",
-     "schema_version": "0.17.2",
+     "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -1635,7 +1635,7 @@
       "access_clarity": 21.1
      },
      "scored_at": "2026-09-01",
-     "schema_version": "0.17.2",
+     "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -1680,7 +1680,7 @@
       "access_clarity": 13.2
      },
      "scored_at": "2026-09-01",
-     "schema_version": "0.17.2",
+     "schema_version": "0.18.0",
      "agent_score": 2.5,
      "agent_band": "human-only",
      "agent_dims": {
@@ -1725,7 +1725,7 @@
       "access_clarity": 10.5
      },
      "scored_at": "2026-09-01",
-     "schema_version": "0.17.2",
+     "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -1769,7 +1769,7 @@
       "access_clarity": 13.2
      },
      "scored_at": "2026-09-01",
-     "schema_version": "0.17.2",
+     "schema_version": "0.18.0",
      "agent_score": 2.5,
      "agent_band": "human-only",
      "agent_dims": {
@@ -1814,7 +1814,7 @@
       "access_clarity": 21.1
      },
      "scored_at": "2026-09-01",
-     "schema_version": "0.17.2",
+     "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -1858,7 +1858,7 @@
       "access_clarity": 28.9
      },
      "scored_at": "2026-09-01",
-     "schema_version": "0.17.2",
+     "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -1903,7 +1903,7 @@
       "access_clarity": 13.2
      },
      "scored_at": "2026-09-01",
-     "schema_version": "0.17.2",
+     "schema_version": "0.18.0",
      "agent_score": 2.5,
      "agent_band": "human-only",
      "agent_dims": {
@@ -1958,7 +1958,7 @@
       "access_clarity": 21.1
      },
      "scored_at": "2026-09-01",
-     "schema_version": "0.17.2",
+     "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -2002,7 +2002,7 @@
       "access_clarity": 21.1
      },
      "scored_at": "2026-09-01",
-     "schema_version": "0.17.2",
+     "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -2046,7 +2046,7 @@
       "access_clarity": 21.1
      },
      "scored_at": "2026-09-01",
-     "schema_version": "0.17.2",
+     "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -2091,7 +2091,7 @@
       "access_clarity": 0.0
      },
      "scored_at": "2026-09-01",
-     "schema_version": "0.17.2",
+     "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -2136,7 +2136,7 @@
       "access_clarity": 13.2
      },
      "scored_at": "2026-09-01",
-     "schema_version": "0.17.2",
+     "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
       "regime": "Health",
@@ -2188,7 +2188,7 @@
       "access_clarity": 0.0
      },
      "scored_at": "2026-09-01",
-     "schema_version": "0.17.2",
+     "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
       "regime": "Health",
@@ -2240,7 +2240,7 @@
       "access_clarity": 10.5
      },
      "scored_at": "2026-09-01",
-     "schema_version": "0.17.2",
+     "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -2285,7 +2285,7 @@
       "access_clarity": 0.0
      },
      "scored_at": "2026-09-01",
-     "schema_version": "0.17.2",
+     "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -2329,7 +2329,7 @@
       "access_clarity": 18.4
      },
      "scored_at": "2026-09-01",
-     "schema_version": "0.17.2",
+     "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -2374,7 +2374,7 @@
       "access_clarity": 0.0
      },
      "scored_at": "2026-09-01",
-     "schema_version": "0.17.2",
+     "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -2419,7 +2419,7 @@
       "access_clarity": 0.0
      },
      "scored_at": "2026-09-01",
-     "schema_version": "0.17.2",
+     "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -2463,7 +2463,7 @@
       "access_clarity": 21.1
      },
      "scored_at": "2026-09-01",
-     "schema_version": "0.17.2",
+     "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
       "regime": "Banking & Open Finance",
@@ -2515,7 +2515,7 @@
       "access_clarity": 10.5
      },
      "scored_at": "2026-09-01",
-     "schema_version": "0.17.2",
+     "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -2560,7 +2560,7 @@
       "access_clarity": 10.5
      },
      "scored_at": "2026-09-01",
-     "schema_version": "0.17.2",
+     "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -2605,7 +2605,7 @@
       "access_clarity": 7.9
      },
      "scored_at": "2026-09-01",
-     "schema_version": "0.17.2",
+     "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -2650,7 +2650,7 @@
       "access_clarity": 0.0
      },
      "scored_at": "2026-09-01",
-     "schema_version": "0.17.2",
+     "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
       "regime": "Insurance",
@@ -2701,7 +2701,7 @@
       "access_clarity": 0.0
      },
      "scored_at": "2026-09-01",
-     "schema_version": "0.17.2",
+     "schema_version": "0.18.0",
      "agent_score": 2.9,
      "agent_band": "human-only",
      "agent_dims": {
@@ -2728,25 +2728,25 @@
      "rank": 59
     },
     {
-     "name": "Korn Ferry",
-     "slug": "korn-ferry",
-     "description": "Korn Ferry is a global organizational consulting firm that helps companies design optimal organization structures, recruit and develop talent, and drive performance. The firm offers services across executive search, leadership development, organizational strategy, total rewards, and talent acquisition. Korn Ferry serves clients across industries with a combination of consulting, data, and digital products.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/korn-ferry/refs/heads/main/screenshots/korn-ferry-2026-06-20T184140.png",
-     "score": 6.0,
+     "name": "Concentrix",
+     "slug": "concentrix",
+     "description": "Concentrix is a global technology and services leader providing customer experience (CX) management, digital transformation, and technology consulting across approximately 2,000 brands worldwide. Its product suite spans the iX product line (including iX Hello and iX Hero agentic AI assistants) and the Catalyst experience transformation and technology consultancy. Concentrix does not publish a public developer API; the iX product suite and Catalyst services are delivered via managed engagements and enterprise integrations rather than a self-service developer portal.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/concentrix/refs/heads/main/screenshots/concentrix-2026-06-20T174841.png",
+     "score": 5.8,
      "band": "minimal",
      "band_label": "Minimal",
      "facets": {
-      "discoverability": 44.4,
+      "discoverability": 50.0,
       "contract_quality": 0.0,
       "governance": 0.0,
       "contract_governance": 0.0,
-      "operational_transparency": 0.0,
-      "developer_ergonomics": 0.0,
-      "commercial_clarity": 7.9,
-      "access_clarity": 7.9
+      "operational_transparency": 2.6,
+      "developer_ergonomics": 2.4,
+      "commercial_clarity": 0.0,
+      "access_clarity": 0.0
      },
      "scored_at": "2026-09-01",
-     "schema_version": "0.17.2",
+     "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -2773,25 +2773,25 @@
      "rank": 60
     },
     {
-     "name": "Concentrix",
-     "slug": "concentrix",
-     "description": "Concentrix is a global technology and services leader providing customer experience (CX) management, digital transformation, and technology consulting across approximately 2,000 brands worldwide. Its product suite spans the iX product line (including iX Hello and iX Hero agentic AI assistants) and the Catalyst experience transformation and technology consultancy. Concentrix does not publish a public developer API; the iX product suite and Catalyst services are delivered via managed engagements and enterprise integrations rather than a self-service developer portal.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/concentrix/refs/heads/main/screenshots/concentrix-2026-06-20T174841.png",
-     "score": 5.8,
+     "name": "Korn Ferry",
+     "slug": "korn-ferry",
+     "description": "Korn Ferry is a global organizational consulting firm that helps companies design optimal organization structures, recruit and develop talent, and drive performance. The firm offers services across executive search, leadership development, organizational strategy, total rewards, and talent acquisition. Korn Ferry serves clients across industries with a combination of consulting, data, and digital products.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/korn-ferry/refs/heads/main/screenshots/korn-ferry-2026-06-20T184140.png",
+     "score": 5.7,
      "band": "minimal",
      "band_label": "Minimal",
      "facets": {
-      "discoverability": 50.0,
+      "discoverability": 40.7,
       "contract_quality": 0.0,
       "governance": 0.0,
       "contract_governance": 0.0,
-      "operational_transparency": 2.6,
-      "developer_ergonomics": 2.4,
-      "commercial_clarity": 0.0,
-      "access_clarity": 0.0
+      "operational_transparency": 0.0,
+      "developer_ergonomics": 0.0,
+      "commercial_clarity": 7.9,
+      "access_clarity": 7.9
      },
      "scored_at": "2026-09-01",
-     "schema_version": "0.17.2",
+     "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -2836,7 +2836,7 @@
       "access_clarity": 0.0
      },
      "scored_at": "2026-09-01",
-     "schema_version": "0.17.2",
+     "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -2881,7 +2881,7 @@
       "access_clarity": 0.0
      },
      "scored_at": "2026-09-01",
-     "schema_version": "0.17.2",
+     "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -2926,7 +2926,7 @@
       "access_clarity": 0.0
      },
      "scored_at": "2026-09-01",
-     "schema_version": "0.17.2",
+     "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -2970,7 +2970,7 @@
       "access_clarity": 0.0
      },
      "scored_at": "2026-09-01",
-     "schema_version": "0.17.2",
+     "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -3014,7 +3014,7 @@
       "access_clarity": 0.0
      },
      "scored_at": "2026-09-01",
-     "schema_version": "0.17.2",
+     "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -3059,7 +3059,7 @@
       "access_clarity": 0.0
      },
      "scored_at": "2026-09-01",
-     "schema_version": "0.17.2",
+     "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -3104,7 +3104,7 @@
       "access_clarity": 0.0
      },
      "scored_at": "2026-09-01",
-     "schema_version": "0.17.2",
+     "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -3149,7 +3149,7 @@
       "access_clarity": 0.0
      },
      "scored_at": "2026-09-01",
-     "schema_version": "0.17.2",
+     "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -3194,7 +3194,7 @@
       "access_clarity": 0.0
      },
      "scored_at": "2026-09-01",
-     "schema_version": "0.17.2",
+     "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -3239,7 +3239,7 @@
       "access_clarity": 0.0
      },
      "scored_at": "2026-09-01",
-     "schema_version": "0.17.2",
+     "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -3283,7 +3283,7 @@
       "access_clarity": 0.0
      },
      "scored_at": "2026-09-01",
-     "schema_version": "0.17.2",
+     "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -3327,7 +3327,7 @@
       "access_clarity": 0.0
      },
      "scored_at": "2026-09-01",
-     "schema_version": "0.17.2",
+     "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -3371,7 +3371,7 @@
       "access_clarity": 0.0
      },
      "scored_at": "2026-09-01",
-     "schema_version": "0.17.2",
+     "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -3415,7 +3415,7 @@
       "access_clarity": 0.0
      },
      "scored_at": "2026-09-01",
-     "schema_version": "0.17.2",
+     "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -3459,7 +3459,7 @@
       "access_clarity": 0.0
      },
      "scored_at": "2026-09-01",
-     "schema_version": "0.17.2",
+     "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
       "regime": "Government & Public Sector",
@@ -3511,7 +3511,7 @@
       "access_clarity": 0.0
      },
      "scored_at": "2026-09-01",
-     "schema_version": "0.17.2",
+     "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -3556,7 +3556,7 @@
       "access_clarity": 0.0
      },
      "scored_at": "2026-09-01",
-     "schema_version": "0.17.2",
+     "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
       "regime": "Insurance",
@@ -3608,7 +3608,7 @@
       "access_clarity": 0.0
      },
      "scored_at": "2026-09-01",
-     "schema_version": "0.17.2",
+     "schema_version": "0.18.0",
      "regulatory": {
       "applies": false,
       "undetermined": true,
@@ -3658,7 +3658,7 @@
       "access_clarity": 0.0
      },
      "scored_at": "2026-09-01",
-     "schema_version": "0.17.2",
+     "schema_version": "0.18.0",
      "regulatory": {
       "applies": false,
       "undetermined": true,
@@ -3708,7 +3708,7 @@
       "access_clarity": 0.0
      },
      "scored_at": "2026-09-01",
-     "schema_version": "0.17.2",
+     "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -3752,7 +3752,7 @@
       "access_clarity": 0.0
      },
      "scored_at": "2026-09-01",
-     "schema_version": "0.17.2",
+     "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
       "regime": "Insurance",
@@ -3804,7 +3804,7 @@
       "access_clarity": 0.0
      },
      "scored_at": "2026-09-01",
-     "schema_version": "0.17.2",
+     "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -3848,7 +3848,7 @@
       "access_clarity": 0.0
      },
      "scored_at": "2026-09-01",
-     "schema_version": "0.17.2",
+     "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {

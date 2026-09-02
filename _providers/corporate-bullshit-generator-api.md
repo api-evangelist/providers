@@ -88,7 +88,6 @@ finops:
 - name: Corporate Bullshit Generator Api Finops
   service_category: API
   slug: corporate-bullshit-generator-api-finops
-image: https://kinlane-productions2.s3.amazonaws.com/apis-json-icons/apis-json.png
 jsonld:
 - class_count: 2
   name: Corporate Bullshit Generator Context
@@ -129,20 +128,20 @@ rules:
   slug: corporate-bullshit-generator-api-rules
 score:
   band: thin
-  composite: 29.4
+  composite: 29.1
   coverage:
     artifact_dirs: 11
-    catalog_gap: 35.0
+    catalog_gap: 37.0
     catalog_max: 100.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: 0.0
+  delta: -0.3
   facets:
     access_clarity: 0.0
     commercial_clarity: 0.0
     contract_governance: 60.6
     contract_quality: 54.4
     developer_ergonomics: 0.0
-    discoverability: 68.5
+    discoverability: 64.8
     governance: 60.6
     operational_transparency: 13.2
   previous_composite: 29.4
@@ -153,7 +152,7 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 1
-  schema_version: 0.17.2
+  schema_version: 0.18.0
   scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/corporate-bullshit-generator-api/refs/heads/main/screenshots/corporate-bullshit-generator-api-2026-06-20T175036.png

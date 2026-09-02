@@ -1051,18 +1051,18 @@ rules:
   slug: unity-spectral-rules
 score:
   band: strong
-  composite: 56.5
+  composite: 57.2
   coverage:
     artifact_dirs: 22
     catalog_gap: 60.5
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: 0.0
+  delta: 0.7
   facets:
     access_clarity: 65.8
     commercial_clarity: 65.8
     contract_governance: 28.8
-    contract_quality: 65.1
+    contract_quality: 68.0
     developer_ergonomics: 61.9
     discoverability: 57.4
     governance: 28.8
@@ -1071,11 +1071,11 @@ score:
   provenance:
     agentic_access: derived
     contracts:
-      callable: 0.0
+      callable: 96.8
       derived: 0
       marker_coverage: 0.0
       total: 31
-  schema_version: 0.17.2
+  schema_version: 0.18.0
   scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/unity/refs/heads/main/screenshots/unity-2026-08-17T130408.png

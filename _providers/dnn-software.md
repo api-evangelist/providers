@@ -123,7 +123,7 @@ score:
     applies: true
     score: 100.0
   previous_composite: 20.0
-  schema_version: 0.17.2
+  schema_version: 0.18.0
   scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/dnn-software/refs/heads/main/screenshots/dnn-software-2026-07-25T212155.png

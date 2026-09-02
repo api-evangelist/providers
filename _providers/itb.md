@@ -34,12 +34,21 @@ agent_readiness:
   schema_version: 0.2
   score: 5.0
   scored_at: '2026-09-01'
-api_count: 1
+api_count: 4
 apis:
-- description: 'ITB''s campus-wide single sign-on, built on the Apereo CAS (Central Authentication Service) protocol. Applications integrate against the CAS login/validation endpoints to authenticate ITB members. The '
+- description: ITB's campus-wide single sign-on, built on the Apereo CAS (Central Authentication Service) protocol and running on ITB's own host login.itb.ac.id. The CAS 2.0 and CAS 3.0 ticket-validation endpoints a
   name: ITB Single Sign-On (CAS)
   slug: sso-cas
-artifact_total: 6
+- description: ITB's scholarly journal platform at journals.itb.ac.id, hosted on ITB's own domain and administered by ITB (OAI Identify returns repositoryName "ITB Journals" and adminEmail journal@itb.ac.id). It exp
+  name: ITB Journals OAI-PMH
+  slug: journals-oai
+- description: ITB is a registered Crossref member through its Institute for Research and Community Services (LPPM), which registers the DOIs for the ITB journal titles published on journals.itb.ac.id. Member ID 361
+  name: Crossref Membership (LPPM ITB)
+  slug: crossref-membership
+- description: ITB is registered in the Research Organization Registry as https://ror.org/00apj8t60 ("Bandung Institute of Technology", acronym ITB, Indonesian label "Institut Teknologi Bandung"). Verified live 2026
+  name: ROR Registration
+  slug: ror-registration
+artifact_total: 9
 common:
 - group: auth
   title: ''
@@ -57,6 +66,22 @@ common:
   title: ''
   type: Authentication
   url: https://login.itb.ac.id/
+- group: other
+  title: ''
+  type: ResearchRepository
+  url: https://digilib.itb.ac.id/
+- group: build
+  title: ''
+  type: GitHubOrganization
+  url: https://github.com/STEI-ITB
+- group: company
+  title: ''
+  type: Blog
+  url: https://itb.ac.id/berita
+- group: design
+  title: ''
+  type: Conformance
+  url: conformance/itb-conformance.yml
 - group: commercial
   title: ''
   type: Plans
@@ -73,12 +98,9 @@ common:
   title: ''
   type: Review
   url: review.yml
-- group: other
-  title: ''
-  type: ProductPage
-  url: https://digilib.itb.ac.id/
 created: '2026-06-03'
-description: 'Institut Teknologi Bandung (ITB) is a public research university in Bandung, Indonesia, ranked #256 in the QS World University Rankings 2025. ITB operates a number of public-facing web systems including an institutional digital library (Ganesha Digital Library / GDL), an academic portal, and a campus-wide single sign-on service. As of this review ITB does not publish a dedicated developer portal or documented public API program; its machine-readable surfaces are limited to a CAS-based SSO endpoint and an institutional repository whose historical OAI-PMH/RSS endpoints no longer resolve after a platform migration. The entries below reflect only what could be verified live and publicly.'
+description: 'Institut Teknologi Bandung (ITB) is a public technical university in Bandung, Indonesia, and one of the country''s oldest and most selective engineering and science institutions. ITB publishes no developer portal, no API gateway, no API terms of service and no specification of any kind — api.itb.ac.id and data.itb.ac.id do not resolve, and no open-data portal was found. What it does operate, on its own domain and its own address space, are two protocol endpoints with no contract behind them: a campus-wide Apereo CAS single sign-on whose ticket-validation endpoints return machine-readable CAS XML, and an Open Journal Systems installation at journals.itb.ac.id that exposes a live, fully open OAI-PMH 2.0 data provider across twenty journal sets. Both are institution-operated; neither is institution-specified — the OJS software and its REST API are the Public Knowledge Project''s, and that REST API is credential-gated (403). ITB is additionally a registered Crossref member through
+  its research institute LPPM (member 3613, DOI prefix 10.5614, 6,568 DOIs) and carries a ROR identifier. The Ganesha Digital Library repository is publicly browseable but its historical OAI-PMH and RSS endpoints stayed dead after a platform migration, and the library site lib.itb.ac.id now returns a database error. This profile records institution-operated surfaces with no institution-published contract, which is the honest result rather than a gap to be padded.'
 finops:
 - name: Itb Finops
   service_category: Education
@@ -90,17 +112,17 @@ jsonld:
   property_count: 2
   slug: itb-context
 layout: provider
-modified: '2026-07-25'
+modified: '2026-09-01'
 name: Bandung Institute of Technology
 nav: Providers
 network: true
-overview: 'Bandung Institute of Technology publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Education, Higher Education, University, Research, and Indonesia.
+overview: 'Bandung Institute of Technology publishes 4 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Education, Higher Education, University, Institute of Technology, and Research.
 
 
   The Bandung Institute of Technology catalog on APIs.io includes 1 JSON-LD context.
 
 
-  Bandung Institute of Technology''s developer surface includes authentication and 8 more developer resources.'
+  Bandung Institute of Technology''s developer surface includes authentication, engineering blog, and 10 more developer resources.'
 plans:
 - name: Itb Plans Pricing
   plan_count: 2
@@ -111,33 +133,35 @@ rate_limits:
   name: Itb Rate Limits
   slug: itb-rate-limits
 score:
-  band: emerging
-  composite: 22.9
+  band: thin
+  composite: 30.7
   coverage:
-    artifact_dirs: 7
-    catalog_gap: 51.0
+    artifact_dirs: 8
+    catalog_gap: 48.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: 0.0
+  delta: 7.8
   facets:
     access_clarity: 28.9
     commercial_clarity: 28.9
-    contract_governance: 0.0
-    contract_quality: 10.7
-    developer_ergonomics: 21.4
-    discoverability: 68.5
-    governance: 0.0
-    operational_transparency: 21.1
+    contract_governance: 18.2
+    contract_quality: 17.3
+    developer_ergonomics: 23.8
+    discoverability: 74.1
+    governance: 18.2
+    operational_transparency: 26.3
   previous_composite: 22.9
+  provenance:
+    conformance: first-party
   regulatory:
     applies: true
     matched_via: tags
     regime: Education & Research
     regime_id: education
-    score: 31.5
-  schema_version: 0.17.2
+    score: 46.3
+  schema_version: 0.18.0
   scored_at: '2026-09-01'
-  trend: flat
+  trend: rising
 screenshot: https://raw.githubusercontent.com/api-evangelist/itb/refs/heads/main/screenshots/itb-2026-06-20T183631.png
 security:
 - kind: domain-security
@@ -149,9 +173,15 @@ tags:
 - Education
 - Higher Education
 - University
+- Institute of Technology
 - Research
 - Indonesia
+- Southeast Asia
 - Authentication
+- Single Sign-On
+- Scholarly Publishing
+- OAI-PMH
 - Digital Library
+- Research Repository
 website: https://itb.ac.id/
 ---

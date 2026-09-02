@@ -130,7 +130,7 @@ score:
     governance: 0.0
     operational_transparency: 21.1
   previous_composite: 26.4
-  schema_version: 0.17.2
+  schema_version: 0.18.0
   scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/henchman/refs/heads/main/screenshots/henchman-2026-07-25T220957.png

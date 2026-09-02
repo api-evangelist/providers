@@ -14,7 +14,7 @@ agent_readiness:
   band: agent-native
   dimensions:
     agent_card: false
-    agent_skills: true
+    agent_skills: derived
     agentic_access: derived
     agentic_commerce: false
     auth_clarity: bearer
@@ -33,7 +33,7 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 43.6
+  score: 40.5
   scored_at: '2026-09-01'
 agentic_access:
 - acting_count: 4
@@ -231,33 +231,36 @@ rate_limits:
   slug: scrapingant-rate-limits
 score:
   band: developing
-  composite: 47.4
+  composite: 52.5
   coverage:
     artifact_dirs: 21
-    catalog_gap: 69.0
+    catalog_gap: 51.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: 0.0
+  delta: 5.1
   facets:
-    access_clarity: 48.7
-    commercial_clarity: 48.7
-    contract_governance: 18.2
+    access_clarity: 72.4
+    commercial_clarity: 72.4
+    contract_governance: 4.5
     contract_quality: 53.7
-    developer_ergonomics: 69.0
+    developer_ergonomics: 63.7
     discoverability: 68.5
-    governance: 18.2
-    operational_transparency: 10.5
+    governance: 4.5
+    operational_transparency: 34.2
   previous_composite: 47.4
   provenance:
     agentic_access: derived
+    conformance: derived
     contracts:
       callable: 100.0
       derived: 0
       marker_coverage: 0.0
-      total: 1
-  schema_version: 0.17.2
+      total: 2
+    mcp: first-party
+    skills: derived
+  schema_version: 0.18.0
   scored_at: '2026-09-01'
-  trend: flat
+  trend: rising
 screenshot: https://raw.githubusercontent.com/api-evangelist/scrapingant/refs/heads/main/screenshots/scrapingant-2026-06-20T193558.png
 security:
 - kind: authentication

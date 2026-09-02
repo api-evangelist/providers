@@ -849,18 +849,18 @@ overview: 'Events.com publishes 112 APIs on the [APIs.io](https://apis.io/) netw
 random_paper: 14
 score:
   band: thin
-  composite: 35.7
+  composite: 35.5
   coverage:
     artifact_dirs: 20
     catalog_gap: 88.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: 0.0
+  delta: -0.2
   facets:
     access_clarity: 38.2
     commercial_clarity: 38.2
     contract_governance: 4.5
-    contract_quality: 59.2
+    contract_quality: 58.4
     developer_ergonomics: 28.0
     discoverability: 57.4
     governance: 4.5
@@ -870,13 +870,13 @@ score:
     agentic_access: derived
     conformance: derived
     contracts:
-      callable: 98.3
+      callable: 100.0
       derived: 0
       marker_coverage: 0.0
-      total: 115
+      total: 112
     mcp: first-party
     skills: derived
-  schema_version: 0.17.2
+  schema_version: 0.18.0
   scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/eventscom/refs/heads/main/screenshots/eventscom-2026-08-07T165031.png

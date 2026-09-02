@@ -224,7 +224,7 @@ score:
     access_clarity: 39.5
     commercial_clarity: 39.5
     contract_governance: 13.6
-    contract_quality: 30.8
+    contract_quality: 30.5
     developer_ergonomics: 33.3
     discoverability: 68.5
     governance: 13.6
@@ -243,7 +243,7 @@ score:
     regime: Payments
     regime_id: payments
     score: 18.8
-  schema_version: 0.17.2
+  schema_version: 0.18.0
   scored_at: '2026-09-01'
   trend: flat
 security:

@@ -14,7 +14,7 @@ agent_readiness:
   band: agent-native
   dimensions:
     agent_card: false
-    agent_skills: true
+    agent_skills: derived
     agentic_access: derived
     agentic_commerce: false
     auth_clarity: bearer
@@ -33,7 +33,7 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 43.6
+  score: 40.5
   scored_at: '2026-09-01'
 agentic_access:
 - acting_count: 0
@@ -201,43 +201,40 @@ rate_limits:
   slug: sex-offenders-api-rate-limits
 score:
   band: developing
-  composite: 49.7
+  composite: 50.1
   coverage:
     artifact_dirs: 21
-    catalog_gap: 73.0
+    catalog_gap: 67.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: 0.0
+  delta: 0.4
   facets:
-    access_clarity: 51.3
-    commercial_clarity: 51.3
-    contract_governance: 18.2
+    access_clarity: 67.1
+    commercial_clarity: 67.1
+    contract_governance: 4.5
     contract_quality: 59.9
-    developer_ergonomics: 54.8
+    developer_ergonomics: 49.4
     discoverability: 75.9
-    governance: 18.2
+    governance: 4.5
     operational_transparency: 0.0
-  needs_work:
-    note: Recorded so this provider's gaps can be attributed. Does not affect the composite above.
-    owner: catalog
-    reasons:
-    - owner: catalog
-      reason: no_resolvable_host
   previous_composite: 49.7
   provenance:
     agentic_access: derived
+    conformance: derived
     contracts:
       callable: 100.0
       derived: 0
       marker_coverage: 0.0
       total: 1
+    mcp: first-party
+    skills: derived
   regulatory:
     applies: true
     matched_via: tags
     regime: Government & Public Sector
     regime_id: government
     score: 46.3
-  schema_version: 0.17.2
+  schema_version: 0.18.0
   scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/sex-offenders-api/refs/heads/main/screenshots/sex-offenders-api-2026-06-20T193740.png

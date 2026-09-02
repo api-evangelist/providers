@@ -153,7 +153,7 @@ score:
     governance: 0.0
     operational_transparency: 30.3
   previous_composite: 19.9
-  schema_version: 0.17.2
+  schema_version: 0.18.0
   scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/kenna-security/refs/heads/main/screenshots/kenna-security-2026-07-25T223615.png

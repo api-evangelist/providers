@@ -256,18 +256,18 @@ rate_limits:
   slug: ppro-rate-limits
 score:
   band: developing
-  composite: 53.8
+  composite: 54.0
   coverage:
     artifact_dirs: 22
     catalog_gap: 63.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: 0.0
+  delta: 0.2
   facets:
     access_clarity: 28.9
     commercial_clarity: 28.9
     contract_governance: 18.2
-    contract_quality: 60.3
+    contract_quality: 61.1
     developer_ergonomics: 54.2
     discoverability: 81.5
     governance: 18.2
@@ -276,10 +276,10 @@ score:
   provenance:
     conformance: first-party
     contracts:
-      callable: 90.9
+      callable: 100.0
       derived: 0
       marker_coverage: 0.0
-      total: 11
+      total: 19
     mcp: first-party
     skills: derived
   regulatory:
@@ -288,7 +288,7 @@ score:
     regime: Payments
     regime_id: payments
     score: 46.9
-  schema_version: 0.17.2
+  schema_version: 0.18.0
   scored_at: '2026-09-01'
   trend: flat
 security:

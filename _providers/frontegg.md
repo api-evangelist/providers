@@ -901,18 +901,18 @@ rules:
   slug: frontegg-tenants-rules
 score:
   band: strong
-  composite: 58.6
+  composite: 58.4
   coverage:
     artifact_dirs: 19
     catalog_gap: 26.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: 0.0
+  delta: -0.2
   facets:
     access_clarity: 52.6
     commercial_clarity: 52.6
     contract_governance: 69.7
-    contract_quality: 65.9
+    contract_quality: 65.0
     developer_ergonomics: 57.1
     discoverability: 66.7
     governance: 69.7
@@ -924,11 +924,11 @@ score:
   provenance:
     agentic_access: derived
     contracts:
-      callable: 100.0
+      callable: 96.8
       derived: 0
       marker_coverage: 0.0
       total: 63
-  schema_version: 0.17.2
+  schema_version: 0.18.0
   scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/frontegg/refs/heads/main/screenshots/frontegg-2026-08-17T083542.png

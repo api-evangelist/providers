@@ -454,7 +454,6 @@ finops:
 - name: Ariba Finops
   service_category: API
   slug: ariba-finops
-image: https://www.ariba.com/ariba-logo.png
 layout: provider
 modified: '2026-08-29'
 name: Ariba
@@ -477,25 +476,28 @@ rate_limits:
   name: Ariba Rate Limits
   slug: ariba-rate-limits
 score:
-  band: thin
-  composite: 36.9
+  band: developing
+  composite: 39.3
   coverage:
     artifact_dirs: 21
-    catalog_gap: 77.0
+    catalog_gap: 70.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: 0.0
+  delta: 2.4
   facets:
     access_clarity: 14.5
     commercial_clarity: 14.5
     contract_governance: 18.2
-    contract_quality: 49.3
+    contract_quality: 48.1
     developer_ergonomics: 26.2
-    discoverability: 74.1
+    discoverability: 70.4
     governance: 18.2
-    operational_transparency: 52.6
+    operational_transparency: 76.3
   previous_composite: 36.9
-  schema_version: 0.17.2
+  provenance:
+    conformance: first-party
+    mcp: first-party
+  schema_version: 0.18.0
   scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/ariba/refs/heads/main/screenshots/ariba-2026-06-20T172425.png

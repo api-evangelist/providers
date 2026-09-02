@@ -116,7 +116,7 @@ score:
     governance: 0.0
     operational_transparency: 2.6
   previous_composite: 22.2
-  schema_version: 0.17.2
+  schema_version: 0.18.0
   scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/zenefits/refs/heads/main/screenshots/zenefits-2026-06-20T201818.png

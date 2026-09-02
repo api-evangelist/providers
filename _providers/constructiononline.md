@@ -133,7 +133,7 @@ score:
     governance: 0.0
     operational_transparency: 7.9
   previous_composite: 17.0
-  schema_version: 0.17.2
+  schema_version: 0.18.0
   scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/constructiononline/refs/heads/main/screenshots/constructiononline-2026-06-20T174916.png

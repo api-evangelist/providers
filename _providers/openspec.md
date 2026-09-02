@@ -147,7 +147,7 @@ score:
     applies: true
     score: 60.0
   previous_composite: 21.8
-  schema_version: 0.17.2
+  schema_version: 0.18.0
   scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/openspec/refs/heads/main/screenshots/openspec-2026-08-07T190640.png

@@ -50,7 +50,6 @@ common:
   url: https://www.gov2x.com
 created: '2026-05-04'
 description: V2X is a defense and national security contractor providing mission-critical solutions including AI integration, cybersecurity, advanced engineering, operations support, training, and modernization services. The company serves U.S. government, allied defense, and aerospace customers globally. V2X does not publish a public developer API portal.
-image: https://avatars.githubusercontent.com/u/api-evangelist
 layout: provider
 modified: '2026-05-04'
 name: V2X
@@ -60,20 +59,20 @@ overview: V2X is profiled on the [APIs.io](https://apis.io/) network. Tagged are
 random_paper: 15
 score:
   band: minimal
-  composite: 2.9
+  composite: 2.5
   coverage:
     artifact_dirs: 3
-    catalog_gap: 91.0
+    catalog_gap: 93.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: 0.0
+  delta: -0.4
   facets:
     access_clarity: 0.0
     commercial_clarity: 0.0
     contract_governance: 0.0
     contract_quality: 0.0
     developer_ergonomics: 0.0
-    discoverability: 44.4
+    discoverability: 40.7
     governance: 0.0
     operational_transparency: 0.0
   previous_composite: 2.9
@@ -83,7 +82,7 @@ score:
     regime: Government & Public Sector
     regime_id: government
     score: 11.1
-  schema_version: 0.17.2
+  schema_version: 0.18.0
   scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/v2x/refs/heads/main/screenshots/v2x-2026-06-20T200741.png

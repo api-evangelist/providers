@@ -228,7 +228,7 @@ score:
     regime: Banking & Open Finance
     regime_id: banking_open_finance
     score: 54.4
-  schema_version: 0.17.2
+  schema_version: 0.18.0
   scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/rabobank-australia/refs/heads/main/screenshots/rabobank-australia-2026-07-21T114745.png

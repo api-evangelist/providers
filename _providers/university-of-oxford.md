@@ -321,18 +321,18 @@ scopes:
   summary_line: OAuth 2.0 · no documented scopes
 score:
   band: developing
-  composite: 41.1
+  composite: 41.4
   coverage:
     artifact_dirs: 17
     catalog_gap: 32.5
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: 0.0
+  delta: 0.3
   facets:
     access_clarity: 34.2
     commercial_clarity: 34.2
     contract_governance: 22.7
-    contract_quality: 27.8
+    contract_quality: 29.1
     developer_ergonomics: 35.7
     discoverability: 74.1
     governance: 22.7
@@ -351,7 +351,7 @@ score:
     regime: Education & Research
     regime_id: education
     score: 64.8
-  schema_version: 0.17.2
+  schema_version: 0.18.0
   scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/university-of-oxford/refs/heads/main/screenshots/university-of-oxford-2026-06-20T200220.png

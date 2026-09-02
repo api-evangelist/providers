@@ -50,7 +50,6 @@ common:
   url: https://www.targaresources.com/contact-us
 created: '2026-03-24'
 description: Targa Energy is a midstream natural gas and natural gas liquids (NGL) services company operating in North America. The company provides gathering, compression, treating, processing, and selling of natural gas; storing, fractionating, treating, transporting, and selling of NGLs. Targa Energy operates as part of the broader Targa Resources enterprise, which is a Fortune 500 midstream infrastructure company focused on the Permian Basin and other major production areas.
-image: https://www.targaresources.com/themes/custom/targa/logo.svg
 layout: provider
 modified: '2026-05-03'
 name: Targa Energy
@@ -76,20 +75,20 @@ press:
 random_paper: 4
 score:
   band: minimal
-  composite: 2.1
+  composite: 1.7
   coverage:
     artifact_dirs: 4
-    catalog_gap: 88.0
+    catalog_gap: 90.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: 0.0
+  delta: -0.4
   facets:
     access_clarity: 0.0
     commercial_clarity: 0.0
     contract_governance: 0.0
     contract_quality: 0.0
     developer_ergonomics: 0.0
-    discoverability: 50.0
+    discoverability: 46.3
     governance: 0.0
     operational_transparency: 0.0
   needs_work:
@@ -105,7 +104,7 @@ score:
     regime: Energy & Utilities
     regime_id: energy_utilities
     score: 0.0
-  schema_version: 0.17.2
+  schema_version: 0.18.0
   scored_at: '2026-09-01'
   trend: flat
 slug: targa-energy

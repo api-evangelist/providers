@@ -595,7 +595,7 @@ score:
     access_clarity: 92.1
     commercial_clarity: 92.1
     contract_governance: 18.2
-    contract_quality: 21.2
+    contract_quality: 20.9
     developer_ergonomics: 73.2
     discoverability: 75.9
     governance: 18.2
@@ -610,7 +610,7 @@ score:
       total: 48
     mcp: first-party
     skills: derived
-  schema_version: 0.17.2
+  schema_version: 0.18.0
   scored_at: '2026-09-01'
   trend: flat
 security:

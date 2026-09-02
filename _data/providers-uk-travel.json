@@ -30,7 +30,7 @@
       "access_clarity": 27.6
      },
      "scored_at": "2026-09-01",
-     "schema_version": "0.17.2",
+     "schema_version": "0.18.0",
      "agent_score": 40.1,
      "agent_band": "agent-ready",
      "agent_dims": {
@@ -75,7 +75,7 @@
       "access_clarity": 21.1
      },
      "scored_at": "2026-09-01",
-     "schema_version": "0.17.2",
+     "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
       "regime": "Government & Public Sector",
@@ -114,12 +114,12 @@
      "slug": "virgin-atlantic",
      "description": "Virgin Atlantic Airways is a United Kingdom long-haul carrier (IATA code VS) based at London Heathrow and Manchester, operating a transatlantic joint venture with Delta Air Lines, Air France-KLM and SkyTeam, and a SkyTeam member since 2023. In the distribution chain it sits as an airline supplier that reaches travel sellers through three routes at once - the legacy GDSs (Amadeus, Sabre, Travelport, all under renewed multi-year content agreements), its own IATA NDC direct connect, and its own consumer channels. Its API posture is distribution-only and honestly gated. Virgin Atlantic publishes no consumer, flight-status or loyalty API, and no OpenAPI or machine-readable API description of any kind. What it does publish, openly and without a login, is the VS NDC Connect portal at ndc.virginatlantic.com - full request and response reference documentation for twelve IATA NDC 21.3 messages, XML samples, workflow diagrams, a certification programme, and downloadable IATA NDC 21.3.3 XSD schema assets. The contract itself is the IATA NDC standard rather than a Virgin-specific shape, but getting a key is not self-serve - production access requires valid IATA accreditation and Virgin Atlantic ticketing authority (or a service-provider connection), a signed Technical User Agreement, Data Processing Agreement and Agency Sales Agreement, and at minimum RED tier certification. There is no bulk export operation and no published base URL - public docs, accreditation required, no exit path.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/virgin-atlantic/refs/heads/main/screenshots/virgin-atlantic-2026-08-17T082754.png",
-     "score": 45.3,
+     "score": 45.0,
      "band": "developing",
      "band_label": "Developing",
      "facets": {
       "discoverability": 64.8,
-      "contract_quality": 49.3,
+      "contract_quality": 48.1,
       "governance": 22.0,
       "contract_governance": 22.0,
       "operational_transparency": 28.9,
@@ -128,7 +128,7 @@
       "access_clarity": 34.2
      },
      "scored_at": "2026-09-01",
-     "schema_version": "0.17.2",
+     "schema_version": "0.18.0",
      "agent_score": 24.8,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -184,7 +184,7 @@
       "access_clarity": 39.5
      },
      "scored_at": "2026-09-01",
-     "schema_version": "0.17.2",
+     "schema_version": "0.18.0",
      "agent_score": 19.8,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -230,7 +230,7 @@
       "access_clarity": 39.5
      },
      "scored_at": "2026-09-01",
-     "schema_version": "0.17.2",
+     "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
       "regime": "Payments",
@@ -283,7 +283,7 @@
       "access_clarity": 0.0
      },
      "scored_at": "2026-09-01",
-     "schema_version": "0.17.2",
+     "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
       "regime": "Payments",
@@ -336,7 +336,7 @@
       "access_clarity": 34.2
      },
      "scored_at": "2026-09-01",
-     "schema_version": "0.17.2",
+     "schema_version": "0.18.0",
      "agent_score": 2.5,
      "agent_band": "human-only",
      "agent_dims": {
@@ -379,12 +379,12 @@
      "slug": "british-airways",
      "description": "British Airways Plc is the United Kingdom's flag carrier, headquartered at Waterside near London Heathrow and owned since 2011 by International Consolidated Airlines Group (IAG), which also owns Iberia, Aer Lingus, Vueling and LEVEL. In the distribution chain BA is a supplier of its own seat inventory, reached either through the three legacy GDSs, through IATA NDC connections it operates itself, or direct on ba.com. BA was one of the earliest and most aggressive NDC adopters: from 1 November 2017 IAG applied a per-fare-component Distribution Technology Charge to BA and Iberia marketed fares that are not booked through an NDC based connection or a low-cost channel such as ba.com, explicitly pricing GDS intermediation out of the stack. Its API posture is honest to state plainly - the NDC distribution API is real and is built on the IATA EDIST message set, but there is no public specification, no published base URL, no self-serve signup and no exit path. Access requires registration, a B1 or B2 certification form, acceptance of the British Airways API and Services Trial Use Agreement plus the Travel Agency Addendum for IATA accredited agents, and signed live API contracts. The older public consumer REST APIs (Flight Information, Flight Offers, Lowest Prices, In-Flight Entertainment, Hotel/Car/Flight packages) on the IAG Developer Programs portal are gone: as of 2026-07-28 developer.iairgroup.com returns HTTP 404 and api.ba.com returns HTTP 596 ERR_596_SERVICE_NOT_FOUND for every documented resource.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/british-airways/refs/heads/main/screenshots/british-airways-2026-08-07T162825.png",
-     "score": 25.7,
+     "score": 25.4,
      "band": "emerging",
      "band_label": "Emerging",
      "facets": {
       "discoverability": 66.7,
-      "contract_quality": 42.7,
+      "contract_quality": 41.6,
       "governance": 18.2,
       "contract_governance": 18.2,
       "operational_transparency": 18.4,
@@ -393,7 +393,7 @@
       "access_clarity": 0.0
      },
      "scored_at": "2026-09-01",
-     "schema_version": "0.17.2",
+     "schema_version": "0.18.0",
      "agent_score": 23.7,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -438,7 +438,7 @@
       "access_clarity": 36.8
      },
      "scored_at": "2026-09-01",
-     "schema_version": "0.17.2",
+     "schema_version": "0.18.0",
      "agent_score": 10.8,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -483,7 +483,7 @@
       "access_clarity": 34.2
      },
      "scored_at": "2026-09-01",
-     "schema_version": "0.17.2",
+     "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
       "regime": "Telecommunications",
@@ -536,7 +536,7 @@
       "access_clarity": 34.2
      },
      "scored_at": "2026-09-01",
-     "schema_version": "0.17.2",
+     "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -592,7 +592,7 @@
       "access_clarity": 21.1
      },
      "scored_at": "2026-09-01",
-     "schema_version": "0.17.2",
+     "schema_version": "0.18.0",
      "agent_score": 3.5,
      "agent_band": "human-only",
      "agent_dims": {
@@ -638,7 +638,7 @@
       "access_clarity": 10.5
      },
      "scored_at": "2026-09-01",
-     "schema_version": "0.17.2",
+     "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
       "regime": "Telecommunications",
@@ -691,7 +691,7 @@
       "access_clarity": 0.0
      },
      "scored_at": "2026-09-01",
-     "schema_version": "0.17.2",
+     "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {

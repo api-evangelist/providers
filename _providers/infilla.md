@@ -99,7 +99,7 @@ score:
     regime: Government & Public Sector
     regime_id: government
     score: 25.9
-  schema_version: 0.17.2
+  schema_version: 0.18.0
   scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/infilla/refs/heads/main/screenshots/infilla-2026-07-25T222356.png

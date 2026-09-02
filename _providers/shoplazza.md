@@ -347,19 +347,19 @@ scopes:
   slug: shoplazza-scopes
   summary_line: 29 scopes
 score:
-  band: strong
-  composite: 54.3
+  band: developing
+  composite: 54.1
   coverage:
     artifact_dirs: 23
     catalog_gap: 66.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: 0.0
+  delta: -0.2
   facets:
     access_clarity: 34.2
     commercial_clarity: 34.2
     contract_governance: 4.5
-    contract_quality: 63.7
+    contract_quality: 62.8
     developer_ergonomics: 61.3
     discoverability: 68.5
     governance: 4.5
@@ -381,7 +381,7 @@ score:
     regime: Payments
     regime_id: payments
     score: 54.7
-  schema_version: 0.17.2
+  schema_version: 0.18.0
   scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/shoplazza/refs/heads/main/screenshots/shoplazza-2026-08-17T081837.png

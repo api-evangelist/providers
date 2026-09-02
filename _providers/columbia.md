@@ -267,18 +267,18 @@ scopes:
   summary_line: OAuth 2.0 · no documented scopes
 score:
   band: developing
-  composite: 44.8
+  composite: 44.7
   coverage:
     artifact_dirs: 19
     catalog_gap: 48.8
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: 0.0
+  delta: -0.1
   facets:
     access_clarity: 42.1
     commercial_clarity: 42.1
     contract_governance: 3.8
-    contract_quality: 69.4
+    contract_quality: 69.0
     developer_ergonomics: 31.0
     discoverability: 59.3
     governance: 3.8
@@ -298,7 +298,7 @@ score:
     regime: Education & Research
     regime_id: education
     score: 50.0
-  schema_version: 0.17.2
+  schema_version: 0.18.0
   scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/columbia/refs/heads/main/screenshots/columbia-2026-06-20T174808.png

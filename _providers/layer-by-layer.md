@@ -83,7 +83,7 @@ score:
     - owner: catalog
       reason: no_resolvable_host
   previous_composite: 5.0
-  schema_version: 0.17.2
+  schema_version: 0.18.0
   scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/layer-by-layer/refs/heads/main/screenshots/layer-by-layer-2026-07-25T224651.png

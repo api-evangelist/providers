@@ -273,18 +273,18 @@ press:
 random_paper: 9
 score:
   band: developing
-  composite: 39.8
+  composite: 40.4
   coverage:
     artifact_dirs: 24
     catalog_gap: 86.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: 0.0
+  delta: 0.6
   facets:
     access_clarity: 5.3
     commercial_clarity: 5.3
     contract_governance: 4.5
-    contract_quality: 58.5
+    contract_quality: 61.0
     developer_ergonomics: 61.9
     discoverability: 61.1
     governance: 4.5
@@ -293,6 +293,11 @@ score:
   provenance:
     agentic_access: derived
     conformance: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 13
     mcp: first-party
     skills: first-party
   regulatory:
@@ -301,7 +306,7 @@ score:
     regime: Payments
     regime_id: payments
     score: 29.7
-  schema_version: 0.17.2
+  schema_version: 0.18.0
   scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/fifth-third-bancorp/refs/heads/main/screenshots/fifth-third-bancorp-2026-06-20T181156.png

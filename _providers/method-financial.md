@@ -501,18 +501,18 @@ rate_limits:
   slug: method-financial-rate-limits
 score:
   band: strong
-  composite: 63.6
+  composite: 63.4
   coverage:
     artifact_dirs: 25
     catalog_gap: 66.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: 0.0
+  delta: -0.2
   facets:
     access_clarity: 36.8
     commercial_clarity: 36.8
     contract_governance: 18.2
-    contract_quality: 68.6
+    contract_quality: 67.7
     developer_ergonomics: 78.6
     discoverability: 75.9
     governance: 18.2
@@ -534,7 +534,7 @@ score:
     regime: Banking & Open Finance
     regime_id: banking_open_finance
     score: 55.7
-  schema_version: 0.17.2
+  schema_version: 0.18.0
   scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/method-financial/refs/heads/main/screenshots/method-financial-2026-08-07T172703.png

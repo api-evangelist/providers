@@ -217,19 +217,19 @@ overview: 'Inflammatix publishes 17 APIs on the [APIs.io](https://apis.io/) netw
   Inflammatix''s developer surface includes support, engineering blog, authentication, and 25 more developer resources.'
 random_paper: 2
 score:
-  band: developing
-  composite: 39.3
+  band: thin
+  composite: 29.2
   coverage:
     artifact_dirs: 18
     catalog_gap: 75.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: 0.0
+  delta: -10.1
   facets:
     access_clarity: 35.5
     commercial_clarity: 35.5
     contract_governance: 18.2
-    contract_quality: 56.9
+    contract_quality: 16.3
     developer_ergonomics: 20.8
     discoverability: 81.5
     governance: 18.2
@@ -239,9 +239,9 @@ score:
     conformance: first-party
     contracts:
       callable: 100.0
-      derived: 0
-      marker_coverage: 0.0
-      total: 2
+      derived: 19
+      marker_coverage: 100.0
+      total: 19
     mcp: derived
     skills: derived
   regulatory:
@@ -250,9 +250,9 @@ score:
     regime: Health
     regime_id: health
     score: 37.5
-  schema_version: 0.17.2
+  schema_version: 0.18.0
   scored_at: '2026-09-01'
-  trend: flat
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/inflammatix/refs/heads/main/screenshots/inflammatix-2026-08-07T170701.png
 security:
 - kind: authentication

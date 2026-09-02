@@ -3,8 +3,8 @@ agent_readiness:
   band: agent-native
   dimensions:
     agent_card: false
-    agent_skills: true
-    agentic_access: true
+    agent_skills: derived
+    agentic_access: derived
     agentic_commerce: false
     auth_clarity: bearer
     consent_identity: false
@@ -22,7 +22,7 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 50.6
+  score: 39.9
   scored_at: '2026-09-01'
 agentic_access:
 - acting_count: 31
@@ -362,24 +362,34 @@ rate_limits:
   slug: tvarka-sign-api-rate-limits
 score:
   band: strong
-  composite: 66.3
+  composite: 65.8
   coverage:
     artifact_dirs: 24
     catalog_gap: 63.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: 0.0
+  delta: -0.5
   facets:
     access_clarity: 84.2
     commercial_clarity: 84.2
     contract_governance: 18.2
-    contract_quality: 61.6
-    developer_ergonomics: 81.0
+    contract_quality: 64.1
+    developer_ergonomics: 75.6
     discoverability: 81.5
     governance: 18.2
     operational_transparency: 57.9
   previous_composite: 66.3
-  schema_version: 0.17.2
+  provenance:
+    agentic_access: derived
+    conformance: first-party
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 8
+    mcp: derived
+    skills: derived
+  schema_version: 0.18.0
   scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/tvarka/refs/heads/main/screenshots/tvarka-atk-api-2026-08-17T082503.png

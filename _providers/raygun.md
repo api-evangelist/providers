@@ -493,18 +493,18 @@ rules:
   slug: raygun-rules
 score:
   band: strong
-  composite: 63.2
+  composite: 63.3
   coverage:
     artifact_dirs: 17
     catalog_gap: 44.5
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: 0.0
+  delta: 0.1
   facets:
     access_clarity: 92.1
     commercial_clarity: 92.1
     contract_governance: 28.8
-    contract_quality: 70.4
+    contract_quality: 71.0
     developer_ergonomics: 66.7
     discoverability: 59.3
     governance: 28.8
@@ -513,11 +513,11 @@ score:
   provenance:
     agentic_access: derived
     contracts:
-      callable: 92.3
+      callable: 100.0
       derived: 0
       marker_coverage: 0.0
       total: 13
-  schema_version: 0.17.2
+  schema_version: 0.18.0
   scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/raygun/refs/heads/main/screenshots/raygun-2026-06-20T192616.png

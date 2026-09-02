@@ -224,18 +224,18 @@ rules:
   slug: teller-rules
 score:
   band: developing
-  composite: 40.7
+  composite: 40.5
   coverage:
     artifact_dirs: 18
     catalog_gap: 59.5
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: 0.0
+  delta: -0.2
   facets:
     access_clarity: 15.8
     commercial_clarity: 15.8
     contract_governance: 13.6
-    contract_quality: 67.2
+    contract_quality: 66.3
     developer_ergonomics: 61.9
     discoverability: 68.5
     governance: 13.6
@@ -254,7 +254,7 @@ score:
     regime: Banking & Open Finance
     regime_id: banking_open_finance
     score: 21.5
-  schema_version: 0.17.2
+  schema_version: 0.18.0
   scored_at: '2026-09-01'
   trend: flat
 security:

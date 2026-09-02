@@ -333,18 +333,18 @@ scopes:
   summary_line: 19 scopes · authorizationCode
 score:
   band: thin
-  composite: 32.4
+  composite: 32.2
   coverage:
     artifact_dirs: 22
     catalog_gap: 91.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: 0.0
+  delta: -0.2
   facets:
     access_clarity: 6.6
     commercial_clarity: 6.6
     contract_governance: 4.5
-    contract_quality: 67.2
+    contract_quality: 66.3
     developer_ergonomics: 25.6
     discoverability: 51.9
     governance: 4.5
@@ -360,7 +360,7 @@ score:
       total: 22
     mcp: derived
     skills: derived
-  schema_version: 0.17.2
+  schema_version: 0.18.0
   scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/boxc/refs/heads/main/screenshots/boxc-2026-07-25T203656.png

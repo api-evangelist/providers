@@ -15,12 +15,12 @@
      "name": "WestJet",
      "slug": "westjet",
      "description": "WestJet Airlines Ltd. is Canada's second-largest air carrier, headquartered in Calgary, Alberta, operating scheduled passenger service to more than 100 destinations across Canada, the United States, Mexico, Central America, the Caribbean, Europe and Asia, alongside WestJet Encore, WestJet Vacations, WestJet Cargo and the Sunwing Vacations Group. In the distribution chain WestJet sits upstream of the agency channel: its inventory reaches travel sellers today through EDIFACT in the Amadeus, Sabre and Travelport GDSs, and it is standing up an IATA NDC surface (schema 17.2 and 21.3/24.1) built and hosted on Accelya's FLX/Farelogix platform, with a stated Q4 2026 rollout. Its API posture is honest but closed: there is no public developer portal, no self-serve signup, no OpenAPI or WSDL and no consumer API. The WestJet Direct Connect API is documented only as a public capability matrix at westjetndc.com, and access requires an IATA or ARC accreditation number (TIDS is explicitly not supported), a business-type and sales-volume qualification form, and WestJet approval. Agency booking through WestJet Agent Direct likewise requires an IATA/TIDS/ARC number and a five-to-ten business day review. There is no bulk export for agency or booking data; guest data comes out only via a verbally authenticated PIPEDA-style \"Guest information report\" request.",
-     "score": 38.2,
+     "score": 37.9,
      "band": "thin",
      "band_label": "Thin",
      "facets": {
       "discoverability": 66.7,
-      "contract_quality": 42.7,
+      "contract_quality": 41.6,
       "governance": 4.5,
       "contract_governance": 4.5,
       "operational_transparency": 44.7,
@@ -29,7 +29,7 @@
       "access_clarity": 34.2
      },
      "scored_at": "2026-09-01",
-     "schema_version": "0.17.2",
+     "schema_version": "0.18.0",
      "agent_score": 17.3,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -60,12 +60,12 @@
      "name": "Air Canada",
      "slug": "air-canada",
      "description": "Air Canada is Canada's flag carrier and largest airline, headquartered in Montreal, operating scheduled passenger service under the AC designator along with Air Canada Rouge, Air Canada Express and the Aeroplan loyalty programme. Its home market is Canada, where it forms a duopoly with WestJet. Air Canada sits at the supply end of the travel distribution chain: it is the sole source of its own seat inventory, reached either through the legacy GDS EDIFACT channel (Amadeus, Sabre, Travelport), through certified NDC aggregators, or directly through its own NDC API. Its API posture is unusual for a carrier in that the distribution surface is genuinely well documented in public: the ndc.aircanada.com developer portal publishes complete IATA NDC 17.2 (EDIST) message documentation, request/response element tables, error catalogues, use cases and downloadable sample XML with no login. What is not public is access itself - production credentials require a commercial agreement with Air Canada's distribution team, accredited IATA/ARC codes passed on every request, and passing Air Canada display certification test cases. There is no consumer API (no public flight status, booking or Aeroplan endpoint), no OpenAPI or machine-readable contract, no bulk export operation, and Air Canada publishes that it may revoke NDC programme access at its sole discretion. Public docs, gated access, no exit path.",
-     "score": 32.6,
+     "score": 32.3,
      "band": "thin",
      "band_label": "Thin",
      "facets": {
       "discoverability": 74.1,
-      "contract_quality": 49.3,
+      "contract_quality": 48.1,
       "governance": 22.0,
       "contract_governance": 22.0,
       "operational_transparency": 10.5,
@@ -74,7 +74,7 @@
       "access_clarity": 21.1
      },
      "scored_at": "2026-09-01",
-     "schema_version": "0.17.2",
+     "schema_version": "0.18.0",
      "agent_score": 26.6,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -120,7 +120,7 @@
       "access_clarity": 0.0
      },
      "scored_at": "2026-09-01",
-     "schema_version": "0.17.2",
+     "schema_version": "0.18.0",
      "agent_score": 25.5,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -176,7 +176,7 @@
       "access_clarity": 21.1
      },
      "scored_at": "2026-09-01",
-     "schema_version": "0.17.2",
+     "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
       "regime": "Government & Public Sector",
@@ -228,7 +228,7 @@
       "access_clarity": 21.1
      },
      "scored_at": "2026-09-01",
-     "schema_version": "0.17.2",
+     "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
       "regime": "Government & Public Sector",
@@ -280,7 +280,7 @@
       "access_clarity": 21.1
      },
      "scored_at": "2026-09-01",
-     "schema_version": "0.17.2",
+     "schema_version": "0.18.0",
      "agent_score": 5.4,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -326,7 +326,7 @@
       "access_clarity": 34.2
      },
      "scored_at": "2026-09-01",
-     "schema_version": "0.17.2",
+     "schema_version": "0.18.0",
      "agent_score": 7.2,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -372,7 +372,7 @@
       "access_clarity": 15.8
      },
      "scored_at": "2026-09-01",
-     "schema_version": "0.17.2",
+     "schema_version": "0.18.0",
      "agent_score": 3.8,
      "agent_band": "human-only",
      "agent_dims": {
@@ -417,7 +417,7 @@
       "access_clarity": 34.2
      },
      "scored_at": "2026-09-01",
-     "schema_version": "0.17.2",
+     "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {

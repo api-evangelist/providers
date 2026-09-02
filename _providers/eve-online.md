@@ -22,7 +22,7 @@ agent_readiness:
     dry_run_mode: false
     dynamic_client_registration: false
     error_semantics: verified
-    event_surface_described: true
+    event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: verified
@@ -32,7 +32,7 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 34.9
+  score: 30.6
   scored_at: '2026-09-01'
 agentic_access:
 - acting_count: 34
@@ -677,18 +677,18 @@ scopes:
   summary_line: 63 scopes · implicit
 score:
   band: developing
-  composite: 42.4
+  composite: 42.1
   coverage:
     artifact_dirs: 18
     catalog_gap: 67.5
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: 0.0
+  delta: -0.3
   facets:
     access_clarity: 10.5
     commercial_clarity: 10.5
     contract_governance: 13.6
-    contract_quality: 60.2
+    contract_quality: 59.2
     developer_ergonomics: 64.3
     discoverability: 59.3
     governance: 13.6
@@ -697,11 +697,11 @@ score:
   provenance:
     agentic_access: derived
     contracts:
-      callable: 100.0
+      callable: 53.8
       derived: 0
       marker_coverage: 0.0
-      total: 46
-  schema_version: 0.17.2
+      total: 67
+  schema_version: 0.18.0
   scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/eve-online/refs/heads/main/screenshots/eve-online-2026-06-20T180855.png

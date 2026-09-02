@@ -343,8 +343,8 @@ score:
       callable: 100.0
       derived: 0
       marker_coverage: 0.0
-      total: 25
-  schema_version: 0.17.2
+      total: 26
+  schema_version: 0.18.0
   scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/incident-io/refs/heads/main/screenshots/incident-io-2026-06-20T183308.png

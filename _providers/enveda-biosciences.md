@@ -270,9 +270,9 @@ score:
     conformance: derived
     contracts:
       callable: 100.0
-      derived: 13
+      derived: 14
       marker_coverage: 100.0
-      total: 13
+      total: 14
     mcp: first-party
     skills: derived
   regulatory:
@@ -281,7 +281,7 @@ score:
     regime: Health
     regime_id: health
     score: 31.3
-  schema_version: 0.17.2
+  schema_version: 0.18.0
   scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/enveda-biosciences/refs/heads/main/screenshots/enveda-biosciences-2026-08-07T164935.png

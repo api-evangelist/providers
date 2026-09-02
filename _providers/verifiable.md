@@ -396,19 +396,19 @@ overview: 'Verifiable publishes 33 APIs on the [APIs.io](https://apis.io/) netwo
   Verifiable''s developer surface includes documentation, API reference, getting-started guide, engineering blog, support, authentication, changelog, and 24 more developer resources.'
 random_paper: 20
 score:
-  band: strong
-  composite: 54.3
+  band: developing
+  composite: 54.1
   coverage:
     artifact_dirs: 21
     catalog_gap: 88.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: 0.0
+  delta: -0.2
   facets:
     access_clarity: 28.9
     commercial_clarity: 28.9
     contract_governance: 18.2
-    contract_quality: 63.8
+    contract_quality: 62.9
     developer_ergonomics: 66.1
     discoverability: 57.4
     governance: 18.2
@@ -430,7 +430,7 @@ score:
     regime: Health
     regime_id: health
     score: 45.0
-  schema_version: 0.17.2
+  schema_version: 0.18.0
   scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/verifiable/refs/heads/main/screenshots/verifiable-2026-08-17T082730.png

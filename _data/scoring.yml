@@ -11,8 +11,8 @@
 # All weights and point values are tunable. Keep this file the single source
 # of truth for the rubric — code that scores providers should read from here.
 
-schema_version: 0.17.2
-last_updated: '2026-08-30'
+schema_version: 0.18.0
+last_updated: '2026-09-01'
 maintainer: kin@apievangelist.com
 
 # The public "what changed" note. The apis.io /rating/ page renders this rather than
@@ -22,47 +22,38 @@ maintainer: kin@apievangelist.com
 # checked against schema_version by test_rubric_record.py: a rubric cannot reach a
 # rebuild carrying the previous release's story.
 release_note:
-  version: 0.17.2
+  version: 0.18.0
   body: |
-    A RULE EXTENSION WITH NO SCORE MOVEMENT. No new dimension, no weight change, no facet
-    denominator moved and no band re-cut. Every provider's composite is identical under 0.17.2
-    to what it was under 0.17.1, and scores stamped 0.17.1 remain correct.
+    TWO NEW CHECKS, AND BOTH ARE ABOUT NOT CREDITING THE WRONG PARTY.
 
-    AAUTH IS NOW A RECOGNISED WELL-KNOWN SURFACE. `well_known_published` accepts a served
-    /.well-known/aauth-resource.json alongside api-catalog, security.txt and RFC 9728
-    protected-resource metadata. This moves nobody today, which is exactly why it is safe to add
-    now: measured 2026-08-30 across the 1,486 catalog hosts serving a real OAuth/OIDC discovery
-    document, ZERO serve an AAuth document. Naming it before anyone serves one is the roadmap#123
-    lesson applied in advance — the first provider to publish one is credited instead of scoring
-    as though they published nothing.
+    `inbound_contract_published` credits a provider for publishing a standalone
+    machine-readable contract for the events it SENDS — the webhook envelope, not the API
+    you call. Until roadmap#175 those documents were scored as broken APIs: `callable`
+    grades a spec on whether its servers[] host resolves, and for a webhook envelope that
+    question has no answer, because the consumer is the one who stands up the endpoint.
 
-    A SCORED AAUTH DIMENSION IS PARKED, NOT ADDED. `aauth_resource_metadata` sits in the
-    agent-auth cluster with `agent_identity_declared`, under the same rule: a dimension nobody can
-    earn measures the market, not the provider.
+    `contract_self_operated` settles who OPERATES the thing each registered contract
+    describes before awarding contract credit. The failure it fixes was measured, not
+    theorised: twenty-five universities were credited for one Figshare contract saved under
+    their own slugs and titled "<University> articles API". The eight highest-scoring
+    universities in the whole catalog were scoring that same document, and all eight
+    returned an identical agent readiness of 38.9 because it was the same document. The
+    shape recurs wherever a platform is popular — 193 Shopify merchants, 11 Elsevier Pure
+    deployments, 23 Instructure tenancies.
 
-    AND A PROBE DISCIPLINE CHANGE THAT OUTLIVES AAUTH. The one apparent hit was a host echoing the
-    requested path back into the document's own required field, so a required-field test credited
-    it. Any probe for a NEW well-known path must now carry a negative control — one request to a
-    path that cannot exist — and discard the host on a 2xx. Swept across all 1,486 hosts, exactly
-    one behaves this way, so this is a guard against a future false positive rather than a repair
-    of a present one.
+    It generalises the rule 0.13 already applied to a single `.well-known` file. Attribution
+    is settled from evidence the pipeline gathers anyway — IP ownership, DNS CNAME chains,
+    and the contract's own info.title and info.contact — recorded as `x-operator` per apis[]
+    entry. A vendor tenancy is graded DOWN, not zeroed: a university running Figshare really
+    does give its community a repository with an API; it just did not engineer the contract.
 
-    THAT SECOND NUMBER IS THE POINT. The rubric's own attribution block defines the `catalog` class
-    as work needing no provider action, so an unearned check there is our backlog, not their gap.
-    A low score with a high catalog_gap means WE HAVE NOT LOOKED; a low score with a low one means
-    the provider published little. The composite alone cannot tell those apart, and until now
-    nothing said which one you were reading. Measured: stripe 69.5, twilio 57.5, shopify 43.5.
+    IT IS A NO-OP UNLESS THE AXIS IS DECLARED. A provider whose apis.yml carries no
+    x-operator scores it :skipped and its composite does not move. The field is populated
+    today on the 254-institution university cohort and nowhere else, so nothing outside that
+    cohort shifts, and the check sharpens as the annotation spreads. It must never dock a
+    provider for catalog work we have not done.
 
-    It is never subtracted from the composite. It is there so a cohort statistic can state the
-    enrichment depth it was computed over — because only 12.8% of the catalog holds both
-    enrichment tiers, and two providers differing only in which wave reached them differ by about
-    18 composite points.
 
-    THE PUBLISHED SCORE-BLOCK SCHEMA WAS REBUILT ALONGSIDE IT. Adding `coverage` meant validating
-    the schema against real data for the first time, and it rejected roughly one published block
-    in twelve — a version number typed as a number when it parses as a string, a dimension typed
-    boolean after it became a grade, four dimensions that could not be marked inapplicable. It now
-    validates all 27,459 published blocks.
 aliases:
   # 0.13 (roadmap#71) — the Examples family. A provider publishing a separate example
   # corpus wired `Examples` in good faith and it was read by NOTHING; four spellings of
@@ -1068,6 +1059,54 @@ artifacts:
           existing; this rewards the provider OWNING it — the difference between
           describing yourself and being described.
 
+      # 0.18.0 — WHOSE CONTRACT IS IT. The generalisation of the 0.13 agentic-commerce rule
+      # from one `.well-known` document to the whole registered API surface.
+      #
+      # THE MEASURED FAILURE. 25 universities were credited for ONE Figshare contract, saved
+      # under their own slugs and titled "<University> articles API". The eight highest-scoring
+      # universities in the catalog were all scoring that same document, and all eight returned
+      # an identical agent readiness of 38.9 because it literally was the same document. The
+      # shape is everywhere once the question is asked: 193 Shopify merchants, 11 Elsevier Pure
+      # deployments, 23 Instructure tenancies. A rating that cannot tell "this organisation
+      # built an API" from "this organisation bought a product that has one" is not rating the
+      # organisation.
+      #
+      # WHAT SETTLES IT. `x-operator` on each apis[] entry, established from evidence the
+      # pipeline already gathers: IP ownership, DNS CNAME chains, and the contract's own
+      # info.title / info.contact. institution and federation surfaces are the organisation's
+      # own; tenant and vendor surfaces are real, are KEPT, and belong to someone else.
+      #
+      # GRADED DOWN, NOT ZEROED — the 0.13 posture. A university running Figshare genuinely
+      # gives its community a research repository with an API; it did not engineer the
+      # contract. `tenant` keeps a quarter of the credit for the same reason `platform` does.
+      #
+      # REGISTRY MEMBERSHIPS ARE EXCLUDED from both sides. A DataCite or Crossref account is a
+      # true fact about the organisation but it is not a contract it operates, so counting it
+      # either way would be wrong.
+      #
+      # N/A WHEN UNDECLARED, and this is the load-bearing safety property. A provider whose
+      # apis.yml carries no x-operator scores this :skipped and its composite DOES NOT MOVE.
+      # The axis is currently populated on the 254-institution university cohort (2,569
+      # entries) and nowhere else, so this ships as a no-op for the rest of the catalog and
+      # sharpens as the field spreads. It must never dock a provider for annotation work WE
+      # have not done — the rule the open_source facet already states.
+      - id: contract_self_operated
+        label: The registered APIs are the provider's own to operate
+        facet: contract_quality
+        points: 6
+        graded: true
+        credit:
+          self: 1.00
+          mixed: 0.60
+          tenant: 0.25
+        rule: 'apis[] declare x-operator; graded on whether the operated surfaces are the provider''s own'
+        signal: '`self` when every operated surface is institution- or federation-run, `mixed` when the provider runs some of its own alongside vendor tenancies, `tenant` when every registered surface is somebody else''s platform'
+        description: >
+          Settles WHO OPERATES the thing each contract describes before awarding contract
+          credit, instead of counting documents. Skipped entirely for a provider whose
+          apis.yml does not declare the axis, so it cannot depress anyone for catalog work
+          we have not reached.
+
   # -------------------------------------------------------------------------
   # OpenAPI specifications
   # -------------------------------------------------------------------------
@@ -1326,6 +1365,28 @@ artifacts:
         description: >
           The spec describes what the API sends back out, not only what it receives —
           the event surface most providers document only in prose, if at all.
+      - id: inbound_contract_published
+        label: Inbound event contract published
+        facet: contract_quality
+        points: 2
+        rule: 'at least one OpenAPI document classified `inbound` in the provenance index'
+        description: >
+          The provider publishes a standalone machine-readable contract for the events it
+          SENDS, not only for the calls it receives. LINE's is the clean example: a document
+          defining the whole CallbackRequest schema tree, whose servers[] reads
+          https://example.com because the consumer is the server. Until roadmap#175 that
+          document was scored as an uncallable API and cost LINE a ninth of its callable
+          share — a penalty for doing the thing this check now credits, while a provider who
+          published nothing paid nothing.
+
+          Distinct from webhooks_or_callbacks, which asks whether an OUTBOUND spec declares a
+          webhooks/callbacks block. This asks whether the inbound surface has a contract of
+          its own. LINE's has no webhooks: key at all — it is a paths-based envelope, which is
+          why the older check never saw it. A provider doing both has done two things.
+
+          N/A for a provider with no event surface. Asking a company with no webhooks whether
+          it documented them would score 19,000 records down on a question that does not apply.
+
 
   # -------------------------------------------------------------------------
   # AsyncAPI specifications

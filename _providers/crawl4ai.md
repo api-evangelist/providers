@@ -254,26 +254,35 @@ rate_limits:
   slug: crawl4ai-rate-limits
 score:
   band: strong
-  composite: 58.8
+  composite: 66.3
   coverage:
     artifact_dirs: 23
-    catalog_gap: 66.0
+    catalog_gap: 48.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: 0.0
+  delta: 7.5
   facets:
-    access_clarity: 55.3
-    commercial_clarity: 55.3
+    access_clarity: 78.9
+    commercial_clarity: 78.9
     contract_governance: 18.2
-    contract_quality: 42.7
+    contract_quality: 41.6
     developer_ergonomics: 85.7
     discoverability: 81.5
     governance: 18.2
-    operational_transparency: 73.7
+    operational_transparency: 97.4
   previous_composite: 58.8
-  schema_version: 0.17.2
+  provenance:
+    conformance: first-party
+    contracts:
+      callable: 0.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 1
+    mcp: first-party
+    skills: first-party
+  schema_version: 0.18.0
   scored_at: '2026-09-01'
-  trend: flat
+  trend: rising
 screenshot: https://raw.githubusercontent.com/api-evangelist/crawl4ai/refs/heads/main/screenshots/crawl4ai-2026-06-20T175215.png
 security:
 - kind: authentication

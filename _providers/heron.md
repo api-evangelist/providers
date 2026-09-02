@@ -389,18 +389,18 @@ rate_limits:
   slug: heron-rate-limits
 score:
   band: strong
-  composite: 61.5
+  composite: 63.3
   coverage:
     artifact_dirs: 23
     catalog_gap: 73.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: 0.0
+  delta: 1.8
   facets:
     access_clarity: 43.4
     commercial_clarity: 43.4
     contract_governance: 18.2
-    contract_quality: 56.8
+    contract_quality: 59.4
     developer_ergonomics: 78.6
     discoverability: 70.4
     governance: 18.2
@@ -408,6 +408,11 @@ score:
   previous_composite: 61.5
   provenance:
     conformance: first-party
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 48
     mcp: first-party
     skills: first-party
   regulatory:
@@ -421,8 +426,8 @@ score:
     matched_via: tags
     regime: Insurance
     regime_id: insurance
-    score: 54.5
-  schema_version: 0.17.2
+    score: 62.1
+  schema_version: 0.18.0
   scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/heron/refs/heads/main/screenshots/heron-2026-07-25T221032.png

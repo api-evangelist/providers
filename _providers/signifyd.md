@@ -209,12 +209,6 @@ score:
     discoverability: 64.8
     governance: 0.0
     operational_transparency: 5.3
-  needs_work:
-    note: Recorded so this provider's gaps can be attributed. Does not affect the composite above.
-    owner: catalog
-    reasons:
-    - owner: catalog
-      reason: no_resolvable_host
   previous_composite: 26.1
   regulatory:
     applies: true
@@ -222,7 +216,7 @@ score:
     regime: Payments
     regime_id: payments
     score: 40.6
-  schema_version: 0.17.2
+  schema_version: 0.18.0
   scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/signifyd/refs/heads/main/screenshots/signifyd-2026-06-20T193910.png

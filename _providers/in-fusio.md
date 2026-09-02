@@ -87,7 +87,7 @@ score:
     regime: Telecommunications
     regime_id: telecommunications
     score: 0.0
-  schema_version: 0.17.2
+  schema_version: 0.18.0
   scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/in-fusio/refs/heads/main/screenshots/in-fusio-2026-07-25T222215.png

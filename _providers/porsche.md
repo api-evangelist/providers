@@ -194,14 +194,12 @@ score:
     discoverability: 66.7
     governance: 18.2
     operational_transparency: 36.8
-  needs_work:
-    note: Recorded so this provider's gaps can be attributed. Does not affect the composite above.
-    owner: catalog
-    reasons:
-    - owner: catalog
-      reason: no_resolvable_host
   previous_composite: 28.0
-  schema_version: 0.17.2
+  provenance:
+    conformance: first-party
+    mcp: first-party
+    skills: first-party
+  schema_version: 0.18.0
   scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/porsche/refs/heads/main/screenshots/porsche-2026-06-20T191922.png

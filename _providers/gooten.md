@@ -172,7 +172,7 @@ score:
       derived: 4
       marker_coverage: 100.0
       total: 4
-  schema_version: 0.17.2
+  schema_version: 0.18.0
   scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/gooten/refs/heads/main/screenshots/gooten-2026-07-25T220114.png

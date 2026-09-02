@@ -81,7 +81,7 @@ score:
     governance: 0.0
     operational_transparency: 0.0
   previous_composite: 7.6
-  schema_version: 0.17.2
+  schema_version: 0.18.0
   scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/fuck-off-as-a-service/refs/heads/main/screenshots/fuck-off-as-a-service-2026-08-07T165500.png

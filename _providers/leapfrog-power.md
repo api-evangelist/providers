@@ -291,18 +291,18 @@ overview: 'Leap publishes 11 APIs on the [APIs.io](https://apis.io/) network, in
 random_paper: 1
 score:
   band: developing
-  composite: 43.4
+  composite: 43.2
   coverage:
     artifact_dirs: 23
     catalog_gap: 77.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: 0.0
+  delta: -0.2
   facets:
     access_clarity: 21.1
     commercial_clarity: 21.1
     contract_governance: 4.5
-    contract_quality: 69.3
+    contract_quality: 68.4
     developer_ergonomics: 38.7
     discoverability: 77.8
     governance: 4.5
@@ -315,7 +315,7 @@ score:
       callable: 100.0
       derived: 0
       marker_coverage: 0.0
-      total: 7
+      total: 11
     mcp: derived
     skills: derived
   regulatory:
@@ -324,7 +324,7 @@ score:
     regime: Energy & Utilities
     regime_id: energy_utilities
     score: 44.6
-  schema_version: 0.17.2
+  schema_version: 0.18.0
   scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/leapfrog-power/refs/heads/main/screenshots/leapfrog-power-2026-08-07T171518.png

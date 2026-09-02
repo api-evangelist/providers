@@ -1,22 +1,22 @@
 ---
 access_model:
-  confidence: medium
+  confidence: high
   label: Free
   onboarding: unknown
   pricing: free
-  public: false
+  public: true
   source:
-  - plans
+  - probed
   trial: false
-  try_now: false
+  try_now: true
 agent_readiness:
-  band: human-only
+  band: agent-aware
   dimensions:
     agent_card: false
     agent_skills: false
     agentic_access: false
     agentic_commerce: false
-    auth_clarity: false
+    auth_clarity: bearer
     consent_identity: false
     delegated_identity: false
     dry_run_mode: false
@@ -25,30 +25,99 @@ agent_readiness:
     event_surface_described: false
     idempotency: false
     mcp_server: false
-    openapi_examples: false
+    openapi_examples: verified
     protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
-    spec_presence: false
+    spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 2.5
+  score: 23.0
   scored_at: '2026-09-01'
 api_count: 1
 apis:
-- description: DADUN (Deposito Academico Digital de la Universidad de Navarra) is the university's open-access institutional repository, built on DSpace (reported version 5.3). It exposes a standard OAI-PMH 2.0 inte
+- description: 'Live OAI-PMH 2.0 metadata harvesting interface over the university press''s journal portfolio, running on a self-hosted Open Journal Systems 3.4.0.8 instance. Verified 2026-09-01: 100 sets (one per jou'
+  name: Revistas Cientificas OAI-PMH (Servicio de Publicaciones)
+  slug: revistas-oai-pmh
+- description: The university's own Shibboleth/SAML identity provider, published through RedIRIS's SIR2 national identity federation and interfederated into eduGAIN. This is the institution's strongest institution-o
+  name: Institutional SAML Identity Provider (RedIRIS SIR2 / eduGAIN)
+  slug: sir2-edugain-idp
+- description: The University of Navarra is a Crossref member and registers DOIs under its own prefix 10.15581 — 33,267 DOIs as of 2026-09-01 (1,699 current, 31,568 backfile). Sampled works resolve to journals publi
+  name: Crossref Membership (DOI prefix 10.15581)
+  slug: crossref-member
+- description: The institution's entry in the Research Organization Registry, the open identifier used to disambiguate research affiliations. Distinct from the neighbouring and frequently confused Universidad Public
+  name: ROR Registration
+  slug: ror
+- description: DADUN (Deposito Academico Digital de la Universidad de Navarra) is the university's open-access institutional repository, running DSpace and exposing a standard OAI-PMH 2.0 interface for harvesting Du
   name: DADUN Institutional Repository (OAI-PMH)
   slug: dadun-oai-pmh
-artifact_total: 6
+- description: Unika is the university library's discovery layer, an Ex Libris Primo VE tenancy. Primo's public "primaws" REST interface answers unauthenticated JSON search requests against the institution's own vie
+  name: Unika Library Discovery (Ex Libris Primo VE tenancy)
+  slug: unika-primo
+- description: 'The university''s current research information system (CRIS) and public research portal, listing researchers, research units, publications and projects. It runs as a hosted Dialnet CRIS tenancy rather '
+  name: Portal Cientifico (Dialnet CRIS tenancy)
+  slug: portal-cientifico
+- description: The library's guides platform, including the institution's public generative AI guidance for students and researchers (definitions, ethics, tooling). Hosted on Springshare LibGuides; the guidance cont
+  name: BiblioGuias (Springshare LibGuides tenancy)
+  slug: biblioguias
+artifact_total: 14
 common:
-- group: auth
-  title: ''
-  type: DomainSecurity
-  url: security/university-of-navarra-domain-security.yml
 - group: company
   title: ''
   type: Website
   url: https://en.unav.edu/
+- group: docs
+  title: ''
+  type: Documentation
+  url: https://www.unav.edu/web/biblioteca/apoyo-investigador/acceso-abierto-dadun
+- group: commercial
+  title: ''
+  type: TermsOfService
+  url: https://www.unav.edu/informacion-legal
+- group: commercial
+  title: ''
+  type: PrivacyPolicy
+  url: https://www.unav.edu/proteccion-de-datos
+- group: other
+  title: ''
+  type: ResearchRepository
+  url: https://www.unav.edu/web/biblioteca/apoyo-investigador/acceso-abierto-dadun
+- group: build
+  title: ''
+  type: LibraryCatalog
+  url: https://unika.unav.edu/discovery/search?vid=34UNAV_INST:VU1
+- group: other
+  title: ''
+  type: IdentityFederation
+  url: https://www.rediris.es/sir/
+- group: other
+  title: ''
+  type: AIPolicy
+  url: https://www.unav.edu/documents/10162/161278125/Politica+IA.pdf
+- group: build
+  title: ''
+  type: AITooling
+  url: https://biblioguias.unav.edu/inteligencia-artificial-generativa
+- group: docs
+  title: ''
+  type: OpenAPI
+  url: openapi/university-of-navarra-revistas-oai-pmh-openapi.yml
+- group: auth
+  title: ''
+  type: Authentication
+  url: authentication/university-of-navarra-authentication.yml
+- group: design
+  title: ''
+  type: Conformance
+  url: conformance/university-of-navarra-conformance.yml
+- group: build
+  title: ''
+  type: Examples
+  url: examples/index.yml
+- group: auth
+  title: ''
+  type: DomainSecurity
+  url: security/university-of-navarra-domain-security.yml
 - group: company
   title: ''
   type: LinkedIn
@@ -70,7 +139,8 @@ common:
   type: Review
   url: review.yml
 created: '2026-06-03'
-description: 'The University of Navarra (Universidad de Navarra) is a private research university founded in 1952, headquartered in Pamplona, Spain, with additional campuses in San Sebastian and Madrid. It is ranked #249 in the QS World University Rankings 2025. Its public, machine-consumable developer footprint is limited: the principal documented interface is DADUN (Deposito Academico Digital de la Universidad de Navarra), the institutional open-access repository running on DSpace, which exposes metadata harvesting through the OAI-PMH protocol. No general-purpose public developer portal, open-data API platform, or official GitHub organization could be independently confirmed for the institution at the time of review.'
+description: 'The University of Navarra (Universidad de Navarra) is a private research university founded in 1952, headquartered in Pamplona, Spain, with campuses in San Sebastian, Madrid and Barcelona. Its programmable footprint is small, and most of it is bought rather than built: the library discovery layer is an Ex Libris Primo VE tenancy, the DADUN institutional repository runs on a hosted DSpace whose host CNAMEs to a third-party platform, the research portal is a Dialnet CRIS tenancy operated by Fundacion Dialnet, and the library guides are Springshare LibGuides. Three surfaces are genuinely the institution''s own. The Servicio de Publicaciones operates a self-hosted Open Journal Systems instance at revistas.unav.edu with a live, unauthenticated OAI-PMH 2.0 harvesting interface across 100 sets — the only institution-operated machine-readable API confirmed here. The university runs its own SAML Identity Provider, published through the RedIRIS SIR2 federation and interfederated into
+  eduGAIN since 2018 with REFEDS Sirtfi declared. And it is a Crossref member with its own DOI prefix, 10.15581, covering more than 33,000 registered DOIs. There is no central developer portal, no open-data platform, no documented registrar, timetable or campus API, and no verifiable institutional GitHub organization.'
 finops:
 - name: University Of Navarra Finops
   service_category: Education
@@ -82,14 +152,17 @@ jsonld:
   property_count: 2
   slug: university-of-navarra-context
 layout: provider
-modified: '2026-06-03'
+modified: '2026-09-01'
 name: University of Navarra
 nav: Providers
 network: true
-overview: 'University of Navarra publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Education, Higher Education, University, Spain, and Open Access.
+overview: 'University of Navarra publishes 1 API on the [APIs.io](https://apis.io/) network: Revistas Cientificas OAI-PMH (Servicio de Publicaciones). Tagged areas include Education, Higher Education, University, Spain, and Private Research University.
 
 
-  The University of Navarra catalog on APIs.io includes 1 JSON-LD context.'
+  The University of Navarra catalog on APIs.io includes 1 JSON-LD context.
+
+
+  University of Navarra''s developer surface includes documentation, authentication, code examples, and 16 more developer resources.'
 plans:
 - name: University Of Navarra Plans Pricing
   plan_count: 2
@@ -100,35 +173,46 @@ rate_limits:
   name: University Of Navarra Rate Limits
   slug: university-of-navarra-rate-limits
 score:
-  band: emerging
-  composite: 17.0
+  band: thin
+  composite: 29.5
   coverage:
-    artifact_dirs: 7
-    catalog_gap: 51.0
+    artifact_dirs: 11
+    catalog_gap: 56.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: 0.0
+  delta: 12.5
   facets:
-    access_clarity: 28.9
-    commercial_clarity: 28.9
+    access_clarity: 50.0
+    commercial_clarity: 50.0
     contract_governance: 0.0
-    contract_quality: 10.7
-    developer_ergonomics: 0.0
-    discoverability: 68.5
+    contract_quality: 22.5
+    developer_ergonomics: 11.9
+    discoverability: 59.3
     governance: 0.0
     operational_transparency: 21.1
   previous_composite: 17.0
+  provenance:
+    conformance: first-party
+    contracts:
+      callable: 100.0
+      derived: 1
+      marker_coverage: 100.0
+      total: 1
   regulatory:
     applies: true
     matched_via: tags
     regime: Education & Research
     regime_id: education
-    score: 20.4
-  schema_version: 0.17.2
+    score: 46.3
+  schema_version: 0.18.0
   scored_at: '2026-09-01'
-  trend: flat
+  trend: rising
 screenshot: https://raw.githubusercontent.com/api-evangelist/university-of-navarra/refs/heads/main/screenshots/university-of-navarra-2026-06-20T200213.png
 security:
+- kind: authentication
+  name: University Of Navarra Authentication
+  slug: university-of-navarra-authentication
+  summary_line: 0 schemes
 - kind: domain-security
   name: University Of Navarra Domain Security
   slug: university-of-navarra-domain-security
@@ -139,8 +223,12 @@ tags:
 - Higher Education
 - University
 - Spain
+- Private Research University
 - Open Access
 - Institutional Repository
+- Scholarly Publishing
 - OAI-PMH
+- Identity Federation
+- Library
 website: https://en.unav.edu/
 ---

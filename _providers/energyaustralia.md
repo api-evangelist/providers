@@ -259,7 +259,7 @@ score:
       callable: 0.0
       derived: 0
       marker_coverage: 0.0
-      total: 2
+      total: 9
     mcp: derived
     skills: derived
   regulatory:
@@ -268,7 +268,7 @@ score:
     regime: Energy & Utilities
     regime_id: energy_utilities
     score: 51.4
-  schema_version: 0.17.2
+  schema_version: 0.18.0
   scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/energyaustralia/refs/heads/main/screenshots/energyaustralia-2026-08-07T164911.png

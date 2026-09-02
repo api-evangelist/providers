@@ -130,7 +130,7 @@ score:
   previous_composite: 6.7
   provenance:
     conformance: first-party
-  schema_version: 0.17.2
+  schema_version: 0.18.0
   scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/451-degrees/refs/heads/main/screenshots/451-degrees-2026-07-25T181204.png

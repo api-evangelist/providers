@@ -125,7 +125,7 @@ score:
     governance: 0.0
     operational_transparency: 2.6
   previous_composite: 19.7
-  schema_version: 0.17.2
+  schema_version: 0.18.0
   scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/meesho/refs/heads/main/screenshots/meesho-2026-08-07T172419.png

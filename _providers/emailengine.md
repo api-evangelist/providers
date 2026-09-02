@@ -232,7 +232,7 @@ score:
     access_clarity: 47.4
     commercial_clarity: 47.4
     contract_governance: 0.0
-    contract_quality: 10.7
+    contract_quality: 10.6
     developer_ergonomics: 23.8
     discoverability: 74.1
     governance: 0.0
@@ -245,10 +245,10 @@ score:
     agentic_access: derived
     contracts:
       callable: 100.0
-      derived: 13
+      derived: 14
       marker_coverage: 100.0
-      total: 13
-  schema_version: 0.17.2
+      total: 14
+  schema_version: 0.18.0
   scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/emailengine/refs/heads/main/screenshots/emailengine-2026-06-20T180623.png

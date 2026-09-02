@@ -165,7 +165,6 @@ features:
   name: Marketing Technology Services
 - description: Through the spun-off Diamond Sports Group (now Main Street Sports Group), Sinclair previously controlled the largest RSN footprint in North America under the Fox Sports / Bally Sports / FanDuel Sports Network brands.
   name: Regional Sports Networks (Legacy)
-image: https://avatars.githubusercontent.com/u/api-evangelist
 integrations:
 - description: Carriage / affiliation agreements with Fox, NBC, CBS, ABC, MyNetworkTV, The CW, and The CW Plus.
   name: Major Broadcast Networks
@@ -201,20 +200,20 @@ rate_limits:
   slug: sinclair-broadcast-group-rate-limits
 score:
   band: thin
-  composite: 36.6
+  composite: 36.2
   coverage:
     artifact_dirs: 20
-    catalog_gap: 78.0
+    catalog_gap: 80.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: 0.0
+  delta: -0.4
   facets:
     access_clarity: 21.1
     commercial_clarity: 21.1
     contract_governance: 4.5
     contract_quality: 52.4
     developer_ergonomics: 47.0
-    discoverability: 75.9
+    discoverability: 72.2
     governance: 4.5
     operational_transparency: 13.2
   previous_composite: 36.6
@@ -224,10 +223,10 @@ score:
       callable: 100.0
       derived: 0
       marker_coverage: 0.0
-      total: 1
+      total: 8
     mcp: derived
     skills: derived
-  schema_version: 0.17.2
+  schema_version: 0.18.0
   scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/sinclair-broadcast-group/refs/heads/main/screenshots/sinclair-broadcast-group-2026-06-20T193943.png

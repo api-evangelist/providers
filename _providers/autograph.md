@@ -96,7 +96,7 @@ score:
     governance: 0.0
     operational_transparency: 0.0
   previous_composite: 12.3
-  schema_version: 0.17.2
+  schema_version: 0.18.0
   scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/autograph/refs/heads/main/screenshots/autograph-2026-07-25T201823.png

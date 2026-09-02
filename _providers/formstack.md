@@ -230,7 +230,7 @@ score:
     access_clarity: 36.8
     commercial_clarity: 36.8
     contract_governance: 0.0
-    contract_quality: 23.7
+    contract_quality: 23.8
     developer_ergonomics: 23.8
     discoverability: 75.9
     governance: 0.0
@@ -239,11 +239,11 @@ score:
   provenance:
     agentic_access: derived
     contracts:
-      callable: 88.9
+      callable: 100.0
       derived: 8
       marker_coverage: 88.9
       total: 9
-  schema_version: 0.17.2
+  schema_version: 0.18.0
   scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/formstack/refs/heads/main/screenshots/formstack-2026-06-20T181438.png

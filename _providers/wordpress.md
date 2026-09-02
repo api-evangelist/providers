@@ -612,10 +612,10 @@ score:
     agentic_access: derived
     contracts:
       callable: 0.0
-      derived: 14
+      derived: 15
       marker_coverage: 100.0
-      total: 14
-  schema_version: 0.17.2
+      total: 15
+  schema_version: 0.18.0
   scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/wordpress/refs/heads/main/screenshots/wordpress-2026-06-20T201546.png

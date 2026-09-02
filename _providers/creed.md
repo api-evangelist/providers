@@ -445,7 +445,7 @@ score:
       total: 49
     mcp: derived
     skills: derived
-  schema_version: 0.17.2
+  schema_version: 0.18.0
   scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/creed/refs/heads/main/screenshots/creed-2026-07-25T210722.png

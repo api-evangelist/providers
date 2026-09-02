@@ -16,12 +16,12 @@
      "slug": "fieldpulse",
      "description": "FieldPulse is an all-in-one field service management (FSM) platform, founded in 2015 and headquartered in Dallas, Texas, serving residential and commercial service contractors across HVAC/R, electrical, plumbing, garage door, locksmith, appliance repair, fire and security, septic, glass, and property management trades. The platform combines scheduling and dispatch, customer and job management, estimates, invoices, payments, purchase orders, material lists, timesheets, projects, custom forms, reporting, and workflow automation, with add-on products for VoIP (Engage), Operator AI, Pricebook, FieldPulse Payments, and fleet tracking. FieldPulse publishes a public REST API — the \"Open API\", available on the Enterprise plan — documented on a Mintlify docs site with a machine-readable OpenAPI 3.0 definition covering 57 paths and 109 operations across 25 resource areas, authenticated with an x-api-key header issued by support, rate limited to 50 requests per second, plus an outbound webhook surface for job, estimate, and invoice events.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/fieldpulse/refs/heads/main/screenshots/fieldpulse-2026-08-07T165250.png",
-     "score": 62.3,
+     "score": 62.1,
      "band": "strong",
      "band_label": "Strong",
      "facets": {
       "discoverability": 75.9,
-      "contract_quality": 68.0,
+      "contract_quality": 67.1,
       "governance": 4.5,
       "contract_governance": 4.5,
       "operational_transparency": 65.8,
@@ -30,7 +30,7 @@
       "access_clarity": 69.7
      },
      "scored_at": "2026-09-01",
-     "schema_version": "0.17.2",
+     "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
       "regime": "Payments",
@@ -93,7 +93,7 @@
       "access_clarity": 60.5
      },
      "scored_at": "2026-09-01",
-     "schema_version": "0.17.2",
+     "schema_version": "0.18.0",
      "agent_score": 24.4,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -124,12 +124,12 @@
      "slug": "housecall-pro",
      "description": "Housecall Pro is an all-in-one home services business management platform headquartered in Denver, Colorado (with offices in San Diego), founded in 2013 by Ian Heidt, Roland Ligtenberg, Reza Olfat, Adam Perry-Pelletier, and Chris Zwickilton under the parent entity Codefied Inc. The platform serves 200K+ residential and commercial service pros across 50+ trades — HVAC, plumbing, electrical, cleaning, landscaping, pest control, garage doors, locksmiths, appliance repair, and more — providing scheduling, dispatching, online booking, estimates, invoicing, payments, marketing, GPS fleet tracking, customer communications, recurring service plans, and an AI-powered call answering agent. Developer integrations are exposed via the Housecall Pro Public API, available on the MAX plan, with Stoplight-hosted documentation, bearer-token API keys, multi- location key scoping, and webhook subscriptions for customer, estimate, invoice, job, lead, and payment events.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/housecall-pro/refs/heads/main/screenshots/housecall-pro-2026-06-20T182849.png",
-     "score": 52.0,
+     "score": 51.8,
      "band": "developing",
      "band_label": "Developing",
      "facets": {
       "discoverability": 68.5,
-      "contract_quality": 66.0,
+      "contract_quality": 65.1,
       "governance": 9.8,
       "contract_governance": 9.8,
       "operational_transparency": 23.7,
@@ -138,7 +138,7 @@
       "access_clarity": 67.1
      },
      "scored_at": "2026-09-01",
-     "schema_version": "0.17.2",
+     "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
       "regime": "Payments",
@@ -190,7 +190,7 @@
       "access_clarity": 52.6
      },
      "scored_at": "2026-09-01",
-     "schema_version": "0.17.2",
+     "schema_version": "0.18.0",
      "agent_score": 50.2,
      "agent_band": "agent-ready",
      "agent_dims": {
@@ -221,12 +221,12 @@
      "slug": "nest",
      "description": "Nest is Google's smart home brand — thermostats, cameras, doorbells, and the Nest Hub — originally founded as Nest Labs (a Lightspeed Venture Partners portfolio company) and acquired by Google. Developers integrate with authorized Nest devices through the Google Nest Device Access program and its Smart Device Management (SDM) API, a Google Cloud REST API authorized with Google OAuth 2.0. The API lets partner apps list structures, rooms, and devices, read device traits (temperature, humidity, camera, doorbell), and execute trait commands, with asynchronous device events delivered via Google Cloud Pub/Sub. The legacy \"Works with Nest\" API was retired and superseded by Device Access.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/nest/refs/heads/main/screenshots/nest-2026-08-07T184913.png",
-     "score": 46.2,
+     "score": 46.0,
      "band": "developing",
      "band_label": "Developing",
      "facets": {
       "discoverability": 75.9,
-      "contract_quality": 42.7,
+      "contract_quality": 41.6,
       "governance": 18.2,
       "contract_governance": 18.2,
       "operational_transparency": 31.6,
@@ -235,7 +235,7 @@
       "access_clarity": 44.7
      },
      "scored_at": "2026-09-01",
-     "schema_version": "0.17.2",
+     "schema_version": "0.18.0",
      "agent_score": 23.6,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -262,51 +262,6 @@
      "rank": 5
     },
     {
-     "name": "Butlr",
-     "slug": "butlr",
-     "description": "Butlr is an AI platform for privacy-first, heat-based (thermal) occupancy sensing that turns anonymous people-sensing into real-time space-utilization insight for workplaces, senior living, higher education, retail, and smart buildings. Its camera-free thermal sensors capture no personally identifiable information while powering occupancy, traffic, presence-time, and heatmap analytics. Butlr exposes an API-first platform: a GraphQL asset-management API for sites, buildings, floors, rooms, zones, hives, and sensors; a RESTful Reporting API (v3) for historical time-series occupancy; real-time webhooks for detections, traffic, and occupancy events; and an official Model Context Protocol (MCP) server for agent access. The company reports 30,000+ deployed sensors generating a billion data points daily across 100M+ square feet in 22 countries.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/butlr/refs/heads/main/screenshots/butlr-2026-07-25T204120.png",
-     "score": 43.0,
-     "band": "developing",
-     "band_label": "Developing",
-     "facets": {
-      "discoverability": 75.9,
-      "contract_quality": 42.7,
-      "governance": 18.2,
-      "contract_governance": 18.2,
-      "operational_transparency": 44.7,
-      "developer_ergonomics": 62.5,
-      "commercial_clarity": 21.1,
-      "access_clarity": 21.1
-     },
-     "scored_at": "2026-09-01",
-     "schema_version": "0.17.2",
-     "agent_score": 24.1,
-     "agent_band": "agent-aware",
-     "agent_dims": {
-      "spec_presence": true,
-      "agentic_access": false,
-      "reversibility_documented": false,
-      "mcp_server": "documented",
-      "auth_clarity": "bearer",
-      "idempotency": false,
-      "error_semantics": false,
-      "openapi_examples": false,
-      "rate_limit_signal": false,
-      "event_surface_described": true,
-      "agent_skills": "derived",
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false,
-      "delegated_identity": false,
-      "protected_resource_metadata": false,
-      "dynamic_client_registration": false,
-      "agentic_commerce": false
-     },
-     "rank": 6
-    },
-    {
      "name": "Google Nest Smart Device Management",
      "slug": "google-nest",
      "description": "The Smart Device Management (SDM) API is a REST API that allows developers to manage Google Nest devices including thermostats, cameras, doorbells, and displays. It provides access to device traits and commands using a trait-based model, enabling applications to read device state, execute commands to control devices, and manage structures and rooms within a home.",
@@ -325,7 +280,7 @@
       "access_clarity": 36.8
      },
      "scored_at": "2026-09-01",
-     "schema_version": "0.17.2",
+     "schema_version": "0.18.0",
      "agent_score": 19.8,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -340,6 +295,51 @@
       "rate_limit_signal": "documented",
       "event_surface_described": false,
       "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
+     "rank": 6
+    },
+    {
+     "name": "Butlr",
+     "slug": "butlr",
+     "description": "Butlr is an AI platform for privacy-first, heat-based (thermal) occupancy sensing that turns anonymous people-sensing into real-time space-utilization insight for workplaces, senior living, higher education, retail, and smart buildings. Its camera-free thermal sensors capture no personally identifiable information while powering occupancy, traffic, presence-time, and heatmap analytics. Butlr exposes an API-first platform: a GraphQL asset-management API for sites, buildings, floors, rooms, zones, hives, and sensors; a RESTful Reporting API (v3) for historical time-series occupancy; real-time webhooks for detections, traffic, and occupancy events; and an official Model Context Protocol (MCP) server for agent access. The company reports 30,000+ deployed sensors generating a billion data points daily across 100M+ square feet in 22 countries.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/butlr/refs/heads/main/screenshots/butlr-2026-07-25T204120.png",
+     "score": 42.7,
+     "band": "developing",
+     "band_label": "Developing",
+     "facets": {
+      "discoverability": 75.9,
+      "contract_quality": 41.6,
+      "governance": 18.2,
+      "contract_governance": 18.2,
+      "operational_transparency": 44.7,
+      "developer_ergonomics": 62.5,
+      "commercial_clarity": 21.1,
+      "access_clarity": 21.1
+     },
+     "scored_at": "2026-09-01",
+     "schema_version": "0.18.0",
+     "agent_score": 24.1,
+     "agent_band": "agent-aware",
+     "agent_dims": {
+      "spec_presence": true,
+      "agentic_access": false,
+      "reversibility_documented": false,
+      "mcp_server": "documented",
+      "auth_clarity": "bearer",
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": false,
+      "event_surface_described": true,
+      "agent_skills": "derived",
       "well_known_catalog": false,
       "consent_identity": false,
       "agent_card": false,
@@ -369,7 +369,7 @@
       "access_clarity": 39.5
      },
      "scored_at": "2026-09-01",
-     "schema_version": "0.17.2",
+     "schema_version": "0.18.0",
      "agent_score": 24.8,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -414,7 +414,7 @@
       "access_clarity": 25.0
      },
      "scored_at": "2026-09-01",
-     "schema_version": "0.17.2",
+     "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
       "regime": "Energy & Utilities",
@@ -452,12 +452,12 @@
      "slug": "passivelogic",
      "description": "PassiveLogic builds a physics-based autonomy platform for buildings and industrial systems — the Hive, Hive Mini and Cell edge controllers, the Sense wireless sensor line, and the Autonomy Suite design/operate applications (Blueprint, Creator, Lens, Live, Portfolio, Qortex). Its software core is Quantum, an open physics-based digital twin ontology and data model for autonomous systems, developed with the U.S. Department of Energy and the Quantum Alliance consortium. The Quantum API is exposed as a GraphQL query and subscription surface over the digital twin graph, sat behind a documented HTTP REST API covering authentication, API-key issuance, organizations, auth groups, images, bindings, device registration, CSV property-history export and QuantumSync WebSocket data sync. Authentication is handled by an external Keycloak identity provider (OpenID Connect) with JWT, XSRF-protected session tokens and long-lived PL API keys.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/passivelogic/refs/heads/main/screenshots/passivelogic-2026-08-07T191536.png",
-     "score": 39.5,
+     "score": 39.4,
      "band": "developing",
      "band_label": "Developing",
      "facets": {
       "discoverability": 68.5,
-      "contract_quality": 56.8,
+      "contract_quality": 56.3,
       "governance": 8.3,
       "contract_governance": 8.3,
       "operational_transparency": 18.4,
@@ -466,7 +466,7 @@
       "access_clarity": 13.2
      },
      "scored_at": "2026-09-01",
-     "schema_version": "0.17.2",
+     "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
       "regime": "Energy & Utilities",
@@ -529,7 +529,7 @@
       "access_clarity": 50.0
      },
      "scored_at": "2026-09-01",
-     "schema_version": "0.17.2",
+     "schema_version": "0.18.0",
      "agent_score": 22.3,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -560,12 +560,12 @@
      "slug": "butlr-technologies",
      "description": "Butlr Technologies is a privacy-first people-sensing platform that uses anonymous, heat-based (thermal) occupancy sensors to deliver real-time activity insights for healthier, more efficient physical spaces across workplaces, senior living, retail, and education. Butlr exposes a developer platform behind api.butlr.io consisting of a GraphQL API for asset management (organizations, sites, buildings, floors, rooms, zones, hives, sensors, and tags), a RESTful Reporting API v3 for historical time-series occupancy and traffic, and event-driven webhooks for real-time occupancy, traffic, and PIR motion. Access is authenticated with OAuth 2.0 (Auth0) via password and client-credentials grants, and an official read-only Model Context Protocol (MCP) server connects AI assistants to the platform. Surfaced as a 500 Global portfolio company and enriched into the API Evangelist network.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/butlr-technologies/refs/heads/main/screenshots/butlr-technologies-2026-07-25T204122.png",
-     "score": 38.6,
+     "score": 38.3,
      "band": "thin",
      "band_label": "Thin",
      "facets": {
       "discoverability": 75.9,
-      "contract_quality": 42.7,
+      "contract_quality": 41.6,
       "governance": 4.5,
       "contract_governance": 4.5,
       "operational_transparency": 34.2,
@@ -574,7 +574,7 @@
       "access_clarity": 21.1
      },
      "scored_at": "2026-09-01",
-     "schema_version": "0.17.2",
+     "schema_version": "0.18.0",
      "agent_score": 24.1,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -619,7 +619,7 @@
       "access_clarity": 28.9
      },
      "scored_at": "2026-09-01",
-     "schema_version": "0.17.2",
+     "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
       "regime": "Energy & Utilities",
@@ -670,7 +670,7 @@
       "access_clarity": 35.5
      },
      "scored_at": "2026-09-01",
-     "schema_version": "0.17.2",
+     "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
       "regime": "Energy & Utilities",
@@ -721,7 +721,7 @@
       "access_clarity": 13.2
      },
      "scored_at": "2026-09-01",
-     "schema_version": "0.17.2",
+     "schema_version": "0.18.0",
      "agent_score": 19.8,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -765,7 +765,7 @@
       "access_clarity": 28.9
      },
      "scored_at": "2026-09-01",
-     "schema_version": "0.17.2",
+     "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
       "regime": "Energy & Utilities",
@@ -799,61 +799,16 @@
      "rank": 16
     },
     {
-     "name": "BuildOps",
-     "slug": "buildops",
-     "description": "BuildOps is an AI-native, all-in-one commercial contractor management platform for multi-trade service and construction companies. It unifies project management, service operations, dispatch and scheduling, financials and invoicing, and sales/CRM into a single system used by 1,500+ contractors across HVAC, electrical, plumbing, fire safety, and refrigeration trades. Backed by Founders Fund, the company offers pre-built integrations with ERP and accounting systems (QuickBooks, Sage, Vista, Spectrum, NetSuite) plus field-intelligence, payroll, and procurement tools. BuildOps operates a public Dev Center that names a BuildOps Public API offering REST endpoints and webhook callbacks, but that API documentation is marked \"Invite Required\" and is reachable only through an implementation or customer-success manager. No OpenAPI, AsyncAPI, GraphQL SDL or Postman collection is published anywhere, and no first-party SDK exists in any public registry. The only public Dev Center project is a Data Dictionary describing BuildOps datasets on the Dashboard module and a Snowflake private share. BuildOps does publish a security policy and a Vanta-hosted Trust Center carrying SOC 2 Type I.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/buildops/refs/heads/main/screenshots/buildops-2026-07-25T204050.png",
-     "score": 34.5,
-     "band": "thin",
-     "band_label": "Thin",
-     "facets": {
-      "discoverability": 75.9,
-      "contract_quality": 42.7,
-      "governance": 0.0,
-      "contract_governance": 0.0,
-      "operational_transparency": 13.2,
-      "developer_ergonomics": 11.9,
-      "commercial_clarity": 60.5,
-      "access_clarity": 60.5
-     },
-     "scored_at": "2026-09-01",
-     "schema_version": "0.17.2",
-     "agent_score": 19.8,
-     "agent_band": "agent-aware",
-     "agent_dims": {
-      "spec_presence": true,
-      "agentic_access": false,
-      "reversibility_documented": false,
-      "mcp_server": false,
-      "auth_clarity": false,
-      "idempotency": false,
-      "error_semantics": false,
-      "openapi_examples": false,
-      "rate_limit_signal": "documented",
-      "event_surface_described": true,
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false,
-      "delegated_identity": false,
-      "protected_resource_metadata": false,
-      "dynamic_client_registration": false,
-      "agentic_commerce": false
-     },
-     "rank": 17
-    },
-    {
      "name": "Delos",
      "slug": "delos",
      "description": "Delos Living LLC is a New York-based wellness real estate and technology company that applies building science and evidence-based research to indoor environments across commercial, residential, hospitality, education, senior living and transportation. Delos is the founder of the WELL Building Standard (now administered by the International WELL Building Institute) and co-founder of the Well Living Lab with Mayo Clinic. Its product line spans Intellipure advanced air purification, indoor environmental quality (IEQ) sensing, the Stay Well hospitality program, and WellCube — a connected system of localized air purifiers and multi-sensor devices for the modern office, backed by the \"Cloud BE\" / Darwin Cloud platform that handles installations, products, device actions and account federation.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/delos/refs/heads/main/screenshots/delos-2026-08-17T080906.png",
-     "score": 34.4,
+     "score": 34.3,
      "band": "thin",
      "band_label": "Thin",
      "facets": {
       "discoverability": 68.5,
-      "contract_quality": 54.8,
+      "contract_quality": 54.1,
       "governance": 4.5,
       "contract_governance": 4.5,
       "operational_transparency": 2.6,
@@ -862,7 +817,7 @@
       "access_clarity": 27.6
      },
      "scored_at": "2026-09-01",
-     "schema_version": "0.17.2",
+     "schema_version": "0.18.0",
      "agent_score": 32.9,
      "agent_band": "agent-ready",
      "agent_dims": {
@@ -877,6 +832,51 @@
       "rate_limit_signal": "documented",
       "event_surface_described": true,
       "agent_skills": "derived",
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
+     "rank": 17
+    },
+    {
+     "name": "BuildOps",
+     "slug": "buildops",
+     "description": "BuildOps is an AI-native, all-in-one commercial contractor management platform for multi-trade service and construction companies. It unifies project management, service operations, dispatch and scheduling, financials and invoicing, and sales/CRM into a single system used by 1,500+ contractors across HVAC, electrical, plumbing, fire safety, and refrigeration trades. Backed by Founders Fund, the company offers pre-built integrations with ERP and accounting systems (QuickBooks, Sage, Vista, Spectrum, NetSuite) plus field-intelligence, payroll, and procurement tools. BuildOps operates a public Dev Center that names a BuildOps Public API offering REST endpoints and webhook callbacks, but that API documentation is marked \"Invite Required\" and is reachable only through an implementation or customer-success manager. No OpenAPI, AsyncAPI, GraphQL SDL or Postman collection is published anywhere, and no first-party SDK exists in any public registry. The only public Dev Center project is a Data Dictionary describing BuildOps datasets on the Dashboard module and a Snowflake private share. BuildOps does publish a security policy and a Vanta-hosted Trust Center carrying SOC 2 Type I.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/buildops/refs/heads/main/screenshots/buildops-2026-07-25T204050.png",
+     "score": 34.2,
+     "band": "thin",
+     "band_label": "Thin",
+     "facets": {
+      "discoverability": 75.9,
+      "contract_quality": 41.6,
+      "governance": 0.0,
+      "contract_governance": 0.0,
+      "operational_transparency": 13.2,
+      "developer_ergonomics": 11.9,
+      "commercial_clarity": 60.5,
+      "access_clarity": 60.5
+     },
+     "scored_at": "2026-09-01",
+     "schema_version": "0.18.0",
+     "agent_score": 19.8,
+     "agent_band": "agent-aware",
+     "agent_dims": {
+      "spec_presence": true,
+      "agentic_access": false,
+      "reversibility_documented": false,
+      "mcp_server": false,
+      "auth_clarity": false,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": "documented",
+      "event_surface_described": true,
+      "agent_skills": false,
       "well_known_catalog": false,
       "consent_identity": false,
       "agent_card": false,
@@ -906,7 +906,7 @@
       "access_clarity": 25.0
      },
      "scored_at": "2026-09-01",
-     "schema_version": "0.17.2",
+     "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
       "regime": "Energy & Utilities",
@@ -958,7 +958,7 @@
       "access_clarity": 46.1
      },
      "scored_at": "2026-09-01",
-     "schema_version": "0.17.2",
+     "schema_version": "0.18.0",
      "agent_score": 2.5,
      "agent_band": "human-only",
      "agent_dims": {
@@ -1002,7 +1002,7 @@
       "access_clarity": 34.2
      },
      "scored_at": "2026-09-01",
-     "schema_version": "0.17.2",
+     "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
       "regime": "Energy & Utilities",
@@ -1053,7 +1053,7 @@
       "access_clarity": 43.4
      },
      "scored_at": "2026-09-01",
-     "schema_version": "0.17.2",
+     "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
       "regime": "Energy & Utilities",
@@ -1115,7 +1115,7 @@
       "access_clarity": 31.6
      },
      "scored_at": "2026-09-01",
-     "schema_version": "0.17.2",
+     "schema_version": "0.18.0",
      "agent_score": 2.9,
      "agent_band": "human-only",
      "agent_dims": {
@@ -1160,7 +1160,7 @@
       "access_clarity": 15.8
      },
      "scored_at": "2026-09-01",
-     "schema_version": "0.17.2",
+     "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
       "regime": "Energy & Utilities",
@@ -1211,7 +1211,7 @@
       "access_clarity": 34.2
      },
      "scored_at": "2026-09-01",
-     "schema_version": "0.17.2",
+     "schema_version": "0.18.0",
      "agent_score": 5.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -1255,7 +1255,7 @@
       "access_clarity": 35.5
      },
      "scored_at": "2026-09-01",
-     "schema_version": "0.17.2",
+     "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
       "regime": "Energy & Utilities",
@@ -1314,7 +1314,7 @@
       "access_clarity": 15.8
      },
      "scored_at": "2026-09-01",
-     "schema_version": "0.17.2",
+     "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
       "regime": "Energy & Utilities",
@@ -1366,7 +1366,7 @@
       "access_clarity": 60.5
      },
      "scored_at": "2026-09-01",
-     "schema_version": "0.17.2",
+     "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
       "regime": "Education & Research",
@@ -1417,7 +1417,7 @@
       "access_clarity": 34.2
      },
      "scored_at": "2026-09-01",
-     "schema_version": "0.17.2",
+     "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
       "regime": "Energy & Utilities",
@@ -1469,7 +1469,7 @@
       "access_clarity": 35.5
      },
      "scored_at": "2026-09-01",
-     "schema_version": "0.17.2",
+     "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
       "regime": "Energy & Utilities",
@@ -1521,7 +1521,7 @@
       "access_clarity": 15.8
      },
      "scored_at": "2026-09-01",
-     "schema_version": "0.17.2",
+     "schema_version": "0.18.0",
      "agent_score": 2.5,
      "agent_band": "human-only",
      "agent_dims": {
@@ -1566,7 +1566,7 @@
       "access_clarity": 13.2
      },
      "scored_at": "2026-09-01",
-     "schema_version": "0.17.2",
+     "schema_version": "0.18.0",
      "agent_score": 2.5,
      "agent_band": "human-only",
      "agent_dims": {
@@ -1611,7 +1611,7 @@
       "access_clarity": 31.6
      },
      "scored_at": "2026-09-01",
-     "schema_version": "0.17.2",
+     "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -1656,7 +1656,7 @@
       "access_clarity": 15.8
      },
      "scored_at": "2026-09-01",
-     "schema_version": "0.17.2",
+     "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
       "regime": "Energy & Utilities",
@@ -1707,7 +1707,7 @@
       "access_clarity": 10.5
      },
      "scored_at": "2026-09-01",
-     "schema_version": "0.17.2",
+     "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
       "regime": "Energy & Utilities",
@@ -1759,7 +1759,7 @@
       "access_clarity": 15.8
      },
      "scored_at": "2026-09-01",
-     "schema_version": "0.17.2",
+     "schema_version": "0.18.0",
      "agent_score": 2.5,
      "agent_band": "human-only",
      "agent_dims": {
@@ -1804,7 +1804,7 @@
       "access_clarity": 21.1
      },
      "scored_at": "2026-09-01",
-     "schema_version": "0.17.2",
+     "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -1848,7 +1848,7 @@
       "access_clarity": 34.2
      },
      "scored_at": "2026-09-01",
-     "schema_version": "0.17.2",
+     "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
       "regime": "Energy & Utilities",
@@ -1900,7 +1900,7 @@
       "access_clarity": 21.1
      },
      "scored_at": "2026-09-01",
-     "schema_version": "0.17.2",
+     "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
       "regime": "Energy & Utilities",
@@ -1952,7 +1952,7 @@
       "access_clarity": 27.6
      },
      "scored_at": "2026-09-01",
-     "schema_version": "0.17.2",
+     "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -1996,7 +1996,7 @@
       "access_clarity": 28.9
      },
      "scored_at": "2026-09-01",
-     "schema_version": "0.17.2",
+     "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -2041,7 +2041,7 @@
       "access_clarity": 21.1
      },
      "scored_at": "2026-09-01",
-     "schema_version": "0.17.2",
+     "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
       "regime": "Energy & Utilities",
@@ -2092,7 +2092,7 @@
       "access_clarity": 27.6
      },
      "scored_at": "2026-09-01",
-     "schema_version": "0.17.2",
+     "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
       "regime": "Energy & Utilities",
@@ -2144,7 +2144,7 @@
       "access_clarity": 13.2
      },
      "scored_at": "2026-09-01",
-     "schema_version": "0.17.2",
+     "schema_version": "0.18.0",
      "agent_score": 2.5,
      "agent_band": "human-only",
      "agent_dims": {
@@ -2189,7 +2189,7 @@
       "access_clarity": 13.2
      },
      "scored_at": "2026-09-01",
-     "schema_version": "0.17.2",
+     "schema_version": "0.18.0",
      "agent_score": 2.5,
      "agent_band": "human-only",
      "agent_dims": {
@@ -2244,7 +2244,7 @@
       "access_clarity": 0.0
      },
      "scored_at": "2026-09-01",
-     "schema_version": "0.17.2",
+     "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -2289,7 +2289,7 @@
       "access_clarity": 17.1
      },
      "scored_at": "2026-09-01",
-     "schema_version": "0.17.2",
+     "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
       "regime": "Energy & Utilities",
@@ -2340,7 +2340,7 @@
       "access_clarity": 21.1
      },
      "scored_at": "2026-09-01",
-     "schema_version": "0.17.2",
+     "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
       "regime": "Telecommunications",
@@ -2392,7 +2392,7 @@
       "access_clarity": 17.1
      },
      "scored_at": "2026-09-01",
-     "schema_version": "0.17.2",
+     "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
       "regime": "Energy & Utilities",
@@ -2443,7 +2443,7 @@
       "access_clarity": 17.1
      },
      "scored_at": "2026-09-01",
-     "schema_version": "0.17.2",
+     "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
       "regime": "Energy & Utilities",
@@ -2495,7 +2495,7 @@
       "access_clarity": 0.0
      },
      "scored_at": "2026-09-01",
-     "schema_version": "0.17.2",
+     "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
       "regime": "Energy & Utilities",
@@ -2547,7 +2547,7 @@
       "access_clarity": 0.0
      },
      "scored_at": "2026-09-01",
-     "schema_version": "0.17.2",
+     "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -2591,7 +2591,7 @@
       "access_clarity": 6.6
      },
      "scored_at": "2026-09-01",
-     "schema_version": "0.17.2",
+     "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -2636,7 +2636,7 @@
       "access_clarity": 0.0
      },
      "scored_at": "2026-09-01",
-     "schema_version": "0.17.2",
+     "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -2680,7 +2680,7 @@
       "access_clarity": 0.0
      },
      "scored_at": "2026-09-01",
-     "schema_version": "0.17.2",
+     "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -2725,7 +2725,7 @@
       "access_clarity": 0.0
      },
      "scored_at": "2026-09-01",
-     "schema_version": "0.17.2",
+     "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -2769,7 +2769,7 @@
       "access_clarity": 0.0
      },
      "scored_at": "2026-09-01",
-     "schema_version": "0.17.2",
+     "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -2813,7 +2813,7 @@
       "access_clarity": 0.0
      },
      "scored_at": "2026-09-01",
-     "schema_version": "0.17.2",
+     "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -2858,7 +2858,7 @@
       "access_clarity": 0.0
      },
      "scored_at": "2026-09-01",
-     "schema_version": "0.17.2",
+     "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -2903,7 +2903,7 @@
       "access_clarity": 0.0
      },
      "scored_at": "2026-09-01",
-     "schema_version": "0.17.2",
+     "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
       "regime": "Energy & Utilities",
@@ -2954,7 +2954,7 @@
       "access_clarity": 0.0
      },
      "scored_at": "2026-09-01",
-     "schema_version": "0.17.2",
+     "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -2999,7 +2999,7 @@
       "access_clarity": 0.0
      },
      "scored_at": "2026-09-01",
-     "schema_version": "0.17.2",
+     "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
       "regime": "Energy & Utilities",
@@ -3050,7 +3050,7 @@
       "access_clarity": 0.0
      },
      "scored_at": "2026-09-01",
-     "schema_version": "0.17.2",
+     "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -3095,7 +3095,7 @@
       "access_clarity": 0.0
      },
      "scored_at": "2026-09-01",
-     "schema_version": "0.17.2",
+     "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
       "regime": "Energy & Utilities",
@@ -3146,7 +3146,7 @@
       "access_clarity": 0.0
      },
      "scored_at": "2026-09-01",
-     "schema_version": "0.17.2",
+     "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
       "regime": "Energy & Utilities",
@@ -3198,7 +3198,7 @@
       "access_clarity": 0.0
      },
      "scored_at": "2026-09-01",
-     "schema_version": "0.17.2",
+     "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
       "regime": "Energy & Utilities",
@@ -3250,7 +3250,7 @@
       "access_clarity": 0.0
      },
      "scored_at": "2026-09-01",
-     "schema_version": "0.17.2",
+     "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
       "regime": "Energy & Utilities",

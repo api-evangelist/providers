@@ -164,7 +164,7 @@ score:
     governance: 9.8
     operational_transparency: 28.9
   previous_composite: 23.5
-  schema_version: 0.17.2
+  schema_version: 0.18.0
   scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/nextra/refs/heads/main/screenshots/nextra-2026-06-20T190301.png

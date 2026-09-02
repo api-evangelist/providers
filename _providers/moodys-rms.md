@@ -364,7 +364,7 @@ score:
       callable: 0.0
       derived: 0
       marker_coverage: 0.0
-      total: 3
+      total: 47
     mcp: first-party
     skills: derived
   regulatory:
@@ -373,7 +373,7 @@ score:
     regime: Insurance
     regime_id: insurance
     score: 37.9
-  schema_version: 0.17.2
+  schema_version: 0.18.0
   scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/moodys-rms/refs/heads/main/screenshots/moodys-rms-2026-08-07T184230.png

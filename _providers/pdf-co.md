@@ -321,18 +321,18 @@ rules:
   slug: pdf-co-jsonschema-spectral-rules
 score:
   band: developing
-  composite: 52.1
+  composite: 51.8
   coverage:
     artifact_dirs: 15
     catalog_gap: 61.8
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: 0.0
+  delta: -0.3
   facets:
     access_clarity: 92.1
     commercial_clarity: 92.1
     contract_governance: 9.8
-    contract_quality: 65.5
+    contract_quality: 64.6
     developer_ergonomics: 42.9
     discoverability: 44.4
     governance: 9.8
@@ -345,7 +345,7 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 10
-  schema_version: 0.17.2
+  schema_version: 0.18.0
   scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/pdf-co/refs/heads/main/screenshots/pdf-co-2026-06-20T191516.png

@@ -1,9 +1,9 @@
 ---
 agent_readiness:
-  band: agent-ready
+  band: agent-aware
   dimensions:
     agent_card: false
-    agent_skills: true
+    agent_skills: derived
     agentic_access: false
     agentic_commerce: false
     auth_clarity: bearer
@@ -14,7 +14,7 @@ agent_readiness:
     error_semantics: verified
     event_surface_described: false
     idempotency: false
-    mcp_server: documented
+    mcp_server: false
     openapi_examples: false
     protected_resource_metadata: false
     rate_limit_signal: documented
@@ -22,7 +22,7 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 30.8
+  score: 24.6
   scored_at: '2026-09-01'
 api_count: 1
 apis:
@@ -147,30 +147,34 @@ rate_limits:
   slug: soothe-rate-limits
 score:
   band: thin
-  composite: 34.7
+  composite: 32.0
   coverage:
     artifact_dirs: 17
     catalog_gap: 78.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: 0.0
+  delta: -2.7
   facets:
     access_clarity: 34.2
     commercial_clarity: 34.2
-    contract_governance: 18.2
+    contract_governance: 4.5
     contract_quality: 34.7
-    developer_ergonomics: 35.7
+    developer_ergonomics: 30.4
     discoverability: 75.9
-    governance: 18.2
+    governance: 4.5
     operational_transparency: 2.6
   previous_composite: 34.7
+  provenance:
+    conformance: derived
+    mcp: derived
+    skills: derived
   regulatory:
     applies: true
     matched_via: tags
     regime: Health
     regime_id: health
     score: 31.3
-  schema_version: 0.17.2
+  schema_version: 0.18.0
   scored_at: '2026-09-01'
   trend: flat
 security:

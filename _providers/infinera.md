@@ -120,7 +120,7 @@ score:
     regime: Telecommunications
     regime_id: telecommunications
     score: 26.4
-  schema_version: 0.17.2
+  schema_version: 0.18.0
   scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/infinera/refs/heads/main/screenshots/infinera-2026-07-25T222357.png

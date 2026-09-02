@@ -740,18 +740,18 @@ scopes:
   summary_line: 7 scopes · clientCredentials/authorizationCode
 score:
   band: strong
-  composite: 62.6
+  composite: 62.2
   coverage:
     artifact_dirs: 25
     catalog_gap: 78.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: 0.0
+  delta: -0.4
   facets:
     access_clarity: 52.6
     commercial_clarity: 52.6
     contract_governance: 18.2
-    contract_quality: 65.9
+    contract_quality: 64.1
     developer_ergonomics: 45.8
     discoverability: 87.0
     governance: 18.2
@@ -761,10 +761,10 @@ score:
     agentic_access: derived
     conformance: first-party
     contracts:
-      callable: 91.5
+      callable: 57.4
       derived: 0
       marker_coverage: 0.0
-      total: 59
+      total: 169
     mcp: derived
     skills: derived
   regulatory:
@@ -777,7 +777,7 @@ score:
     regime: Health
     regime_id: health
     score: 83.8
-  schema_version: 0.17.2
+  schema_version: 0.18.0
   scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/optum/refs/heads/main/screenshots/optum-2026-08-07T190817.png

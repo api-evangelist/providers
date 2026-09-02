@@ -140,7 +140,7 @@ score:
   previous_composite: 22.6
   provenance:
     conformance: first-party
-  schema_version: 0.17.2
+  schema_version: 0.18.0
   scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/flow-engineering/refs/heads/main/screenshots/flow-engineering-2026-07-25T214832.png

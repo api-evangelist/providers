@@ -509,11 +509,11 @@ score:
     conformance: derived
     contracts:
       callable: 100.0
-      derived: 9
+      derived: 10
       marker_coverage: 100.0
-      total: 9
+      total: 10
     mcp: derived
-  schema_version: 0.17.2
+  schema_version: 0.18.0
   scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/microsoft-excel/refs/heads/main/screenshots/microsoft-excel-2026-06-20T185500.png

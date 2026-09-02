@@ -276,7 +276,7 @@ score:
     regime: Payments
     regime_id: payments
     score: 62.5
-  schema_version: 0.17.2
+  schema_version: 0.18.0
   scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/plateiq/refs/heads/main/screenshots/plateiq-2026-08-17T081300.png

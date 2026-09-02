@@ -306,7 +306,7 @@ score:
       callable: 100.0
       derived: 0
       marker_coverage: 0.0
-      total: 3
+      total: 16
     mcp: derived
     skills: derived
   regulatory:
@@ -319,7 +319,7 @@ score:
     regime: Insurance
     regime_id: insurance
     score: 71.2
-  schema_version: 0.17.2
+  schema_version: 0.18.0
   scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/sun-life/refs/heads/main/screenshots/sun-life-2026-08-17T082154.png

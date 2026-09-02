@@ -1097,10 +1097,10 @@ score:
     agentic_access: derived
     contracts:
       callable: 100.0
-      derived: 32
+      derived: 33
       marker_coverage: 100.0
-      total: 32
-  schema_version: 0.17.2
+      total: 33
+  schema_version: 0.18.0
   scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/flickr/refs/heads/main/screenshots/flickr-2026-06-20T181308.png

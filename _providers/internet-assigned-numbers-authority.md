@@ -129,7 +129,7 @@ score:
     governance: 0.0
     operational_transparency: 10.5
   previous_composite: 14.3
-  schema_version: 0.17.2
+  schema_version: 0.18.0
   scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/internet-assigned-numbers-authority/refs/heads/main/screenshots/internet-assigned-numbers-authority-2026-06-20T183501.png

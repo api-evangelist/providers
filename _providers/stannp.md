@@ -330,18 +330,18 @@ rules:
   slug: stannp-jsonschema-spectral-rules
 score:
   band: exemplar
-  composite: 78.3
+  composite: 78.0
   coverage:
     artifact_dirs: 29
     catalog_gap: 24.8
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: 0.0
+  delta: -0.3
   facets:
     access_clarity: 93.4
     commercial_clarity: 93.4
     contract_governance: 43.2
-    contract_quality: 76.8
+    contract_quality: 75.8
     developer_ergonomics: 73.2
     discoverability: 75.9
     governance: 43.2
@@ -363,7 +363,7 @@ score:
     regime: Telecommunications
     regime_id: telecommunications
     score: 56.9
-  schema_version: 0.17.2
+  schema_version: 0.18.0
   scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/stannp/refs/heads/main/screenshots/stannp-2026-06-20T194506.png

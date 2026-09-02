@@ -142,7 +142,7 @@ score:
   previous_composite: 22.0
   provenance:
     skills: first-party
-  schema_version: 0.17.2
+  schema_version: 0.18.0
   scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/dfinity/refs/heads/main/screenshots/dfinity-2026-07-25T211842.png

@@ -184,39 +184,39 @@ scopes:
   summary_line: OAuth 2.0 · no documented scopes
 score:
   band: developing
-  composite: 46.9
+  composite: 40.3
   coverage:
     artifact_dirs: 16
-    catalog_gap: 45.0
+    catalog_gap: 60.8
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: 0.0
+  delta: -6.6
   facets:
-    access_clarity: 50.0
-    commercial_clarity: 50.0
-    contract_governance: 15.2
-    contract_quality: 56.9
+    access_clarity: 34.2
+    commercial_clarity: 34.2
+    contract_governance: 3.8
+    contract_quality: 57.0
     developer_ergonomics: 23.8
     discoverability: 74.1
-    governance: 15.2
-    operational_transparency: 23.7
+    governance: 3.8
+    operational_transparency: 7.9
   previous_composite: 46.9
   provenance:
-    agentic_access: derived
+    conformance: first-party
     contracts:
       callable: 100.0
       derived: 0
       marker_coverage: 0.0
-      total: 37
+      total: 3
   regulatory:
     applies: true
     matched_via: tags
     regime: Education & Research
     regime_id: education
     score: 64.8
-  schema_version: 0.17.2
+  schema_version: 0.18.0
   scored_at: '2026-09-01'
-  trend: flat
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/kfupm/refs/heads/main/screenshots/kfupm-2026-06-20T184024.png
 security:
 - kind: authentication

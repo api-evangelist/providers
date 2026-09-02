@@ -215,7 +215,7 @@ score:
       callable: 0.0
       derived: 0
       marker_coverage: 0.0
-      total: 1
+      total: 10
     mcp: derived
     skills: derived
   regulatory:
@@ -224,7 +224,7 @@ score:
     regime: Health
     regime_id: health
     score: 55.0
-  schema_version: 0.17.2
+  schema_version: 0.18.0
   scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/emis-health/refs/heads/main/screenshots/emis-health-2026-07-25T213240.png

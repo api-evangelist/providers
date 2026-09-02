@@ -185,7 +185,7 @@ score:
     access_clarity: 27.6
     commercial_clarity: 27.6
     contract_governance: 4.5
-    contract_quality: 21.9
+    contract_quality: 21.6
     developer_ergonomics: 51.8
     discoverability: 75.9
     governance: 4.5
@@ -206,7 +206,7 @@ score:
     regime: Payments
     regime_id: payments
     score: 39.1
-  schema_version: 0.17.2
+  schema_version: 0.18.0
   scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/funding-circle/refs/heads/main/screenshots/funding-circle-2026-08-17T123438.png

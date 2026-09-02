@@ -295,18 +295,18 @@ overview: 'dxFeed publishes 32 APIs on the [APIs.io](https://apis.io/) network, 
 random_paper: 15
 score:
   band: developing
-  composite: 44.6
+  composite: 45.2
   coverage:
     artifact_dirs: 20
     catalog_gap: 83.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: 0.0
+  delta: 0.6
   facets:
     access_clarity: 36.8
     commercial_clarity: 36.8
     contract_governance: 4.5
-    contract_quality: 48.1
+    contract_quality: 50.5
     developer_ergonomics: 73.2
     discoverability: 59.3
     governance: 4.5
@@ -315,6 +315,11 @@ score:
   provenance:
     agentic_access: derived
     conformance: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 31
     mcp: derived
     skills: derived
   regulatory:
@@ -323,7 +328,7 @@ score:
     regime: Securities & Market Data
     regime_id: securities_market_data
     score: 60.0
-  schema_version: 0.17.2
+  schema_version: 0.18.0
   scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/dxfeed/refs/heads/main/screenshots/dxfeed-2026-07-22T202337.png

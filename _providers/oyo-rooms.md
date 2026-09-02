@@ -82,7 +82,7 @@ score:
     - owner: catalog
       reason: never_enriched
   previous_composite: 7.6
-  schema_version: 0.17.2
+  schema_version: 0.18.0
   scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/oyo-rooms/refs/heads/main/screenshots/oyo-rooms-2026-08-07T191217.png

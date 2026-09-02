@@ -195,11 +195,11 @@ score:
     contracts:
       callable: 100.0
       derived: 0
-      marker_coverage: 100.0
-      total: 1
+      marker_coverage: 0.0
+      total: 3
     mcp: derived
     skills: first-party
-  schema_version: 0.17.2
+  schema_version: 0.18.0
   scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/infer-by-flow7/refs/heads/main/screenshots/infer-by-flow7-2026-08-17T080956.png

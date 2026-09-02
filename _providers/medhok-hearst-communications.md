@@ -116,7 +116,7 @@ score:
     regime: Health
     regime_id: health
     score: 42.5
-  schema_version: 0.17.2
+  schema_version: 0.18.0
   scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/medhok-hearst-communications/refs/heads/main/screenshots/medhok-hearst-communications-2026-08-07T172323.png

@@ -120,7 +120,7 @@ score:
     regime: Banking & Open Finance
     regime_id: banking_open_finance
     score: 30.4
-  schema_version: 0.17.2
+  schema_version: 0.18.0
   scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/found/refs/heads/main/screenshots/found-2026-07-25T215038.png

@@ -145,7 +145,7 @@ score:
     governance: 0.0
     operational_transparency: 42.1
   previous_composite: 35.6
-  schema_version: 0.17.2
+  schema_version: 0.18.0
   scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/plane/refs/heads/main/screenshots/plane-2026-06-20T191752.png

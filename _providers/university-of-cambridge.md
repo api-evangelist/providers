@@ -309,7 +309,7 @@ score:
     access_clarity: 63.2
     commercial_clarity: 63.2
     contract_governance: 31.8
-    contract_quality: 61.4
+    contract_quality: 61.3
     developer_ergonomics: 45.2
     discoverability: 59.3
     governance: 31.8
@@ -329,7 +329,7 @@ score:
     regime: Education & Research
     regime_id: education
     score: 61.1
-  schema_version: 0.17.2
+  schema_version: 0.18.0
   scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/university-of-cambridge/refs/heads/main/screenshots/university-of-cambridge-2026-06-20T200140.png

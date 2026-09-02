@@ -224,18 +224,18 @@ overview: 'GumGum publishes 5 APIs on the [APIs.io](https://apis.io/) network, i
 random_paper: 7
 score:
   band: developing
-  composite: 51.3
+  composite: 41.3
   coverage:
     artifact_dirs: 22
     catalog_gap: 75.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: 0.0
+  delta: -10.0
   facets:
     access_clarity: 35.5
     commercial_clarity: 35.5
     contract_governance: 18.2
-    contract_quality: 66.9
+    contract_quality: 22.6
     developer_ergonomics: 58.9
     discoverability: 81.5
     governance: 18.2
@@ -249,14 +249,14 @@ score:
     conformance: first-party
     contracts:
       callable: 100.0
-      derived: 0
-      marker_coverage: 0.0
-      total: 1
+      derived: 6
+      marker_coverage: 100.0
+      total: 6
     mcp: derived
     skills: derived
-  schema_version: 0.17.2
+  schema_version: 0.18.0
   scored_at: '2026-09-01'
-  trend: flat
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/gumgum/refs/heads/main/screenshots/gumgum-2026-08-07T165907.png
 security:
 - kind: authentication

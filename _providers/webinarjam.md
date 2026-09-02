@@ -187,18 +187,18 @@ rate_limits:
   slug: webinarjam-rate-limits
 score:
   band: strong
-  composite: 54.9
+  composite: 54.6
   coverage:
     artifact_dirs: 17
     catalog_gap: 58.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: 0.0
+  delta: -0.3
   facets:
     access_clarity: 84.2
     commercial_clarity: 84.2
     contract_governance: 18.2
-    contract_quality: 42.7
+    contract_quality: 41.6
     developer_ergonomics: 58.9
     discoverability: 75.9
     governance: 18.2
@@ -208,7 +208,7 @@ score:
     conformance: first-party
     mcp: derived
     skills: derived
-  schema_version: 0.17.2
+  schema_version: 0.18.0
   scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/webinarjam/refs/heads/main/screenshots/webinarjam-2026-06-20T201333.png

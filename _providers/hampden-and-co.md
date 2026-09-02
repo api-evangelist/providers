@@ -308,7 +308,7 @@ score:
       callable: 0.0
       derived: 0
       marker_coverage: 0.0
-      total: 3
+      total: 28
     mcp: derived
     skills: derived
   regulatory:
@@ -321,7 +321,7 @@ score:
     regime: Banking & Open Finance
     regime_id: banking_open_finance
     score: 77.2
-  schema_version: 0.17.2
+  schema_version: 0.18.0
   scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/hampden-and-co/refs/heads/main/screenshots/hampden-and-co-2026-07-25T220602.png

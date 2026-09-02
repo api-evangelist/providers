@@ -278,12 +278,6 @@ score:
     discoverability: 74.1
     governance: 0.0
     operational_transparency: 5.3
-  needs_work:
-    note: Recorded so this provider's gaps can be attributed. Does not affect the composite above.
-    owner: catalog
-    reasons:
-    - owner: catalog
-      reason: no_resolvable_host
   previous_composite: 27.0
   regulatory:
     applies: true
@@ -291,7 +285,7 @@ score:
     regime: Payments
     regime_id: payments
     score: 18.8
-  schema_version: 0.17.2
+  schema_version: 0.18.0
   scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/pagar-me/refs/heads/main/screenshots/pagar-me-2026-06-20T191321.png

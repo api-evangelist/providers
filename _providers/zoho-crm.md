@@ -832,18 +832,18 @@ scopes:
   summary_line: 458 scopes · authorizationCode/clientCredentials
 score:
   band: exemplar
-  composite: 72.2
+  composite: 72.0
   coverage:
     artifact_dirs: 28
     catalog_gap: 50.3
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: 0.0
+  delta: -0.2
   facets:
     access_clarity: 92.1
     commercial_clarity: 92.1
     contract_governance: 29.5
-    contract_quality: 65.4
+    contract_quality: 64.7
     developer_ergonomics: 80.4
     discoverability: 68.5
     governance: 29.5
@@ -853,13 +853,13 @@ score:
     agentic_access: derived
     conformance: first-party
     contracts:
-      callable: 2.9
+      callable: 5.6
       derived: 0
       marker_coverage: 0.0
-      total: 105
+      total: 36
     mcp: first-party
     skills: derived
-  schema_version: 0.17.2
+  schema_version: 0.18.0
   scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/zoho-crm/refs/heads/main/screenshots/zoho-crm-2026-06-20T201938.png

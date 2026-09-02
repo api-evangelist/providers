@@ -176,27 +176,29 @@ rate_limits:
   slug: optic-rate-limits
 score:
   band: emerging
-  composite: 22.6
+  composite: 21.1
   coverage:
     artifact_dirs: 13
     catalog_gap: 80.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: 0.0
+  delta: -1.5
   facets:
     access_clarity: 7.9
     commercial_clarity: 7.9
-    contract_governance: 18.2
+    contract_governance: 4.5
     contract_quality: 0.0
     developer_ergonomics: 40.5
     discoverability: 66.7
-    governance: 18.2
+    governance: 4.5
     operational_transparency: 28.9
   open_source:
     applies: true
     score: 25.0
   previous_composite: 22.6
-  schema_version: 0.17.2
+  provenance:
+    conformance: derived
+  schema_version: 0.18.0
   scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/optic/refs/heads/main/screenshots/optic-2026-08-07T190759.png

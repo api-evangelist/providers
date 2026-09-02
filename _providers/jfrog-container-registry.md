@@ -239,27 +239,31 @@ scopes:
   slug: jfrog-container-registry-scopes
   summary_line: OAuth 2.0 · no documented scopes
 score:
-  band: developing
-  composite: 51.1
+  band: strong
+  composite: 57.6
   coverage:
     artifact_dirs: 19
-    catalog_gap: 70.0
+    catalog_gap: 55.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: 0.0
+  delta: 6.5
   facets:
-    access_clarity: 76.3
-    commercial_clarity: 76.3
+    access_clarity: 100.0
+    commercial_clarity: 100.0
     contract_governance: 0.0
-    contract_quality: 42.7
+    contract_quality: 41.6
     developer_ergonomics: 50.0
     discoverability: 75.9
     governance: 0.0
-    operational_transparency: 57.9
+    operational_transparency: 73.7
   previous_composite: 51.1
-  schema_version: 0.17.2
+  provenance:
+    conformance: first-party
+    mcp: first-party
+    skills: first-party
+  schema_version: 0.18.0
   scored_at: '2026-09-01'
-  trend: flat
+  trend: rising
 screenshot: https://raw.githubusercontent.com/api-evangelist/jfrog-container-registry/refs/heads/main/screenshots/jfrog-container-registry-2026-06-20T183727.png
 security:
 - kind: authentication

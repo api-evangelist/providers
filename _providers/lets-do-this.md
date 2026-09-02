@@ -85,7 +85,7 @@ score:
     governance: 0.0
     operational_transparency: 0.0
   previous_composite: 8.6
-  schema_version: 0.17.2
+  schema_version: 0.18.0
   scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/lets-do-this/refs/heads/main/screenshots/lets-do-this-2026-07-25T224933.png

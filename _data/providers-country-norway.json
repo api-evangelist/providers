@@ -30,7 +30,7 @@
       "access_clarity": 69.7
      },
      "scored_at": "2026-09-01",
-     "schema_version": "0.17.2",
+     "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
       "regime": "Health",
@@ -84,7 +84,7 @@
      "band_label": "Developing",
      "facets": {
       "discoverability": 81.5,
-      "contract_quality": 14.7,
+      "contract_quality": 14.6,
       "governance": 18.2,
       "contract_governance": 18.2,
       "operational_transparency": 50.0,
@@ -93,7 +93,7 @@
       "access_clarity": 44.7
      },
      "scored_at": "2026-09-01",
-     "schema_version": "0.17.2",
+     "schema_version": "0.18.0",
      "agent_score": 27.2,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -138,7 +138,7 @@
       "access_clarity": 52.6
      },
      "scored_at": "2026-09-01",
-     "schema_version": "0.17.2",
+     "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
       "regime": "Education & Research",
@@ -197,7 +197,7 @@
       "access_clarity": 52.6
      },
      "scored_at": "2026-09-01",
-     "schema_version": "0.17.2",
+     "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
       "regime": "Government & Public Sector",
@@ -260,7 +260,7 @@
       "access_clarity": 27.6
      },
      "scored_at": "2026-09-01",
-     "schema_version": "0.17.2",
+     "schema_version": "0.18.0",
      "agent_score": 26.4,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -305,7 +305,7 @@
       "access_clarity": 26.3
      },
      "scored_at": "2026-09-01",
-     "schema_version": "0.17.2",
+     "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
       "regime": "Payments",
@@ -343,12 +343,12 @@
      "slug": "ntnu",
      "description": "The Norwegian University of Science and Technology (NTNU) is Norway's largest university, headquartered in Trondheim with campuses in Gjovik and Alesund. NTNU operates no consolidated institutional developer portal and publishes no OpenAPI, AsyncAPI or other machine-readable API contract of its own. Its one openly callable, institution-operated surface is the OAI-PMH interface of NTNU Open Access Journals at www.ntnu.no/ojs, which answers Identify, ListMetadataFormats and ListSets over sixteen NTNU-published journals. NTNU also runs an institutional API gateway at api.ntnu.no, but every path on it is behind Feide OAuth and no public documentation, contract or scope list is served without an institutional account. Everything else that looks programmable under NTNU's name is operated by somebody else and entered here as a tenant relationship, not as NTNU engineering: research data in the NTNU collection of DataverseNO (run by UiT The Arctic University of Norway on Dataverse software), research information in Cristin and the national research archive NVA (both run by Sikt), timetables in TP on educloud.no, identity in the Feide federation where NTNU exists as the scope ntnu.no on Sikt's national IdP rather than as its own eduGAIN entity, and teaching in a hosted Canvas tenant. This repo previously carried 35 OpenAPI files and 87 derived artifacts that were splits of the generic Dataverse 6.6 product contract; they were the vendor's, not NTNU's, and have been removed.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/ntnu/refs/heads/main/screenshots/ntnu-2026-06-20T190500.png",
-     "score": 31.1,
+     "score": 30.5,
      "band": "thin",
      "band_label": "Thin",
      "facets": {
       "discoverability": 85.2,
-      "contract_quality": 9.3,
+      "contract_quality": 6.9,
       "governance": 18.2,
       "contract_governance": 18.2,
       "operational_transparency": 23.7,
@@ -357,7 +357,7 @@
       "access_clarity": 28.9
      },
      "scored_at": "2026-09-01",
-     "schema_version": "0.17.2",
+     "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
       "regime": "Education & Research",
@@ -419,7 +419,7 @@
       "access_clarity": 0.0
      },
      "scored_at": "2026-09-01",
-     "schema_version": "0.17.2",
+     "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -464,7 +464,7 @@
       "access_clarity": 21.1
      },
      "scored_at": "2026-09-01",
-     "schema_version": "0.17.2",
+     "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -508,7 +508,7 @@
       "access_clarity": 21.1
      },
      "scored_at": "2026-09-01",
-     "schema_version": "0.17.2",
+     "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -553,7 +553,7 @@
       "access_clarity": 0.0
      },
      "scored_at": "2026-09-01",
-     "schema_version": "0.17.2",
+     "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -598,7 +598,7 @@
       "access_clarity": 0.0
      },
      "scored_at": "2026-09-01",
-     "schema_version": "0.17.2",
+     "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -642,7 +642,7 @@
       "access_clarity": 0.0
      },
      "scored_at": "2026-09-01",
-     "schema_version": "0.17.2",
+     "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -687,7 +687,7 @@
       "access_clarity": 0.0
      },
      "scored_at": "2026-09-01",
-     "schema_version": "0.17.2",
+     "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
       "regime": "Telecommunications",

@@ -92,7 +92,7 @@ score:
     governance: 0.0
     operational_transparency: 0.0
   previous_composite: 10.6
-  schema_version: 0.17.2
+  schema_version: 0.18.0
   scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/karma-science/refs/heads/main/screenshots/karma-science-2026-07-25T223511.png

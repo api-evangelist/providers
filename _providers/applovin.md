@@ -490,18 +490,18 @@ rules:
   slug: applovin-rules
 score:
   band: thin
-  composite: 35.6
+  composite: 35.5
   coverage:
     artifact_dirs: 32
     catalog_gap: 43.5
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: 0.0
+  delta: -0.1
   facets:
     access_clarity: 7.9
     commercial_clarity: 7.9
     contract_governance: 33.3
-    contract_quality: 32.9
+    contract_quality: 32.5
     developer_ergonomics: 37.5
     discoverability: 81.5
     governance: 33.3
@@ -512,12 +512,12 @@ score:
     conformance: derived
     contracts:
       callable: 100.0
-      derived: 11
+      derived: 17
       marker_coverage: 100.0
-      total: 11
+      total: 17
     mcp: derived
     skills: derived
-  schema_version: 0.17.2
+  schema_version: 0.18.0
   scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/applovin/refs/heads/main/screenshots/applovin-2026-06-20T172326.png

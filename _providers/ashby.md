@@ -514,18 +514,18 @@ rate_limits:
   slug: ashby-rate-limits
 score:
   band: developing
-  composite: 41.0
+  composite: 40.8
   coverage:
     artifact_dirs: 13
     catalog_gap: 82.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: 0.0
+  delta: -0.2
   facets:
     access_clarity: 61.8
     commercial_clarity: 61.8
     contract_governance: 0.0
-    contract_quality: 60.9
+    contract_quality: 60.1
     developer_ergonomics: 21.4
     discoverability: 51.9
     governance: 0.0
@@ -537,8 +537,8 @@ score:
       callable: 100.0
       derived: 0
       marker_coverage: 0.0
-      total: 53
-  schema_version: 0.17.2
+      total: 54
+  schema_version: 0.18.0
   scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/ashby/refs/heads/main/screenshots/ashby-2026-06-20T172459.png

@@ -175,18 +175,18 @@ overview: 'Atomic publishes 7 APIs on the [APIs.io](https://apis.io/) network. T
 random_paper: 19
 score:
   band: thin
-  composite: 26.7
+  composite: 26.5
   coverage:
     artifact_dirs: 4
     catalog_gap: 80.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: 0.0
+  delta: -0.2
   facets:
     access_clarity: 0.0
     commercial_clarity: 0.0
     contract_governance: 0.0
-    contract_quality: 37.2
+    contract_quality: 36.5
     developer_ergonomics: 59.5
     discoverability: 64.8
     governance: 0.0
@@ -198,7 +198,7 @@ score:
     regime: Banking & Open Finance
     regime_id: banking_open_finance
     score: 15.2
-  schema_version: 0.17.2
+  schema_version: 0.18.0
   scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/atomic-financial/refs/heads/main/screenshots/atomic-financial-2026-06-20T172532.png

@@ -189,11 +189,11 @@ score:
   provenance:
     agentic_access: derived
     contracts:
-      callable: 90.9
+      callable: 91.7
       derived: 0
       marker_coverage: 0.0
-      total: 11
-  schema_version: 0.17.2
+      total: 12
+  schema_version: 0.18.0
   scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/pinnacle/refs/heads/main/screenshots/pinnacle-2026-06-20T191716.png

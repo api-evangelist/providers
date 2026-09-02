@@ -115,30 +115,24 @@ overview: 'Valtix is profiled on the [APIs.io](https://apis.io/) network. Tagged
 random_paper: 13
 score:
   band: thin
-  composite: 27.8
+  composite: 27.5
   coverage:
     artifact_dirs: 8
     catalog_gap: 88.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: 0.0
+  delta: -0.3
   facets:
     access_clarity: 0.0
     commercial_clarity: 0.0
     contract_governance: 0.0
-    contract_quality: 42.7
+    contract_quality: 41.6
     developer_ergonomics: 38.1
     discoverability: 57.4
     governance: 0.0
     operational_transparency: 28.9
-  needs_work:
-    note: Recorded so this provider's gaps can be attributed. Does not affect the composite above.
-    owner: catalog
-    reasons:
-    - owner: catalog
-      reason: no_resolvable_host
   previous_composite: 27.8
-  schema_version: 0.17.2
+  schema_version: 0.18.0
   scored_at: '2026-09-01'
   trend: flat
 security:

@@ -160,7 +160,7 @@ score:
   provenance:
     conformance: derived
     skills: first-party
-  schema_version: 0.17.2
+  schema_version: 0.18.0
   scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/antithesis/refs/heads/main/screenshots/antithesis-2026-07-25T200432.png

@@ -124,7 +124,7 @@ score:
     governance: 0.0
     operational_transparency: 0.0
   previous_composite: 4.6
-  schema_version: 0.17.2
+  schema_version: 0.18.0
   scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/tailored-brands/refs/heads/main/screenshots/tailored-brands-2026-06-20T194856.png

@@ -227,18 +227,18 @@ rules:
   slug: alpaca-markets-asyncapi-spectral-rules
 score:
   band: thin
-  composite: 33.9
+  composite: 33.7
   coverage:
     artifact_dirs: 10
     catalog_gap: 46.5
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: 0.0
+  delta: -0.2
   facets:
     access_clarity: 39.5
     commercial_clarity: 39.5
     contract_governance: 13.6
-    contract_quality: 61.8
+    contract_quality: 61.0
     developer_ergonomics: 7.1
     discoverability: 68.5
     governance: 13.6
@@ -257,7 +257,7 @@ score:
     regime: Securities & Market Data
     regime_id: securities_market_data
     score: 10.0
-  schema_version: 0.17.2
+  schema_version: 0.18.0
   scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/alpaca-markets/refs/heads/main/screenshots/alpaca-markets-2026-07-25T195746.png

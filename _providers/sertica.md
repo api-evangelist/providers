@@ -11,12 +11,11 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-ready
-  band_gated_from: agent-native
+  band: agent-aware
   dimensions:
     agent_card: false
-    agent_skills: true
-    agentic_access: true
+    agent_skills: derived
+    agentic_access: derived
     agentic_commerce: false
     auth_clarity: bearer
     consent_identity: false
@@ -24,9 +23,9 @@ agent_readiness:
     dry_run_mode: false
     dynamic_client_registration: false
     error_semantics: verified
-    event_surface_described: true
+    event_surface_described: derived
     idempotency: false
-    mcp_server: documented
+    mcp_server: false
     openapi_examples: false
     protected_resource_metadata: false
     rate_limit_signal: documented
@@ -34,7 +33,7 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 42.3
+  score: 27.5
   scored_at: '2026-09-01'
 agentic_access:
 - acting_count: 1656
@@ -184,31 +183,35 @@ rate_limits:
   name: Sertica Rate Limits
   slug: sertica-rate-limits
 score:
-  band: developing
-  composite: 41.3
+  band: thin
+  composite: 38.4
   coverage:
     artifact_dirs: 23
     catalog_gap: 75.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: 0.0
+  delta: -2.9
   facets:
     access_clarity: 18.4
     commercial_clarity: 18.4
-    contract_governance: 18.2
-    contract_quality: 49.7
-    developer_ergonomics: 61.9
+    contract_governance: 4.5
+    contract_quality: 49.0
+    developer_ergonomics: 56.5
     discoverability: 75.9
-    governance: 18.2
+    governance: 4.5
     operational_transparency: 23.7
-  needs_work:
-    note: Recorded so this provider's gaps can be attributed. Does not affect the composite above.
-    owner: catalog
-    reasons:
-    - owner: catalog
-      reason: no_resolvable_host
   previous_composite: 41.3
-  schema_version: 0.17.2
+  provenance:
+    agentic_access: derived
+    conformance: derived
+    contracts:
+      callable: 0.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 1
+    mcp: derived
+    skills: derived
+  schema_version: 0.18.0
   scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/sertica/refs/heads/main/screenshots/sertica-2026-06-20T193727.png

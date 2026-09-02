@@ -204,19 +204,19 @@ overview: 'Moxion Power Co publishes 6 APIs on the [APIs.io](https://apis.io/) n
   Moxion Power Co''s developer surface includes documentation, API reference, getting-started guide, authentication, signup flow, GitHub presence, engineering blog, and 20 more developer resources.'
 random_paper: 11
 score:
-  band: thin
-  composite: 35.1
+  band: emerging
+  composite: 25.1
   coverage:
     artifact_dirs: 18
     catalog_gap: 70.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: 0.0
+  delta: -10.0
   facets:
     access_clarity: 6.6
     commercial_clarity: 6.6
     contract_governance: 33.3
-    contract_quality: 53.7
+    contract_quality: 13.4
     developer_ergonomics: 35.1
     discoverability: 81.5
     governance: 33.3
@@ -226,9 +226,9 @@ score:
     conformance: first-party
     contracts:
       callable: 0.0
-      derived: 0
-      marker_coverage: 0.0
-      total: 6
+      derived: 7
+      marker_coverage: 100.0
+      total: 7
     mcp: derived
     skills: derived
   regulatory:
@@ -237,9 +237,9 @@ score:
     regime: Energy & Utilities
     regime_id: energy_utilities
     score: 23.0
-  schema_version: 0.17.2
+  schema_version: 0.18.0
   scored_at: '2026-09-01'
-  trend: flat
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/moxion-power-co/refs/heads/main/screenshots/moxion-power-co-2026-08-07T184408.png
 security:
 - kind: authentication

@@ -587,18 +587,18 @@ scopes:
   summary_line: 42 scopes · clientCredentials/authorizationCode
 score:
   band: developing
-  composite: 52.1
+  composite: 51.9
   coverage:
     artifact_dirs: 20
     catalog_gap: 57.5
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: 0.0
+  delta: -0.2
   facets:
     access_clarity: 34.2
     commercial_clarity: 34.2
     contract_governance: 28.8
-    contract_quality: 69.9
+    contract_quality: 69.1
     developer_ergonomics: 64.3
     discoverability: 66.7
     governance: 28.8
@@ -611,7 +611,7 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 40
-  schema_version: 0.17.2
+  schema_version: 0.18.0
   scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/twitch/refs/heads/main/screenshots/twitch-2026-06-20T195857.png

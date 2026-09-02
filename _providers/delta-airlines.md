@@ -141,7 +141,7 @@ score:
     governance: 0.0
     operational_transparency: 5.3
   previous_composite: 23.6
-  schema_version: 0.17.2
+  schema_version: 0.18.0
   scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/delta-airlines/refs/heads/main/screenshots/delta-airlines-2026-07-25T211717.png

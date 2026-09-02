@@ -321,14 +321,14 @@ score:
     agentic_access: derived
     contracts:
       callable: 100.0
-      derived: 8
+      derived: 9
       marker_coverage: 100.0
-      total: 8
+      total: 9
   regulatory:
     applies: false
     note: provider carries no tags; regime could not be determined
     undetermined: true
-  schema_version: 0.17.2
+  schema_version: 0.18.0
   scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/workday-advanced-compensation/refs/heads/main/screenshots/workday-advanced-compensation-2026-06-20T201555.png

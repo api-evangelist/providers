@@ -296,18 +296,18 @@ overview: 'SIX publishes 7 APIs on the [APIs.io](https://apis.io/) network, incl
 random_paper: 18
 score:
   band: strong
-  composite: 55.1
+  composite: 54.9
   coverage:
     artifact_dirs: 22
     catalog_gap: 80.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: 0.0
+  delta: -0.2
   facets:
     access_clarity: 34.2
     commercial_clarity: 34.2
     contract_governance: 18.2
-    contract_quality: 60.8
+    contract_quality: 59.8
     developer_ergonomics: 70.8
     discoverability: 72.2
     governance: 18.2
@@ -316,7 +316,7 @@ score:
   provenance:
     conformance: first-party
     contracts:
-      callable: 100.0
+      callable: 95.0
       derived: 0
       marker_coverage: 0.0
       total: 20
@@ -328,7 +328,7 @@ score:
     regime: Banking & Open Finance
     regime_id: banking_open_finance
     score: 55.7
-  schema_version: 0.17.2
+  schema_version: 0.18.0
   scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/six-group/refs/heads/main/screenshots/six-group-2026-07-22T202623.png

@@ -75,9 +75,9 @@ score:
     owner: catalog
     reasons:
     - owner: catalog
-      reason: venue_as_website
+      reason: no_resolvable_host
   previous_composite: 4.6
-  schema_version: 0.17.2
+  schema_version: 0.18.0
   scored_at: '2026-09-01'
   trend: flat
 slug: domio

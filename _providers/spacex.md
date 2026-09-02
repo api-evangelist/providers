@@ -466,16 +466,16 @@ score:
     agentic_access: derived
     contracts:
       callable: 100.0
-      derived: 14
+      derived: 15
       marker_coverage: 100.0
-      total: 14
+      total: 15
   regulatory:
     applies: true
     matched_via: tags
     regime: Government & Public Sector
     regime_id: government
     score: 31.5
-  schema_version: 0.17.2
+  schema_version: 0.18.0
   scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/spacex/refs/heads/main/screenshots/spacex-2026-06-20T194240.png

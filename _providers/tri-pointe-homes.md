@@ -89,7 +89,7 @@ score:
     governance: 0.0
     operational_transparency: 0.0
   previous_composite: 4.4
-  schema_version: 0.17.2
+  schema_version: 0.18.0
   scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/tri-pointe-homes/refs/heads/main/screenshots/tri-pointe-homes-2026-06-20T195707.png

@@ -93,7 +93,7 @@ score:
     - owner: catalog
       reason: no_resolvable_host
   previous_composite: 6.1
-  schema_version: 0.17.2
+  schema_version: 0.18.0
   scored_at: '2026-09-01'
   trend: flat
 slug: gtm-release

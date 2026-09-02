@@ -358,18 +358,18 @@ scopes:
   summary_line: OAuth 2.0 · no documented scopes
 score:
   band: developing
-  composite: 47.7
+  composite: 47.5
   coverage:
     artifact_dirs: 20
     catalog_gap: 88.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: 0.0
+  delta: -0.2
   facets:
     access_clarity: 36.8
     commercial_clarity: 36.8
     contract_governance: 4.5
-    contract_quality: 71.3
+    contract_quality: 70.3
     developer_ergonomics: 50.6
     discoverability: 57.4
     governance: 4.5
@@ -384,7 +384,7 @@ score:
       total: 28
     mcp: first-party
     skills: derived
-  schema_version: 0.17.2
+  schema_version: 0.18.0
   scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/tackleio/refs/heads/main/screenshots/tackleio-2026-08-17T082241.png

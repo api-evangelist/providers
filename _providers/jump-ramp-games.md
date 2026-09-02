@@ -85,7 +85,7 @@ score:
     governance: 0.0
     operational_transparency: 0.0
   previous_composite: 5.0
-  schema_version: 0.17.2
+  schema_version: 0.18.0
   scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/jump-ramp-games/refs/heads/main/screenshots/jump-ramp-games-2026-07-25T223317.png

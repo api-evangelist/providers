@@ -163,7 +163,7 @@ score:
   previous_composite: 28.5
   provenance:
     mcp: derived
-  schema_version: 0.17.2
+  schema_version: 0.18.0
   scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/aimon/refs/heads/main/screenshots/aimon-2026-07-25T195355.png

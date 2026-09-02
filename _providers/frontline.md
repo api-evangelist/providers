@@ -444,10 +444,10 @@ score:
       callable: 100.0
       derived: 0
       marker_coverage: 0.0
-      total: 33
+      total: 44
     mcp: derived
     skills: first-party
-  schema_version: 0.17.2
+  schema_version: 0.18.0
   scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/frontline/refs/heads/main/screenshots/frontline-2026-07-25T215237.png

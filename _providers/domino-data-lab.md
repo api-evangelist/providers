@@ -143,7 +143,7 @@ score:
   previous_composite: 17.5
   provenance:
     mcp: first-party
-  schema_version: 0.17.2
+  schema_version: 0.18.0
   scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/domino-data-lab/refs/heads/main/screenshots/domino-data-lab-2026-07-25T212245.png

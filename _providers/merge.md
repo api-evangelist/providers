@@ -4467,7 +4467,7 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 117
-  schema_version: 0.17.2
+  schema_version: 0.18.0
   scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/merge/refs/heads/main/screenshots/merge-2026-06-20T185219.png

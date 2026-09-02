@@ -425,18 +425,18 @@ rate_limits:
   slug: feedly-rate-limits
 score:
   band: strong
-  composite: 57.1
+  composite: 56.9
   coverage:
     artifact_dirs: 21
     catalog_gap: 59.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: 0.0
+  delta: -0.2
   facets:
     access_clarity: 68.4
     commercial_clarity: 68.4
     contract_governance: 18.2
-    contract_quality: 66.7
+    contract_quality: 65.8
     developer_ergonomics: 51.2
     discoverability: 81.5
     governance: 18.2
@@ -448,10 +448,10 @@ score:
       callable: 100.0
       derived: 0
       marker_coverage: 0.0
-      total: 18
+      total: 29
     mcp: first-party
     skills: first-party
-  schema_version: 0.17.2
+  schema_version: 0.18.0
   scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/feedly/refs/heads/main/screenshots/feedly-2026-08-17T080410.png

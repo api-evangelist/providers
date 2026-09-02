@@ -240,18 +240,18 @@ overview: 'Moveworks (ServiceNow) publishes 1 API on the [APIs.io](https://apis.
 random_paper: 1
 score:
   band: developing
-  composite: 50.8
+  composite: 50.7
   coverage:
     artifact_dirs: 22
     catalog_gap: 78.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: 0.0
+  delta: -0.1
   facets:
     access_clarity: 60.5
     commercial_clarity: 60.5
     contract_governance: 18.2
-    contract_quality: 24.8
+    contract_quality: 24.5
     developer_ergonomics: 70.8
     discoverability: 75.9
     governance: 18.2
@@ -267,7 +267,7 @@ score:
       total: 1
     mcp: first-party
     skills: derived
-  schema_version: 0.17.2
+  schema_version: 0.18.0
   scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/moveworks-servicenow/refs/heads/main/screenshots/moveworks-servicenow-2026-08-07T184403.png

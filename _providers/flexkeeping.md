@@ -103,14 +103,8 @@ score:
     discoverability: 50.0
     governance: 0.0
     operational_transparency: 0.0
-  needs_work:
-    note: Recorded so this provider's gaps can be attributed. Does not affect the composite above.
-    owner: catalog
-    reasons:
-    - owner: catalog
-      reason: no_resolvable_host
   previous_composite: 8.5
-  schema_version: 0.17.2
+  schema_version: 0.18.0
   scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/flexkeeping/refs/heads/main/screenshots/flexkeeping-2026-07-25T214750.png

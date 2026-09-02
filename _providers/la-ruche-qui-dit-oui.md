@@ -156,19 +156,19 @@ overview: 'La Ruche qui dit Oui! publishes 4 APIs on the [APIs.io](https://apis.
   La Ruche qui dit Oui!''s developer surface includes authentication, support, signup flow, engineering blog, and 14 more developer resources.'
 random_paper: 19
 score:
-  band: thin
-  composite: 34.9
+  band: emerging
+  composite: 24.7
   coverage:
     artifact_dirs: 15
     catalog_gap: 75.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: 0.0
+  delta: -10.2
   facets:
     access_clarity: 23.7
     commercial_clarity: 23.7
     contract_governance: 4.5
-    contract_quality: 54.5
+    contract_quality: 13.6
     developer_ergonomics: 37.5
     discoverability: 81.5
     governance: 4.5
@@ -178,14 +178,14 @@ score:
     conformance: derived
     contracts:
       callable: 100.0
-      derived: 0
-      marker_coverage: 0.0
-      total: 4
+      derived: 5
+      marker_coverage: 100.0
+      total: 5
     mcp: derived
     skills: derived
-  schema_version: 0.17.2
+  schema_version: 0.18.0
   scored_at: '2026-09-01'
-  trend: flat
+  trend: falling
 security:
 - kind: authentication
   name: La Ruche Qui Dit Oui Authentication

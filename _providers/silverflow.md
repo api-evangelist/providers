@@ -1,9 +1,9 @@
 ---
 agent_readiness:
-  band: agent-native
+  band: agent-ready
   dimensions:
     agent_card: false
-    agent_skills: true
+    agent_skills: derived
     agentic_access: false
     agentic_commerce: false
     auth_clarity: bearer
@@ -12,9 +12,9 @@ agent_readiness:
     dry_run_mode: false
     dynamic_client_registration: false
     error_semantics: verified
-    event_surface_described: true
+    event_surface_described: derived
     idempotency: documented
-    mcp_server: documented
+    mcp_server: false
     openapi_examples: verified
     protected_resource_metadata: false
     rate_limit_signal: verified
@@ -22,7 +22,7 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 45.9
+  score: 36.5
   scored_at: '2026-09-01'
 api_count: 2
 apis:
@@ -349,30 +349,39 @@ rate_limits:
   slug: silverflow-rate-limits
 score:
   band: developing
-  composite: 53.3
+  composite: 51.3
   coverage:
     artifact_dirs: 21
     catalog_gap: 81.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: 0.0
+  delta: -2.0
   facets:
     access_clarity: 17.1
     commercial_clarity: 17.1
-    contract_governance: 18.2
-    contract_quality: 60.4
-    developer_ergonomics: 71.4
+    contract_governance: 4.5
+    contract_quality: 63.0
+    developer_ergonomics: 66.1
     discoverability: 70.4
-    governance: 18.2
+    governance: 4.5
     operational_transparency: 57.9
   previous_composite: 53.3
+  provenance:
+    conformance: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 50
+    mcp: derived
+    skills: derived
   regulatory:
     applies: true
     matched_via: tags
     regime: Payments
     regime_id: payments
     score: 57.8
-  schema_version: 0.17.2
+  schema_version: 0.18.0
   scored_at: '2026-09-01'
   trend: flat
 security:

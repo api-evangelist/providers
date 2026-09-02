@@ -407,10 +407,10 @@ score:
     agentic_access: derived
     contracts:
       callable: 0.0
-      derived: 10
+      derived: 11
       marker_coverage: 100.0
-      total: 10
-  schema_version: 0.17.2
+      total: 11
+  schema_version: 0.18.0
   scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/veritas-infoscale/refs/heads/main/screenshots/veritas-infoscale-2026-06-20T200933.png

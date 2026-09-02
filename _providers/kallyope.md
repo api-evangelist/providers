@@ -154,20 +154,14 @@ score:
     discoverability: 74.1
     governance: 4.5
     operational_transparency: 0.0
-  needs_work:
-    note: Recorded so this provider's gaps can be attributed. Does not affect the composite above.
-    owner: catalog
-    reasons:
-    - owner: catalog
-      reason: venue_as_website
   previous_composite: 16.4
   provenance:
     conformance: derived
     contracts:
       callable: 100.0
-      derived: 1
+      derived: 7
       marker_coverage: 100.0
-      total: 1
+      total: 7
     mcp: derived
     skills: derived
   regulatory:
@@ -176,7 +170,7 @@ score:
     regime: Health
     regime_id: health
     score: 21.3
-  schema_version: 0.17.2
+  schema_version: 0.18.0
   scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/kallyope/refs/heads/main/screenshots/kallyope-2026-08-07T171056.png

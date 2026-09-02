@@ -88,7 +88,7 @@ score:
     governance: 0.0
     operational_transparency: 0.0
   previous_composite: 8.1
-  schema_version: 0.17.2
+  schema_version: 0.18.0
   scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/utah-agrc/refs/heads/main/screenshots/utah-agrc-2026-06-20T200725.png

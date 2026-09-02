@@ -182,18 +182,18 @@ scopes:
   summary_line: 1 scope · authorizationCode
 score:
   band: thin
-  composite: 36.8
+  composite: 26.5
   coverage:
     artifact_dirs: 17
     catalog_gap: 75.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: 0.0
+  delta: -10.3
   facets:
     access_clarity: 21.1
     commercial_clarity: 21.1
     contract_governance: 18.2
-    contract_quality: 55.1
+    contract_quality: 13.8
     developer_ergonomics: 20.8
     discoverability: 74.1
     governance: 18.2
@@ -203,9 +203,9 @@ score:
     conformance: first-party
     contracts:
       callable: 100.0
-      derived: 0
-      marker_coverage: 0.0
-      total: 1
+      derived: 11
+      marker_coverage: 100.0
+      total: 11
     mcp: first-party
     skills: derived
   regulatory:
@@ -214,9 +214,9 @@ score:
     regime: Health
     regime_id: health
     score: 52.5
-  schema_version: 0.17.2
+  schema_version: 0.18.0
   scored_at: '2026-09-01'
-  trend: flat
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/engrail-therapeutics/refs/heads/main/screenshots/engrail-therapeutics-2026-08-07T164922.png
 security:
 - kind: authentication

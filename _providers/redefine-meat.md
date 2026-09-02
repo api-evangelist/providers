@@ -185,19 +185,19 @@ scopes:
   slug: redefine-meat-scopes
   summary_line: 1 scope · authorizationCode/refreshToken
 score:
-  band: thin
-  composite: 31.0
+  band: emerging
+  composite: 21.0
   coverage:
     artifact_dirs: 17
     catalog_gap: 78.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: 0.0
+  delta: -10.0
   facets:
     access_clarity: 10.5
     commercial_clarity: 10.5
     contract_governance: 18.2
-    contract_quality: 64.7
+    contract_quality: 24.5
     developer_ergonomics: 18.5
     discoverability: 68.5
     governance: 18.2
@@ -207,14 +207,14 @@ score:
     conformance: first-party
     contracts:
       callable: 100.0
-      derived: 0
-      marker_coverage: 0.0
+      derived: 2
+      marker_coverage: 100.0
       total: 2
     mcp: first-party
     skills: derived
-  schema_version: 0.17.2
+  schema_version: 0.18.0
   scored_at: '2026-09-01'
-  trend: flat
+  trend: falling
 security:
 - kind: authentication
   name: Redefine Meat Authentication

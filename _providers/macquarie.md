@@ -194,37 +194,37 @@ rules:
   slug: macquarie-oai-pmh-spectral-rules
 score:
   band: developing
-  composite: 44.0
+  composite: 48.1
   coverage:
     artifact_dirs: 13
-    catalog_gap: 55.3
+    catalog_gap: 44.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: 0.0
+  delta: 4.1
   facets:
     access_clarity: 50.0
     commercial_clarity: 50.0
-    contract_governance: 26.5
-    contract_quality: 55.0
+    contract_governance: 60.6
+    contract_quality: 55.2
     developer_ergonomics: 26.2
     discoverability: 59.3
-    governance: 26.5
+    governance: 60.6
     operational_transparency: 23.7
   previous_composite: 44.0
   provenance:
-    agentic_access: derived
+    conformance: first-party
     contracts:
       callable: 100.0
       derived: 0
-      marker_coverage: 0.0
-      total: 10
+      marker_coverage: 100.0
+      total: 1
   regulatory:
     applies: true
     matched_via: tags
     regime: Education & Research
     regime_id: education
     score: 46.3
-  schema_version: 0.17.2
+  schema_version: 0.18.0
   scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/macquarie/refs/heads/main/screenshots/macquarie-2026-06-20T184829.png

@@ -242,7 +242,7 @@ score:
     access_clarity: 53.9
     commercial_clarity: 53.9
     contract_governance: 18.2
-    contract_quality: 23.4
+    contract_quality: 23.1
     developer_ergonomics: 55.4
     discoverability: 75.9
     governance: 18.2
@@ -258,7 +258,7 @@ score:
       total: 2
     mcp: derived
     skills: derived
-  schema_version: 0.17.2
+  schema_version: 0.18.0
   scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/krisp/refs/heads/main/screenshots/krisp-2026-07-25T224259.png

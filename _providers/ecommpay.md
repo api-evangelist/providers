@@ -178,18 +178,18 @@ overview: 'ECOMMPAY publishes 4 APIs on the [APIs.io](https://apis.io/) network.
 random_paper: 19
 score:
   band: thin
-  composite: 34.3
+  composite: 34.0
   coverage:
     artifact_dirs: 13
     catalog_gap: 80.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: 0.0
+  delta: -0.3
   facets:
     access_clarity: 0.0
     commercial_clarity: 0.0
     contract_governance: 18.2
-    contract_quality: 42.7
+    contract_quality: 41.6
     developer_ergonomics: 52.4
     discoverability: 72.2
     governance: 18.2
@@ -207,7 +207,7 @@ score:
     regime: Payments
     regime_id: payments
     score: 48.4
-  schema_version: 0.17.2
+  schema_version: 0.18.0
   scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/ecommpay/refs/heads/main/screenshots/ecommpay-2026-07-25T212806.png

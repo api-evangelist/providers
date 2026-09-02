@@ -202,7 +202,7 @@ score:
   previous_composite: 32.5
   provenance:
     conformance: first-party
-  schema_version: 0.17.2
+  schema_version: 0.18.0
   scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/fourth/refs/heads/main/screenshots/fourth-2026-07-25T215048.png

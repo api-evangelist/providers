@@ -110,7 +110,7 @@ score:
     regime: Insurance
     regime_id: insurance
     score: 21.2
-  schema_version: 0.17.2
+  schema_version: 0.18.0
   scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/optimity/refs/heads/main/screenshots/optimity-2026-08-07T190804.png

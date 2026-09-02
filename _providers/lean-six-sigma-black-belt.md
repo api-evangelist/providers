@@ -81,7 +81,7 @@ score:
     governance: 0.0
     operational_transparency: 0.0
   previous_composite: 7.7
-  schema_version: 0.17.2
+  schema_version: 0.18.0
   scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/lean-six-sigma-black-belt/refs/heads/main/screenshots/lean-six-sigma-black-belt-2026-06-20T184355.png

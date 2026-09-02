@@ -126,7 +126,7 @@ score:
     regime: Insurance
     regime_id: insurance
     score: 22.7
-  schema_version: 0.17.2
+  schema_version: 0.18.0
   scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/complyance/refs/heads/main/screenshots/complyance-2026-07-25T210204.png

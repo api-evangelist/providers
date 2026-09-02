@@ -11,10 +11,9 @@ access_model:
   try_now: false
 agent_readiness:
   band: agent-ready
-  band_gated_from: agent-native
   dimensions:
     agent_card: false
-    agent_skills: true
+    agent_skills: derived
     agentic_access: derived
     agentic_commerce: false
     auth_clarity: bearer
@@ -25,7 +24,7 @@ agent_readiness:
     error_semantics: verified
     event_surface_described: false
     idempotency: false
-    mcp_server: documented
+    mcp_server: false
     openapi_examples: verified
     protected_resource_metadata: false
     rate_limit_signal: documented
@@ -33,7 +32,7 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: true
   schema_version: 0.2
-  score: 40.5
+  score: 34.4
   scored_at: '2026-09-01'
 agentic_access:
 - acting_count: 1
@@ -482,34 +481,37 @@ rules:
   slug: academy-software-foundation-spectral-rules
 score:
   band: strong
-  composite: 55.6
+  composite: 55.0
   coverage:
     artifact_dirs: 31
-    catalog_gap: 48.5
+    catalog_gap: 42.5
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: 0.0
+  delta: -0.6
   facets:
     access_clarity: 52.6
     commercial_clarity: 52.6
-    contract_governance: 47.0
+    contract_governance: 33.3
     contract_quality: 26.4
-    developer_ergonomics: 76.2
+    developer_ergonomics: 70.8
     discoverability: 72.2
-    governance: 47.0
-    operational_transparency: 42.1
+    governance: 33.3
+    operational_transparency: 57.9
   open_source:
     applies: true
     score: 100.0
   previous_composite: 55.6
   provenance:
     agentic_access: derived
+    conformance: derived
     contracts:
       callable: 0.0
-      derived: 4
+      derived: 5
       marker_coverage: 100.0
-      total: 4
-  schema_version: 0.17.2
+      total: 5
+    mcp: derived
+    skills: derived
+  schema_version: 0.18.0
   scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/academy-software-foundation/refs/heads/main/screenshots/academy-software-foundation-2026-06-20T163501.png

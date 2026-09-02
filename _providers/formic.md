@@ -145,7 +145,7 @@ score:
     governance: 0.0
     operational_transparency: 5.3
   previous_composite: 12.8
-  schema_version: 0.17.2
+  schema_version: 0.18.0
   scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/formic/refs/heads/main/screenshots/formic-2026-06-20T181432.png

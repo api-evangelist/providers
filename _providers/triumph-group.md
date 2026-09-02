@@ -169,7 +169,7 @@ score:
     governance: 25.0
     operational_transparency: 5.3
   previous_composite: 17.8
-  schema_version: 0.17.2
+  schema_version: 0.18.0
   scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/triumph-group/refs/heads/main/screenshots/triumph-group-2026-06-20T195738.png

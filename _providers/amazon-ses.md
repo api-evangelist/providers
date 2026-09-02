@@ -486,18 +486,18 @@ rules:
   slug: amazon-ses-spectral-rules
 score:
   band: exemplar
-  composite: 76.2
+  composite: 76.1
   coverage:
     artifact_dirs: 31
     catalog_gap: 43.5
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: 0.0
+  delta: -0.1
   facets:
     access_clarity: 100.0
     commercial_clarity: 100.0
     contract_governance: 47.0
-    contract_quality: 63.0
+    contract_quality: 62.8
     developer_ergonomics: 90.5
     discoverability: 57.4
     governance: 47.0
@@ -507,13 +507,13 @@ score:
     agentic_access: derived
     conformance: first-party
     contracts:
-      callable: 0.0
+      callable: 20.0
       derived: 0
       marker_coverage: 0.0
-      total: 4
+      total: 5
     mcp: first-party
     skills: first-party
-  schema_version: 0.17.2
+  schema_version: 0.18.0
   scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/amazon-ses/refs/heads/main/screenshots/amazon-ses-2026-06-20T171820.png

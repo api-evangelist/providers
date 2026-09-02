@@ -265,14 +265,8 @@ score:
     discoverability: 64.8
     governance: 0.0
     operational_transparency: 36.8
-  needs_work:
-    note: Recorded so this provider's gaps can be attributed. Does not affect the composite above.
-    owner: catalog
-    reasons:
-    - owner: catalog
-      reason: no_resolvable_host
   previous_composite: 25.3
-  schema_version: 0.17.2
+  schema_version: 0.18.0
   scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/nx-dev/refs/heads/main/screenshots/nx-dev-2026-08-07T185821.png

@@ -263,19 +263,19 @@ rate_limits:
   name: Group14 Technologies Rate Limits
   slug: group14-technologies-rate-limits
 score:
-  band: thin
-  composite: 34.9
+  band: emerging
+  composite: 24.9
   coverage:
     artifact_dirs: 20
     catalog_gap: 75.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: 0.0
+  delta: -10.0
   facets:
     access_clarity: 28.9
     commercial_clarity: 28.9
     contract_governance: 4.5
-    contract_quality: 56.0
+    contract_quality: 16.0
     developer_ergonomics: 16.1
     discoverability: 81.5
     governance: 4.5
@@ -286,9 +286,9 @@ score:
     conformance: derived
     contracts:
       callable: 100.0
-      derived: 0
-      marker_coverage: 0.0
-      total: 7
+      derived: 17
+      marker_coverage: 100.0
+      total: 17
     mcp: first-party
     skills: derived
   regulatory:
@@ -297,9 +297,9 @@ score:
     regime: Energy & Utilities
     regime_id: energy_utilities
     score: 40.5
-  schema_version: 0.17.2
+  schema_version: 0.18.0
   scored_at: '2026-09-01'
-  trend: flat
+  trend: falling
 security:
 - kind: authentication
   name: Group14 Technologies Authentication

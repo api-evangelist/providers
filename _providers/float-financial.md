@@ -259,18 +259,18 @@ rate_limits:
   slug: float-financial-rate-limits
 score:
   band: strong
-  composite: 60.2
+  composite: 60.0
   coverage:
     artifact_dirs: 21
     catalog_gap: 66.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: 0.0
+  delta: -0.2
   facets:
     access_clarity: 85.5
     commercial_clarity: 85.5
     contract_governance: 18.2
-    contract_quality: 63.1
+    contract_quality: 62.3
     developer_ergonomics: 45.8
     discoverability: 75.9
     governance: 18.2
@@ -282,7 +282,7 @@ score:
       callable: 100.0
       derived: 0
       marker_coverage: 0.0
-      total: 1
+      total: 23
     mcp: derived
     skills: derived
   regulatory:
@@ -291,7 +291,7 @@ score:
     regime: Payments
     regime_id: payments
     score: 56.3
-  schema_version: 0.17.2
+  schema_version: 0.18.0
   scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/float-financial/refs/heads/main/screenshots/float-financial-2026-08-17T080932.png

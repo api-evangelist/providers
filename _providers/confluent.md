@@ -681,34 +681,37 @@ scopes:
   slug: confluent-scopes
   summary_line: 5 scopes · clientCredentials
 score:
-  band: strong
-  composite: 66.3
+  band: exemplar
+  composite: 73.9
   coverage:
     artifact_dirs: 27
-    catalog_gap: 74.0
+    catalog_gap: 56.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: 0.0
+  delta: 7.6
   facets:
-    access_clarity: 76.3
-    commercial_clarity: 76.3
+    access_clarity: 100.0
+    commercial_clarity: 100.0
     contract_governance: 18.2
-    contract_quality: 64.7
+    contract_quality: 63.8
     developer_ergonomics: 85.7
     discoverability: 66.7
     governance: 18.2
-    operational_transparency: 68.4
+    operational_transparency: 92.1
   previous_composite: 66.3
   provenance:
     agentic_access: derived
+    conformance: first-party
     contracts:
       callable: 100.0
       derived: 0
       marker_coverage: 0.0
-      total: 8
-  schema_version: 0.17.2
+      total: 125
+    mcp: first-party
+    skills: first-party
+  schema_version: 0.18.0
   scored_at: '2026-09-01'
-  trend: flat
+  trend: rising
 screenshot: https://raw.githubusercontent.com/api-evangelist/confluent/refs/heads/main/screenshots/confluent-2026-06-20T174900.png
 security:
 - kind: authentication

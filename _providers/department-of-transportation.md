@@ -259,18 +259,18 @@ rules:
   slug: dot-rules
 score:
   band: thin
-  composite: 30.7
+  composite: 31.5
   coverage:
     artifact_dirs: 15
     catalog_gap: 53.8
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: 0.0
+  delta: 0.8
   facets:
     access_clarity: 13.2
     commercial_clarity: 13.2
     contract_governance: 9.8
-    contract_quality: 56.6
+    contract_quality: 59.7
     developer_ergonomics: 19.0
     discoverability: 64.8
     governance: 9.8
@@ -279,7 +279,7 @@ score:
   provenance:
     agentic_access: derived
     contracts:
-      callable: 0.0
+      callable: 92.9
       derived: 0
       marker_coverage: 0.0
       total: 14
@@ -289,7 +289,7 @@ score:
     regime: Government & Public Sector
     regime_id: government
     score: 31.5
-  schema_version: 0.17.2
+  schema_version: 0.18.0
   scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/department-of-transportation/refs/heads/main/screenshots/department-of-transportation-2026-06-20T175923.png

@@ -170,19 +170,19 @@ overview: 'Pepperdata publishes 3 APIs on the [APIs.io](https://apis.io/) networ
   Pepperdata''s developer surface includes authentication, documentation, API reference, engineering blog, support, pricing, signup flow, and 16 more developer resources.'
 random_paper: 12
 score:
-  band: developing
-  composite: 41.6
+  band: thin
+  composite: 30.9
   coverage:
     artifact_dirs: 15
     catalog_gap: 75.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: 0.0
+  delta: -10.7
   facets:
     access_clarity: 44.7
     commercial_clarity: 44.7
     contract_governance: 4.5
-    contract_quality: 60.5
+    contract_quality: 17.7
     developer_ergonomics: 42.3
     discoverability: 81.5
     governance: 4.5
@@ -192,14 +192,14 @@ score:
     conformance: derived
     contracts:
       callable: 100.0
-      derived: 0
-      marker_coverage: 0.0
-      total: 3
+      derived: 4
+      marker_coverage: 100.0
+      total: 4
     mcp: derived
     skills: derived
-  schema_version: 0.17.2
+  schema_version: 0.18.0
   scored_at: '2026-09-01'
-  trend: flat
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/pepperdata/refs/heads/main/screenshots/pepperdata-2026-08-17T081155.png
 security:
 - kind: authentication

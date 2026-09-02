@@ -111,12 +111,6 @@ score:
     discoverability: 50.0
     governance: 0.0
     operational_transparency: 10.5
-  needs_work:
-    note: Recorded so this provider's gaps can be attributed. Does not affect the composite above.
-    owner: catalog
-    reasons:
-    - owner: catalog
-      reason: no_resolvable_host
   previous_composite: 15.7
   regulatory:
     applies: true
@@ -124,7 +118,7 @@ score:
     regime: Health
     regime_id: health
     score: 18.8
-  schema_version: 0.17.2
+  schema_version: 0.18.0
   scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/opalite-health/refs/heads/main/screenshots/opalite-health-2026-08-07T190444.png

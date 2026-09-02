@@ -315,7 +315,7 @@ score:
     regime: Telecommunications
     regime_id: telecommunications
     score: 48.6
-  schema_version: 0.17.2
+  schema_version: 0.18.0
   scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/neutrino-api/refs/heads/main/screenshots/neutrino-api-2026-08-17T081114.png

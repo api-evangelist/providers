@@ -258,26 +258,26 @@ score:
     access_clarity: 50.0
     commercial_clarity: 50.0
     contract_governance: 15.2
-    contract_quality: 52.4
+    contract_quality: 52.7
     developer_ergonomics: 28.6
     discoverability: 59.3
     governance: 15.2
     operational_transparency: 23.7
   previous_composite: 42.5
   provenance:
-    agentic_access: derived
+    conformance: first-party
     contracts:
       callable: 100.0
       derived: 0
       marker_coverage: 0.0
-      total: 6
+      total: 1
   regulatory:
     applies: true
     matched_via: tags
     regime: Education & Research
     regime_id: education
     score: 46.3
-  schema_version: 0.17.2
+  schema_version: 0.18.0
   scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/ucd/refs/heads/main/screenshots/ucd-2026-08-17T130228.png

@@ -350,7 +350,7 @@ score:
     access_clarity: 42.1
     commercial_clarity: 42.1
     contract_governance: 4.5
-    contract_quality: 55.6
+    contract_quality: 55.7
     developer_ergonomics: 26.2
     discoverability: 68.5
     governance: 4.5
@@ -359,10 +359,10 @@ score:
   provenance:
     conformance: derived
     contracts:
-      callable: 97.1
+      callable: 100.0
       derived: 0
       marker_coverage: 0.0
-      total: 35
+      total: 34
     skills: unknown
   regulatory:
     applies: true
@@ -376,7 +376,7 @@ score:
     regime: Health
     regime_id: health
     score: 37.5
-  schema_version: 0.17.2
+  schema_version: 0.18.0
   scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/forta-health/refs/heads/main/screenshots/forta-health-2026-08-07T165415.png

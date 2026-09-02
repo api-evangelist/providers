@@ -122,7 +122,7 @@ score:
     conformance: first-party
     mcp: first-party
     skills: first-party
-  schema_version: 0.17.2
+  schema_version: 0.18.0
   scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/all-in/refs/heads/main/screenshots/all-in-2026-08-07T161209.png

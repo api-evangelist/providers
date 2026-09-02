@@ -539,7 +539,7 @@ score:
       total: 55
     mcp: derived
     skills: first-party
-  schema_version: 0.17.2
+  schema_version: 0.18.0
   scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/rapidata/refs/heads/main/screenshots/rapidata-2026-08-17T083202.png

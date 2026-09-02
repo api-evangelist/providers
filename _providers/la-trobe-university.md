@@ -164,40 +164,35 @@ rate_limits:
   name: La Trobe University Rate Limits
   slug: la-trobe-university-rate-limits
 score:
-  band: thin
-  composite: 27.1
+  band: emerging
+  composite: 19.6
   coverage:
     artifact_dirs: 7
-    catalog_gap: 48.0
+    catalog_gap: 60.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: 0.0
+  delta: -7.5
   facets:
-    access_clarity: 28.9
-    commercial_clarity: 28.9
-    contract_governance: 18.2
-    contract_quality: 17.3
+    access_clarity: 13.2
+    commercial_clarity: 13.2
+    contract_governance: 4.5
+    contract_quality: 14.3
     developer_ergonomics: 9.5
     discoverability: 74.1
-    governance: 18.2
-    operational_transparency: 21.1
+    governance: 4.5
+    operational_transparency: 5.3
   previous_composite: 27.1
   provenance:
-    agentic_access: derived
-    contracts:
-      callable: 100.0
-      derived: 0
-      marker_coverage: 0.0
-      total: 2
+    conformance: derived
   regulatory:
     applies: true
     matched_via: tags
     regime: Education & Research
     regime_id: education
     score: 46.3
-  schema_version: 0.17.2
+  schema_version: 0.18.0
   scored_at: '2026-09-01'
-  trend: flat
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/la-trobe-university/refs/heads/main/screenshots/la-trobe-university-2026-06-20T184236.png
 security:
 - kind: domain-security

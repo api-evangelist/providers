@@ -381,18 +381,18 @@ overview: 'Nacha publishes 19 APIs on the [APIs.io](https://apis.io/) network, i
 random_paper: 3
 score:
   band: thin
-  composite: 38.7
+  composite: 39.0
   coverage:
     artifact_dirs: 16
     catalog_gap: 78.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: 0.0
+  delta: 0.3
   facets:
     access_clarity: 27.6
     commercial_clarity: 27.6
     contract_governance: 4.5
-    contract_quality: 49.1
+    contract_quality: 50.4
     developer_ergonomics: 54.2
     discoverability: 75.9
     governance: 4.5
@@ -401,6 +401,11 @@ score:
   provenance:
     agentic_access: derived
     conformance: derived
+    contracts:
+      callable: 36.8
+      derived: 0
+      marker_coverage: 0.0
+      total: 19
     mcp: derived
     skills: derived
   regulatory:
@@ -409,7 +414,7 @@ score:
     regime: Payments
     regime_id: payments
     score: 45.3
-  schema_version: 0.17.2
+  schema_version: 0.18.0
   scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/nacha/refs/heads/main/screenshots/nacha-2026-08-07T184604.png

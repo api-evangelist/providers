@@ -179,7 +179,7 @@ score:
     governance: 25.0
     operational_transparency: 7.9
   previous_composite: 18.2
-  schema_version: 0.17.2
+  schema_version: 0.18.0
   scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/tempur-sealy-international/refs/heads/main/screenshots/tempur-sealy-international-2026-06-20T195104.png

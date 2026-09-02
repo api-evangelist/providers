@@ -210,24 +210,27 @@ scopes:
   summary_line: OAuth 2.0 · no documented scopes
 score:
   band: developing
-  composite: 53.1
+  composite: 51.2
   coverage:
     artifact_dirs: 17
     catalog_gap: 63.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: 0.0
+  delta: -1.9
   facets:
     access_clarity: 92.1
     commercial_clarity: 92.1
-    contract_governance: 18.2
-    contract_quality: 42.7
+    contract_governance: 4.5
+    contract_quality: 41.6
     developer_ergonomics: 51.2
     discoverability: 81.5
-    governance: 18.2
+    governance: 4.5
     operational_transparency: 26.3
   previous_composite: 53.1
-  schema_version: 0.17.2
+  provenance:
+    conformance: derived
+    mcp: first-party
+  schema_version: 0.18.0
   scored_at: '2026-09-01'
   trend: flat
 security:

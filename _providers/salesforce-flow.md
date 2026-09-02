@@ -183,7 +183,6 @@ finops:
 - name: Salesforce Flow Finops
   service_category: Workflow Automation
   slug: salesforce-flow-finops
-image: https://www.salesforce.com/content/dam/web/en_us/www/images/nav/logo-salesforce.svg
 json_schemas:
 - name: Salesforce Flow Definition
   property_count: 12
@@ -249,20 +248,20 @@ scopes:
   summary_line: 2 scopes · authorizationCode
 score:
   band: developing
-  composite: 42.0
+  composite: 41.6
   coverage:
     artifact_dirs: 18
-    catalog_gap: 54.8
+    catalog_gap: 56.8
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: 0.0
+  delta: -0.4
   facets:
     access_clarity: 34.2
     commercial_clarity: 34.2
     contract_governance: 25.0
     contract_quality: 63.7
     developer_ergonomics: 38.1
-    discoverability: 75.9
+    discoverability: 72.2
     governance: 25.0
     operational_transparency: 7.9
   previous_composite: 42.0
@@ -273,7 +272,7 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 3
-  schema_version: 0.17.2
+  schema_version: 0.18.0
   scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/salesforce-flow/refs/heads/main/screenshots/salesforce-flow-2026-06-20T193348.png

@@ -249,18 +249,18 @@ overview: 'OPay publishes 3 APIs on the [APIs.io](https://apis.io/) network: Cas
 random_paper: 0
 score:
   band: thin
-  composite: 34.4
+  composite: 34.2
   coverage:
     artifact_dirs: 7
     catalog_gap: 75.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: 0.0
+  delta: -0.2
   facets:
     access_clarity: 13.2
     commercial_clarity: 13.2
     contract_governance: 0.0
-    contract_quality: 56.5
+    contract_quality: 55.7
     developer_ergonomics: 59.5
     discoverability: 74.1
     governance: 0.0
@@ -279,7 +279,7 @@ score:
     regime: Payments
     regime_id: payments
     score: 18.8
-  schema_version: 0.17.2
+  schema_version: 0.18.0
   scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/opay/refs/heads/main/screenshots/opay-2026-06-20T190727.png

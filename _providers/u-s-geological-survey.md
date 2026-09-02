@@ -510,19 +510,19 @@ rules:
     warn: 14
   slug: usgs-spectral-rules
 score:
-  band: thin
-  composite: 30.1
+  band: developing
+  composite: 39.4
   coverage:
     artifact_dirs: 17
     catalog_gap: 38.5
     catalog_max: 100.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: 0.0
+  delta: 9.3
   facets:
     access_clarity: 0.0
     commercial_clarity: 0.0
     contract_governance: 47.0
-    contract_quality: 31.3
+    contract_quality: 68.2
     developer_ergonomics: 35.7
     discoverability: 53.7
     governance: 47.0
@@ -533,18 +533,18 @@ score:
     conformance: first-party
     contracts:
       callable: 100.0
-      derived: 5
-      marker_coverage: 83.3
-      total: 6
+      derived: 6
+      marker_coverage: 14.0
+      total: 43
   regulatory:
     applies: true
     matched_via: tags
     regime: Government & Public Sector
     regime_id: government
     score: 42.6
-  schema_version: 0.17.2
+  schema_version: 0.18.0
   scored_at: '2026-09-01'
-  trend: flat
+  trend: rising
 screenshot: https://raw.githubusercontent.com/api-evangelist/u-s-geological-survey/refs/heads/main/screenshots/u-s-geological-survey-2026-06-20T195914.png
 security:
 - kind: authentication

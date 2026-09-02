@@ -557,16 +557,16 @@ score:
     agentic_access: derived
     contracts:
       callable: 100.0
-      derived: 7
+      derived: 8
       marker_coverage: 100.0
-      total: 7
+      total: 8
   regulatory:
     applies: true
     matched_via: tags
     regime: Banking & Open Finance
     regime_id: banking_open_finance
     score: 21.5
-  schema_version: 0.17.2
+  schema_version: 0.18.0
   scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/ncr/refs/heads/main/screenshots/ncr-2026-06-20T190112.png

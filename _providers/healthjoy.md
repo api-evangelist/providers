@@ -124,7 +124,7 @@ score:
     regime: Insurance
     regime_id: insurance
     score: 36.4
-  schema_version: 0.17.2
+  schema_version: 0.18.0
   scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/healthjoy/refs/heads/main/screenshots/healthjoy-2026-08-07T170219.png

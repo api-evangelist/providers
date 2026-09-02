@@ -1,9 +1,9 @@
 ---
 agent_readiness:
-  band: agent-native
+  band: agent-ready
   dimensions:
     agent_card: false
-    agent_skills: true
+    agent_skills: derived
     agentic_access: false
     agentic_commerce: false
     auth_clarity: bearer
@@ -14,7 +14,7 @@ agent_readiness:
     error_semantics: documented
     event_surface_described: false
     idempotency: verified
-    mcp_server: documented
+    mcp_server: false
     openapi_examples: verified
     protected_resource_metadata: false
     rate_limit_signal: documented
@@ -22,7 +22,7 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: true
   schema_version: 0.2
-  score: 42.3
+  score: 36.2
   scored_at: '2026-09-01'
 api_count: 3
 apis:
@@ -277,23 +277,32 @@ rate_limits:
   slug: splio-rate-limits
 score:
   band: developing
-  composite: 51.3
+  composite: 51.0
   coverage:
     artifact_dirs: 19
     catalog_gap: 63.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: 0.0
+  delta: -0.3
   facets:
     access_clarity: 42.1
     commercial_clarity: 42.1
     contract_governance: 18.2
-    contract_quality: 49.3
-    developer_ergonomics: 57.1
+    contract_quality: 52.7
+    developer_ergonomics: 51.8
     discoverability: 81.5
     governance: 18.2
     operational_transparency: 42.1
   previous_composite: 51.3
+  provenance:
+    conformance: first-party
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 17
+    mcp: derived
+    skills: derived
   regulatory:
     applies: true
     jurisdictions:
@@ -304,7 +313,7 @@ score:
     regime: Telecommunications
     regime_id: telecommunications
     score: 51.4
-  schema_version: 0.17.2
+  schema_version: 0.18.0
   scored_at: '2026-09-01'
   trend: flat
 security:

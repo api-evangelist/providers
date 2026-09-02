@@ -1067,10 +1067,10 @@ score:
     agentic_access: derived
     contracts:
       callable: 100.0
-      derived: 23
+      derived: 25
       marker_coverage: 100.0
-      total: 23
-  schema_version: 0.17.2
+      total: 25
+  schema_version: 0.18.0
   scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/7digital/refs/heads/main/screenshots/7digital-2026-06-20T162807.png

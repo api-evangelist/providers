@@ -174,6 +174,9 @@ score:
     governance: 18.2
     operational_transparency: 15.8
   previous_composite: 25.0
+  provenance:
+    conformance: first-party
+    mcp: first-party
   regulatory:
     applies: true
     jurisdictions:
@@ -186,7 +189,7 @@ score:
     regime: Banking & Open Finance
     regime_id: banking_open_finance
     score: 30.4
-  schema_version: 0.17.2
+  schema_version: 0.18.0
   scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/jifiti/refs/heads/main/screenshots/jifiti-2026-06-20T183731.png

@@ -267,18 +267,18 @@ rate_limits:
   slug: dexcare-rate-limits
 score:
   band: developing
-  composite: 50.7
+  composite: 50.8
   coverage:
     artifact_dirs: 21
     catalog_gap: 75.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: 0.0
+  delta: 0.1
   facets:
     access_clarity: 28.9
     commercial_clarity: 28.9
     contract_governance: 18.2
-    contract_quality: 54.9
+    contract_quality: 55.3
     developer_ergonomics: 73.2
     discoverability: 81.5
     governance: 18.2
@@ -287,10 +287,10 @@ score:
   provenance:
     conformance: first-party
     contracts:
-      callable: 83.3
+      callable: 94.7
       derived: 0
       marker_coverage: 0.0
-      total: 6
+      total: 19
     mcp: derived
     skills: derived
   regulatory:
@@ -303,7 +303,7 @@ score:
     regime: Health
     regime_id: health
     score: 37.5
-  schema_version: 0.17.2
+  schema_version: 0.18.0
   scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/dexcare/refs/heads/main/screenshots/dexcare-2026-07-25T211834.png

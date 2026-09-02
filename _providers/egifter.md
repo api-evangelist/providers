@@ -108,12 +108,6 @@ score:
     discoverability: 59.3
     governance: 0.0
     operational_transparency: 10.5
-  needs_work:
-    note: Recorded so this provider's gaps can be attributed. Does not affect the composite above.
-    owner: catalog
-    reasons:
-    - owner: catalog
-      reason: no_resolvable_host
   previous_composite: 12.4
   regulatory:
     applies: true
@@ -121,7 +115,7 @@ score:
     regime: Payments
     regime_id: payments
     score: 15.6
-  schema_version: 0.17.2
+  schema_version: 0.18.0
   scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/egifter/refs/heads/main/screenshots/egifter-2026-07-25T212954.png

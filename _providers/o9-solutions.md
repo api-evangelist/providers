@@ -158,7 +158,7 @@ score:
   previous_composite: 28.8
   provenance:
     conformance: first-party
-  schema_version: 0.17.2
+  schema_version: 0.18.0
   scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/o9-solutions/refs/heads/main/screenshots/o9-solutions-2026-08-07T185839.png

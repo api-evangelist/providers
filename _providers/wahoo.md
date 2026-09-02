@@ -252,18 +252,18 @@ scopes:
   summary_line: 12 scopes · authorizationCode
 score:
   band: strong
-  composite: 54.8
+  composite: 54.6
   coverage:
     artifact_dirs: 16
     catalog_gap: 38.5
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: 0.0
+  delta: -0.2
   facets:
     access_clarity: 44.7
     commercial_clarity: 44.7
     contract_governance: 28.8
-    contract_quality: 74.1
+    contract_quality: 73.2
     developer_ergonomics: 39.3
     discoverability: 59.3
     governance: 28.8
@@ -282,7 +282,7 @@ score:
     regime: Energy & Utilities
     regime_id: energy_utilities
     score: 51.4
-  schema_version: 0.17.2
+  schema_version: 0.18.0
   scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/wahoo/refs/heads/main/screenshots/wahoo-2026-06-20T201201.png

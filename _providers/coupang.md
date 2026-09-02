@@ -122,7 +122,7 @@ score:
     governance: 0.0
     operational_transparency: 10.5
   previous_composite: 21.8
-  schema_version: 0.17.2
+  schema_version: 0.18.0
   scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/coupang/refs/heads/main/screenshots/coupang-2026-06-20T175107.png

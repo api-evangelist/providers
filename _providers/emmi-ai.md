@@ -199,7 +199,7 @@ score:
   provenance:
     conformance: first-party
     skills: first-party
-  schema_version: 0.17.2
+  schema_version: 0.18.0
   scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/emmi-ai/refs/heads/main/screenshots/emmi-ai-2026-07-25T213243.png

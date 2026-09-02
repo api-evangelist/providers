@@ -180,20 +180,14 @@ score:
     discoverability: 74.1
     governance: 4.5
     operational_transparency: 2.6
-  needs_work:
-    note: Recorded so this provider's gaps can be attributed. Does not affect the composite above.
-    owner: catalog
-    reasons:
-    - owner: catalog
-      reason: venue_as_website
   previous_composite: 30.8
   provenance:
     conformance: derived
     contracts:
       callable: 100.0
-      derived: 1
+      derived: 8
       marker_coverage: 100.0
-      total: 1
+      total: 8
     mcp: derived
     skills: derived
   regulatory:
@@ -202,7 +196,7 @@ score:
     regime: Health
     regime_id: health
     score: 31.3
-  schema_version: 0.17.2
+  schema_version: 0.18.0
   scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/emulate/refs/heads/main/screenshots/emulate-2026-08-07T164847.png

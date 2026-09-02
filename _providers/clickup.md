@@ -417,18 +417,18 @@ rules:
   slug: clickup-jsonschema-spectral-rules
 score:
   band: thin
-  composite: 35.3
+  composite: 35.1
   coverage:
     artifact_dirs: 19
     catalog_gap: 66.5
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: 0.0
+  delta: -0.2
   facets:
     access_clarity: 23.7
     commercial_clarity: 23.7
     contract_governance: 13.6
-    contract_quality: 72.0
+    contract_quality: 71.1
     developer_ergonomics: 19.0
     discoverability: 57.4
     governance: 13.6
@@ -445,7 +445,7 @@ score:
     applies: false
     note: provider carries no tags; regime could not be determined
     undetermined: true
-  schema_version: 0.17.2
+  schema_version: 0.18.0
   scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/clickup/refs/heads/main/screenshots/clickup-2026-06-20T174517.png

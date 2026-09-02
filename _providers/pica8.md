@@ -237,12 +237,12 @@ score:
     conformance: first-party
     contracts:
       callable: 0.0
-      derived: 1
+      derived: 11
       marker_coverage: 100.0
-      total: 1
+      total: 11
     mcp: derived
     skills: derived
-  schema_version: 0.17.2
+  schema_version: 0.18.0
   scored_at: '2026-09-01'
   trend: flat
 security:

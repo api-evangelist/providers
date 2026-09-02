@@ -88,7 +88,7 @@ score:
     governance: 0.0
     operational_transparency: 0.0
   previous_composite: 8.1
-  schema_version: 0.17.2
+  schema_version: 0.18.0
   scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/solana-json-rpc/refs/heads/main/screenshots/solana-json-rpc-2026-06-20T194145.png

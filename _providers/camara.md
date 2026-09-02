@@ -234,16 +234,16 @@ score:
     agentic_access: derived
     contracts:
       callable: 0.0
-      derived: 1
+      derived: 2
       marker_coverage: 100.0
-      total: 1
+      total: 2
   regulatory:
     applies: true
     matched_via: tags
     regime: Telecommunications
     regime_id: telecommunications
     score: 47.2
-  schema_version: 0.17.2
+  schema_version: 0.18.0
   scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/camara/refs/heads/main/screenshots/camara-2026-06-20T173901.png

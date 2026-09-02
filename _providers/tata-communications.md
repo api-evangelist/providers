@@ -247,18 +247,18 @@ overview: 'Tata Communications publishes 6 APIs on the [APIs.io](https://apis.io
 random_paper: 10
 score:
   band: developing
-  composite: 48.7
+  composite: 48.5
   coverage:
     artifact_dirs: 21
     catalog_gap: 75.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: 0.0
+  delta: -0.2
   facets:
     access_clarity: 60.5
     commercial_clarity: 60.5
     contract_governance: 18.2
-    contract_quality: 43.9
+    contract_quality: 43.3
     developer_ergonomics: 54.2
     discoverability: 81.5
     governance: 18.2
@@ -267,6 +267,11 @@ score:
   provenance:
     agentic_access: derived
     conformance: first-party
+    contracts:
+      callable: 0.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 6
     mcp: derived
     skills: derived
   regulatory:
@@ -275,7 +280,7 @@ score:
     regime: Telecommunications
     regime_id: telecommunications
     score: 50.0
-  schema_version: 0.17.2
+  schema_version: 0.18.0
   scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/tata-communications/refs/heads/main/screenshots/tata-communications-2026-08-17T082254.png

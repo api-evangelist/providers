@@ -147,18 +147,18 @@ overview: 'Legit Security is profiled on the [APIs.io](https://apis.io/) network
 random_paper: 17
 score:
   band: thin
-  composite: 31.2
+  composite: 30.9
   coverage:
     artifact_dirs: 11
     catalog_gap: 88.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: 0.0
+  delta: -0.3
   facets:
     access_clarity: 35.5
     commercial_clarity: 35.5
     contract_governance: 0.0
-    contract_quality: 42.7
+    contract_quality: 41.6
     developer_ergonomics: 21.4
     discoverability: 57.4
     governance: 0.0
@@ -167,7 +167,7 @@ score:
   provenance:
     mcp: first-party
     skills: first-party
-  schema_version: 0.17.2
+  schema_version: 0.18.0
   scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/legit-security/refs/heads/main/screenshots/legit-security-2026-07-25T224837.png

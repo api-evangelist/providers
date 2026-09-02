@@ -333,7 +333,7 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 4
-  schema_version: 0.17.2
+  schema_version: 0.18.0
   scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/the-trade-desk/refs/heads/main/screenshots/the-trade-desk-2026-06-20T195241.png

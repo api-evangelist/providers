@@ -872,18 +872,18 @@ rules:
   slug: couchbase-sync-gateway-rules
 score:
   band: developing
-  composite: 51.7
+  composite: 51.8
   coverage:
     artifact_dirs: 19
     catalog_gap: 43.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: 0.0
+  delta: 0.1
   facets:
     access_clarity: 53.9
     commercial_clarity: 53.9
     contract_governance: 69.7
-    contract_quality: 58.6
+    contract_quality: 59.1
     developer_ergonomics: 28.6
     discoverability: 66.7
     governance: 69.7
@@ -892,11 +892,11 @@ score:
   provenance:
     agentic_access: derived
     contracts:
-      callable: 0.0
+      callable: 16.7
       derived: 0
       marker_coverage: 0.0
       total: 54
-  schema_version: 0.17.2
+  schema_version: 0.18.0
   scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/couchbase/refs/heads/main/screenshots/couchbase-2026-06-20T175100.png

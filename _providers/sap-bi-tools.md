@@ -451,7 +451,6 @@ finops:
 - name: Sap Bi Tools Finops
   service_category: Business Intelligence / Reporting
   slug: sap-bi-tools-finops
-image: https://www.sap.com/dam/application/shared/logos/sap-logo.svg
 json_schemas:
 - name: CalendarEvent
   property_count: 7
@@ -584,20 +583,20 @@ scopes:
   summary_line: OAuth 2.0 · no documented scopes
 score:
   band: developing
-  composite: 45.9
+  composite: 45.3
   coverage:
     artifact_dirs: 19
-    catalog_gap: 63.5
+    catalog_gap: 65.5
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: 0.0
+  delta: -0.6
   facets:
     access_clarity: 47.4
     commercial_clarity: 47.4
     contract_governance: 28.8
-    contract_quality: 68.6
+    contract_quality: 67.5
     developer_ergonomics: 50.0
-    discoverability: 57.4
+    discoverability: 53.7
     governance: 28.8
     operational_transparency: 39.5
   open_source:
@@ -607,11 +606,11 @@ score:
   provenance:
     agentic_access: derived
     contracts:
-      callable: 100.0
+      callable: 68.8
       derived: 0
       marker_coverage: 0.0
       total: 16
-  schema_version: 0.17.2
+  schema_version: 0.18.0
   scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/sap-bi-tools/refs/heads/main/screenshots/sap-bi-tools-2026-06-20T193416.png

@@ -467,18 +467,18 @@ rules:
   slug: university-of-washington-rules
 score:
   band: developing
-  composite: 47.4
+  composite: 39.5
   coverage:
     artifact_dirs: 20
     catalog_gap: 47.8
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: 0.0
+  delta: -7.9
   facets:
     access_clarity: 50.0
     commercial_clarity: 50.0
     contract_governance: 25.0
-    contract_quality: 52.8
+    contract_quality: 21.3
     developer_ergonomics: 45.2
     discoverability: 59.3
     governance: 25.0
@@ -486,20 +486,21 @@ score:
   previous_composite: 47.4
   provenance:
     agentic_access: derived
+    conformance: first-party
     contracts:
-      callable: 0.0
-      derived: 0
-      marker_coverage: 0.0
-      total: 26
+      callable: 90.0
+      derived: 26
+      marker_coverage: 100.0
+      total: 30
   regulatory:
     applies: true
     matched_via: tags
     regime: Education & Research
     regime_id: education
     score: 46.3
-  schema_version: 0.17.2
+  schema_version: 0.18.0
   scored_at: '2026-09-01'
-  trend: flat
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/university-of-washington/refs/heads/main/screenshots/university-of-washington-2026-06-20T200317.png
 security:
 - kind: authentication

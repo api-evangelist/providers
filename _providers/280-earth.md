@@ -109,7 +109,7 @@ score:
     regime: Energy & Utilities
     regime_id: energy_utilities
     score: 13.5
-  schema_version: 0.17.2
+  schema_version: 0.18.0
   scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/280-earth/refs/heads/main/screenshots/280-earth-2026-08-07T160657.png

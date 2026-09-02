@@ -4,34 +4,34 @@
  "limit": 1000,
  "bands": [
   {
-   "band": "strong",
-   "label": "Strong",
-   "range": "54.3 – 66.4",
-   "blurb": "Solid contracts, transparent operations, and an easy start.",
-   "count": 3,
-   "shown": 3,
+   "band": "exemplar",
+   "label": "Exemplar",
+   "range": "66.5+",
+   "blurb": "Reference-quality API operations across every facet.",
+   "count": 2,
+   "shown": 2,
    "providers": [
     {
      "name": "Redocly",
      "slug": "redocly",
      "description": "Redocly is a company that specializes in API documentation and governance tooling. Their platform helps organizations create, manage, and publish API documentation through Realm (the integrated lifecycle platform that unifies Redoc, Revel, and Reef), Reunite (Git-connected collaboration and deployment for docs/APIs), Revel (developer portal), Reef (internal API catalog and scorecard), and Redoc (open-source OpenAPI renderer). The Redocly CLI provides linting, bundling, splitting, decoration, and documentation generation for OpenAPI, AsyncAPI, and Arazzo specifications. Respect Monitoring adds continuous, Arazzo-powered API monitoring, and the Enterprise tier exposes MCP Servers and AI search for Realm portals — positioning Redocly's catalog as an AI substrate for agentic software.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/redocly/refs/heads/main/screenshots/redocly-2026-06-20T192731.png",
-     "score": 65.2,
-     "band": "strong",
-     "band_label": "Strong",
+     "score": 73.1,
+     "band": "exemplar",
+     "band_label": "Exemplar",
      "facets": {
       "discoverability": 72.2,
-      "contract_quality": 65.0,
+      "contract_quality": 65.4,
       "governance": 43.2,
       "contract_governance": 43.2,
-      "operational_transparency": 68.4,
+      "operational_transparency": 92.1,
       "developer_ergonomics": 61.9,
-      "commercial_clarity": 76.3,
-      "access_clarity": 76.3
+      "commercial_clarity": 100.0,
+      "access_clarity": 100.0
      },
      "scored_at": "2026-09-01",
-     "schema_version": "0.17.2",
-     "agent_score": 42.7,
+     "schema_version": "0.18.0",
+     "agent_score": 39.4,
      "agent_band": "agent-ready",
      "agent_dims": {
       "spec_presence": true,
@@ -43,7 +43,7 @@
       "error_semantics": "documented",
       "openapi_examples": "partial",
       "rate_limit_signal": "documented",
-      "event_surface_described": true,
+      "event_surface_described": "derived",
       "agent_skills": true,
       "well_known_catalog": true,
       "consent_identity": false,
@@ -62,35 +62,35 @@
      "slug": "stoplight",
      "description": "Stoplight is a collaborative, design-first API platform providing a visual editor for OpenAPI specifications, interactive hosted documentation, automatic mock servers, API style guides and governance, and open-source tools including Prism (mock server), Spectral (JSON/YAML linter), and Elements (documentation components). Acquired by SmartBear in 2023, Stoplight is now positioned within SmartBear's API Hub solution group alongside SwaggerHub, with Spectral, Prism, and Elements progressively integrated into the unified API Hub experience. The platform supports OpenAPI v3.1, v3.0, v2.0, Arazzo v1.0, and AsyncAPI v2.x, with integrations for GitHub, GitLab, Bitbucket, and Azure DevOps. The Stoplight status page now redirects to stoplight.status.smartbear.com, confirming the operational consolidation under SmartBear.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/stoplight/refs/heads/main/screenshots/stoplight-2026-06-20T194601.png",
-     "score": 65.2,
-     "band": "strong",
-     "band_label": "Strong",
+     "score": 69.2,
+     "band": "exemplar",
+     "band_label": "Exemplar",
      "facets": {
       "discoverability": 66.7,
-      "contract_quality": 60.5,
+      "contract_quality": 63.9,
       "governance": 43.2,
       "contract_governance": 43.2,
       "operational_transparency": 44.7,
-      "developer_ergonomics": 85.7,
-      "commercial_clarity": 76.3,
-      "access_clarity": 76.3
+      "developer_ergonomics": 80.4,
+      "commercial_clarity": 100.0,
+      "access_clarity": 100.0
      },
      "scored_at": "2026-09-01",
-     "schema_version": "0.17.2",
-     "agent_score": 35.8,
+     "schema_version": "0.18.0",
+     "agent_score": 29.7,
      "agent_band": "agent-ready",
      "agent_dims": {
       "spec_presence": true,
       "agentic_access": false,
       "reversibility_documented": false,
-      "mcp_server": "documented",
+      "mcp_server": false,
       "auth_clarity": "bearer",
       "idempotency": false,
       "error_semantics": "verified",
       "openapi_examples": "verified",
       "rate_limit_signal": "documented",
       "event_surface_described": false,
-      "agent_skills": true,
+      "agent_skills": "derived",
       "well_known_catalog": false,
       "consent_identity": false,
       "agent_card": false,
@@ -102,29 +102,40 @@
      },
      "tier": "Hosted Documentation Platforms",
      "rank": 2
-    },
+    }
+   ],
+   "open": true
+  },
+  {
+   "band": "developing",
+   "label": "Developing",
+   "range": "39.3 – 54.2",
+   "blurb": "Real signal across most facets with visible, nameable gaps.",
+   "count": 9,
+   "shown": 9,
+   "providers": [
     {
      "name": "Zeroheight",
      "slug": "zeroheight",
      "description": "zeroheight is a design system platform where teams document components, patterns, guidelines and design tokens in a styleguide, then deliver that documentation to designers, engineers and AI agents. It exposes two machine surfaces: a small key-authenticated REST API (https://zeroheight.com/open_api/v2) covering styleguides, pages, page content, page statuses, versions, categories and token sets, and a substantially richer Model Context Protocol server, hosted at https://mcp.zeroheight.com/mcp and also shipped as the npm package @zeroheight/mcp-server, which lets a coding or prototyping agent read a team's design system directly. Design tokens export in W3C DTCG format and through stable per-set Style Dictionary URLs usable as build-pipeline endpoints.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/zeroheight/refs/heads/main/screenshots/zeroheight-2026-06-20T201844.png",
-     "score": 57.3,
-     "band": "strong",
-     "band_label": "Strong",
+     "score": 53.1,
+     "band": "developing",
+     "band_label": "Developing",
      "facets": {
       "discoverability": 75.9,
-      "contract_quality": 53.7,
+      "contract_quality": 14.3,
       "governance": 18.2,
       "contract_governance": 18.2,
-      "operational_transparency": 23.7,
-      "developer_ergonomics": 78.6,
-      "commercial_clarity": 76.3,
-      "access_clarity": 76.3
+      "operational_transparency": 39.5,
+      "developer_ergonomics": 73.2,
+      "commercial_clarity": 100.0,
+      "access_clarity": 100.0
      },
      "scored_at": "2026-09-01",
-     "schema_version": "0.17.2",
-     "agent_score": 30.4,
-     "agent_band": "agent-ready",
+     "schema_version": "0.18.0",
+     "agent_score": 27.7,
+     "agent_band": "agent-aware",
      "agent_dims": {
       "spec_presence": true,
       "agentic_access": false,
@@ -136,7 +147,7 @@
       "openapi_examples": false,
       "rate_limit_signal": "verified",
       "event_surface_described": false,
-      "agent_skills": true,
+      "agent_skills": "derived",
       "well_known_catalog": false,
       "consent_identity": false,
       "agent_card": false,
@@ -148,29 +159,18 @@
      },
      "tier": "Hosted Documentation Platforms",
      "rank": 3
-    }
-   ],
-   "open": true
-  },
-  {
-   "band": "developing",
-   "label": "Developing",
-   "range": "39.3 – 54.2",
-   "blurb": "Real signal across most facets with visible, nameable gaps.",
-   "count": 8,
-   "shown": 8,
-   "providers": [
+    },
     {
      "name": "ReadMe",
      "slug": "readme",
      "description": "ReadMe is a developer hub platform that helps companies design, document, and operate their APIs. The platform combines hosted API reference (OpenAPI-driven), guides and changelog, bi-directional Git sync (GitHub and GitLab), interactive API explorer, Try-It console, Developer Dashboard with real-time API logs, and a deep layer of AI tooling — including the ReadMe Agent for multi-page editing, Inline AI rewrites, the AI Linter for style-guide enforcement, Docs Audit, GitHub AI Writer for PR-triggered doc updates, Ask AI for end users, and Model Context Protocol (MCP) servers for both ReadMe itself and each customer project so AI tools can search, read, update docs, and call APIs.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/readme/refs/heads/main/screenshots/readme-2026-06-20T192737.png",
-     "score": 52.4,
+     "score": 52.2,
      "band": "developing",
      "band_label": "Developing",
      "facets": {
       "discoverability": 66.7,
-      "contract_quality": 63.2,
+      "contract_quality": 62.4,
       "governance": 28.8,
       "contract_governance": 28.8,
       "operational_transparency": 34.2,
@@ -179,7 +179,7 @@
       "access_clarity": 53.9
      },
      "scored_at": "2026-09-01",
-     "schema_version": "0.17.2",
+     "schema_version": "0.18.0",
      "agent_score": 20.9,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -211,12 +211,12 @@
      "slug": "bump-sh",
      "description": "Bump.sh is \"the modern API doc platform\" — automatic, diff-aware documentation for OpenAPI and AsyncAPI specifications, plus a managed Model Context Protocol (MCP) platform that compiles Flower or Arazzo workflow documents into deterministic, observable MCP servers for AI agents. Customers include Aviobook, MongoDB, Elastic, Lightspeed, and BigID.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/bump-sh/refs/heads/main/screenshots/bump-sh-2026-06-20T173758.png",
-     "score": 51.0,
+     "score": 50.8,
      "band": "developing",
      "band_label": "Developing",
      "facets": {
       "discoverability": 75.9,
-      "contract_quality": 62.8,
+      "contract_quality": 62.0,
       "governance": 69.7,
       "contract_governance": 69.7,
       "operational_transparency": 34.2,
@@ -225,7 +225,7 @@
       "access_clarity": 32.9
      },
      "scored_at": "2026-09-01",
-     "schema_version": "0.17.2",
+     "schema_version": "0.18.0",
      "agent_score": 32.4,
      "agent_band": "agent-ready",
      "agent_dims": {
@@ -271,7 +271,7 @@
       "access_clarity": 68.4
      },
      "scored_at": "2026-09-01",
-     "schema_version": "0.17.2",
+     "schema_version": "0.18.0",
      "agent_score": 23.4,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -317,7 +317,7 @@
       "access_clarity": 43.4
      },
      "scored_at": "2026-09-01",
-     "schema_version": "0.17.2",
+     "schema_version": "0.18.0",
      "agent_score": 19.8,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -363,7 +363,7 @@
       "access_clarity": 47.4
      },
      "scored_at": "2026-09-01",
-     "schema_version": "0.17.2",
+     "schema_version": "0.18.0",
      "agent_score": 25.5,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -409,7 +409,7 @@
       "access_clarity": 34.2
      },
      "scored_at": "2026-09-01",
-     "schema_version": "0.17.2",
+     "schema_version": "0.18.0",
      "agent_score": 28.5,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -455,7 +455,7 @@
       "access_clarity": 34.2
      },
      "scored_at": "2026-09-01",
-     "schema_version": "0.17.2",
+     "schema_version": "0.18.0",
      "agent_score": 19.8,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -501,7 +501,7 @@
       "access_clarity": 40.8
      },
      "scored_at": "2026-09-01",
-     "schema_version": "0.17.2",
+     "schema_version": "0.18.0",
      "agent_score": 30.6,
      "agent_band": "agent-ready",
      "agent_dims": {
@@ -544,12 +544,12 @@
      "slug": "gitbook",
      "description": "GitBook is a platform that allows users to create, publish, and share online books and documentation. It provides a simple and user-friendly interface for writing and organizing content, as well as tools for collaborating with other authors or team members. With GitBook, users can easily create a professional-looking book or documentation site with features such as version control, markdown formatting, and customizable themes.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/gitbook/refs/heads/main/screenshots/gitbook-2026-06-20T181833.png",
-     "score": 37.9,
+     "score": 37.6,
      "band": "thin",
      "band_label": "Thin",
      "facets": {
       "discoverability": 59.3,
-      "contract_quality": 75.7,
+      "contract_quality": 74.7,
       "governance": 13.6,
       "contract_governance": 13.6,
       "operational_transparency": 10.5,
@@ -558,7 +558,7 @@
       "access_clarity": 26.3
      },
      "scored_at": "2026-09-01",
-     "schema_version": "0.17.2",
+     "schema_version": "0.18.0",
      "agent_score": 22.6,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -604,7 +604,7 @@
       "access_clarity": 53.9
      },
      "scored_at": "2026-09-01",
-     "schema_version": "0.17.2",
+     "schema_version": "0.18.0",
      "agent_score": 19.8,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -650,7 +650,7 @@
       "access_clarity": 0.0
      },
      "scored_at": "2026-09-01",
-     "schema_version": "0.17.2",
+     "schema_version": "0.18.0",
      "agent_score": 22.9,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -696,7 +696,7 @@
       "access_clarity": 26.3
      },
      "scored_at": "2026-09-01",
-     "schema_version": "0.17.2",
+     "schema_version": "0.18.0",
      "agent_score": 19.8,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -742,7 +742,7 @@
       "access_clarity": 0.0
      },
      "scored_at": "2026-09-01",
-     "schema_version": "0.17.2",
+     "schema_version": "0.18.0",
      "agent_score": 26.3,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -788,7 +788,7 @@
       "access_clarity": 15.8
      },
      "scored_at": "2026-09-01",
-     "schema_version": "0.17.2",
+     "schema_version": "0.18.0",
      "agent_score": 2.5,
      "agent_band": "human-only",
      "agent_dims": {
@@ -834,7 +834,7 @@
       "access_clarity": 0.0
      },
      "scored_at": "2026-09-01",
-     "schema_version": "0.17.2",
+     "schema_version": "0.18.0",
      "agent_score": 20.0,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -880,7 +880,7 @@
       "access_clarity": 15.8
      },
      "scored_at": "2026-09-01",
-     "schema_version": "0.17.2",
+     "schema_version": "0.18.0",
      "agent_score": 3.8,
      "agent_band": "human-only",
      "agent_dims": {
@@ -926,7 +926,7 @@
       "access_clarity": 13.2
      },
      "scored_at": "2026-09-01",
-     "schema_version": "0.17.2",
+     "schema_version": "0.18.0",
      "agent_score": 23.0,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -972,7 +972,7 @@
       "access_clarity": 15.8
      },
      "scored_at": "2026-09-01",
-     "schema_version": "0.17.2",
+     "schema_version": "0.18.0",
      "agent_score": 8.3,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -1028,7 +1028,7 @@
       "access_clarity": 53.9
      },
      "scored_at": "2026-09-01",
-     "schema_version": "0.17.2",
+     "schema_version": "0.18.0",
      "agent_score": 2.5,
      "agent_band": "human-only",
      "agent_dims": {
@@ -1074,7 +1074,7 @@
       "access_clarity": 15.8
      },
      "scored_at": "2026-09-01",
-     "schema_version": "0.17.2",
+     "schema_version": "0.18.0",
      "agent_score": 2.5,
      "agent_band": "human-only",
      "agent_dims": {
@@ -1120,7 +1120,7 @@
       "access_clarity": 15.8
      },
      "scored_at": "2026-09-01",
-     "schema_version": "0.17.2",
+     "schema_version": "0.18.0",
      "agent_score": 2.5,
      "agent_band": "human-only",
      "agent_dims": {
@@ -1166,7 +1166,7 @@
       "access_clarity": 15.8
      },
      "scored_at": "2026-09-01",
-     "schema_version": "0.17.2",
+     "schema_version": "0.18.0",
      "agent_score": 2.5,
      "agent_band": "human-only",
      "agent_dims": {
@@ -1212,7 +1212,7 @@
       "access_clarity": 15.8
      },
      "scored_at": "2026-09-01",
-     "schema_version": "0.17.2",
+     "schema_version": "0.18.0",
      "agent_score": 2.5,
      "agent_band": "human-only",
      "agent_dims": {
@@ -1258,7 +1258,7 @@
       "access_clarity": 15.8
      },
      "scored_at": "2026-09-01",
-     "schema_version": "0.17.2",
+     "schema_version": "0.18.0",
      "agent_score": 2.5,
      "agent_band": "human-only",
      "agent_dims": {
@@ -1304,7 +1304,7 @@
       "access_clarity": 0.0
      },
      "scored_at": "2026-09-01",
-     "schema_version": "0.17.2",
+     "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -1350,7 +1350,7 @@
       "access_clarity": 15.8
      },
      "scored_at": "2026-09-01",
-     "schema_version": "0.17.2",
+     "schema_version": "0.18.0",
      "agent_score": 6.1,
      "agent_band": "agent-aware",
      "agent_dims": {

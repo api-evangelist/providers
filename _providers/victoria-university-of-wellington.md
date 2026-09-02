@@ -250,40 +250,40 @@ scopes:
   slug: victoria-university-of-wellington-scopes
   summary_line: OAuth 2.0 · no documented scopes
 score:
-  band: developing
-  composite: 47.3
+  band: thin
+  composite: 36.1
   coverage:
     artifact_dirs: 17
-    catalog_gap: 35.3
+    catalog_gap: 36.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: 0.0
+  delta: -11.2
   facets:
-    access_clarity: 50.0
-    commercial_clarity: 50.0
-    contract_governance: 11.4
-    contract_quality: 66.9
+    access_clarity: 34.2
+    commercial_clarity: 34.2
+    contract_governance: 45.5
+    contract_quality: 26.8
     developer_ergonomics: 23.8
     discoverability: 74.1
-    governance: 11.4
-    operational_transparency: 23.7
+    governance: 45.5
+    operational_transparency: 7.9
   previous_composite: 47.3
   provenance:
-    agentic_access: derived
+    conformance: derived
     contracts:
       callable: 100.0
-      derived: 0
-      marker_coverage: 0.0
-      total: 1
+      derived: 3
+      marker_coverage: 100.0
+      total: 3
   regulatory:
     applies: true
     matched_via: tags
     regime: Education & Research
     regime_id: education
     score: 53.7
-  schema_version: 0.17.2
+  schema_version: 0.18.0
   scored_at: '2026-09-01'
-  trend: flat
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/victoria-university-of-wellington/refs/heads/main/screenshots/victoria-university-of-wellington-2026-06-20T201017.png
 security:
 - kind: authentication

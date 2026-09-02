@@ -444,16 +444,16 @@ score:
     agentic_access: derived
     contracts:
       callable: 100.0
-      derived: 7
+      derived: 8
       marker_coverage: 100.0
-      total: 7
+      total: 8
   regulatory:
     applies: true
     matched_via: tags
     regime: Health
     regime_id: health
     score: 31.3
-  schema_version: 0.17.2
+  schema_version: 0.18.0
   scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/agilent-technologies/refs/heads/main/screenshots/agilent-technologies-2026-07-25T195311.png

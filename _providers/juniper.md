@@ -716,18 +716,18 @@ rules:
   slug: juniper-jsonschema-spectral-rules
 score:
   band: thin
-  composite: 38.5
+  composite: 38.7
   coverage:
     artifact_dirs: 17
     catalog_gap: 67.8
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: 0.0
+  delta: 0.2
   facets:
     access_clarity: 34.2
     commercial_clarity: 34.2
     contract_governance: 9.8
-    contract_quality: 54.8
+    contract_quality: 55.8
     developer_ergonomics: 45.2
     discoverability: 66.7
     governance: 9.8
@@ -736,11 +736,11 @@ score:
   provenance:
     agentic_access: derived
     contracts:
-      callable: 0.0
+      callable: 28.3
       derived: 0
       marker_coverage: 0.0
       total: 46
-  schema_version: 0.17.2
+  schema_version: 0.18.0
   scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/juniper/refs/heads/main/screenshots/juniper-2026-06-20T183833.png

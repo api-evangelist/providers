@@ -148,24 +148,24 @@ scopes:
   summary_line: 5 scopes · authorizationCode/clientCredentials
 score:
   band: thin
-  composite: 37.2
+  composite: 36.9
   coverage:
     artifact_dirs: 11
     catalog_gap: 66.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: 0.0
+  delta: -0.3
   facets:
     access_clarity: 0.0
     commercial_clarity: 0.0
     contract_governance: 0.0
-    contract_quality: 42.7
+    contract_quality: 41.6
     developer_ergonomics: 57.1
     discoverability: 75.9
     governance: 0.0
     operational_transparency: 57.9
   previous_composite: 37.2
-  schema_version: 0.17.2
+  schema_version: 0.18.0
   scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/consola-finance/refs/heads/main/screenshots/consola-finance-2026-07-25T210307.png

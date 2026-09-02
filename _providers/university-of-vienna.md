@@ -334,7 +334,7 @@ score:
     access_clarity: 50.0
     commercial_clarity: 50.0
     contract_governance: 13.6
-    contract_quality: 58.5
+    contract_quality: 58.6
     developer_ergonomics: 28.6
     discoverability: 63.0
     governance: 13.6
@@ -342,10 +342,11 @@ score:
   previous_composite: 44.2
   provenance:
     agentic_access: derived
+    conformance: first-party
     contracts:
       callable: 100.0
       derived: 0
-      marker_coverage: 0.0
+      marker_coverage: 100.0
       total: 14
   regulatory:
     applies: true
@@ -353,7 +354,7 @@ score:
     regime: Education & Research
     regime_id: education
     score: 46.3
-  schema_version: 0.17.2
+  schema_version: 0.18.0
   scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/university-of-vienna/refs/heads/main/screenshots/university-of-vienna-2026-06-20T200302.png

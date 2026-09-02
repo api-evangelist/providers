@@ -103,14 +103,8 @@ score:
     discoverability: 50.0
     governance: 0.0
     operational_transparency: 2.6
-  needs_work:
-    note: Recorded so this provider's gaps can be attributed. Does not affect the composite above.
-    owner: catalog
-    reasons:
-    - owner: catalog
-      reason: venue_as_website
   previous_composite: 13.6
-  schema_version: 0.17.2
+  schema_version: 0.18.0
   scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/equityzen/refs/heads/main/screenshots/equityzen-2026-07-25T213556.png

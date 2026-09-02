@@ -596,7 +596,7 @@ score:
       callable: 100.0
       derived: 0
       marker_coverage: 100.0
-      total: 1
+      total: 91
     mcp: derived
     skills: derived
   regulatory:
@@ -605,7 +605,7 @@ score:
     regime: Energy & Utilities
     regime_id: energy_utilities
     score: 51.4
-  schema_version: 0.17.2
+  schema_version: 0.18.0
   scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/iso-new-england/refs/heads/main/screenshots/iso-new-england-2026-08-07T170922.png

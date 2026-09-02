@@ -217,33 +217,40 @@ rules:
     warn: 2
   slug: uq-status-rules
 score:
-  band: developing
-  composite: 45.8
+  band: thin
+  composite: 34.8
   coverage:
     artifact_dirs: 16
-    catalog_gap: 46.0
+    catalog_gap: 53.5
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: 0.0
+  delta: -11.0
   facets:
     access_clarity: 50.0
     commercial_clarity: 50.0
-    contract_governance: 30.3
-    contract_quality: 52.9
+    contract_governance: 7.6
+    contract_quality: 19.8
     developer_ergonomics: 35.7
     discoverability: 59.3
-    governance: 30.3
+    governance: 7.6
     operational_transparency: 23.7
   previous_composite: 45.8
+  provenance:
+    conformance: first-party
+    contracts:
+      callable: 100.0
+      derived: 1
+      marker_coverage: 100.0
+      total: 1
   regulatory:
     applies: true
     matched_via: tags
     regime: Education & Research
     regime_id: education
     score: 46.3
-  schema_version: 0.17.2
+  schema_version: 0.18.0
   scored_at: '2026-09-01'
-  trend: flat
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/uq/refs/heads/main/screenshots/uq-2026-06-20T200520.png
 security:
 - kind: authentication

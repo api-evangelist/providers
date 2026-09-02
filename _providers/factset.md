@@ -17520,7 +17520,7 @@ score:
     access_clarity: 50.0
     commercial_clarity: 50.0
     contract_governance: 33.3
-    contract_quality: 68.5
+    contract_quality: 68.4
     developer_ergonomics: 87.5
     discoverability: 68.5
     governance: 33.3
@@ -17530,7 +17530,7 @@ score:
     agentic_access: derived
     conformance: derived
     contracts:
-      callable: 100.0
+      callable: 98.0
       derived: 0
       marker_coverage: 0.0
       total: 446
@@ -17542,7 +17542,7 @@ score:
     regime: Securities & Market Data
     regime_id: securities_market_data
     score: 68.3
-  schema_version: 0.17.2
+  schema_version: 0.18.0
   scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/factset/refs/heads/main/screenshots/factset-2026-06-20T181011.png

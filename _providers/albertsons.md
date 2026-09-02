@@ -343,11 +343,11 @@ score:
     agentic_access: derived
     contracts:
       callable: 100.0
-      derived: 4
+      derived: 5
       marker_coverage: 100.0
-      total: 4
+      total: 5
     mcp: derived
-  schema_version: 0.17.2
+  schema_version: 0.18.0
   scored_at: '2026-09-01'
   trend: flat
 security:

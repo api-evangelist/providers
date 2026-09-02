@@ -230,18 +230,18 @@ overview: 'ReCode Therapeutics publishes 7 APIs on the [APIs.io](https://apis.io
 random_paper: 15
 score:
   band: thin
-  composite: 38.0
+  composite: 28.7
   coverage:
     artifact_dirs: 15
     catalog_gap: 55.0
     catalog_max: 100.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: 0.0
+  delta: -9.3
   facets:
     access_clarity: 57.1
     commercial_clarity: 57.1
     contract_governance: 4.5
-    contract_quality: 52.9
+    contract_quality: 15.8
     developer_ergonomics: 13.7
     discoverability: 81.5
     governance: 4.5
@@ -251,9 +251,9 @@ score:
     conformance: derived
     contracts:
       callable: 100.0
-      derived: 0
-      marker_coverage: 0.0
-      total: 7
+      derived: 8
+      marker_coverage: 100.0
+      total: 8
     skills: derived
   regulatory:
     applies: true
@@ -261,9 +261,9 @@ score:
     regime: Health
     regime_id: health
     score: 31.3
-  schema_version: 0.17.2
+  schema_version: 0.18.0
   scored_at: '2026-09-01'
-  trend: flat
+  trend: falling
 security:
 - kind: authentication
   name: Recode Therapeutics Authentication

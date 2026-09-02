@@ -620,18 +620,18 @@ scopes:
   summary_line: 1 scope · clientCredentials/authorizationCode
 score:
   band: exemplar
-  composite: 77.6
+  composite: 77.4
   coverage:
     artifact_dirs: 32
     catalog_gap: 44.5
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: 0.0
+  delta: -0.2
   facets:
     access_clarity: 76.3
     commercial_clarity: 76.3
     contract_governance: 47.0
-    contract_quality: 77.8
+    contract_quality: 76.8
     developer_ergonomics: 73.2
     discoverability: 75.9
     governance: 47.0
@@ -641,7 +641,7 @@ score:
     agentic_access: derived
     conformance: first-party
     contracts:
-      callable: 100.0
+      callable: 95.5
       derived: 0
       marker_coverage: 0.0
       total: 22
@@ -653,7 +653,7 @@ score:
     regime: Health
     regime_id: health
     score: 82.5
-  schema_version: 0.17.2
+  schema_version: 0.18.0
   scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/athenahealth/refs/heads/main/screenshots/athenahealth-2026-06-20T172519.png

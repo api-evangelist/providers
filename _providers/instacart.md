@@ -14,7 +14,7 @@ agent_readiness:
   band: agent-ready
   dimensions:
     agent_card: false
-    agent_skills: true
+    agent_skills: derived
     agentic_access: derived
     agentic_commerce: false
     auth_clarity: bearer
@@ -33,7 +33,7 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 35.4
+  score: 32.7
   scored_at: '2026-09-01'
 agentic_access:
 - acting_count: 19
@@ -525,32 +525,35 @@ scopes:
   slug: instacart-scopes
   summary_line: OAuth 2.0 · no documented scopes
 score:
-  band: strong
-  composite: 65.0
+  band: exemplar
+  composite: 68.9
   coverage:
     artifact_dirs: 34
-    catalog_gap: 52.5
+    catalog_gap: 37.5
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: 0.0
+  delta: 3.9
   facets:
-    access_clarity: 50.0
-    commercial_clarity: 50.0
-    contract_governance: 47.0
-    contract_quality: 73.7
-    developer_ergonomics: 71.4
+    access_clarity: 73.7
+    commercial_clarity: 73.7
+    contract_governance: 33.3
+    contract_quality: 72.9
+    developer_ergonomics: 66.1
     discoverability: 81.5
-    governance: 47.0
-    operational_transparency: 65.8
+    governance: 33.3
+    operational_transparency: 81.6
   previous_composite: 65.0
   provenance:
     agentic_access: derived
+    conformance: derived
     contracts:
       callable: 100.0
       derived: 0
       marker_coverage: 0.0
-      total: 9
-  schema_version: 0.17.2
+      total: 10
+    mcp: first-party
+    skills: derived
+  schema_version: 0.18.0
   scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/instacart/refs/heads/main/screenshots/instacart-2026-06-20T183414.png

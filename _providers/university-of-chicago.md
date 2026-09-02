@@ -517,18 +517,18 @@ scopes:
   summary_line: 3 scopes · authorizationCode
 score:
   band: developing
-  composite: 44.4
+  composite: 44.6
   coverage:
     artifact_dirs: 21
     catalog_gap: 42.8
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: 0.0
+  delta: 0.2
   facets:
     access_clarity: 28.9
     commercial_clarity: 28.9
     contract_governance: 25.0
-    contract_quality: 56.8
+    contract_quality: 57.6
     developer_ergonomics: 40.5
     discoverability: 68.5
     governance: 25.0
@@ -539,16 +539,16 @@ score:
     conformance: first-party
     contracts:
       callable: 100.0
-      derived: 1
-      marker_coverage: 2.6
-      total: 38
+      derived: 2
+      marker_coverage: 5.1
+      total: 39
   regulatory:
     applies: true
     matched_via: tags
     regime: Education & Research
     regime_id: education
     score: 50.0
-  schema_version: 0.17.2
+  schema_version: 0.18.0
   scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/university-of-chicago/refs/heads/main/screenshots/university-of-chicago-2026-06-20T200146.png

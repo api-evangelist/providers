@@ -263,18 +263,18 @@ rules:
   slug: splitit-jsonschema-spectral-rules
 score:
   band: strong
-  composite: 56.9
+  composite: 56.7
   coverage:
     artifact_dirs: 15
     catalog_gap: 36.8
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: 0.0
+  delta: -0.2
   facets:
     access_clarity: 71.1
     commercial_clarity: 71.1
     contract_governance: 9.8
-    contract_quality: 65.6
+    contract_quality: 64.7
     developer_ergonomics: 64.3
     discoverability: 68.5
     governance: 9.8
@@ -293,7 +293,7 @@ score:
     regime: Payments
     regime_id: payments
     score: 34.4
-  schema_version: 0.17.2
+  schema_version: 0.18.0
   scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/splitit/refs/heads/main/screenshots/splitit-2026-06-20T194331.png

@@ -106,7 +106,7 @@ score:
     - owner: catalog
       reason: never_enriched
   previous_composite: 14.8
-  schema_version: 0.17.2
+  schema_version: 0.18.0
   scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/3par/refs/heads/main/screenshots/3par-2026-07-25T181153.png

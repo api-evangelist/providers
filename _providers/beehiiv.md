@@ -24,7 +24,7 @@ agent_readiness:
     dry_run_mode: false
     dynamic_client_registration: true
     error_semantics: verified
-    event_surface_described: derived
+    event_surface_described: true
     idempotency: false
     mcp_server: documented
     openapi_examples: false
@@ -34,7 +34,7 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: true
   schema_version: 0.2
-  score: 52.7
+  score: 56.0
   scored_at: '2026-09-01'
 agentic_access:
 - acting_count: 32
@@ -575,18 +575,18 @@ scopes:
   summary_line: OAuth 2.0 · no documented scopes
 score:
   band: exemplar
-  composite: 71.0
+  composite: 70.7
   coverage:
     artifact_dirs: 29
     catalog_gap: 35.5
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: 0.0
+  delta: -0.3
   facets:
     access_clarity: 100.0
     commercial_clarity: 100.0
     contract_governance: 31.8
-    contract_quality: 72.3
+    contract_quality: 71.4
     developer_ergonomics: 71.4
     discoverability: 75.9
     governance: 31.8
@@ -596,13 +596,13 @@ score:
     agentic_access: derived
     conformance: first-party
     contracts:
-      callable: 96.2
+      callable: 100.0
       derived: 0
       marker_coverage: 0.0
-      total: 26
+      total: 54
     mcp: first-party
     skills: first-party
-  schema_version: 0.17.2
+  schema_version: 0.18.0
   scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/beehiiv/refs/heads/main/screenshots/beehiiv-2026-06-20T173135.png

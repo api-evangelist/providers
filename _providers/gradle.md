@@ -280,10 +280,10 @@ score:
       callable: 0.0
       derived: 0
       marker_coverage: 0.0
-      total: 11
+      total: 9
     mcp: first-party
     skills: derived
-  schema_version: 0.17.2
+  schema_version: 0.18.0
   scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/gradle/refs/heads/main/screenshots/gradle-2026-07-25T220203.png

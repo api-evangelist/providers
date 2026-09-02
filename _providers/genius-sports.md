@@ -309,7 +309,7 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 26
-  schema_version: 0.17.2
+  schema_version: 0.18.0
   scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/genius-sports/refs/heads/main/screenshots/genius-sports-2026-06-20T181734.png

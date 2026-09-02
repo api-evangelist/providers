@@ -4161,7 +4161,7 @@ score:
     access_clarity: 50.0
     commercial_clarity: 50.0
     contract_governance: 13.6
-    contract_quality: 74.7
+    contract_quality: 75.0
     developer_ergonomics: 83.3
     discoverability: 48.1
     governance: 13.6
@@ -4173,8 +4173,8 @@ score:
       callable: 0.0
       derived: 0
       marker_coverage: 0.0
-      total: 322
-  schema_version: 0.17.2
+      total: 34
+  schema_version: 0.18.0
   scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/github/refs/heads/main/screenshots/github-2026-06-20T181834.png

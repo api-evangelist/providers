@@ -155,7 +155,6 @@ common:
   url: llms/fiddlerai-llms.txt
 created: '2026-07-17'
 description: Fiddler AI is an enterprise AI Observability and Security platform — an "AI Control Plane" for AI agents, LLM applications, and traditional ML models. It delivers unified monitoring, real-time guardrails (safety, hallucination/faithfulness, and PII/sensitive-data detection), evaluation and experiments, drift and performance tracking, LLM-as-a-Judge custom evaluators, alerting, and governance/compliance across the AI lifecycle. Fiddler exposes a REST API (v3), an official Python client (fiddler-client), OpenTelemetry-native ingestion, and a remote MCP server for agent-native access to observability data.
-image: https://www.fiddler.ai/favicon.ico
 layout: provider
 mcp_servers:
 - description: ''
@@ -175,27 +174,27 @@ overview: 'fiddler.ai publishes 1 API on the [APIs.io](https://apis.io/) network
 random_paper: 8
 score:
   band: developing
-  composite: 47.2
+  composite: 46.6
   coverage:
     artifact_dirs: 14
-    catalog_gap: 78.0
+    catalog_gap: 80.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: 0.0
+  delta: -0.6
   facets:
     access_clarity: 47.4
     commercial_clarity: 47.4
     contract_governance: 18.2
-    contract_quality: 42.7
+    contract_quality: 41.6
     developer_ergonomics: 64.3
-    discoverability: 75.9
+    discoverability: 72.2
     governance: 18.2
     operational_transparency: 34.2
   previous_composite: 47.2
   provenance:
     conformance: first-party
     mcp: first-party
-  schema_version: 0.17.2
+  schema_version: 0.18.0
   scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/fiddlerai/refs/heads/main/screenshots/fiddlerai-2026-07-25T214413.png

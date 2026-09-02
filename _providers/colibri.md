@@ -135,7 +135,7 @@ score:
     applies: true
     score: 50.0
   previous_composite: 17.0
-  schema_version: 0.17.2
+  schema_version: 0.18.0
   scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/colibri/refs/heads/main/screenshots/colibri-2026-07-25T210038.png

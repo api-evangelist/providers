@@ -280,18 +280,18 @@ rate_limits:
   slug: validic-rate-limits
 score:
   band: strong
-  composite: 61.7
+  composite: 64.2
   coverage:
     artifact_dirs: 25
     catalog_gap: 48.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: 0.0
+  delta: 2.5
   facets:
     access_clarity: 81.6
     commercial_clarity: 81.6
     contract_governance: 0.0
-    contract_quality: 38.0
+    contract_quality: 48.0
     developer_ergonomics: 64.3
     discoverability: 81.5
     governance: 0.0
@@ -303,8 +303,8 @@ score:
     contracts:
       callable: 100.0
       derived: 4
-      marker_coverage: 66.7
-      total: 6
+      marker_coverage: 40.0
+      total: 10
     mcp: derived
     skills: first-party
   regulatory:
@@ -313,7 +313,7 @@ score:
     regime: Health
     regime_id: health
     score: 53.8
-  schema_version: 0.17.2
+  schema_version: 0.18.0
   scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/validic/refs/heads/main/screenshots/validic-2026-08-17T082707.png

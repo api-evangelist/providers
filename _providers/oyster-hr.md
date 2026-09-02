@@ -137,7 +137,7 @@ score:
     governance: 0.0
     operational_transparency: 42.1
   previous_composite: 32.0
-  schema_version: 0.17.2
+  schema_version: 0.18.0
   scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/oyster-hr/refs/heads/main/screenshots/oyster-hr-2026-06-20T191300.png

@@ -445,18 +445,18 @@ overview: 'Rainforest publishes 23 APIs on the [APIs.io](https://apis.io/) netwo
 random_paper: 14
 score:
   band: strong
-  composite: 56.8
+  composite: 56.6
   coverage:
     artifact_dirs: 24
     catalog_gap: 75.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: 0.0
+  delta: -0.2
   facets:
     access_clarity: 47.4
     commercial_clarity: 47.4
     contract_governance: 18.2
-    contract_quality: 64.6
+    contract_quality: 63.7
     developer_ergonomics: 54.2
     discoverability: 81.5
     governance: 18.2
@@ -478,7 +478,7 @@ score:
     regime: Payments
     regime_id: payments
     score: 59.4
-  schema_version: 0.17.2
+  schema_version: 0.18.0
   scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/rainforest/refs/heads/main/screenshots/rainforest-2026-08-17T081441.png

@@ -163,7 +163,6 @@ common:
   url: asyncapi/fiddler-labs-webhooks.yml
 created: '2026-07-17'
 description: Fiddler Labs (Fiddler AI) is an enterprise AI Observability and Security platform that provides unified visibility, context, and control across AI agents, LLM and GenAI applications, and traditional ML models. The Fiddler platform delivers standardized telemetry, evaluation, continuous monitoring, real-time guardrails, and auditable governance from development through production. Developers integrate through a REST API (v3), an official Python client (fiddler-client), framework SDKs (LangChain, LangGraph, OpenTelemetry, Google ADK, Strands, Evals), and a hosted Model Context Protocol (MCP) server that exposes GenAI observability data to AI assistants. Capabilities include model and application onboarding, production event ingestion, drift and integrity detection, custom metrics, segments, alerting, explainability, LLM gateway routing, and trace/span-level agentic observability.
-image: https://www.fiddler.ai/favicon.ico
 layout: provider
 mcp_servers:
 - description: ''
@@ -186,28 +185,28 @@ rate_limits:
   name: Fiddler Labs Rate Limits
   slug: fiddler-labs-rate-limits
 score:
-  band: strong
-  composite: 54.4
+  band: developing
+  composite: 53.8
   coverage:
     artifact_dirs: 16
-    catalog_gap: 70.0
+    catalog_gap: 72.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: 0.0
+  delta: -0.6
   facets:
     access_clarity: 60.5
     commercial_clarity: 60.5
     contract_governance: 18.2
-    contract_quality: 42.7
+    contract_quality: 41.6
     developer_ergonomics: 66.7
-    discoverability: 75.9
+    discoverability: 72.2
     governance: 18.2
     operational_transparency: 65.8
   previous_composite: 54.4
   provenance:
     conformance: first-party
     mcp: first-party
-  schema_version: 0.17.2
+  schema_version: 0.18.0
   scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/fiddler-labs/refs/heads/main/screenshots/fiddler-labs-2026-07-25T214410.png

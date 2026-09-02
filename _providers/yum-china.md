@@ -154,7 +154,7 @@ score:
     governance: 15.2
     operational_transparency: 10.5
   previous_composite: 16.9
-  schema_version: 0.17.2
+  schema_version: 0.18.0
   scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/yum-china/refs/heads/main/screenshots/yum-china-2026-06-20T201757.png

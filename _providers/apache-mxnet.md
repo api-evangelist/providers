@@ -180,7 +180,7 @@ score:
     applies: true
     score: 75.0
   previous_composite: 28.7
-  schema_version: 0.17.2
+  schema_version: 0.18.0
   scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/apache-mxnet/refs/heads/main/screenshots/apache-mxnet-2026-06-20T172124.png

@@ -693,10 +693,10 @@ score:
     agentic_access: derived
     contracts:
       callable: 100.0
-      derived: 13
+      derived: 16
       marker_coverage: 100.0
-      total: 13
-  schema_version: 0.17.2
+      total: 16
+  schema_version: 0.18.0
   scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/workday-tracking-system/refs/heads/main/screenshots/workday-tracking-system-2026-06-20T201611.png

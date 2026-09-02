@@ -276,36 +276,30 @@ overview: 'Kuehne+Nagel publishes 48 APIs on the [APIs.io](https://apis.io/) net
 random_paper: 7
 score:
   band: emerging
-  composite: 24.3
+  composite: 24.6
   coverage:
     artifact_dirs: 4
     catalog_gap: 78.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: 0.0
+  delta: 0.3
   facets:
     access_clarity: 13.2
     commercial_clarity: 13.2
     contract_governance: 0.0
-    contract_quality: 50.3
+    contract_quality: 51.5
     developer_ergonomics: 9.5
     discoverability: 68.5
     governance: 0.0
     operational_transparency: 2.6
-  needs_work:
-    note: Recorded so this provider's gaps can be attributed. Does not affect the composite above.
-    owner: catalog
-    reasons:
-    - owner: catalog
-      reason: not_a_repo
   previous_composite: 24.3
   provenance:
     contracts:
-      callable: 35.3
+      callable: 70.8
       derived: 0
       marker_coverage: 0.0
-      total: 17
-  schema_version: 0.17.2
+      total: 48
+  schema_version: 0.18.0
   scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/kuehne-nagel/refs/heads/main/screenshots/kuehne-nagel-2026-08-07T171345.png

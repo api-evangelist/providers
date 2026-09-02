@@ -204,18 +204,18 @@ rate_limits:
   slug: ensighten-rate-limits
 score:
   band: developing
-  composite: 49.7
+  composite: 40.3
   coverage:
     artifact_dirs: 20
     catalog_gap: 70.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: 0.0
+  delta: -9.4
   facets:
     access_clarity: 43.4
     commercial_clarity: 43.4
     contract_governance: 18.2
-    contract_quality: 56.0
+    contract_quality: 18.6
     developer_ergonomics: 55.4
     discoverability: 75.9
     governance: 18.2
@@ -225,14 +225,14 @@ score:
     conformance: first-party
     contracts:
       callable: 100.0
-      derived: 0
-      marker_coverage: 0.0
-      total: 1
+      derived: 14
+      marker_coverage: 100.0
+      total: 14
     mcp: derived
     skills: derived
-  schema_version: 0.17.2
+  schema_version: 0.18.0
   scored_at: '2026-09-01'
-  trend: flat
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/ensighten/refs/heads/main/screenshots/ensighten-2026-07-25T213419.png
 security:
 - kind: authentication

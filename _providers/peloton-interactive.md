@@ -54,7 +54,6 @@ common:
   url: https://www.onepeloton.com
 created: '2026-05-04'
 description: Peloton Interactive is a connected fitness company that produces interactive exercise equipment and a streaming subscription service. The company sells connected stationary bikes, treadmills, rowers, and a digital app offering live and on-demand fitness classes. Peloton has built a large community of members who participate in instructor-led workouts and track performance metrics through its platform.
-image: https://avatars.githubusercontent.com/u/api-evangelist
 layout: provider
 modified: '2026-05-04'
 name: Peloton Interactive
@@ -64,20 +63,20 @@ overview: Peloton Interactive is profiled on the [APIs.io](https://apis.io/) net
 random_paper: 1
 score:
   band: minimal
-  composite: 3.9
+  composite: 3.5
   coverage:
     artifact_dirs: 2
-    catalog_gap: 91.0
+    catalog_gap: 93.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: 0.0
+  delta: -0.4
   facets:
     access_clarity: 0.0
     commercial_clarity: 0.0
     contract_governance: 0.0
     contract_quality: 0.0
     developer_ergonomics: 0.0
-    discoverability: 44.4
+    discoverability: 40.7
     governance: 0.0
     operational_transparency: 0.0
   previous_composite: 3.9
@@ -87,7 +86,7 @@ score:
     regime: Health
     regime_id: health
     score: 15.0
-  schema_version: 0.17.2
+  schema_version: 0.18.0
   scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/peloton-interactive/refs/heads/main/screenshots/peloton-interactive-2026-06-20T191540.png

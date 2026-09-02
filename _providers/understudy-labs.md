@@ -277,7 +277,7 @@ score:
       total: 10
     mcp: first-party
     skills: first-party
-  schema_version: 0.17.2
+  schema_version: 0.18.0
   scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/understudy-labs/refs/heads/main/screenshots/understudy-labs-2026-08-17T082556.png

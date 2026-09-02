@@ -226,8 +226,8 @@ score:
       callable: 100.0
       derived: 0
       marker_coverage: 0.0
-      total: 11
-  schema_version: 0.17.2
+      total: 12
+  schema_version: 0.18.0
   scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/google-artifact-registry/refs/heads/main/screenshots/google-artifact-registry-2026-06-20T182019.png

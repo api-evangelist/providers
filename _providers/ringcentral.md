@@ -1095,18 +1095,18 @@ scopes:
   summary_line: 38 scopes · authorizationCode
 score:
   band: strong
-  composite: 55.1
+  composite: 54.9
   coverage:
     artifact_dirs: 30
     catalog_gap: 77.5
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: 0.0
+  delta: -0.2
   facets:
     access_clarity: 40.8
     commercial_clarity: 40.8
     contract_governance: 18.2
-    contract_quality: 63.3
+    contract_quality: 62.6
     developer_ergonomics: 71.4
     discoverability: 44.4
     governance: 18.2
@@ -1127,7 +1127,7 @@ score:
     regime: Telecommunications
     regime_id: telecommunications
     score: 54.2
-  schema_version: 0.17.2
+  schema_version: 0.18.0
   scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/ringcentral/refs/heads/main/screenshots/ringcentral-2026-06-20T193124.png

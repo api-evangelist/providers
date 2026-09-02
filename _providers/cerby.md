@@ -172,18 +172,18 @@ scopes:
   summary_line: 17 scopes
 score:
   band: developing
-  composite: 44.9
+  composite: 44.7
   coverage:
     artifact_dirs: 16
     catalog_gap: 75.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: 0.0
+  delta: -0.2
   facets:
     access_clarity: 31.6
     commercial_clarity: 31.6
     contract_governance: 18.2
-    contract_quality: 42.7
+    contract_quality: 41.6
     developer_ergonomics: 60.7
     discoverability: 81.5
     governance: 18.2
@@ -191,7 +191,7 @@ score:
   previous_composite: 44.9
   provenance:
     conformance: first-party
-  schema_version: 0.17.2
+  schema_version: 0.18.0
   scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/cerby/refs/heads/main/screenshots/cerby-2026-08-17T083439.png

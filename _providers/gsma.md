@@ -1,6 +1,6 @@
 ---
 agent_readiness:
-  band: agent-ready
+  band: agent-native
   dimensions:
     agent_card: false
     agent_skills: derived
@@ -12,7 +12,7 @@ agent_readiness:
     dry_run_mode: false
     dynamic_client_registration: false
     error_semantics: verified
-    event_surface_described: derived
+    event_surface_described: true
     idempotency: documented
     mcp_server: false
     openapi_examples: partial
@@ -22,7 +22,7 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 37.5
+  score: 40.8
   scored_at: '2026-09-01'
 agentic_access:
 - acting_count: 58
@@ -439,18 +439,18 @@ scopes:
   summary_line: 30 scopes
 score:
   band: developing
-  composite: 54.2
+  composite: 54.0
   coverage:
     artifact_dirs: 26
     catalog_gap: 83.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: 0.0
+  delta: -0.2
   facets:
     access_clarity: 23.7
     commercial_clarity: 23.7
     contract_governance: 4.5
-    contract_quality: 59.5
+    contract_quality: 58.7
     developer_ergonomics: 73.2
     discoverability: 59.3
     governance: 4.5
@@ -463,7 +463,7 @@ score:
       callable: 0.0
       derived: 0
       marker_coverage: 0.0
-      total: 18
+      total: 31
     mcp: derived
     skills: derived
   regulatory:
@@ -472,7 +472,7 @@ score:
     regime: Telecommunications
     regime_id: telecommunications
     score: 80.6
-  schema_version: 0.17.2
+  schema_version: 0.18.0
   scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/gsma/refs/heads/main/screenshots/gsma-2026-08-07T165856.png

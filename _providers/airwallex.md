@@ -491,36 +491,33 @@ scopes:
   summary_line: 180 scopes
 score:
   band: exemplar
-  composite: 83.6
+  composite: 91.2
   coverage:
     artifact_dirs: 34
-    catalog_gap: 48.5
+    catalog_gap: 30.5
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: 0.0
+  delta: 7.6
   facets:
-    access_clarity: 76.3
-    commercial_clarity: 76.3
+    access_clarity: 100.0
+    commercial_clarity: 100.0
     contract_governance: 47.0
-    contract_quality: 69.9
+    contract_quality: 69.0
     developer_ergonomics: 95.2
     discoverability: 68.5
     governance: 47.0
-    operational_transparency: 71.1
-  needs_work:
-    note: Recorded so this provider's gaps can be attributed. Does not affect the composite above.
-    owner: catalog
-    reasons:
-    - owner: catalog
-      reason: no_resolvable_host
+    operational_transparency: 94.7
   previous_composite: 83.6
   provenance:
     agentic_access: derived
+    conformance: first-party
     contracts:
       callable: 100.0
       derived: 0
       marker_coverage: 0.0
       total: 8
+    mcp: first-party
+    skills: first-party
   regulatory:
     applies: true
     jurisdictions:
@@ -533,9 +530,9 @@ score:
     regime: Payments
     regime_id: payments
     score: 100.0
-  schema_version: 0.17.2
+  schema_version: 0.18.0
   scored_at: '2026-09-01'
-  trend: flat
+  trend: rising
 screenshot: https://raw.githubusercontent.com/api-evangelist/airwallex/refs/heads/main/screenshots/airwallex-2026-06-20T171444.png
 security:
 - kind: authentication

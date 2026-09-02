@@ -173,18 +173,18 @@ rate_limits:
   slug: goodyear-tire-and-rubber-rate-limits
 score:
   band: thin
-  composite: 27.8
+  composite: 28.1
   coverage:
     artifact_dirs: 14
     catalog_gap: 71.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: 0.0
+  delta: 0.3
   facets:
     access_clarity: 26.3
     commercial_clarity: 26.3
     contract_governance: 0.0
-    contract_quality: 49.0
+    contract_quality: 50.3
     developer_ergonomics: 11.9
     discoverability: 68.5
     governance: 0.0
@@ -193,11 +193,11 @@ score:
   provenance:
     agentic_access: derived
     contracts:
-      callable: 0.0
+      callable: 40.0
       derived: 0
       marker_coverage: 0.0
       total: 5
-  schema_version: 0.17.2
+  schema_version: 0.18.0
   scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/goodyear-tire-and-rubber/refs/heads/main/screenshots/goodyear-tire-and-rubber-2026-06-20T181956.png

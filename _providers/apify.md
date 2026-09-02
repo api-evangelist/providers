@@ -322,10 +322,10 @@ score:
     agentic_access: derived
     contracts:
       callable: 100.0
-      derived: 6
+      derived: 7
       marker_coverage: 100.0
-      total: 6
-  schema_version: 0.17.2
+      total: 7
+  schema_version: 0.18.0
   scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/apify/refs/heads/main/screenshots/apify-2026-06-20T172249.png

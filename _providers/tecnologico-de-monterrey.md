@@ -1,25 +1,25 @@
 ---
 access_model:
-  confidence: medium
-  label: Free
+  confidence: high
+  label: Free · public read endpoints, no signup
   onboarding: unknown
   pricing: free
-  public: false
+  public: true
   source:
-  - plans
+  - probed
   trial: false
-  try_now: false
+  try_now: true
 agent_readiness:
-  band: agent-aware
+  band: human-only
   dimensions:
     agent_card: false
     agent_skills: false
-    agentic_access: derived
+    agentic_access: false
     agentic_commerce: false
     auth_clarity: false
     consent_identity: false
     delegated_identity: false
-    dry_run_mode: true
+    dry_run_mode: false
     dynamic_client_registration: false
     error_semantics: false
     event_surface_described: false
@@ -29,199 +29,108 @@ agent_readiness:
     protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
-    spec_presence: true
+    spec_presence: false
     well_known_catalog: false
   schema_version: 0.2
-  score: 20.1
+  score: 2.5
   scored_at: '2026-09-01'
-agentic_access:
-- acting_count: 177
-  human_in_the_loop: 5
-  name: Tecnologico De Monterrey Agentic Access
-  operation_count: 378
-  slug: tecnologico-de-monterrey-agentic-access
-  summary_line: 378 operations · 177 acting · 5 human-in-the-loop
-api_count: 1
+api_count: 11
 apis:
-- description: Public OAI-PMH 2.0 metadata harvesting endpoint for the Tecnológico de Monterrey Dataverse OAI Archive. Verified live via the Identify verb (repositoryName "Tecnológico de Monterrey Dataverse OAI Arch
-  name: Tec de Monterrey Dataverse OAI-PMH Endpoint
+- description: The institution's research open-data repository, run by the Institute for the Future of Education on the institution's own host (datahub.tec.mx, an Azure deployment whose internal name prod031azms01.i
+  name: Datahub Tec de Monterrey — Dataverse Research Data Repository API
+  slug: datahub-dataverse
+- description: OAI-PMH 2.0 harvesting endpoint for the Tecnológico de Monterrey Dataverse OAI Archive, re-verified live on 2026-09-01. The Identify verb returns repositoryName "Tecnológico de Monterrey Dataverse OAI
+  name: Datahub Tec de Monterrey — OAI-PMH Metadata Harvesting Endpoint
   slug: datahub-oai
-- description: RITEC, the Tecnológico de Monterrey institutional repository (repositorio.tec.mx), is a DSpace platform holding 80,000+ theses, articles, and academic works. It is listed in OpenDOAR, ROAR, and Sherpa
-  name: RITEC Institutional Repository OAI-PMH (DSpace)
+- description: RITEC (repositorio.tec.mx) is the institution's DSpace 8.0 institutional repository, holding 86,310 discoverable objects across theses, articles and academic works. Its HAL+JSON REST API is public and
+  name: RITEC Institutional Repository — DSpace REST API
+  slug: ritec-dspace-rest
+- description: OAI-PMH 2.0 endpoint for RITEC, verified live on 2026-09-01. Identify returns repositoryName "Repositorio Institucional del Tecnológico de Monterrey", repositoryIdentifier repositorio.tec.mx and an ea
+  name: RITEC Institutional Repository — OAI-PMH Endpoint
   slug: ritec-oai
-- description: Institutional API developer portal at api.tec.mx hosting named API products including academic progress / student grade APIs ("Boleta de Calificaciones del Alumno", "Gestión del Progreso Académico del
-  name: Tec de Monterrey API Developer Portal (Institutional APIs)
-  slug: developer-portal
-- description: The Access API from Tecnológico de Monterrey — 20 operation(s) for access.
-  name: Tecnológico de Monterrey Access API
-  slug: tecnologico-de-monterrey-access-api
-- description: The Admin API from Tecnológico de Monterrey — 113 operation(s) for admin.
-  name: Tecnológico de Monterrey Admin API
-  slug: tecnologico-de-monterrey-admin-api
-- description: The Batch API from Tecnológico de Monterrey — 3 operation(s) for batch.
-  name: Tecnológico de Monterrey Batch API
-  slug: tecnologico-de-monterrey-batch-api
-- description: The Builtin Users API from Tecnológico de Monterrey — 4 operation(s) for builtin users.
-  name: Tecnológico de Monterrey Builtin Users API
-  slug: tecnologico-de-monterrey-builtin-users-api
-- description: The Datasets API from Tecnológico de Monterrey — 54 operation(s) for datasets.
-  name: Tecnológico de Monterrey Datasets API
-  slug: tecnologico-de-monterrey-datasets-api
-- description: The Datatags API from Tecnológico de Monterrey — 1 operation(s) for datatags.
-  name: Tecnológico de Monterrey Datatags API
-  slug: tecnologico-de-monterrey-datatags-api
-- description: The Dataverses API from Tecnológico de Monterrey — 26 operation(s) for dataverses.
-  name: Tecnológico de Monterrey Dataverses API
-  slug: tecnologico-de-monterrey-dataverses-api
-- description: The Edit API from Tecnológico de Monterrey — 1 operation(s) for edit.
-  name: Tecnológico de Monterrey Edit API
-  slug: tecnologico-de-monterrey-edit-api
-- description: The Files API from Tecnológico de Monterrey — 9 operation(s) for files.
-  name: Tecnológico de Monterrey Files API
-  slug: tecnologico-de-monterrey-files-api
-- description: The Harvest API from Tecnológico de Monterrey — 7 operation(s) for harvest.
-  name: Tecnológico de Monterrey Harvest API
-  slug: tecnologico-de-monterrey-harvest-api
-- description: The Info API from Tecnológico de Monterrey — 40 operation(s) for info.
-  name: Tecnológico de Monterrey Info API
-  slug: tecnologico-de-monterrey-info-api
-- description: The Ingest API from Tecnológico de Monterrey — 1 operation(s) for ingest.
-  name: Tecnológico de Monterrey Ingest API
-  slug: tecnologico-de-monterrey-ingest-api
-- description: The Mail API from Tecnológico de Monterrey — 1 operation(s) for mail.
-  name: Tecnológico de Monterrey Mail API
-  slug: tecnologico-de-monterrey-mail-api
-- description: The Meta API from Tecnológico de Monterrey — 2 operation(s) for meta.
-  name: Tecnológico de Monterrey Meta API
-  slug: tecnologico-de-monterrey-meta-api
-- description: The Metadatablocks API from Tecnológico de Monterrey — 2 operation(s) for metadatablocks.
-  name: Tecnológico de Monterrey Metadatablocks API
-  slug: tecnologico-de-monterrey-metadatablocks-api
-- description: The Mydata API from Tecnológico de Monterrey — 1 operation(s) for mydata.
-  name: Tecnológico de Monterrey Mydata API
-  slug: tecnologico-de-monterrey-mydata-api
-- description: The Notifications API from Tecnológico de Monterrey — 1 operation(s) for notifications.
-  name: Tecnológico de Monterrey Notifications API
-  slug: tecnologico-de-monterrey-notifications-api
-- description: The Pids API from Tecnológico de Monterrey — 4 operation(s) for pids.
-  name: Tecnológico de Monterrey Pids API
-  slug: tecnologico-de-monterrey-pids-api
-- description: The Roles API from Tecnológico de Monterrey — 2 operation(s) for roles.
-  name: Tecnológico de Monterrey Roles API
-  slug: tecnologico-de-monterrey-roles-api
-- description: The Search API from Tecnológico de Monterrey — 1 operation(s) for search.
-  name: Tecnológico de Monterrey Search API
-  slug: tecnologico-de-monterrey-search-api
-- description: The Users API from Tecnológico de Monterrey — 8 operation(s) for users.
-  name: Tecnológico de Monterrey Users API
-  slug: tecnologico-de-monterrey-users-api
-- description: The Workflows API from Tecnológico de Monterrey — 1 operation(s) for workflows.
-  name: Tecnológico de Monterrey Workflows API
-  slug: tecnologico-de-monterrey-workflows-api
-artifact_total: 62
-collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
-- collection_type: open
-  name: Tec de Monterrey Dataverse Native REST Access API
-  slug: open-tecnologico-de-monterrey-access-api
-- collection_type: open
-  name: Tec de Monterrey Dataverse Native REST Access Admin API
-  slug: open-tecnologico-de-monterrey-admin-api
-- collection_type: open
-  name: Tec de Monterrey Dataverse Native REST Access Batch API
-  slug: open-tecnologico-de-monterrey-batch-api
-- collection_type: open
-  name: Tec de Monterrey Dataverse Native REST Access Builtin Users API
-  slug: open-tecnologico-de-monterrey-builtin-users-api
-- collection_type: open
-  name: Tec de Monterrey Dataverse Native REST Access Datasets API
-  slug: open-tecnologico-de-monterrey-datasets-api
-- collection_type: open
-  name: Tec de Monterrey Dataverse Native REST Access Datatags API
-  slug: open-tecnologico-de-monterrey-datatags-api
-- collection_type: open
-  name: Tec de Monterrey Dataverse Native REST Access Dataverses API
-  slug: open-tecnologico-de-monterrey-dataverses-api
-- collection_type: open
-  name: Tec de Monterrey Dataverse Native REST Access Edit API
-  slug: open-tecnologico-de-monterrey-edit-api
-- collection_type: open
-  name: Tec de Monterrey Dataverse Native REST Access Files API
-  slug: open-tecnologico-de-monterrey-files-api
-- collection_type: open
-  name: Tec de Monterrey Dataverse Native REST Access Harvest API
-  slug: open-tecnologico-de-monterrey-harvest-api
-- collection_type: open
-  name: Tec de Monterrey Dataverse Native REST Access Info API
-  slug: open-tecnologico-de-monterrey-info-api
-- collection_type: open
-  name: Tec de Monterrey Dataverse Native REST Access Ingest API
-  slug: open-tecnologico-de-monterrey-ingest-api
-- collection_type: open
-  name: Tec de Monterrey Dataverse Native REST Access Mail API
-  slug: open-tecnologico-de-monterrey-mail-api
-- collection_type: open
-  name: Tec de Monterrey Dataverse Native REST Access Meta API
-  slug: open-tecnologico-de-monterrey-meta-api
-- collection_type: open
-  name: Tec de Monterrey Dataverse Native REST Access Metadatablocks API
-  slug: open-tecnologico-de-monterrey-metadatablocks-api
-- collection_type: open
-  name: Tec de Monterrey Dataverse Native REST Access Mydata API
-  slug: open-tecnologico-de-monterrey-mydata-api
-- collection_type: open
-  name: Tec de Monterrey Dataverse Native REST Access Notifications API
-  slug: open-tecnologico-de-monterrey-notifications-api
-- collection_type: open
-  name: Tec de Monterrey Dataverse Native REST Access Pids API
-  slug: open-tecnologico-de-monterrey-pids-api
-- collection_type: open
-  name: Tec de Monterrey Dataverse Native REST Access Roles API
-  slug: open-tecnologico-de-monterrey-roles-api
-- collection_type: open
-  name: Tec de Monterrey Dataverse Native REST Access Search API
-  slug: open-tecnologico-de-monterrey-search-api
-- collection_type: open
-  name: Tec de Monterrey Dataverse Native REST Access Users API
-  slug: open-tecnologico-de-monterrey-users-api
-- collection_type: open
-  name: Tec de Monterrey Dataverse Native REST Access Workflows API
-  slug: open-tecnologico-de-monterrey-workflows-api
+- description: The institution's own SAML 2.0 / WS-Federation / OpenID Connect identity provider, on its own registrable domain itesm.mx. Signed SAML metadata is served at the standard AD FS path with Content-Type a
+  name: Tec de Monterrey AD FS Identity Provider (fs.itesm.mx)
+  slug: adfs-identity-provider
+- description: A second institution-operated SAML 2.0 identity provider, a NetIQ/Micro Focus Access Manager deployment on tec.mx. It publishes signed SAML 2.0 metadata (entityID https://amfs.tec.mx/nidp/saml2/metada
+  name: Tec de Monterrey Access Manager Identity Provider (amfs.tec.mx)
+  slug: amfs-identity-provider
+- description: 'A Shibboleth Service Provider operated in front of RITEC on the institution''s own host. The DSpace REST API advertises it explicitly in a WWW-Authenticate header (shibboleth realm="DSpace REST API"), '
+  name: RITEC Shibboleth Service Provider
+  slug: ritec-shibboleth-sp
+- description: 'The institution''s Microsoft Entra ID tenant, c65a3ea6-0f7c-400b-8934-5a6dc1705645, covering both tec.mx and itesm.mx, with signed SAML 2.0 federation metadata and an OpenID Connect discovery document '
+  name: Microsoft Entra ID Tenant Federation Metadata (tec.mx / itesm.mx)
+  slug: entra-tenant-federation
+- description: Tecnológico de Monterrey is a DataCite consortium organization, symbol ITESM, active, region AMER, country MX, linked to ROR 03ayjn504, holding DOI prefix 10.57687 and operating three registered repos
+  name: DataCite Membership — ITESM
+  slug: datacite-membership
+- description: Registered Crossref member 25649, "Instituto Tecnologico y de Estudios Superiores de Monterrey", Monterrey, Nuevo Leon, Mexico, holding DOI prefix 10.46530 with 430 deposited DOIs (176 current, 254 ba
+  name: Crossref Membership — member 25649
+  slug: crossref-membership
+- description: Research Organization Registry identifier https://ror.org/03ayjn504, established 1943, domain tec.mx, located in Monterrey, Nuevo León, Mexico, cross-referenced to GRID grid.419886.a, ISNI 0000 0001 2
+  name: ROR Registration — 03ayjn504
+  slug: ror-registration
+artifact_total: 21
 common:
-- group: other
-  title: ''
-  type: CapabilityMap
-  url: capabilities/tecnologico-de-monterrey-capability-edges.yml
-- group: agent
-  title: ''
-  type: AgenticAccess
-  url: agentic-access/tecnologico-de-monterrey-agentic-access.yml
-- group: auth
-  title: ''
-  type: DomainSecurity
-  url: security/tecnologico-de-monterrey-domain-security.yml
 - group: company
   title: ''
   type: Website
   url: https://tec.mx/en
+- group: other
+  title: ''
+  type: OpenData
+  url: https://datahub.tec.mx/
+- group: other
+  title: ''
+  type: ResearchRepository
+  url: https://repositorio.tec.mx/
+- group: other
+  title: ''
+  type: IdentityFederation
+  url: https://fs.itesm.mx/FederationMetadata/2007-06/FederationMetadata.xml
+- group: other
+  title: ''
+  type: AIPolicy
+  url: https://tec.mx/en/academic-integrity/artificial-intelligence
+- group: other
+  title: ''
+  type: AIPolicy
+  url: https://tec.mx/sites/default/files/repositorio/integridad-academica/lineamientos-ia-profesores-tec-de-monterrey.pdf
 - group: build
   title: ''
-  type: GitHub
+  type: GitHubOrganization
   url: https://github.com/tecnologico-de-monterrey-oficial
+- group: company
+  title: ''
+  type: Blog
+  url: https://conecta.tec.mx/
+- group: commercial
+  title: ''
+  type: PrivacyPolicy
+  url: https://tec.mx/en/privacy-notices
+- group: commercial
+  title: ''
+  type: TermsOfService
+  url: https://tec.mx/es/terminos-y-condiciones
 - group: company
   title: ''
   type: LinkedIn
   url: https://www.linkedin.com/school/tecdemonterrey/
-- group: start
-  title: ''
-  type: DeveloperPortal
-  url: https://api.tec.mx/tec-de-monterrey/api/
 - group: company
   title: ''
   type: Twitter
   url: https://x.com/tecdemonterrey
+- group: design
+  title: ''
+  type: Conformance
+  url: conformance/tecnologico-de-monterrey-conformance.yml
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/tecnologico-de-monterrey-capability-edges.yml
+- group: auth
+  title: ''
+  type: DomainSecurity
+  url: security/tecnologico-de-monterrey-domain-security.yml
 - group: commercial
   title: ''
   type: Plans
@@ -239,7 +148,8 @@ common:
   type: Review
   url: review.yml
 created: '2026-06-03'
-description: 'Tecnológico de Monterrey (ITESM) is a private Mexican multi-campus university system headquartered in Monterrey, ranked #185 in the QS World University Rankings 2025. It operates a public API developer portal at api.tec.mx that exposes institutional API products (such as student grade/academic-progress, student management, human-capital management, and billing APIs) behind registration and subscription approval, and a public Dataverse-based research open-data repository at datahub.tec.mx run by its Institute for the Future of Education, which serves a public Native REST API and an OAI-PMH metadata endpoint.'
+description: 'Tecnológico de Monterrey (ITESM) is a private Mexican multi-campus university system headquartered in Monterrey, Nuevo León, ranked #185 in the QS World University Rankings 2025. Its programmable footprint is real but narrow, and it is entirely infrastructure the institution runs rather than software it wrote. Two research surfaces are live and public: a Dataverse 5.9 research data repository at datahub.tec.mx and a DSpace 8 institutional repository (RITEC) at repositorio.tec.mx holding 86,310 works, each with a working OAI-PMH 2.0 endpoint. Its strongest institution-operated machine-readable surface is identity: two SAML 2.0 identity providers on its own domains (fs.itesm.mx AD FS, amfs.tec.mx NetIQ Access Manager) plus a Shibboleth Service Provider in front of RITEC. It is a registered DataCite consortium organization (ITESM, prefix 10.57687, three repositories), a Crossref member (25649, prefix 10.46530) and is registered in ROR as 03ayjn504. What it does NOT have is a working
+  public API programme: the gated institutional API developer portal formerly at api.tec.mx no longer resolves in DNS, and no OpenAPI in this profile is authored by the institution — the repository contracts are generated by the Dataverse and DSpace software and are recorded here as deployments, not as the institution''s engineering.'
 examples:
 - key_count: 2
   name: Tecnologico De Monterrey Search Example
@@ -253,16 +163,10 @@ finops:
   slug: tecnologico-de-monterrey-finops
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/tecnologico-de-monterrey.png
 json_schemas:
-- name: Dataset
-  property_count: 11
-  slug: tecnologico-de-monterrey-dataset
 - name: SearchResult
   property_count: 2
   slug: tecnologico-de-monterrey-searchresult
 json_structures:
-- name: Tecnologico De Monterrey Dataset Structure
-  property_count: 9
-  slug: tecnologico-de-monterrey-dataset-structure
 - name: Tecnologico De Monterrey Searchitem Structure
   property_count: 10
   slug: tecnologico-de-monterrey-searchitem-structure
@@ -272,17 +176,17 @@ jsonld:
   property_count: 1
   slug: tecnologico-de-monterrey-context
 layout: provider
-modified: '2026-06-03'
+modified: '2026-09-01'
 name: Tecnológico de Monterrey
 nav: Providers
 network: true
-overview: 'Tecnológico de Monterrey publishes 22 APIs on the [APIs.io](https://apis.io/) network, including Access API, Admin API, Batch API, and 19 more. Tagged areas include Education, Higher Education, University, Open Data, and Research Data.
+overview: 'Tecnológico de Monterrey publishes 11 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include University, Higher Education, Education, Mexico, and Private Research University.
 
 
-  The Tecnológico de Monterrey catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
+  The Tecnológico de Monterrey catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
 
 
-  Tecnológico de Monterrey''s developer surface includes GitHub presence and 11 more developer resources.'
+  Tecnológico de Monterrey''s developer surface includes engineering blog and 18 more developer resources.'
 plans:
 - name: Tecnologico De Monterrey Plans Pricing
   plan_count: 2
@@ -303,50 +207,34 @@ rules:
     info: 2
     warn: 3
   slug: tecnologico-de-monterrey-jsonschema-spectral-rules
-- effective_rule_count: 46
-  extends:
-  - spectral:oas
-  name: Tecnológico de Monterrey API Rules
-  rule_count: 5
-  severity_counts:
-    error: 2
-    hint: 0
-    info: 1
-    warn: 2
-  slug: tecnologico-de-monterrey-rules
 score:
   band: thin
-  composite: 32.3
+  composite: 32.2
   coverage:
-    artifact_dirs: 16
-    catalog_gap: 45.5
+    artifact_dirs: 14
+    catalog_gap: 38.8
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: 0.0
+  delta: -0.1
   facets:
-    access_clarity: 42.1
-    commercial_clarity: 42.1
-    contract_governance: 13.6
-    contract_quality: 44.3
-    developer_ergonomics: 14.3
-    discoverability: 59.3
-    governance: 13.6
+    access_clarity: 50.0
+    commercial_clarity: 50.0
+    contract_governance: 9.8
+    contract_quality: 26.8
+    developer_ergonomics: 11.9
+    discoverability: 74.1
+    governance: 9.8
     operational_transparency: 26.3
   previous_composite: 32.3
   provenance:
-    agentic_access: derived
-    contracts:
-      callable: 100.0
-      derived: 0
-      marker_coverage: 0.0
-      total: 22
+    conformance: first-party
   regulatory:
     applies: true
     matched_via: tags
     regime: Education & Research
     regime_id: education
-    score: 20.4
-  schema_version: 0.17.2
+    score: 35.2
+  schema_version: 0.18.0
   scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/tecnologico-de-monterrey/refs/heads/main/screenshots/tecnologico-de-monterrey-2026-06-20T195020.png
@@ -357,13 +245,22 @@ security:
   summary_line: TLSv1.3 · HSTS · DMARC
 slug: tecnologico-de-monterrey
 tags:
-- Education
-- Higher Education
 - University
-- Open Data
-- Research Data
+- Higher Education
+- Education
 - Mexico
-- Dataverse
+- Private Research University
+- Research Data
+- Open Data
+- Research Repository
+- Institutional Repository
+- Identity Federation
 - OAI-PMH
+- Dataverse
+- DSpace
+- SAML
+- Shibboleth
+- DataCite
+- Crossref
 website: https://tec.mx/en
 ---

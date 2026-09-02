@@ -156,7 +156,7 @@ score:
     access_clarity: 15.8
     commercial_clarity: 15.8
     contract_governance: 11.4
-    contract_quality: 26.8
+    contract_quality: 26.5
     developer_ergonomics: 11.9
     discoverability: 72.2
     governance: 11.4
@@ -172,16 +172,16 @@ score:
     agentic_access: derived
     contracts:
       callable: 100.0
-      derived: 3
+      derived: 4
       marker_coverage: 100.0
-      total: 3
+      total: 4
   regulatory:
     applies: true
     matched_via: tags
     regime: Payments
     regime_id: payments
     score: 18.8
-  schema_version: 0.17.2
+  schema_version: 0.18.0
   scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/brex/refs/heads/main/screenshots/brex-2026-06-20T173653.png

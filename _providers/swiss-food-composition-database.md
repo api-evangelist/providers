@@ -3,7 +3,7 @@ agent_readiness:
   band: agent-aware
   dimensions:
     agent_card: false
-    agent_skills: true
+    agent_skills: derived
     agentic_access: false
     agentic_commerce: false
     auth_clarity: bearer
@@ -22,7 +22,7 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 25.0
+  score: 19.7
   scored_at: '2026-09-01'
 api_count: 2
 apis:
@@ -168,30 +168,39 @@ rate_limits:
   slug: swiss-food-composition-database-rate-limits
 score:
   band: developing
-  composite: 44.6
+  composite: 41.9
   coverage:
     artifact_dirs: 18
     catalog_gap: 70.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: 0.0
+  delta: -2.7
   facets:
     access_clarity: 42.1
     commercial_clarity: 42.1
-    contract_governance: 18.2
+    contract_governance: 4.5
     contract_quality: 41.2
-    developer_ergonomics: 40.5
+    developer_ergonomics: 35.1
     discoverability: 68.5
-    governance: 18.2
+    governance: 4.5
     operational_transparency: 26.3
   previous_composite: 44.6
+  provenance:
+    conformance: derived
+    contracts:
+      callable: 0.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 4
+    mcp: derived
+    skills: derived
   regulatory:
     applies: true
     matched_via: tags
     regime: Government & Public Sector
     regime_id: government
     score: 57.4
-  schema_version: 0.17.2
+  schema_version: 0.18.0
   scored_at: '2026-09-01'
   trend: flat
 security:

@@ -176,9 +176,9 @@ score:
     conformance: derived
     contracts:
       callable: 100.0
-      derived: 1
+      derived: 12
       marker_coverage: 100.0
-      total: 1
+      total: 12
     skills: derived
   regulatory:
     applies: true
@@ -186,7 +186,7 @@ score:
     regime: Health
     regime_id: health
     score: 26.3
-  schema_version: 0.17.2
+  schema_version: 0.18.0
   scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/alzheon/refs/heads/main/screenshots/alzheon-2026-08-07T161303.png

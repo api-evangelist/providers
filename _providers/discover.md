@@ -152,12 +152,6 @@ score:
     discoverability: 55.6
     governance: 0.0
     operational_transparency: 10.5
-  needs_work:
-    note: Recorded so this provider's gaps can be attributed. Does not affect the composite above.
-    owner: catalog
-    reasons:
-    - owner: catalog
-      reason: no_resolvable_host
   previous_composite: 25.0
   regulatory:
     applies: true
@@ -165,7 +159,7 @@ score:
     regime: Payments
     regime_id: payments
     score: 21.9
-  schema_version: 0.17.2
+  schema_version: 0.18.0
   scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/discover/refs/heads/main/screenshots/discover-2026-06-20T180039.png

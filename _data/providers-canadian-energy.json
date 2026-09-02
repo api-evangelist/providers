@@ -16,12 +16,12 @@
      "slug": "hydro-quebec",
      "description": "Hydro-Québec is the government-owned Crown corporation that generates, transmits and distributes almost all of the electricity consumed in Québec, Canada — a vertically integrated, near-monopoly utility running one of the largest hydroelectric fleets in the world and serving roughly 4.6 million customer accounts across the province. It sits at every point of the value chain at once, as generator, transmission owner, distributor and retailer, plus a cross-border exporter into the New England and New York markets. Its API posture is a clean split. Market and grid data is genuinely open — a public Opendatasoft-powered portal at donnees.hydroquebec.com serves 26 datasets (electricity demand and generation, imports and exports, outages, GHG emission factors, hydrometric and weather data, winter peak demand events, vegetation control) through a documented, anonymously callable REST API with a machine-readable OpenAPI 3.0.3 description and a DCAT catalog export, licensed CC BY-NC 4.0. Consumer data is closed — there is no documented customer-facing API, no Green Button Download My Data or Connect My Data service, and no third-party consent flow; a customer's own usage is reachable only by logging into the Espace client web portal. Québec has no consumer energy data right. Ontario's Green Button regulation (O. Reg. 633/21 under the Electricity Act, 1998) is province-specific and does not bind Hydro-Québec, and Canada has no national equivalent to Australia's Consumer Data Right energy regime. Open market data, closed consumer data, no mandate.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/hydro-quebec/refs/heads/main/screenshots/hydro-quebec-2026-08-07T170514.png",
-     "score": 54.4,
+     "score": 56.9,
      "band": "strong",
      "band_label": "Strong",
      "facets": {
       "discoverability": 75.9,
-      "contract_quality": 53.8,
+      "contract_quality": 57.2,
       "governance": 4.5,
       "contract_governance": 4.5,
       "operational_transparency": 65.8,
@@ -30,12 +30,12 @@
       "access_clarity": 21.1
      },
      "scored_at": "2026-09-01",
-     "schema_version": "0.17.2",
+     "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
       "regime": "Energy & Utilities",
       "regime_id": "energy_utilities",
-      "score": 64.9,
+      "score": 75.7,
       "matched_via": "tags"
      },
      "agent_score": 43.1,
@@ -80,12 +80,12 @@
      "slug": "ieso",
      "description": "The Independent Electricity System Operator (IESO) is the Crown corporation that operates Ontario's bulk electricity system and administers the province's wholesale electricity market, balancing supply and demand in real time, running the day-ahead and real-time energy and operating reserve markets, procuring capacity and transmission rights, planning the provincial grid, and delivering the Save on Energy conservation programs. It sits at the top of Canada's largest provincial electricity value chain — upstream of the licensed local distribution companies that bill retail customers — which is why its API posture splits cleanly in two. Its market and system data surface is genuinely open: a public report repository at reports-public.ieso.ca serves 139 report directories of demand, price, generation-by-fuel, intertie flow, outage, adequacy and settlement data as CSV, XML and XLSX over anonymous HTTPS with no account, key or registration, backed by published XSD schemas and a public interface specification. Its programmatic APIs are the opposite: the Axway SecureTransport REST API at reports.ieso.ca/api/v1.4, the SOAP Market Information Management web services, and the Appian-based Online IESO registration, retrofit, dispatch and outage web services are all reserved for registered Ontario market participants with IESO-issued machine accounts. IESO publishes no consumer energy-data API: Ontario's Green Button mandate (O. Reg. 633/21) binds licensed electricity and gas distributors, not the system operator, so there is no retail usage or billing surface here at all.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/ieso/refs/heads/main/screenshots/ieso-2026-08-07T170612.png",
-     "score": 51.0,
+     "score": 50.7,
      "band": "developing",
      "band_label": "Developing",
      "facets": {
       "discoverability": 64.8,
-      "contract_quality": 49.3,
+      "contract_quality": 48.1,
       "governance": 4.5,
       "contract_governance": 4.5,
       "operational_transparency": 47.4,
@@ -94,7 +94,7 @@
       "access_clarity": 34.2
      },
      "scored_at": "2026-09-01",
-     "schema_version": "0.17.2",
+     "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
       "regime": "Energy & Utilities",
@@ -147,7 +147,7 @@
       "access_clarity": 28.6
      },
      "scored_at": "2026-09-01",
-     "schema_version": "0.17.2",
+     "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
       "regime": "Energy & Utilities",
@@ -200,7 +200,7 @@
       "access_clarity": 55.3
      },
      "scored_at": "2026-09-01",
-     "schema_version": "0.17.2",
+     "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
       "regime": "Energy & Utilities",
@@ -246,59 +246,6 @@
    "shown": 9,
    "providers": [
     {
-     "name": "ATCO",
-     "slug": "atco",
-     "description": "ATCO Ltd. (TSX: ACO.X) is a Calgary, Alberta diversified global corporation and the controlling shareholder of Canadian Utilities Limited, through which it runs the regulated energy businesses that make it one of western Canada's largest utility groups. It sits across several tiers of the value chain at once: ATCO Electric owns and operates electricity transmission and distribution across Alberta, ATCO Gas and ATCO Pipelines distribute and transmit natural gas in the province, ATCO EnPower builds storage, renewables and hydrogen assets, ATCO Australia operates gas distribution infrastructure in Western Australia, and ATCO Energy is a competitive retailer selling electricity, natural gas and home services to Alberta customers. Its API posture is the mirror image of the Ontario utilities: no consumer energy data mandate reaches it at all. Alberta has no Green Button regulation, ATCO is not on the Green Button Alliance member list, and it does not appear in the public Australian CDR energy data holder register — so there is no consumer data API, and a customer's usage and billing data lives only behind the My Account login on a Salesforce commerce portal. What ATCO does publish, unmandated and without any signup at all, is real open grid data: ATCO Electric's DER hosting capacity map is served from a public, anonymously queryable Esri ArcGIS REST feature service carrying 880,623 feeder segment features, linked directly from ATCO Electric's own micro-generation and grid-connection pages. Open grid data, closed consumer data, no developer portal, and no OpenAPI anywhere on the estate.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/atco/refs/heads/main/screenshots/atco-2026-08-07T161823.png",
-     "score": 38.5,
-     "band": "thin",
-     "band_label": "Thin",
-     "facets": {
-      "discoverability": 75.9,
-      "contract_quality": 56.0,
-      "governance": 4.5,
-      "contract_governance": 4.5,
-      "operational_transparency": 0.0,
-      "developer_ergonomics": 35.1,
-      "commercial_clarity": 27.6,
-      "access_clarity": 27.6
-     },
-     "scored_at": "2026-09-01",
-     "schema_version": "0.17.2",
-     "regulatory": {
-      "applies": true,
-      "regime": "Energy & Utilities",
-      "regime_id": "energy_utilities",
-      "score": 44.6,
-      "matched_via": "tags"
-     },
-     "agent_score": 26.1,
-     "agent_band": "agent-aware",
-     "agent_dims": {
-      "spec_presence": true,
-      "agentic_access": "derived",
-      "reversibility_documented": false,
-      "mcp_server": false,
-      "auth_clarity": "bearer",
-      "idempotency": false,
-      "error_semantics": "documented",
-      "openapi_examples": "verified",
-      "rate_limit_signal": false,
-      "event_surface_described": false,
-      "agent_skills": "derived",
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false,
-      "delegated_identity": false,
-      "protected_resource_metadata": false,
-      "dynamic_client_registration": false,
-      "agentic_commerce": false
-     },
-     "tier": "Utilities & Retailers",
-     "rank": 5
-    },
-    {
      "name": "EPCOR",
      "slug": "epcor",
      "description": "EPCOR Utilities Inc. is a municipally owned Canadian utility headquartered in Edmonton, Alberta, wholly owned by the City of Edmonton, that builds and operates electricity distribution and transmission, water and wastewater, and natural gas distribution systems across Alberta, Ontario and British Columbia in Canada and in Arizona, New Mexico and Texas in the United States. In its Alberta home market it is both a wires company for Edmonton and, through EPCOR Energy Alberta, a regulated-rate electricity retailer, sitting at the distribution-and-retail end of the value chain rather than in generation (generation was spun out as Capital Power in 2009). EPCOR runs no developer programme: epcor.com publishes no developer portal, no API documentation, no OpenAPI and no llms.txt, and the developer., developers., api., docs. and data. subdomains do not resolve. It nonetheless operates two real programmatic surfaces. The first is compelled: the Green Button Download My Data and Connect My Data service its three Ontario service areas - natural gas in the Aylmer area and electricity in the Collingwood and Kincardine areas - must run under Ontario's energy data regulation (O. Reg. 633/21), delivered behind a customer login and a third-party vendor registration portal, with EPCOR stating Green Button Alliance certification but publishing no base URI, no ESPI version and no technical contract. The second is accidental and entirely open: a public ArcGIS Online organization (owner epcor_outages) whose 36 production feature services - Edmonton power outage areas, Canadian water main breaks, water infrastructure projects, scheduled field events, and the outage and service-area layers for fourteen EPCOR Water USA districts in Arizona and New Mexico - answer anonymous ArcGIS REST queries with live data. EPCOR documents none of it, licenses none of it and announces none of it. The result is a utility that is open where a province compelled it, open where nobody noticed, and closed everywhere it would count as a product; wholesale market and system data still comes from AESO and IESO, not from EPCOR.",
@@ -317,7 +264,7 @@
       "access_clarity": 34.2
      },
      "scored_at": "2026-09-01",
-     "schema_version": "0.17.2",
+     "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
       "regime": "Energy & Utilities",
@@ -349,7 +296,7 @@
       "agentic_commerce": false
      },
      "tier": "Utilities & Retailers",
-     "rank": 6
+     "rank": 5
     },
     {
      "name": "Manitoba Hydro",
@@ -370,7 +317,7 @@
       "access_clarity": 34.2
      },
      "scored_at": "2026-09-01",
-     "schema_version": "0.17.2",
+     "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
       "regime": "Energy & Utilities",
@@ -402,7 +349,7 @@
       "agentic_commerce": false
      },
      "tier": "Utilities & Retailers",
-     "rank": 7
+     "rank": 6
     },
     {
      "name": "Toronto Hydro",
@@ -422,7 +369,60 @@
       "access_clarity": 27.6
      },
      "scored_at": "2026-09-01",
-     "schema_version": "0.17.2",
+     "schema_version": "0.18.0",
+     "regulatory": {
+      "applies": true,
+      "regime": "Energy & Utilities",
+      "regime_id": "energy_utilities",
+      "score": 56.8,
+      "matched_via": "tags"
+     },
+     "agent_score": 28.1,
+     "agent_band": "agent-aware",
+     "agent_dims": {
+      "spec_presence": true,
+      "agentic_access": false,
+      "reversibility_documented": "na",
+      "mcp_server": false,
+      "auth_clarity": "negotiable",
+      "idempotency": "na",
+      "error_semantics": "documented",
+      "openapi_examples": false,
+      "rate_limit_signal": false,
+      "event_surface_described": false,
+      "agent_skills": "derived",
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": "na",
+      "delegated_identity": "documented",
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
+     "tier": "Utilities & Retailers",
+     "rank": 7
+    },
+    {
+     "name": "Alectra Utilities",
+     "slug": "alectra-utilities",
+     "description": "Alectra Utilities Corporation is Ontario's second-largest municipally owned electricity distributor and one of the largest local distribution companies (LDCs) in Canada, serving roughly one million customers across seventeen communities in the Greater Toronto and Hamilton Area and the Golden Horseshoe — Alliston, Aurora, Barrie, Beeton, Bradford West Gwillimbury, Brampton, Guelph, Hamilton, Markham, Mississauga, Penetanguishene, Richmond Hill, Rockwood, St. Catharines, Thornton, Tottenham and Vaughan. It also bills water and wastewater/stormwater on behalf of several of those municipalities, and runs the GRE&T Centre for grid innovation. It sits squarely in the wires and metering layer of the Canadian value chain: it does not generate, it does not operate the market (the IESO does), and it is owned by its municipal shareholders rather than by investors — the Crown/municipal ownership pattern that dominates Canadian electricity. Its API posture exists only because a regulator created it. Ontario Regulation 633/21 (Energy Data) requires every Ontario electric and gas utility to implement Green Button Download My Data and Connect My Data to the NAESB REQ.21 ESPI v3.3 standard and to obtain Green Button Alliance certification, with an implementation deadline of 1 November 2023. Alectra publishes a Green Button page displaying GBA Certified DMD and CMD marks, a Green Button Connect My Data Terms and Conditions of Access and Use citing O. Reg. 633/21 by name, a live customer Green Button portal, and a live third-party registration and onboarding site — all three hosted by its data custodian vendor, Savage Data Systems, not by Alectra. What Alectra does not publish is any of the things that would let an outsider verify the implementation: there is no developer portal, no API documentation, no base URI, no OpenAPI, no scopes and no OAuth metadata anywhere on alectrautilities.com or on the portal host. developer., developers., docs. and data.alectrautilities.com do not resolve; /developers, /api, /docs, /data, /openapi.json and /swagger.json all return HTTP 404. Every path on the Green Button portal — including a deliberately invented control path — HTTP 302 redirects to a customer sign-in, so no endpoint could be confirmed. The resulting split is the finding: a mandated consumer-data API that a third party can reach only by completing an application and being approved, and zero open market or grid data of any kind, because in Ontario that layer belongs to the IESO and the OEB rather than to the distributor.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/alectra-utilities/refs/heads/main/screenshots/alectra-utilities-2026-08-07T161155.png",
+     "score": 30.4,
+     "band": "thin",
+     "band_label": "Thin",
+     "facets": {
+      "discoverability": 66.7,
+      "contract_quality": 11.1,
+      "governance": 4.5,
+      "contract_governance": 4.5,
+      "operational_transparency": 0.0,
+      "developer_ergonomics": 39.9,
+      "commercial_clarity": 34.2,
+      "access_clarity": 34.2
+     },
+     "scored_at": "2026-09-01",
+     "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
       "regime": "Energy & Utilities",
@@ -457,59 +457,6 @@
      "rank": 8
     },
     {
-     "name": "Alectra Utilities",
-     "slug": "alectra-utilities",
-     "description": "Alectra Utilities Corporation is Ontario's second-largest municipally owned electricity distributor and one of the largest local distribution companies (LDCs) in Canada, serving roughly one million customers across seventeen communities in the Greater Toronto and Hamilton Area and the Golden Horseshoe — Alliston, Aurora, Barrie, Beeton, Bradford West Gwillimbury, Brampton, Guelph, Hamilton, Markham, Mississauga, Penetanguishene, Richmond Hill, Rockwood, St. Catharines, Thornton, Tottenham and Vaughan. It also bills water and wastewater/stormwater on behalf of several of those municipalities, and runs the GRE&T Centre for grid innovation. It sits squarely in the wires and metering layer of the Canadian value chain: it does not generate, it does not operate the market (the IESO does), and it is owned by its municipal shareholders rather than by investors — the Crown/municipal ownership pattern that dominates Canadian electricity. Its API posture exists only because a regulator created it. Ontario Regulation 633/21 (Energy Data) requires every Ontario electric and gas utility to implement Green Button Download My Data and Connect My Data to the NAESB REQ.21 ESPI v3.3 standard and to obtain Green Button Alliance certification, with an implementation deadline of 1 November 2023. Alectra publishes a Green Button page displaying GBA Certified DMD and CMD marks, a Green Button Connect My Data Terms and Conditions of Access and Use citing O. Reg. 633/21 by name, a live customer Green Button portal, and a live third-party registration and onboarding site — all three hosted by its data custodian vendor, Savage Data Systems, not by Alectra. What Alectra does not publish is any of the things that would let an outsider verify the implementation: there is no developer portal, no API documentation, no base URI, no OpenAPI, no scopes and no OAuth metadata anywhere on alectrautilities.com or on the portal host. developer., developers., docs. and data.alectrautilities.com do not resolve; /developers, /api, /docs, /data, /openapi.json and /swagger.json all return HTTP 404. Every path on the Green Button portal — including a deliberately invented control path — HTTP 302 redirects to a customer sign-in, so no endpoint could be confirmed. The resulting split is the finding: a mandated consumer-data API that a third party can reach only by completing an application and being approved, and zero open market or grid data of any kind, because in Ontario that layer belongs to the IESO and the OEB rather than to the distributor.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/alectra-utilities/refs/heads/main/screenshots/alectra-utilities-2026-08-07T161155.png",
-     "score": 30.4,
-     "band": "thin",
-     "band_label": "Thin",
-     "facets": {
-      "discoverability": 66.7,
-      "contract_quality": 11.1,
-      "governance": 4.5,
-      "contract_governance": 4.5,
-      "operational_transparency": 0.0,
-      "developer_ergonomics": 39.9,
-      "commercial_clarity": 34.2,
-      "access_clarity": 34.2
-     },
-     "scored_at": "2026-09-01",
-     "schema_version": "0.17.2",
-     "regulatory": {
-      "applies": true,
-      "regime": "Energy & Utilities",
-      "regime_id": "energy_utilities",
-      "score": 56.8,
-      "matched_via": "tags"
-     },
-     "agent_score": 28.1,
-     "agent_band": "agent-aware",
-     "agent_dims": {
-      "spec_presence": true,
-      "agentic_access": false,
-      "reversibility_documented": "na",
-      "mcp_server": false,
-      "auth_clarity": "negotiable",
-      "idempotency": "na",
-      "error_semantics": "documented",
-      "openapi_examples": false,
-      "rate_limit_signal": false,
-      "event_surface_described": false,
-      "agent_skills": "derived",
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": "na",
-      "delegated_identity": "documented",
-      "protected_resource_metadata": false,
-      "dynamic_client_registration": false,
-      "agentic_commerce": false
-     },
-     "tier": "Utilities & Retailers",
-     "rank": 9
-    },
-    {
      "name": "Hydro One",
      "slug": "hydro-one",
      "description": "Hydro One Limited (TSX: H) is Canada's largest electricity transmission and distribution service provider, transmitting and distributing electricity across Ontario — the province the company describes as \"home to 38 per cent of Canada's population.\" It sits in the regulated wires tier of the value chain: it owns and operates the provincial transmission grid and a rural/regional distribution network serving roughly 1.5 million customers, while the Ontario market itself is operated by the IESO and rates are set by the Ontario Energy Board. Its API posture is defined entirely by regulation, not by product. Ontario Regulation 633/21 (Energy Data, under the Electricity Act, 1998) compels Ontario electricity and natural gas distributors to implement Green Button Download My Data (DMD) and Connect My Data (CMD) and to have those implementations certified by the Green Button Alliance. Hydro One publishes DMD as an authenticated XML export inside My Account, runs a live Green Button CMD OAuth 2.0 authorization surface at www.hydroone.com/green-button-cmd-home, and operates a published third-party vendor onboarding form and terms and conditions — but the CMD resource base URI, client credentials, and test accounts are issued privately during onboarding and are not published anywhere. There is no developer subdomain, no OpenAPI or Swagger definition, and no self-serve signup. The split is the finding: consumer energy data is available through a real, standards-based, mandated API that a developer can only reach by application and 90-day connectivity testing, while open grid and market data is entirely absent — Hydro One publishes no open data portal and no documented public system or outage API, leaving Ontario market data to the IESO.",
@@ -528,7 +475,7 @@
       "access_clarity": 34.2
      },
      "scored_at": "2026-09-01",
-     "schema_version": "0.17.2",
+     "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
       "regime": "Energy & Utilities",
@@ -560,7 +507,7 @@
       "agentic_commerce": false
      },
      "tier": "Utilities & Retailers",
-     "rank": 10
+     "rank": 9
     },
     {
      "name": "FLO",
@@ -581,7 +528,7 @@
       "access_clarity": 35.5
      },
      "scored_at": "2026-09-01",
-     "schema_version": "0.17.2",
+     "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
       "regime": "Energy & Utilities",
@@ -613,6 +560,59 @@
       "agentic_commerce": false
      },
      "tier": "EV Charging",
+     "rank": 10
+    },
+    {
+     "name": "ATCO",
+     "slug": "atco",
+     "description": "ATCO Ltd. (TSX: ACO.X) is a Calgary, Alberta diversified global corporation and the controlling shareholder of Canadian Utilities Limited, through which it runs the regulated energy businesses that make it one of western Canada's largest utility groups. It sits across several tiers of the value chain at once: ATCO Electric owns and operates electricity transmission and distribution across Alberta, ATCO Gas and ATCO Pipelines distribute and transmit natural gas in the province, ATCO EnPower builds storage, renewables and hydrogen assets, ATCO Australia operates gas distribution infrastructure in Western Australia, and ATCO Energy is a competitive retailer selling electricity, natural gas and home services to Alberta customers. Its API posture is the mirror image of the Ontario utilities: no consumer energy data mandate reaches it at all. Alberta has no Green Button regulation, ATCO is not on the Green Button Alliance member list, and it does not appear in the public Australian CDR energy data holder register — so there is no consumer data API, and a customer's usage and billing data lives only behind the My Account login on a Salesforce commerce portal. What ATCO does publish, unmandated and without any signup at all, is real open grid data: ATCO Electric's DER hosting capacity map is served from a public, anonymously queryable Esri ArcGIS REST feature service carrying 880,623 feeder segment features, linked directly from ATCO Electric's own micro-generation and grid-connection pages. Open grid data, closed consumer data, no developer portal, and no OpenAPI anywhere on the estate.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/atco/refs/heads/main/screenshots/atco-2026-08-07T161823.png",
+     "score": 28.4,
+     "band": "thin",
+     "band_label": "Thin",
+     "facets": {
+      "discoverability": 75.9,
+      "contract_quality": 16.0,
+      "governance": 4.5,
+      "contract_governance": 4.5,
+      "operational_transparency": 0.0,
+      "developer_ergonomics": 35.1,
+      "commercial_clarity": 27.6,
+      "access_clarity": 27.6
+     },
+     "scored_at": "2026-09-01",
+     "schema_version": "0.18.0",
+     "regulatory": {
+      "applies": true,
+      "regime": "Energy & Utilities",
+      "regime_id": "energy_utilities",
+      "score": 44.6,
+      "matched_via": "tags"
+     },
+     "agent_score": 26.1,
+     "agent_band": "agent-aware",
+     "agent_dims": {
+      "spec_presence": true,
+      "agentic_access": "derived",
+      "reversibility_documented": false,
+      "mcp_server": false,
+      "auth_clarity": "bearer",
+      "idempotency": false,
+      "error_semantics": "documented",
+      "openapi_examples": "verified",
+      "rate_limit_signal": false,
+      "event_surface_described": false,
+      "agent_skills": "derived",
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
+     "tier": "Utilities & Retailers",
      "rank": 11
     },
     {
@@ -634,7 +634,7 @@
       "access_clarity": 34.2
      },
      "scored_at": "2026-09-01",
-     "schema_version": "0.17.2",
+     "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
       "regime": "Energy & Utilities",
@@ -687,7 +687,7 @@
       "access_clarity": 21.1
      },
      "scored_at": "2026-09-01",
-     "schema_version": "0.17.2",
+     "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
       "regime": "Energy & Utilities",
@@ -750,7 +750,7 @@
       "access_clarity": 21.1
      },
      "scored_at": "2026-09-01",
-     "schema_version": "0.17.2",
+     "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
       "regime": "Energy & Utilities",
@@ -803,7 +803,7 @@
       "access_clarity": 21.1
      },
      "scored_at": "2026-09-01",
-     "schema_version": "0.17.2",
+     "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
       "regime": "Energy & Utilities",
@@ -855,7 +855,7 @@
       "access_clarity": 23.7
      },
      "scored_at": "2026-09-01",
-     "schema_version": "0.17.2",
+     "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
       "regime": "Energy & Utilities",
@@ -908,7 +908,7 @@
       "access_clarity": 27.6
      },
      "scored_at": "2026-09-01",
-     "schema_version": "0.17.2",
+     "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
       "regime": "Energy & Utilities",
@@ -961,7 +961,7 @@
       "access_clarity": 18.4
      },
      "scored_at": "2026-09-01",
-     "schema_version": "0.17.2",
+     "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
       "regime": "Energy & Utilities",

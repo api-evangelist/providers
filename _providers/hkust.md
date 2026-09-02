@@ -228,33 +228,40 @@ scopes:
   summary_line: OAuth 2.0 · no documented scopes
 score:
   band: developing
-  composite: 52.4
+  composite: 51.9
   coverage:
     artifact_dirs: 17
-    catalog_gap: 41.0
+    catalog_gap: 44.8
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: 0.0
+  delta: -0.5
   facets:
     access_clarity: 52.6
     commercial_clarity: 52.6
-    contract_governance: 15.2
-    contract_quality: 60.2
+    contract_governance: 3.8
+    contract_quality: 63.4
     developer_ergonomics: 42.9
     discoverability: 59.3
-    governance: 15.2
+    governance: 3.8
     operational_transparency: 31.6
   open_source:
     applies: true
     score: 65.0
   previous_composite: 52.4
+  provenance:
+    conformance: first-party
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 100.0
+      total: 1
   regulatory:
     applies: true
     matched_via: tags
     regime: Education & Research
     regime_id: education
     score: 57.4
-  schema_version: 0.17.2
+  schema_version: 0.18.0
   scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/hkust/refs/heads/main/screenshots/hkust-2026-06-20T182813.png

@@ -218,18 +218,18 @@ overview: 'Allium publishes 3 APIs on the [APIs.io](https://apis.io/) network: E
 random_paper: 14
 score:
   band: strong
-  composite: 56.3
+  composite: 56.1
   coverage:
     artifact_dirs: 20
     catalog_gap: 78.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: 0.0
+  delta: -0.2
   facets:
     access_clarity: 60.5
     commercial_clarity: 60.5
     contract_governance: 18.2
-    contract_quality: 57.1
+    contract_quality: 56.4
     developer_ergonomics: 64.3
     discoverability: 75.9
     governance: 18.2
@@ -251,7 +251,7 @@ score:
     regime: Payments
     regime_id: payments
     score: 46.9
-  schema_version: 0.17.2
+  schema_version: 0.18.0
   scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/allium/refs/heads/main/screenshots/allium-2026-07-25T195712.png

@@ -254,12 +254,12 @@ score:
     conformance: derived
     contracts:
       callable: 0.0
-      derived: 2
+      derived: 20
       marker_coverage: 100.0
-      total: 2
+      total: 20
     mcp: first-party
     skills: derived
-  schema_version: 0.17.2
+  schema_version: 0.18.0
   scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/anomalo/refs/heads/main/screenshots/anomalo-2026-08-07T161419.png

@@ -211,18 +211,18 @@ scopes:
   summary_line: 1 scope
 score:
   band: thin
-  composite: 30.0
+  composite: 29.7
   coverage:
     artifact_dirs: 20
     catalog_gap: 78.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: 0.0
+  delta: -0.3
   facets:
     access_clarity: 0.0
     commercial_clarity: 0.0
     contract_governance: 4.5
-    contract_quality: 52.2
+    contract_quality: 50.9
     developer_ergonomics: 37.5
     discoverability: 75.9
     governance: 4.5
@@ -237,7 +237,7 @@ score:
       total: 7
     mcp: derived
     skills: derived
-  schema_version: 0.17.2
+  schema_version: 0.18.0
   scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/delivery-hero/refs/heads/main/screenshots/delivery-hero-2026-07-25T211652.png

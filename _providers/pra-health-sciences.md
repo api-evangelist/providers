@@ -56,7 +56,6 @@ created: '2026-05-05'
 deprecated: true
 deprecated_note: PRA Health Sciences is defunct. Retained for historical reference.
 description: PRA Health Sciences was a global contract research organization (CRO) headquartered in Raleigh, North Carolina, providing outsourced clinical development services to pharmaceutical and biotechnology companies. On July 1, 2021 ICON plc completed its acquisition of PRA Health Sciences in a cash-and-stock transaction valued at approximately $12 billion, forming one of the world's largest healthcare research organizations. Following the acquisition the PRA Health Sciences brand has been fully retired and operations were merged into ICON. The legacy prahs.com domain redirects to iconplc.com / icongroup.com and no PRA-branded developer programs, public APIs, SDKs, or technical documentation remain.
-image: https://avatars.githubusercontent.com/u/api-evangelist
 layout: provider
 modified: '2026-05-23'
 name: PRA Health Sciences
@@ -69,20 +68,20 @@ overview: 'PRA Health Sciences is profiled on the [APIs.io](https://apis.io/) ne
 random_paper: 19
 score:
   band: minimal
-  composite: 2.9
+  composite: 2.5
   coverage:
     artifact_dirs: 1
-    catalog_gap: 88.0
+    catalog_gap: 90.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: 0.0
+  delta: -0.4
   facets:
     access_clarity: 0.0
     commercial_clarity: 0.0
     contract_governance: 0.0
     contract_quality: 0.0
     developer_ergonomics: 0.0
-    discoverability: 50.0
+    discoverability: 46.3
     governance: 0.0
     operational_transparency: 5.3
   needs_work:
@@ -100,7 +99,7 @@ score:
     regime: Health
     regime_id: health
     score: 0.0
-  schema_version: 0.17.2
+  schema_version: 0.18.0
   scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/pra-health-sciences/refs/heads/main/screenshots/pra-health-sciences-2026-06-20T192037.png

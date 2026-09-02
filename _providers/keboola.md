@@ -1738,18 +1738,18 @@ rules:
   slug: keboola-jsonschema-spectral-rules
 score:
   band: developing
-  composite: 41.8
+  composite: 41.7
   coverage:
     artifact_dirs: 16
     catalog_gap: 52.8
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: 0.0
+  delta: -0.1
   facets:
     access_clarity: 47.4
     commercial_clarity: 47.4
     contract_governance: 9.8
-    contract_quality: 59.3
+    contract_quality: 58.9
     developer_ergonomics: 31.0
     discoverability: 74.1
     governance: 9.8
@@ -1758,11 +1758,11 @@ score:
   provenance:
     agentic_access: derived
     contracts:
-      callable: 100.0
+      callable: 88.6
       derived: 0
       marker_coverage: 0.0
       total: 79
-  schema_version: 0.17.2
+  schema_version: 0.18.0
   scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/keboola/refs/heads/main/screenshots/keboola-2026-06-20T183937.png

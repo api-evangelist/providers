@@ -276,18 +276,18 @@ scopes:
   summary_line: 1 scope
 score:
   band: developing
-  composite: 51.3
+  composite: 51.1
   coverage:
     artifact_dirs: 22
     catalog_gap: 75.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: 0.0
+  delta: -0.2
   facets:
     access_clarity: 38.2
     commercial_clarity: 38.2
     contract_governance: 4.5
-    contract_quality: 64.6
+    contract_quality: 63.8
     developer_ergonomics: 53.0
     discoverability: 81.5
     governance: 4.5
@@ -300,7 +300,7 @@ score:
       callable: 100.0
       derived: 0
       marker_coverage: 0.0
-      total: 6
+      total: 10
     mcp: derived
     skills: derived
   regulatory:
@@ -309,7 +309,7 @@ score:
     regime: Banking & Open Finance
     regime_id: banking_open_finance
     score: 58.2
-  schema_version: 0.17.2
+  schema_version: 0.18.0
   scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/azupay/refs/heads/main/screenshots/azupay-2026-07-25T202124.png

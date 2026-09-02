@@ -278,7 +278,7 @@ score:
     regime: Insurance
     regime_id: insurance
     score: 25.8
-  schema_version: 0.17.2
+  schema_version: 0.18.0
   scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/coalition-inc/refs/heads/main/screenshots/coalition-inc-2026-06-20T174644.png

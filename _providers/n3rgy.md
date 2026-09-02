@@ -231,18 +231,18 @@ rate_limits:
   slug: n3rgy-rate-limits
 score:
   band: developing
-  composite: 52.2
+  composite: 52.0
   coverage:
     artifact_dirs: 22
     catalog_gap: 66.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: 0.0
+  delta: -0.2
   facets:
     access_clarity: 38.2
     commercial_clarity: 38.2
     contract_governance: 4.5
-    contract_quality: 65.7
+    contract_quality: 64.8
     developer_ergonomics: 35.1
     discoverability: 68.5
     governance: 4.5
@@ -255,7 +255,7 @@ score:
       callable: 100.0
       derived: 0
       marker_coverage: 0.0
-      total: 1
+      total: 13
     mcp: derived
     skills: derived
   regulatory:
@@ -264,7 +264,7 @@ score:
     regime: Energy & Utilities
     regime_id: energy_utilities
     score: 60.8
-  schema_version: 0.17.2
+  schema_version: 0.18.0
   scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/n3rgy/refs/heads/main/screenshots/n3rgy-2026-08-07T184554.png

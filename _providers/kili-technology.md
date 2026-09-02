@@ -157,18 +157,18 @@ rules:
   slug: kili-technology-asyncapi-spectral-rules
 score:
   band: developing
-  composite: 44.0
+  composite: 43.8
   coverage:
     artifact_dirs: 13
     catalog_gap: 46.5
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: 0.0
+  delta: -0.2
   facets:
     access_clarity: 47.4
     commercial_clarity: 47.4
     contract_governance: 13.6
-    contract_quality: 68.1
+    contract_quality: 67.3
     developer_ergonomics: 22.6
     discoverability: 68.5
     governance: 13.6
@@ -181,7 +181,7 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 1
-  schema_version: 0.17.2
+  schema_version: 0.18.0
   scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/kili-technology/refs/heads/main/screenshots/kili-technology-2026-07-25T223739.png

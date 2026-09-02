@@ -213,7 +213,7 @@ score:
       total: 5
     mcp: derived
     skills: derived
-  schema_version: 0.17.2
+  schema_version: 0.18.0
   scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/snackmagic/refs/heads/main/screenshots/snackmagic-2026-08-17T081940.png

@@ -13,7 +13,7 @@ agent_readiness:
     dry_run_mode: false
     dynamic_client_registration: false
     error_semantics: verified
-    event_surface_described: derived
+    event_surface_described: true
     idempotency: false
     mcp_server: false
     openapi_examples: partial
@@ -23,7 +23,7 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: true
   schema_version: 0.2
-  score: 43.0
+  score: 46.2
   scored_at: '2026-09-01'
 api_count: 1
 apis:
@@ -221,18 +221,18 @@ scopes:
   summary_line: 52 scopes
 score:
   band: thin
-  composite: 33.9
+  composite: 33.7
   coverage:
     artifact_dirs: 21
     catalog_gap: 78.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: 0.0
+  delta: -0.2
   facets:
     access_clarity: 0.0
     commercial_clarity: 0.0
     contract_governance: 18.2
-    contract_quality: 59.0
+    contract_quality: 58.2
     developer_ergonomics: 18.5
     discoverability: 68.5
     governance: 18.2
@@ -244,7 +244,7 @@ score:
       callable: 100.0
       derived: 0
       marker_coverage: 0.0
-      total: 1
+      total: 15
     mcp: derived
     skills: derived
   regulatory:
@@ -253,7 +253,7 @@ score:
     regime: Education & Research
     regime_id: education
     score: 50.0
-  schema_version: 0.17.2
+  schema_version: 0.18.0
   scored_at: '2026-09-01'
   trend: flat
 security:

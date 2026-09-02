@@ -164,12 +164,6 @@ score:
     discoverability: 50.0
     governance: 9.8
     operational_transparency: 28.9
-  needs_work:
-    note: Recorded so this provider's gaps can be attributed. Does not affect the composite above.
-    owner: catalog
-    reasons:
-    - owner: catalog
-      reason: no_resolvable_host
   open_source:
     applies: true
     score: 50.0
@@ -181,7 +175,7 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 2
-  schema_version: 0.17.2
+  schema_version: 0.18.0
   scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/grounded-tools/refs/heads/main/screenshots/grounded-tools-2026-06-20T182414.png

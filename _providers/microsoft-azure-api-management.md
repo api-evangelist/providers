@@ -1264,19 +1264,19 @@ scopes:
   slug: microsoft-azure-api-management-scopes
   summary_line: 1 scope · implicit
 score:
-  band: strong
-  composite: 61.8
+  band: exemplar
+  composite: 68.9
   coverage:
     artifact_dirs: 22
     catalog_gap: 47.5
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: 0.0
+  delta: 7.1
   facets:
     access_clarity: 76.3
     commercial_clarity: 76.3
     contract_governance: 28.8
-    contract_quality: 25.6
+    contract_quality: 56.9
     developer_ergonomics: 92.9
     discoverability: 70.4
     governance: 28.8
@@ -1288,13 +1288,13 @@ score:
   provenance:
     agentic_access: derived
     contracts:
-      callable: 100.0
-      derived: 70
-      marker_coverage: 100.0
-      total: 70
-  schema_version: 0.17.2
+      callable: 98.6
+      derived: 13
+      marker_coverage: 17.6
+      total: 74
+  schema_version: 0.18.0
   scored_at: '2026-09-01'
-  trend: flat
+  trend: rising
 screenshot: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-api-management/refs/heads/main/screenshots/microsoft-azure-api-management-2026-08-07T172834.png
 security:
 - kind: authentication

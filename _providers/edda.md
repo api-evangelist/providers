@@ -246,9 +246,9 @@ score:
     conformance: derived
     contracts:
       callable: 100.0
-      derived: 12
+      derived: 13
       marker_coverage: 100.0
-      total: 12
+      total: 13
     mcp: derived
     skills: derived
   regulatory:
@@ -257,7 +257,7 @@ score:
     regime: Health
     regime_id: health
     score: 21.3
-  schema_version: 0.17.2
+  schema_version: 0.18.0
   scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/edda/refs/heads/main/screenshots/edda-2026-07-25T212816.png

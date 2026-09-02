@@ -197,18 +197,18 @@ rules:
   slug: playht-asyncapi-spectral-rules
 score:
   band: developing
-  composite: 45.0
+  composite: 44.9
   coverage:
     artifact_dirs: 13
     catalog_gap: 54.5
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: 0.0
+  delta: -0.1
   facets:
     access_clarity: 57.9
     commercial_clarity: 57.9
     contract_governance: 13.6
-    contract_quality: 48.8
+    contract_quality: 48.2
     developer_ergonomics: 42.9
     discoverability: 75.9
     governance: 13.6
@@ -221,7 +221,7 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 6
-  schema_version: 0.17.2
+  schema_version: 0.18.0
   scored_at: '2026-09-01'
   trend: flat
 security:

@@ -109,7 +109,7 @@ score:
     governance: 0.0
     operational_transparency: 26.3
   previous_composite: 13.5
-  schema_version: 0.17.2
+  schema_version: 0.18.0
   scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/dredd/refs/heads/main/screenshots/dredd-2026-06-20T180221.png

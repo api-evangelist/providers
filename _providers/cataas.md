@@ -266,10 +266,10 @@ score:
     agentic_access: derived
     contracts:
       callable: 100.0
-      derived: 4
+      derived: 5
       marker_coverage: 100.0
-      total: 4
-  schema_version: 0.17.2
+      total: 5
+  schema_version: 0.18.0
   scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/cataas/refs/heads/main/screenshots/cataas-2026-06-20T174040.png

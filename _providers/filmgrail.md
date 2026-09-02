@@ -100,7 +100,7 @@ score:
     governance: 0.0
     operational_transparency: 2.6
   previous_composite: 5.8
-  schema_version: 0.17.2
+  schema_version: 0.18.0
   scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/filmgrail/refs/heads/main/screenshots/filmgrail-2026-07-25T214447.png

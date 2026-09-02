@@ -1,10 +1,9 @@
 ---
 agent_readiness:
   band: agent-ready
-  band_gated_from: agent-native
   dimensions:
     agent_card: false
-    agent_skills: true
+    agent_skills: derived
     agentic_access: false
     agentic_commerce: false
     auth_clarity: bearer
@@ -13,7 +12,7 @@ agent_readiness:
     dry_run_mode: false
     dynamic_client_registration: false
     error_semantics: verified
-    event_surface_described: true
+    event_surface_described: derived
     idempotency: false
     mcp_server: documented
     openapi_examples: verified
@@ -23,7 +22,7 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 40.1
+  score: 34.2
   scored_at: '2026-09-01'
 api_count: 1
 apis:
@@ -240,24 +239,33 @@ rate_limits:
   slug: hyperdx-rate-limits
 score:
   band: strong
-  composite: 65.7
+  composite: 63.2
   coverage:
     artifact_dirs: 21
     catalog_gap: 58.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: 0.0
+  delta: -2.5
   facets:
     access_clarity: 76.3
     commercial_clarity: 76.3
-    contract_governance: 18.2
-    contract_quality: 61.4
-    developer_ergonomics: 85.7
+    contract_governance: 4.5
+    contract_quality: 61.9
+    developer_ergonomics: 80.4
     discoverability: 75.9
-    governance: 18.2
+    governance: 4.5
     operational_transparency: 63.2
   previous_composite: 65.7
-  schema_version: 0.17.2
+  provenance:
+    conformance: derived
+    contracts:
+      callable: 0.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 9
+    mcp: first-party
+    skills: derived
+  schema_version: 0.18.0
   scored_at: '2026-09-01'
   trend: flat
 security:

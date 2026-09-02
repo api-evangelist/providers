@@ -15,7 +15,7 @@ agent_readiness:
   band_gated_from: agent-native
   dimensions:
     agent_card: false
-    agent_skills: true
+    agent_skills: derived
     agentic_access: derived
     agentic_commerce: false
     auth_clarity: served
@@ -34,7 +34,7 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 53.8
+  score: 51.1
   scored_at: '2026-09-01'
 agentic_access:
 - acting_count: 2
@@ -572,31 +572,34 @@ scopes:
   summary_line: OAuth 2.0 · no documented scopes
 score:
   band: developing
-  composite: 47.2
+  composite: 50.9
   coverage:
     artifact_dirs: 32
-    catalog_gap: 64.5
+    catalog_gap: 55.5
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: 0.0
+  delta: 3.7
   facets:
-    access_clarity: 76.3
-    commercial_clarity: 76.3
+    access_clarity: 100.0
+    commercial_clarity: 100.0
     contract_governance: 47.0
     contract_quality: 23.1
-    developer_ergonomics: 50.0
+    developer_ergonomics: 44.6
     discoverability: 57.4
     governance: 47.0
     operational_transparency: 36.8
   previous_composite: 47.2
   provenance:
     agentic_access: derived
+    conformance: first-party
     contracts:
       callable: 100.0
-      derived: 7
+      derived: 8
       marker_coverage: 100.0
-      total: 7
-  schema_version: 0.17.2
+      total: 8
+    mcp: first-party
+    skills: derived
+  schema_version: 0.18.0
   scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/acceldata/refs/heads/main/screenshots/acceldata-2026-08-17T082111.png

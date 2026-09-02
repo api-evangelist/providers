@@ -167,7 +167,7 @@ score:
     governance: 0.0
     operational_transparency: 2.6
   previous_composite: 19.8
-  schema_version: 0.17.2
+  schema_version: 0.18.0
   scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/imagine-ai/refs/heads/main/screenshots/imagine-ai-2026-07-25T222121.png

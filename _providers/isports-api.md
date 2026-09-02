@@ -616,11 +616,11 @@ score:
     conformance: derived
     contracts:
       callable: 100.0
-      derived: 15
+      derived: 16
       marker_coverage: 100.0
-      total: 15
+      total: 16
     skills: derived
-  schema_version: 0.17.2
+  schema_version: 0.18.0
   scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/isports-api/refs/heads/main/screenshots/isports-api-2026-08-17T081004.png

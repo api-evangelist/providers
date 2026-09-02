@@ -144,7 +144,7 @@ score:
     governance: 0.0
     operational_transparency: 26.3
   previous_composite: 20.6
-  schema_version: 0.17.2
+  schema_version: 0.18.0
   scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/monarch-money/refs/heads/main/screenshots/monarch-money-2026-08-07T184137.png

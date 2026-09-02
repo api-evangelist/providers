@@ -104,12 +104,6 @@ score:
     discoverability: 57.4
     governance: 0.0
     operational_transparency: 5.3
-  needs_work:
-    note: Recorded so this provider's gaps can be attributed. Does not affect the composite above.
-    owner: catalog
-    reasons:
-    - owner: catalog
-      reason: no_resolvable_host
   previous_composite: 12.2
   regulatory:
     applies: true
@@ -117,7 +111,7 @@ score:
     regime: Health
     regime_id: health
     score: 18.8
-  schema_version: 0.17.2
+  schema_version: 0.18.0
   scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/chamber-cardio/refs/heads/main/screenshots/chamber-cardio-2026-07-25T205029.png

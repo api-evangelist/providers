@@ -372,18 +372,18 @@ scopes:
   summary_line: 2 scopes · clientCredentials
 score:
   band: exemplar
-  composite: 70.9
+  composite: 70.4
   coverage:
     artifact_dirs: 23
     catalog_gap: 65.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: 0.0
+  delta: -0.5
   facets:
     access_clarity: 92.1
     commercial_clarity: 92.1
     contract_governance: 18.2
-    contract_quality: 60.7
+    contract_quality: 58.7
     developer_ergonomics: 70.8
     discoverability: 63.0
     governance: 18.2
@@ -392,10 +392,10 @@ score:
   provenance:
     conformance: first-party
     contracts:
-      callable: 50.0
+      callable: 16.2
       derived: 0
       marker_coverage: 100.0
-      total: 4
+      total: 37
     mcp: first-party
     skills: derived
   regulatory:
@@ -414,7 +414,7 @@ score:
     regime: Telecommunications
     regime_id: telecommunications
     score: 72.2
-  schema_version: 0.17.2
+  schema_version: 0.18.0
   scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/mapp/refs/heads/main/screenshots/mapp-2026-08-17T080404.png

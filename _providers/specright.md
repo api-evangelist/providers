@@ -1,9 +1,9 @@
 ---
 agent_readiness:
-  band: agent-ready
+  band: agent-aware
   dimensions:
     agent_card: false
-    agent_skills: true
+    agent_skills: derived
     agentic_access: false
     agentic_commerce: false
     auth_clarity: served
@@ -22,7 +22,7 @@ agent_readiness:
     spec_presence: false
     well_known_catalog: false
   schema_version: 0.2
-  score: 31.2
+  score: 28.5
   scored_at: '2026-09-01'
 api_count: 1
 apis:
@@ -175,24 +175,28 @@ scopes:
   summary_line: OAuth 2.0 · no documented scopes
 score:
   band: thin
-  composite: 32.4
+  composite: 31.4
   coverage:
     artifact_dirs: 18
     catalog_gap: 66.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: 0.0
+  delta: -1.0
   facets:
     access_clarity: 63.2
     commercial_clarity: 63.2
     contract_governance: 18.2
     contract_quality: 0.0
-    developer_ergonomics: 33.3
+    developer_ergonomics: 28.0
     discoverability: 68.5
     governance: 18.2
     operational_transparency: 31.6
   previous_composite: 32.4
-  schema_version: 0.17.2
+  provenance:
+    conformance: first-party
+    mcp: first-party
+    skills: derived
+  schema_version: 0.18.0
   scored_at: '2026-09-01'
   trend: flat
 security:

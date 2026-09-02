@@ -273,18 +273,18 @@ overview: 'Shift4 publishes 21 APIs on the [APIs.io](https://apis.io/) network, 
 random_paper: 6
 score:
   band: developing
-  composite: 51.8
+  composite: 51.6
   coverage:
     artifact_dirs: 21
     catalog_gap: 78.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: 0.0
+  delta: -0.2
   facets:
     access_clarity: 3.9
     commercial_clarity: 3.9
     contract_governance: 18.2
-    contract_quality: 66.8
+    contract_quality: 65.9
     developer_ergonomics: 75.6
     discoverability: 75.9
     governance: 18.2
@@ -297,7 +297,7 @@ score:
       callable: 100.0
       derived: 0
       marker_coverage: 0.0
-      total: 1
+      total: 21
     mcp: first-party
     skills: derived
   regulatory:
@@ -306,7 +306,7 @@ score:
     regime: Payments
     regime_id: payments
     score: 52.3
-  schema_version: 0.17.2
+  schema_version: 0.18.0
   scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/shift4/refs/heads/main/screenshots/shift4-2026-08-17T081829.png

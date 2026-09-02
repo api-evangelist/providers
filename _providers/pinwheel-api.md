@@ -218,24 +218,24 @@ overview: 'Pinwheel publishes 12 APIs on the [APIs.io](https://apis.io/) network
 random_paper: 1
 score:
   band: developing
-  composite: 40.4
+  composite: 40.2
   coverage:
     artifact_dirs: 4
     catalog_gap: 75.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: 0.0
+  delta: -0.2
   facets:
     access_clarity: 14.5
     commercial_clarity: 14.5
     contract_governance: 0.0
-    contract_quality: 41.5
+    contract_quality: 40.6
     developer_ergonomics: 71.4
     discoverability: 74.1
     governance: 0.0
     operational_transparency: 42.1
   previous_composite: 40.4
-  schema_version: 0.17.2
+  schema_version: 0.18.0
   scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/pinwheel-api/refs/heads/main/screenshots/pinwheel-api-2026-06-20T191724.png

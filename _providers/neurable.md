@@ -179,19 +179,19 @@ scopes:
   slug: neurable-scopes
   summary_line: 5 scopes
 score:
-  band: thin
-  composite: 39.1
+  band: developing
+  composite: 39.4
   coverage:
     artifact_dirs: 16
     catalog_gap: 75.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: 0.0
+  delta: 0.3
   facets:
     access_clarity: 21.1
     commercial_clarity: 21.1
     contract_governance: 18.2
-    contract_quality: 48.1
+    contract_quality: 49.4
     developer_ergonomics: 28.0
     discoverability: 81.5
     governance: 18.2
@@ -200,10 +200,10 @@ score:
   provenance:
     conformance: first-party
     contracts:
-      callable: 62.5
+      callable: 100.0
       derived: 0
       marker_coverage: 0.0
-      total: 8
+      total: 5
     mcp: derived
     skills: derived
   regulatory:
@@ -212,7 +212,7 @@ score:
     regime: Health
     regime_id: health
     score: 62.5
-  schema_version: 0.17.2
+  schema_version: 0.18.0
   scored_at: '2026-09-01'
   trend: flat
 security:

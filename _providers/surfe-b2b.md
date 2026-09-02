@@ -160,12 +160,6 @@ score:
     discoverability: 68.5
     governance: 0.0
     operational_transparency: 31.6
-  needs_work:
-    note: Recorded so this provider's gaps can be attributed. Does not affect the composite above.
-    owner: catalog
-    reasons:
-    - owner: catalog
-      reason: not_a_repo
   previous_composite: 40.3
   provenance:
     agentic_access: derived
@@ -174,7 +168,7 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 4
-  schema_version: 0.17.2
+  schema_version: 0.18.0
   scored_at: '2026-09-01'
   trend: flat
 security:

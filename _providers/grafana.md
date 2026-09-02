@@ -1411,18 +1411,18 @@ rules:
   slug: grafana-jsonschema-spectral-rules
 score:
   band: strong
-  composite: 55.6
+  composite: 54.9
   coverage:
     artifact_dirs: 30
     catalog_gap: 59.8
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: 0.0
+  delta: -0.7
   facets:
     access_clarity: 55.3
     commercial_clarity: 55.3
     contract_governance: 14.4
-    contract_quality: 72.4
+    contract_quality: 69.7
     developer_ergonomics: 61.9
     discoverability: 68.5
     governance: 14.4
@@ -1432,12 +1432,12 @@ score:
     agentic_access: derived
     conformance: derived
     contracts:
-      callable: 100.0
+      callable: 10.3
       derived: 0
       marker_coverage: 0.0
-      total: 138
+      total: 78
     mcp: first-party
-  schema_version: 0.17.2
+  schema_version: 0.18.0
   scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/grafana/refs/heads/main/screenshots/grafana-2026-06-20T182342.png

@@ -21038,18 +21038,18 @@ rules:
   slug: engineering-platform-jsonschema-spectral-rules
 score:
   band: thin
-  composite: 30.3
+  composite: 30.0
   coverage:
     artifact_dirs: 16
     catalog_gap: 82.8
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: 0.0
+  delta: -0.3
   facets:
     access_clarity: 13.2
     commercial_clarity: 13.2
     contract_governance: 9.8
-    contract_quality: 57.0
+    contract_quality: 55.8
     developer_ergonomics: 35.7
     discoverability: 40.7
     governance: 9.8
@@ -21058,11 +21058,11 @@ score:
   provenance:
     agentic_access: derived
     contracts:
-      callable: 100.0
+      callable: 48.3
       derived: 0
       marker_coverage: 0.0
-      total: 470
-  schema_version: 0.17.2
+      total: 471
+  schema_version: 0.18.0
   scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/engineering-platform/refs/heads/main/screenshots/engineering-platform-2026-06-20T180718.png

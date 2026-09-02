@@ -533,18 +533,18 @@ overview: 'Purplebricks publishes 58 APIs on the [APIs.io](https://apis.io/) net
 random_paper: 0
 score:
   band: thin
-  composite: 35.8
+  composite: 35.6
   coverage:
     artifact_dirs: 19
     catalog_gap: 78.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: 0.0
+  delta: -0.2
   facets:
     access_clarity: 44.7
     commercial_clarity: 44.7
     contract_governance: 4.5
-    contract_quality: 51.1
+    contract_quality: 50.5
     developer_ergonomics: 28.0
     discoverability: 75.9
     governance: 4.5
@@ -554,13 +554,13 @@ score:
     agentic_access: derived
     conformance: derived
     contracts:
-      callable: 93.8
+      callable: 98.3
       derived: 0
       marker_coverage: 0.0
-      total: 16
+      total: 58
     mcp: derived
     skills: derived
-  schema_version: 0.17.2
+  schema_version: 0.18.0
   scored_at: '2026-09-01'
   trend: flat
 security:

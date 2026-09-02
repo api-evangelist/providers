@@ -949,18 +949,18 @@ rules:
   slug: amazon-api-gateway-spectral-rules
 score:
   band: developing
-  composite: 51.3
+  composite: 51.1
   coverage:
     artifact_dirs: 23
     catalog_gap: 58.5
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: 0.0
+  delta: -0.2
   facets:
     access_clarity: 60.5
     commercial_clarity: 60.5
     contract_governance: 33.3
-    contract_quality: 82.8
+    contract_quality: 81.8
     developer_ergonomics: 40.5
     discoverability: 61.1
     governance: 33.3
@@ -975,7 +975,7 @@ score:
       marker_coverage: 0.0
       total: 15
     mcp: derived
-  schema_version: 0.17.2
+  schema_version: 0.18.0
   scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/amazon-api-gateway/refs/heads/main/screenshots/amazon-api-gateway-2026-07-25T195913.png

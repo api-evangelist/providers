@@ -217,7 +217,9 @@ score:
     governance: 43.2
     operational_transparency: 0.0
   previous_composite: 30.2
-  schema_version: 0.17.2
+  provenance:
+    conformance: first-party
+  schema_version: 0.18.0
   scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/ace-hardware/refs/heads/main/screenshots/ace-hardware-2026-06-20T163718.png

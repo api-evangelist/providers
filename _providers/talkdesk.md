@@ -110,30 +110,24 @@ rules:
   slug: talkdesk-asyncapi-spectral-rules
 score:
   band: thin
-  composite: 27.5
+  composite: 27.3
   coverage:
     artifact_dirs: 5
     catalog_gap: 78.5
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: 0.0
+  delta: -0.2
   facets:
     access_clarity: 21.1
     commercial_clarity: 21.1
     contract_governance: 13.6
-    contract_quality: 46.8
+    contract_quality: 45.8
     developer_ergonomics: 20.2
     discoverability: 59.3
     governance: 13.6
     operational_transparency: 0.0
-  needs_work:
-    note: Recorded so this provider's gaps can be attributed. Does not affect the composite above.
-    owner: catalog
-    reasons:
-    - owner: catalog
-      reason: not_a_repo
   previous_composite: 27.5
-  schema_version: 0.17.2
+  schema_version: 0.18.0
   scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/talkdesk/refs/heads/main/screenshots/talkdesk-2026-06-20T194911.png

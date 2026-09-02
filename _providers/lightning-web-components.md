@@ -221,13 +221,16 @@ score:
     governance: 18.2
     operational_transparency: 36.8
   previous_composite: 41.8
+  provenance:
+    conformance: first-party
+    mcp: first-party
   regulatory:
     applies: true
     matched_via: tags
     regime: Education & Research
     regime_id: education
     score: 55.6
-  schema_version: 0.17.2
+  schema_version: 0.18.0
   scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/lightning-web-components/refs/heads/main/screenshots/lightning-web-components-2026-06-20T184521.png

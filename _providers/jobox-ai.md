@@ -216,6 +216,11 @@ score:
   previous_composite: 29.0
   provenance:
     conformance: derived
+    contracts:
+      callable: 0.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 30
     mcp: derived
     skills: derived
   regulatory:
@@ -224,7 +229,7 @@ score:
     regime: Payments
     regime_id: payments
     score: 39.1
-  schema_version: 0.17.2
+  schema_version: 0.18.0
   scored_at: '2026-09-01'
   trend: flat
 security:

@@ -121,7 +121,7 @@ score:
     governance: 0.0
     operational_transparency: 7.9
   previous_composite: 20.9
-  schema_version: 0.17.2
+  schema_version: 0.18.0
   scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/fourkites/refs/heads/main/screenshots/fourkites-2026-06-20T181456.png

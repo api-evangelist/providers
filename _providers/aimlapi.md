@@ -15,7 +15,7 @@ agent_readiness:
   band_gated_from: agent-native
   dimensions:
     agent_card: false
-    agent_skills: true
+    agent_skills: derived
     agentic_access: derived
     agentic_commerce: false
     auth_clarity: served
@@ -34,7 +34,7 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 50.9
+  score: 48.2
   scored_at: '2026-09-01'
 agentic_access:
 - acting_count: 14
@@ -462,33 +462,36 @@ scopes:
   summary_line: OAuth 2.0 · no documented scopes
 score:
   band: strong
-  composite: 59.7
+  composite: 66.2
   coverage:
     artifact_dirs: 30
-    catalog_gap: 49.5
+    catalog_gap: 34.5
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: 0.0
+  delta: 6.5
   facets:
-    access_clarity: 60.5
-    commercial_clarity: 60.5
+    access_clarity: 84.2
+    commercial_clarity: 84.2
     contract_governance: 47.0
-    contract_quality: 56.3
-    developer_ergonomics: 69.0
+    contract_quality: 59.4
+    developer_ergonomics: 63.7
     discoverability: 75.9
     governance: 47.0
-    operational_transparency: 50.0
+    operational_transparency: 65.8
   previous_composite: 59.7
   provenance:
     agentic_access: derived
+    conformance: first-party
     contracts:
-      callable: 0.0
+      callable: 100.0
       derived: 0
       marker_coverage: 0.0
-      total: 10
-  schema_version: 0.17.2
+      total: 11
+    mcp: first-party
+    skills: derived
+  schema_version: 0.18.0
   scored_at: '2026-09-01'
-  trend: flat
+  trend: rising
 screenshot: https://raw.githubusercontent.com/api-evangelist/aimlapi/refs/heads/main/screenshots/aimlapi-2026-06-20T171417.png
 security:
 - kind: authentication

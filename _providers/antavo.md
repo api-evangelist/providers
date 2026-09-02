@@ -452,18 +452,18 @@ scopes:
   summary_line: 1 scope · clientCredentials
 score:
   band: strong
-  composite: 62.1
+  composite: 62.0
   coverage:
     artifact_dirs: 24
     catalog_gap: 52.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: 0.0
+  delta: -0.1
   facets:
     access_clarity: 65.8
     commercial_clarity: 65.8
     contract_governance: 18.2
-    contract_quality: 60.4
+    contract_quality: 59.8
     developer_ergonomics: 67.3
     discoverability: 81.5
     governance: 18.2
@@ -472,13 +472,13 @@ score:
   provenance:
     conformance: first-party
     contracts:
-      callable: 94.4
+      callable: 100.0
       derived: 0
       marker_coverage: 0.0
-      total: 18
+      total: 29
     mcp: derived
     skills: derived
-  schema_version: 0.17.2
+  schema_version: 0.18.0
   scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/antavo/refs/heads/main/screenshots/antavo-2026-07-25T200404.png

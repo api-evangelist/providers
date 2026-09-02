@@ -558,18 +558,18 @@ overview: 'Bluejay publishes 61 APIs on the [APIs.io](https://apis.io/) network,
 random_paper: 13
 score:
   band: developing
-  composite: 45.8
+  composite: 45.6
   coverage:
     artifact_dirs: 20
     catalog_gap: 91.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: 0.0
+  delta: -0.2
   facets:
     access_clarity: 46.1
     commercial_clarity: 46.1
     contract_governance: 4.5
-    contract_quality: 62.2
+    contract_quality: 61.4
     developer_ergonomics: 61.3
     discoverability: 51.9
     governance: 4.5
@@ -582,10 +582,10 @@ score:
       callable: 100.0
       derived: 0
       marker_coverage: 0.0
-      total: 60
+      total: 61
     mcp: first-party
     skills: derived
-  schema_version: 0.17.2
+  schema_version: 0.18.0
   scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/bluejay/refs/heads/main/screenshots/bluejay-2026-07-25T203452.png

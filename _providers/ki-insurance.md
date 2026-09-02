@@ -263,9 +263,9 @@ score:
     conformance: derived
     contracts:
       callable: 100.0
-      derived: 1
+      derived: 18
       marker_coverage: 100.0
-      total: 1
+      total: 18
     mcp: derived
     skills: derived
   regulatory:
@@ -274,7 +274,7 @@ score:
     regime: Insurance
     regime_id: insurance
     score: 63.6
-  schema_version: 0.17.2
+  schema_version: 0.18.0
   scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/ki-insurance/refs/heads/main/screenshots/ki-insurance-2026-07-25T223715.png

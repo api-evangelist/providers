@@ -254,7 +254,7 @@ score:
     regime: Payments
     regime_id: payments
     score: 32.8
-  schema_version: 0.17.2
+  schema_version: 0.18.0
   scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/tratta/refs/heads/main/screenshots/tratta-2026-06-20T195633.png

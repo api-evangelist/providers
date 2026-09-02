@@ -316,18 +316,18 @@ overview: 'Monoova publishes 31 APIs on the [APIs.io](https://apis.io/) network,
 random_paper: 11
 score:
   band: developing
-  composite: 53.2
+  composite: 53.0
   coverage:
     artifact_dirs: 21
     catalog_gap: 88.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: 0.0
+  delta: -0.2
   facets:
     access_clarity: 36.8
     commercial_clarity: 36.8
     contract_governance: 4.5
-    contract_quality: 66.4
+    contract_quality: 65.6
     developer_ergonomics: 66.1
     discoverability: 57.4
     governance: 4.5
@@ -340,7 +340,7 @@ score:
       callable: 100.0
       derived: 0
       marker_coverage: 0.0
-      total: 3
+      total: 31
     mcp: derived
     skills: derived
   regulatory:
@@ -349,7 +349,7 @@ score:
     regime: Payments
     regime_id: payments
     score: 65.6
-  schema_version: 0.17.2
+  schema_version: 0.18.0
   scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/monoova/refs/heads/main/screenshots/monoova-2026-08-07T184216.png

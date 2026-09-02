@@ -108,7 +108,7 @@ score:
     governance: 0.0
     operational_transparency: 2.6
   previous_composite: 15.4
-  schema_version: 0.17.2
+  schema_version: 0.18.0
   scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/automox/refs/heads/main/screenshots/automox-2026-06-20T172659.png

@@ -41,18 +41,33 @@ agentic_access:
   operation_count: 7
   slug: national-university-of-colombia-agentic-access
   summary_line: 7 operations
-api_count: 1
+api_count: 2
 apis:
-- description: OAI-PMH 2.0 metadata harvesting interface.
+- description: 'OAI-PMH 2.0 metadata harvesting interface of the Repositorio Institucional UNAL, served from the university''s own host. Twelve metadata prefixes (oai_dc, qdc, mods, mets, didl, dim, etdms, marc, ore, '
   name: National University of Colombia OAI-PMH API
   slug: national-university-of-colombia-oai-pmh-api
-- description: DSpace HAL+JSON read endpoints for repository structure.
+- description: Anonymous HAL+JSON read endpoints for the repository's community/collection structure on UNAL's own host. The contract documents only what a credential-free caller can actually reach on THIS deploymen
   name: National University of Colombia REST - Core API
   slug: national-university-of-colombia-rest-core-api
-- description: Faceted search across archived objects.
+- description: Faceted, anonymous search across archived objects in UNAL's institutional repository, on the university's own host. Verified live 2026-09-01.
   name: National University of Colombia REST - Discover API
   slug: national-university-of-colombia-rest-discover-api
-artifact_total: 22
+- description: 'A SECOND institution-operated OAI-PMH 2.0 endpoint, found in this run and not previously catalogued: the Portal de Revistas UN, UNAL''s own journal publishing platform on revistas.unal.edu.co, running '
+  name: National University of Colombia Portal de Revistas UN OAI-PMH API
+  slug: national-university-of-colombia-journals-oai-pmh-api
+- description: UNAL's open data is not published on its own portal. datosabiertos.unal.edu.co is a static informational page with no catalogue and no API; the actual datasets sit on Colombia's national Socrata porta
+  name: UNAL open data on datos.gov.co (Socrata)
+  slug: datos-gov-co-publisher
+- description: 'UNAL is a Crossref member in its own right — member id 6146, DOI prefix 10.15446 — with a second member record for its Faculty of Sciences, member id 21512, prefix 10.36385. This is a fact about UNAL '
+  name: Crossref membership (DOI registrant)
+  slug: crossref-membership
+- description: UNAL is registered in the Research Organization Registry as https://ror.org/059yx9a68 ("National University of Colombia", UNAL), carrying GRID grid.10689.36, ISNI 0000 0004 9129 0751, Wikidata Q115041
+  name: ROR organization identifier
+  slug: ror-identifier
+- description: catalogo.unal.edu.co runs Ex Libris Aleph on UNAL's own infrastructure (168.176.5.96), not on an Ex Libris cloud tenancy — the host verdict is institution, but the product is a vendor's and no Aleph c
+  name: SINAB library catalog (self-hosted Ex Libris Aleph)
+  slug: library-catalog-aleph
+artifact_total: 27
 collections:
 - collection_type: open
   name: API Collection
@@ -67,6 +82,46 @@ collections:
   name: National University of Colombia - Institutional Repository OAI-PMH REST - Discover API
   slug: open-national-university-of-colombia-rest-discover-api
 common:
+- group: company
+  title: ''
+  type: Website
+  url: https://unal.edu.co/
+- group: build
+  title: ''
+  type: GitHubOrganization
+  url: https://github.com/unal
+- group: company
+  title: ''
+  type: LinkedIn
+  url: https://www.linkedin.com/school/universidad-nacional-de-colombia/
+- group: other
+  title: ''
+  type: OpenData
+  url: https://datosabiertos.unal.edu.co/
+- group: other
+  title: ''
+  type: ResearchRepository
+  url: https://repositorio.unal.edu.co/
+- group: other
+  title: ''
+  type: ScholarlyPublishing
+  url: https://revistas.unal.edu.co/
+- group: build
+  title: ''
+  type: LibraryCatalog
+  url: https://catalogo.unal.edu.co/
+- group: learn
+  title: ''
+  type: CourseCatalog
+  url: https://dninfoa.unal.edu.co/
+- group: docs
+  title: ''
+  type: Documentation
+  url: https://www.re3data.org/repository/r3d100013982
+- group: design
+  title: ''
+  type: Conformance
+  url: conformance/national-university-of-colombia-conformance.yml
 - group: agent
   title: ''
   type: AgenticAccess
@@ -75,18 +130,6 @@ common:
   title: ''
   type: DomainSecurity
   url: security/national-university-of-colombia-domain-security.yml
-- group: company
-  title: ''
-  type: Website
-  url: https://unal.edu.co/
-- group: build
-  title: ''
-  type: GitHub
-  url: https://github.com/unal
-- group: company
-  title: ''
-  type: LinkedIn
-  url: https://www.linkedin.com/school/universidad-nacional-de-colombia/
 - group: commercial
   title: ''
   type: Plans
@@ -103,12 +146,9 @@ common:
   title: ''
   type: Review
   url: review.yml
-- group: other
-  title: ''
-  type: ProductPage
-  url: https://datosabiertos.unal.edu.co/
 created: '2026-06-03'
-description: 'The National University of Colombia (Universidad Nacional de Colombia, UNAL) is the country''s largest public research university, ranked #219 in the QS World University Rankings 2025. UNAL maintains an open-data portal and a DSpace-based institutional repository, but does not publish a formal, documented public developer portal or REST API program. The most accessible programmatic surface is the OAI-PMH interface exposed by its institutional repository, alongside an open-data portal and an official GitHub organization with limited public code.'
+description: 'The National University of Colombia (Universidad Nacional de Colombia, UNAL) is the country''s largest public research university, ranked #219 in the QS World University Rankings 2025. UNAL operates NO central developer portal, no API gateway and no documented public API program, and no llms.txt, ai.txt or .well-known/apis.json exists on unal.edu.co. What it does operate, on its own hosts, is scholarly infrastructure: a DSpace 7.6.5 institutional repository at bffrepositorio.unal.edu.co with an anonymous HAL+JSON REST API and an OAI-PMH 2.0 endpoint, and a second, independent OAI-PMH 2.0 endpoint on the Portal de Revistas UN (Open Journal Systems 3.4.0.10) serving 100+ journal sets. Beyond that its programmable footprint is relationships rather than engineering: six open datasets published as a named publisher scope on Colombia''s national Socrata portal datos.gov.co, a self-hosted Ex Libris Aleph library catalog whose X-Services gate answers with a configuration error, Crossref
+  membership (prefix 10.15446), a ROR identifier, and single sign-on brokered by a commercial vendor rather than a Shibboleth IdP. Colombia has no eduGAIN federation, so the identity-federation surface most universities have does not exist here.'
 examples:
 - key_count: 2
   name: National University Of Colombia Listcollections Example
@@ -144,17 +184,17 @@ jsonld:
   property_count: 3
   slug: national-university-of-colombia-context
 layout: provider
-modified: '2026-07-25'
+modified: '2026-09-01'
 name: National University of Colombia
 nav: Providers
 network: true
-overview: 'National University of Colombia publishes 3 APIs on the [APIs.io](https://apis.io/) network: OAI-PMH API, REST - Core API, and REST - Discover API. Tagged areas include Education, Higher Education, University, Colombia, and Open Data.
+overview: 'National University of Colombia publishes 4 APIs on the [APIs.io](https://apis.io/) network, including OAI-PMH API, REST - Core API, REST - Discover API, and 1 more. Tagged areas include Education, Higher Education, University, Public Research University, and Colombia.
 
 
   The National University of Colombia catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  National University of Colombia''s developer surface includes GitHub presence and 9 more developer resources.'
+  National University of Colombia''s developer surface includes documentation and 15 more developer resources.'
 plans:
 - name: National University Of Colombia Plans Pricing
   plan_count: 2
@@ -187,18 +227,18 @@ rules:
   slug: national-university-of-colombia-rules
 score:
   band: thin
-  composite: 33.0
+  composite: 30.9
   coverage:
-    artifact_dirs: 15
+    artifact_dirs: 16
     catalog_gap: 37.8
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: 0.0
+  delta: -2.1
   facets:
     access_clarity: 28.9
     commercial_clarity: 28.9
     contract_governance: 9.8
-    contract_quality: 59.9
+    contract_quality: 51.4
     developer_ergonomics: 9.5
     discoverability: 68.5
     governance: 9.8
@@ -206,18 +246,19 @@ score:
   previous_composite: 33.0
   provenance:
     agentic_access: derived
+    conformance: first-party
     contracts:
       callable: 100.0
-      derived: 0
-      marker_coverage: 0.0
-      total: 3
+      derived: 1
+      marker_coverage: 25.0
+      total: 4
   regulatory:
     applies: true
     matched_via: tags
     regime: Education & Research
     regime_id: education
     score: 20.4
-  schema_version: 0.17.2
+  schema_version: 0.18.0
   scored_at: '2026-09-01'
   trend: flat
 security:
@@ -230,9 +271,14 @@ tags:
 - Education
 - Higher Education
 - University
+- Public Research University
 - Colombia
+- Latin America
 - Open Data
 - Institutional Repository
+- Research Data
+- Scholarly Publishing
+- Library
 - OAI-PMH
 website: https://unal.edu.co/
 ---

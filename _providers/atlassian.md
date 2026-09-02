@@ -10740,18 +10740,18 @@ scopes:
   summary_line: 288 scopes · authorizationCode
 score:
   band: strong
-  composite: 57.7
+  composite: 57.0
   coverage:
     artifact_dirs: 24
     catalog_gap: 46.5
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: 0.0
+  delta: -0.7
   facets:
     access_clarity: 39.5
     commercial_clarity: 39.5
     contract_governance: 28.8
-    contract_quality: 75.1
+    contract_quality: 72.4
     developer_ergonomics: 73.8
     discoverability: 59.3
     governance: 28.8
@@ -10760,11 +10760,11 @@ score:
   provenance:
     agentic_access: derived
     contracts:
-      callable: 100.0
+      callable: 21.5
       derived: 0
       marker_coverage: 0.0
-      total: 320
-  schema_version: 0.17.2
+      total: 144
+  schema_version: 0.18.0
   scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/atlassian/refs/heads/main/screenshots/atlassian-2026-06-20T172524.png

@@ -25,7 +25,7 @@ agent_readiness:
     error_semantics: documented
     event_surface_described: true
     idempotency: false
-    mcp_server: documented
+    mcp_server: false
     openapi_examples: false
     protected_resource_metadata: false
     rate_limit_signal: documented
@@ -33,7 +33,7 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 34.0
+  score: 30.6
   scored_at: '2026-09-01'
 agentic_access:
 - acting_count: 5
@@ -272,40 +272,37 @@ scopes:
   slug: segmind-scopes
   summary_line: OAuth 2.0 · no documented scopes
 score:
-  band: strong
-  composite: 59.3
+  band: exemplar
+  composite: 66.9
   coverage:
     artifact_dirs: 26
-    catalog_gap: 69.0
+    catalog_gap: 51.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: 0.0
+  delta: 7.6
   facets:
-    access_clarity: 68.4
-    commercial_clarity: 68.4
+    access_clarity: 92.1
+    commercial_clarity: 92.1
     contract_governance: 18.2
-    contract_quality: 58.5
+    contract_quality: 57.7
     developer_ergonomics: 78.6
     discoverability: 75.9
     governance: 18.2
-    operational_transparency: 42.1
-  needs_work:
-    note: Recorded so this provider's gaps can be attributed. Does not affect the composite above.
-    owner: catalog
-    reasons:
-    - owner: catalog
-      reason: no_resolvable_host
+    operational_transparency: 65.8
   previous_composite: 59.3
   provenance:
     agentic_access: derived
+    conformance: first-party
     contracts:
       callable: 100.0
       derived: 0
       marker_coverage: 0.0
       total: 4
-  schema_version: 0.17.2
+    mcp: derived
+    skills: first-party
+  schema_version: 0.18.0
   scored_at: '2026-09-01'
-  trend: flat
+  trend: rising
 screenshot: https://raw.githubusercontent.com/api-evangelist/segmind/refs/heads/main/screenshots/segmind-2026-06-20T193634.png
 security:
 - kind: authentication

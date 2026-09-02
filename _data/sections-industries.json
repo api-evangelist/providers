@@ -4,14 +4,14 @@
   "name": "Aerospace",
   "description": "",
   "icon": "/industries/assets/icons/aerospace.png",
-  "count": 358
+  "count": 359
  },
  {
   "slug": "agriculture",
   "name": "Agriculture",
   "description": "",
   "icon": "/industries/assets/icons/agriculture.png",
-  "count": 253
+  "count": 255
  },
  {
   "slug": "air-traffic-airspace",
@@ -25,14 +25,14 @@
   "name": "Artificial Intelligence",
   "description": "Model providers, agent frameworks, inference platforms, and the applied AI companies putting them to work behind an API.",
   "icon": "smart_toy",
-  "count": 5174
+  "count": 5179
  },
  {
   "slug": "automotive",
   "name": "Automotive",
   "description": "",
   "icon": "/industries/assets/icons/automotive.png",
-  "count": 399
+  "count": 400
  },
  {
   "slug": "banking",
@@ -46,14 +46,14 @@
   "name": "Biotechnology & Drug Discovery",
   "description": "Drug discovery and development, genomics, clinical research, and the computational biology behind modern therapeutics.",
   "icon": "biotech",
-  "count": 1269
+  "count": 1271
  },
  {
   "slug": "blockchain-crypto",
   "name": "Blockchain, Crypto & Web3",
   "description": "Chains, exchanges, wallets, and the on-chain data and settlement infrastructure the digital-asset economy runs on.",
   "icon": "currency_bitcoin",
-  "count": 1342
+  "count": 1343
  },
  {
   "slug": "cannabis",
@@ -67,14 +67,14 @@
   "name": "Chemicals",
   "description": "Commodity, specialty and performance chemicals — the producers, the coatings and polymers makers, and the process-engineering, formulation, SDS-compliance and chemical-sourcing software sold into them.",
   "icon": "science",
-  "count": 97
+  "count": 98
  },
  {
   "slug": "climate-sustainability",
   "name": "Climate & Sustainability",
   "description": "Climate tech, clean energy, carbon accounting, and the ESG and circular-economy data companies now report against.",
   "icon": "eco",
-  "count": 1107
+  "count": 1112
  },
  {
   "slug": "cloud-data-platform",
@@ -123,28 +123,28 @@
   "name": "Cybersecurity & Identity",
   "description": "Security and identity providers — authentication and authorization, threat detection, application and cloud security, fraud, and privacy.",
   "icon": "security",
-  "count": 2220
+  "count": 2222
  },
  {
   "slug": "data-analytics",
   "name": "Data & Analytics",
   "description": "Warehouses, catalogs, pipelines, and the analytics and business-intelligence layers companies expose as APIs.",
   "icon": "insights",
-  "count": 2428
+  "count": 2433
  },
  {
   "slug": "defense",
   "name": "Defense",
   "description": "",
   "icon": "/industries/assets/icons/defense.png",
-  "count": 319
+  "count": 320
  },
  {
   "slug": "developer-tools",
   "name": "Developer Tools & DevOps",
   "description": "The companies developers build on — SDKs and CLIs, CI/CD, containers, observability, API gateways, and the platforms that run it all.",
   "icon": "terminal",
-  "count": 3071
+  "count": 3063
  },
  {
   "slug": "digital-health",
@@ -172,7 +172,7 @@
   "name": "Energy",
   "description": "",
   "icon": "/industries/assets/icons/energy.png",
-  "count": 688
+  "count": 692
  },
  {
   "slug": "enterprise-software",
@@ -249,7 +249,7 @@
   "name": "Government & Public Sector",
   "description": "Federal, state, and municipal agencies plus the open-data portals, GovTech vendors, and public-safety systems serving them.",
   "icon": "account_balance",
-  "count": 651
+  "count": 654
  },
  {
   "slug": "healthcare",
@@ -298,7 +298,7 @@
   "name": "IoT & Connected Devices",
   "description": "Sensors, telematics, smart home and industrial IoT — the physical world reporting in over an API.",
   "icon": "sensors",
-  "count": 932
+  "count": 934
  },
  {
   "slug": "legal-compliance",
@@ -340,7 +340,7 @@
   "name": "Media",
   "description": "",
   "icon": "/industries/assets/icons/media.png",
-  "count": 554
+  "count": 555
  },
  {
   "slug": "mining",
@@ -361,7 +361,7 @@
   "name": "Music, Audio & Creator Economy",
   "description": "Music and audio platforms, podcasting, publishing, social, and the tools creators use to make and monetize what they publish.",
   "icon": "graphic_eq",
-  "count": 787
+  "count": 788
  },
  {
   "slug": "nutrition",
@@ -424,21 +424,21 @@
   "name": "Robotics & Autonomous Systems",
   "description": "Robots, drones, autonomous vehicles, and the perception and control stacks that let machines act on their own.",
   "icon": "precision_manufacturing",
-  "count": 1082
+  "count": 1083
  },
  {
   "slug": "semiconductors-hardware",
   "name": "Semiconductors & Hardware",
   "description": "Chips, compute, consumer electronics, and the data-center hardware everything else is built on.",
   "icon": "memory",
-  "count": 1075
+  "count": 1077
  },
  {
   "slug": "space",
   "name": "Space & Satellite",
   "description": "Launch, satellites, ground segment, and the earth-observation and aviation data coming down from above.",
   "icon": "rocket_launch",
-  "count": 350
+  "count": 352
  },
  {
   "slug": "sports",
@@ -494,14 +494,14 @@
   "name": "Utilities",
   "description": "",
   "icon": "/industries/assets/icons/utilities.png",
-  "count": 210
+  "count": 211
  },
  {
   "slug": "venture-capital",
   "name": "Venture Capital & Investing",
   "description": "The firms allocating capital and the platforms moving it — venture and private equity, brokerages, trading, market data, and wealth management.",
   "icon": "trending_up",
-  "count": 1395
+  "count": 1396
  },
  {
   "slug": "video-streaming",
@@ -522,6 +522,6 @@
   "name": "Weather & Geospatial",
   "description": "Weather, mapping, geocoding, and the satellite and location data feeding everything from logistics to insurance.",
   "icon": "public",
-  "count": 529
+  "count": 530
  }
 ]

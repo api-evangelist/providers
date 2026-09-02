@@ -153,7 +153,7 @@ score:
     conformance: first-party
     mcp: first-party
     skills: derived
-  schema_version: 0.17.2
+  schema_version: 0.18.0
   scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/groupthink/refs/heads/main/screenshots/groupthink-2026-07-25T220349.png

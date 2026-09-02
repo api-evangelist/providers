@@ -234,18 +234,18 @@ overview: 'End Close publishes 13 APIs on the [APIs.io](https://apis.io/) networ
 random_paper: 8
 score:
   band: thin
-  composite: 36.8
+  composite: 36.6
   coverage:
     artifact_dirs: 17
     catalog_gap: 78.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: 0.0
+  delta: -0.2
   facets:
     access_clarity: 14.5
     commercial_clarity: 14.5
     contract_governance: 4.5
-    contract_quality: 60.4
+    contract_quality: 59.6
     developer_ergonomics: 38.1
     discoverability: 75.9
     governance: 4.5
@@ -258,7 +258,7 @@ score:
       callable: 100.0
       derived: 0
       marker_coverage: 0.0
-      total: 12
+      total: 13
     mcp: derived
   regulatory:
     applies: true
@@ -266,7 +266,7 @@ score:
     regime: Banking & Open Finance
     regime_id: banking_open_finance
     score: 35.4
-  schema_version: 0.17.2
+  schema_version: 0.18.0
   scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/end-close/refs/heads/main/screenshots/end-close-2026-07-25T213309.png

@@ -79,7 +79,7 @@ score:
     - owner: catalog
       reason: never_enriched
   previous_composite: 7.1
-  schema_version: 0.17.2
+  schema_version: 0.18.0
   scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/bluestem-brands/refs/heads/main/screenshots/bluestem-brands-2026-07-25T203503.png

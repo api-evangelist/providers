@@ -81,7 +81,7 @@ score:
     governance: 0.0
     operational_transparency: 2.6
   previous_composite: 3.9
-  schema_version: 0.17.2
+  schema_version: 0.18.0
   scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/unilever/refs/heads/main/screenshots/unilever-2026-06-20T200030.png

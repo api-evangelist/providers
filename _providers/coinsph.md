@@ -363,18 +363,18 @@ overview: 'Coins.ph publishes 26 APIs on the [APIs.io](https://apis.io/) network
 random_paper: 0
 score:
   band: developing
-  composite: 49.7
+  composite: 49.5
   coverage:
     artifact_dirs: 21
     catalog_gap: 75.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: 0.0
+  delta: -0.2
   facets:
     access_clarity: 31.6
     commercial_clarity: 31.6
     contract_governance: 4.5
-    contract_quality: 62.8
+    contract_quality: 62.0
     developer_ergonomics: 54.2
     discoverability: 81.5
     governance: 4.5
@@ -396,7 +396,7 @@ score:
     regime: Payments
     regime_id: payments
     score: 48.4
-  schema_version: 0.17.2
+  schema_version: 0.18.0
   scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/coinsph/refs/heads/main/screenshots/coinsph-2026-07-25T210033.png

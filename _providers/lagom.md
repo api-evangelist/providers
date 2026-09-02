@@ -134,7 +134,7 @@ score:
     governance: 9.8
     operational_transparency: 10.5
   previous_composite: 14.0
-  schema_version: 0.17.2
+  schema_version: 0.18.0
   scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/lagom/refs/heads/main/screenshots/lagom-2026-06-20T184242.png

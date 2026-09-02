@@ -391,17 +391,17 @@ score:
   provenance:
     agentic_access: derived
     contracts:
-      callable: 100.0
-      derived: 29
+      callable: 96.8
+      derived: 31
       marker_coverage: 100.0
-      total: 29
+      total: 31
   regulatory:
     applies: true
     matched_via: tags
     regime: Energy & Utilities
     regime_id: energy_utilities
     score: 39.2
-  schema_version: 0.17.2
+  schema_version: 0.18.0
   scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/xcel-energy/refs/heads/main/screenshots/xcel-energy-2026-06-20T201656.png

@@ -277,7 +277,7 @@ score:
     regime: Health
     regime_id: health
     score: 31.3
-  schema_version: 0.17.2
+  schema_version: 0.18.0
   scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/yuzu-health/refs/heads/main/screenshots/yuzu-health-2026-08-17T083029.png

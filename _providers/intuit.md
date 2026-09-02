@@ -681,18 +681,18 @@ scopes:
   summary_line: 1 scope · authorizationCode
 score:
   band: strong
-  composite: 64.3
+  composite: 64.1
   coverage:
     artifact_dirs: 25
     catalog_gap: 59.5
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: 0.0
+  delta: -0.2
   facets:
     access_clarity: 50.0
     commercial_clarity: 50.0
     contract_governance: 13.6
-    contract_quality: 80.1
+    contract_quality: 79.2
     developer_ergonomics: 85.7
     discoverability: 50.0
     governance: 13.6
@@ -711,7 +711,7 @@ score:
     regime: Payments
     regime_id: payments
     score: 54.7
-  schema_version: 0.17.2
+  schema_version: 0.18.0
   scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/intuit/refs/heads/main/screenshots/intuit-2026-06-20T183515.png

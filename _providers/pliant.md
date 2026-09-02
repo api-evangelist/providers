@@ -195,18 +195,18 @@ overview: 'Pliant publishes 1 API on the [APIs.io](https://apis.io/) network. Ta
 random_paper: 18
 score:
   band: developing
-  composite: 47.0
+  composite: 46.8
   coverage:
     artifact_dirs: 17
     catalog_gap: 78.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: 0.0
+  delta: -0.2
   facets:
     access_clarity: 42.1
     commercial_clarity: 42.1
     contract_governance: 18.2
-    contract_quality: 42.7
+    contract_quality: 41.6
     developer_ergonomics: 47.0
     discoverability: 75.9
     governance: 18.2
@@ -222,7 +222,7 @@ score:
     regime: Payments
     regime_id: payments
     score: 62.5
-  schema_version: 0.17.2
+  schema_version: 0.18.0
   scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/pliant/refs/heads/main/screenshots/pliant-2026-08-17T081307.png

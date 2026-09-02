@@ -275,7 +275,7 @@ score:
       callable: 0.0
       derived: 0
       marker_coverage: 0.0
-      total: 1
+      total: 8
     mcp: first-party
     skills: derived
   regulatory:
@@ -284,7 +284,7 @@ score:
     regime: Payments
     regime_id: payments
     score: 71.9
-  schema_version: 0.17.2
+  schema_version: 0.18.0
   scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/dailypay/refs/heads/main/screenshots/dailypay-2026-08-07T164026.png

@@ -134,7 +134,7 @@ score:
   previous_composite: 22.2
   provenance:
     conformance: first-party
-  schema_version: 0.17.2
+  schema_version: 0.18.0
   scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/hubifi/refs/heads/main/screenshots/hubifi-2026-07-25T221611.png

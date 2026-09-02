@@ -209,12 +209,6 @@ score:
     discoverability: 50.0
     governance: 0.0
     operational_transparency: 10.5
-  needs_work:
-    note: Recorded so this provider's gaps can be attributed. Does not affect the composite above.
-    owner: catalog
-    reasons:
-    - owner: catalog
-      reason: no_resolvable_host
   previous_composite: 38.4
   provenance:
     agentic_access: derived
@@ -222,8 +216,8 @@ score:
       callable: 100.0
       derived: 0
       marker_coverage: 0.0
-      total: 2
-  schema_version: 0.17.2
+      total: 1
+  schema_version: 0.18.0
   scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/nightfall-ai/refs/heads/main/screenshots/nightfall-ai-2026-06-20T190326.png

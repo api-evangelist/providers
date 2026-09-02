@@ -54,7 +54,6 @@ common:
   url: https://www.rxo.com/rxo-connect
 created: '2026-05-04'
 description: RXO is a freight and logistics platform that connects shippers and carriers across truckload, less-than-truckload, managed transportation, and last-mile delivery. The company operates RXO Connect, a digital freight platform that uses machine learning and AI across a network of approximately 150,000 independent carriers. RXO does not currently publish a public developer API portal on its corporate website.
-image: https://avatars.githubusercontent.com/u/api-evangelist
 layout: provider
 modified: '2026-05-04'
 name: RXO
@@ -64,24 +63,24 @@ overview: RXO is profiled on the [APIs.io](https://apis.io/) network. Tagged are
 random_paper: 9
 score:
   band: minimal
-  composite: 4.4
+  composite: 4.1
   coverage:
     artifact_dirs: 3
-    catalog_gap: 91.0
+    catalog_gap: 93.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: 0.0
+  delta: -0.3
   facets:
     access_clarity: 0.0
     commercial_clarity: 0.0
     contract_governance: 0.0
     contract_quality: 0.0
     developer_ergonomics: 0.0
-    discoverability: 44.4
+    discoverability: 40.7
     governance: 0.0
     operational_transparency: 0.0
   previous_composite: 4.4
-  schema_version: 0.17.2
+  schema_version: 0.18.0
   scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/rxo/refs/heads/main/screenshots/rxo-2026-06-20T193306.png

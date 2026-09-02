@@ -620,10 +620,10 @@ score:
     agentic_access: derived
     contracts:
       callable: 100.0
-      derived: 14
+      derived: 17
       marker_coverage: 100.0
-      total: 14
-  schema_version: 0.17.2
+      total: 17
+  schema_version: 0.18.0
   scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/mojang/refs/heads/main/screenshots/mojang-2026-06-20T185707.png

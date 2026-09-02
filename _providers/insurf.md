@@ -146,7 +146,7 @@ score:
     regime: Insurance
     regime_id: insurance
     score: 37.9
-  schema_version: 0.17.2
+  schema_version: 0.18.0
   scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/insurf/refs/heads/main/screenshots/insurf-2026-07-25T222627.png

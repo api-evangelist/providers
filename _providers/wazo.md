@@ -726,9 +726,9 @@ score:
     conformance: derived
     contracts:
       callable: 0.0
-      derived: 13
+      derived: 112
       marker_coverage: 100.0
-      total: 13
+      total: 112
     mcp: derived
     skills: derived
   regulatory:
@@ -737,7 +737,7 @@ score:
     regime: Banking & Open Finance
     regime_id: banking_open_finance
     score: 21.5
-  schema_version: 0.17.2
+  schema_version: 0.18.0
   scored_at: '2026-09-01'
   trend: flat
 security:

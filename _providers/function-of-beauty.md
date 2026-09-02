@@ -140,7 +140,7 @@ score:
   previous_composite: 18.2
   provenance:
     mcp: first-party
-  schema_version: 0.17.2
+  schema_version: 0.18.0
   scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/function-of-beauty/refs/heads/main/screenshots/function-of-beauty-2026-08-07T165515.png

@@ -225,18 +225,18 @@ overview: 'Mavenir publishes 3 APIs on the [APIs.io](https://apis.io/) network: 
 random_paper: 19
 score:
   band: developing
-  composite: 40.3
+  composite: 40.1
   coverage:
     artifact_dirs: 20
     catalog_gap: 83.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: 0.0
+  delta: -0.2
   facets:
     access_clarity: 28.9
     commercial_clarity: 28.9
     contract_governance: 18.2
-    contract_quality: 58.7
+    contract_quality: 57.9
     developer_ergonomics: 32.7
     discoverability: 66.7
     governance: 18.2
@@ -249,7 +249,7 @@ score:
       callable: 0.0
       derived: 0
       marker_coverage: 0.0
-      total: 2
+      total: 3
     mcp: derived
     skills: derived
   regulatory:
@@ -258,7 +258,7 @@ score:
     regime: Telecommunications
     regime_id: telecommunications
     score: 50.0
-  schema_version: 0.17.2
+  schema_version: 0.18.0
   scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/mavenir/refs/heads/main/screenshots/mavenir-2026-08-07T172126.png

@@ -159,7 +159,6 @@ common:
   url: llms/fidel-api-llms.txt
 created: '2026-07-17'
 description: Fidel API is a global card-linking platform that connects Visa, Mastercard and Amex payment cards to web and mobile applications through a single API. Once a cardholder links a card (via Fidel's PCI-compliant Web, iOS, Android or React Native SDKs), Fidel streams enriched, real-time transaction data - authorization, clearing and refund events - from the card networks to the developer's server via signed webhooks. Developers use it to build card-linked loyalty, rewards, cashback and offers programs without handling raw card data or PCI scope. The platform spans Programs, Brands, Locations, Cards, Transactions, Offers and Merchant IDs, operates test and live environments, and is available across the US, UK, Ireland, Canada, Sweden and the UAE (with Japan in beta). Founded in 2018 and headquartered in London, Fidel is backed by Bain Capital Ventures.
-image: https://fidelapi.com/fidel_social.png
 layout: provider
 modified: '2026-07-19'
 name: FIDEL API
@@ -175,20 +174,20 @@ overview: 'FIDEL API publishes 1 API on the [APIs.io](https://apis.io/) network.
 random_paper: 14
 score:
   band: thin
-  composite: 33.3
+  composite: 32.7
   coverage:
     artifact_dirs: 15
-    catalog_gap: 78.0
+    catalog_gap: 80.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: 0.0
+  delta: -0.6
   facets:
     access_clarity: 0.0
     commercial_clarity: 0.0
     contract_governance: 18.2
-    contract_quality: 42.7
+    contract_quality: 41.6
     developer_ergonomics: 32.1
-    discoverability: 75.9
+    discoverability: 72.2
     governance: 18.2
     operational_transparency: 42.1
   previous_composite: 33.3
@@ -200,7 +199,7 @@ score:
     regime: Payments
     regime_id: payments
     score: 39.1
-  schema_version: 0.17.2
+  schema_version: 0.18.0
   scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/fidel-api/refs/heads/main/screenshots/fidel-api-2026-07-25T214421.png

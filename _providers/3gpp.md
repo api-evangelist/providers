@@ -1,6 +1,7 @@
 ---
 agent_readiness:
   band: agent-ready
+  band_gated_from: agent-native
   dimensions:
     agent_card: false
     agent_skills: derived
@@ -12,7 +13,7 @@ agent_readiness:
     dry_run_mode: false
     dynamic_client_registration: false
     error_semantics: verified
-    event_surface_described: derived
+    event_surface_described: true
     idempotency: false
     mcp_server: false
     openapi_examples: partial
@@ -22,7 +23,7 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 35.4
+  score: 38.7
   scored_at: '2026-09-01'
 agentic_access:
 - acting_count: 313
@@ -1142,18 +1143,18 @@ scopes:
   summary_line: 6 scopes · clientCredentials
 score:
   band: developing
-  composite: 47.0
+  composite: 46.6
   coverage:
     artifact_dirs: 22
     catalog_gap: 78.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: 0.0
+  delta: -0.4
   facets:
     access_clarity: 10.5
     commercial_clarity: 10.5
     contract_governance: 4.5
-    contract_quality: 56.2
+    contract_quality: 54.6
     developer_ergonomics: 56.5
     discoverability: 75.9
     governance: 4.5
@@ -1163,10 +1164,10 @@ score:
     agentic_access: derived
     conformance: derived
     contracts:
-      callable: 26.7
+      callable: 0.0
       derived: 0
       marker_coverage: 0.0
-      total: 116
+      total: 193
     mcp: derived
     skills: derived
   regulatory:
@@ -1175,7 +1176,7 @@ score:
     regime: Telecommunications
     regime_id: telecommunications
     score: 69.4
-  schema_version: 0.17.2
+  schema_version: 0.18.0
   scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/3gpp/refs/heads/main/screenshots/3gpp-2026-08-07T160703.png

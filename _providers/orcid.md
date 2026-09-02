@@ -252,14 +252,14 @@ score:
       callable: 100.0
       derived: 0
       marker_coverage: 0.0
-      total: 15
+      total: 16
   regulatory:
     applies: true
     matched_via: tags
     regime: Education & Research
     regime_id: education
     score: 29.6
-  schema_version: 0.17.2
+  schema_version: 0.18.0
   scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/orcid/refs/heads/main/screenshots/orcid-2026-06-20T191203.png

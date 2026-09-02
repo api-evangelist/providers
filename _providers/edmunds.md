@@ -152,12 +152,6 @@ score:
     discoverability: 57.4
     governance: 0.0
     operational_transparency: 10.5
-  needs_work:
-    note: Recorded so this provider's gaps can be attributed. Does not affect the composite above.
-    owner: catalog
-    reasons:
-    - owner: catalog
-      reason: no_resolvable_host
   previous_composite: 32.1
   provenance:
     agentic_access: derived
@@ -166,7 +160,7 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 1
-  schema_version: 0.17.2
+  schema_version: 0.18.0
   scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/edmunds/refs/heads/main/screenshots/edmunds-2026-06-20T180456.png

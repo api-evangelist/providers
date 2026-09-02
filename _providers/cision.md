@@ -240,7 +240,7 @@ score:
     access_clarity: 85.5
     commercial_clarity: 85.5
     contract_governance: 18.2
-    contract_quality: 25.0
+    contract_quality: 24.7
     developer_ergonomics: 49.4
     discoverability: 68.5
     governance: 18.2
@@ -250,12 +250,12 @@ score:
     conformance: first-party
     contracts:
       callable: 100.0
-      derived: 1
+      derived: 2
       marker_coverage: 100.0
-      total: 1
+      total: 2
     mcp: derived
     skills: derived
-  schema_version: 0.17.2
+  schema_version: 0.18.0
   scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/cision/refs/heads/main/screenshots/cision-2026-06-20T174406.png

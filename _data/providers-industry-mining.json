@@ -8,8 +8,8 @@
    "label": "Thin",
    "range": "26.2 – 39.2",
    "blurb": "Limited machine-readable signal beyond documentation a human can read.",
-   "count": 9,
-   "shown": 9,
+   "count": 7,
+   "shown": 7,
    "providers": [
     {
      "name": "CAT",
@@ -30,7 +30,7 @@
       "access_clarity": 57.1
      },
      "scored_at": "2026-09-01",
-     "schema_version": "0.17.2",
+     "schema_version": "0.18.0",
      "agent_score": 20.0,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -75,7 +75,7 @@
       "access_clarity": 39.5
      },
      "scored_at": "2026-09-01",
-     "schema_version": "0.17.2",
+     "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
       "regime": "Payments",
@@ -109,57 +109,6 @@
      "rank": 2
     },
     {
-     "name": "EnergyX",
-     "slug": "energyx",
-     "description": "EnergyX (Energy Exploration Technologies, Inc.) is a critical-materials technology company founded in 2018 by Teague Egan and headquartered in Austin, Texas, with operations in Texarkana, Antofagasta in Chile, and San Juan, Puerto Rico. It develops direct lithium extraction (DLE) technology — a modular, brine-agnostic flow sheet combining adsorbents, solvent extraction and its own selective membranes under the GET-Lit platform — together with SoLiS lithium-metal battery technology and NUKE-it membranes for lithium-6/7 isotope separation and nuclear fuel-cycle applications. The company produces lithium hydroxide, lithium carbonate and lithium dihydrogen phosphate, holds a large patent portfolio, and controls lithium resources in Chile and the United States including the Black Giant project. EnergyX is a materials and process-technology company rather than a software vendor: it publishes no developer program, no API documentation, no SDKs and no developer portal. The only machine-readable interface it exposes is the WordPress REST content API behind its corporate website at energyx.com, which is captured here for discovery purposes and is anonymously readable but read-only.",
-     "score": 29.9,
-     "band": "thin",
-     "band_label": "Thin",
-     "facets": {
-      "discoverability": 81.5,
-      "contract_quality": 58.0,
-      "governance": 4.5,
-      "contract_governance": 4.5,
-      "operational_transparency": 0.0,
-      "developer_ergonomics": 16.1,
-      "commercial_clarity": 10.5,
-      "access_clarity": 10.5
-     },
-     "scored_at": "2026-09-01",
-     "schema_version": "0.17.2",
-     "regulatory": {
-      "applies": true,
-      "regime": "Energy & Utilities",
-      "regime_id": "energy_utilities",
-      "score": 28.4,
-      "matched_via": "tags"
-     },
-     "agent_score": 36.5,
-     "agent_band": "agent-ready",
-     "agent_dims": {
-      "spec_presence": true,
-      "agentic_access": "derived",
-      "reversibility_documented": "na",
-      "mcp_server": false,
-      "auth_clarity": "bearer",
-      "idempotency": "na",
-      "error_semantics": "verified",
-      "openapi_examples": "verified",
-      "rate_limit_signal": "documented",
-      "event_surface_described": false,
-      "agent_skills": "derived",
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": "na",
-      "delegated_identity": false,
-      "protected_resource_metadata": false,
-      "dynamic_client_registration": false,
-      "agentic_commerce": false
-     },
-     "rank": 3
-    },
-    {
      "name": "United States Steel",
      "slug": "united-states-steel",
      "description": "United States Steel Corporation (U.S. Steel) is an integrated steel producer headquartered in Pittsburgh, Pennsylvania, with major production operations in the United States and Central Europe. The company serves customers in automotive, construction, container, energy, and industrial markets with advanced high-strength steels, coated products, hot-rolled and cold-rolled coils, electrical steel, and tubular products. U.S. Steel provides digital customer tools through the SteelTrack platform for order management, inventory tracking, shipment history, and certified test reporting.",
@@ -178,7 +127,7 @@
       "access_clarity": 15.8
      },
      "scored_at": "2026-09-01",
-     "schema_version": "0.17.2",
+     "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
       "regime": "Energy & Utilities",
@@ -209,7 +158,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 4
+     "rank": 3
     },
     {
      "name": "VRIFY",
@@ -229,7 +178,7 @@
       "access_clarity": 53.9
      },
      "scored_at": "2026-09-01",
-     "schema_version": "0.17.2",
+     "schema_version": "0.18.0",
      "agent_score": 2.5,
      "agent_band": "human-only",
      "agent_dims": {
@@ -253,7 +202,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 5
+     "rank": 4
     },
     {
      "name": "Minerstat",
@@ -274,7 +223,7 @@
       "access_clarity": 15.8
      },
      "scored_at": "2026-09-01",
-     "schema_version": "0.17.2",
+     "schema_version": "0.18.0",
      "agent_score": 22.9,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -298,7 +247,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 6
+     "rank": 5
     },
     {
      "name": "Propeller Aero",
@@ -318,7 +267,7 @@
       "access_clarity": 47.4
      },
      "scored_at": "2026-09-01",
-     "schema_version": "0.17.2",
+     "schema_version": "0.18.0",
      "agent_score": 24.5,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -342,7 +291,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 7
+     "rank": 6
     },
     {
      "name": "RuhAN",
@@ -362,7 +311,7 @@
       "access_clarity": 76.3
      },
      "scored_at": "2026-09-01",
-     "schema_version": "0.17.2",
+     "schema_version": "0.18.0",
      "agent_score": 5.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -386,51 +335,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 8
-    },
-    {
-     "name": "Impossible Metals",
-     "slug": "impossible-metals",
-     "description": "Impossible Metals is a deep-ocean robotics and critical-minerals company founded in 2020 by CEO Oliver Gunasekara, headquartered in San Jose, California with a robotics lab in Canada, and a member of Y Combinator's W22 cohort. It builds the Eureka autonomous underwater vehicle, a hovering AUV that uses computer vision and robotic arms to pick polymetallic nodules from the seabed one at a time — leaving visible fauna and the sediment layer in place — as an alternative to the dredge-and-riser designs used elsewhere in deep-sea mining. Eureka I and Eureka II have been sea-tested, Eureka III is slated for a 2026 test in the BGR contract area of the Clarion-Clipperton Zone, and the company has applied for a deep-sea mining lease in U.S. federal waters and for observer status with the International Seabed Authority. It is a certified B Corp and publishes environmental data, policy positions and testimony alongside its technical work. Impossible Metals is a robotics and mining company rather than a software vendor: it operates no developer program, publishes no product API, SDKs or developer portal, and hosts no api. or developer. subdomain. The only machine-readable interfaces it serves are the WordPress REST content API behind impossiblemetals.com and the two OpenAPI documents its events plugin publishes on that same host, which are captured here for discovery purposes and are anonymously readable and read-only.",
-     "score": 27.1,
-     "band": "thin",
-     "band_label": "Thin",
-     "facets": {
-      "discoverability": 74.1,
-      "contract_quality": 51.5,
-      "governance": 4.5,
-      "contract_governance": 4.5,
-      "operational_transparency": 0.0,
-      "developer_ergonomics": 20.8,
-      "commercial_clarity": 10.5,
-      "access_clarity": 10.5
-     },
-     "scored_at": "2026-09-01",
-     "schema_version": "0.17.2",
-     "agent_score": 29.7,
-     "agent_band": "agent-ready",
-     "agent_dims": {
-      "spec_presence": true,
-      "agentic_access": false,
-      "reversibility_documented": false,
-      "mcp_server": false,
-      "auth_clarity": "bearer",
-      "idempotency": false,
-      "error_semantics": "verified",
-      "openapi_examples": "verified",
-      "rate_limit_signal": "documented",
-      "event_surface_described": false,
-      "agent_skills": "derived",
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false,
-      "delegated_identity": false,
-      "protected_resource_metadata": false,
-      "dynamic_client_registration": false,
-      "agentic_commerce": false
-     },
-     "rank": 9
+     "rank": 7
     }
    ],
    "open": true
@@ -440,8 +345,8 @@
    "label": "Emerging",
    "range": "11 – 26.1",
    "blurb": "More than an index entry but still mostly links rather than artifacts.",
-   "count": 19,
-   "shown": 19,
+   "count": 22,
+   "shown": 22,
    "providers": [
     {
      "name": "A-Mark Precious Metals",
@@ -462,7 +367,7 @@
       "access_clarity": 35.5
      },
      "scored_at": "2026-09-01",
-     "schema_version": "0.17.2",
+     "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
       "regime": "Securities & Market Data",
@@ -470,13 +375,13 @@
       "score": 68.3,
       "matched_via": "weak_tags"
      },
-     "agent_score": 12.4,
+     "agent_score": 9.0,
      "agent_band": "agent-aware",
      "agent_dims": {
       "spec_presence": false,
       "agentic_access": false,
       "reversibility_documented": false,
-      "mcp_server": "documented",
+      "mcp_server": false,
       "auth_clarity": "served",
       "idempotency": false,
       "error_semantics": false,
@@ -493,7 +398,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 10
+     "rank": 8
     },
     {
      "name": "SmartData",
@@ -514,7 +419,7 @@
       "access_clarity": 84.2
      },
      "scored_at": "2026-09-01",
-     "schema_version": "0.17.2",
+     "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
       "regime": "Energy & Utilities",
@@ -545,7 +450,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 11
+     "rank": 9
     },
     {
      "name": "Tari",
@@ -565,7 +470,7 @@
       "access_clarity": 0.0
      },
      "scored_at": "2026-09-01",
-     "schema_version": "0.17.2",
+     "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
       "regime": "Payments",
@@ -596,6 +501,102 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
+     "rank": 10
+    },
+    {
+     "name": "Alliance Resource Partners",
+     "slug": "alliance-resource-partners",
+     "description": "Alliance Resource Partners, L.P. (NASDAQ: ARLP) is a diversified energy and natural-resource partnership headquartered in Tulsa, Oklahoma. It is the largest coal producer in the eastern United States, operating underground and surface mines across the Illinois Basin and Appalachia, and it holds an oil and gas mineral and royalty portfolio alongside a growth-investment arm covering other energy and infrastructure ventures. ARLP runs no developer program: it publishes no API documentation, no OpenAPI, no SDK, no API pricing and no developer portal, and the api.arlp.com and developer.arlp.com hosts once listed here do not resolve in DNS. The only machine-readable interface the company serves is the read-only WordPress REST API behind its corporate site at www.arlp.com, which returns ARLP's own published corporate content - business segments, sustainability posture, careers, contact and legal pages, media, taxonomy and cross-content search - anonymously as JSON. Any operational data exchange with ARLP (customer contracts, rail and barge logistics, mine reporting, royalty statements) is a bilateral commercial agreement, not a published API product.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/alliance-resource-partners/refs/heads/main/screenshots/alliance-resource-partners-2026-06-20T171531.png",
+     "score": 22.9,
+     "band": "emerging",
+     "band_label": "Emerging",
+     "facets": {
+      "discoverability": 68.5,
+      "contract_quality": 15.6,
+      "governance": 4.5,
+      "contract_governance": 4.5,
+      "operational_transparency": 0.0,
+      "developer_ergonomics": 18.5,
+      "commercial_clarity": 28.9,
+      "access_clarity": 28.9
+     },
+     "scored_at": "2026-09-01",
+     "schema_version": "0.18.0",
+     "regulatory": {
+      "applies": true,
+      "regime": "Energy & Utilities",
+      "regime_id": "energy_utilities",
+      "score": 33.8,
+      "matched_via": "tags"
+     },
+     "agent_score": 26.8,
+     "agent_band": "agent-aware",
+     "agent_dims": {
+      "spec_presence": true,
+      "agentic_access": false,
+      "reversibility_documented": false,
+      "mcp_server": "documented",
+      "auth_clarity": "bearer",
+      "idempotency": false,
+      "error_semantics": "verified",
+      "openapi_examples": "documented",
+      "rate_limit_signal": "documented",
+      "event_surface_described": false,
+      "agent_skills": "derived",
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
+     "rank": 11
+    },
+    {
+     "name": "Impossible Metals",
+     "slug": "impossible-metals",
+     "description": "Impossible Metals is a deep-ocean robotics and critical-minerals company founded in 2020 by CEO Oliver Gunasekara, headquartered in San Jose, California with a robotics lab in Canada, and a member of Y Combinator's W22 cohort. It builds the Eureka autonomous underwater vehicle, a hovering AUV that uses computer vision and robotic arms to pick polymetallic nodules from the seabed one at a time — leaving visible fauna and the sediment layer in place — as an alternative to the dredge-and-riser designs used elsewhere in deep-sea mining. Eureka I and Eureka II have been sea-tested, Eureka III is slated for a 2026 test in the BGR contract area of the Clarion-Clipperton Zone, and the company has applied for a deep-sea mining lease in U.S. federal waters and for observer status with the International Seabed Authority. It is a certified B Corp and publishes environmental data, policy positions and testimony alongside its technical work. Impossible Metals is a robotics and mining company rather than a software vendor: it operates no developer program, publishes no product API, SDKs or developer portal, and hosts no api. or developer. subdomain. The only machine-readable interfaces it serves are the WordPress REST content API behind impossiblemetals.com and the two OpenAPI documents its events plugin publishes on that same host, which are captured here for discovery purposes and are anonymously readable and read-only.",
+     "score": 20.8,
+     "band": "emerging",
+     "band_label": "Emerging",
+     "facets": {
+      "discoverability": 74.1,
+      "contract_quality": 26.2,
+      "governance": 4.5,
+      "contract_governance": 4.5,
+      "operational_transparency": 0.0,
+      "developer_ergonomics": 20.8,
+      "commercial_clarity": 10.5,
+      "access_clarity": 10.5
+     },
+     "scored_at": "2026-09-01",
+     "schema_version": "0.18.0",
+     "agent_score": 29.7,
+     "agent_band": "agent-ready",
+     "agent_dims": {
+      "spec_presence": true,
+      "agentic_access": false,
+      "reversibility_documented": false,
+      "mcp_server": false,
+      "auth_clarity": "bearer",
+      "idempotency": false,
+      "error_semantics": "verified",
+      "openapi_examples": "verified",
+      "rate_limit_signal": "documented",
+      "event_surface_described": false,
+      "agent_skills": "derived",
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
      "rank": 12
     },
     {
@@ -617,7 +618,7 @@
       "access_clarity": 34.2
      },
      "scored_at": "2026-09-01",
-     "schema_version": "0.17.2",
+     "schema_version": "0.18.0",
      "agent_score": 2.5,
      "agent_band": "human-only",
      "agent_dims": {
@@ -644,6 +645,57 @@
      "rank": 13
     },
     {
+     "name": "EnergyX",
+     "slug": "energyx",
+     "description": "EnergyX (Energy Exploration Technologies, Inc.) is a critical-materials technology company founded in 2018 by Teague Egan and headquartered in Austin, Texas, with operations in Texarkana, Antofagasta in Chile, and San Juan, Puerto Rico. It develops direct lithium extraction (DLE) technology — a modular, brine-agnostic flow sheet combining adsorbents, solvent extraction and its own selective membranes under the GET-Lit platform — together with SoLiS lithium-metal battery technology and NUKE-it membranes for lithium-6/7 isotope separation and nuclear fuel-cycle applications. The company produces lithium hydroxide, lithium carbonate and lithium dihydrogen phosphate, holds a large patent portfolio, and controls lithium resources in Chile and the United States including the Black Giant project. EnergyX is a materials and process-technology company rather than a software vendor: it publishes no developer program, no API documentation, no SDKs and no developer portal. The only machine-readable interface it exposes is the WordPress REST content API behind its corporate website at energyx.com, which is captured here for discovery purposes and is anonymously readable but read-only.",
+     "score": 19.5,
+     "band": "emerging",
+     "band_label": "Emerging",
+     "facets": {
+      "discoverability": 81.5,
+      "contract_quality": 16.5,
+      "governance": 4.5,
+      "contract_governance": 4.5,
+      "operational_transparency": 0.0,
+      "developer_ergonomics": 16.1,
+      "commercial_clarity": 10.5,
+      "access_clarity": 10.5
+     },
+     "scored_at": "2026-09-01",
+     "schema_version": "0.18.0",
+     "regulatory": {
+      "applies": true,
+      "regime": "Energy & Utilities",
+      "regime_id": "energy_utilities",
+      "score": 28.4,
+      "matched_via": "tags"
+     },
+     "agent_score": 36.5,
+     "agent_band": "agent-ready",
+     "agent_dims": {
+      "spec_presence": true,
+      "agentic_access": "derived",
+      "reversibility_documented": "na",
+      "mcp_server": false,
+      "auth_clarity": "bearer",
+      "idempotency": "na",
+      "error_semantics": "verified",
+      "openapi_examples": "verified",
+      "rate_limit_signal": "documented",
+      "event_surface_described": false,
+      "agent_skills": "derived",
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": "na",
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
+     "rank": 14
+    },
+    {
      "name": "Percepto",
      "slug": "percepto",
      "description": "Percepto is an Israeli-founded industrial autonomy company (founded 2014, offices in Modi'in, Israel and the United States) that builds drone-in-a-box hardware and the software that runs it. Its hardware line includes the Percepto Air Max and Air Mobile drones and the Percepto Base docking station, and its software product is Percepto AIM (Autonomous Inspection and Monitoring), a platform that plans and launches autonomous missions, ingests visual, thermal, optical-gas-imaging and 3D data from Percepto drones as well as third-party DJI drones and fixed cameras, and applies AI-driven analytics to produce inspection, monitoring, emergency-response and security insights for oil and gas, mining, electric utilities, solar, ports and heavy industry sites. Percepto holds FAA beyond-visual-line-of-sight (BVLOS) authorizations for automated industrial inspections and has raised approximately $138.6M. The Percepto AIM console is served at drones.percepto.co and exposes an HTTP API under /api/, but the API schema and API documentation routes both redirect anonymous callers to a customer login: Percepto publishes no public developer portal, no OpenAPI document and no public API reference.",
@@ -661,7 +713,7 @@
       "access_clarity": 31.6
      },
      "scored_at": "2026-09-01",
-     "schema_version": "0.17.2",
+     "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
       "regime": "Energy & Utilities",
@@ -692,7 +744,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 14
+     "rank": 15
     },
     {
      "name": "Arch Coal",
@@ -713,7 +765,7 @@
       "access_clarity": 34.2
      },
      "scored_at": "2026-09-01",
-     "schema_version": "0.17.2",
+     "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
       "regime": "Energy & Utilities",
@@ -744,7 +796,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 15
+     "rank": 16
     },
     {
      "name": "Descartes Labs",
@@ -765,7 +817,7 @@
       "access_clarity": 6.6
      },
      "scored_at": "2026-09-01",
-     "schema_version": "0.17.2",
+     "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
       "regime": "Energy & Utilities",
@@ -796,7 +848,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 16
+     "rank": 17
     },
     {
      "name": "Benchmark Minerals",
@@ -817,7 +869,7 @@
       "access_clarity": 26.3
      },
      "scored_at": "2026-09-01",
-     "schema_version": "0.17.2",
+     "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
       "regime": "Energy & Utilities",
@@ -848,7 +900,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 17
+     "rank": 18
     },
     {
      "name": "Mineral Forecast",
@@ -869,7 +921,7 @@
       "access_clarity": 44.7
      },
      "scored_at": "2026-09-01",
-     "schema_version": "0.17.2",
+     "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -893,7 +945,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 18
+     "rank": 19
     },
     {
      "name": "Bureau of Land Management",
@@ -914,7 +966,7 @@
       "access_clarity": 15.8
      },
      "scored_at": "2026-09-01",
-     "schema_version": "0.17.2",
+     "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
       "regime": "Government & Public Sector",
@@ -945,7 +997,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 19
+     "rank": 20
     },
     {
      "name": "Bitmain",
@@ -966,7 +1018,7 @@
       "access_clarity": 0.0
      },
      "scored_at": "2026-09-01",
-     "schema_version": "0.17.2",
+     "schema_version": "0.18.0",
      "agent_score": 5.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -990,7 +1042,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 20
+     "rank": 21
     },
     {
      "name": "Sirius",
@@ -1010,52 +1062,7 @@
       "access_clarity": 18.4
      },
      "scored_at": "2026-09-01",
-     "schema_version": "0.17.2",
-     "agent_score": 0.0,
-     "agent_band": "human-only",
-     "agent_dims": {
-      "spec_presence": false,
-      "agentic_access": false,
-      "reversibility_documented": false,
-      "mcp_server": false,
-      "auth_clarity": false,
-      "idempotency": false,
-      "error_semantics": false,
-      "openapi_examples": false,
-      "rate_limit_signal": false,
-      "event_surface_described": false,
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false,
-      "delegated_identity": false,
-      "protected_resource_metadata": false,
-      "dynamic_client_registration": false,
-      "agentic_commerce": false
-     },
-     "rank": 21
-    },
-    {
-     "name": "Minersai",
-     "slug": "minersai",
-     "description": "MinersAI applies artificial intelligence and machine learning to geoscience data for mineral exploration, mining operations, public geological authorities, and mining & minerals investors. Founded and run by geologists (CEO Tomi de Lophem, CTO Mason Dykstra) and backed by Speedinvest and the Creative Destruction Lab, MinersAI structures, cleans, QCs, feature-engineers, and standardizes geochemical, geophysical, and remote-sensing datasets, then applies anomaly detection, heatmap generation, dimensionality reduction, and geostatistical interpolation to surface high-potential exploration targets. Its \"geologists-in-the-loop\" approach keeps domain experts central rather than replacing their expertise. The platform is delivered as a gated web application (app.minersai.com); there is no public developer API surface at this time.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/minersai/refs/heads/main/screenshots/minersai-2026-08-07T172947.png",
-     "score": 12.3,
-     "band": "emerging",
-     "band_label": "Emerging",
-     "facets": {
-      "discoverability": 50.0,
-      "contract_quality": 0.0,
-      "governance": 0.0,
-      "contract_governance": 0.0,
-      "operational_transparency": 0.0,
-      "developer_ergonomics": 2.4,
-      "commercial_clarity": 34.2,
-      "access_clarity": 34.2
-     },
-     "scored_at": "2026-09-01",
-     "schema_version": "0.17.2",
+     "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -1082,6 +1089,51 @@
      "rank": 22
     },
     {
+     "name": "Minersai",
+     "slug": "minersai",
+     "description": "MinersAI applies artificial intelligence and machine learning to geoscience data for mineral exploration, mining operations, public geological authorities, and mining & minerals investors. Founded and run by geologists (CEO Tomi de Lophem, CTO Mason Dykstra) and backed by Speedinvest and the Creative Destruction Lab, MinersAI structures, cleans, QCs, feature-engineers, and standardizes geochemical, geophysical, and remote-sensing datasets, then applies anomaly detection, heatmap generation, dimensionality reduction, and geostatistical interpolation to surface high-potential exploration targets. Its \"geologists-in-the-loop\" approach keeps domain experts central rather than replacing their expertise. The platform is delivered as a gated web application (app.minersai.com); there is no public developer API surface at this time.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/minersai/refs/heads/main/screenshots/minersai-2026-08-07T172947.png",
+     "score": 12.3,
+     "band": "emerging",
+     "band_label": "Emerging",
+     "facets": {
+      "discoverability": 50.0,
+      "contract_quality": 0.0,
+      "governance": 0.0,
+      "contract_governance": 0.0,
+      "operational_transparency": 0.0,
+      "developer_ergonomics": 2.4,
+      "commercial_clarity": 34.2,
+      "access_clarity": 34.2
+     },
+     "scored_at": "2026-09-01",
+     "schema_version": "0.18.0",
+     "agent_score": 0.0,
+     "agent_band": "human-only",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": false,
+      "reversibility_documented": false,
+      "mcp_server": false,
+      "auth_clarity": false,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": false,
+      "event_surface_described": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
+     "rank": 23
+    },
+    {
      "name": "NACCO Industries",
      "slug": "nacco-industries",
      "description": "NACCO Industries is a major US corporation and Fortune 1000 company. The NACCO Industries API provides programmatic access to its platform services, data, and integrations for enterprise customers and partners.",
@@ -1100,7 +1152,7 @@
       "access_clarity": 13.2
      },
      "scored_at": "2026-09-01",
-     "schema_version": "0.17.2",
+     "schema_version": "0.18.0",
      "agent_score": 2.5,
      "agent_band": "human-only",
      "agent_dims": {
@@ -1124,7 +1176,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 23
+     "rank": 24
     },
     {
      "name": "Nth Cycle",
@@ -1144,7 +1196,7 @@
       "access_clarity": 21.1
      },
      "scored_at": "2026-09-01",
-     "schema_version": "0.17.2",
+     "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
       "regime": "Energy & Utilities",
@@ -1175,7 +1227,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 24
+     "rank": 25
     },
     {
      "name": "Tronox Holdings",
@@ -1196,7 +1248,7 @@
       "access_clarity": 13.2
      },
      "scored_at": "2026-09-01",
-     "schema_version": "0.17.2",
+     "schema_version": "0.18.0",
      "agent_score": 2.5,
      "agent_band": "human-only",
      "agent_dims": {
@@ -1220,7 +1272,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 25
+     "rank": 26
     },
     {
      "name": "Alcoa",
@@ -1241,59 +1293,7 @@
       "access_clarity": 28.9
      },
      "scored_at": "2026-09-01",
-     "schema_version": "0.17.2",
-     "agent_score": 0.0,
-     "agent_band": "human-only",
-     "agent_dims": {
-      "spec_presence": false,
-      "agentic_access": false,
-      "reversibility_documented": false,
-      "mcp_server": false,
-      "auth_clarity": false,
-      "idempotency": false,
-      "error_semantics": false,
-      "openapi_examples": false,
-      "rate_limit_signal": false,
-      "event_surface_described": false,
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false,
-      "delegated_identity": false,
-      "protected_resource_metadata": false,
-      "dynamic_client_registration": false,
-      "agentic_commerce": false
-     },
-     "rank": 26
-    },
-    {
-     "name": "KoBold Metals",
-     "slug": "kobold-metals",
-     "description": "KoBold Metals is a critical-minerals exploration and development company that applies artificial intelligence and machine learning to the search for the copper, lithium, nickel and cobalt deposits needed for electrification. The company combines three capabilities: novel sensor hardware and software that collect higher-quality subsurface data faster, centralized data systems that organize disparate geological information about the Earth's crust, and predictive models that rank and target exploration prospects. Its stated aim is to \"turn exploration into a repeatable science.\" Its flagship project is Mingomba in Zambia, described by the company as one of the best copper deposits ever found and positioned to become one of the world's largest copper mines. KoBold is venture-backed (investors include a16z and Bond Capital) and operates as a private exploration company. As of this profile it publishes no public developer API, SDK, or developer portal; the public surface is a corporate marketing, science, careers and news site.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/kobold-metals/refs/heads/main/screenshots/kobold-metals-2026-07-25T224036.png",
-     "score": 11.3,
-     "band": "emerging",
-     "band_label": "Emerging",
-     "facets": {
-      "discoverability": 57.4,
-      "contract_quality": 0.0,
-      "governance": 0.0,
-      "contract_governance": 0.0,
-      "operational_transparency": 0.0,
-      "developer_ergonomics": 7.1,
-      "commercial_clarity": 21.1,
-      "access_clarity": 21.1
-     },
-     "scored_at": "2026-09-01",
-     "schema_version": "0.17.2",
-     "regulatory": {
-      "applies": true,
-      "regime": "Energy & Utilities",
-      "regime_id": "energy_utilities",
-      "score": 18.9,
-      "matched_via": "tags"
-     },
+     "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -1320,6 +1320,58 @@
      "rank": 27
     },
     {
+     "name": "KoBold Metals",
+     "slug": "kobold-metals",
+     "description": "KoBold Metals is a critical-minerals exploration and development company that applies artificial intelligence and machine learning to the search for the copper, lithium, nickel and cobalt deposits needed for electrification. The company combines three capabilities: novel sensor hardware and software that collect higher-quality subsurface data faster, centralized data systems that organize disparate geological information about the Earth's crust, and predictive models that rank and target exploration prospects. Its stated aim is to \"turn exploration into a repeatable science.\" Its flagship project is Mingomba in Zambia, described by the company as one of the best copper deposits ever found and positioned to become one of the world's largest copper mines. KoBold is venture-backed (investors include a16z and Bond Capital) and operates as a private exploration company. As of this profile it publishes no public developer API, SDK, or developer portal; the public surface is a corporate marketing, science, careers and news site.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/kobold-metals/refs/heads/main/screenshots/kobold-metals-2026-07-25T224036.png",
+     "score": 11.3,
+     "band": "emerging",
+     "band_label": "Emerging",
+     "facets": {
+      "discoverability": 57.4,
+      "contract_quality": 0.0,
+      "governance": 0.0,
+      "contract_governance": 0.0,
+      "operational_transparency": 0.0,
+      "developer_ergonomics": 7.1,
+      "commercial_clarity": 21.1,
+      "access_clarity": 21.1
+     },
+     "scored_at": "2026-09-01",
+     "schema_version": "0.18.0",
+     "regulatory": {
+      "applies": true,
+      "regime": "Energy & Utilities",
+      "regime_id": "energy_utilities",
+      "score": 18.9,
+      "matched_via": "tags"
+     },
+     "agent_score": 0.0,
+     "agent_band": "human-only",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": false,
+      "reversibility_documented": false,
+      "mcp_server": false,
+      "auth_clarity": false,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": false,
+      "event_surface_described": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
+     "rank": 28
+    },
+    {
      "name": "Warrior Met Coal",
      "slug": "warrior-met-coal",
      "description": "Warrior Met Coal is a major US corporation and Fortune 1000 company. The Warrior Met Coal API provides programmatic access to its platform services, data, and integrations for enterprise customers and partners.",
@@ -1338,7 +1390,7 @@
       "access_clarity": 13.2
      },
      "scored_at": "2026-09-01",
-     "schema_version": "0.17.2",
+     "schema_version": "0.18.0",
      "agent_score": 2.5,
      "agent_band": "human-only",
      "agent_dims": {
@@ -1362,7 +1414,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 28
+     "rank": 29
     }
    ],
    "open": true
@@ -1372,8 +1424,8 @@
    "label": "Minimal",
    "range": "0 – 10.9",
    "blurb": "Index entry only; little beyond a description and a link.",
-   "count": 52,
-   "shown": 52,
+   "count": 51,
+   "shown": 51,
    "providers": [
     {
      "name": "CONSOL Energy",
@@ -1394,7 +1446,7 @@
       "access_clarity": 13.2
      },
      "scored_at": "2026-09-01",
-     "schema_version": "0.17.2",
+     "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
       "regime": "Energy & Utilities",
@@ -1425,7 +1477,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 29
+     "rank": 30
     },
     {
      "name": "BHP",
@@ -1446,52 +1498,7 @@
       "access_clarity": 28.9
      },
      "scored_at": "2026-09-01",
-     "schema_version": "0.17.2",
-     "agent_score": 0.0,
-     "agent_band": "human-only",
-     "agent_dims": {
-      "spec_presence": false,
-      "agentic_access": false,
-      "reversibility_documented": false,
-      "mcp_server": false,
-      "auth_clarity": false,
-      "idempotency": false,
-      "error_semantics": false,
-      "openapi_examples": false,
-      "rate_limit_signal": false,
-      "event_surface_described": false,
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false,
-      "delegated_identity": false,
-      "protected_resource_metadata": false,
-      "dynamic_client_registration": false,
-      "agentic_commerce": false
-     },
-     "rank": 30
-    },
-    {
-     "name": "Belts",
-     "slug": "belts",
-     "description": "Belts covers the landscape of APIs, data standards, and digital resources related to conveyor belts and industrial belt systems. This topic encompasses conveyor belt monitoring and predictive maintenance APIs, industrial IoT sensor data for belt condition tracking, and the standards bodies that govern belt conveyor design and safety. Key organizations include CEMA (Conveyor Equipment Manufacturers Association) and ANSI, which define design, installation, and safety standards for belt conveyors used in mining, manufacturing, food processing, and bulk material handling industries.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/belts/refs/heads/main/screenshots/belts-2026-06-20T173127.png",
-     "score": 10.6,
-     "band": "minimal",
-     "band_label": "Minimal",
-     "facets": {
-      "discoverability": 50.0,
-      "contract_quality": 14.7,
-      "governance": 0.0,
-      "contract_governance": 0.0,
-      "operational_transparency": 0.0,
-      "developer_ergonomics": 9.5,
-      "commercial_clarity": 0.0,
-      "access_clarity": 0.0
-     },
-     "scored_at": "2026-09-01",
-     "schema_version": "0.17.2",
+     "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -1518,32 +1525,25 @@
      "rank": 31
     },
     {
-     "name": "Ceibo",
-     "slug": "ceibo",
-     "description": "Ceibo is a Chilean copper technology company accelerating access to copper supply through a proprietary leaching process that recovers copper from primary sulfide ores. Backed by Khosla Ventures and BHP Ventures, the company positions its on-site technology as faster than bioleaching, using less water than concentration and a fraction of the capital expenditure of concentrators, aiming to close the global copper supply-demand gap needed for the energy transition. Headquartered in Santiago, Chile, Ceibo was named a 2026 Fast Company World Changing Ideas winner. This is a company profile in the API Evangelist network; Ceibo publishes no public developer/API surface at this time.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/ceibo/refs/heads/main/screenshots/ceibo-2026-07-25T204843.png",
+     "name": "Belts",
+     "slug": "belts",
+     "description": "Belts covers the landscape of APIs, data standards, and digital resources related to conveyor belts and industrial belt systems. This topic encompasses conveyor belt monitoring and predictive maintenance APIs, industrial IoT sensor data for belt condition tracking, and the standards bodies that govern belt conveyor design and safety. Key organizations include CEMA (Conveyor Equipment Manufacturers Association) and ANSI, which define design, installation, and safety standards for belt conveyors used in mining, manufacturing, food processing, and bulk material handling industries.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/belts/refs/heads/main/screenshots/belts-2026-06-20T173127.png",
      "score": 10.6,
      "band": "minimal",
      "band_label": "Minimal",
      "facets": {
       "discoverability": 50.0,
-      "contract_quality": 0.0,
+      "contract_quality": 14.7,
       "governance": 0.0,
       "contract_governance": 0.0,
       "operational_transparency": 0.0,
-      "developer_ergonomics": 7.1,
-      "commercial_clarity": 21.1,
-      "access_clarity": 21.1
+      "developer_ergonomics": 9.5,
+      "commercial_clarity": 0.0,
+      "access_clarity": 0.0
      },
      "scored_at": "2026-09-01",
-     "schema_version": "0.17.2",
-     "regulatory": {
-      "applies": true,
-      "regime": "Energy & Utilities",
-      "regime_id": "energy_utilities",
-      "score": 18.9,
-      "matched_via": "tags"
-     },
+     "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -1570,11 +1570,11 @@
      "rank": 32
     },
     {
-     "name": "Alta Resource Technologies",
-     "slug": "alta-resource-technologies",
-     "description": "Alta Resource Technologies is a Colorado-based deep-tech company reinventing how critical minerals are sourced. It uses advanced biochemistry — customizable, engineered proteins licensed from Lawrence Livermore National Laboratory and co-developed with researchers at Pennsylvania State University — to selectively separate high-purity rare earth elements and other strategic metals from low-grade ores, mining tailings, and electronic-waste streams such as end-of-life hard disk drives. The protein-based platform binds target elements out of complex, low-concentration solutions with high selectivity while dramatically reducing the environmental footprint of conventional mining and refining, strengthening U.S. and allied critical-mineral supply chains. Alta emerged from stealth in January 2025 and expanded its Series Seed to $10M, backed by DCVC, Voyager Ventures, In-Q-Tel, and Orion Industrial Ventures. As a materials-science and biochemistry company, Alta does not publish a public developer API, SDKs, or a developer portal; this API Evangelist profile carries its identity and website properties only.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/alta-resource-technologies/refs/heads/main/screenshots/alta-resource-technologies-2026-07-25T195810.png",
-     "score": 10.2,
+     "name": "Ceibo",
+     "slug": "ceibo",
+     "description": "Ceibo is a Chilean copper technology company accelerating access to copper supply through a proprietary leaching process that recovers copper from primary sulfide ores. Backed by Khosla Ventures and BHP Ventures, the company positions its on-site technology as faster than bioleaching, using less water than concentration and a fraction of the capital expenditure of concentrators, aiming to close the global copper supply-demand gap needed for the energy transition. Headquartered in Santiago, Chile, Ceibo was named a 2026 Fast Company World Changing Ideas winner. This is a company profile in the API Evangelist network; Ceibo publishes no public developer/API surface at this time.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/ceibo/refs/heads/main/screenshots/ceibo-2026-07-25T204843.png",
+     "score": 10.6,
      "band": "minimal",
      "band_label": "Minimal",
      "facets": {
@@ -1583,12 +1583,19 @@
       "governance": 0.0,
       "contract_governance": 0.0,
       "operational_transparency": 0.0,
-      "developer_ergonomics": 4.8,
+      "developer_ergonomics": 7.1,
       "commercial_clarity": 21.1,
       "access_clarity": 21.1
      },
      "scored_at": "2026-09-01",
-     "schema_version": "0.17.2",
+     "schema_version": "0.18.0",
+     "regulatory": {
+      "applies": true,
+      "regime": "Energy & Utilities",
+      "regime_id": "energy_utilities",
+      "score": 18.9,
+      "matched_via": "tags"
+     },
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -1615,10 +1622,11 @@
      "rank": 33
     },
     {
-     "name": "Jetti Resources",
-     "slug": "jetti-resources",
-     "description": "Jetti Resources is a Boulder, Colorado based metallurgical technology company whose catalytic leaching process unlocks copper from low-grade primary sulfide ores such as chalcopyrite — roughly 70% of the world's copper resources — that conventional pyrometallurgy cannot treat economically and that bioleaching cannot treat at all because of the passivation layer that halts extraction. Jetti's catalyst prevents that layer from forming, allowing uninterrupted heap and stockpile leaching through existing bioleach and SX-EW circuits using modular, standardized micro plants that require no additional permits. The technology has been deployed commercially since 2019, including at Capstone's Pinto Valley mine in Arizona and Freeport-McMoRan's El Abra operation in Chile, and the company is backed by BHP, Freeport-McMoRan, Mitsubishi Corporation, BMW Group, BlackRock, T. Rowe Price, Orion Resource Partners, DNS Capital and Zoma Capital. Jetti sells a chemical and process technology licence to mine operators rather than software: it runs no developer program, publishes no public API, SDK or machine-readable specification, and its only authenticated surface is an Intralinks-hosted customer portal for existing licensees.",
-     "score": 10.1,
+     "name": "Alta Resource Technologies",
+     "slug": "alta-resource-technologies",
+     "description": "Alta Resource Technologies is a Colorado-based deep-tech company reinventing how critical minerals are sourced. It uses advanced biochemistry — customizable, engineered proteins licensed from Lawrence Livermore National Laboratory and co-developed with researchers at Pennsylvania State University — to selectively separate high-purity rare earth elements and other strategic metals from low-grade ores, mining tailings, and electronic-waste streams such as end-of-life hard disk drives. The protein-based platform binds target elements out of complex, low-concentration solutions with high selectivity while dramatically reducing the environmental footprint of conventional mining and refining, strengthening U.S. and allied critical-mineral supply chains. Alta emerged from stealth in January 2025 and expanded its Series Seed to $10M, backed by DCVC, Voyager Ventures, In-Q-Tel, and Orion Industrial Ventures. As a materials-science and biochemistry company, Alta does not publish a public developer API, SDKs, or a developer portal; this API Evangelist profile carries its identity and website properties only.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/alta-resource-technologies/refs/heads/main/screenshots/alta-resource-technologies-2026-07-25T195810.png",
+     "score": 10.2,
      "band": "minimal",
      "band_label": "Minimal",
      "facets": {
@@ -1632,14 +1640,7 @@
       "access_clarity": 21.1
      },
      "scored_at": "2026-09-01",
-     "schema_version": "0.17.2",
-     "regulatory": {
-      "applies": true,
-      "regime": "Energy & Utilities",
-      "regime_id": "energy_utilities",
-      "score": 18.9,
-      "matched_via": "tags"
-     },
+     "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -1666,25 +1667,31 @@
      "rank": 34
     },
     {
-     "name": "Steel Dynamics",
-     "slug": "steel-dynamics",
-     "description": "Steel Dynamics, Inc. is one of the largest domestic steel producers and metals recyclers in the United States, with operations spanning steel manufacturing, steel processing, and metals recycling. Founded in 1993 and headquartered in Fort Wayne, Indiana, the company operates steel mills, fabrication operations, and metals recycling facilities. Steel Dynamics is a Fortune 500 company listed on NASDAQ (STLD) and does not offer public developer APIs; data access is available through financial data providers and investor relations communications.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/steel-dynamics/refs/heads/main/screenshots/steel-dynamics-2026-06-20T194541.png",
-     "score": 10.0,
+     "name": "Jetti Resources",
+     "slug": "jetti-resources",
+     "description": "Jetti Resources is a Boulder, Colorado based metallurgical technology company whose catalytic leaching process unlocks copper from low-grade primary sulfide ores such as chalcopyrite — roughly 70% of the world's copper resources — that conventional pyrometallurgy cannot treat economically and that bioleaching cannot treat at all because of the passivation layer that halts extraction. Jetti's catalyst prevents that layer from forming, allowing uninterrupted heap and stockpile leaching through existing bioleach and SX-EW circuits using modular, standardized micro plants that require no additional permits. The technology has been deployed commercially since 2019, including at Capstone's Pinto Valley mine in Arizona and Freeport-McMoRan's El Abra operation in Chile, and the company is backed by BHP, Freeport-McMoRan, Mitsubishi Corporation, BMW Group, BlackRock, T. Rowe Price, Orion Resource Partners, DNS Capital and Zoma Capital. Jetti sells a chemical and process technology licence to mine operators rather than software: it runs no developer program, publishes no public API, SDK or machine-readable specification, and its only authenticated surface is an Intralinks-hosted customer portal for existing licensees.",
+     "score": 10.1,
      "band": "minimal",
      "band_label": "Minimal",
      "facets": {
       "discoverability": 50.0,
-      "contract_quality": 10.7,
-      "governance": 15.2,
-      "contract_governance": 15.2,
+      "contract_quality": 0.0,
+      "governance": 0.0,
+      "contract_governance": 0.0,
       "operational_transparency": 0.0,
-      "developer_ergonomics": 2.4,
-      "commercial_clarity": 0.0,
-      "access_clarity": 0.0
+      "developer_ergonomics": 4.8,
+      "commercial_clarity": 21.1,
+      "access_clarity": 21.1
      },
      "scored_at": "2026-09-01",
-     "schema_version": "0.17.2",
+     "schema_version": "0.18.0",
+     "regulatory": {
+      "applies": true,
+      "regime": "Energy & Utilities",
+      "regime_id": "energy_utilities",
+      "score": 18.9,
+      "matched_via": "tags"
+     },
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -1711,24 +1718,25 @@
      "rank": 35
     },
     {
-     "name": "Plotlogic",
-     "slug": "plotlogic",
-     "description": "Plotlogic is a mining technology company that builds AI-driven sensing systems for real-time ore and material characterisation. Its flagship product, OreSense, scans rock in open-pit, stockpile, and underground mining operations and delivers decision-ready quantitative mineralogy in under 15 minutes, compared with more than an hour for traditional laboratory assay methods. The hardware is engineered for harsh mining environments and integrates into existing operational workflows so mines can reduce waste, improve grade control, and make faster material-routing decisions. Plotlogic is headquartered in Zillmere, Queensland, Australia, and is backed by the deep-tech venture firm DCVC. Customer access is delivered through an enterprise client platform rather than a public developer API; there is no published developer program, SDK, or API documentation at this time.",
-     "score": 9.8,
+     "name": "Steel Dynamics",
+     "slug": "steel-dynamics",
+     "description": "Steel Dynamics, Inc. is one of the largest domestic steel producers and metals recyclers in the United States, with operations spanning steel manufacturing, steel processing, and metals recycling. Founded in 1993 and headquartered in Fort Wayne, Indiana, the company operates steel mills, fabrication operations, and metals recycling facilities. Steel Dynamics is a Fortune 500 company listed on NASDAQ (STLD) and does not offer public developer APIs; data access is available through financial data providers and investor relations communications.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/steel-dynamics/refs/heads/main/screenshots/steel-dynamics-2026-06-20T194541.png",
+     "score": 10.0,
      "band": "minimal",
      "band_label": "Minimal",
      "facets": {
       "discoverability": 50.0,
-      "contract_quality": 0.0,
-      "governance": 0.0,
-      "contract_governance": 0.0,
+      "contract_quality": 10.7,
+      "governance": 15.2,
+      "contract_governance": 15.2,
       "operational_transparency": 0.0,
-      "developer_ergonomics": 7.1,
-      "commercial_clarity": 17.1,
-      "access_clarity": 17.1
+      "developer_ergonomics": 2.4,
+      "commercial_clarity": 0.0,
+      "access_clarity": 0.0
      },
      "scored_at": "2026-09-01",
-     "schema_version": "0.17.2",
+     "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -1755,6 +1763,50 @@
      "rank": 36
     },
     {
+     "name": "Plotlogic",
+     "slug": "plotlogic",
+     "description": "Plotlogic is a mining technology company that builds AI-driven sensing systems for real-time ore and material characterisation. Its flagship product, OreSense, scans rock in open-pit, stockpile, and underground mining operations and delivers decision-ready quantitative mineralogy in under 15 minutes, compared with more than an hour for traditional laboratory assay methods. The hardware is engineered for harsh mining environments and integrates into existing operational workflows so mines can reduce waste, improve grade control, and make faster material-routing decisions. Plotlogic is headquartered in Zillmere, Queensland, Australia, and is backed by the deep-tech venture firm DCVC. Customer access is delivered through an enterprise client platform rather than a public developer API; there is no published developer program, SDK, or API documentation at this time.",
+     "score": 9.8,
+     "band": "minimal",
+     "band_label": "Minimal",
+     "facets": {
+      "discoverability": 50.0,
+      "contract_quality": 0.0,
+      "governance": 0.0,
+      "contract_governance": 0.0,
+      "operational_transparency": 0.0,
+      "developer_ergonomics": 7.1,
+      "commercial_clarity": 17.1,
+      "access_clarity": 17.1
+     },
+     "scored_at": "2026-09-01",
+     "schema_version": "0.18.0",
+     "agent_score": 0.0,
+     "agent_band": "human-only",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": false,
+      "reversibility_documented": false,
+      "mcp_server": false,
+      "auth_clarity": false,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": false,
+      "event_surface_described": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
+     "rank": 37
+    },
+    {
      "name": "Albemarle",
      "slug": "albemarle",
      "description": "Albemarle Corporation is a global specialty chemicals company and leading provider of lithium, bromine, and other essential elements. Operating from its global headquarters in Charlotte, NC, Albemarle serves customers in approximately 70 countries with world-class hard-rock and brine lithium resources, state-of-the-art lithium conversion facilities, advanced lithium material and process development, bromine production facilities, and the US's only producing lithium resource in Silver Peak, NV. The company serves critical markets including electric vehicle batteries, energy storage, flame retardants, pharmaceutical ingredients, catalysts, and specialty chemicals, employing approximately 7,800 people and holding over 1,500 active patents worldwide.",
@@ -1773,64 +1825,12 @@
       "access_clarity": 21.1
      },
      "scored_at": "2026-09-01",
-     "schema_version": "0.17.2",
+     "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
       "regime": "Energy & Utilities",
       "regime_id": "energy_utilities",
       "score": 18.9,
-      "matched_via": "tags"
-     },
-     "agent_score": 2.5,
-     "agent_band": "human-only",
-     "agent_dims": {
-      "spec_presence": false,
-      "agentic_access": false,
-      "reversibility_documented": false,
-      "mcp_server": false,
-      "auth_clarity": false,
-      "idempotency": false,
-      "error_semantics": false,
-      "openapi_examples": false,
-      "rate_limit_signal": "documented",
-      "event_surface_described": false,
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false,
-      "delegated_identity": false,
-      "protected_resource_metadata": false,
-      "dynamic_client_registration": false,
-      "agentic_commerce": false
-     },
-     "rank": 37
-    },
-    {
-     "name": "Alliance Resource Partners",
-     "slug": "alliance-resource-partners",
-     "description": "Alliance Resource Partners is a major US corporation and Fortune 1000 company. The Alliance Resource Partners API provides programmatic access to its platform services, data, and integrations for enterprise customers and partners.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/alliance-resource-partners/refs/heads/main/screenshots/alliance-resource-partners-2026-06-20T171531.png",
-     "score": 9.5,
-     "band": "minimal",
-     "band_label": "Minimal",
-     "facets": {
-      "discoverability": 59.3,
-      "contract_quality": 0.0,
-      "governance": 0.0,
-      "contract_governance": 0.0,
-      "operational_transparency": 5.3,
-      "developer_ergonomics": 9.5,
-      "commercial_clarity": 13.2,
-      "access_clarity": 13.2
-     },
-     "scored_at": "2026-09-01",
-     "schema_version": "0.17.2",
-     "regulatory": {
-      "applies": true,
-      "regime": "Energy & Utilities",
-      "regime_id": "energy_utilities",
-      "score": 8.1,
       "matched_via": "tags"
      },
      "agent_score": 2.5,
@@ -1877,7 +1877,7 @@
       "access_clarity": 27.6
      },
      "scored_at": "2026-09-01",
-     "schema_version": "0.17.2",
+     "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
       "regime": "Securities & Market Data",
@@ -1928,7 +1928,7 @@
       "access_clarity": 0.0
      },
      "scored_at": "2026-09-01",
-     "schema_version": "0.17.2",
+     "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -1973,7 +1973,7 @@
       "access_clarity": 21.1
      },
      "scored_at": "2026-09-01",
-     "schema_version": "0.17.2",
+     "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -2018,7 +2018,7 @@
       "access_clarity": 21.1
      },
      "scored_at": "2026-09-01",
-     "schema_version": "0.17.2",
+     "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
       "regime": "Energy & Utilities",
@@ -2069,7 +2069,7 @@
       "access_clarity": 21.1
      },
      "scored_at": "2026-09-01",
-     "schema_version": "0.17.2",
+     "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
       "regime": "Energy & Utilities",
@@ -2121,7 +2121,7 @@
       "access_clarity": 0.0
      },
      "scored_at": "2026-09-01",
-     "schema_version": "0.17.2",
+     "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -2165,7 +2165,7 @@
       "access_clarity": 10.5
      },
      "scored_at": "2026-09-01",
-     "schema_version": "0.17.2",
+     "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
       "regime": "Energy & Utilities",
@@ -2217,7 +2217,7 @@
       "access_clarity": 10.5
      },
      "scored_at": "2026-09-01",
-     "schema_version": "0.17.2",
+     "schema_version": "0.18.0",
      "agent_score": 8.6,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -2262,7 +2262,7 @@
       "access_clarity": 10.5
      },
      "scored_at": "2026-09-01",
-     "schema_version": "0.17.2",
+     "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -2307,7 +2307,7 @@
       "access_clarity": 10.5
      },
      "scored_at": "2026-09-01",
-     "schema_version": "0.17.2",
+     "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -2352,7 +2352,7 @@
       "access_clarity": 10.5
      },
      "scored_at": "2026-09-01",
-     "schema_version": "0.17.2",
+     "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -2396,7 +2396,7 @@
       "access_clarity": 10.5
      },
      "scored_at": "2026-09-01",
-     "schema_version": "0.17.2",
+     "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -2440,7 +2440,7 @@
       "access_clarity": 10.5
      },
      "scored_at": "2026-09-01",
-     "schema_version": "0.17.2",
+     "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -2485,7 +2485,7 @@
       "access_clarity": 0.0
      },
      "scored_at": "2026-09-01",
-     "schema_version": "0.17.2",
+     "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -2530,7 +2530,7 @@
       "access_clarity": 0.0
      },
      "scored_at": "2026-09-01",
-     "schema_version": "0.17.2",
+     "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -2574,7 +2574,7 @@
       "access_clarity": 6.6
      },
      "scored_at": "2026-09-01",
-     "schema_version": "0.17.2",
+     "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -2619,7 +2619,7 @@
       "access_clarity": 10.5
      },
      "scored_at": "2026-09-01",
-     "schema_version": "0.17.2",
+     "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
       "regime": "Energy & Utilities",
@@ -2671,7 +2671,7 @@
       "access_clarity": 0.0
      },
      "scored_at": "2026-09-01",
-     "schema_version": "0.17.2",
+     "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -2716,7 +2716,7 @@
       "access_clarity": 0.0
      },
      "scored_at": "2026-09-01",
-     "schema_version": "0.17.2",
+     "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
       "regime": "Energy & Utilities",
@@ -2768,7 +2768,7 @@
       "access_clarity": 0.0
      },
      "scored_at": "2026-09-01",
-     "schema_version": "0.17.2",
+     "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -2812,7 +2812,7 @@
       "access_clarity": 0.0
      },
      "scored_at": "2026-09-01",
-     "schema_version": "0.17.2",
+     "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -2857,7 +2857,7 @@
       "access_clarity": 0.0
      },
      "scored_at": "2026-09-01",
-     "schema_version": "0.17.2",
+     "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -2902,7 +2902,7 @@
       "access_clarity": 0.0
      },
      "scored_at": "2026-09-01",
-     "schema_version": "0.17.2",
+     "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -2947,7 +2947,7 @@
       "access_clarity": 0.0
      },
      "scored_at": "2026-09-01",
-     "schema_version": "0.17.2",
+     "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -2992,7 +2992,7 @@
       "access_clarity": 0.0
      },
      "scored_at": "2026-09-01",
-     "schema_version": "0.17.2",
+     "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -3037,7 +3037,7 @@
       "access_clarity": 0.0
      },
      "scored_at": "2026-09-01",
-     "schema_version": "0.17.2",
+     "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -3081,7 +3081,7 @@
       "access_clarity": 0.0
      },
      "scored_at": "2026-09-01",
-     "schema_version": "0.17.2",
+     "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -3125,7 +3125,7 @@
       "access_clarity": 0.0
      },
      "scored_at": "2026-09-01",
-     "schema_version": "0.17.2",
+     "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -3170,7 +3170,7 @@
       "access_clarity": 0.0
      },
      "scored_at": "2026-09-01",
-     "schema_version": "0.17.2",
+     "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
       "regime": "Energy & Utilities",
@@ -3222,7 +3222,7 @@
       "access_clarity": 0.0
      },
      "scored_at": "2026-09-01",
-     "schema_version": "0.17.2",
+     "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -3267,7 +3267,7 @@
       "access_clarity": 0.0
      },
      "scored_at": "2026-09-01",
-     "schema_version": "0.17.2",
+     "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
       "regime": "Energy & Utilities",
@@ -3319,7 +3319,7 @@
       "access_clarity": 0.0
      },
      "scored_at": "2026-09-01",
-     "schema_version": "0.17.2",
+     "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
       "regime": "Energy & Utilities",
@@ -3371,7 +3371,7 @@
       "access_clarity": 0.0
      },
      "scored_at": "2026-09-01",
-     "schema_version": "0.17.2",
+     "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
       "regime": "Energy & Utilities",
@@ -3423,7 +3423,7 @@
       "access_clarity": 0.0
      },
      "scored_at": "2026-09-01",
-     "schema_version": "0.17.2",
+     "schema_version": "0.18.0",
      "regulatory": {
       "applies": false,
       "undetermined": true,
@@ -3473,7 +3473,7 @@
       "access_clarity": 0.0
      },
      "scored_at": "2026-09-01",
-     "schema_version": "0.17.2",
+     "schema_version": "0.18.0",
      "regulatory": {
       "applies": false,
       "undetermined": true,
@@ -3523,7 +3523,7 @@
       "access_clarity": 0.0
      },
      "scored_at": "2026-09-01",
-     "schema_version": "0.17.2",
+     "schema_version": "0.18.0",
      "regulatory": {
       "applies": false,
       "undetermined": true,
@@ -3573,7 +3573,7 @@
       "access_clarity": 0.0
      },
      "scored_at": "2026-09-01",
-     "schema_version": "0.17.2",
+     "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
       "regime": "Energy & Utilities",
@@ -3625,7 +3625,7 @@
       "access_clarity": 0.0
      },
      "scored_at": "2026-09-01",
-     "schema_version": "0.17.2",
+     "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
       "regime": "Energy & Utilities",
@@ -3677,7 +3677,7 @@
       "access_clarity": 0.0
      },
      "scored_at": "2026-09-01",
-     "schema_version": "0.17.2",
+     "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
       "regime": "Energy & Utilities",
@@ -3728,7 +3728,7 @@
       "access_clarity": 0.0
      },
      "scored_at": "2026-09-01",
-     "schema_version": "0.17.2",
+     "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
       "regime": "Energy & Utilities",
@@ -3779,7 +3779,7 @@
       "access_clarity": 0.0
      },
      "scored_at": "2026-09-01",
-     "schema_version": "0.17.2",
+     "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
       "regime": "Insurance",
@@ -3831,7 +3831,7 @@
       "access_clarity": 0.0
      },
      "scored_at": "2026-09-01",
-     "schema_version": "0.17.2",
+     "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
       "regime": "Health",

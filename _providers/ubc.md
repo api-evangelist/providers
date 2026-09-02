@@ -368,7 +368,7 @@ score:
     access_clarity: 47.4
     commercial_clarity: 47.4
     contract_governance: 17.4
-    contract_quality: 61.2
+    contract_quality: 61.1
     developer_ergonomics: 35.7
     discoverability: 74.1
     governance: 17.4
@@ -388,7 +388,7 @@ score:
     regime: Education & Research
     regime_id: education
     score: 75.9
-  schema_version: 0.17.2
+  schema_version: 0.18.0
   scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/ubc/refs/heads/main/screenshots/ubc-2026-06-20T195923.png

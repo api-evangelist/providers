@@ -204,7 +204,7 @@ score:
     regime: Energy & Utilities
     regime_id: energy_utilities
     score: 30.4
-  schema_version: 0.17.2
+  schema_version: 0.18.0
   scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/nova-scotia-power/refs/heads/main/screenshots/nova-scotia-power-2026-08-07T185604.png

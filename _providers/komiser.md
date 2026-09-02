@@ -128,7 +128,7 @@ score:
     applies: true
     score: 100.0
   previous_composite: 24.7
-  schema_version: 0.17.2
+  schema_version: 0.18.0
   scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/komiser/refs/heads/main/screenshots/komiser-2026-06-20T184121.png

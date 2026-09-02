@@ -339,18 +339,18 @@ rules:
   slug: span-io-rules
 score:
   band: developing
-  composite: 46.4
+  composite: 46.2
   coverage:
     artifact_dirs: 15
     catalog_gap: 49.5
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: 0.0
+  delta: -0.2
   facets:
     access_clarity: 50.0
     commercial_clarity: 50.0
     contract_governance: 13.6
-    contract_quality: 61.9
+    contract_quality: 61.2
     developer_ergonomics: 52.4
     discoverability: 59.3
     governance: 13.6
@@ -372,7 +372,7 @@ score:
     regime: Energy & Utilities
     regime_id: energy_utilities
     score: 36.5
-  schema_version: 0.17.2
+  schema_version: 0.18.0
   scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/span-io/refs/heads/main/screenshots/span-io-2026-06-20T194242.png

@@ -186,7 +186,7 @@ score:
       derived: 5
       marker_coverage: 100.0
       total: 5
-  schema_version: 0.17.2
+  schema_version: 0.18.0
   scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/castr-live/refs/heads/main/screenshots/castr-live-2026-07-25T204743.png

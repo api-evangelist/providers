@@ -116,7 +116,31 @@ apis:
 - description: The SolrImport API from Chalmers University of Technology — 1 operation(s) for solrimport.
   name: Chalmers University of Technology SolrImport API
   slug: chalmers-university-of-technology-solrimport-api
-artifact_total: 63
+- description: HAL+JSON REST API of the Chalmers Open Digital Repository, a DSpace 8.3 instance Chalmers runs on its own host (odr.chalmers.se). The API root and the communities collection answer publicly; item list
+  name: Chalmers Open Digital Repository (ODR) REST API
+  slug: odr-dspace-rest
+- description: Chalmers' own SAML 2.0 identity provider, entityID http://idp.chalmers.se/adfs/services/trust, running on Microsoft AD FS with single sign-on at https://idp.chalmers.se/adfs/ls/ and registered in SWAM
+  name: Chalmers SAML Identity Provider (SWAMID / eduGAIN)
+  slug: swamid-identity-provider
+- description: Chalmers is a DataCite consortium organization (member id ojuo, joined 2020-09-14, ROR https://ror.org/040wg7k59) and operates the repository account snd.chalmers, registered in 2014 with domain scope
+  name: DataCite Membership and DOI Registration
+  slug: datacite-membership
+- description: 'Chalmers University of Technology is registered in the Research Organization Registry as https://ror.org/040wg7k59, the identifier DataCite carries for its consortium membership. The ROR API is ROR''s '
+  name: ROR Registration
+  slug: ror-registration
+- description: The Chalmers Research CRIS surfaces ORCID iDs on researcher profiles and links out to the ORCID registry, e.g. https://research.chalmers.se/en/person/hanhel carries orcid.org/0000-0003-3888-3446. ORCI
+  name: ORCID in Chalmers Research
+  slug: orcid-adoption
+- description: Chalmers deposits research data through DORIS, the deposit service of the Swedish National Data Service (SND), which publishes it on researchdata.se. DataCite records this as repository account ojuo.x
+  name: Chalmers Data Repository on SND (DORIS)
+  slug: snd-doris-repository
+- description: Chalmers runs its learning management system as an Instructure Canvas tenant at chalmers.instructure.com. Chalmers Library publishes several first-party LTI 1.3 / LTI Advantage integrations against it
+  name: Canvas LMS Tenant
+  slug: canvas-lms-tenant
+- description: Chalmers' timetable and room-booking layer is a TimeEdit tenancy, public at cloud.timeedit.net/chalmers/web/public/ and federated through SWAMID as service provider https://se.timeedit.net/chalmers-sp
+  name: TimeEdit Scheduling Tenant
+  slug: timeedit-scheduling-tenant
+artifact_total: 71
 collections:
 - collection_type: open
   name: API Collection
@@ -236,8 +260,49 @@ common:
   title: ''
   type: Review
   url: review.yml
+- group: docs
+  title: ''
+  type: APIReference
+  url: https://api.research.chalmers.se/swagger
+- group: other
+  title: ''
+  type: ResearchRepository
+  url: https://research.chalmers.se/
+- group: other
+  title: ''
+  type: ResearchRepository
+  url: https://odr.chalmers.se/
+- group: learn
+  title: ''
+  type: CourseCatalog
+  url: https://www.chalmers.se/en/education/your-studies/find-course-and-programme-syllabi/
+- group: other
+  title: ''
+  type: IdentityFederation
+  url: https://mds.swamid.se/entities/http%3A%2F%2Fidp.chalmers.se%2Fadfs%2Fservices%2Ftrust
+- group: other
+  title: ''
+  type: ResearchComputing
+  url: https://www.chalmers.se/en/infrastructure/ecommons/
+- group: other
+  title: ''
+  type: AIPolicy
+  url: https://www.chalmers.se/utbildning/dina-studier/kandidat-och-examensarbete/regler-for-anvandning-av-ai-verktyg/
+- group: commercial
+  title: ''
+  type: PrivacyPolicy
+  url: https://www.chalmers.se/en/about-chalmers/about-the-website/processing-of-personal-data/
+- group: build
+  title: ''
+  type: Library
+  url: https://www.chalmers.se/en/departments/cls/chalmers-library/
+- group: design
+  title: ''
+  type: x-conformance
+  url: conformance/chalmers-university-of-technology-conformance.yml
 created: '2026-06-03'
-description: 'Chalmers University of Technology (Chalmers tekniska hogskola) is a private technical university in Gothenburg, Sweden, ranked #139 in the QS World University Rankings 2025. Its public, machine-readable footprint is centered on research information and library/repository services rather than a unified developer portal. Confirmed surfaces include the Chalmers Research API (api.research.chalmers.se), OAI-PMH metadata interfaces for the Chalmers Research portal and the Chalmers Open Digital Repository (ODR), and the Chalmers University Library GitHub organization hosting open-source data and metadata tooling. There is no single consolidated, self-service developer portal; access is API/repository specific.'
+description: 'Chalmers University of Technology (Chalmers tekniska hogskola) is a private technical university in Gothenburg, Sweden, run by the Chalmers Foundation and ranked in the QS World University Rankings. Unlike most of the university cohort, Chalmers operates a genuinely institution-owned API: the Chalmers Research API at api.research.chalmers.se, a first-party CRIS interface over research projects, organizations and publications, described by a live Swagger 2.0 document and protected by HTTP Basic authentication (public reads return 401). Around it sit two institution-hosted OAI-PMH endpoints — Chalmers Research (records back to 1942) and the Chalmers Open Digital Repository, a self-hosted DSpace 8.3 whose REST API answers on odr.chalmers.se — plus a SAML 2.0 identity provider registered in SWAMID, the Swedish national federation. Chalmers is a DataCite consortium member with its own repository account, and its CRIS carries ORCID iDs. There is no consolidated, self-service developer
+  portal, no public open-data portal and no public course-catalog API; the teaching, timetable and data-deposit layers run on vendor tenancies (Canvas, TimeEdit, SND) whose contracts belong to those vendors, not to Chalmers.'
 examples:
 - key_count: 13
   name: Chalmers University Of Technology Get Organization Example
@@ -273,17 +338,17 @@ jsonld:
   property_count: 16
   slug: chalmers-university-of-technology-context
 layout: provider
-modified: '2026-06-03'
+modified: '2026-09-01'
 name: Chalmers University of Technology
 nav: Providers
 network: true
-overview: 'Chalmers University of Technology publishes 22 APIs on the [APIs.io](https://apis.io/) network, including ContractImport API, DeltaImportCplPublication API, DeltaImportProjectOrganization API, and 19 more. Tagged areas include Education, Higher Education, University, Research, and Open Data.
+overview: 'Chalmers University of Technology publishes 22 APIs on the [APIs.io](https://apis.io/) network, including ContractImport API, DeltaImportCplPublication API, DeltaImportProjectOrganization API, and 19 more. Tagged areas include Education, Higher Education, University, Technical University, and Research.
 
 
   The Chalmers University of Technology catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  Chalmers University of Technology''s developer surface includes authentication, GitHub presence, and 10 more developer resources.'
+  Chalmers University of Technology''s developer surface includes authentication, GitHub presence, API reference, and 19 more developer resources.'
 plans:
 - name: Chalmers University Of Technology Plans Pricing
   plan_count: 2
@@ -316,26 +381,27 @@ rules:
     warn: 3
   slug: chalmers-university-of-technology-rules
 score:
-  band: thin
-  composite: 37.5
+  band: developing
+  composite: 42.2
   coverage:
-    artifact_dirs: 16
+    artifact_dirs: 17
     catalog_gap: 36.5
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: 0.0
+  delta: 4.7
   facets:
-    access_clarity: 28.9
-    commercial_clarity: 28.9
+    access_clarity: 39.5
+    commercial_clarity: 39.5
     contract_governance: 13.6
-    contract_quality: 62.1
-    developer_ergonomics: 21.4
+    contract_quality: 62.0
+    developer_ergonomics: 28.6
     discoverability: 63.0
     governance: 13.6
     operational_transparency: 26.3
   previous_composite: 37.5
   provenance:
     agentic_access: derived
+    conformance: first-party
     contracts:
       callable: 100.0
       derived: 0
@@ -346,8 +412,8 @@ score:
     matched_via: tags
     regime: Education & Research
     regime_id: education
-    score: 31.5
-  schema_version: 0.17.2
+    score: 38.9
+  schema_version: 0.18.0
   scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/chalmers-university-of-technology/refs/heads/main/screenshots/chalmers-university-of-technology-2026-06-20T174208.png
@@ -365,10 +431,14 @@ tags:
 - Education
 - Higher Education
 - University
+- Technical University
 - Research
+- Research Data
 - Open Data
 - Library
 - OAI-PMH
+- Identity Federation
+- CRIS
 - Sweden
 website: https://www.chalmers.se/en/
 ---

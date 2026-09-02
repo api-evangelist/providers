@@ -207,18 +207,18 @@ overview: 'Packlink publishes 6 APIs on the [APIs.io](https://apis.io/) network,
 random_paper: 5
 score:
   band: thin
-  composite: 37.9
+  composite: 27.8
   coverage:
     artifact_dirs: 19
     catalog_gap: 75.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: 0.0
+  delta: -10.1
   facets:
     access_clarity: 21.1
     commercial_clarity: 21.1
     contract_governance: 4.5
-    contract_quality: 61.2
+    contract_quality: 21.1
     developer_ergonomics: 37.5
     discoverability: 81.5
     governance: 4.5
@@ -229,9 +229,9 @@ score:
     conformance: derived
     contracts:
       callable: 100.0
-      derived: 0
-      marker_coverage: 0.0
-      total: 6
+      derived: 7
+      marker_coverage: 100.0
+      total: 7
     mcp: derived
     skills: derived
   regulatory:
@@ -240,9 +240,9 @@ score:
     regime: Telecommunications
     regime_id: telecommunications
     score: 34.7
-  schema_version: 0.17.2
+  schema_version: 0.18.0
   scored_at: '2026-09-01'
-  trend: flat
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/packlink/refs/heads/main/screenshots/packlink-2026-08-07T191246.png
 security:
 - kind: authentication

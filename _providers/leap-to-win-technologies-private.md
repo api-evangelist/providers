@@ -123,7 +123,7 @@ score:
     regime: Insurance
     regime_id: insurance
     score: 9.1
-  schema_version: 0.17.2
+  schema_version: 0.18.0
   scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/leap-to-win-technologies-private/refs/heads/main/screenshots/leap-to-win-technologies-private-2026-07-25T224746.png

@@ -66,7 +66,6 @@ common:
   url: https://www.corpay.com/resources
 created: '2026-05-04'
 description: Corpay (formerly FLEETCOR) is a corporate payments company that provides commercial cards, accounts payable automation, cross-border payment solutions, fuel and fleet cards, and workforce travel management services. The company serves over 800,000 customers globally through its Corpay Complete spend management platform and ERP integrations. A public, openly accessible developer API portal could not be confirmed from the corporate website at the time of this review.
-image: https://avatars.githubusercontent.com/u/api-evangelist
 layout: provider
 modified: '2026-05-04'
 name: Corpay
@@ -79,20 +78,20 @@ overview: 'Corpay is profiled on the [APIs.io](https://apis.io/) network. Tagged
 random_paper: 3
 score:
   band: minimal
-  composite: 6.6
+  composite: 6.2
   coverage:
     artifact_dirs: 4
-    catalog_gap: 91.0
+    catalog_gap: 93.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: 0.0
+  delta: -0.4
   facets:
     access_clarity: 17.1
     commercial_clarity: 17.1
     contract_governance: 0.0
     contract_quality: 0.0
     developer_ergonomics: 2.4
-    discoverability: 51.9
+    discoverability: 48.1
     governance: 0.0
     operational_transparency: 0.0
   previous_composite: 6.6
@@ -102,7 +101,7 @@ score:
     regime: Payments
     regime_id: payments
     score: 15.6
-  schema_version: 0.17.2
+  schema_version: 0.18.0
   scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/corpay/refs/heads/main/screenshots/corpay-2026-06-20T175038.png

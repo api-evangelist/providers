@@ -889,7 +889,7 @@ score:
     access_clarity: 28.9
     commercial_clarity: 28.9
     contract_governance: 28.8
-    contract_quality: 21.5
+    contract_quality: 21.2
     developer_ergonomics: 40.5
     discoverability: 75.9
     governance: 28.8
@@ -899,10 +899,10 @@ score:
     agentic_access: derived
     contracts:
       callable: 100.0
-      derived: 30
+      derived: 40
       marker_coverage: 100.0
-      total: 30
-  schema_version: 0.17.2
+      total: 40
+  schema_version: 0.18.0
   scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/deliverect/refs/heads/main/screenshots/deliverect-2026-06-20T175855.png

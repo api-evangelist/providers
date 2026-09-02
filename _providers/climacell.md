@@ -90,7 +90,6 @@ common:
   url: https://github.com/Tomorrow-IO-API
 created: '2026-07-17'
 description: Climacell (styled ClimaCell) was a Boston-based weather-intelligence startup that pioneered a "Weather of Things" approach — deriving hyperlocal precipitation and atmospheric conditions from wireless-signal attenuation, connected devices, and its own proprietary numerical weather model — and exposed it through a developer-facing REST weather API. Backed by Canaan Partners among others, the company rebranded to Tomorrow.io in 2020 and its legacy climacell.co domain now 301-redirects to www.tomorrow.io. The surviving product is the Tomorrow.io v4 Weather API, which supersedes the original ClimaCell v3 API and exposes 60+ hyperlocal data layers (core weather, air quality, pollen, fire, flood, lightning, maritime, aviation, road) with realtime, forecast, historical, map-tile, and webhook-alert access. This profile is the historical ClimaCell identity; the enriched, live provider record lives in the api-evangelist tomorrow-io repository.
-image: https://www.tomorrow.io/favicon-32x32.png
 layout: provider
 modified: '2026-07-18'
 name: Climacell
@@ -103,30 +102,24 @@ overview: 'Climacell is profiled on the [APIs.io](https://apis.io/) network. Tag
 random_paper: 10
 score:
   band: emerging
-  composite: 23.7
+  composite: 23.3
   coverage:
     artifact_dirs: 5
-    catalog_gap: 88.0
+    catalog_gap: 90.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: 0.0
+  delta: -0.4
   facets:
     access_clarity: 44.7
     commercial_clarity: 44.7
     contract_governance: 0.0
     contract_quality: 0.0
     developer_ergonomics: 45.2
-    discoverability: 50.0
+    discoverability: 46.3
     governance: 0.0
     operational_transparency: 5.3
-  needs_work:
-    note: Recorded so this provider's gaps can be attributed. Does not affect the composite above.
-    owner: catalog
-    reasons:
-    - owner: catalog
-      reason: no_resolvable_host
   previous_composite: 23.7
-  schema_version: 0.17.2
+  schema_version: 0.18.0
   scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/climacell/refs/heads/main/screenshots/climacell-2026-07-25T205622.png

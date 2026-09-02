@@ -198,7 +198,7 @@ score:
     governance: 9.8
     operational_transparency: 2.6
   previous_composite: 17.3
-  schema_version: 0.17.2
+  schema_version: 0.18.0
   scored_at: '2026-09-01'
   trend: flat
 security:

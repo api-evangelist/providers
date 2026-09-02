@@ -132,7 +132,7 @@ score:
     regime: Education & Research
     regime_id: education
     score: 59.3
-  schema_version: 0.17.2
+  schema_version: 0.18.0
   scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/panorama-education/refs/heads/main/screenshots/panorama-education-2026-08-07T191335.png

@@ -233,18 +233,18 @@ overview: 'Palla publishes 7 APIs on the [APIs.io](https://apis.io/) network, in
 random_paper: 18
 score:
   band: developing
-  composite: 39.9
+  composite: 39.8
   coverage:
     artifact_dirs: 19
     catalog_gap: 75.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: 0.0
+  delta: -0.1
   facets:
     access_clarity: 36.8
     commercial_clarity: 36.8
     contract_governance: 4.5
-    contract_quality: 24.2
+    contract_quality: 23.9
     developer_ergonomics: 51.8
     discoverability: 81.5
     governance: 4.5
@@ -255,9 +255,9 @@ score:
     conformance: derived
     contracts:
       callable: 100.0
-      derived: 7
+      derived: 8
       marker_coverage: 100.0
-      total: 7
+      total: 8
     mcp: derived
     skills: derived
   regulatory:
@@ -270,7 +270,7 @@ score:
     regime: Payments
     regime_id: payments
     score: 59.4
-  schema_version: 0.17.2
+  schema_version: 0.18.0
   scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/palla/refs/heads/main/screenshots/palla-2026-08-07T191320.png

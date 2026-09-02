@@ -356,40 +356,37 @@ scopes:
   slug: x-scopes
   summary_line: 29 scopes
 score:
-  band: developing
-  composite: 48.3
+  band: strong
+  composite: 64.3
   coverage:
     artifact_dirs: 27
-    catalog_gap: 70.0
+    catalog_gap: 55.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: 0.0
+  delta: 16.0
   facets:
-    access_clarity: 57.9
-    commercial_clarity: 57.9
+    access_clarity: 73.7
+    commercial_clarity: 73.7
     contract_governance: 18.2
-    contract_quality: 21.5
+    contract_quality: 60.5
     developer_ergonomics: 73.8
     discoverability: 75.9
     governance: 18.2
-    operational_transparency: 52.6
-  needs_work:
-    note: Recorded so this provider's gaps can be attributed. Does not affect the composite above.
-    owner: catalog
-    reasons:
-    - owner: catalog
-      reason: no_resolvable_host
+    operational_transparency: 76.3
   previous_composite: 48.3
   provenance:
     agentic_access: derived
+    conformance: first-party
     contracts:
       callable: 100.0
-      derived: 3
-      marker_coverage: 100.0
-      total: 3
-  schema_version: 0.17.2
+      derived: 0
+      marker_coverage: 0.0
+      total: 23
+    mcp: first-party
+    skills: first-party
+  schema_version: 0.18.0
   scored_at: '2026-09-01'
-  trend: flat
+  trend: rising
 screenshot: https://raw.githubusercontent.com/api-evangelist/x/refs/heads/main/screenshots/x-2026-06-20T201653.png
 security:
 - kind: authentication

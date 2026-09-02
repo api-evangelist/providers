@@ -145,7 +145,7 @@ score:
     governance: 0.0
     operational_transparency: 36.8
   previous_composite: 20.2
-  schema_version: 0.17.2
+  schema_version: 0.18.0
   scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/pyspark/refs/heads/main/screenshots/pyspark-2026-06-20T192331.png

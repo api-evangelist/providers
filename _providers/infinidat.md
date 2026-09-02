@@ -185,19 +185,19 @@ overview: 'Infinidat publishes 8 APIs on the [APIs.io](https://apis.io/) network
   Infinidat''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, CLI, authentication, and 20 more developer resources.'
 random_paper: 5
 score:
-  band: developing
-  composite: 43.0
+  band: thin
+  composite: 33.4
   coverage:
     artifact_dirs: 21
     catalog_gap: 75.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: 0.0
+  delta: -9.6
   facets:
     access_clarity: 21.1
     commercial_clarity: 21.1
     contract_governance: 4.5
-    contract_quality: 59.0
+    contract_quality: 20.6
     developer_ergonomics: 68.5
     discoverability: 74.1
     governance: 4.5
@@ -207,14 +207,14 @@ score:
     conformance: derived
     contracts:
       callable: 0.0
-      derived: 0
-      marker_coverage: 0.0
-      total: 1
+      derived: 9
+      marker_coverage: 100.0
+      total: 9
     mcp: derived
     skills: derived
-  schema_version: 0.17.2
+  schema_version: 0.18.0
   scored_at: '2026-09-01'
-  trend: flat
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/infinidat/refs/heads/main/screenshots/infinidat-2026-08-07T170658.png
 security:
 - kind: authentication

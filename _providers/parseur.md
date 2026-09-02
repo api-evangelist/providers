@@ -216,18 +216,18 @@ overview: 'Parseur publishes 6 APIs on the [APIs.io](https://apis.io/) network, 
 random_paper: 14
 score:
   band: developing
-  composite: 41.3
+  composite: 41.1
   coverage:
     artifact_dirs: 7
     catalog_gap: 78.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: 0.0
+  delta: -0.2
   facets:
     access_clarity: 38.2
     commercial_clarity: 38.2
     contract_governance: 0.0
-    contract_quality: 54.3
+    contract_quality: 53.6
     developer_ergonomics: 40.5
     discoverability: 68.5
     governance: 0.0
@@ -240,7 +240,7 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 6
-  schema_version: 0.17.2
+  schema_version: 0.18.0
   scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/parseur/refs/heads/main/screenshots/parseur-2026-06-20T191421.png

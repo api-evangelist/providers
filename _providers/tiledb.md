@@ -1,9 +1,9 @@
 ---
 agent_readiness:
-  band: agent-ready
+  band: agent-aware
   dimensions:
     agent_card: false
-    agent_skills: true
+    agent_skills: derived
     agentic_access: false
     agentic_commerce: false
     auth_clarity: bearer
@@ -14,7 +14,7 @@ agent_readiness:
     error_semantics: documented
     event_surface_described: false
     idempotency: false
-    mcp_server: documented
+    mcp_server: false
     openapi_examples: partial
     protected_resource_metadata: false
     rate_limit_signal: documented
@@ -22,7 +22,7 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: true
   schema_version: 0.2
-  score: 33.3
+  score: 27.2
   scored_at: '2026-09-01'
 api_count: 2
 apis:
@@ -177,31 +177,40 @@ scopes:
   slug: tiledb-scopes
   summary_line: 3 scopes · authorizationCode
 score:
-  band: strong
-  composite: 54.4
+  band: developing
+  composite: 53.3
   coverage:
     artifact_dirs: 21
     catalog_gap: 66.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: 0.0
+  delta: -1.1
   facets:
     access_clarity: 63.2
     commercial_clarity: 63.2
     contract_governance: 18.2
     contract_quality: 38.2
-    developer_ergonomics: 78.6
+    developer_ergonomics: 73.2
     discoverability: 68.5
     governance: 18.2
     operational_transparency: 18.4
   previous_composite: 54.4
+  provenance:
+    conformance: first-party
+    contracts:
+      callable: 0.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 2
+    mcp: derived
+    skills: derived
   regulatory:
     applies: true
     matched_via: tags
     regime: Health
     regime_id: health
     score: 52.5
-  schema_version: 0.17.2
+  schema_version: 0.18.0
   scored_at: '2026-09-01'
   trend: flat
 security:

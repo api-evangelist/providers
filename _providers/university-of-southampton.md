@@ -225,32 +225,39 @@ scopes:
   summary_line: OAuth 2.0 · no documented scopes
 score:
   band: developing
-  composite: 50.7
+  composite: 40.8
   coverage:
     artifact_dirs: 17
-    catalog_gap: 35.0
+    catalog_gap: 38.8
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: 0.0
+  delta: -9.9
   facets:
     access_clarity: 60.5
     commercial_clarity: 60.5
-    contract_governance: 15.2
-    contract_quality: 54.4
+    contract_governance: 3.8
+    contract_quality: 20.2
     developer_ergonomics: 28.6
     discoverability: 74.1
-    governance: 15.2
+    governance: 3.8
     operational_transparency: 34.2
   previous_composite: 50.7
+  provenance:
+    conformance: first-party
+    contracts:
+      callable: 100.0
+      derived: 3
+      marker_coverage: 100.0
+      total: 3
   regulatory:
     applies: true
     matched_via: tags
     regime: Education & Research
     regime_id: education
     score: 64.8
-  schema_version: 0.17.2
+  schema_version: 0.18.0
   scored_at: '2026-09-01'
-  trend: flat
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/university-of-southampton/refs/heads/main/screenshots/university-of-southampton-2026-06-20T200226.png
 security:
 - kind: authentication

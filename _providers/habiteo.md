@@ -207,12 +207,12 @@ score:
     conformance: derived
     contracts:
       callable: 100.0
-      derived: 13
+      derived: 15
       marker_coverage: 100.0
-      total: 13
+      total: 15
     mcp: derived
     skills: derived
-  schema_version: 0.17.2
+  schema_version: 0.18.0
   scored_at: '2026-09-01'
   trend: flat
 security:

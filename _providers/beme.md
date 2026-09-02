@@ -106,7 +106,7 @@ score:
     applies: true
     score: 25.0
   previous_composite: 10.1
-  schema_version: 0.17.2
+  schema_version: 0.18.0
   scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/beme/refs/heads/main/screenshots/beme-2026-07-25T202726.png

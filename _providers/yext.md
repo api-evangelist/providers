@@ -332,7 +332,7 @@ score:
     access_clarity: 39.5
     commercial_clarity: 39.5
     contract_governance: 9.8
-    contract_quality: 56.8
+    contract_quality: 56.6
     developer_ergonomics: 23.8
     discoverability: 74.1
     governance: 9.8
@@ -341,11 +341,11 @@ score:
   provenance:
     agentic_access: derived
     contracts:
-      callable: 100.0
+      callable: 95.8
       derived: 0
       marker_coverage: 0.0
       total: 24
-  schema_version: 0.17.2
+  schema_version: 0.18.0
   scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/yext/refs/heads/main/screenshots/yext-2026-06-20T201740.png

@@ -836,12 +836,6 @@ score:
     discoverability: 55.6
     governance: 9.8
     operational_transparency: 36.8
-  needs_work:
-    note: Recorded so this provider's gaps can be attributed. Does not affect the composite above.
-    owner: catalog
-    reasons:
-    - owner: catalog
-      reason: no_resolvable_host
   previous_composite: 48.3
   provenance:
     agentic_access: derived
@@ -856,7 +850,7 @@ score:
     regime: Securities & Market Data
     regime_id: securities_market_data
     score: 38.3
-  schema_version: 0.17.2
+  schema_version: 0.18.0
   scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/oanda/refs/heads/main/screenshots/oanda-2026-06-20T190546.png

@@ -259,18 +259,18 @@ rules:
   slug: tsys-spectral-rules
 score:
   band: thin
-  composite: 30.7
+  composite: 31.2
   coverage:
     artifact_dirs: 19
     catalog_gap: 58.5
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: 0.0
+  delta: 0.5
   facets:
     access_clarity: 13.2
     commercial_clarity: 13.2
     contract_governance: 28.8
-    contract_quality: 57.1
+    contract_quality: 59.1
     developer_ergonomics: 21.4
     discoverability: 59.3
     governance: 28.8
@@ -279,7 +279,7 @@ score:
   provenance:
     agentic_access: derived
     contracts:
-      callable: 0.0
+      callable: 60.0
       derived: 0
       marker_coverage: 0.0
       total: 10
@@ -289,7 +289,7 @@ score:
     regime: Payments
     regime_id: payments
     score: 26.6
-  schema_version: 0.17.2
+  schema_version: 0.18.0
   scored_at: '2026-09-01'
   trend: flat
 security:

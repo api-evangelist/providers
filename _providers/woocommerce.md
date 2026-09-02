@@ -1167,7 +1167,7 @@ score:
     access_clarity: 15.8
     commercial_clarity: 15.8
     contract_governance: 28.8
-    contract_quality: 80.5
+    contract_quality: 80.7
     developer_ergonomics: 69.0
     discoverability: 61.1
     governance: 28.8
@@ -1180,7 +1180,7 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 19
-  schema_version: 0.17.2
+  schema_version: 0.18.0
   scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/woocommerce/refs/heads/main/screenshots/woocommerce-2026-06-20T201543.png

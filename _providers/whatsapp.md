@@ -833,18 +833,18 @@ rules:
   slug: whatsapp-spectral-rules
 score:
   band: developing
-  composite: 52.3
+  composite: 52.1
   coverage:
     artifact_dirs: 18
     catalog_gap: 62.5
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: 0.0
+  delta: -0.2
   facets:
     access_clarity: 44.7
     commercial_clarity: 44.7
     contract_governance: 13.6
-    contract_quality: 78.3
+    contract_quality: 77.2
     developer_ergonomics: 76.2
     discoverability: 35.2
     governance: 13.6
@@ -864,7 +864,7 @@ score:
     applies: false
     note: provider carries no tags; regime could not be determined
     undetermined: true
-  schema_version: 0.17.2
+  schema_version: 0.18.0
   scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/whatsapp/refs/heads/main/screenshots/whatsapp-2026-06-20T201434.png

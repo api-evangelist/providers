@@ -96,7 +96,7 @@ score:
     governance: 0.0
     operational_transparency: 2.6
   previous_composite: 9.4
-  schema_version: 0.17.2
+  schema_version: 0.18.0
   scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/lyst/refs/heads/main/screenshots/lyst-2026-07-25T225759.png

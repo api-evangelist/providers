@@ -252,7 +252,7 @@ score:
     access_clarity: 76.3
     commercial_clarity: 76.3
     contract_governance: 4.5
-    contract_quality: 24.5
+    contract_quality: 24.3
     developer_ergonomics: 47.0
     discoverability: 75.9
     governance: 4.5
@@ -262,9 +262,9 @@ score:
     conformance: derived
     contracts:
       callable: 100.0
-      derived: 1
+      derived: 11
       marker_coverage: 100.0
-      total: 1
+      total: 11
     mcp: derived
     skills: derived
   regulatory:
@@ -273,7 +273,7 @@ score:
     regime: Securities & Market Data
     regime_id: securities_market_data
     score: 51.7
-  schema_version: 0.17.2
+  schema_version: 0.18.0
   scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/finage/refs/heads/main/screenshots/finage-2026-06-20T181209.png

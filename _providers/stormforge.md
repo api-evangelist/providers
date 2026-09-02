@@ -171,7 +171,7 @@ score:
     governance: 9.8
     operational_transparency: 13.2
   previous_composite: 23.7
-  schema_version: 0.17.2
+  schema_version: 0.18.0
   scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/stormforge/refs/heads/main/screenshots/stormforge-2026-06-20T194605.png

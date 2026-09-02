@@ -30,7 +30,7 @@
       "access_clarity": 78.9
      },
      "scored_at": "2026-09-01",
-     "schema_version": "0.17.2",
+     "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
       "regime": "Insurance",
@@ -83,7 +83,7 @@
       "access_clarity": 42.1
      },
      "scored_at": "2026-09-01",
-     "schema_version": "0.17.2",
+     "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
       "regime": "Insurance",
@@ -132,12 +132,12 @@
      "name": "PSC Insurance",
      "slug": "psc-insurance",
      "description": "PSC Insurance is an Australian insurance broking and intermediary group operating as PSC Insurance Brokers across every Australian state and territory, with a New Zealand arm trading as PSC Broking. It places commercial and SME risk — business packages, construction and civil contracting, public liability, cyber, professional indemnity, directors and officers, management liability, commercial property and industrial special risks, strata, motor and fleet, agribusiness and livestock, workers compensation, financial lines and trade credit, and medical and allied health cover — advising clients rather than carrying underwriting risk itself. Formerly the ASX-listed PSC Insurance Group, the business now sits inside The Ardonagh Group's Australian distribution platform; its former corporate domain pscinsurancegroup.com.au 301-redirects to envest.com.au, and the broking site's security.txt names an @envest.com.au contact. Its API posture is honestly assessed as none. There is no public developer portal, no self-serve API, no published OpenAPI or Swagger definition, no GraphQL surface, no Postman collection, no SDK, no webhook catalog, and no ACORD, AL3, IVANS or agency-download reference anywhere on its public estate. Two machine-facing surfaces are confirmed live and neither is documented by PSC — an Auth0-hosted OpenID Connect identity endpoint at login.pscinsurance.com.au fronting a client/broker login wall, and the Sanity Content Lake dataset behind the marketing site, whose GROQ query, document, export and real-time listen endpoints all answer anonymously. Both are vendor infrastructure under PSC tenancy, not developer products. This matches the Australian market seam — the Consumer Data Right that opened banking and energy was designated for general insurance and then deferred, so no forcing function ever reached brokers, and integration here remains partner-gated and broker-platform mediated.",
-     "score": 37.2,
+     "score": 36.9,
      "band": "thin",
      "band_label": "Thin",
      "facets": {
       "discoverability": 61.1,
-      "contract_quality": 42.7,
+      "contract_quality": 41.6,
       "governance": 18.2,
       "contract_governance": 18.2,
       "operational_transparency": 5.3,
@@ -146,7 +146,7 @@
       "access_clarity": 28.9
      },
      "scored_at": "2026-09-01",
-     "schema_version": "0.17.2",
+     "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
       "regime": "Insurance",
@@ -199,7 +199,7 @@
       "access_clarity": 28.9
      },
      "scored_at": "2026-09-01",
-     "schema_version": "0.17.2",
+     "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
       "regime": "Insurance",
@@ -238,12 +238,12 @@
      "slug": "codafication",
      "description": "Codafication is a Brisbane, Australia insurtech founded in 2015 by Daniel Sandaver and Drew Butler out of a property claims and repair construction business, building software for the general insurance claims supply chain rather than for underwriting or policy administration. Its three products are Crunchwork, a cloud claims and project management platform that acts as a control tower across insurers, assessors, builders, restorers and trades (tasks and workflow, report writer, quotes and variations, catalog, asset manager, purchase orders, invoices, finance, analytics, vendor manager, zones, tenants and teams, and Pulse); Virtual Assist, a real-time video streaming and virtual assessment tool used for remote triage of property claims; and Unity Cloud, the GraphQL data, extension and integration platform the other two products are built on. Unity Cloud does publish a public developer reference at docs.unitycloud.io - the Unity Platform SDK documentation - covering the Portal SDK (React), the Node.js Unity SDK, the GraphQL client, setQueries and setMutations, GraphQL links and type extensions, public and private REST endpoints served under a tenant Cloud domain, GraphQL-payload webhooks, before/after logic hooks, and the Twilio, SendGrid and Bitly platform services. Authentication is Auth0-backed (SAML 2.0 and Active Directory connections) with tenant-scoped role-based access control, plus Unity API tokens issued from the in-product Developer Portal and pre-shared extension secrets. What is missing is the self-serve layer: no OpenAPI or AsyncAPI definition, no public GraphQL introspection endpoint, no Postman collection, no public npm distribution of the SDKs, no status page and no self-serve signup - access runs through named enterprise engagements. Customers and partners include Insurance Australia Group (IAG, announced December 2025), Suncorp, Urban Utilities and the Australian Building and Construction Group, alongside a Guidewire partnership and SOC 2 Type II certification attained in January 2026. Australia has no live open-insurance obligation - the Consumer Data Right was designated to extend to general insurance and then deferred - so nothing forces this platform to open further than it already has.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/codafication/refs/heads/main/screenshots/codafication-2026-07-25T205858.png",
-     "score": 36.0,
+     "score": 35.7,
      "band": "thin",
      "band_label": "Thin",
      "facets": {
       "discoverability": 66.7,
-      "contract_quality": 42.7,
+      "contract_quality": 41.6,
       "governance": 18.2,
       "contract_governance": 18.2,
       "operational_transparency": 10.5,
@@ -252,7 +252,7 @@
       "access_clarity": 7.9
      },
      "scored_at": "2026-09-01",
-     "schema_version": "0.17.2",
+     "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
       "regime": "Insurance",
@@ -304,7 +304,7 @@
       "access_clarity": 27.6
      },
      "scored_at": "2026-09-01",
-     "schema_version": "0.17.2",
+     "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
       "regime": "Insurance",
@@ -357,7 +357,7 @@
       "access_clarity": 34.2
      },
      "scored_at": "2026-09-01",
-     "schema_version": "0.17.2",
+     "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
       "regime": "Insurance",
@@ -410,7 +410,7 @@
       "access_clarity": 28.9
      },
      "scored_at": "2026-09-01",
-     "schema_version": "0.17.2",
+     "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
       "regime": "Insurance",
@@ -462,7 +462,7 @@
       "access_clarity": 57.1
      },
      "scored_at": "2026-09-01",
-     "schema_version": "0.17.2",
+     "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
       "regime": "Insurance",
@@ -525,7 +525,7 @@
       "access_clarity": 35.5
      },
      "scored_at": "2026-09-01",
-     "schema_version": "0.17.2",
+     "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
       "regime": "Insurance",
@@ -578,7 +578,7 @@
       "access_clarity": 27.6
      },
      "scored_at": "2026-09-01",
-     "schema_version": "0.17.2",
+     "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
       "regime": "Insurance",
@@ -631,7 +631,7 @@
       "access_clarity": 13.2
      },
      "scored_at": "2026-09-01",
-     "schema_version": "0.17.2",
+     "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
       "regime": "Insurance",
@@ -684,7 +684,7 @@
       "access_clarity": 34.2
      },
      "scored_at": "2026-09-01",
-     "schema_version": "0.17.2",
+     "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
       "regime": "Insurance",
@@ -736,7 +736,7 @@
       "access_clarity": 42.1
      },
      "scored_at": "2026-09-01",
-     "schema_version": "0.17.2",
+     "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
       "regime": "Insurance",
@@ -788,7 +788,7 @@
       "access_clarity": 17.1
      },
      "scored_at": "2026-09-01",
-     "schema_version": "0.17.2",
+     "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
       "regime": "Insurance",
@@ -841,7 +841,7 @@
       "access_clarity": 34.2
      },
      "scored_at": "2026-09-01",
-     "schema_version": "0.17.2",
+     "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
       "regime": "Insurance",
@@ -894,7 +894,7 @@
       "access_clarity": 35.5
      },
      "scored_at": "2026-09-01",
-     "schema_version": "0.17.2",
+     "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
       "regime": "Insurance",
@@ -957,7 +957,7 @@
       "access_clarity": 0.0
      },
      "scored_at": "2026-09-01",
-     "schema_version": "0.17.2",
+     "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
       "regime": "Insurance",
@@ -1009,7 +1009,7 @@
       "access_clarity": 0.0
      },
      "scored_at": "2026-09-01",
-     "schema_version": "0.17.2",
+     "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
       "regime": "Insurance",
@@ -1062,7 +1062,7 @@
       "access_clarity": 0.0
      },
      "scored_at": "2026-09-01",
-     "schema_version": "0.17.2",
+     "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
       "regime": "Insurance",

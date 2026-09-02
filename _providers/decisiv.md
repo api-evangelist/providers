@@ -487,7 +487,7 @@ score:
     access_clarity: 50.0
     commercial_clarity: 50.0
     contract_governance: 4.5
-    contract_quality: 61.7
+    contract_quality: 61.8
     developer_ergonomics: 56.5
     discoverability: 50.0
     governance: 4.5
@@ -497,12 +497,12 @@ score:
     agentic_access: derived
     conformance: derived
     contracts:
-      callable: 66.7
+      callable: 94.2
       derived: 0
       marker_coverage: 0.0
-      total: 6
+      total: 69
     skills: derived
-  schema_version: 0.17.2
+  schema_version: 0.18.0
   scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/decisiv/refs/heads/main/screenshots/decisiv-2026-08-17T080849.png

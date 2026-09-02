@@ -633,18 +633,18 @@ scopes:
   summary_line: 1 scope · clientCredentials
 score:
   band: exemplar
-  composite: 69.1
+  composite: 74.4
   coverage:
     artifact_dirs: 32
-    catalog_gap: 53.5
+    catalog_gap: 44.5
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: 0.0
+  delta: 5.3
   facets:
-    access_clarity: 76.3
-    commercial_clarity: 76.3
+    access_clarity: 100.0
+    commercial_clarity: 100.0
     contract_governance: 47.0
-    contract_quality: 70.8
+    contract_quality: 72.9
     developer_ergonomics: 73.8
     discoverability: 72.2
     governance: 47.0
@@ -652,14 +652,17 @@ score:
   previous_composite: 69.1
   provenance:
     agentic_access: derived
+    conformance: first-party
     contracts:
-      callable: 0.0
+      callable: 90.0
       derived: 0
       marker_coverage: 0.0
-      total: 19
-  schema_version: 0.17.2
+      total: 20
+    mcp: first-party
+    skills: first-party
+  schema_version: 0.18.0
   scored_at: '2026-09-01'
-  trend: flat
+  trend: rising
 screenshot: https://raw.githubusercontent.com/api-evangelist/acquia/refs/heads/main/screenshots/acquia-2026-06-20T163944.png
 security:
 - kind: authentication

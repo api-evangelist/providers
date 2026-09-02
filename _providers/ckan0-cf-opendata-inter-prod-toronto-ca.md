@@ -119,7 +119,7 @@ score:
     regime: Government & Public Sector
     regime_id: government
     score: 11.1
-  schema_version: 0.17.2
+  schema_version: 0.18.0
   scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/ckan0-cf-opendata-inter-prod-toronto-ca/refs/heads/main/screenshots/ckan0-cf-opendata-inter-prod-toronto-ca-2026-06-20T174434.png

@@ -240,19 +240,19 @@ rules:
     warn: 2
   slug: wageningen-university-research-rules
 score:
-  band: strong
-  composite: 57.6
+  band: developing
+  composite: 46.7
   coverage:
     artifact_dirs: 17
     catalog_gap: 43.8
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: 0.0
+  delta: -10.9
   facets:
     access_clarity: 63.2
     commercial_clarity: 63.2
     contract_governance: 28.0
-    contract_quality: 69.7
+    contract_quality: 26.0
     developer_ergonomics: 38.1
     discoverability: 64.8
     governance: 28.0
@@ -260,20 +260,21 @@ score:
   previous_composite: 57.6
   provenance:
     agentic_access: derived
+    conformance: first-party
     contracts:
       callable: 100.0
-      derived: 0
-      marker_coverage: 0.0
-      total: 5
+      derived: 5
+      marker_coverage: 100.0
+      total: 6
   regulatory:
     applies: true
     matched_via: tags
     regime: Education & Research
     regime_id: education
     score: 72.2
-  schema_version: 0.17.2
+  schema_version: 0.18.0
   scored_at: '2026-09-01'
-  trend: flat
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/wageningen-university-research/refs/heads/main/screenshots/wageningen-university-research-2026-06-20T201159.png
 security:
 - kind: authentication

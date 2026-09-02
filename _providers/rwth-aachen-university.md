@@ -518,18 +518,18 @@ rules:
   slug: rwth-aachen-university-rules
 score:
   band: developing
-  composite: 48.8
+  composite: 49.2
   coverage:
     artifact_dirs: 17
     catalog_gap: 50.8
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: 0.0
+  delta: 0.4
   facets:
     access_clarity: 50.0
     commercial_clarity: 50.0
     contract_governance: 9.8
-    contract_quality: 62.5
+    contract_quality: 64.0
     developer_ergonomics: 42.9
     discoverability: 55.6
     governance: 9.8
@@ -537,6 +537,7 @@ score:
   previous_composite: 48.8
   provenance:
     agentic_access: derived
+    conformance: first-party
     contracts:
       callable: 100.0
       derived: 0
@@ -548,7 +549,7 @@ score:
     regime: Education & Research
     regime_id: education
     score: 57.4
-  schema_version: 0.17.2
+  schema_version: 0.18.0
   scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/rwth-aachen-university/refs/heads/main/screenshots/rwth-aachen-university-2026-06-20T193306.png

@@ -225,30 +225,37 @@ rate_limits:
   slug: aalto-rate-limits
 score:
   band: developing
-  composite: 41.6
+  composite: 42.2
   coverage:
     artifact_dirs: 13
     catalog_gap: 52.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: 0.0
+  delta: 0.6
   facets:
     access_clarity: 52.6
     commercial_clarity: 52.6
     contract_governance: 0.0
-    contract_quality: 52.5
+    contract_quality: 54.7
     developer_ergonomics: 38.1
     discoverability: 55.6
     governance: 0.0
     operational_transparency: 23.7
   previous_composite: 41.6
+  provenance:
+    conformance: first-party
+    contracts:
+      callable: 60.0
+      derived: 0
+      marker_coverage: 100.0
+      total: 5
   regulatory:
     applies: true
     matched_via: tags
     regime: Education & Research
     regime_id: education
     score: 38.9
-  schema_version: 0.17.2
+  schema_version: 0.18.0
   scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/aalto/refs/heads/main/screenshots/aalto-2026-06-20T162945.png

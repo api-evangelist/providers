@@ -280,7 +280,6 @@ finops:
 - name: Department Of Veterans Affairs Finops
   service_category: Public-Sector / Government API
   slug: department-of-veterans-affairs-finops
-image: https://kinlane-productions2.s3.amazonaws.com/apis-json-icons/apis-json.png
 json_schemas:
 - name: VA Appeal
   property_count: 3
@@ -351,20 +350,20 @@ scopes:
   summary_line: 3 scopes · authorizationCode
 score:
   band: thin
-  composite: 36.4
+  composite: 36.0
   coverage:
     artifact_dirs: 17
-    catalog_gap: 62.8
+    catalog_gap: 64.8
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: 0.0
+  delta: -0.4
   facets:
     access_clarity: 13.2
     commercial_clarity: 13.2
     contract_governance: 9.8
     contract_quality: 64.5
     developer_ergonomics: 28.6
-    discoverability: 50.0
+    discoverability: 46.3
     governance: 9.8
     operational_transparency: 7.9
   previous_composite: 36.4
@@ -381,7 +380,7 @@ score:
     regime: Health
     regime_id: health
     score: 50.0
-  schema_version: 0.17.2
+  schema_version: 0.18.0
   scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/department-of-veterans-affairs/refs/heads/main/screenshots/department-of-veterans-affairs-2026-06-20T175926.png

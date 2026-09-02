@@ -236,18 +236,18 @@ scopes:
   summary_line: 21 scopes · authorizationCode/clientCredentials
 score:
   band: developing
-  composite: 53.7
+  composite: 53.6
   coverage:
     artifact_dirs: 23
     catalog_gap: 66.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: 0.0
+  delta: -0.1
   facets:
     access_clarity: 34.2
     commercial_clarity: 34.2
     contract_governance: 18.2
-    contract_quality: 22.2
+    contract_quality: 21.9
     developer_ergonomics: 82.7
     discoverability: 68.5
     governance: 18.2
@@ -258,9 +258,9 @@ score:
     conformance: first-party
     contracts:
       callable: 0.0
-      derived: 1
+      derived: 4
       marker_coverage: 100.0
-      total: 1
+      total: 4
     skills: derived
   regulatory:
     applies: true
@@ -268,7 +268,7 @@ score:
     regime: Energy & Utilities
     regime_id: energy_utilities
     score: 64.9
-  schema_version: 0.17.2
+  schema_version: 0.18.0
   scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/pge/refs/heads/main/screenshots/pge-2026-08-17T081205.png

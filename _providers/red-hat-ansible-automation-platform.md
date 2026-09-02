@@ -13,7 +13,7 @@ agent_readiness:
   band: agent-ready
   dimensions:
     agent_card: false
-    agent_skills: true
+    agent_skills: derived
     agentic_access: false
     agentic_commerce: false
     auth_clarity: bearer
@@ -22,7 +22,7 @@ agent_readiness:
     dry_run_mode: false
     dynamic_client_registration: false
     error_semantics: documented
-    event_surface_described: true
+    event_surface_described: derived
     idempotency: false
     mcp_server: documented
     openapi_examples: partial
@@ -32,7 +32,7 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 36.9
+  score: 31.0
   scored_at: '2026-09-01'
 api_count: 7
 apis:
@@ -292,24 +292,33 @@ scopes:
   summary_line: 3 scopes · authorizationCode/password
 score:
   band: strong
-  composite: 60.0
+  composite: 61.9
   coverage:
     artifact_dirs: 24
-    catalog_gap: 70.0
+    catalog_gap: 64.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: 0.0
+  delta: 1.9
   facets:
-    access_clarity: 60.5
-    commercial_clarity: 60.5
+    access_clarity: 76.3
+    commercial_clarity: 76.3
     contract_governance: 18.2
-    contract_quality: 50.2
-    developer_ergonomics: 85.7
+    contract_quality: 49.6
+    developer_ergonomics: 80.4
     discoverability: 81.5
     governance: 18.2
     operational_transparency: 60.5
   previous_composite: 60.0
-  schema_version: 0.17.2
+  provenance:
+    conformance: first-party
+    contracts:
+      callable: 0.0
+      derived: 0
+      marker_coverage: 16.7
+      total: 6
+    mcp: first-party
+    skills: derived
+  schema_version: 0.18.0
   scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/red-hat-ansible-automation-platform/refs/heads/main/screenshots/red-hat-ansible-automation-platform-2026-06-20T192716.png

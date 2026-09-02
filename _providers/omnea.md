@@ -139,7 +139,7 @@ score:
   previous_composite: 19.5
   provenance:
     mcp: first-party
-  schema_version: 0.17.2
+  schema_version: 0.18.0
   scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/omnea/refs/heads/main/screenshots/omnea-2026-08-07T190143.png

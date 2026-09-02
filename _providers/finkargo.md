@@ -114,7 +114,7 @@ score:
     regime: Insurance
     regime_id: insurance
     score: 21.2
-  schema_version: 0.17.2
+  schema_version: 0.18.0
   scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/finkargo/refs/heads/main/screenshots/finkargo-2026-07-25T214525.png

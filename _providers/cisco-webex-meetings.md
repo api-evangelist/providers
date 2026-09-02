@@ -249,7 +249,7 @@ score:
     access_clarity: 26.3
     commercial_clarity: 26.3
     contract_governance: 45.5
-    contract_quality: 21.4
+    contract_quality: 21.1
     developer_ergonomics: 57.1
     discoverability: 59.3
     governance: 45.5
@@ -262,7 +262,7 @@ score:
       derived: 4
       marker_coverage: 100.0
       total: 4
-  schema_version: 0.17.2
+  schema_version: 0.18.0
   scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/cisco-webex-meetings/refs/heads/main/screenshots/cisco-webex-meetings-2026-06-20T174406.png

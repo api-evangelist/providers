@@ -244,8 +244,8 @@ score:
       callable: 100.0
       derived: 0
       marker_coverage: 0.0
-      total: 10
-  schema_version: 0.17.2
+      total: 11
+  schema_version: 0.18.0
   scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/microsoft-power-bi/refs/heads/main/screenshots/microsoft-power-bi-2026-06-20T185523.png

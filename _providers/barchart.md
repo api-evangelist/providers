@@ -380,7 +380,7 @@ score:
       callable: 100.0
       derived: 0
       marker_coverage: 0.0
-      total: 12
+      total: 21
     mcp: derived
     skills: derived
   regulatory:
@@ -389,7 +389,7 @@ score:
     regime: Securities & Market Data
     regime_id: securities_market_data
     score: 51.7
-  schema_version: 0.17.2
+  schema_version: 0.18.0
   scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/barchart/refs/heads/main/screenshots/barchart-2026-08-17T122638.png

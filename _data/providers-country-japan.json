@@ -16,12 +16,12 @@
      "slug": "payjp",
      "description": "PAY.JP is an online payment service operated by PAY, Inc. (PAY株式会社) in Japan. Its Stripe-style REST API lets merchants create charges, tokenize cards, manage customers, run subscriptions (定期課金), and settle transfers (入金) in Japanese yen, with a Platform API (beta) for marketplace/multi-tenant payouts.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/payjp/refs/heads/main/screenshots/payjp-2026-08-07T191639.png",
-     "score": 78.0,
+     "score": 77.8,
      "band": "exemplar",
      "band_label": "Exemplar",
      "facets": {
       "discoverability": 75.9,
-      "contract_quality": 60.8,
+      "contract_quality": 60.0,
       "governance": 18.2,
       "contract_governance": 18.2,
       "operational_transparency": 81.6,
@@ -30,7 +30,7 @@
       "access_clarity": 100.0
      },
      "scored_at": "2026-09-01",
-     "schema_version": "0.17.2",
+     "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
       "regime": "Payments",
@@ -68,12 +68,12 @@
      "slug": "line",
      "description": "LINE is a Japan-based messaging platform operated by LY Corporation, with over 200 million monthly active users across Japan, Taiwan, Thailand and Indonesia, offering messaging, payments, news and a broad ecosystem of services. The LINE Developers platform exposes public APIs for building chatbots and Official Accounts (Messaging API), issuing and rotating credentials (Channel Access Token API), reading delivery and audience analytics (Insight API), building marketing audiences (Manage Audience API), running web apps inside the LINE client (LIFF), and social login via LINE Login v2.1 over OAuth 2.0 and OpenID Connect. LINE publishes nine first-party OpenAPI documents covering 111 operations at github.com/line/line-openapi and generates all six official server SDKs from them. Server API calls authenticate with a channel access token presented as an HTTP Bearer credential and scoped to a single LINE channel.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/line/refs/heads/main/screenshots/line-2026-06-20T184539.png",
-     "score": 69.5,
+     "score": 69.8,
      "band": "exemplar",
      "band_label": "Exemplar",
      "facets": {
       "discoverability": 81.5,
-      "contract_quality": 57.0,
+      "contract_quality": 58.0,
       "governance": 31.8,
       "contract_governance": 31.8,
       "operational_transparency": 92.1,
@@ -82,7 +82,7 @@
       "access_clarity": 76.3
      },
      "scored_at": "2026-09-01",
-     "schema_version": "0.17.2",
+     "schema_version": "0.18.0",
      "agent_score": 43.2,
      "agent_band": "agent-native",
      "agent_dims": {
@@ -124,12 +124,12 @@
      "slug": "kufu",
      "description": "KUFU, Inc. is the founding name of SmartHR, Inc., the Japanese cloud HR platform, and remains the company's GitHub organization identity. SmartHR is a system of record for employee data across Japanese back-office HR — hiring and onboarding, social insurance and labour paperwork, family and dependent records, organizational structure, payslips, and withholding tax slips. The SmartHR API is a tenant-scoped REST API on a per-customer subdomain, described by a live Swagger 2.0 document covering 60 paths and 120 operations, and is offered free to existing SmartHR customers. It ships a webhook event surface, an application-gated sandbox on a separate domain, and an open-source React component library, but no official client SDK.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/kufu/refs/heads/main/screenshots/kufu-2026-07-25T224324.png",
-     "score": 57.5,
+     "score": 57.3,
      "band": "strong",
      "band_label": "Strong",
      "facets": {
       "discoverability": 75.9,
-      "contract_quality": 56.1,
+      "contract_quality": 55.4,
       "governance": 4.5,
       "contract_governance": 4.5,
       "operational_transparency": 36.8,
@@ -138,7 +138,7 @@
       "access_clarity": 60.5
      },
      "scored_at": "2026-09-01",
-     "schema_version": "0.17.2",
+     "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
       "regime": "Insurance",
@@ -179,8 +179,8 @@
    "label": "Developing",
    "range": "39.3 – 54.2",
    "blurb": "Real signal across most facets with visible, nameable gaps.",
-   "count": 10,
-   "shown": 10,
+   "count": 9,
+   "shown": 9,
    "providers": [
     {
      "name": "JPX (Japan Exchange Group)",
@@ -201,7 +201,7 @@
       "access_clarity": 76.3
      },
      "scored_at": "2026-09-01",
-     "schema_version": "0.17.2",
+     "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
       "regime": "Securities & Market Data",
@@ -235,50 +235,6 @@
      "rank": 4
     },
     {
-     "name": "SUPER STUDIO",
-     "slug": "super-studio",
-     "description": "SUPER STUDIO (株式会社SUPER STUDIO) is a Tokyo-based commerce software company founded in 2014 that builds \"ecforce\", an AI commerce platform used by Japanese D2C and subscription brands for storefronts, order management, subscriptions, CRM, marketing automation and BI. The platform is multi-tenant and API-integrable: ecforce exposes a versioned REST admin/customer API (v2, JSON:API shaped, token authenticated) on each merchant's own shop host, a webhook surface signalled with an x-ecf-event header, and — since August 2026 — an OAuth-protected remote MCP server under agent.ec-force.com that lets external AI tools such as Claude Code, Cursor and the ChatGPT app read ecforce order and product data and drive ecforce bi, ma and AIdp. SUPER STUDIO also publishes first-party npm packages for the ecforce AI Agent (server SDK and React chat UI) and the \"albers\" design system. The API reference itself sits behind HTTP Basic auth at apidoc.ec-force.com and API integration is a paid contract option.",
-     "score": 53.1,
-     "band": "developing",
-     "band_label": "Developing",
-     "facets": {
-      "discoverability": 81.5,
-      "contract_quality": 42.7,
-      "governance": 18.2,
-      "contract_governance": 18.2,
-      "operational_transparency": 26.3,
-      "developer_ergonomics": 51.2,
-      "commercial_clarity": 92.1,
-      "access_clarity": 92.1
-     },
-     "scored_at": "2026-09-01",
-     "schema_version": "0.17.2",
-     "agent_score": 41.2,
-     "agent_band": "agent-ready",
-     "agent_dims": {
-      "spec_presence": true,
-      "agentic_access": false,
-      "reversibility_documented": false,
-      "mcp_server": "documented",
-      "auth_clarity": "served",
-      "idempotency": false,
-      "error_semantics": "documented",
-      "openapi_examples": false,
-      "rate_limit_signal": "documented",
-      "event_surface_described": true,
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false,
-      "delegated_identity": "served",
-      "protected_resource_metadata": false,
-      "dynamic_client_registration": true,
-      "agentic_commerce": false
-     },
-     "rank": 5
-    },
-    {
      "name": "Soracom",
      "slug": "soracom",
      "description": "Soracom is a global IoT cellular connectivity and platform provider headquartered in Tokyo, founded in 2014, with regional operations in the US (Soracom Global) and EU. The platform pairs multicarrier SIMs (physical, eSIM, iSIM) across 170+ countries with a deep platform of cloud integration services (Beam, Funnel, Funk), data services (Harvest, Lagoon, Query, Orbit), device management (Inventory, Krypton, Endorse, Napter), and network gateways (VPG / Canal / Direct / Door / Gate / Junction / Peek). Soracom exposes the entire stack through a coverage-aware REST API documented at users.soracom.io and maintained as a public OpenAPI 3.0 specification in the soracom-cli GitHub repo.",
@@ -297,7 +253,7 @@
       "access_clarity": 56.6
      },
      "scored_at": "2026-09-01",
-     "schema_version": "0.17.2",
+     "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
       "regime": "Telecommunications",
@@ -328,70 +284,62 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 6
+     "rank": 5
     },
     {
-     "name": "Tokyo Institute of Technology",
-     "slug": "tokyo-institute-of-technology",
-     "description": "Tokyo Institute of Technology (Tokyo Tech / Titech) was Japan's leading national institute of technology and ranked #76 in the QS World University Rankings 2025. On 2024-10-01 it merged with Tokyo Medical and Dental University to form the Institute of Science Tokyo (Science Tokyo); the corporate web presence moved to isct.ac.jp while most academic and service systems still run on titech.ac.jp. Its institution-operated programmable footprint is small and, as of 2026-08-30, shrinking. There is no developer portal, no public REST API, no open-data portal and no OAuth or OpenID Connect surface anywhere on its domains. What the institution genuinely operates and we verified live is two protocol endpoints: the T2R2 research repository's OAI-PMH 2.0 harvesting interface (oai_dc and junii2), and a Shibboleth/SAML 2.0 Identity Provider registered in GakuNin, Japan's national academic access management federation. The first is being switched off — the operator published a discontinuation schedule on 2026-07-22 that ended T2R2 search on 2026-08-20 and ends T2R2 registration on 2026-10-01, moving full text to the Science Tokyo Repository on JAIRO Cloud, which is a TENANT surface run by NII and JPCOAR rather than by the university. The library discovery layer, the syllabus system, the STRDB researcher database and the TSUBAME4 supercomputer service are all real institution-run systems with human interfaces only — none of them publishes a machine-readable contract.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/tokyo-institute-of-technology/refs/heads/main/screenshots/tokyo-institute-of-technology-2026-06-20T195440.png",
-     "score": 48.5,
+     "name": "SUPER STUDIO",
+     "slug": "super-studio",
+     "description": "SUPER STUDIO (株式会社SUPER STUDIO) is a Tokyo-based commerce software company founded in 2014 that builds \"ecforce\", an AI commerce platform used by Japanese D2C and subscription brands for storefronts, order management, subscriptions, CRM, marketing automation and BI. The platform is multi-tenant and API-integrable: ecforce exposes a versioned REST admin/customer API (v2, JSON:API shaped, token authenticated) on each merchant's own shop host, a webhook surface signalled with an x-ecf-event header, and — since August 2026 — an OAuth-protected remote MCP server under agent.ec-force.com that lets external AI tools such as Claude Code, Cursor and the ChatGPT app read ecforce order and product data and drive ecforce bi, ma and AIdp. SUPER STUDIO also publishes first-party npm packages for the ecforce AI Agent (server SDK and React chat UI) and the \"albers\" design system. The API reference itself sits behind HTTP Basic auth at apidoc.ec-force.com and API integration is a paid contract option.",
+     "score": 51.2,
      "band": "developing",
      "band_label": "Developing",
      "facets": {
-      "discoverability": 68.5,
-      "contract_quality": 55.1,
-      "governance": 18.2,
-      "contract_governance": 18.2,
-      "operational_transparency": 23.7,
-      "developer_ergonomics": 38.1,
-      "commercial_clarity": 50.0,
-      "access_clarity": 50.0
+      "discoverability": 81.5,
+      "contract_quality": 41.6,
+      "governance": 4.5,
+      "contract_governance": 4.5,
+      "operational_transparency": 26.3,
+      "developer_ergonomics": 51.2,
+      "commercial_clarity": 92.1,
+      "access_clarity": 92.1
      },
      "scored_at": "2026-09-01",
-     "schema_version": "0.17.2",
-     "regulatory": {
-      "applies": true,
-      "regime": "Education & Research",
-      "regime_id": "education",
-      "score": 61.1,
-      "matched_via": "tags"
-     },
-     "agent_score": 22.1,
-     "agent_band": "agent-aware",
+     "schema_version": "0.18.0",
+     "agent_score": 41.2,
+     "agent_band": "agent-ready",
      "agent_dims": {
       "spec_presence": true,
       "agentic_access": false,
       "reversibility_documented": false,
-      "mcp_server": false,
-      "auth_clarity": "bearer",
+      "mcp_server": "documented",
+      "auth_clarity": "served",
       "idempotency": false,
       "error_semantics": "documented",
-      "openapi_examples": "documented",
+      "openapi_examples": false,
       "rate_limit_signal": "documented",
-      "event_surface_described": false,
+      "event_surface_described": true,
       "agent_skills": false,
       "well_known_catalog": false,
       "consent_identity": false,
       "agent_card": false,
       "dry_run_mode": false,
-      "delegated_identity": false,
+      "delegated_identity": "served",
       "protected_resource_metadata": false,
-      "dynamic_client_registration": false,
+      "dynamic_client_registration": true,
       "agentic_commerce": false
      },
-     "rank": 7
+     "rank": 6
     },
     {
      "name": "MeetsMore",
      "slug": "meetsmore",
      "description": "MeetsMore Inc. (株式会社ミツモア) operates Japan's largest local-services marketplace, matching consumers and businesses with vetted professionals across 600+ categories — house cleaning, appliance installation, moving, renovation, pest control, photography, tax accountants and administrative scriveners — alongside ProOne, a cloud operations system for short-term construction contractors, and Hatchoo, an enterprise procurement platform built on the same contractor network. Founded February 2017 and headquartered in Ginza, Tokyo, the company reports 77,000+ registered service providers and passed a cumulative five million service requests in 2024. MeetsMore runs no public developer program for the marketplace itself and its production backend (api.meetsmore.com) is a closed AWS API Gateway; its public API surface is instead two first-party open-source products published from its own GitHub organization — Nittei, a self-hosted Rust calendar/scheduler API server with a utoipa-generated OpenAPI document, and use-ai, an AG-UI/MCP React framework distributed as four npm packages.",
-     "score": 47.9,
+     "score": 47.6,
      "band": "developing",
      "band_label": "Developing",
      "facets": {
       "discoverability": 68.5,
-      "contract_quality": 42.7,
+      "contract_quality": 41.6,
       "governance": 18.2,
       "contract_governance": 18.2,
       "operational_transparency": 26.3,
@@ -400,7 +348,7 @@
       "access_clarity": 76.3
      },
      "scored_at": "2026-09-01",
-     "schema_version": "0.17.2",
+     "schema_version": "0.18.0",
      "agent_score": 28.6,
      "agent_band": "agent-ready",
      "agent_dims": {
@@ -424,19 +372,19 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 8
+     "rank": 7
     },
     {
      "name": "University of Tokyo",
      "slug": "university-of-tokyo",
      "description": "The University of Tokyo (東京大学, UTokyo) is Japan's oldest and largest national research university, founded in 1877, and ranks 28th in the QS World University Rankings. Like almost every institution in this cohort it operates no developer program: there is no API key, no OAuth server, no course or student-information API, no status page, and no OpenAPI, AsyncAPI or GraphQL schema on any host it owns. What it does operate — entirely on its own domain, with no vendor tenancy anywhere in the picture — is library and digital-humanities infrastructure, and that infrastructure is real and standards-conformant rather than nominal. Two OAI-PMH 2.0 endpoints answer live: the UTokyo Repository (self-hosted WEKO3, 69,549 records, seven metadata formats including JPCOAR 2.0 and DDI Codebook) and the Academic Assets Archives Portal (1,957 sets, thirteen years of persistent-deletion metadata). The Archives Portal also serves IIIF Presentation 2.1 manifests, a IIIF Image API 2.0 level2 service on iiif.dl.itc.u-tokyo.ac.jp, and DC-NDL item metadata as JSON-LD, CSV and refer/BibIX. The repository additionally exposes an undocumented but fully live JSON records interface. Beyond the library, the university operates three Shibboleth SAML 2.0 entities registered in GakuNin, Japan's academic access federation — the identity layer is the largest piece of machine-readable engineering the institution actually owns, and it is the piece that never appears in an API catalog. Two honest caveats define this profile: the only API documentation the university publishes exists in Japanese only, so an English-language survey finds nothing here at all; and the documented search API returns HTTP 403 to every external automated client, so it is blocked rather than absent.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/university-of-tokyo/refs/heads/main/screenshots/university-of-tokyo-2026-06-20T200308.png",
-     "score": 43.6,
+     "score": 45.1,
      "band": "developing",
      "band_label": "Developing",
      "facets": {
       "discoverability": 74.1,
-      "contract_quality": 51.9,
+      "contract_quality": 58.9,
       "governance": 22.0,
       "contract_governance": 22.0,
       "operational_transparency": 34.2,
@@ -445,7 +393,7 @@
       "access_clarity": 44.7
      },
      "scored_at": "2026-09-01",
-     "schema_version": "0.17.2",
+     "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
       "regime": "Education & Research",
@@ -476,19 +424,19 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 9
+     "rank": 8
     },
     {
      "name": "Kyoto University",
      "slug": "kyoto",
      "description": "Kyoto University (京都大学) is a national research university in Kyoto, Japan, established in 1897 and ranked #36 in the QS World University Rankings. It operates no developer portal, no API gateway, no API terms of service and no OpenAPI of its own, and this profile records that plainly. What it does run, on its own hosts and its own network, is a small set of genuinely institution-operated machine-readable surfaces: KURENAI, the Kyoto University Research Information Repository, a self-hosted DSpace 7.6 with an anonymous HAL+JSON REST API and an OAI-PMH 2.0 endpoint serving 15 metadata formats including JPCOAR and junii2, holding content back to 2006; PandA, the university's Sakai Learning Support System, whose Entity Broker answers JSON on 53 registered entity prefixes and which is a live IMS LTI 1.3 platform publishing its own signing keyset alongside a working LTI 1.1 outcomes service; and its own Shibboleth SAML 2.0 identity provider, registered in GakuNin, the Japanese academic federation, which participates in eduGAIN. Those surfaces sit on hosts inside 133.3.0.0/16, registered by JPNIC to Kyoto University as KUINS, or in the university's own AWS account. Five of the twelve Kin Score education-regime standards are met with live evidence — oai-pmh, shibboleth, saml, lti and orcid — which is unusual for this cohort and entirely first-party. Everything else is a human-facing service: the KULINE library catalogue, the KDB researcher database, OpenCourseWare, and the generative-AI tooling the IIMC brokers from Google and Microsoft. Student information, course registration and timetable systems are behind campus accounts and are not public APIs.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/kyoto/refs/heads/main/screenshots/kyoto-2026-06-20T184226.png",
-     "score": 43.4,
+     "score": 43.8,
      "band": "developing",
      "band_label": "Developing",
      "facets": {
       "discoverability": 68.5,
-      "contract_quality": 61.7,
+      "contract_quality": 63.2,
       "governance": 17.4,
       "contract_governance": 17.4,
       "operational_transparency": 10.5,
@@ -497,7 +445,7 @@
       "access_clarity": 34.2
      },
      "scored_at": "2026-09-01",
-     "schema_version": "0.17.2",
+     "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
       "regime": "Education & Research",
@@ -528,19 +476,19 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 10
+     "rank": 9
     },
     {
      "name": "Paidy",
      "slug": "paidy",
      "description": "Paidy is a Japanese buy now, pay later (BNPL) and digital payment service that enables Japanese consumers to make purchases and pay later via monthly consolidated billing. Merchants integrate Paidy Checkout (JavaScript) and the Paidy REST API to accept deferred payments, manage authorizations, capture funds, issue refunds, and handle recurring payments via stored tokens.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/paidy/refs/heads/main/screenshots/paidy-2026-06-20T191326.png",
-     "score": 41.0,
+     "score": 40.8,
      "band": "developing",
      "band_label": "Developing",
      "facets": {
       "discoverability": 68.5,
-      "contract_quality": 65.0,
+      "contract_quality": 64.1,
       "governance": 9.8,
       "contract_governance": 9.8,
       "operational_transparency": 23.7,
@@ -549,7 +497,7 @@
       "access_clarity": 39.5
      },
      "scored_at": "2026-09-01",
-     "schema_version": "0.17.2",
+     "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
       "regime": "Payments",
@@ -580,7 +528,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 11
+     "rank": 10
     },
     {
      "name": "Magic Moment",
@@ -601,7 +549,7 @@
       "access_clarity": 64.5
      },
      "scored_at": "2026-09-01",
-     "schema_version": "0.17.2",
+     "schema_version": "0.18.0",
      "agent_score": 26.1,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -625,7 +573,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 12
+     "rank": 11
     },
     {
      "name": "SmartHR",
@@ -645,7 +593,7 @@
       "access_clarity": 39.5
      },
      "scored_at": "2026-09-01",
-     "schema_version": "0.17.2",
+     "schema_version": "0.18.0",
      "agent_score": 19.8,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -669,7 +617,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 13
+     "rank": 12
     }
    ]
   },
@@ -678,8 +626,8 @@
    "label": "Thin",
    "range": "26.2 – 39.2",
    "blurb": "Limited machine-readable signal beyond documentation a human can read.",
-   "count": 15,
-   "shown": 15,
+   "count": 20,
+   "shown": 20,
    "providers": [
     {
      "name": "Preferred Networks",
@@ -699,7 +647,7 @@
       "access_clarity": 50.0
      },
      "scored_at": "2026-09-01",
-     "schema_version": "0.17.2",
+     "schema_version": "0.18.0",
      "agent_score": 9.7,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -710,6 +658,58 @@
       "auth_clarity": "bearer",
       "idempotency": false,
       "error_semantics": false,
+      "openapi_examples": "documented",
+      "rate_limit_signal": "documented",
+      "event_surface_described": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
+     "rank": 13
+    },
+    {
+     "name": "Tokyo Institute of Technology",
+     "slug": "tokyo-institute-of-technology",
+     "description": "Tokyo Institute of Technology (Tokyo Tech / Titech) was Japan's leading national institute of technology and ranked #76 in the QS World University Rankings 2025. On 2024-10-01 it merged with Tokyo Medical and Dental University to form the Institute of Science Tokyo (Science Tokyo); the corporate web presence moved to isct.ac.jp while most academic and service systems still run on titech.ac.jp. Its institution-operated programmable footprint is small and, as of 2026-08-30, shrinking. There is no developer portal, no public REST API, no open-data portal and no OAuth or OpenID Connect surface anywhere on its domains. What the institution genuinely operates and we verified live is two protocol endpoints: the T2R2 research repository's OAI-PMH 2.0 harvesting interface (oai_dc and junii2), and a Shibboleth/SAML 2.0 Identity Provider registered in GakuNin, Japan's national academic access management federation. The first is being switched off — the operator published a discontinuation schedule on 2026-07-22 that ended T2R2 search on 2026-08-20 and ends T2R2 registration on 2026-10-01, moving full text to the Science Tokyo Repository on JAIRO Cloud, which is a TENANT surface run by NII and JPCOAR rather than by the university. The library discovery layer, the syllabus system, the STRDB researcher database and the TSUBAME4 supercomputer service are all real institution-run systems with human interfaces only — none of them publishes a machine-readable contract.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/tokyo-institute-of-technology/refs/heads/main/screenshots/tokyo-institute-of-technology-2026-06-20T195440.png",
+     "score": 38.7,
+     "band": "thin",
+     "band_label": "Thin",
+     "facets": {
+      "discoverability": 68.5,
+      "contract_quality": 22.3,
+      "governance": 4.5,
+      "contract_governance": 4.5,
+      "operational_transparency": 23.7,
+      "developer_ergonomics": 38.1,
+      "commercial_clarity": 50.0,
+      "access_clarity": 50.0
+     },
+     "scored_at": "2026-09-01",
+     "schema_version": "0.18.0",
+     "regulatory": {
+      "applies": true,
+      "regime": "Education & Research",
+      "regime_id": "education",
+      "score": 61.1,
+      "matched_via": "tags"
+     },
+     "agent_score": 22.1,
+     "agent_band": "agent-aware",
+     "agent_dims": {
+      "spec_presence": true,
+      "agentic_access": false,
+      "reversibility_documented": false,
+      "mcp_server": false,
+      "auth_clarity": "bearer",
+      "idempotency": false,
+      "error_semantics": "documented",
       "openapi_examples": "documented",
       "rate_limit_signal": "documented",
       "event_surface_described": false,
@@ -744,7 +744,7 @@
       "access_clarity": 39.5
      },
      "scored_at": "2026-09-01",
-     "schema_version": "0.17.2",
+     "schema_version": "0.18.0",
      "agent_score": 24.8,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -789,7 +789,7 @@
       "access_clarity": 39.5
      },
      "scored_at": "2026-09-01",
-     "schema_version": "0.17.2",
+     "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
       "regime": "Payments",
@@ -840,7 +840,7 @@
       "access_clarity": 47.4
      },
      "scored_at": "2026-09-01",
-     "schema_version": "0.17.2",
+     "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
       "regime": "Payments",
@@ -874,6 +874,110 @@
      "rank": 17
     },
     {
+     "name": "Kyushu University",
+     "slug": "kyushu",
+     "description": "Kyushu University (九州大学) is a Japanese national research university in Fukuoka, one of the seven former Imperial Universities and a Designated National University, ranked #171 in the QS World University Rankings 2027. Its programmable footprint is small and concentrated in scholarly infrastructure rather than in a developer platform, and this profile says so rather than padding it. Exactly one unambiguously institution-operated API was found and exercised end to end: the OAI-PMH 2.0 metadata interface for the Kyushu University Institutional Repository and the library's digital collections, at catalog.lib.kyushu-u.ac.jp. That endpoint is unusual for this cohort — most Japanese university repositories are tenants on NII's JAIRO Cloud, while Kyushu runs the protocol implementation itself on its own registrable domain, with a kyushu-u.ac.jp administrative contact, four metadata formats and seven collection sets. Everything else is a relationship rather than a contract: the university operates its own SAML 2.0 Shibboleth Identity Provider registered in the GakuNin national federation since 2011 and exported to eduGAIN; it is a DataCite consortium organization under the Japan Link Center and a Crossref member through two units; its research portal is an Elsevier Pure tenant whose live OpenAPI is Elsevier's contract, not Kyushu's, and is deliberately not saved here. There is no central developer portal, no API key issuance, no open-data platform, no llms.txt, no MCP server and no OpenAPI published anywhere on kyushu-u.ac.jp. The public syllabus and the Genkai supercomputer portals are HTML and login walls, not APIs.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/kyushu/refs/heads/main/screenshots/kyushu-2026-06-20T184233.png",
+     "score": 36.7,
+     "band": "thin",
+     "band_label": "Thin",
+     "facets": {
+      "discoverability": 68.5,
+      "contract_quality": 22.3,
+      "governance": 19.7,
+      "contract_governance": 19.7,
+      "operational_transparency": 26.3,
+      "developer_ergonomics": 28.6,
+      "commercial_clarity": 50.0,
+      "access_clarity": 50.0
+     },
+     "scored_at": "2026-09-01",
+     "schema_version": "0.18.0",
+     "regulatory": {
+      "applies": true,
+      "regime": "Education & Research",
+      "regime_id": "education",
+      "score": 46.3,
+      "matched_via": "tags"
+     },
+     "agent_score": 19.2,
+     "agent_band": "agent-aware",
+     "agent_dims": {
+      "spec_presence": true,
+      "agentic_access": false,
+      "reversibility_documented": false,
+      "mcp_server": false,
+      "auth_clarity": "bearer",
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": "documented",
+      "rate_limit_signal": "documented",
+      "event_surface_described": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
+     "rank": 18
+    },
+    {
+     "name": "Nagoya University",
+     "slug": "nagoya",
+     "description": "Nagoya University (名古屋大学) is a national research university in Nagoya, Aichi, Japan, founded 1871, a member of Japan's Designated National University group and, since 2020, part of the Tokai National Higher Education and Research System (THERS) alongside Gifu University. It runs no developer portal, publishes no OpenAPI and issues no API keys, and this profile does not pretend otherwise. What it does operate, on its own nagoya-u.ac.jp hosts, are two genuinely institution-run machine surfaces: a Shibboleth SAML 2.0 identity provider (https://shib.nagoya-u.ac.jp/idp/shibboleth) registered in GakuNin, Japan's academic access management federation, since 2014; and the ERG Science Center at the Institute for Space-Earth Environmental Research, which serves the Arase (ERG) satellite and ground-based observation data archive as an open, machine-traversable HTTPS tree that the pySPEDAS and SPEDAS analysis clients read directly. Its institutional repository, NAGOYA Repository, is a TENANT deployment on the National Institute of Informatics' WEKO3 / JAIRO Cloud platform: the content, the metadata and the library administrators are Nagoya's, but the OAI-PMH endpoint and its contract are NII's and are not credited here. The university is registered in ROR (04chrp450) but is a member of neither DataCite nor Crossref — Japanese repositories mint DOIs through JaLC. Student records, course registration, the NU Portal and campus IT all sit behind THERS/GakuNin authentication and are not publicly documented developer APIs. Several relevant surfaces, including the university's own GakuNin service documentation, exist only in Japanese.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/nagoya/refs/heads/main/screenshots/nagoya-2026-06-20T185937.png",
+     "score": 36.7,
+     "band": "thin",
+     "band_label": "Thin",
+     "facets": {
+      "discoverability": 74.1,
+      "contract_quality": 14.3,
+      "governance": 18.2,
+      "contract_governance": 18.2,
+      "operational_transparency": 26.3,
+      "developer_ergonomics": 28.6,
+      "commercial_clarity": 52.6,
+      "access_clarity": 52.6
+     },
+     "scored_at": "2026-09-01",
+     "schema_version": "0.18.0",
+     "regulatory": {
+      "applies": true,
+      "regime": "Education & Research",
+      "regime_id": "education",
+      "score": 53.7,
+      "matched_via": "tags"
+     },
+     "agent_score": 5.0,
+     "agent_band": "human-only",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": false,
+      "reversibility_documented": false,
+      "mcp_server": false,
+      "auth_clarity": "bearer",
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": "documented",
+      "event_surface_described": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
+     "rank": 19
+    },
+    {
      "name": "TableCheck",
      "slug": "tablecheck",
      "description": "TableCheck is a restaurant booking and guest-experience platform (founded 2011, headquartered in Tokyo, Japan) used by thousands of restaurants across 35+ countries to consolidate reservations, availability, guest CRM, memberships, and POS integration into one system. TableCheck exposes a production JSON/REST API, partitioned into components - Availability, Web Booking, Booking, CRM, POS, and Site Controller - under https://api.tablecheck.com/api. Access is partner-gated, and a per-environment secret_key is issued by the TableCheck API team on approval, while some components (notably the direct Booking API) are available only by special arrangement. Each component publishes an OpenAPI 3.0 description.",
@@ -891,7 +995,7 @@
       "access_clarity": 28.9
      },
      "scored_at": "2026-09-01",
-     "schema_version": "0.17.2",
+     "schema_version": "0.18.0",
      "agent_score": 29.8,
      "agent_band": "agent-ready",
      "agent_dims": {
@@ -915,7 +1019,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 18
+     "rank": 20
     },
     {
      "name": "Logiless",
@@ -936,7 +1040,7 @@
       "access_clarity": 44.7
      },
      "scored_at": "2026-09-01",
-     "schema_version": "0.17.2",
+     "schema_version": "0.18.0",
      "agent_score": 31.0,
      "agent_band": "agent-ready",
      "agent_dims": {
@@ -960,7 +1064,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 19
+     "rank": 21
     },
     {
      "name": "Rakuten",
@@ -981,7 +1085,7 @@
       "access_clarity": 42.1
      },
      "scored_at": "2026-09-01",
-     "schema_version": "0.17.2",
+     "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
       "regime": "Telecommunications",
@@ -1012,19 +1116,71 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 20
+     "rank": 22
+    },
+    {
+     "name": "Keio University",
+     "slug": "keio",
+     "description": "Keio University (慶應義塾大学) is a private research university in Tokyo, Japan, founded by Fukuzawa Yukichi in 1858 and the oldest institution of modern higher education in the country. Its programmable footprint is small, entirely non-commercial, and — unusually for this cohort — genuinely its own rather than a vendor's running under its name. Two surfaces are operated by Keio on Keio's hosts and are anonymously consumable today: KOARA, the institutional repository, which serves a live OAI-PMH 2.0 harvesting interface advertising Dublin Core and the NII junii2 schema across 100 faculty and research-centre sets; and the Media Center's Digital Collections, which serve IIIF Presentation 2.1 manifests and IIIF Image 2.0 Level 1 tiles for the university's digitised rare books, including all 656 folios of its Gutenberg 42-line Bible. Keio also operates its own Shibboleth/SAML identity provider, registered in the GakuNin federation since 2014 and republished into eduGAIN — the strongest institution-owned machine-readable artifact it has. Beyond those, the estate is a set of tenancies and registry memberships rather than engineering: K-RIS runs on Elsevier Pure, campus sign-on runs through an Okta tenant and an Extic-hosted SSO service, research data DOIs are minted through a Figshare consortium seat at DataCite, and two Keio units hold Crossref memberships in their own right. There is no developer portal, no API key, no changelog and no published OpenAPI anywhere in the estate; every contract in this repository was written by API Evangelist from live probes and is marked as such.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/keio/refs/heads/main/screenshots/keio-2026-06-20T183942.png",
+     "score": 35.8,
+     "band": "thin",
+     "band_label": "Thin",
+     "facets": {
+      "discoverability": 68.5,
+      "contract_quality": 29.2,
+      "governance": 15.2,
+      "contract_governance": 15.2,
+      "operational_transparency": 21.1,
+      "developer_ergonomics": 23.8,
+      "commercial_clarity": 39.5,
+      "access_clarity": 39.5
+     },
+     "scored_at": "2026-09-01",
+     "schema_version": "0.18.0",
+     "regulatory": {
+      "applies": true,
+      "regime": "Education & Research",
+      "regime_id": "education",
+      "score": 57.4,
+      "matched_via": "tags"
+     },
+     "agent_score": 24.8,
+     "agent_band": "agent-aware",
+     "agent_dims": {
+      "spec_presence": true,
+      "agentic_access": "derived",
+      "reversibility_documented": false,
+      "mcp_server": false,
+      "auth_clarity": "bearer",
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": "verified",
+      "rate_limit_signal": "documented",
+      "event_surface_described": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
+     "rank": 23
     },
     {
      "name": "PayPay",
      "slug": "paypay",
      "description": "PayPay is Japan's largest QR/barcode mobile-payment network (a SoftBank / Yahoo Japan / Paytm joint venture) with tens of millions of users. Its Open Payment API (OPA v2) lets payment partners and merchants collect payments from PayPay wallet users through dynamic QR codes, web checkout (Web Cashier), app-invoke deep links, and a pre-authorize-and-capture flow. The REST API (base //apigw.paypay.ne.jp) is secured with HMAC-SHA256 request signatures, settles in JPY, sends transaction webhooks plus daily reconciliation files, and ships official Node, PHP, Python and Java SDKs under the github.com/paypay organization.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/paypay/refs/heads/main/screenshots/paypay-2026-08-07T191649.png",
-     "score": 35.2,
+     "score": 35.0,
      "band": "thin",
      "band_label": "Thin",
      "facets": {
       "discoverability": 75.9,
-      "contract_quality": 54.4,
+      "contract_quality": 53.7,
       "governance": 4.5,
       "contract_governance": 4.5,
       "operational_transparency": 34.2,
@@ -1033,7 +1189,7 @@
       "access_clarity": 0.0
      },
      "scored_at": "2026-09-01",
-     "schema_version": "0.17.2",
+     "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
       "regime": "Payments",
@@ -1064,7 +1220,59 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 21
+     "rank": 24
+    },
+    {
+     "name": "Tohoku University",
+     "slug": "tohoku",
+     "description": "Tohoku University is a Japanese national research university in Sendai, founded in 1907, one of the seven former Imperial Universities and a Designated National University. Its programmable footprint is small, unevenly distributed, and mostly NOT operated by central IT — which is the honest shape for a university, and the profile says so rather than padding it. Exactly one unambiguously institution-operated API was found: jMorp, the Japanese Multi Omics Reference Panel published by the Tohoku Medical Megabank Organization at jmorp.megabank.tohoku.ac.jp, which answers anonymous GraphQL queries and full schema introspection over a 305-field read-only query root. Everything else is a relationship rather than a contract: the TOUR institutional repository is a tenant on NII's JAIRO Cloud (WEKO3) with a live OAI-PMH 2.0 endpoint; the university operates its own SAML 2.0 Shibboleth Identity Provider registered in the GakuNin national academic federation; and three of its units are Crossref DOI-registering members. There is no central developer portal, no API key issuance, no open-data platform, no llms.txt, no MCP server and no published OpenAPI anywhere on tohoku.ac.jp. Public course information is served as HTML by the university's own QuickSyllabus, not as an API.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/tohoku/refs/heads/main/screenshots/tohoku-2026-06-20T195441.png",
+     "score": 34.4,
+     "band": "thin",
+     "band_label": "Thin",
+     "facets": {
+      "discoverability": 74.1,
+      "contract_quality": 51.6,
+      "governance": 4.5,
+      "contract_governance": 4.5,
+      "operational_transparency": 10.5,
+      "developer_ergonomics": 28.6,
+      "commercial_clarity": 23.7,
+      "access_clarity": 23.7
+     },
+     "scored_at": "2026-09-01",
+     "schema_version": "0.18.0",
+     "regulatory": {
+      "applies": true,
+      "regime": "Education & Research",
+      "regime_id": "education",
+      "score": 38.9,
+      "matched_via": "tags"
+     },
+     "agent_score": 19.2,
+     "agent_band": "agent-aware",
+     "agent_dims": {
+      "spec_presence": true,
+      "agentic_access": false,
+      "reversibility_documented": false,
+      "mcp_server": false,
+      "auth_clarity": "bearer",
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": "documented",
+      "rate_limit_signal": "documented",
+      "event_surface_described": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
+     "rank": 25
     },
     {
      "name": "MakeLeaps",
@@ -1085,7 +1293,7 @@
       "access_clarity": 44.7
      },
      "scored_at": "2026-09-01",
-     "schema_version": "0.17.2",
+     "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
       "regime": "Payments",
@@ -1116,7 +1324,59 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 22
+     "rank": 26
+    },
+    {
+     "name": "Waseda University",
+     "slug": "waseda",
+     "description": "Waseda University is a large private research university in Shinjuku, Tokyo, founded in 1882 and one of Japan's two best-known private institutions. It operates no developer portal, publishes no OpenAPI, and has no official GitHub organization — but it is not the empty profile that description usually implies, because three genuinely institution-operated machine-readable surfaces sit under its own domains and answer anonymous calls. Waseda runs its own IIIF server at iiif.archive.waseda.jp, serving IIIF Presentation 2.1 manifests and IIIF Image API 2.0 level-1 endpoints for the Kotenseki Sogo Database of classical Japanese books and the Waseda Cultural Resources Database — a real, callable cultural-heritage API on Waseda's engineering. It runs its own Shibboleth SAML 2.0 identity provider at iaidp.ia.waseda.jp, whose entityID is registered in the GakuNin federation operated by NII and propagated onward to eduGAIN. And Waseda Moodle at wsdmoodle.waseda.jp is a live LTI 1.3 / LTI Advantage platform publishing a JWKS keyset, an OAuth 2.0 client-credentials token endpoint and an LTI services endpoint, alongside a token-gated Moodle Web Services REST endpoint. Its other apparent APIs are not its own: the Waseda University Repository's OAI-PMH 2.0 endpoint is real and its content is Waseda's, but it runs on NII's JAIRO Cloud, and the WINE library discovery service is an Ex Libris Primo tenancy whose Primo and Alma SRU interfaces are not enabled for public use. Waseda is registered in ROR (00ntfnx83) and holds Crossref Open Funder Registry ID 501100004423, but is not a Crossref depositing member and holds no DataCite account.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/waseda/refs/heads/main/screenshots/waseda-2026-06-20T201241.png",
+     "score": 32.4,
+     "band": "thin",
+     "band_label": "Thin",
+     "facets": {
+      "discoverability": 64.8,
+      "contract_quality": 20.5,
+      "governance": 0.0,
+      "contract_governance": 0.0,
+      "operational_transparency": 21.1,
+      "developer_ergonomics": 26.2,
+      "commercial_clarity": 50.0,
+      "access_clarity": 50.0
+     },
+     "scored_at": "2026-09-01",
+     "schema_version": "0.18.0",
+     "regulatory": {
+      "applies": true,
+      "regime": "Education & Research",
+      "regime_id": "education",
+      "score": 46.3,
+      "matched_via": "tags"
+     },
+     "agent_score": 6.3,
+     "agent_band": "agent-aware",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": false,
+      "reversibility_documented": false,
+      "mcp_server": false,
+      "auth_clarity": "bearer",
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": "documented",
+      "rate_limit_signal": "documented",
+      "event_surface_described": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
+     "rank": 27
     },
     {
      "name": "JAXA",
@@ -1137,7 +1397,7 @@
       "access_clarity": 39.5
      },
      "scored_at": "2026-09-01",
-     "schema_version": "0.17.2",
+     "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
       "regime": "Energy & Utilities",
@@ -1168,7 +1428,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 23
+     "rank": 28
     },
     {
      "name": "LegalOn",
@@ -1189,7 +1449,7 @@
       "access_clarity": 53.9
      },
      "scored_at": "2026-09-01",
-     "schema_version": "0.17.2",
+     "schema_version": "0.18.0",
      "agent_score": 2.5,
      "agent_band": "human-only",
      "agent_dims": {
@@ -1213,7 +1473,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 24
+     "rank": 29
     },
     {
      "name": "NTT Docomo",
@@ -1234,7 +1494,7 @@
       "access_clarity": 44.7
      },
      "scored_at": "2026-09-01",
-     "schema_version": "0.17.2",
+     "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
       "regime": "Telecommunications",
@@ -1265,7 +1525,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 25
+     "rank": 30
     },
     {
      "name": "J-Quants",
@@ -1286,7 +1546,7 @@
       "access_clarity": 15.8
      },
      "scored_at": "2026-09-01",
-     "schema_version": "0.17.2",
+     "schema_version": "0.18.0",
      "agent_score": 19.8,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -1310,59 +1570,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 26
-    },
-    {
-     "name": "Kyushu University",
-     "slug": "kyushu",
-     "description": "Kyushu University (九州大学) is a national research university in Fukuoka, Japan, ranked #167 in the QS World University Rankings 2025. Its public, programmatic footprint is concentrated in the university library, which operates the Kyushu University Institutional Repository (QIR) and exposes scholarly metadata over a live OAI-PMH 2.0 interface using the JPCOAR schema, alongside quarterly bulk TSV downloads via the Handle system. Other institutional surfaces — the Elsevier Pure research portal and the Academic Staff researcher database — are public for browsing but do not document an open API. There is no central institution-wide developer portal; this profile catalogs only the endpoints that could be verified live.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/kyushu/refs/heads/main/screenshots/kyushu-2026-06-20T184233.png",
-     "score": 27.2,
-     "band": "thin",
-     "band_label": "Thin",
-     "facets": {
-      "discoverability": 59.3,
-      "contract_quality": 37.3,
-      "governance": 0.0,
-      "contract_governance": 0.0,
-      "operational_transparency": 26.3,
-      "developer_ergonomics": 19.0,
-      "commercial_clarity": 28.9,
-      "access_clarity": 28.9
-     },
-     "scored_at": "2026-09-01",
-     "schema_version": "0.17.2",
-     "regulatory": {
-      "applies": true,
-      "regime": "Education & Research",
-      "regime_id": "education",
-      "score": 20.4,
-      "matched_via": "tags"
-     },
-     "agent_score": 15.5,
-     "agent_band": "agent-aware",
-     "agent_dims": {
-      "spec_presence": true,
-      "agentic_access": false,
-      "reversibility_documented": false,
-      "mcp_server": false,
-      "auth_clarity": false,
-      "idempotency": false,
-      "error_semantics": false,
-      "openapi_examples": false,
-      "rate_limit_signal": "documented",
-      "event_surface_described": false,
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false,
-      "delegated_identity": false,
-      "protected_resource_metadata": false,
-      "dynamic_client_registration": false,
-      "agentic_commerce": false
-     },
-     "rank": 27
+     "rank": 31
     },
     {
      "name": "Woodstock",
@@ -1382,7 +1590,7 @@
       "access_clarity": 44.7
      },
      "scored_at": "2026-09-01",
-     "schema_version": "0.17.2",
+     "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
       "regime": "Securities & Market Data",
@@ -1413,7 +1621,7 @@
       "dynamic_client_registration": true,
       "agentic_commerce": false
      },
-     "rank": 28
+     "rank": 32
     }
    ]
   },
@@ -1422,34 +1630,34 @@
    "label": "Emerging",
    "range": "11 – 26.1",
    "blurb": "More than an index entry but still mostly links rather than artifacts.",
-   "count": 25,
-   "shown": 25,
+   "count": 21,
+   "shown": 21,
    "providers": [
     {
-     "name": "Waseda University",
-     "slug": "waseda",
-     "description": "Waseda University is a leading private research university in Tokyo, Japan, ranked #181 in the QS World University Rankings 2025. Its public, machine-readable developer footprint is centered on scholarly infrastructure rather than a dedicated developer portal: the Waseda University Repository exposes an OAI-PMH 2.0 metadata interface (hosted on the NII WEKO/JAIRO Cloud), and the library's WINE discovery service runs on the Ex Libris Primo/Alma platform (institution code 81SOKEI_WUNI), which provides standard Primo and SRU interfaces. Identity is handled via Shibboleth SAML SSO. There is no single official Waseda University GitHub organization; an unofficial student project (WasedaTime) operates a community syllabus/timetable backend that is not publicly documented.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/waseda/refs/heads/main/screenshots/waseda-2026-06-20T201241.png",
+     "name": "Hokkaido University",
+     "slug": "hokkaido",
+     "description": "Hokkaido University (北海道大学) is a national research university in Sapporo, Japan, founded in 1876 as Sapporo Agricultural College, a member of Japan's Designated National University group and ranked #173 in the QS World University Rankings 2025. It operates 12 undergraduate schools, 21 graduate schools and numerous research institutes. Its public programmable footprint is small and honest: the university publishes no developer portal, no API gateway and no documented public REST API — api., data., opendata., developer. and status.hokudai.ac.jp all fail to resolve, and the WordPress REST API on its English site is explicitly disabled. What it does operate, and what this profile is built on, is scholarly identity infrastructure. It runs its own SAML 2.0 / Shibboleth identity provider registered in GakuNin, the Japanese national academic access federation; it holds Handle System prefix 2115 and JaLC DOI prefix 10.14943 for the HUSCAP institutional repository; and it publishes crawlable XML sitemaps for both HUSCAP and its main web estate. HUSCAP's OAI-PMH endpoint is the one real regression: IRDB still harvests the repository by OAI-PMH, but no base URL has been publicly documented since the December 2025 platform migration and eighteen candidate paths were probed unsuccessfully.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/hokkaido/refs/heads/main/screenshots/hokkaido-2026-06-20T182813.png",
      "score": 23.2,
      "band": "emerging",
      "band_label": "Emerging",
      "facets": {
       "discoverability": 64.8,
-      "contract_quality": 10.7,
+      "contract_quality": 17.3,
       "governance": 0.0,
       "contract_governance": 0.0,
-      "operational_transparency": 26.3,
-      "developer_ergonomics": 21.4,
-      "commercial_clarity": 28.9,
-      "access_clarity": 28.9
+      "operational_transparency": 5.3,
+      "developer_ergonomics": 26.2,
+      "commercial_clarity": 23.7,
+      "access_clarity": 23.7
      },
      "scored_at": "2026-09-01",
-     "schema_version": "0.17.2",
+     "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
       "regime": "Education & Research",
       "regime_id": "education",
-      "score": 31.5,
+      "score": 38.9,
       "matched_via": "tags"
      },
      "agent_score": 5.0,
@@ -1475,111 +1683,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 29
-    },
-    {
-     "name": "Keio University",
-     "slug": "keio",
-     "description": "Keio University is a private research university in Tokyo, Japan, founded in 1858, and ranked #188 in the QS World University Rankings 2025. Its public machine-readable footprint is led by KOARA (KeiO Associated Repository of Academic resources), the institutional repository, which exposes a live OAI-PMH 2.0 metadata-harvesting endpoint. Most other institutional systems (keio.jp SSO over Google Workspace, Canvas K-LMS, the K-RIS researcher system, KOSMOS library discovery, and the Keio Object Hub culture portal) are account-gated and do not publish open developer API documentation. Identity is federated through GakuNin, the Japanese academic SAML/Shibboleth federation that participates in eduGAIN.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/keio/refs/heads/main/screenshots/keio-2026-06-20T183942.png",
-     "score": 22.9,
-     "band": "emerging",
-     "band_label": "Emerging",
-     "facets": {
-      "discoverability": 68.5,
-      "contract_quality": 10.7,
-      "governance": 0.0,
-      "contract_governance": 0.0,
-      "operational_transparency": 21.1,
-      "developer_ergonomics": 21.4,
-      "commercial_clarity": 28.9,
-      "access_clarity": 28.9
-     },
-     "scored_at": "2026-09-01",
-     "schema_version": "0.17.2",
-     "regulatory": {
-      "applies": true,
-      "regime": "Education & Research",
-      "regime_id": "education",
-      "score": 31.5,
-      "matched_via": "tags"
-     },
-     "agent_score": 5.0,
-     "agent_band": "human-only",
-     "agent_dims": {
-      "spec_presence": false,
-      "agentic_access": false,
-      "reversibility_documented": false,
-      "mcp_server": false,
-      "auth_clarity": "bearer",
-      "idempotency": false,
-      "error_semantics": false,
-      "openapi_examples": false,
-      "rate_limit_signal": "documented",
-      "event_surface_described": false,
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false,
-      "delegated_identity": false,
-      "protected_resource_metadata": false,
-      "dynamic_client_registration": false,
-      "agentic_commerce": false
-     },
-     "rank": 30
-    },
-    {
-     "name": "Nagoya University",
-     "slug": "nagoya",
-     "description": "Nagoya University (名古屋大学) is a national research university in Nagoya, Aichi, Japan, ranked #152 in the QS World University Rankings 2025. As a leading research institution it operates a range of academic and IT services through its Information & Communications (ICTS) division and university library. Its most clearly documented public, machine-readable API surface is the NAGOYA Repository institutional repository, which runs on the NII WEKO3 / JAIRO Cloud platform and exposes an OAI-PMH 2.0 interface for harvesting scholarly metadata. Most other systems (student portal, NU-ID identity, course registration) are gated behind THERS/GakuNin (Shibboleth/SAML) authentication and are not publicly documented developer APIs.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/nagoya/refs/heads/main/screenshots/nagoya-2026-06-20T185937.png",
-     "score": 22.9,
-     "band": "emerging",
-     "band_label": "Emerging",
-     "facets": {
-      "discoverability": 68.5,
-      "contract_quality": 10.7,
-      "governance": 0.0,
-      "contract_governance": 0.0,
-      "operational_transparency": 21.1,
-      "developer_ergonomics": 21.4,
-      "commercial_clarity": 28.9,
-      "access_clarity": 28.9
-     },
-     "scored_at": "2026-09-01",
-     "schema_version": "0.17.2",
-     "regulatory": {
-      "applies": true,
-      "regime": "Education & Research",
-      "regime_id": "education",
-      "score": 31.5,
-      "matched_via": "tags"
-     },
-     "agent_score": 5.0,
-     "agent_band": "human-only",
-     "agent_dims": {
-      "spec_presence": false,
-      "agentic_access": false,
-      "reversibility_documented": false,
-      "mcp_server": false,
-      "auth_clarity": "bearer",
-      "idempotency": false,
-      "error_semantics": false,
-      "openapi_examples": false,
-      "rate_limit_signal": "documented",
-      "event_surface_described": false,
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false,
-      "delegated_identity": false,
-      "protected_resource_metadata": false,
-      "dynamic_client_registration": false,
-      "agentic_commerce": false
-     },
-     "rank": 31
+     "rank": 33
     },
     {
      "name": "Kyash",
@@ -1600,7 +1704,7 @@
       "access_clarity": 60.5
      },
      "scored_at": "2026-09-01",
-     "schema_version": "0.17.2",
+     "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
       "regime": "Payments",
@@ -1631,7 +1735,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 32
+     "rank": 34
     },
     {
      "name": "ANDPAD",
@@ -1652,7 +1756,7 @@
       "access_clarity": 0.0
      },
      "scored_at": "2026-09-01",
-     "schema_version": "0.17.2",
+     "schema_version": "0.18.0",
      "agent_score": 5.4,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -1676,59 +1780,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 33
-    },
-    {
-     "name": "Tohoku University",
-     "slug": "tohoku",
-     "description": "Tohoku University is a national research university in Sendai, Japan, founded in 1907 and ranked #107 in the QS World University Rankings 2025. Its public, machine-readable developer footprint is centered on scholarly infrastructure rather than a central developer portal: the TOUR (TOhoku University Repository) institutional repository runs on NII's JAIRO Cloud (WEKO3) and exposes a live OAI-PMH 2.0 endpoint for metadata harvesting. The library also operates a public OPAC. No central, self-service API developer portal, open-data platform, or SSO/OAuth client-registration program was found publicly documented; most research-code APIs live in individual lab GitHub organizations.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/tohoku/refs/heads/main/screenshots/tohoku-2026-06-20T195441.png",
-     "score": 19.5,
-     "band": "emerging",
-     "band_label": "Emerging",
-     "facets": {
-      "discoverability": 68.5,
-      "contract_quality": 10.7,
-      "governance": 0.0,
-      "contract_governance": 0.0,
-      "operational_transparency": 26.3,
-      "developer_ergonomics": 9.5,
-      "commercial_clarity": 28.9,
-      "access_clarity": 28.9
-     },
-     "scored_at": "2026-09-01",
-     "schema_version": "0.17.2",
-     "regulatory": {
-      "applies": true,
-      "regime": "Education & Research",
-      "regime_id": "education",
-      "score": 20.4,
-      "matched_via": "tags"
-     },
-     "agent_score": 2.5,
-     "agent_band": "human-only",
-     "agent_dims": {
-      "spec_presence": false,
-      "agentic_access": false,
-      "reversibility_documented": false,
-      "mcp_server": false,
-      "auth_clarity": false,
-      "idempotency": false,
-      "error_semantics": false,
-      "openapi_examples": false,
-      "rate_limit_signal": "documented",
-      "event_surface_described": false,
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false,
-      "delegated_identity": false,
-      "protected_resource_metadata": false,
-      "dynamic_client_registration": false,
-      "agentic_commerce": false
-     },
-     "rank": 34
+     "rank": 35
     },
     {
      "name": "Trustdock",
@@ -1748,7 +1800,7 @@
       "access_clarity": 52.6
      },
      "scored_at": "2026-09-01",
-     "schema_version": "0.17.2",
+     "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -1761,58 +1813,6 @@
       "error_semantics": false,
       "openapi_examples": false,
       "rate_limit_signal": false,
-      "event_surface_described": false,
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false,
-      "delegated_identity": false,
-      "protected_resource_metadata": false,
-      "dynamic_client_registration": false,
-      "agentic_commerce": false
-     },
-     "rank": 35
-    },
-    {
-     "name": "Hokkaido University",
-     "slug": "hokkaido",
-     "description": "Hokkaido University (北海道大学) is a national research university in Sapporo, Japan, founded in 1876 as Sapporo Agricultural College and ranked #173 in the QS World University Rankings 2025. It operates 12 undergraduate schools, 21 graduate schools, and numerous research institutes. Its public, machine-readable developer footprint is limited and centered on scholarly infrastructure: the HUSCAP institutional repository (Hokkaido University Collection of Scholarly and Academic Papers) and public XML sitemaps. The university does not publish a dedicated developer portal or documented public REST API; most institutional systems (ELMS LMS, syllabus search, researcher directory) are web UIs without documented programmatic access.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/hokkaido/refs/heads/main/screenshots/hokkaido-2026-06-20T182813.png",
-     "score": 18.9,
-     "band": "emerging",
-     "band_label": "Emerging",
-     "facets": {
-      "discoverability": 68.5,
-      "contract_quality": 10.7,
-      "governance": 0.0,
-      "contract_governance": 0.0,
-      "operational_transparency": 21.1,
-      "developer_ergonomics": 9.5,
-      "commercial_clarity": 28.9,
-      "access_clarity": 28.9
-     },
-     "scored_at": "2026-09-01",
-     "schema_version": "0.17.2",
-     "regulatory": {
-      "applies": true,
-      "regime": "Education & Research",
-      "regime_id": "education",
-      "score": 20.4,
-      "matched_via": "tags"
-     },
-     "agent_score": 2.5,
-     "agent_band": "human-only",
-     "agent_dims": {
-      "spec_presence": false,
-      "agentic_access": false,
-      "reversibility_documented": false,
-      "mcp_server": false,
-      "auth_clarity": false,
-      "idempotency": false,
-      "error_semantics": false,
-      "openapi_examples": false,
-      "rate_limit_signal": "documented",
       "event_surface_described": false,
       "agent_skills": false,
       "well_known_catalog": false,
@@ -1845,7 +1845,7 @@
       "access_clarity": 0.0
      },
      "scored_at": "2026-09-01",
-     "schema_version": "0.17.2",
+     "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
       "regime": "Telecommunications",
@@ -1897,7 +1897,7 @@
       "access_clarity": 36.8
      },
      "scored_at": "2026-09-01",
-     "schema_version": "0.17.2",
+     "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
       "regime": "Government & Public Sector",
@@ -1949,7 +1949,7 @@
       "access_clarity": 28.9
      },
      "scored_at": "2026-09-01",
-     "schema_version": "0.17.2",
+     "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
       "regime": "Government & Public Sector",
@@ -2001,7 +2001,7 @@
       "access_clarity": 28.9
      },
      "scored_at": "2026-09-01",
-     "schema_version": "0.17.2",
+     "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
       "regime": "Government & Public Sector",
@@ -2053,7 +2053,7 @@
       "access_clarity": 28.9
      },
      "scored_at": "2026-09-01",
-     "schema_version": "0.17.2",
+     "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
       "regime": "Government & Public Sector",
@@ -2105,7 +2105,7 @@
       "access_clarity": 28.9
      },
      "scored_at": "2026-09-01",
-     "schema_version": "0.17.2",
+     "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
       "regime": "Government & Public Sector",
@@ -2157,7 +2157,7 @@
       "access_clarity": 28.9
      },
      "scored_at": "2026-09-01",
-     "schema_version": "0.17.2",
+     "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
       "regime": "Government & Public Sector",
@@ -2209,7 +2209,7 @@
       "access_clarity": 28.9
      },
      "scored_at": "2026-09-01",
-     "schema_version": "0.17.2",
+     "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
       "regime": "Government & Public Sector",
@@ -2260,7 +2260,7 @@
       "access_clarity": 32.9
      },
      "scored_at": "2026-09-01",
-     "schema_version": "0.17.2",
+     "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -2304,7 +2304,7 @@
       "access_clarity": 44.7
      },
      "scored_at": "2026-09-01",
-     "schema_version": "0.17.2",
+     "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -2348,8 +2348,8 @@
       "access_clarity": 10.5
      },
      "scored_at": "2026-09-01",
-     "schema_version": "0.17.2",
-     "agent_score": 11.4,
+     "schema_version": "0.18.0",
+     "agent_score": 8.8,
      "agent_band": "agent-aware",
      "agent_dims": {
       "spec_presence": false,
@@ -2392,7 +2392,7 @@
       "access_clarity": 34.2
      },
      "scored_at": "2026-09-01",
-     "schema_version": "0.17.2",
+     "schema_version": "0.18.0",
      "agent_score": 2.5,
      "agent_band": "human-only",
      "agent_dims": {
@@ -2436,7 +2436,7 @@
       "access_clarity": 27.6
      },
      "scored_at": "2026-09-01",
-     "schema_version": "0.17.2",
+     "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -2481,7 +2481,7 @@
       "access_clarity": 10.5
      },
      "scored_at": "2026-09-01",
-     "schema_version": "0.17.2",
+     "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -2525,7 +2525,7 @@
       "access_clarity": 27.6
      },
      "scored_at": "2026-09-01",
-     "schema_version": "0.17.2",
+     "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
       "regime": "Education & Research",
@@ -2577,7 +2577,7 @@
       "access_clarity": 23.7
      },
      "scored_at": "2026-09-01",
-     "schema_version": "0.17.2",
+     "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
       "regime": "Insurance",
@@ -2629,7 +2629,7 @@
       "access_clarity": 27.6
      },
      "scored_at": "2026-09-01",
-     "schema_version": "0.17.2",
+     "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -2684,7 +2684,7 @@
       "access_clarity": 21.1
      },
      "scored_at": "2026-09-01",
-     "schema_version": "0.17.2",
+     "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -2729,7 +2729,7 @@
       "access_clarity": 10.5
      },
      "scored_at": "2026-09-01",
-     "schema_version": "0.17.2",
+     "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -2774,7 +2774,7 @@
       "access_clarity": 21.1
      },
      "scored_at": "2026-09-01",
-     "schema_version": "0.17.2",
+     "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
       "regime": "Health",
@@ -2826,7 +2826,7 @@
       "access_clarity": 21.1
      },
      "scored_at": "2026-09-01",
-     "schema_version": "0.17.2",
+     "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -2870,7 +2870,7 @@
       "access_clarity": 21.1
      },
      "scored_at": "2026-09-01",
-     "schema_version": "0.17.2",
+     "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -2914,7 +2914,7 @@
       "access_clarity": 21.1
      },
      "scored_at": "2026-09-01",
-     "schema_version": "0.17.2",
+     "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -2958,7 +2958,7 @@
       "access_clarity": 21.1
      },
      "scored_at": "2026-09-01",
-     "schema_version": "0.17.2",
+     "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -3003,7 +3003,7 @@
       "access_clarity": 10.5
      },
      "scored_at": "2026-09-01",
-     "schema_version": "0.17.2",
+     "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
       "regime": "Health",
@@ -3055,7 +3055,7 @@
       "access_clarity": 0.0
      },
      "scored_at": "2026-09-01",
-     "schema_version": "0.17.2",
+     "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
       "regime": "Telecommunications",
@@ -3106,7 +3106,7 @@
       "access_clarity": 21.1
      },
      "scored_at": "2026-09-01",
-     "schema_version": "0.17.2",
+     "schema_version": "0.18.0",
      "agent_score": 2.5,
      "agent_band": "human-only",
      "agent_dims": {
@@ -3151,7 +3151,7 @@
       "access_clarity": 10.5
      },
      "scored_at": "2026-09-01",
-     "schema_version": "0.17.2",
+     "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -3196,7 +3196,7 @@
       "access_clarity": 10.5
      },
      "scored_at": "2026-09-01",
-     "schema_version": "0.17.2",
+     "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -3241,7 +3241,7 @@
       "access_clarity": 10.5
      },
      "scored_at": "2026-09-01",
-     "schema_version": "0.17.2",
+     "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -3285,7 +3285,7 @@
       "access_clarity": 10.5
      },
      "scored_at": "2026-09-01",
-     "schema_version": "0.17.2",
+     "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -3329,7 +3329,7 @@
       "access_clarity": 10.5
      },
      "scored_at": "2026-09-01",
-     "schema_version": "0.17.2",
+     "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -3373,7 +3373,7 @@
       "access_clarity": 10.5
      },
      "scored_at": "2026-09-01",
-     "schema_version": "0.17.2",
+     "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -3418,7 +3418,7 @@
       "access_clarity": 10.5
      },
      "scored_at": "2026-09-01",
-     "schema_version": "0.17.2",
+     "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
       "regime": "Energy & Utilities",
@@ -3470,7 +3470,7 @@
       "access_clarity": 10.5
      },
      "scored_at": "2026-09-01",
-     "schema_version": "0.17.2",
+     "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -3514,7 +3514,7 @@
       "access_clarity": 10.5
      },
      "scored_at": "2026-09-01",
-     "schema_version": "0.17.2",
+     "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
       "regime": "Health",
@@ -3566,7 +3566,7 @@
       "access_clarity": 10.5
      },
      "scored_at": "2026-09-01",
-     "schema_version": "0.17.2",
+     "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -3611,7 +3611,7 @@
       "access_clarity": 10.5
      },
      "scored_at": "2026-09-01",
-     "schema_version": "0.17.2",
+     "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
       "regime": "Health",
@@ -3662,7 +3662,7 @@
       "access_clarity": 10.5
      },
      "scored_at": "2026-09-01",
-     "schema_version": "0.17.2",
+     "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -3707,7 +3707,7 @@
       "access_clarity": 10.5
      },
      "scored_at": "2026-09-01",
-     "schema_version": "0.17.2",
+     "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
       "regime": "Health",
@@ -3759,7 +3759,7 @@
       "access_clarity": 10.5
      },
      "scored_at": "2026-09-01",
-     "schema_version": "0.17.2",
+     "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
       "regime": "Health",
@@ -3811,7 +3811,7 @@
       "access_clarity": 0.0
      },
      "scored_at": "2026-09-01",
-     "schema_version": "0.17.2",
+     "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -3856,7 +3856,7 @@
       "access_clarity": 0.0
      },
      "scored_at": "2026-09-01",
-     "schema_version": "0.17.2",
+     "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -3901,7 +3901,7 @@
       "access_clarity": 0.0
      },
      "scored_at": "2026-09-01",
-     "schema_version": "0.17.2",
+     "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -3945,7 +3945,7 @@
       "access_clarity": 0.0
      },
      "scored_at": "2026-09-01",
-     "schema_version": "0.17.2",
+     "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -3989,7 +3989,7 @@
       "access_clarity": 0.0
      },
      "scored_at": "2026-09-01",
-     "schema_version": "0.17.2",
+     "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -4033,7 +4033,7 @@
       "access_clarity": 0.0
      },
      "scored_at": "2026-09-01",
-     "schema_version": "0.17.2",
+     "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -4078,7 +4078,7 @@
       "access_clarity": 0.0
      },
      "scored_at": "2026-09-01",
-     "schema_version": "0.17.2",
+     "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
       "regime": "Health",
@@ -4129,7 +4129,7 @@
       "access_clarity": 10.5
      },
      "scored_at": "2026-09-01",
-     "schema_version": "0.17.2",
+     "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
       "regime": "Payments",
@@ -4181,7 +4181,7 @@
       "access_clarity": 0.0
      },
      "scored_at": "2026-09-01",
-     "schema_version": "0.17.2",
+     "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
       "regime": "Telecommunications",
@@ -4232,7 +4232,7 @@
       "access_clarity": 0.0
      },
      "scored_at": "2026-09-01",
-     "schema_version": "0.17.2",
+     "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
       "regime": "Health",
@@ -4284,7 +4284,7 @@
       "access_clarity": 0.0
      },
      "scored_at": "2026-09-01",
-     "schema_version": "0.17.2",
+     "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
       "regime": "Banking & Open Finance",
@@ -4335,7 +4335,7 @@
       "access_clarity": 0.0
      },
      "scored_at": "2026-09-01",
-     "schema_version": "0.17.2",
+     "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
       "regime": "Payments",
@@ -4386,7 +4386,7 @@
       "access_clarity": 0.0
      },
      "scored_at": "2026-09-01",
-     "schema_version": "0.17.2",
+     "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
       "regime": "Payments",
@@ -4438,7 +4438,7 @@
       "access_clarity": 0.0
      },
      "scored_at": "2026-09-01",
-     "schema_version": "0.17.2",
+     "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
       "regime": "Insurance",

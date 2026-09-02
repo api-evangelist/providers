@@ -141,7 +141,7 @@ score:
     governance: 0.0
     operational_transparency: 31.6
   previous_composite: 35.2
-  schema_version: 0.17.2
+  schema_version: 0.18.0
   scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/logikcull/refs/heads/main/screenshots/logikcull-2026-06-20T184702.png

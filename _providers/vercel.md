@@ -427,18 +427,18 @@ rules:
   slug: vercel-rules
 score:
   band: strong
-  composite: 57.7
+  composite: 57.5
   coverage:
     artifact_dirs: 20
     catalog_gap: 66.5
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: 0.0
+  delta: -0.2
   facets:
     access_clarity: 68.4
     commercial_clarity: 68.4
     contract_governance: 13.6
-    contract_quality: 69.0
+    contract_quality: 68.2
     developer_ergonomics: 66.7
     discoverability: 50.0
     governance: 13.6
@@ -451,7 +451,7 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 4
-  schema_version: 0.17.2
+  schema_version: 0.18.0
   scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/vercel/refs/heads/main/screenshots/vercel-2026-06-20T200923.png

@@ -251,18 +251,18 @@ scopes:
   summary_line: 12 scopes · authorizationCode
 score:
   band: developing
-  composite: 43.1
+  composite: 44.8
   coverage:
     artifact_dirs: 17
     catalog_gap: 75.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: 0.0
+  delta: 1.7
   facets:
     access_clarity: 28.9
     commercial_clarity: 28.9
     contract_governance: 4.5
-    contract_quality: 50.7
+    contract_quality: 51.5
     developer_ergonomics: 35.1
     discoverability: 81.5
     governance: 4.5
@@ -271,10 +271,10 @@ score:
   provenance:
     conformance: derived
     contracts:
-      callable: 0.0
+      callable: 22.2
       derived: 0
       marker_coverage: 0.0
-      total: 14
+      total: 9
     mcp: derived
     skills: derived
   regulatory:
@@ -286,8 +286,8 @@ score:
     matched_via: tags
     regime: Banking & Open Finance
     regime_id: banking_open_finance
-    score: 77.2
-  schema_version: 0.17.2
+    score: 87.3
+  schema_version: 0.18.0
   scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/newcastle-permanent/refs/heads/main/screenshots/newcastle-permanent-2026-07-21T115738.png

@@ -79,7 +79,7 @@ score:
     - owner: catalog
       reason: never_enriched
   previous_composite: 5.0
-  schema_version: 0.17.2
+  schema_version: 0.18.0
   scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/onera-acquired-by-lyniate-in-2021/refs/heads/main/screenshots/onera-acquired-by-lyniate-in-2021-2026-08-07T190338.png

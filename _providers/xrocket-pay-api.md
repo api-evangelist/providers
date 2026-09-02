@@ -63,6 +63,12 @@ score:
     discoverability: 64.8
     governance: 0.0
     operational_transparency: 0.0
+  needs_work:
+    note: Recorded so this provider's gaps can be attributed. Does not affect the composite above.
+    owner: catalog
+    reasons:
+    - owner: catalog
+      reason: never_enriched
   previous_composite: 10.2
   regulatory:
     applies: true
@@ -70,7 +76,7 @@ score:
     regime: Payments
     regime_id: payments
     score: 0.0
-  schema_version: 0.17.2
+  schema_version: 0.18.0
   scored_at: '2026-09-01'
   trend: flat
 slug: xrocket-pay-api

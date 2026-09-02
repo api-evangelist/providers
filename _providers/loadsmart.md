@@ -530,18 +530,18 @@ rate_limits:
   slug: loadsmart-rate-limits
 score:
   band: developing
-  composite: 40.8
+  composite: 40.7
   coverage:
     artifact_dirs: 11
     catalog_gap: 58.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: 0.0
+  delta: -0.1
   facets:
     access_clarity: 39.5
     commercial_clarity: 39.5
     contract_governance: 0.0
-    contract_quality: 50.1
+    contract_quality: 49.4
     developer_ergonomics: 50.0
     discoverability: 63.0
     governance: 0.0
@@ -554,7 +554,7 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 48
-  schema_version: 0.17.2
+  schema_version: 0.18.0
   scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/loadsmart/refs/heads/main/screenshots/loadsmart-2026-06-20T184627.png

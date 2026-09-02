@@ -280,7 +280,7 @@ score:
     access_clarity: 18.4
     commercial_clarity: 18.4
     contract_governance: 4.5
-    contract_quality: 23.0
+    contract_quality: 22.7
     developer_ergonomics: 33.9
     discoverability: 74.1
     governance: 4.5
@@ -290,9 +290,9 @@ score:
     conformance: derived
     contracts:
       callable: 100.0
-      derived: 3
-      marker_coverage: 75.0
-      total: 4
+      derived: 11
+      marker_coverage: 84.6
+      total: 13
     mcp: derived
     skills: derived
   regulatory:
@@ -301,7 +301,7 @@ score:
     regime: Payments
     regime_id: payments
     score: 32.8
-  schema_version: 0.17.2
+  schema_version: 0.18.0
   scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/deluxe/refs/heads/main/screenshots/deluxe-2026-06-20T175905.png

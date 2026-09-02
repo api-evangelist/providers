@@ -299,18 +299,18 @@ rate_limits:
   slug: credo-ai-rate-limits
 score:
   band: developing
-  composite: 49.1
+  composite: 49.2
   coverage:
     artifact_dirs: 20
     catalog_gap: 88.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: 0.0
+  delta: 0.1
   facets:
     access_clarity: 60.5
     commercial_clarity: 60.5
     contract_governance: 18.2
-    contract_quality: 52.4
+    contract_quality: 52.6
     developer_ergonomics: 71.4
     discoverability: 57.4
     governance: 18.2
@@ -318,9 +318,14 @@ score:
   previous_composite: 49.1
   provenance:
     conformance: first-party
+    contracts:
+      callable: 5.1
+      derived: 0
+      marker_coverage: 0.0
+      total: 39
     mcp: first-party
     skills: first-party
-  schema_version: 0.17.2
+  schema_version: 0.18.0
   scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/credo-ai/refs/heads/main/screenshots/credo-ai-2026-08-17T080838.png

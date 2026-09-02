@@ -422,7 +422,7 @@ score:
       callable: 100.0
       derived: 0
       marker_coverage: 0.0
-      total: 2
+      total: 28
     mcp: derived
     skills: derived
   regulatory:
@@ -431,7 +431,7 @@ score:
     regime: Health
     regime_id: health
     score: 82.5
-  schema_version: 0.17.2
+  schema_version: 0.18.0
   scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/nextgen-healthcare/refs/heads/main/screenshots/nextgen-healthcare-2026-08-07T185204.png

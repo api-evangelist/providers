@@ -271,7 +271,7 @@ score:
       callable: 100.0
       derived: 0
       marker_coverage: 0.0
-      total: 2
+      total: 10
     mcp: derived
     skills: derived
   regulatory:
@@ -288,7 +288,7 @@ score:
     regime: Banking & Open Finance
     regime_id: banking_open_finance
     score: 94.9
-  schema_version: 0.17.2
+  schema_version: 0.18.0
   scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/triodos-bank-uk/refs/heads/main/screenshots/triodos-bank-uk-2026-08-17T082439.png

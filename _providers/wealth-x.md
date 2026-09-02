@@ -258,7 +258,7 @@ score:
       total: 3
     mcp: first-party
     skills: derived
-  schema_version: 0.17.2
+  schema_version: 0.18.0
   scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/wealth-x/refs/heads/main/screenshots/wealth-x-2026-08-17T082844.png

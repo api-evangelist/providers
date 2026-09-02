@@ -241,6 +241,11 @@ score:
   provenance:
     agentic_access: derived
     conformance: first-party
+    contracts:
+      callable: 0.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 1
     mcp: first-party
     skills: derived
   regulatory:
@@ -249,7 +254,7 @@ score:
     regime: Insurance
     regime_id: insurance
     score: 45.5
-  schema_version: 0.17.2
+  schema_version: 0.18.0
   scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/open-insurance/refs/heads/main/screenshots/open-insurance-2026-08-07T190517.png

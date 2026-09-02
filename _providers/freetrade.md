@@ -168,7 +168,7 @@ score:
     regime: Securities & Market Data
     regime_id: securities_market_data
     score: 40.0
-  schema_version: 0.17.2
+  schema_version: 0.18.0
   scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/freetrade/refs/heads/main/screenshots/freetrade-2026-08-07T165442.png

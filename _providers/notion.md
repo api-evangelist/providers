@@ -708,18 +708,18 @@ rules:
   slug: notion-jsonschema-spectral-rules
 score:
   band: strong
-  composite: 62.4
+  composite: 62.2
   coverage:
     artifact_dirs: 34
     catalog_gap: 54.5
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: 0.0
+  delta: -0.2
   facets:
     access_clarity: 55.3
     commercial_clarity: 55.3
     contract_governance: 18.2
-    contract_quality: 81.9
+    contract_quality: 81.0
     developer_ergonomics: 78.6
     discoverability: 61.1
     governance: 18.2
@@ -737,7 +737,7 @@ score:
       marker_coverage: 0.0
       total: 6
     mcp: first-party
-  schema_version: 0.17.2
+  schema_version: 0.18.0
   scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/notion/refs/heads/main/screenshots/notion-2026-06-20T190428.png

@@ -479,16 +479,16 @@ score:
     agentic_access: derived
     contracts:
       callable: 100.0
-      derived: 8
+      derived: 9
       marker_coverage: 100.0
-      total: 8
+      total: 9
   regulatory:
     applies: true
     matched_via: tags
     regime: Payments
     regime_id: payments
     score: 26.6
-  schema_version: 0.17.2
+  schema_version: 0.18.0
   scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/zendit/refs/heads/main/screenshots/zendit-2026-06-20T201909.png

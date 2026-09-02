@@ -352,18 +352,18 @@ rate_limits:
   slug: portainer-rate-limits
 score:
   band: developing
-  composite: 43.9
+  composite: 44.1
   coverage:
     artifact_dirs: 11
     catalog_gap: 79.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: 0.0
+  delta: 0.2
   facets:
     access_clarity: 26.3
     commercial_clarity: 26.3
     contract_governance: 0.0
-    contract_quality: 55.8
+    contract_quality: 56.4
     developer_ergonomics: 38.1
     discoverability: 57.4
     governance: 0.0
@@ -379,7 +379,7 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 32
-  schema_version: 0.17.2
+  schema_version: 0.18.0
   scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/portainer/refs/heads/main/screenshots/portainer-2026-06-20T191931.png

@@ -119,7 +119,7 @@ score:
     regime: Banking & Open Finance
     regime_id: banking_open_finance
     score: 15.2
-  schema_version: 0.17.2
+  schema_version: 0.18.0
   scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/national-credit-union-administration/refs/heads/main/screenshots/national-credit-union-administration-2026-06-20T190008.png

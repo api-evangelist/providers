@@ -13,7 +13,7 @@ agent_readiness:
   band: agent-ready
   dimensions:
     agent_card: false
-    agent_skills: true
+    agent_skills: derived
     agentic_access: false
     agentic_commerce: false
     auth_clarity: bearer
@@ -24,7 +24,7 @@ agent_readiness:
     error_semantics: documented
     event_surface_described: true
     idempotency: false
-    mcp_server: documented
+    mcp_server: false
     openapi_examples: verified
     protected_resource_metadata: false
     rate_limit_signal: documented
@@ -32,7 +32,7 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 37.3
+  score: 31.1
   scored_at: '2026-09-01'
 api_count: 1
 apis:
@@ -238,27 +238,36 @@ rate_limits:
   name: Jitterbit Rate Limits
   slug: jitterbit-rate-limits
 score:
-  band: strong
-  composite: 62.6
+  band: exemplar
+  composite: 70.0
   coverage:
     artifact_dirs: 24
-    catalog_gap: 69.0
+    catalog_gap: 51.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: 0.0
+  delta: 7.4
   facets:
-    access_clarity: 69.7
-    commercial_clarity: 69.7
+    access_clarity: 93.4
+    commercial_clarity: 93.4
     contract_governance: 18.2
-    contract_quality: 56.8
-    developer_ergonomics: 85.7
+    contract_quality: 59.4
+    developer_ergonomics: 80.4
     discoverability: 75.9
     governance: 18.2
-    operational_transparency: 57.9
+    operational_transparency: 81.6
   previous_composite: 62.6
-  schema_version: 0.17.2
+  provenance:
+    conformance: first-party
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 4
+    mcp: derived
+    skills: derived
+  schema_version: 0.18.0
   scored_at: '2026-09-01'
-  trend: flat
+  trend: rising
 screenshot: https://raw.githubusercontent.com/api-evangelist/jitterbit/refs/heads/main/screenshots/jitterbit-2026-06-20T183742.png
 security:
 - kind: authentication

@@ -261,18 +261,18 @@ scopes:
   summary_line: 4 scopes · authorizationCode/deviceCode/refreshToken
 score:
   band: strong
-  composite: 58.9
+  composite: 58.7
   coverage:
     artifact_dirs: 23
     catalog_gap: 54.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: 0.0
+  delta: -0.2
   facets:
     access_clarity: 84.2
     commercial_clarity: 84.2
     contract_governance: 4.5
-    contract_quality: 62.4
+    contract_quality: 61.6
     developer_ergonomics: 64.3
     discoverability: 75.9
     governance: 4.5
@@ -288,7 +288,7 @@ score:
       total: 4
     mcp: first-party
     skills: first-party
-  schema_version: 0.17.2
+  schema_version: 0.18.0
   scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/sendspark/refs/heads/main/screenshots/sendspark-2026-08-17T081802.png

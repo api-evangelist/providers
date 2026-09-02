@@ -134,7 +134,7 @@ score:
   previous_composite: 10.6
   provenance:
     conformance: first-party
-  schema_version: 0.17.2
+  schema_version: 0.18.0
   scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/blockfi/refs/heads/main/screenshots/blockfi-2026-08-07T162629.png

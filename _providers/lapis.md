@@ -249,7 +249,7 @@ score:
     governance: 25.0
     operational_transparency: 31.6
   previous_composite: 33.9
-  schema_version: 0.17.2
+  schema_version: 0.18.0
   scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/lapis/refs/heads/main/screenshots/lapis-2026-06-20T184316.png

@@ -139,7 +139,7 @@ score:
     regime: Securities & Market Data
     regime_id: securities_market_data
     score: 33.3
-  schema_version: 0.17.2
+  schema_version: 0.18.0
   scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/bitwise-investments/refs/heads/main/screenshots/bitwise-investments-2026-07-25T203216.png

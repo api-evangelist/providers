@@ -199,9 +199,9 @@ score:
     conformance: derived
     contracts:
       callable: 100.0
-      derived: 7
+      derived: 8
       marker_coverage: 100.0
-      total: 7
+      total: 8
     skills: derived
   regulatory:
     applies: true
@@ -209,7 +209,7 @@ score:
     regime: Health
     regime_id: health
     score: 26.3
-  schema_version: 0.17.2
+  schema_version: 0.18.0
   scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/kartos-therapeutics/refs/heads/main/screenshots/kartos-therapeutics-2026-08-07T171100.png

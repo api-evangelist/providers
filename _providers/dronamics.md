@@ -102,7 +102,7 @@ score:
   previous_composite: 9.3
   provenance:
     mcp: first-party
-  schema_version: 0.17.2
+  schema_version: 0.18.0
   scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/dronamics/refs/heads/main/screenshots/dronamics-2026-07-25T212420.png

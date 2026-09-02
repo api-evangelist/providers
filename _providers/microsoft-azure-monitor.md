@@ -814,7 +814,7 @@ score:
     access_clarity: 60.5
     commercial_clarity: 60.5
     contract_governance: 9.8
-    contract_quality: 70.9
+    contract_quality: 70.7
     developer_ergonomics: 66.7
     discoverability: 75.9
     governance: 9.8
@@ -823,11 +823,11 @@ score:
   provenance:
     agentic_access: derived
     contracts:
-      callable: 100.0
+      callable: 94.7
       derived: 0
       marker_coverage: 0.0
       total: 19
-  schema_version: 0.17.2
+  schema_version: 0.18.0
   scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-monitor/refs/heads/main/screenshots/microsoft-azure-monitor-2026-06-20T185425.png

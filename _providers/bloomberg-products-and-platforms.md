@@ -138,7 +138,7 @@ score:
     governance: 0.0
     operational_transparency: 10.5
   previous_composite: 20.0
-  schema_version: 0.17.2
+  schema_version: 0.18.0
   scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/bloomberg-products-and-platforms/refs/heads/main/screenshots/bloomberg-products-and-platforms-2026-06-20T173513.png

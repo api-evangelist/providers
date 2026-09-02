@@ -472,31 +472,34 @@ scopes:
   summary_line: OAuth 2.0 · no documented scopes
 score:
   band: developing
-  composite: 47.9
+  composite: 50.8
   coverage:
     artifact_dirs: 28
-    catalog_gap: 69.0
+    catalog_gap: 60.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: 0.0
+  delta: 2.9
   facets:
     access_clarity: 34.2
     commercial_clarity: 34.2
     contract_governance: 0.0
-    contract_quality: 50.3
+    contract_quality: 49.8
     developer_ergonomics: 69.0
     discoverability: 81.5
     governance: 0.0
-    operational_transparency: 50.0
+    operational_transparency: 73.7
   previous_composite: 47.9
   provenance:
     agentic_access: derived
+    conformance: first-party
     contracts:
-      callable: 0.0
+      callable: 3.0
       derived: 0
       marker_coverage: 0.0
-      total: 32
-  schema_version: 0.17.2
+      total: 33
+    mcp: first-party
+    skills: first-party
+  schema_version: 0.18.0
   scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/chronosphere/refs/heads/main/screenshots/chronosphere-2026-06-20T174330.png

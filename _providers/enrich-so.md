@@ -343,18 +343,18 @@ scopes:
   summary_line: OAuth 2.0 · no documented scopes
 score:
   band: strong
-  composite: 64.8
+  composite: 62.1
   coverage:
     artifact_dirs: 24
     catalog_gap: 48.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: 0.0
+  delta: -2.7
   facets:
     access_clarity: 73.7
     commercial_clarity: 73.7
     contract_governance: 18.2
-    contract_quality: 67.5
+    contract_quality: 56.8
     developer_ergonomics: 66.1
     discoverability: 81.5
     governance: 18.2
@@ -365,12 +365,12 @@ score:
     conformance: first-party
     contracts:
       callable: 100.0
-      derived: 0
-      marker_coverage: 0.0
-      total: 10
+      derived: 4
+      marker_coverage: 22.2
+      total: 18
     mcp: first-party
     skills: derived
-  schema_version: 0.17.2
+  schema_version: 0.18.0
   scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/enrich-so/refs/heads/main/screenshots/enrich-so-2026-07-25T213424.png

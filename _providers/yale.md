@@ -333,18 +333,18 @@ scopes:
   summary_line: OAuth 2.0 · no documented scopes
 score:
   band: developing
-  composite: 48.3
+  composite: 48.4
   coverage:
     artifact_dirs: 21
     catalog_gap: 46.8
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: 0.0
+  delta: 0.1
   facets:
     access_clarity: 63.2
     commercial_clarity: 63.2
     contract_governance: 9.8
-    contract_quality: 57.5
+    contract_quality: 57.6
     developer_ergonomics: 33.3
     discoverability: 64.8
     governance: 9.8
@@ -356,7 +356,7 @@ score:
     contracts:
       callable: 100.0
       derived: 0
-      marker_coverage: 37.5
+      marker_coverage: 0.0
       total: 8
   regulatory:
     applies: true
@@ -364,7 +364,7 @@ score:
     regime: Education & Research
     regime_id: education
     score: 53.7
-  schema_version: 0.17.2
+  schema_version: 0.18.0
   scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/yale/refs/heads/main/screenshots/yale-2026-06-20T201720.png

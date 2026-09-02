@@ -329,18 +329,18 @@ rate_limits:
   slug: sikoia-rate-limits
 score:
   band: strong
-  composite: 56.2
+  composite: 56.0
   coverage:
     artifact_dirs: 22
     catalog_gap: 70.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: 0.0
+  delta: -0.2
   facets:
     access_clarity: 52.6
     commercial_clarity: 52.6
     contract_governance: 18.2
-    contract_quality: 66.5
+    contract_quality: 65.6
     developer_ergonomics: 47.0
     discoverability: 75.9
     governance: 18.2
@@ -362,7 +362,7 @@ score:
     regime: Banking & Open Finance
     regime_id: banking_open_finance
     score: 38.0
-  schema_version: 0.17.2
+  schema_version: 0.18.0
   scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/sikoia/refs/heads/main/screenshots/sikoia-2026-08-17T081855.png

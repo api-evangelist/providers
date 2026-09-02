@@ -13,7 +13,7 @@ agent_readiness:
   band: agent-aware
   dimensions:
     agent_card: false
-    agent_skills: true
+    agent_skills: derived
     agentic_access: false
     agentic_commerce: false
     auth_clarity: bearer
@@ -32,7 +32,7 @@ agent_readiness:
     spec_presence: false
     well_known_catalog: false
   schema_version: 0.2
-  score: 8.6
+  score: 5.9
   scored_at: '2026-09-01'
 api_count: 7
 apis:
@@ -187,37 +187,33 @@ rate_limits:
   slug: university-of-basel-rate-limits
 score:
   band: thin
-  composite: 35.2
+  composite: 35.1
   coverage:
     artifact_dirs: 11
     catalog_gap: 64.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: 0.0
+  delta: -0.1
   facets:
     access_clarity: 50.0
     commercial_clarity: 50.0
     contract_governance: 18.2
-    contract_quality: 3.2
-    developer_ergonomics: 42.9
+    contract_quality: 7.4
+    developer_ergonomics: 37.5
     discoverability: 74.1
     governance: 18.2
     operational_transparency: 13.2
   previous_composite: 35.2
   provenance:
-    agentic_access: derived
-    contracts:
-      callable: 0.0
-      derived: 0
-      marker_coverage: 0.0
-      total: 5
+    conformance: first-party
+    skills: derived
   regulatory:
     applies: true
     matched_via: tags
     regime: Education & Research
     regime_id: education
     score: 57.4
-  schema_version: 0.17.2
+  schema_version: 0.18.0
   scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/university-of-basel/refs/heads/main/screenshots/university-of-basel-2026-06-20T200131.png

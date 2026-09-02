@@ -567,34 +567,37 @@ scopes:
   slug: snyk-scopes
   summary_line: OAuth 2.0 · no documented scopes
 score:
-  band: strong
-  composite: 63.8
+  band: exemplar
+  composite: 69.8
   coverage:
     artifact_dirs: 26
-    catalog_gap: 77.0
+    catalog_gap: 59.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: 0.0
+  delta: 6.0
   facets:
-    access_clarity: 76.3
-    commercial_clarity: 76.3
-    contract_governance: 18.2
-    contract_quality: 68.3
+    access_clarity: 100.0
+    commercial_clarity: 100.0
+    contract_governance: 4.5
+    contract_quality: 67.4
     developer_ergonomics: 71.4
     discoverability: 61.1
-    governance: 18.2
-    operational_transparency: 68.4
+    governance: 4.5
+    operational_transparency: 92.1
   previous_composite: 63.8
   provenance:
     agentic_access: derived
+    conformance: derived
     contracts:
       callable: 100.0
       derived: 0
       marker_coverage: 0.0
-      total: 46
-  schema_version: 0.17.2
+      total: 48
+    mcp: first-party
+    skills: first-party
+  schema_version: 0.18.0
   scored_at: '2026-09-01'
-  trend: flat
+  trend: rising
 screenshot: https://raw.githubusercontent.com/api-evangelist/snyk/refs/heads/main/screenshots/snyk-2026-06-20T194114.png
 security:
 - kind: authentication

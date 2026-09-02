@@ -217,19 +217,19 @@ overview: 'Upsie publishes 8 APIs on the [APIs.io](https://apis.io/) network, in
   Upsie''s developer surface includes documentation, API reference, support, signup flow, authentication, sandbox, and 17 more developer resources.'
 random_paper: 4
 score:
-  band: developing
-  composite: 43.8
+  band: thin
+  composite: 33.6
   coverage:
     artifact_dirs: 17
     catalog_gap: 75.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: 0.0
+  delta: -10.2
   facets:
     access_clarity: 34.2
     commercial_clarity: 34.2
     contract_governance: 4.5
-    contract_quality: 63.5
+    contract_quality: 22.7
     developer_ergonomics: 47.0
     discoverability: 81.5
     governance: 4.5
@@ -240,9 +240,9 @@ score:
     conformance: derived
     contracts:
       callable: 100.0
-      derived: 0
-      marker_coverage: 0.0
-      total: 8
+      derived: 9
+      marker_coverage: 100.0
+      total: 9
     mcp: derived
     skills: derived
   regulatory:
@@ -251,9 +251,9 @@ score:
     regime: Insurance
     regime_id: insurance
     score: 37.9
-  schema_version: 0.17.2
+  schema_version: 0.18.0
   scored_at: '2026-09-01'
-  trend: flat
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/upsie/refs/heads/main/screenshots/upsie-2026-08-17T082639.png
 security:
 - kind: authentication

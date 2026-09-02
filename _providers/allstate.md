@@ -26,15 +26,15 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     protected_resource_metadata: false
-    rate_limit_signal: false
+    rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 12.9
+  score: 15.5
   scored_at: '2026-09-01'
 api_count: 0
-artifact_total: 13
+artifact_total: 15
 common:
 - group: auth
   title: ''
@@ -51,11 +51,55 @@ common:
 - group: operate
   title: ''
   type: Support
-  url: https://www.allstate.com/about/contact-allstate
-- group: docs
+  url: https://www.allstate.com/help-support
+- group: commercial
   title: ''
-  type: GraphQL
-  url: graphql/allstate-graphql.md
+  type: TermsOfService
+  url: https://www.allstate.com/terms
+- group: commercial
+  title: ''
+  type: PrivacyPolicy
+  url: https://www.allstate.com/privacy-center
+- group: company
+  title: ''
+  type: Blog
+  url: https://www.allstate.com/resources
+- group: build
+  title: ''
+  type: GitHubOrganization
+  url: https://github.com/Allstate
+- group: agent
+  title: ''
+  type: LLMsTxt
+  url: llms/allstate-llms.txt
+- group: build
+  title: ''
+  type: Packages
+  url: packages/allstate-packages.yml
+- group: commercial
+  title: ''
+  type: Plans
+  url: plans/allstate-plans-pricing.yml
+- group: operate
+  title: ''
+  type: RateLimits
+  url: rate-limits/allstate-rate-limits.yml
+coverage:
+  checked: '2026-09-01'
+  detail: The Allstate Developer Portal at developer.allstate.com is a credential wall that states "Log in to access the APIs" and declares itself a private computer facility, and it answers HTTP 200 with that same 30,309-byte login page for every path requested — including /openapi.json, /swagger.json, /api-docs and a control path that cannot exist — so no contract, reference or discovery document is reachable without partner credentials.
+  evidence:
+  - status: 200
+    url: https://developer.allstate.com/
+  - status: 200
+    url: https://developer.allstate.com/openapi.json
+  - status: 200
+    url: https://developer.allstate.com/.well-known/allstate-negative-control-7f3ab91c.json
+  - status: 404
+    url: https://www.allstate.com/.well-known/api-catalog
+  - status: 200
+    url: https://www.allstate.com/b2b/embedded-insurance
+  reason: partner-login
+  state: gated
 created: '2024-01-01'
 description: Allstate is a personal lines insurer in the United States offering auto, home, life, and other insurance products through agents, call centers, and direct channels. The Allstate Developer Portal provides partner APIs for agency management, policy quoting, claims integration, and telematics data exchange for authorized business partners.
 features:
@@ -70,7 +114,7 @@ features:
 - description: Data exchange APIs supporting the Drivewise telematics program for connected vehicle data ingestion and driver behavior scoring.
   name: Telematics Data
 graphqls:
-- description: 'This conceptual GraphQL schema models the core domain of Allstate Insurance, one of the largest publicly held personal lines property and casualty insurers in the United States. Allstate offers auto, '
+- description: 'generated: ''2026-09-01'''
   name: Allstate Insurance GraphQL Schema
   slug: allstate-graphql
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/allstate.png
@@ -82,14 +126,18 @@ integrations:
 - description: OEM and aftermarket telematics integration for the Drivewise usage-based insurance program.
   name: Connected Vehicle Platforms
 layout: provider
-modified: '2026-04-19'
+modified: '2026-09-01'
 name: Allstate
 nav: Providers
 network: true
 overview: 'Allstate is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Insurance, Auto Insurance, Home Insurance, Life Insurance, and Personal Lines.
 
 
-  Allstate''s developer surface includes developer portal, support, and 3 more developer resources.'
+  Allstate''s developer surface includes developer portal, support, engineering blog, and 9 more developer resources.'
+plans:
+- name: Allstate Plans Pricing
+  plan_count: 0
+  slug: allstate-plans-pricing
 press:
 - date: '2026-05-25'
   title: Machine Learning Implementation at Allstate
@@ -107,40 +155,38 @@ press:
   title: Allstate CEO Touts New AI Agent System to Lower Costs
   url: https://news.ambest.com/newscontent.aspx?refnum=270450&altsrc=23
 random_paper: 18
+rate_limits:
+- limit_count: 0
+  name: Allstate Rate Limits
+  slug: allstate-rate-limits
 score:
   band: emerging
-  composite: 15.5
+  composite: 22.7
   coverage:
-    artifact_dirs: 6
+    artifact_dirs: 11
     catalog_gap: 88.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: 0.0
+  delta: 7.2
   facets:
-    access_clarity: 0.0
-    commercial_clarity: 0.0
+    access_clarity: 21.1
+    commercial_clarity: 21.1
     contract_governance: 0.0
     contract_quality: 41.5
-    developer_ergonomics: 14.3
+    developer_ergonomics: 16.7
     discoverability: 50.0
     governance: 0.0
-    operational_transparency: 0.0
-  needs_work:
-    note: Recorded so this provider's gaps can be attributed. Does not affect the composite above.
-    owner: catalog
-    reasons:
-    - owner: catalog
-      reason: no_resolvable_host
+    operational_transparency: 5.3
   previous_composite: 15.5
   regulatory:
     applies: true
     matched_via: tags
     regime: Insurance
     regime_id: insurance
-    score: 9.1
-  schema_version: 0.17.2
+    score: 21.2
+  schema_version: 0.18.0
   scored_at: '2026-09-01'
-  trend: flat
+  trend: rising
 screenshot: https://raw.githubusercontent.com/api-evangelist/allstate/refs/heads/main/screenshots/allstate-2026-06-20T171536.png
 security:
 - kind: domain-security

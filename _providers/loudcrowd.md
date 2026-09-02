@@ -226,18 +226,18 @@ rate_limits:
   slug: loudcrowd-rate-limits
 score:
   band: developing
-  composite: 51.8
+  composite: 52.0
   coverage:
     artifact_dirs: 19
     catalog_gap: 63.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: 0.0
+  delta: 0.2
   facets:
     access_clarity: 84.2
     commercial_clarity: 84.2
     contract_governance: 18.2
-    contract_quality: 60.8
+    contract_quality: 61.7
     developer_ergonomics: 47.0
     discoverability: 81.5
     governance: 18.2
@@ -246,13 +246,13 @@ score:
   provenance:
     conformance: first-party
     contracts:
-      callable: 50.0
+      callable: 100.0
       derived: 0
       marker_coverage: 0.0
-      total: 2
+      total: 8
     mcp: derived
     skills: derived
-  schema_version: 0.17.2
+  schema_version: 0.18.0
   scored_at: '2026-09-01'
   trend: flat
 security:

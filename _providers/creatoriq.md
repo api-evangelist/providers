@@ -307,18 +307,18 @@ rate_limits:
   slug: creatoriq-rate-limits
 score:
   band: strong
-  composite: 64.1
+  composite: 63.9
   coverage:
     artifact_dirs: 23
     catalog_gap: 70.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: 0.0
+  delta: -0.2
   facets:
     access_clarity: 60.5
     commercial_clarity: 60.5
     contract_governance: 4.5
-    contract_quality: 70.3
+    contract_quality: 69.4
     developer_ergonomics: 66.1
     discoverability: 68.5
     governance: 4.5
@@ -330,7 +330,7 @@ score:
       callable: 100.0
       derived: 0
       marker_coverage: 0.0
-      total: 17
+      total: 20
     mcp: derived
     skills: derived
   regulatory:
@@ -345,7 +345,7 @@ score:
     regime: Payments
     regime_id: payments
     score: 56.3
-  schema_version: 0.17.2
+  schema_version: 0.18.0
   scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/creatoriq/refs/heads/main/screenshots/creatoriq-2026-08-17T080838.png

@@ -12,7 +12,7 @@ agent_readiness:
     dry_run_mode: false
     dynamic_client_registration: false
     error_semantics: documented
-    event_surface_described: derived
+    event_surface_described: true
     idempotency: false
     mcp_server: false
     openapi_examples: partial
@@ -22,7 +22,7 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 24.6
+  score: 27.9
   scored_at: '2026-09-01'
 agentic_access:
 - acting_count: 7
@@ -303,7 +303,7 @@ score:
     access_clarity: 39.5
     commercial_clarity: 39.5
     contract_governance: 18.2
-    contract_quality: 51.7
+    contract_quality: 51.9
     developer_ergonomics: 56.5
     discoverability: 64.8
     governance: 18.2
@@ -313,10 +313,10 @@ score:
     agentic_access: derived
     conformance: first-party
     contracts:
-      callable: 75.0
+      callable: 100.0
       derived: 0
       marker_coverage: 0.0
-      total: 4
+      total: 9
     mcp: derived
     skills: derived
   regulatory:
@@ -325,7 +325,7 @@ score:
     regime: Telecommunications
     regime_id: telecommunications
     score: 62.5
-  schema_version: 0.17.2
+  schema_version: 0.18.0
   scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/optus/refs/heads/main/screenshots/optus-2026-08-07T190818.png

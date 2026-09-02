@@ -295,8 +295,8 @@ score:
       callable: 100.0
       derived: 0
       marker_coverage: 0.0
-      total: 16
-  schema_version: 0.17.2
+      total: 17
+  schema_version: 0.18.0
   scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/amazon-trusted-advisor/refs/heads/main/screenshots/amazon-trusted-advisor-2026-06-20T171840.png

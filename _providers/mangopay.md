@@ -333,18 +333,18 @@ scopes:
   summary_line: 20 scopes · clientCredentials
 score:
   band: developing
-  composite: 44.8
+  composite: 44.7
   coverage:
     artifact_dirs: 15
     catalog_gap: 59.5
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: 0.0
+  delta: -0.1
   facets:
     access_clarity: 39.5
     commercial_clarity: 39.5
     contract_governance: 7.6
-    contract_quality: 57.5
+    contract_quality: 56.8
     developer_ergonomics: 52.4
     discoverability: 63.0
     governance: 7.6
@@ -363,7 +363,7 @@ score:
     regime: Payments
     regime_id: payments
     score: 42.2
-  schema_version: 0.17.2
+  schema_version: 0.18.0
   scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/mangopay/refs/heads/main/screenshots/mangopay-2026-06-20T184919.png

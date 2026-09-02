@@ -279,7 +279,7 @@ score:
       total: 14
     mcp: first-party
     skills: derived
-  schema_version: 0.17.2
+  schema_version: 0.18.0
   scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/quadratic/refs/heads/main/screenshots/quadratic-2026-08-17T081429.png

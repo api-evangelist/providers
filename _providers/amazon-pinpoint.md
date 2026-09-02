@@ -7580,18 +7580,18 @@ rules:
   slug: amazon-pinpoint-spectral-rules
 score:
   band: exemplar
-  composite: 81.1
+  composite: 80.9
   coverage:
     artifact_dirs: 33
     catalog_gap: 37.5
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: 0.0
+  delta: -0.2
   facets:
     access_clarity: 89.5
     commercial_clarity: 89.5
     contract_governance: 47.0
-    contract_quality: 79.4
+    contract_quality: 78.3
     developer_ergonomics: 85.1
     discoverability: 70.4
     governance: 47.0
@@ -7613,7 +7613,7 @@ score:
     regime: Telecommunications
     regime_id: telecommunications
     score: 50.0
-  schema_version: 0.17.2
+  schema_version: 0.18.0
   scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/amazon-pinpoint/refs/heads/main/screenshots/amazon-pinpoint-2026-06-20T171757.png

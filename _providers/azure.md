@@ -301,10 +301,10 @@ score:
     agentic_access: derived
     contracts:
       callable: 100.0
-      derived: 3
+      derived: 4
       marker_coverage: 100.0
-      total: 3
-  schema_version: 0.17.2
+      total: 4
+  schema_version: 0.18.0
   scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/azure/refs/heads/main/screenshots/azure-2026-06-20T172833.png

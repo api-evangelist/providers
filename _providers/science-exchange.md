@@ -328,9 +328,9 @@ score:
     conformance: first-party
     contracts:
       callable: 100.0
-      derived: 23
+      derived: 24
       marker_coverage: 100.0
-      total: 23
+      total: 24
     mcp: derived
     skills: derived
   regulatory:
@@ -345,7 +345,7 @@ score:
     regime: Health
     regime_id: health
     score: 43.8
-  schema_version: 0.17.2
+  schema_version: 0.18.0
   scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/science-exchange/refs/heads/main/screenshots/science-exchange-2026-08-17T081734.png

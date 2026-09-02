@@ -429,9 +429,9 @@ score:
     conformance: derived
     contracts:
       callable: 100.0
-      derived: 1
+      derived: 73
       marker_coverage: 100.0
-      total: 1
+      total: 73
     mcp: derived
     skills: derived
   regulatory:
@@ -440,7 +440,7 @@ score:
     regime: Insurance
     regime_id: insurance
     score: 37.9
-  schema_version: 0.17.2
+  schema_version: 0.18.0
   scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/naic/refs/heads/main/screenshots/naic-2026-08-07T184609.png

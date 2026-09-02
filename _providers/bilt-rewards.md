@@ -110,7 +110,7 @@ score:
     regime: Payments
     regime_id: payments
     score: 23.4
-  schema_version: 0.17.2
+  schema_version: 0.18.0
   scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/bilt-rewards/refs/heads/main/screenshots/bilt-rewards-2026-07-25T203006.png

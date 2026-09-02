@@ -307,8 +307,8 @@ score:
       callable: 0.0
       derived: 0
       marker_coverage: 0.0
-      total: 19
-  schema_version: 0.17.2
+      total: 20
+  schema_version: 0.18.0
   scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/amazon-parallel-computing-service/refs/heads/main/screenshots/amazon-parallel-computing-service-2026-06-20T171755.png

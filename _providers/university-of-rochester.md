@@ -173,40 +173,40 @@ rate_limits:
   name: University Of Rochester Rate Limits
   slug: university-of-rochester-rate-limits
 score:
-  band: developing
-  composite: 39.5
+  band: thin
+  composite: 30.7
   coverage:
     artifact_dirs: 9
     catalog_gap: 59.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: 0.0
+  delta: -8.8
   facets:
     access_clarity: 50.0
     commercial_clarity: 50.0
     contract_governance: 0.0
-    contract_quality: 51.6
+    contract_quality: 16.1
     developer_ergonomics: 26.2
     discoverability: 68.5
     governance: 0.0
     operational_transparency: 26.3
   previous_composite: 39.5
   provenance:
-    agentic_access: derived
+    conformance: first-party
     contracts:
       callable: 100.0
-      derived: 0
-      marker_coverage: 0.0
-      total: 10
+      derived: 1
+      marker_coverage: 100.0
+      total: 1
   regulatory:
     applies: true
     matched_via: tags
     regime: Education & Research
     regime_id: education
     score: 35.2
-  schema_version: 0.17.2
+  schema_version: 0.18.0
   scored_at: '2026-09-01'
-  trend: flat
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/university-of-rochester/refs/heads/main/screenshots/university-of-rochester-2026-06-20T200223.png
 security:
 - kind: domain-security

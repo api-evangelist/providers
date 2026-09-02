@@ -689,18 +689,18 @@ rate_limits:
   slug: spree-commerce-rate-limits
 score:
   band: thin
-  composite: 36.6
+  composite: 37.0
   coverage:
     artifact_dirs: 11
     catalog_gap: 64.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: 0.0
+  delta: 0.4
   facets:
     access_clarity: 39.5
     commercial_clarity: 39.5
     contract_governance: 0.0
-    contract_quality: 56.1
+    contract_quality: 58.0
     developer_ergonomics: 14.3
     discoverability: 59.3
     governance: 0.0
@@ -712,11 +712,11 @@ score:
   provenance:
     agentic_access: derived
     contracts:
-      callable: 0.0
+      callable: 38.2
       derived: 0
       marker_coverage: 0.0
       total: 78
-  schema_version: 0.17.2
+  schema_version: 0.18.0
   scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/spree-commerce/refs/heads/main/screenshots/spree-commerce-2026-06-20T194400.png

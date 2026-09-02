@@ -317,18 +317,18 @@ overview: 'ClearBank publishes 15 APIs on the [APIs.io](https://apis.io/) networ
 random_paper: 7
 score:
   band: developing
-  composite: 45.3
+  composite: 45.1
   coverage:
     artifact_dirs: 21
     catalog_gap: 75.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: 0.0
+  delta: -0.2
   facets:
     access_clarity: 21.1
     commercial_clarity: 21.1
     contract_governance: 4.5
-    contract_quality: 49.2
+    contract_quality: 48.5
     developer_ergonomics: 61.3
     discoverability: 81.5
     governance: 4.5
@@ -341,7 +341,7 @@ score:
       callable: 0.0
       derived: 0
       marker_coverage: 0.0
-      total: 11
+      total: 15
     mcp: derived
     skills: derived
   regulatory:
@@ -350,7 +350,7 @@ score:
     regime: Banking & Open Finance
     regime_id: banking_open_finance
     score: 44.3
-  schema_version: 0.17.2
+  schema_version: 0.18.0
   scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/clearbank/refs/heads/main/screenshots/clearbank-2026-07-25T205542.png

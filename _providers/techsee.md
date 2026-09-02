@@ -156,13 +156,16 @@ score:
     governance: 18.2
     operational_transparency: 2.6
   previous_composite: 24.7
+  provenance:
+    conformance: first-party
+    mcp: first-party
   regulatory:
     applies: true
     matched_via: tags
     regime: Telecommunications
     regime_id: telecommunications
     score: 58.3
-  schema_version: 0.17.2
+  schema_version: 0.18.0
   scored_at: '2026-09-01'
   trend: flat
 security:

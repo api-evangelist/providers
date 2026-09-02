@@ -474,18 +474,18 @@ rate_limits:
   slug: subscan
 score:
   band: thin
-  composite: 37.3
+  composite: 37.6
   coverage:
     artifact_dirs: 10
     catalog_gap: 46.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: 0.0
+  delta: 0.3
   facets:
     access_clarity: 39.5
     commercial_clarity: 39.5
     contract_governance: 0.0
-    contract_quality: 48.8
+    contract_quality: 50.0
     developer_ergonomics: 14.3
     discoverability: 68.5
     governance: 0.0
@@ -497,11 +497,11 @@ score:
   provenance:
     agentic_access: derived
     contracts:
-      callable: 0.0
+      callable: 35.1
       derived: 0
       marker_coverage: 0.0
       total: 57
-  schema_version: 0.17.2
+  schema_version: 0.18.0
   scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/polkadot/refs/heads/main/screenshots/polkadot-2026-06-20T192021.png

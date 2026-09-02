@@ -221,27 +221,30 @@ rate_limits:
   name: Ximilar Rate Limits
   slug: ximilar-rate-limits
 score:
-  band: developing
-  composite: 51.3
+  band: strong
+  composite: 58.8
   coverage:
     artifact_dirs: 17
-    catalog_gap: 69.0
+    catalog_gap: 51.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: 0.0
+  delta: 7.5
   facets:
-    access_clarity: 61.8
-    commercial_clarity: 61.8
+    access_clarity: 85.5
+    commercial_clarity: 85.5
     contract_governance: 18.2
-    contract_quality: 49.3
+    contract_quality: 48.1
     developer_ergonomics: 61.9
     discoverability: 75.9
     governance: 18.2
-    operational_transparency: 34.2
+    operational_transparency: 57.9
   previous_composite: 51.3
-  schema_version: 0.17.2
+  provenance:
+    conformance: first-party
+    mcp: first-party
+  schema_version: 0.18.0
   scored_at: '2026-09-01'
-  trend: flat
+  trend: rising
 screenshot: https://raw.githubusercontent.com/api-evangelist/ximilar/refs/heads/main/screenshots/ximilar-2026-06-20T201703.png
 security:
 - kind: authentication

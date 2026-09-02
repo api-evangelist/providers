@@ -1,14 +1,15 @@
 ---
 access_model:
-  confidence: medium
-  label: Free
+  confidence: high
+  label: Free and anonymous — the CKAN Action API needs no key
   onboarding: unknown
   pricing: free
-  public: false
+  public: true
   source:
-  - plans
+  - probed
+  - documentation
   trial: false
-  try_now: false
+  try_now: true
 agent_readiness:
   band: human-only
   dimensions:
@@ -34,39 +35,66 @@ agent_readiness:
   schema_version: 0.2
   score: 2.5
   scored_at: '2026-09-01'
-api_count: 3
+api_count: 4
 apis:
-- description: NCKU's open data platform is built on CKAN and exposes the standard CKAN Action API. Endpoints such as /api/3/action/package_list and /api/3/action/package_show return JSON catalogs of the university'
+- description: NCKU's institutional open data portal, a CKAN 2.0 deployment on NCKU's own host publishing 108 datasets from the university and its affiliated units — student enrolment and geographic distribution sta
   name: NCKU Open Data Platform (CKAN Action API)
   slug: opendata
-- description: The NCKU Library catalog and discovery service runs on Ex Libris Primo backed by an Alma library services platform. Primo deployments expose a REST/JSON discovery layer (Primo VE) used by the public s
-  name: NCKU Library Discovery (Ex Libris Primo)
-  slug: primo
-- description: The NCKU institutional repository (NCKUR) is a DSpace 7 platform hosting university scholarly output and theses. DSpace 7 ships a REST API and OAI-PMH harvesting interface; the repository homepage adv
-  name: NCKU Institutional Repository (DSpace 7)
-  slug: ir
-artifact_total: 8
+- description: NCKU Library's catalog and discovery layer runs on Ex Libris Primo VE backed by Alma, under the NCKU tenant view 886NCKU_INST. The search interface is a Primo Angular application (primoExploreRoot) se
+  name: NCKU Library discovery (Ex Libris Primo VE tenancy)
+  slug: library-discovery
+- description: NCKUR is NCKU's institutional repository — theses, dissertations and university scholarly output under handle prefix 987654321, with roughly 294 handle links on the front page alone. It self-identifie
+  name: NCKU Institutional Repository (NCKUR, DSpace)
+  slug: institutional-repository
+- description: NCKU's Research Organization Registry record — ror.org/01b8kcc49, established 1931, status active, declared domain ncku.edu.tw — and the canonical machine-readable identifier for the institution itsel
+  name: ROR organization record (01b8kcc49)
+  slug: ror-registration
+artifact_total: 9
 common:
-- group: auth
-  title: ''
-  type: DomainSecurity
-  url: security/ncku-domain-security.yml
 - group: company
   title: ''
   type: Website
-  url: https://web.ncku.edu.tw/index.php?Lang=en
-- group: start
+  url: https://www.ncku.edu.tw/index.php?Lang=en
+- group: other
   title: ''
-  type: DeveloperPortal
+  type: OpenData
   url: https://data.ncku.edu.tw/
+- group: commercial
+  title: ''
+  type: TermsOfService
+  url: https://data.ncku.edu.tw/zh_TW/about
 - group: build
   title: ''
-  type: GitHub
+  type: LibraryCatalog
+  url: https://ncku.primo.exlibrisgroup.com/discovery/search?vid=886NCKU_INST:886NCKU_INST&lang=zh-tw
+- group: other
+  title: ''
+  type: ResearchRepository
+  url: https://nckur.lib.ncku.edu.tw/
+- group: learn
+  title: ''
+  type: CourseCatalog
+  url: https://course.ncku.edu.tw/
+- group: other
+  title: ''
+  type: AIPolicy
+  url: https://hsm.ncku.edu.tw/var/file/199/1199/img/434977937.pdf
+- group: build
+  title: ''
+  type: AITooling
+  url: https://sites.google.com/gs.ncku.edu.tw/nckuaiguidance/
+- group: build
+  title: ''
+  type: GitHubOrganization
   url: https://github.com/ncku-csie
 - group: company
   title: ''
   type: LinkedIn
   url: https://www.linkedin.com/school/national-cheng-kung-university/
+- group: auth
+  title: ''
+  type: DomainSecurity
+  url: security/ncku-domain-security.yml
 - group: commercial
   title: ''
   type: Plans
@@ -84,7 +112,8 @@ common:
   type: Review
   url: review.yml
 created: '2026-06-03'
-description: 'National Cheng Kung University (NCKU) is a public research university based in Tainan, Taiwan, ranked #215 in the QS World University Rankings 2025. Its public, machine-readable footprint centers on a CKAN-powered open data platform that exposes the standard CKAN Action API, an Ex Libris Primo/Alma library discovery layer, and a DSpace 7 institutional repository. NCKU does not operate a single consolidated developer portal; the cataloged interfaces below are platform-standard APIs confirmed live rather than bespoke, documented university APIs.'
+description: 'National Cheng Kung University (NCKU, 國立成功大學) is a public research university in Tainan, Taiwan, founded in 1931 and the second-largest comprehensive university in the country. Its programmable footprint is narrow and almost entirely accounted for by one surface: the NCKU Open Data Platform at data.ncku.edu.tw, a CKAN 2.0 deployment NCKU runs on its own host and its own domain, carrying 108 datasets and two NCKU-authored CKAN extensions (nckumetadata, nckutemplatehelper), released under Taiwan''s Open Government Data License v1. Its Action API answers anonymous callers with valid JSON and is the only endpoint in this profile that returns machine-readable institutional data without credentials. Everything else is either a vendor tenancy or barely reachable. Library discovery is Ex Libris Primo VE under an NCKU tenant view (886NCKU_INST) and is recorded as a relationship, not as NCKU''s engineering — no Ex Libris contract is saved here. The NCKU institutional repository (NCKUR)
+  at nckur.lib.ncku.edu.tw is NCKU''s own DSpace, confirmed live and self-identifying as "Powered By DSPACE, MIT" Version 7.0 during one of only three responsive windows in roughly thirty probes on 2026-09-01 — the host refuses TCP the rest of the time. No OAI-PMH or REST interface survived probing: /oai/request?verb=Identify returns a genuine 404 and every other candidate path fell inside a refusal window, so the 2026-06 profile''s DSpace REST and OAI-PMH claims stay unverified. NCKU''s Shibboleth identity provider resolves in DNS at idp.ncku.edu.tw but its ports do not answer from outside Taiwan, and Taiwan has no federation in eduGAIN, so the IdP is named as an unverified lead rather than credited as a surface. NCKU registers no DOI prefix with either DataCite or Crossref. There is no central developer portal, no API key program and no institution-authored OpenAPI anywhere on the ncku.edu.tw estate.'
 finops:
 - name: Ncku Finops
   service_category: Education
@@ -96,17 +125,14 @@ jsonld:
   property_count: 0
   slug: ncku-context
 layout: provider
-modified: '2026-06-03'
+modified: '2026-09-01'
 name: National Cheng Kung University
 nav: Providers
 network: true
-overview: 'National Cheng Kung University publishes 3 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Education, Higher Education, University, Open Data, and Library.
+overview: 'National Cheng Kung University publishes 4 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include University, Higher Education, Education, Taiwan, and Asia.
 
 
-  The National Cheng Kung University catalog on APIs.io includes 1 JSON-LD context.
-
-
-  National Cheng Kung University''s developer surface includes GitHub presence and 8 more developer resources.'
+  The National Cheng Kung University catalog on APIs.io includes 1 JSON-LD context.'
 plans:
 - name: Ncku Plans Pricing
   plan_count: 2
@@ -118,30 +144,30 @@ rate_limits:
   slug: ncku-rate-limits
 score:
   band: emerging
-  composite: 20.1
+  composite: 18.1
   coverage:
     artifact_dirs: 7
-    catalog_gap: 53.0
+    catalog_gap: 65.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: 0.0
+  delta: -2.0
   facets:
-    access_clarity: 28.9
-    commercial_clarity: 28.9
+    access_clarity: 23.7
+    commercial_clarity: 23.7
     contract_governance: 0.0
-    contract_quality: 10.7
-    developer_ergonomics: 14.3
+    contract_quality: 14.3
+    developer_ergonomics: 9.5
     discoverability: 64.8
     governance: 0.0
-    operational_transparency: 26.3
+    operational_transparency: 10.5
   previous_composite: 20.1
   regulatory:
     applies: true
     matched_via: tags
     regime: Education & Research
     regime_id: education
-    score: 20.4
-  schema_version: 0.17.2
+    score: 27.8
+  schema_version: 0.18.0
   scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/ncku/refs/heads/main/screenshots/ncku-2026-06-20T190150.png
@@ -152,11 +178,17 @@ security:
   summary_line: TLSv1.3 · DMARC
 slug: ncku
 tags:
-- Education
-- Higher Education
 - University
-- Open Data
-- Library
+- Higher Education
+- Education
 - Taiwan
-website: https://web.ncku.edu.tw/index.php?Lang=en
+- Asia
+- Public Research University
+- Open Data
+- CKAN
+- Research Data
+- Library
+- Course Catalog
+- Institutional Repository
+website: https://www.ncku.edu.tw/index.php?Lang=en
 ---

@@ -110,7 +110,7 @@ score:
     regime: Education & Research
     regime_id: education
     score: 25.9
-  schema_version: 0.17.2
+  schema_version: 0.18.0
   scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/diy/refs/heads/main/screenshots/diy-2026-07-25T212134.png

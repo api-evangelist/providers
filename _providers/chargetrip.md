@@ -157,18 +157,18 @@ rules:
   slug: chargetrip-asyncapi-spectral-rules
 score:
   band: developing
-  composite: 43.0
+  composite: 42.8
   coverage:
     artifact_dirs: 13
     catalog_gap: 47.3
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: 0.0
+  delta: -0.2
   facets:
     access_clarity: 39.5
     commercial_clarity: 39.5
     contract_governance: 11.4
-    contract_quality: 65.1
+    contract_quality: 64.3
     developer_ergonomics: 31.0
     discoverability: 68.5
     governance: 11.4
@@ -181,7 +181,7 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 1
-  schema_version: 0.17.2
+  schema_version: 0.18.0
   scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/chargetrip/refs/heads/main/screenshots/chargetrip-2026-07-25T205058.png

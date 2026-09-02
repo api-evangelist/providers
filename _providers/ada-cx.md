@@ -170,7 +170,7 @@ score:
     governance: 0.0
     operational_transparency: 36.8
   previous_composite: 40.9
-  schema_version: 0.17.2
+  schema_version: 0.18.0
   scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/ada-cx/refs/heads/main/screenshots/ada-cx-2026-06-20T164455.png

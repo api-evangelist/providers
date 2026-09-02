@@ -293,18 +293,18 @@ rate_limits:
   slug: keycorp-rate-limits
 score:
   band: developing
-  composite: 44.5
+  composite: 44.7
   coverage:
     artifact_dirs: 24
     catalog_gap: 68.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: 0.0
+  delta: 0.2
   facets:
     access_clarity: 36.8
     commercial_clarity: 36.8
     contract_governance: 4.5
-    contract_quality: 67.6
+    contract_quality: 68.4
     developer_ergonomics: 47.0
     discoverability: 81.5
     governance: 4.5
@@ -314,10 +314,10 @@ score:
     agentic_access: derived
     conformance: derived
     contracts:
-      callable: 88.9
+      callable: 100.0
       derived: 0
       marker_coverage: 0.0
-      total: 9
+      total: 18
     mcp: derived
     skills: derived
   regulatory:
@@ -326,7 +326,7 @@ score:
     regime: Banking & Open Finance
     regime_id: banking_open_finance
     score: 34.2
-  schema_version: 0.17.2
+  schema_version: 0.18.0
   scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/keycorp/refs/heads/main/screenshots/keycorp-2026-06-20T184017.png

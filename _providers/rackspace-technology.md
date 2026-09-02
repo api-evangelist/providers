@@ -464,10 +464,10 @@ score:
     agentic_access: derived
     contracts:
       callable: 100.0
-      derived: 19
+      derived: 23
       marker_coverage: 100.0
-      total: 19
-  schema_version: 0.17.2
+      total: 23
+  schema_version: 0.18.0
   scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/rackspace-technology/refs/heads/main/screenshots/rackspace-technology-2026-06-20T192513.png

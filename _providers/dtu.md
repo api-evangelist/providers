@@ -168,39 +168,34 @@ rate_limits:
   slug: dtu-rate-limits
 score:
   band: emerging
-  composite: 26.1
+  composite: 20.3
   coverage:
     artifact_dirs: 8
-    catalog_gap: 61.0
+    catalog_gap: 73.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: 0.0
+  delta: -5.8
   facets:
-    access_clarity: 39.5
-    commercial_clarity: 39.5
+    access_clarity: 23.7
+    commercial_clarity: 23.7
     contract_governance: 0.0
-    contract_quality: 6.7
+    contract_quality: 4.4
     developer_ergonomics: 33.3
     discoverability: 64.8
     governance: 0.0
-    operational_transparency: 23.7
+    operational_transparency: 7.9
   previous_composite: 26.1
   provenance:
-    agentic_access: derived
-    contracts:
-      callable: 100.0
-      derived: 0
-      marker_coverage: 0.0
-      total: 2
+    conformance: first-party
   regulatory:
     applies: true
     matched_via: tags
     regime: Education & Research
     regime_id: education
     score: 29.6
-  schema_version: 0.17.2
+  schema_version: 0.18.0
   scored_at: '2026-09-01'
-  trend: flat
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/dtu/refs/heads/main/screenshots/dtu-2026-06-20T180302.png
 security:
 - kind: authentication

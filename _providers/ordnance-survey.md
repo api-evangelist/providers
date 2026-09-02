@@ -461,18 +461,18 @@ scopes:
   summary_line: 1 scope · clientCredentials
 score:
   band: strong
-  composite: 60.1
+  composite: 58.7
   coverage:
     artifact_dirs: 25
     catalog_gap: 56.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: 0.0
+  delta: -1.4
   facets:
     access_clarity: 48.7
     commercial_clarity: 48.7
     contract_governance: 18.2
-    contract_quality: 45.5
+    contract_quality: 39.6
     developer_ergonomics: 68.5
     discoverability: 72.2
     governance: 18.2
@@ -483,9 +483,9 @@ score:
     conformance: first-party
     contracts:
       callable: 100.0
-      derived: 0
-      marker_coverage: 60.0
-      total: 10
+      derived: 4
+      marker_coverage: 52.2
+      total: 23
     mcp: derived
     skills: derived
   regulatory:
@@ -494,7 +494,7 @@ score:
     regime: Government & Public Sector
     regime_id: government
     score: 68.5
-  schema_version: 0.17.2
+  schema_version: 0.18.0
   scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/ordnance-survey/refs/heads/main/screenshots/ordnance-survey-2026-08-07T190917.png

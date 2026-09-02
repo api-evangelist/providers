@@ -130,18 +130,18 @@ overview: 'Merico is profiled on the [APIs.io](https://apis.io/) network. Tagged
 random_paper: 9
 score:
   band: thin
-  composite: 39.0
+  composite: 38.8
   coverage:
     artifact_dirs: 5
     catalog_gap: 88.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: 0.0
+  delta: -0.2
   facets:
     access_clarity: 53.9
     commercial_clarity: 53.9
     contract_governance: 18.2
-    contract_quality: 42.7
+    contract_quality: 41.6
     developer_ergonomics: 45.2
     discoverability: 50.0
     governance: 18.2
@@ -149,7 +149,7 @@ score:
   previous_composite: 39.0
   provenance:
     conformance: first-party
-  schema_version: 0.17.2
+  schema_version: 0.18.0
   scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/merico/refs/heads/main/screenshots/merico-2026-08-07T172554.png

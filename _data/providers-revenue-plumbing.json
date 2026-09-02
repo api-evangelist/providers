@@ -16,12 +16,12 @@
      "slug": "brevo",
      "description": "Brevo (formerly Sendinblue) is a French customer-relationship platform that combines email marketing, transactional email and SMTP relay, transactional and campaign SMS, WhatsApp messaging, web and mobile push, live chat, a sales CRM, an ecommerce attribution layer and a loyalty and rewards engine behind a single REST API at api.brevo.com/v3. Brevo publishes thirteen OpenAPI 3.1 definitions covering 285 operations, advertises them through an RFC 9727 API catalog at its developer portal, ships seven official SDKs and a first-party CLI for OAuth app management, and operates a hosted MCP server exposing 27 modules to AI agents.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/brevo/refs/heads/main/screenshots/brevo-2026-06-20T173653.png",
-     "score": 84.4,
+     "score": 84.2,
      "band": "exemplar",
      "band_label": "Exemplar",
      "facets": {
       "discoverability": 81.5,
-      "contract_quality": 75.7,
+      "contract_quality": 74.8,
       "governance": 33.3,
       "contract_governance": 33.3,
       "operational_transparency": 92.1,
@@ -30,7 +30,7 @@
       "access_clarity": 93.4
      },
      "scored_at": "2026-09-01",
-     "schema_version": "0.17.2",
+     "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
       "regime": "Telecommunications",
@@ -68,12 +68,12 @@
      "slug": "convertkit",
      "description": "Kit (formerly ConvertKit) is a creator email marketing platform whose REST API v4 covers subscribers, tags, custom fields, forms and landing pages, sequences, broadcasts, snippets, posts, purchases, segments and webhooks across 72 operations on https://api.kit.com/v4. It authenticates with an X-Kit-Api-Key header for personal automation or OAuth 2.0 (PKCE, dynamic client registration, rotating single-use refresh tokens) for apps published to the Kit App Store, and uses cursor-based pagination, an OAuth-only bulk namespace with async callbacks, and eventually-consistent list reads. Kit also runs two remote MCP servers - an OAuth-gated one that acts on a creator's account and an anonymous read-only documentation server - publishes an A2A agent card and an Agent Skill from its developer docs host, and ships llms.txt. Its only first-party API client is a PHP SDK.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/convertkit/refs/heads/main/screenshots/convertkit-2026-06-20T175000.png",
-     "score": 82.5,
+     "score": 82.3,
      "band": "exemplar",
      "band_label": "Exemplar",
      "facets": {
       "discoverability": 75.9,
-      "contract_quality": 67.4,
+      "contract_quality": 66.6,
       "governance": 43.2,
       "contract_governance": 43.2,
       "operational_transparency": 92.1,
@@ -82,7 +82,7 @@
       "access_clarity": 100.0
      },
      "scored_at": "2026-09-01",
-     "schema_version": "0.17.2",
+     "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
       "regime": "Telecommunications",
@@ -120,12 +120,12 @@
      "slug": "zoominfo",
      "description": "ZoomInfo is a B2B go-to-market intelligence platform whose contact and company database, buyer-intent signals, scoops and news feeds are sold to sales, marketing, operations and recruiting teams. Its API estate is mid-migration: the legacy Enterprise API on api.zoominfo.com is documented as deprecating, while the current GTM API on api.zoominfo.com/gtm ships six published OpenAPI specifications covering data, Copilot, GTM Studio, marketing, agents and platform. ZoomInfo also operates a hosted, OAuth-gated Model Context Protocol server at mcp.zoominfo.com and publishes 35 agent skills and a first-party CLI that talks to that MCP server rather than to REST.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/zoominfo/refs/heads/main/screenshots/zoominfo-2026-06-20T201953.png",
-     "score": 82.3,
+     "score": 82.1,
      "band": "exemplar",
      "band_label": "Exemplar",
      "facets": {
       "discoverability": 75.9,
-      "contract_quality": 83.6,
+      "contract_quality": 82.6,
       "governance": 33.3,
       "contract_governance": 33.3,
       "operational_transparency": 92.1,
@@ -134,7 +134,7 @@
       "access_clarity": 100.0
      },
      "scored_at": "2026-09-01",
-     "schema_version": "0.17.2",
+     "schema_version": "0.18.0",
      "agent_score": 49.5,
      "agent_band": "agent-ready",
      "agent_dims": {
@@ -165,12 +165,12 @@
      "slug": "rudderstack",
      "description": "RudderStack is a warehouse-native customer data platform (CDP) for developers, with open-source data plane SDKs (rudder-server) and a managed control plane. The platform exposes an HTTP Tracking (Event Stream) API for ingest, a Config Backend API for managing sources/destinations/connections, a Transformations API for in-flight event transforms, a Tracking Plan API for schema governance, a Profiles API for identity resolution and audiences, and a Reverse ETL API for warehouse-to-SaaS sync.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/rudderstack/refs/heads/main/screenshots/rudderstack-2026-06-20T193249.png",
-     "score": 77.1,
+     "score": 76.9,
      "band": "exemplar",
      "band_label": "Exemplar",
      "facets": {
       "discoverability": 66.7,
-      "contract_quality": 67.8,
+      "contract_quality": 67.1,
       "governance": 31.8,
       "contract_governance": 31.8,
       "operational_transparency": 84.2,
@@ -179,7 +179,7 @@
       "access_clarity": 93.4
      },
      "scored_at": "2026-09-01",
-     "schema_version": "0.17.2",
+     "schema_version": "0.18.0",
      "agent_score": 52.0,
      "agent_band": "agent-ready",
      "agent_dims": {
@@ -210,12 +210,12 @@
      "slug": "aweber",
      "description": "AWeber is an email marketing and automation platform for small businesses, creators, and entrepreneurs providing email broadcasts, drip campaigns, landing pages, sign-up forms, and subscriber management. The AWeber REST API at api.aweber.com offers full programmatic access to lists, subscribers, broadcasts, campaigns, custom fields, segments, and tags using OAuth 2.0 authentication.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/aweber/refs/heads/main/screenshots/aweber-2026-06-20T172736.png",
-     "score": 72.5,
+     "score": 72.2,
      "band": "exemplar",
      "band_label": "Exemplar",
      "facets": {
       "discoverability": 81.5,
-      "contract_quality": 68.7,
+      "contract_quality": 67.7,
       "governance": 18.2,
       "contract_governance": 18.2,
       "operational_transparency": 55.3,
@@ -224,7 +224,7 @@
       "access_clarity": 92.1
      },
      "scored_at": "2026-09-01",
-     "schema_version": "0.17.2",
+     "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
       "regime": "Telecommunications",
@@ -262,12 +262,12 @@
      "slug": "fireflies",
      "description": "Fireflies.ai is an AI meeting assistant that automatically joins video calls, records, transcribes, and summarizes meetings across platforms such as Zoom, Google Meet, and Microsoft Teams. The platform provides a GraphQL API giving developers structured access to call recordings, transcripts, summaries, action items, speaker analytics, and meeting intelligence. Teams can retrieve and search transcript data, manage meetings programmatically, and integrate meeting context into CRM, project management, and workflow automation tools. Advanced features include AskFred AI for natural language queries against meeting content, real-time transcription via a live API, webhooks for event-driven integrations, and an MCP server for connecting AI tooling directly to meeting data.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/fireflies/refs/heads/main/screenshots/fireflies-2026-06-20T181230.png",
-     "score": 70.7,
+     "score": 70.4,
      "band": "exemplar",
      "band_label": "Exemplar",
      "facets": {
       "discoverability": 75.9,
-      "contract_quality": 80.7,
+      "contract_quality": 79.8,
       "governance": 43.2,
       "contract_governance": 43.2,
       "operational_transparency": 44.7,
@@ -276,7 +276,7 @@
       "access_clarity": 100.0
      },
      "scored_at": "2026-09-01",
-     "schema_version": "0.17.2",
+     "schema_version": "0.18.0",
      "agent_score": 55.3,
      "agent_band": "agent-ready",
      "agent_dims": {
@@ -307,12 +307,12 @@
      "slug": "getresponse",
      "description": "GetResponse is an all-in-one marketing platform for email marketing, marketing automation, landing pages, websites, webinars, SMS, web push, ecommerce and content monetization, used by small businesses, marketers and enterprises. The GetResponse API v3 is a JSON REST API authenticated with an X-Auth-Token header carrying an API key prefixed with \"api-key \", or with OAuth 2.0. The provider publishes a machine-readable OpenAPI 3.0.0 describing 220 operations across 141 paths and 42 product areas — contacts, campaigns, newsletters, autoresponders, transactional email, SMS, forms and popups, landing pages, websites, webinars, workflows, imports, suppressions and a full ecommerce tree of shops, products, variants, categories, carts, orders and taxes. The spec is discoverable through an RFC 9727 API catalog at /.well-known/api-catalog, and GetResponse also publishes an llms.txt and its own Agent Skill for the public API. Enterprise customers run on the separate GetResponse MAX platform, which requires an additional X-Domain header.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/getresponse/refs/heads/main/screenshots/getresponse-2026-06-20T181811.png",
-     "score": 70.2,
+     "score": 70.0,
      "band": "exemplar",
      "band_label": "Exemplar",
      "facets": {
       "discoverability": 68.5,
-      "contract_quality": 66.3,
+      "contract_quality": 65.4,
       "governance": 4.5,
       "contract_governance": 4.5,
       "operational_transparency": 57.9,
@@ -321,7 +321,7 @@
       "access_clarity": 85.5
      },
      "scored_at": "2026-09-01",
-     "schema_version": "0.17.2",
+     "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
       "regime": "Telecommunications",
@@ -366,12 +366,12 @@
      "slug": "ontraport",
      "description": "Ontraport is a business automation platform combining CRM, marketing automation, email marketing, landing pages, ecommerce, and membership site capabilities for small businesses and entrepreneurs. The platform unifies contact management, sales pipelines, payment processing, and visual automation campaigns in a single workspace. Ontraport's REST API exposes contacts, transactions, tags, sequences, forms, landing pages, and ecommerce objects using API-Key and Api-Appid header authentication, through a generic object interface where the record type is selected by an integer object type ID rather than by a path segment. Ontraport also runs a first-party remote MCP server at https://mcp.ontraport.com, publishing 47 tools across CRUD, query, management and commerce and authorizing them with OAuth 2.1 (PKCE, dynamic client registration) under a single mcp:tools scope.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/ontraport/refs/heads/main/screenshots/ontraport-2026-06-20T190730.png",
-     "score": 68.6,
+     "score": 68.4,
      "band": "exemplar",
      "band_label": "Exemplar",
      "facets": {
       "discoverability": 75.9,
-      "contract_quality": 59.2,
+      "contract_quality": 58.4,
       "governance": 18.2,
       "contract_governance": 18.2,
       "operational_transparency": 63.2,
@@ -380,7 +380,7 @@
       "access_clarity": 85.5
      },
      "scored_at": "2026-09-01",
-     "schema_version": "0.17.2",
+     "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
       "regime": "Payments",
@@ -418,12 +418,12 @@
      "slug": "hightouch",
      "description": "Hightouch is a composable Customer Data Platform (CDP) and agentic marketing platform that activates data directly from cloud warehouses and lakehouses such as Snowflake, BigQuery, Databricks and Redshift to more than 290 SaaS destinations, without copying or storing customer data. The platform covers Reverse ETL, Customer Studio audience building and journey orchestration, identity resolution, first-party event collection with SDKs for web and mobile, real-time personalization, AI Decisioning, Match Booster and an Ad Studio for advertising creative. Developers get a bearer-authenticated REST API at https://api.hightouch.com/api/v1 covering sources, models, destinations, syncs and runs, campaigns, decision-engine flows, event contracts and identity graphs, plus an `ht` CLI, Git Sync for version-controlled resource YAML, workspace environments with approval flows, a public documentation MCP server, and an A2A agent card for the Hightouch Marketing Agent.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/hightouch/refs/heads/main/screenshots/hightouch-2026-06-20T182738.png",
-     "score": 67.8,
+     "score": 67.6,
      "band": "exemplar",
      "band_label": "Exemplar",
      "facets": {
       "discoverability": 75.9,
-      "contract_quality": 72.2,
+      "contract_quality": 71.4,
       "governance": 18.2,
       "contract_governance": 18.2,
       "operational_transparency": 47.4,
@@ -432,7 +432,7 @@
       "access_clarity": 93.4
      },
      "scored_at": "2026-09-01",
-     "schema_version": "0.17.2",
+     "schema_version": "0.18.0",
      "agent_score": 61.2,
      "agent_band": "agent-ready",
      "agent_dims": {
@@ -463,12 +463,12 @@
      "slug": "omnisend",
      "description": "Omnisend is a Lithuanian-headquartered email and SMS marketing automation platform purpose-built for ecommerce, with first-class integrations into Shopify, BigCommerce, WooCommerce, Magento, Wix, Square Online, and other storefronts. The platform unifies automation workflows, campaign builders, segmentation, popups and forms, web push, product recommendations, A/B testing, and reporting to drive customer engagement and revenue. The REST API at version 2026-03-15 is served from https://api.omnisend.com/api and covers contacts, events and custom event metadata, products, product categories, segments, campaigns, automations, batches, email templates, email content, universal layouts, images, brands and analytics — 82 published operations across 15 OpenAPI 3.0.0 documents. Authentication is an API key on the Authorization header (Omnisend-API-Key {key}) or OAuth 2.0 authorization code with PKCE and 26 resource scopes; every request must also carry an Omnisend-Version header, and a retired version returns 410. Omnisend additionally operates two first-party hosted MCP servers at mcp.omnisend.com and is listed in Claude's Connector Directory.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/omnisend/refs/heads/main/screenshots/omnisend-2026-06-20T190706.png",
-     "score": 67.3,
+     "score": 67.1,
      "band": "exemplar",
      "band_label": "Exemplar",
      "facets": {
       "discoverability": 81.5,
-      "contract_quality": 73.0,
+      "contract_quality": 72.0,
       "governance": 28.0,
       "contract_governance": 28.0,
       "operational_transparency": 97.4,
@@ -477,7 +477,7 @@
       "access_clarity": 77.6
      },
      "scored_at": "2026-09-01",
-     "schema_version": "0.17.2",
+     "schema_version": "0.18.0",
      "agent_score": 52.1,
      "agent_band": "agent-ready",
      "agent_dims": {
@@ -511,54 +511,9 @@
    "label": "Strong",
    "range": "54.3 – 66.4",
    "blurb": "Solid contracts, transparent operations, and an easy start.",
-   "count": 28,
-   "shown": 28,
+   "count": 27,
+   "shown": 27,
    "providers": [
-    {
-     "name": "Unbounce",
-     "slug": "unbounce",
-     "description": "Unbounce is a landing page, popup, and sticky bar builder with conversion rate optimization features including drag-and-drop design, A/B testing, AI copywriting (Smart Copy), and AI traffic routing (Smart Traffic) for marketers, agencies, SaaS, and ecommerce. The platform integrates with HubSpot, Salesforce, Google Analytics, and other marketing platforms to capture, qualify, and route leads. The Unbounce REST API provides programmatic access to pages, leads, sub-accounts, and domains using an API key over HTTP Basic or OAuth 2.0 Authorization Code, described by a published RAML 0.8 definition. Unbounce also operates an official hosted Model Context Protocol server at mcp.unbounce.com with 37 tools — the only public write surface for pages, variants, publishing and traffic — plus three Agent Skills shipped in its own agent-plugin marketplace.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/unbounce/refs/heads/main/screenshots/unbounce-2026-06-20T200015.png",
-     "score": 65.6,
-     "band": "strong",
-     "band_label": "Strong",
-     "facets": {
-      "discoverability": 68.5,
-      "contract_quality": 62.3,
-      "governance": 18.2,
-      "contract_governance": 18.2,
-      "operational_transparency": 73.7,
-      "developer_ergonomics": 71.4,
-      "commercial_clarity": 85.5,
-      "access_clarity": 85.5
-     },
-     "scored_at": "2026-09-01",
-     "schema_version": "0.17.2",
-     "agent_score": 59.6,
-     "agent_band": "agent-native",
-     "agent_dims": {
-      "spec_presence": true,
-      "agentic_access": "derived",
-      "reversibility_documented": "na",
-      "mcp_server": "documented",
-      "auth_clarity": "served",
-      "idempotency": "na",
-      "error_semantics": "documented",
-      "openapi_examples": "documented",
-      "rate_limit_signal": "documented",
-      "event_surface_described": true,
-      "agent_skills": true,
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": "na",
-      "delegated_identity": "served",
-      "protected_resource_metadata": "verified",
-      "dynamic_client_registration": true,
-      "agentic_commerce": false
-     },
-     "rank": 11
-    },
     {
      "name": "Moosend",
      "slug": "moosend",
@@ -578,7 +533,7 @@
       "access_clarity": 100.0
      },
      "scored_at": "2026-09-01",
-     "schema_version": "0.17.2",
+     "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
       "regime": "Telecommunications",
@@ -609,64 +564,64 @@
       "dynamic_client_registration": true,
       "agentic_commerce": false
      },
-     "rank": 12
+     "rank": 11
     },
     {
-     "name": "Benchmark Email",
-     "slug": "benchmark-email",
-     "description": "Benchmark Email is an email marketing platform for small businesses, run by Benchmark Internet Group, with two live REST API generations. The current Benchmark Email API on the benchmarkemail.io platform covers contacts, contact structures and custom fields, lists, campaigns, templates, sending domains and reports across 40 operations, authenticated with a scoped X-API-Key against a per-account regional base URL. The classic RESTful API v3.0 on clientapi.benchmarkemail.com remains live and documented with 296 operations covering automations, surveys, polls, sub-accounts, galleries and push webhooks. Benchmark publishes an OpenAPI, two llms.txt files, an A2A Agent Card, an Agent Skill and a live documentation MCP endpoint, but ships no maintained SDK, no sandbox, no changelog and no deprecation policy.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/benchmark-email/refs/heads/main/screenshots/benchmark-email-2026-06-20T173133.png",
-     "score": 63.8,
+     "name": "Unbounce",
+     "slug": "unbounce",
+     "description": "Unbounce is a landing page, popup, and sticky bar builder with conversion rate optimization features including drag-and-drop design, A/B testing, AI copywriting (Smart Copy), and AI traffic routing (Smart Traffic) for marketers, agencies, SaaS, and ecommerce. The platform integrates with HubSpot, Salesforce, Google Analytics, and other marketing platforms to capture, qualify, and route leads. The Unbounce REST API provides programmatic access to pages, leads, sub-accounts, and domains using an API key over HTTP Basic or OAuth 2.0 Authorization Code, described by a published RAML 0.8 definition. Unbounce also operates an official hosted Model Context Protocol server at mcp.unbounce.com with 37 tools — the only public write surface for pages, variants, publishing and traffic — plus three Agent Skills shipped in its own agent-plugin marketplace.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/unbounce/refs/heads/main/screenshots/unbounce-2026-06-20T200015.png",
+     "score": 65.4,
      "band": "strong",
      "band_label": "Strong",
      "facets": {
-      "discoverability": 75.9,
-      "contract_quality": 73.6,
-      "governance": 14.4,
-      "contract_governance": 14.4,
-      "operational_transparency": 28.9,
-      "developer_ergonomics": 76.2,
+      "discoverability": 68.5,
+      "contract_quality": 61.5,
+      "governance": 18.2,
+      "contract_governance": 18.2,
+      "operational_transparency": 73.7,
+      "developer_ergonomics": 71.4,
       "commercial_clarity": 85.5,
       "access_clarity": 85.5
      },
      "scored_at": "2026-09-01",
-     "schema_version": "0.17.2",
-     "agent_score": 36.5,
-     "agent_band": "agent-ready",
+     "schema_version": "0.18.0",
+     "agent_score": 59.6,
+     "agent_band": "agent-native",
      "agent_dims": {
       "spec_presence": true,
       "agentic_access": "derived",
-      "reversibility_documented": false,
+      "reversibility_documented": "na",
       "mcp_server": "documented",
-      "auth_clarity": "bearer",
-      "idempotency": false,
+      "auth_clarity": "served",
+      "idempotency": "na",
       "error_semantics": "documented",
-      "openapi_examples": "partial",
+      "openapi_examples": "documented",
       "rate_limit_signal": "documented",
       "event_surface_described": true,
       "agent_skills": true,
       "well_known_catalog": false,
       "consent_identity": false,
       "agent_card": false,
-      "dry_run_mode": false,
-      "delegated_identity": false,
-      "protected_resource_metadata": false,
-      "dynamic_client_registration": false,
+      "dry_run_mode": "na",
+      "delegated_identity": "served",
+      "protected_resource_metadata": "verified",
+      "dynamic_client_registration": true,
       "agentic_commerce": false
      },
-     "rank": 13
+     "rank": 12
     },
     {
      "name": "Sendlane",
      "slug": "sendlane",
      "description": "Email and SMS marketing platform built for e-commerce brands, unifying email, SMS, reviews and forms in one account. The Sendlane v2 REST API manages contacts, lists, segments, tags, custom fields, sender profiles, suppression lists and email and SMS consent, returns campaign and SMS performance and revenue reporting, and ingests e-commerce behaviour events such as product views, cart abandonment and orders placed to drive automations and revenue attribution.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/sendlane/refs/heads/main/screenshots/sendlane-2026-06-20T193659.png",
-     "score": 63.8,
+     "score": 63.6,
      "band": "strong",
      "band_label": "Strong",
      "facets": {
       "discoverability": 68.5,
-      "contract_quality": 68.8,
+      "contract_quality": 67.8,
       "governance": 4.5,
       "contract_governance": 4.5,
       "operational_transparency": 63.2,
@@ -675,7 +630,7 @@
       "access_clarity": 84.2
      },
      "scored_at": "2026-09-01",
-     "schema_version": "0.17.2",
+     "schema_version": "0.18.0",
      "agent_score": 25.4,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -699,6 +654,51 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
+     "rank": 13
+    },
+    {
+     "name": "Benchmark Email",
+     "slug": "benchmark-email",
+     "description": "Benchmark Email is an email marketing platform for small businesses, run by Benchmark Internet Group, with two live REST API generations. The current Benchmark Email API on the benchmarkemail.io platform covers contacts, contact structures and custom fields, lists, campaigns, templates, sending domains and reports across 40 operations, authenticated with a scoped X-API-Key against a per-account regional base URL. The classic RESTful API v3.0 on clientapi.benchmarkemail.com remains live and documented with 296 operations covering automations, surveys, polls, sub-accounts, galleries and push webhooks. Benchmark publishes an OpenAPI, two llms.txt files, an A2A Agent Card, an Agent Skill and a live documentation MCP endpoint, but ships no maintained SDK, no sandbox, no changelog and no deprecation policy.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/benchmark-email/refs/heads/main/screenshots/benchmark-email-2026-06-20T173133.png",
+     "score": 63.4,
+     "band": "strong",
+     "band_label": "Strong",
+     "facets": {
+      "discoverability": 75.9,
+      "contract_quality": 72.1,
+      "governance": 14.4,
+      "contract_governance": 14.4,
+      "operational_transparency": 28.9,
+      "developer_ergonomics": 76.2,
+      "commercial_clarity": 85.5,
+      "access_clarity": 85.5
+     },
+     "scored_at": "2026-09-01",
+     "schema_version": "0.18.0",
+     "agent_score": 36.5,
+     "agent_band": "agent-ready",
+     "agent_dims": {
+      "spec_presence": true,
+      "agentic_access": "derived",
+      "reversibility_documented": false,
+      "mcp_server": "documented",
+      "auth_clarity": "bearer",
+      "idempotency": false,
+      "error_semantics": "documented",
+      "openapi_examples": "partial",
+      "rate_limit_signal": "documented",
+      "event_surface_described": true,
+      "agent_skills": true,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
      "rank": 14
     },
     {
@@ -706,12 +706,12 @@
      "slug": "constant-contact",
      "description": "Constant Contact is a small-business email and digital marketing platform offering email campaigns, automation, SMS, contact management, surveys, and events. The Constant Contact V3 API is a REST + JSON, OAuth2-protected service published at api.cc.email/v3 covering accounts, contacts, lists, tags, custom fields, segments, email campaigns, A/B tests, schedules and tests, bulk activities (CSV/JSON import, export, list and tag mutations), events with registration and check-in, reporting, and partner provisioning.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/constant-contact/refs/heads/main/screenshots/constant-contact-2026-06-20T175012.png",
-     "score": 63.6,
+     "score": 63.4,
      "band": "strong",
      "band_label": "Strong",
      "facets": {
       "discoverability": 75.9,
-      "contract_quality": 68.7,
+      "contract_quality": 67.9,
       "governance": 18.2,
       "contract_governance": 18.2,
       "operational_transparency": 73.7,
@@ -720,7 +720,7 @@
       "access_clarity": 47.4
      },
      "scored_at": "2026-09-01",
-     "schema_version": "0.17.2",
+     "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
       "regime": "Telecommunications",
@@ -758,12 +758,12 @@
      "slug": "fundz",
      "description": "Fundz is an event-first business intelligence platform, founded 2015, tracking 200,000+ companies and surfacing funding rounds, executive changes, M&A activity, SEC filings (8-K, 10-K, 10-Q, Form D) and website modifications in real time. Rather than storing millions of static records it focuses on companies showing active signals, and scores them against each user's criteria. The API exposes company profiles, fundings, SEC filings and fund formations from api.fundz.net with an API key in the Authorization header. It sits in the same category as Harmonic and Crunchbase, and competes explicitly on access: an API key is free and issued instantly with no card and no sales call, and pricing is published rather than quoted. Fundz also ships an MCP server listed on the official Model Context Protocol registry, and publishes an llms.txt.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/fundz/refs/heads/main/screenshots/fundz-2026-08-17T123449.png",
-     "score": 63.5,
+     "score": 63.3,
      "band": "strong",
      "band_label": "Strong",
      "facets": {
       "discoverability": 75.9,
-      "contract_quality": 68.7,
+      "contract_quality": 67.8,
       "governance": 4.5,
       "contract_governance": 4.5,
       "operational_transparency": 44.7,
@@ -772,7 +772,7 @@
       "access_clarity": 76.3
      },
      "scored_at": "2026-09-01",
-     "schema_version": "0.17.2",
+     "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
       "regime": "Securities & Market Data",
@@ -810,12 +810,12 @@
      "slug": "chili-piper",
      "description": "Chili Piper is a demand conversion platform for B2B go-to-market teams, founded in 2016 by Alina and Nicolas Vandenberghe and headquartered in New York. Its products - Concierge, Distro, Handoff, Chat AI, Web Experiences, Re-engagement and ChiliCal - turn inbound website visitors and form submissions into booked meetings by qualifying, enriching, routing and scheduling leads against Salesforce or HubSpot ownership, territory and round-robin distribution logic. For developers, Chili Piper publishes the Edge API (https://fire.chilipiper.com/api/fire-edge), a bearer-token REST surface covering users, workspaces, teams, routing rules, distributions, meetings, meeting types, scheduling links, handoff and Concierge routing; a hosted remote MCP server with 55 documented tools; official Agent Skills and ChatGPT GPT actions published under the Chili-Piper GitHub organization; a Concierge JavaScript embed distributed on npm; and custom webhooks for booked, updated and cancelled meetings.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/chili-piper/refs/heads/main/screenshots/chili-piper-2026-08-17T080410.png",
-     "score": 62.9,
+     "score": 62.7,
      "band": "strong",
      "band_label": "Strong",
      "facets": {
       "discoverability": 81.5,
-      "contract_quality": 66.4,
+      "contract_quality": 65.5,
       "governance": 4.5,
       "contract_governance": 4.5,
       "operational_transparency": 52.6,
@@ -824,7 +824,7 @@
       "access_clarity": 92.1
      },
      "scored_at": "2026-09-01",
-     "schema_version": "0.17.2",
+     "schema_version": "0.18.0",
      "agent_score": 47.1,
      "agent_band": "agent-ready",
      "agent_dims": {
@@ -855,12 +855,12 @@
      "slug": "wistia",
      "description": "Wistia is an all-in-one video marketing platform for businesses that combines branded video hosting, webinars, video editing, webcam and screen recording, and deep viewer analytics for B2B marketing teams focused on lead generation, brand control, and content performance. Founded in 2006, Wistia is used by more than 425,000 businesses and integrates with major marketing automation and CRM platforms. Wistia ships an unusually complete developer surface for its category: a frozen evergreen Data API at https://api.wistia.com/v1 alongside a header-versioned modern API at https://api.wistia.com/modern with dated stable releases (2026-01), OpenAPI 3.1 descriptions made discoverable through an RFC 9727 api-catalog linkset, OAuth 2.0 with RFC 8414/9728 discovery and dynamic client registration, a hosted MCP server at https://api.wistia.com/mcp/api, a Go CLI, a Speakeasy-generated TypeScript SDK, and the Aurora `<wistia-player>` web component.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/wistia/refs/heads/main/screenshots/wistia-2026-06-20T201532.png",
-     "score": 62.8,
+     "score": 62.6,
      "band": "strong",
      "band_label": "Strong",
      "facets": {
       "discoverability": 57.4,
-      "contract_quality": 65.0,
+      "contract_quality": 64.2,
       "governance": 29.5,
       "contract_governance": 29.5,
       "operational_transparency": 61.8,
@@ -869,7 +869,7 @@
       "access_clarity": 92.1
      },
      "scored_at": "2026-09-01",
-     "schema_version": "0.17.2",
+     "schema_version": "0.18.0",
      "agent_score": 38.1,
      "agent_band": "agent-ready",
      "agent_dims": {
@@ -896,68 +896,16 @@
      "rank": 18
     },
     {
-     "name": "Keap",
-     "slug": "keap",
-     "description": "Keap (formerly Infusionsoft, now part of Thryv) is a CRM, sales and marketing automation platform for small businesses that combines contact management, email and text marketing, e-commerce, affiliate management and pipeline automation. Keap publishes two live OpenAPI 3.1 contracts covering 540 operations — REST v2 (399 operations, the Default version) and REST v1 (141 operations, still the only home of REST Hooks webhooks and Appointments) — plus a deprecated XML-RPC surface. Authentication is OAuth 2.0 authorization code with rotating refresh tokens, or Personal Access Tokens and Service Account Keys, all with a single `full` scope. Keap also operates an undocumented but live remote MCP server at https://api.keap.com/mcp secured with OAuth 2.1, PKCE and dynamic client registration, and ships first-party SDKs for six languages generated in lock-step from its own spec.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/keap/refs/heads/main/screenshots/keap-2026-06-20T183931.png",
-     "score": 62.6,
-     "band": "strong",
-     "band_label": "Strong",
-     "facets": {
-      "discoverability": 50.0,
-      "contract_quality": 65.7,
-      "governance": 15.9,
-      "contract_governance": 15.9,
-      "operational_transparency": 34.2,
-      "developer_ergonomics": 78.0,
-      "commercial_clarity": 73.7,
-      "access_clarity": 73.7
-     },
-     "scored_at": "2026-09-01",
-     "schema_version": "0.17.2",
-     "regulatory": {
-      "applies": true,
-      "regime": "Payments",
-      "regime_id": "payments",
-      "score": 62.5,
-      "matched_via": "tags"
-     },
-     "agent_score": 38.5,
-     "agent_band": "agent-ready",
-     "agent_dims": {
-      "spec_presence": true,
-      "agentic_access": "derived",
-      "reversibility_documented": false,
-      "mcp_server": "documented",
-      "auth_clarity": "negotiable",
-      "idempotency": false,
-      "error_semantics": "verified",
-      "openapi_examples": "partial",
-      "rate_limit_signal": "documented",
-      "event_surface_described": "derived",
-      "agent_skills": "derived",
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false,
-      "delegated_identity": "documented",
-      "protected_resource_metadata": false,
-      "dynamic_client_registration": false,
-      "agentic_commerce": false
-     },
-     "rank": 19
-    },
-    {
      "name": "ClickFunnels",
      "slug": "clickfunnels",
      "description": "ClickFunnels is a sales funnel and online business platform that lets entrepreneurs build landing pages, sales funnels, checkout flows, courses, membership sites, communities, blogs and email marketing campaigns without code. The ClickFunnels 2.0 REST API is a 418-operation OpenAPI 3.1 contract covering teams, workspaces, funnels, pages, blogs, products, discounts, orders, invoices, transactions, subscriptions, contacts, courses, communities, forms, workflows, email and analytics, authenticated with a team-scoped Bearer token or with workspace-scoped OAuth 2.0. It is discoverable the correct way: an RFC 9727 api-catalog links the spec, RFC 8414 metadata publishes the OAuth scopes, and sixteen Markdown Agent Skills are served from /.well-known/ for agents driving the API.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/clickfunnels/refs/heads/main/screenshots/clickfunnels-2026-06-20T174514.png",
-     "score": 61.8,
+     "score": 62.4,
      "band": "strong",
      "band_label": "Strong",
      "facets": {
       "discoverability": 70.4,
-      "contract_quality": 64.8,
+      "contract_quality": 67.3,
       "governance": 18.2,
       "contract_governance": 18.2,
       "operational_transparency": 34.2,
@@ -966,7 +914,7 @@
       "access_clarity": 76.3
      },
      "scored_at": "2026-09-01",
-     "schema_version": "0.17.2",
+     "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
       "regime": "Payments",
@@ -997,6 +945,58 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
+     "rank": 19
+    },
+    {
+     "name": "Keap",
+     "slug": "keap",
+     "description": "Keap (formerly Infusionsoft, now part of Thryv) is a CRM, sales and marketing automation platform for small businesses that combines contact management, email and text marketing, e-commerce, affiliate management and pipeline automation. Keap publishes two live OpenAPI 3.1 contracts covering 540 operations — REST v2 (399 operations, the Default version) and REST v1 (141 operations, still the only home of REST Hooks webhooks and Appointments) — plus a deprecated XML-RPC surface. Authentication is OAuth 2.0 authorization code with rotating refresh tokens, or Personal Access Tokens and Service Account Keys, all with a single `full` scope. Keap also operates an undocumented but live remote MCP server at https://api.keap.com/mcp secured with OAuth 2.1, PKCE and dynamic client registration, and ships first-party SDKs for six languages generated in lock-step from its own spec.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/keap/refs/heads/main/screenshots/keap-2026-06-20T183931.png",
+     "score": 62.4,
+     "band": "strong",
+     "band_label": "Strong",
+     "facets": {
+      "discoverability": 50.0,
+      "contract_quality": 64.8,
+      "governance": 15.9,
+      "contract_governance": 15.9,
+      "operational_transparency": 34.2,
+      "developer_ergonomics": 78.0,
+      "commercial_clarity": 73.7,
+      "access_clarity": 73.7
+     },
+     "scored_at": "2026-09-01",
+     "schema_version": "0.18.0",
+     "regulatory": {
+      "applies": true,
+      "regime": "Payments",
+      "regime_id": "payments",
+      "score": 62.5,
+      "matched_via": "tags"
+     },
+     "agent_score": 38.5,
+     "agent_band": "agent-ready",
+     "agent_dims": {
+      "spec_presence": true,
+      "agentic_access": "derived",
+      "reversibility_documented": false,
+      "mcp_server": "documented",
+      "auth_clarity": "negotiable",
+      "idempotency": false,
+      "error_semantics": "verified",
+      "openapi_examples": "partial",
+      "rate_limit_signal": "documented",
+      "event_surface_described": "derived",
+      "agent_skills": "derived",
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": "documented",
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
      "rank": 20
     },
     {
@@ -1004,12 +1004,12 @@
      "slug": "improvado",
      "description": "Improvado is a marketing intelligence and AI-agent platform that connects, extracts, transforms, and loads data from 876+ marketing, advertising, sales, and analytics sources into governed data pipelines, warehouses, and BI tools. Its Embedded API v3 (base https://embedded.improvado.io, all paths under /api/v3/) gives agencies and platforms programmatic, workspace-scoped control over data sources, connections and accounts, extraction templates and extracts, destinations, data tables, loads, automated recipes, custom roles, and webhook endpoints for load, transformation, and extraction lifecycle events. Authentication is HTTP Basic for workspace management and short-lived Bearer tokens for workspace-scoped resources. The platform maintains a SOC 2 / HIPAA / GDPR trust center, a public status page, a dated API changelog, and a responsible-disclosure security program.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/improvado/refs/heads/main/screenshots/improvado-2026-07-25T222205.png",
-     "score": 61.7,
+     "score": 61.5,
      "band": "strong",
      "band_label": "Strong",
      "facets": {
       "discoverability": 75.9,
-      "contract_quality": 56.5,
+      "contract_quality": 55.7,
       "governance": 18.2,
       "contract_governance": 18.2,
       "operational_transparency": 39.5,
@@ -1018,7 +1018,7 @@
       "access_clarity": 92.1
      },
      "scored_at": "2026-09-01",
-     "schema_version": "0.17.2",
+     "schema_version": "0.18.0",
      "agent_score": 56.7,
      "agent_band": "agent-native",
      "agent_dims": {
@@ -1049,12 +1049,12 @@
      "slug": "infusionsoft",
      "description": "Infusionsoft, now branded as Keap and owned by Thryv Holdings, is a sales and marketing automation CRM built for small businesses that combines contact management, tagging, email marketing, campaign and automation sequences, e-commerce orders and subscriptions, sales pipelines, appointments and invoicing in a single platform. Keap publishes three machine-readable REST contracts: a 399-operation OpenAPI 3.1 for REST v2, a 141-operation OpenAPI 3.1 for REST v1, and a separate 45-operation Pipelines (deals) API, alongside a deprecated XML-RPC surface. Everything authenticates as a bearer token, either an OAuth 2.0 authorization-code token or a Personal Access Token or Service Account Key. Keap's event surface is REST Hooks and lives only on v1. There are no granular OAuth scopes and no idempotency keys anywhere in the API.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/infusionsoft/refs/heads/main/screenshots/infusionsoft-2026-06-20T183345.png",
-     "score": 61.7,
+     "score": 61.5,
      "band": "strong",
      "band_label": "Strong",
      "facets": {
       "discoverability": 75.9,
-      "contract_quality": 67.1,
+      "contract_quality": 66.2,
       "governance": 4.5,
       "contract_governance": 4.5,
       "operational_transparency": 50.0,
@@ -1063,7 +1063,7 @@
       "access_clarity": 73.7
      },
      "scored_at": "2026-09-01",
-     "schema_version": "0.17.2",
+     "schema_version": "0.18.0",
      "agent_score": 38.3,
      "agent_band": "agent-ready",
      "agent_dims": {
@@ -1094,12 +1094,12 @@
      "slug": "kartra",
      "description": "Kartra is an all-in-one online business platform operated by Kartra, Inc. of Las Vegas, Nevada, that bundles landing pages and funnels, email marketing with automation sequences, checkouts and recurring billing, membership sites and courses, video hosting, calendars and booking, helpdesks, affiliate management and lead scoring into a single subscription. Its developer surface is three distinct things: an inbound API that is a single form-encoded POST endpoint at https://app.kartra.com/api driven by 29 documented `cmd` values and scoped to exactly one lead per call; an outbound API that POSTs 24 JSON lead and commerce events to URLs configured in the account; and an IPN system that POSTs six payment-lifecycle notifications as flat form variables. Kartra publishes no OpenAPI, no SDK in any language, no signed webhooks and no idempotency contract, and it returns HTTP 200 for every outcome including authentication failure — the numeric `type` field in the response body is the real error signal.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/kartra/refs/heads/main/screenshots/kartra-2026-08-17T081006.png",
-     "score": 61.7,
+     "score": 61.4,
      "band": "strong",
      "band_label": "Strong",
      "facets": {
       "discoverability": 68.5,
-      "contract_quality": 42.7,
+      "contract_quality": 41.6,
       "governance": 18.2,
       "contract_governance": 18.2,
       "operational_transparency": 60.5,
@@ -1108,7 +1108,7 @@
       "access_clarity": 84.2
      },
      "scored_at": "2026-09-01",
-     "schema_version": "0.17.2",
+     "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
       "regime": "Payments",
@@ -1153,12 +1153,12 @@
      "slug": "dotdigital",
      "description": "Dotdigital is a UK-headquartered customer engagement platform (LSE: DOTD) whose Marketing product combines email, SMS, MMS, WhatsApp, push, app messaging, chat and web personalization behind one contact database. Its API estate is unusually large and unusually well published: 42 OpenAPI descriptions are served from a public catalog at developer.dotdigital.com/openapi and enumerated in an RFC 9727 api-catalog linkset, spanning contacts, lists, segments, preferences and consent, email and SMS campaigns, transactional email, programs, pages and forms, insight data, ecommerce, product recommendations, scoring, and the whole CPaaS omnichannel messaging stack. Two frameworks run side by side — legacy v2 at /v2/* and the current v3 services at /<service>/v3/* built around unified contacts — and most integrations need both. Everything authenticates with HTTP Basic API-user credentials against a mandatory regional host (r1 Europe, r2 North America, r3 Asia Pacific). Dotdigital also runs a remote MCP server over its developer hub and publishes webhooks, a durable Events in/out API and a Data Firehose for streaming engagement data to cloud storage.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/dotdigital/refs/heads/main/screenshots/dotdigital-2026-06-20T180203.png",
-     "score": 60.4,
+     "score": 60.1,
      "band": "strong",
      "band_label": "Strong",
      "facets": {
       "discoverability": 75.9,
-      "contract_quality": 69.6,
+      "contract_quality": 68.7,
       "governance": 4.5,
       "contract_governance": 4.5,
       "operational_transparency": 52.6,
@@ -1167,7 +1167,7 @@
       "access_clarity": 72.4
      },
      "scored_at": "2026-09-01",
-     "schema_version": "0.17.2",
+     "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
       "regime": "Telecommunications",
@@ -1212,12 +1212,12 @@
      "slug": "inflectionio",
      "description": "Inflection.io is a B2B marketing automation platform positioned as a modern, AI-native replacement for legacy tools like Marketo. It unifies target accounts, product users, customers, and leads with product-usage, sales, and behavioral signals so marketing teams can build audiences, draft campaigns, map customer journeys, score accounts, and report to the CMO — executing in minutes rather than weeks. The Inflection Developer API is a JSON-over-HTTPS REST API (OpenAPI 3.1, base https://api.inflection.io/v1) for reading and writing the people in a workspace: their profiles, product and marketing activity, static lists, emails, and per-contact personalized email versions, authenticated with scoped Personal Access Tokens or an OAuth 2.1 connected app. Alongside it Inflection runs a first-party remote MCP server at mcp.inflection.io — OAuth 2.1 with PKCE, its own trust and security page — that exposes the authoring surface the REST API does not: journeys, audiences, segments, tokens and analytics, driven by specialist agents. Surfaced as a version-one-ventures portfolio company and enriched from the provider's public developer, agent, and trust surfaces.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/inflectionio/refs/heads/main/screenshots/inflectionio-2026-07-25T222410.png",
-     "score": 59.8,
+     "score": 59.6,
      "band": "strong",
      "band_label": "Strong",
      "facets": {
       "discoverability": 75.9,
-      "contract_quality": 63.8,
+      "contract_quality": 63.0,
       "governance": 18.2,
       "contract_governance": 18.2,
       "operational_transparency": 57.9,
@@ -1226,7 +1226,7 @@
       "access_clarity": 68.4
      },
      "scored_at": "2026-09-01",
-     "schema_version": "0.17.2",
+     "schema_version": "0.18.0",
      "agent_score": 52.7,
      "agent_band": "agent-ready",
      "agent_dims": {
@@ -1257,12 +1257,12 @@
      "slug": "emailoctopus",
      "description": "EmailOctopus is an affordable email-marketing platform for newsletters, campaigns, automations and audience management, built on a low-cost sending model that undercuts the incumbent ESPs. Its v2 REST API is served from a single host, https://api.emailoctopus.com, with no version segment in the path, and is authenticated with a Bearer API key. The API covers subscriber lists, contacts, per-list custom fields and tags, campaigns and three campaign report projections, plus an operation to enqueue a contact into an automation. EmailOctopus publishes a real OpenAPI 3.1.0 document (25 operations, 19 schemas) at its v2 reference URL, documents an RFC 7807 error envelope with dereferenceable type URIs, cursor pagination, a token-bucket rate limit of 10 requests per second with a burst of 100, and an HMAC-SHA256-signed webhook surface carrying eight contact event types. It ships no official client SDK, no CLI and no MCP server.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/emailoctopus/refs/heads/main/screenshots/emailoctopus-2026-07-25T213222.png",
-     "score": 59.4,
+     "score": 59.2,
      "band": "strong",
      "band_label": "Strong",
      "facets": {
       "discoverability": 68.5,
-      "contract_quality": 65.6,
+      "contract_quality": 64.8,
       "governance": 4.5,
       "contract_governance": 4.5,
       "operational_transparency": 55.3,
@@ -1271,7 +1271,7 @@
       "access_clarity": 84.2
      },
      "scored_at": "2026-09-01",
-     "schema_version": "0.17.2",
+     "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
       "regime": "Telecommunications",
@@ -1323,7 +1323,7 @@
       "access_clarity": 100.0
      },
      "scored_at": "2026-09-01",
-     "schema_version": "0.17.2",
+     "schema_version": "0.18.0",
      "agent_score": 48.2,
      "agent_band": "agent-ready",
      "agent_dims": {
@@ -1354,12 +1354,12 @@
      "slug": "pabbly",
      "description": "Pabbly is an Indian SaaS company selling a suite of marketing and sales software as one-time lifetime deals as well as monthly plans: Pabbly Connect (workflow automation), Pabbly Subscription Billing (recurring billing and invoicing), Pabbly Email Marketing, Pabbly Chatflow (WhatsApp Business messaging), Pabbly Form Builder, Pabbly Hook (an inbound webhook gateway) and Pabbly Email Verification. Its developer platform at apidocs.pabbly.com documents five REST APIs and 173 endpoints, all keyed on HTTP Basic or Bearer credentials generated from the account dashboard, plus a sixth Connect Platform API distributed only through a first-party npm SDK. Pabbly Subscription Billing emits 23 webhook event types, and Pabbly Connect ships a beta hosted MCP server that exposes a customer's own workflow actions as agent tools.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/pabbly/refs/heads/main/screenshots/pabbly-2026-06-20T191303.png",
-     "score": 57.3,
+     "score": 57.0,
      "band": "strong",
      "band_label": "Strong",
      "facets": {
       "discoverability": 72.2,
-      "contract_quality": 42.7,
+      "contract_quality": 41.6,
       "governance": 4.5,
       "contract_governance": 4.5,
       "operational_transparency": 26.3,
@@ -1368,7 +1368,7 @@
       "access_clarity": 93.4
      },
      "scored_at": "2026-09-01",
-     "schema_version": "0.17.2",
+     "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
       "regime": "Payments",
@@ -1406,12 +1406,12 @@
      "slug": "knak",
      "description": "Knak is a no-code email and landing page creation platform built for enterprise marketing teams. Marketers design on-brand, responsive emails and landing pages in a drag-and-drop builder, then sync the finished HTML directly into their marketing automation platform (Marketo, Eloqua, Salesforce Marketing Cloud, Braze, HubSpot and others) without writing code or waiting on developers. For technical teams Knak publishes a documented developer surface -- the Knak Enterprise REST API for automating users, assets, themes, modules, brands, folders, merge tags and translation requests; the Knak Send Contacts API; a SCIM 2.0 API for identity-provider driven user provisioning; signed webhooks for asset and translation lifecycle events; a set of customer-implemented integration contracts (Custom DAM, Custom Validator, Custom Sync Location); and a hosted, OAuth 2.1 protected MCP server that lets AI clients generate and browse Knak assets.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/knak/refs/heads/main/screenshots/knak-2026-07-25T223953.png",
-     "score": 56.5,
+     "score": 56.3,
      "band": "strong",
      "band_label": "Strong",
      "facets": {
       "discoverability": 81.5,
-      "contract_quality": 61.6,
+      "contract_quality": 60.8,
       "governance": 4.5,
       "contract_governance": 4.5,
       "operational_transparency": 65.8,
@@ -1420,7 +1420,7 @@
       "access_clarity": 60.5
      },
      "scored_at": "2026-09-01",
-     "schema_version": "0.17.2",
+     "schema_version": "0.18.0",
      "agent_score": 58.8,
      "agent_band": "agent-ready",
      "agent_dims": {
@@ -1465,7 +1465,7 @@
       "access_clarity": 84.2
      },
      "scored_at": "2026-09-01",
-     "schema_version": "0.17.2",
+     "schema_version": "0.18.0",
      "agent_score": 43.2,
      "agent_band": "agent-ready",
      "agent_dims": {
@@ -1496,12 +1496,12 @@
      "slug": "getcensus",
      "description": "Census (now Fivetran Activations) is a reverse ETL platform that syncs data from data warehouses to CRM, marketing, advertising, and other business destinations. It enables data teams to define SQL-based models and segments, then automatically activate that data to over 200 destinations including Salesforce, HubSpot, Facebook Ads, and Google Ads without writing custom integrations.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/getcensus/refs/heads/main/screenshots/getcensus-2026-06-20T181807.png",
-     "score": 56.1,
+     "score": 55.8,
      "band": "strong",
      "band_label": "Strong",
      "facets": {
       "discoverability": 68.5,
-      "contract_quality": 42.7,
+      "contract_quality": 41.6,
       "governance": 18.2,
       "contract_governance": 18.2,
       "operational_transparency": 65.8,
@@ -1510,7 +1510,7 @@
       "access_clarity": 86.8
      },
      "scored_at": "2026-09-01",
-     "schema_version": "0.17.2",
+     "schema_version": "0.18.0",
      "agent_score": 22.3,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -1541,12 +1541,12 @@
      "slug": "vbout",
      "description": "VBOUT is an AI-enabled marketing automation platform used by agencies and small-to-mid-size businesses to run email marketing, social media scheduling, landing pages, popups, lead scoring, and an AI chatbot from one place. The VBOUT REST API (v1.0 at api.vbout.com/1) exposes the platform programmatically — contacts, lists, audiences, email campaigns and stats, social channels, calendar and posts, conversion goals, sub-users and groups, on-site engagement actions, automations, pipeline boards, and account settings — authenticated with an account API key, with responses in JSON or XML and a documented 15 requests/second rate limit. VBOUT is a 500 Global portfolio company.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/vbout/refs/heads/main/screenshots/vbout-2026-08-17T082712.png",
-     "score": 55.7,
+     "score": 55.5,
      "band": "strong",
      "band_label": "Strong",
      "facets": {
       "discoverability": 68.5,
-      "contract_quality": 54.1,
+      "contract_quality": 53.3,
       "governance": 4.5,
       "contract_governance": 4.5,
       "operational_transparency": 47.4,
@@ -1555,7 +1555,7 @@
       "access_clarity": 69.7
      },
      "scored_at": "2026-09-01",
-     "schema_version": "0.17.2",
+     "schema_version": "0.18.0",
      "agent_score": 32.9,
      "agent_band": "agent-ready",
      "agent_dims": {
@@ -1586,12 +1586,12 @@
      "slug": "mparticle",
      "description": "mParticle is a customer data platform (CDP) that helps brands collect, unify, and activate customer data across mobile, web, OTT, and server sources, then forward it in real time to hundreds of analytics, marketing, and warehouse destinations. The mParticle developer platform exposes server Events, IDSync, Profile, Warehouse Sync, Calculated Attributes, Data Planning and Platform APIs that let teams ingest events, resolve identity, manage configurations, and orchestrate audiences using HTTP Basic, an HMAC request digest, and OAuth 2.0 client-credentials bearer tokens. mParticle was acquired by Rokt.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/mparticle/refs/heads/main/screenshots/mparticle-2026-06-20T185839.png",
-     "score": 55.5,
+     "score": 55.3,
      "band": "strong",
      "band_label": "Strong",
      "facets": {
       "discoverability": 81.5,
-      "contract_quality": 63.0,
+      "contract_quality": 62.2,
       "governance": 18.2,
       "contract_governance": 18.2,
       "operational_transparency": 68.4,
@@ -1600,7 +1600,7 @@
       "access_clarity": 60.5
      },
      "scored_at": "2026-09-01",
-     "schema_version": "0.17.2",
+     "schema_version": "0.18.0",
      "agent_score": 48.4,
      "agent_band": "agent-ready",
      "agent_dims": {
@@ -1631,12 +1631,12 @@
      "slug": "digioh",
      "description": "Digioh is a US-based onsite personalization and zero-party data platform for ecommerce brands. It ships product recommendation quizzes, pop-ups, banners, sidebars, inline embeds, landing pages, email/SMS preference centers and post-purchase surveys as a JavaScript widget layer installed on a merchant's storefront, plus Digioh Passport for cross-session visitor identification and Digioh Pipelines for routing form submissions into ESP/CRM destinations such as Klaviyo, Iterable, Braze, Attentive, Ometria, HubSpot and Salesforce. Its developer surface is client-side rather than server-side - a documented browser JavaScript API (DIGIOH_API.LIGHTBOX), an outbound \"API Form POST\" webhook integration that posts submission JSON to a customer-controlled endpoint, iOS and Android embed SDKs, and a WordPress plugin and Shopify app. Digioh publishes no public inbound REST API, no OpenAPI definition and no developer portal.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/digioh/refs/heads/main/screenshots/digioh-2026-08-17T080859.png",
-     "score": 55.1,
+     "score": 54.9,
      "band": "strong",
      "band_label": "Strong",
      "facets": {
       "discoverability": 75.9,
-      "contract_quality": 42.7,
+      "contract_quality": 41.6,
       "governance": 18.2,
       "contract_governance": 18.2,
       "operational_transparency": 42.1,
@@ -1645,7 +1645,7 @@
       "access_clarity": 84.2
      },
      "scored_at": "2026-09-01",
-     "schema_version": "0.17.2",
+     "schema_version": "0.18.0",
      "agent_score": 22.3,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -1676,12 +1676,12 @@
      "slug": "webinarjam",
      "description": "WebinarJam is a live webinar platform for marketing, training, and sales events, while its sibling product EverWebinar provides automated and evergreen webinar replays. Both are published by Genesis Digital LLC and share one REST API that lets integrators list webinars, read webinar detail including schedules, presenters and custom registration fields, register attendees, pull registrant and attendee analytics, and unsubscribe leads. Every operation is a POST carrying a single account-wide 64-character api_key form field over TLS, with separate /webinarjam and /everwebinar base paths on api.webinarjam.com. API access requires a paid subscription plus an application approved by WebinarJam. No OpenAPI, AsyncAPI, MCP server or SDK is published; the reference is a human help centre and outbound custom webhooks are the only event surface.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/webinarjam/refs/heads/main/screenshots/webinarjam-2026-06-20T201333.png",
-     "score": 54.9,
+     "score": 54.6,
      "band": "strong",
      "band_label": "Strong",
      "facets": {
       "discoverability": 75.9,
-      "contract_quality": 42.7,
+      "contract_quality": 41.6,
       "governance": 18.2,
       "contract_governance": 18.2,
       "operational_transparency": 44.7,
@@ -1690,7 +1690,7 @@
       "access_clarity": 84.2
      },
      "scored_at": "2026-09-01",
-     "schema_version": "0.17.2",
+     "schema_version": "0.18.0",
      "agent_score": 26.1,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -1721,12 +1721,12 @@
      "slug": "funnel",
      "description": "Funnel (funnel.io) is a marketing intelligence and marketing data hub that helps agencies and brands become more data-driven. It connects to hundreds of advertising, analytics, CRM, and social data platforms, then automatically collects, normalizes, and transforms that marketing data into a single, business-ready model. Funnel exports the harmonized data to cloud data warehouses (BigQuery, Snowflake), Google Cloud Storage, BI and visualization tools, and back to ad platforms, and layers on advanced marketing measurement (Marketing Mix Modeling and Multi-Touch Attribution) plus dashboards and reporting. Programmatic configuration is exposed through the Funnel Control Plane API, consumed via an official Terraform provider and an OAuth 2.0 client-credentials (Auth0) system-user flow, with regional US and EU data residency. Funnel also ships a first-party hosted MCP server (Funnel MCP) that exposes six read-only tools over OAuth to Claude, ChatGPT, Cursor and other MCP clients, plus a documented inbound file-import webhook API. Funnel publishes no OpenAPI or AsyncAPI for any of the three surfaces.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/funnel/refs/heads/main/screenshots/funnel-2026-07-25T215322.png",
-     "score": 54.8,
+     "score": 54.5,
      "band": "strong",
      "band_label": "Strong",
      "facets": {
       "discoverability": 81.5,
-      "contract_quality": 42.7,
+      "contract_quality": 41.6,
       "governance": 18.2,
       "contract_governance": 18.2,
       "operational_transparency": 42.1,
@@ -1735,7 +1735,7 @@
       "access_clarity": 92.1
      },
      "scored_at": "2026-09-01",
-     "schema_version": "0.17.2",
+     "schema_version": "0.18.0",
      "agent_score": 45.7,
      "agent_band": "agent-ready",
      "agent_dims": {
@@ -1762,51 +1762,6 @@
      "rank": 36
     },
     {
-     "name": "DinMo",
-     "slug": "dinmo",
-     "description": "DinMo is a composable Customer Data Platform (CDP) that turns a cloud data warehouse into a marketing activation engine. It connects directly to Snowflake, Google BigQuery, Databricks, Amazon Redshift, PostgreSQL, Microsoft Fabric, and ClickHouse, lets non-technical teams model customer data and build no-code segments, and activates those audiences to more than a hundred destination platforms (ad networks, CRMs, marketing and messaging tools) via Reverse ETL with a zero-data-copy architecture built for GDPR and FADP compliance. DinMo also exposes a Personalization API for retrieving activated model records in real time, plus AI predictions (LTV, churn), identity resolution, a Customer Hub, and event tracking. The company is Paris-based and backed by Seedcamp.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/dinmo/refs/heads/main/screenshots/dinmo-2026-07-25T212055.png",
-     "score": 54.5,
-     "band": "strong",
-     "band_label": "Strong",
-     "facets": {
-      "discoverability": 75.9,
-      "contract_quality": 42.7,
-      "governance": 18.2,
-      "contract_governance": 18.2,
-      "operational_transparency": 44.7,
-      "developer_ergonomics": 57.1,
-      "commercial_clarity": 84.2,
-      "access_clarity": 84.2
-     },
-     "scored_at": "2026-09-01",
-     "schema_version": "0.17.2",
-     "agent_score": 25.2,
-     "agent_band": "agent-aware",
-     "agent_dims": {
-      "spec_presence": true,
-      "agentic_access": false,
-      "reversibility_documented": false,
-      "mcp_server": false,
-      "auth_clarity": "bearer",
-      "idempotency": false,
-      "error_semantics": "documented",
-      "openapi_examples": false,
-      "rate_limit_signal": "documented",
-      "event_surface_described": true,
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false,
-      "delegated_identity": false,
-      "protected_resource_metadata": false,
-      "dynamic_client_registration": false,
-      "agentic_commerce": false
-     },
-     "rank": 37
-    },
-    {
      "name": "Sumble",
      "slug": "sumble",
      "description": "Sumble provides account intelligence data that powers go-to-market work across the revenue org — sales, RevOps, marketing, and customer success. Its data captures the most detailed view of what companies use (technologies and projects), who works there (people, teams, job posts), and when they are ready to buy (signals). Sumble exposes this as a RESTful enrichment API (OpenAPI 3.1, bearer-token auth) plus a hosted MCP server, letting teams enrich CRM data, build lead-generation tools, and run market research programmatically. Surfaced as a portfolio company of Bloomberg Beta and enriched into the API Evangelist network from its public developer surface.",
@@ -1825,7 +1780,7 @@
       "access_clarity": 67.1
      },
      "scored_at": "2026-09-01",
-     "schema_version": "0.17.2",
+     "schema_version": "0.18.0",
      "agent_score": 56.3,
      "agent_band": "agent-ready",
      "agent_dims": {
@@ -1849,7 +1804,7 @@
       "dynamic_client_registration": true,
       "agentic_commerce": false
      },
-     "rank": 38
+     "rank": 37
     }
    ],
    "open": true
@@ -1859,20 +1814,65 @@
    "label": "Developing",
    "range": "39.3 – 54.2",
    "blurb": "Real signal across most facets with visible, nameable gaps.",
-   "count": 19,
-   "shown": 19,
+   "count": 20,
+   "shown": 20,
    "providers": [
+    {
+     "name": "DinMo",
+     "slug": "dinmo",
+     "description": "DinMo is a composable Customer Data Platform (CDP) that turns a cloud data warehouse into a marketing activation engine. It connects directly to Snowflake, Google BigQuery, Databricks, Amazon Redshift, PostgreSQL, Microsoft Fabric, and ClickHouse, lets non-technical teams model customer data and build no-code segments, and activates those audiences to more than a hundred destination platforms (ad networks, CRMs, marketing and messaging tools) via Reverse ETL with a zero-data-copy architecture built for GDPR and FADP compliance. DinMo also exposes a Personalization API for retrieving activated model records in real time, plus AI predictions (LTV, churn), identity resolution, a Customer Hub, and event tracking. The company is Paris-based and backed by Seedcamp.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/dinmo/refs/heads/main/screenshots/dinmo-2026-07-25T212055.png",
+     "score": 54.2,
+     "band": "developing",
+     "band_label": "Developing",
+     "facets": {
+      "discoverability": 75.9,
+      "contract_quality": 41.6,
+      "governance": 18.2,
+      "contract_governance": 18.2,
+      "operational_transparency": 44.7,
+      "developer_ergonomics": 57.1,
+      "commercial_clarity": 84.2,
+      "access_clarity": 84.2
+     },
+     "scored_at": "2026-09-01",
+     "schema_version": "0.18.0",
+     "agent_score": 25.2,
+     "agent_band": "agent-aware",
+     "agent_dims": {
+      "spec_presence": true,
+      "agentic_access": false,
+      "reversibility_documented": false,
+      "mcp_server": false,
+      "auth_clarity": "bearer",
+      "idempotency": false,
+      "error_semantics": "documented",
+      "openapi_examples": false,
+      "rate_limit_signal": "documented",
+      "event_surface_described": true,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
+     "rank": 38
+    },
     {
      "name": "iContact",
      "slug": "icontact",
      "description": "iContact is an email marketing and marketing automation platform (now part of Cision) that helps small and mid-market businesses build email campaigns, manage contacts and lists, automate drip sequences, and measure engagement. The iContact REST API v2.2 provides programmatic access to contacts, lists, segments, campaigns, messages, and reporting data using a combination of HTTP headers (API-AppId, API-Version, API-Username, API-Password) for authentication.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/icontact/refs/heads/main/screenshots/icontact-2026-06-20T183200.png",
-     "score": 53.7,
+     "score": 53.5,
      "band": "developing",
      "band_label": "Developing",
      "facets": {
       "discoverability": 68.5,
-      "contract_quality": 42.6,
+      "contract_quality": 41.7,
       "governance": 18.2,
       "contract_governance": 18.2,
       "operational_transparency": 42.1,
@@ -1881,7 +1881,7 @@
       "access_clarity": 69.7
      },
      "scored_at": "2026-09-01",
-     "schema_version": "0.17.2",
+     "schema_version": "0.18.0",
      "agent_score": 26.1,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -1912,12 +1912,12 @@
      "slug": "leadpages",
      "description": "Leadpages is an AI web platform with built-in conversion optimization, part of the Redbrick family of brands. It builds and hosts landing pages, multi-page sites and blogs that improve themselves through A/B testing, Smart Traffic variant routing, click and scroll heatmaps, dynamic text replacement and auto-personalization, with no traffic caps on any plan. For developers and agents it publishes a REST API covering pages, sites, assets, blogs, analytics, forms, custom domains and brand kits; a hosted Model Context Protocol server exposing 47 tools over OAuth 2.0 with PKCE; webhooks for page-publish, lead-capture and form-submission events; and an A2A agent card describing a nine-agent campaign team. Founded 2012 and rebuilt from scratch in 2026.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/leadpages/refs/heads/main/screenshots/leadpages-2026-08-17T081052.png",
-     "score": 53.6,
+     "score": 53.3,
      "band": "developing",
      "band_label": "Developing",
      "facets": {
       "discoverability": 81.5,
-      "contract_quality": 42.7,
+      "contract_quality": 41.6,
       "governance": 18.2,
       "contract_governance": 18.2,
       "operational_transparency": 21.1,
@@ -1926,7 +1926,7 @@
       "access_clarity": 92.1
      },
      "scored_at": "2026-09-01",
-     "schema_version": "0.17.2",
+     "schema_version": "0.18.0",
      "agent_score": 50.6,
      "agent_band": "agent-ready",
      "agent_dims": {
@@ -1971,7 +1971,7 @@
       "access_clarity": 78.9
      },
      "scored_at": "2026-09-01",
-     "schema_version": "0.17.2",
+     "schema_version": "0.18.0",
      "agent_score": 30.0,
      "agent_band": "agent-ready",
      "agent_dims": {
@@ -2002,12 +2002,12 @@
      "slug": "mixmax",
      "description": "Mixmax is an AI-native sales engagement and execution platform that lives inside Gmail and Outlook, helping sales, customer success, recruiting, and other relationship-driven teams run their entire customer journey without context-switching. It combines email tracking and templates, multi-channel sequences, one-click scheduling, CRM automation, engagement signals, and Meeting Copilot summaries and transcripts. Mixmax exposes a public REST API (api.mixmax.com/v1) for lightweight real-time access to contacts, contact groups, sequences and recipients, file requests, meeting summaries and transcripts, and snippet tags, authenticated with an API token, plus message integrations and Sidebar/Widget SDKs for extending the product surface. Since April 2026 Mixmax also runs a first-party remote MCP server at mcp.mixmax.com/mcp — read-only, OAuth 2.0 with PKCE against its own OpenID Connect provider, scoped meetings:read — together with six installable Claude Skills, a rule-driven incoming and outgoing webhook surface with a documented event catalog, and published per-tier pricing.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/mixmax/refs/heads/main/screenshots/mixmax-2026-08-07T183824.png",
-     "score": 51.2,
+     "score": 51.1,
      "band": "developing",
      "band_label": "Developing",
      "facets": {
       "discoverability": 75.9,
-      "contract_quality": 25.3,
+      "contract_quality": 25.0,
       "governance": 18.2,
       "contract_governance": 18.2,
       "operational_transparency": 47.4,
@@ -2016,7 +2016,7 @@
       "access_clarity": 92.1
      },
      "scored_at": "2026-09-01",
-     "schema_version": "0.17.2",
+     "schema_version": "0.18.0",
      "agent_score": 36.5,
      "agent_band": "agent-ready",
      "agent_dims": {
@@ -2043,61 +2043,16 @@
      "rank": 42
     },
     {
-     "name": "Oracle Eloqua",
-     "slug": "eloqua",
-     "description": "Oracle Eloqua is a marketing automation platform that provides tools for lead management, email marketing, and marketing campaign management through comprehensive REST APIs. It enables marketing teams to create, execute, and measure the effectiveness of marketing programs and campaigns.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/eloqua/refs/heads/main/screenshots/eloqua-2026-06-20T180617.png",
-     "score": 50.5,
-     "band": "developing",
-     "band_label": "Developing",
-     "facets": {
-      "discoverability": 75.9,
-      "contract_quality": 55.7,
-      "governance": 14.4,
-      "contract_governance": 14.4,
-      "operational_transparency": 57.9,
-      "developer_ergonomics": 56.5,
-      "commercial_clarity": 42.1,
-      "access_clarity": 42.1
-     },
-     "scored_at": "2026-09-01",
-     "schema_version": "0.17.2",
-     "agent_score": 31.1,
-     "agent_band": "agent-ready",
-     "agent_dims": {
-      "spec_presence": true,
-      "agentic_access": "derived",
-      "reversibility_documented": false,
-      "mcp_server": false,
-      "auth_clarity": "negotiable",
-      "idempotency": false,
-      "error_semantics": "documented",
-      "openapi_examples": "partial",
-      "rate_limit_signal": "documented",
-      "event_surface_described": false,
-      "agent_skills": "derived",
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false,
-      "delegated_identity": "documented",
-      "protected_resource_metadata": false,
-      "dynamic_client_registration": false,
-      "agentic_commerce": false
-     },
-     "rank": 43
-    },
-    {
      "name": "Lone Wolf Technologies",
      "slug": "lone-wolf",
      "description": "Lone Wolf Technologies is the dominant back-office, transaction-management and forms vendor in North American residential real estate, headquartered in Dallas, Texas and backed by Stone Point Capital. Its software runs the paperwork and money side of the deal rather than the listing feed: brokerage accounting and commission processing (Back Office, the brokerWOLF lineage), transaction management in two editions (zipForm Edition and TransactionDesk Edition), Authentisign and Inkless e-signature, Cloud CMA comparative market analysis, Boost digital advertising (HomeSpotter), Spacio open-house lead capture, and Propertybase/Relationships CRM. Its forms suites are distributed to agents as association member benefits through state REALTOR associations and MLSs, which places it between the MLS layer and the brokerage. On API posture it is one of the strongest surfaces in this sector and an instructive counter-example to the MLS data providers: on 2026-02-02 it launched a public API Portal for the Lone Wolf Foundation platform, and its documentation hub at apidocs.lwolf.com publishes seven complete, anonymously downloadable OpenAPI 3.0 definitions (Transact, Deals, Back Office, Authentisign, TransactionDesk, zipForm and WolfConnect) plus an MCP server endpoint. Documentation is genuinely open; credentials are not. Keys are issued only after an access-request form is reviewed by the integrations team, and the zipForm API is explicitly licensed to third-party application partners. Lone Wolf is not a RESO-certified data distributor and publishes no RESO Web API, Data Dictionary endpoint, OData $metadata document or Universal Property Identifier — RESO certification governs MLS listing feeds, which is not the layer Lone Wolf occupies; it consumes MLS data under MLS agreements (Cloud CMA documents RETS live queries) rather than redistributing it.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/lone-wolf/refs/heads/main/screenshots/lone-wolf-2026-08-07T171753.png",
-     "score": 50.3,
+     "score": 50.0,
      "band": "developing",
      "band_label": "Developing",
      "facets": {
       "discoverability": 75.9,
-      "contract_quality": 63.8,
+      "contract_quality": 62.9,
       "governance": 4.5,
       "contract_governance": 4.5,
       "operational_transparency": 23.7,
@@ -2106,7 +2061,7 @@
       "access_clarity": 34.2
      },
      "scored_at": "2026-09-01",
-     "schema_version": "0.17.2",
+     "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
       "regime": "Securities & Market Data",
@@ -2137,6 +2092,51 @@
       "dynamic_client_registration": true,
       "agentic_commerce": false
      },
+     "rank": 43
+    },
+    {
+     "name": "Oracle Eloqua",
+     "slug": "eloqua",
+     "description": "Oracle Eloqua is a marketing automation platform that provides tools for lead management, email marketing, and marketing campaign management through comprehensive REST APIs. It enables marketing teams to create, execute, and measure the effectiveness of marketing programs and campaigns.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/eloqua/refs/heads/main/screenshots/eloqua-2026-06-20T180617.png",
+     "score": 49.8,
+     "band": "developing",
+     "band_label": "Developing",
+     "facets": {
+      "discoverability": 75.9,
+      "contract_quality": 53.0,
+      "governance": 14.4,
+      "contract_governance": 14.4,
+      "operational_transparency": 57.9,
+      "developer_ergonomics": 56.5,
+      "commercial_clarity": 42.1,
+      "access_clarity": 42.1
+     },
+     "scored_at": "2026-09-01",
+     "schema_version": "0.18.0",
+     "agent_score": 31.1,
+     "agent_band": "agent-ready",
+     "agent_dims": {
+      "spec_presence": true,
+      "agentic_access": "derived",
+      "reversibility_documented": false,
+      "mcp_server": false,
+      "auth_clarity": "negotiable",
+      "idempotency": false,
+      "error_semantics": "documented",
+      "openapi_examples": "partial",
+      "rate_limit_signal": "documented",
+      "event_surface_described": false,
+      "agent_skills": "derived",
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": "documented",
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
      "rank": 44
     },
     {
@@ -2144,12 +2144,12 @@
      "slug": "reform",
      "description": "Reform is a conversion-focused, no-code form builder for B2B and SaaS teams, acquired by conversion-rate-optimization agency FunnelEnvy. It builds multi-step forms with conditional logic, lead qualification and enrichment, and syncs submissions to CRMs and marketing platforms. Reform publishes no REST API, SDK or OpenAPI definition; its integration surface is three published pieces — a signed outbound webhook (form.submitted, HMAC-SHA256), a CDN-hosted browser embed loader with a parent-page event API, and a headless mode that posts your own HTML form to Reform using answers[block-id] field naming.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/reform/refs/heads/main/screenshots/reform-2026-06-20T192748.png",
-     "score": 50.1,
+     "score": 49.8,
      "band": "developing",
      "band_label": "Developing",
      "facets": {
       "discoverability": 75.9,
-      "contract_quality": 53.3,
+      "contract_quality": 51.9,
       "governance": 18.2,
       "contract_governance": 18.2,
       "operational_transparency": 7.9,
@@ -2158,7 +2158,7 @@
       "access_clarity": 89.5
      },
      "scored_at": "2026-09-01",
-     "schema_version": "0.17.2",
+     "schema_version": "0.18.0",
      "agent_score": 22.3,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -2189,12 +2189,12 @@
      "slug": "involve-me",
      "description": "involve.me is an AI quiz, form and funnel builder with built-in email automation and a lightweight CRM, operated by stereosense GmbH and used by marketing teams to capture, qualify and follow up on leads. Customers build quizzes, assessments, calculators, product finders, landing pages, surveys and payment pages in a no-code editor, publish them as a hosted page or an embedded widget, and route submissions into 55+ native CRM and email destinations. Its programmable surface is deliberately narrow: there is no public REST API and no OpenAPI, and the only machine-addressable paths are an outbound webhook that fires when a participant completes a funnel (Scale plan and above), a copy-paste JavaScript embed loader, Zapier and Make connectors, and an OAuth-protected Model Context Protocol server that exposes the marketing website's Statamic CMS rather than the product itself.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/involve-me/refs/heads/main/screenshots/involve-me-2026-08-17T081000.png",
-     "score": 49.4,
+     "score": 49.1,
      "band": "developing",
      "band_label": "Developing",
      "facets": {
       "discoverability": 75.9,
-      "contract_quality": 42.7,
+      "contract_quality": 41.6,
       "governance": 18.2,
       "contract_governance": 18.2,
       "operational_transparency": 36.8,
@@ -2203,7 +2203,7 @@
       "access_clarity": 92.1
      },
      "scored_at": "2026-09-01",
-     "schema_version": "0.17.2",
+     "schema_version": "0.18.0",
      "agent_score": 30.9,
      "agent_band": "agent-ready",
      "agent_dims": {
@@ -2248,7 +2248,7 @@
       "access_clarity": 82.9
      },
      "scored_at": "2026-09-01",
-     "schema_version": "0.17.2",
+     "schema_version": "0.18.0",
      "agent_score": 32.4,
      "agent_band": "agent-ready",
      "agent_dims": {
@@ -2284,7 +2284,7 @@
      "band_label": "Developing",
      "facets": {
       "discoverability": 75.9,
-      "contract_quality": 24.9,
+      "contract_quality": 24.6,
       "governance": 4.5,
       "contract_governance": 4.5,
       "operational_transparency": 50.0,
@@ -2293,7 +2293,7 @@
       "access_clarity": 76.3
      },
      "scored_at": "2026-09-01",
-     "schema_version": "0.17.2",
+     "schema_version": "0.18.0",
      "agent_score": 35.8,
      "agent_band": "agent-ready",
      "agent_dims": {
@@ -2338,7 +2338,7 @@
       "access_clarity": 73.7
      },
      "scored_at": "2026-09-01",
-     "schema_version": "0.17.2",
+     "schema_version": "0.18.0",
      "agent_score": 29.7,
      "agent_band": "agent-ready",
      "agent_dims": {
@@ -2374,7 +2374,7 @@
      "band_label": "Developing",
      "facets": {
       "discoverability": 75.9,
-      "contract_quality": 21.9,
+      "contract_quality": 21.6,
       "governance": 4.5,
       "contract_governance": 4.5,
       "operational_transparency": 21.1,
@@ -2383,7 +2383,7 @@
       "access_clarity": 92.1
      },
      "scored_at": "2026-09-01",
-     "schema_version": "0.17.2",
+     "schema_version": "0.18.0",
      "agent_score": 44.3,
      "agent_band": "agent-ready",
      "agent_dims": {
@@ -2410,39 +2410,39 @@
      "rank": 50
     },
     {
-     "name": "Poptin",
-     "slug": "poptin",
-     "description": "Poptin is an Israeli-founded, no-code conversion and lifecycle marketing platform that bundles website popups, bars, embedded forms, coupons, email campaigns, email automation, contact management, audience segmentation and website tracking into a single SaaS product aimed at ecommerce stores, SaaS companies, agencies and small businesses. Delivery is a hosted embed script (cdn.popt.in/pixel.js) installed via first-party plugins for WordPress, Magento 2, Craft CMS, SilverStripe, TYPO3, OctoberCMS, Contao, Shopify, Wix and Google Tag Manager. Its developer surface is client-side and event-shaped rather than REST: documented DOM CustomEvents (poptinView, poptinClose, poptinSubmit, couponCopy) with a published event.detail field set, named global callbacks, and an outbound per-popup Webhooks integration that posts lead data to a subscriber URL. Poptin publishes no public API reference, no OpenAPI, and no developer portal; a Make/Zapier API key is issued from account settings for its two automation connectors.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/poptin/refs/heads/main/screenshots/poptin-2026-08-17T081328.png",
-     "score": 44.1,
+     "name": "Channel99",
+     "slug": "channel99",
+     "description": "Channel99 is a B2B marketing performance and attribution platform founded by Demandbase creator Chris Golec. It uses AI and first-party account identification to unify cross-channel marketing results, verify B2B ad delivery, reveal the \"dark funnel\" and view-through traffic, and benchmark vendor and channel performance against the industry, then recommend budget and campaign changes that grow pipeline while reducing wasted spend. Marketing and RevOps teams export unified performance data into data warehouses (Snowflake), CDPs, and BI tools, and activate intent-based audiences. Developers reach the same data through the Pulsar Reporting API, a documented OAuth-issued M2M REST surface of visit, pageview, impression and intent facts with cursor pagination, and through a first-party read-only MCP server that connects Channel99 marketing intelligence to ChatGPT and Claude. Backed by Norwest Venture Partners, Jackson Square Ventures, Industry Ventures, Ridge Ventures, Geek Ventures, and Marin-Sonoma Impact Ventures.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/channel99/refs/heads/main/screenshots/channel99-2026-07-25T205041.png",
+     "score": 43.9,
      "band": "developing",
      "band_label": "Developing",
      "facets": {
       "discoverability": 75.9,
-      "contract_quality": 42.7,
-      "governance": 18.2,
-      "contract_governance": 18.2,
-      "operational_transparency": 26.3,
-      "developer_ergonomics": 40.5,
-      "commercial_clarity": 60.5,
-      "access_clarity": 60.5
+      "contract_quality": 48.5,
+      "governance": 4.5,
+      "contract_governance": 4.5,
+      "operational_transparency": 63.2,
+      "developer_ergonomics": 49.4,
+      "commercial_clarity": 27.6,
+      "access_clarity": 27.6
      },
      "scored_at": "2026-09-01",
-     "schema_version": "0.17.2",
-     "agent_score": 22.3,
-     "agent_band": "agent-aware",
+     "schema_version": "0.18.0",
+     "agent_score": 35.6,
+     "agent_band": "agent-ready",
      "agent_dims": {
       "spec_presence": true,
       "agentic_access": false,
       "reversibility_documented": false,
-      "mcp_server": false,
+      "mcp_server": "documented",
       "auth_clarity": "bearer",
       "idempotency": false,
-      "error_semantics": false,
-      "openapi_examples": false,
-      "rate_limit_signal": "documented",
-      "event_surface_described": true,
-      "agent_skills": false,
+      "error_semantics": "verified",
+      "openapi_examples": "verified",
+      "rate_limit_signal": "verified",
+      "event_surface_described": false,
+      "agent_skills": "derived",
       "well_known_catalog": false,
       "consent_identity": false,
       "agent_card": false,
@@ -2459,12 +2459,12 @@
      "slug": "easywebinar",
      "description": "EasyWebinar is a live and automated webinar platform for course creators, marketers, coaches and enterprise teams, combining live webinars, automated/simulive and evergreen webinars, an AI webinar funnel builder, EasyCast multistreaming to YouTube, LinkedIn, Facebook and custom RTMP destinations, built-in checkout for paid webinars, and Easy Suite — a native CRM with lead scoring, email sequences and automated follow-up. The platform scales to 100,000 live attendees on Dolby OptiView (Millicast) WebRTC infrastructure and is SOC 2 Type II certified (audited by Scrut Automation) with GDPR controls, SAML 2.0 SSO and SCIM provisioning on the Enterprise tier. EasyWebinar publicly serves an OAuth 2.0 / OpenID Connect authorization server at app.easywebinar.com and markets a REST API and webhooks covering registration, attendance, lead data, CRM sync and event lifecycle events — but that API is a Scale-plan and Enterprise entitlement, and no public reference, OpenAPI or webhook catalogue is published.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/easywebinar/refs/heads/main/screenshots/easywebinar-2026-08-17T080912.png",
-     "score": 44.0,
+     "score": 43.8,
      "band": "developing",
      "band_label": "Developing",
      "facets": {
       "discoverability": 75.9,
-      "contract_quality": 42.7,
+      "contract_quality": 41.6,
       "governance": 18.2,
       "contract_governance": 18.2,
       "operational_transparency": 7.9,
@@ -2473,7 +2473,7 @@
       "access_clarity": 84.2
      },
      "scored_at": "2026-09-01",
-     "schema_version": "0.17.2",
+     "schema_version": "0.18.0",
      "agent_score": 33.5,
      "agent_band": "agent-ready",
      "agent_dims": {
@@ -2500,39 +2500,39 @@
      "rank": 52
     },
     {
-     "name": "Channel99",
-     "slug": "channel99",
-     "description": "Channel99 is a B2B marketing performance and attribution platform founded by Demandbase creator Chris Golec. It uses AI and first-party account identification to unify cross-channel marketing results, verify B2B ad delivery, reveal the \"dark funnel\" and view-through traffic, and benchmark vendor and channel performance against the industry, then recommend budget and campaign changes that grow pipeline while reducing wasted spend. Marketing and RevOps teams export unified performance data into data warehouses (Snowflake), CDPs, and BI tools, and activate intent-based audiences. Developers reach the same data through the Pulsar Reporting API, a documented OAuth-issued M2M REST surface of visit, pageview, impression and intent facts with cursor pagination, and through a first-party read-only MCP server that connects Channel99 marketing intelligence to ChatGPT and Claude. Backed by Norwest Venture Partners, Jackson Square Ventures, Industry Ventures, Ridge Ventures, Geek Ventures, and Marin-Sonoma Impact Ventures.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/channel99/refs/heads/main/screenshots/channel99-2026-07-25T205041.png",
-     "score": 43.9,
+     "name": "Poptin",
+     "slug": "poptin",
+     "description": "Poptin is an Israeli-founded, no-code conversion and lifecycle marketing platform that bundles website popups, bars, embedded forms, coupons, email campaigns, email automation, contact management, audience segmentation and website tracking into a single SaaS product aimed at ecommerce stores, SaaS companies, agencies and small businesses. Delivery is a hosted embed script (cdn.popt.in/pixel.js) installed via first-party plugins for WordPress, Magento 2, Craft CMS, SilverStripe, TYPO3, OctoberCMS, Contao, Shopify, Wix and Google Tag Manager. Its developer surface is client-side and event-shaped rather than REST: documented DOM CustomEvents (poptinView, poptinClose, poptinSubmit, couponCopy) with a published event.detail field set, named global callbacks, and an outbound per-popup Webhooks integration that posts lead data to a subscriber URL. Poptin publishes no public API reference, no OpenAPI, and no developer portal; a Make/Zapier API key is issued from account settings for its two automation connectors.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/poptin/refs/heads/main/screenshots/poptin-2026-08-17T081328.png",
+     "score": 43.8,
      "band": "developing",
      "band_label": "Developing",
      "facets": {
       "discoverability": 75.9,
-      "contract_quality": 48.5,
-      "governance": 4.5,
-      "contract_governance": 4.5,
-      "operational_transparency": 63.2,
-      "developer_ergonomics": 49.4,
-      "commercial_clarity": 27.6,
-      "access_clarity": 27.6
+      "contract_quality": 41.6,
+      "governance": 18.2,
+      "contract_governance": 18.2,
+      "operational_transparency": 26.3,
+      "developer_ergonomics": 40.5,
+      "commercial_clarity": 60.5,
+      "access_clarity": 60.5
      },
      "scored_at": "2026-09-01",
-     "schema_version": "0.17.2",
-     "agent_score": 35.6,
-     "agent_band": "agent-ready",
+     "schema_version": "0.18.0",
+     "agent_score": 22.3,
+     "agent_band": "agent-aware",
      "agent_dims": {
       "spec_presence": true,
       "agentic_access": false,
       "reversibility_documented": false,
-      "mcp_server": "documented",
+      "mcp_server": false,
       "auth_clarity": "bearer",
       "idempotency": false,
-      "error_semantics": "verified",
-      "openapi_examples": "verified",
-      "rate_limit_signal": "verified",
-      "event_surface_described": false,
-      "agent_skills": "derived",
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": "documented",
+      "event_surface_described": true,
+      "agent_skills": false,
       "well_known_catalog": false,
       "consent_identity": false,
       "agent_card": false,
@@ -2563,7 +2563,7 @@
       "access_clarity": 63.2
      },
      "scored_at": "2026-09-01",
-     "schema_version": "0.17.2",
+     "schema_version": "0.18.0",
      "agent_score": 29.0,
      "agent_band": "agent-ready",
      "agent_dims": {
@@ -2590,51 +2590,6 @@
      "rank": 54
     },
     {
-     "name": "HockeyStack",
-     "slug": "hockeystack",
-     "description": "HockeyStack is a B2B revenue and marketing data intelligence platform that unifies marketing, sales, and product data to reveal the full buyer journey from first anonymous (cookieless) touch to closed-won. It applies multiple attribution models, account and intent scoring, lift/incrementality analysis, and no-SQL custom dashboards, and deploys AI \"Revenue Agents\" (via its ATLAS data foundation and the hosted \"Omni\" MCP server) to forecast pipeline, brief accounts, and recommend next-best actions. Data flows bidirectionally through prebuilt connectors to CRMs (Salesforce, HubSpot), ad platforms (LinkedIn, Google, Facebook, TikTok), ABM tools, data warehouses (Snowflake, BigQuery), and CDPs (Segment). Its programmatic surface is two-part: the OAuth-secured hosted \"Omni\" MCP server, and the Revenue Agents REST API v1 (bearer token, 30 operations across agents, conversations, tasks and credits), which is wrapped by a first-party npm MCP server but has no published OpenAPI. Backed by Bessemer Venture Partners.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/hockeystack/refs/heads/main/screenshots/hockeystack-2026-07-25T221312.png",
-     "score": 41.8,
-     "band": "developing",
-     "band_label": "Developing",
-     "facets": {
-      "discoverability": 75.9,
-      "contract_quality": 42.7,
-      "governance": 4.5,
-      "contract_governance": 4.5,
-      "operational_transparency": 26.3,
-      "developer_ergonomics": 45.2,
-      "commercial_clarity": 52.6,
-      "access_clarity": 52.6
-     },
-     "scored_at": "2026-09-01",
-     "schema_version": "0.17.2",
-     "agent_score": 28.6,
-     "agent_band": "agent-ready",
-     "agent_dims": {
-      "spec_presence": true,
-      "agentic_access": false,
-      "reversibility_documented": false,
-      "mcp_server": "documented",
-      "auth_clarity": "bearer",
-      "idempotency": false,
-      "error_semantics": "documented",
-      "openapi_examples": false,
-      "rate_limit_signal": "documented",
-      "event_surface_described": true,
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false,
-      "delegated_identity": false,
-      "protected_resource_metadata": false,
-      "dynamic_client_registration": false,
-      "agentic_commerce": false
-     },
-     "rank": 55
-    },
-    {
      "name": "Monaco",
      "slug": "monaco",
      "description": "Monaco is an AI-native revenue platform for startups that replaces legacy CRM systems and disparate sales point solutions with a single revenue engine. It unifies a contacts/accounts database, buying signals, sequences, pipeline and opportunity tracking, meeting/call recording with AI summaries, and CRO copilot coaching. Monaco exposes a public REST API (api.monaco.com) covering contacts, accounts, opportunities, tasks, tags, meetings, sequences, sequence templates, audiences, and campaigns, plus a hosted, OAuth-secured MCP server (mcp.monaco.com), a published Agent Skill, and an A2A agent card on its docs host, so AI agents can query and act on revenue data in natural language. Founded by Sam Blond and backed by Founders Fund; the API and MCP surface are currently in Beta, and the published OpenAPI grew from 37 to 51 operations between July and August 2026 with no changelog to announce it.",
@@ -2653,7 +2608,7 @@
       "access_clarity": 28.9
      },
      "scored_at": "2026-09-01",
-     "schema_version": "0.17.2",
+     "schema_version": "0.18.0",
      "agent_score": 50.2,
      "agent_band": "agent-native",
      "agent_dims": {
@@ -2677,6 +2632,51 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
+     "rank": 55
+    },
+    {
+     "name": "HockeyStack",
+     "slug": "hockeystack",
+     "description": "HockeyStack is a B2B revenue and marketing data intelligence platform that unifies marketing, sales, and product data to reveal the full buyer journey from first anonymous (cookieless) touch to closed-won. It applies multiple attribution models, account and intent scoring, lift/incrementality analysis, and no-SQL custom dashboards, and deploys AI \"Revenue Agents\" (via its ATLAS data foundation and the hosted \"Omni\" MCP server) to forecast pipeline, brief accounts, and recommend next-best actions. Data flows bidirectionally through prebuilt connectors to CRMs (Salesforce, HubSpot), ad platforms (LinkedIn, Google, Facebook, TikTok), ABM tools, data warehouses (Snowflake, BigQuery), and CDPs (Segment). Its programmatic surface is two-part: the OAuth-secured hosted \"Omni\" MCP server, and the Revenue Agents REST API v1 (bearer token, 30 operations across agents, conversations, tasks and credits), which is wrapped by a first-party npm MCP server but has no published OpenAPI. Backed by Bessemer Venture Partners.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/hockeystack/refs/heads/main/screenshots/hockeystack-2026-07-25T221312.png",
+     "score": 41.5,
+     "band": "developing",
+     "band_label": "Developing",
+     "facets": {
+      "discoverability": 75.9,
+      "contract_quality": 41.6,
+      "governance": 4.5,
+      "contract_governance": 4.5,
+      "operational_transparency": 26.3,
+      "developer_ergonomics": 45.2,
+      "commercial_clarity": 52.6,
+      "access_clarity": 52.6
+     },
+     "scored_at": "2026-09-01",
+     "schema_version": "0.18.0",
+     "agent_score": 28.6,
+     "agent_band": "agent-ready",
+     "agent_dims": {
+      "spec_presence": true,
+      "agentic_access": false,
+      "reversibility_documented": false,
+      "mcp_server": "documented",
+      "auth_clarity": "bearer",
+      "idempotency": false,
+      "error_semantics": "documented",
+      "openapi_examples": false,
+      "rate_limit_signal": "documented",
+      "event_surface_described": true,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
      "rank": 56
     },
     {
@@ -2684,12 +2684,12 @@
      "slug": "voyant",
      "description": "Voyant.io is a brand-context platform that turns a company's positioning, messaging, personas, products, pricing, and competitive intelligence into structured \"context streams\" that any AI tool or agent can read at generation time, so AI-produced copy stays on-message instead of drifting or hallucinating claims. The product is delivered as a large FastAPI-based REST API (783 operations across 79 tags covering context streams, RAG search, messaging frameworks, target graph, telemetry, social signal harvesting, competitive intelligence, and content generation), a hosted MCP server exposing 15 tools to agent clients, and a set of published agent-governance files (`/.well-known/llms.txt`, `/.well-known/context.txt`) that declare training permissions and inference-control rules for the domain itself. Marketed to B2B GTM teams scaling from $5M to $100M ARR. Pre-seed, founded by Andrew M. Brown; the API runs under the internal name \"VoiceForge\".",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/voyant/refs/heads/main/screenshots/voyant-2026-08-17T082904.png",
-     "score": 40.9,
+     "score": 41.0,
      "band": "developing",
      "band_label": "Developing",
      "facets": {
       "discoverability": 51.9,
-      "contract_quality": 60.6,
+      "contract_quality": 61.3,
       "governance": 4.5,
       "contract_governance": 4.5,
       "operational_transparency": 26.3,
@@ -2698,7 +2698,7 @@
       "access_clarity": 38.2
      },
      "scored_at": "2026-09-01",
-     "schema_version": "0.17.2",
+     "schema_version": "0.18.0",
      "agent_score": 38.1,
      "agent_band": "agent-ready",
      "agent_dims": {
@@ -2739,12 +2739,12 @@
      "slug": "incentivio",
      "description": "Incentivio is a Boston-based digital guest engagement platform for multi-unit restaurant brands, unifying online ordering, loyalty, marketing automation, and guest analytics into a single system. Its Incentivio Connect product is an AI-powered, API-first restaurant data platform that ingests data from POS, loyalty, mobile apps, web, and marketplaces, resolves it into a single persistent Guest ID, and scores guests for lifetime value, churn risk, visit frequency, journey stage, propensity-to-purchase, and offer sensitivity. The platform is BigQuery-native with a Star Schema data model, SOC 2 aligned with encryption at rest and in transit and RBAC, and pairs an API-first surface with reverse ETL to sync unified guest records back to existing CRM and ad platforms. Incentivio is built on modern APIs and offers deep partner integrations with POS, payments, delivery, and marketing systems such as Toast, Oracle Simphony, Square, SpotOn, and PAR Brink. Incentivio runs a Theneo-hosted developer portal at apidocs.incentivio.com that publishes no public projects, but two production Spring Boot services expose live, unauthenticated springdoc OpenAPI definitions on Incentivio's own hosts: the guest-facing Mobile & Ordering API (125 operations) and the operator-facing Admin API (421 operations), both fronted by an OAuth 2.0 authorization server advertised via RFC 8414 metadata. Narrative documentation, pricing, and self-service onboarding remain gated behind partnership and enterprise onboarding (the Connect Enterprise tier markets dedicated API SLAs).",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/incentivio/refs/heads/main/screenshots/incentivio-2026-06-20T183307.png",
-     "score": 38.2,
+     "score": 38.0,
      "band": "thin",
      "band_label": "Thin",
      "facets": {
       "discoverability": 50.0,
-      "contract_quality": 51.9,
+      "contract_quality": 51.2,
       "governance": 18.2,
       "contract_governance": 18.2,
       "operational_transparency": 0.0,
@@ -2753,7 +2753,7 @@
       "access_clarity": 39.5
      },
      "scored_at": "2026-09-01",
-     "schema_version": "0.17.2",
+     "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
       "regime": "Payments",
@@ -2791,12 +2791,12 @@
      "slug": "zoca",
      "description": "Zoca is an AI-powered marketing platform built for local beauty and wellness businesses — salons, spas, med spas and wellness clinics. It packages its automation as agents: a Discovery Agent that improves local ranking and Google Business Profile visibility, a Win Agent that converts inquiries into confirmed appointments over chat, SMS and voice, a Loyalty Agent that drives rebooking and retention, and a Social Agent that produces Instagram, TikTok and Facebook content. Zoca also runs free self-serve tools including a Local Business Demand Tracker, a Local Website Grader and a Google Business Profile Optimizer. Zoca is operated by ZOCAAI TECHNOLOGIES PRIVATE LIMITED, was founded in 2021, and is an Accel portfolio company. Zoca runs no developer program — no portal, no API reference, no SDK and no documented API — but it serves three real OpenAPI 3.0.0 documents publicly and unauthenticated at api.zoca.ai/swagger.json, tasks.zoca.ai/swagger.json and public.zoca.com/swagger.json, together describing 2,624 operations across 2,267 paths. Those are the application's own backend contracts rather than a product, and they ship with minified operationIds and untyped schemas.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/zoca/refs/heads/main/screenshots/zoca-2026-08-17T083114.png",
-     "score": 36.4,
+     "score": 36.3,
      "band": "thin",
      "band_label": "Thin",
      "facets": {
       "discoverability": 68.5,
-      "contract_quality": 20.1,
+      "contract_quality": 19.9,
       "governance": 4.5,
       "contract_governance": 4.5,
       "operational_transparency": 10.5,
@@ -2805,7 +2805,7 @@
       "access_clarity": 92.1
      },
      "scored_at": "2026-09-01",
-     "schema_version": "0.17.2",
+     "schema_version": "0.18.0",
      "agent_score": 37.6,
      "agent_band": "agent-ready",
      "agent_dims": {
@@ -2850,7 +2850,7 @@
       "access_clarity": 6.6
      },
      "scored_at": "2026-09-01",
-     "schema_version": "0.17.2",
+     "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
       "regime": "Government & Public Sector",
@@ -2911,7 +2911,7 @@
       "access_clarity": 35.5
      },
      "scored_at": "2026-09-01",
-     "schema_version": "0.17.2",
+     "schema_version": "0.18.0",
      "agent_score": 16.5,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -2956,7 +2956,7 @@
       "access_clarity": 35.5
      },
      "scored_at": "2026-09-01",
-     "schema_version": "0.17.2",
+     "schema_version": "0.18.0",
      "agent_score": 2.5,
      "agent_band": "human-only",
      "agent_dims": {
@@ -3001,7 +3001,7 @@
       "access_clarity": 0.0
      },
      "scored_at": "2026-09-01",
-     "schema_version": "0.17.2",
+     "schema_version": "0.18.0",
      "agent_score": 1.3,
      "agent_band": "human-only",
      "agent_dims": {
@@ -3045,7 +3045,7 @@
       "access_clarity": 10.5
      },
      "scored_at": "2026-09-01",
-     "schema_version": "0.17.2",
+     "schema_version": "0.18.0",
      "agent_score": 7.9,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -3090,7 +3090,7 @@
       "access_clarity": 0.0
      },
      "scored_at": "2026-09-01",
-     "schema_version": "0.17.2",
+     "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -3145,7 +3145,7 @@
       "access_clarity": 0.0
      },
      "scored_at": "2026-09-01",
-     "schema_version": "0.17.2",
+     "schema_version": "0.18.0",
      "agent_score": 5.0,
      "agent_band": "human-only",
      "agent_dims": {

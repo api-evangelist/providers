@@ -225,31 +225,33 @@ rate_limits:
   name: Usc Rate Limits
   slug: usc-rate-limits
 score:
-  band: thin
-  composite: 29.3
+  band: emerging
+  composite: 25.0
   coverage:
     artifact_dirs: 8
-    catalog_gap: 53.0
+    catalog_gap: 65.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: 0.0
+  delta: -4.3
   facets:
-    access_clarity: 39.5
-    commercial_clarity: 39.5
+    access_clarity: 23.7
+    commercial_clarity: 23.7
     contract_governance: 18.2
-    contract_quality: 10.7
+    contract_quality: 14.3
     developer_ergonomics: 23.8
     discoverability: 64.8
     governance: 18.2
-    operational_transparency: 23.7
+    operational_transparency: 7.9
   previous_composite: 29.3
+  provenance:
+    conformance: first-party
   regulatory:
     applies: true
     matched_via: tags
     regime: Education & Research
     regime_id: education
     score: 42.6
-  schema_version: 0.17.2
+  schema_version: 0.18.0
   scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/usc/refs/heads/main/screenshots/usc-2026-06-20T200656.png

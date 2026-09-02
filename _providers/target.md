@@ -12,7 +12,6 @@ access_model:
   try_now: false
 agent_readiness:
   band: agent-ready
-  band_gated_from: agent-native
   dimensions:
     agent_card: false
     agent_skills: false
@@ -26,7 +25,7 @@ agent_readiness:
     error_semantics: false
     event_surface_described: false
     idempotency: na
-    mcp_server: documented
+    mcp_server: false
     openapi_examples: false
     protected_resource_metadata: false
     rate_limit_signal: documented
@@ -34,7 +33,7 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 41.5
+  score: 37.5
   scored_at: '2026-09-01'
 agentic_access:
 - acting_count: 0
@@ -313,19 +312,19 @@ scopes:
   slug: target-scopes
   summary_line: OAuth 2.0 · no documented scopes
 score:
-  band: developing
-  composite: 42.0
+  band: thin
+  composite: 31.2
   coverage:
     artifact_dirs: 28
     catalog_gap: 50.5
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: 0.0
+  delta: -10.8
   facets:
     access_clarity: 34.2
     commercial_clarity: 34.2
     contract_governance: 47.0
-    contract_quality: 63.2
+    contract_quality: 19.9
     developer_ergonomics: 14.3
     discoverability: 81.5
     governance: 47.0
@@ -333,14 +332,16 @@ score:
   previous_composite: 42.0
   provenance:
     agentic_access: derived
+    conformance: first-party
     contracts:
       callable: 100.0
-      derived: 0
-      marker_coverage: 0.0
-      total: 6
-  schema_version: 0.17.2
+      derived: 7
+      marker_coverage: 100.0
+      total: 7
+    mcp: derived
+  schema_version: 0.18.0
   scored_at: '2026-09-01'
-  trend: flat
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/target/refs/heads/main/screenshots/target-2026-08-17T082249.png
 security:
 - kind: authentication

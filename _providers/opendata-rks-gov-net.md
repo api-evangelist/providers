@@ -87,7 +87,7 @@ score:
     regime: Government & Public Sector
     regime_id: government
     score: 11.1
-  schema_version: 0.17.2
+  schema_version: 0.18.0
   scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/opendata-rks-gov-net/refs/heads/main/screenshots/opendata-rks-gov-net-2026-08-07T190549.png

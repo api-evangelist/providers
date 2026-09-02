@@ -58,7 +58,6 @@ common:
   url: https://www.atimaterials.com/contact
 created: '2026-05-04'
 description: ATI Inc. is a specialty materials and components manufacturer that produces high-performance alloys, titanium products, nickel-based superalloys, and engineered components. The company primarily serves the aerospace, defense, energy, electronics, and medical industries. ATI focuses on direct B2B customer relationships and does not publish a public developer API portal.
-image: https://avatars.githubusercontent.com/u/api-evangelist
 layout: provider
 modified: '2026-05-04'
 name: ATI
@@ -68,24 +67,24 @@ overview: ATI is profiled on the [APIs.io](https://apis.io/) network. Tagged are
 random_paper: 3
 score:
   band: minimal
-  composite: 4.4
+  composite: 4.1
   coverage:
     artifact_dirs: 2
-    catalog_gap: 91.0
+    catalog_gap: 93.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: 0.0
+  delta: -0.3
   facets:
     access_clarity: 0.0
     commercial_clarity: 0.0
     contract_governance: 0.0
     contract_quality: 0.0
     developer_ergonomics: 0.0
-    discoverability: 44.4
+    discoverability: 40.7
     governance: 0.0
     operational_transparency: 0.0
   previous_composite: 4.4
-  schema_version: 0.17.2
+  schema_version: 0.18.0
   scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/ati/refs/heads/main/screenshots/ati-2026-06-20T172524.png

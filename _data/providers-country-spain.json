@@ -16,12 +16,12 @@
      "slug": "openmercantil",
      "description": "OpenMercantil is an independent public-data API for Spanish company intelligence. It indexes the Boletin Oficial del Registro Mercantil (BORME) and cross-references it with 80+ official public sources (BOE, CNMV, CNMC, AEAT, AEPD, PLACSP, TED EU, BDNS, OEPM, EPO, WIPO, CENDOJ, GLEIF, OpenSanctions, ICIJ and more) to expose company and person search, structured company reports, BORME registry event timelines, documentary officer mentions, CNAE sector navigation and ratios, daily BORME summaries, public-procurement notices and rankings, documentary risk signals, a corporate relationship graph, a Spanish mercantile-law corpus that bridges registry acts to the governing BOE norm, account-plane datasets and HMAC-signed outbound webhooks, and CSV/JSON bulk exports. The live OpenAPI 3.1 contract (v1.9.3) declares 118 paths and 139 operations. The public read plane is free and anonymous with no API key, rate-limited at 60 req/min and 200 req/day per IP, with paid Profesional, MAX and Enterprise tiers raising the quota. Derived data is CC BY 4.0 and every response carries its own source and attribution metadata. The project is informational and does not replace official Registro Mercantil certificates.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/openmercantil/refs/heads/main/screenshots/openmercantil-2026-06-20T191016.png",
-     "score": 86.4,
+     "score": 86.1,
      "band": "exemplar",
      "band_label": "Exemplar",
      "facets": {
       "discoverability": 81.5,
-      "contract_quality": 77.7,
+      "contract_quality": 76.6,
       "governance": 47.0,
       "contract_governance": 47.0,
       "operational_transparency": 94.7,
@@ -30,7 +30,7 @@
       "access_clarity": 100.0
      },
      "scored_at": "2026-09-01",
-     "schema_version": "0.17.2",
+     "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
       "regime": "Government & Public Sector",
@@ -86,12 +86,12 @@
      "slug": "factorial-hr",
      "description": "Factorial is an all-in-one HR, payroll, time, talent, finance, and IT management platform headquartered in Barcelona, Spain, used by 16,000+ companies worldwide. The Factorial public API is a date-versioned REST API (current major 2026-04-01 \"Legendre\") covering employees, contracts, attendance, time off, payroll, ATS, performance, trainings, projects, finance, banking, procurement, IT assets, documents, webhooks, and an Approvals workflow surface. Authentication uses OAuth2 (on behalf of a user) or an x-api-key header (on behalf of the company), with 30+ scopes for granular partner access. Factorial publishes the OpenAPI schema and generated SDKs (Ruby, Python, Java, PHP, TypeScript, Node.js) at github.com/factorialco/oas and exposes an llms.txt index for AI agents.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/factorial-hr/refs/heads/main/screenshots/factorial-hr-2026-06-20T181038.png",
-     "score": 52.9,
+     "score": 52.7,
      "band": "developing",
      "band_label": "Developing",
      "facets": {
       "discoverability": 59.3,
-      "contract_quality": 63.9,
+      "contract_quality": 63.1,
       "governance": 28.8,
       "contract_governance": 28.8,
       "operational_transparency": 30.3,
@@ -100,7 +100,7 @@
       "access_clarity": 64.5
      },
      "scored_at": "2026-09-01",
-     "schema_version": "0.17.2",
+     "schema_version": "0.18.0",
      "agent_score": 34.2,
      "agent_band": "agent-ready",
      "agent_dims": {
@@ -130,12 +130,12 @@
      "name": "Clevergy",
      "slug": "clevergy",
      "description": "Clevergy (The Clevergy Solution, SL) is a Madrid-based climate-tech SaaS company, founded in 2022, that sells white-label energy-management software to electricity and gas retailers, solar installers and energy advisors. Its platform ingests household consumption data — pulled directly from Spanish distributors and the Datadis smart-meter hub via the CUPS supply-point code, or from connected solar inverters and smart devices — and turns it into consumption analytics, invoice breakdowns, savings recommendations, appliance-level disaggregation, virtual battery and wallet balances, energy-community shares, and sales leads the retailer can act on. Integrators consume it two ways: the Connect API, a Swagger 2.0 REST API on connect.clever.gy with 83 operations spanning users, houses, contracts, invoices, tariffs, equipment, energy telemetry, tickets and sales opportunities; and a catalog of roughly thirty embeddable \"microfrontend\" web components that drop Clevergy's end-user experiences straight into the retailer's own app or webview, authenticated with a short-lived per-user JWT. Clevergy raised a €3.2M round in October 2025 co-led by Racine² (Serena and Makesense) and Axon Partners Group, with Satgana, Wayra and Angels participating.",
-     "score": 51.9,
+     "score": 51.6,
      "band": "developing",
      "band_label": "Developing",
      "facets": {
       "discoverability": 75.9,
-      "contract_quality": 63.8,
+      "contract_quality": 62.9,
       "governance": 4.5,
       "contract_governance": 4.5,
       "operational_transparency": 10.5,
@@ -144,7 +144,7 @@
       "access_clarity": 55.3
      },
      "scored_at": "2026-09-01",
-     "schema_version": "0.17.2",
+     "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
       "regime": "Energy & Utilities",
@@ -195,7 +195,7 @@
       "access_clarity": 59.2
      },
      "scored_at": "2026-09-01",
-     "schema_version": "0.17.2",
+     "schema_version": "0.18.0",
      "agent_score": 25.9,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -240,7 +240,7 @@
       "access_clarity": 56.6
      },
      "scored_at": "2026-09-01",
-     "schema_version": "0.17.2",
+     "schema_version": "0.18.0",
      "agent_score": 25.5,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -285,7 +285,7 @@
       "access_clarity": 46.1
      },
      "scored_at": "2026-09-01",
-     "schema_version": "0.17.2",
+     "schema_version": "0.18.0",
      "agent_score": 30.7,
      "agent_band": "agent-ready",
      "agent_dims": {
@@ -319,9 +319,61 @@
    "label": "Thin",
    "range": "26.2 – 39.2",
    "blurb": "Limited machine-readable signal beyond documentation a human can read.",
-   "count": 5,
-   "shown": 5,
+   "count": 8,
+   "shown": 8,
    "providers": [
+    {
+     "name": "Autonomous University of Barcelona",
+     "slug": "uab",
+     "description": "The Universitat Autònoma de Barcelona (UAB) is a public research university in Bellaterra, Catalonia, founded in 1968. Unusually for this cohort, its programmable footprint is real and is genuinely its own. UAB runs four OAI-PMH 2.0 endpoints on its own RIPE allocation — the Dipòsit Digital de Documents (ddd.uab.cat, 221,931 records, 18 sets, oai_dc / marcxml / edm / oai_openaire), the Traces database of Catalan language and literature, the IFMuC inventory of Catalan music collections, and per-journal endpoints on its self-hosted OJS platform at revistes.uab.cat — and an Invenio search interface that exports MARC21 XML, Dublin Core and BibTeX without a key. It self-publishes a complete SAML 2.0 IdP EntityDescriptor from its own Apereo CAS server at sso.uab.cat, which is the one institution-published machine-readable contract here, and it reaches eduGAIN through the Spanish federation SIR, whose UAB entity is operated on RedIRIS's gateway rather than UAB's. UAB is a Crossref member in its own name (member 3612, prefix 10.5565, 23,089 DOIs) and holds ROR 052g8jq94. What it does not have is a developer programme: no OpenAPI is published for anything, api.uab.cat, data.uab.cat and opendata.uab.cat do not resolve, there is no API-key or OAuth path, no institutional GitHub organisation was found, and www.uab.cat has no llms.txt. Research data is a tenant relationship, not a UAB contract: the 567 datasets in UAB's named collection live on the CSUC-operated CORA Repositori de Dades de Recerca and carry CSUC's DataCite prefix.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/uab/refs/heads/main/screenshots/uab-2026-06-20T195920.png",
+     "score": 32.4,
+     "band": "thin",
+     "band_label": "Thin",
+     "facets": {
+      "discoverability": 68.5,
+      "contract_quality": 22.8,
+      "governance": 0.0,
+      "contract_governance": 0.0,
+      "operational_transparency": 21.1,
+      "developer_ergonomics": 21.4,
+      "commercial_clarity": 50.0,
+      "access_clarity": 50.0
+     },
+     "scored_at": "2026-09-01",
+     "schema_version": "0.18.0",
+     "regulatory": {
+      "applies": true,
+      "regime": "Education & Research",
+      "regime_id": "education",
+      "score": 46.3,
+      "matched_via": "tags"
+     },
+     "agent_score": 23.0,
+     "agent_band": "agent-aware",
+     "agent_dims": {
+      "spec_presence": true,
+      "agentic_access": false,
+      "reversibility_documented": false,
+      "mcp_server": false,
+      "auth_clarity": "bearer",
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": "verified",
+      "rate_limit_signal": "documented",
+      "event_surface_described": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
+     "rank": 7
+    },
     {
      "name": "Factorial",
      "slug": "factorial",
@@ -358,28 +410,28 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 7
+     "rank": 8
     },
     {
      "name": "Complutense University of Madrid",
      "slug": "complutense-university-of-madrid",
      "description": "Universidad Complutense de Madrid (UCM) is Spain's largest public research university, founded 1499 and ranked #164 in the QS World University Rankings 2025. UCM operates no central developer portal and publishes no OpenAPI, AsyncAPI or SDK of its own — a re-profile on 2026-08-30 probed every candidate host and found none. What it does operate, verified live, is two things. First, Docta Complutense (docta.ucm.es), its institutional repository, self-hosted on UCM's own domain running DSpace 7.6.5: the DSpace REST/HAL API answers at /rest/api and an OAI-PMH 2.0 endpoint answers verb=Identify at /rest/oai/request with twelve metadata formats. The repository is UCM's; the API contract is DSpace's open-source one and is not saved here. Second, UCM is registered in eduGAIN through the Spanish RedIRIS SIR federation as a SAML 2.0 Identity Provider (entityID https://www.rediris.es/sir/ucmidp, scope ucm.es, Sirtfi asserted) — machine-readable, institution-scoped, but hosted on RedIRIS infrastructure, so recorded as a tenant relationship. UCM's open data is not self-hosted either: it is published through UniversiDATA, a five-university DKAN consortium portal (UAM, UCM, UHU, UVa, URJC) that exposes DataStore, CKAN and DCAT APIs. Thirteen of the portal's seventy-one datasets are UCM's — degree programmes, faculties, departments, budgets, mobility and procurement. UCM's data, the consortium's platform, so every UniversiDATA surface below is x-operator tenant, not institution. No course/timetable API, no library discovery API, no research-computing or campus-life API was found on any ucm.es host.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/complutense-university-of-madrid/refs/heads/main/screenshots/complutense-university-of-madrid-2026-06-20T174834.png",
-     "score": 30.4,
+     "score": 29.6,
      "band": "thin",
      "band_label": "Thin",
      "facets": {
       "discoverability": 74.1,
-      "contract_quality": 10.7,
-      "governance": 18.2,
-      "contract_governance": 18.2,
+      "contract_quality": 14.3,
+      "governance": 4.5,
+      "contract_governance": 4.5,
       "operational_transparency": 26.3,
       "developer_ergonomics": 22.6,
       "commercial_clarity": 39.5,
       "access_clarity": 39.5
      },
      "scored_at": "2026-09-01",
-     "schema_version": "0.17.2",
+     "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
       "regime": "Education & Research",
@@ -410,7 +462,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 8
+     "rank": 9
     },
     {
      "name": "Holded",
@@ -431,7 +483,7 @@
       "access_clarity": 23.7
      },
      "scored_at": "2026-09-01",
-     "schema_version": "0.17.2",
+     "schema_version": "0.18.0",
      "agent_score": 17.3,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -455,7 +507,59 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 9
+     "rank": 10
+    },
+    {
+     "name": "University of Navarra",
+     "slug": "university-of-navarra",
+     "description": "The University of Navarra (Universidad de Navarra) is a private research university founded in 1952, headquartered in Pamplona, Spain, with campuses in San Sebastian, Madrid and Barcelona. Its programmable footprint is small, and most of it is bought rather than built: the library discovery layer is an Ex Libris Primo VE tenancy, the DADUN institutional repository runs on a hosted DSpace whose host CNAMEs to a third-party platform, the research portal is a Dialnet CRIS tenancy operated by Fundacion Dialnet, and the library guides are Springshare LibGuides. Three surfaces are genuinely the institution's own. The Servicio de Publicaciones operates a self-hosted Open Journal Systems instance at revistas.unav.edu with a live, unauthenticated OAI-PMH 2.0 harvesting interface across 100 sets — the only institution-operated machine-readable API confirmed here. The university runs its own SAML Identity Provider, published through the RedIRIS SIR2 federation and interfederated into eduGAIN since 2018 with REFEDS Sirtfi declared. And it is a Crossref member with its own DOI prefix, 10.15581, covering more than 33,000 registered DOIs. There is no central developer portal, no open-data platform, no documented registrar, timetable or campus API, and no verifiable institutional GitHub organization.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/university-of-navarra/refs/heads/main/screenshots/university-of-navarra-2026-06-20T200213.png",
+     "score": 29.5,
+     "band": "thin",
+     "band_label": "Thin",
+     "facets": {
+      "discoverability": 59.3,
+      "contract_quality": 22.5,
+      "governance": 0.0,
+      "contract_governance": 0.0,
+      "operational_transparency": 21.1,
+      "developer_ergonomics": 11.9,
+      "commercial_clarity": 50.0,
+      "access_clarity": 50.0
+     },
+     "scored_at": "2026-09-01",
+     "schema_version": "0.18.0",
+     "regulatory": {
+      "applies": true,
+      "regime": "Education & Research",
+      "regime_id": "education",
+      "score": 46.3,
+      "matched_via": "tags"
+     },
+     "agent_score": 23.0,
+     "agent_band": "agent-aware",
+     "agent_dims": {
+      "spec_presence": true,
+      "agentic_access": false,
+      "reversibility_documented": false,
+      "mcp_server": false,
+      "auth_clarity": "bearer",
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": "verified",
+      "rate_limit_signal": "documented",
+      "event_surface_described": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
+     "rank": 11
     },
     {
      "name": "Koalaboox",
@@ -476,7 +580,7 @@
       "access_clarity": 55.3
      },
      "scored_at": "2026-09-01",
-     "schema_version": "0.17.2",
+     "schema_version": "0.18.0",
      "agent_score": 5.4,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -500,7 +604,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 10
+     "rank": 12
     },
     {
      "name": "BBVA",
@@ -521,7 +625,7 @@
       "access_clarity": 26.3
      },
      "scored_at": "2026-09-01",
-     "schema_version": "0.17.2",
+     "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
       "regime": "Banking & Open Finance",
@@ -552,7 +656,59 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 11
+     "rank": 13
+    },
+    {
+     "name": "Universitat Pompeu Fabra",
+     "slug": "universitat-pompeu-fabra",
+     "description": "Universitat Pompeu Fabra (UPF) is a public research university in Barcelona, Catalonia, Spain, founded in 1990 and ranked #266 in the QS World University Rankings 2025. UPF operates no developer portal and publishes no OpenAPI, AsyncAPI or SDK of its own; a re-profile on 2026-09-01 probed every candidate host and found none. What it does operate, verified live, is the UPF Digital Repository (e-Repositori) at repositori.upf.edu — self-hosted on UPF's own domain running DSpace 7.6.8, whose REST/HAL API answers at /server/api with 67 link relations over 78 communities, 1,022 collections and 43,503 discoverable objects, and whose OAI-PMH 2.0 endpoint answers verb=Identify at repositori-api.upf.edu with 13 metadata formats and 100 sets. The repository, the host and the content are UPF's; the API contract is the DSpace project's generic open-source one and is deliberately not saved here. The same host runs a real Shibboleth SP — the REST API returns WWW-Authenticate: shibboleth with a Shibboleth.sso/Login location — and UPF's own SAML 2.0 Identity Provider is registered in eduGAIN through RedIRIS SIR, the Spanish national research and education federation, as entityID https://www.rediris.es/sir/upfidp with shibmd:Scope upf.edu, Sirtfi asserted and the REFEDS Research and Scholarship entity category. UPF is a Crossref member (member 14960, DOI prefix 10.31009, 1,593 DOIs) and holds ROR 04n0g0b29; it has no DataCite client of its own. The \"UPF en Xifres 2.0\" linked open data portal that the June 2026 profile was built around — a CKAN action API and a Virtuoso SPARQL endpoint at data.upf.edu — no longer exists: data.upf.edu returns an authoritative NXDOMAIN from UPF's own nameservers, and both entries have been removed. Most other UPF software is published by research groups, above all the Music Technology Group on GitHub, rather than as institutional APIs.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/universitat-pompeu-fabra/refs/heads/main/screenshots/universitat-pompeu-fabra-2026-06-20T200116.png",
+     "score": 26.9,
+     "band": "thin",
+     "band_label": "Thin",
+     "facets": {
+      "discoverability": 74.1,
+      "contract_quality": 14.3,
+      "governance": 4.5,
+      "contract_governance": 4.5,
+      "operational_transparency": 26.3,
+      "developer_ergonomics": 16.7,
+      "commercial_clarity": 28.9,
+      "access_clarity": 28.9
+     },
+     "scored_at": "2026-09-01",
+     "schema_version": "0.18.0",
+     "regulatory": {
+      "applies": true,
+      "regime": "Education & Research",
+      "regime_id": "education",
+      "score": 46.3,
+      "matched_via": "tags"
+     },
+     "agent_score": 5.0,
+     "agent_band": "human-only",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": false,
+      "reversibility_documented": false,
+      "mcp_server": false,
+      "auth_clarity": "bearer",
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": "documented",
+      "event_surface_described": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
+     "rank": 14
     }
    ]
   },
@@ -561,9 +717,61 @@
    "label": "Emerging",
    "range": "11 – 26.1",
    "blurb": "More than an index entry but still mostly links rather than artifacts.",
-   "count": 17,
-   "shown": 17,
+   "count": 14,
+   "shown": 14,
    "providers": [
+    {
+     "name": "Autonomous University of Madrid",
+     "slug": "uam",
+     "description": "The Autonomous University of Madrid (Universidad Autónoma de Madrid, UAM) is a public research university in Madrid, Spain, founded in 1968 and ranked #198 in the QS World University Rankings 2025. UAM publishes no developer portal, no API terms and no OpenAPI description of anything, and it issues no API keys — but unlike most institutions in this cohort its machine-readable surfaces are genuinely its own rather than a vendor's contract running under its name. Every host carrying a surface below resolves inside RIPE inetnum 150.244.0.0 – 150.244.255.255, netname UAM, org ORG-UADM1-RIPE, with no CNAME to a vendor platform: UAM licenses DSpace, Open Journal Systems and Moodle and runs them on its own address space. What is anonymously consumable today is the Biblos-e Archivo repository (a DSpace 7.6.5 HAL REST API, an OAI-PMH 2.0 endpoint and an OpenSearch descriptor) and a second OAI-PMH 2.0 endpoint over the university's Open Journal Systems journals portal at revistas.uam.es. Beyond that, UAM operates a Shibboleth service provider on its own repository host, is registered as an identity provider in SIR/eduGAIN through RedIRIS, runs two Moodle instances that publish live LTI 1.3 signing keys, and is a Crossref member minting DOIs under prefix 10.15366. No vendor product specification is stored in this repository: a generic DSpace, OJS or Moodle contract describes the vendor's engineering, not UAM's.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/uam/refs/heads/main/screenshots/uam-2026-06-20T195920.png",
+     "score": 25.9,
+     "band": "emerging",
+     "band_label": "Emerging",
+     "facets": {
+      "discoverability": 74.1,
+      "contract_quality": 20.5,
+      "governance": 0.0,
+      "contract_governance": 0.0,
+      "operational_transparency": 21.1,
+      "developer_ergonomics": 21.4,
+      "commercial_clarity": 28.9,
+      "access_clarity": 28.9
+     },
+     "scored_at": "2026-09-01",
+     "schema_version": "0.18.0",
+     "regulatory": {
+      "applies": true,
+      "regime": "Education & Research",
+      "regime_id": "education",
+      "score": 31.5,
+      "matched_via": "tags"
+     },
+     "agent_score": 6.3,
+     "agent_band": "agent-aware",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": false,
+      "reversibility_documented": false,
+      "mcp_server": false,
+      "auth_clarity": "bearer",
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": "documented",
+      "rate_limit_signal": "documented",
+      "event_surface_described": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
+     "rank": 15
+    },
     {
      "name": "Lingokids",
      "slug": "lingokids",
@@ -583,7 +791,7 @@
       "access_clarity": 52.6
      },
      "scored_at": "2026-09-01",
-     "schema_version": "0.17.2",
+     "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
       "regime": "Education & Research",
@@ -614,7 +822,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 12
+     "rank": 16
     },
     {
      "name": "Novicap",
@@ -635,7 +843,7 @@
       "access_clarity": 17.1
      },
      "scored_at": "2026-09-01",
-     "schema_version": "0.17.2",
+     "schema_version": "0.18.0",
      "agent_score": 19.2,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -659,19 +867,18 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 13
+     "rank": 17
     },
     {
-     "name": "Autonomous University of Madrid",
-     "slug": "uam",
-     "description": "The Autonomous University of Madrid (Universidad Autónoma de Madrid, UAM) is a public research university in Madrid, Spain, founded in 1968 and ranked #198 in the QS World University Rankings 2025. Its primary public, machine-readable API footprint is delivered through Biblos-e Archivo, the UAM institutional repository running DSpace 7.6.5, which exposes a HAL-based REST API and an OAI-PMH 2.0 metadata-harvesting endpoint. UAM does not publish a centralized developer portal; authentication is handled through the gated ID-UAM federated identity service, and most institutional systems (secretaria virtual, mobile app backend) are not openly documented.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/uam/refs/heads/main/screenshots/uam-2026-06-20T195920.png",
-     "score": 22.9,
+     "name": "University of Barcelona",
+     "slug": "university-of-barcelona",
+     "description": "The University of Barcelona (Universitat de Barcelona, UB) is a public research university founded in 1450 in Barcelona, Catalonia, Spain, ranked #165 in the QS World University Rankings 2025. UB operates no central developer portal, no public API program and no confirmed organization-wide GitHub account, and its main web estate at www.ub.edu sits behind a Cloudflare bot challenge that returns HTTP 403 to any automated client. What it does operate is a genuine, machine-readable institutional footprint that is easy to miss because none of it is marketed as an API: a SAML 2.0 identity provider published through RedIRIS SIR into eduGAIN with the ub.edu attribute scope; an LTI 1.3 Advantage tool platform on its self-hosted Moodle at campusvirtual.ub.edu, with a live JWKS and token endpoint; an OAI-PMH 2.0 data provider over 100 journal sets at revistes.ub.edu; a DSpace 7.6.6 repository at diposit.ub.edu that was live in June 2026 and returned 503 across every probe on 2026-09-01; and a Crossref membership for the university press. Its research-data repository and library discovery layer are tenancies on consortium and vendor platforms operated by CSUC and Ex Libris, not UB engineering, and are recorded here as relationships rather than as UB contracts.",
+     "score": 24.4,
      "band": "emerging",
      "band_label": "Emerging",
      "facets": {
-      "discoverability": 68.5,
-      "contract_quality": 10.7,
+      "discoverability": 64.8,
+      "contract_quality": 18.0,
       "governance": 0.0,
       "contract_governance": 0.0,
       "operational_transparency": 21.1,
@@ -680,7 +887,7 @@
       "access_clarity": 28.9
      },
      "scored_at": "2026-09-01",
-     "schema_version": "0.17.2",
+     "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
       "regime": "Education & Research",
@@ -711,7 +918,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 14
+     "rank": 18
     },
     {
      "name": "Casavo",
@@ -731,7 +938,7 @@
       "access_clarity": 34.2
      },
      "scored_at": "2026-09-01",
-     "schema_version": "0.17.2",
+     "schema_version": "0.18.0",
      "agent_score": 5.4,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -755,110 +962,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 15
-    },
-    {
-     "name": "University of Barcelona",
-     "slug": "university-of-barcelona",
-     "description": "The University of Barcelona (Universitat de Barcelona, UB) is a public research university founded in 1450 and based in Barcelona, Catalonia, Spain. It is ranked #165 in the QS World University Rankings 2025. Its publicly documented developer/API footprint is limited and primarily centered on library and scholarly infrastructure: the Dipòsit Digital de la Universitat de Barcelona runs DSpace 7.6.6, exposing a public REST API and an OAI-PMH metadata-harvesting endpoint. The university also operates centralized single sign-on (SSO) supporting SAML 2.0 / CAS, and publishes institutional open data through its transparency portal. No central, branded public developer portal or official organization-wide GitHub account was confirmed.",
-     "score": 22.5,
-     "band": "emerging",
-     "band_label": "Emerging",
-     "facets": {
-      "discoverability": 64.8,
-      "contract_quality": 10.7,
-      "governance": 0.0,
-      "contract_governance": 0.0,
-      "operational_transparency": 21.1,
-      "developer_ergonomics": 21.4,
-      "commercial_clarity": 28.9,
-      "access_clarity": 28.9
-     },
-     "scored_at": "2026-09-01",
-     "schema_version": "0.17.2",
-     "regulatory": {
-      "applies": true,
-      "regime": "Education & Research",
-      "regime_id": "education",
-      "score": 31.5,
-      "matched_via": "tags"
-     },
-     "agent_score": 5.0,
-     "agent_band": "human-only",
-     "agent_dims": {
-      "spec_presence": false,
-      "agentic_access": false,
-      "reversibility_documented": false,
-      "mcp_server": false,
-      "auth_clarity": "bearer",
-      "idempotency": false,
-      "error_semantics": false,
-      "openapi_examples": false,
-      "rate_limit_signal": "documented",
-      "event_surface_described": false,
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false,
-      "delegated_identity": false,
-      "protected_resource_metadata": false,
-      "dynamic_client_registration": false,
-      "agentic_commerce": false
-     },
-     "rank": 16
-    },
-    {
-     "name": "Universitat Pompeu Fabra",
-     "slug": "universitat-pompeu-fabra",
-     "description": "Universitat Pompeu Fabra (UPF) is a public research university in Barcelona, Spain, ranked #266 in the QS World University Rankings 2025. Its public developer footprint centers on the \"UPF en Xifres 2.0\" linked open data portal (data.upf.edu), which exposes institutional datasets via a CKAN action API and a Virtuoso SPARQL endpoint, and on the UPF Digital Repository (e-Repositori), built on DSpace 7.6 with a public REST API and an OAI-PMH harvesting endpoint. Identity is handled through an adAS / Shibboleth SAML single sign-on service. Most other software is published by research groups (e.g. the Music Technology Group) on GitHub rather than as institutional APIs.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/universitat-pompeu-fabra/refs/heads/main/screenshots/universitat-pompeu-fabra-2026-06-20T200116.png",
-     "score": 21.8,
-     "band": "emerging",
-     "band_label": "Emerging",
-     "facets": {
-      "discoverability": 64.8,
-      "contract_quality": 10.7,
-      "governance": 0.0,
-      "contract_governance": 0.0,
-      "operational_transparency": 26.3,
-      "developer_ergonomics": 14.3,
-      "commercial_clarity": 28.9,
-      "access_clarity": 28.9
-     },
-     "scored_at": "2026-09-01",
-     "schema_version": "0.17.2",
-     "regulatory": {
-      "applies": true,
-      "regime": "Education & Research",
-      "regime_id": "education",
-      "score": 31.5,
-      "matched_via": "tags"
-     },
-     "agent_score": 5.0,
-     "agent_band": "human-only",
-     "agent_dims": {
-      "spec_presence": false,
-      "agentic_access": false,
-      "reversibility_documented": false,
-      "mcp_server": false,
-      "auth_clarity": "bearer",
-      "idempotency": false,
-      "error_semantics": false,
-      "openapi_examples": false,
-      "rate_limit_signal": "documented",
-      "event_surface_described": false,
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false,
-      "delegated_identity": false,
-      "protected_resource_metadata": false,
-      "dynamic_client_registration": false,
-      "agentic_commerce": false
-     },
-     "rank": 17
+     "rank": 19
     },
     {
      "name": "IDOVEN",
@@ -879,7 +983,7 @@
       "access_clarity": 28.9
      },
      "scored_at": "2026-09-01",
-     "schema_version": "0.17.2",
+     "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
       "regime": "Health",
@@ -899,110 +1003,6 @@
       "error_semantics": false,
       "openapi_examples": false,
       "rate_limit_signal": false,
-      "event_surface_described": false,
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false,
-      "delegated_identity": false,
-      "protected_resource_metadata": false,
-      "dynamic_client_registration": false,
-      "agentic_commerce": false
-     },
-     "rank": 18
-    },
-    {
-     "name": "Autonomous University of Barcelona",
-     "slug": "uab",
-     "description": "The Autonomous University of Barcelona (Universitat Autònoma de Barcelona, UAB) is a public research university in Bellaterra, near Barcelona, Spain, founded in 1968 and ranked #175 in the QS World University Rankings 2025. UAB's public, machine-accessible footprint centers on its open scholarly infrastructure rather than a formal developer portal: the Dipòsit Digital de Documents (DDD), the institutional repository built on the Invenio platform, exposes an OAI-PMH 2.0 metadata endpoint and is OpenAIRE-compliant. Research data is published through the Catalan consortium (CSUC) federated research data repository. No dedicated, publicly documented UAB developer/API program or official institutional GitHub organization was confirmed; student-facing academic services (SIA) are gated login portals without public API documentation.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/uab/refs/heads/main/screenshots/uab-2026-06-20T195920.png",
-     "score": 17.9,
-     "band": "emerging",
-     "band_label": "Emerging",
-     "facets": {
-      "discoverability": 59.3,
-      "contract_quality": 10.7,
-      "governance": 0.0,
-      "contract_governance": 0.0,
-      "operational_transparency": 21.1,
-      "developer_ergonomics": 9.5,
-      "commercial_clarity": 28.9,
-      "access_clarity": 28.9
-     },
-     "scored_at": "2026-09-01",
-     "schema_version": "0.17.2",
-     "regulatory": {
-      "applies": true,
-      "regime": "Education & Research",
-      "regime_id": "education",
-      "score": 20.4,
-      "matched_via": "tags"
-     },
-     "agent_score": 2.5,
-     "agent_band": "human-only",
-     "agent_dims": {
-      "spec_presence": false,
-      "agentic_access": false,
-      "reversibility_documented": false,
-      "mcp_server": false,
-      "auth_clarity": false,
-      "idempotency": false,
-      "error_semantics": false,
-      "openapi_examples": false,
-      "rate_limit_signal": "documented",
-      "event_surface_described": false,
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false,
-      "delegated_identity": false,
-      "protected_resource_metadata": false,
-      "dynamic_client_registration": false,
-      "agentic_commerce": false
-     },
-     "rank": 19
-    },
-    {
-     "name": "University of Navarra",
-     "slug": "university-of-navarra",
-     "description": "The University of Navarra (Universidad de Navarra) is a private research university founded in 1952, headquartered in Pamplona, Spain, with additional campuses in San Sebastian and Madrid. It is ranked #249 in the QS World University Rankings 2025. Its public, machine-consumable developer footprint is limited: the principal documented interface is DADUN (Deposito Academico Digital de la Universidad de Navarra), the institutional open-access repository running on DSpace, which exposes metadata harvesting through the OAI-PMH protocol. No general-purpose public developer portal, open-data API platform, or official GitHub organization could be independently confirmed for the institution at the time of review.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/university-of-navarra/refs/heads/main/screenshots/university-of-navarra-2026-06-20T200213.png",
-     "score": 17.0,
-     "band": "emerging",
-     "band_label": "Emerging",
-     "facets": {
-      "discoverability": 68.5,
-      "contract_quality": 10.7,
-      "governance": 0.0,
-      "contract_governance": 0.0,
-      "operational_transparency": 21.1,
-      "developer_ergonomics": 0.0,
-      "commercial_clarity": 28.9,
-      "access_clarity": 28.9
-     },
-     "scored_at": "2026-09-01",
-     "schema_version": "0.17.2",
-     "regulatory": {
-      "applies": true,
-      "regime": "Education & Research",
-      "regime_id": "education",
-      "score": 20.4,
-      "matched_via": "tags"
-     },
-     "agent_score": 2.5,
-     "agent_band": "human-only",
-     "agent_dims": {
-      "spec_presence": false,
-      "agentic_access": false,
-      "reversibility_documented": false,
-      "mcp_server": false,
-      "auth_clarity": false,
-      "idempotency": false,
-      "error_semantics": false,
-      "openapi_examples": false,
-      "rate_limit_signal": "documented",
       "event_surface_described": false,
       "agent_skills": false,
       "well_known_catalog": false,
@@ -1035,7 +1035,7 @@
       "access_clarity": 28.9
      },
      "scored_at": "2026-09-01",
-     "schema_version": "0.17.2",
+     "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
       "regime": "Government & Public Sector",
@@ -1087,7 +1087,7 @@
       "access_clarity": 28.9
      },
      "scored_at": "2026-09-01",
-     "schema_version": "0.17.2",
+     "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
       "regime": "Government & Public Sector",
@@ -1139,7 +1139,7 @@
       "access_clarity": 28.9
      },
      "scored_at": "2026-09-01",
-     "schema_version": "0.17.2",
+     "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
       "regime": "Government & Public Sector",
@@ -1191,7 +1191,7 @@
       "access_clarity": 28.9
      },
      "scored_at": "2026-09-01",
-     "schema_version": "0.17.2",
+     "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
       "regime": "Government & Public Sector",
@@ -1243,7 +1243,7 @@
       "access_clarity": 28.9
      },
      "scored_at": "2026-09-01",
-     "schema_version": "0.17.2",
+     "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
       "regime": "Government & Public Sector",
@@ -1295,7 +1295,7 @@
       "access_clarity": 28.9
      },
      "scored_at": "2026-09-01",
-     "schema_version": "0.17.2",
+     "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
       "regime": "Government & Public Sector",
@@ -1347,7 +1347,7 @@
       "access_clarity": 34.2
      },
      "scored_at": "2026-09-01",
-     "schema_version": "0.17.2",
+     "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -1391,7 +1391,7 @@
       "access_clarity": 31.6
      },
      "scored_at": "2026-09-01",
-     "schema_version": "0.17.2",
+     "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
       "regime": "Health",
@@ -1453,7 +1453,7 @@
       "access_clarity": 21.1
      },
      "scored_at": "2026-09-01",
-     "schema_version": "0.17.2",
+     "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -1498,7 +1498,7 @@
       "access_clarity": 17.1
      },
      "scored_at": "2026-09-01",
-     "schema_version": "0.17.2",
+     "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -1543,7 +1543,7 @@
       "access_clarity": 21.1
      },
      "scored_at": "2026-09-01",
-     "schema_version": "0.17.2",
+     "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
       "regime": "Banking & Open Finance",
@@ -1595,7 +1595,7 @@
       "access_clarity": 7.9
      },
      "scored_at": "2026-09-01",
-     "schema_version": "0.17.2",
+     "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
       "regime": "Education & Research",
@@ -1647,7 +1647,7 @@
       "access_clarity": 0.0
      },
      "scored_at": "2026-09-01",
-     "schema_version": "0.17.2",
+     "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -1691,7 +1691,7 @@
       "access_clarity": 0.0
      },
      "scored_at": "2026-09-01",
-     "schema_version": "0.17.2",
+     "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -1736,7 +1736,7 @@
       "access_clarity": 0.0
      },
      "scored_at": "2026-09-01",
-     "schema_version": "0.17.2",
+     "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
       "regime": "Telecommunications",
@@ -1788,7 +1788,7 @@
       "access_clarity": 0.0
      },
      "scored_at": "2026-09-01",
-     "schema_version": "0.17.2",
+     "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
       "regime": "Payments",

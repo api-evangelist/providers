@@ -568,7 +568,7 @@ score:
     access_clarity: 21.1
     commercial_clarity: 21.1
     contract_governance: 4.5
-    contract_quality: 47.3
+    contract_quality: 47.4
     developer_ergonomics: 73.2
     discoverability: 51.9
     governance: 4.5
@@ -578,10 +578,10 @@ score:
     agentic_access: derived
     conformance: derived
     contracts:
-      callable: 12.5
+      callable: 12.9
       derived: 0
       marker_coverage: 0.0
-      total: 64
+      total: 62
     mcp: derived
     skills: derived
   regulatory:
@@ -590,7 +590,7 @@ score:
     regime: Insurance
     regime_id: insurance
     score: 37.9
-  schema_version: 0.17.2
+  schema_version: 0.18.0
   scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/outdoorsy/refs/heads/main/screenshots/outdoorsy-2026-08-17T124435.png

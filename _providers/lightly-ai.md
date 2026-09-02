@@ -193,7 +193,7 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 7
-  schema_version: 0.17.2
+  schema_version: 0.18.0
   scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/lightly-ai/refs/heads/main/screenshots/lightly-ai-2026-07-25T225121.png

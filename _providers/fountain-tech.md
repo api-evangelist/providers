@@ -148,7 +148,7 @@ score:
     governance: 0.0
     operational_transparency: 19.7
   previous_composite: 19.4
-  schema_version: 0.17.2
+  schema_version: 0.18.0
   scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/fountain-tech/refs/heads/main/screenshots/fountain-tech-2026-06-20T181458.png

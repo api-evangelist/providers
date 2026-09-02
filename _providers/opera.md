@@ -256,7 +256,7 @@ score:
     access_clarity: 44.7
     commercial_clarity: 44.7
     contract_governance: 18.2
-    contract_quality: 14.7
+    contract_quality: 14.6
     developer_ergonomics: 73.2
     discoverability: 81.5
     governance: 18.2
@@ -265,13 +265,13 @@ score:
   provenance:
     conformance: first-party
     contracts:
-      callable: 83.3
-      derived: 6
+      callable: 71.4
+      derived: 7
       marker_coverage: 100.0
-      total: 6
+      total: 7
     mcp: derived
     skills: derived
-  schema_version: 0.17.2
+  schema_version: 0.18.0
   scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/opera/refs/heads/main/screenshots/opera-2026-08-17T083429.png

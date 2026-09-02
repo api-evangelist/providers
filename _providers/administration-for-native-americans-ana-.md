@@ -169,13 +169,15 @@ score:
     governance: 18.2
     operational_transparency: 0.0
   previous_composite: 15.0
+  provenance:
+    conformance: first-party
   regulatory:
     applies: true
     matched_via: tags
     regime: Government & Public Sector
     regime_id: government
     score: 20.4
-  schema_version: 0.17.2
+  schema_version: 0.18.0
   scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/administration-for-native-americans-ana-/refs/heads/main/screenshots/administration-for-native-americans-ana--2026-06-20T164731.png

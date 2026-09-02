@@ -14,7 +14,7 @@ agent_readiness:
   band: agent-ready
   dimensions:
     agent_card: false
-    agent_skills: true
+    agent_skills: derived
     agentic_access: derived
     agentic_commerce: false
     auth_clarity: bearer
@@ -33,7 +33,7 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 37.6
+  score: 34.9
   scored_at: '2026-09-01'
 agentic_access:
 - acting_count: 238
@@ -564,31 +564,34 @@ scopes:
   summary_line: OAuth 2.0 · no documented scopes
 score:
   band: developing
-  composite: 49.2
+  composite: 49.6
   coverage:
     artifact_dirs: 25
-    catalog_gap: 72.0
+    catalog_gap: 63.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: 0.0
+  delta: 0.4
   facets:
     access_clarity: 57.9
     commercial_clarity: 57.9
-    contract_governance: 18.2
+    contract_governance: 4.5
     contract_quality: 57.6
-    developer_ergonomics: 46.4
+    developer_ergonomics: 41.1
     discoverability: 83.3
-    governance: 18.2
-    operational_transparency: 26.3
+    governance: 4.5
+    operational_transparency: 50.0
   previous_composite: 49.2
   provenance:
     agentic_access: derived
+    conformance: derived
     contracts:
       callable: 100.0
       derived: 0
       marker_coverage: 0.0
-      total: 4
-  schema_version: 0.17.2
+      total: 90
+    mcp: first-party
+    skills: derived
+  schema_version: 0.18.0
   scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/everbridge/refs/heads/main/screenshots/everbridge-2026-06-20T180905.png

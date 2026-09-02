@@ -279,18 +279,18 @@ rules:
   slug: singlestore-rules
 score:
   band: developing
-  composite: 44.3
+  composite: 45.0
   coverage:
     artifact_dirs: 18
     catalog_gap: 60.8
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: 0.0
+  delta: 0.7
   facets:
     access_clarity: 50.0
     commercial_clarity: 50.0
     contract_governance: 9.8
-    contract_quality: 61.1
+    contract_quality: 63.8
     developer_ergonomics: 42.9
     discoverability: 75.9
     governance: 9.8
@@ -299,11 +299,11 @@ score:
   provenance:
     agentic_access: derived
     contracts:
-      callable: 0.0
+      callable: 77.8
       derived: 0
       marker_coverage: 0.0
       total: 9
-  schema_version: 0.17.2
+  schema_version: 0.18.0
   scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/singlestore/refs/heads/main/screenshots/singlestore-2026-06-20T193949.png

@@ -14,7 +14,7 @@ agent_readiness:
   band_gated_from: agent-native
   dimensions:
     agent_card: false
-    agent_skills: true
+    agent_skills: derived
     agentic_access: false
     agentic_commerce: false
     auth_clarity: served
@@ -33,7 +33,7 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: true
   schema_version: 0.2
-  score: 49.9
+  score: 47.2
   scored_at: '2026-09-01'
 api_count: 5
 apis:
@@ -309,27 +309,36 @@ scopes:
   summary_line: 58 scopes · clientCredentials/authorizationCode
 score:
   band: developing
-  composite: 49.9
+  composite: 51.4
   coverage:
     artifact_dirs: 26
-    catalog_gap: 70.0
+    catalog_gap: 64.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: 0.0
+  delta: 1.5
   facets:
     access_clarity: 7.9
     commercial_clarity: 7.9
     contract_governance: 18.2
-    contract_quality: 54.6
-    developer_ergonomics: 85.7
+    contract_quality: 57.2
+    developer_ergonomics: 80.4
     discoverability: 81.5
     governance: 18.2
-    operational_transparency: 55.3
+    operational_transparency: 71.1
   open_source:
     applies: true
     score: 50.0
   previous_composite: 49.9
-  schema_version: 0.17.2
+  provenance:
+    conformance: first-party
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 4
+    mcp: first-party
+    skills: derived
+  schema_version: 0.18.0
   scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/fusio/refs/heads/main/screenshots/fusio-2026-06-20T181622.png

@@ -30,7 +30,7 @@
       "access_clarity": 0.0
      },
      "scored_at": "2026-09-01",
-     "schema_version": "0.17.2",
+     "schema_version": "0.18.0",
      "agent_score": 12.9,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -68,30 +68,30 @@
    "shown": 4,
    "providers": [
     {
-     "name": "Peloton Interactive",
-     "slug": "peloton-interactive",
-     "description": "Peloton Interactive is a connected fitness company that produces interactive exercise equipment and a streaming subscription service. The company sells connected stationary bikes, treadmills, rowers, and a digital app offering live and on-demand fitness classes. Peloton has built a large community of members who participate in instructor-led workouts and track performance metrics through its platform.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/peloton-interactive/refs/heads/main/screenshots/peloton-interactive-2026-06-20T191540.png",
-     "score": 3.9,
+     "name": "Life Time Group Holdings",
+     "slug": "life-time-group",
+     "description": "Life Time Group Holdings is an American health and wellness company operating large-format athletic resort destinations across the United States and Canada. The company offers fitness facilities, personal training, group classes, aquatics, indoor and outdoor sports, spa services, and healthy living programs in premium resort-style facilities, plus the Life Time app for members. Life Time does not currently publish a public developer API or developer portal.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/life-time-group/refs/heads/main/screenshots/life-time-group-2026-06-20T184510.png",
+     "score": 3.8,
      "band": "minimal",
      "band_label": "Minimal",
      "facets": {
-      "discoverability": 44.4,
+      "discoverability": 50.0,
       "contract_quality": 0.0,
       "governance": 0.0,
       "contract_governance": 0.0,
       "operational_transparency": 0.0,
-      "developer_ergonomics": 0.0,
+      "developer_ergonomics": 2.4,
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
      "scored_at": "2026-09-01",
-     "schema_version": "0.17.2",
+     "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
       "regime": "Health",
       "regime_id": "health",
-      "score": 15.0,
+      "score": 7.5,
       "matched_via": "tags"
      },
      "agent_score": 0.0,
@@ -120,30 +120,30 @@
      "rank": 2
     },
     {
-     "name": "Life Time Group Holdings",
-     "slug": "life-time-group",
-     "description": "Life Time Group Holdings is an American health and wellness company operating large-format athletic resort destinations across the United States and Canada. The company offers fitness facilities, personal training, group classes, aquatics, indoor and outdoor sports, spa services, and healthy living programs in premium resort-style facilities, plus the Life Time app for members. Life Time does not currently publish a public developer API or developer portal.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/life-time-group/refs/heads/main/screenshots/life-time-group-2026-06-20T184510.png",
-     "score": 3.8,
+     "name": "Peloton Interactive",
+     "slug": "peloton-interactive",
+     "description": "Peloton Interactive is a connected fitness company that produces interactive exercise equipment and a streaming subscription service. The company sells connected stationary bikes, treadmills, rowers, and a digital app offering live and on-demand fitness classes. Peloton has built a large community of members who participate in instructor-led workouts and track performance metrics through its platform.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/peloton-interactive/refs/heads/main/screenshots/peloton-interactive-2026-06-20T191540.png",
+     "score": 3.5,
      "band": "minimal",
      "band_label": "Minimal",
      "facets": {
-      "discoverability": 50.0,
+      "discoverability": 40.7,
       "contract_quality": 0.0,
       "governance": 0.0,
       "contract_governance": 0.0,
       "operational_transparency": 0.0,
-      "developer_ergonomics": 2.4,
+      "developer_ergonomics": 0.0,
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
      "scored_at": "2026-09-01",
-     "schema_version": "0.17.2",
+     "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
       "regime": "Health",
       "regime_id": "health",
-      "score": 7.5,
+      "score": 15.0,
       "matched_via": "tags"
      },
      "agent_score": 0.0,
@@ -190,7 +190,7 @@
       "access_clarity": 0.0
      },
      "scored_at": "2026-09-01",
-     "schema_version": "0.17.2",
+     "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
       "regime": "Health",
@@ -242,7 +242,7 @@
       "access_clarity": 0.0
      },
      "scored_at": "2026-09-01",
-     "schema_version": "0.17.2",
+     "schema_version": "0.18.0",
      "regulatory": {
       "applies": false,
       "undetermined": true,

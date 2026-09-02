@@ -279,33 +279,36 @@ scopes:
   slug: algolia-scopes
   summary_line: OAuth 2.0 · no documented scopes
 score:
-  band: strong
-  composite: 61.1
+  band: exemplar
+  composite: 68.1
   coverage:
     artifact_dirs: 23
-    catalog_gap: 66.0
+    catalog_gap: 48.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: 0.0
+  delta: 7.0
   facets:
-    access_clarity: 76.3
-    commercial_clarity: 76.3
-    contract_governance: 18.2
-    contract_quality: 51.7
+    access_clarity: 100.0
+    commercial_clarity: 100.0
+    contract_governance: 4.5
+    contract_quality: 55.1
     developer_ergonomics: 78.6
     discoverability: 81.5
-    governance: 18.2
-    operational_transparency: 52.6
-  needs_work:
-    note: Recorded so this provider's gaps can be attributed. Does not affect the composite above.
-    owner: catalog
-    reasons:
-    - owner: catalog
-      reason: not_a_repo
+    governance: 4.5
+    operational_transparency: 76.3
   previous_composite: 61.1
-  schema_version: 0.17.2
+  provenance:
+    conformance: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 15
+    mcp: first-party
+    skills: first-party
+  schema_version: 0.18.0
   scored_at: '2026-09-01'
-  trend: flat
+  trend: rising
 screenshot: https://raw.githubusercontent.com/api-evangelist/algolia/refs/heads/main/screenshots/algolia-2026-06-20T171526.png
 security:
 - kind: authentication

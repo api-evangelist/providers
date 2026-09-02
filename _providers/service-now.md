@@ -119,7 +119,7 @@ score:
     applies: true
     score: 35.0
   previous_composite: 18.3
-  schema_version: 0.17.2
+  schema_version: 0.18.0
   scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/service-now/refs/heads/main/screenshots/service-now-2026-06-20T193736.png

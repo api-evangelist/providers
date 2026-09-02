@@ -105,7 +105,6 @@ finops:
 - name: Veritas Volume Manager Finops
   service_category: API
   slug: veritas-volume-manager-finops
-image: https://www.veritas.com/content/dam/veritas/images/logos/veritas-logo.svg
 layout: provider
 modified: '2026-04-19'
 name: Veritas Volume Manager
@@ -126,24 +125,24 @@ rate_limits:
   slug: veritas-volume-manager-rate-limits
 score:
   band: thin
-  composite: 39.0
+  composite: 38.6
   coverage:
     artifact_dirs: 6
-    catalog_gap: 76.0
+    catalog_gap: 78.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: 0.0
+  delta: -0.4
   facets:
     access_clarity: 36.8
     commercial_clarity: 36.8
     contract_governance: 0.0
     contract_quality: 33.3
     developer_ergonomics: 64.3
-    discoverability: 63.0
+    discoverability: 59.3
     governance: 0.0
     operational_transparency: 31.6
   previous_composite: 39.0
-  schema_version: 0.17.2
+  schema_version: 0.18.0
   scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/veritas-volume-manager/refs/heads/main/screenshots/veritas-volume-manager-2026-06-20T200935.png

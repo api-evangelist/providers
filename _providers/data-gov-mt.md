@@ -94,7 +94,7 @@ score:
     regime: Government & Public Sector
     regime_id: government
     score: 22.2
-  schema_version: 0.17.2
+  schema_version: 0.18.0
   scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/data-gov-mt/refs/heads/main/screenshots/data-gov-mt-2026-07-25T211239.png

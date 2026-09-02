@@ -268,7 +268,7 @@ score:
     regime: Health
     regime_id: health
     score: 36.3
-  schema_version: 0.17.2
+  schema_version: 0.18.0
   scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/digitail/refs/heads/main/screenshots/digitail-2026-07-25T212019.png

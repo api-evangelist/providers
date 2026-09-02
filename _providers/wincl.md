@@ -396,18 +396,18 @@ overview: 'WinCL publishes 44 APIs on the [APIs.io](https://apis.io/) network, i
 random_paper: 16
 score:
   band: emerging
-  composite: 23.6
+  composite: 23.7
   coverage:
     artifact_dirs: 18
     catalog_gap: 81.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: 0.0
+  delta: 0.1
   facets:
     access_clarity: 0.0
     commercial_clarity: 0.0
     contract_governance: 4.5
-    contract_quality: 48.9
+    contract_quality: 49.6
     developer_ergonomics: 23.2
     discoverability: 70.4
     governance: 4.5
@@ -429,7 +429,7 @@ score:
     regime: Payments
     regime_id: payments
     score: 26.6
-  schema_version: 0.17.2
+  schema_version: 0.18.0
   scored_at: '2026-09-01'
   trend: flat
 security:

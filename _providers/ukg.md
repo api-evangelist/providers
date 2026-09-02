@@ -541,7 +541,7 @@ score:
     access_clarity: 26.3
     commercial_clarity: 26.3
     contract_governance: 28.8
-    contract_quality: 31.2
+    contract_quality: 31.3
     developer_ergonomics: 47.6
     discoverability: 68.5
     governance: 28.8
@@ -550,11 +550,11 @@ score:
   provenance:
     agentic_access: derived
     contracts:
-      callable: 0.0
-      derived: 8
+      callable: 10.0
+      derived: 10
       marker_coverage: 100.0
-      total: 8
-  schema_version: 0.17.2
+      total: 10
+  schema_version: 0.18.0
   scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/ukg/refs/heads/main/screenshots/ukg-2026-06-20T200004.png

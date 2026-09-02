@@ -94,7 +94,7 @@ score:
     - owner: catalog
       reason: never_enriched
   previous_composite: 9.7
-  schema_version: 0.17.2
+  schema_version: 0.18.0
   scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/in-your-shoe/refs/heads/main/screenshots/in-your-shoe-2026-08-07T170650.png

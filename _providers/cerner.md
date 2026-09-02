@@ -482,19 +482,19 @@ scopes:
   slug: cerner-scopes
   summary_line: 303 scopes · authorizationCode/clientCredentials
 score:
-  band: strong
-  composite: 59.6
+  band: developing
+  composite: 51.0
   coverage:
     artifact_dirs: 30
     catalog_gap: 75.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: 0.0
+  delta: -8.6
   facets:
     access_clarity: 44.7
     commercial_clarity: 44.7
     contract_governance: 18.2
-    contract_quality: 60.8
+    contract_quality: 26.5
     developer_ergonomics: 68.5
     discoverability: 75.9
     governance: 18.2
@@ -505,9 +505,9 @@ score:
     conformance: first-party
     contracts:
       callable: 100.0
-      derived: 0
-      marker_coverage: 0.0
-      total: 9
+      derived: 49
+      marker_coverage: 92.5
+      total: 53
     mcp: derived
     skills: derived
   regulatory:
@@ -516,9 +516,9 @@ score:
     regime: Health
     regime_id: health
     score: 82.5
-  schema_version: 0.17.2
+  schema_version: 0.18.0
   scored_at: '2026-09-01'
-  trend: flat
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/cerner/refs/heads/main/screenshots/cerner-2026-06-20T174140.png
 security:
 - kind: authentication

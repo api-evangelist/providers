@@ -243,18 +243,18 @@ overview: 'SmallStep publishes 6 APIs on the [APIs.io](https://apis.io/) network
 random_paper: 15
 score:
   band: developing
-  composite: 52.8
+  composite: 52.6
   coverage:
     artifact_dirs: 21
     catalog_gap: 78.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: 0.0
+  delta: -0.2
   facets:
     access_clarity: 38.2
     commercial_clarity: 38.2
     contract_governance: 4.5
-    contract_quality: 70.4
+    contract_quality: 69.5
     developer_ergonomics: 73.2
     discoverability: 75.9
     governance: 4.5
@@ -270,7 +270,7 @@ score:
       total: 6
     mcp: derived
     skills: derived
-  schema_version: 0.17.2
+  schema_version: 0.18.0
   scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/smallstep/refs/heads/main/screenshots/smallstep-2026-08-17T081926.png

@@ -455,18 +455,18 @@ scopes:
   summary_line: 435 scopes · authorizationCode
 score:
   band: exemplar
-  composite: 70.1
+  composite: 70.7
   coverage:
     artifact_dirs: 24
     catalog_gap: 79.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: 0.0
+  delta: 0.6
   facets:
     access_clarity: 60.5
     commercial_clarity: 60.5
     contract_governance: 18.2
-    contract_quality: 66.1
+    contract_quality: 68.6
     developer_ergonomics: 71.4
     discoverability: 51.9
     governance: 18.2
@@ -475,6 +475,11 @@ score:
   provenance:
     agentic_access: derived
     conformance: first-party
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 51
     mcp: first-party
     skills: first-party
   regulatory:
@@ -483,7 +488,7 @@ score:
     regime: Telecommunications
     regime_id: telecommunications
     score: 81.9
-  schema_version: 0.17.2
+  schema_version: 0.18.0
   scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/zoom-phone/refs/heads/main/screenshots/zoom-phone-2026-08-17T080441.png

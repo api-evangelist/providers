@@ -121,7 +121,7 @@ score:
   previous_composite: 15.9
   provenance:
     conformance: first-party
-  schema_version: 0.17.2
+  schema_version: 0.18.0
   scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/insta360/refs/heads/main/screenshots/insta360-2026-07-25T222554.png

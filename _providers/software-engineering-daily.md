@@ -201,7 +201,7 @@ score:
     applies: true
     score: 50.0
   previous_composite: 28.8
-  schema_version: 0.17.2
+  schema_version: 0.18.0
   scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/software-engineering-daily/refs/heads/main/screenshots/software-engineering-daily-2026-06-20T194137.png

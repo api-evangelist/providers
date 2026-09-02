@@ -183,14 +183,8 @@ score:
     discoverability: 72.2
     governance: 9.8
     operational_transparency: 13.2
-  needs_work:
-    note: Recorded so this provider's gaps can be attributed. Does not affect the composite above.
-    owner: catalog
-    reasons:
-    - owner: catalog
-      reason: no_resolvable_host
   previous_composite: 20.7
-  schema_version: 0.17.2
+  schema_version: 0.18.0
   scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/speclynx/refs/heads/main/screenshots/speclynx-2026-06-20T194256.png

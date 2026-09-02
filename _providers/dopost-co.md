@@ -227,7 +227,7 @@ score:
       derived: 3
       marker_coverage: 100.0
       total: 3
-  schema_version: 0.17.2
+  schema_version: 0.18.0
   scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/dopost-co/refs/heads/main/screenshots/dopost-co-2026-06-20T180157.png

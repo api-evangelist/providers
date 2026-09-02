@@ -316,7 +316,6 @@ finops:
 - name: Tesla Energy Finops
   service_category: Energy / Storage / API
   slug: tesla-energy-finops
-image: https://www.tesla.com/favicon.ico
 json_schemas:
 - name: Tesla Energy Site Live Status
   property_count: 13
@@ -379,20 +378,20 @@ scopes:
   summary_line: 3 scopes · authorizationCode
 score:
   band: strong
-  composite: 62.8
+  composite: 62.4
   coverage:
     artifact_dirs: 16
-    catalog_gap: 25.5
+    catalog_gap: 27.5
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: 0.0
+  delta: -0.4
   facets:
     access_clarity: 60.5
     commercial_clarity: 60.5
     contract_governance: 13.6
     contract_quality: 74.8
     developer_ergonomics: 57.1
-    discoverability: 68.5
+    discoverability: 64.8
     governance: 13.6
     operational_transparency: 50.0
   previous_composite: 62.8
@@ -409,7 +408,7 @@ score:
     regime: Energy & Utilities
     regime_id: energy_utilities
     score: 56.8
-  schema_version: 0.17.2
+  schema_version: 0.18.0
   scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/tesla-energy/refs/heads/main/screenshots/tesla-energy-2026-08-17T125758.png

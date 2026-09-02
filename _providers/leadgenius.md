@@ -248,18 +248,18 @@ rate_limits:
   slug: leadgenius-rate-limits
 score:
   band: thin
-  composite: 36.2
+  composite: 36.0
   coverage:
     artifact_dirs: 21
     catalog_gap: 70.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: 0.0
+  delta: -0.2
   facets:
     access_clarity: 35.5
     commercial_clarity: 35.5
     contract_governance: 4.5
-    contract_quality: 64.3
+    contract_quality: 63.5
     developer_ergonomics: 8.9
     discoverability: 75.9
     governance: 4.5
@@ -272,10 +272,10 @@ score:
       callable: 100.0
       derived: 0
       marker_coverage: 0.0
-      total: 5
+      total: 6
     mcp: derived
     skills: derived
-  schema_version: 0.17.2
+  schema_version: 0.18.0
   scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/leadgenius/refs/heads/main/screenshots/leadgenius-2026-07-25T224714.png

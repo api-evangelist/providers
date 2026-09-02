@@ -562,18 +562,18 @@ scopes:
   summary_line: 23 scopes · authorizationCode
 score:
   band: strong
-  composite: 57.6
+  composite: 57.3
   coverage:
     artifact_dirs: 18
     catalog_gap: 32.5
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: 0.0
+  delta: -0.3
   facets:
     access_clarity: 42.1
     commercial_clarity: 42.1
     contract_governance: 13.6
-    contract_quality: 82.0
+    contract_quality: 80.9
     developer_ergonomics: 66.7
     discoverability: 68.5
     governance: 13.6
@@ -586,7 +586,7 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 23
-  schema_version: 0.17.2
+  schema_version: 0.18.0
   scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/lichess/refs/heads/main/screenshots/lichess-2026-06-20T184507.png

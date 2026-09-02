@@ -237,7 +237,7 @@ score:
       total: 2
     mcp: first-party
     skills: first-party
-  schema_version: 0.17.2
+  schema_version: 0.18.0
   scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/tako/refs/heads/main/screenshots/tako-2026-08-17T082243.png

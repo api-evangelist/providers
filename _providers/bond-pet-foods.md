@@ -161,19 +161,19 @@ overview: 'Bond Pet Foods publishes 2 APIs on the [APIs.io](https://apis.io/) ne
   Bond Pet Foods'' developer surface includes support, FAQ, engineering blog, authentication, and 19 more developer resources.'
 random_paper: 12
 score:
-  band: thin
-  composite: 29.8
+  band: emerging
+  composite: 19.8
   coverage:
     artifact_dirs: 15
     catalog_gap: 78.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: 0.0
+  delta: -10.0
   facets:
     access_clarity: 10.5
     commercial_clarity: 10.5
     contract_governance: 4.5
-    contract_quality: 64.6
+    contract_quality: 24.5
     developer_ergonomics: 20.8
     discoverability: 68.5
     governance: 4.5
@@ -183,13 +183,13 @@ score:
     conformance: derived
     contracts:
       callable: 100.0
-      derived: 0
-      marker_coverage: 0.0
+      derived: 2
+      marker_coverage: 100.0
       total: 2
     skills: derived
-  schema_version: 0.17.2
+  schema_version: 0.18.0
   scored_at: '2026-09-01'
-  trend: flat
+  trend: falling
 security:
 - kind: authentication
   name: Bond Pet Foods Authentication

@@ -225,6 +225,11 @@ score:
   previous_composite: 44.4
   provenance:
     conformance: first-party
+    contracts:
+      callable: 0.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 8
     mcp: derived
     skills: derived
   regulatory:
@@ -233,7 +238,7 @@ score:
     regime: Education & Research
     regime_id: education
     score: 46.3
-  schema_version: 0.17.2
+  schema_version: 0.18.0
   scored_at: '2026-09-01'
   trend: flat
 security:

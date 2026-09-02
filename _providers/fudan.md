@@ -201,33 +201,40 @@ scopes:
   slug: fudan-scopes
   summary_line: OAuth 2.0 · no documented scopes
 score:
-  band: developing
-  composite: 41.0
+  band: thin
+  composite: 31.5
   coverage:
     artifact_dirs: 16
-    catalog_gap: 45.0
+    catalog_gap: 48.8
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: 0.0
+  delta: -9.5
   facets:
     access_clarity: 28.9
     commercial_clarity: 28.9
-    contract_governance: 15.2
-    contract_quality: 60.8
+    contract_governance: 3.8
+    contract_quality: 28.2
     developer_ergonomics: 19.0
     discoverability: 59.3
-    governance: 15.2
+    governance: 3.8
     operational_transparency: 26.3
   previous_composite: 41.0
+  provenance:
+    conformance: derived
+    contracts:
+      callable: 100.0
+      derived: 1
+      marker_coverage: 100.0
+      total: 1
   regulatory:
     applies: true
     matched_via: tags
     regime: Education & Research
     regime_id: education
     score: 61.1
-  schema_version: 0.17.2
+  schema_version: 0.18.0
   scored_at: '2026-09-01'
-  trend: flat
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/fudan/refs/heads/main/screenshots/fudan-2026-06-20T181623.png
 security:
 - kind: authentication

@@ -196,19 +196,19 @@ rate_limits:
   name: Ucl Rate Limits
   slug: ucl-rate-limits
 score:
-  band: emerging
-  composite: 25.6
+  band: thin
+  composite: 26.6
   coverage:
     artifact_dirs: 7
     catalog_gap: 61.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: 0.0
+  delta: 1.0
   facets:
     access_clarity: 39.5
     commercial_clarity: 39.5
     contract_governance: 0.0
-    contract_quality: 0.0
+    contract_quality: 4.4
     developer_ergonomics: 16.7
     discoverability: 64.8
     governance: 0.0
@@ -225,7 +225,7 @@ score:
     regime: Education & Research
     regime_id: education
     score: 27.8
-  schema_version: 0.17.2
+  schema_version: 0.18.0
   scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/ucl/refs/heads/main/screenshots/ucl-2026-06-20T195940.png

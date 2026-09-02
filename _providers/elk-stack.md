@@ -16,7 +16,7 @@ agent_readiness:
   band: agent-native
   dimensions:
     agent_card: false
-    agent_skills: true
+    agent_skills: derived
     agentic_access: derived
     agentic_commerce: false
     auth_clarity: bearer
@@ -35,7 +35,7 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 51.3
+  score: 48.6
   scored_at: '2026-09-01'
 agentic_access:
 - acting_count: 1137
@@ -705,32 +705,35 @@ rate_limits:
   name: Elk Stack Rate Limits
   slug: elk-stack-rate-limits
 score:
-  band: strong
-  composite: 65.1
+  band: exemplar
+  composite: 67.0
   coverage:
     artifact_dirs: 28
-    catalog_gap: 72.0
+    catalog_gap: 63.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: 0.0
+  delta: 1.9
   facets:
-    access_clarity: 76.3
-    commercial_clarity: 76.3
-    contract_governance: 18.2
-    contract_quality: 57.3
-    developer_ergonomics: 85.7
+    access_clarity: 100.0
+    commercial_clarity: 100.0
+    contract_governance: 4.5
+    contract_quality: 56.6
+    developer_ergonomics: 80.4
     discoverability: 83.3
-    governance: 18.2
+    governance: 4.5
     operational_transparency: 60.5
   previous_composite: 65.1
   provenance:
     agentic_access: derived
+    conformance: derived
     contracts:
       callable: 0.0
       derived: 0
       marker_coverage: 0.0
-      total: 7
-  schema_version: 0.17.2
+      total: 131
+    mcp: first-party
+    skills: derived
+  schema_version: 0.18.0
   scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/elk-stack/refs/heads/main/screenshots/elk-stack-2026-06-20T180610.png

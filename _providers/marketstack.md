@@ -231,18 +231,18 @@ rate_limits:
   slug: marketstack-rate-limits
 score:
   band: strong
-  composite: 54.3
+  composite: 55.2
   coverage:
     artifact_dirs: 19
     catalog_gap: 54.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: 0.0
+  delta: 0.9
   facets:
     access_clarity: 76.3
     commercial_clarity: 76.3
     contract_governance: 4.5
-    contract_quality: 43.0
+    contract_quality: 46.4
     developer_ergonomics: 57.7
     discoverability: 75.9
     governance: 4.5
@@ -250,6 +250,11 @@ score:
   previous_composite: 54.3
   provenance:
     conformance: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 15
     mcp: first-party
     skills: derived
   regulatory:
@@ -258,7 +263,7 @@ score:
     regime: Securities & Market Data
     regime_id: securities_market_data
     score: 51.7
-  schema_version: 0.17.2
+  schema_version: 0.18.0
   scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/marketstack/refs/heads/main/screenshots/marketstack-2026-06-20T184956.png

@@ -2082,18 +2082,18 @@ rules:
   slug: okta-rules
 score:
   band: strong
-  composite: 61.0
+  composite: 60.8
   coverage:
     artifact_dirs: 21
     catalog_gap: 46.5
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: 0.0
+  delta: -0.2
   facets:
     access_clarity: 61.8
     commercial_clarity: 61.8
     contract_governance: 28.8
-    contract_quality: 78.3
+    contract_quality: 77.4
     developer_ergonomics: 73.8
     discoverability: 53.7
     governance: 28.8
@@ -2106,7 +2106,7 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 26
-  schema_version: 0.17.2
+  schema_version: 0.18.0
   scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/okta/refs/heads/main/screenshots/okta-2026-08-07T190056.png

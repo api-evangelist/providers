@@ -454,7 +454,6 @@ graphqls:
 - description: Salesforce Marketing Cloud API covers email sends, automation, contacts, data extensions, journey builder, content builder, tracking events, and transactional messaging for digital marketing campaigns
   name: Salesforce Marketing Cloud GraphQL API
   slug: salesforce-marketing-cloud-graphql
-image: https://www.salesforce.com/content/dam/web/en_us/www/images/nav/logo-salesforce.svg
 integrations:
 - description: Bi-directional sync with Sales Cloud and Service Cloud for unified customer profiles and campaign attribution.
   name: Salesforce CRM
@@ -764,20 +763,20 @@ scopes:
   summary_line: 42 scopes · clientCredentials
 score:
   band: exemplar
-  composite: 78.4
+  composite: 77.9
   coverage:
     artifact_dirs: 34
-    catalog_gap: 41.5
+    catalog_gap: 43.5
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: 0.0
+  delta: -0.5
   facets:
     access_clarity: 100.0
     commercial_clarity: 100.0
     contract_governance: 31.8
-    contract_quality: 75.4
+    contract_quality: 74.5
     developer_ergonomics: 80.4
-    discoverability: 83.3
+    discoverability: 79.6
     governance: 31.8
     operational_transparency: 76.3
   open_source:
@@ -800,7 +799,7 @@ score:
     regime: Telecommunications
     regime_id: telecommunications
     score: 73.6
-  schema_version: 0.17.2
+  schema_version: 0.18.0
   scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/salesforce-marketing-cloud/refs/heads/main/screenshots/salesforce-marketing-cloud-2026-06-20T193349.png

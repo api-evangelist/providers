@@ -190,19 +190,19 @@ overview: 'Hivemapper publishes 5 APIs on the [APIs.io](https://apis.io/) networ
   Hivemapper''s developer surface includes documentation, API reference, getting-started guide, pricing, signup flow, engineering blog, support, and 18 more developer resources.'
 random_paper: 2
 score:
-  band: developing
-  composite: 48.2
+  band: thin
+  composite: 37.6
   coverage:
     artifact_dirs: 19
     catalog_gap: 75.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: 0.0
+  delta: -10.6
   facets:
     access_clarity: 44.7
     commercial_clarity: 44.7
     contract_governance: 4.5
-    contract_quality: 56.7
+    contract_quality: 14.2
     developer_ergonomics: 80.4
     discoverability: 81.5
     governance: 4.5
@@ -212,14 +212,14 @@ score:
     conformance: derived
     contracts:
       callable: 100.0
-      derived: 0
-      marker_coverage: 0.0
-      total: 5
+      derived: 6
+      marker_coverage: 100.0
+      total: 6
     mcp: first-party
     skills: derived
-  schema_version: 0.17.2
+  schema_version: 0.18.0
   scored_at: '2026-09-01'
-  trend: flat
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/hivemapper/refs/heads/main/screenshots/hivemapper-2026-07-25T221306.png
 security:
 - kind: authentication

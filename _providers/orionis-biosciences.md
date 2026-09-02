@@ -255,9 +255,9 @@ score:
     conformance: derived
     contracts:
       callable: 100.0
-      derived: 11
+      derived: 12
       marker_coverage: 100.0
-      total: 11
+      total: 12
     mcp: derived
     skills: derived
   regulatory:
@@ -266,7 +266,7 @@ score:
     regime: Health
     regime_id: health
     score: 31.3
-  schema_version: 0.17.2
+  schema_version: 0.18.0
   scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/orionis-biosciences/refs/heads/main/screenshots/orionis-biosciences-2026-08-07T190940.png

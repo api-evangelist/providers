@@ -1,6 +1,6 @@
 ---
 agent_readiness:
-  band: agent-aware
+  band: human-only
   dimensions:
     agent_card: false
     agent_skills: false
@@ -14,7 +14,7 @@ agent_readiness:
     error_semantics: false
     event_surface_described: false
     idempotency: false
-    mcp_server: documented
+    mcp_server: false
     openapi_examples: false
     protected_resource_metadata: false
     rate_limit_signal: documented
@@ -22,7 +22,7 @@ agent_readiness:
     spec_presence: false
     well_known_catalog: false
   schema_version: 0.2
-  score: 6.0
+  score: 2.5
   scored_at: '2026-09-01'
 api_count: 2
 apis:
@@ -131,7 +131,9 @@ score:
     governance: 0.0
     operational_transparency: 2.6
   previous_composite: 7.2
-  schema_version: 0.17.2
+  provenance:
+    mcp: derived
+  schema_version: 0.18.0
   scored_at: '2026-09-01'
   trend: flat
 security:

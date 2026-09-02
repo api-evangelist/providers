@@ -144,7 +144,7 @@ score:
     governance: 9.8
     operational_transparency: 0.0
   previous_composite: 8.9
-  schema_version: 0.17.2
+  schema_version: 0.18.0
   scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/time-warner/refs/heads/main/screenshots/time-warner-2026-06-20T195359.png

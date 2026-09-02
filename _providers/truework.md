@@ -353,18 +353,18 @@ rules:
   slug: truework-jsonschema-spectral-rules
 score:
   band: strong
-  composite: 56.4
+  composite: 56.5
   coverage:
     artifact_dirs: 14
     catalog_gap: 29.8
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: 0.0
+  delta: 0.1
   facets:
     access_clarity: 46.1
     commercial_clarity: 46.1
     contract_governance: 9.8
-    contract_quality: 66.5
+    contract_quality: 67.0
     developer_ergonomics: 69.0
     discoverability: 74.1
     governance: 9.8
@@ -376,14 +376,14 @@ score:
       callable: 100.0
       derived: 0
       marker_coverage: 0.0
-      total: 4
+      total: 5
   regulatory:
     applies: true
     matched_via: tags
     regime: Banking & Open Finance
     regime_id: banking_open_finance
     score: 21.5
-  schema_version: 0.17.2
+  schema_version: 0.18.0
   scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/truework/refs/heads/main/screenshots/truework-2026-06-20T195901.png

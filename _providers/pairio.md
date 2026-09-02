@@ -92,7 +92,7 @@ score:
     governance: 0.0
     operational_transparency: 0.0
   previous_composite: 8.3
-  schema_version: 0.17.2
+  schema_version: 0.18.0
   scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/pairio/refs/heads/main/screenshots/pairio-2026-08-07T191310.png

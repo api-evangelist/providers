@@ -1504,7 +1504,7 @@ score:
     access_clarity: 76.3
     commercial_clarity: 76.3
     contract_governance: 33.3
-    contract_quality: 68.9
+    contract_quality: 69.1
     developer_ergonomics: 87.5
     discoverability: 75.9
     governance: 33.3
@@ -1514,10 +1514,10 @@ score:
     agentic_access: derived
     conformance: derived
     contracts:
-      callable: 0.8
+      callable: 34.1
       derived: 0
       marker_coverage: 0.0
-      total: 120
+      total: 44
     mcp: first-party
     skills: derived
   regulatory:
@@ -1526,7 +1526,7 @@ score:
     regime: Telecommunications
     regime_id: telecommunications
     score: 50.0
-  schema_version: 0.17.2
+  schema_version: 0.18.0
   scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/mailchimp/refs/heads/main/screenshots/mailchimp-2026-06-20T184854.png

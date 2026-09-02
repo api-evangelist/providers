@@ -279,18 +279,18 @@ overview: 'Imprint publishes 15 APIs on the [APIs.io](https://apis.io/) network,
 random_paper: 15
 score:
   band: developing
-  composite: 50.6
+  composite: 50.4
   coverage:
     artifact_dirs: 21
     catalog_gap: 78.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: 0.0
+  delta: -0.2
   facets:
     access_clarity: 28.9
     commercial_clarity: 28.9
     contract_governance: 4.5
-    contract_quality: 63.2
+    contract_quality: 62.3
     developer_ergonomics: 73.2
     discoverability: 75.9
     governance: 4.5
@@ -302,7 +302,7 @@ score:
       callable: 100.0
       derived: 0
       marker_coverage: 0.0
-      total: 14
+      total: 15
     mcp: derived
     skills: derived
   regulatory:
@@ -311,7 +311,7 @@ score:
     regime: Payments
     regime_id: payments
     score: 51.6
-  schema_version: 0.17.2
+  schema_version: 0.18.0
   scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/imprint/refs/heads/main/screenshots/imprint-2026-07-25T222200.png

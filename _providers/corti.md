@@ -242,28 +242,22 @@ scopes:
   summary_line: 44 scopes · clientCredentials/authorizationCode
 score:
   band: strong
-  composite: 61.3
+  composite: 61.0
   coverage:
     artifact_dirs: 19
     catalog_gap: 75.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: 0.0
+  delta: -0.3
   facets:
     access_clarity: 60.5
     commercial_clarity: 60.5
     contract_governance: 18.2
-    contract_quality: 42.6
+    contract_quality: 41.7
     developer_ergonomics: 73.2
     discoverability: 81.5
     governance: 18.2
     operational_transparency: 57.9
-  needs_work:
-    note: Recorded so this provider's gaps can be attributed. Does not affect the composite above.
-    owner: catalog
-    reasons:
-    - owner: catalog
-      reason: no_resolvable_host
   previous_composite: 61.3
   provenance:
     conformance: first-party
@@ -275,7 +269,7 @@ score:
     regime: Health
     regime_id: health
     score: 58.8
-  schema_version: 0.17.2
+  schema_version: 0.18.0
   scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/corti/refs/heads/main/screenshots/corti-2026-07-25T210446.png

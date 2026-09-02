@@ -256,7 +256,7 @@ score:
     governance: 28.8
     operational_transparency: 34.2
   previous_composite: 32.6
-  schema_version: 0.17.2
+  schema_version: 0.18.0
   scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/cypress-semiconductor/refs/heads/main/screenshots/cypress-semiconductor-2026-06-20T175414.png

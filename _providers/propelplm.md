@@ -310,7 +310,7 @@ score:
     access_clarity: 47.4
     commercial_clarity: 47.4
     contract_governance: 18.2
-    contract_quality: 55.9
+    contract_quality: 56.0
     developer_ergonomics: 70.8
     discoverability: 81.5
     governance: 18.2
@@ -320,13 +320,13 @@ score:
     agentic_access: derived
     conformance: first-party
     contracts:
-      callable: 0.0
+      callable: 26.7
       derived: 0
       marker_coverage: 0.0
       total: 15
     mcp: derived
     skills: derived
-  schema_version: 0.17.2
+  schema_version: 0.18.0
   scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/propelplm/refs/heads/main/screenshots/propelplm-2026-08-17T081348.png

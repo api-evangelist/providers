@@ -14,7 +14,7 @@ agent_readiness:
   band: agent-ready
   dimensions:
     agent_card: false
-    agent_skills: true
+    agent_skills: derived
     agentic_access: derived
     agentic_commerce: false
     auth_clarity: bearer
@@ -33,7 +33,7 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 32.2
+  score: 29.5
   scored_at: '2026-09-01'
 agentic_access:
 - acting_count: 11
@@ -275,31 +275,34 @@ rate_limits:
   slug: elastic-observability-rate-limits
 score:
   band: strong
-  composite: 57.0
+  composite: 59.1
   coverage:
     artifact_dirs: 25
-    catalog_gap: 78.0
+    catalog_gap: 72.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: 0.0
+  delta: 2.1
   facets:
-    access_clarity: 60.5
-    commercial_clarity: 60.5
+    access_clarity: 76.3
+    commercial_clarity: 76.3
     contract_governance: 18.2
     contract_quality: 48.2
-    developer_ergonomics: 85.7
+    developer_ergonomics: 80.4
     discoverability: 66.7
     governance: 18.2
     operational_transparency: 52.6
   previous_composite: 57.0
   provenance:
     agentic_access: derived
+    conformance: first-party
     contracts:
       callable: 0.0
       derived: 0
       marker_coverage: 0.0
       total: 4
-  schema_version: 0.17.2
+    mcp: first-party
+    skills: derived
+  schema_version: 0.18.0
   scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/elastic-observability/refs/heads/main/screenshots/elastic-observability-2026-06-20T180529.png

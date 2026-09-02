@@ -319,7 +319,7 @@ score:
     access_clarity: 23.7
     commercial_clarity: 23.7
     contract_governance: 0.0
-    contract_quality: 49.0
+    contract_quality: 49.1
     developer_ergonomics: 35.7
     discoverability: 59.3
     governance: 0.0
@@ -331,11 +331,11 @@ score:
   provenance:
     agentic_access: derived
     contracts:
-      callable: 52.2
+      callable: 54.5
       derived: 0
       marker_coverage: 0.0
-      total: 23
-  schema_version: 0.17.2
+      total: 22
+  schema_version: 0.18.0
   scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/ory/refs/heads/main/screenshots/ory-2026-06-20T191212.png

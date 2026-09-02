@@ -204,14 +204,14 @@ score:
       callable: 100.0
       derived: 0
       marker_coverage: 0.0
-      total: 16
+      total: 4
   regulatory:
     applies: true
     matched_via: tags
     regime: Health
     regime_id: health
     score: 15.0
-  schema_version: 0.17.2
+  schema_version: 0.18.0
   scored_at: '2026-09-01'
   trend: flat
 security:

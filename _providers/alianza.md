@@ -567,10 +567,10 @@ score:
     agentic_access: derived
     conformance: derived
     contracts:
-      callable: 98.4
+      callable: 100.0
       derived: 0
       marker_coverage: 0.0
-      total: 62
+      total: 60
     mcp: derived
     skills: derived
   regulatory:
@@ -579,7 +579,7 @@ score:
     regime: Telecommunications
     regime_id: telecommunications
     score: 30.6
-  schema_version: 0.17.2
+  schema_version: 0.18.0
   scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/alianza/refs/heads/main/screenshots/alianza-2026-08-07T161200.png

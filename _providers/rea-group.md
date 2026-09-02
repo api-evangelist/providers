@@ -355,10 +355,10 @@ score:
       callable: 100.0
       derived: 0
       marker_coverage: 0.0
-      total: 9
+      total: 23
     mcp: derived
     skills: derived
-  schema_version: 0.17.2
+  schema_version: 0.18.0
   scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/rea-group/refs/heads/main/screenshots/rea-group-2026-07-27T125400.png

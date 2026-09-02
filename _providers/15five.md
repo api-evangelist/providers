@@ -157,7 +157,7 @@ score:
     governance: 0.0
     operational_transparency: 39.5
   previous_composite: 39.4
-  schema_version: 0.17.2
+  schema_version: 0.18.0
   scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/15five/refs/heads/main/screenshots/15five-2026-06-20T162310.png

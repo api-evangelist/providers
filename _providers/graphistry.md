@@ -147,7 +147,7 @@ score:
   previous_composite: 22.8
   provenance:
     mcp: first-party
-  schema_version: 0.17.2
+  schema_version: 0.18.0
   scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/graphistry/refs/heads/main/screenshots/graphistry-2026-07-25T220239.png

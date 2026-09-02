@@ -3,7 +3,7 @@ agent_readiness:
   band: agent-ready
   dimensions:
     agent_card: false
-    agent_skills: true
+    agent_skills: derived
     agentic_access: false
     agentic_commerce: false
     auth_clarity: bearer
@@ -22,7 +22,7 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: true
   schema_version: 0.2
-  score: 35.8
+  score: 33.1
   scored_at: '2026-09-01'
 api_count: 2
 apis:
@@ -157,24 +157,28 @@ rate_limits:
   slug: reefapi-rate-limits
 score:
   band: strong
-  composite: 55.5
+  composite: 54.4
   coverage:
     artifact_dirs: 20
     catalog_gap: 58.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: 0.0
+  delta: -1.1
   facets:
     access_clarity: 76.3
     commercial_clarity: 76.3
     contract_governance: 18.2
     contract_quality: 47.6
-    developer_ergonomics: 69.0
+    developer_ergonomics: 63.7
     discoverability: 68.5
     governance: 18.2
     operational_transparency: 42.1
   previous_composite: 55.5
-  schema_version: 0.17.2
+  provenance:
+    conformance: first-party
+    mcp: first-party
+    skills: derived
+  schema_version: 0.18.0
   scored_at: '2026-09-01'
   trend: flat
 security:

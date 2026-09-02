@@ -96,12 +96,6 @@ score:
     discoverability: 50.0
     governance: 0.0
     operational_transparency: 0.0
-  needs_work:
-    note: Recorded so this provider's gaps can be attributed. Does not affect the composite above.
-    owner: catalog
-    reasons:
-    - owner: catalog
-      reason: no_resolvable_host
   previous_composite: 1.8
   regulatory:
     applies: true
@@ -109,7 +103,7 @@ score:
     regime: Telecommunications
     regime_id: telecommunications
     score: 8.3
-  schema_version: 0.17.2
+  schema_version: 0.18.0
   scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/level-3-communications/refs/heads/main/screenshots/level-3-communications-2026-06-20T184432.png

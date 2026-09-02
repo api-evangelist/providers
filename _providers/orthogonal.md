@@ -426,19 +426,19 @@ scopes:
   slug: orthogonal-scopes
   summary_line: OAuth 2.0 · no documented scopes
 score:
-  band: developing
-  composite: 48.4
+  band: strong
+  composite: 56.5
   coverage:
     artifact_dirs: 25
     catalog_gap: 67.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: 0.0
+  delta: 8.1
   facets:
     access_clarity: 73.7
     commercial_clarity: 73.7
     contract_governance: 4.5
-    contract_quality: 11.4
+    contract_quality: 44.0
     developer_ergonomics: 81.0
     discoverability: 75.9
     governance: 4.5
@@ -449,8 +449,8 @@ score:
     contracts:
       callable: 100.0
       derived: 3
-      marker_coverage: 100.0
-      total: 3
+      marker_coverage: 4.9
+      total: 61
     mcp: first-party
     skills: first-party
   regulatory:
@@ -459,9 +459,9 @@ score:
     regime: Payments
     regime_id: payments
     score: 64.1
-  schema_version: 0.17.2
+  schema_version: 0.18.0
   scored_at: '2026-09-01'
-  trend: flat
+  trend: rising
 screenshot: https://raw.githubusercontent.com/api-evangelist/orthogonal/refs/heads/main/screenshots/orthogonal-2026-08-07T190954.png
 security:
 - kind: authentication

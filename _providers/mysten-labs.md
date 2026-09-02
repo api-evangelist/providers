@@ -197,18 +197,18 @@ overview: 'Mysten Labs publishes 3 APIs on the [APIs.io](https://apis.io/) netwo
 random_paper: 1
 score:
   band: developing
-  composite: 43.0
+  composite: 42.7
   coverage:
     artifact_dirs: 21
     catalog_gap: 75.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: 0.0
+  delta: -0.3
   facets:
     access_clarity: 0.0
     commercial_clarity: 0.0
     contract_governance: 4.5
-    contract_quality: 42.7
+    contract_quality: 41.6
     developer_ergonomics: 78.6
     discoverability: 81.5
     governance: 4.5
@@ -218,7 +218,7 @@ score:
     conformance: derived
     mcp: first-party
     skills: first-party
-  schema_version: 0.17.2
+  schema_version: 0.18.0
   scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/mysten-labs/refs/heads/main/screenshots/mysten-labs-2026-08-07T184544.png

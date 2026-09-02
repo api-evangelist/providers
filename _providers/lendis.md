@@ -230,12 +230,12 @@ score:
     conformance: derived
     contracts:
       callable: 100.0
-      derived: 10
+      derived: 11
       marker_coverage: 100.0
-      total: 10
+      total: 11
     mcp: derived
     skills: derived
-  schema_version: 0.17.2
+  schema_version: 0.18.0
   scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/lendis/refs/heads/main/screenshots/lendis-2026-07-25T224902.png

@@ -136,7 +136,7 @@ score:
     governance: 0.0
     operational_transparency: 13.2
   previous_composite: 14.1
-  schema_version: 0.17.2
+  schema_version: 0.18.0
   scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/confidential-computing-consortium/refs/heads/main/screenshots/confidential-computing-consortium-2026-06-20T174850.png

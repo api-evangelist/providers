@@ -50,7 +50,6 @@ common:
   url: https://www.matadorresources.com
 created: '2026-05-04'
 description: Matador Resources Company is an independent energy company engaged in the exploration, development, production, and acquisition of oil and natural gas resources in the United States. The company's operations are primarily focused on the Wolfcamp and Bone Spring plays in the Delaware Basin in Southeast New Mexico and West Texas. Matador also operates midstream assets through its San Mateo Midstream subsidiary.
-image: https://avatars.githubusercontent.com/u/api-evangelist
 layout: provider
 modified: '2026-05-04'
 name: Matador Resources
@@ -60,20 +59,20 @@ overview: Matador Resources is profiled on the [APIs.io](https://apis.io/) netwo
 random_paper: 12
 score:
   band: minimal
-  composite: 1.8
+  composite: 1.5
   coverage:
     artifact_dirs: 2
-    catalog_gap: 96.0
+    catalog_gap: 98.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: 0.0
+  delta: -0.3
   facets:
     access_clarity: 0.0
     commercial_clarity: 0.0
     contract_governance: 0.0
     contract_quality: 0.0
     developer_ergonomics: 0.0
-    discoverability: 35.2
+    discoverability: 31.5
     governance: 0.0
     operational_transparency: 0.0
   previous_composite: 1.8
@@ -83,7 +82,7 @@ score:
     regime: Energy & Utilities
     regime_id: energy_utilities
     score: 8.1
-  schema_version: 0.17.2
+  schema_version: 0.18.0
   scored_at: '2026-09-01'
   trend: flat
 security:

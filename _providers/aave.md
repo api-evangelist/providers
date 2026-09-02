@@ -169,7 +169,7 @@ score:
     applies: true
     score: 50.0
   previous_composite: 26.2
-  schema_version: 0.17.2
+  schema_version: 0.18.0
   scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/aave/refs/heads/main/screenshots/aave-2026-06-20T163031.png

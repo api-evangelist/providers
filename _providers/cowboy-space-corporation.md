@@ -85,7 +85,7 @@ score:
     governance: 0.0
     operational_transparency: 0.0
   previous_composite: 9.2
-  schema_version: 0.17.2
+  schema_version: 0.18.0
   scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/cowboy-space-corporation/refs/heads/main/screenshots/cowboy-space-corporation-2026-07-25T210619.png

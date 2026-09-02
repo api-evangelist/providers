@@ -238,7 +238,7 @@ score:
     access_clarity: 34.2
     commercial_clarity: 34.2
     contract_governance: 4.5
-    contract_quality: 22.0
+    contract_quality: 21.7
     developer_ergonomics: 73.2
     discoverability: 75.9
     governance: 4.5
@@ -259,7 +259,7 @@ score:
     regime: Payments
     regime_id: payments
     score: 48.4
-  schema_version: 0.17.2
+  schema_version: 0.18.0
   scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/apurata/refs/heads/main/screenshots/apurata-2026-07-25T200944.png

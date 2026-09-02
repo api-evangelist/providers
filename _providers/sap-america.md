@@ -119,7 +119,6 @@ common:
 created: '2026-05-23'
 description: SAP America, Inc. is the US subsidiary of SAP SE, headquartered in Newtown Square, Pennsylvania, and serving as the Americas headquarters for the parent company's enterprise software portfolio (ERP, SCM, CRM, HCM, analytics, and cloud platform). SAP America itself does not publish a US-specific developer portal or APIs distinct from the parent SAP SE surface — all API documentation, SDKs, and OpenAPI artifacts are catalogued under the sibling `sap` repository (api.sap.com, SAP Business Accelerator Hub, SAP BTP). This repo is a subsidiary placeholder that exists to (1) record SAP America as a distinct US legal entity for partnership, public-sector, procurement, and FedRAMP / GovCloud contexts, and (2) cross-link to related US-only sibling subsidiaries — most importantly SAP NS2 (SAP National Security Services), the independent US subsidiary that operates SAP workloads in the Cloud Intelligence Enterprise (CIE), the DoD cloud environment, and the Commercially Regulated Environment
   (CRE) for federal, defense, and intelligence community customers. No tier-1 API artifacts (OpenAPI, AsyncAPI, JSON Schema, capabilities, plans, rate limits, FinOps) are generated in this repo per the api-evangelist no-empty-artifact rule — they are maintained under the parent `sap` repo and the per-product child repos (`sap-business-technology-platform`, `sap-successfactors`, `sap-ariba`, `sap-concur`, `sap-fieldglass`, `sap-api-management`, `sap-integration-suite`).
-image: https://www.sap.com/dam/application/shared/logos/sap-logo.svg
 layout: provider
 modified: '2026-08-21'
 name: SAP America
@@ -132,20 +131,20 @@ overview: 'SAP America publishes 1 API on the [APIs.io](https://apis.io/) networ
 random_paper: 20
 score:
   band: emerging
-  composite: 15.1
+  composite: 14.7
   coverage:
     artifact_dirs: 3
-    catalog_gap: 88.0
+    catalog_gap: 90.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: 0.0
+  delta: -0.4
   facets:
     access_clarity: 18.4
     commercial_clarity: 18.4
     contract_governance: 0.0
     contract_quality: 0.0
     developer_ergonomics: 11.9
-    discoverability: 57.4
+    discoverability: 53.7
     governance: 0.0
     operational_transparency: 5.3
   previous_composite: 15.1
@@ -155,7 +154,7 @@ score:
     regime: Government & Public Sector
     regime_id: government
     score: 38.9
-  schema_version: 0.17.2
+  schema_version: 0.18.0
   scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/sap-america/refs/heads/main/screenshots/sap-america-2026-06-20T193418.png

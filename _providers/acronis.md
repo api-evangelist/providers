@@ -756,34 +756,37 @@ scopes:
   slug: acronis-scopes
   summary_line: OAuth 2.0 · no documented scopes
 score:
-  band: strong
-  composite: 59.8
+  band: exemplar
+  composite: 67.5
   coverage:
     artifact_dirs: 34
-    catalog_gap: 45.5
+    catalog_gap: 27.5
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: 0.0
+  delta: 7.7
   facets:
-    access_clarity: 76.3
-    commercial_clarity: 76.3
+    access_clarity: 100.0
+    commercial_clarity: 100.0
     contract_governance: 47.0
-    contract_quality: 31.2
+    contract_quality: 30.7
     developer_ergonomics: 85.7
     discoverability: 81.5
     governance: 47.0
-    operational_transparency: 44.7
+    operational_transparency: 68.4
   previous_composite: 59.8
   provenance:
     agentic_access: derived
+    conformance: first-party
     contracts:
       callable: 100.0
-      derived: 11
+      derived: 14
       marker_coverage: 100.0
-      total: 11
-  schema_version: 0.17.2
+      total: 14
+    mcp: first-party
+    skills: first-party
+  schema_version: 0.18.0
   scored_at: '2026-09-01'
-  trend: flat
+  trend: rising
 screenshot: https://raw.githubusercontent.com/api-evangelist/acronis/refs/heads/main/screenshots/acronis-2026-06-20T164007.png
 security:
 - kind: authentication

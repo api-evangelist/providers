@@ -522,7 +522,6 @@ graphqls:
 - description: SAP's public APIs are built on REST and OData (both v2 and v4), surfaced primarily through the [SAP Business Accelerator Hub](https://api.sap.com). There is no unified public GraphQL endpoint. This sc
   name: SAP GraphQL Schema
   slug: sap-graphql
-image: https://www.sap.com/dam/application/shared/logos/sap-logo.svg
 integrations:
 - SAP S/4HANA Cloud with CRM and e-commerce platforms
 - SAP AI Core with machine learning frameworks and model registries
@@ -769,31 +768,31 @@ scopes:
   summary_line: 1 scope · clientCredentials
 score:
   band: developing
-  composite: 51.3
+  composite: 50.3
   coverage:
     artifact_dirs: 22
-    catalog_gap: 73.5
+    catalog_gap: 75.5
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: 0.0
+  delta: -1.0
   facets:
     access_clarity: 40.8
     commercial_clarity: 40.8
     contract_governance: 13.6
-    contract_quality: 68.8
+    contract_quality: 66.3
     developer_ergonomics: 69.0
-    discoverability: 53.7
+    discoverability: 50.0
     governance: 13.6
     operational_transparency: 39.5
   previous_composite: 51.3
   provenance:
     agentic_access: derived
     contracts:
-      callable: 100.0
+      callable: 33.3
       derived: 0
       marker_coverage: 0.0
       total: 15
-  schema_version: 0.17.2
+  schema_version: 0.18.0
   scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/sap/refs/heads/main/screenshots/sap-2026-06-20T193411.png

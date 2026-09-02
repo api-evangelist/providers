@@ -527,7 +527,6 @@ finops:
 - name: Android Finops
   service_category: Mobile Development Platform
   slug: android-finops
-image: https://www.android.com/static/images/logos/android-logo.png
 integrations:
 - description: Integrate cloud backend services including authentication, real-time database, cloud messaging, and analytics.
   name: Firebase
@@ -905,20 +904,20 @@ scopes:
   summary_line: 1 scope · authorizationCode
 score:
   band: developing
-  composite: 51.6
+  composite: 51.2
   coverage:
     artifact_dirs: 34
-    catalog_gap: 55.5
+    catalog_gap: 57.5
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: 0.0
+  delta: -0.4
   facets:
     access_clarity: 26.3
     commercial_clarity: 26.3
     contract_governance: 18.2
     contract_quality: 73.3
     developer_ergonomics: 78.6
-    discoverability: 66.7
+    discoverability: 63.0
     governance: 18.2
     operational_transparency: 26.3
   previous_composite: 51.6
@@ -931,7 +930,7 @@ score:
       marker_coverage: 0.0
       total: 4
     mcp: derived
-  schema_version: 0.17.2
+  schema_version: 0.18.0
   scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/android/refs/heads/main/screenshots/android-2026-06-20T171952.png

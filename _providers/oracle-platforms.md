@@ -13,7 +13,7 @@ agent_readiness:
   band: agent-native
   dimensions:
     agent_card: false
-    agent_skills: true
+    agent_skills: derived
     agentic_access: false
     agentic_commerce: false
     auth_clarity: bearer
@@ -32,7 +32,7 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: true
   schema_version: 0.2
-  score: 43.4
+  score: 40.7
   scored_at: '2026-09-01'
 api_count: 6
 apis:
@@ -280,25 +280,34 @@ rate_limits:
   name: Oracle Platforms Rate Limits
   slug: oracle-platforms-rate-limits
 score:
-  band: strong
-  composite: 63.8
+  band: exemplar
+  composite: 68.7
   coverage:
     artifact_dirs: 23
-    catalog_gap: 66.0
+    catalog_gap: 48.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: 0.0
+  delta: 4.9
   facets:
-    access_clarity: 63.2
-    commercial_clarity: 63.2
-    contract_governance: 18.2
-    contract_quality: 56.2
-    developer_ergonomics: 92.9
+    access_clarity: 86.8
+    commercial_clarity: 86.8
+    contract_governance: 4.5
+    contract_quality: 55.5
+    developer_ergonomics: 87.5
     discoverability: 74.1
-    governance: 18.2
-    operational_transparency: 68.4
+    governance: 4.5
+    operational_transparency: 92.1
   previous_composite: 63.8
-  schema_version: 0.17.2
+  provenance:
+    conformance: derived
+    contracts:
+      callable: 0.0
+      derived: 0
+      marker_coverage: 100.0
+      total: 9
+    mcp: first-party
+    skills: derived
+  schema_version: 0.18.0
   scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/oracle-platforms/refs/heads/main/screenshots/oracle-platforms-2026-06-20T191139.png

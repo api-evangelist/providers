@@ -217,7 +217,7 @@ score:
     access_clarity: 39.5
     commercial_clarity: 39.5
     contract_governance: 67.4
-    contract_quality: 61.9
+    contract_quality: 61.8
     developer_ergonomics: 11.9
     discoverability: 74.1
     governance: 67.4
@@ -229,14 +229,14 @@ score:
       callable: 100.0
       derived: 0
       marker_coverage: 100.0
-      total: 3
+      total: 2
   regulatory:
     applies: true
     matched_via: tags
     regime: Education & Research
     regime_id: education
     score: 72.2
-  schema_version: 0.17.2
+  schema_version: 0.18.0
   scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/snu/refs/heads/main/screenshots/snu-2026-06-20T194118.png

@@ -316,14 +316,14 @@ score:
     agentic_access: derived
     contracts:
       callable: 100.0
-      derived: 6
+      derived: 7
       marker_coverage: 100.0
-      total: 6
+      total: 7
   regulatory:
     applies: false
     note: provider carries no tags; regime could not be determined
     undetermined: true
-  schema_version: 0.17.2
+  schema_version: 0.18.0
   scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/workday-benefits/refs/heads/main/screenshots/workday-benefits-2026-06-20T201559.png

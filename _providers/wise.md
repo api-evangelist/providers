@@ -462,18 +462,18 @@ rules:
   slug: wise-asyncapi-spectral-rules
 score:
   band: thin
-  composite: 35.3
+  composite: 35.1
   coverage:
     artifact_dirs: 18
     catalog_gap: 78.3
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: 0.0
+  delta: -0.2
   facets:
     access_clarity: 23.7
     commercial_clarity: 23.7
     contract_governance: 11.4
-    contract_quality: 66.3
+    contract_quality: 65.5
     developer_ergonomics: 21.4
     discoverability: 51.9
     governance: 11.4
@@ -485,14 +485,14 @@ score:
       callable: 100.0
       derived: 0
       marker_coverage: 0.0
-      total: 47
+      total: 48
   regulatory:
     applies: true
     matched_via: tags
     regime: Banking & Open Finance
     regime_id: banking_open_finance
     score: 29.1
-  schema_version: 0.17.2
+  schema_version: 0.18.0
   scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/wise/refs/heads/main/screenshots/wise-2026-06-20T201536.png

@@ -1893,39 +1893,42 @@ scopes:
   summary_line: OAuth 2.0 · no documented scopes
 score:
   band: exemplar
-  composite: 84.0
+  composite: 91.6
   coverage:
     artifact_dirs: 39
-    catalog_gap: 43.5
+    catalog_gap: 25.5
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: 0.0
+  delta: 7.6
   facets:
-    access_clarity: 76.3
-    commercial_clarity: 76.3
+    access_clarity: 100.0
+    commercial_clarity: 100.0
     contract_governance: 47.0
-    contract_quality: 85.3
+    contract_quality: 84.3
     developer_ergonomics: 100.0
     discoverability: 66.7
     governance: 47.0
-    operational_transparency: 71.1
+    operational_transparency: 94.7
   previous_composite: 84.0
   provenance:
     agentic_access: derived
+    conformance: first-party
     contracts:
       callable: 100.0
       derived: 0
       marker_coverage: 0.0
       total: 197
+    mcp: first-party
+    skills: first-party
   regulatory:
     applies: true
     matched_via: tags
     regime: Payments
     regime_id: payments
     score: 71.9
-  schema_version: 0.17.2
+  schema_version: 0.18.0
   scored_at: '2026-09-01'
-  trend: flat
+  trend: rising
 screenshot: https://raw.githubusercontent.com/api-evangelist/shopify/refs/heads/main/screenshots/shopify-2026-06-20T165931.png
 security:
 - kind: authentication

@@ -844,18 +844,18 @@ rules:
   slug: alayacare-jsonschema-spectral-rules
 score:
   band: developing
-  composite: 39.8
+  composite: 40.2
   coverage:
     artifact_dirs: 16
     catalog_gap: 36.8
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: 0.0
+  delta: 0.4
   facets:
     access_clarity: 39.5
     commercial_clarity: 39.5
     contract_governance: 9.8
-    contract_quality: 55.7
+    contract_quality: 57.5
     developer_ergonomics: 23.8
     discoverability: 68.5
     governance: 9.8
@@ -864,7 +864,7 @@ score:
   provenance:
     agentic_access: derived
     contracts:
-      callable: 0.0
+      callable: 51.9
       derived: 0
       marker_coverage: 0.0
       total: 104
@@ -874,7 +874,7 @@ score:
     regime: Health
     regime_id: health
     score: 21.3
-  schema_version: 0.17.2
+  schema_version: 0.18.0
   scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/alayacare/refs/heads/main/screenshots/alayacare-2026-06-20T171503.png

@@ -213,16 +213,16 @@ score:
     agentic_access: derived
     contracts:
       callable: 100.0
-      derived: 1
+      derived: 2
       marker_coverage: 100.0
-      total: 1
+      total: 2
   regulatory:
     applies: true
     matched_via: tags
     regime: Government & Public Sector
     regime_id: government
     score: 9.3
-  schema_version: 0.17.2
+  schema_version: 0.18.0
   scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/2020-police-brutality/refs/heads/main/screenshots/2020-police-brutality-2026-06-20T162626.png

@@ -2693,9 +2693,9 @@ score:
       callable: 100.0
       derived: 0
       marker_coverage: 0.0
-      total: 44
+      total: 24
     mcp: first-party
-  schema_version: 0.17.2
+  schema_version: 0.18.0
   scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/airbyte/refs/heads/main/screenshots/airbyte-2026-06-20T171421.png

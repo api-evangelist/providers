@@ -448,18 +448,18 @@ rate_limits:
   slug: cisco-catalyst-center-rate-limits
 score:
   band: strong
-  composite: 64.2
+  composite: 64.0
   coverage:
     artifact_dirs: 21
     catalog_gap: 75.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: 0.0
+  delta: -0.2
   facets:
     access_clarity: 60.5
     commercial_clarity: 60.5
     contract_governance: 4.5
-    contract_quality: 63.5
+    contract_quality: 62.6
     developer_ergonomics: 73.2
     discoverability: 66.7
     governance: 4.5
@@ -480,7 +480,7 @@ score:
     regime: Education & Research
     regime_id: education
     score: 66.7
-  schema_version: 0.17.2
+  schema_version: 0.18.0
   scored_at: '2026-09-01'
   trend: flat
 security:

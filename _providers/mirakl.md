@@ -432,18 +432,18 @@ scopes:
   summary_line: OAuth 2.0 · no documented scopes
 score:
   band: strong
-  composite: 65.5
+  composite: 65.3
   coverage:
     artifact_dirs: 25
     catalog_gap: 60.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: 0.0
+  delta: -0.2
   facets:
     access_clarity: 92.1
     commercial_clarity: 92.1
     contract_governance: 18.2
-    contract_quality: 62.6
+    contract_quality: 61.8
     developer_ergonomics: 73.2
     discoverability: 81.5
     governance: 18.2
@@ -456,10 +456,10 @@ score:
       callable: 100.0
       derived: 0
       marker_coverage: 0.0
-      total: 19
+      total: 34
     mcp: first-party
     skills: derived
-  schema_version: 0.17.2
+  schema_version: 0.18.0
   scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/mirakl/refs/heads/main/screenshots/mirakl-2026-08-07T183712.png

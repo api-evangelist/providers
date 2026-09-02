@@ -3,7 +3,7 @@ agent_readiness:
   band: agent-aware
   dimensions:
     agent_card: false
-    agent_skills: true
+    agent_skills: derived
     agentic_access: false
     agentic_commerce: false
     auth_clarity: bearer
@@ -14,7 +14,7 @@ agent_readiness:
     error_semantics: false
     event_surface_described: false
     idempotency: false
-    mcp_server: documented
+    mcp_server: false
     openapi_examples: partial
     protected_resource_metadata: false
     rate_limit_signal: documented
@@ -22,7 +22,7 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 27.6
+  score: 21.4
   scored_at: '2026-09-01'
 api_count: 2
 apis:
@@ -178,30 +178,39 @@ rate_limits:
   slug: tandoor-rate-limits
 score:
   band: strong
-  composite: 58.9
+  composite: 56.2
   coverage:
     artifact_dirs: 18
     catalog_gap: 54.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: 0.0
+  delta: -2.7
   facets:
     access_clarity: 71.1
     commercial_clarity: 71.1
-    contract_governance: 18.2
+    contract_governance: 4.5
     contract_quality: 37.8
-    developer_ergonomics: 54.8
+    developer_ergonomics: 49.4
     discoverability: 68.5
-    governance: 18.2
+    governance: 4.5
     operational_transparency: 76.3
   previous_composite: 58.9
+  provenance:
+    conformance: derived
+    contracts:
+      callable: 0.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 2
+    mcp: derived
+    skills: derived
   regulatory:
     applies: true
     matched_via: tags
     regime: Government & Public Sector
     regime_id: government
     score: 57.4
-  schema_version: 0.17.2
+  schema_version: 0.18.0
   scored_at: '2026-09-01'
   trend: flat
 security:

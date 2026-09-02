@@ -1341,18 +1341,18 @@ scopes:
   summary_line: 3 scopes · clientCredentials
 score:
   band: thin
-  composite: 34.6
+  composite: 34.9
   coverage:
     artifact_dirs: 19
     catalog_gap: 50.5
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: 0.0
+  delta: 0.3
   facets:
     access_clarity: 13.2
     commercial_clarity: 13.2
     contract_governance: 28.8
-    contract_quality: 72.7
+    contract_quality: 74.1
     developer_ergonomics: 21.4
     discoverability: 50.0
     governance: 28.8
@@ -1361,11 +1361,11 @@ score:
   provenance:
     agentic_access: derived
     contracts:
-      callable: 0.0
+      callable: 41.7
       derived: 0
       marker_coverage: 0.0
       total: 36
-  schema_version: 0.17.2
+  schema_version: 0.18.0
   scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/application-research/refs/heads/main/screenshots/application-research-2026-06-20T172330.png

@@ -32,7 +32,7 @@ agent_readiness:
     spec_presence: false
     well_known_catalog: false
   schema_version: 0.2
-  score: 11.4
+  score: 8.8
   scored_at: '2026-09-01'
 api_count: 14
 apis:
@@ -239,33 +239,30 @@ scopes:
   slug: kroger-scopes
   summary_line: 6 scopes
 score:
-  band: thin
-  composite: 33.3
+  band: developing
+  composite: 39.5
   coverage:
     artifact_dirs: 20
-    catalog_gap: 67.0
+    catalog_gap: 52.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: 0.0
+  delta: 6.2
   facets:
-    access_clarity: 34.2
-    commercial_clarity: 34.2
+    access_clarity: 50.0
+    commercial_clarity: 50.0
     contract_governance: 18.2
     contract_quality: 0.0
     developer_ergonomics: 66.7
     discoverability: 81.5
     governance: 18.2
-    operational_transparency: 21.1
-  needs_work:
-    note: Recorded so this provider's gaps can be attributed. Does not affect the composite above.
-    owner: catalog
-    reasons:
-    - owner: catalog
-      reason: no_resolvable_host
+    operational_transparency: 44.7
   previous_composite: 33.3
-  schema_version: 0.17.2
+  provenance:
+    conformance: first-party
+    mcp: derived
+  schema_version: 0.18.0
   scored_at: '2026-09-01'
-  trend: flat
+  trend: rising
 screenshot: https://raw.githubusercontent.com/api-evangelist/kroger/refs/heads/main/screenshots/kroger-2026-06-20T184156.png
 security:
 - kind: authentication

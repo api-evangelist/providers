@@ -127,28 +127,22 @@ rules:
   slug: mastodon-asyncapi-spectral-rules
 score:
   band: thin
-  composite: 29.7
+  composite: 29.6
   coverage:
     artifact_dirs: 11
     catalog_gap: 75.3
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: 0.0
+  delta: -0.1
   facets:
     access_clarity: 15.8
     commercial_clarity: 15.8
     contract_governance: 11.4
-    contract_quality: 42.9
+    contract_quality: 42.3
     developer_ergonomics: 40.5
     discoverability: 50.0
     governance: 11.4
     operational_transparency: 10.5
-  needs_work:
-    note: Recorded so this provider's gaps can be attributed. Does not affect the composite above.
-    owner: catalog
-    reasons:
-    - owner: catalog
-      reason: no_resolvable_host
   previous_composite: 29.7
   provenance:
     contracts:
@@ -156,7 +150,7 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 1
-  schema_version: 0.17.2
+  schema_version: 0.18.0
   scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/mastodon/refs/heads/main/screenshots/mastodon-2026-06-20T185024.png

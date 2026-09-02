@@ -342,7 +342,6 @@ finops:
 - name: Sap Commerce Cloud Finops
   service_category: E-Commerce Platform
   slug: sap-commerce-cloud-finops
-image: https://www.sap.com/dam/application/shared/logos/sap-logo.svg
 json_schemas:
 - name: Address
   property_count: 14
@@ -670,20 +669,20 @@ scopes:
   summary_line: 3 scopes · clientCredentials/password
 score:
   band: developing
-  composite: 41.9
+  composite: 41.6
   coverage:
     artifact_dirs: 18
-    catalog_gap: 53.5
+    catalog_gap: 55.5
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: 0.0
+  delta: -0.3
   facets:
     access_clarity: 34.2
     commercial_clarity: 34.2
     contract_governance: 28.8
     contract_quality: 66.8
     developer_ergonomics: 21.4
-    discoverability: 75.9
+    discoverability: 72.2
     governance: 28.8
     operational_transparency: 23.7
   previous_composite: 41.9
@@ -694,7 +693,7 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 24
-  schema_version: 0.17.2
+  schema_version: 0.18.0
   scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/sap-commerce-cloud/refs/heads/main/screenshots/sap-commerce-cloud-2026-06-20T193424.png

@@ -187,7 +187,7 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 3
-  schema_version: 0.17.2
+  schema_version: 0.18.0
   scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/blubrry-api-restful-api-for-podcast-publishing-statistics/refs/heads/main/screenshots/blubrry-api-restful-api-for-podcast-publishing-statistics-2026-06-20T173526.png

@@ -241,18 +241,18 @@ scopes:
   summary_line: 6 scopes · authorizationCode
 score:
   band: developing
-  composite: 49.4
+  composite: 40.2
   coverage:
     artifact_dirs: 20
     catalog_gap: 75.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: 0.0
+  delta: -9.2
   facets:
     access_clarity: 38.2
     commercial_clarity: 38.2
     contract_governance: 4.5
-    contract_quality: 48.7
+    contract_quality: 12.2
     developer_ergonomics: 47.0
     discoverability: 85.2
     governance: 4.5
@@ -263,9 +263,9 @@ score:
     conformance: derived
     contracts:
       callable: 100.0
-      derived: 0
-      marker_coverage: 0.0
-      total: 3
+      derived: 12
+      marker_coverage: 100.0
+      total: 12
     mcp: derived
     skills: derived
   regulatory:
@@ -274,9 +274,9 @@ score:
     regime: Government & Public Sector
     regime_id: government
     score: 79.6
-  schema_version: 0.17.2
+  schema_version: 0.18.0
   scored_at: '2026-09-01'
-  trend: flat
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/landgate/refs/heads/main/screenshots/landgate-2026-07-27T125338.png
 security:
 - kind: authentication

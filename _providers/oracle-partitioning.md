@@ -304,25 +304,34 @@ scopes:
   slug: oracle-partitioning-scopes
   summary_line: OAuth 2.0 · no documented scopes
 score:
-  band: developing
-  composite: 53.6
+  band: strong
+  composite: 55.1
   coverage:
     artifact_dirs: 22
-    catalog_gap: 73.0
+    catalog_gap: 67.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: 0.0
+  delta: 1.5
   facets:
-    access_clarity: 52.6
-    commercial_clarity: 52.6
-    contract_governance: 18.2
+    access_clarity: 68.4
+    commercial_clarity: 68.4
+    contract_governance: 4.5
     contract_quality: 42.1
     developer_ergonomics: 83.3
     discoverability: 68.5
-    governance: 18.2
+    governance: 4.5
     operational_transparency: 52.6
   previous_composite: 53.6
-  schema_version: 0.17.2
+  provenance:
+    conformance: derived
+    contracts:
+      callable: 0.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 23
+    mcp: first-party
+    skills: first-party
+  schema_version: 0.18.0
   scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/oracle-partitioning/refs/heads/main/screenshots/oracle-partitioning-2026-06-20T191138.png

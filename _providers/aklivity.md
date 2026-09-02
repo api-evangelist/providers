@@ -24,7 +24,7 @@ agent_readiness:
     error_semantics: documented
     event_surface_described: false
     idempotency: documented
-    mcp_server: documented
+    mcp_server: false
     openapi_examples: false
     protected_resource_metadata: false
     rate_limit_signal: documented
@@ -32,7 +32,7 @@ agent_readiness:
     spec_presence: false
     well_known_catalog: false
   schema_version: 0.2
-  score: 18.2
+  score: 14.7
   scored_at: '2026-09-01'
 api_count: 4
 apis:
@@ -284,17 +284,17 @@ rules:
     warn: 2
   slug: aklivity-spectral-rules
 score:
-  band: developing
-  composite: 52.2
+  band: strong
+  composite: 56.5
   coverage:
     artifact_dirs: 24
-    catalog_gap: 45.0
+    catalog_gap: 36.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: 0.0
+  delta: 4.3
   facets:
-    access_clarity: 47.4
-    commercial_clarity: 47.4
+    access_clarity: 71.1
+    commercial_clarity: 71.1
     contract_governance: 72.7
     contract_quality: 14.7
     developer_ergonomics: 69.0
@@ -305,7 +305,11 @@ score:
     applies: true
     score: 100.0
   previous_composite: 52.2
-  schema_version: 0.17.2
+  provenance:
+    conformance: first-party
+    mcp: derived
+    skills: unknown
+  schema_version: 0.18.0
   scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/aklivity/refs/heads/main/screenshots/aklivity-2026-06-20T171459.png

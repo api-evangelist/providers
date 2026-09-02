@@ -142,7 +142,7 @@ score:
   previous_composite: 17.0
   provenance:
     conformance: first-party
-  schema_version: 0.17.2
+  schema_version: 0.18.0
   scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/exotec/refs/heads/main/screenshots/exotec-2026-08-07T165112.png

@@ -113,7 +113,7 @@ score:
     regime: Health
     regime_id: health
     score: 17.5
-  schema_version: 0.17.2
+  schema_version: 0.18.0
   scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/earlens/refs/heads/main/screenshots/earlens-2026-08-07T164624.png

@@ -173,37 +173,32 @@ rate_limits:
   slug: aarhus-rate-limits
 score:
   band: thin
-  composite: 30.0
+  composite: 29.5
   coverage:
     artifact_dirs: 7
     catalog_gap: 61.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: 0.0
+  delta: -0.5
   facets:
     access_clarity: 50.0
     commercial_clarity: 50.0
     contract_governance: 0.0
-    contract_quality: 6.7
+    contract_quality: 4.4
     developer_ergonomics: 21.4
     discoverability: 75.9
     governance: 0.0
     operational_transparency: 26.3
   previous_composite: 30.0
   provenance:
-    agentic_access: derived
-    contracts:
-      callable: 100.0
-      derived: 0
-      marker_coverage: 0.0
-      total: 37
+    conformance: first-party
   regulatory:
     applies: true
     matched_via: tags
     regime: Education & Research
     regime_id: education
     score: 48.1
-  schema_version: 0.17.2
+  schema_version: 0.18.0
   scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/aarhus/refs/heads/main/screenshots/aarhus-2026-06-20T163007.png

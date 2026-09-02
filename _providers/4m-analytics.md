@@ -141,7 +141,7 @@ score:
     regime: Energy & Utilities
     regime_id: energy_utilities
     score: 33.8
-  schema_version: 0.17.2
+  schema_version: 0.18.0
   scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/4m-analytics/refs/heads/main/screenshots/4m-analytics-2026-07-25T181206.png

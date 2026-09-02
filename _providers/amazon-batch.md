@@ -247,7 +247,7 @@ score:
       marker_coverage: 0.0
       total: 2
     mcp: derived
-  schema_version: 0.17.2
+  schema_version: 0.18.0
   scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/amazon-batch/refs/heads/main/screenshots/amazon-batch-2026-07-25T195933.png

@@ -295,33 +295,40 @@ scopes:
   slug: university-of-pittsburgh-scopes
   summary_line: OAuth 2.0 · no documented scopes
 score:
-  band: strong
-  composite: 54.4
+  band: developing
+  composite: 39.8
   coverage:
     artifact_dirs: 17
-    catalog_gap: 30.0
+    catalog_gap: 45.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: 0.0
+  delta: -14.6
   facets:
     access_clarity: 52.6
     commercial_clarity: 52.6
-    contract_governance: 60.6
-    contract_quality: 63.9
+    contract_governance: 15.2
+    contract_quality: 27.4
     developer_ergonomics: 35.7
     discoverability: 59.3
-    governance: 60.6
+    governance: 15.2
     operational_transparency: 23.7
   previous_composite: 54.4
+  provenance:
+    conformance: derived
+    contracts:
+      callable: 100.0
+      derived: 1
+      marker_coverage: 100.0
+      total: 1
   regulatory:
     applies: true
     matched_via: tags
     regime: Education & Research
     regime_id: education
     score: 57.4
-  schema_version: 0.17.2
+  schema_version: 0.18.0
   scored_at: '2026-09-01'
-  trend: flat
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/university-of-pittsburgh/refs/heads/main/screenshots/university-of-pittsburgh-2026-06-20T200224.png
 security:
 - kind: authentication

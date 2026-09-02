@@ -185,18 +185,18 @@ rules:
   slug: realtor-jsonschema-spectral-rules
 score:
   band: thin
-  composite: 30.5
+  composite: 30.3
   coverage:
     artifact_dirs: 14
     catalog_gap: 74.5
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: 0.0
+  delta: -0.2
   facets:
     access_clarity: 13.2
     commercial_clarity: 13.2
     contract_governance: 13.6
-    contract_quality: 65.5
+    contract_quality: 64.7
     developer_ergonomics: 23.8
     discoverability: 44.4
     governance: 13.6
@@ -213,7 +213,7 @@ score:
     applies: false
     note: provider carries no tags; regime could not be determined
     undetermined: true
-  schema_version: 0.17.2
+  schema_version: 0.18.0
   scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/realtor/refs/heads/main/screenshots/realtor-2026-06-20T192649.png

@@ -10,10 +10,10 @@ access_model:
   trial: false
   try_now: true
 agent_readiness:
-  band: agent-ready
+  band: agent-aware
   dimensions:
     agent_card: false
-    agent_skills: true
+    agent_skills: derived
     agentic_access: false
     agentic_commerce: false
     auth_clarity: bearer
@@ -24,7 +24,7 @@ agent_readiness:
     error_semantics: documented
     event_surface_described: false
     idempotency: false
-    mcp_server: documented
+    mcp_server: false
     openapi_examples: false
     protected_resource_metadata: false
     rate_limit_signal: documented
@@ -32,7 +32,7 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: true
   schema_version: 0.2
-  score: 30.8
+  score: 24.6
   scored_at: '2026-09-01'
 api_count: 1
 apis:
@@ -222,30 +222,39 @@ rate_limits:
   slug: elisa-rate-limits
 score:
   band: developing
-  composite: 46.9
+  composite: 49.8
   coverage:
     artifact_dirs: 20
-    catalog_gap: 77.0
+    catalog_gap: 68.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: 0.0
+  delta: 2.9
   facets:
-    access_clarity: 60.5
-    commercial_clarity: 60.5
-    contract_governance: 18.2
-    contract_quality: 33.9
-    developer_ergonomics: 64.3
+    access_clarity: 84.2
+    commercial_clarity: 84.2
+    contract_governance: 4.5
+    contract_quality: 37.3
+    developer_ergonomics: 58.9
     discoverability: 66.7
-    governance: 18.2
+    governance: 4.5
     operational_transparency: 21.1
   previous_composite: 46.9
+  provenance:
+    conformance: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 6
+    mcp: derived
+    skills: derived
   regulatory:
     applies: true
     matched_via: tags
     regime: Health
     regime_id: health
     score: 31.3
-  schema_version: 0.17.2
+  schema_version: 0.18.0
   scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/elisa/refs/heads/main/screenshots/elisa-2026-06-20T180611.png

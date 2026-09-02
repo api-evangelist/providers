@@ -129,7 +129,7 @@ score:
     governance: 0.0
     operational_transparency: 36.8
   previous_composite: 24.0
-  schema_version: 0.17.2
+  schema_version: 0.18.0
   scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/vatapi/refs/heads/main/screenshots/vatapi-2026-06-20T200828.png

@@ -358,18 +358,18 @@ scopes:
   summary_line: 4 scopes · authorizationCode/refreshToken
 score:
   band: strong
-  composite: 65.1
+  composite: 64.8
   coverage:
     artifact_dirs: 26
     catalog_gap: 31.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: 0.0
+  delta: -0.3
   facets:
     access_clarity: 89.5
     commercial_clarity: 89.5
     contract_governance: 63.6
-    contract_quality: 62.6
+    contract_quality: 61.7
     developer_ergonomics: 38.7
     discoverability: 75.9
     governance: 63.6
@@ -385,7 +385,7 @@ score:
       total: 4
     mcp: first-party
     skills: derived
-  schema_version: 0.17.2
+  schema_version: 0.18.0
   scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/clevertap/refs/heads/main/screenshots/clevertap-2026-06-20T174517.png

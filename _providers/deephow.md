@@ -122,7 +122,7 @@ score:
   previous_composite: 19.3
   provenance:
     conformance: first-party
-  schema_version: 0.17.2
+  schema_version: 0.18.0
   scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/deephow/refs/heads/main/screenshots/deephow-2026-07-25T211548.png

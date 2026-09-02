@@ -246,39 +246,39 @@ scopes:
   summary_line: OAuth 2.0 · no documented scopes
 score:
   band: developing
-  composite: 52.4
+  composite: 45.2
   coverage:
     artifact_dirs: 16
-    catalog_gap: 36.5
+    catalog_gap: 32.8
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: 0.0
+  delta: -7.2
   facets:
     access_clarity: 50.0
     commercial_clarity: 50.0
-    contract_governance: 22.7
-    contract_quality: 62.5
+    contract_governance: 34.1
+    contract_quality: 28.1
     developer_ergonomics: 42.9
     discoverability: 68.5
-    governance: 22.7
+    governance: 34.1
     operational_transparency: 23.7
   previous_composite: 52.4
   provenance:
-    agentic_access: derived
+    conformance: first-party
     contracts:
       callable: 100.0
-      derived: 0
-      marker_coverage: 0.0
-      total: 10
+      derived: 1
+      marker_coverage: 100.0
+      total: 1
   regulatory:
     applies: true
     matched_via: tags
     regime: Education & Research
     regime_id: education
     score: 64.8
-  schema_version: 0.17.2
+  schema_version: 0.18.0
   scored_at: '2026-09-01'
-  trend: flat
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/university-of-sheffield/refs/heads/main/screenshots/university-of-sheffield-2026-06-20T200244.png
 security:
 - kind: authentication

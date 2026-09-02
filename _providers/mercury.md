@@ -235,18 +235,18 @@ rules:
   slug: mercury-asyncapi-spectral-rules
 score:
   band: thin
-  composite: 35.3
+  composite: 35.2
   coverage:
     artifact_dirs: 15
     catalog_gap: 64.5
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: 0.0
+  delta: -0.1
   facets:
     access_clarity: 15.8
     commercial_clarity: 15.8
     contract_governance: 13.6
-    contract_quality: 63.8
+    contract_quality: 63.1
     developer_ergonomics: 29.8
     discoverability: 75.9
     governance: 13.6
@@ -265,7 +265,7 @@ score:
     regime: Banking & Open Finance
     regime_id: banking_open_finance
     score: 15.2
-  schema_version: 0.17.2
+  schema_version: 0.18.0
   scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/mercury/refs/heads/main/screenshots/mercury-2026-06-20T185218.png

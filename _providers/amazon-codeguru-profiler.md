@@ -10,10 +10,10 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-aware
+  band: agent-native
   dimensions:
     agent_card: false
-    agent_skills: false
+    agent_skills: derived
     agentic_access: derived
     agentic_commerce: false
     auth_clarity: bearer
@@ -22,17 +22,17 @@ agent_readiness:
     dry_run_mode: false
     dynamic_client_registration: false
     error_semantics: verified
-    event_surface_described: false
-    idempotency: false
+    event_surface_described: true
+    idempotency: documented
     mcp_server: false
     openapi_examples: verified
     protected_resource_metadata: false
-    rate_limit_signal: false
+    rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 28.1
+  score: 39.0
   scored_at: '2026-09-01'
 agentic_access:
 - acting_count: 13
@@ -55,7 +55,11 @@ apis:
 - description: The Tags API from Amazon CodeGuru Profiler — 2 operation(s) for tags.
   name: Amazon CodeGuru Profiler Tags API
   slug: amazon-codeguru-profiler-tags-api
-artifact_total: 330
+artifact_total: 345
+asyncapis:
+- description: ''
+  name: Amazon Codeguru Profiler Notifications
+  slug: amazon-codeguru-profiler-notifications
 collections:
 - collection_type: open
   name: API Collection
@@ -73,6 +77,66 @@ collections:
   name: Amazon CodeGuru Profiler Internal Tags API
   slug: open-amazon-codeguru-profiler-tags-api
 common:
+- group: company
+  title: ''
+  type: Website
+  url: https://aws.amazon.com/codeguru/profiler/
+- group: start
+  title: ''
+  type: GettingStarted
+  url: https://docs.aws.amazon.com/codeguru/latest/profiler-ug/setting-up.html
+- group: commercial
+  title: ''
+  type: Pricing
+  url: https://aws.amazon.com/codeguru/profiler/pricing/
+- group: start
+  title: ''
+  type: Console
+  url: https://console.aws.amazon.com/codeguru/profiler
+- group: start
+  title: ''
+  type: Portal
+  url: https://aws.amazon.com/codeguru/profiler/
+- group: docs
+  title: ''
+  type: Documentation
+  url: https://docs.aws.amazon.com/codeguru/latest/profiler-ug/what-is-codeguru-profiler.html
+- group: commercial
+  title: ''
+  type: TermsOfService
+  url: https://aws.amazon.com/service-terms/
+- group: commercial
+  title: ''
+  type: PrivacyPolicy
+  url: https://aws.amazon.com/privacy/
+- group: operate
+  title: ''
+  type: StatusPage
+  url: https://health.aws.amazon.com/health/status
+- group: company
+  title: ''
+  type: Blog
+  url: https://aws.amazon.com/blogs/devops/
+- group: start
+  title: ''
+  type: SignUp
+  url: https://portal.aws.amazon.com/gp/aws/developer/registration/index.html
+- group: build
+  title: ''
+  type: GitHubOrganization
+  url: https://github.com/aws
+- group: design
+  title: ''
+  type: SpectralRules
+  url: rules/amazon-codeguru-profiler-spectral-rules.yml
+- group: design
+  title: ''
+  type: Vocabulary
+  url: vocabulary/amazon-codeguru-profiler-vocabulary.yaml
+- group: design
+  title: ''
+  type: JSONLD
+  url: json-ld/amazon-codeguru-profiler-context.jsonld
 - group: agent
   title: ''
   type: MCPServer
@@ -101,6 +165,110 @@ common:
   title: ''
   type: Blog
   url: https://aws.amazon.com/blogs/devops/tag/codeguru-profiler/feed/
+- group: build
+  title: ''
+  type: Packages
+  url: packages/amazon-codeguru-profiler-packages.yml
+- group: build
+  title: ''
+  type: SDKs
+  url: packages/amazon-codeguru-profiler-packages.yml
+- group: build
+  title: ''
+  type: CLI
+  url: cli/amazon-codeguru-profiler-cli.yml
+- group: agent
+  title: ''
+  type: WellKnown
+  url: well-known/amazon-codeguru-profiler-well-known.yml
+- group: auth
+  title: ''
+  type: SecurityTxt
+  url: well-known/amazon-codeguru-profiler-security.txt
+- group: auth
+  title: ''
+  type: Security
+  url: security/amazon-codeguru-profiler-vulnerability-disclosure.yml
+- group: build
+  title: ''
+  type: ToolCrosswalk
+  url: mcp/amazon-codeguru-profiler-tool-crosswalk.yml
+- group: agent
+  title: ''
+  type: LLMsTxt
+  url: llms/amazon-codeguru-profiler-llms.txt
+- group: design
+  title: ''
+  type: Conformance
+  url: conformance/amazon-codeguru-profiler-conformance.yml
+- group: design
+  title: ''
+  type: ErrorCatalog
+  url: errors/amazon-codeguru-profiler-problem-types.yml
+- group: design
+  title: ''
+  type: Lifecycle
+  url: lifecycle/amazon-codeguru-profiler-lifecycle.yml
+- group: operate
+  title: ''
+  type: Deprecation
+  url: lifecycle/amazon-codeguru-profiler-lifecycle.yml
+- group: design
+  title: ''
+  type: Conventions
+  url: conventions/amazon-codeguru-profiler-conventions.yml
+- group: design
+  title: ''
+  type: Idempotency
+  url: conventions/amazon-codeguru-profiler-conventions.yml
+- group: design
+  title: ''
+  type: DataModel
+  url: data-model/amazon-codeguru-profiler-data-model.yml
+- group: commercial
+  title: ''
+  type: Plans
+  url: plans/amazon-codeguru-profiler-plans-pricing.yml
+- group: operate
+  title: ''
+  type: RateLimits
+  url: rate-limits/amazon-codeguru-profiler-rate-limits.yml
+- group: operate
+  title: ''
+  type: ChangeLog
+  url: changelog/amazon-codeguru-profiler-changelog.yml
+- group: agent
+  title: ''
+  type: AgentSkill
+  url: skills/_index.yml
+- group: design
+  title: ''
+  type: Webhooks
+  url: asyncapi/amazon-codeguru-profiler-notifications.yml
+- group: design
+  title: ''
+  type: SpectralRules
+  url: rules/amazon-codeguru-profiler-jsonschema-spectral-rules.yml
+- group: start
+  title: ''
+  type: DeveloperPortal
+  url: https://aws.amazon.com/codeguru/profiler/
+- group: docs
+  title: ''
+  type: APIReference
+  url: https://docs.aws.amazon.com/codeguru/latest/profiler-api/Welcome.html
+- group: operate
+  title: ''
+  type: FAQ
+  url: https://aws.amazon.com/codeguru/profiler/faqs/
+- group: auth
+  title: ''
+  type: Compliance
+  url: https://aws.amazon.com/compliance/programs/
+- group: operate
+  title: ''
+  type: Support
+  url: https://aws.amazon.com/contact-us/
 created: '2026-03-16'
 description: Amazon CodeGuru Profiler collects runtime performance data from your live applications, providing recommendations to help you reduce CPU utilization, cut costs, and improve application performance. The profiler analyzes your application's CPU and heap usage to identify the most expensive lines of code and offers actionable recommendations.
 examples:
@@ -311,7 +479,27 @@ examples:
 - key_count: 1
   name: Amazon Codeguru Profiler User Feedback Example
   slug: amazon-codeguru-profiler-user-feedback-example
+features:
+- description: Continuously profile application CPU utilization and heap usage in production without significant overhead.
+  name: Application Profiling
+- description: Receive actionable recommendations from machine learning models identifying expensive code paths and resource inefficiencies.
+  name: AI-Powered Recommendations
+- description: Visualize CPU usage with flame graphs that highlight the most resource-intensive code paths.
+  name: Flame Graphs
+- description: Automatically detect anomalies in application performance and CPU utilization patterns.
+  name: Anomaly Detection
+- description: Profile JVM-based applications and Python applications using language-specific profiling agents.
+  name: Java and Python Support
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/amazon-codeguru-profiler.png
+integrations:
+- description: Profile Lambda function execution to identify performance bottlenecks.
+  name: AWS Lambda
+- description: Profile containerized applications running on ECS.
+  name: Amazon ECS
+- description: Profile applications running on EC2 instances.
+  name: Amazon EC2
+- description: Combine profiling insights with code review recommendations.
+  name: AWS CodeGuru Reviewer
 json_schemas:
 - name: ActionGroup
   property_count: 0
@@ -1056,18 +1244,26 @@ mcp_servers:
 - description: Candidate MCP server derived from the Amazon CodeGuru Profiler OpenAPI operations (one tool per operationId). AWS does not publish a dedicated CodeGuru Profiler MCP server; the awslabs/mcp catalog shi
   name: Amazon CodeGuru Profiler MCP Server
   slug: amazon-codeguru-profiler-mcp-server
-modified: '2026-04-19'
+modified: '2026-09-01'
 name: Amazon CodeGuru Profiler
 nav: Providers
 network: true
 overview: 'Amazon CodeGuru Profiler publishes 4 APIs on the [APIs.io](https://apis.io/) network, including Internal API, ProfilingGroups API, ProfilingGroups#clientToken API, and 1 more. Tagged areas include Amazon, Application Performance, Profiling, DevOps, and Machine-Learning.
 
 
-  The Amazon CodeGuru Profiler catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
+  The Amazon CodeGuru Profiler catalog on APIs.io includes 1 event-driven AsyncAPI specification, 1 JSON-LD context, and 2 Spectral governance rulesets.
 
 
-  Amazon CodeGuru Profiler''s developer surface includes authentication, engineering blog, and 5 more developer resources.'
+  Amazon CodeGuru Profiler''s developer surface includes getting-started guide, pricing, developer console, developer portal, documentation, engineering blog, signup flow, and 41 more developer resources.'
+plans:
+- name: Amazon Codeguru Profiler Plans Pricing
+  plan_count: 2
+  slug: amazon-codeguru-profiler-plans-pricing
 random_paper: 8
+rate_limits:
+- limit_count: 1
+  name: Amazon Codeguru Profiler Rate Limits
+  slug: amazon-codeguru-profiler-rate-limits
 rules:
 - effective_rule_count: 5
   extends: []
@@ -1091,36 +1287,37 @@ rules:
     warn: 9
   slug: amazon-codeguru-profiler-spectral-rules
 score:
-  band: thin
-  composite: 31.1
+  band: exemplar
+  composite: 66.6
   coverage:
-    artifact_dirs: 21
-    catalog_gap: 62.5
+    artifact_dirs: 29
+    catalog_gap: 41.5
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: 0.0
+  delta: 35.5
   facets:
-    access_clarity: 0.0
-    commercial_clarity: 0.0
-    contract_governance: 18.2
-    contract_quality: 68.0
-    developer_ergonomics: 21.4
+    access_clarity: 63.2
+    commercial_clarity: 63.2
+    contract_governance: 47.0
+    contract_quality: 75.2
+    developer_ergonomics: 56.5
     discoverability: 75.9
-    governance: 18.2
-    operational_transparency: 0.0
+    governance: 47.0
+    operational_transparency: 81.6
   previous_composite: 31.1
   provenance:
     agentic_access: derived
-    conformance: derived
+    conformance: first-party
     contracts:
       callable: 100.0
       derived: 0
       marker_coverage: 0.0
       total: 4
     mcp: derived
-  schema_version: 0.17.2
+    skills: derived
+  schema_version: 0.18.0
   scored_at: '2026-09-01'
-  trend: flat
+  trend: rising
 screenshot: https://raw.githubusercontent.com/api-evangelist/amazon-codeguru-profiler/refs/heads/main/screenshots/amazon-codeguru-profiler-2026-07-25T195956.png
 security:
 - kind: authentication
@@ -1142,4 +1339,12 @@ tags:
 - Profiling
 - DevOps
 - Machine-Learning
+use_cases:
+- description: Identify and eliminate the most expensive code paths consuming CPU in live production applications.
+  name: Production Performance Optimization
+- description: Reduce compute costs by optimizing code that consumes excessive CPU time and cloud resources.
+  name: Cost Reduction
+- description: Investigate application latency issues by profiling which code paths contribute most to request processing time.
+  name: Latency Investigation
+website: https://aws.amazon.com/codeguru/profiler/
 ---

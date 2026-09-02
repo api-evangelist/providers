@@ -175,12 +175,6 @@ score:
     discoverability: 68.5
     governance: 18.2
     operational_transparency: 0.0
-  needs_work:
-    note: Recorded so this provider's gaps can be attributed. Does not affect the composite above.
-    owner: catalog
-    reasons:
-    - owner: catalog
-      reason: venue_as_website
   previous_composite: 31.1
   provenance:
     conformance: first-party
@@ -190,7 +184,7 @@ score:
     regime: Securities & Market Data
     regime_id: securities_market_data
     score: 66.7
-  schema_version: 0.17.2
+  schema_version: 0.18.0
   scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/nasdaq-private-market/refs/heads/main/screenshots/nasdaq-private-market-2026-08-07T184636.png

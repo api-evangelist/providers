@@ -238,18 +238,18 @@ rate_limits:
   slug: santevet-rate-limits
 score:
   band: thin
-  composite: 38.4
+  composite: 38.0
   coverage:
     artifact_dirs: 20
     catalog_gap: 72.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: 0.0
+  delta: -0.4
   facets:
     access_clarity: 34.2
     commercial_clarity: 34.2
     contract_governance: 4.5
-    contract_quality: 56.0
+    contract_quality: 54.4
     developer_ergonomics: 32.7
     discoverability: 77.8
     governance: 4.5
@@ -259,10 +259,10 @@ score:
     agentic_access: derived
     conformance: derived
     contracts:
-      callable: 50.0
+      callable: 3.8
       derived: 0
       marker_coverage: 0.0
-      total: 2
+      total: 26
     mcp: derived
     skills: derived
   regulatory:
@@ -271,7 +271,7 @@ score:
     regime: Insurance
     regime_id: insurance
     score: 45.5
-  schema_version: 0.17.2
+  schema_version: 0.18.0
   scored_at: '2026-09-01'
   trend: flat
 security:

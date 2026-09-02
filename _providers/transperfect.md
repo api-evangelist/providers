@@ -173,18 +173,18 @@ rules:
   slug: transperfect-jsonschema-spectral-rules
 score:
   band: thin
-  composite: 32.4
+  composite: 32.2
   coverage:
     artifact_dirs: 9
     catalog_gap: 69.8
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: 0.0
+  delta: -0.2
   facets:
     access_clarity: 0.0
     commercial_clarity: 0.0
     contract_governance: 25.0
-    contract_quality: 50.0
+    contract_quality: 49.0
     developer_ergonomics: 42.9
     discoverability: 53.7
     governance: 25.0
@@ -193,7 +193,7 @@ score:
     applies: true
     score: 25.0
   previous_composite: 32.4
-  schema_version: 0.17.2
+  schema_version: 0.18.0
   scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/transperfect/refs/heads/main/screenshots/transperfect-2026-06-20T195557.png

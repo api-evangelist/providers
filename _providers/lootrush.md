@@ -148,7 +148,6 @@ common:
   url: overlays/lootrush-openapi-overlay.yaml
 created: '2026-07-17'
 description: 'LootRush is a gaming and crypto platform (backed by Paradigm) that publishes a Partner API for marketplace integrations: initiating and tracking on-chain cryptocurrency withdrawals, querying a user''s transaction and activity history, and OAuth-style consented access to user data via a Connect API. LootRush also runs a published, read-only Model Context Protocol (MCP) server at mcp.lootrush.com that lets an AI assistant read the key-holder''s own balance, cards, card transactions, and account history — every call scoped to the API key''s user. Authentication is per-user bearer tokens (Withdraw, History, MCP) and integration API keys (Connect).'
-image: https://www.lootrush.com/favicon.ico
 layout: provider
 mcp_servers:
 - description: Streamable HTTP (JSON-RPC 2.0), stateless — one request, one response. POST only.
@@ -169,20 +168,20 @@ rate_limits:
   slug: lootrush-rate-limits
 score:
   band: thin
-  composite: 33.4
+  composite: 33.0
   coverage:
     artifact_dirs: 16
-    catalog_gap: 70.0
+    catalog_gap: 72.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: 0.0
+  delta: -0.4
   facets:
     access_clarity: 0.0
     commercial_clarity: 0.0
     contract_governance: 4.5
     contract_quality: 56.1
     developer_ergonomics: 47.0
-    discoverability: 75.9
+    discoverability: 72.2
     governance: 4.5
     operational_transparency: 21.1
   previous_composite: 33.4
@@ -202,7 +201,7 @@ score:
     regime: Payments
     regime_id: payments
     score: 26.6
-  schema_version: 0.17.2
+  schema_version: 0.18.0
   scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/lootrush/refs/heads/main/screenshots/lootrush-2026-07-25T225545.png

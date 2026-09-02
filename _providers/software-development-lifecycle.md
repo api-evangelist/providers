@@ -180,7 +180,7 @@ score:
     governance: 9.8
     operational_transparency: 7.9
   previous_composite: 25.0
-  schema_version: 0.17.2
+  schema_version: 0.18.0
   scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/software-development-lifecycle/refs/heads/main/screenshots/software-development-lifecycle-2026-06-20T194135.png

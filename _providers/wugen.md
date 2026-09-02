@@ -221,18 +221,18 @@ overview: 'Wugen publishes 7 APIs on the [APIs.io](https://apis.io/) network, in
 random_paper: 4
 score:
   band: thin
-  composite: 29.6
+  composite: 27.9
   coverage:
     artifact_dirs: 16
     catalog_gap: 60.0
     catalog_max: 100.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: 0.0
+  delta: -1.7
   facets:
     access_clarity: 28.6
     commercial_clarity: 28.6
     contract_governance: 4.5
-    contract_quality: 44.4
+    contract_quality: 37.7
     developer_ergonomics: 18.5
     discoverability: 74.1
     governance: 4.5
@@ -243,9 +243,9 @@ score:
     conformance: derived
     contracts:
       callable: 100.0
-      derived: 1
-      marker_coverage: 14.3
-      total: 7
+      derived: 3
+      marker_coverage: 33.3
+      total: 9
     skills: derived
   regulatory:
     applies: true
@@ -253,7 +253,7 @@ score:
     regime: Health
     regime_id: health
     score: 26.3
-  schema_version: 0.17.2
+  schema_version: 0.18.0
   scored_at: '2026-09-01'
   trend: flat
 security:

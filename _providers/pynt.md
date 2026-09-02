@@ -10,10 +10,10 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-ready
+  band: agent-aware
   dimensions:
     agent_card: false
-    agent_skills: true
+    agent_skills: derived
     agentic_access: false
     agentic_commerce: false
     auth_clarity: bearer
@@ -22,9 +22,9 @@ agent_readiness:
     dry_run_mode: false
     dynamic_client_registration: false
     error_semantics: verified
-    event_surface_described: true
+    event_surface_described: derived
     idempotency: false
-    mcp_server: documented
+    mcp_server: false
     openapi_examples: false
     protected_resource_metadata: false
     rate_limit_signal: documented
@@ -32,7 +32,7 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 35.1
+  score: 25.7
   scored_at: '2026-09-01'
 api_count: 2
 apis:
@@ -300,30 +300,33 @@ rate_limits:
   slug: pynt-rate-limits
 score:
   band: developing
-  composite: 52.4
+  composite: 50.4
   coverage:
     artifact_dirs: 22
     catalog_gap: 75.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: 0.0
+  delta: -2.0
   facets:
     access_clarity: 57.9
     commercial_clarity: 57.9
-    contract_governance: 18.2
-    contract_quality: 56.2
-    developer_ergonomics: 71.4
+    contract_governance: 4.5
+    contract_quality: 58.8
+    developer_ergonomics: 66.1
     discoverability: 75.9
-    governance: 18.2
+    governance: 4.5
     operational_transparency: 21.1
-  needs_work:
-    note: Recorded so this provider's gaps can be attributed. Does not affect the composite above.
-    owner: catalog
-    reasons:
-    - owner: catalog
-      reason: no_resolvable_host
   previous_composite: 52.4
-  schema_version: 0.17.2
+  provenance:
+    conformance: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 32
+    mcp: derived
+    skills: derived
+  schema_version: 0.18.0
   scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/pynt/refs/heads/main/screenshots/pynt-2026-06-20T192329.png

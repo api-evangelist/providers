@@ -429,18 +429,18 @@ scopes:
   summary_line: 1 scope · clientCredentials
 score:
   band: exemplar
-  composite: 68.7
+  composite: 68.4
   coverage:
     artifact_dirs: 32
     catalog_gap: 48.5
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: 0.0
+  delta: -0.3
   facets:
     access_clarity: 76.3
     commercial_clarity: 76.3
     contract_governance: 31.8
-    contract_quality: 68.5
+    contract_quality: 67.5
     developer_ergonomics: 61.3
     discoverability: 57.4
     governance: 31.8
@@ -453,7 +453,7 @@ score:
       callable: 100.0
       derived: 0
       marker_coverage: 0.0
-      total: 13
+      total: 30
     mcp: derived
     skills: derived
   regulatory:
@@ -462,7 +462,7 @@ score:
     regime: Telecommunications
     regime_id: telecommunications
     score: 59.7
-  schema_version: 0.17.2
+  schema_version: 0.18.0
   scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/vibes-platform/refs/heads/main/screenshots/vibes-platform-2026-06-20T201014.png

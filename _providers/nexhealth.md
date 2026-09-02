@@ -516,18 +516,18 @@ overview: 'NexHealth publishes 33 APIs on the [APIs.io](https://apis.io/) networ
 random_paper: 16
 score:
   band: developing
-  composite: 50.4
+  composite: 50.1
   coverage:
     artifact_dirs: 22
     catalog_gap: 78.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: 0.0
+  delta: -0.3
   facets:
     access_clarity: 47.4
     commercial_clarity: 47.4
     contract_governance: 4.5
-    contract_quality: 68.4
+    contract_quality: 67.4
     developer_ergonomics: 44.6
     discoverability: 75.9
     governance: 4.5
@@ -553,7 +553,7 @@ score:
     regime: Health
     regime_id: health
     score: 37.5
-  schema_version: 0.17.2
+  schema_version: 0.18.0
   scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/nexhealth/refs/heads/main/screenshots/nexhealth-2026-08-07T185152.png

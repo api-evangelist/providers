@@ -468,45 +468,41 @@ scopes:
   summary_line: 4 scopes · clientCredentials
 score:
   band: strong
-  composite: 63.5
+  composite: 56.0
   coverage:
     artifact_dirs: 26
-    catalog_gap: 44.5
+    catalog_gap: 38.5
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: 0.0
+  delta: -7.5
   facets:
-    access_clarity: 59.2
-    commercial_clarity: 59.2
+    access_clarity: 75.0
+    commercial_clarity: 75.0
     contract_governance: 28.8
-    contract_quality: 71.4
+    contract_quality: 28.6
     developer_ergonomics: 57.1
     discoverability: 72.2
     governance: 28.8
     operational_transparency: 39.5
-  needs_work:
-    note: Recorded so this provider's gaps can be attributed. Does not affect the composite above.
-    owner: catalog
-    reasons:
-    - owner: catalog
-      reason: no_resolvable_host
   previous_composite: 63.5
   provenance:
     agentic_access: derived
+    conformance: first-party
     contracts:
       callable: 0.0
-      derived: 0
-      marker_coverage: 0.0
-      total: 4
+      derived: 5
+      marker_coverage: 100.0
+      total: 5
+    mcp: first-party
   regulatory:
     applies: true
     matched_via: tags
     regime: Insurance
     regime_id: insurance
     score: 71.2
-  schema_version: 0.17.2
+  schema_version: 0.18.0
   scored_at: '2026-09-01'
-  trend: flat
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/acord/refs/heads/main/screenshots/acord-2026-08-17T121359.png
 security:
 - kind: authentication

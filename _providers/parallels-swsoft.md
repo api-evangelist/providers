@@ -172,7 +172,7 @@ score:
   provenance:
     conformance: derived
     mcp: derived
-  schema_version: 0.17.2
+  schema_version: 0.18.0
   scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/parallels-swsoft/refs/heads/main/screenshots/parallels-swsoft-2026-08-07T191426.png

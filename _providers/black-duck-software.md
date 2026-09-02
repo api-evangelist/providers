@@ -188,7 +188,7 @@ score:
   provenance:
     conformance: first-party
     mcp: first-party
-  schema_version: 0.17.2
+  schema_version: 0.18.0
   scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/black-duck-software/refs/heads/main/screenshots/black-duck-software-2026-07-25T203232.png

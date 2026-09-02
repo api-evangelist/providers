@@ -185,18 +185,18 @@ overview: 'Lightning Social Ventures publishes 3 APIs on the [APIs.io](https://a
 random_paper: 19
 score:
   band: thin
-  composite: 31.0
+  composite: 31.2
   coverage:
     artifact_dirs: 18
     catalog_gap: 78.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: 0.0
+  delta: 0.2
   facets:
     access_clarity: 27.6
     commercial_clarity: 27.6
     contract_governance: 4.5
-    contract_quality: 46.3
+    contract_quality: 47.0
     developer_ergonomics: 13.7
     discoverability: 75.9
     governance: 4.5
@@ -218,7 +218,7 @@ score:
     regime: Government & Public Sector
     regime_id: government
     score: 35.2
-  schema_version: 0.17.2
+  schema_version: 0.18.0
   scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/lightning-social-ventures/refs/heads/main/screenshots/lightning-social-ventures-2026-07-25T225125.png

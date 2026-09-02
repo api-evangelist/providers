@@ -167,7 +167,7 @@ score:
     governance: 0.0
     operational_transparency: 50.0
   previous_composite: 30.5
-  schema_version: 0.17.2
+  schema_version: 0.18.0
   scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/rev-ai/refs/heads/main/screenshots/rev-ai-2026-06-20T193043.png

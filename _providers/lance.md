@@ -90,7 +90,7 @@ score:
     governance: 0.0
     operational_transparency: 0.0
   previous_composite: 11.3
-  schema_version: 0.17.2
+  schema_version: 0.18.0
   scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/lance/refs/heads/main/screenshots/lance-2026-07-25T224604.png

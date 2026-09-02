@@ -316,28 +316,22 @@ rules:
   slug: wechat-asyncapi-spectral-rules
 score:
   band: developing
-  composite: 52.0
+  composite: 51.9
   coverage:
     artifact_dirs: 7
     catalog_gap: 63.5
     catalog_max: 100.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: 0.0
+  delta: -0.1
   facets:
     access_clarity: 57.1
     commercial_clarity: 57.1
     contract_governance: 13.6
-    contract_quality: 61.6
+    contract_quality: 60.9
     developer_ergonomics: 85.7
     discoverability: 59.3
     governance: 13.6
     operational_transparency: 5.3
-  needs_work:
-    note: Recorded so this provider's gaps can be attributed. Does not affect the composite above.
-    owner: catalog
-    reasons:
-    - owner: catalog
-      reason: no_resolvable_host
   previous_composite: 52.0
   provenance:
     agentic_access: derived
@@ -352,7 +346,7 @@ score:
     regime: Payments
     regime_id: payments
     score: 31.3
-  schema_version: 0.17.2
+  schema_version: 0.18.0
   scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/wechat/refs/heads/main/screenshots/wechat-2026-06-20T201343.png

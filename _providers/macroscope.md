@@ -161,7 +161,7 @@ score:
     access_clarity: 23.7
     commercial_clarity: 23.7
     contract_governance: 4.5
-    contract_quality: 22.4
+    contract_quality: 22.1
     developer_ergonomics: 63.7
     discoverability: 75.9
     governance: 4.5
@@ -176,7 +176,7 @@ score:
       total: 1
     mcp: derived
     skills: derived
-  schema_version: 0.17.2
+  schema_version: 0.18.0
   scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/macroscope/refs/heads/main/screenshots/macroscope-2026-07-25T225824.png

@@ -235,18 +235,18 @@ rules:
   slug: spiffe-rules
 score:
   band: thin
-  composite: 33.6
+  composite: 33.5
   coverage:
     artifact_dirs: 16
     catalog_gap: 50.5
     catalog_max: 100.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: 0.0
+  delta: -0.1
   facets:
     access_clarity: 0.0
     commercial_clarity: 0.0
     contract_governance: 28.8
-    contract_quality: 59.0
+    contract_quality: 58.3
     developer_ergonomics: 33.3
     discoverability: 66.7
     governance: 28.8
@@ -262,7 +262,7 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 1
-  schema_version: 0.17.2
+  schema_version: 0.18.0
   scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/spiffe/refs/heads/main/screenshots/spiffe-2026-06-20T194311.png

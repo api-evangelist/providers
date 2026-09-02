@@ -568,10 +568,10 @@ score:
     agentic_access: derived
     contracts:
       callable: 0.0
-      derived: 9
+      derived: 10
       marker_coverage: 100.0
-      total: 9
-  schema_version: 0.17.2
+      total: 10
+  schema_version: 0.18.0
   scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/chickfila/refs/heads/main/screenshots/chickfila-2026-06-20T174304.png

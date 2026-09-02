@@ -128,7 +128,7 @@ score:
   previous_composite: 16.1
   provenance:
     mcp: first-party
-  schema_version: 0.17.2
+  schema_version: 0.18.0
   scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/crowdmade/refs/heads/main/screenshots/crowdmade-2026-08-07T163922.png

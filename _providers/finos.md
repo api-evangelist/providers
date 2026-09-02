@@ -348,7 +348,7 @@ score:
     access_clarity: 15.8
     commercial_clarity: 15.8
     contract_governance: 0.0
-    contract_quality: 46.3
+    contract_quality: 46.0
     developer_ergonomics: 21.4
     discoverability: 55.6
     governance: 0.0
@@ -360,11 +360,11 @@ score:
   provenance:
     agentic_access: derived
     contracts:
-      callable: 100.0
+      callable: 93.3
       derived: 0
       marker_coverage: 0.0
       total: 30
-  schema_version: 0.17.2
+  schema_version: 0.18.0
   scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/finos/refs/heads/main/screenshots/finos-2026-06-20T181222.png

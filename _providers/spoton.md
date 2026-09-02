@@ -653,16 +653,16 @@ score:
     agentic_access: derived
     contracts:
       callable: 100.0
-      derived: 15
+      derived: 17
       marker_coverage: 100.0
-      total: 15
+      total: 17
   regulatory:
     applies: true
     matched_via: tags
     regime: Payments
     regime_id: payments
     score: 34.4
-  schema_version: 0.17.2
+  schema_version: 0.18.0
   scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/spoton/refs/heads/main/screenshots/spoton-2026-06-20T194358.png

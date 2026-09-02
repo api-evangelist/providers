@@ -575,7 +575,7 @@ score:
       callable: 100.0
       derived: 0
       marker_coverage: 0.0
-      total: 56
+      total: 62
     mcp: first-party
     skills: derived
   regulatory:
@@ -584,7 +584,7 @@ score:
     regime: Insurance
     regime_id: insurance
     score: 45.5
-  schema_version: 0.17.2
+  schema_version: 0.18.0
   scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/candid-health/refs/heads/main/screenshots/candid-health-2026-07-25T204340.png

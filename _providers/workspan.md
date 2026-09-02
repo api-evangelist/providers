@@ -340,18 +340,18 @@ overview: 'WorkSpan publishes 26 APIs on the [APIs.io](https://apis.io/) network
 random_paper: 3
 score:
   band: developing
-  composite: 49.1
+  composite: 49.0
   coverage:
     artifact_dirs: 18
     catalog_gap: 75.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: 0.0
+  delta: -0.1
   facets:
     access_clarity: 50.0
     commercial_clarity: 50.0
     contract_governance: 4.5
-    contract_quality: 63.5
+    contract_quality: 62.7
     developer_ergonomics: 66.1
     discoverability: 81.5
     governance: 4.5
@@ -366,7 +366,7 @@ score:
       total: 26
     mcp: derived
     skills: derived
-  schema_version: 0.17.2
+  schema_version: 0.18.0
   scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/workspan/refs/heads/main/screenshots/workspan-2026-08-17T082946.png

@@ -368,7 +368,7 @@ score:
     access_clarity: 52.6
     commercial_clarity: 52.6
     contract_governance: 18.2
-    contract_quality: 57.1
+    contract_quality: 57.2
     developer_ergonomics: 76.2
     discoverability: 70.4
     governance: 18.2
@@ -377,10 +377,10 @@ score:
   provenance:
     conformance: first-party
     contracts:
-      callable: 96.2
+      callable: 100.0
       derived: 0
       marker_coverage: 0.0
-      total: 26
+      total: 24
     mcp: first-party
     skills: first-party
   regulatory:
@@ -389,7 +389,7 @@ score:
     regime: Energy & Utilities
     regime_id: energy_utilities
     score: 63.5
-  schema_version: 0.17.2
+  schema_version: 0.18.0
   scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/terabase-energy/refs/heads/main/screenshots/terabase-energy-2026-08-17T082317.png

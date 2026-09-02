@@ -9,10 +9,10 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-native
+  band: agent-ready
   dimensions:
     agent_card: false
-    agent_skills: true
+    agent_skills: derived
     agentic_access: false
     agentic_commerce: false
     auth_clarity: bearer
@@ -21,7 +21,7 @@ agent_readiness:
     dry_run_mode: false
     dynamic_client_registration: false
     error_semantics: verified
-    event_surface_described: true
+    event_surface_described: derived
     idempotency: documented
     mcp_server: documented
     openapi_examples: partial
@@ -31,7 +31,7 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 43.0
+  score: 37.1
   scored_at: '2026-09-01'
 api_count: 2
 apis:
@@ -458,30 +458,39 @@ scopes:
   summary_line: 90 scopes · authorizationCode
 score:
   band: exemplar
-  composite: 82.5
+  composite: 80.4
   coverage:
     artifact_dirs: 27
     catalog_gap: 54.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: 0.0
+  delta: -2.1
   facets:
     access_clarity: 100.0
     commercial_clarity: 100.0
-    contract_governance: 18.2
-    contract_quality: 61.6
-    developer_ergonomics: 90.5
+    contract_governance: 4.5
+    contract_quality: 64.1
+    developer_ergonomics: 85.1
     discoverability: 70.4
-    governance: 18.2
+    governance: 4.5
     operational_transparency: 92.1
   previous_composite: 82.5
+  provenance:
+    conformance: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 53
+    mcp: first-party
+    skills: derived
   regulatory:
     applies: true
     matched_via: tags
     regime: Payments
     regime_id: payments
     score: 84.4
-  schema_version: 0.17.2
+  schema_version: 0.18.0
   scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/lightspeed/refs/heads/main/screenshots/lightspeed-2026-06-20T184527.png

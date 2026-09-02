@@ -238,7 +238,7 @@ score:
     access_clarity: 76.3
     commercial_clarity: 76.3
     contract_governance: 4.5
-    contract_quality: 24.9
+    contract_quality: 24.6
     developer_ergonomics: 60.1
     discoverability: 75.9
     governance: 4.5
@@ -249,12 +249,12 @@ score:
     conformance: derived
     contracts:
       callable: 100.0
-      derived: 1
+      derived: 3
       marker_coverage: 100.0
-      total: 1
+      total: 3
     mcp: derived
     skills: derived
-  schema_version: 0.17.2
+  schema_version: 0.18.0
   scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/demio/refs/heads/main/screenshots/demio-2026-08-17T080854.png

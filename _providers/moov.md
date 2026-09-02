@@ -532,18 +532,18 @@ rules:
   slug: moov-jsonschema-spectral-rules
 score:
   band: strong
-  composite: 56.5
+  composite: 56.3
   coverage:
     artifact_dirs: 19
     catalog_gap: 52.5
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: 0.0
+  delta: -0.2
   facets:
     access_clarity: 51.3
     commercial_clarity: 51.3
     contract_governance: 13.6
-    contract_quality: 80.4
+    contract_quality: 79.3
     developer_ergonomics: 50.0
     discoverability: 66.7
     governance: 13.6
@@ -562,7 +562,7 @@ score:
     regime: Banking & Open Finance
     regime_id: banking_open_finance
     score: 38.0
-  schema_version: 0.17.2
+  schema_version: 0.18.0
   scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/moov/refs/heads/main/screenshots/moov-2026-08-07T184251.png

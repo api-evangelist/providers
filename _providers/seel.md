@@ -182,18 +182,18 @@ overview: 'Seel publishes 9 APIs on the [APIs.io](https://apis.io/) network, inc
 random_paper: 5
 score:
   band: thin
-  composite: 30.6
+  composite: 30.5
   coverage:
     artifact_dirs: 18
     catalog_gap: 75.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: 0.0
+  delta: -0.1
   facets:
     access_clarity: 21.1
     commercial_clarity: 21.1
     contract_governance: 4.5
-    contract_quality: 22.7
+    contract_quality: 22.4
     developer_ergonomics: 47.0
     discoverability: 81.5
     governance: 4.5
@@ -203,9 +203,9 @@ score:
     conformance: derived
     contracts:
       callable: 100.0
-      derived: 9
+      derived: 10
       marker_coverage: 100.0
-      total: 9
+      total: 10
     mcp: derived
     skills: derived
   regulatory:
@@ -214,7 +214,7 @@ score:
     regime: Insurance
     regime_id: insurance
     score: 37.9
-  schema_version: 0.17.2
+  schema_version: 0.18.0
   scored_at: '2026-09-01'
   trend: flat
 security:

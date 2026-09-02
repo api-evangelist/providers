@@ -202,10 +202,10 @@ score:
       callable: 0.0
       derived: 0
       marker_coverage: 0.0
-      total: 8
+      total: 6
     mcp: derived
     skills: derived
-  schema_version: 0.17.2
+  schema_version: 0.18.0
   scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/groundwork-open-source/refs/heads/main/screenshots/groundwork-open-source-2026-07-25T220352.png

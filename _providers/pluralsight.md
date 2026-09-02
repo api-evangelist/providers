@@ -15,7 +15,7 @@ agent_readiness:
   band_gated_from: agent-native
   dimensions:
     agent_card: false
-    agent_skills: true
+    agent_skills: derived
     agentic_access: derived
     agentic_commerce: false
     auth_clarity: served
@@ -34,7 +34,7 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 48.4
+  score: 45.7
   scored_at: '2026-09-01'
 agentic_access:
 - acting_count: 19
@@ -1076,37 +1076,40 @@ scopes:
   summary_line: OAuth 2.0 · no documented scopes
 score:
   band: exemplar
-  composite: 72.4
+  composite: 74.4
   coverage:
     artifact_dirs: 33
-    catalog_gap: 51.5
+    catalog_gap: 42.5
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: 0.0
+  delta: 2.0
   facets:
     access_clarity: 76.3
     commercial_clarity: 76.3
     contract_governance: 47.0
     contract_quality: 64.1
-    developer_ergonomics: 67.9
+    developer_ergonomics: 62.5
     discoverability: 81.5
     governance: 47.0
-    operational_transparency: 39.5
+    operational_transparency: 63.2
   previous_composite: 72.4
   provenance:
     agentic_access: derived
+    conformance: first-party
     contracts:
       callable: 100.0
       derived: 0
       marker_coverage: 0.0
       total: 14
+    mcp: first-party
+    skills: derived
   regulatory:
     applies: true
     matched_via: tags
     regime: Education & Research
     regime_id: education
     score: 85.2
-  schema_version: 0.17.2
+  schema_version: 0.18.0
   scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/pluralsight/refs/heads/main/screenshots/pluralsight-2026-08-17T124736.png

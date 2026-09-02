@@ -199,40 +199,40 @@ rules:
     warn: 2
   slug: university-of-bristol-oai-pmh-spectral-rules
 score:
-  band: developing
-  composite: 46.4
+  band: thin
+  composite: 38.3
   coverage:
     artifact_dirs: 13
-    catalog_gap: 51.5
+    catalog_gap: 47.8
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: 0.0
+  delta: -8.1
   facets:
     access_clarity: 50.0
     commercial_clarity: 50.0
-    contract_governance: 22.7
-    contract_quality: 55.1
+    contract_governance: 34.1
+    contract_quality: 17.5
     developer_ergonomics: 35.7
     discoverability: 68.5
-    governance: 22.7
+    governance: 34.1
     operational_transparency: 23.7
   previous_composite: 46.4
   provenance:
-    agentic_access: derived
+    conformance: first-party
     contracts:
       callable: 100.0
-      derived: 0
-      marker_coverage: 0.0
-      total: 4
+      derived: 1
+      marker_coverage: 100.0
+      total: 1
   regulatory:
     applies: true
     matched_via: tags
     regime: Education & Research
     regime_id: education
     score: 46.3
-  schema_version: 0.17.2
+  schema_version: 0.18.0
   scored_at: '2026-09-01'
-  trend: flat
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/university-of-bristol/refs/heads/main/screenshots/university-of-bristol-2026-06-20T200140.png
 security:
 - kind: authentication

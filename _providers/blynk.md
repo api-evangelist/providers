@@ -254,18 +254,18 @@ overview: 'Blynk publishes 3 APIs on the [APIs.io](https://apis.io/) network. Ta
 random_paper: 19
 score:
   band: thin
-  composite: 28.1
+  composite: 28.0
   coverage:
     artifact_dirs: 3
     catalog_gap: 80.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: 0.0
+  delta: -0.1
   facets:
     access_clarity: 27.6
     commercial_clarity: 27.6
     contract_governance: 0.0
-    contract_quality: 6.7
+    contract_quality: 6.5
     developer_ergonomics: 54.8
     discoverability: 64.8
     governance: 0.0
@@ -280,7 +280,7 @@ score:
     regime: Energy & Utilities
     regime_id: energy_utilities
     score: 21.6
-  schema_version: 0.17.2
+  schema_version: 0.18.0
   scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/blynk/refs/heads/main/screenshots/blynk-2026-06-20T173539.png

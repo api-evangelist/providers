@@ -349,9 +349,9 @@ score:
     contracts:
       callable: 100.0
       derived: 6
-      marker_coverage: 100.0
-      total: 6
-  schema_version: 0.17.2
+      marker_coverage: 85.7
+      total: 7
+  schema_version: 0.18.0
   scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/jsonplaceholder/refs/heads/main/screenshots/jsonplaceholder-2026-06-20T183819.png

@@ -880,18 +880,18 @@ scopes:
   summary_line: 37 scopes · authorizationCode/clientCredentials
 score:
   band: exemplar
-  composite: 84.4
+  composite: 84.2
   coverage:
     artifact_dirs: 35
     catalog_gap: 30.5
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: 0.0
+  delta: -0.2
   facets:
     access_clarity: 93.4
     commercial_clarity: 93.4
     contract_governance: 33.3
-    contract_quality: 75.7
+    contract_quality: 74.8
     developer_ergonomics: 80.4
     discoverability: 81.5
     governance: 33.3
@@ -904,7 +904,7 @@ score:
       callable: 100.0
       derived: 0
       marker_coverage: 0.0
-      total: 36
+      total: 53
     mcp: first-party
     skills: derived
   regulatory:
@@ -913,7 +913,7 @@ score:
     regime: Telecommunications
     regime_id: telecommunications
     score: 73.6
-  schema_version: 0.17.2
+  schema_version: 0.18.0
   scored_at: '2026-09-01'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/brevo/refs/heads/main/screenshots/brevo-2026-06-20T173653.png
