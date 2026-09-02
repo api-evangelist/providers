@@ -403,17 +403,34 @@ def write_tombstones():
         return
 
     written = 0
+    restored = 0
+    orphaned = []
     for entry in entries:
         if not isinstance(entry, dict):
             continue
         slug, survivor = entry.get("slug"), entry.get("merged_into")
         if not slug or not survivor:
             continue
-        # Only tombstone a slug that still has a page here AND whose survivor has one, so we
-        # never redirect into a 404.
+        # WRITTEN WHETHER OR NOT A PAGE IS THERE TO REPLACE (roadmap#216).
+        #
+        # This used to skip a slug with no page, on the reasonable-sounding grounds that there
+        # was nothing to tombstone. But the prune above deletes pages for slugs the catalog no
+        # longer carries, and it runs FIRST — so a slug dropped and retired in the SAME cycle
+        # had its page removed and then found no file to rewrite. No page, no redirect, a live
+        # URL returning 404, and the tombstone count never moved because the other 349 were
+        # rewritten correctly every build.
+        #
+        # Writing unconditionally also repairs history: any tombstone lost to an earlier run of
+        # this bug is restored on the next build rather than needing to be hand-written, which
+        # is how `mac-address-vendor-lookup` was fixed on 2026-08-30.
+        #
+        # The SURVIVOR check stays, and is the one that was always doing real work: a redirect
+        # into a page that does not exist turns one 404 into two and loses the reason.
         page = os.path.join(OUT, "%s.md" % slug)
-        if not os.path.isfile(page) or not os.path.isfile(os.path.join(OUT, "%s.md" % survivor)):
+        if not os.path.isfile(os.path.join(OUT, "%s.md" % survivor)):
+            orphaned.append("%s -> %s" % (slug, survivor))
             continue
+        existed = os.path.isfile(page)
         with open(page, "w", encoding="utf-8") as fh:
             fh.write(
                 "---\n"
@@ -426,7 +443,15 @@ def write_tombstones():
                 "---\n" % (survivor, survivor, slug, survivor)
             )
         written += 1
-    print("tombstones:   %d retired slug(s) redirected" % written)
+        if not existed:
+            restored += 1
+    # `restored` is the number this issue is about: tombstones that did not exist before this
+    # run. A nonzero count on a normal build means a same-cycle retirement was caught, which is
+    # the case that used to 404 silently.
+    print("tombstones:   %d retired slug(s) redirected (%d newly written)" % (written, restored))
+    if orphaned:
+        print("tombstones:   %d skipped — survivor has no page: %s"
+              % (len(orphaned), ", ".join(orphaned[:5]) + (" …" if len(orphaned) > 5 else "")))
 
 
 if __name__ == "__main__":
