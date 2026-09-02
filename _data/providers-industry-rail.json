@@ -932,6 +932,7 @@
      "name": "SilverRail",
      "slug": "silverrail",
      "description": "SilverRail Technologies is a rail technology company that powers global rail ecommerce and distribution. Its platform spans journey planning, ticketing, and onboard information, aiming to transform the rail experience for travelers while making rail retail easier and more profitable for operators, travel agencies, and distributors. SilverRail connects rail carriers and sellers so rail inventory can be searched, booked, and ticketed across markets. The company was surfaced in the API Evangelist network as a portfolio company of Accel and Canaan Partners. As of this enrichment pass SilverRail runs a corporate marketing site (Next.js) but publishes no public developer portal, API reference, OpenAPI specification, SDKs, or /.well-known discovery documents; its API and distribution capabilities appear to be delivered through partner/enterprise integration rather than a self-serve public API.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/silverrail/refs/heads/main/screenshots/silverrail-2026-09-02T155515.png",
      "score": 8.9,
      "band": "minimal",
      "band_label": "Minimal",

@@ -3059,6 +3059,7 @@
      "name": "Savahq",
      "slug": "savahq",
      "description": "Sava (Savahq) is an early-stage Y Combinator company building what it calls the intelligence layer for enduring legacies and the future of trusts, operating at the intersection of financial and legal technology for trust administration and estate management. As of this profile the public presence is a pre-product landing page at savahq.com that collects email signups, and the company publishes no developer portal, API documentation, SDKs, or other machine-readable API surface. This record tracks Sava within the API Evangelist network as a portfolio lead surfaced from the Y Combinator portfolio, to be re-enriched once a developer or API surface is published.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/savahq/refs/heads/main/screenshots/savahq-2026-09-02T154439.png",
      "score": 7.6,
      "band": "minimal",
      "band_label": "Minimal",

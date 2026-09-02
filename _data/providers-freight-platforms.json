@@ -371,6 +371,7 @@
      "name": "Shippeo",
      "slug": "shippeo",
      "description": "Shippeo is a real-time transportation and multimodal supply-chain visibility platform, giving shippers, carriers, and logistics teams predictive and real-time information for all their deliveries across road, rail, sea, and air. Through its developer portal (developers.shippeo.com) Shippeo exposes REST APIs and webhooks so TMS, ERP, and control-tower systems can submit transport orders (tours) for tracking, feed GPS positions, retrieve predictive ETAs, statuses, and milestone events, and subscribe to real-time \"Events-out\" notifications. API access is enterprise and customer-provisioned - applications and OAuth2 client IDs are created in the portal after contracting with Shippeo.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/shippeo/refs/heads/main/screenshots/shippeo-2026-09-02T155227.png",
      "score": 36.2,
      "band": "thin",
      "band_label": "Thin",

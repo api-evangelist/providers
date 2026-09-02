@@ -216,6 +216,7 @@
      "name": "Portcast",
      "slug": "portcast",
      "description": "Portcast is a predictive supply-chain visibility platform whose Container Tracking API delivers the full journey of an ocean container - milestones, vessel schedules, port codes, and machine-learning predicted ETAs and ETDs - in a single JSON response, tracked by container number, bill of lading, or booking number plus carrier SCAC, with push (webhook) callbacks on every update.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/portcast/refs/heads/main/screenshots/portcast-2026-09-02T151804.png",
      "score": 35.5,
      "band": "thin",
      "band_label": "Thin",

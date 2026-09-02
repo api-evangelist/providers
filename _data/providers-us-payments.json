@@ -3387,6 +3387,7 @@
      "name": "Remitly",
      "slug": "remitly",
      "description": "Remitly is a Seattle-based digital financial services provider for immigrants and their families, operating a global cross-border remittance and money-movement network across more than 170 countries. Beyond its consumer money-transfer app, Remitly runs \"Remitly for Developers\" (Remitly Access), a gated enterprise partner API that lets businesses embed international payouts, cross-border payments, and locally relevant disbursement options into their own products, along with open-source \"Connected Experiences\" mobile/web SDK components. Remitly is a regulated money services business: FinCEN-registered, licensed as a money transmitter across all 50 U.S. states, and registered with FINTRAC in Canada. Added to the API Evangelist network as a fintech company profile and enriched with identity, domain-security, and compliance artifacts.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/remitly/refs/heads/main/screenshots/remitly-2026-09-02T153355.png",
      "score": 18.1,
      "band": "emerging",
      "band_label": "Emerging",

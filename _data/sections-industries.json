@@ -25,7 +25,7 @@
   "name": "Artificial Intelligence",
   "description": "Model providers, agent frameworks, inference platforms, and the applied AI companies putting them to work behind an API.",
   "icon": "smart_toy",
-  "count": 5459
+  "count": 5450
  },
  {
   "slug": "automotive",
@@ -123,7 +123,7 @@
   "name": "Cybersecurity & Identity",
   "description": "Security and identity providers — authentication and authorization, threat detection, application and cloud security, fraud, and privacy.",
   "icon": "security",
-  "count": 2192
+  "count": 2189
  },
  {
   "slug": "data-analytics",
@@ -144,14 +144,14 @@
   "name": "Developer Tools & DevOps",
   "description": "The companies developers build on — SDKs and CLIs, CI/CD, containers, observability, API gateways, and the platforms that run it all.",
   "icon": "terminal",
-  "count": 3006
+  "count": 2996
  },
  {
   "slug": "digital-health",
   "name": "Digital Health & Telehealth",
   "description": "Care delivered and coordinated through software — telehealth, EHR interoperability, patient engagement, remote monitoring, and behavioral health.",
   "icon": "monitor_heart",
-  "count": 1870
+  "count": 1871
  },
  {
   "slug": "e-commerce-platform",
@@ -256,7 +256,7 @@
   "name": "Healthcare",
   "description": "",
   "icon": "/industries/assets/icons/healthcare.png",
-  "count": 2019
+  "count": 2020
  },
  {
   "slug": "hospitality",
@@ -305,7 +305,7 @@
   "name": "Legal & Compliance Tech",
   "description": "Legal software and the compliance, RegTech, and risk platforms companies use to stay inside the rules.",
   "icon": "gavel",
-  "count": 1145
+  "count": 1144
  },
  {
   "slug": "life-sciences",
@@ -333,7 +333,7 @@
   "name": "Marketing & Advertising",
   "description": "AdTech and MarTech — campaigns, attribution, customer data, personalization, and the demand-generation stack.",
   "icon": "campaign",
-  "count": 1533
+  "count": 1532
  },
  {
   "slug": "media",
@@ -424,7 +424,7 @@
   "name": "Robotics & Autonomous Systems",
   "description": "Robots, drones, autonomous vehicles, and the perception and control stacks that let machines act on their own.",
   "icon": "precision_manufacturing",
-  "count": 1070
+  "count": 1067
  },
  {
   "slug": "semiconductors-hardware",

@@ -607,6 +607,7 @@
      "name": "Push Doctor",
      "slug": "push-doctor",
      "description": "Push Doctor is a UK telehealth company offering video consultations with licensed UK GPs via smartphone, describing itself as the UK's first platform to provide video doctor consultations on mobile. It serves both NHS patients and private paying customers, covering online GP appointments, digital prescriptions, referrals and follow-up care. Headquartered in Manchester and backed by Partech, Push Doctor operates as a consumer-facing telemedicine service; no public developer API, developer portal, or SDK surface was found during enrichment probes.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/push-doctor/refs/heads/main/screenshots/push-doctor-2026-09-02T152345.png",
      "score": 10.0,
      "band": "minimal",
      "band_label": "Minimal",

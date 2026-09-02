@@ -222,6 +222,7 @@
      "name": "Lomonosov Moscow State University",
      "slug": "lomonosov-moscow-state-university",
      "description": "Lomonosov Moscow State University is a higher-education institution in Russian Federation. This profile is a STUB: it records the institution's identity only. No claim is made about its programmable surface -- what it operates, what a vendor operates on its behalf, and what it publishes have not yet been established. Run the university pipeline (all/0-working/pipeline-university.md) to profile it.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/lomonosov-moscow-state-university/refs/heads/main/screenshots/lomonosov-moscow-state-university-2026-09-02T150313.png",
      "score": 0.5,
      "band": "minimal",
      "band_label": "Minimal",

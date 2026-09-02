@@ -1158,6 +1158,22 @@ def retired_map():
             if isinstance(r, dict) and r.get("slug") and r.get("merged_into")}
 
 
+def convention_slugs():
+    """Slugs that are file conventions, not providers — the registry build.py writes.
+
+    They keep their apis.io provider page (the URLs are linked to), so the
+    page-exists test in catalog_slugs() cannot see them. roadmap#180.
+    """
+    path = os.path.join(ROOT, "api-search", "network", "_data", "conventions.yml")
+    if not os.path.isfile(path):
+        print("WARNING: %s not found — file conventions will be filed as industry members" % path)
+        return set()
+    with open(path, "r", encoding="utf-8") as fh:
+        doc = yaml.safe_load(fh) or {}
+    rows = doc.get("conventions") if isinstance(doc, dict) else doc
+    return {str(r).strip() for r in (rows or []) if str(r).strip()}
+
+
 def catalog_slugs():
     """Slugs that are LIVE providers in the catalog — the scan domain for every
     all/* section on this site.
@@ -1203,7 +1219,9 @@ def catalog_slugs():
         if re.search(r"^layout:\s*redirect\s*$", head, re.MULTILINE):
             continue
         live.add(fname[:-3])
-    return live
+    # .gitignore and CODEOWNERS are not members of an industry — they are repo
+    # furniture that happens to carry a `tags:` block. roadmap#180.
+    return live - convention_slugs()
 
 
 def slugify(name):

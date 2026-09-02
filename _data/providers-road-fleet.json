@@ -908,6 +908,7 @@
      "name": "Platform Science",
      "slug": "platform-science",
      "description": "Platform Science is an enterprise connected-vehicle and fleet management platform for commercial trucking and transportation. It combines ELD and telematics, driver applications (Hours of Service, DVIR, navigation, workflow, media management), back-office fleet management, and video safety intelligence on a single connected-vehicle platform. Its Virtual Vehicle Marketplace hosts 100+ partner integrations across 18 categories (asset tracking, compliance, fuel, navigation, sensors, TMS, and more), and a gated developer program (the Remote Platform Management system, an Android SDK, and a data-retrieval API governed by SPEED Certification) lets partners build edge and cloud integrations against the platform.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/platform-science/refs/heads/main/screenshots/platform-science-2026-09-02T151435.png",
      "score": 17.4,
      "band": "emerging",
      "band_label": "Emerging",
