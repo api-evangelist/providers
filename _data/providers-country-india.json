@@ -1,6 +1,6 @@
 {
- "total": 345,
- "shown": 345,
+ "total": 343,
+ "shown": 343,
  "limit": 1000,
  "bands": [
   {
@@ -16417,29 +16417,6 @@
       "agentic_commerce": false
      },
      "rank": 343
-    }
-   ]
-  },
-  {
-   "band": "unrated",
-   "label": "Not Yet Rated",
-   "range": "",
-   "blurb": "Providers we have not scored yet — unknown, not zero.",
-   "count": 2,
-   "shown": 2,
-   "providers": [
-    {
-     "name": "Norwest Venture Partners",
-     "slug": "norwest-venture-partners",
-     "description": "Norwest Venture Partners is a multi-stage venture capital and growth equity investment firm founded in 1961 and headquartered in Menlo Park, California, with additional presence in San Francisco and subsidiaries in Mumbai, India and Tel Aviv, Israel. As of its 2024 NVP XVII fund ($3B), the firm manages more than $15.5 billion in capital and has backed over 700 companies across its history. Norwest invests across the full lifecycle — from early-stage venture through late-stage growth equity — with sector focus spanning enterprise and B2B SaaS, cloud and infrastructure, AI, fintech, healthcare and life sciences (including biotech and digital health), and consumer and lifestyle brands. The firm is known for a hands-on but non-intrusive partnership model, backing its founders with Portfolio Success programs across talent, operations, leadership, and go-to-market. Notable investments include Plaid, Uber, Spotify, Opendoor, Gong, Vuori, Kendra Scott, Casper, Udemy, Avetta, Adaptive Insights, YipitData, Babylist, Workato, and Veza.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/norwest-venture-partners/refs/heads/main/screenshots/norwest-venture-partners-2026-08-07T185534.png",
-     "rank": 344
-    },
-    {
-     "name": "Prosus Ventures",
-     "slug": "prosus-ventures",
-     "description": "Prosus Ventures is the venture-capital arm of Prosus, the Amsterdam-headquartered global consumer-internet and technology group (part of the Naspers group), founded in 2015 to make early-stage and growth-stage technology investments in high-growth markets outside the United States and China. The firm invests to \"fuel the ecommerce flywheel,\" backing companies across food delivery, fintech, consumer services, logistics, e-commerce and marketplaces, plus a strong and growing focus on early-stage AI startups that reshape the e-commerce value chain (shopping and advertising tech, customer support, AI agents and operations) and frontier technologies such as quantum computing, robotics, space and biotech. Prosus Ventures typically invests from seed through Series B and into growth rounds, with a primary geographic focus on India, Latin America and Europe, plus activity in Southeast Asia, the Middle East and ANZ. In fiscal year 2025 the group committed and invested over $400 million across 40+ closed transactions, including roughly $88 million into AI. Its public portfolio spans 80+ companies including Meesho, Urban Company, PharmEasy, Klar, ElasticRun, BandLab, Ema, Corti and Oxford Ionics. The venture team is led by CEO Martin Tschopp with regional heads across India, Europe, Southeast Asia and the Middle East.",
-     "rank": 345
     }
    ]
   }

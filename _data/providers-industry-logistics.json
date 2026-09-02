@@ -1,6 +1,6 @@
 {
- "total": 653,
- "shown": 653,
+ "total": 649,
+ "shown": 649,
  "limit": 1000,
  "bands": [
   {
@@ -29906,43 +29906,6 @@
       "agentic_commerce": false
      },
      "rank": 649
-    }
-   ]
-  },
-  {
-   "band": "unrated",
-   "label": "Not Yet Rated",
-   "range": "",
-   "blurb": "Providers we have not scored yet — unknown, not zero.",
-   "count": 4,
-   "shown": 4,
-   "providers": [
-    {
-     "name": "8VC",
-     "slug": "8vc",
-     "description": "8VC is a technology investment firm founded in 2015 by Joe Lonsdale and Jake Medwell (with founding partners Drew Oetting and Kimmy Scotti) following the wind-down of Formation 8, and headquartered at 907 South Congress Avenue in Austin, Texas after relocating from San Francisco in 2020. The firm both invests in and co-founds early-stage companies, dedicating a significant share of its capital (roughly 25-30%) to building companies from scratch through its \"8VC Build\" venture-studio program and assembling teams of top specialists. 8VC concentrates on \"national capability\" and deep-tech categories including defense, life sciences and biotech, healthcare, logistics and supply chain, manufacturing and industrials, enterprise software, financial services, AI, and IT infrastructure. With approximately $6 billion in assets under management (2023) and a public portfolio of more than 170 companies, 8VC is known for its founder-led, mission-driven approach and notable investments including Palantir, Addepar, Anduril, Flexport, Vercel, Saronic, Epirus, Yugabyte, and Project44. The firm runs the 8VC Fellowship and Bio-IT Fellowship talent programs and maintains a stated policy of not accepting capital from foreign-government-connected sources.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/8vc/refs/heads/main/screenshots/8vc-2026-07-25T181247.png",
-     "rank": 650
-    },
-    {
-     "name": "Automated Sorting Systems",
-     "slug": "automated-sorting-systems",
-     "description": "Automated Sorting Systems covers the technology landscape of automated conveyance, sortation, and parcel routing systems used in logistics, warehousing, e-commerce fulfillment, and postal distribution. Key vendors include Dematic, Vanderlande, BEUMER Group, Swisslog, Honeywell Intelligrated, and Solystic. These systems integrate with warehouse management systems (WMS), warehouse control systems (WCS), and ERP platforms via APIs and EDI to orchestrate high-speed package sorting.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/automated-sorting-systems/refs/heads/main/screenshots/automated-sorting-systems-2026-06-20T172653.png",
-     "rank": 651
-    },
-    {
-     "name": "Customs Forms",
-     "slug": "customs-forms",
-     "description": "Customs forms are the standardized declarations and supporting documents that importers, exporters, and carriers must complete to move goods across international borders. Common forms include the CBP Form 7501 (Entry Summary), CBP Form 3461 (Entry/Immediate Delivery), commercial invoice, packing list, certificate of origin (USMCA, GSP, etc.), CN22 / CN23 international postal customs declarations, the EU Single Administrative Document (SAD), and shipper export declarations. Many forms are now filed electronically through national customs computer systems (ACE, CDS, ICS2, NACCS), while postal and parcel carriers (UPS, FedEx, DHL, USPS) expose shipping APIs that generate the customs paperwork on behalf of shippers.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/customs-forms/refs/heads/main/screenshots/customs-forms-2026-06-20T175355.png",
-     "rank": 652
-    },
-    {
-     "name": "Prosus Ventures",
-     "slug": "prosus-ventures",
-     "description": "Prosus Ventures is the venture-capital arm of Prosus, the Amsterdam-headquartered global consumer-internet and technology group (part of the Naspers group), founded in 2015 to make early-stage and growth-stage technology investments in high-growth markets outside the United States and China. The firm invests to \"fuel the ecommerce flywheel,\" backing companies across food delivery, fintech, consumer services, logistics, e-commerce and marketplaces, plus a strong and growing focus on early-stage AI startups that reshape the e-commerce value chain (shopping and advertising tech, customer support, AI agents and operations) and frontier technologies such as quantum computing, robotics, space and biotech. Prosus Ventures typically invests from seed through Series B and into growth rounds, with a primary geographic focus on India, Latin America and Europe, plus activity in Southeast Asia, the Middle East and ANZ. In fiscal year 2025 the group committed and invested over $400 million across 40+ closed transactions, including roughly $88 million into AI. Its public portfolio spans 80+ companies including Meesho, Urban Company, PharmEasy, Klar, ElasticRun, BandLab, Ema, Corti and Oxford Ionics. The venture team is led by CEO Martin Tschopp with regional heads across India, Europe, Southeast Asia and the Middle East.",
-     "rank": 653
     }
    ]
   }

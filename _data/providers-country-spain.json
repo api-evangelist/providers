@@ -1,6 +1,6 @@
 {
- "total": 36,
- "shown": 36,
+ "total": 35,
+ "shown": 35,
  "limit": 1000,
  "bands": [
   {
@@ -319,8 +319,8 @@
    "label": "Thin",
    "range": "26.2 – 39.2",
    "blurb": "Limited machine-readable signal beyond documentation a human can read.",
-   "count": 8,
-   "shown": 8,
+   "count": 7,
+   "shown": 7,
    "providers": [
     {
      "name": "Autonomous University of Barcelona",
@@ -375,44 +375,6 @@
      "rank": 7
     },
     {
-     "name": "Factorial",
-     "slug": "factorial",
-     "description": "Factorial is a Spain-headquartered HRIS and human resources platform offering employee management, time tracking, attendance, time off, payroll, performance, recruitment, documents, and expenses for small and mid-sized businesses. The Factorial Developer API provides versioned REST endpoints (dated like 2026-04-01) for integrating with employees, leaves, contracts, attendance shifts, and other HR resources, with API key and OAuth 2.0 authentication and both production and demo environments.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/factorial/refs/heads/main/screenshots/factorial-2026-06-20T181037.png",
-     "score": 30.8,
-     "band": "thin",
-     "band_label": "Thin",
-     "facets": {
-      "discoverability": 68.5,
-      "contract_quality": 57.4,
-      "governance": 0.0,
-      "operational_transparency": 5.3,
-      "developer_ergonomics": 26.1,
-      "commercial_clarity": 18.4
-     },
-     "scored_at": "2026-08-06",
-     "schema_version": "0.9.1",
-     "agent_score": 27.5,
-     "agent_band": "agent-aware",
-     "agent_dims": {
-      "spec_presence": true,
-      "agentic_access": "derived",
-      "mcp_server": false,
-      "auth_clarity": true,
-      "idempotency": false,
-      "error_semantics": false,
-      "openapi_examples": false,
-      "rate_limit_signal": false,
-      "event_surface_described": false,
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false
-     },
-     "rank": 8
-    },
-    {
      "name": "Complutense University of Madrid",
      "slug": "complutense-university-of-madrid",
      "description": "Universidad Complutense de Madrid (UCM) is Spain's largest public research university, founded 1499 and ranked #164 in the QS World University Rankings 2025. UCM operates no central developer portal and publishes no OpenAPI, AsyncAPI or SDK of its own — a re-profile on 2026-08-30 probed every candidate host and found none. What it does operate, verified live, is two things. First, Docta Complutense (docta.ucm.es), its institutional repository, self-hosted on UCM's own domain running DSpace 7.6.5: the DSpace REST/HAL API answers at /rest/api and an OAI-PMH 2.0 endpoint answers verb=Identify at /rest/oai/request with twelve metadata formats. The repository is UCM's; the API contract is DSpace's open-source one and is not saved here. Second, UCM is registered in eduGAIN through the Spanish RedIRIS SIR federation as a SAML 2.0 Identity Provider (entityID https://www.rediris.es/sir/ucmidp, scope ucm.es, Sirtfi asserted) — machine-readable, institution-scoped, but hosted on RedIRIS infrastructure, so recorded as a tenant relationship. UCM's open data is not self-hosted either: it is published through UniversiDATA, a five-university DKAN consortium portal (UAM, UCM, UHU, UVa, URJC) that exposes DataStore, CKAN and DCAT APIs. Thirteen of the portal's seventy-one datasets are UCM's — degree programmes, faculties, departments, budgets, mobility and procurement. UCM's data, the consortium's platform, so every UniversiDATA surface below is x-operator tenant, not institution. No course/timetable API, no library discovery API, no research-computing or campus-life API was found on any ucm.es host.",
@@ -462,7 +424,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 9
+     "rank": 8
     },
     {
      "name": "Holded",
@@ -507,7 +469,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 10
+     "rank": 9
     },
     {
      "name": "University of Navarra",
@@ -559,7 +521,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 11
+     "rank": 10
     },
     {
      "name": "Koalaboox",
@@ -604,7 +566,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 12
+     "rank": 11
     },
     {
      "name": "BBVA",
@@ -656,7 +618,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 13
+     "rank": 12
     },
     {
      "name": "Universitat Pompeu Fabra",
@@ -708,7 +670,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 14
+     "rank": 13
     }
    ]
   },
@@ -770,7 +732,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 15
+     "rank": 14
     },
     {
      "name": "Lingokids",
@@ -822,7 +784,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 16
+     "rank": 15
     },
     {
      "name": "Novicap",
@@ -867,7 +829,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 17
+     "rank": 16
     },
     {
      "name": "University of Barcelona",
@@ -918,7 +880,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 18
+     "rank": 17
     },
     {
      "name": "Casavo",
@@ -962,7 +924,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 19
+     "rank": 18
     },
     {
      "name": "IDOVEN",
@@ -1014,7 +976,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 20
+     "rank": 19
     },
     {
      "name": "Aragón Open Data",
@@ -1066,7 +1028,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 21
+     "rank": 20
     },
     {
      "name": "Bienvenido a OpenData UGR",
@@ -1118,7 +1080,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 22
+     "rank": 21
     },
     {
      "name": "Datos abiertos",
@@ -1170,7 +1132,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 23
+     "rank": 22
     },
     {
      "name": "Madrid Region Open Data",
@@ -1222,7 +1184,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 24
+     "rank": 23
     },
     {
      "name": "Portal Datos Abiertos Ayuntamiento de Málaga",
@@ -1274,7 +1236,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 25
+     "rank": 24
     },
     {
      "name": "Portal oficial Ayuntamiento de Rivas Vaciamadrid",
@@ -1326,7 +1288,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 26
+     "rank": 25
     },
     {
      "name": "Ontruck",
@@ -1371,7 +1333,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 27
+     "rank": 26
     },
     {
      "name": "Impress",
@@ -1422,7 +1384,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 28
+     "rank": 27
     }
    ]
   },
@@ -1477,7 +1439,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 29
+     "rank": 28
     },
     {
      "name": "Magnific",
@@ -1522,7 +1484,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 30
+     "rank": 29
     },
     {
      "name": "Goin",
@@ -1574,7 +1536,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 31
+     "rank": 30
     },
     {
      "name": "UPM YODA Open Data Portal",
@@ -1626,7 +1588,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 32
+     "rank": 31
     },
     {
      "name": "Blink Booking",
@@ -1671,7 +1633,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 33
+     "rank": 32
     },
     {
      "name": "Circular",
@@ -1715,7 +1677,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 34
+     "rank": 33
     },
     {
      "name": "Masmovil",
@@ -1767,7 +1729,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 35
+     "rank": 34
     },
     {
      "name": "Groupalia",
@@ -1819,7 +1781,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 36
+     "rank": 35
     }
    ]
   }

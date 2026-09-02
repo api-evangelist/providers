@@ -1,6 +1,6 @@
 {
- "total": 113,
- "shown": 113,
+ "total": 112,
+ "shown": 112,
  "limit": 1000,
  "bands": [
   {
@@ -5478,23 +5478,6 @@
       "agentic_commerce": false
      },
      "rank": 112
-    }
-   ]
-  },
-  {
-   "band": "unrated",
-   "label": "Not Yet Rated",
-   "range": "",
-   "blurb": "Providers we have not scored yet — unknown, not zero.",
-   "count": 1,
-   "shown": 1,
-   "providers": [
-    {
-     "name": "Hillhouse Investment",
-     "slug": "hillhouse",
-     "description": "Hillhouse Investment (formerly Hillhouse Capital) is a global investment firm founded in 2005 by Lei Zhang with seed capital from the Yale University endowment, and is one of Asia's largest private-market investors, managing an estimated US$100 billion in assets as of 2026. Headquartered in Singapore with offices in Hong Kong, Beijing, Shanghai, New York, London, and Abu Dhabi, the firm invests globally across all stages of a company's life cycle, spanning public equities, growth equity, private equity buyouts, venture capital (through its early-stage arm GL Ventures, launched in 2020), and real assets. Hillhouse describes itself as disciplined and pragmatic investors who prioritize business fundamentals and deep, bottom-up industry research, with sector focus on healthcare, industrials, energy transition, business services, and consumer. Its portfolio spans companies headquartered in more than 25 countries and has included category-defining businesses such as Tencent, JD.com, Baidu, Zoom, BeiGene, Miniso, Airbnb, Uber, and Didi. Backers have historically included major university endowments (Yale, Stanford, Princeton, MIT, University of Pennsylvania, University of Texas) and CPPIB.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/hillhouse/refs/heads/main/screenshots/hillhouse-2026-07-25T221225.png",
-     "rank": 113
     }
    ]
   }

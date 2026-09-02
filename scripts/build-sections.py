@@ -44,9 +44,25 @@ INDUSTRIES_YML = os.path.join(ROOT, "insights-work", "_data", "industries.yml")
 SCORING_YML = os.path.join(ROOT, "api-search", "signals", "_data", "scoring.yml")
 DELISTED_YML = os.path.join(ROOT, "api-search", "network", "_data", "delisted.yml")
 
+# The SHARED tag normalizer, imported rather than reimplemented. Tags are
+# canonicalized at rest, and `canon_key` is the one function that says whether
+# two spellings are the same tag. Matching industry clusters with a local
+# `.lower()` silently missed every tag the 2026-08-20 canonicalization rewrote:
+# the page tag became `Machine-Learning` while the cluster term stayed
+# `machine learning`, so 277 AI providers on apis.io were absent here, 94 more
+# through `Computer-Vision`, 378 across that one industry. Fails loudly rather
+# than falling back to `.lower()` — a quiet fallback IS the bug. roadmap#196.
+sys.path.insert(0, os.path.join(ROOT, "api-search", "network", "scripts"))
+import lib_tag_norm as tag_norm
+
 NAME_RE = re.compile(r"^name:\s*(.+?)\s*$")
 DESC_RE = re.compile(r"^description:\s*(.*?)\s*$")
 TAGS_RE = re.compile(r"^tags:\n((?:\s*- .+\n)+)", re.MULTILINE)
+# Top-level `tags:` of a built provider page. Industry membership reads THESE,
+# not all/<slug>/apis.yml: the page is the canonicalized form, apis.yml is the
+# writer's raw input, and apis.io files its catalog from the page. Same regex
+# as build_industries.py's `_TAGS_BLOCK_RE`, deliberately.
+PAGE_TAGS_RE = re.compile(r"^tags:\n((?:- .+\n)+)", re.MULTILINE)
 
 # Top industrial countries, roughly ordered by manufacturing output. Each maps
 # to the tag aliases used across all/* apis.yml files. A provider is filed
@@ -1122,6 +1138,74 @@ def delisted_slugs():
     return {r["slug"] for r in rows if isinstance(r, dict) and r.get("slug")}
 
 
+def retired_map():
+    """{merged-away slug -> survivor} from network/_data/retired.yml.
+
+    The jobs roster in insights-work names companies by the slug they had when
+    the research ran, and some of those have since been merged away. Resolving
+    before membership keeps the company (three of the five tombstoned roster
+    slugs have a survivor that is NOT itself on the roster, so skipping them
+    would drop a real company) and collapses the other two, which were being
+    counted twice. Mirrors build_industries.py on the apis.io side. roadmap#196.
+    """
+    path = os.path.join(ROOT, "api-search", "network", "_data", "retired.yml")
+    if not os.path.isfile(path):
+        print("WARNING: %s not found — merged slugs will be counted twice" % path)
+        return {}
+    with open(path, "r", encoding="utf-8") as fh:
+        rows = yaml.safe_load(fh) or []
+    return {r["slug"]: r.get("merged_into") for r in rows
+            if isinstance(r, dict) and r.get("slug") and r.get("merged_into")}
+
+
+def catalog_slugs():
+    """Slugs that are LIVE providers in the catalog — the scan domain for every
+    all/* section on this site.
+
+    `all/` is not a provider list. It also holds ~106 venture-firm repos and
+    ~102 concept/standard repos (`activitypub`, `api-first`, `c-sharp`, `acid`,
+    `barcode-scanners`) that carry a `tags:` block and therefore match industry
+    tag clusters exactly like a provider would. A provider page is never absent
+    for a real provider, so requiring one is a safe test for "is this a
+    provider at all" — it is the same gate apis.io's build_industries.py
+    applies ("membership requires a provider page to link to").
+
+    Tombstones are excluded too. A merged provider keeps its apis.yml under
+    all/<slug>/ with all its original tags, while its page becomes a
+    `layout: redirect` stub with no tags — so a scan of all/* counts the merged
+    slug AND its successor, double-counting one company. `modal` (merged into
+    `modal-com`) was doing exactly that on /industries/semiconductors-hardware/.
+
+    These two classes were the whole disagreement between this site and
+    industries.apis.io on the two industries roadmap#196 named — supply-chain
+    1283 vs 1271, semiconductors-hardware 1077 vs 1068. They were NOT the whole
+    story across the taxonomy: 10 further industries stayed apart on tag
+    normalization, fixed separately at the tag_norm import above.
+
+    Raises rather than degrading. Both fallbacks are wrong — scanning all/*
+    unguarded republishes the bug, and an empty set silently publishes 75 empty
+    industries — and a missing providers directory means this site cannot be
+    built correctly either way.
+    """
+    live = set()
+    if not os.path.isdir(PROVIDERS):
+        raise SystemExit(
+            "FATAL: %s not found — industry and country membership is computed "
+            "against the live provider pages and cannot be built without them." % PROVIDERS)
+    for fname in os.listdir(PROVIDERS):
+        if not fname.endswith(".md"):
+            continue
+        try:
+            with open(os.path.join(PROVIDERS, fname), "r", encoding="utf-8", errors="ignore") as fh:
+                head = fh.read(400)
+        except OSError:
+            continue
+        if re.search(r"^layout:\s*redirect\s*$", head, re.MULTILINE):
+            continue
+        live.add(fname[:-3])
+    return live
+
+
 def slugify(name):
     s = name.lower()
     s = re.sub(r"\(([^)]*)\)", r" \1 ", s)
@@ -1826,9 +1910,13 @@ def main():
     apis_cache = {}
 
     delisted = delisted_slugs()
+    catalog = catalog_slugs()
+    retired = retired_map()
 
     def meta_of(slug):
         if slug in delisted:
+            return None
+        if slug not in catalog:
             return None
         if slug not in apis_cache:
             apis_cache[slug] = read_apis_yml(slug)
@@ -1871,7 +1959,8 @@ def main():
             INDUSTRY_ICONS.get(ind_slug, "domain"),
         )
         for sub in ind.get("industries") or []:
-            rec["providers"].update(sub.get("companies") or [])
+            rec["providers"].update(retired.get(c) or c
+                                    for c in (sub.get("companies") or []))
 
     # Tag clusters. A definition here overrides the taxonomy's name, blurb, and
     # icon for a shared slug — the catalog-derived framing is the better one —
@@ -1902,16 +1991,24 @@ def main():
         rec = industry(spec["slug"], spec["name"], spec["description"], spec["icon"])
         rec.update({"name": spec["name"], "description": spec["description"], "icon": spec["icon"]})
         for tag in spec["tags"]:
-            tag_to_slugs.setdefault(tag, set()).add(spec["slug"])
+            key = tag_norm.canon_key(tag)
+            if key:
+                tag_to_slugs.setdefault(key, set()).add(spec["slug"])
 
-    for repo in sorted(os.listdir(ALL), key=str.lower):
-        if not os.path.isdir(os.path.join(ALL, repo)):
+    for repo in sorted(catalog, key=str.lower):
+        if repo in delisted:
             continue
-        meta = meta_of(repo)
-        if meta is None:
+        try:
+            with open(os.path.join(PROVIDERS, repo + ".md"), "r",
+                      encoding="utf-8", errors="ignore") as fh:
+                page = fh.read()
+        except OSError:
             continue
-        for t in meta[2]:
-            for slug in tag_to_slugs.get(t.strip().lower(), ()):
+        m = PAGE_TAGS_RE.search(page)
+        if not m:
+            continue
+        for line in m.group(1).splitlines():
+            for slug in tag_to_slugs.get(tag_norm.canon_key(line[2:].strip().strip("'\"")), ()):
                 if repo in TAG_INDUSTRY_EXCLUDE.get(slug, ()):
                     continue
                 industries[slug]["providers"].add(repo)

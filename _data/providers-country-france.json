@@ -1,6 +1,6 @@
 {
- "total": 144,
- "shown": 144,
+ "total": 143,
+ "shown": 143,
  "limit": 1000,
  "bands": [
   {
@@ -7005,22 +7005,6 @@
       "agentic_commerce": false
      },
      "rank": 143
-    }
-   ]
-  },
-  {
-   "band": "unrated",
-   "label": "Not Yet Rated",
-   "range": "",
-   "blurb": "Providers we have not scored yet — unknown, not zero.",
-   "count": 1,
-   "shown": 1,
-   "providers": [
-    {
-     "name": "Serena",
-     "slug": "serena",
-     "description": "Serena is a Paris-based European venture capital firm founded in 2008 by Xavier Lorphelin, Marc Fournier and Philippe Hayat, investing in Europe-based founders from pre-seed through Series A with initial tickets ranging from EUR 100K to EUR 15M. The firm closed its EUR 200M Fund IV in 2026, bringing total assets under management to over EUR 1 billion, and concentrates on applied AI, the modern data stack and AI infrastructure, SaaS, climate tech and the energy transition, commercial open source, blockchain, quantum, consumer innovation and impact. Serena describes itself as \"by entrepreneurs for entrepreneurs\" and pairs capital with an in-house operating team (Capital Boost), a dedicated data-focused arm in Serena Data Ventures, and the Racine squared impact and deep-tech vehicle. Its published portfolio of 113 companies includes Dataiku, Memo Bank, Descartes Underwriting, Mindee, Probabl, ACINQ, Brigad and Evaneos, alongside exits such as LaFourchette/The Fork to TripAdvisor, AramisAuto to PSA, PrestaShop to MBE Worldwide, iBanFirst to Marlin Equity Partners, Alkemics to Salsify, Hull to MessageBird, Koyeb and Emmi AI to Mistral, Leonardo.ai to Canva, Shadow to OVH, and the NYSE IPO of Sequans. The firm also publishes an unusually deep public research library, including the French AI Report, the Serena European SaaS Benchmark and the Commercial Open Source Software (COSS) Report. This profile tracks Serena's identity and its portfolio graph across the API Evangelist network.",
-     "rank": 144
     }
    ]
   }

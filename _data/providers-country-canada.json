@@ -1,6 +1,6 @@
 {
- "total": 176,
- "shown": 176,
+ "total": 175,
+ "shown": 175,
  "limit": 1000,
  "bands": [
   {
@@ -8906,22 +8906,6 @@
       "agentic_commerce": false
      },
      "rank": 175
-    }
-   ]
-  },
-  {
-   "band": "unrated",
-   "label": "Not Yet Rated",
-   "range": "",
-   "blurb": "Providers we have not scored yet — unknown, not zero.",
-   "count": 1,
-   "shown": 1,
-   "providers": [
-    {
-     "name": "Version One Ventures",
-     "slug": "version-one-ventures",
-     "description": "Version One Ventures is an early-stage venture capital firm founded in July 2012 by Boris Wertz and headquartered in Vancouver, British Columbia, Canada, with a partner presence in San Francisco. Run by founding partner Boris Wertz and general partner Angela Tran, the firm backs mission-driven founders who are early in new areas, writing pre-seed and seed checks where it typically leads or co-leads rounds in the roughly $500K-$1.5M range. Version One invests across marketplaces, SaaS, fintech and crypto, AI and automation, robotics and physical AI, deep tech, biology and health, and emerging-market ecosystems including India and Africa. Over more than a decade the firm has grown into a franchise of six funds and backed 100+ companies, with an early-stage track record that includes Coinbase (2021 NASDAQ direct listing), Uniswap, Dapper Labs, Ada, Jobber, Top Hat, and Shippo. In June 2026 the firm closed Version One Fund V ($78M) alongside Opportunities Fund III ($30M) for $108M in combined new capital.",
-     "rank": 176
     }
    ]
   }

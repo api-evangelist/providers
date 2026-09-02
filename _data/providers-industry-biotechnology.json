@@ -1,5 +1,5 @@
 {
- "total": 1271,
+ "total": 1267,
  "shown": 1000,
  "limit": 1000,
  "bands": [
@@ -50922,15 +50922,6 @@
      "rank": 1000
     }
    ]
-  },
-  {
-   "band": "unrated",
-   "label": "Not Yet Rated",
-   "range": "",
-   "blurb": "Providers we have not scored yet — unknown, not zero.",
-   "count": 4,
-   "shown": 0,
-   "providers": []
   }
  ]
 }

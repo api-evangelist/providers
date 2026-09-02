@@ -1,6 +1,6 @@
 {
- "total": 623,
- "shown": 623,
+ "total": 622,
+ "shown": 622,
  "limit": 1000,
  "bands": [
   {
@@ -71,8 +71,8 @@
    "label": "Strong",
    "range": "54.3 – 66.4",
    "blurb": "Solid contracts, transparent operations, and an easy start.",
-   "count": 12,
-   "shown": 12,
+   "count": 13,
+   "shown": 13,
    "providers": [
     {
      "name": "Zillapi",
@@ -118,6 +118,50 @@
       "agentic_commerce": false
      },
      "rank": 2
+    },
+    {
+     "name": "SignSealShip Partner API",
+     "slug": "signsealship",
+     "description": "E-signature, remote online notarization coordination, document verification and physical delivery in one workflow. The API covers onboarding, orders, closing rooms, closing passports, proof passports, webhooks and a sandbox. Also indexes a free CC BY 4.0 dataset of remote online notarization requirements for all 51 U.S. jurisdictions.",
+     "score": 61.5,
+     "band": "strong",
+     "band_label": "Strong",
+     "facets": {
+      "discoverability": 70.4,
+      "contract_quality": 48.1,
+      "governance": 4.5,
+      "contract_governance": 4.5,
+      "operational_transparency": 86.8,
+      "developer_ergonomics": 69.0,
+      "commercial_clarity": 84.2,
+      "access_clarity": 84.2
+     },
+     "scored_at": "2026-09-01",
+     "schema_version": "0.18.0",
+     "agent_score": 35.5,
+     "agent_band": "agent-ready",
+     "agent_dims": {
+      "spec_presence": true,
+      "agentic_access": false,
+      "reversibility_documented": false,
+      "mcp_server": "documented",
+      "auth_clarity": "bearer",
+      "idempotency": "documented",
+      "error_semantics": "documented",
+      "openapi_examples": false,
+      "rate_limit_signal": "documented",
+      "event_surface_described": true,
+      "agent_skills": true,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
+     "rank": 3
     },
     {
      "name": "CoreLogic (Cotality)",
@@ -169,7 +213,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 3
+     "rank": 4
     },
     {
      "name": "Yardi Canada",
@@ -228,7 +272,7 @@
       "dynamic_client_registration": true,
       "agentic_commerce": false
      },
-     "rank": 4
+     "rank": 5
     },
     {
      "name": "Ordnance Survey",
@@ -280,7 +324,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 5
+     "rank": 6
     },
     {
      "name": "Goodlord",
@@ -339,7 +383,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 6
+     "rank": 7
     },
     {
      "name": "Bridge",
@@ -391,7 +435,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 7
+     "rank": 8
     },
     {
      "name": "Reapit",
@@ -436,7 +480,7 @@
       "dynamic_client_registration": true,
       "agentic_commerce": false
      },
-     "rank": 8
+     "rank": 9
     },
     {
      "name": "Findigs",
@@ -488,7 +532,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 9
+     "rank": 10
     },
     {
      "name": "HM Land Registry",
@@ -540,7 +584,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 10
+     "rank": 11
     },
     {
      "name": "Cobot",
@@ -592,7 +636,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 11
+     "rank": 12
     },
     {
      "name": "Street.co.uk",
@@ -637,7 +681,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 12
+     "rank": 13
     },
     {
      "name": "ReefAPI",
@@ -681,7 +725,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 13
+     "rank": 14
     }
    ],
    "open": true
@@ -743,7 +787,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 14
+     "rank": 15
     },
     {
      "name": "Spark Platform",
@@ -788,7 +832,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 15
+     "rank": 16
     },
     {
      "name": "Fund That Flip",
@@ -833,7 +877,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 16
+     "rank": 17
     },
     {
      "name": "LeaseAccelerator",
@@ -878,7 +922,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 17
+     "rank": 18
     },
     {
      "name": "ATTOM",
@@ -929,7 +973,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 18
+     "rank": 19
     },
     {
      "name": "PEXA",
@@ -974,7 +1018,7 @@
       "dynamic_client_registration": true,
       "agentic_commerce": false
      },
-     "rank": 19
+     "rank": 20
     },
     {
      "name": "Snappt",
@@ -1019,7 +1063,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 20
+     "rank": 21
     },
     {
      "name": "VaultRE",
@@ -1064,7 +1108,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 21
+     "rank": 22
     },
     {
      "name": "Arthur Online",
@@ -1123,7 +1167,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 22
+     "rank": 23
     },
     {
      "name": "Sex Offenders API",
@@ -1175,7 +1219,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 23
+     "rank": 24
     },
     {
      "name": "Lone Wolf Technologies",
@@ -1227,7 +1271,7 @@
       "dynamic_client_registration": true,
       "agentic_commerce": false
      },
-     "rank": 24
+     "rank": 25
     },
     {
      "name": "Measurabl",
@@ -1286,7 +1330,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 25
+     "rank": 26
     },
     {
      "name": "Landmark Information Group",
@@ -1331,7 +1375,7 @@
       "dynamic_client_registration": true,
       "agentic_commerce": false
      },
-     "rank": 26
+     "rank": 27
     },
     {
      "name": "REA Group",
@@ -1376,7 +1420,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 27
+     "rank": 28
     },
     {
      "name": "NSW Land Registry Services",
@@ -1428,7 +1472,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 28
+     "rank": 29
     },
     {
      "name": "Alasco",
@@ -1473,7 +1517,7 @@
       "dynamic_client_registration": true,
       "agentic_commerce": false
      },
-     "rank": 29
+     "rank": 30
     },
     {
      "name": "Avito",
@@ -1518,7 +1562,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 30
+     "rank": 31
     },
     {
      "name": "Estated",
@@ -1563,7 +1607,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 31
+     "rank": 32
     },
     {
      "name": "Land Insight",
@@ -1608,7 +1652,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 32
+     "rank": 33
     },
     {
      "name": "Alto (Vebra / Zoopla)",
@@ -1653,7 +1697,7 @@
       "dynamic_client_registration": true,
       "agentic_commerce": false
      },
-     "rank": 33
+     "rank": 34
     },
     {
      "name": "Beyond",
@@ -1698,7 +1742,7 @@
       "dynamic_client_registration": true,
       "agentic_commerce": false
      },
-     "rank": 34
+     "rank": 35
     },
     {
      "name": "Facilio",
@@ -1743,7 +1787,7 @@
       "dynamic_client_registration": true,
       "agentic_commerce": false
      },
-     "rank": 35
+     "rank": 36
     },
     {
      "name": "Regrid",
@@ -1788,7 +1832,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 36
+     "rank": 37
     },
     {
      "name": "PropertyMe",
@@ -1840,7 +1884,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 37
+     "rank": 38
     },
     {
      "name": "PlanRadar",
@@ -1885,7 +1929,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 38
+     "rank": 39
     },
     {
      "name": "Aptly",
@@ -1930,7 +1974,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 39
+     "rank": 40
     },
     {
      "name": "HappyCo",
@@ -1975,7 +2019,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 40
+     "rank": 41
     },
     {
      "name": "Hometrack",
@@ -2020,7 +2064,7 @@
       "dynamic_client_registration": true,
       "agentic_commerce": false
      },
-     "rank": 41
+     "rank": 42
     },
     {
      "name": "Shovels",
@@ -2065,7 +2109,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 42
+     "rank": 43
     },
     {
      "name": "Rhino",
@@ -2117,7 +2161,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 43
+     "rank": 44
     },
     {
      "name": "Interhyp",
@@ -2169,7 +2213,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 44
+     "rank": 45
     },
     {
      "name": "Domain Group",
@@ -2214,7 +2258,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 45
+     "rank": 46
     },
     {
      "name": "RentCheck",
@@ -2259,7 +2303,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 46
+     "rank": 47
     },
     {
      "name": "RESO (Real Estate Standards Organization)",
@@ -2304,7 +2348,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 47
+     "rank": 48
     },
     {
      "name": "Cubby",
@@ -2356,7 +2400,7 @@
       "dynamic_client_registration": true,
       "agentic_commerce": false
      },
-     "rank": 48
+     "rank": 49
     },
     {
      "name": "SMS Assist",
@@ -2401,7 +2445,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 49
+     "rank": 50
     },
     {
      "name": "CertifID",
@@ -2453,7 +2497,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 50
+     "rank": 51
     },
     {
      "name": "Butlr",
@@ -2498,7 +2542,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 51
+     "rank": 52
     },
     {
      "name": "Bounti",
@@ -2543,7 +2587,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 52
+     "rank": 53
     },
     {
      "name": "CREA (REALTOR.ca)",
@@ -2588,7 +2632,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 53
+     "rank": 54
     },
     {
      "name": "Valon",
@@ -2639,7 +2683,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 54
+     "rank": 55
     },
     {
      "name": "Placer",
@@ -2684,7 +2728,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 55
+     "rank": 56
     },
     {
      "name": "VTS",
@@ -2729,7 +2773,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 56
+     "rank": 57
     },
     {
      "name": "Anywhere Real Estate",
@@ -2781,7 +2825,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 57
+     "rank": 58
     },
     {
      "name": "Trestle",
@@ -2825,7 +2869,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 58
+     "rank": 59
     },
     {
      "name": "Door",
@@ -2870,7 +2914,7 @@
       "dynamic_client_registration": true,
       "agentic_commerce": false
      },
-     "rank": 59
+     "rank": 60
     },
     {
      "name": "Redfin",
@@ -2915,7 +2959,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 60
+     "rank": 61
     },
     {
      "name": "Homebot",
@@ -2960,7 +3004,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 61
+     "rank": 62
     },
     {
      "name": "Landing",
@@ -3005,7 +3049,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 62
+     "rank": 63
     },
     {
      "name": "Rentberry",
@@ -3056,7 +3100,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 63
+     "rank": 64
     },
     {
      "name": "Oper Credits",
@@ -3115,7 +3159,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 64
+     "rank": 65
     },
     {
      "name": "Luxury Presence",
@@ -3160,7 +3204,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 65
+     "rank": 66
     },
     {
      "name": "Density",
@@ -3205,7 +3249,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 66
+     "rank": 67
     },
     {
      "name": "Fixflo",
@@ -3250,7 +3294,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 67
+     "rank": 68
     },
     {
      "name": "Landgate",
@@ -3302,7 +3346,7 @@
       "dynamic_client_registration": true,
       "agentic_commerce": false
      },
-     "rank": 68
+     "rank": 69
     },
     {
      "name": "Propertyware",
@@ -3347,7 +3391,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 69
+     "rank": 70
     },
     {
      "name": "ATTOM",
@@ -3392,7 +3436,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 70
+     "rank": 71
     },
     {
      "name": "Steadily",
@@ -3443,7 +3487,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 71
+     "rank": 72
     },
     {
      "name": "Zillow Group",
@@ -3488,7 +3532,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 72
+     "rank": 73
     },
     {
      "name": "RentCast",
@@ -3533,7 +3577,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 73
+     "rank": 74
     },
     {
      "name": "Cherre",
@@ -3578,7 +3622,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 74
+     "rank": 75
     },
     {
      "name": "Keller Williams",
@@ -3630,7 +3674,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 75
+     "rank": 76
     },
     {
      "name": "Sprift",
@@ -3675,7 +3719,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 76
+     "rank": 77
     }
    ]
   },
@@ -3730,7 +3774,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 77
+     "rank": 78
     },
     {
      "name": "Notarize",
@@ -3775,7 +3819,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 78
+     "rank": 79
     },
     {
      "name": "RealtyMole",
@@ -3819,7 +3863,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 79
+     "rank": 80
     },
     {
      "name": "ButterflyMX",
@@ -3864,7 +3908,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 80
+     "rank": 81
     },
     {
      "name": "Yardi",
@@ -3909,7 +3953,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 81
+     "rank": 82
     },
     {
      "name": "Landcor Data",
@@ -3954,7 +3998,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 82
+     "rank": 83
     },
     {
      "name": "Wahi",
@@ -4005,7 +4049,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 83
+     "rank": 84
     },
     {
      "name": "CloudKitchens",
@@ -4050,7 +4094,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 84
+     "rank": 85
     },
     {
      "name": "Fundrise",
@@ -4095,7 +4139,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 85
+     "rank": 86
     },
     {
      "name": "Walk Score",
@@ -4140,7 +4184,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 86
+     "rank": 87
     },
     {
      "name": "dotloop",
@@ -4185,7 +4229,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 87
+     "rank": 88
     },
     {
      "name": "GuestReady",
@@ -4229,7 +4273,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 88
+     "rank": 89
     },
     {
      "name": "MLS Grid",
@@ -4274,7 +4318,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 89
+     "rank": 90
     },
     {
      "name": "MatterPort",
@@ -4319,7 +4363,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 90
+     "rank": 91
     },
     {
      "name": "One Concern",
@@ -4370,7 +4414,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 91
+     "rank": 92
     },
     {
      "name": "Zillow",
@@ -4422,7 +4466,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 92
+     "rank": 93
     },
     {
      "name": "Innago",
@@ -4474,7 +4518,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 93
+     "rank": 94
     },
     {
      "name": "Funnel Leasing",
@@ -4519,7 +4563,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 94
+     "rank": 95
     },
     {
      "name": "Pricefinder",
@@ -4571,7 +4615,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 95
+     "rank": 96
     },
     {
      "name": "REALTOR.ca",
@@ -4615,7 +4659,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 96
+     "rank": 97
     },
     {
      "name": "Purplebricks",
@@ -4659,7 +4703,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 97
+     "rank": 98
     },
     {
      "name": "Alphageo",
@@ -4704,7 +4748,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 98
+     "rank": 99
     },
     {
      "name": "Qualia",
@@ -4755,7 +4799,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 99
+     "rank": 100
     },
     {
      "name": "Findable",
@@ -4800,7 +4844,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 100
+     "rank": 101
     },
     {
      "name": "HouseCanary",
@@ -4845,7 +4889,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 101
+     "rank": 102
     },
     {
      "name": "Zoopla",
@@ -4890,7 +4934,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 102
+     "rank": 103
     },
     {
      "name": "Blackstone",
@@ -4935,7 +4979,7 @@
       "dynamic_client_registration": true,
       "agentic_commerce": false
      },
-     "rank": 103
+     "rank": 104
     },
     {
      "name": "SkySlope",
@@ -4979,7 +5023,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 104
+     "rank": 105
     },
     {
      "name": "Bridge Interactive",
@@ -5024,7 +5068,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 105
+     "rank": 106
     },
     {
      "name": "Perchwell",
@@ -5069,7 +5113,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 106
+     "rank": 107
     },
     {
      "name": "Offerpad",
@@ -5121,7 +5165,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 107
+     "rank": 108
     },
     {
      "name": "Mashvisor",
@@ -5166,7 +5210,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 108
+     "rank": 109
     },
     {
      "name": "CBRE",
@@ -5211,7 +5255,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 109
+     "rank": 110
     },
     {
      "name": "Trulia",
@@ -5263,7 +5307,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 110
+     "rank": 111
     },
     {
      "name": "AirDNA",
@@ -5315,7 +5359,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 111
+     "rank": 112
     },
     {
      "name": "InnerSpace",
@@ -5360,7 +5404,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 112
+     "rank": 113
     },
     {
      "name": "RICS (Royal Institution of Chartered Surveyors)",
@@ -5404,7 +5448,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 113
+     "rank": 114
     },
     {
      "name": "Taylor Morrison Home",
@@ -5449,7 +5493,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 114
+     "rank": 115
     },
     {
      "name": "Apex27",
@@ -5494,7 +5538,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 115
+     "rank": 116
     },
     {
      "name": "RealEstateAPI",
@@ -5539,7 +5583,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 116
+     "rank": 117
     },
     {
      "name": "SpaceIQ",
@@ -5583,7 +5627,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 117
+     "rank": 118
     },
     {
      "name": "Particle Space",
@@ -5627,7 +5671,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 118
+     "rank": 119
     },
     {
      "name": "Flashparking",
@@ -5678,7 +5722,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 119
+     "rank": 120
     },
     {
      "name": "CREXi",
@@ -5723,7 +5767,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 120
+     "rank": 121
     },
     {
      "name": "HouseSigma",
@@ -5768,7 +5812,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 121
+     "rank": 122
     },
     {
      "name": "Vantaca",
@@ -5812,7 +5856,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 122
+     "rank": 123
     },
     {
      "name": "Entrata",
@@ -5864,7 +5908,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 123
+     "rank": 124
     },
     {
      "name": "Navigate",
@@ -5909,7 +5953,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 124
+     "rank": 125
     },
     {
      "name": "AlterEstate",
@@ -5954,7 +5998,7 @@
       "dynamic_client_registration": true,
       "agentic_commerce": false
      },
-     "rank": 125
+     "rank": 126
     },
     {
      "name": "National Association of REALTORS",
@@ -5999,7 +6043,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 126
+     "rank": 127
     },
     {
      "name": "TwentyCi",
@@ -6043,7 +6087,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 127
+     "rank": 128
     },
     {
      "name": "MRI Software",
@@ -6088,7 +6132,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 128
+     "rank": 129
     },
     {
      "name": "Clear Capital",
@@ -6133,7 +6177,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 129
+     "rank": 130
     },
     {
      "name": "Level Home",
@@ -6178,7 +6222,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 130
+     "rank": 131
     },
     {
      "name": "Yuhu",
@@ -6229,7 +6273,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 131
+     "rank": 132
     },
     {
      "name": "Flueid",
@@ -6287,7 +6331,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 132
+     "rank": 133
     },
     {
      "name": "RealPage",
@@ -6332,7 +6376,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 133
+     "rank": 134
     },
     {
      "name": "Rightmove",
@@ -6377,7 +6421,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 134
+     "rank": 135
     },
     {
      "name": "Quikr",
@@ -6421,7 +6465,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 135
+     "rank": 136
     },
     {
      "name": "Americold Realty Trust",
@@ -6466,7 +6510,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 136
+     "rank": 137
     },
     {
      "name": "Knight Frank",
@@ -6518,7 +6562,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 137
+     "rank": 138
     },
     {
      "name": "ABM Industries",
@@ -6563,7 +6607,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 138
+     "rank": 139
     },
     {
      "name": "Dealpath",
@@ -6608,7 +6652,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 139
+     "rank": 140
     },
     {
      "name": "CoreLogic Australia",
@@ -6653,7 +6697,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 140
+     "rank": 141
     },
     {
      "name": "LightBox Zoning API",
@@ -6698,7 +6742,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 141
+     "rank": 142
     },
     {
      "name": "Rentvine",
@@ -6743,7 +6787,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 142
+     "rank": 143
     },
     {
      "name": "SimpleNexus",
@@ -6787,7 +6831,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 143
+     "rank": 144
     },
     {
      "name": "Homeward",
@@ -6832,7 +6876,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 144
+     "rank": 145
     },
     {
      "name": "Opendoor",
@@ -6877,7 +6921,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 145
+     "rank": 146
     },
     {
      "name": "Teranet",
@@ -6928,7 +6972,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 146
+     "rank": 147
     }
    ]
   },
@@ -6990,7 +7034,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 147
+     "rank": 148
     },
     {
      "name": "Homes.com",
@@ -7042,7 +7086,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 148
+     "rank": 149
     },
     {
      "name": "Nesto",
@@ -7094,7 +7138,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 149
+     "rank": 150
     },
     {
      "name": "TurboTenant",
@@ -7139,7 +7183,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 150
+     "rank": 151
     },
     {
      "name": "Get Covered",
@@ -7191,7 +7235,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 151
+     "rank": 152
     },
     {
      "name": "Homads",
@@ -7236,7 +7280,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 152
+     "rank": 153
     },
     {
      "name": "NeueHouse",
@@ -7280,7 +7324,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 153
+     "rank": 154
     },
     {
      "name": "Connells Group",
@@ -7332,7 +7376,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 154
+     "rank": 155
     },
     {
      "name": "Weyerhaeuser",
@@ -7377,7 +7421,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 155
+     "rank": 156
     },
     {
      "name": "Rent Manager",
@@ -7422,7 +7466,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 156
+     "rank": 157
     },
     {
      "name": "View.com.au",
@@ -7466,7 +7510,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 157
+     "rank": 158
     },
     {
      "name": "Coadjute",
@@ -7511,7 +7555,7 @@
       "dynamic_client_registration": true,
       "agentic_commerce": false
      },
-     "rank": 158
+     "rank": 159
     },
     {
      "name": "propertybase",
@@ -7555,7 +7599,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 159
+     "rank": 160
     },
     {
      "name": "Accenta",
@@ -7613,7 +7657,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 160
+     "rank": 161
     },
     {
      "name": "Local Logic",
@@ -7658,7 +7702,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 161
+     "rank": 162
     },
     {
      "name": "Casavo",
@@ -7702,7 +7746,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 162
+     "rank": 163
     },
     {
      "name": "TenantCloud",
@@ -7754,7 +7798,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 163
+     "rank": 164
     },
     {
      "name": "HqO",
@@ -7799,7 +7843,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 164
+     "rank": 165
     },
     {
      "name": "Avail",
@@ -7843,7 +7887,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 165
+     "rank": 166
     },
     {
      "name": "DoorLoop",
@@ -7888,7 +7932,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 166
+     "rank": 167
     },
     {
      "name": "Follow Up Boss",
@@ -7933,7 +7977,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 167
+     "rank": 168
     },
     {
      "name": "Reggora",
@@ -7977,7 +8021,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 168
+     "rank": 169
     },
     {
      "name": "RE/MAX Canada",
@@ -8028,7 +8072,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 169
+     "rank": 170
     },
     {
      "name": "Zumper",
@@ -8073,7 +8117,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 170
+     "rank": 171
     },
     {
      "name": "Console Group",
@@ -8125,7 +8169,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 171
+     "rank": 172
     },
     {
      "name": "LoopNet",
@@ -8169,7 +8213,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 172
+     "rank": 173
     },
     {
      "name": "Habiteo",
@@ -8213,7 +8257,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 173
+     "rank": 174
     },
     {
      "name": "Landis",
@@ -8258,7 +8302,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 174
+     "rank": 175
     },
     {
      "name": "Better",
@@ -8310,7 +8354,7 @@
       "dynamic_client_registration": true,
       "agentic_commerce": false
      },
-     "rank": 175
+     "rank": 176
     },
     {
      "name": "EliseAI",
@@ -8361,7 +8405,7 @@
       "dynamic_client_registration": true,
       "agentic_commerce": false
      },
-     "rank": 176
+     "rank": 177
     },
     {
      "name": "Rabbet",
@@ -8412,7 +8456,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 177
+     "rank": 178
     },
     {
      "name": "WeWork",
@@ -8457,7 +8501,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 178
+     "rank": 179
     },
     {
      "name": "MSCI",
@@ -8502,7 +8546,7 @@
       "dynamic_client_registration": true,
       "agentic_commerce": false
      },
-     "rank": 179
+     "rank": 180
     },
     {
      "name": "Redaptive",
@@ -8553,7 +8597,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 180
+     "rank": 181
     },
     {
      "name": "Agentbox",
@@ -8598,7 +8642,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 181
+     "rank": 182
     },
     {
      "name": "Landlord Studio",
@@ -8643,7 +8687,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 182
+     "rank": 183
     },
     {
      "name": "Qualia",
@@ -8694,7 +8738,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 183
+     "rank": 184
     },
     {
      "name": "PLACE",
@@ -8745,7 +8789,7 @@
       "dynamic_client_registration": true,
       "agentic_commerce": false
      },
-     "rank": 184
+     "rank": 185
     },
     {
      "name": "ARGUS Developer",
@@ -8790,7 +8834,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 185
+     "rank": 186
     },
     {
      "name": "Esusu",
@@ -8835,7 +8879,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 186
+     "rank": 187
     },
     {
      "name": "Kleio",
@@ -8879,7 +8923,7 @@
       "dynamic_client_registration": true,
       "agentic_commerce": false
      },
-     "rank": 187
+     "rank": 188
     },
     {
      "name": "TheGuarantors",
@@ -8930,7 +8974,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 188
+     "rank": 189
     },
     {
      "name": "CoStar Group",
@@ -8975,7 +9019,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 189
+     "rank": 190
     },
     {
      "name": "Evolve",
@@ -9019,7 +9063,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 190
+     "rank": 191
     },
     {
      "name": "Hostfully",
@@ -9064,7 +9108,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 191
+     "rank": 192
     },
     {
      "name": "Doorstead",
@@ -9108,7 +9152,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 192
+     "rank": 193
     },
     {
      "name": "Hemlane",
@@ -9153,7 +9197,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 193
+     "rank": 194
     },
     {
      "name": "PadMapper",
@@ -9198,7 +9242,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 194
+     "rank": 195
     },
     {
      "name": "BuildZoom",
@@ -9243,7 +9287,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 195
+     "rank": 196
     },
     {
      "name": "Climate-X",
@@ -9295,7 +9339,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 196
+     "rank": 197
     },
     {
      "name": "LendInvest",
@@ -9340,7 +9384,7 @@
       "dynamic_client_registration": true,
       "agentic_commerce": false
      },
-     "rank": 197
+     "rank": 198
     },
     {
      "name": "Fifth Dimension",
@@ -9385,7 +9429,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 198
+     "rank": 199
     },
     {
      "name": "RE/MAX",
@@ -9436,7 +9480,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 199
+     "rank": 200
     },
     {
      "name": "Revolution RE",
@@ -9480,7 +9524,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 200
+     "rank": 201
     },
     {
      "name": "Propertymark",
@@ -9524,7 +9568,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 201
+     "rank": 202
     },
     {
      "name": "REalyse",
@@ -9568,7 +9612,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 202
+     "rank": 203
     },
     {
      "name": "True Footage",
@@ -9612,7 +9656,7 @@
       "dynamic_client_registration": true,
       "agentic_commerce": false
      },
-     "rank": 203
+     "rank": 204
     },
     {
      "name": "Offr",
@@ -9657,7 +9701,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 204
+     "rank": 205
     },
     {
      "name": "Noda",
@@ -9709,7 +9753,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 205
+     "rank": 206
     },
     {
      "name": "SL Green Realty Corp.",
@@ -9754,7 +9798,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 206
+     "rank": 207
     },
     {
      "name": "Foxtons",
@@ -9799,7 +9843,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 207
+     "rank": 208
     },
     {
      "name": "PropTrack",
@@ -9851,7 +9895,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 208
+     "rank": 209
     },
     {
      "name": "Apartments.com",
@@ -9896,7 +9940,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 209
+     "rank": 210
     },
     {
      "name": "Nuvolo",
@@ -9948,7 +9992,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 210
+     "rank": 211
     },
     {
      "name": "RealScout",
@@ -9992,7 +10036,7 @@
       "dynamic_client_registration": true,
       "agentic_commerce": false
      },
-     "rank": 211
+     "rank": 212
     },
     {
      "name": "Better Mortgage",
@@ -10037,7 +10081,7 @@
       "dynamic_client_registration": true,
       "agentic_commerce": false
      },
-     "rank": 212
+     "rank": 213
     },
     {
      "name": "Greenlite",
@@ -10089,7 +10133,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 213
+     "rank": 214
     },
     {
      "name": "AppFolio",
@@ -10141,7 +10185,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 214
+     "rank": 215
     },
     {
      "name": "Standard Industries",
@@ -10186,7 +10230,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 215
+     "rank": 216
     },
     {
      "name": "CrowdStreet",
@@ -10231,7 +10275,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 216
+     "rank": 217
     },
     {
      "name": "LendingPad",
@@ -10276,7 +10320,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 217
+     "rank": 218
     },
     {
      "name": "Pretto",
@@ -10327,7 +10371,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 218
+     "rank": 219
     },
     {
      "name": "Summer 2",
@@ -10371,7 +10415,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 219
+     "rank": 220
     },
     {
      "name": "Blueground",
@@ -10416,7 +10460,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 220
+     "rank": 221
     },
     {
      "name": "Buildium",
@@ -10461,7 +10505,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 221
+     "rank": 222
     },
     {
      "name": "Aceable",
@@ -10513,7 +10557,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 222
+     "rank": 223
     },
     {
      "name": "Build",
@@ -10558,7 +10602,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 223
+     "rank": 224
     },
     {
      "name": "Real Estate Institute of Australia",
@@ -10603,7 +10647,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 224
+     "rank": 225
     },
     {
      "name": "OnTheMarket",
@@ -10648,7 +10692,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 225
+     "rank": 226
     },
     {
      "name": "Realtyna",
@@ -10693,7 +10737,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 226
+     "rank": 227
     },
     {
      "name": "Simon Property Group",
@@ -10738,7 +10782,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 227
+     "rank": 228
     },
     {
      "name": "VendorPM",
@@ -10782,7 +10826,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 228
+     "rank": 229
     },
     {
      "name": "Roofstock",
@@ -10826,7 +10870,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 229
+     "rank": 230
     },
     {
      "name": "OLX",
@@ -10871,7 +10915,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 230
+     "rank": 231
     },
     {
      "name": "Northspyre",
@@ -10916,7 +10960,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 231
+     "rank": 232
     },
     {
      "name": "Staircase",
@@ -10960,7 +11004,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 232
+     "rank": 233
     },
     {
      "name": "Arrived",
@@ -11005,7 +11049,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 233
+     "rank": 234
     },
     {
      "name": "Storefront",
@@ -11049,7 +11093,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 234
+     "rank": 235
     },
     {
      "name": "Honeyhomes",
@@ -11094,7 +11138,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 235
+     "rank": 236
     },
     {
      "name": "PermitFlow",
@@ -11145,7 +11189,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 236
+     "rank": 237
     },
     {
      "name": "Royal LePage",
@@ -11196,7 +11240,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 237
+     "rank": 238
     },
     {
      "name": "Rentals.ca",
@@ -11247,7 +11291,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 238
+     "rank": 239
     },
     {
      "name": "GoPillar",
@@ -11292,7 +11336,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 239
+     "rank": 240
     },
     {
      "name": "HostnFly",
@@ -11337,7 +11381,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 240
+     "rank": 241
     },
     {
      "name": "Milo Credit",
@@ -11382,7 +11426,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 241
+     "rank": 242
     },
     {
      "name": "Vennre",
@@ -11426,7 +11470,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 242
+     "rank": 243
     },
     {
      "name": "Lastro",
@@ -11471,7 +11515,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 243
+     "rank": 244
     },
     {
      "name": "Wayhome",
@@ -11515,7 +11559,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 244
+     "rank": 245
     },
     {
      "name": "Boxabl",
@@ -11560,7 +11604,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 245
+     "rank": 246
     },
     {
      "name": "Brookfield Asset Management",
@@ -11612,7 +11656,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 246
+     "rank": 247
     },
     {
      "name": "Limehome",
@@ -11657,7 +11701,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 247
+     "rank": 248
     },
     {
      "name": "Property Capsule",
@@ -11701,7 +11745,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 248
+     "rank": 249
     },
     {
      "name": "Arrived Homes",
@@ -11746,7 +11790,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 249
+     "rank": 250
     },
     {
      "name": "Peerspace",
@@ -11790,7 +11834,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 250
+     "rank": 251
     },
     {
      "name": "Lennar",
@@ -11835,7 +11879,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 251
+     "rank": 252
     },
     {
      "name": "Expansive",
@@ -11880,7 +11924,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 252
+     "rank": 253
     },
     {
      "name": "PreFix",
@@ -11924,7 +11968,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 253
+     "rank": 254
     },
     {
      "name": "Cape Analytics",
@@ -11976,7 +12020,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 254
+     "rank": 255
     },
     {
      "name": "Housewhisper",
@@ -12021,7 +12065,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 255
+     "rank": 256
     },
     {
      "name": "Lamudi",
@@ -12066,7 +12110,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 256
+     "rank": 257
     },
     {
      "name": "Lessen",
@@ -12111,7 +12155,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 257
+     "rank": 258
     },
     {
      "name": "Trelora",
@@ -12155,7 +12199,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 258
+     "rank": 259
     },
     {
      "name": "Haven Connect",
@@ -12200,7 +12244,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 259
+     "rank": 260
     },
     {
      "name": "Acretrader",
@@ -12245,7 +12289,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 260
+     "rank": 261
     },
     {
      "name": "Houm",
@@ -12289,7 +12333,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 261
+     "rank": 262
     },
     {
      "name": "HomeLight",
@@ -12334,7 +12378,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 262
+     "rank": 263
     },
     {
      "name": "LeaseLock",
@@ -12386,7 +12430,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 263
+     "rank": 264
     },
     {
      "name": "Letswork",
@@ -12431,7 +12475,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 264
+     "rank": 265
     },
     {
      "name": "Renew Financial",
@@ -12482,7 +12526,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 265
+     "rank": 266
     },
     {
      "name": "Worq",
@@ -12526,7 +12570,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 266
+     "rank": 267
     },
     {
      "name": "Belong Home",
@@ -12570,7 +12614,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 267
+     "rank": 268
     },
     {
      "name": "Block Renovation",
@@ -12615,7 +12659,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 268
+     "rank": 269
     },
     {
      "name": "Ergeon",
@@ -12660,7 +12704,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 269
+     "rank": 270
     },
     {
      "name": "GoWork",
@@ -12705,7 +12749,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 270
+     "rank": 271
     },
     {
      "name": "Hubble",
@@ -12750,7 +12794,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 271
+     "rank": 272
     },
     {
      "name": "Piinpoint",
@@ -12794,7 +12838,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 272
+     "rank": 273
     },
     {
      "name": "Safqah Holdings Limited",
@@ -12838,7 +12882,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 273
+     "rank": 274
     },
     {
      "name": "WiredScore",
@@ -12882,7 +12926,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 274
+     "rank": 275
     },
     {
      "name": "Spectora",
@@ -12926,7 +12970,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 275
+     "rank": 276
     },
     {
      "name": "Bruce",
@@ -12978,7 +13022,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 276
+     "rank": 277
     },
     {
      "name": "CBRE Australia",
@@ -13023,7 +13067,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 277
+     "rank": 278
     },
     {
      "name": "Hometap",
@@ -13068,7 +13112,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 278
+     "rank": 279
     },
     {
      "name": "Zibo",
@@ -13119,7 +13163,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 279
+     "rank": 280
     },
     {
      "name": "Zolo",
@@ -13163,7 +13207,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 280
+     "rank": 281
     },
     {
      "name": "Baania",
@@ -13208,7 +13252,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 281
+     "rank": 282
     },
     {
      "name": "Construction Monitor",
@@ -13253,7 +13297,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 282
+     "rank": 283
     },
     {
      "name": "DoorFeed",
@@ -13298,7 +13342,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 283
+     "rank": 284
     },
     {
      "name": "dwell",
@@ -13343,7 +13387,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 284
+     "rank": 285
     },
     {
      "name": "Grotto AI",
@@ -13388,7 +13432,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 285
+     "rank": 286
     },
     {
      "name": "Shweproperty",
@@ -13432,7 +13476,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 286
+     "rank": 287
     },
     {
      "name": "Yardi Propware",
@@ -13477,7 +13521,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 287
+     "rank": 288
     },
     {
      "name": "Abodu",
@@ -13522,7 +13566,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 288
+     "rank": 289
     },
     {
      "name": "Aino World Inc.",
@@ -13567,7 +13611,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 289
+     "rank": 290
     },
     {
      "name": "HiGuest",
@@ -13612,7 +13656,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 290
+     "rank": 291
     },
     {
      "name": "Jome",
@@ -13657,7 +13701,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 291
+     "rank": 292
     },
     {
      "name": "NoBroker",
@@ -13702,7 +13746,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 292
+     "rank": 293
     },
     {
      "name": "Zuma",
@@ -13746,7 +13790,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 293
+     "rank": 294
     },
     {
      "name": "CentralComs",
@@ -13791,7 +13835,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 294
+     "rank": 295
     },
     {
      "name": "RentSpree",
@@ -13843,7 +13887,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 295
+     "rank": 296
     },
     {
      "name": "Closinglock",
@@ -13894,7 +13938,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 296
+     "rank": 297
     },
     {
      "name": "First American Financial",
@@ -13946,7 +13990,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 297
+     "rank": 298
     },
     {
      "name": "Loft",
@@ -13991,7 +14035,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 298
+     "rank": 299
     },
     {
      "name": "PlotAPI",
@@ -14035,7 +14079,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 299
+     "rank": 300
     },
     {
      "name": "appearhere",
@@ -14080,7 +14124,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 300
+     "rank": 301
     },
     {
      "name": "Entera",
@@ -14125,7 +14169,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 301
+     "rank": 302
     },
     {
      "name": "Praxis",
@@ -14169,7 +14213,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 302
+     "rank": 303
     },
     {
      "name": "RenoFi",
@@ -14213,7 +14257,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 303
+     "rank": 304
     },
     {
      "name": "Smart Bricks Holdings Limited",
@@ -14257,7 +14301,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 304
+     "rank": 305
     },
     {
      "name": "Splitero",
@@ -14301,7 +14345,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 305
+     "rank": 306
     },
     {
      "name": "Squares",
@@ -14345,7 +14389,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 306
+     "rank": 307
     },
     {
      "name": "swivl",
@@ -14389,7 +14433,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 307
+     "rank": 308
     },
     {
      "name": "Tailorbird",
@@ -14433,7 +14477,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 308
+     "rank": 309
     },
     {
      "name": "Tenex",
@@ -14477,7 +14521,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 309
+     "rank": 310
     },
     {
      "name": "MHub",
@@ -14522,7 +14566,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 310
+     "rank": 311
     },
     {
      "name": "Baselane",
@@ -14574,7 +14618,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 311
+     "rank": 312
     },
     {
      "name": "Homebound",
@@ -14619,7 +14663,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 312
+     "rank": 313
     },
     {
      "name": "Housable",
@@ -14664,7 +14708,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 313
+     "rank": 314
     },
     {
      "name": "Sankun",
@@ -14708,7 +14752,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 314
+     "rank": 315
     },
     {
      "name": "AvantStay",
@@ -14753,7 +14797,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 315
+     "rank": 316
     },
     {
      "name": "Booqed",
@@ -14798,7 +14842,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 316
+     "rank": 317
     },
     {
      "name": "DiversyFund",
@@ -14843,7 +14887,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 317
+     "rank": 318
     },
     {
      "name": "flatfair",
@@ -14888,7 +14932,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 318
+     "rank": 319
     },
     {
      "name": "Houst",
@@ -14933,7 +14977,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 319
+     "rank": 320
     },
     {
      "name": "London House Exchange (Property Partner)",
@@ -14977,7 +15021,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 320
+     "rank": 321
     },
     {
      "name": "Lower",
@@ -15022,7 +15066,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 321
+     "rank": 322
     },
     {
      "name": "PadSplit",
@@ -15067,7 +15111,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 322
+     "rank": 323
     },
     {
      "name": "Qbiq",
@@ -15111,7 +15155,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 323
+     "rank": 324
     },
     {
      "name": "Quinto Andar",
@@ -15155,7 +15199,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 324
+     "rank": 325
     },
     {
      "name": "Basebuild",
@@ -15200,7 +15244,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 325
+     "rank": 326
     },
     {
      "name": "Flock Homes",
@@ -15245,7 +15289,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 326
+     "rank": 327
     },
     {
      "name": "BeyondHQ",
@@ -15289,7 +15333,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 327
+     "rank": 328
     },
     {
      "name": "Douglas Elliman",
@@ -15341,7 +15385,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 328
+     "rank": 329
     },
     {
      "name": "Duranta",
@@ -15385,7 +15429,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 329
+     "rank": 330
     },
     {
      "name": "OJO Labs",
@@ -15429,7 +15473,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 330
+     "rank": 331
     },
     {
      "name": "Ray White",
@@ -15480,7 +15524,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 331
+     "rank": 332
     },
     {
      "name": "Stuf Storage",
@@ -15524,7 +15568,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 332
+     "rank": 333
     },
     {
      "name": "Up&Up",
@@ -15568,7 +15612,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 333
+     "rank": 334
     },
     {
      "name": "Avenue One",
@@ -15613,7 +15657,7 @@
       "dynamic_client_registration": true,
       "agentic_commerce": false
      },
-     "rank": 334
+     "rank": 335
     },
     {
      "name": "Second Home",
@@ -15657,7 +15701,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 335
+     "rank": 336
     },
     {
      "name": "Tellus",
@@ -15701,7 +15745,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 336
+     "rank": 337
     },
     {
      "name": "FlyHomes",
@@ -15746,7 +15790,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 337
+     "rank": 338
     },
     {
      "name": "Kasa Living",
@@ -15791,7 +15835,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 338
+     "rank": 339
     },
     {
      "name": "SkenarioLabs",
@@ -15835,7 +15879,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 339
+     "rank": 340
     },
     {
      "name": "Snapdocs",
@@ -15879,7 +15923,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 340
+     "rank": 341
     },
     {
      "name": "Bowery Valuation",
@@ -15923,7 +15967,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 341
+     "rank": 342
     },
     {
      "name": "Exporo",
@@ -15975,7 +16019,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 342
+     "rank": 343
     },
     {
      "name": "Jones",
@@ -16027,7 +16071,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 343
+     "rank": 344
     },
     {
      "name": "Nomad Homes",
@@ -16072,7 +16116,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 344
+     "rank": 345
     },
     {
      "name": "Omnee",
@@ -16117,7 +16161,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 345
+     "rank": 346
     },
     {
      "name": "Century Communities",
@@ -16162,7 +16206,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 346
+     "rank": 347
     },
     {
      "name": "La Haus",
@@ -16213,7 +16257,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 347
+     "rank": 348
     },
     {
      "name": "Lina",
@@ -16265,7 +16309,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 348
+     "rank": 349
     },
     {
      "name": "PotlatchDeltic",
@@ -16310,7 +16354,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 349
+     "rank": 350
     },
     {
      "name": "Skyline Champion",
@@ -16354,7 +16398,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 350
+     "rank": 351
     },
     {
      "name": "Kiavi",
@@ -16399,7 +16443,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 351
+     "rank": 352
     },
     {
      "name": "Matera",
@@ -16444,7 +16488,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 352
+     "rank": 353
     },
     {
      "name": "Onefinestay",
@@ -16489,7 +16533,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 353
+     "rank": 354
     },
     {
      "name": "Propseller",
@@ -16540,7 +16584,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 354
+     "rank": 355
     }
    ]
   },
@@ -16595,7 +16639,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 355
+     "rank": 356
     },
     {
      "name": "Konn Technologies",
@@ -16640,7 +16684,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 356
+     "rank": 357
     },
     {
      "name": "Mr. Cooper Group",
@@ -16685,7 +16729,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 357
+     "rank": 358
     },
     {
      "name": "Automax Ai",
@@ -16730,7 +16774,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 358
+     "rank": 359
     },
     {
      "name": "Pine",
@@ -16774,7 +16818,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 359
+     "rank": 360
     },
     {
      "name": "Rollins",
@@ -16819,7 +16863,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 360
+     "rank": 361
     },
     {
      "name": "Apartment List",
@@ -16864,7 +16908,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 361
+     "rank": 362
     },
     {
      "name": "Brick&Bolt",
@@ -16909,7 +16953,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 362
+     "rank": 363
     },
     {
      "name": "California Forever",
@@ -16954,7 +16998,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 363
+     "rank": 364
     },
     {
      "name": "Clikalia",
@@ -16999,7 +17043,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 364
+     "rank": 365
     },
     {
      "name": "Dwelly",
@@ -17044,7 +17088,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 365
+     "rank": 366
     },
     {
      "name": "Epic CleanTec",
@@ -17088,7 +17132,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 366
+     "rank": 367
     },
     {
      "name": "Habi",
@@ -17133,7 +17177,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 367
+     "rank": 368
     },
     {
      "name": "HomeVision",
@@ -17185,7 +17229,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 368
+     "rank": 369
     },
     {
      "name": "HouseEazy",
@@ -17230,7 +17274,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 369
+     "rank": 370
     },
     {
      "name": "Improovy",
@@ -17275,7 +17319,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 370
+     "rank": 371
     },
     {
      "name": "Kasa",
@@ -17320,7 +17364,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 371
+     "rank": 372
     },
     {
      "name": "Nawy",
@@ -17365,7 +17409,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 372
+     "rank": 373
     },
     {
      "name": "Nexii",
@@ -17410,7 +17454,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 373
+     "rank": 374
     },
     {
      "name": "Own Up",
@@ -17455,7 +17499,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 374
+     "rank": 375
     },
     {
      "name": "Proportunity",
@@ -17499,7 +17543,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 375
+     "rank": 376
     },
     {
      "name": "Prypco",
@@ -17543,7 +17587,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 376
+     "rank": 377
     },
     {
      "name": "Rayonier",
@@ -17588,7 +17632,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 377
+     "rank": 378
     },
     {
      "name": "Roomi",
@@ -17632,7 +17676,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 378
+     "rank": 379
     },
     {
      "name": "Travelio",
@@ -17676,7 +17720,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 379
+     "rank": 380
     },
     {
      "name": "Truehold",
@@ -17720,7 +17764,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 380
+     "rank": 381
     },
     {
      "name": "Vico",
@@ -17764,7 +17808,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 381
+     "rank": 382
     },
     {
      "name": "Cadre",
@@ -17809,7 +17853,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 382
+     "rank": 383
     },
     {
      "name": "OnsiteIQ",
@@ -17854,7 +17898,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 383
+     "rank": 384
     },
     {
      "name": "AirGarage",
@@ -17906,7 +17950,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 384
+     "rank": 385
     },
     {
      "name": "Alude",
@@ -17958,7 +18002,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 385
+     "rank": 386
     },
     {
      "name": "Belong",
@@ -18002,7 +18046,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 386
+     "rank": 387
     },
     {
      "name": "Ejari Co.",
@@ -18054,7 +18098,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 387
+     "rank": 388
     },
     {
      "name": "Qwikwire",
@@ -18105,7 +18149,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 388
+     "rank": 389
     },
     {
      "name": "UrbanMetry",
@@ -18149,7 +18193,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 389
+     "rank": 390
     },
     {
      "name": "Breezy",
@@ -18194,7 +18238,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 390
+     "rank": 391
     },
     {
      "name": "Divvy Homes",
@@ -18239,7 +18283,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 391
+     "rank": 392
     },
     {
      "name": "ICON",
@@ -18284,7 +18328,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 392
+     "rank": 393
     },
     {
      "name": "Juno",
@@ -18328,7 +18372,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 393
+     "rank": 394
     },
     {
      "name": "LightBox",
@@ -18373,7 +18417,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 394
+     "rank": 395
     },
     {
      "name": "Metro Residences",
@@ -18418,7 +18462,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 395
+     "rank": 396
     },
     {
      "name": "Mint House",
@@ -18463,7 +18507,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 396
+     "rank": 397
     },
     {
      "name": "Realty Mogul",
@@ -18507,7 +18551,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 397
+     "rank": 398
     },
     {
      "name": "Set Scouter",
@@ -18551,7 +18595,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 398
+     "rank": 399
     },
     {
      "name": "Vioo",
@@ -18595,7 +18639,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 399
+     "rank": 400
     },
     {
      "name": "Withco",
@@ -18639,7 +18683,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 400
+     "rank": 401
     },
     {
      "name": "99.co",
@@ -18683,7 +18727,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 401
+     "rank": 402
     },
     {
      "name": "Leadstate Incorporated",
@@ -18728,7 +18772,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 402
+     "rank": 403
     },
     {
      "name": "Lane",
@@ -18773,7 +18817,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 403
+     "rank": 404
     },
     {
      "name": "Argus Software",
@@ -18818,7 +18862,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 404
+     "rank": 405
     },
     {
      "name": "Higharc",
@@ -18863,7 +18907,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 405
+     "rank": 406
     },
     {
      "name": "Copperlane",
@@ -18908,7 +18952,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 406
+     "rank": 407
     },
     {
      "name": "Habito",
@@ -18953,7 +18997,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 407
+     "rank": 408
     },
     {
      "name": "huspy",
@@ -18998,7 +19042,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 408
+     "rank": 409
     },
     {
      "name": "Jetty",
@@ -19050,7 +19094,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 409
+     "rank": 410
     },
     {
      "name": "Pacaso",
@@ -19095,7 +19139,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 410
+     "rank": 411
     },
     {
      "name": "Proper",
@@ -19139,7 +19183,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 411
+     "rank": 412
     },
     {
      "name": "Realm",
@@ -19183,7 +19227,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 412
+     "rank": 413
     },
     {
      "name": "Reposit",
@@ -19234,7 +19278,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 413
+     "rank": 414
     },
     {
      "name": "Ryland Group",
@@ -19278,7 +19322,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 414
+     "rank": 415
     },
     {
      "name": "Sundae",
@@ -19322,7 +19366,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 415
+     "rank": 416
     },
     {
      "name": "Welltower",
@@ -19367,7 +19411,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 416
+     "rank": 417
     },
     {
      "name": "Vesta",
@@ -19411,7 +19455,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 417
+     "rank": 418
     },
     {
      "name": "Doma",
@@ -19463,7 +19507,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 418
+     "rank": 419
     },
     {
      "name": "Flatlooker",
@@ -19508,7 +19552,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 419
+     "rank": 420
     },
     {
      "name": "Closing Theory Studios",
@@ -19553,7 +19597,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 420
+     "rank": 421
     },
     {
      "name": "Homeday",
@@ -19605,7 +19649,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 421
+     "rank": 422
     },
     {
      "name": "IAD",
@@ -19650,7 +19694,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 422
+     "rank": 423
     },
     {
      "name": "LJ Hooker",
@@ -19702,7 +19746,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 423
+     "rank": 424
     },
     {
      "name": "Pashouses",
@@ -19747,7 +19791,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 424
+     "rank": 425
     },
     {
      "name": "Volter",
@@ -19798,7 +19842,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 425
+     "rank": 426
     },
     {
      "name": "Klaim",
@@ -19850,7 +19894,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 426
+     "rank": 427
     },
     {
      "name": "LocateAI",
@@ -19895,7 +19939,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 427
+     "rank": 428
     },
     {
      "name": "Tomo Guides",
@@ -19939,7 +19983,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 428
+     "rank": 429
     },
     {
      "name": "Ukio",
@@ -19983,7 +20027,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 429
+     "rank": 430
     },
     {
      "name": "Enertiv",
@@ -20035,7 +20079,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 430
+     "rank": 431
     },
     {
      "name": "Autositu",
@@ -20080,7 +20124,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 431
+     "rank": 432
     },
     {
      "name": "Side",
@@ -20131,7 +20175,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 432
+     "rank": 433
     },
     {
      "name": "MISMO",
@@ -20176,7 +20220,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 433
+     "rank": 434
     },
     {
      "name": "Officebanao",
@@ -20221,7 +20265,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 434
+     "rank": 435
     },
     {
      "name": "Century 21 Canada",
@@ -20273,7 +20317,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 435
+     "rank": 436
     },
     {
      "name": "Pellego",
@@ -20324,7 +20368,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 436
+     "rank": 437
     },
     {
      "name": "Savills",
@@ -20375,7 +20419,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 437
+     "rank": 438
     },
     {
      "name": "CohnReznick",
@@ -20427,7 +20471,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 438
+     "rank": 439
     },
     {
      "name": "Freemodel",
@@ -20472,7 +20516,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 439
+     "rank": 440
     },
     {
      "name": "hallo theo",
@@ -20517,7 +20561,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 440
+     "rank": 441
     },
     {
      "name": "New Story",
@@ -20562,7 +20606,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 441
+     "rank": 442
     },
     {
      "name": "PropTiger",
@@ -20606,7 +20650,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 442
+     "rank": 443
     },
     {
      "name": "Reno",
@@ -20650,7 +20694,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 443
+     "rank": 444
     },
     {
      "name": "Spacee",
@@ -20694,7 +20738,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 444
+     "rank": 445
     },
     {
      "name": "Campus Apartments",
@@ -20745,7 +20789,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 445
+     "rank": 446
     },
     {
      "name": "ResWare",
@@ -20789,7 +20833,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 446
+     "rank": 447
     },
     {
      "name": "Brandywine Realty Trust",
@@ -20834,7 +20878,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 447
+     "rank": 448
     },
     {
      "name": "Workplaced Technologies Ltd",
@@ -20878,7 +20922,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 448
+     "rank": 449
     },
     {
      "name": "Assembly OSM",
@@ -20923,7 +20967,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 449
+     "rank": 450
     },
     {
      "name": "Point",
@@ -20967,7 +21011,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 450
+     "rank": 451
     },
     {
      "name": "Propmatic",
@@ -21011,7 +21055,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 451
+     "rank": 452
     },
     {
      "name": "Ventas",
@@ -21063,7 +21107,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 452
+     "rank": 453
     },
     {
      "name": "Wunder",
@@ -21114,7 +21158,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 453
+     "rank": 454
     },
     {
      "name": "Vornado Realty Trust",
@@ -21159,7 +21203,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 454
+     "rank": 455
     },
     {
      "name": "@Stake",
@@ -21210,7 +21254,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 455
+     "rank": 456
     },
     {
      "name": "Buena",
@@ -21255,7 +21299,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 456
+     "rank": 457
     },
     {
      "name": "Habyt",
@@ -21300,7 +21344,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 457
+     "rank": 458
     },
     {
      "name": "Khmer Home",
@@ -21345,7 +21389,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 458
+     "rank": 459
     },
     {
      "name": "Estately",
@@ -21389,7 +21433,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 459
+     "rank": 460
     },
     {
      "name": "Camion",
@@ -21441,7 +21485,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 460
+     "rank": 461
     },
     {
      "name": "Mighty Buildings",
@@ -21486,7 +21530,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 461
+     "rank": 462
     },
     {
      "name": "RealPact",
@@ -21537,7 +21581,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 462
+     "rank": 463
     },
     {
      "name": "Stanza Living",
@@ -21588,7 +21632,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 463
+     "rank": 464
     },
     {
      "name": "Smart Crowd",
@@ -21632,7 +21676,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 464
+     "rank": 465
     },
     {
      "name": "Swiftlane",
@@ -21676,7 +21720,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 465
+     "rank": 466
     },
     {
      "name": "Willow Wealth",
@@ -21720,7 +21764,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 466
+     "rank": 467
     },
     {
      "name": "Behja",
@@ -21765,7 +21809,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 467
+     "rank": 468
     },
     {
      "name": "Beike",
@@ -21810,7 +21854,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 468
+     "rank": 469
     },
     {
      "name": "REEF",
@@ -21854,7 +21898,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 469
+     "rank": 470
     },
     {
      "name": "Scouter",
@@ -21898,7 +21942,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 470
+     "rank": 471
     },
     {
      "name": "58.com",
@@ -21943,7 +21987,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 471
+     "rank": 472
     },
     {
      "name": "42 Floors",
@@ -21987,7 +22031,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 472
+     "rank": 473
     },
     {
      "name": "Stessa",
@@ -22039,7 +22083,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 473
+     "rank": 474
     },
     {
      "name": "Estateguru",
@@ -22084,7 +22128,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 474
+     "rank": 475
     },
     {
      "name": "Inhabit",
@@ -22136,7 +22180,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 475
+     "rank": 476
     },
     {
      "name": "Roam",
@@ -22180,7 +22224,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 476
+     "rank": 477
     },
     {
      "name": "Beazer Homes USA",
@@ -22232,7 +22276,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 477
+     "rank": 478
     },
     {
      "name": "Flat",
@@ -22277,7 +22321,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 478
+     "rank": 479
     },
     {
      "name": "Baletu",
@@ -22322,7 +22366,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 479
+     "rank": 480
     },
     {
      "name": "FazWaz",
@@ -22367,7 +22411,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 480
+     "rank": 481
     },
     {
      "name": "Culdesac",
@@ -22412,7 +22456,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 481
+     "rank": 482
     },
     {
      "name": "McGrath",
@@ -22463,7 +22507,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 482
+     "rank": 483
     },
     {
      "name": "Quantierra",
@@ -22507,7 +22551,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 483
+     "rank": 484
     },
     {
      "name": "AVO",
@@ -22552,7 +22596,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 484
+     "rank": 485
     },
     {
      "name": "Getagent",
@@ -22596,7 +22640,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 485
+     "rank": 486
     },
     {
      "name": "Host Hotels & Resorts",
@@ -22641,7 +22685,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 486
+     "rank": 487
     },
     {
      "name": "Knotel",
@@ -22686,7 +22730,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 487
+     "rank": 488
     },
     {
      "name": "Sekra",
@@ -22730,7 +22774,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 488
+     "rank": 489
     },
     {
      "name": "Service Properties Trust",
@@ -22774,7 +22818,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 489
+     "rank": 490
     },
     {
      "name": "Tishman Speyer",
@@ -22819,7 +22863,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 490
+     "rank": 491
     },
     {
      "name": "United Dwelling",
@@ -22863,7 +22907,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 491
+     "rank": 492
     },
     {
      "name": "CubeSmart",
@@ -22907,7 +22951,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 492
+     "rank": 493
     },
     {
      "name": "Healthpeak Properties",
@@ -22959,7 +23003,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 493
+     "rank": 494
     },
     {
      "name": "Properly",
@@ -23003,7 +23047,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 494
+     "rank": 495
     },
     {
      "name": "Pennsylvania Real Estate Investment Trust (PREIT)",
@@ -23048,7 +23092,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 495
+     "rank": 496
     },
     {
      "name": "Public Storage",
@@ -23093,7 +23137,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 496
+     "rank": 497
     },
     {
      "name": "Related Companies",
@@ -23138,7 +23182,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 497
+     "rank": 498
     },
     {
      "name": "Toll Brothers",
@@ -23183,7 +23227,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 498
+     "rank": 499
     },
     {
      "name": "Factory OS",
@@ -23227,7 +23271,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 499
+     "rank": 500
     },
     {
      "name": "Getground",
@@ -23272,7 +23316,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 500
+     "rank": 501
     },
     {
      "name": "Placester",
@@ -23316,7 +23360,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 501
+     "rank": 502
     },
     {
      "name": "SmartRent",
@@ -23360,7 +23404,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 502
+     "rank": 503
     },
     {
      "name": "View",
@@ -23404,7 +23448,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 503
+     "rank": 504
     },
     {
      "name": "Compass",
@@ -23455,7 +23499,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 504
+     "rank": 505
     },
     {
      "name": "Purpose Green",
@@ -23506,7 +23550,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 505
+     "rank": 506
     },
     {
      "name": "PennyMac Financial Services",
@@ -23550,7 +23594,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 506
+     "rank": 507
     },
     {
      "name": "2nd Address",
@@ -23594,7 +23638,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 507
+     "rank": 508
     },
     {
      "name": "42Floors",
@@ -23638,7 +23682,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 508
+     "rank": 509
     },
     {
      "name": "Acre Homes",
@@ -23682,7 +23726,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 509
+     "rank": 510
     },
     {
      "name": "Aikito",
@@ -23726,7 +23770,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 510
+     "rank": 511
     },
     {
      "name": "AquaShield",
@@ -23770,7 +23814,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 511
+     "rank": 512
     },
     {
      "name": "Boston Properties (BXP)",
@@ -23815,7 +23859,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 512
+     "rank": 513
     },
     {
      "name": "CalAtlantic Group",
@@ -23859,7 +23903,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 513
+     "rank": 514
     },
     {
      "name": "Casai",
@@ -23903,7 +23947,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 514
+     "rank": 515
     },
     {
      "name": "Circa Labs",
@@ -23948,7 +23992,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 515
+     "rank": 516
     },
     {
      "name": "Comfy *",
@@ -23993,7 +24037,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 516
+     "rank": 517
     },
     {
      "name": "Contactually",
@@ -24038,7 +24082,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 517
+     "rank": 518
     },
     {
      "name": "Cover",
@@ -24083,7 +24127,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 518
+     "rank": 519
     },
     {
      "name": "Creator Cabins",
@@ -24128,7 +24172,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 519
+     "rank": 520
     },
     {
      "name": "Elmawkaa",
@@ -24172,7 +24216,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 520
+     "rank": 521
     },
     {
      "name": "General Growth Properties",
@@ -24217,7 +24261,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 521
+     "rank": 522
     },
     {
      "name": "GLP",
@@ -24261,7 +24305,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 522
+     "rank": 523
     },
     {
      "name": "Homeboodle",
@@ -24305,7 +24349,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 523
+     "rank": 524
     },
     {
      "name": "Homigo",
@@ -24349,7 +24393,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 524
+     "rank": 525
     },
     {
      "name": "Howard",
@@ -24393,7 +24437,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 525
+     "rank": 526
     },
     {
      "name": "Kanler",
@@ -24437,7 +24481,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 526
+     "rank": 527
     },
     {
      "name": "Katerra",
@@ -24481,7 +24525,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 527
+     "rank": 528
     },
     {
      "name": "KB Home",
@@ -24526,7 +24570,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 528
+     "rank": 529
     },
     {
      "name": "Kodit.io",
@@ -24570,7 +24614,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 529
+     "rank": 530
     },
     {
      "name": "Life House",
@@ -24614,7 +24658,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 530
+     "rank": 531
     },
     {
      "name": "Lo Que Necesito",
@@ -24659,7 +24703,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 531
+     "rank": 532
     },
     {
      "name": "Loose Cubes",
@@ -24703,7 +24747,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 532
+     "rank": 533
     },
     {
      "name": "meetdavis",
@@ -24748,7 +24792,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 533
+     "rank": 534
     },
     {
      "name": "Modsy *",
@@ -24793,7 +24837,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 534
+     "rank": 535
     },
     {
      "name": "Module",
@@ -24838,7 +24882,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 535
+     "rank": 536
     },
     {
      "name": "Modus",
@@ -24883,7 +24927,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 536
+     "rank": 537
     },
     {
      "name": "Mosaic Building Group",
@@ -24928,7 +24972,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 537
+     "rank": 538
     },
     {
      "name": "Mynd",
@@ -24973,7 +25017,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 538
+     "rank": 539
     },
     {
      "name": "MyNewPlace",
@@ -25017,7 +25061,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 539
+     "rank": 540
     },
     {
      "name": "nested",
@@ -25062,7 +25106,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 540
+     "rank": 541
     },
     {
      "name": "Noah",
@@ -25106,7 +25150,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 541
+     "rank": 542
     },
     {
      "name": "Okol",
@@ -25151,7 +25195,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 542
+     "rank": 543
     },
     {
      "name": "One Raven",
@@ -25196,7 +25240,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 543
+     "rank": 544
     },
     {
      "name": "Parkway Corp",
@@ -25241,7 +25285,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 544
+     "rank": 545
     },
     {
      "name": "Pazpo",
@@ -25285,7 +25329,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 545
+     "rank": 546
     },
     {
      "name": "PeerStreet",
@@ -25329,7 +25373,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 546
+     "rank": 547
     },
     {
      "name": "PictureWorks",
@@ -25373,7 +25417,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 547
+     "rank": 548
     },
     {
      "name": "Pinhome",
@@ -25417,7 +25461,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 548
+     "rank": 549
     },
     {
      "name": "Plan0 Ai",
@@ -25461,7 +25505,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 549
+     "rank": 550
     },
     {
      "name": "playhouse",
@@ -25505,7 +25549,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 550
+     "rank": 551
     },
     {
      "name": "Porch",
@@ -25556,7 +25600,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 551
+     "rank": 552
     },
     {
      "name": "Portal Terreno",
@@ -25600,7 +25644,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 552
+     "rank": 553
     },
     {
      "name": "PulteGroup",
@@ -25645,7 +25689,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 553
+     "rank": 554
     },
     {
      "name": "rentify",
@@ -25689,7 +25733,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 554
+     "rank": 555
     },
     {
      "name": "Rentlytics",
@@ -25733,7 +25777,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 555
+     "rank": 556
     },
     {
      "name": "RentMineOnline",
@@ -25777,7 +25821,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 556
+     "rank": 557
     },
     {
      "name": "Revolution Precrafted",
@@ -25821,7 +25865,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 557
+     "rank": 558
     },
     {
      "name": "Samara",
@@ -25865,7 +25909,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 558
+     "rank": 559
     },
     {
      "name": "Silagroup",
@@ -25909,7 +25953,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 559
+     "rank": 560
     },
     {
      "name": "Spacemaker",
@@ -25953,7 +25997,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 560
+     "rank": 561
     },
     {
      "name": "SpeedHome",
@@ -25997,7 +26041,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 561
+     "rank": 562
     },
     {
      "name": "Sumutasu",
@@ -26041,7 +26085,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 562
+     "rank": 563
     },
     {
      "name": "View The Space (Fmr Hightower)",
@@ -26085,7 +26129,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 563
+     "rank": 564
     },
     {
      "name": "VivaReal",
@@ -26129,7 +26173,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 564
+     "rank": 565
     },
     {
      "name": "Zeus",
@@ -26173,7 +26217,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 565
+     "rank": 566
     },
     {
      "name": "ZipMatch",
@@ -26217,7 +26261,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 566
+     "rank": 567
     },
     {
      "name": "Ziroom",
@@ -26261,7 +26305,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 567
+     "rank": 568
     },
     {
      "name": "Hosta a.i.",
@@ -26313,7 +26357,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 568
+     "rank": 569
     },
     {
      "name": "Leap To Win Technologies Private",
@@ -26365,7 +26409,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 569
+     "rank": 570
     },
     {
      "name": "Rithm Capital",
@@ -26410,7 +26454,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 570
+     "rank": 571
     },
     {
      "name": "VICI Properties",
@@ -26455,7 +26499,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 571
+     "rank": 572
     },
     {
      "name": "Green Canopy NODE",
@@ -26507,7 +26551,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 572
+     "rank": 573
     },
     {
      "name": "Brace",
@@ -26551,7 +26595,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 573
+     "rank": 574
     },
     {
      "name": "Domio",
@@ -26595,7 +26639,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 574
+     "rank": 575
     },
     {
      "name": "EasyKnock",
@@ -26639,7 +26683,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 575
+     "rank": 576
     },
     {
      "name": "Prescient",
@@ -26683,7 +26727,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 576
+     "rank": 577
     },
     {
      "name": "Stay Alfred",
@@ -26727,7 +26771,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 577
+     "rank": 578
     },
     {
      "name": "Uptime",
@@ -26771,7 +26815,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 578
+     "rank": 579
     },
     {
      "name": "Duane Morris",
@@ -26823,7 +26867,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 579
+     "rank": 580
     },
     {
      "name": "Gaming and Leisure Properties",
@@ -26868,7 +26912,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 580
+     "rank": 581
     },
     {
      "name": "Sun Communities",
@@ -26913,7 +26957,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 581
+     "rank": 582
     },
     {
      "name": "Tri Pointe Homes",
@@ -26958,7 +27002,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 582
+     "rank": 583
     },
     {
      "name": "Vestris",
@@ -27009,7 +27053,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 583
+     "rank": 584
     },
     {
      "name": "Ajar Online",
@@ -27060,7 +27104,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 584
+     "rank": 585
     },
     {
      "name": "D.R. Horton",
@@ -27104,7 +27148,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 585
+     "rank": 586
     },
     {
      "name": "Dream Finders Homes",
@@ -27149,7 +27193,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 586
+     "rank": 587
     },
     {
      "name": "Equity Residential",
@@ -27194,7 +27238,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 587
+     "rank": 588
     },
     {
      "name": "Hovnanian Enterprises",
@@ -27238,7 +27282,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 588
+     "rank": 589
     },
     {
      "name": "Pulte",
@@ -27283,7 +27327,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 589
+     "rank": 590
     },
     {
      "name": "Rocket Companies",
@@ -27328,7 +27372,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 590
+     "rank": 591
     },
     {
      "name": "Extra Space Storage",
@@ -27373,7 +27417,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 591
+     "rank": 592
     },
     {
      "name": "Compass",
@@ -27424,7 +27468,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 592
+     "rank": 593
     },
     {
      "name": "Saul Ewing LLP",
@@ -27476,7 +27520,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 593
+     "rank": 594
     },
     {
      "name": "Cozen O'Connor",
@@ -27528,7 +27572,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 594
+     "rank": 595
     },
     {
      "name": "eXp World Holdings",
@@ -27580,7 +27624,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 595
+     "rank": 596
     },
     {
      "name": "Prologis",
@@ -27630,7 +27674,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 596
+     "rank": 597
     },
     {
      "name": "Icahn Enterprises",
@@ -27681,7 +27725,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 597
+     "rank": 598
     },
     {
      "name": "Opendoor Technologies",
@@ -27731,7 +27775,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 598
+     "rank": 599
     },
     {
      "name": "Alexandria Real Estate Equities",
@@ -27783,7 +27827,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 599
+     "rank": 600
     },
     {
      "name": "Radian Group",
@@ -27835,7 +27879,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 600
+     "rank": 601
     },
     {
      "name": "Tri Pointe Homes",
@@ -27887,7 +27931,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 601
+     "rank": 602
     },
     {
      "name": "AvalonBay Communities",
@@ -27937,7 +27981,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 602
+     "rank": 603
     },
     {
      "name": "BrightView Holdings",
@@ -27987,7 +28031,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 603
+     "rank": 604
     },
     {
      "name": "Realty Income",
@@ -28037,7 +28081,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 604
+     "rank": 605
     },
     {
      "name": "Service Corp International",
@@ -28081,7 +28125,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 605
+     "rank": 606
     },
     {
      "name": "Sidekick Data",
@@ -28132,7 +28176,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 606
+     "rank": 607
     },
     {
      "name": "Buildscience",
@@ -28184,7 +28228,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 607
+     "rank": 608
     },
     {
      "name": "Realtor.com",
@@ -28235,7 +28279,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 608
+     "rank": 609
     },
     {
      "name": "Fidelity National Financial",
@@ -28287,7 +28331,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 609
+     "rank": 610
     },
     {
      "name": "simplifile",
@@ -28338,7 +28382,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 610
+     "rank": 611
     },
     {
      "name": "Primus Senior Living",
@@ -28389,7 +28433,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 611
+     "rank": 612
     },
     {
      "name": "Unreal Estate",
@@ -28440,7 +28484,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 612
+     "rank": 613
     },
     {
      "name": "Ballard Spahr",
@@ -28492,7 +28536,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 613
+     "rank": 614
     },
     {
      "name": "Realogy Holdings",
@@ -28543,7 +28587,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 614
+     "rank": 615
     },
     {
      "name": "Moveha",
@@ -28594,7 +28638,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 615
+     "rank": 616
     },
     {
      "name": "Dechert",
@@ -28646,7 +28690,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 616
+     "rank": 617
     },
     {
      "name": "Dora",
@@ -28698,7 +28742,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 617
+     "rank": 618
     },
     {
      "name": "Flex",
@@ -28750,7 +28794,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 618
+     "rank": 619
     },
     {
      "name": "StreamLoan",
@@ -28801,7 +28845,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 619
+     "rank": 620
     },
     {
      "name": "mcmakler",
@@ -28853,7 +28897,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 620
+     "rank": 621
     },
     {
      "name": "Loftium",
@@ -28905,30 +28949,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 621
-    }
-   ]
-  },
-  {
-   "band": "unrated",
-   "label": "Not Yet Rated",
-   "range": "",
-   "blurb": "Providers we have not scored yet — unknown, not zero.",
-   "count": 2,
-   "shown": 2,
-   "providers": [
-    {
-     "name": "Fifth Wall",
-     "slug": "fifth-wall",
-     "description": "Fifth Wall is a venture capital firm founded in 2016 by Brendan F. Wallace and Brad Greiwe and headquartered in Los Angeles, California, with additional offices in New York, San Francisco, and London. It is the largest investment firm focused on technology for the built environment (\"PropTech\") and real estate, investing across the venture and growth stages into companies that make buildings and the physical world smarter, safer, more sustainable, and more energy efficient. The firm spans sub-themes including proptech, construction technology, residential real estate, fintech for real estate, smart buildings, logistics, and a dedicated climate/decarbonization strategy. Fifth Wall's distinctive model pairs its portfolio companies with a network of roughly 115 strategic limited partners — major real estate owner-operators such as CBRE, Hilton, Hines, Marriott, Public Storage, Related, and Starwood Capital — to drive strategic partnerships and distribution. With over $3 billion in assets under management and nearly 170 portfolio companies, Fifth Wall has backed category leaders including Opendoor, Procore, ServiceTitan, Blend, Hippo, SmartRent, and Bilt Rewards.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/fifth-wall/refs/heads/main/screenshots/fifth-wall-2026-07-25T214432.png",
      "rank": 622
-    },
-    {
-     "name": "QED Investors",
-     "slug": "qed-investors",
-     "description": "QED Investors is a global venture capital firm founded in 2007 by Nigel Morris and Frank Rotman, both early leaders at Capital One, and headquartered in Alexandria, Virginia. QED invests exclusively in fintech and financial-services technology, backing what it calls \"pragmatic disruptors who are the future of finance\" across credit and lending, banking and neobanks, banking-as-a-service and embedded finance, payments, insurance/insurtech, wealth management, proptech, and real-estate technology. The firm invests from pre-seed and seed through Series A and growth stages, with early-stage initial checks generally in the $3M-$10M range (roughly $15M average once follow-on is included) and $15M-$20M average from its growth fund. QED operates globally with investment teams across the United States, Latin America, Europe, Asia/India, and Africa, and offices in Alexandria (VA), London, Singapore, Mexico, and Brazil. It reports roughly $4B in assets under management, more than 250 portfolio companies, and over 30 unicorns, with notable investments including Nubank, Credit Karma, SoFi, Klarna, Remitly, Flywire, Klarna, Kavak, Creditas, and Bitso.",
-     "rank": 623
     }
    ]
   }

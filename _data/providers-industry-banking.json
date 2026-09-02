@@ -1,6 +1,6 @@
 {
- "total": 878,
- "shown": 878,
+ "total": 876,
+ "shown": 876,
  "limit": 1000,
  "bands": [
   {
@@ -45981,29 +45981,6 @@
       "agentic_commerce": false
      },
      "rank": 876
-    }
-   ]
-  },
-  {
-   "band": "unrated",
-   "label": "Not Yet Rated",
-   "range": "",
-   "blurb": "Providers we have not scored yet — unknown, not zero.",
-   "count": 2,
-   "shown": 2,
-   "providers": [
-    {
-     "name": "JPMorgan Chase",
-     "slug": "jpmorgan-chase",
-     "description": "JPMorgan Chase is a leading global financial services firm and one of the largest banking institutions in the United States, with operations across investment banking, financial services, asset management, and private equity. Through its developer platform, JPMorgan Chase publishes APIs for banking services including payments, treasury services, trade finance, FX, embedded finance, and market data, enabling corporate clients and fintech partners to integrate banking capabilities into their applications.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/jpmorgan-chase/refs/heads/main/screenshots/jpmorgan-chase-2026-06-20T183808.png",
-     "rank": 877
-    },
-    {
-     "name": "QED Investors",
-     "slug": "qed-investors",
-     "description": "QED Investors is a global venture capital firm founded in 2007 by Nigel Morris and Frank Rotman, both early leaders at Capital One, and headquartered in Alexandria, Virginia. QED invests exclusively in fintech and financial-services technology, backing what it calls \"pragmatic disruptors who are the future of finance\" across credit and lending, banking and neobanks, banking-as-a-service and embedded finance, payments, insurance/insurtech, wealth management, proptech, and real-estate technology. The firm invests from pre-seed and seed through Series A and growth stages, with early-stage initial checks generally in the $3M-$10M range (roughly $15M average once follow-on is included) and $15M-$20M average from its growth fund. QED operates globally with investment teams across the United States, Latin America, Europe, Asia/India, and Africa, and offices in Alexandria (VA), London, Singapore, Mexico, and Brazil. It reports roughly $4B in assets under management, more than 250 portfolio companies, and over 30 unicorns, with notable investments including Nubank, Credit Karma, SoFi, Klarna, Remitly, Flywire, Klarna, Kavak, Creditas, and Bitso.",
-     "rank": 878
     }
    ]
   }

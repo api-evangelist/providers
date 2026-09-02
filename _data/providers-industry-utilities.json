@@ -1,6 +1,6 @@
 {
- "total": 211,
- "shown": 211,
+ "total": 210,
+ "shown": 210,
  "limit": 1000,
  "bands": [
   {
@@ -10924,23 +10924,6 @@
       "agentic_commerce": false
      },
      "rank": 210
-    }
-   ]
-  },
-  {
-   "band": "unrated",
-   "label": "Not Yet Rated",
-   "range": "",
-   "blurb": "Providers we have not scored yet — unknown, not zero.",
-   "count": 1,
-   "shown": 1,
-   "providers": [
-    {
-     "name": "Energy and Utilities",
-     "slug": "energy-utilities",
-     "description": "Energy and Utilities is a topic profile in the API Evangelist Network cataloging the API surfaces that move data across the modern electricity, gas, and water value chain. It indexes utility data integration APIs, grid and wholesale market operator APIs, federal energy data programs, renewable energy research APIs, weather APIs that drive grid demand and solar forecasting, EV charging interoperability protocols, and the Green Button family of customer energy data standards. The repo provides a baseline catalog plus shared semantics (JSON Schema, JSON-LD, vocabulary, examples) for the meter reading / energy data point that ties every one of these surfaces together.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/energy-utilities/refs/heads/main/screenshots/energy-utilities-2026-06-20T180707.png",
-     "rank": 211
     }
    ]
   }

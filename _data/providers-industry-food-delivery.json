@@ -1,6 +1,6 @@
 {
- "total": 107,
- "shown": 107,
+ "total": 106,
+ "shown": 106,
  "limit": 1000,
  "bands": [
   {
@@ -4890,22 +4890,6 @@
       "agentic_commerce": false
      },
      "rank": 106
-    }
-   ]
-  },
-  {
-   "band": "unrated",
-   "label": "Not Yet Rated",
-   "range": "",
-   "blurb": "Providers we have not scored yet — unknown, not zero.",
-   "count": 1,
-   "shown": 1,
-   "providers": [
-    {
-     "name": "Prosus Ventures",
-     "slug": "prosus-ventures",
-     "description": "Prosus Ventures is the venture-capital arm of Prosus, the Amsterdam-headquartered global consumer-internet and technology group (part of the Naspers group), founded in 2015 to make early-stage and growth-stage technology investments in high-growth markets outside the United States and China. The firm invests to \"fuel the ecommerce flywheel,\" backing companies across food delivery, fintech, consumer services, logistics, e-commerce and marketplaces, plus a strong and growing focus on early-stage AI startups that reshape the e-commerce value chain (shopping and advertising tech, customer support, AI agents and operations) and frontier technologies such as quantum computing, robotics, space and biotech. Prosus Ventures typically invests from seed through Series B and into growth rounds, with a primary geographic focus on India, Latin America and Europe, plus activity in Southeast Asia, the Middle East and ANZ. In fiscal year 2025 the group committed and invested over $400 million across 40+ closed transactions, including roughly $88 million into AI. Its public portfolio spans 80+ companies including Meesho, Urban Company, PharmEasy, Klar, ElasticRun, BandLab, Ema, Corti and Oxford Ionics. The venture team is led by CEO Martin Tschopp with regional heads across India, Europe, Southeast Asia and the Middle East.",
-     "rank": 107
     }
    ]
   }

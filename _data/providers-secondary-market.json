@@ -1,5 +1,5 @@
 {
- "total": 5023,
+ "total": 5021,
  "shown": 1000,
  "limit": 1000,
  "bands": [
@@ -3766,8 +3766,8 @@
    "label": "Strong",
    "range": "54.3 – 66.4",
    "blurb": "Solid contracts, transparent operations, and an easy start.",
-   "count": 232,
-   "shown": 232,
+   "count": 231,
+   "shown": 231,
    "providers": [
     {
      "name": "People Data Labs",
@@ -7594,45 +7594,6 @@
      "rank": 152
     },
     {
-     "name": "Deel",
-     "slug": "deel",
-     "description": "Deel is a global payroll, HR, and contractor management platform supporting employees and contractors in 150+ countries. The Deel API exposes contracts, payroll, time-off, expenses, invoices, EOR, IT, and SCIM operations.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/deel/refs/heads/main/screenshots/deel-2026-06-20T175758.png",
-     "score": 60.8,
-     "band": "strong",
-     "band_label": "Strong",
-     "facets": {
-      "discoverability": 68.5,
-      "contract_quality": 71.9,
-      "governance": 58.3,
-      "operational_transparency": 65.8,
-      "developer_ergonomics": 52.2,
-      "commercial_clarity": 50.0
-     },
-     "scored_at": "2026-08-06",
-     "schema_version": "0.9.1",
-     "agent_score": 42.3,
-     "agent_band": "agent-ready",
-     "agent_dims": {
-      "spec_presence": true,
-      "agentic_access": "derived",
-      "mcp_server": false,
-      "auth_clarity": true,
-      "idempotency": false,
-      "error_semantics": "verified",
-      "openapi_examples": "partial",
-      "rate_limit_signal": "documented",
-      "event_surface_described": "derived",
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false
-     },
-     "tier": "4 venues",
-     "rank": 153
-    },
-    {
      "name": "Structify",
      "slug": "structify",
      "description": "Structify is an AI data platform that turns scattered, unstructured, and siloed sources into a living, structured knowledge graph. It connects to thousands of systems (HubSpot, Stripe, Snowflake, Postgres, and more), scrapes websites and PDFs, and organizes the results into datasets of typed entities and relationships that teams query in natural language and push back into their tools. The platform exposes a RESTful API (OpenAPI 3.0, 281 operations) plus official Python and JavaScript SDKs, covering datasets, entities, connectors, documents, jobs, chat/workflow sessions, and teams, with asynchronous jobs and real-time WebSocket updates. Backed by 8VC and Bain Capital Ventures.",
@@ -7676,7 +7637,7 @@
       "agentic_commerce": false
      },
      "tier": "1 venue",
-     "rank": 154
+     "rank": 153
     },
     {
      "name": "Extole",
@@ -7722,7 +7683,7 @@
       "agentic_commerce": false
      },
      "tier": "1 venue",
-     "rank": 155
+     "rank": 154
     },
     {
      "name": "Go1",
@@ -7775,7 +7736,7 @@
       "agentic_commerce": false
      },
      "tier": "4 venues",
-     "rank": 156
+     "rank": 155
     },
     {
      "name": "Prezent",
@@ -7839,7 +7800,7 @@
       "agentic_commerce": false
      },
      "tier": "3 venues",
-     "rank": 157
+     "rank": 156
     },
     {
      "name": "Ripio",
@@ -7892,7 +7853,7 @@
       "agentic_commerce": false
      },
      "tier": "1 venue",
-     "rank": 158
+     "rank": 157
     },
     {
      "name": "Turquoise Health",
@@ -7952,7 +7913,7 @@
       "agentic_commerce": false
      },
      "tier": "4 venues",
-     "rank": 159
+     "rank": 158
     },
     {
      "name": "Vendasta",
@@ -7998,7 +7959,7 @@
       "agentic_commerce": false
      },
      "tier": "2 venues",
-     "rank": 160
+     "rank": 159
     },
     {
      "name": "Profound",
@@ -8044,7 +8005,7 @@
       "agentic_commerce": false
      },
      "tier": "3 venues",
-     "rank": 161
+     "rank": 160
     },
     {
      "name": "Bloomberg",
@@ -8097,7 +8058,7 @@
       "agentic_commerce": false
      },
      "tier": "1 venue",
-     "rank": 162
+     "rank": 161
     },
     {
      "name": "Slash",
@@ -8157,7 +8118,7 @@
       "agentic_commerce": false
      },
      "tier": "3 venues",
-     "rank": 163
+     "rank": 162
     },
     {
      "name": "Aptos",
@@ -8203,7 +8164,7 @@
       "agentic_commerce": false
      },
      "tier": "3 venues",
-     "rank": 164
+     "rank": 163
     },
     {
      "name": "MediaMath",
@@ -8249,7 +8210,7 @@
       "agentic_commerce": false
      },
      "tier": "3 venues",
-     "rank": 165
+     "rank": 164
     },
     {
      "name": "Nanonets",
@@ -8295,7 +8256,7 @@
       "agentic_commerce": false
      },
      "tier": "2 venues",
-     "rank": 166
+     "rank": 165
     },
     {
      "name": "Recraft",
@@ -8341,7 +8302,7 @@
       "agentic_commerce": false
      },
      "tier": "2 venues",
-     "rank": 167
+     "rank": 166
     },
     {
      "name": "Truepill",
@@ -8394,7 +8355,7 @@
       "agentic_commerce": false
      },
      "tier": "2 venues",
-     "rank": 168
+     "rank": 167
     },
     {
      "name": "AirOps",
@@ -8440,7 +8401,7 @@
       "agentic_commerce": false
      },
      "tier": "1 venue",
-     "rank": 169
+     "rank": 168
     },
     {
      "name": "Drata",
@@ -8486,7 +8447,7 @@
       "agentic_commerce": false
      },
      "tier": "4 venues",
-     "rank": 170
+     "rank": 169
     },
     {
      "name": "Merge",
@@ -8532,7 +8493,7 @@
       "agentic_commerce": false
      },
      "tier": "2 venues",
-     "rank": 171
+     "rank": 170
     },
     {
      "name": "Starbridge",
@@ -8585,7 +8546,7 @@
       "agentic_commerce": false
      },
      "tier": "1 venue",
-     "rank": 172
+     "rank": 171
     },
     {
      "name": "SPOTIO",
@@ -8631,7 +8592,7 @@
       "agentic_commerce": false
      },
      "tier": "1 venue",
-     "rank": 173
+     "rank": 172
     },
     {
      "name": "WHOOP",
@@ -8684,7 +8645,7 @@
       "agentic_commerce": false
      },
      "tier": "5 venues",
-     "rank": 174
+     "rank": 173
     },
     {
      "name": "Alpaca",
@@ -8744,7 +8705,7 @@
       "agentic_commerce": false
      },
      "tier": "4 venues",
-     "rank": 175
+     "rank": 174
     },
     {
      "name": "Webflow",
@@ -8790,7 +8751,7 @@
       "agentic_commerce": false
      },
      "tier": "5 venues",
-     "rank": 176
+     "rank": 175
     },
     {
      "name": "Crossbeam",
@@ -8836,7 +8797,7 @@
       "agentic_commerce": false
      },
      "tier": "2 venues",
-     "rank": 177
+     "rank": 176
     },
     {
      "name": "Intelligems",
@@ -8882,7 +8843,7 @@
       "agentic_commerce": false
      },
      "tier": "1 venue",
-     "rank": 178
+     "rank": 177
     },
     {
      "name": "Clari",
@@ -8928,7 +8889,7 @@
       "agentic_commerce": false
      },
      "tier": "4 venues",
-     "rank": 179
+     "rank": 178
     },
     {
      "name": "Bubble",
@@ -8974,7 +8935,7 @@
       "agentic_commerce": false
      },
      "tier": "2 venues",
-     "rank": 180
+     "rank": 179
     },
     {
      "name": "Creatio",
@@ -9020,7 +8981,7 @@
       "agentic_commerce": false
      },
      "tier": "2 venues",
-     "rank": 181
+     "rank": 180
     },
     {
      "name": "ZenML",
@@ -9066,7 +9027,7 @@
       "agentic_commerce": false
      },
      "tier": "1 venue",
-     "rank": 182
+     "rank": 181
     },
     {
      "name": "Filevine",
@@ -9112,7 +9073,7 @@
       "agentic_commerce": false
      },
      "tier": "4 venues",
-     "rank": 183
+     "rank": 182
     },
     {
      "name": "1Password",
@@ -9158,7 +9119,7 @@
       "agentic_commerce": false
      },
      "tier": "5 venues",
-     "rank": 184
+     "rank": 183
     },
     {
      "name": "Demandbase",
@@ -9204,7 +9165,7 @@
       "agentic_commerce": false
      },
      "tier": "4 venues",
-     "rank": 185
+     "rank": 184
     },
     {
      "name": "GetAccept",
@@ -9250,7 +9211,7 @@
       "agentic_commerce": false
      },
      "tier": "1 venue",
-     "rank": 186
+     "rank": 185
     },
     {
      "name": "Bringg",
@@ -9303,7 +9264,7 @@
       "agentic_commerce": false
      },
      "tier": "4 venues",
-     "rank": 187
+     "rank": 186
     },
     {
      "name": "Ntropy",
@@ -9356,7 +9317,7 @@
       "agentic_commerce": false
      },
      "tier": "1 venue",
-     "rank": 188
+     "rank": 187
     },
     {
      "name": "Triple Whale",
@@ -9402,7 +9363,7 @@
       "agentic_commerce": false
      },
      "tier": "4 venues",
-     "rank": 189
+     "rank": 188
     },
     {
      "name": "Replicated",
@@ -9448,7 +9409,7 @@
       "agentic_commerce": false
      },
      "tier": "3 venues",
-     "rank": 190
+     "rank": 189
     },
     {
      "name": "Sendspark",
@@ -9494,7 +9455,7 @@
       "agentic_commerce": false
      },
      "tier": "1 venue",
-     "rank": 191
+     "rank": 190
     },
     {
      "name": "Databricks",
@@ -9540,7 +9501,7 @@
       "agentic_commerce": false
      },
      "tier": "5 venues",
-     "rank": 192
+     "rank": 191
     },
     {
      "name": "Lilt",
@@ -9586,7 +9547,7 @@
       "agentic_commerce": false
      },
      "tier": "3 venues",
-     "rank": 193
+     "rank": 192
     },
     {
      "name": "Pocket Network",
@@ -9632,7 +9593,7 @@
       "agentic_commerce": false
      },
      "tier": "1 venue",
-     "rank": 194
+     "rank": 193
     },
     {
      "name": "WSO2",
@@ -9678,7 +9639,7 @@
       "agentic_commerce": false
      },
      "tier": "2 venues",
-     "rank": 195
+     "rank": 194
     },
     {
      "name": "Frontegg",
@@ -9724,7 +9685,7 @@
       "agentic_commerce": false
      },
      "tier": "2 venues",
-     "rank": 196
+     "rank": 195
     },
     {
      "name": "Ironclad",
@@ -9770,7 +9731,7 @@
       "agentic_commerce": false
      },
      "tier": "5 venues",
-     "rank": 197
+     "rank": 196
     },
     {
      "name": "Scrunch AI",
@@ -9816,7 +9777,7 @@
       "agentic_commerce": false
      },
      "tier": "1 venue",
-     "rank": 198
+     "rank": 197
     },
     {
      "name": "Crescendo Lab",
@@ -9869,7 +9830,7 @@
       "agentic_commerce": false
      },
      "tier": "2 venues",
-     "rank": 199
+     "rank": 198
     },
     {
      "name": "Mews",
@@ -9922,7 +9883,7 @@
       "agentic_commerce": false
      },
      "tier": "1 venue",
-     "rank": 200
+     "rank": 199
     },
     {
      "name": "Conga",
@@ -9968,7 +9929,7 @@
       "agentic_commerce": false
      },
      "tier": "2 venues",
-     "rank": 201
+     "rank": 200
     },
     {
      "name": "Moniepoint",
@@ -10021,7 +9982,7 @@
       "agentic_commerce": false
      },
      "tier": "3 venues",
-     "rank": 202
+     "rank": 201
     },
     {
      "name": "Salesloft",
@@ -10067,7 +10028,7 @@
       "agentic_commerce": false
      },
      "tier": "2 venues",
-     "rank": 203
+     "rank": 202
     },
     {
      "name": "ScienceLogic",
@@ -10113,7 +10074,7 @@
       "agentic_commerce": false
      },
      "tier": "4 venues",
-     "rank": 204
+     "rank": 203
     },
     {
      "name": "LeanData",
@@ -10159,7 +10120,7 @@
       "agentic_commerce": false
      },
      "tier": "3 venues",
-     "rank": 205
+     "rank": 204
     },
     {
      "name": "Tradier",
@@ -10212,7 +10173,7 @@
       "agentic_commerce": false
      },
      "tier": "2 venues",
-     "rank": 206
+     "rank": 205
     },
     {
      "name": "Unifonic",
@@ -10265,7 +10226,7 @@
       "agentic_commerce": false
      },
      "tier": "1 venue",
-     "rank": 207
+     "rank": 206
     },
     {
      "name": "AdRoll",
@@ -10311,7 +10272,7 @@
       "agentic_commerce": false
      },
      "tier": "1 venue",
-     "rank": 208
+     "rank": 207
     },
     {
      "name": "OneTrust",
@@ -10357,7 +10318,7 @@
       "agentic_commerce": false
      },
      "tier": "5 venues",
-     "rank": 209
+     "rank": 208
     },
     {
      "name": "0x",
@@ -10403,7 +10364,7 @@
       "agentic_commerce": false
      },
      "tier": "1 venue",
-     "rank": 210
+     "rank": 209
     },
     {
      "name": "MetaMap",
@@ -10449,7 +10410,7 @@
       "agentic_commerce": false
      },
      "tier": "1 venue",
-     "rank": 211
+     "rank": 210
     },
     {
      "name": "PlateIQ",
@@ -10502,7 +10463,7 @@
       "agentic_commerce": false
      },
      "tier": "1 venue",
-     "rank": 212
+     "rank": 211
     },
     {
      "name": "Vercel",
@@ -10548,7 +10509,7 @@
       "agentic_commerce": false
      },
      "tier": "5 venues",
-     "rank": 213
+     "rank": 212
     },
     {
      "name": "Wunderkind",
@@ -10601,7 +10562,7 @@
       "agentic_commerce": false
      },
      "tier": "2 venues",
-     "rank": 214
+     "rank": 213
     },
     {
      "name": "Civic",
@@ -10654,7 +10615,7 @@
       "agentic_commerce": false
      },
      "tier": "1 venue",
-     "rank": 215
+     "rank": 214
     },
     {
      "name": "Dash0",
@@ -10700,7 +10661,7 @@
       "agentic_commerce": false
      },
      "tier": "3 venues",
-     "rank": 216
+     "rank": 215
     },
     {
      "name": "Ocrolus",
@@ -10768,7 +10729,7 @@
       "agentic_commerce": false
      },
      "tier": "4 venues",
-     "rank": 217
+     "rank": 216
     },
     {
      "name": "Jobber",
@@ -10814,7 +10775,7 @@
       "agentic_commerce": false
      },
      "tier": "3 venues",
-     "rank": 218
+     "rank": 217
     },
     {
      "name": "Kiteworks",
@@ -10860,7 +10821,7 @@
       "agentic_commerce": false
      },
      "tier": "2 venues",
-     "rank": 219
+     "rank": 218
     },
     {
      "name": "Kong",
@@ -10906,7 +10867,7 @@
       "agentic_commerce": false
      },
      "tier": "5 venues",
-     "rank": 220
+     "rank": 219
     },
     {
      "name": "Loop Returns",
@@ -10959,7 +10920,7 @@
       "agentic_commerce": false
      },
      "tier": "4 venues",
-     "rank": 221
+     "rank": 220
     },
     {
      "name": "Vespa",
@@ -11005,7 +10966,7 @@
       "agentic_commerce": false
      },
      "tier": "1 venue",
-     "rank": 222
+     "rank": 221
     },
     {
      "name": "Narmi",
@@ -11058,7 +11019,7 @@
       "agentic_commerce": false
      },
      "tier": "2 venues",
-     "rank": 223
+     "rank": 222
     },
     {
      "name": "Reachdesk",
@@ -11104,7 +11065,7 @@
       "agentic_commerce": false
      },
      "tier": "1 venue",
-     "rank": 224
+     "rank": 223
     },
     {
      "name": "Imgur",
@@ -11150,7 +11111,7 @@
       "agentic_commerce": false
      },
      "tier": "1 venue",
-     "rank": 225
+     "rank": 224
     },
     {
      "name": "Paragon",
@@ -11196,7 +11157,7 @@
       "agentic_commerce": false
      },
      "tier": "1 venue",
-     "rank": 226
+     "rank": 225
     },
     {
      "name": "Lakera",
@@ -11242,7 +11203,7 @@
       "agentic_commerce": false
      },
      "tier": "1 venue",
-     "rank": 227
+     "rank": 226
     },
     {
      "name": "Upvest",
@@ -11295,7 +11256,7 @@
       "agentic_commerce": false
      },
      "tier": "1 venue",
-     "rank": 228
+     "rank": 227
     },
     {
      "name": "Wingspan",
@@ -11355,7 +11316,7 @@
       "agentic_commerce": false
      },
      "tier": "2 venues",
-     "rank": 229
+     "rank": 228
     },
     {
      "name": "Jasper",
@@ -11401,7 +11362,7 @@
       "agentic_commerce": false
      },
      "tier": "3 venues",
-     "rank": 230
+     "rank": 229
     },
     {
      "name": "Rainforest",
@@ -11454,7 +11415,7 @@
       "agentic_commerce": false
      },
      "tier": "2 venues",
-     "rank": 231
+     "rank": 230
     },
     {
      "name": "Aklivity",
@@ -11500,7 +11461,7 @@
       "agentic_commerce": false
      },
      "tier": "1 venue",
-     "rank": 232
+     "rank": 231
     },
     {
      "name": "DataHub",
@@ -11546,7 +11507,7 @@
       "agentic_commerce": false
      },
      "tier": "2 venues",
-     "rank": 233
+     "rank": 232
     },
     {
      "name": "Lindy",
@@ -11592,7 +11553,7 @@
       "agentic_commerce": false
      },
      "tier": "2 venues",
-     "rank": 234
+     "rank": 233
     },
     {
      "name": "Truework",
@@ -11645,7 +11606,7 @@
       "agentic_commerce": false
      },
      "tier": "2 venues",
-     "rank": 235
+     "rank": 234
     },
     {
      "name": "Beyond Identity",
@@ -11691,7 +11652,7 @@
       "agentic_commerce": false
      },
      "tier": "4 venues",
-     "rank": 236
+     "rank": 235
     },
     {
      "name": "LogicMonitor",
@@ -11737,7 +11698,7 @@
       "agentic_commerce": false
      },
      "tier": "1 venue",
-     "rank": 237
+     "rank": 236
     },
     {
      "name": "Mixpanel",
@@ -11783,7 +11744,7 @@
       "agentic_commerce": false
      },
      "tier": "4 venues",
-     "rank": 238
+     "rank": 237
     },
     {
      "name": "Modulate",
@@ -11829,7 +11790,7 @@
       "agentic_commerce": false
      },
      "tier": "2 venues",
-     "rank": 239
+     "rank": 238
     },
     {
      "name": "Unstoppable Finance (Iron)",
@@ -11889,7 +11850,7 @@
       "agentic_commerce": false
      },
      "tier": "1 venue",
-     "rank": 240
+     "rank": 239
     },
     {
      "name": "Moov",
@@ -11942,7 +11903,7 @@
       "agentic_commerce": false
      },
      "tier": "2 venues",
-     "rank": 241
+     "rank": 240
     },
     {
      "name": "Omni",
@@ -11988,7 +11949,7 @@
       "agentic_commerce": false
      },
      "tier": "3 venues",
-     "rank": 242
+     "rank": 241
     },
     {
      "name": "Arcade.dev",
@@ -12039,7 +12000,7 @@
       "agentic_commerce": false
      },
      "tier": "1 venue",
-     "rank": 243
+     "rank": 242
     },
     {
      "name": "AutoFi",
@@ -12092,7 +12053,7 @@
       "agentic_commerce": false
      },
      "tier": "4 venues",
-     "rank": 244
+     "rank": 243
     },
     {
      "name": "Dub",
@@ -12138,7 +12099,7 @@
       "agentic_commerce": false
      },
      "tier": "2 venues",
-     "rank": 245
+     "rank": 244
     },
     {
      "name": "MoonPay",
@@ -12198,7 +12159,7 @@
       "agentic_commerce": false
      },
      "tier": "4 venues",
-     "rank": 246
+     "rank": 245
     },
     {
      "name": "Seqera Labs",
@@ -12251,7 +12212,7 @@
       "agentic_commerce": false
      },
      "tier": "1 venue",
-     "rank": 247
+     "rank": 246
     },
     {
      "name": "Allium",
@@ -12304,7 +12265,7 @@
       "agentic_commerce": false
      },
      "tier": "1 venue",
-     "rank": 248
+     "rank": 247
     },
     {
      "name": "Secureframe",
@@ -12350,7 +12311,7 @@
       "agentic_commerce": false
      },
      "tier": "5 venues",
-     "rank": 249
+     "rank": 248
     },
     {
      "name": "Instabase",
@@ -12426,7 +12387,7 @@
       "agentic_commerce": false
      },
      "tier": "5 venues",
-     "rank": 250
+     "rank": 249
     },
     {
      "name": "ZeroTier",
@@ -12472,7 +12433,7 @@
       "agentic_commerce": false
      },
      "tier": "1 venue",
-     "rank": 251
+     "rank": 250
     },
     {
      "name": "Browserbase",
@@ -12518,7 +12479,7 @@
       "agentic_commerce": false
      },
      "tier": "3 venues",
-     "rank": 252
+     "rank": 251
     },
     {
      "name": "Reducto",
@@ -12564,7 +12525,7 @@
       "agentic_commerce": false
      },
      "tier": "3 venues",
-     "rank": 253
+     "rank": 252
     },
     {
      "name": "Trulioo",
@@ -12610,7 +12571,7 @@
       "agentic_commerce": false
      },
      "tier": "3 venues",
-     "rank": 254
+     "rank": 253
     },
     {
      "name": "Moveworks",
@@ -12656,7 +12617,7 @@
       "agentic_commerce": false
      },
      "tier": "3 venues",
-     "rank": 255
+     "rank": 254
     },
     {
      "name": "SigNoz",
@@ -12702,7 +12663,7 @@
       "agentic_commerce": false
      },
      "tier": "1 venue",
-     "rank": 256
+     "rank": 255
     },
     {
      "name": "Martian",
@@ -12748,7 +12709,7 @@
       "agentic_commerce": false
      },
      "tier": "1 venue",
-     "rank": 257
+     "rank": 256
     },
     {
      "name": "Ripple Labs",
@@ -12801,7 +12762,7 @@
       "agentic_commerce": false
      },
      "tier": "1 venue",
-     "rank": 258
+     "rank": 257
     },
     {
      "name": "Vectara",
@@ -12847,7 +12808,7 @@
       "agentic_commerce": false
      },
      "tier": "1 venue",
-     "rank": 259
+     "rank": 258
     },
     {
      "name": "Assembled",
@@ -12893,7 +12854,7 @@
       "agentic_commerce": false
      },
      "tier": "2 venues",
-     "rank": 260
+     "rank": 259
     },
     {
      "name": "Basis Theory",
@@ -12946,7 +12907,7 @@
       "agentic_commerce": false
      },
      "tier": "2 venues",
-     "rank": 261
+     "rank": 260
     },
     {
      "name": "Descript",
@@ -12992,7 +12953,7 @@
       "agentic_commerce": false
      },
      "tier": "4 venues",
-     "rank": 262
+     "rank": 261
     },
     {
      "name": "DroneDeploy",
@@ -13038,7 +12999,7 @@
       "agentic_commerce": false
      },
      "tier": "5 venues",
-     "rank": 263
+     "rank": 262
     },
     {
      "name": "TetraScience",
@@ -13091,7 +13052,7 @@
       "agentic_commerce": false
      },
      "tier": "1 venue",
-     "rank": 264
+     "rank": 263
     },
     {
      "name": "BigID",
@@ -13137,7 +13098,7 @@
       "agentic_commerce": false
      },
      "tier": "5 venues",
-     "rank": 265
+     "rank": 264
     },
     {
      "name": "Coinflow",
@@ -13190,7 +13151,7 @@
       "agentic_commerce": false
      },
      "tier": "1 venue",
-     "rank": 266
+     "rank": 265
     },
     {
      "name": "Perplexity",
@@ -13241,7 +13202,7 @@
       "agentic_commerce": false
      },
      "tier": "4 venues",
-     "rank": 267
+     "rank": 266
     },
     {
      "name": "Replicate",
@@ -13287,7 +13248,7 @@
       "agentic_commerce": false
      },
      "tier": "3 venues",
-     "rank": 268
+     "rank": 267
     },
     {
      "name": "Warp",
@@ -13333,7 +13294,7 @@
       "agentic_commerce": false
      },
      "tier": "2 venues",
-     "rank": 269
+     "rank": 268
     },
     {
      "name": "Mesh",
@@ -13386,7 +13347,7 @@
       "agentic_commerce": false
      },
      "tier": "3 venues",
-     "rank": 270
+     "rank": 269
     },
     {
      "name": "mParticle",
@@ -13432,7 +13393,7 @@
       "agentic_commerce": false
      },
      "tier": "2 venues",
-     "rank": 271
+     "rank": 270
     },
     {
      "name": "ThoughtSpot",
@@ -13478,7 +13439,7 @@
       "agentic_commerce": false
      },
      "tier": "5 venues",
-     "rank": 272
+     "rank": 271
     },
     {
      "name": "Knownwell",
@@ -13524,7 +13485,7 @@
       "agentic_commerce": false
      },
      "tier": "2 venues",
-     "rank": 273
+     "rank": 272
     },
     {
      "name": "Octopus Energy",
@@ -13577,7 +13538,7 @@
       "agentic_commerce": false
      },
      "tier": "2 venues",
-     "rank": 274
+     "rank": 273
     },
     {
      "name": "Amberdata",
@@ -13630,7 +13591,7 @@
       "agentic_commerce": false
      },
      "tier": "3 venues",
-     "rank": 275
+     "rank": 274
     },
     {
      "name": "Frontify",
@@ -13676,7 +13637,7 @@
       "agentic_commerce": false
      },
      "tier": "2 venues",
-     "rank": 276
+     "rank": 275
     },
     {
      "name": "Jiko",
@@ -13729,7 +13690,7 @@
       "agentic_commerce": false
      },
      "tier": "4 venues",
-     "rank": 277
+     "rank": 276
     },
     {
      "name": "LeadIQ",
@@ -13775,7 +13736,7 @@
       "agentic_commerce": false
      },
      "tier": "2 venues",
-     "rank": 278
+     "rank": 277
     },
     {
      "name": "Leanplum",
@@ -13821,7 +13782,7 @@
       "agentic_commerce": false
      },
      "tier": "1 venue",
-     "rank": 279
+     "rank": 278
     },
     {
      "name": "Prime Intellect",
@@ -13867,7 +13828,7 @@
       "agentic_commerce": false
      },
      "tier": "3 venues",
-     "rank": 280
+     "rank": 279
     },
     {
      "name": "Yubico",
@@ -13913,7 +13874,7 @@
       "agentic_commerce": false
      },
      "tier": "2 venues",
-     "rank": 281
+     "rank": 280
     },
     {
      "name": "LeadSquared",
@@ -13959,7 +13920,7 @@
       "agentic_commerce": false
      },
      "tier": "2 venues",
-     "rank": 282
+     "rank": 281
     },
     {
      "name": "Grafana",
@@ -14005,7 +13966,7 @@
       "agentic_commerce": false
      },
      "tier": "3 venues",
-     "rank": 283
+     "rank": 282
     },
     {
      "name": "Resend",
@@ -14051,7 +14012,7 @@
       "agentic_commerce": false
      },
      "tier": "1 venue",
-     "rank": 284
+     "rank": 283
     },
     {
      "name": "Rocketlane",
@@ -14097,7 +14058,7 @@
       "agentic_commerce": false
      },
      "tier": "2 venues",
-     "rank": 285
+     "rank": 284
     },
     {
      "name": "CompanyCam",
@@ -14143,7 +14104,7 @@
       "agentic_commerce": false
      },
      "tier": "4 venues",
-     "rank": 286
+     "rank": 285
     },
     {
      "name": "Freshpaint",
@@ -14203,7 +14164,7 @@
       "agentic_commerce": false
      },
      "tier": "4 venues",
-     "rank": 287
+     "rank": 286
     },
     {
      "name": "Kentik",
@@ -14249,7 +14210,7 @@
       "agentic_commerce": false
      },
      "tier": "3 venues",
-     "rank": 288
+     "rank": 287
     },
     {
      "name": "Token.io",
@@ -14300,7 +14261,7 @@
       "agentic_commerce": false
      },
      "tier": "1 venue",
-     "rank": 289
+     "rank": 288
     },
     {
      "name": "AlphaSense",
@@ -14346,7 +14307,7 @@
       "agentic_commerce": false
      },
      "tier": "5 venues",
-     "rank": 290
+     "rank": 289
     },
     {
      "name": "Composio",
@@ -14392,7 +14353,7 @@
       "agentic_commerce": false
      },
      "tier": "1 venue",
-     "rank": 291
+     "rank": 290
     },
     {
      "name": "Panther",
@@ -14438,7 +14399,7 @@
       "agentic_commerce": false
      },
      "tier": "3 venues",
-     "rank": 292
+     "rank": 291
     },
     {
      "name": "Sendoso",
@@ -14484,7 +14445,7 @@
       "agentic_commerce": false
      },
      "tier": "3 venues",
-     "rank": 293
+     "rank": 292
     },
     {
      "name": "Funnel",
@@ -14530,7 +14491,7 @@
       "agentic_commerce": false
      },
      "tier": "1 venue",
-     "rank": 294
+     "rank": 293
     },
     {
      "name": "GPTZero",
@@ -14583,7 +14544,7 @@
       "agentic_commerce": false
      },
      "tier": "1 venue",
-     "rank": 295
+     "rank": 294
     },
     {
      "name": "Temporal",
@@ -14629,7 +14590,7 @@
       "agentic_commerce": false
      },
      "tier": "3 venues",
-     "rank": 296
+     "rank": 295
     },
     {
      "name": "Nooks",
@@ -14675,7 +14636,7 @@
       "agentic_commerce": false
      },
      "tier": "3 venues",
-     "rank": 297
+     "rank": 296
     },
     {
      "name": "Sumble",
@@ -14721,7 +14682,7 @@
       "agentic_commerce": false
      },
      "tier": "1 venue",
-     "rank": 298
+     "rank": 297
     },
     {
      "name": "Upwind",
@@ -14764,6 +14725,59 @@
       "delegated_identity": "served",
       "protected_resource_metadata": false,
       "dynamic_client_registration": true,
+      "agentic_commerce": false
+     },
+     "tier": "2 venues",
+     "rank": 298
+    },
+    {
+     "name": "Vic.ai",
+     "slug": "vicai",
+     "description": "Vic.ai builds AI-native software for enterprise Accounts Payable and finance teams, automating the end-to-end AP workflow: invoice capture from email/SFTP/API/mobile, AI extraction of header and line-level data, GL coding, purchase-order matching, approval routing, bill pay and vendor portals, corporate-card expense management, and analytics. It integrates with major ERPs (SAP, Oracle, Microsoft Dynamics, NetSuite, Workday, Coupa). The public Vic.ai API (docs.vic.ai) is an ERP-integration surface with 173 operations across invoices, purchase orders, payments, masterdata sync, and webhooks, authenticated with client-credentials Bearer JWTs. Vic.ai holds SOC 1/SOC 2 Type II and operates on an ISO 27001 framework. Backed by Cowboy Ventures, GGV Capital, and ICONIQ Capital.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/vicai/refs/heads/main/screenshots/vicai-2026-08-17T082809.png",
+     "score": 54.4,
+     "band": "strong",
+     "band_label": "Strong",
+     "facets": {
+      "discoverability": 51.9,
+      "contract_quality": 66.0,
+      "governance": 4.5,
+      "contract_governance": 4.5,
+      "operational_transparency": 47.4,
+      "developer_ergonomics": 58.9,
+      "commercial_clarity": 60.5,
+      "access_clarity": 60.5
+     },
+     "scored_at": "2026-09-01",
+     "schema_version": "0.18.0",
+     "regulatory": {
+      "applies": true,
+      "regime": "Payments",
+      "regime_id": "payments",
+      "score": 46.9,
+      "matched_via": "tags"
+     },
+     "agent_score": 32.9,
+     "agent_band": "agent-ready",
+     "agent_dims": {
+      "spec_presence": true,
+      "agentic_access": "derived",
+      "reversibility_documented": false,
+      "mcp_server": false,
+      "auth_clarity": "bearer",
+      "idempotency": false,
+      "error_semantics": "documented",
+      "openapi_examples": "partial",
+      "rate_limit_signal": "verified",
+      "event_surface_described": true,
+      "agent_skills": "derived",
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
       "agentic_commerce": false
      },
      "tier": "2 venues",
@@ -14819,61 +14833,8 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "tier": "2 venues",
-     "rank": 300
-    },
-    {
-     "name": "Vic.ai",
-     "slug": "vicai",
-     "description": "Vic.ai builds AI-native software for enterprise Accounts Payable and finance teams, automating the end-to-end AP workflow: invoice capture from email/SFTP/API/mobile, AI extraction of header and line-level data, GL coding, purchase-order matching, approval routing, bill pay and vendor portals, corporate-card expense management, and analytics. It integrates with major ERPs (SAP, Oracle, Microsoft Dynamics, NetSuite, Workday, Coupa). The public Vic.ai API (docs.vic.ai) is an ERP-integration surface with 173 operations across invoices, purchase orders, payments, masterdata sync, and webhooks, authenticated with client-credentials Bearer JWTs. Vic.ai holds SOC 1/SOC 2 Type II and operates on an ISO 27001 framework. Backed by Cowboy Ventures, GGV Capital, and ICONIQ Capital.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/vicai/refs/heads/main/screenshots/vicai-2026-08-17T082809.png",
-     "score": 54.4,
-     "band": "strong",
-     "band_label": "Strong",
-     "facets": {
-      "discoverability": 51.9,
-      "contract_quality": 66.0,
-      "governance": 4.5,
-      "contract_governance": 4.5,
-      "operational_transparency": 47.4,
-      "developer_ergonomics": 58.9,
-      "commercial_clarity": 60.5,
-      "access_clarity": 60.5
-     },
-     "scored_at": "2026-09-01",
-     "schema_version": "0.18.0",
-     "regulatory": {
-      "applies": true,
-      "regime": "Payments",
-      "regime_id": "payments",
-      "score": 46.9,
-      "matched_via": "tags"
-     },
-     "agent_score": 32.9,
-     "agent_band": "agent-ready",
-     "agent_dims": {
-      "spec_presence": true,
-      "agentic_access": "derived",
-      "reversibility_documented": false,
-      "mcp_server": false,
-      "auth_clarity": "bearer",
-      "idempotency": false,
-      "error_semantics": "documented",
-      "openapi_examples": "partial",
-      "rate_limit_signal": "verified",
-      "event_surface_described": true,
-      "agent_skills": "derived",
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false,
-      "delegated_identity": false,
-      "protected_resource_metadata": false,
-      "dynamic_client_registration": false,
-      "agentic_commerce": false
-     },
      "tier": "1 venue",
-     "rank": 301
+     "rank": 300
     },
     {
      "name": "Athelas",
@@ -14933,7 +14894,7 @@
       "agentic_commerce": false
      },
      "tier": "1 venue",
-     "rank": 302
+     "rank": 301
     },
     {
      "name": "Calm",
@@ -14986,7 +14947,7 @@
       "agentic_commerce": false
      },
      "tier": "4 venues",
-     "rank": 303
+     "rank": 302
     },
     {
      "name": "Gradle",
@@ -15032,7 +14993,7 @@
       "agentic_commerce": false
      },
      "tier": "1 venue",
-     "rank": 304
+     "rank": 303
     },
     {
      "name": "Insider",
@@ -15092,7 +15053,7 @@
       "agentic_commerce": false
      },
      "tier": "3 venues",
-     "rank": 305
+     "rank": 304
     },
     {
      "name": "MaintainX",
@@ -15138,7 +15099,7 @@
       "agentic_commerce": false
      },
      "tier": "4 venues",
-     "rank": 306
+     "rank": 305
     },
     {
      "name": "Replicant",
@@ -15184,7 +15145,7 @@
       "agentic_commerce": false
      },
      "tier": "2 venues",
-     "rank": 307
+     "rank": 306
     }
    ],
    "open": true
@@ -15195,7 +15156,7 @@
    "range": "39.3 – 54.2",
    "blurb": "Real signal across most facets with visible, nameable gaps.",
    "count": 850,
-   "shown": 693,
+   "shown": 694,
    "providers": [
     {
      "name": "ASAPP",
@@ -15241,7 +15202,7 @@
       "agentic_commerce": false
      },
      "tier": "4 venues",
-     "rank": 308
+     "rank": 307
     },
     {
      "name": "Fintecture",
@@ -15294,7 +15255,7 @@
       "agentic_commerce": false
      },
      "tier": "2 venues",
-     "rank": 309
+     "rank": 308
     },
     {
      "name": "LawVu",
@@ -15340,7 +15301,7 @@
       "agentic_commerce": false
      },
      "tier": "1 venue",
-     "rank": 310
+     "rank": 309
     },
     {
      "name": "Lunar Energy",
@@ -15393,7 +15354,7 @@
       "agentic_commerce": false
      },
      "tier": "4 venues",
-     "rank": 311
+     "rank": 310
     },
     {
      "name": "Mezmo",
@@ -15438,7 +15399,7 @@
       "agentic_commerce": false
      },
      "tier": "2 venues",
-     "rank": 312
+     "rank": 311
     },
     {
      "name": "Nimbleway",
@@ -15484,7 +15445,7 @@
       "agentic_commerce": false
      },
      "tier": "1 venue",
-     "rank": 313
+     "rank": 312
     },
     {
      "name": "Utila",
@@ -15537,7 +15498,7 @@
       "agentic_commerce": false
      },
      "tier": "1 venue",
-     "rank": 314
+     "rank": 313
     },
     {
      "name": "Yapily",
@@ -15590,7 +15551,7 @@
       "agentic_commerce": false
      },
      "tier": "1 venue",
-     "rank": 315
+     "rank": 314
     },
     {
      "name": "Eligible",
@@ -15643,7 +15604,7 @@
       "agentic_commerce": false
      },
      "tier": "2 venues",
-     "rank": 316
+     "rank": 315
     },
     {
      "name": "Fathom Analytics",
@@ -15689,7 +15650,7 @@
       "agentic_commerce": false
      },
      "tier": "1 venue",
-     "rank": 317
+     "rank": 316
     },
     {
      "name": "Sentry",
@@ -15735,7 +15696,7 @@
       "agentic_commerce": false
      },
      "tier": "5 venues",
-     "rank": 318
+     "rank": 317
     },
     {
      "name": "Swan",
@@ -15795,7 +15756,7 @@
       "agentic_commerce": false
      },
      "tier": "1 venue",
-     "rank": 319
+     "rank": 318
     },
     {
      "name": "Verifiable",
@@ -15848,7 +15809,7 @@
       "agentic_commerce": false
      },
      "tier": "4 venues",
-     "rank": 320
+     "rank": 319
     },
     {
      "name": "Flipdish",
@@ -15901,7 +15862,7 @@
       "agentic_commerce": false
      },
      "tier": "4 venues",
-     "rank": 321
+     "rank": 320
     },
     {
      "name": "Ansible",
@@ -15947,7 +15908,7 @@
       "agentic_commerce": false
      },
      "tier": "1 venue",
-     "rank": 322
+     "rank": 321
     },
     {
      "name": "Encharge",
@@ -15993,7 +15954,7 @@
       "agentic_commerce": false
      },
      "tier": "3 venues",
-     "rank": 323
+     "rank": 322
     },
     {
      "name": "JupiterOne",
@@ -16039,7 +16000,7 @@
       "agentic_commerce": false
      },
      "tier": "3 venues",
-     "rank": 324
+     "rank": 323
     },
     {
      "name": "Lightrun",
@@ -16085,7 +16046,7 @@
       "agentic_commerce": false
      },
      "tier": "2 venues",
-     "rank": 325
+     "rank": 324
     },
     {
      "name": "Scale3",
@@ -16131,7 +16092,7 @@
       "agentic_commerce": false
      },
      "tier": "1 venue",
-     "rank": 326
+     "rank": 325
     },
     {
      "name": "Xbow",
@@ -16177,7 +16138,7 @@
       "agentic_commerce": false
      },
      "tier": "4 venues",
-     "rank": 327
+     "rank": 326
     },
     {
      "name": "Fiddler Labs",
@@ -16223,7 +16184,7 @@
       "agentic_commerce": false
      },
      "tier": "1 venue",
-     "rank": 328
+     "rank": 327
     },
     {
      "name": "Nash",
@@ -16269,7 +16230,7 @@
       "agentic_commerce": false
      },
      "tier": "1 venue",
-     "rank": 329
+     "rank": 328
     },
     {
      "name": "TaxJar",
@@ -16315,7 +16276,7 @@
       "agentic_commerce": false
      },
      "tier": "1 venue",
-     "rank": 330
+     "rank": 329
     },
     {
      "name": "1NCE",
@@ -16368,7 +16329,7 @@
       "agentic_commerce": false
      },
      "tier": "1 venue",
-     "rank": 331
+     "rank": 330
     },
     {
      "name": "Observe.AI",
@@ -16414,7 +16375,7 @@
       "agentic_commerce": false
      },
      "tier": "1 venue",
-     "rank": 332
+     "rank": 331
     },
     {
      "name": "Permutive",
@@ -16460,7 +16421,7 @@
       "agentic_commerce": false
      },
      "tier": "2 venues",
-     "rank": 333
+     "rank": 332
     },
     {
      "name": "Codesignal",
@@ -16513,7 +16474,7 @@
       "agentic_commerce": false
      },
      "tier": "3 venues",
-     "rank": 334
+     "rank": 333
     },
     {
      "name": "Lighter",
@@ -16566,7 +16527,7 @@
       "agentic_commerce": false
      },
      "tier": "1 venue",
-     "rank": 335
+     "rank": 334
     },
     {
      "name": "Lunar",
@@ -16612,7 +16573,7 @@
       "agentic_commerce": false
      },
      "tier": "3 venues",
-     "rank": 336
+     "rank": 335
     },
     {
      "name": "Ondo Finance",
@@ -16665,7 +16626,7 @@
       "agentic_commerce": false
      },
      "tier": "2 venues",
-     "rank": 337
+     "rank": 336
     },
     {
      "name": "Picsart",
@@ -16711,7 +16672,7 @@
       "agentic_commerce": false
      },
      "tier": "5 venues",
-     "rank": 338
+     "rank": 337
     },
     {
      "name": "D-ID",
@@ -16757,7 +16718,7 @@
       "agentic_commerce": false
      },
      "tier": "2 venues",
-     "rank": 339
+     "rank": 338
     },
     {
      "name": "Fleet",
@@ -16803,7 +16764,7 @@
       "agentic_commerce": false
      },
      "tier": "1 venue",
-     "rank": 340
+     "rank": 339
     },
     {
      "name": "Tray.ai",
@@ -16849,7 +16810,7 @@
       "agentic_commerce": false
      },
      "tier": "1 venue",
-     "rank": 341
+     "rank": 340
     },
     {
      "name": "Kissmetrics",
@@ -16895,7 +16856,7 @@
       "agentic_commerce": false
      },
      "tier": "1 venue",
-     "rank": 342
+     "rank": 341
     },
     {
      "name": "ScyllaDB",
@@ -16941,7 +16902,7 @@
       "agentic_commerce": false
      },
      "tier": "3 venues",
-     "rank": 343
+     "rank": 342
     },
     {
      "name": "Bevz",
@@ -16987,7 +16948,7 @@
       "agentic_commerce": false
      },
      "tier": "1 venue",
-     "rank": 344
+     "rank": 343
     },
     {
      "name": "Databento",
@@ -17040,7 +17001,7 @@
       "agentic_commerce": false
      },
      "tier": "1 venue",
-     "rank": 345
+     "rank": 344
     },
     {
      "name": "Ledger Investing",
@@ -17093,7 +17054,7 @@
       "agentic_commerce": false
      },
      "tier": "3 venues",
-     "rank": 346
+     "rank": 345
     },
     {
      "name": "NationBuilder",
@@ -17139,7 +17100,7 @@
       "agentic_commerce": false
      },
      "tier": "1 venue",
-     "rank": 347
+     "rank": 346
     },
     {
      "name": "dbt",
@@ -17185,7 +17146,7 @@
       "agentic_commerce": false
      },
      "tier": "3 venues",
-     "rank": 348
+     "rank": 347
     },
     {
      "name": "Hasura",
@@ -17231,7 +17192,7 @@
       "agentic_commerce": false
      },
      "tier": "4 venues",
-     "rank": 349
+     "rank": 348
     },
     {
      "name": "Smartcat",
@@ -17277,7 +17238,7 @@
       "agentic_commerce": false
      },
      "tier": "3 venues",
-     "rank": 350
+     "rank": 349
     },
     {
      "name": "Supermetrics",
@@ -17323,7 +17284,7 @@
       "agentic_commerce": false
      },
      "tier": "1 venue",
-     "rank": 351
+     "rank": 350
     },
     {
      "name": "TypingDNA",
@@ -17369,7 +17330,7 @@
       "agentic_commerce": false
      },
      "tier": "1 venue",
-     "rank": 352
+     "rank": 351
     },
     {
      "name": "Digio",
@@ -17415,7 +17376,7 @@
       "agentic_commerce": false
      },
      "tier": "1 venue",
-     "rank": 353
+     "rank": 352
     },
     {
      "name": "InfluxData",
@@ -17461,7 +17422,7 @@
       "agentic_commerce": false
      },
      "tier": "2 venues",
-     "rank": 354
+     "rank": 353
     },
     {
      "name": "Prisma",
@@ -17512,7 +17473,7 @@
       "agentic_commerce": false
      },
      "tier": "1 venue",
-     "rank": 355
+     "rank": 354
     },
     {
      "name": "Qobuz",
@@ -17558,7 +17519,7 @@
       "agentic_commerce": false
      },
      "tier": "1 venue",
-     "rank": 356
+     "rank": 355
     },
     {
      "name": "Ramp",
@@ -17611,7 +17572,7 @@
       "agentic_commerce": false
      },
      "tier": "4 venues",
-     "rank": 357
+     "rank": 356
     },
     {
      "name": "Yugabyte",
@@ -17657,7 +17618,7 @@
       "agentic_commerce": false
      },
      "tier": "4 venues",
-     "rank": 358
+     "rank": 357
     },
     {
      "name": "Appwrite",
@@ -17703,7 +17664,7 @@
       "agentic_commerce": false
      },
      "tier": "1 venue",
-     "rank": 359
+     "rank": 358
     },
     {
      "name": "Astronomer",
@@ -17749,7 +17710,7 @@
       "agentic_commerce": false
      },
      "tier": "5 venues",
-     "rank": 360
+     "rank": 359
     },
     {
      "name": "Emotive",
@@ -17802,7 +17763,7 @@
       "agentic_commerce": false
      },
      "tier": "1 venue",
-     "rank": 361
+     "rank": 360
     },
     {
      "name": "H Company",
@@ -17848,7 +17809,7 @@
       "agentic_commerce": false
      },
      "tier": "1 venue",
-     "rank": 362
+     "rank": 361
     },
     {
      "name": "Oura Ring",
@@ -17901,7 +17862,7 @@
       "agentic_commerce": false
      },
      "tier": "4 venues",
-     "rank": 363
+     "rank": 362
     },
     {
      "name": "Artera",
@@ -17969,7 +17930,7 @@
       "agentic_commerce": false
      },
      "tier": "2 venues",
-     "rank": 364
+     "rank": 363
     },
     {
      "name": "data.world",
@@ -18022,7 +17983,7 @@
       "agentic_commerce": false
      },
      "tier": "1 venue",
-     "rank": 365
+     "rank": 364
     },
     {
      "name": "Justworks",
@@ -18075,7 +18036,7 @@
       "agentic_commerce": false
      },
      "tier": "5 venues",
-     "rank": 366
+     "rank": 365
     },
     {
      "name": "OpenPhone",
@@ -18139,7 +18100,7 @@
       "agentic_commerce": false
      },
      "tier": "2 venues",
-     "rank": 367
+     "rank": 366
     },
     {
      "name": "Wefunder",
@@ -18192,7 +18153,7 @@
       "agentic_commerce": false
      },
      "tier": "2 venues",
-     "rank": 368
+     "rank": 367
     },
     {
      "name": "Genesys",
@@ -18260,7 +18221,7 @@
       "agentic_commerce": false
      },
      "tier": "2 venues",
-     "rank": 369
+     "rank": 368
     },
     {
      "name": "Veho",
@@ -18306,7 +18267,7 @@
       "agentic_commerce": false
      },
      "tier": "2 venues",
-     "rank": 370
+     "rank": 369
     },
     {
      "name": "Govly",
@@ -18359,7 +18320,7 @@
       "agentic_commerce": false
      },
      "tier": "1 venue",
-     "rank": 371
+     "rank": 370
     },
     {
      "name": "Invoca",
@@ -18405,7 +18366,7 @@
       "agentic_commerce": false
      },
      "tier": "5 venues",
-     "rank": 372
+     "rank": 371
     },
     {
      "name": "Fireflies.ai",
@@ -18451,7 +18412,7 @@
       "agentic_commerce": false
      },
      "tier": "3 venues",
-     "rank": 373
+     "rank": 372
     },
     {
      "name": "Gumloop",
@@ -18497,7 +18458,7 @@
       "agentic_commerce": false
      },
      "tier": "1 venue",
-     "rank": 374
+     "rank": 373
     },
     {
      "name": "Lightricks",
@@ -18543,7 +18504,7 @@
       "agentic_commerce": false
      },
      "tier": "4 venues",
-     "rank": 375
+     "rank": 374
     },
     {
      "name": "Lumos",
@@ -18589,7 +18550,7 @@
       "agentic_commerce": false
      },
      "tier": "2 venues",
-     "rank": 376
+     "rank": 375
     },
     {
      "name": "Skilljar",
@@ -18642,7 +18603,7 @@
       "agentic_commerce": false
      },
      "tier": "2 venues",
-     "rank": 377
+     "rank": 376
     },
     {
      "name": "Conta Azul",
@@ -18695,7 +18656,7 @@
       "agentic_commerce": false
      },
      "tier": "1 venue",
-     "rank": 378
+     "rank": 377
     },
     {
      "name": "LiquiDonate",
@@ -18741,7 +18702,7 @@
       "agentic_commerce": false
      },
      "tier": "1 venue",
-     "rank": 379
+     "rank": 378
     },
     {
      "name": "Nuon",
@@ -18787,7 +18748,7 @@
       "agentic_commerce": false
      },
      "tier": "1 venue",
-     "rank": 380
+     "rank": 379
     },
     {
      "name": "OpusClip",
@@ -18833,7 +18794,7 @@
       "agentic_commerce": false
      },
      "tier": "2 venues",
-     "rank": 381
+     "rank": 380
     },
     {
      "name": "GC AI",
@@ -18876,6 +18837,52 @@
       "delegated_identity": "served",
       "protected_resource_metadata": "verified",
       "dynamic_client_registration": true,
+      "agentic_commerce": false
+     },
+     "tier": "2 venues",
+     "rank": 381
+    },
+    {
+     "name": "NetBox Labs",
+     "slug": "netbox-labs",
+     "description": "NetBox Labs is the commercial company behind NetBox, the open-source network source-of-truth (DCIM and IPAM) used by network and infrastructure teams to model sites, racks, devices, interfaces, IP addresses, prefixes, VLANs, circuits, VPNs, and tenancy. It offers NetBox Cloud and NetBox Enterprise alongside the OSS project. NetBox exposes a comprehensive token-authenticated REST API (OpenAPI 3.0, 1,000+ operations across dcim/ipam/circuits/tenancy/virtualization/vpn/wireless), a read-only GraphQL API, official Python (pynetbox) and Go (go-netbox) client libraries, and an official read-only Model Context Protocol (MCP) server for AI agents. The platform is SOC 2 Type II compliant.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/netbox-labs/refs/heads/main/screenshots/netbox-labs-2026-08-07T184929.png",
+     "score": 52.2,
+     "band": "developing",
+     "band_label": "Developing",
+     "facets": {
+      "discoverability": 75.9,
+      "contract_quality": 47.8,
+      "governance": 4.5,
+      "contract_governance": 4.5,
+      "operational_transparency": 52.6,
+      "developer_ergonomics": 66.1,
+      "commercial_clarity": 60.5,
+      "access_clarity": 60.5
+     },
+     "scored_at": "2026-09-01",
+     "schema_version": "0.18.0",
+     "agent_score": 22.7,
+     "agent_band": "agent-aware",
+     "agent_dims": {
+      "spec_presence": true,
+      "agentic_access": false,
+      "reversibility_documented": false,
+      "mcp_server": "documented",
+      "auth_clarity": "bearer",
+      "idempotency": false,
+      "error_semantics": "documented",
+      "openapi_examples": false,
+      "rate_limit_signal": false,
+      "event_surface_described": false,
+      "agent_skills": "derived",
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
       "agentic_commerce": false
      },
      "tier": "2 venues",
@@ -18924,54 +18931,8 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "tier": "2 venues",
-     "rank": 383
-    },
-    {
-     "name": "NetBox Labs",
-     "slug": "netbox-labs",
-     "description": "NetBox Labs is the commercial company behind NetBox, the open-source network source-of-truth (DCIM and IPAM) used by network and infrastructure teams to model sites, racks, devices, interfaces, IP addresses, prefixes, VLANs, circuits, VPNs, and tenancy. It offers NetBox Cloud and NetBox Enterprise alongside the OSS project. NetBox exposes a comprehensive token-authenticated REST API (OpenAPI 3.0, 1,000+ operations across dcim/ipam/circuits/tenancy/virtualization/vpn/wireless), a read-only GraphQL API, official Python (pynetbox) and Go (go-netbox) client libraries, and an official read-only Model Context Protocol (MCP) server for AI agents. The platform is SOC 2 Type II compliant.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/netbox-labs/refs/heads/main/screenshots/netbox-labs-2026-08-07T184929.png",
-     "score": 52.2,
-     "band": "developing",
-     "band_label": "Developing",
-     "facets": {
-      "discoverability": 75.9,
-      "contract_quality": 47.8,
-      "governance": 4.5,
-      "contract_governance": 4.5,
-      "operational_transparency": 52.6,
-      "developer_ergonomics": 66.1,
-      "commercial_clarity": 60.5,
-      "access_clarity": 60.5
-     },
-     "scored_at": "2026-09-01",
-     "schema_version": "0.18.0",
-     "agent_score": 22.7,
-     "agent_band": "agent-aware",
-     "agent_dims": {
-      "spec_presence": true,
-      "agentic_access": false,
-      "reversibility_documented": false,
-      "mcp_server": "documented",
-      "auth_clarity": "bearer",
-      "idempotency": false,
-      "error_semantics": "documented",
-      "openapi_examples": false,
-      "rate_limit_signal": false,
-      "event_surface_described": false,
-      "agent_skills": "derived",
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false,
-      "delegated_identity": false,
-      "protected_resource_metadata": false,
-      "dynamic_client_registration": false,
-      "agentic_commerce": false
-     },
      "tier": "1 venue",
-     "rank": 384
+     "rank": 383
     },
     {
      "name": "Storyblok",
@@ -19017,7 +18978,7 @@
       "agentic_commerce": false
      },
      "tier": "1 venue",
-     "rank": 385
+     "rank": 384
     },
     {
      "name": "QuotaPath",
@@ -19063,7 +19024,7 @@
       "agentic_commerce": false
      },
      "tier": "1 venue",
-     "rank": 386
+     "rank": 385
     },
     {
      "name": "CallRail",
@@ -19109,7 +19070,7 @@
       "agentic_commerce": false
      },
      "tier": "3 venues",
-     "rank": 387
+     "rank": 386
     },
     {
      "name": "Conduit",
@@ -19155,7 +19116,7 @@
       "agentic_commerce": false
      },
      "tier": "2 venues",
-     "rank": 388
+     "rank": 387
     },
     {
      "name": "FullContact",
@@ -19201,7 +19162,7 @@
       "agentic_commerce": false
      },
      "tier": "3 venues",
-     "rank": 389
+     "rank": 388
     },
     {
      "name": "Inspectorio",
@@ -19247,7 +19208,7 @@
       "agentic_commerce": false
      },
      "tier": "1 venue",
-     "rank": 390
+     "rank": 389
     },
     {
      "name": "Sanity",
@@ -19293,7 +19254,7 @@
       "agentic_commerce": false
      },
      "tier": "3 venues",
-     "rank": 391
+     "rank": 390
     },
     {
      "name": "Shippo",
@@ -19339,7 +19300,7 @@
       "agentic_commerce": false
      },
      "tier": "5 venues",
-     "rank": 392
+     "rank": 391
     },
     {
      "name": "Edge Delta",
@@ -19385,7 +19346,7 @@
       "agentic_commerce": false
      },
      "tier": "3 venues",
-     "rank": 393
+     "rank": 392
     },
     {
      "name": "MadKudu",
@@ -19431,7 +19392,7 @@
       "agentic_commerce": false
      },
      "tier": "1 venue",
-     "rank": 394
+     "rank": 393
     },
     {
      "name": "Replit",
@@ -19477,7 +19438,7 @@
       "agentic_commerce": false
      },
      "tier": "5 venues",
-     "rank": 395
+     "rank": 394
     },
     {
      "name": "Wallapop",
@@ -19523,7 +19484,7 @@
       "agentic_commerce": false
      },
      "tier": "2 venues",
-     "rank": 396
+     "rank": 395
     },
     {
      "name": "AppDirect",
@@ -19569,7 +19530,7 @@
       "agentic_commerce": false
      },
      "tier": "5 venues",
-     "rank": 397
+     "rank": 396
     },
     {
      "name": "Bluecore",
@@ -19622,7 +19583,7 @@
       "agentic_commerce": false
      },
      "tier": "4 venues",
-     "rank": 398
+     "rank": 397
     },
     {
      "name": "Couchbase",
@@ -19668,7 +19629,7 @@
       "agentic_commerce": false
      },
      "tier": "1 venue",
-     "rank": 399
+     "rank": 398
     },
     {
      "name": "Housecall Pro",
@@ -19721,7 +19682,7 @@
       "agentic_commerce": false
      },
      "tier": "2 venues",
-     "rank": 400
+     "rank": 399
     },
     {
      "name": "Kard",
@@ -19774,7 +19735,7 @@
       "agentic_commerce": false
      },
      "tier": "2 venues",
-     "rank": 401
+     "rank": 400
     },
     {
      "name": "Kushki",
@@ -19817,6 +19778,52 @@
       "rate_limit_signal": "documented",
       "event_surface_described": false,
       "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
+     "tier": "4 venues",
+     "rank": 401
+    },
+    {
+     "name": "SambaNova Systems",
+     "slug": "sambanova-systems",
+     "description": "SambaNova Systems is an AI infrastructure company that builds custom Reconfigurable Dataflow Unit (RDU) chips and the SambaCloud, SambaStack, and SambaRack platforms for fast, energy-efficient AI inference. Its developer-facing product, SambaNova Cloud, exposes an OpenAI- and Anthropic-compatible inference API (chat completions, completions, the Responses API, the Messages API, embeddings, and audio transcription/translation) serving open models such as Meta Llama, DeepSeek, MiniMax, gpt-oss, Gemma, and Mistral. A companion Agents Service provides coordinated coding, data-science, deep-research, and financial-analysis agents. Official Python and TypeScript SDKs, tiered rate limits, prompt caching, and dozens of framework integrations round out the platform.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/sambanova-systems/refs/heads/main/screenshots/sambanova-systems-2026-08-17T081717.png",
+     "score": 51.8,
+     "band": "developing",
+     "band_label": "Developing",
+     "facets": {
+      "discoverability": 75.9,
+      "contract_quality": 55.2,
+      "governance": 4.5,
+      "contract_governance": 4.5,
+      "operational_transparency": 73.7,
+      "developer_ergonomics": 56.5,
+      "commercial_clarity": 44.7,
+      "access_clarity": 44.7
+     },
+     "scored_at": "2026-09-01",
+     "schema_version": "0.18.0",
+     "agent_score": 29.0,
+     "agent_band": "agent-ready",
+     "agent_dims": {
+      "spec_presence": true,
+      "agentic_access": "derived",
+      "reversibility_documented": false,
+      "mcp_server": false,
+      "auth_clarity": "bearer",
+      "idempotency": false,
+      "error_semantics": "verified",
+      "openapi_examples": "partial",
+      "rate_limit_signal": "documented",
+      "event_surface_described": false,
+      "agent_skills": "derived",
       "well_known_catalog": false,
       "consent_identity": false,
       "agent_card": false,
@@ -19872,54 +19879,8 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "tier": "4 venues",
-     "rank": 403
-    },
-    {
-     "name": "SambaNova Systems",
-     "slug": "sambanova-systems",
-     "description": "SambaNova Systems is an AI infrastructure company that builds custom Reconfigurable Dataflow Unit (RDU) chips and the SambaCloud, SambaStack, and SambaRack platforms for fast, energy-efficient AI inference. Its developer-facing product, SambaNova Cloud, exposes an OpenAI- and Anthropic-compatible inference API (chat completions, completions, the Responses API, the Messages API, embeddings, and audio transcription/translation) serving open models such as Meta Llama, DeepSeek, MiniMax, gpt-oss, Gemma, and Mistral. A companion Agents Service provides coordinated coding, data-science, deep-research, and financial-analysis agents. Official Python and TypeScript SDKs, tiered rate limits, prompt caching, and dozens of framework integrations round out the platform.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/sambanova-systems/refs/heads/main/screenshots/sambanova-systems-2026-08-17T081717.png",
-     "score": 51.8,
-     "band": "developing",
-     "band_label": "Developing",
-     "facets": {
-      "discoverability": 75.9,
-      "contract_quality": 55.2,
-      "governance": 4.5,
-      "contract_governance": 4.5,
-      "operational_transparency": 73.7,
-      "developer_ergonomics": 56.5,
-      "commercial_clarity": 44.7,
-      "access_clarity": 44.7
-     },
-     "scored_at": "2026-09-01",
-     "schema_version": "0.18.0",
-     "agent_score": 29.0,
-     "agent_band": "agent-ready",
-     "agent_dims": {
-      "spec_presence": true,
-      "agentic_access": "derived",
-      "reversibility_documented": false,
-      "mcp_server": false,
-      "auth_clarity": "bearer",
-      "idempotency": false,
-      "error_semantics": "verified",
-      "openapi_examples": "partial",
-      "rate_limit_signal": "documented",
-      "event_surface_described": false,
-      "agent_skills": "derived",
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false,
-      "delegated_identity": false,
-      "protected_resource_metadata": false,
-      "dynamic_client_registration": false,
-      "agentic_commerce": false
-     },
      "tier": "1 venue",
-     "rank": 404
+     "rank": 403
     },
     {
      "name": "AB Tasty",
@@ -19965,7 +19926,7 @@
       "agentic_commerce": false
      },
      "tier": "1 venue",
-     "rank": 405
+     "rank": 404
     },
     {
      "name": "Act-On",
@@ -20011,7 +19972,7 @@
       "agentic_commerce": false
      },
      "tier": "1 venue",
-     "rank": 406
+     "rank": 405
     },
     {
      "name": "Ansa",
@@ -20064,7 +20025,7 @@
       "agentic_commerce": false
      },
      "tier": "1 venue",
-     "rank": 407
+     "rank": 406
     },
     {
      "name": "Speakeasy",
@@ -20110,7 +20071,7 @@
       "agentic_commerce": false
      },
      "tier": "1 venue",
-     "rank": 408
+     "rank": 407
     },
     {
      "name": "Cognism",
@@ -20156,7 +20117,7 @@
       "agentic_commerce": false
      },
      "tier": "3 venues",
-     "rank": 409
+     "rank": 408
     },
     {
      "name": "dope.security",
@@ -20202,7 +20163,7 @@
       "agentic_commerce": false
      },
      "tier": "2 venues",
-     "rank": 410
+     "rank": 409
     },
     {
      "name": "Drip",
@@ -20248,7 +20209,7 @@
       "agentic_commerce": false
      },
      "tier": "1 venue",
-     "rank": 411
+     "rank": 410
     },
     {
      "name": "Halliday",
@@ -20301,7 +20262,7 @@
       "agentic_commerce": false
      },
      "tier": "1 venue",
-     "rank": 412
+     "rank": 411
     },
     {
      "name": "Parasail",
@@ -20347,7 +20308,7 @@
       "agentic_commerce": false
      },
      "tier": "1 venue",
-     "rank": 413
+     "rank": 412
     },
     {
      "name": "Planhat",
@@ -20393,7 +20354,7 @@
       "agentic_commerce": false
      },
      "tier": "1 venue",
-     "rank": 414
+     "rank": 413
     },
     {
      "name": "RunPod",
@@ -20439,7 +20400,7 @@
       "agentic_commerce": false
      },
      "tier": "3 venues",
-     "rank": 415
+     "rank": 414
     },
     {
      "name": "Runway",
@@ -20475,6 +20436,52 @@
       "rate_limit_signal": "documented",
       "event_surface_described": "derived",
       "agent_skills": true,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
+     "tier": "2 venues",
+     "rank": 415
+    },
+    {
+     "name": "Ava Labs",
+     "slug": "ava-labs",
+     "description": "Ava Labs is the company behind Avalanche, a high-throughput, low-latency smart-contract blockchain platform. Through AvaCloud it ships a public developer surface for building on Avalanche and its L1s (subnets): a Data API (glacier-api.avax.network) for balances, tokens, transactions, blocks, NFTs and Interchain Messaging; a Metrics API for chain performance and staking analytics; a Webhooks API for real-time address-activity events; and standard JSON-RPC access to the Primary Network's P-Chain, X-Chain and C-Chain. First-party SDKs (AvaCloud SDK for TypeScript, AvalancheJS, AvalancheGo in Go) and the Avalanche-CLI round out the toolchain. This profile was enriched from Ava Labs' published OpenAPI specs and docs.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/ava-labs/refs/heads/main/screenshots/ava-labs-2026-07-25T201903.png",
+     "score": 51.5,
+     "band": "developing",
+     "band_label": "Developing",
+     "facets": {
+      "discoverability": 75.9,
+      "contract_quality": 63.8,
+      "governance": 4.5,
+      "contract_governance": 4.5,
+      "operational_transparency": 42.1,
+      "developer_ergonomics": 75.6,
+      "commercial_clarity": 34.2,
+      "access_clarity": 34.2
+     },
+     "scored_at": "2026-09-01",
+     "schema_version": "0.18.0",
+     "agent_score": 33.3,
+     "agent_band": "agent-ready",
+     "agent_dims": {
+      "spec_presence": true,
+      "agentic_access": "derived",
+      "reversibility_documented": false,
+      "mcp_server": false,
+      "auth_clarity": "bearer",
+      "idempotency": false,
+      "error_semantics": "verified",
+      "openapi_examples": "verified",
+      "rate_limit_signal": false,
+      "event_surface_described": true,
+      "agent_skills": "derived",
       "well_known_catalog": false,
       "consent_identity": false,
       "agent_card": false,
@@ -20530,54 +20537,8 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "tier": "2 venues",
-     "rank": 417
-    },
-    {
-     "name": "Ava Labs",
-     "slug": "ava-labs",
-     "description": "Ava Labs is the company behind Avalanche, a high-throughput, low-latency smart-contract blockchain platform. Through AvaCloud it ships a public developer surface for building on Avalanche and its L1s (subnets): a Data API (glacier-api.avax.network) for balances, tokens, transactions, blocks, NFTs and Interchain Messaging; a Metrics API for chain performance and staking analytics; a Webhooks API for real-time address-activity events; and standard JSON-RPC access to the Primary Network's P-Chain, X-Chain and C-Chain. First-party SDKs (AvaCloud SDK for TypeScript, AvalancheJS, AvalancheGo in Go) and the Avalanche-CLI round out the toolchain. This profile was enriched from Ava Labs' published OpenAPI specs and docs.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/ava-labs/refs/heads/main/screenshots/ava-labs-2026-07-25T201903.png",
-     "score": 51.5,
-     "band": "developing",
-     "band_label": "Developing",
-     "facets": {
-      "discoverability": 75.9,
-      "contract_quality": 63.8,
-      "governance": 4.5,
-      "contract_governance": 4.5,
-      "operational_transparency": 42.1,
-      "developer_ergonomics": 75.6,
-      "commercial_clarity": 34.2,
-      "access_clarity": 34.2
-     },
-     "scored_at": "2026-09-01",
-     "schema_version": "0.18.0",
-     "agent_score": 33.3,
-     "agent_band": "agent-ready",
-     "agent_dims": {
-      "spec_presence": true,
-      "agentic_access": "derived",
-      "reversibility_documented": false,
-      "mcp_server": false,
-      "auth_clarity": "bearer",
-      "idempotency": false,
-      "error_semantics": "verified",
-      "openapi_examples": "verified",
-      "rate_limit_signal": false,
-      "event_surface_described": true,
-      "agent_skills": "derived",
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false,
-      "delegated_identity": false,
-      "protected_resource_metadata": false,
-      "dynamic_client_registration": false,
-      "agentic_commerce": false
-     },
      "tier": "1 venue",
-     "rank": 418
+     "rank": 417
     },
     {
      "name": "Qwiet Ai",
@@ -20623,7 +20584,7 @@
       "agentic_commerce": false
      },
      "tier": "1 venue",
-     "rank": 419
+     "rank": 418
     },
     {
      "name": "Riverside",
@@ -20669,7 +20630,7 @@
       "agentic_commerce": false
      },
      "tier": "2 venues",
-     "rank": 420
+     "rank": 419
     },
     {
      "name": "Spekit",
@@ -20715,7 +20676,7 @@
       "agentic_commerce": false
      },
      "tier": "2 venues",
-     "rank": 421
+     "rank": 420
     },
     {
      "name": "Basis",
@@ -20761,7 +20722,7 @@
       "agentic_commerce": false
      },
      "tier": "3 venues",
-     "rank": 422
+     "rank": 421
     },
     {
      "name": "ezoic",
@@ -20807,7 +20768,7 @@
       "agentic_commerce": false
      },
      "tier": "2 venues",
-     "rank": 423
+     "rank": 422
     },
     {
      "name": "Kestra",
@@ -20853,7 +20814,7 @@
       "agentic_commerce": false
      },
      "tier": "1 venue",
-     "rank": 424
+     "rank": 423
     },
     {
      "name": "Pinecone",
@@ -20899,7 +20860,7 @@
       "agentic_commerce": false
      },
      "tier": "4 venues",
-     "rank": 425
+     "rank": 424
     },
     {
      "name": "Primer",
@@ -20952,7 +20913,7 @@
       "agentic_commerce": false
      },
      "tier": "3 venues",
-     "rank": 426
+     "rank": 425
     },
     {
      "name": "Augment",
@@ -20998,7 +20959,7 @@
       "agentic_commerce": false
      },
      "tier": "3 venues",
-     "rank": 427
+     "rank": 426
     },
     {
      "name": "Color",
@@ -21062,7 +21023,7 @@
       "agentic_commerce": false
      },
      "tier": "3 venues",
-     "rank": 428
+     "rank": 427
     },
     {
      "name": "Palmetto",
@@ -21115,7 +21076,7 @@
       "agentic_commerce": false
      },
      "tier": "4 venues",
-     "rank": 429
+     "rank": 428
     },
     {
      "name": "SmartNews",
@@ -21161,7 +21122,7 @@
       "agentic_commerce": false
      },
      "tier": "2 venues",
-     "rank": 430
+     "rank": 429
     },
     {
      "name": "Speechmatics",
@@ -21207,7 +21168,7 @@
       "agentic_commerce": false
      },
      "tier": "1 venue",
-     "rank": 431
+     "rank": 430
     },
     {
      "name": "Stytch",
@@ -21253,7 +21214,7 @@
       "agentic_commerce": false
      },
      "tier": "4 venues",
-     "rank": 432
+     "rank": 431
     },
     {
      "name": "Transmit Security",
@@ -21299,7 +21260,7 @@
       "agentic_commerce": false
      },
      "tier": "4 venues",
-     "rank": 433
+     "rank": 432
     },
     {
      "name": "Hostaway",
@@ -21345,7 +21306,7 @@
       "agentic_commerce": false
      },
      "tier": "2 venues",
-     "rank": 434
+     "rank": 433
     },
     {
      "name": "Ostium Labs",
@@ -21398,7 +21359,7 @@
       "agentic_commerce": false
      },
      "tier": "1 venue",
-     "rank": 435
+     "rank": 434
     },
     {
      "name": "Scribe",
@@ -21444,7 +21405,7 @@
       "agentic_commerce": false
      },
      "tier": "3 venues",
-     "rank": 436
+     "rank": 435
     },
     {
      "name": "Vantage",
@@ -21490,7 +21451,7 @@
       "agentic_commerce": false
      },
      "tier": "2 venues",
-     "rank": 437
+     "rank": 436
     },
     {
      "name": "Mixmax",
@@ -21536,7 +21497,7 @@
       "agentic_commerce": false
      },
      "tier": "2 venues",
-     "rank": 438
+     "rank": 437
     },
     {
      "name": "UpGuard",
@@ -21582,7 +21543,7 @@
       "agentic_commerce": false
      },
      "tier": "2 venues",
-     "rank": 439
+     "rank": 438
     },
     {
      "name": "Neon",
@@ -21628,7 +21589,7 @@
       "agentic_commerce": false
      },
      "tier": "2 venues",
-     "rank": 440
+     "rank": 439
     },
     {
      "name": "OpenSea",
@@ -21681,7 +21642,7 @@
       "agentic_commerce": false
      },
      "tier": "5 venues",
-     "rank": 441
+     "rank": 440
     },
     {
      "name": "Paxos",
@@ -21734,7 +21695,7 @@
       "agentic_commerce": false
      },
      "tier": "5 venues",
-     "rank": 442
+     "rank": 441
     },
     {
      "name": "Podium",
@@ -21787,7 +21748,7 @@
       "agentic_commerce": false
      },
      "tier": "4 venues",
-     "rank": 443
+     "rank": 442
     },
     {
      "name": "Standard Metrics",
@@ -21833,7 +21794,7 @@
       "agentic_commerce": false
      },
      "tier": "1 venue",
-     "rank": 444
+     "rank": 443
     },
     {
      "name": "Acceldata",
@@ -21879,7 +21840,7 @@
       "agentic_commerce": false
      },
      "tier": "4 venues",
-     "rank": 445
+     "rank": 444
     },
     {
      "name": "Amperity",
@@ -21925,7 +21886,7 @@
       "agentic_commerce": false
      },
      "tier": "5 venues",
-     "rank": 446
+     "rank": 445
     },
     {
      "name": "Defined",
@@ -21978,7 +21939,7 @@
       "agentic_commerce": false
      },
      "tier": "2 venues",
-     "rank": 447
+     "rank": 446
     },
     {
      "name": "Chronosphere",
@@ -22024,7 +21985,7 @@
       "agentic_commerce": false
      },
      "tier": "4 venues",
-     "rank": 448
+     "rank": 447
     },
     {
      "name": "Circuit",
@@ -22070,7 +22031,7 @@
       "agentic_commerce": false
      },
      "tier": "1 venue",
-     "rank": 449
+     "rank": 448
     },
     {
      "name": "DexCare",
@@ -22130,7 +22091,7 @@
       "agentic_commerce": false
      },
      "tier": "3 venues",
-     "rank": 450
+     "rank": 449
     },
     {
      "name": "Huntress",
@@ -22176,7 +22137,7 @@
       "agentic_commerce": false
      },
      "tier": "5 venues",
-     "rank": 451
+     "rank": 450
     },
     {
      "name": "Jebbit",
@@ -22222,7 +22183,7 @@
       "agentic_commerce": false
      },
      "tier": "1 venue",
-     "rank": 452
+     "rank": 451
     },
     {
      "name": "Katana",
@@ -22268,7 +22229,7 @@
       "agentic_commerce": false
      },
      "tier": "1 venue",
-     "rank": 453
+     "rank": 452
     },
     {
      "name": "Kyber Network",
@@ -22321,7 +22282,7 @@
       "agentic_commerce": false
      },
      "tier": "1 venue",
-     "rank": 454
+     "rank": 453
     },
     {
      "name": "Cabify",
@@ -22367,7 +22328,7 @@
       "agentic_commerce": false
      },
      "tier": "3 venues",
-     "rank": 455
+     "rank": 454
     },
     {
      "name": "Citcon",
@@ -22420,7 +22381,7 @@
       "agentic_commerce": false
      },
      "tier": "1 venue",
-     "rank": 456
+     "rank": 455
     },
     {
      "name": "HeyMilo",
@@ -22466,7 +22427,7 @@
       "agentic_commerce": false
      },
      "tier": "1 venue",
-     "rank": 457
+     "rank": 456
     },
     {
      "name": "PostHog",
@@ -22512,7 +22473,7 @@
       "agentic_commerce": false
      },
      "tier": "4 venues",
-     "rank": 458
+     "rank": 457
     },
     {
      "name": "Tako",
@@ -22558,7 +22519,7 @@
       "agentic_commerce": false
      },
      "tier": "1 venue",
-     "rank": 459
+     "rank": 458
     },
     {
      "name": "Uthana",
@@ -22604,7 +22565,7 @@
       "agentic_commerce": false
      },
      "tier": "1 venue",
-     "rank": 460
+     "rank": 459
     },
     {
      "name": "Blues",
@@ -22650,7 +22611,7 @@
       "agentic_commerce": false
      },
      "tier": "2 venues",
-     "rank": 461
+     "rank": 460
     },
     {
      "name": "Chargebee",
@@ -22703,7 +22664,7 @@
       "agentic_commerce": false
      },
      "tier": "5 venues",
-     "rank": 462
+     "rank": 461
     },
     {
      "name": "Cloverly",
@@ -22756,7 +22717,7 @@
       "agentic_commerce": false
      },
      "tier": "1 venue",
-     "rank": 463
+     "rank": 462
     },
     {
      "name": "Cockroach Labs",
@@ -22802,7 +22763,7 @@
       "agentic_commerce": false
      },
      "tier": "4 venues",
-     "rank": 464
+     "rank": 463
     },
     {
      "name": "Cockroach Labs",
@@ -22848,7 +22809,7 @@
       "agentic_commerce": false
      },
      "tier": "1 venue",
-     "rank": 465
+     "rank": 464
     },
     {
      "name": "DeepL",
@@ -22894,7 +22855,7 @@
       "agentic_commerce": false
      },
      "tier": "3 venues",
-     "rank": 466
+     "rank": 465
     },
     {
      "name": "Siro",
@@ -22940,7 +22901,7 @@
       "agentic_commerce": false
      },
      "tier": "3 venues",
-     "rank": 467
+     "rank": 466
     },
     {
      "name": "Zenoss",
@@ -22986,7 +22947,7 @@
       "agentic_commerce": false
      },
      "tier": "1 venue",
-     "rank": 468
+     "rank": 467
     },
     {
      "name": "ComplyAdvantage",
@@ -23032,7 +22993,7 @@
       "agentic_commerce": false
      },
      "tier": "3 venues",
-     "rank": 469
+     "rank": 468
     },
     {
      "name": "Hex",
@@ -23078,7 +23039,7 @@
       "agentic_commerce": false
      },
      "tier": "3 venues",
-     "rank": 470
+     "rank": 469
     },
     {
      "name": "Mintlify",
@@ -23124,7 +23085,7 @@
       "agentic_commerce": false
      },
      "tier": "3 venues",
-     "rank": 471
+     "rank": 470
     },
     {
      "name": "Orderful",
@@ -23170,7 +23131,7 @@
       "agentic_commerce": false
      },
      "tier": "3 venues",
-     "rank": 472
+     "rank": 471
     },
     {
      "name": "Phone Com",
@@ -23223,7 +23184,7 @@
       "agentic_commerce": false
      },
      "tier": "1 venue",
-     "rank": 473
+     "rank": 472
     },
     {
      "name": "Agicap",
@@ -23276,7 +23237,7 @@
       "agentic_commerce": false
      },
      "tier": "2 venues",
-     "rank": 474
+     "rank": 473
     },
     {
      "name": "Airmeet",
@@ -23322,7 +23283,7 @@
       "agentic_commerce": false
      },
      "tier": "1 venue",
-     "rank": 475
+     "rank": 474
     },
     {
      "name": "BrowserStack",
@@ -23368,7 +23329,7 @@
       "agentic_commerce": false
      },
      "tier": "3 venues",
-     "rank": 476
+     "rank": 475
     },
     {
      "name": "Catchpoint",
@@ -23414,7 +23375,7 @@
       "agentic_commerce": false
      },
      "tier": "2 venues",
-     "rank": 477
+     "rank": 476
     },
     {
      "name": "Clever",
@@ -23467,7 +23428,7 @@
       "agentic_commerce": false
      },
      "tier": "1 venue",
-     "rank": 478
+     "rank": 477
     },
     {
      "name": "Felt",
@@ -23513,7 +23474,7 @@
       "agentic_commerce": false
      },
      "tier": "1 venue",
-     "rank": 479
+     "rank": 478
     },
     {
      "name": "Imprint",
@@ -23566,7 +23527,7 @@
       "agentic_commerce": false
      },
      "tier": "3 venues",
-     "rank": 480
+     "rank": 479
     },
     {
      "name": "Nayya",
@@ -23619,7 +23580,7 @@
       "agentic_commerce": false
      },
      "tier": "3 venues",
-     "rank": 481
+     "rank": 480
     },
     {
      "name": "Quandela",
@@ -23665,7 +23626,7 @@
       "agentic_commerce": false
      },
      "tier": "1 venue",
-     "rank": 482
+     "rank": 481
     },
     {
      "name": "Sysdig",
@@ -23711,7 +23672,7 @@
       "agentic_commerce": false
      },
      "tier": "4 venues",
-     "rank": 483
+     "rank": 482
     },
     {
      "name": "Adverity",
@@ -23757,7 +23718,7 @@
       "agentic_commerce": false
      },
      "tier": "2 venues",
-     "rank": 484
+     "rank": 483
     },
     {
      "name": "ID.me",
@@ -23810,7 +23771,7 @@
       "agentic_commerce": false
      },
      "tier": "4 venues",
-     "rank": 485
+     "rank": 484
     },
     {
      "name": "Pinwheel",
@@ -23863,7 +23824,7 @@
       "agentic_commerce": false
      },
      "tier": "1 venue",
-     "rank": 486
+     "rank": 485
     },
     {
      "name": "SpecterOps",
@@ -23909,7 +23870,7 @@
       "agentic_commerce": false
      },
      "tier": "4 venues",
-     "rank": 487
+     "rank": 486
     },
     {
      "name": "Coalition",
@@ -23962,7 +23923,7 @@
       "agentic_commerce": false
      },
      "tier": "4 venues",
-     "rank": 488
+     "rank": 487
     },
     {
      "name": "Lambda",
@@ -24008,7 +23969,7 @@
       "agentic_commerce": false
      },
      "tier": "4 venues",
-     "rank": 489
+     "rank": 488
     },
     {
      "name": "Lambda",
@@ -24054,7 +24015,7 @@
       "agentic_commerce": false
      },
      "tier": "1 venue",
-     "rank": 490
+     "rank": 489
     },
     {
      "name": "Qover",
@@ -24114,7 +24075,7 @@
       "agentic_commerce": false
      },
      "tier": "1 venue",
-     "rank": 491
+     "rank": 490
     },
     {
      "name": "Ritten",
@@ -24174,7 +24135,7 @@
       "agentic_commerce": false
      },
      "tier": "2 venues",
-     "rank": 492
+     "rank": 491
     },
     {
      "name": "Uniform",
@@ -24220,7 +24181,7 @@
       "agentic_commerce": false
      },
      "tier": "1 venue",
-     "rank": 493
+     "rank": 492
     },
     {
      "name": "Bridge",
@@ -24273,7 +24234,7 @@
       "agentic_commerce": false
      },
      "tier": "2 venues",
-     "rank": 494
+     "rank": 493
     },
     {
      "name": "E2B",
@@ -24319,7 +24280,7 @@
       "agentic_commerce": false
      },
      "tier": "1 venue",
-     "rank": 495
+     "rank": 494
     },
     {
      "name": "NexHealth",
@@ -24379,7 +24340,7 @@
       "agentic_commerce": false
      },
      "tier": "4 venues",
-     "rank": 496
+     "rank": 495
     },
     {
      "name": "Paid",
@@ -24432,7 +24393,7 @@
       "agentic_commerce": false
      },
      "tier": "1 venue",
-     "rank": 497
+     "rank": 496
     },
     {
      "name": "Reevo",
@@ -24478,7 +24439,7 @@
       "agentic_commerce": false
      },
      "tier": "1 venue",
-     "rank": 498
+     "rank": 497
     },
     {
      "name": "SafetyCulture",
@@ -24524,7 +24485,7 @@
       "agentic_commerce": false
      },
      "tier": "3 venues",
-     "rank": 499
+     "rank": 498
     },
     {
      "name": "Typeface",
@@ -24570,7 +24531,7 @@
       "agentic_commerce": false
      },
      "tier": "4 venues",
-     "rank": 500
+     "rank": 499
     },
     {
      "name": "WorkOS",
@@ -24616,7 +24577,7 @@
       "agentic_commerce": false
      },
      "tier": "4 venues",
-     "rank": 501
+     "rank": 500
     },
     {
      "name": "Balena",
@@ -24662,7 +24623,7 @@
       "agentic_commerce": false
      },
      "tier": "1 venue",
-     "rank": 502
+     "rank": 501
     },
     {
      "name": "Fixie",
@@ -24708,7 +24669,7 @@
       "agentic_commerce": false
      },
      "tier": "1 venue",
-     "rank": 503
+     "rank": 502
     },
     {
      "name": "Affinity",
@@ -24754,7 +24715,7 @@
       "agentic_commerce": false
      },
      "tier": "2 venues",
-     "rank": 504
+     "rank": 503
     },
     {
      "name": "Bifrost",
@@ -24800,7 +24761,7 @@
       "agentic_commerce": false
      },
      "tier": "1 venue",
-     "rank": 505
+     "rank": 504
     },
     {
      "name": "ManyChat",
@@ -24853,7 +24814,7 @@
       "agentic_commerce": false
      },
      "tier": "4 venues",
-     "rank": 506
+     "rank": 505
     },
     {
      "name": "PointClickCare",
@@ -24906,7 +24867,7 @@
       "agentic_commerce": false
      },
      "tier": "4 venues",
-     "rank": 507
+     "rank": 506
     },
     {
      "name": "SpotDraft",
@@ -24952,7 +24913,7 @@
       "agentic_commerce": false
      },
      "tier": "3 venues",
-     "rank": 508
+     "rank": 507
     },
     {
      "name": "n8n",
@@ -24998,7 +24959,7 @@
       "agentic_commerce": false
      },
      "tier": "3 venues",
-     "rank": 509
+     "rank": 508
     },
     {
      "name": "OpenRouter",
@@ -25044,7 +25005,7 @@
       "agentic_commerce": false
      },
      "tier": "4 venues",
-     "rank": 510
+     "rank": 509
     },
     {
      "name": "SumUp",
@@ -25097,7 +25058,7 @@
       "agentic_commerce": false
      },
      "tier": "4 venues",
-     "rank": 511
+     "rank": 510
     },
     {
      "name": "Edvisor.io",
@@ -25157,7 +25118,7 @@
       "agentic_commerce": false
      },
      "tier": "1 venue",
-     "rank": 512
+     "rank": 511
     },
     {
      "name": "evernote",
@@ -25203,7 +25164,7 @@
       "agentic_commerce": false
      },
      "tier": "1 venue",
-     "rank": 513
+     "rank": 512
     },
     {
      "name": "Heidi Health",
@@ -25256,7 +25217,7 @@
       "agentic_commerce": false
      },
      "tier": "1 venue",
-     "rank": 514
+     "rank": 513
     },
     {
      "name": "Windfall",
@@ -25302,7 +25263,7 @@
       "agentic_commerce": false
      },
      "tier": "2 venues",
-     "rank": 515
+     "rank": 514
     },
     {
      "name": "Windfall Data",
@@ -25348,7 +25309,7 @@
       "agentic_commerce": false
      },
      "tier": "1 venue",
-     "rank": 516
+     "rank": 515
     },
     {
      "name": "Padlet",
@@ -25401,7 +25362,7 @@
       "agentic_commerce": false
      },
      "tier": "1 venue",
-     "rank": 517
+     "rank": 516
     },
     {
      "name": "Patsnap",
@@ -25454,7 +25415,7 @@
       "agentic_commerce": false
      },
      "tier": "4 venues",
-     "rank": 518
+     "rank": 517
     },
     {
      "name": "Socotra",
@@ -25507,7 +25468,7 @@
       "agentic_commerce": false
      },
      "tier": "2 venues",
-     "rank": 519
+     "rank": 518
     },
     {
      "name": "Solaris",
@@ -25575,7 +25536,7 @@
       "agentic_commerce": false
      },
      "tier": "3 venues",
-     "rank": 520
+     "rank": 519
     },
     {
      "name": "Arize AI",
@@ -25621,7 +25582,7 @@
       "agentic_commerce": false
      },
      "tier": "4 venues",
-     "rank": 521
+     "rank": 520
     },
     {
      "name": "Arize AI",
@@ -25667,7 +25628,7 @@
       "agentic_commerce": false
      },
      "tier": "1 venue",
-     "rank": 522
+     "rank": 521
     },
     {
      "name": "Forage",
@@ -25720,7 +25681,7 @@
       "agentic_commerce": false
      },
      "tier": "3 venues",
-     "rank": 523
+     "rank": 522
     },
     {
      "name": "Nimble",
@@ -25766,7 +25727,7 @@
       "agentic_commerce": false
      },
      "tier": "1 venue",
-     "rank": 524
+     "rank": 523
     },
     {
      "name": "Swap",
@@ -25830,7 +25791,7 @@
       "agentic_commerce": false
      },
      "tier": "1 venue",
-     "rank": 525
+     "rank": 524
     },
     {
      "name": "Virtru",
@@ -25876,7 +25837,7 @@
       "agentic_commerce": false
      },
      "tier": "4 venues",
-     "rank": 526
+     "rank": 525
     },
     {
      "name": "Yoobic",
@@ -25922,7 +25883,7 @@
       "agentic_commerce": false
      },
      "tier": "1 venue",
-     "rank": 527
+     "rank": 526
     },
     {
      "name": "Reflektive",
@@ -25968,7 +25929,7 @@
       "agentic_commerce": false
      },
      "tier": "1 venue",
-     "rank": 528
+     "rank": 527
     },
     {
      "name": "Sift Science",
@@ -26021,7 +25982,7 @@
       "agentic_commerce": false
      },
      "tier": "2 venues",
-     "rank": 529
+     "rank": 528
     },
     {
      "name": "Sprig",
@@ -26067,7 +26028,7 @@
       "agentic_commerce": false
      },
      "tier": "2 venues",
-     "rank": 530
+     "rank": 529
     },
     {
      "name": "Anvil",
@@ -26113,7 +26074,7 @@
       "agentic_commerce": false
      },
      "tier": "2 venues",
-     "rank": 531
+     "rank": 530
     },
     {
      "name": "Cloudinary",
@@ -26159,7 +26120,7 @@
       "agentic_commerce": false
      },
      "tier": "4 venues",
-     "rank": 532
+     "rank": 531
     },
     {
      "name": "Comet",
@@ -26205,7 +26166,7 @@
       "agentic_commerce": false
      },
      "tier": "3 venues",
-     "rank": 533
+     "rank": 532
     },
     {
      "name": "Cube",
@@ -26251,7 +26212,7 @@
       "agentic_commerce": false
      },
      "tier": "1 venue",
-     "rank": 534
+     "rank": 533
     },
     {
      "name": "Instabug (Luciq)",
@@ -26297,7 +26258,7 @@
       "agentic_commerce": false
      },
      "tier": "4 venues",
-     "rank": 535
+     "rank": 534
     },
     {
      "name": "Retool",
@@ -26343,7 +26304,7 @@
       "agentic_commerce": false
      },
      "tier": "5 venues",
-     "rank": 536
+     "rank": 535
     },
     {
      "name": "StarTree",
@@ -26389,7 +26350,7 @@
       "agentic_commerce": false
      },
      "tier": "3 venues",
-     "rank": 537
+     "rank": 536
     },
     {
      "name": "Strava",
@@ -26435,7 +26396,7 @@
       "agentic_commerce": false
      },
      "tier": "5 venues",
-     "rank": 538
+     "rank": 537
     },
     {
      "name": "Certifyos",
@@ -26488,7 +26449,7 @@
       "agentic_commerce": false
      },
      "tier": "1 venue",
-     "rank": 539
+     "rank": 538
     },
     {
      "name": "Hedra",
@@ -26534,7 +26495,7 @@
       "agentic_commerce": false
      },
      "tier": "2 venues",
-     "rank": 540
+     "rank": 539
     },
     {
      "name": "Restaurant365",
@@ -26580,7 +26541,7 @@
       "agentic_commerce": false
      },
      "tier": "4 venues",
-     "rank": 541
+     "rank": 540
     },
     {
      "name": "Airspace Technologies",
@@ -26626,7 +26587,7 @@
       "agentic_commerce": false
      },
      "tier": "3 venues",
-     "rank": 542
+     "rank": 541
     },
     {
      "name": "Airspace Technologies",
@@ -26672,7 +26633,7 @@
       "agentic_commerce": false
      },
      "tier": "1 venue",
-     "rank": 543
+     "rank": 542
     },
     {
      "name": "MX Technologies",
@@ -26725,7 +26686,7 @@
       "agentic_commerce": false
      },
      "tier": "4 venues",
-     "rank": 544
+     "rank": 543
     },
     {
      "name": "N3XT",
@@ -26778,7 +26739,7 @@
       "agentic_commerce": false
      },
      "tier": "1 venue",
-     "rank": 545
+     "rank": 544
     },
     {
      "name": "Spectro Cloud",
@@ -26824,7 +26785,7 @@
       "agentic_commerce": false
      },
      "tier": "4 venues",
-     "rank": 546
+     "rank": 545
     },
     {
      "name": "Vitally",
@@ -26870,7 +26831,7 @@
       "agentic_commerce": false
      },
      "tier": "4 venues",
-     "rank": 547
+     "rank": 546
     },
     {
      "name": "Deepgram",
@@ -26916,7 +26877,7 @@
       "agentic_commerce": false
      },
      "tier": "4 venues",
-     "rank": 548
+     "rank": 547
     },
     {
      "name": "Enigma",
@@ -26962,7 +26923,7 @@
       "agentic_commerce": false
      },
      "tier": "3 venues",
-     "rank": 549
+     "rank": 548
     },
     {
      "name": "WorkSpan",
@@ -27008,7 +26969,7 @@
       "agentic_commerce": false
      },
      "tier": "4 venues",
-     "rank": 550
+     "rank": 549
     },
     {
      "name": "Authlete",
@@ -27054,7 +27015,7 @@
       "agentic_commerce": false
      },
      "tier": "1 venue",
-     "rank": 551
+     "rank": 550
     },
     {
      "name": "Ostrom",
@@ -27107,7 +27068,7 @@
       "agentic_commerce": false
      },
      "tier": "1 venue",
-     "rank": 552
+     "rank": 551
     },
     {
      "name": "Prometheus",
@@ -27153,7 +27114,7 @@
       "agentic_commerce": false
      },
      "tier": "1 venue",
-     "rank": 553
+     "rank": 552
     },
     {
      "name": "Sauce Labs",
@@ -27199,7 +27160,7 @@
       "agentic_commerce": false
      },
      "tier": "4 venues",
-     "rank": 554
+     "rank": 553
     },
     {
      "name": "Sauce Labs",
@@ -27245,7 +27206,7 @@
       "agentic_commerce": false
      },
      "tier": "1 venue",
-     "rank": 555
+     "rank": 554
     },
     {
      "name": "Sovrn",
@@ -27291,7 +27252,7 @@
       "agentic_commerce": false
      },
      "tier": "3 venues",
-     "rank": 556
+     "rank": 555
     },
     {
      "name": "CircleCI",
@@ -27337,7 +27298,7 @@
       "agentic_commerce": false
      },
      "tier": "5 venues",
-     "rank": 557
+     "rank": 556
     },
     {
      "name": "Light",
@@ -27390,7 +27351,7 @@
       "agentic_commerce": false
      },
      "tier": "1 venue",
-     "rank": 558
+     "rank": 557
     },
     {
      "name": "Seismic",
@@ -27441,7 +27402,7 @@
       "agentic_commerce": false
      },
      "tier": "4 venues",
-     "rank": 559
+     "rank": 558
     },
     {
      "name": "Verkada",
@@ -27487,7 +27448,7 @@
       "agentic_commerce": false
      },
      "tier": "4 venues",
-     "rank": 560
+     "rank": 559
     },
     {
      "name": "Celona",
@@ -27547,7 +27508,7 @@
       "agentic_commerce": false
      },
      "tier": "5 venues",
-     "rank": 561
+     "rank": 560
     },
     {
      "name": "Check Technologies",
@@ -27600,7 +27561,7 @@
       "agentic_commerce": false
      },
      "tier": "3 venues",
-     "rank": 562
+     "rank": 561
     },
     {
      "name": "LocoNav",
@@ -27646,7 +27607,7 @@
       "agentic_commerce": false
      },
      "tier": "1 venue",
-     "rank": 563
+     "rank": 562
     },
     {
      "name": "MINE",
@@ -27692,7 +27653,7 @@
       "agentic_commerce": false
      },
      "tier": "1 venue",
-     "rank": 564
+     "rank": 563
     },
     {
      "name": "MinIO",
@@ -27738,7 +27699,7 @@
       "agentic_commerce": false
      },
      "tier": "4 venues",
-     "rank": 565
+     "rank": 564
     },
     {
      "name": "Tamara",
@@ -27791,7 +27752,7 @@
       "agentic_commerce": false
      },
      "tier": "3 venues",
-     "rank": 566
+     "rank": 565
     },
     {
      "name": "Tanium",
@@ -27837,7 +27798,7 @@
       "agentic_commerce": false
      },
      "tier": "5 venues",
-     "rank": 567
+     "rank": 566
     },
     {
      "name": "Release",
@@ -27883,7 +27844,7 @@
       "agentic_commerce": false
      },
      "tier": "1 venue",
-     "rank": 568
+     "rank": 567
     },
     {
      "name": "Argo",
@@ -27929,7 +27890,7 @@
       "agentic_commerce": false
      },
      "tier": "2 venues",
-     "rank": 569
+     "rank": 568
     },
     {
      "name": "Fossa",
@@ -27975,7 +27936,7 @@
       "agentic_commerce": false
      },
      "tier": "1 venue",
-     "rank": 570
+     "rank": 569
     },
     {
      "name": "Torii",
@@ -28021,7 +27982,7 @@
       "agentic_commerce": false
      },
      "tier": "1 venue",
-     "rank": 571
+     "rank": 570
     },
     {
      "name": "Unito",
@@ -28067,7 +28028,7 @@
       "agentic_commerce": false
      },
      "tier": "1 venue",
-     "rank": 572
+     "rank": 571
     },
     {
      "name": "Weaviate",
@@ -28113,7 +28074,7 @@
       "agentic_commerce": false
      },
      "tier": "2 venues",
-     "rank": 573
+     "rank": 572
     },
     {
      "name": "Argyle",
@@ -28159,7 +28120,7 @@
       "agentic_commerce": false
      },
      "tier": "1 venue",
-     "rank": 574
+     "rank": 573
     },
     {
      "name": "Bitpanda",
@@ -28219,7 +28180,7 @@
       "agentic_commerce": false
      },
      "tier": "4 venues",
-     "rank": 575
+     "rank": 574
     },
     {
      "name": "Builder.io",
@@ -28265,7 +28226,7 @@
       "agentic_commerce": false
      },
      "tier": "1 venue",
-     "rank": 576
+     "rank": 575
     },
     {
      "name": "Fastino Labs",
@@ -28311,7 +28272,7 @@
       "agentic_commerce": false
      },
      "tier": "1 venue",
-     "rank": 577
+     "rank": 576
     },
     {
      "name": "Knostic",
@@ -28357,7 +28318,7 @@
       "agentic_commerce": false
      },
      "tier": "1 venue",
-     "rank": 578
+     "rank": 577
     },
     {
      "name": "SnapLogic",
@@ -28403,7 +28364,7 @@
       "agentic_commerce": false
      },
      "tier": "4 venues",
-     "rank": 579
+     "rank": 578
     },
     {
      "name": "StockX",
@@ -28449,7 +28410,7 @@
       "agentic_commerce": false
      },
      "tier": "5 venues",
-     "rank": 580
+     "rank": 579
     },
     {
      "name": "Trunk",
@@ -28495,7 +28456,7 @@
       "agentic_commerce": false
      },
      "tier": "1 venue",
-     "rank": 581
+     "rank": 580
     },
     {
      "name": "Veryfi",
@@ -28541,7 +28502,7 @@
       "agentic_commerce": false
      },
      "tier": "1 venue",
-     "rank": 582
+     "rank": 581
     },
     {
      "name": "ActivTrak",
@@ -28587,7 +28548,7 @@
       "agentic_commerce": false
      },
      "tier": "1 venue",
-     "rank": 583
+     "rank": 582
     },
     {
      "name": "Devoted Health",
@@ -28640,7 +28601,7 @@
       "agentic_commerce": false
      },
      "tier": "5 venues",
-     "rank": 584
+     "rank": 583
     },
     {
      "name": "Lattice",
@@ -28686,7 +28647,7 @@
       "agentic_commerce": false
      },
      "tier": "4 venues",
-     "rank": 585
+     "rank": 584
     },
     {
      "name": "NinjaOne",
@@ -28732,7 +28693,7 @@
       "agentic_commerce": false
      },
      "tier": "4 venues",
-     "rank": 586
+     "rank": 585
     },
     {
      "name": "Skedulo",
@@ -28778,7 +28739,7 @@
       "agentic_commerce": false
      },
      "tier": "2 venues",
-     "rank": 587
+     "rank": 586
     },
     {
      "name": "Zluri",
@@ -28824,7 +28785,7 @@
       "agentic_commerce": false
      },
      "tier": "1 venue",
-     "rank": 588
+     "rank": 587
     },
     {
      "name": "Kernel",
@@ -28870,7 +28831,7 @@
       "agentic_commerce": false
      },
      "tier": "1 venue",
-     "rank": 589
+     "rank": 588
     },
     {
      "name": "Akkio",
@@ -28916,7 +28877,7 @@
       "agentic_commerce": false
      },
      "tier": "1 venue",
-     "rank": 590
+     "rank": 589
     },
     {
      "name": "Ascend",
@@ -28969,7 +28930,7 @@
       "agentic_commerce": false
      },
      "tier": "1 venue",
-     "rank": 591
+     "rank": 590
     },
     {
      "name": "ConductorOne",
@@ -29015,7 +28976,7 @@
       "agentic_commerce": false
      },
      "tier": "3 venues",
-     "rank": 592
+     "rank": 591
     },
     {
      "name": "Dataiku",
@@ -29061,7 +29022,7 @@
       "agentic_commerce": false
      },
      "tier": "5 venues",
-     "rank": 593
+     "rank": 592
     },
     {
      "name": "ForgeRock",
@@ -29107,7 +29068,7 @@
       "agentic_commerce": false
      },
      "tier": "1 venue",
-     "rank": 594
+     "rank": 593
     },
     {
      "name": "Gauntlet",
@@ -29153,7 +29114,7 @@
       "agentic_commerce": false
      },
      "tier": "3 venues",
-     "rank": 595
+     "rank": 594
     },
     {
      "name": "Help Scout",
@@ -29199,7 +29160,7 @@
       "agentic_commerce": false
      },
      "tier": "3 venues",
-     "rank": 596
+     "rank": 595
     },
     {
      "name": "Pigment",
@@ -29245,7 +29206,7 @@
       "agentic_commerce": false
      },
      "tier": "2 venues",
-     "rank": 597
+     "rank": 596
     },
     {
      "name": "TRM Labs",
@@ -29291,7 +29252,7 @@
       "agentic_commerce": false
      },
      "tier": "3 venues",
-     "rank": 598
+     "rank": 597
     },
     {
      "name": "TRM Labs",
@@ -29337,7 +29298,7 @@
       "agentic_commerce": false
      },
      "tier": "1 venue",
-     "rank": 599
+     "rank": 598
     },
     {
      "name": "UserTesting",
@@ -29383,7 +29344,7 @@
       "agentic_commerce": false
      },
      "tier": "1 venue",
-     "rank": 600
+     "rank": 599
     },
     {
      "name": "Wish",
@@ -29436,7 +29397,7 @@
       "agentic_commerce": false
      },
      "tier": "1 venue",
-     "rank": 601
+     "rank": 600
     },
     {
      "name": "Zuper",
@@ -29482,7 +29443,7 @@
       "agentic_commerce": false
      },
      "tier": "2 venues",
-     "rank": 602
+     "rank": 601
     },
     {
      "name": "Dashlane",
@@ -29528,7 +29489,7 @@
       "agentic_commerce": false
      },
      "tier": "4 venues",
-     "rank": 603
+     "rank": 602
     },
     {
      "name": "Equals",
@@ -29574,7 +29535,7 @@
       "agentic_commerce": false
      },
      "tier": "1 venue",
-     "rank": 604
+     "rank": 603
     },
     {
      "name": "CaptivateIQ",
@@ -29620,7 +29581,7 @@
       "agentic_commerce": false
      },
      "tier": "4 venues",
-     "rank": 605
+     "rank": 604
     },
     {
      "name": "Epic Games",
@@ -29666,7 +29627,7 @@
       "agentic_commerce": false
      },
      "tier": "4 venues",
-     "rank": 606
+     "rank": 605
     },
     {
      "name": "Hatch",
@@ -29719,7 +29680,7 @@
       "agentic_commerce": false
      },
      "tier": "1 venue",
-     "rank": 607
+     "rank": 606
     },
     {
      "name": "Nymcard",
@@ -29772,7 +29733,7 @@
       "agentic_commerce": false
      },
      "tier": "1 venue",
-     "rank": 608
+     "rank": 607
     },
     {
      "name": "TinyFish",
@@ -29818,7 +29779,7 @@
       "agentic_commerce": false
      },
      "tier": "1 venue",
-     "rank": 609
+     "rank": 608
     },
     {
      "name": "ProjectDiscovery",
@@ -29864,7 +29825,7 @@
       "agentic_commerce": false
      },
      "tier": "2 venues",
-     "rank": 610
+     "rank": 609
     },
     {
      "name": "Render",
@@ -29910,7 +29871,7 @@
       "agentic_commerce": false
      },
      "tier": "4 venues",
-     "rank": 611
+     "rank": 610
     },
     {
      "name": "Soldo",
@@ -29970,7 +29931,7 @@
       "agentic_commerce": false
      },
      "tier": "1 venue",
-     "rank": 612
+     "rank": 611
     },
     {
      "name": "WorkBoard",
@@ -30016,7 +29977,7 @@
       "agentic_commerce": false
      },
      "tier": "4 venues",
-     "rank": 613
+     "rank": 612
     },
     {
      "name": "ClearSlide",
@@ -30062,7 +30023,7 @@
       "agentic_commerce": false
      },
      "tier": "1 venue",
-     "rank": 614
+     "rank": 613
     },
     {
      "name": "Esper",
@@ -30108,7 +30069,7 @@
       "agentic_commerce": false
      },
      "tier": "1 venue",
-     "rank": 615
+     "rank": 614
     },
     {
      "name": "Fazz",
@@ -30161,7 +30122,7 @@
       "agentic_commerce": false
      },
      "tier": "1 venue",
-     "rank": 616
+     "rank": 615
     },
     {
      "name": "Golioth",
@@ -30207,7 +30168,7 @@
       "agentic_commerce": false
      },
      "tier": "1 venue",
-     "rank": 617
+     "rank": 616
     },
     {
      "name": "NALA",
@@ -30260,7 +30221,7 @@
       "agentic_commerce": false
      },
      "tier": "1 venue",
-     "rank": 618
+     "rank": 617
     },
     {
      "name": "Pendo.io",
@@ -30306,7 +30267,7 @@
       "agentic_commerce": false
      },
      "tier": "1 venue",
-     "rank": 619
+     "rank": 618
     },
     {
      "name": "Sendbird",
@@ -30357,7 +30318,7 @@
       "agentic_commerce": false
      },
      "tier": "4 venues",
-     "rank": 620
+     "rank": 619
     },
     {
      "name": "Virtana (Virtual Instruments)",
@@ -30403,7 +30364,7 @@
       "agentic_commerce": false
      },
      "tier": "1 venue",
-     "rank": 621
+     "rank": 620
     },
     {
      "name": "Codesphere",
@@ -30449,7 +30410,7 @@
       "agentic_commerce": false
      },
      "tier": "1 venue",
-     "rank": 622
+     "rank": 621
     },
     {
      "name": "Hopae, Inc.",
@@ -30495,7 +30456,7 @@
       "agentic_commerce": false
      },
      "tier": "1 venue",
-     "rank": 623
+     "rank": 622
     },
     {
      "name": "HOVER",
@@ -30548,7 +30509,7 @@
       "agentic_commerce": false
      },
      "tier": "4 venues",
-     "rank": 624
+     "rank": 623
     },
     {
      "name": "Mirage",
@@ -30594,7 +30555,7 @@
       "agentic_commerce": false
      },
      "tier": "2 venues",
-     "rank": 625
+     "rank": 624
     },
     {
      "name": "ngrok",
@@ -30640,7 +30601,7 @@
       "agentic_commerce": false
      },
      "tier": "2 venues",
-     "rank": 626
+     "rank": 625
     },
     {
      "name": "Synack",
@@ -30686,7 +30647,7 @@
       "agentic_commerce": false
      },
      "tier": "3 venues",
-     "rank": 627
+     "rank": 626
     },
     {
      "name": "TrueLayer",
@@ -30739,7 +30700,7 @@
       "agentic_commerce": false
      },
      "tier": "3 venues",
-     "rank": 628
+     "rank": 627
     },
     {
      "name": "Avalanche",
@@ -30785,7 +30746,7 @@
       "agentic_commerce": false
      },
      "tier": "1 venue",
-     "rank": 629
+     "rank": 628
     },
     {
      "name": "Fairmarkit",
@@ -30831,7 +30792,7 @@
       "agentic_commerce": false
      },
      "tier": "4 venues",
-     "rank": 630
+     "rank": 629
     },
     {
      "name": "Hang",
@@ -30877,7 +30838,7 @@
       "agentic_commerce": false
      },
      "tier": "1 venue",
-     "rank": 631
+     "rank": 630
     },
     {
      "name": "Harness",
@@ -30923,7 +30884,7 @@
       "agentic_commerce": false
      },
      "tier": "5 venues",
-     "rank": 632
+     "rank": 631
     },
     {
      "name": "Tabs",
@@ -30969,7 +30930,7 @@
       "agentic_commerce": false
      },
      "tier": "2 venues",
-     "rank": 633
+     "rank": 632
     },
     {
      "name": "Tackle.io",
@@ -31015,7 +30976,7 @@
       "agentic_commerce": false
      },
      "tier": "3 venues",
-     "rank": 634
+     "rank": 633
     },
     {
      "name": "Telegram",
@@ -31068,7 +31029,7 @@
       "agentic_commerce": false
      },
      "tier": "3 venues",
-     "rank": 635
+     "rank": 634
     },
     {
      "name": "Blockdaemon",
@@ -31121,7 +31082,7 @@
       "agentic_commerce": false
      },
      "tier": "5 venues",
-     "rank": 636
+     "rank": 635
     },
     {
      "name": "Campfire",
@@ -31167,7 +31128,7 @@
       "agentic_commerce": false
      },
      "tier": "2 venues",
-     "rank": 637
+     "rank": 636
     },
     {
      "name": "Firework",
@@ -31213,7 +31174,7 @@
       "agentic_commerce": false
      },
      "tier": "3 venues",
-     "rank": 638
+     "rank": 637
     },
     {
      "name": "Garner Health",
@@ -31266,7 +31227,7 @@
       "agentic_commerce": false
      },
      "tier": "3 venues",
-     "rank": 639
+     "rank": 638
     },
     {
      "name": "Listen Labs",
@@ -31312,7 +31273,7 @@
       "agentic_commerce": false
      },
      "tier": "3 venues",
-     "rank": 640
+     "rank": 639
     },
     {
      "name": "Uniswap",
@@ -31365,7 +31326,7 @@
       "agentic_commerce": false
      },
      "tier": "4 venues",
-     "rank": 641
+     "rank": 640
     },
     {
      "name": "Aspire",
@@ -31418,7 +31379,7 @@
       "agentic_commerce": false
      },
      "tier": "1 venue",
-     "rank": 642
+     "rank": 641
     },
     {
      "name": "DuckDuckGo",
@@ -31464,7 +31425,7 @@
       "agentic_commerce": false
      },
      "tier": "4 venues",
-     "rank": 643
+     "rank": 642
     },
     {
      "name": "HeyGen",
@@ -31510,7 +31471,7 @@
       "agentic_commerce": false
      },
      "tier": "5 venues",
-     "rank": 644
+     "rank": 643
     },
     {
      "name": "Rancher",
@@ -31556,7 +31517,7 @@
       "agentic_commerce": false
      },
      "tier": "1 venue",
-     "rank": 645
+     "rank": 644
     },
     {
      "name": "Mindtickle",
@@ -31609,7 +31570,7 @@
       "agentic_commerce": false
      },
      "tier": "5 venues",
-     "rank": 646
+     "rank": 645
     },
     {
      "name": "Flock Safety",
@@ -31655,7 +31616,7 @@
       "agentic_commerce": false
      },
      "tier": "4 venues",
-     "rank": 647
+     "rank": 646
     },
     {
      "name": "Relativity",
@@ -31701,7 +31662,7 @@
       "agentic_commerce": false
      },
      "tier": "3 venues",
-     "rank": 648
+     "rank": 647
     },
     {
      "name": "Stark Bank",
@@ -31754,7 +31715,7 @@
       "agentic_commerce": false
      },
      "tier": "2 venues",
-     "rank": 649
+     "rank": 648
     },
     {
      "name": "Gigs",
@@ -31807,7 +31768,7 @@
       "agentic_commerce": false
      },
      "tier": "2 venues",
-     "rank": 650
+     "rank": 649
     },
     {
      "name": "Mob.ly",
@@ -31853,7 +31814,7 @@
       "agentic_commerce": false
      },
      "tier": "1 venue",
-     "rank": 651
+     "rank": 650
     },
     {
      "name": "Numerai",
@@ -31899,7 +31860,7 @@
       "agentic_commerce": false
      },
      "tier": "3 venues",
-     "rank": 652
+     "rank": 651
     },
     {
      "name": "Scale AI",
@@ -31945,7 +31906,7 @@
       "agentic_commerce": false
      },
      "tier": "4 venues",
-     "rank": 653
+     "rank": 652
     },
     {
      "name": "Serval",
@@ -31991,7 +31952,7 @@
       "agentic_commerce": false
      },
      "tier": "3 venues",
-     "rank": 654
+     "rank": 653
     },
     {
      "name": "SingleFile",
@@ -32037,7 +31998,7 @@
       "agentic_commerce": false
      },
      "tier": "1 venue",
-     "rank": 655
+     "rank": 654
     },
     {
      "name": "Sofar Ocean",
@@ -32083,7 +32044,7 @@
       "agentic_commerce": false
      },
      "tier": "1 venue",
-     "rank": 656
+     "rank": 655
     },
     {
      "name": "7shifts",
@@ -32129,7 +32090,7 @@
       "agentic_commerce": false
      },
      "tier": "3 venues",
-     "rank": 657
+     "rank": 656
     },
     {
      "name": "CoinList",
@@ -32182,7 +32143,7 @@
       "agentic_commerce": false
      },
      "tier": "4 venues",
-     "rank": 658
+     "rank": 657
     },
     {
      "name": "Cribl",
@@ -32228,7 +32189,7 @@
       "agentic_commerce": false
      },
      "tier": "4 venues",
-     "rank": 659
+     "rank": 658
     },
     {
      "name": "Fellow",
@@ -32274,7 +32235,7 @@
       "agentic_commerce": false
      },
      "tier": "3 venues",
-     "rank": 660
+     "rank": 659
     },
     {
      "name": "Gopuff",
@@ -32320,7 +32281,7 @@
       "agentic_commerce": false
      },
      "tier": "5 venues",
-     "rank": 661
+     "rank": 660
     },
     {
      "name": "Teambridge",
@@ -32366,7 +32327,7 @@
       "agentic_commerce": false
      },
      "tier": "2 venues",
-     "rank": 662
+     "rank": 661
     },
     {
      "name": "Thatch",
@@ -32419,7 +32380,7 @@
       "agentic_commerce": false
      },
      "tier": "2 venues",
-     "rank": 663
+     "rank": 662
     },
     {
      "name": "VISO Trust",
@@ -32465,7 +32426,7 @@
       "agentic_commerce": false
      },
      "tier": "1 venue",
-     "rank": 664
+     "rank": 663
     },
     {
      "name": "Datasaur",
@@ -32511,7 +32472,7 @@
       "agentic_commerce": false
      },
      "tier": "1 venue",
-     "rank": 665
+     "rank": 664
     },
     {
      "name": "Lang.ai",
@@ -32557,7 +32518,7 @@
       "agentic_commerce": false
      },
      "tier": "1 venue",
-     "rank": 666
+     "rank": 665
     },
     {
      "name": "Lightup",
@@ -32603,7 +32564,7 @@
       "agentic_commerce": false
      },
      "tier": "1 venue",
-     "rank": 667
+     "rank": 666
     },
     {
      "name": "Mammoth Media",
@@ -32656,7 +32617,7 @@
       "agentic_commerce": false
      },
      "tier": "1 venue",
-     "rank": 668
+     "rank": 667
     },
     {
      "name": "MarginEdge",
@@ -32702,7 +32663,7 @@
       "agentic_commerce": false
      },
      "tier": "3 venues",
-     "rank": 669
+     "rank": 668
     },
     {
      "name": "Opal",
@@ -32748,7 +32709,7 @@
       "agentic_commerce": false
      },
      "tier": "2 venues",
-     "rank": 670
+     "rank": 669
     },
     {
      "name": "Superblocks",
@@ -32794,7 +32755,7 @@
       "agentic_commerce": false
      },
      "tier": "3 venues",
-     "rank": 671
+     "rank": 670
     },
     {
      "name": "Wellhub",
@@ -32847,7 +32808,7 @@
       "agentic_commerce": false
      },
      "tier": "2 venues",
-     "rank": 672
+     "rank": 671
     },
     {
      "name": "Codat",
@@ -32893,7 +32854,7 @@
       "agentic_commerce": false
      },
      "tier": "4 venues",
-     "rank": 673
+     "rank": 672
     },
     {
      "name": "Dexterity",
@@ -32939,7 +32900,7 @@
       "agentic_commerce": false
      },
      "tier": "3 venues",
-     "rank": 674
+     "rank": 673
     },
     {
      "name": "Discord",
@@ -32985,7 +32946,7 @@
       "agentic_commerce": false
      },
      "tier": "5 venues",
-     "rank": 675
+     "rank": 674
     },
     {
      "name": "Exa",
@@ -33031,7 +32992,7 @@
       "agentic_commerce": false
      },
      "tier": "3 venues",
-     "rank": 676
+     "rank": 675
     },
     {
      "name": "Jito Labs",
@@ -33077,7 +33038,7 @@
       "agentic_commerce": false
      },
      "tier": "1 venue",
-     "rank": 677
+     "rank": 676
     },
     {
      "name": "Polymarket",
@@ -33130,7 +33091,7 @@
       "agentic_commerce": false
      },
      "tier": "5 venues",
-     "rank": 678
+     "rank": 677
     },
     {
      "name": "Remote",
@@ -33176,7 +33137,7 @@
       "agentic_commerce": false
      },
      "tier": "4 venues",
-     "rank": 679
+     "rank": 678
     },
     {
      "name": "Weka",
@@ -33222,7 +33183,7 @@
       "agentic_commerce": false
      },
      "tier": "3 venues",
-     "rank": 680
+     "rank": 679
     },
     {
      "name": "Arcadia",
@@ -33275,7 +33236,7 @@
       "agentic_commerce": false
      },
      "tier": "3 venues",
-     "rank": 681
+     "rank": 680
     },
     {
      "name": "Narvar",
@@ -33328,7 +33289,7 @@
       "agentic_commerce": false
      },
      "tier": "4 venues",
-     "rank": 682
+     "rank": 681
     },
     {
      "name": "UniUni",
@@ -33374,7 +33335,7 @@
       "agentic_commerce": false
      },
      "tier": "1 venue",
-     "rank": 683
+     "rank": 682
     },
     {
      "name": "VerbIT",
@@ -33420,7 +33381,7 @@
       "agentic_commerce": false
      },
      "tier": "3 venues",
-     "rank": 684
+     "rank": 683
     },
     {
      "name": "Wayflyer",
@@ -33466,7 +33427,7 @@
       "agentic_commerce": false
      },
      "tier": "3 venues",
-     "rank": 685
+     "rank": 684
     },
     {
      "name": "Atomicwork",
@@ -33512,7 +33473,7 @@
       "agentic_commerce": false
      },
      "tier": "2 venues",
-     "rank": 686
+     "rank": 685
     },
     {
      "name": "FrontApp",
@@ -33558,7 +33519,7 @@
       "agentic_commerce": false
      },
      "tier": "1 venue",
-     "rank": 687
+     "rank": 686
     },
     {
      "name": "Razorpay",
@@ -33611,7 +33572,7 @@
       "agentic_commerce": false
      },
      "tier": "5 venues",
-     "rank": 688
+     "rank": 687
     },
     {
      "name": "Runway",
@@ -33657,7 +33618,7 @@
       "agentic_commerce": false
      },
      "tier": "2 venues",
-     "rank": 689
+     "rank": 688
     },
     {
      "name": "Select Star",
@@ -33703,7 +33664,7 @@
       "agentic_commerce": false
      },
      "tier": "2 venues",
-     "rank": 690
+     "rank": 689
     },
     {
      "name": "Xentral",
@@ -33749,7 +33710,7 @@
       "agentic_commerce": false
      },
      "tier": "1 venue",
-     "rank": 691
+     "rank": 690
     },
     {
      "name": "Clerk",
@@ -33795,7 +33756,7 @@
       "agentic_commerce": false
      },
      "tier": "2 venues",
-     "rank": 692
+     "rank": 691
     },
     {
      "name": "Horizon Blockchain Games",
@@ -33848,7 +33809,7 @@
       "agentic_commerce": false
      },
      "tier": "1 venue",
-     "rank": 693
+     "rank": 692
     },
     {
      "name": "Parabol",
@@ -33894,7 +33855,7 @@
       "agentic_commerce": false
      },
      "tier": "1 venue",
-     "rank": 694
+     "rank": 693
     },
     {
      "name": "Rewst",
@@ -33940,7 +33901,7 @@
       "agentic_commerce": false
      },
      "tier": "4 venues",
-     "rank": 695
+     "rank": 694
     },
     {
      "name": "Sanas",
@@ -33986,7 +33947,7 @@
       "agentic_commerce": false
      },
      "tier": "4 venues",
-     "rank": 696
+     "rank": 695
     },
     {
      "name": "Sense",
@@ -34039,7 +34000,7 @@
       "agentic_commerce": false
      },
      "tier": "2 venues",
-     "rank": 697
+     "rank": 696
     },
     {
      "name": "SpotOn",
@@ -34092,7 +34053,7 @@
       "agentic_commerce": false
      },
      "tier": "4 venues",
-     "rank": 698
+     "rank": 697
     },
     {
      "name": "TeamOhana",
@@ -34138,7 +34099,7 @@
       "agentic_commerce": false
      },
      "tier": "1 venue",
-     "rank": 699
+     "rank": 698
     },
     {
      "name": "Appsmith",
@@ -34184,7 +34145,7 @@
       "agentic_commerce": false
      },
      "tier": "3 venues",
-     "rank": 700
+     "rank": 699
     },
     {
      "name": "Caliza",
@@ -34237,7 +34198,7 @@
       "agentic_commerce": false
      },
      "tier": "1 venue",
-     "rank": 701
+     "rank": 700
     },
     {
      "name": "Culture Amp",
@@ -34283,7 +34244,7 @@
       "agentic_commerce": false
      },
      "tier": "4 venues",
-     "rank": 702
+     "rank": 701
     },
     {
      "name": "Matik",
@@ -34329,7 +34290,7 @@
       "agentic_commerce": false
      },
      "tier": "1 venue",
-     "rank": 703
+     "rank": 702
     },
     {
      "name": "Optimism",
@@ -34375,7 +34336,7 @@
       "agentic_commerce": false
      },
      "tier": "4 venues",
-     "rank": 704
+     "rank": 703
     },
     {
      "name": "TikTok",
@@ -34421,7 +34382,7 @@
       "agentic_commerce": false
      },
      "tier": "1 venue",
-     "rank": 705
+     "rank": 704
     },
     {
      "name": "Facilio",
@@ -34467,7 +34428,7 @@
       "agentic_commerce": false
      },
      "tier": "1 venue",
-     "rank": 706
+     "rank": 705
     },
     {
      "name": "LendKey",
@@ -34520,7 +34481,7 @@
       "agentic_commerce": false
      },
      "tier": "1 venue",
-     "rank": 707
+     "rank": 706
     },
     {
      "name": "PayJoy",
@@ -34573,7 +34534,7 @@
       "agentic_commerce": false
      },
      "tier": "4 venues",
-     "rank": 708
+     "rank": 707
     },
     {
      "name": "Pleo",
@@ -34626,7 +34587,7 @@
       "agentic_commerce": false
      },
      "tier": "3 venues",
-     "rank": 709
+     "rank": 708
     },
     {
      "name": "Qualio",
@@ -34679,7 +34640,7 @@
       "agentic_commerce": false
      },
      "tier": "3 venues",
-     "rank": 710
+     "rank": 709
     },
     {
      "name": "SPAN",
@@ -34732,7 +34693,7 @@
       "agentic_commerce": false
      },
      "tier": "1 venue",
-     "rank": 711
+     "rank": 710
     },
     {
      "name": "Arweave",
@@ -34778,7 +34739,7 @@
       "agentic_commerce": false
      },
      "tier": "1 venue",
-     "rank": 712
+     "rank": 711
     },
     {
      "name": "BigML",
@@ -34824,7 +34785,7 @@
       "agentic_commerce": false
      },
      "tier": "1 venue",
-     "rank": 713
+     "rank": 712
     },
     {
      "name": "Catchpoint Systems",
@@ -34870,7 +34831,7 @@
       "agentic_commerce": false
      },
      "tier": "1 venue",
-     "rank": 714
+     "rank": 713
     },
     {
      "name": "Gainsight",
@@ -34921,7 +34882,7 @@
       "agentic_commerce": false
      },
      "tier": "1 venue",
-     "rank": 715
+     "rank": 714
     },
     {
      "name": "GoCardless",
@@ -34974,7 +34935,7 @@
       "agentic_commerce": false
      },
      "tier": "3 venues",
-     "rank": 716
+     "rank": 715
     },
     {
      "name": "Opus",
@@ -35020,6 +34981,52 @@
       "agentic_commerce": false
      },
      "tier": "1 venue",
+     "rank": 716
+    },
+    {
+     "name": "CAST AI",
+     "slug": "cast-ai",
+     "description": "CAST AI is an Application Performance Automation (APA) platform for Kubernetes that automates cost optimization, autoscaling, workload rightsizing, GPU/LLM workload placement, spot instance selection, and security posture analysis. The platform works across AWS, GCP, Azure, Oracle Cloud, IBM Cloud, AliCloud and on-premises distributions (EKS, GKE, AKS, OpenShift, Rancher, kOps). Everything available in the console UI is also accessible via the REST API at api.cast.ai.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/cast-ai/refs/heads/main/screenshots/cast-ai-2026-06-20T174036.png",
+     "score": 46.0,
+     "band": "developing",
+     "band_label": "Developing",
+     "facets": {
+      "discoverability": 75.9,
+      "contract_quality": 67.5,
+      "governance": 9.8,
+      "contract_governance": 9.8,
+      "operational_transparency": 47.4,
+      "developer_ergonomics": 23.8,
+      "commercial_clarity": 47.4,
+      "access_clarity": 47.4
+     },
+     "scored_at": "2026-09-01",
+     "schema_version": "0.18.0",
+     "agent_score": 19.8,
+     "agent_band": "agent-aware",
+     "agent_dims": {
+      "spec_presence": true,
+      "agentic_access": "derived",
+      "reversibility_documented": false,
+      "mcp_server": false,
+      "auth_clarity": "bearer",
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": "documented",
+      "event_surface_described": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
+     "tier": "2 venues",
      "rank": 717
     },
     {
@@ -35065,54 +35072,8 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "tier": "2 venues",
-     "rank": 718
-    },
-    {
-     "name": "CAST AI",
-     "slug": "cast-ai",
-     "description": "CAST AI is an Application Performance Automation (APA) platform for Kubernetes that automates cost optimization, autoscaling, workload rightsizing, GPU/LLM workload placement, spot instance selection, and security posture analysis. The platform works across AWS, GCP, Azure, Oracle Cloud, IBM Cloud, AliCloud and on-premises distributions (EKS, GKE, AKS, OpenShift, Rancher, kOps). Everything available in the console UI is also accessible via the REST API at api.cast.ai.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/cast-ai/refs/heads/main/screenshots/cast-ai-2026-06-20T174036.png",
-     "score": 46.0,
-     "band": "developing",
-     "band_label": "Developing",
-     "facets": {
-      "discoverability": 75.9,
-      "contract_quality": 67.5,
-      "governance": 9.8,
-      "contract_governance": 9.8,
-      "operational_transparency": 47.4,
-      "developer_ergonomics": 23.8,
-      "commercial_clarity": 47.4,
-      "access_clarity": 47.4
-     },
-     "scored_at": "2026-09-01",
-     "schema_version": "0.18.0",
-     "agent_score": 19.8,
-     "agent_band": "agent-aware",
-     "agent_dims": {
-      "spec_presence": true,
-      "agentic_access": "derived",
-      "reversibility_documented": false,
-      "mcp_server": false,
-      "auth_clarity": "bearer",
-      "idempotency": false,
-      "error_semantics": false,
-      "openapi_examples": false,
-      "rate_limit_signal": "documented",
-      "event_surface_described": false,
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false,
-      "delegated_identity": false,
-      "protected_resource_metadata": false,
-      "dynamic_client_registration": false,
-      "agentic_commerce": false
-     },
      "tier": "1 venue",
-     "rank": 719
+     "rank": 718
     },
     {
      "name": "Convex",
@@ -35158,7 +35119,7 @@
       "agentic_commerce": false
      },
      "tier": "1 venue",
-     "rank": 720
+     "rank": 719
     },
     {
      "name": "Rillet",
@@ -35204,7 +35165,7 @@
       "agentic_commerce": false
      },
      "tier": "2 venues",
-     "rank": 721
+     "rank": 720
     },
     {
      "name": "Tavus",
@@ -35250,7 +35211,7 @@
       "agentic_commerce": false
      },
      "tier": "3 venues",
-     "rank": 722
+     "rank": 721
     },
     {
      "name": "Twenty",
@@ -35296,7 +35257,7 @@
       "agentic_commerce": false
      },
      "tier": "1 venue",
-     "rank": 723
+     "rank": 722
     },
     {
      "name": "Beyond Pricing",
@@ -35342,7 +35303,7 @@
       "agentic_commerce": false
      },
      "tier": "1 venue",
-     "rank": 724
+     "rank": 723
     },
     {
      "name": "Cofactr",
@@ -35388,7 +35349,7 @@
       "agentic_commerce": false
      },
      "tier": "1 venue",
-     "rank": 725
+     "rank": 724
     },
     {
      "name": "CyCognito",
@@ -35434,7 +35395,7 @@
       "agentic_commerce": false
      },
      "tier": "3 venues",
-     "rank": 726
+     "rank": 725
     },
     {
      "name": "Dagger",
@@ -35480,7 +35441,7 @@
       "agentic_commerce": false
      },
      "tier": "1 venue",
-     "rank": 727
+     "rank": 726
     },
     {
      "name": "Lunchbox",
@@ -35526,7 +35487,7 @@
       "agentic_commerce": false
      },
      "tier": "2 venues",
-     "rank": 728
+     "rank": 727
     },
     {
      "name": "Sigma360",
@@ -35572,7 +35533,7 @@
       "agentic_commerce": false
      },
      "tier": "1 venue",
-     "rank": 729
+     "rank": 728
     },
     {
      "name": "Arch Labs",
@@ -35618,7 +35579,7 @@
       "agentic_commerce": false
      },
      "tier": "2 venues",
-     "rank": 730
+     "rank": 729
     },
     {
      "name": "Limitless",
@@ -35664,7 +35625,7 @@
       "agentic_commerce": false
      },
      "tier": "1 venue",
-     "rank": 731
+     "rank": 730
     },
     {
      "name": "NewsWhip",
@@ -35710,6 +35671,52 @@
       "agentic_commerce": false
      },
      "tier": "1 venue",
+     "rank": 731
+    },
+    {
+     "name": "Arthur AI",
+     "slug": "arthur-ai",
+     "description": "Arthur is an enterprise AI governance and observability platform for discovering, monitoring, evaluating, and governing AI and ML systems in production. The Arthur Platform API (internally \"Arthur Scope\", OpenAPI 3.1) exposes 213 operations across models, tasks, datasets, connectors, metrics, alerts, alert rules, policies, workspaces, projects, agents, and webhooks, secured with OAuth2 via Keycloak. Arthur also ships the open-source Arthur Engine (LLM guardrails plus ML evaluation), the arthur-bench LLM evaluation library, Python client SDKs, and an Agent Toolkit with a Claude Code integration for end-to-end tracing.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/arthur-ai/refs/heads/main/screenshots/arthur-ai-2026-07-25T201324.png",
+     "score": 45.7,
+     "band": "developing",
+     "band_label": "Developing",
+     "facets": {
+      "discoverability": 75.9,
+      "contract_quality": 60.2,
+      "governance": 4.5,
+      "contract_governance": 4.5,
+      "operational_transparency": 26.3,
+      "developer_ergonomics": 50.6,
+      "commercial_clarity": 44.7,
+      "access_clarity": 44.7
+     },
+     "scored_at": "2026-09-01",
+     "schema_version": "0.18.0",
+     "agent_score": 31.5,
+     "agent_band": "agent-ready",
+     "agent_dims": {
+      "spec_presence": true,
+      "agentic_access": false,
+      "reversibility_documented": false,
+      "mcp_server": false,
+      "auth_clarity": "negotiable",
+      "idempotency": false,
+      "error_semantics": "verified",
+      "openapi_examples": false,
+      "rate_limit_signal": false,
+      "event_surface_described": true,
+      "agent_skills": "derived",
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": "documented",
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
+     "tier": "3 venues",
      "rank": 732
     },
     {
@@ -35755,54 +35762,8 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "tier": "3 venues",
-     "rank": 733
-    },
-    {
-     "name": "Arthur AI",
-     "slug": "arthur-ai",
-     "description": "Arthur is an enterprise AI governance and observability platform for discovering, monitoring, evaluating, and governing AI and ML systems in production. The Arthur Platform API (internally \"Arthur Scope\", OpenAPI 3.1) exposes 213 operations across models, tasks, datasets, connectors, metrics, alerts, alert rules, policies, workspaces, projects, agents, and webhooks, secured with OAuth2 via Keycloak. Arthur also ships the open-source Arthur Engine (LLM guardrails plus ML evaluation), the arthur-bench LLM evaluation library, Python client SDKs, and an Agent Toolkit with a Claude Code integration for end-to-end tracing.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/arthur-ai/refs/heads/main/screenshots/arthur-ai-2026-07-25T201324.png",
-     "score": 45.7,
-     "band": "developing",
-     "band_label": "Developing",
-     "facets": {
-      "discoverability": 75.9,
-      "contract_quality": 60.2,
-      "governance": 4.5,
-      "contract_governance": 4.5,
-      "operational_transparency": 26.3,
-      "developer_ergonomics": 50.6,
-      "commercial_clarity": 44.7,
-      "access_clarity": 44.7
-     },
-     "scored_at": "2026-09-01",
-     "schema_version": "0.18.0",
-     "agent_score": 31.5,
-     "agent_band": "agent-ready",
-     "agent_dims": {
-      "spec_presence": true,
-      "agentic_access": false,
-      "reversibility_documented": false,
-      "mcp_server": false,
-      "auth_clarity": "negotiable",
-      "idempotency": false,
-      "error_semantics": "verified",
-      "openapi_examples": false,
-      "rate_limit_signal": false,
-      "event_surface_described": true,
-      "agent_skills": "derived",
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false,
-      "delegated_identity": "documented",
-      "protected_resource_metadata": false,
-      "dynamic_client_registration": false,
-      "agentic_commerce": false
-     },
      "tier": "1 venue",
-     "rank": 734
+     "rank": 733
     },
     {
      "name": "Kurrent",
@@ -35848,7 +35809,7 @@
       "agentic_commerce": false
      },
      "tier": "1 venue",
-     "rank": 735
+     "rank": 734
     },
     {
      "name": "Pipedrive",
@@ -35894,7 +35855,7 @@
       "agentic_commerce": false
      },
      "tier": "2 venues",
-     "rank": 736
+     "rank": 735
     },
     {
      "name": "Qargo",
@@ -35940,7 +35901,7 @@
       "agentic_commerce": false
      },
      "tier": "1 venue",
-     "rank": 737
+     "rank": 736
     },
     {
      "name": "Amberflo",
@@ -35986,7 +35947,7 @@
       "agentic_commerce": false
      },
      "tier": "2 venues",
-     "rank": 738
+     "rank": 737
     },
     {
      "name": "Braintrust",
@@ -36032,7 +35993,7 @@
       "agentic_commerce": false
      },
      "tier": "3 venues",
-     "rank": 739
+     "rank": 738
     },
     {
      "name": "Dragos",
@@ -36078,7 +36039,7 @@
       "agentic_commerce": false
      },
      "tier": "4 venues",
-     "rank": 740
+     "rank": 739
     },
     {
      "name": "Slope",
@@ -36131,7 +36092,7 @@
       "agentic_commerce": false
      },
      "tier": "3 venues",
-     "rank": 741
+     "rank": 740
     },
     {
      "name": "Spacelift",
@@ -36177,7 +36138,7 @@
       "agentic_commerce": false
      },
      "tier": "4 venues",
-     "rank": 742
+     "rank": 741
     },
     {
      "name": "LMNT",
@@ -36223,7 +36184,7 @@
       "agentic_commerce": false
      },
      "tier": "1 venue",
-     "rank": 743
+     "rank": 742
     },
     {
      "name": "Orum",
@@ -36276,7 +36237,7 @@
       "agentic_commerce": false
      },
      "tier": "5 venues",
-     "rank": 744
+     "rank": 743
     },
     {
      "name": "Sentio",
@@ -36322,7 +36283,7 @@
       "agentic_commerce": false
      },
      "tier": "1 venue",
-     "rank": 745
+     "rank": 744
     },
     {
      "name": "AssemblyAI",
@@ -36368,7 +36329,7 @@
       "agentic_commerce": false
      },
      "tier": "4 venues",
-     "rank": 746
+     "rank": 745
     },
     {
      "name": "Axiom",
@@ -36414,7 +36375,7 @@
       "agentic_commerce": false
      },
      "tier": "4 venues",
-     "rank": 747
+     "rank": 746
     },
     {
      "name": "GenLogs",
@@ -36467,7 +36428,7 @@
       "agentic_commerce": false
      },
      "tier": "2 venues",
-     "rank": 748
+     "rank": 747
     },
     {
      "name": "Gremlin",
@@ -36513,7 +36474,7 @@
       "agentic_commerce": false
      },
      "tier": "2 venues",
-     "rank": 749
+     "rank": 748
     },
     {
      "name": "Revolut",
@@ -36573,7 +36534,7 @@
       "agentic_commerce": false
      },
      "tier": "4 venues",
-     "rank": 750
+     "rank": 749
     },
     {
      "name": "Tinybird",
@@ -36619,7 +36580,7 @@
       "agentic_commerce": false
      },
      "tier": "2 venues",
-     "rank": 751
+     "rank": 750
     },
     {
      "name": "Vanta",
@@ -36665,7 +36626,7 @@
       "agentic_commerce": false
      },
      "tier": "4 venues",
-     "rank": 752
+     "rank": 751
     },
     {
      "name": "Cerebras",
@@ -36711,7 +36672,7 @@
       "agentic_commerce": false
      },
      "tier": "3 venues",
-     "rank": 753
+     "rank": 752
     },
     {
      "name": "Forethought",
@@ -36757,7 +36718,7 @@
       "agentic_commerce": false
      },
      "tier": "3 venues",
-     "rank": 754
+     "rank": 753
     },
     {
      "name": "Medable",
@@ -36810,7 +36771,7 @@
       "agentic_commerce": false
      },
      "tier": "2 venues",
-     "rank": 755
+     "rank": 754
     },
     {
      "name": "OpenNode",
@@ -36863,7 +36824,7 @@
       "agentic_commerce": false
      },
      "tier": "3 venues",
-     "rank": 756
+     "rank": 755
     },
     {
      "name": "Rainbow.AI",
@@ -36909,7 +36870,7 @@
       "agentic_commerce": false
      },
      "tier": "1 venue",
-     "rank": 757
+     "rank": 756
     },
     {
      "name": "Sheeva",
@@ -36962,7 +36923,7 @@
       "agentic_commerce": false
      },
      "tier": "1 venue",
-     "rank": 758
+     "rank": 757
     },
     {
      "name": "Xata",
@@ -37008,7 +36969,7 @@
       "agentic_commerce": false
      },
      "tier": "1 venue",
-     "rank": 759
+     "rank": 758
     },
     {
      "name": "Klutch",
@@ -37061,7 +37022,7 @@
       "agentic_commerce": false
      },
      "tier": "1 venue",
-     "rank": 760
+     "rank": 759
     },
     {
      "name": "Leap",
@@ -37114,7 +37075,7 @@
       "agentic_commerce": false
      },
      "tier": "2 venues",
-     "rank": 761
+     "rank": 760
     },
     {
      "name": "Porter",
@@ -37160,7 +37121,7 @@
       "agentic_commerce": false
      },
      "tier": "1 venue",
-     "rank": 762
+     "rank": 761
     },
     {
      "name": "Tango",
@@ -37213,7 +37174,7 @@
       "agentic_commerce": false
      },
      "tier": "3 venues",
-     "rank": 763
+     "rank": 762
     },
     {
      "name": "Vooma",
@@ -37266,7 +37227,7 @@
       "agentic_commerce": false
      },
      "tier": "1 venue",
-     "rank": 764
+     "rank": 763
     },
     {
      "name": "InMobi",
@@ -37312,7 +37273,7 @@
       "agentic_commerce": false
      },
      "tier": "4 venues",
-     "rank": 765
+     "rank": 764
     },
     {
      "name": "Loop",
@@ -37365,7 +37326,7 @@
       "agentic_commerce": false
      },
      "tier": "2 venues",
-     "rank": 766
+     "rank": 765
     },
     {
      "name": "Phenom",
@@ -37411,7 +37372,7 @@
       "agentic_commerce": false
      },
      "tier": "1 venue",
-     "rank": 767
+     "rank": 766
     },
     {
      "name": "Rollbar",
@@ -37457,7 +37418,7 @@
       "agentic_commerce": false
      },
      "tier": "2 venues",
-     "rank": 768
+     "rank": 767
     },
     {
      "name": "Aiven",
@@ -37503,7 +37464,7 @@
       "agentic_commerce": false
      },
      "tier": "5 venues",
-     "rank": 769
+     "rank": 768
     },
     {
      "name": "Bolt",
@@ -37556,7 +37517,7 @@
       "agentic_commerce": false
      },
      "tier": "2 venues",
-     "rank": 770
+     "rank": 769
     },
     {
      "name": "Carto",
@@ -37602,7 +37563,7 @@
       "agentic_commerce": false
      },
      "tier": "1 venue",
-     "rank": 771
+     "rank": 770
     },
     {
      "name": "Clio",
@@ -37648,7 +37609,7 @@
       "agentic_commerce": false
      },
      "tier": "4 venues",
-     "rank": 772
+     "rank": 771
     },
     {
      "name": "Gitpod",
@@ -37694,6 +37655,52 @@
       "agentic_commerce": false
      },
      "tier": "1 venue",
+     "rank": 772
+    },
+    {
+     "name": "Horizon3.ai",
+     "slug": "horizon3ai",
+     "description": "Horizon3.ai is a cybersecurity company whose NodeZero platform delivers autonomous penetration testing and continuous security posture management. NodeZero safely attacks your internal, external, cloud, and hybrid environments the way a real adversary would, proving exploitable attack paths, prioritizing the fixes that matter, and verifying that remediations actually work. Horizon3.ai exposes a publicly documented GraphQL API (the NodeZero API) plus an h3-cli command-line tool and a hosted Model Context Protocol (MCP) server, letting teams schedule pentests, retrieve findings, weaknesses, attack paths, credentials, and host inventory, and wire results into CI/CD, ticketing (Jira, ServiceNow), and agentic workflows. NodeZero Federal is FedRAMP High authorized for public-sector use.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/horizon3ai/refs/heads/main/screenshots/horizon3ai-2026-07-25T221429.png",
+     "score": 45.0,
+     "band": "developing",
+     "band_label": "Developing",
+     "facets": {
+      "discoverability": 75.9,
+      "contract_quality": 41.6,
+      "governance": 18.2,
+      "contract_governance": 18.2,
+      "operational_transparency": 42.1,
+      "developer_ergonomics": 49.4,
+      "commercial_clarity": 47.4,
+      "access_clarity": 47.4
+     },
+     "scored_at": "2026-09-01",
+     "schema_version": "0.18.0",
+     "agent_score": 43.2,
+     "agent_band": "agent-ready",
+     "agent_dims": {
+      "spec_presence": true,
+      "agentic_access": false,
+      "reversibility_documented": false,
+      "mcp_server": "documented",
+      "auth_clarity": "served",
+      "idempotency": false,
+      "error_semantics": "documented",
+      "openapi_examples": false,
+      "rate_limit_signal": false,
+      "event_surface_described": true,
+      "agent_skills": "derived",
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": "served",
+      "protected_resource_metadata": "verified",
+      "dynamic_client_registration": true,
+      "agentic_commerce": false
+     },
+     "tier": "2 venues",
      "rank": 773
     },
     {
@@ -37743,52 +37750,6 @@
      "rank": 774
     },
     {
-     "name": "Horizon3.ai",
-     "slug": "horizon3ai",
-     "description": "Horizon3.ai is a cybersecurity company whose NodeZero platform delivers autonomous penetration testing and continuous security posture management. NodeZero safely attacks your internal, external, cloud, and hybrid environments the way a real adversary would, proving exploitable attack paths, prioritizing the fixes that matter, and verifying that remediations actually work. Horizon3.ai exposes a publicly documented GraphQL API (the NodeZero API) plus an h3-cli command-line tool and a hosted Model Context Protocol (MCP) server, letting teams schedule pentests, retrieve findings, weaknesses, attack paths, credentials, and host inventory, and wire results into CI/CD, ticketing (Jira, ServiceNow), and agentic workflows. NodeZero Federal is FedRAMP High authorized for public-sector use.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/horizon3ai/refs/heads/main/screenshots/horizon3ai-2026-07-25T221429.png",
-     "score": 45.0,
-     "band": "developing",
-     "band_label": "Developing",
-     "facets": {
-      "discoverability": 75.9,
-      "contract_quality": 41.6,
-      "governance": 18.2,
-      "contract_governance": 18.2,
-      "operational_transparency": 42.1,
-      "developer_ergonomics": 49.4,
-      "commercial_clarity": 47.4,
-      "access_clarity": 47.4
-     },
-     "scored_at": "2026-09-01",
-     "schema_version": "0.18.0",
-     "agent_score": 43.2,
-     "agent_band": "agent-ready",
-     "agent_dims": {
-      "spec_presence": true,
-      "agentic_access": false,
-      "reversibility_documented": false,
-      "mcp_server": "documented",
-      "auth_clarity": "served",
-      "idempotency": false,
-      "error_semantics": "documented",
-      "openapi_examples": false,
-      "rate_limit_signal": false,
-      "event_surface_described": true,
-      "agent_skills": "derived",
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false,
-      "delegated_identity": "served",
-      "protected_resource_metadata": "verified",
-      "dynamic_client_registration": true,
-      "agentic_commerce": false
-     },
-     "tier": "2 venues",
-     "rank": 775
-    },
-    {
      "name": "LambdaTest",
      "slug": "lambdatest",
      "description": "LambdaTest (rebranding as TestMu AI) is a cloud-based AI-powered test execution platform that enables developers and QA teams to run Selenium, Cypress, Playwright, and Appium automation tests across 3,000+ browser and OS combinations at scale. The platform provides live interactive cross-browser and real device testing, visual regression testing with SmartUI, and AI-native test orchestration via HyperExecute. LambdaTest exposes a suite of REST APIs for managing test sessions, uploading mobile apps, retrieving test results, and controlling tunnel connections, all secured with HTTP Basic Authentication using a username and access key. The platform serves over 2 million developers and testers across 10,000+ enterprise customers in 130 countries.",
@@ -37832,7 +37793,7 @@
       "agentic_commerce": false
      },
      "tier": "4 venues",
-     "rank": 776
+     "rank": 775
     },
     {
      "name": "Neo4j",
@@ -37878,7 +37839,7 @@
       "agentic_commerce": false
      },
      "tier": "4 venues",
-     "rank": 777
+     "rank": 776
     },
     {
      "name": "Oso Cloud",
@@ -37931,6 +37892,52 @@
       "agentic_commerce": false
      },
      "tier": "1 venue",
+     "rank": 777
+    },
+    {
+     "name": "Robin AI",
+     "slug": "robin-ai",
+     "description": "Robin AI is a London-headquartered legal intelligence platform founded in 2019 by former Clifford Chance disputes lawyer Richard Robinson and machine learning researcher James Clough. The platform automates contract review, drafting, search, obligation tracking, and structured extraction for enterprise legal teams via a Microsoft Word add-in, a web workspace, and a public REST API. Robin AI shipped on Anthropic's Claude models (Claude 3 entered the stack in March 2024) and processed 500k+ documents for customers including KPMG, PwC, Pfizer, GE, UBS, and PepsiCo, advertising 80% faster contract review and 3-second clause search. The company's public-facing Robin Legal Intelligence Platform API (openapi 3.1.0, version 0.2.0-dev, base URL https://api.robinai.com, X-API-Key auth) exposes Documents, Templates, Tables, Properties, and Groups — the Tables API is the flagship extraction surface that turns unstructured legal text into clean structured data tables for CLMs, CRMs, ERPs, BI dashboards, and risk engines. NOTE Robin AI collapsed in late 2025 after failing to close a $50M funding round; the managed services arm was acquired by Scissero in December 2025 and the engineering team was acqui-hired by Microsoft in January 2026 to strengthen Word's legal AI capabilities. This profile documents the API surface as it was published at robinai.com/robin-api.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/robin-ai/refs/heads/main/screenshots/robin-ai-2026-06-20T193139.png",
+     "score": 45.0,
+     "band": "developing",
+     "band_label": "Developing",
+     "facets": {
+      "discoverability": 68.5,
+      "contract_quality": 60.5,
+      "governance": 13.6,
+      "contract_governance": 13.6,
+      "operational_transparency": 2.6,
+      "developer_ergonomics": 38.1,
+      "commercial_clarity": 67.1,
+      "access_clarity": 67.1
+     },
+     "scored_at": "2026-09-01",
+     "schema_version": "0.18.0",
+     "agent_score": 21.5,
+     "agent_band": "agent-aware",
+     "agent_dims": {
+      "spec_presence": true,
+      "agentic_access": "derived",
+      "reversibility_documented": "documented",
+      "mcp_server": false,
+      "auth_clarity": "bearer",
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": "documented",
+      "event_surface_described": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
+     "tier": "2 venues",
      "rank": 778
     },
     {
@@ -37976,54 +37983,8 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "tier": "2 venues",
-     "rank": 779
-    },
-    {
-     "name": "Robin AI",
-     "slug": "robin-ai",
-     "description": "Robin AI is a London-headquartered legal intelligence platform founded in 2019 by former Clifford Chance disputes lawyer Richard Robinson and machine learning researcher James Clough. The platform automates contract review, drafting, search, obligation tracking, and structured extraction for enterprise legal teams via a Microsoft Word add-in, a web workspace, and a public REST API. Robin AI shipped on Anthropic's Claude models (Claude 3 entered the stack in March 2024) and processed 500k+ documents for customers including KPMG, PwC, Pfizer, GE, UBS, and PepsiCo, advertising 80% faster contract review and 3-second clause search. The company's public-facing Robin Legal Intelligence Platform API (openapi 3.1.0, version 0.2.0-dev, base URL https://api.robinai.com, X-API-Key auth) exposes Documents, Templates, Tables, Properties, and Groups — the Tables API is the flagship extraction surface that turns unstructured legal text into clean structured data tables for CLMs, CRMs, ERPs, BI dashboards, and risk engines. NOTE Robin AI collapsed in late 2025 after failing to close a $50M funding round; the managed services arm was acquired by Scissero in December 2025 and the engineering team was acqui-hired by Microsoft in January 2026 to strengthen Word's legal AI capabilities. This profile documents the API surface as it was published at robinai.com/robin-api.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/robin-ai/refs/heads/main/screenshots/robin-ai-2026-06-20T193139.png",
-     "score": 45.0,
-     "band": "developing",
-     "band_label": "Developing",
-     "facets": {
-      "discoverability": 68.5,
-      "contract_quality": 60.5,
-      "governance": 13.6,
-      "contract_governance": 13.6,
-      "operational_transparency": 2.6,
-      "developer_ergonomics": 38.1,
-      "commercial_clarity": 67.1,
-      "access_clarity": 67.1
-     },
-     "scored_at": "2026-09-01",
-     "schema_version": "0.18.0",
-     "agent_score": 21.5,
-     "agent_band": "agent-aware",
-     "agent_dims": {
-      "spec_presence": true,
-      "agentic_access": "derived",
-      "reversibility_documented": "documented",
-      "mcp_server": false,
-      "auth_clarity": "bearer",
-      "idempotency": false,
-      "error_semantics": false,
-      "openapi_examples": false,
-      "rate_limit_signal": "documented",
-      "event_surface_described": false,
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false,
-      "delegated_identity": false,
-      "protected_resource_metadata": false,
-      "dynamic_client_registration": false,
-      "agentic_commerce": false
-     },
      "tier": "1 venue",
-     "rank": 780
+     "rank": 779
     },
     {
      "name": "SingleStore",
@@ -38069,7 +38030,7 @@
       "agentic_commerce": false
      },
      "tier": "2 venues",
-     "rank": 781
+     "rank": 780
     },
     {
      "name": "Stacks Ai",
@@ -38115,7 +38076,7 @@
       "agentic_commerce": false
      },
      "tier": "1 venue",
-     "rank": 782
+     "rank": 781
     },
     {
      "name": "BentoML",
@@ -38161,7 +38122,7 @@
       "agentic_commerce": false
      },
      "tier": "1 venue",
-     "rank": 783
+     "rank": 782
     },
     {
      "name": "Charthop",
@@ -38207,7 +38168,7 @@
       "agentic_commerce": false
      },
      "tier": "3 venues",
-     "rank": 784
+     "rank": 783
     },
     {
      "name": "Flux",
@@ -38253,7 +38214,7 @@
       "agentic_commerce": false
      },
      "tier": "1 venue",
-     "rank": 785
+     "rank": 784
     },
     {
      "name": "HappyCo",
@@ -38299,7 +38260,7 @@
       "agentic_commerce": false
      },
      "tier": "3 venues",
-     "rank": 786
+     "rank": 785
     },
     {
      "name": "Higgsfield",
@@ -38345,7 +38306,7 @@
       "agentic_commerce": false
      },
      "tier": "4 venues",
-     "rank": 787
+     "rank": 786
     },
     {
      "name": "LogicGate",
@@ -38391,7 +38352,7 @@
       "agentic_commerce": false
      },
      "tier": "3 venues",
-     "rank": 788
+     "rank": 787
     },
     {
      "name": "Posit",
@@ -38437,7 +38398,7 @@
       "agentic_commerce": false
      },
      "tier": "1 venue",
-     "rank": 789
+     "rank": 788
     },
     {
      "name": "EBANX",
@@ -38490,7 +38451,7 @@
       "agentic_commerce": false
      },
      "tier": "2 venues",
-     "rank": 790
+     "rank": 789
     },
     {
      "name": "Pax8",
@@ -38536,7 +38497,7 @@
       "agentic_commerce": false
      },
      "tier": "4 venues",
-     "rank": 791
+     "rank": 790
     },
     {
      "name": "TrustArc",
@@ -38582,7 +38543,7 @@
       "agentic_commerce": false
      },
      "tier": "2 venues",
-     "rank": 792
+     "rank": 791
     },
     {
      "name": "Zylo",
@@ -38628,7 +38589,7 @@
       "agentic_commerce": false
      },
      "tier": "2 venues",
-     "rank": 793
+     "rank": 792
     },
     {
      "name": "Broadlume",
@@ -38674,7 +38635,7 @@
       "agentic_commerce": false
      },
      "tier": "1 venue",
-     "rank": 794
+     "rank": 793
     },
     {
      "name": "Collate",
@@ -38720,7 +38681,7 @@
       "agentic_commerce": false
      },
      "tier": "1 venue",
-     "rank": 795
+     "rank": 794
     },
     {
      "name": "Envoy",
@@ -38766,7 +38727,7 @@
       "agentic_commerce": false
      },
      "tier": "4 venues",
-     "rank": 796
+     "rank": 795
     },
     {
      "name": "Filigran",
@@ -38812,7 +38773,7 @@
       "agentic_commerce": false
      },
      "tier": "1 venue",
-     "rank": 797
+     "rank": 796
     },
     {
      "name": "Linktree",
@@ -38858,7 +38819,7 @@
       "agentic_commerce": false
      },
      "tier": "2 venues",
-     "rank": 798
+     "rank": 797
     },
     {
      "name": "Meteomatics",
@@ -38904,7 +38865,7 @@
       "agentic_commerce": false
      },
      "tier": "2 venues",
-     "rank": 799
+     "rank": 798
     },
     {
      "name": "Papaya Global",
@@ -38957,7 +38918,7 @@
       "agentic_commerce": false
      },
      "tier": "5 venues",
-     "rank": 800
+     "rank": 799
     },
     {
      "name": "Saviynt",
@@ -39003,7 +38964,7 @@
       "agentic_commerce": false
      },
      "tier": "2 venues",
-     "rank": 801
+     "rank": 800
     },
     {
      "name": "Xeneta",
@@ -39056,7 +39017,7 @@
       "agentic_commerce": false
      },
      "tier": "1 venue",
-     "rank": 802
+     "rank": 801
     },
     {
      "name": "Optibus",
@@ -39102,7 +39063,7 @@
       "agentic_commerce": false
      },
      "tier": "4 venues",
-     "rank": 803
+     "rank": 802
     },
     {
      "name": "Epidemic Sound",
@@ -39148,7 +39109,7 @@
       "agentic_commerce": false
      },
      "tier": "4 venues",
-     "rank": 804
+     "rank": 803
     },
     {
      "name": "Kajabi",
@@ -39201,7 +39162,7 @@
       "agentic_commerce": false
      },
      "tier": "4 venues",
-     "rank": 805
+     "rank": 804
     },
     {
      "name": "Procurify",
@@ -39247,7 +39208,7 @@
       "agentic_commerce": false
      },
      "tier": "2 venues",
-     "rank": 806
+     "rank": 805
     },
     {
      "name": "Shovels",
@@ -39293,7 +39254,7 @@
       "agentic_commerce": false
      },
      "tier": "1 venue",
-     "rank": 807
+     "rank": 806
     },
     {
      "name": "Unstructured",
@@ -39339,7 +39300,7 @@
       "agentic_commerce": false
      },
      "tier": "2 venues",
-     "rank": 808
+     "rank": 807
     },
     {
      "name": "BCB Group",
@@ -39392,7 +39353,7 @@
       "agentic_commerce": false
      },
      "tier": "1 venue",
-     "rank": 809
+     "rank": 808
     },
     {
      "name": "Choozle",
@@ -39438,7 +39399,7 @@
       "agentic_commerce": false
      },
      "tier": "1 venue",
-     "rank": 810
+     "rank": 809
     },
     {
      "name": "Crunchbase",
@@ -39484,7 +39445,7 @@
       "agentic_commerce": false
      },
      "tier": "3 venues",
-     "rank": 811
+     "rank": 810
     },
     {
      "name": "Eon",
@@ -39530,7 +39491,7 @@
       "agentic_commerce": false
      },
      "tier": "2 venues",
-     "rank": 812
+     "rank": 811
     },
     {
      "name": "June",
@@ -39576,7 +39537,7 @@
       "agentic_commerce": false
      },
      "tier": "3 venues",
-     "rank": 813
+     "rank": 812
     },
     {
      "name": "Nexthink",
@@ -39622,7 +39583,7 @@
       "agentic_commerce": false
      },
      "tier": "3 venues",
-     "rank": 814
+     "rank": 813
     },
     {
      "name": "PandaDoc",
@@ -39668,7 +39629,7 @@
       "agentic_commerce": false
      },
      "tier": "5 venues",
-     "rank": 815
+     "rank": 814
     },
     {
      "name": "PowerSchool",
@@ -39721,7 +39682,7 @@
       "agentic_commerce": false
      },
      "tier": "1 venue",
-     "rank": 816
+     "rank": 815
     },
     {
      "name": "Quora",
@@ -39767,7 +39728,7 @@
       "agentic_commerce": false
      },
      "tier": "4 venues",
-     "rank": 817
+     "rank": 816
     },
     {
      "name": "Confident Cannabis",
@@ -39820,7 +39781,7 @@
       "agentic_commerce": false
      },
      "tier": "2 venues",
-     "rank": 818
+     "rank": 817
     },
     {
      "name": "Copper",
@@ -39866,7 +39827,7 @@
       "agentic_commerce": false
      },
      "tier": "5 venues",
-     "rank": 819
+     "rank": 818
     },
     {
      "name": "Push Security",
@@ -39912,7 +39873,7 @@
       "agentic_commerce": false
      },
      "tier": "2 venues",
-     "rank": 820
+     "rank": 819
     },
     {
      "name": "Anchorage Digital",
@@ -39965,7 +39926,7 @@
       "agentic_commerce": false
      },
      "tier": "2 venues",
-     "rank": 821
+     "rank": 820
     },
     {
      "name": "Anrok",
@@ -40011,7 +39972,7 @@
       "agentic_commerce": false
      },
      "tier": "3 venues",
-     "rank": 822
+     "rank": 821
     },
     {
      "name": "P0 Security",
@@ -40057,7 +40018,7 @@
       "agentic_commerce": false
      },
      "tier": "1 venue",
-     "rank": 823
+     "rank": 822
     },
     {
      "name": "Sifflet",
@@ -40103,7 +40064,7 @@
       "agentic_commerce": false
      },
      "tier": "3 venues",
-     "rank": 824
+     "rank": 823
     },
     {
      "name": "UBTech",
@@ -40155,7 +40116,7 @@
       "agentic_commerce": false
      },
      "tier": "1 venue",
-     "rank": 825
+     "rank": 824
     },
     {
      "name": "Mon Ami",
@@ -40215,7 +40176,7 @@
       "agentic_commerce": false
      },
      "tier": "1 venue",
-     "rank": 826
+     "rank": 825
     },
     {
      "name": "Quartzy",
@@ -40267,7 +40228,7 @@
       "agentic_commerce": false
      },
      "tier": "1 venue",
-     "rank": 827
+     "rank": 826
     },
     {
      "name": "Rasa",
@@ -40313,7 +40274,7 @@
       "agentic_commerce": false
      },
      "tier": "3 venues",
-     "rank": 828
+     "rank": 827
     },
     {
      "name": "Vox Media",
@@ -40359,7 +40320,7 @@
       "agentic_commerce": false
      },
      "tier": "5 venues",
-     "rank": 829
+     "rank": 828
     },
     {
      "name": "Aisera",
@@ -40405,7 +40366,7 @@
       "agentic_commerce": false
      },
      "tier": "4 venues",
-     "rank": 830
+     "rank": 829
     },
     {
      "name": "Delphix",
@@ -40451,7 +40412,7 @@
       "agentic_commerce": false
      },
      "tier": "2 venues",
-     "rank": 831
+     "rank": 830
     },
     {
      "name": "Kumospace",
@@ -40497,7 +40458,7 @@
       "agentic_commerce": false
      },
      "tier": "2 venues",
-     "rank": 832
+     "rank": 831
     },
     {
      "name": "Navan",
@@ -40550,7 +40511,7 @@
       "agentic_commerce": false
      },
      "tier": "1 venue",
-     "rank": 833
+     "rank": 832
     },
     {
      "name": "Prefect",
@@ -40596,7 +40557,7 @@
       "agentic_commerce": false
      },
      "tier": "2 venues",
-     "rank": 834
+     "rank": 833
     },
     {
      "name": "Sedai",
@@ -40642,7 +40603,7 @@
       "agentic_commerce": false
      },
      "tier": "2 venues",
-     "rank": 835
+     "rank": 834
     },
     {
      "name": "Sfox",
@@ -40695,7 +40656,7 @@
       "agentic_commerce": false
      },
      "tier": "2 venues",
-     "rank": 836
+     "rank": 835
     },
     {
      "name": "AI21 Labs",
@@ -40741,7 +40702,7 @@
       "agentic_commerce": false
      },
      "tier": "5 venues",
-     "rank": 837
+     "rank": 836
     },
     {
      "name": "Chroma",
@@ -40787,7 +40748,7 @@
       "agentic_commerce": false
      },
      "tier": "1 venue",
-     "rank": 838
+     "rank": 837
     },
     {
      "name": "CloudZero",
@@ -40833,7 +40794,7 @@
       "agentic_commerce": false
      },
      "tier": "3 venues",
-     "rank": 839
+     "rank": 838
     },
     {
      "name": "RelationalAI",
@@ -40878,7 +40839,7 @@
       "agentic_commerce": false
      },
      "tier": "4 venues",
-     "rank": 840
+     "rank": 839
     },
     {
      "name": "Rox",
@@ -40924,7 +40885,7 @@
       "agentic_commerce": false
      },
      "tier": "3 venues",
-     "rank": 841
+     "rank": 840
     },
     {
      "name": "Teya",
@@ -40977,7 +40938,7 @@
       "agentic_commerce": false
      },
      "tier": "2 venues",
-     "rank": 842
+     "rank": 841
     },
     {
      "name": "TreasurySpring",
@@ -41030,7 +40991,7 @@
       "agentic_commerce": false
      },
      "tier": "1 venue",
-     "rank": 843
+     "rank": 842
     },
     {
      "name": "Braintrust",
@@ -41076,7 +41037,7 @@
       "agentic_commerce": false
      },
      "tier": "1 venue",
-     "rank": 844
+     "rank": 843
     },
     {
      "name": "Castle",
@@ -41122,7 +41083,7 @@
       "agentic_commerce": false
      },
      "tier": "1 venue",
-     "rank": 845
+     "rank": 844
     },
     {
      "name": "Coalesce",
@@ -41168,7 +41129,7 @@
       "agentic_commerce": false
      },
      "tier": "2 venues",
-     "rank": 846
+     "rank": 845
     },
     {
      "name": "Datto",
@@ -41214,7 +41175,7 @@
       "agentic_commerce": false
      },
      "tier": "1 venue",
-     "rank": 847
+     "rank": 846
     },
     {
      "name": "Doppel",
@@ -41260,7 +41221,7 @@
       "agentic_commerce": false
      },
      "tier": "3 venues",
-     "rank": 848
+     "rank": 847
     },
     {
      "name": "StackHawk",
@@ -41306,7 +41267,7 @@
       "agentic_commerce": false
      },
      "tier": "2 venues",
-     "rank": 849
+     "rank": 848
     },
     {
      "name": "Agora",
@@ -41359,7 +41320,7 @@
       "agentic_commerce": false
      },
      "tier": "1 venue",
-     "rank": 850
+     "rank": 849
     },
     {
      "name": "ComboCurve",
@@ -41412,7 +41373,7 @@
       "agentic_commerce": false
      },
      "tier": "2 venues",
-     "rank": 851
+     "rank": 850
     },
     {
      "name": "Foursquare",
@@ -41458,7 +41419,7 @@
       "agentic_commerce": false
      },
      "tier": "4 venues",
-     "rank": 852
+     "rank": 851
     },
     {
      "name": "Meilisearch",
@@ -41504,7 +41465,7 @@
       "agentic_commerce": false
      },
      "tier": "1 venue",
-     "rank": 853
+     "rank": 852
     },
     {
      "name": "Mode",
@@ -41550,7 +41511,7 @@
       "agentic_commerce": false
      },
      "tier": "1 venue",
-     "rank": 854
+     "rank": 853
     },
     {
      "name": "Modern Treasury",
@@ -41603,7 +41564,7 @@
       "agentic_commerce": false
      },
      "tier": "4 venues",
-     "rank": 855
+     "rank": 854
     },
     {
      "name": "Sahara AI",
@@ -41649,7 +41610,7 @@
       "agentic_commerce": false
      },
      "tier": "1 venue",
-     "rank": 856
+     "rank": 855
     },
     {
      "name": "SPIRE",
@@ -41695,7 +41656,7 @@
       "agentic_commerce": false
      },
      "tier": "1 venue",
-     "rank": 857
+     "rank": 856
     },
     {
      "name": "Upwind Security",
@@ -41741,7 +41702,7 @@
       "agentic_commerce": false
      },
      "tier": "2 venues",
-     "rank": 858
+     "rank": 857
     },
     {
      "name": "Coin Metrics",
@@ -41794,7 +41755,7 @@
       "agentic_commerce": false
      },
      "tier": "1 venue",
-     "rank": 859
+     "rank": 858
     },
     {
      "name": "Contentful",
@@ -41840,7 +41801,7 @@
       "agentic_commerce": false
      },
      "tier": "2 venues",
-     "rank": 860
+     "rank": 859
     },
     {
      "name": "Lithium Technologies",
@@ -41886,7 +41847,7 @@
       "agentic_commerce": false
      },
      "tier": "1 venue",
-     "rank": 861
+     "rank": 860
     },
     {
      "name": "Emburse",
@@ -41939,7 +41900,7 @@
       "agentic_commerce": false
      },
      "tier": "1 venue",
-     "rank": 862
+     "rank": 861
     },
     {
      "name": "Fieldguide",
@@ -41985,7 +41946,7 @@
       "agentic_commerce": false
      },
      "tier": "3 venues",
-     "rank": 863
+     "rank": 862
     },
     {
      "name": "Helm",
@@ -42031,7 +41992,7 @@
       "agentic_commerce": false
      },
      "tier": "3 venues",
-     "rank": 864
+     "rank": 863
     },
     {
      "name": "Sarvam AI",
@@ -42077,7 +42038,7 @@
       "agentic_commerce": false
      },
      "tier": "1 venue",
-     "rank": 865
+     "rank": 864
     },
     {
      "name": "SecurityScorecard",
@@ -42112,6 +42073,52 @@
       "openapi_examples": false,
       "rate_limit_signal": false,
       "event_surface_described": true,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
+     "tier": "4 venues",
+     "rank": 865
+    },
+    {
+     "name": "Stability AI",
+     "slug": "stability-ai",
+     "description": "Stability AI is an AI company that develops open-source generative AI models for image, audio, video, and language, including the Stable Diffusion family of image generation models. The Stability AI developer platform provides REST APIs for text-to-image generation, image editing, image upscaling, image structure control, video generation, and 3D asset creation. All APIs are accessible at api.stability.ai using bearer token authentication.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/stability-ai/refs/heads/main/screenshots/stability-ai-2026-06-20T194438.png",
+     "score": 43.5,
+     "band": "developing",
+     "band_label": "Developing",
+     "facets": {
+      "discoverability": 68.5,
+      "contract_quality": 65.1,
+      "governance": 28.8,
+      "contract_governance": 28.8,
+      "operational_transparency": 13.2,
+      "developer_ergonomics": 28.6,
+      "commercial_clarity": 47.4,
+      "access_clarity": 47.4
+     },
+     "scored_at": "2026-09-01",
+     "schema_version": "0.18.0",
+     "agent_score": 25.5,
+     "agent_band": "agent-aware",
+     "agent_dims": {
+      "spec_presence": true,
+      "agentic_access": "derived",
+      "reversibility_documented": false,
+      "mcp_server": false,
+      "auth_clarity": "bearer",
+      "idempotency": false,
+      "error_semantics": "verified",
+      "openapi_examples": false,
+      "rate_limit_signal": "documented",
+      "event_surface_described": false,
       "agent_skills": false,
       "well_known_catalog": false,
       "consent_identity": false,
@@ -42168,54 +42175,8 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "tier": "4 venues",
-     "rank": 867
-    },
-    {
-     "name": "Stability AI",
-     "slug": "stability-ai",
-     "description": "Stability AI is an AI company that develops open-source generative AI models for image, audio, video, and language, including the Stable Diffusion family of image generation models. The Stability AI developer platform provides REST APIs for text-to-image generation, image editing, image upscaling, image structure control, video generation, and 3D asset creation. All APIs are accessible at api.stability.ai using bearer token authentication.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/stability-ai/refs/heads/main/screenshots/stability-ai-2026-06-20T194438.png",
-     "score": 43.5,
-     "band": "developing",
-     "band_label": "Developing",
-     "facets": {
-      "discoverability": 68.5,
-      "contract_quality": 65.1,
-      "governance": 28.8,
-      "contract_governance": 28.8,
-      "operational_transparency": 13.2,
-      "developer_ergonomics": 28.6,
-      "commercial_clarity": 47.4,
-      "access_clarity": 47.4
-     },
-     "scored_at": "2026-09-01",
-     "schema_version": "0.18.0",
-     "agent_score": 25.5,
-     "agent_band": "agent-aware",
-     "agent_dims": {
-      "spec_presence": true,
-      "agentic_access": "derived",
-      "reversibility_documented": false,
-      "mcp_server": false,
-      "auth_clarity": "bearer",
-      "idempotency": false,
-      "error_semantics": "verified",
-      "openapi_examples": false,
-      "rate_limit_signal": "documented",
-      "event_surface_described": false,
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false,
-      "delegated_identity": false,
-      "protected_resource_metadata": false,
-      "dynamic_client_registration": false,
-      "agentic_commerce": false
-     },
      "tier": "1 venue",
-     "rank": 868
+     "rank": 867
     },
     {
      "name": "Upgrade",
@@ -42268,7 +42229,7 @@
       "agentic_commerce": false
      },
      "tier": "5 venues",
-     "rank": 869
+     "rank": 868
     },
     {
      "name": "Chartbeat",
@@ -42314,7 +42275,7 @@
       "agentic_commerce": false
      },
      "tier": "1 venue",
-     "rank": 870
+     "rank": 869
     },
     {
      "name": "Inception Labs",
@@ -42360,7 +42321,7 @@
       "agentic_commerce": false
      },
      "tier": "1 venue",
-     "rank": 871
+     "rank": 870
     },
     {
      "name": "Onfido",
@@ -42406,7 +42367,7 @@
       "agentic_commerce": false
      },
      "tier": "2 venues",
-     "rank": 872
+     "rank": 871
     },
     {
      "name": "Perk",
@@ -42452,7 +42413,7 @@
       "agentic_commerce": false
      },
      "tier": "1 venue",
-     "rank": 873
+     "rank": 872
     },
     {
      "name": "Reprise",
@@ -42498,7 +42459,7 @@
       "agentic_commerce": false
      },
      "tier": "3 venues",
-     "rank": 874
+     "rank": 873
     },
     {
      "name": "SMS Assist",
@@ -42544,7 +42505,7 @@
       "agentic_commerce": false
      },
      "tier": "2 venues",
-     "rank": 875
+     "rank": 874
     },
     {
      "name": "Ultrahuman",
@@ -42596,7 +42557,7 @@
       "agentic_commerce": false
      },
      "tier": "2 venues",
-     "rank": 876
+     "rank": 875
     },
     {
      "name": "Bluesky",
@@ -42642,7 +42603,7 @@
       "agentic_commerce": false
      },
      "tier": "2 venues",
-     "rank": 877
+     "rank": 876
     },
     {
      "name": "CodeRabbit",
@@ -42688,7 +42649,7 @@
       "agentic_commerce": false
      },
      "tier": "3 venues",
-     "rank": 878
+     "rank": 877
     },
     {
      "name": "Plivo",
@@ -42741,7 +42702,7 @@
       "agentic_commerce": false
      },
      "tier": "1 venue",
-     "rank": 879
+     "rank": 878
     },
     {
      "name": "StreamElements",
@@ -42787,7 +42748,7 @@
       "agentic_commerce": false
      },
      "tier": "1 venue",
-     "rank": 880
+     "rank": 879
     },
     {
      "name": "Bird",
@@ -42840,7 +42801,7 @@
       "agentic_commerce": false
      },
      "tier": "1 venue",
-     "rank": 881
+     "rank": 880
     },
     {
      "name": "Button",
@@ -42886,7 +42847,7 @@
       "agentic_commerce": false
      },
      "tier": "3 venues",
-     "rank": 882
+     "rank": 881
     },
     {
      "name": "Socket",
@@ -42932,7 +42893,7 @@
       "agentic_commerce": false
      },
      "tier": "2 venues",
-     "rank": 883
+     "rank": 882
     },
     {
      "name": "UtilityAPI",
@@ -42985,7 +42946,7 @@
       "agentic_commerce": false
      },
      "tier": "1 venue",
-     "rank": 884
+     "rank": 883
     },
     {
      "name": "WeTravel",
@@ -43038,7 +42999,7 @@
       "agentic_commerce": false
      },
      "tier": "2 venues",
-     "rank": 885
+     "rank": 884
     },
     {
      "name": "Archera",
@@ -43084,7 +43045,7 @@
       "agentic_commerce": false
      },
      "tier": "3 venues",
-     "rank": 886
+     "rank": 885
     },
     {
      "name": "Klook",
@@ -43130,7 +43091,7 @@
       "agentic_commerce": false
      },
      "tier": "1 venue",
-     "rank": 887
+     "rank": 886
     },
     {
      "name": "Metadata",
@@ -43176,7 +43137,7 @@
       "agentic_commerce": false
      },
      "tier": "2 venues",
-     "rank": 888
+     "rank": 887
     },
     {
      "name": "Smile Identity",
@@ -43222,7 +43183,7 @@
       "agentic_commerce": false
      },
      "tier": "1 venue",
-     "rank": 889
+     "rank": 888
     },
     {
      "name": "Aqua Security",
@@ -43268,7 +43229,7 @@
       "agentic_commerce": false
      },
      "tier": "4 venues",
-     "rank": 890
+     "rank": 889
     },
     {
      "name": "Arcee AI",
@@ -43314,7 +43275,7 @@
       "agentic_commerce": false
      },
      "tier": "2 venues",
-     "rank": 891
+     "rank": 890
     },
     {
      "name": "Coder",
@@ -43360,6 +43321,52 @@
       "agentic_commerce": false
      },
      "tier": "3 venues",
+     "rank": 891
+    },
+    {
+     "name": "Contextual AI",
+     "slug": "contextual-ai",
+     "description": "Contextual AI is an enterprise RAG platform built around a Grounded Language Model (GLM) engineered to minimize hallucinations. Its REST API exposes end-to-end RAG agents (create, configure, query) plus standalone component APIs - Generate, Rerank, Parse, and LMUnit - over datastores of ingested documents, all authenticated with a Bearer API key.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/contextual-ai/refs/heads/main/screenshots/contextual-ai-2026-06-20T174932.png",
+     "score": 43.0,
+     "band": "developing",
+     "band_label": "Developing",
+     "facets": {
+      "discoverability": 68.5,
+      "contract_quality": 63.4,
+      "governance": 11.4,
+      "contract_governance": 11.4,
+      "operational_transparency": 34.2,
+      "developer_ergonomics": 35.7,
+      "commercial_clarity": 36.8,
+      "access_clarity": 36.8
+     },
+     "scored_at": "2026-09-01",
+     "schema_version": "0.18.0",
+     "agent_score": 20.9,
+     "agent_band": "agent-aware",
+     "agent_dims": {
+      "spec_presence": true,
+      "agentic_access": "derived",
+      "reversibility_documented": false,
+      "mcp_server": false,
+      "auth_clarity": "bearer",
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": "documented",
+      "event_surface_described": "derived",
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
+     "tier": "1 venue",
      "rank": 892
     },
     {
@@ -43405,54 +43412,8 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "tier": "1 venue",
-     "rank": 893
-    },
-    {
-     "name": "Contextual AI",
-     "slug": "contextual-ai",
-     "description": "Contextual AI is an enterprise RAG platform built around a Grounded Language Model (GLM) engineered to minimize hallucinations. Its REST API exposes end-to-end RAG agents (create, configure, query) plus standalone component APIs - Generate, Rerank, Parse, and LMUnit - over datastores of ingested documents, all authenticated with a Bearer API key.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/contextual-ai/refs/heads/main/screenshots/contextual-ai-2026-06-20T174932.png",
-     "score": 43.0,
-     "band": "developing",
-     "band_label": "Developing",
-     "facets": {
-      "discoverability": 68.5,
-      "contract_quality": 63.4,
-      "governance": 11.4,
-      "contract_governance": 11.4,
-      "operational_transparency": 34.2,
-      "developer_ergonomics": 35.7,
-      "commercial_clarity": 36.8,
-      "access_clarity": 36.8
-     },
-     "scored_at": "2026-09-01",
-     "schema_version": "0.18.0",
-     "agent_score": 20.9,
-     "agent_band": "agent-aware",
-     "agent_dims": {
-      "spec_presence": true,
-      "agentic_access": "derived",
-      "reversibility_documented": false,
-      "mcp_server": false,
-      "auth_clarity": "bearer",
-      "idempotency": false,
-      "error_semantics": false,
-      "openapi_examples": false,
-      "rate_limit_signal": "documented",
-      "event_surface_described": "derived",
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false,
-      "delegated_identity": false,
-      "protected_resource_metadata": false,
-      "dynamic_client_registration": false,
-      "agentic_commerce": false
-     },
      "tier": "2 venues",
-     "rank": 894
+     "rank": 893
     },
     {
      "name": "Devrev",
@@ -43498,7 +43459,7 @@
       "agentic_commerce": false
      },
      "tier": "4 venues",
-     "rank": 895
+     "rank": 894
     },
     {
      "name": "Dremio",
@@ -43544,7 +43505,7 @@
       "agentic_commerce": false
      },
      "tier": "3 venues",
-     "rank": 896
+     "rank": 895
     },
     {
      "name": "Hedera",
@@ -43590,7 +43551,7 @@
       "agentic_commerce": false
      },
      "tier": "1 venue",
-     "rank": 897
+     "rank": 896
     },
     {
      "name": "Nabla",
@@ -43643,7 +43604,7 @@
       "agentic_commerce": false
      },
      "tier": "3 venues",
-     "rank": 898
+     "rank": 897
     },
     {
      "name": "Tines",
@@ -43689,7 +43650,7 @@
       "agentic_commerce": false
      },
      "tier": "3 venues",
-     "rank": 899
+     "rank": 898
     },
     {
      "name": "Unravel Data Systems",
@@ -43735,7 +43696,7 @@
       "agentic_commerce": false
      },
      "tier": "2 venues",
-     "rank": 900
+     "rank": 899
     },
     {
      "name": "Unravel Data Systems",
@@ -43781,7 +43742,7 @@
       "agentic_commerce": false
      },
      "tier": "1 venue",
-     "rank": 901
+     "rank": 900
     },
     {
      "name": "Lalamove",
@@ -43827,7 +43788,7 @@
       "agentic_commerce": false
      },
      "tier": "1 venue",
-     "rank": 902
+     "rank": 901
     },
     {
      "name": "Polar",
@@ -43880,7 +43841,7 @@
       "agentic_commerce": false
      },
      "tier": "1 venue",
-     "rank": 903
+     "rank": 902
     },
     {
      "name": "Tropic",
@@ -43926,7 +43887,7 @@
       "agentic_commerce": false
      },
      "tier": "2 venues",
-     "rank": 904
+     "rank": 903
     },
     {
      "name": "Chargetrip",
@@ -43972,7 +43933,7 @@
       "agentic_commerce": false
      },
      "tier": "1 venue",
-     "rank": 905
+     "rank": 904
     },
     {
      "name": "Metrobi",
@@ -44018,7 +43979,7 @@
       "agentic_commerce": false
      },
      "tier": "1 venue",
-     "rank": 906
+     "rank": 905
     },
     {
      "name": "Noyo",
@@ -44071,7 +44032,7 @@
       "agentic_commerce": false
      },
      "tier": "2 venues",
-     "rank": 907
+     "rank": 906
     },
     {
      "name": "Spotnana",
@@ -44124,7 +44085,7 @@
       "agentic_commerce": false
      },
      "tier": "1 venue",
-     "rank": 908
+     "rank": 907
     },
     {
      "name": "Thriva",
@@ -44177,7 +44138,7 @@
       "agentic_commerce": false
      },
      "tier": "1 venue",
-     "rank": 909
+     "rank": 908
     },
     {
      "name": "Coro",
@@ -44223,7 +44184,7 @@
       "agentic_commerce": false
      },
      "tier": "4 venues",
-     "rank": 910
+     "rank": 909
     },
     {
      "name": "Mysten Labs",
@@ -44269,7 +44230,7 @@
       "agentic_commerce": false
      },
      "tier": "3 venues",
-     "rank": 911
+     "rank": 910
     },
     {
      "name": "Mysten Labs",
@@ -44315,7 +44276,7 @@
       "agentic_commerce": false
      },
      "tier": "1 venue",
-     "rank": 912
+     "rank": 911
     },
     {
      "name": "RapidAPI",
@@ -44361,7 +44322,7 @@
       "agentic_commerce": false
      },
      "tier": "2 venues",
-     "rank": 913
+     "rank": 912
     },
     {
      "name": "Recall Labs",
@@ -44414,7 +44375,7 @@
       "agentic_commerce": false
      },
      "tier": "2 venues",
-     "rank": 914
+     "rank": 913
     },
     {
      "name": "Wallarm",
@@ -44460,7 +44421,7 @@
       "agentic_commerce": false
      },
      "tier": "1 venue",
-     "rank": 915
+     "rank": 914
     },
     {
      "name": "Aleo",
@@ -44506,7 +44467,7 @@
       "agentic_commerce": false
      },
      "tier": "4 venues",
-     "rank": 916
+     "rank": 915
     },
     {
      "name": "Arctic Wolf",
@@ -44552,7 +44513,7 @@
       "agentic_commerce": false
      },
      "tier": "3 venues",
-     "rank": 917
+     "rank": 916
     },
     {
      "name": "CoinSwitch",
@@ -44605,7 +44566,7 @@
       "agentic_commerce": false
      },
      "tier": "2 venues",
-     "rank": 918
+     "rank": 917
     },
     {
      "name": "Consensys",
@@ -44658,7 +44619,7 @@
       "agentic_commerce": false
      },
      "tier": "4 venues",
-     "rank": 919
+     "rank": 918
     },
     {
      "name": "DriveWealth",
@@ -44711,7 +44672,7 @@
       "agentic_commerce": false
      },
      "tier": "5 venues",
-     "rank": 920
+     "rank": 919
     },
     {
      "name": "Ordoro",
@@ -44757,7 +44718,7 @@
       "agentic_commerce": false
      },
      "tier": "1 venue",
-     "rank": 921
+     "rank": 920
     },
     {
      "name": "Sisense",
@@ -44803,7 +44764,7 @@
       "agentic_commerce": false
      },
      "tier": "5 venues",
-     "rank": 922
+     "rank": 921
     },
     {
      "name": "Tesseract",
@@ -44849,7 +44810,7 @@
       "agentic_commerce": false
      },
      "tier": "1 venue",
-     "rank": 923
+     "rank": 922
     },
     {
      "name": "Kredivo",
@@ -44902,7 +44863,7 @@
       "agentic_commerce": false
      },
      "tier": "2 venues",
-     "rank": 924
+     "rank": 923
     },
     {
      "name": "Laurel",
@@ -44948,7 +44909,7 @@
       "agentic_commerce": false
      },
      "tier": "3 venues",
-     "rank": 925
+     "rank": 924
     },
     {
      "name": "Mapbox",
@@ -44994,7 +44955,7 @@
       "agentic_commerce": false
      },
      "tier": "5 venues",
-     "rank": 926
+     "rank": 925
     },
     {
      "name": "ModernFi",
@@ -45047,7 +45008,7 @@
       "agentic_commerce": false
      },
      "tier": "1 venue",
-     "rank": 927
+     "rank": 926
     },
     {
      "name": "Ask Sage",
@@ -45100,7 +45061,7 @@
       "agentic_commerce": false
      },
      "tier": "1 venue",
-     "rank": 928
+     "rank": 927
     },
     {
      "name": "At-Bay",
@@ -45153,7 +45114,7 @@
       "agentic_commerce": false
      },
      "tier": "5 venues",
-     "rank": 929
+     "rank": 928
     },
     {
      "name": "Fenbeitong",
@@ -45206,7 +45167,7 @@
       "agentic_commerce": false
      },
      "tier": "1 venue",
-     "rank": 930
+     "rank": 929
     },
     {
      "name": "Fountain",
@@ -45252,7 +45213,7 @@
       "agentic_commerce": false
      },
      "tier": "4 venues",
-     "rank": 931
+     "rank": 930
     },
     {
      "name": "Injective",
@@ -45305,7 +45266,7 @@
       "agentic_commerce": false
      },
      "tier": "1 venue",
-     "rank": 932
+     "rank": 931
     },
     {
      "name": "Prophecy.io",
@@ -45351,7 +45312,7 @@
       "agentic_commerce": false
      },
      "tier": "2 venues",
-     "rank": 933
+     "rank": 932
     },
     {
      "name": "Pulumi",
@@ -45404,7 +45365,7 @@
       "agentic_commerce": false
      },
      "tier": "2 venues",
-     "rank": 934
+     "rank": 933
     },
     {
      "name": "Sage",
@@ -45450,7 +45411,7 @@
       "agentic_commerce": false
      },
      "tier": "3 venues",
-     "rank": 935
+     "rank": 934
     },
     {
      "name": "Shapeshift",
@@ -45503,7 +45464,7 @@
       "agentic_commerce": false
      },
      "tier": "1 venue",
-     "rank": 936
+     "rank": 935
     },
     {
      "name": "The Org",
@@ -45549,7 +45510,7 @@
       "agentic_commerce": false
      },
      "tier": "2 venues",
-     "rank": 937
+     "rank": 936
     },
     {
      "name": "Tollbit",
@@ -45595,7 +45556,7 @@
       "agentic_commerce": false
      },
      "tier": "2 venues",
-     "rank": 938
+     "rank": 937
     },
     {
      "name": "DualEntry",
@@ -45641,7 +45602,7 @@
       "agentic_commerce": false
      },
      "tier": "2 venues",
-     "rank": 939
+     "rank": 938
     },
     {
      "name": "Monzo",
@@ -45694,7 +45655,7 @@
       "agentic_commerce": false
      },
      "tier": "3 venues",
-     "rank": 940
+     "rank": 939
     },
     {
      "name": "Promptfoo",
@@ -45740,7 +45701,7 @@
       "agentic_commerce": false
      },
      "tier": "1 venue",
-     "rank": 941
+     "rank": 940
     },
     {
      "name": "Revefi",
@@ -45786,7 +45747,7 @@
       "agentic_commerce": false
      },
      "tier": "1 venue",
-     "rank": 942
+     "rank": 941
     },
     {
      "name": "SeatGeek",
@@ -45832,7 +45793,7 @@
       "agentic_commerce": false
      },
      "tier": "5 venues",
-     "rank": 943
+     "rank": 942
     },
     {
      "name": "TimescaleDB / Tiger Data",
@@ -45878,7 +45839,7 @@
       "agentic_commerce": false
      },
      "tier": "1 venue",
-     "rank": 944
+     "rank": 943
     },
     {
      "name": "Aalto University",
@@ -45931,7 +45892,7 @@
       "agentic_commerce": false
      },
      "tier": "1 venue",
-     "rank": 945
+     "rank": 944
     },
     {
      "name": "Casap",
@@ -45984,7 +45945,7 @@
       "agentic_commerce": false
      },
      "tier": "1 venue",
-     "rank": 946
+     "rank": 945
     },
     {
      "name": "Cognition Labs",
@@ -46030,7 +45991,7 @@
       "agentic_commerce": false
      },
      "tier": "3 venues",
-     "rank": 947
+     "rank": 946
     },
     {
      "name": "commercetools",
@@ -46076,7 +46037,7 @@
       "agentic_commerce": false
      },
      "tier": "3 venues",
-     "rank": 948
+     "rank": 947
     },
     {
      "name": "Coram Ai",
@@ -46122,7 +46083,7 @@
       "agentic_commerce": false
      },
      "tier": "1 venue",
-     "rank": 949
+     "rank": 948
     },
     {
      "name": "Extend",
@@ -46175,7 +46136,7 @@
       "agentic_commerce": false
      },
      "tier": "4 venues",
-     "rank": 950
+     "rank": 949
     },
     {
      "name": "Resistant AI",
@@ -46221,7 +46182,7 @@
       "agentic_commerce": false
      },
      "tier": "1 venue",
-     "rank": 951
+     "rank": 950
     },
     {
      "name": "Anchore",
@@ -46267,7 +46228,7 @@
       "agentic_commerce": false
      },
      "tier": "1 venue",
-     "rank": 952
+     "rank": 951
     },
     {
      "name": "DeepSeek",
@@ -46313,7 +46274,7 @@
       "agentic_commerce": false
      },
      "tier": "4 venues",
-     "rank": 953
+     "rank": 952
     },
     {
      "name": "Secure Code Warrior",
@@ -46366,7 +46327,7 @@
       "agentic_commerce": false
      },
      "tier": "2 venues",
-     "rank": 954
+     "rank": 953
     },
     {
      "name": "ShipBob",
@@ -46412,7 +46373,7 @@
       "agentic_commerce": false
      },
      "tier": "5 venues",
-     "rank": 955
+     "rank": 954
     },
     {
      "name": "Supabase",
@@ -46458,7 +46419,7 @@
       "agentic_commerce": false
      },
      "tier": "5 venues",
-     "rank": 956
+     "rank": 955
     },
     {
      "name": "When I Work",
@@ -46504,7 +46465,7 @@
       "agentic_commerce": false
      },
      "tier": "2 venues",
-     "rank": 957
+     "rank": 956
     },
     {
      "name": "Collectly",
@@ -46564,7 +46525,7 @@
       "agentic_commerce": false
      },
      "tier": "1 venue",
-     "rank": 958
+     "rank": 957
     },
     {
      "name": "DataStax",
@@ -46610,7 +46571,7 @@
       "agentic_commerce": false
      },
      "tier": "2 venues",
-     "rank": 959
+     "rank": 958
     },
     {
      "name": "Daytona",
@@ -46656,7 +46617,7 @@
       "agentic_commerce": false
      },
      "tier": "1 venue",
-     "rank": 960
+     "rank": 959
     },
     {
      "name": "Duda",
@@ -46702,7 +46663,7 @@
       "agentic_commerce": false
      },
      "tier": "1 venue",
-     "rank": 961
+     "rank": 960
     },
     {
      "name": "Tradeverifyd",
@@ -46748,7 +46709,7 @@
       "agentic_commerce": false
      },
      "tier": "1 venue",
-     "rank": 962
+     "rank": 961
     },
     {
      "name": "TwelveLabs",
@@ -46794,7 +46755,7 @@
       "agentic_commerce": false
      },
      "tier": "1 venue",
-     "rank": 963
+     "rank": 962
     },
     {
      "name": "Bombora",
@@ -46840,7 +46801,7 @@
       "agentic_commerce": false
      },
      "tier": "1 venue",
-     "rank": 964
+     "rank": 963
     },
     {
      "name": "Datafold",
@@ -46886,7 +46847,7 @@
       "agentic_commerce": false
      },
      "tier": "2 venues",
-     "rank": 965
+     "rank": 964
     },
     {
      "name": "M0",
@@ -46939,7 +46900,7 @@
       "agentic_commerce": false
      },
      "tier": "1 venue",
-     "rank": 966
+     "rank": 965
     },
     {
      "name": "Moises",
@@ -46985,7 +46946,7 @@
       "agentic_commerce": false
      },
      "tier": "1 venue",
-     "rank": 967
+     "rank": 966
     },
     {
      "name": "Nuvemshop Tiendanube",
@@ -47038,7 +46999,7 @@
       "agentic_commerce": false
      },
      "tier": "1 venue",
-     "rank": 968
+     "rank": 967
     },
     {
      "name": "Orbit",
@@ -47084,7 +47045,7 @@
       "agentic_commerce": false
      },
      "tier": "1 venue",
-     "rank": 969
+     "rank": 968
     },
     {
      "name": "Pintu",
@@ -47137,7 +47098,7 @@
       "agentic_commerce": false
      },
      "tier": "2 venues",
-     "rank": 970
+     "rank": 969
     },
     {
      "name": "Roadsync",
@@ -47189,7 +47150,7 @@
       "agentic_commerce": false
      },
      "tier": "2 venues",
-     "rank": 971
+     "rank": 970
     },
     {
      "name": "Schematic",
@@ -47235,7 +47196,7 @@
       "agentic_commerce": false
      },
      "tier": "1 venue",
-     "rank": 972
+     "rank": 971
     },
     {
      "name": "Submittable",
@@ -47280,7 +47241,7 @@
       "agentic_commerce": false
      },
      "tier": "2 venues",
-     "rank": 973
+     "rank": 972
     },
     {
      "name": "Zenoti",
@@ -47333,7 +47294,7 @@
       "agentic_commerce": false
      },
      "tier": "5 venues",
-     "rank": 974
+     "rank": 973
     },
     {
      "name": "CRI-O",
@@ -47379,7 +47340,7 @@
       "agentic_commerce": false
      },
      "tier": "1 venue",
-     "rank": 975
+     "rank": 974
     },
     {
      "name": "Expanso",
@@ -47425,7 +47386,7 @@
       "agentic_commerce": false
      },
      "tier": "1 venue",
-     "rank": 976
+     "rank": 975
     },
     {
      "name": "Fidel",
@@ -47478,7 +47439,7 @@
       "agentic_commerce": false
      },
      "tier": "1 venue",
-     "rank": 977
+     "rank": 976
     },
     {
      "name": "Finch",
@@ -47524,7 +47485,7 @@
       "agentic_commerce": false
      },
      "tier": "1 venue",
-     "rank": 978
+     "rank": 977
     },
     {
      "name": "Greenspark",
@@ -47570,7 +47531,7 @@
       "agentic_commerce": false
      },
      "tier": "1 venue",
-     "rank": 979
+     "rank": 978
     },
     {
      "name": "Macrometa",
@@ -47616,7 +47577,7 @@
       "agentic_commerce": false
      },
      "tier": "1 venue",
-     "rank": 980
+     "rank": 979
     },
     {
      "name": "Nscale",
@@ -47662,7 +47623,7 @@
       "agentic_commerce": false
      },
      "tier": "3 venues",
-     "rank": 981
+     "rank": 980
     },
     {
      "name": "QA Wolf",
@@ -47708,7 +47669,7 @@
       "agentic_commerce": false
      },
      "tier": "3 venues",
-     "rank": 982
+     "rank": 981
     },
     {
      "name": "Skydio",
@@ -47754,7 +47715,7 @@
       "agentic_commerce": false
      },
      "tier": "4 venues",
-     "rank": 983
+     "rank": 982
     },
     {
      "name": "Varo Bank",
@@ -47807,7 +47768,7 @@
       "agentic_commerce": false
      },
      "tier": "3 venues",
-     "rank": 984
+     "rank": 983
     },
     {
      "name": "Akeyless",
@@ -47853,7 +47814,7 @@
       "agentic_commerce": false
      },
      "tier": "2 venues",
-     "rank": 985
+     "rank": 984
     },
     {
      "name": "August Health",
@@ -47913,7 +47874,7 @@
       "agentic_commerce": false
      },
      "tier": "2 venues",
-     "rank": 986
+     "rank": 985
     },
     {
      "name": "Avoca",
@@ -47959,7 +47920,7 @@
       "agentic_commerce": false
      },
      "tier": "2 venues",
-     "rank": 987
+     "rank": 986
     },
     {
      "name": "Capchase",
@@ -48019,7 +47980,7 @@
       "agentic_commerce": false
      },
      "tier": "2 venues",
-     "rank": 988
+     "rank": 987
     },
     {
      "name": "Dynamic",
@@ -48072,7 +48033,7 @@
       "agentic_commerce": false
      },
      "tier": "1 venue",
-     "rank": 989
+     "rank": 988
     },
     {
      "name": "Valon",
@@ -48124,7 +48085,7 @@
       "agentic_commerce": false
      },
      "tier": "1 venue",
-     "rank": 990
+     "rank": 989
     },
     {
      "name": "Alice",
@@ -48170,7 +48131,7 @@
       "agentic_commerce": false
      },
      "tier": "2 venues",
-     "rank": 991
+     "rank": 990
     },
     {
      "name": "Cashfree Payments",
@@ -48223,7 +48184,7 @@
       "agentic_commerce": false
      },
      "tier": "2 venues",
-     "rank": 992
+     "rank": 991
     },
     {
      "name": "Credit Benchmark",
@@ -48269,7 +48230,7 @@
       "agentic_commerce": false
      },
      "tier": "1 venue",
-     "rank": 993
+     "rank": 992
     },
     {
      "name": "Flatfile",
@@ -48315,7 +48276,7 @@
       "agentic_commerce": false
      },
      "tier": "4 venues",
-     "rank": 994
+     "rank": 993
     },
     {
      "name": "Pixee",
@@ -48361,7 +48322,7 @@
       "agentic_commerce": false
      },
      "tier": "1 venue",
-     "rank": 995
+     "rank": 994
     },
     {
      "name": "Placer",
@@ -48407,7 +48368,7 @@
       "agentic_commerce": false
      },
      "tier": "5 venues",
-     "rank": 996
+     "rank": 995
     },
     {
      "name": "Nova Credit",
@@ -48460,7 +48421,7 @@
       "agentic_commerce": false
      },
      "tier": "4 venues",
-     "rank": 997
+     "rank": 996
     },
     {
      "name": "Sinai Technologies",
@@ -48506,7 +48467,7 @@
       "agentic_commerce": false
      },
      "tier": "2 venues",
-     "rank": 998
+     "rank": 997
     },
     {
      "name": "Tetrate",
@@ -48552,7 +48513,7 @@
       "agentic_commerce": false
      },
      "tier": "1 venue",
-     "rank": 999
+     "rank": 998
     },
     {
      "name": "VTS",
@@ -48598,6 +48559,52 @@
       "agentic_commerce": false
      },
      "tier": "4 venues",
+     "rank": 999
+    },
+    {
+     "name": "CoroNet",
+     "slug": "coronet",
+     "description": "Coro (CoroNet) is a cybersecurity company delivering a unified, AI-native security platform for lean IT teams, growing organizations, and managed service providers (MSPs). A single platform and dashboard consolidate endpoint protection, email protection, network protection (ZTNA/VPN), cloud app security, data governance, and security awareness training. The Coro Public API lets service providers and developers build applications that integrate with the platform: it is organized around workspaces (regular, channel, and child tenants) and exposes endpoints for managing workspaces, subscriptions, portal users, protected users and devices, device licensing, tickets, audit logs, and usage. Authentication uses OAuth2 client-credential pairs exchanged for a 24-hour bearer token, and Coro publishes a webhook surface with HMAC-signed events for billing and workspace automation.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/coronet/refs/heads/main/screenshots/coronet-2026-07-25T210438.png",
+     "score": 41.4,
+     "band": "developing",
+     "band_label": "Developing",
+     "facets": {
+      "discoverability": 75.9,
+      "contract_quality": 41.7,
+      "governance": 4.5,
+      "contract_governance": 4.5,
+      "operational_transparency": 39.5,
+      "developer_ergonomics": 57.1,
+      "commercial_clarity": 31.6,
+      "access_clarity": 31.6
+     },
+     "scored_at": "2026-09-01",
+     "schema_version": "0.18.0",
+     "agent_score": 16.5,
+     "agent_band": "agent-aware",
+     "agent_dims": {
+      "spec_presence": true,
+      "agentic_access": false,
+      "reversibility_documented": false,
+      "mcp_server": false,
+      "auth_clarity": "bearer",
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": false,
+      "event_surface_described": "derived",
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
+     "tier": "1 venue",
      "rank": 1000
     }
    ]
@@ -48607,7 +48614,7 @@
    "label": "Thin",
    "range": "26.2 – 39.2",
    "blurb": "Limited machine-readable signal beyond documentation a human can read.",
-   "count": 848,
+   "count": 847,
    "shown": 0,
    "providers": []
   },

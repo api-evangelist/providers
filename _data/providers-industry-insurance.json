@@ -1,6 +1,6 @@
 {
- "total": 685,
- "shown": 685,
+ "total": 680,
+ "shown": 680,
  "limit": 1000,
  "bands": [
   {
@@ -21094,8 +21094,8 @@
    "label": "Minimal",
    "range": "0 – 10.9",
    "blurb": "Index entry only; little beyond a description and a link.",
-   "count": 281,
-   "shown": 281,
+   "count": 280,
+   "shown": 280,
    "providers": [
     {
      "name": "Clark",
@@ -26845,51 +26845,6 @@
      "rank": 511
     },
     {
-     "name": "UnitedHealth Group",
-     "slug": "unitedhealth-group",
-     "description": "The largest healthcare company in the world by revenue, operating UnitedHealthcare insurance and Optum health services. Serves over 150 million people through its health benefits and technology-driven care solutions.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/unitedhealth-group/refs/heads/main/screenshots/unitedhealth-group-2026-06-20T200102.png",
-     "score": 7.5,
-     "band": "minimal",
-     "band_label": "Minimal",
-     "facets": {
-      "discoverability": 44.4,
-      "contract_quality": 0.0,
-      "governance": 0.0,
-      "operational_transparency": 5.3,
-      "developer_ergonomics": 2.2,
-      "commercial_clarity": 0.0
-     },
-     "scored_at": "2026-08-12",
-     "schema_version": "0.11.0",
-     "regulatory": {
-      "applies": true,
-      "regime": "Insurance",
-      "regime_id": "insurance",
-      "score": 18.2,
-      "matched_via": "tags"
-     },
-     "agent_score": 0.0,
-     "agent_band": "human-only",
-     "agent_dims": {
-      "spec_presence": false,
-      "agentic_access": false,
-      "mcp_server": false,
-      "auth_clarity": false,
-      "idempotency": false,
-      "error_semantics": false,
-      "openapi_examples": false,
-      "rate_limit_signal": false,
-      "event_surface_described": false,
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false
-     },
-     "rank": 512
-    },
-    {
      "name": "AXA",
      "slug": "axa",
      "description": "AXA is a French multinational insurance firm and one of the world's largest providers of life, health, property & casualty, and asset management services. AXA does not publish a single global developer portal; technology integration is delivered through country-specific broker and partner portals, AXA Partners B2B2C distribution channels, AXA XL specialty insurance APIs for commercial brokers, and ACORD / EDI standards used across the insurance industry.",
@@ -26939,7 +26894,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 513
+     "rank": 512
     },
     {
      "name": "Zurich Insurance",
@@ -26991,7 +26946,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 514
+     "rank": 513
     },
     {
      "name": "Corvus (Travelers)",
@@ -27043,7 +26998,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 515
+     "rank": 514
     },
     {
      "name": "Corvus Insurance",
@@ -27095,7 +27050,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 516
+     "rank": 515
     },
     {
      "name": "INZMO",
@@ -27147,7 +27102,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 517
+     "rank": 516
     },
     {
      "name": "Klaimee",
@@ -27199,7 +27154,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 518
+     "rank": 517
     },
     {
      "name": "Kaiser Permanente",
@@ -27251,7 +27206,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 519
+     "rank": 518
     },
     {
      "name": "Dayforward",
@@ -27303,7 +27258,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 520
+     "rank": 519
     },
     {
      "name": "eHealth",
@@ -27354,7 +27309,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 521
+     "rank": 520
     },
     {
      "name": "Betterfly",
@@ -27406,7 +27361,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 522
+     "rank": 521
     },
     {
      "name": "Breathe Life",
@@ -27458,7 +27413,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 523
+     "rank": 522
     },
     {
      "name": "Inhabit",
@@ -27510,7 +27465,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 524
+     "rank": 523
     },
     {
      "name": "Photocert",
@@ -27561,7 +27516,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 525
+     "rank": 524
     },
     {
      "name": "Check24",
@@ -27613,7 +27568,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 526
+     "rank": 525
     },
     {
      "name": "Aon",
@@ -27665,7 +27620,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 527
+     "rank": 526
     },
     {
      "name": "UPMC",
@@ -27717,7 +27672,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 528
+     "rank": 527
     },
     {
      "name": "Amparo",
@@ -27769,7 +27724,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 529
+     "rank": 528
     },
     {
      "name": "Chestnut",
@@ -27821,7 +27776,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 530
+     "rank": 529
     },
     {
      "name": "CNO Financial Group",
@@ -27873,7 +27828,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 531
+     "rank": 530
     },
     {
      "name": "Insurdata",
@@ -27925,7 +27880,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 532
+     "rank": 531
     },
     {
      "name": "Kayum",
@@ -27977,7 +27932,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 533
+     "rank": 532
     },
     {
      "name": "One Assist",
@@ -28029,7 +27984,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 534
+     "rank": 533
     },
     {
      "name": "Panta",
@@ -28081,7 +28036,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 535
+     "rank": 534
     },
     {
      "name": "Solace Health",
@@ -28132,7 +28087,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 536
+     "rank": 535
     },
     {
      "name": "Western & Southern Financial Group",
@@ -28184,7 +28139,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 537
+     "rank": 536
     },
     {
      "name": "Policybazaar",
@@ -28235,7 +28190,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 538
+     "rank": 537
     },
     {
      "name": "Anywhere 2 Go",
@@ -28287,7 +28242,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 539
+     "rank": 538
     },
     {
      "name": "Cyberwrite",
@@ -28339,7 +28294,7 @@
       "dynamic_client_registration": true,
       "agentic_commerce": false
      },
-     "rank": 540
+     "rank": 539
     },
     {
      "name": "Cyberwrite",
@@ -28391,7 +28346,7 @@
       "dynamic_client_registration": true,
       "agentic_commerce": false
      },
-     "rank": 541
+     "rank": 540
     },
     {
      "name": "EvolutionIQ",
@@ -28443,7 +28398,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 542
+     "rank": 541
     },
     {
      "name": "Kinro",
@@ -28495,7 +28450,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 543
+     "rank": 542
     },
     {
      "name": "Alan",
@@ -28547,7 +28502,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 544
+     "rank": 543
     },
     {
      "name": "Climavision",
@@ -28599,7 +28554,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 545
+     "rank": 544
     },
     {
      "name": "Vymo",
@@ -28650,7 +28605,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 546
+     "rank": 545
     },
     {
      "name": "Balance Re",
@@ -28702,7 +28657,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 547
+     "rank": 546
     },
     {
      "name": "Karpatia Benefits",
@@ -28754,7 +28709,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 548
+     "rank": 547
     },
     {
      "name": "Ramre",
@@ -28805,7 +28760,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 549
+     "rank": 548
     },
     {
      "name": "Soma",
@@ -28856,7 +28811,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 550
+     "rank": 549
     },
     {
      "name": "wefox",
@@ -28908,7 +28863,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 551
+     "rank": 550
     },
     {
      "name": "Porch",
@@ -28959,7 +28914,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 552
+     "rank": 551
     },
     {
      "name": "Suncorp Group",
@@ -29010,7 +28965,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 553
+     "rank": 552
     },
     {
      "name": "Hosta a.i.",
@@ -29062,7 +29017,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 554
+     "rank": 553
     },
     {
      "name": "Leap To Win Technologies Private",
@@ -29114,7 +29069,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 555
+     "rank": 554
     },
     {
      "name": "Zudo",
@@ -29165,7 +29120,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 556
+     "rank": 555
     },
     {
      "name": "Universal American",
@@ -29216,7 +29171,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 557
+     "rank": 556
     },
     {
      "name": "Cincinnati Financial",
@@ -29268,7 +29223,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 558
+     "rank": 557
     },
     {
      "name": "American Equity Investment Life Holding",
@@ -29320,7 +29275,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 559
+     "rank": 558
     },
     {
      "name": "Duane Morris",
@@ -29372,7 +29327,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 560
+     "rank": 559
     },
     {
      "name": "MisMar",
@@ -29423,7 +29378,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 561
+     "rank": 560
     },
     {
      "name": "Penn Mutual",
@@ -29475,7 +29430,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 562
+     "rank": 561
     },
     {
      "name": "American Family Insurance",
@@ -29527,7 +29482,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 563
+     "rank": 562
     },
     {
      "name": "Assurely",
@@ -29578,7 +29533,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 564
+     "rank": 563
     },
     {
      "name": "Ensurance",
@@ -29630,7 +29585,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 565
+     "rank": 564
     },
     {
      "name": "ZhongAn Insurance",
@@ -29681,7 +29636,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 566
+     "rank": 565
     },
     {
      "name": "OpenEyes Insurance",
@@ -29733,7 +29688,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 567
+     "rank": 566
     },
     {
      "name": "Securian Financial Group",
@@ -29777,7 +29732,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 568
+     "rank": 567
     },
     {
      "name": "Bringy, Inc.",
@@ -29829,7 +29784,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 569
+     "rank": 568
     },
     {
      "name": "Shepherd",
@@ -29880,7 +29835,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 570
+     "rank": 569
     },
     {
      "name": "Shepherd 3",
@@ -29931,7 +29886,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 571
+     "rank": 570
     },
     {
      "name": "Grace",
@@ -29983,7 +29938,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 572
+     "rank": 571
     },
     {
      "name": "InRisk",
@@ -30035,7 +29990,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 573
+     "rank": 572
     },
     {
      "name": "Slice Labs",
@@ -30087,7 +30042,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 574
+     "rank": 573
     },
     {
      "name": "Healthy Labs",
@@ -30139,7 +30094,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 575
+     "rank": 574
     },
     {
      "name": "ComparaOnline",
@@ -30191,7 +30146,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 576
+     "rank": 575
     },
     {
      "name": "NLV Financial",
@@ -30241,7 +30196,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 577
+     "rank": 576
     },
     {
      "name": "Potion Labs",
@@ -30292,7 +30247,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 578
+     "rank": 577
     },
     {
      "name": "Alleghany Corporation",
@@ -30344,7 +30299,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 579
+     "rank": 578
     },
     {
      "name": "Leaky",
@@ -30396,7 +30351,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 580
+     "rank": 579
     },
     {
      "name": "Equitable Holdings",
@@ -30446,7 +30401,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 581
+     "rank": 580
     },
     {
      "name": "Federated Mutual Insurance",
@@ -30496,7 +30451,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 582
+     "rank": 581
     },
     {
      "name": "Principal Financial Group",
@@ -30541,7 +30496,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 583
+     "rank": 582
     },
     {
      "name": "AssetVault",
@@ -30593,7 +30548,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 584
+     "rank": 583
     },
     {
      "name": "igloo",
@@ -30645,7 +30600,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 585
+     "rank": 584
     },
     {
      "name": "Jenesis Software",
@@ -30697,7 +30652,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 586
+     "rank": 585
     },
     {
      "name": "Kemper",
@@ -30749,7 +30704,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 587
+     "rank": 586
     },
     {
      "name": "Mount",
@@ -30801,7 +30756,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 588
+     "rank": 587
     },
     {
      "name": "Nationwide",
@@ -30853,7 +30808,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 589
+     "rank": 588
     },
     {
      "name": "Old Republic International",
@@ -30905,7 +30860,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 590
+     "rank": 589
     },
     {
      "name": "Radian Group",
@@ -30957,7 +30912,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 591
+     "rank": 590
     },
     {
      "name": "Tractable",
@@ -31009,7 +30964,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 592
+     "rank": 591
     },
     {
      "name": "Tri Pointe Homes",
@@ -31061,7 +31016,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 593
+     "rank": 592
     },
     {
      "name": "HCC Insurance Holdings",
@@ -31113,7 +31068,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 594
+     "rank": 593
     },
     {
      "name": "Penn Mutual Life Insurance",
@@ -31165,7 +31120,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 595
+     "rank": 594
     },
     {
      "name": "Brighthouse Financial",
@@ -31215,7 +31170,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 596
+     "rank": 595
     },
     {
      "name": "Brown AND Brown",
@@ -31265,7 +31220,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 597
+     "rank": 596
     },
     {
      "name": "Eigen",
@@ -31317,7 +31272,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 598
+     "rank": 597
     },
     {
      "name": "Flock",
@@ -31369,7 +31324,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 599
+     "rank": 598
     },
     {
      "name": "FM (FM Global)",
@@ -31421,7 +31376,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 600
+     "rank": 599
     },
     {
      "name": "Hartford Financial Services Group",
@@ -31473,7 +31428,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 601
+     "rank": 600
     },
     {
      "name": "Hartford Insurance",
@@ -31525,7 +31480,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 602
+     "rank": 601
     },
     {
      "name": "Jackson Financial",
@@ -31575,7 +31530,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 603
+     "rank": 602
     },
     {
      "name": "Manulife",
@@ -31627,7 +31582,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 604
+     "rank": 603
     },
     {
      "name": "Marsh & McLennan",
@@ -31678,7 +31633,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 605
+     "rank": 604
     },
     {
      "name": "MassMutual",
@@ -31730,7 +31685,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 606
+     "rank": 605
     },
     {
      "name": "PolicyPal",
@@ -31781,7 +31736,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 607
+     "rank": 606
     },
     {
      "name": "Desaisiv Inc.",
@@ -31833,7 +31788,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 608
+     "rank": 607
     },
     {
      "name": "MetLife",
@@ -31885,7 +31840,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 609
+     "rank": 608
     },
     {
      "name": "American Financial Group",
@@ -31936,7 +31891,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 610
+     "rank": 609
     },
     {
      "name": "American International Group (AIG)",
@@ -31988,7 +31943,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 611
+     "rank": 610
     },
     {
      "name": "American National Insurance",
@@ -32039,7 +31994,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 612
+     "rank": 611
     },
     {
      "name": "Amodo",
@@ -32091,7 +32046,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 613
+     "rank": 612
     },
     {
      "name": "Bright Health",
@@ -32143,7 +32098,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 614
+     "rank": 613
     },
     {
      "name": "Carro",
@@ -32194,7 +32149,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 615
+     "rank": 614
     },
     {
      "name": "CUNA Mutual Group (TruStage)",
@@ -32246,7 +32201,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 616
+     "rank": 615
     },
     {
      "name": "Fidelity National Financial",
@@ -32298,7 +32253,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 617
+     "rank": 616
     },
     {
      "name": "getdinghy",
@@ -32349,7 +32304,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 618
+     "rank": 617
     },
     {
      "name": "Gigmile",
@@ -32401,7 +32356,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 619
+     "rank": 618
     },
     {
      "name": "Globe Life (Torchmark)",
@@ -32453,7 +32408,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 620
+     "rank": 619
     },
     {
      "name": "Harris Computer",
@@ -32505,7 +32460,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 621
+     "rank": 620
     },
     {
      "name": "Healf",
@@ -32557,7 +32512,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 622
+     "rank": 621
     },
     {
      "name": "Huscarl",
@@ -32609,7 +32564,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 623
+     "rank": 622
     },
     {
      "name": "Independence Health Group",
@@ -32660,7 +32615,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 624
+     "rank": 623
     },
     {
      "name": "Kettle",
@@ -32712,7 +32667,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 625
+     "rank": 624
     },
     {
      "name": "LeapStack",
@@ -32764,7 +32719,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 626
+     "rank": 625
     },
     {
      "name": "Liazon",
@@ -32815,7 +32770,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 627
+     "rank": 626
     },
     {
      "name": "Loews Corporation",
@@ -32867,7 +32822,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 628
+     "rank": 627
     },
     {
      "name": "Loews Corporation",
@@ -32919,7 +32874,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 629
+     "rank": 628
     },
     {
      "name": "Massachusetts Mutual Life Insurance",
@@ -32971,7 +32926,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 630
+     "rank": 629
     },
     {
      "name": "Melon Digital Insurance",
@@ -33023,7 +32978,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 631
+     "rank": 630
     },
     {
      "name": "National General Holdings",
@@ -33075,7 +33030,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 632
+     "rank": 631
     },
     {
      "name": "New York Life",
@@ -33127,7 +33082,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 633
+     "rank": 632
     },
     {
      "name": "New York Life Insurance",
@@ -33179,7 +33134,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 634
+     "rank": 633
     },
     {
      "name": "Ohio National (Acquired by Constellation Insurance / Rebranded as AuguStar)",
@@ -33231,7 +33186,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 635
+     "rank": 634
     },
     {
      "name": "Ornikar",
@@ -33283,7 +33238,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 636
+     "rank": 635
     },
     {
      "name": "Pacific Life",
@@ -33335,7 +33290,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 637
+     "rank": 636
     },
     {
      "name": "Poppins Health",
@@ -33386,7 +33341,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 638
+     "rank": 637
     },
     {
      "name": "Protective Life",
@@ -33438,7 +33393,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 639
+     "rank": 638
     },
     {
      "name": "Raincoat",
@@ -33489,7 +33444,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 640
+     "rank": 639
     },
     {
      "name": "Renegade Insurance",
@@ -33540,7 +33495,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 641
+     "rank": 640
     },
     {
      "name": "Rote",
@@ -33591,7 +33546,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 642
+     "rank": 641
     },
     {
      "name": "ScoreData",
@@ -33642,7 +33597,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 643
+     "rank": 642
     },
     {
      "name": "Stable",
@@ -33693,7 +33648,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 644
+     "rank": 643
     },
     {
      "name": "The Zebra",
@@ -33744,7 +33699,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 645
+     "rank": 644
     },
     {
      "name": "True Link",
@@ -33795,7 +33750,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 646
+     "rank": 645
     },
     {
      "name": "Wagmo",
@@ -33846,7 +33801,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 647
+     "rank": 646
     },
     {
      "name": "Wayco",
@@ -33897,7 +33852,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 648
+     "rank": 647
     },
     {
      "name": "Webfinanceholding",
@@ -33948,7 +33903,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 649
+     "rank": 648
     },
     {
      "name": "Willing",
@@ -33999,7 +33954,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 650
+     "rank": 649
     },
     {
      "name": "Yuanbao (元保)",
@@ -34050,7 +34005,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 651
+     "rank": 650
     },
     {
      "name": "GlobalCare Inc.",
@@ -34101,7 +34056,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 652
+     "rank": 651
     },
     {
      "name": "Centene Corporation",
@@ -34153,7 +34108,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 653
+     "rank": 652
     },
     {
      "name": "Mutual of Omaha",
@@ -34205,7 +34160,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 654
+     "rank": 653
     },
     {
      "name": "Ualá",
@@ -34257,7 +34212,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 655
+     "rank": 654
     },
     {
      "name": "Genworth Financial",
@@ -34309,7 +34264,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 656
+     "rank": 655
     },
     {
      "name": "Oscar Health",
@@ -34361,7 +34316,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 657
+     "rank": 656
     },
     {
      "name": "Erie Insurance",
@@ -34413,7 +34368,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 658
+     "rank": 657
     },
     {
      "name": "Farmers Insurance Exchange",
@@ -34465,7 +34420,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 659
+     "rank": 658
     },
     {
      "name": "Markel",
@@ -34517,7 +34472,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 660
+     "rank": 659
     },
     {
      "name": "Medical Mutual of Ohio",
@@ -34569,7 +34524,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 661
+     "rank": 660
     },
     {
      "name": "Prudential Backstop",
@@ -34620,7 +34575,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 662
+     "rank": 661
     },
     {
      "name": "The Cigna Group",
@@ -34672,7 +34627,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 663
+     "rank": 662
     },
     {
      "name": "CapMAC Holdings",
@@ -34724,7 +34679,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 664
+     "rank": 663
     },
     {
      "name": "Datainsurance",
@@ -34775,7 +34730,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 665
+     "rank": 664
     },
     {
      "name": "DWL",
@@ -34826,7 +34781,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 666
+     "rank": 665
     },
     {
      "name": "Health IQ",
@@ -34877,7 +34832,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 667
+     "rank": 666
     },
     {
      "name": "HNC",
@@ -34928,7 +34883,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 668
+     "rank": 667
     },
     {
      "name": "Huon Holdings",
@@ -34979,7 +34934,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 669
+     "rank": 668
     },
     {
      "name": "IDI Insurance",
@@ -35030,7 +34985,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 670
+     "rank": 669
     },
     {
      "name": "Kespry",
@@ -35081,7 +35036,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 671
+     "rank": 670
     },
     {
      "name": "Koffie Financial",
@@ -35132,7 +35087,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 672
+     "rank": 671
     },
     {
      "name": "Ott Risk",
@@ -35184,7 +35139,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 673
+     "rank": 672
     },
     {
      "name": "P2P, Inc.",
@@ -35236,7 +35191,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 674
+     "rank": 673
     },
     {
      "name": "Tremor",
@@ -35287,7 +35242,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 675
+     "rank": 674
     },
     {
      "name": "AgencyKPI",
@@ -35339,7 +35294,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 676
+     "rank": 675
     },
     {
      "name": "Fairmatic",
@@ -35390,7 +35345,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 677
+     "rank": 676
     },
     {
      "name": "Lula",
@@ -35441,7 +35396,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 678
+     "rank": 677
     },
     {
      "name": "Hanover Insurance Group",
@@ -35493,7 +35448,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 679
+     "rank": 678
     },
     {
      "name": "HRG Group",
@@ -35544,7 +35499,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 680
+     "rank": 679
     },
     {
      "name": "Mercury General",
@@ -35595,42 +35550,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 681
-    }
-   ]
-  },
-  {
-   "band": "unrated",
-   "label": "Not Yet Rated",
-   "range": "",
-   "blurb": "Providers we have not scored yet — unknown, not zero.",
-   "count": 4,
-   "shown": 4,
-   "providers": [
-    {
-     "name": "Anthemis Group",
-     "slug": "anthemis",
-     "description": "Anthemis Group is a London-based venture capital and asset management firm founded in 2010 by Amy Nauiokas (Group CEO) and Sean Park (Group CIO), both former capital-markets executives. Anthemis invests to \"architect the digital economy,\" concentrating on financial technology and its adjacencies: embedded finance, payments and banking infrastructure, insurtech, wealthtech, crypto and digital assets, climate and agtech finance, and applied AI for financial services. The firm invests primarily at pre-seed, seed, Series A and early Series B, writing checks generally in the ~$2M-$3M range, and pairs venture investing with an advisory and platform practice aimed at systematically transforming financial services. Anthemis is headquartered in London with additional presence in New York, Geneva, Amsterdam, Lisbon and Dallas, manages roughly $500M in assets, and has backed 300+ companies including Betterment, eToro, Carta, Pipe, TrueLayer, Tide, Currencycloud, Atom Bank and The Climate Corporation.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/anthemis/refs/heads/main/screenshots/anthemis-2026-07-25T200409.png",
-     "rank": 682
-    },
-    {
-     "name": "QED Investors",
-     "slug": "qed-investors",
-     "description": "QED Investors is a global venture capital firm founded in 2007 by Nigel Morris and Frank Rotman, both early leaders at Capital One, and headquartered in Alexandria, Virginia. QED invests exclusively in fintech and financial-services technology, backing what it calls \"pragmatic disruptors who are the future of finance\" across credit and lending, banking and neobanks, banking-as-a-service and embedded finance, payments, insurance/insurtech, wealth management, proptech, and real-estate technology. The firm invests from pre-seed and seed through Series A and growth stages, with early-stage initial checks generally in the $3M-$10M range (roughly $15M average once follow-on is included) and $15M-$20M average from its growth fund. QED operates globally with investment teams across the United States, Latin America, Europe, Asia/India, and Africa, and offices in Alexandria (VA), London, Singapore, Mexico, and Brazil. It reports roughly $4B in assets under management, more than 250 portfolio companies, and over 30 unicorns, with notable investments including Nubank, Credit Karma, SoFi, Klarna, Remitly, Flywire, Klarna, Kavak, Creditas, and Bitso.",
-     "rank": 683
-    },
-    {
-     "name": "Ribbit Capital",
-     "slug": "ribbit-capital",
-     "description": "Ribbit Capital is a venture capital firm founded in 2012 by Micky Malka and headquartered in Palo Alto, California, investing globally in founders who challenge the status quo across financial services and adjacent frontier categories. Long the most focused fintech investor in venture, Ribbit backs companies reshaping money movement, wealth management, identity, data, and global commerce, and has broadened its thesis into crypto and blockchain infrastructure, AI, and energy. The firm invests from early stage through growth, historically concentrating on Series A and B rounds while following its winners over time, and reported roughly US$12 billion in regulatory assets under management as of 2024. Ribbit's portfolio of 150+ companies spans nearly every continent and includes many of fintech's defining outcomes such as Robinhood, Coinbase, Nubank, Credit Karma, Affirm, Revolut, Brex, Mercado Libre, and Groww, alongside newer bets in crypto (Solana, Ethena, Lightspark), AI (Cognition, Etched, Decagon), and energy (Base Power, Crusoe). In 2021 Ribbit partnered with Walmart to launch the consumer fintech venture now known as OnePay.",
-     "rank": 684
-    },
-    {
-     "name": "Underwriting Standards",
-     "slug": "underwriting-standards",
-     "description": "A curated collection of data standards, APIs, and specifications used in insurance underwriting. This covers the landscape of industry-wide data interchange formats, protocol standards, and API ecosystems that enable carriers, MGAs, brokers, and InsurTech platforms to exchange underwriting data programmatically. Key standards include ACORD (Property & Casualty, Life, Reinsurance), LIMRA LDEx (employee benefits), and emerging OpenInsurance initiatives.",
-     "rank": 685
+     "rank": 680
     }
    ]
   }

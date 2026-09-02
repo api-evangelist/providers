@@ -1,6 +1,6 @@
 {
- "total": 422,
- "shown": 422,
+ "total": 421,
+ "shown": 421,
  "limit": 1000,
  "bands": [
   {
@@ -21419,23 +21419,6 @@
       "agentic_commerce": false
      },
      "rank": 421
-    }
-   ]
-  },
-  {
-   "band": "unrated",
-   "label": "Not Yet Rated",
-   "range": "",
-   "blurb": "Providers we have not scored yet — unknown, not zero.",
-   "count": 1,
-   "shown": 1,
-   "providers": [
-    {
-     "name": "Anthemis Group",
-     "slug": "anthemis",
-     "description": "Anthemis Group is a London-based venture capital and asset management firm founded in 2010 by Amy Nauiokas (Group CEO) and Sean Park (Group CIO), both former capital-markets executives. Anthemis invests to \"architect the digital economy,\" concentrating on financial technology and its adjacencies: embedded finance, payments and banking infrastructure, insurtech, wealthtech, crypto and digital assets, climate and agtech finance, and applied AI for financial services. The firm invests primarily at pre-seed, seed, Series A and early Series B, writing checks generally in the ~$2M-$3M range, and pairs venture investing with an advisory and platform practice aimed at systematically transforming financial services. Anthemis is headquartered in London with additional presence in New York, Geneva, Amsterdam, Lisbon and Dallas, manages roughly $500M in assets, and has backed 300+ companies including Betterment, eToro, Carta, Pipe, TrueLayer, Tide, Currencycloud, Atom Bank and The Climate Corporation.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/anthemis/refs/heads/main/screenshots/anthemis-2026-07-25T200409.png",
-     "rank": 422
     }
    ]
   }

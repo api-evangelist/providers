@@ -1,6 +1,6 @@
 {
- "total": 352,
- "shown": 352,
+ "total": 349,
+ "shown": 349,
  "limit": 1000,
  "bands": [
   {
@@ -16356,36 +16356,6 @@
       "agentic_commerce": false
      },
      "rank": 349
-    }
-   ]
-  },
-  {
-   "band": "unrated",
-   "label": "Not Yet Rated",
-   "range": "",
-   "blurb": "Providers we have not scored yet — unknown, not zero.",
-   "count": 3,
-   "shown": 3,
-   "providers": [
-    {
-     "name": "DCVC (Data Collective)",
-     "slug": "dcvc",
-     "description": "DCVC (Data Collective) is a deep-tech venture capital firm founded in 2011 and headquartered in Palo Alto and San Francisco, California. Founded and led by managing partners Matt Ocko and Zachary Bogue, DCVC backs entrepreneurs using computational and AI-driven approaches to solve trillion-dollar problems in the real world across sectors that have often seen little material progress in decades. The firm invests from early through growth stages across AI, compute and quantum, computational biology and chemistry, cybersecurity and defense, energy and climate, finance and insurance, industrial transformation and advanced manufacturing, next-gen agriculture, space, TechBio and TechMed. Across 13+ funds DCVC manages roughly $4B in assets under management (self-reported / press), making it one of the larger dedicated deep-tech franchises. Notable portfolio outcomes include companies spanning fusion energy, carbon transformation, robotics, drug discovery, and data infrastructure.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/dcvc/refs/heads/main/screenshots/dcvc-2026-07-25T211501.png",
-     "rank": 350
-    },
-    {
-     "name": "Lux Capital",
-     "slug": "lux-capital",
-     "description": "Lux Capital is a New York City-based venture capital firm founded in 2000 by Josh Wolfe, Peter Hebert, and Robert Paull that backs entrepreneurs building companies at the frontier of science and technology, turning \"sci-fi into sci-fact.\" The firm systematically mines academia and government research labs for breakthrough technologies that have matured beyond proof-of-concept but have not yet attracted mainstream venture attention, then makes long-term bets on contrarians and outsiders challenging the status quo. Lux invests primarily at early stage across three focus areas: AI and technology, defense/space/ manufacturing, and biotech/healthcare, with an emphasis on deep tech, robotics, and emerging science. The firm manages roughly $7 billion in assets under management across nine core funds, closing Lux Ventures IX at $1.5 billion in January 2026, and has invested in over 200 companies. Through Lux Labs, launched in 2024, the firm has also helped create more than 20 new companies. Notable portfolio companies include Anduril, Applied Intuition, Databricks, Cognition, Ramp, Runway, Recursion Pharmaceuticals, Planet, and Saildrone. Lux is headquartered in New York City with an additional office in Silicon Valley.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/lux-capital/refs/heads/main/screenshots/lux-capital-2026-07-25T225735.png",
-     "rank": 351
-    },
-    {
-     "name": "Social Capital",
-     "slug": "social-capital",
-     "description": "Social Capital is a technology investment firm founded in 2011 by Chamath Palihapitiya (a former Facebook executive) and headquartered in Palo Alto, California, with co-founders Mamoon Hamid and Ted Maidenberg. Originally a traditional venture fund that stood out by backing healthcare, financial services, education, and other hard, regulated sectors the VC community had neglected, the firm pivoted in 2018 into a technology holding company that stopped accepting outside capital and now invests from its own permanent balance sheet of roughly $2.1B, aiming to \"earn like Berkshire Hathaway and invest like the Red Cross.\" Its thesis targets multiple emerging $10T markets across deep tech commercialization, life sciences and drug discovery, the global energy transition, and creator-economy media. Chamath became known as the \"SPAC King\" for taking companies public through the Social Capital Hedosophia (IPOA-IPOF) vehicles, including Virgin Galactic, Opendoor, Clover Health, and SoFi. Notable investments include Slack, Box, SurveyMonkey, Wealthfront, Netskope, Intercom, Groq, Palmetto, Saildrone, and Relativity Space.",
-     "rank": 352
     }
    ]
   }

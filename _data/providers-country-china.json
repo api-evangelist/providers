@@ -1,6 +1,6 @@
 {
- "total": 340,
- "shown": 340,
+ "total": 336,
+ "shown": 336,
  "limit": 1000,
  "bands": [
   {
@@ -16089,43 +16089,6 @@
       "agentic_commerce": false
      },
      "rank": 336
-    }
-   ]
-  },
-  {
-   "band": "unrated",
-   "label": "Not Yet Rated",
-   "range": "",
-   "blurb": "Providers we have not scored yet — unknown, not zero.",
-   "count": 4,
-   "shown": 4,
-   "providers": [
-    {
-     "name": "DCM Ventures",
-     "slug": "dcm-ventures",
-     "description": "DCM Ventures (formerly Doll Capital Management, and commonly known as DCM) is an early-stage venture capital firm founded in 1996 by Dixon Doll, a former Accel partner, and David Chao, and headquartered at 2420 Sand Hill Road in Menlo Park, California with additional offices in Beijing and Tokyo. DCM was among the first Silicon Valley firms to build a cross-border, US-Asia investing practice, and typically leads early-stage rounds with checks in the roughly $1M-$5M range, deploying capital into a small group of category-defining companies each year rather than investing broadly. The firm's thesis has evolved from its original focus on communications and semiconductors toward consumer internet and SaaS, and today centers on vertical SaaS, fintech, cross-border innovation, and AI-native applications across the United States, China, Japan, and Southeast Asia. As of 2025 DCM manages approximately $4.5 billion in assets and reports 400+ portfolio companies, 35+ unicorns, and over $150 billion in aggregate market value, with notable investments including SoFi, Bill.com, Kuaishou, Matterport, 51job, Careem, and Sansan.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/dcm-ventures/refs/heads/main/screenshots/dcm-ventures-2026-07-25T211459.png",
-     "rank": 337
-    },
-    {
-     "name": "HongShan (HSG)",
-     "slug": "hongshan",
-     "description": "HongShan (HSG), formerly known as Sequoia Capital China, is a leading global venture capital and private equity firm investing across technology, healthcare, and consumer sectors. Founded in 2005 by Neil Shen with early guidance from Sequoia Capital, the firm spun off as an independent entity in 2023-2024, rebranding from Sequoia China to HongShan (a pinyin romanization of its Chinese name, meaning \"redwood\") while retaining its original Chinese name. HSG invests across the full lifecycle - seed, venture, growth, buyout, and infrastructure - and also runs a public equities business (HCEP). The firm manages over USD 61 billion in assets (as of April 30, 2026) and has backed more than 1,700 companies since inception, with 180+ having gone public and 140+ reaching unicorn status. HSG operates from Hong Kong, Shanghai, Beijing, Shenzhen, London, Tokyo, and Singapore. Notable portfolio companies include Alibaba, ByteDance, Meituan, Pinduoduo, BYD, Nio, Xpeng, Airwallex, Canva, Monzo, and Moderna.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/hongshan/refs/heads/main/screenshots/hongshan-2026-07-25T221411.png",
-     "rank": 338
-    },
-    {
-     "name": "IDG Capital",
-     "slug": "idg-capital",
-     "description": "IDG Capital is a global investment firm founded in Boston in 1993 and headquartered in Hong Kong, widely recognized as one of the first foreign venture investors to enter China. Over more than 30 years it has grown into a multi-stage platform spanning venture capital, growth capital, buyout, secondary markets, and public markets, with reported assets under management of roughly $20–23 billion. The firm has backed 1,800+ companies and realized 600+ exits, employing 300+ staff (about 40% investment professionals) across 12 offices on three continents, including Hong Kong, Beijing, Shanghai, Shenzhen, Guangzhou, Singapore, Seoul, Boston, New York, Barcelona, Muscat, and the Cayman Islands. IDG Capital concentrates on Consumer, Consumer Technology, Healthcare, and Fintech/Web3, and its portfolio includes early bets on many of China's technology leaders — Tencent, Baidu, Xiaomi, Meituan, ByteDance, and Ctrip — alongside global names such as Coinbase, Circle, Farfetch, Moncler, Acne Studios, and Insta360.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/idg-capital/refs/heads/main/screenshots/idg-capital-2026-07-25T222035.png",
-     "rank": 339
-    },
-    {
-     "name": "Qiming Venture Partners",
-     "slug": "qiming",
-     "description": "Qiming Venture Partners is a leading China-based venture capital firm founded in 2006 by Duane Kuang and Gary Rieschel, headquartered in Shanghai with additional offices in Beijing, Suzhou, Hong Kong, Singapore, and a U.S. affiliate (Qiming Venture Partners USA) in Seattle, Washington. The firm invests at the early and growth stages, with roughly 70% of its investments concentrated in Series A and Series B rounds, across two core practice areas: Technology (mobile internet, consumer, AI, robotics, semiconductors, enterprise software, autonomous driving) and Healthcare (biotech, pharmaceuticals, medical devices, diagnostics, and digital health). Qiming manages 11 U.S. Dollar funds and 7 RMB funds with approximately $9.5 billion in capital raised, and has backed more than 580 companies, of which over 210 have exited via IPO on the NYSE, NASDAQ, HKEX, Shanghai, or Shenzhen exchanges, or through M&A. It is an early backer of some of China's most influential technology companies, including Xiaomi, Meituan, Bilibili, Zhihu, Roborock, Hesai Technology, UBTech, WeRide, Insta360, and Zhipu AI (Z.ai), alongside a deep healthcare portfolio spanning Zai Lab, Gan & Lee Pharmaceuticals, CanSino Biologics, Tigermed, and Insilico Medicine.",
-     "rank": 340
     }
    ]
   }

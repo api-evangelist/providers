@@ -1,6 +1,6 @@
 {
- "total": 224,
- "shown": 224,
+ "total": 215,
+ "shown": 215,
  "limit": 1000,
  "bands": [
   {
@@ -10024,76 +10024,6 @@
       "agentic_commerce": false
      },
      "rank": 215
-    }
-   ]
-  },
-  {
-   "band": "unrated",
-   "label": "Not Yet Rated",
-   "range": "",
-   "blurb": "Providers we have not scored yet — unknown, not zero.",
-   "count": 9,
-   "shown": 9,
-   "providers": [
-    {
-     "name": "Altimeter Capital",
-     "slug": "altimeter-capital",
-     "description": "Altimeter Capital is a technology-focused investment firm founded in 2008 by Brad Gerstner in Boston, Massachusetts, launched during the financial crisis with less than $3 million from friends and family. Headquartered in both Boston, MA and Menlo Park, CA (on Sand Hill Road), Altimeter runs a life-cycle crossover platform that backs technology companies from early stage through IPO and beyond: it manages a long/short public equity fund investing in technology companies alongside private growth equity funds targeting both early- and later-stage tech ventures. Brad Gerstner, founder, chairman and CEO, looks for platforms rather than products - businesses with network effects, expanding margins, and leaders who can adapt and scale - and has been a vocal proponent of an AI \"supercycle\" driven by accelerated computing and data-center demand. Altimeter also sponsored two SPACs (Altimeter Growth Corp, which merged with Grab, and Altimeter Growth Corp 2). Notable private and pre-IPO investments include Snowflake, Confluent, Okta, UiPath, GitLab, Unity, Roblox, SoFi, Plaid, ByteDance, Epic Games, dbt Labs, Baseten, and Anthropic. Reported assets under management have ranged from roughly $6.75B (Sep 2024) to higher figures across sources; Altimeter self-describes as \"a technology-focused investment firm built by a founder for founders.\"",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/altimeter-capital/refs/heads/main/screenshots/altimeter-capital-2026-07-25T195839.png",
-     "rank": 216
-    },
-    {
-     "name": "Coatue Management",
-     "slug": "coatue",
-     "description": "Coatue Management is a global technology-focused investment manager founded in 1999 by Philippe Laffont, headquartered in New York City with offices in Menlo Park, San Francisco, London, and Hong Kong. Originally launched as a technology hedge fund, Coatue now invests across public and private markets through venture, growth, tactical (structured debt and equity), and public equities strategies, emphasizing data-driven research and responsible risk management. The firm backs disruptive, high-growth technology companies with a strong current thesis around artificial intelligence, software, cloud and data infrastructure, fintech, and frontier/space, writing checks that range from early-stage venture ($500K–$10M) through large growth and public-market allocations. Coatue managed roughly $54–55B in assets as of end of 2024 and counts Anthropic, OpenAI, Databricks, Stripe, SpaceX, Figma, and Cursor among its private portfolio companies.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/coatue/refs/heads/main/screenshots/coatue-2026-07-25T205837.png",
-     "rank": 217
-    },
-    {
-     "name": "D1 Capital Partners",
-     "slug": "d1-capital",
-     "description": "D1 Capital Partners is a New York City-based global investment firm founded in July 2018 by Daniel Sundheim, the former Chief Investment Officer of Viking Global Investors, who seeded the firm with more than $500 million of his own capital. The name \"D1\" references Amazon founder Jeff Bezos's \"Day One\" philosophy. D1 deploys capital across both public and private markets: in public markets it runs a global long/short equity strategy (including equity derivatives and convertible bonds) targeting medium- to long-term returns, while in private markets it takes later-stage, non-controlling growth-equity stakes in expanding companies. The firm's private portfolio spans consumer, business services, financial services, healthcare, industrials, real estate, and technology, media and telecommunications, with notable positions in companies such as SpaceX, Stripe, Anthropic, OpenAI, Ramp, Robinhood, GitLab, and Instacart. As a \"Tiger Cub\" descended from Viking Global, D1 grew from roughly $3 billion at launch to more than $20 billion by the end of 2020, and has been reported managing on the order of $24 billion in assets. It is headquartered at 9 West 57th Street in Manhattan.",
-     "rank": 218
-    },
-    {
-     "name": "Dragoneer Investment Group",
-     "slug": "dragoneer",
-     "description": "Dragoneer Investment Group is a San Francisco-based growth-oriented investment firm founded in 2012 by Marc Stad, a former TPG Capital and McKinsey investor. Dragoneer deploys long-duration capital across both public and private markets, concentrating on late-stage, high-growth technology companies rather than early-stage seed bets. In private markets it runs growth-equity funds that back category-leading private technology companies; in public markets it manages long-only strategy funds invested in listed technology businesses. Its capital comes from institutional limited partners including endowments, foundations, sovereign wealth funds, and family offices, and the firm is known for a patient, concentrated, founder-friendly approach that avoids traditional turnover. Dragoneer manages roughly $22B-$30B+ in assets under management (2024-2025), with sector focus spanning enterprise software, fintech and financial services, consumer internet, and artificial intelligence. The firm also sponsored a series of Dragoneer Growth Opportunities SPACs (which took CCC Intelligent Solutions and Cvent public) and is headquartered at the Letterman Digital Arts Center in San Francisco. Notable investments include Uber, Airbnb, Snowflake, Databricks, Slack, Spotify, DoorDash, Nubank, OpenAI, and Anthropic.",
-     "rank": 219
-    },
-    {
-     "name": "Hillhouse Investment",
-     "slug": "hillhouse",
-     "description": "Hillhouse Investment (formerly Hillhouse Capital) is a global investment firm founded in 2005 by Lei Zhang with seed capital from the Yale University endowment, and is one of Asia's largest private-market investors, managing an estimated US$100 billion in assets as of 2026. Headquartered in Singapore with offices in Hong Kong, Beijing, Shanghai, New York, London, and Abu Dhabi, the firm invests globally across all stages of a company's life cycle, spanning public equities, growth equity, private equity buyouts, venture capital (through its early-stage arm GL Ventures, launched in 2020), and real assets. Hillhouse describes itself as disciplined and pragmatic investors who prioritize business fundamentals and deep, bottom-up industry research, with sector focus on healthcare, industrials, energy transition, business services, and consumer. Its portfolio spans companies headquartered in more than 25 countries and has included category-defining businesses such as Tencent, JD.com, Baidu, Zoom, BeiGene, Miniso, Airbnb, Uber, and Didi. Backers have historically included major university endowments (Yale, Stanford, Princeton, MIT, University of Pennsylvania, University of Texas) and CPPIB.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/hillhouse/refs/heads/main/screenshots/hillhouse-2026-07-25T221225.png",
-     "rank": 220
-    },
-    {
-     "name": "HongShan (HSG)",
-     "slug": "hongshan",
-     "description": "HongShan (HSG), formerly known as Sequoia Capital China, is a leading global venture capital and private equity firm investing across technology, healthcare, and consumer sectors. Founded in 2005 by Neil Shen with early guidance from Sequoia Capital, the firm spun off as an independent entity in 2023-2024, rebranding from Sequoia China to HongShan (a pinyin romanization of its Chinese name, meaning \"redwood\") while retaining its original Chinese name. HSG invests across the full lifecycle - seed, venture, growth, buyout, and infrastructure - and also runs a public equities business (HCEP). The firm manages over USD 61 billion in assets (as of April 30, 2026) and has backed more than 1,700 companies since inception, with 180+ having gone public and 140+ reaching unicorn status. HSG operates from Hong Kong, Shanghai, Beijing, Shenzhen, London, Tokyo, and Singapore. Notable portfolio companies include Alibaba, ByteDance, Meituan, Pinduoduo, BYD, Nio, Xpeng, Airwallex, Canva, Monzo, and Moderna.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/hongshan/refs/heads/main/screenshots/hongshan-2026-07-25T221411.png",
-     "rank": 221
-    },
-    {
-     "name": "New Enterprise Associates",
-     "slug": "nea",
-     "description": "New Enterprise Associates (NEA) is one of the world's largest and longest-running venture capital firms, founded in 1977 by Dick Kramlich, Chuck Newhall, and Frank Bonsal. Headquartered in Menlo Park, California, with offices in Timonium (Maryland), New York, and London, NEA invests across the full company lifecycle — \"from idea to IPO\" — spanning seed, Series A, and later growth rounds. The firm has raised over $27 billion in committed capital (as of December 31, 2024) and organizes into specialized practice groups across two core sectors: technology (enterprise software, consumer, fintech, AI, infrastructure) and healthcare (biopharma, life sciences, digital health, and medical devices). NEA is known for an active, hands-on partnership model and long-term support of category-defining companies, with a portfolio that has produced many notable IPOs and acquisitions including Cloudflare, MongoDB, Robinhood, Coursera, Databricks, Plaid, and Tempus.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/nea/refs/heads/main/screenshots/nea-2026-08-07T184803.png",
-     "rank": 222
-    },
-    {
-     "name": "Qiming Venture Partners",
-     "slug": "qiming",
-     "description": "Qiming Venture Partners is a leading China-based venture capital firm founded in 2006 by Duane Kuang and Gary Rieschel, headquartered in Shanghai with additional offices in Beijing, Suzhou, Hong Kong, Singapore, and a U.S. affiliate (Qiming Venture Partners USA) in Seattle, Washington. The firm invests at the early and growth stages, with roughly 70% of its investments concentrated in Series A and Series B rounds, across two core practice areas: Technology (mobile internet, consumer, AI, robotics, semiconductors, enterprise software, autonomous driving) and Healthcare (biotech, pharmaceuticals, medical devices, diagnostics, and digital health). Qiming manages 11 U.S. Dollar funds and 7 RMB funds with approximately $9.5 billion in capital raised, and has backed more than 580 companies, of which over 210 have exited via IPO on the NYSE, NASDAQ, HKEX, Shanghai, or Shenzhen exchanges, or through M&A. It is an early backer of some of China's most influential technology companies, including Xiaomi, Meituan, Bilibili, Zhihu, Roborock, Hesai Technology, UBTech, WeRide, Insta360, and Zhipu AI (Z.ai), alongside a deep healthcare portfolio spanning Zai Lab, Gan & Lee Pharmaceuticals, CanSino Biologics, Tigermed, and Insilico Medicine.",
-     "rank": 223
-    },
-    {
-     "name": "RFID",
-     "slug": "rfid",
-     "description": "Radio-Frequency Identification (RFID) is an automatic identification technology that uses radio waves to read and capture information stored on a tag attached to an object. RFID powers supply chain visibility, inventory management, asset tracking, access control, and contactless payments. The RFID ecosystem includes hardware vendors (Zebra, Impinj, Alien Technology), software platforms (ClearStream, TagMatiks, Jetstream), and open standards (GS1 EPCIS, EPC Tag Data Standard, ISO 18000 series).",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/rfid/refs/heads/main/screenshots/rfid-2026-06-20T193103.png",
-     "rank": 224
     }
    ]
   }

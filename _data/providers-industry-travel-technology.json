@@ -1,6 +1,6 @@
 {
- "total": 54,
- "shown": 54,
+ "total": 55,
+ "shown": 55,
  "limit": 1000,
  "bands": [
   {
@@ -1384,8 +1384,8 @@
    "label": "Emerging",
    "range": "11 – 26.1",
    "blurb": "More than an index entry but still mostly links rather than artifacts.",
-   "count": 8,
-   "shown": 8,
+   "count": 9,
+   "shown": 9,
    "providers": [
     {
      "name": "eZee Technosys",
@@ -1496,6 +1496,51 @@
      "rank": 31
     },
     {
+     "name": "Delta Airlines",
+     "slug": "delta-airlines",
+     "description": "Delta Airlines (alias of Delta Air Lines) is a major U.S. airline providing scheduled air transportation for passengers and cargo throughout the United States and across the world. This repository is an alias of the canonical delta-air-lines profile and points to the same partner developer portal at apiportal.delta.com.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/delta-airlines/refs/heads/main/screenshots/delta-airlines-2026-07-25T211717.png",
+     "score": 23.6,
+     "band": "emerging",
+     "band_label": "Emerging",
+     "facets": {
+      "discoverability": 59.3,
+      "contract_quality": 37.2,
+      "governance": 0.0,
+      "contract_governance": 0.0,
+      "operational_transparency": 5.3,
+      "developer_ergonomics": 11.9,
+      "commercial_clarity": 26.3,
+      "access_clarity": 26.3
+     },
+     "scored_at": "2026-09-01",
+     "schema_version": "0.18.0",
+     "agent_score": 15.5,
+     "agent_band": "agent-aware",
+     "agent_dims": {
+      "spec_presence": true,
+      "agentic_access": false,
+      "reversibility_documented": false,
+      "mcp_server": false,
+      "auth_clarity": false,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": "documented",
+      "event_surface_described": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
+     "rank": 32
+    },
+    {
      "name": "TravelClick (Amadeus)",
      "slug": "travelclick-amadeus",
      "description": "TravelClick, now Amadeus Hospitality, is a hotel commerce and distribution technology provider whose flagship product is the iHotelier Booking Engine 4.0 (CRS/central reservation system). For developers it publishes the Amadeus iHotelier BE API — a family of OAuth 2.0 secured REST APIs that let web and B2C guest-facing applications search availability, hold and create reservations, manage group bookings, and drive the hotel booking flow. TravelClick also operates OTA Connect, a distribution API that connects channel-management partners and OTAs to hotel inventory. API documentation and interactive testing are available to accounts registered on the developer portal at developer.travelclick.com; non-production API keys are issued on request.",
@@ -1537,7 +1582,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 32
+     "rank": 33
     },
     {
      "name": "Atlys",
@@ -1582,7 +1627,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 33
+     "rank": 34
     },
     {
      "name": "FLYR Labs",
@@ -1627,7 +1672,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 34
+     "rank": 35
     },
     {
      "name": "Duetto Research",
@@ -1672,7 +1717,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 35
+     "rank": 36
     },
     {
      "name": "HEDNA",
@@ -1717,7 +1762,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 36
+     "rank": 37
     },
     {
      "name": "innRoad",
@@ -1762,7 +1807,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 37
+     "rank": 38
     }
    ]
   },
@@ -1817,7 +1862,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 38
+     "rank": 39
     },
     {
      "name": "Cartrawler",
@@ -1869,7 +1914,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 39
+     "rank": 40
     },
     {
      "name": "Maestro PMS",
@@ -1914,7 +1959,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 40
+     "rank": 41
     },
     {
      "name": "H2O Hospitality",
@@ -1959,7 +2004,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 41
+     "rank": 42
     },
     {
      "name": "Flexkeeping",
@@ -2004,7 +2049,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 42
+     "rank": 43
     },
     {
      "name": "Smartness",
@@ -2048,7 +2093,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 43
+     "rank": 44
     },
     {
      "name": "Hotelogix",
@@ -2093,7 +2138,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 44
+     "rank": 45
     },
     {
      "name": "GuruHotel",
@@ -2145,7 +2190,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 45
+     "rank": 46
     },
     {
      "name": "reTravel.io",
@@ -2189,7 +2234,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 46
+     "rank": 47
     },
     {
      "name": "Duetto",
@@ -2234,7 +2279,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 47
+     "rank": 48
     },
     {
      "name": "Dida",
@@ -2279,7 +2324,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 48
+     "rank": 49
     },
     {
      "name": "RoomRaccoon",
@@ -2331,7 +2376,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 49
+     "rank": 50
     },
     {
      "name": "ITA Software",
@@ -2376,7 +2421,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 50
+     "rank": 51
     },
     {
      "name": "Life House",
@@ -2420,7 +2465,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 51
+     "rank": 52
     },
     {
      "name": "Pace Revenue",
@@ -2465,7 +2510,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 52
+     "rank": 53
     },
     {
      "name": "Rebookify",
@@ -2509,7 +2554,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 53
+     "rank": 54
     },
     {
      "name": "Europass",
@@ -2561,7 +2606,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 54
+     "rank": 55
     }
    ]
   }

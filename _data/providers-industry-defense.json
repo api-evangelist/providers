@@ -1,6 +1,6 @@
 {
- "total": 320,
- "shown": 320,
+ "total": 317,
+ "shown": 317,
  "limit": 1000,
  "bands": [
   {
@@ -15006,37 +15006,6 @@
       "agentic_commerce": false
      },
      "rank": 317
-    }
-   ]
-  },
-  {
-   "band": "unrated",
-   "label": "Not Yet Rated",
-   "range": "",
-   "blurb": "Providers we have not scored yet — unknown, not zero.",
-   "count": 3,
-   "shown": 3,
-   "providers": [
-    {
-     "name": "8VC",
-     "slug": "8vc",
-     "description": "8VC is a technology investment firm founded in 2015 by Joe Lonsdale and Jake Medwell (with founding partners Drew Oetting and Kimmy Scotti) following the wind-down of Formation 8, and headquartered at 907 South Congress Avenue in Austin, Texas after relocating from San Francisco in 2020. The firm both invests in and co-founds early-stage companies, dedicating a significant share of its capital (roughly 25-30%) to building companies from scratch through its \"8VC Build\" venture-studio program and assembling teams of top specialists. 8VC concentrates on \"national capability\" and deep-tech categories including defense, life sciences and biotech, healthcare, logistics and supply chain, manufacturing and industrials, enterprise software, financial services, AI, and IT infrastructure. With approximately $6 billion in assets under management (2023) and a public portfolio of more than 170 companies, 8VC is known for its founder-led, mission-driven approach and notable investments including Palantir, Addepar, Anduril, Flexport, Vercel, Saronic, Epirus, Yugabyte, and Project44. The firm runs the 8VC Fellowship and Bio-IT Fellowship talent programs and maintains a stated policy of not accepting capital from foreign-government-connected sources.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/8vc/refs/heads/main/screenshots/8vc-2026-07-25T181247.png",
-     "rank": 318
-    },
-    {
-     "name": "General Catalyst",
-     "slug": "general-catalyst",
-     "description": "General Catalyst is a global venture capital and investment firm founded in 2000 by Joel Cutler and David Fialkow, headquartered in Cambridge, Massachusetts, with offices in San Francisco, New York, London, Berlin, Bengaluru, and Washington, D.C. The firm invests across seed, venture, and growth stages and manages more than $43 billion in assets under management (as of December 2024), backing 900+ portfolio companies. General Catalyst operates through distinct capital vehicles and initiatives — Ignition/Seed for early-stage, Endurance/Grow for growth, Creation for company building, and a dedicated Health Assurance practice for healthcare transformation. Its current \"Global Resilience\" thesis, led by CEO Hemant Taneja, concentrates on the critical systems that underpin modern society — healthcare, energy, defense, and AI — alongside an \"unscaling\" thesis that uses data and AI to personalize core societal services. Notable investments include Airbnb, Stripe, Anthropic, Canva, HubSpot, Ramp, Anduril, Applied Intuition, Samsara, Mistral, Helsing, Hippocratic AI, and Mercor.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/general-catalyst/refs/heads/main/screenshots/general-catalyst-2026-07-25T215536.png",
-     "rank": 319
-    },
-    {
-     "name": "Lux Capital",
-     "slug": "lux-capital",
-     "description": "Lux Capital is a New York City-based venture capital firm founded in 2000 by Josh Wolfe, Peter Hebert, and Robert Paull that backs entrepreneurs building companies at the frontier of science and technology, turning \"sci-fi into sci-fact.\" The firm systematically mines academia and government research labs for breakthrough technologies that have matured beyond proof-of-concept but have not yet attracted mainstream venture attention, then makes long-term bets on contrarians and outsiders challenging the status quo. Lux invests primarily at early stage across three focus areas: AI and technology, defense/space/ manufacturing, and biotech/healthcare, with an emphasis on deep tech, robotics, and emerging science. The firm manages roughly $7 billion in assets under management across nine core funds, closing Lux Ventures IX at $1.5 billion in January 2026, and has invested in over 200 companies. Through Lux Labs, launched in 2024, the firm has also helped create more than 20 new companies. Notable portfolio companies include Anduril, Applied Intuition, Databricks, Cognition, Ramp, Runway, Recursion Pharmaceuticals, Planet, and Saildrone. Lux is headquartered in New York City with an additional office in Silicon Valley.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/lux-capital/refs/heads/main/screenshots/lux-capital-2026-07-25T225735.png",
-     "rank": 320
     }
    ]
   }

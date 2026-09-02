@@ -1,5 +1,5 @@
 {
- "total": 1549,
+ "total": 1533,
  "shown": 1000,
  "limit": 1000,
  "bands": [
@@ -40309,7 +40309,7 @@
    "label": "Emerging",
    "range": "11 – 26.1",
    "blurb": "More than an index entry but still mostly links rather than artifacts.",
-   "count": 320,
+   "count": 321,
    "shown": 137,
    "providers": [
     {
@@ -45372,6 +45372,50 @@
      "rank": 972
     },
     {
+     "name": "Xelta - Create Images, Videos & More with Generative AI",
+     "slug": "xelta",
+     "description": "Xelta AI Studio is a credit-based generative-AI creative platform from Xelta Pvt Ltd, unifying 90+ third-party models (FAL, BytePlus, OpenAI, Google, HuggingFace, Replicate) behind one account for image generation, video and micro-drama production, voice and dubbing, website building, and marketing/ad automation. It ships THREE distinct developer surfaces that barely acknowledge one another: a hosted OAuth 2.1 MCP server at mcp.xelta.ai (the company's documented agent surface, with five first-party Agent Skills published to npm), a 74-operation REST API at api.xelta.ai whose OpenAPI 3.0.0 is served live but linked from nowhere, and an llms.txt site guide that mentions neither. The REST API covers auth, model discovery and generation, uploads, asset history, a community gallery and a Brand DNA / campaign engine; the MCP server covers generation and website building. Not one MCP tool maps to a REST operation.",
+     "score": 20.6,
+     "band": "emerging",
+     "band_label": "Emerging",
+     "facets": {
+      "discoverability": 68.5,
+      "contract_quality": 0.0,
+      "governance": 0.0,
+      "contract_governance": 0.0,
+      "operational_transparency": 0.0,
+      "developer_ergonomics": 23.8,
+      "commercial_clarity": 44.7,
+      "access_clarity": 44.7
+     },
+     "scored_at": "2026-09-01",
+     "schema_version": "0.18.0",
+     "agent_score": 3.6,
+     "agent_band": "human-only",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": false,
+      "reversibility_documented": false,
+      "mcp_server": false,
+      "auth_clarity": false,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": false,
+      "event_surface_described": false,
+      "agent_skills": true,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
+     "rank": 973
+    },
+    {
      "name": "AcuityMD",
      "slug": "acuitymd",
      "description": "AcuityMD is a MedTech commercial intelligence platform that combines precise medical device market data, AI-powered insights (AcuityAI), and workflow tools to help commercial teams accelerate product adoption and revenue growth. Used by 500+ medical device companies, the platform spans Market Intelligence, Care Journeys, Targeting, Pipeline, Contracts, Territories and Forecasting. AcuityMD is a closed enterprise SaaS product: it exposes no public developer API, but integrates via a Salesforce AppExchange app, a Snowflake Marketplace listing, and an enterprise Data Connector that delivers market intelligence into customer data warehouses. Backed by ICONIQ Capital and Redpoint Ventures.",
@@ -45421,7 +45465,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 973
+     "rank": 974
     },
     {
      "name": "AgentIQ",
@@ -45473,7 +45517,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 974
+     "rank": 975
     },
     {
      "name": "ALLSALE Corp.",
@@ -45518,7 +45562,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 975
+     "rank": 976
     },
     {
      "name": "KGeN",
@@ -45563,7 +45607,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 976
+     "rank": 977
     },
     {
      "name": "Launchmetrics",
@@ -45607,7 +45651,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 977
+     "rank": 978
     },
     {
      "name": "Saleo",
@@ -45651,7 +45695,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 978
+     "rank": 979
     },
     {
      "name": "Google Optimize",
@@ -45696,7 +45740,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 979
+     "rank": 980
     },
     {
      "name": "PraxisPro AI",
@@ -45747,7 +45791,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 980
+     "rank": 981
     },
     {
      "name": "Siena",
@@ -45791,7 +45835,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 981
+     "rank": 982
     },
     {
      "name": "Wellth",
@@ -45853,7 +45897,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 982
+     "rank": 983
     },
     {
      "name": "StoreHub",
@@ -45904,7 +45948,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 983
+     "rank": 984
     },
     {
      "name": "Flurry",
@@ -45949,7 +45993,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 984
+     "rank": 985
     },
     {
      "name": "HundredX",
@@ -45993,7 +46037,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 985
+     "rank": 986
     },
     {
      "name": "UJET",
@@ -46037,7 +46081,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 986
+     "rank": 987
     },
     {
      "name": "Workhuman",
@@ -46081,7 +46125,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 987
+     "rank": 988
     },
     {
      "name": "Influenxio",
@@ -46126,7 +46170,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 988
+     "rank": 989
     },
     {
      "name": "Memoir",
@@ -46171,7 +46215,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 989
+     "rank": 990
     },
     {
      "name": "Blobr",
@@ -46215,7 +46259,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 990
+     "rank": 991
     },
     {
      "name": "Imagine Ai",
@@ -46260,7 +46304,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 991
+     "rank": 992
     },
     {
      "name": "INK Games",
@@ -46311,7 +46355,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 992
+     "rank": 993
     },
     {
      "name": "VaynerMedia",
@@ -46356,7 +46400,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 993
+     "rank": 994
     },
     {
      "name": "Mainframe",
@@ -46401,7 +46445,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 994
+     "rank": 995
     },
     {
      "name": "Pixis",
@@ -46445,7 +46489,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 995
+     "rank": 996
     },
     {
      "name": "Chick-fil-A",
@@ -46490,7 +46534,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 996
+     "rank": 997
     },
     {
      "name": "Fluidity",
@@ -46535,7 +46579,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 997
+     "rank": 998
     },
     {
      "name": "Nickelytics",
@@ -46580,7 +46624,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 998
+     "rank": 999
     },
     {
      "name": "MenuSifu",
@@ -46631,51 +46675,6 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 999
-    },
-    {
-     "name": "Parloa",
-     "slug": "parloa",
-     "description": "Parloa is an enterprise conversational AI platform for contact centers that automates voice and chat customer interactions across industries including financial services, utilities, eCommerce, healthcare, media, and IT. The Parloa Agent Management Platform (AMP) supports designing, testing, scaling, optimizing, and securing AI agents that integrate with CCaaS, telephony, CRM, and ERP systems. Parloa is a sales-led enterprise product and developer access to its REST APIs and integration tooling is provided through customer and partner accounts rather than a fully public developer portal.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/parloa/refs/heads/main/screenshots/parloa-2026-06-20T191418.png",
-     "score": 19.2,
-     "band": "emerging",
-     "band_label": "Emerging",
-     "facets": {
-      "discoverability": 66.7,
-      "contract_quality": 0.0,
-      "governance": 0.0,
-      "contract_governance": 0.0,
-      "operational_transparency": 21.1,
-      "developer_ergonomics": 11.9,
-      "commercial_clarity": 36.8,
-      "access_clarity": 36.8
-     },
-     "scored_at": "2026-09-01",
-     "schema_version": "0.18.0",
-     "agent_score": 2.5,
-     "agent_band": "human-only",
-     "agent_dims": {
-      "spec_presence": false,
-      "agentic_access": false,
-      "reversibility_documented": false,
-      "mcp_server": false,
-      "auth_clarity": false,
-      "idempotency": false,
-      "error_semantics": false,
-      "openapi_examples": false,
-      "rate_limit_signal": "documented",
-      "event_surface_described": false,
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false,
-      "delegated_identity": false,
-      "protected_resource_metadata": false,
-      "dynamic_client_registration": false,
-      "agentic_commerce": false
-     },
      "rank": 1000
     }
    ]
@@ -46686,15 +46685,6 @@
    "range": "0 – 10.9",
    "blurb": "Index entry only; little beyond a description and a link.",
    "count": 349,
-   "shown": 0,
-   "providers": []
-  },
-  {
-   "band": "unrated",
-   "label": "Not Yet Rated",
-   "range": "",
-   "blurb": "Providers we have not scored yet — unknown, not zero.",
-   "count": 17,
    "shown": 0,
    "providers": []
   }

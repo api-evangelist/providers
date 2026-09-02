@@ -1,5 +1,5 @@
 {
- "total": 1343,
+ "total": 1327,
  "shown": 1000,
  "limit": 1000,
  "bands": [
@@ -698,8 +698,8 @@
    "label": "Strong",
    "range": "54.3 – 66.4",
    "blurb": "Solid contracts, transparent operations, and an easy start.",
-   "count": 67,
-   "shown": 67,
+   "count": 68,
+   "shown": 68,
    "providers": [
     {
      "name": "Bullish",
@@ -2854,6 +2854,57 @@
      "rank": 55
     },
     {
+     "name": "EVEDEX",
+     "slug": "evedex",
+     "description": "EVEDEX is a hybrid decentralized perpetual-futures exchange built on Arbitrum (Layer 3) that pairs an off-chain order book and matching engine with on-chain settlement and full self-custody, so users trade at centralized-exchange latency without surrendering their keys. Its public developer program spans eleven live OpenAPI 3.1.0 services totalling 557 operations — Auth, Exchange, Market Data, Referral/Affiliate, Notifications, Academy, Game, Billing, Bridge Middleware, AI Strategies and Backoffice — all published from a single Swagger UI at swagger.evedex.com. Authentication is either an X-API-Key issued from the exchange UI or a short-lived JWT minted through EIP-4361 Sign-In with Ethereum, and every write that moves value (order creation, replacement, position closure, withdrawal) additionally requires an EIP-712 typed-data signature from the user's own wallet. Asynchronous state is delivered over seventeen documented Centrifugo WebSocket channels using a snapshot-plus-updates consistency pattern. EVEDEX ships an official TypeScript SDK (@evedex/exchange-bot-sdk) with separate demo and production containers, and publishes agent-native documentation via llms.txt and per-page markdown with a GitBook ask-parameter query interface.",
+     "score": 56.3,
+     "band": "strong",
+     "band_label": "Strong",
+     "facets": {
+      "discoverability": 75.9,
+      "contract_quality": 49.1,
+      "governance": 4.5,
+      "contract_governance": 4.5,
+      "operational_transparency": 47.4,
+      "developer_ergonomics": 73.2,
+      "commercial_clarity": 63.2,
+      "access_clarity": 63.2
+     },
+     "scored_at": "2026-09-01",
+     "schema_version": "0.18.0",
+     "regulatory": {
+      "applies": true,
+      "regime": "Securities & Market Data",
+      "regime_id": "securities_market_data",
+      "score": 51.7,
+      "matched_via": "tags"
+     },
+     "agent_score": 34.1,
+     "agent_band": "agent-ready",
+     "agent_dims": {
+      "spec_presence": true,
+      "agentic_access": "derived",
+      "reversibility_documented": false,
+      "mcp_server": "documented",
+      "auth_clarity": "bearer",
+      "idempotency": false,
+      "error_semantics": "verified",
+      "openapi_examples": "partial",
+      "rate_limit_signal": "documented",
+      "event_surface_described": true,
+      "agent_skills": "derived",
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
+     "rank": 56
+    },
+    {
      "name": "LI.FI",
      "slug": "lifi",
      "description": "LI.FI is the routing and execution layer for cross-chain liquidity, payments, swaps and yield. A single integration gives an application access to more than 100 aggregated bridges, DEXs, DEX aggregators and intent-based solvers across 58+ chains spanning EVM, Solana, Bitcoin, SUI and TRON. The LI.FI API returns an optimal route plus a ready-to-sign, unsigned transaction; the product set extends to Composer for one-click DeFi deposits across 20+ protocols, Earn for yield discovery and portfolio tracking, an intent/solver marketplace built on the Open Intents Framework, an embeddable Widget, a TypeScript SDK, a CLI and a hosted MCP server for AI agents.",
@@ -2903,7 +2954,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 56
+     "rank": 57
     },
     {
      "name": "MoonPay",
@@ -2962,7 +3013,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 57
+     "rank": 58
     },
     {
      "name": "Allium",
@@ -3014,7 +3065,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 58
+     "rank": 59
     },
     {
      "name": "Agentcard",
@@ -3066,7 +3117,7 @@
       "dynamic_client_registration": true,
       "agentic_commerce": false
      },
-     "rank": 59
+     "rank": 60
     },
     {
      "name": "Zai",
@@ -3118,7 +3169,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 60
+     "rank": 61
     },
     {
      "name": "Ripple Labs",
@@ -3170,7 +3221,7 @@
       "dynamic_client_registration": true,
       "agentic_commerce": false
      },
-     "rank": 61
+     "rank": 62
     },
     {
      "name": "Basis Theory",
@@ -3222,7 +3273,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 62
+     "rank": 63
     },
     {
      "name": "Coinflow",
@@ -3274,7 +3325,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 63
+     "rank": 64
     },
     {
      "name": "Didit",
@@ -3319,7 +3370,7 @@
       "dynamic_client_registration": true,
       "agentic_commerce": false
      },
-     "rank": 64
+     "rank": 65
     },
     {
      "name": "Kaiko",
@@ -3371,7 +3422,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 65
+     "rank": 66
     },
     {
      "name": "Backpack",
@@ -3423,7 +3474,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 66
+     "rank": 67
     },
     {
      "name": "Coinme",
@@ -3475,7 +3526,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 67
+     "rank": 68
     },
     {
      "name": "Mesh",
@@ -3527,7 +3578,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 68
+     "rank": 69
     },
     {
      "name": "IOTA",
@@ -3572,7 +3623,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 69
+     "rank": 70
     },
     {
      "name": "Amberdata",
@@ -3624,7 +3675,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 70
+     "rank": 71
     },
     {
      "name": "Voltage",
@@ -3676,7 +3727,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 71
+     "rank": 72
     },
     {
      "name": "Spreedly",
@@ -3728,7 +3779,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 72
+     "rank": 73
     },
     {
      "name": "SIX",
@@ -3780,7 +3831,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 73
+     "rank": 74
     },
     {
      "name": "Spiko",
@@ -3839,7 +3890,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 74
+     "rank": 75
     },
     {
      "name": "PayPal",
@@ -3891,7 +3942,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 75
+     "rank": 76
     },
     {
      "name": "Copper.co",
@@ -3943,7 +3994,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 76
+     "rank": 77
     },
     {
      "name": "Tether",
@@ -3995,7 +4046,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 77
+     "rank": 78
     },
     {
      "name": "Amazon Managed Blockchain",
@@ -4040,7 +4091,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 78
+     "rank": 79
     },
     {
      "name": "ByKaranteli",
@@ -4092,7 +4143,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 79
+     "rank": 80
     },
     {
      "name": "ALTR",
@@ -4137,7 +4188,7 @@
       "dynamic_client_registration": true,
       "agentic_commerce": false
      },
-     "rank": 80
+     "rank": 81
     }
    ],
    "open": true
@@ -4199,7 +4250,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 81
+     "rank": 82
     },
     {
      "name": "Utila",
@@ -4251,7 +4302,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 82
+     "rank": 83
     },
     {
      "name": "Gitcoin",
@@ -4296,7 +4347,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 83
+     "rank": 84
     },
     {
      "name": "Misskey",
@@ -4341,7 +4392,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 84
+     "rank": 85
     },
     {
      "name": "Fordefi",
@@ -4393,7 +4444,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 85
+     "rank": 86
     },
     {
      "name": "PPRO",
@@ -4444,7 +4495,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 86
+     "rank": 87
     },
     {
      "name": "Scale3",
@@ -4489,7 +4540,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 87
+     "rank": 88
     },
     {
      "name": "Mesh Connect",
@@ -4541,7 +4592,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 88
+     "rank": 89
     },
     {
      "name": "Livepeer",
@@ -4586,7 +4637,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 89
+     "rank": 90
     },
     {
      "name": "Inference",
@@ -4631,7 +4682,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 90
+     "rank": 91
     },
     {
      "name": "Lighter",
@@ -4683,7 +4734,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 91
+     "rank": 92
     },
     {
      "name": "Ondo Finance",
@@ -4735,7 +4786,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 92
+     "rank": 93
     },
     {
      "name": "Qfex",
@@ -4787,7 +4838,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 93
+     "rank": 94
     },
     {
      "name": "Alpha Vantage",
@@ -4839,7 +4890,7 @@
       "dynamic_client_registration": true,
       "agentic_commerce": false
      },
-     "rank": 94
+     "rank": 95
     },
     {
      "name": "JPX (Japan Exchange Group)",
@@ -4891,7 +4942,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 95
+     "rank": 96
     },
     {
      "name": "Sygnum",
@@ -4942,7 +4993,7 @@
       "dynamic_client_registration": true,
       "agentic_commerce": false
      },
-     "rank": 96
+     "rank": 97
     },
     {
      "name": "SIMBA Chain",
@@ -4993,7 +5044,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 97
+     "rank": 98
     },
     {
      "name": "Arkham",
@@ -5045,7 +5096,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 98
+     "rank": 99
     },
     {
      "name": "Octav",
@@ -5097,7 +5148,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 99
+     "rank": 100
     },
     {
      "name": "Payrails",
@@ -5156,7 +5207,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 100
+     "rank": 101
     },
     {
      "name": "Binance.US",
@@ -5208,7 +5259,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 101
+     "rank": 102
     },
     {
      "name": "Luno",
@@ -5260,7 +5311,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 102
+     "rank": 103
     },
     {
      "name": "Trust Payments",
@@ -5319,7 +5370,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 103
+     "rank": 104
     },
     {
      "name": "Tensor",
@@ -5371,7 +5422,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 104
+     "rank": 105
     },
     {
      "name": "Ramp Network",
@@ -5429,7 +5480,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 105
+     "rank": 106
     },
     {
      "name": "MetaLend",
@@ -5481,7 +5532,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 106
+     "rank": 107
     },
     {
      "name": "Safello",
@@ -5533,7 +5584,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 107
+     "rank": 108
     },
     {
      "name": "Conduit",
@@ -5578,7 +5629,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 108
+     "rank": 109
     },
     {
      "name": "CryptoCompare",
@@ -5630,7 +5681,7 @@
       "dynamic_client_registration": true,
       "agentic_commerce": false
      },
-     "rank": 109
+     "rank": 110
     },
     {
      "name": "Fipto",
@@ -5696,7 +5747,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 110
+     "rank": 111
     },
     {
      "name": "Ansa",
@@ -5748,7 +5799,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 111
+     "rank": 112
     },
     {
      "name": "Deutsche Börse",
@@ -5800,7 +5851,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 112
+     "rank": 113
     },
     {
      "name": "Mercado Pago",
@@ -5852,7 +5903,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 113
+     "rank": 114
     },
     {
      "name": "Halliday",
@@ -5904,7 +5955,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 114
+     "rank": 115
     },
     {
      "name": "Shift4",
@@ -5956,7 +6007,7 @@
       "dynamic_client_registration": true,
       "agentic_commerce": false
      },
-     "rank": 115
+     "rank": 116
     },
     {
      "name": "Ava Labs",
@@ -6001,7 +6052,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 116
+     "rank": 117
     },
     {
      "name": "Dynamic",
@@ -6053,7 +6104,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 117
+     "rank": 118
     },
     {
      "name": "Silverflow",
@@ -6104,7 +6155,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 118
+     "rank": 119
     },
     {
      "name": "Ostium Labs",
@@ -6156,7 +6207,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 119
+     "rank": 120
     },
     {
      "name": "OpenSea",
@@ -6208,7 +6259,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 120
+     "rank": 121
     },
     {
      "name": "Paxos",
@@ -6260,7 +6311,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 121
+     "rank": 122
     },
     {
      "name": "Defined",
@@ -6312,7 +6363,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 122
+     "rank": 123
     },
     {
      "name": "Kyber Network",
@@ -6364,7 +6415,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 123
+     "rank": 124
     },
     {
      "name": "Citcon",
@@ -6416,7 +6467,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 124
+     "rank": 125
     },
     {
      "name": "CoinGecko",
@@ -6468,7 +6519,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 125
+     "rank": 126
     },
     {
      "name": "Nym Technologies",
@@ -6513,7 +6564,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 126
+     "rank": 127
     },
     {
      "name": "Malga",
@@ -6565,7 +6616,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 127
+     "rank": 128
     },
     {
      "name": "MoMo",
@@ -6616,7 +6667,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 128
+     "rank": 129
     },
     {
      "name": "Optimism Etherscan",
@@ -6661,7 +6712,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 129
+     "rank": 130
     },
     {
      "name": "Algorand",
@@ -6706,7 +6757,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 130
+     "rank": 131
     },
     {
      "name": "tZERO",
@@ -6757,7 +6808,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 131
+     "rank": 132
     },
     {
      "name": "Bridge",
@@ -6809,7 +6860,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 132
+     "rank": 133
     },
     {
      "name": "EOD Historical Data",
@@ -6861,7 +6912,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 133
+     "rank": 134
     },
     {
      "name": "Cardstream",
@@ -6920,7 +6971,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 134
+     "rank": 135
     },
     {
      "name": "Sponge",
@@ -6972,7 +7023,7 @@
       "dynamic_client_registration": true,
       "agentic_commerce": false
      },
-     "rank": 135
+     "rank": 136
     },
     {
      "name": "Pyth",
@@ -7024,7 +7075,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 136
+     "rank": 137
     },
     {
      "name": "Supra",
@@ -7075,7 +7126,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 137
+     "rank": 138
     },
     {
      "name": "Kuru",
@@ -7127,7 +7178,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 138
+     "rank": 139
     },
     {
      "name": "Nopan",
@@ -7186,7 +7237,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 139
+     "rank": 140
     },
     {
      "name": "Coins.ph",
@@ -7238,7 +7289,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 140
+     "rank": 141
     },
     {
      "name": "tastytrade",
@@ -7290,7 +7341,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 141
+     "rank": 142
     },
     {
      "name": "Triton One",
@@ -7335,7 +7386,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 142
+     "rank": 143
     },
     {
      "name": "ACI Worldwide",
@@ -7394,7 +7445,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 143
+     "rank": 144
     },
     {
      "name": "Fiat Republic",
@@ -7453,7 +7504,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 144
+     "rank": 145
     },
     {
      "name": "N3XT",
@@ -7505,7 +7556,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 145
+     "rank": 146
     },
     {
      "name": "Acinq",
@@ -7556,7 +7607,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 146
+     "rank": 147
     },
     {
      "name": "Linea",
@@ -7601,7 +7652,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 147
+     "rank": 148
     },
     {
      "name": "Roivant Sciences",
@@ -7653,7 +7704,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 148
+     "rank": 149
     },
     {
      "name": "B3",
@@ -7705,7 +7756,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 149
+     "rank": 150
     },
     {
      "name": "Totalis",
@@ -7757,7 +7808,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 150
+     "rank": 151
     },
     {
      "name": "Cadana",
@@ -7809,7 +7860,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 151
+     "rank": 152
     },
     {
      "name": "Oumla Ltd",
@@ -7861,7 +7912,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 152
+     "rank": 153
     },
     {
      "name": "PayEngine",
@@ -7912,7 +7963,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 153
+     "rank": 154
     },
     {
      "name": "Arbiscan",
@@ -7957,7 +8008,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 154
+     "rank": 155
     },
     {
      "name": "Bitpanda",
@@ -8016,7 +8067,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 155
+     "rank": 156
     },
     {
      "name": "Blockfrost",
@@ -8061,7 +8112,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 156
+     "rank": 157
     },
     {
      "name": "Cubist",
@@ -8113,7 +8164,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 157
+     "rank": 158
     },
     {
      "name": "Dialect",
@@ -8165,7 +8216,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 158
+     "rank": 159
     },
     {
      "name": "Dinari",
@@ -8217,7 +8268,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 159
+     "rank": 160
     },
     {
      "name": "Augustus",
@@ -8269,7 +8320,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 160
+     "rank": 161
     },
     {
      "name": "CipherOwl",
@@ -8314,7 +8365,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 161
+     "rank": 162
     },
     {
      "name": "Kusama",
@@ -8359,7 +8410,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 162
+     "rank": 163
     },
     {
      "name": "Gauntlet",
@@ -8404,7 +8455,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 163
+     "rank": 164
     },
     {
      "name": "Hifi",
@@ -8456,7 +8507,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 164
+     "rank": 165
     },
     {
      "name": "Merit Systems",
@@ -8508,7 +8559,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 165
+     "rank": 166
     },
     {
      "name": "TRM Labs",
@@ -8553,7 +8604,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 166
+     "rank": 167
     },
     {
      "name": "0G Labs",
@@ -8598,7 +8649,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 167
+     "rank": 168
     },
     {
      "name": "Apple Pay",
@@ -8650,7 +8701,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 168
+     "rank": 169
     },
     {
      "name": "BTC War Live Market Data API",
@@ -8702,7 +8753,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 169
+     "rank": 170
     },
     {
      "name": "CryptoNews API",
@@ -8754,7 +8805,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 170
+     "rank": 171
     },
     {
      "name": "NALA",
@@ -8806,7 +8857,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 171
+     "rank": 172
     },
     {
      "name": "Unlock Protocol",
@@ -8858,7 +8909,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 172
+     "rank": 173
     },
     {
      "name": "Avalanche",
@@ -8903,7 +8954,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 173
+     "rank": 174
     },
     {
      "name": "Flexa",
@@ -8955,7 +9006,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 174
+     "rank": 175
     },
     {
      "name": "Amazon QLDB",
@@ -9000,7 +9051,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 175
+     "rank": 176
     },
     {
      "name": "Blockdaemon",
@@ -9052,7 +9103,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 176
+     "rank": 177
     },
     {
      "name": "Figment",
@@ -9097,7 +9148,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 177
+     "rank": 178
     },
     {
      "name": "Uniswap",
@@ -9149,7 +9200,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 178
+     "rank": 179
     },
     {
      "name": "PayU",
@@ -9201,7 +9252,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 179
+     "rank": 180
     },
     {
      "name": "Numerai",
@@ -9246,7 +9297,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 180
+     "rank": 181
     },
     {
      "name": "CoinList",
@@ -9298,7 +9349,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 181
+     "rank": 182
     },
     {
      "name": "Mammoth Media",
@@ -9350,7 +9401,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 182
+     "rank": 183
     },
     {
      "name": "Overflow",
@@ -9402,7 +9453,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 183
+     "rank": 184
     },
     {
      "name": "Deribit",
@@ -9454,7 +9505,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 184
+     "rank": 185
     },
     {
      "name": "Jito Labs",
@@ -9499,7 +9550,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 185
+     "rank": 186
     },
     {
      "name": "Polymarket",
@@ -9551,7 +9602,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 186
+     "rank": 187
     },
     {
      "name": "Walrus Protocol",
@@ -9596,7 +9647,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 187
+     "rank": 188
     },
     {
      "name": "Worldpay",
@@ -9648,7 +9699,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 188
+     "rank": 189
     },
     {
      "name": "Horizon Blockchain Games",
@@ -9700,7 +9751,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 189
+     "rank": 190
     },
     {
      "name": "Caliza",
@@ -9752,7 +9803,7 @@
       "dynamic_client_registration": true,
       "agentic_commerce": false
      },
-     "rank": 190
+     "rank": 191
     },
     {
      "name": "Optimism",
@@ -9797,7 +9848,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 191
+     "rank": 192
     },
     {
      "name": "Pimlico",
@@ -9849,7 +9900,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 192
+     "rank": 193
     },
     {
      "name": "Rarible",
@@ -9901,7 +9952,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 193
+     "rank": 194
     },
     {
      "name": "CME Group",
@@ -9953,7 +10004,7 @@
       "dynamic_client_registration": true,
       "agentic_commerce": false
      },
-     "rank": 194
+     "rank": 195
     },
     {
      "name": "Digital Asset",
@@ -9998,7 +10049,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 195
+     "rank": 196
     },
     {
      "name": "Arweave",
@@ -10043,7 +10094,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 196
+     "rank": 197
     },
     {
      "name": "MEXC",
@@ -10095,7 +10146,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 197
+     "rank": 198
     },
     {
      "name": "Orderly Network",
@@ -10147,7 +10198,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 198
+     "rank": 199
     },
     {
      "name": "Coinbase Global",
@@ -10199,7 +10250,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 199
+     "rank": 200
     },
     {
      "name": "Finage",
@@ -10251,7 +10302,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 200
+     "rank": 201
     },
     {
      "name": "Tesser",
@@ -10303,7 +10354,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 201
+     "rank": 202
     },
     {
      "name": "Pixelfed",
@@ -10348,7 +10399,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 202
+     "rank": 203
     },
     {
      "name": "LianLian Global",
@@ -10400,7 +10451,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 203
+     "rank": 204
     },
     {
      "name": "Magic Eden",
@@ -10445,7 +10496,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 204
+     "rank": 205
     },
     {
      "name": "Google Wallet",
@@ -10497,7 +10548,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 205
+     "rank": 206
     },
     {
      "name": "Sentio",
@@ -10542,7 +10593,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 206
+     "rank": 207
     },
     {
      "name": "Stellar",
@@ -10594,7 +10645,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 207
+     "rank": 208
     },
     {
      "name": "Request Finance",
@@ -10646,7 +10697,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 208
+     "rank": 209
     },
     {
      "name": "Revolut",
@@ -10705,7 +10756,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 209
+     "rank": 210
     },
     {
      "name": "OpenNode",
@@ -10757,7 +10808,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 210
+     "rank": 211
     },
     {
      "name": "dxFeed",
@@ -10809,7 +10860,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 211
+     "rank": 212
     },
     {
      "name": "Linq.gg",
@@ -10861,7 +10912,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 212
+     "rank": 213
     },
     {
      "name": "Bitski",
@@ -10913,7 +10964,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 213
+     "rank": 214
     },
     {
      "name": "Bullet",
@@ -10965,7 +11016,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 214
+     "rank": 215
     },
     {
      "name": "CoinGate",
@@ -11017,7 +11068,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 215
+     "rank": 216
     },
     {
      "name": "Finnhub",
@@ -11069,7 +11120,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 216
+     "rank": 217
     },
     {
      "name": "Robinhood",
@@ -11121,7 +11172,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 217
+     "rank": 218
     },
     {
      "name": "AT Protocol",
@@ -11166,7 +11217,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 218
+     "rank": 219
     },
     {
      "name": "EBANX",
@@ -11218,7 +11269,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 219
+     "rank": 220
     },
     {
      "name": "OKX",
@@ -11270,7 +11321,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 220
+     "rank": 221
     },
     {
      "name": "Pocket Network",
@@ -11315,7 +11366,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 221
+     "rank": 222
     },
     {
      "name": "TradeStation",
@@ -11367,7 +11418,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 222
+     "rank": 223
     },
     {
      "name": "Basescan",
@@ -11412,7 +11463,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 223
+     "rank": 224
     },
     {
      "name": "Loon Finance",
@@ -11464,7 +11515,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 224
+     "rank": 225
     },
     {
      "name": "Mangopay",
@@ -11516,7 +11567,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 225
+     "rank": 226
     },
     {
      "name": "Tiingo",
@@ -11568,7 +11619,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 226
+     "rank": 227
     },
     {
      "name": "Bitbond",
@@ -11627,7 +11678,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 227
+     "rank": 228
     },
     {
      "name": "Pred",
@@ -11679,7 +11730,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 228
+     "rank": 229
     },
     {
      "name": "Akash Network",
@@ -11724,7 +11775,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 229
+     "rank": 230
     },
     {
      "name": "BCB Group",
@@ -11776,7 +11827,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 230
+     "rank": 231
     },
     {
      "name": "Coinbase",
@@ -11828,7 +11879,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 231
+     "rank": 232
     },
     {
      "name": "LBank",
@@ -11880,7 +11931,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 232
+     "rank": 233
     },
     {
      "name": "Parafi",
@@ -11932,7 +11983,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 233
+     "rank": 234
     },
     {
      "name": "Lido Finance",
@@ -11977,7 +12028,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 234
+     "rank": 235
     },
     {
      "name": "Anchorage Digital",
@@ -12029,7 +12080,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 235
+     "rank": 236
     },
     {
      "name": "WealthVille — DeFi Liquidity Pool Scores API (Solana & EVM)",
@@ -12074,7 +12125,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 236
+     "rank": 237
     },
     {
      "name": "Zircuit",
@@ -12119,7 +12170,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 237
+     "rank": 238
     },
     {
      "name": "Ava Protocol",
@@ -12171,7 +12222,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 238
+     "rank": 239
     },
     {
      "name": "Coinbase Commerce",
@@ -12223,7 +12274,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 239
+     "rank": 240
     },
     {
      "name": "Sfox",
@@ -12275,7 +12326,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 240
+     "rank": 241
     },
     {
      "name": "Blackbird",
@@ -12327,7 +12378,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 241
+     "rank": 242
     },
     {
      "name": "Obol",
@@ -12372,7 +12423,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 242
+     "rank": 243
     },
     {
      "name": "Radicle",
@@ -12417,7 +12468,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 243
+     "rank": 244
     },
     {
      "name": "eWAY",
@@ -12469,7 +12520,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 244
+     "rank": 245
     },
     {
      "name": "Syndicate",
@@ -12521,7 +12572,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 245
+     "rank": 246
     },
     {
      "name": "Agora",
@@ -12573,7 +12624,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 246
+     "rank": 247
     },
     {
      "name": "Sahara AI",
@@ -12618,7 +12669,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 247
+     "rank": 248
     },
     {
      "name": "Coin Metrics",
@@ -12670,7 +12721,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 248
+     "rank": 249
     },
     {
      "name": "LegendTrade",
@@ -12722,7 +12773,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 249
+     "rank": 250
     },
     {
      "name": "Transpose",
@@ -12767,7 +12818,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 250
+     "rank": 251
     },
     {
      "name": "BitFury",
@@ -12812,7 +12863,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 251
+     "rank": 252
     },
     {
      "name": "OpenWallet Foundation",
@@ -12864,7 +12915,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 252
+     "rank": 253
     },
     {
      "name": "zkSync",
@@ -12909,7 +12960,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 253
+     "rank": 254
     },
     {
      "name": "Bluesky",
@@ -12954,7 +13005,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 254
+     "rank": 255
     },
     {
      "name": "FinancialData.Net",
@@ -13005,7 +13056,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 255
+     "rank": 256
     },
     {
      "name": "Safe (Gnosis Safe)",
@@ -13057,7 +13108,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 256
+     "rank": 257
     },
     {
      "name": "Gunzilla Games",
@@ -13102,7 +13153,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 257
+     "rank": 258
     },
     {
      "name": "Lemon Cash",
@@ -13154,7 +13205,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 258
+     "rank": 259
     },
     {
      "name": "Mudrex",
@@ -13206,7 +13257,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 259
+     "rank": 260
     },
     {
      "name": "Securitize",
@@ -13258,7 +13309,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 260
+     "rank": 261
     },
     {
      "name": "AltoIRA",
@@ -13303,7 +13354,7 @@
       "dynamic_client_registration": true,
       "agentic_commerce": false
      },
-     "rank": 261
+     "rank": 262
     },
     {
      "name": "API3",
@@ -13348,7 +13399,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 262
+     "rank": 263
     },
     {
      "name": "Hedera",
@@ -13393,7 +13444,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 263
+     "rank": 264
     },
     {
      "name": "Block",
@@ -13445,7 +13496,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 264
+     "rank": 265
     },
     {
      "name": "D3",
@@ -13490,7 +13541,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 265
+     "rank": 266
     },
     {
      "name": "LooksRare",
@@ -13535,7 +13586,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 266
+     "rank": 267
     },
     {
      "name": "TronZap",
@@ -13586,7 +13637,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 267
+     "rank": 268
     },
     {
      "name": "Forta",
@@ -13631,7 +13682,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 268
+     "rank": 269
     },
     {
      "name": "Circle",
@@ -13683,7 +13734,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 269
+     "rank": 270
     },
     {
      "name": "Mysten Labs",
@@ -13728,7 +13779,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 270
+     "rank": 271
     },
     {
      "name": "Recall Labs",
@@ -13780,7 +13831,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 271
+     "rank": 272
     },
     {
      "name": "Aleo",
@@ -13825,7 +13876,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 272
+     "rank": 273
     },
     {
      "name": "CoinSwitch",
@@ -13877,7 +13928,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 273
+     "rank": 274
     },
     {
      "name": "Consensys",
@@ -13929,7 +13980,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 274
+     "rank": 275
     },
     {
      "name": "Enso",
@@ -13974,7 +14025,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 275
+     "rank": 276
     },
     {
      "name": "Tesseract",
@@ -14019,7 +14070,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 276
+     "rank": 277
     },
     {
      "name": "TOP Group (The Open Platform)",
@@ -14071,7 +14122,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 277
+     "rank": 278
     },
     {
      "name": "M 0",
@@ -14123,7 +14174,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 278
+     "rank": 279
     },
     {
      "name": "Recall",
@@ -14167,7 +14218,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 279
+     "rank": 280
     },
     {
      "name": "Injective",
@@ -14219,7 +14270,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 280
+     "rank": 281
     },
     {
      "name": "Shapeshift",
@@ -14271,7 +14322,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 281
+     "rank": 282
     },
     {
      "name": "Hyperbeat",
@@ -14316,7 +14367,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 282
+     "rank": 283
     },
     {
      "name": "Nexus Mutual",
@@ -14368,7 +14419,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 283
+     "rank": 284
     },
     {
      "name": "Sequence Markets",
@@ -14420,7 +14471,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 284
+     "rank": 285
     },
     {
      "name": "Autonomys",
@@ -14465,7 +14516,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 285
+     "rank": 286
     },
     {
      "name": "Bakkt",
@@ -14517,7 +14568,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 286
+     "rank": 287
     },
     {
      "name": "B3 (Brasil Bolsa Balcão)",
@@ -14569,7 +14620,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 287
+     "rank": 288
     },
     {
      "name": "BscScan",
@@ -14613,7 +14664,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 288
+     "rank": 289
     },
     {
      "name": "M0",
@@ -14665,7 +14716,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 289
+     "rank": 290
     },
     {
      "name": "Pintu",
@@ -14717,7 +14768,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 290
+     "rank": 291
     },
     {
      "name": "Due",
@@ -14769,7 +14820,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 291
+     "rank": 292
     },
     {
      "name": "CurrencyBeacon",
@@ -14814,7 +14865,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 292
+     "rank": 293
     },
     {
      "name": "Dynamic",
@@ -14866,7 +14917,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 293
+     "rank": 294
     },
     {
      "name": "Cardano",
@@ -14911,7 +14962,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 294
+     "rank": 295
     },
     {
      "name": "ETHGas",
@@ -14963,7 +15014,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 295
+     "rank": 296
     },
     {
      "name": "Visa",
@@ -15015,7 +15066,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 296
+     "rank": 297
     },
     {
      "name": "CrunchDAO",
@@ -15060,7 +15111,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 297
+     "rank": 298
     },
     {
      "name": "Cryptomus",
@@ -15112,7 +15163,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 298
+     "rank": 299
     },
     {
      "name": "Nestcoin",
@@ -15164,7 +15215,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 299
+     "rank": 300
     },
     {
      "name": "Thredd",
@@ -15223,7 +15274,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 300
+     "rank": 301
     },
     {
      "name": "Binance",
@@ -15275,7 +15326,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 301
+     "rank": 302
     },
     {
      "name": "Routescan (Snowtrace)",
@@ -15320,7 +15371,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 302
+     "rank": 303
     },
     {
      "name": "Squads",
@@ -15371,7 +15422,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 303
+     "rank": 304
     },
     {
      "name": "Skyflow",
@@ -15434,7 +15485,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 304
+     "rank": 305
     },
     {
      "name": "Mobula",
@@ -15486,7 +15537,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 305
+     "rank": 306
     },
     {
      "name": "Upbit",
@@ -15538,7 +15589,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 306
+     "rank": 307
     },
     {
      "name": "BitPay",
@@ -15590,7 +15641,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 307
+     "rank": 308
     },
     {
      "name": "FastForex",
@@ -15642,7 +15693,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 308
+     "rank": 309
     },
     {
      "name": "PancakeSwap",
@@ -15694,7 +15745,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 309
+     "rank": 310
     },
     {
      "name": "ThunderCore",
@@ -15739,7 +15790,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 310
+     "rank": 311
     },
     {
      "name": "Very Good Security",
@@ -15791,7 +15842,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 311
+     "rank": 312
     },
     {
      "name": "Merkle Science",
@@ -15836,7 +15887,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 312
+     "rank": 313
     },
     {
      "name": "Paidy",
@@ -15888,7 +15939,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 313
+     "rank": 314
     },
     {
      "name": "Re",
@@ -15939,7 +15990,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 314
+     "rank": 315
     },
     {
      "name": "Exponential",
@@ -15984,7 +16035,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 315
+     "rank": 316
     },
     {
      "name": "Reachware Inc.",
@@ -16036,7 +16087,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 316
+     "rank": 317
     },
     {
      "name": "Eco",
@@ -16088,7 +16139,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 317
+     "rank": 318
     },
     {
      "name": "Terminal 3",
@@ -16132,7 +16183,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 318
+     "rank": 319
     },
     {
      "name": "Akash Network",
@@ -16177,7 +16228,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 319
+     "rank": 320
     },
     {
      "name": "Google Pay",
@@ -16229,7 +16280,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 320
+     "rank": 321
     },
     {
      "name": "Pendle",
@@ -16274,7 +16325,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 321
+     "rank": 322
     },
     {
      "name": "Sequence",
@@ -16326,7 +16377,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 322
+     "rank": 323
     },
     {
      "name": "Diaspora",
@@ -16371,7 +16422,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 323
+     "rank": 324
     },
     {
      "name": "Epoint",
@@ -16423,7 +16474,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 324
+     "rank": 325
     },
     {
      "name": "Forum",
@@ -16475,7 +16526,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 325
+     "rank": 326
     },
     {
      "name": "Gala Games",
@@ -16527,7 +16578,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 326
+     "rank": 327
     },
     {
      "name": "Cobre",
@@ -16579,7 +16630,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 327
+     "rank": 328
     },
     {
      "name": "Routefusion",
@@ -16631,7 +16682,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 328
+     "rank": 329
     },
     {
      "name": "Anchorage Digital",
@@ -16683,7 +16734,7 @@
       "dynamic_client_registration": true,
       "agentic_commerce": false
      },
-     "rank": 329
+     "rank": 330
     },
     {
      "name": "Bitnomial",
@@ -16735,7 +16786,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 330
+     "rank": 331
     },
     {
      "name": "PolygonScan",
@@ -16780,7 +16831,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 331
+     "rank": 332
     },
     {
      "name": "Filebase",
@@ -16825,7 +16876,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 332
+     "rank": 333
     },
     {
      "name": "Kamino",
@@ -16870,7 +16921,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 333
+     "rank": 334
     },
     {
      "name": "Quadrata",
@@ -16921,7 +16972,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 334
+     "rank": 335
     },
     {
      "name": "Targon",
@@ -16965,7 +17016,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 335
+     "rank": 336
     },
     {
      "name": "TaxBit",
@@ -17010,7 +17061,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 336
+     "rank": 337
     },
     {
      "name": "Figure Technology Solutions",
@@ -17055,7 +17106,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 337
+     "rank": 338
     },
     {
      "name": "TMX Group",
@@ -17107,7 +17158,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 338
+     "rank": 339
     },
     {
      "name": "BTCPay Server",
@@ -17159,7 +17210,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 339
+     "rank": 340
     },
     {
      "name": "Hevn Inc",
@@ -17211,7 +17262,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 340
+     "rank": 341
     },
     {
      "name": "Pave Bank",
@@ -17263,7 +17314,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 341
+     "rank": 342
     },
     {
      "name": "Surf",
@@ -17314,7 +17365,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 342
+     "rank": 343
     },
     {
      "name": "Tristero",
@@ -17365,7 +17416,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 343
+     "rank": 344
     },
     {
      "name": "Hibachi",
@@ -17417,7 +17468,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 344
+     "rank": 345
     },
     {
      "name": "Seismic Systems",
@@ -17461,7 +17512,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 345
+     "rank": 346
     },
     {
      "name": "DFlow",
@@ -17513,7 +17564,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 346
+     "rank": 347
     },
     {
      "name": "Euler Finance",
@@ -17558,7 +17609,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 347
+     "rank": 348
     },
     {
      "name": "Fin",
@@ -17610,7 +17661,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 348
+     "rank": 349
     },
     {
      "name": "The Token Company",
@@ -17655,7 +17706,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 349
+     "rank": 350
     },
     {
      "name": "Elliptic",
@@ -17707,7 +17758,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 350
+     "rank": 351
     },
     {
      "name": "Tendermint",
@@ -17752,7 +17803,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 351
+     "rank": 352
     },
     {
      "name": "Unstoppable Domains",
@@ -17797,7 +17848,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 352
+     "rank": 353
     },
     {
      "name": "Arbitrum",
@@ -17842,7 +17893,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 353
+     "rank": 354
     },
     {
      "name": "Cosmos",
@@ -17887,7 +17938,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 354
+     "rank": 355
     }
    ]
   },
@@ -17942,7 +17993,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 355
+     "rank": 356
     },
     {
      "name": "bloXroute",
@@ -17994,7 +18045,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 356
+     "rank": 357
     },
     {
      "name": "InfStones",
@@ -18039,7 +18090,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 357
+     "rank": 358
     },
     {
      "name": "Sapien",
@@ -18083,7 +18134,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 358
+     "rank": 359
     },
     {
      "name": "Tezos",
@@ -18128,7 +18179,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 359
+     "rank": 360
     },
     {
      "name": "Xignite",
@@ -18180,7 +18231,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 360
+     "rank": 361
     },
     {
      "name": "1Forge",
@@ -18232,7 +18283,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 361
+     "rank": 362
     },
     {
      "name": "Korbit",
@@ -18284,7 +18335,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 362
+     "rank": 363
     },
     {
      "name": "CyberSource",
@@ -18336,7 +18387,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 363
+     "rank": 364
     },
     {
      "name": "Turnkey",
@@ -18388,7 +18439,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 364
+     "rank": 365
     },
     {
      "name": "XMTP",
@@ -18440,7 +18491,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 365
+     "rank": 366
     },
     {
      "name": "Bitstamp",
@@ -18492,7 +18543,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 366
+     "rank": 367
     },
     {
      "name": "Rho Protocol",
@@ -18543,7 +18594,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 367
+     "rank": 368
     },
     {
      "name": "Starkware",
@@ -18587,7 +18638,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 368
+     "rank": 369
     },
     {
      "name": "Visa Acceptance",
@@ -18639,7 +18690,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 369
+     "rank": 370
     },
     {
      "name": "Hyperliquid",
@@ -18691,7 +18742,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 370
+     "rank": 371
     },
     {
      "name": "Tweed",
@@ -18742,7 +18793,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 371
+     "rank": 372
     },
     {
      "name": "WAODAO",
@@ -18786,7 +18837,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 372
+     "rank": 373
     },
     {
      "name": "Babylon Labs",
@@ -18831,7 +18882,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 373
+     "rank": 374
     },
     {
      "name": "Blockaid",
@@ -18883,7 +18934,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 374
+     "rank": 375
     },
     {
      "name": "Boost",
@@ -18928,7 +18979,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 375
+     "rank": 376
     },
     {
      "name": "Hegic",
@@ -18980,7 +19031,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 376
+     "rank": 377
     },
     {
      "name": "Orca",
@@ -19025,7 +19076,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 377
+     "rank": 378
     },
     {
      "name": "_done",
@@ -19076,7 +19127,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 378
+     "rank": 379
     },
     {
      "name": "BRL",
@@ -19128,7 +19179,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 379
+     "rank": 380
     },
     {
      "name": "Monad",
@@ -19173,7 +19224,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 380
+     "rank": 381
     },
     {
      "name": "Nervos",
@@ -19217,7 +19268,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 381
+     "rank": 382
     },
     {
      "name": "Neynar",
@@ -19262,7 +19313,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 382
+     "rank": 383
     },
     {
      "name": "Public",
@@ -19313,7 +19364,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 383
+     "rank": 384
     },
     {
      "name": "RockSolid",
@@ -19357,7 +19408,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 384
+     "rank": 385
     },
     {
      "name": "Rugspull Read API",
@@ -19401,7 +19452,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 385
+     "rank": 386
     },
     {
      "name": "SuperRare",
@@ -19446,7 +19497,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 386
+     "rank": 387
     },
     {
      "name": "Blockchain.com",
@@ -19498,7 +19549,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 387
+     "rank": 388
     },
     {
      "name": "Kalshi",
@@ -19550,7 +19601,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 388
+     "rank": 389
     },
     {
      "name": "Paymentus",
@@ -19608,7 +19659,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 389
+     "rank": 390
     },
     {
      "name": "Rain",
@@ -19659,7 +19710,7 @@
       "dynamic_client_registration": true,
       "agentic_commerce": false
      },
-     "rank": 390
+     "rank": 391
     },
     {
      "name": "AVORA Agent Forge",
@@ -19710,7 +19761,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 391
+     "rank": 392
     },
     {
      "name": "DMarket",
@@ -19762,7 +19813,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 392
+     "rank": 393
     },
     {
      "name": "Dapper Labs",
@@ -19807,7 +19858,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 393
+     "rank": 394
     },
     {
      "name": "Flashbots",
@@ -19852,7 +19903,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 394
+     "rank": 395
     },
     {
      "name": "Blockchair",
@@ -19896,7 +19947,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 395
+     "rank": 396
     },
     {
      "name": "Syndica",
@@ -19941,7 +19992,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 396
+     "rank": 397
     },
     {
      "name": "Uniblock",
@@ -19986,7 +20037,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 397
+     "rank": 398
     },
     {
      "name": "Veem",
@@ -20038,7 +20089,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 398
+     "rank": 399
     },
     {
      "name": "Hivemapper",
@@ -20083,7 +20134,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 399
+     "rank": 400
     },
     {
      "name": "Polkadot",
@@ -20128,7 +20179,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 400
+     "rank": 401
     },
     {
      "name": "Blocktorch",
@@ -20173,7 +20224,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 401
+     "rank": 402
     },
     {
      "name": "Chia Network",
@@ -20218,7 +20269,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 402
+     "rank": 403
     },
     {
      "name": "Zip",
@@ -20270,7 +20321,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 403
+     "rank": 404
     },
     {
      "name": "Polygon ID",
@@ -20315,7 +20366,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 404
+     "rank": 405
     },
     {
      "name": "Sorare",
@@ -20360,7 +20411,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 405
+     "rank": 406
     },
     {
      "name": "Flipside Crypto",
@@ -20405,7 +20456,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 406
+     "rank": 407
     },
     {
      "name": "Webull",
@@ -20456,7 +20507,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 407
+     "rank": 408
     },
     {
      "name": "BitGo",
@@ -20508,7 +20559,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 408
+     "rank": 409
     },
     {
      "name": "Bitso",
@@ -20560,7 +20611,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 409
+     "rank": 410
     },
     {
      "name": "Etherscan",
@@ -20605,7 +20656,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 410
+     "rank": 411
     },
     {
      "name": "Frostbyte",
@@ -20657,7 +20708,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 411
+     "rank": 412
     },
     {
      "name": "Blast",
@@ -20702,7 +20753,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 412
+     "rank": 413
     },
     {
      "name": "Classic",
@@ -20754,7 +20805,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 413
+     "rank": 414
     },
     {
      "name": "DeBank",
@@ -20806,7 +20857,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 414
+     "rank": 415
     },
     {
      "name": "Stablesea",
@@ -20857,7 +20908,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 415
+     "rank": 416
     },
     {
      "name": "Stooq",
@@ -20909,7 +20960,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 416
+     "rank": 417
     },
     {
      "name": "Consola Finance",
@@ -20954,7 +21005,7 @@
       "dynamic_client_registration": true,
       "agentic_commerce": false
      },
-     "rank": 417
+     "rank": 418
     },
     {
      "name": "HiPay",
@@ -21006,7 +21057,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 418
+     "rank": 419
     },
     {
      "name": "Dfns",
@@ -21058,7 +21109,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 419
+     "rank": 420
     },
     {
      "name": "NOWPayments",
@@ -21110,7 +21161,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 420
+     "rank": 421
     },
     {
      "name": "Omise",
@@ -21162,7 +21213,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 421
+     "rank": 422
     },
     {
      "name": "OpenMind",
@@ -21207,7 +21258,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 422
+     "rank": 423
     },
     {
      "name": "IDRX",
@@ -21259,7 +21310,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 423
+     "rank": 424
     },
     {
      "name": "Odos",
@@ -21304,7 +21355,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 424
+     "rank": 425
     },
     {
      "name": "Polygon.io",
@@ -21356,7 +21407,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 425
+     "rank": 426
     },
     {
      "name": "Teahouse Finance",
@@ -21400,7 +21451,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 426
+     "rank": 427
     },
     {
      "name": "WazirX",
@@ -21452,7 +21503,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 427
+     "rank": 428
     },
     {
      "name": "Fluence",
@@ -21497,7 +21548,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 428
+     "rank": 429
     },
     {
      "name": "Manifold",
@@ -21542,7 +21593,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 429
+     "rank": 430
     },
     {
      "name": "Synapse",
@@ -21587,7 +21638,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 430
+     "rank": 431
     },
     {
      "name": "thirdweb",
@@ -21639,7 +21690,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 431
+     "rank": 432
     },
     {
      "name": "Envio",
@@ -21684,7 +21735,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 432
+     "rank": 433
     },
     {
      "name": "Spacemesh",
@@ -21728,7 +21779,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 433
+     "rank": 434
     },
     {
      "name": "Chimoney",
@@ -21780,7 +21831,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 434
+     "rank": 435
     },
     {
      "name": "Dune Analytics",
@@ -21825,7 +21876,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 435
+     "rank": 436
     },
     {
      "name": "Galxe",
@@ -21870,7 +21921,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 436
+     "rank": 437
     },
     {
      "name": "Meter",
@@ -21915,7 +21966,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 437
+     "rank": 438
     },
     {
      "name": "Blowfish",
@@ -21967,7 +22018,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 438
+     "rank": 439
     },
     {
      "name": "Gameflip",
@@ -22019,7 +22070,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 439
+     "rank": 440
     },
     {
      "name": "Hummingbot",
@@ -22071,7 +22122,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 440
+     "rank": 441
     },
     {
      "name": "Yield.xyz",
@@ -22116,7 +22167,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 441
+     "rank": 442
     },
     {
      "name": "Footprint Analytics",
@@ -22161,7 +22212,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 442
+     "rank": 443
     },
     {
      "name": "Matter Labs",
@@ -22206,7 +22257,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 443
+     "rank": 444
     },
     {
      "name": "BNY (Bank of New York Mellon)",
@@ -22258,7 +22309,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 444
+     "rank": 445
     },
     {
      "name": "io.net",
@@ -22303,7 +22354,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 445
+     "rank": 446
     },
     {
      "name": "Mobilecoin",
@@ -22355,7 +22406,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 446
+     "rank": 447
     },
     {
      "name": "Phemex",
@@ -22407,7 +22458,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 447
+     "rank": 448
     },
     {
      "name": "Espresso",
@@ -22452,7 +22503,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 448
+     "rank": 449
     },
     {
      "name": "Vana",
@@ -22496,7 +22547,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 449
+     "rank": 450
     },
     {
      "name": "Axelar",
@@ -22541,7 +22592,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 450
+     "rank": 451
     },
     {
      "name": "Exactly Protocol",
@@ -22586,7 +22637,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 451
+     "rank": 452
     },
     {
      "name": "Gondi",
@@ -22631,7 +22682,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 452
+     "rank": 453
     },
     {
      "name": "Taurus",
@@ -22682,7 +22733,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 453
+     "rank": 454
     },
     {
      "name": "PayStand",
@@ -22734,7 +22785,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 454
+     "rank": 455
     },
     {
      "name": "Gate.io",
@@ -22786,7 +22837,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 455
+     "rank": 456
     },
     {
      "name": "Idle Finance",
@@ -22831,7 +22882,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 456
+     "rank": 457
     },
     {
      "name": "Bithumb",
@@ -22883,7 +22934,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 457
+     "rank": 458
     },
     {
      "name": "Breeze",
@@ -22935,7 +22986,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 458
+     "rank": 459
     },
     {
      "name": "Gallop",
@@ -22980,7 +23031,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 459
+     "rank": 460
     },
     {
      "name": "EDX Markets",
@@ -23032,7 +23083,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 460
+     "rank": 461
     },
     {
      "name": "EigenLayer",
@@ -23077,7 +23128,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 461
+     "rank": 462
     },
     {
      "name": "MetaDAO",
@@ -23129,7 +23180,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 462
+     "rank": 463
     },
     {
      "name": "ParaSwap",
@@ -23174,7 +23225,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 463
+     "rank": 464
     },
     {
      "name": "PayPay",
@@ -23226,7 +23277,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 464
+     "rank": 465
     },
     {
      "name": "PeerTube",
@@ -23271,7 +23322,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 465
+     "rank": 466
     },
     {
      "name": "Sky Mavis",
@@ -23322,7 +23373,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 466
+     "rank": 467
     },
     {
      "name": "Jupiter",
@@ -23367,7 +23418,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 467
+     "rank": 468
     },
     {
      "name": "Sui",
@@ -23412,7 +23463,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 468
+     "rank": 469
     },
     {
      "name": "SynFutures",
@@ -23463,7 +23514,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 469
+     "rank": 470
     },
     {
      "name": "Thought Machine",
@@ -23514,7 +23565,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 470
+     "rank": 471
     },
     {
      "name": "Brave",
@@ -23559,7 +23610,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 471
+     "rank": 472
     },
     {
      "name": "Helika",
@@ -23604,7 +23655,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 472
+     "rank": 473
     },
     {
      "name": "Monero",
@@ -23656,7 +23707,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 473
+     "rank": 474
     },
     {
      "name": "THORChain",
@@ -23707,7 +23758,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 474
+     "rank": 475
     },
     {
      "name": "Zora",
@@ -23752,7 +23803,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 475
+     "rank": 476
     },
     {
      "name": "Band Protocol",
@@ -23797,7 +23848,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 476
+     "rank": 477
     },
     {
      "name": "Capitalist",
@@ -23849,7 +23900,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 477
+     "rank": 478
     },
     {
      "name": "GMX",
@@ -23901,7 +23952,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 478
+     "rank": 479
     },
     {
      "name": "PowerTrade",
@@ -23952,7 +24003,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 479
+     "rank": 480
     },
     {
      "name": "Paysafe",
@@ -24004,7 +24055,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 480
+     "rank": 481
     },
     {
      "name": "Starknet",
@@ -24049,7 +24100,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 481
+     "rank": 482
     },
     {
      "name": "EOSIO",
@@ -24093,7 +24144,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 482
+     "rank": 483
     },
     {
      "name": "PayFast",
@@ -24145,7 +24196,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 483
+     "rank": 484
     },
     {
      "name": "Kite",
@@ -24197,7 +24248,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 484
+     "rank": 485
     },
     {
      "name": "Bitquery",
@@ -24242,7 +24293,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 485
+     "rank": 486
     },
     {
      "name": "eToro",
@@ -24294,7 +24345,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 486
+     "rank": 487
     },
     {
      "name": "OPay",
@@ -24346,7 +24397,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 487
+     "rank": 488
     },
     {
      "name": "Capital.com Public API",
@@ -24398,7 +24449,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 488
+     "rank": 489
     },
     {
      "name": "CryptoQuant",
@@ -24450,7 +24501,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 489
+     "rank": 490
     },
     {
      "name": "Morpho",
@@ -24495,7 +24546,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 490
+     "rank": 491
     },
     {
      "name": "QuickNode",
@@ -24540,7 +24591,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 491
+     "rank": 492
     },
     {
      "name": "CertiK",
@@ -24585,7 +24636,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 492
+     "rank": 493
     },
     {
      "name": "First Digital Trust",
@@ -24636,7 +24687,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 493
+     "rank": 494
     },
     {
      "name": "Lemonway",
@@ -24688,7 +24739,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 494
+     "rank": 495
     },
     {
      "name": "One Trading",
@@ -24740,7 +24791,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 495
+     "rank": 496
     },
     {
      "name": "Sila",
@@ -24791,7 +24842,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 496
+     "rank": 497
     },
     {
      "name": "Vault12",
@@ -24842,7 +24893,7 @@
       "dynamic_client_registration": true,
       "agentic_commerce": false
      },
-     "rank": 497
+     "rank": 498
     },
     {
      "name": "Gluwa",
@@ -24894,7 +24945,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 498
+     "rank": 499
     },
     {
      "name": "LedgerX (MIAX Derivatives Exchange)",
@@ -24946,7 +24997,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 499
+     "rank": 500
     },
     {
      "name": "Proof of Play",
@@ -24990,7 +25041,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 500
+     "rank": 501
     },
     {
      "name": "Succinct",
@@ -25034,7 +25085,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 501
+     "rank": 502
     },
     {
      "name": "Code",
@@ -25086,7 +25137,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 502
+     "rank": 503
     },
     {
      "name": "Morpho Labs",
@@ -25131,7 +25182,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 503
+     "rank": 504
     },
     {
      "name": "Alpaca",
@@ -25183,7 +25234,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 504
+     "rank": 505
     },
     {
      "name": "DerivaDEX",
@@ -25235,7 +25286,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 505
+     "rank": 506
     },
     {
      "name": "Ajaib",
@@ -25287,7 +25338,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 506
+     "rank": 507
     },
     {
      "name": "Freeverse",
@@ -25332,7 +25383,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 507
+     "rank": 508
     },
     {
      "name": "Loot Rush Games",
@@ -25384,7 +25435,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 508
+     "rank": 509
     },
     {
      "name": "Ribbon Finance",
@@ -25429,7 +25480,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 509
+     "rank": 510
     },
     {
      "name": "Scroll",
@@ -25474,7 +25525,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 510
+     "rank": 511
     },
     {
      "name": "Timeswap",
@@ -25518,7 +25569,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 511
+     "rank": 512
     },
     {
      "name": "AI Arena",
@@ -25563,7 +25614,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 512
+     "rank": 513
     },
     {
      "name": "DAZ 3D",
@@ -25607,7 +25658,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 513
+     "rank": 514
     },
     {
      "name": "Art Blocks",
@@ -25652,7 +25703,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 514
+     "rank": 515
     },
     {
      "name": "PayNearMe",
@@ -25704,7 +25755,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 515
+     "rank": 516
     },
     {
      "name": "SingularityNET",
@@ -25749,7 +25800,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 516
+     "rank": 517
     },
     {
      "name": "Superform",
@@ -25793,7 +25844,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 517
+     "rank": 518
     },
     {
      "name": "Jupiter",
@@ -25838,7 +25889,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 518
+     "rank": 519
     },
     {
      "name": "Shipyard Software",
@@ -25889,7 +25940,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 519
+     "rank": 520
     },
     {
      "name": "BanQu",
@@ -25934,7 +25985,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 520
+     "rank": 521
     },
     {
      "name": "Glassnode",
@@ -25979,7 +26030,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 521
+     "rank": 522
     },
     {
      "name": "Everclear",
@@ -26023,7 +26074,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 522
+     "rank": 523
     },
     {
      "name": "LootRush",
@@ -26075,7 +26126,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 523
+     "rank": 524
     },
     {
      "name": "Bigchaindb",
@@ -26120,7 +26171,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 524
+     "rank": 525
     },
     {
      "name": "Helius",
@@ -26165,7 +26216,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 525
+     "rank": 526
     },
     {
      "name": "Tenderly",
@@ -26210,7 +26261,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 526
+     "rank": 527
     },
     {
      "name": "Here Not There Labs",
@@ -26255,7 +26306,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 527
+     "rank": 528
     },
     {
      "name": "Immunefi",
@@ -26299,7 +26350,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 528
+     "rank": 529
     },
     {
      "name": "bKash",
@@ -26351,7 +26402,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 529
+     "rank": 530
     },
     {
      "name": "Chain",
@@ -26403,7 +26454,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 530
+     "rank": 531
     },
     {
      "name": "HTX",
@@ -26455,7 +26506,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 531
+     "rank": 532
     },
     {
      "name": "IPFS",
@@ -26500,7 +26551,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 532
+     "rank": 533
     },
     {
      "name": "Mezo",
@@ -26545,7 +26596,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 533
+     "rank": 534
     },
     {
      "name": "Filecoin",
@@ -26590,7 +26641,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 534
+     "rank": 535
     },
     {
      "name": "CyberConnect",
@@ -26635,7 +26686,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 535
+     "rank": 536
     },
     {
      "name": "DSCVR",
@@ -26680,7 +26731,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 536
+     "rank": 537
     },
     {
      "name": "Infura",
@@ -26725,7 +26776,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 537
+     "rank": 538
     },
     {
      "name": "Toucan",
@@ -26776,7 +26827,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 538
+     "rank": 539
     },
     {
      "name": "Bitwise",
@@ -26828,7 +26879,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 539
+     "rank": 540
     },
     {
      "name": "HKEX",
@@ -26880,7 +26931,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 540
+     "rank": 541
     },
     {
      "name": "Reown",
@@ -26932,7 +26983,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 541
+     "rank": 542
     },
     {
      "name": "GTE",
@@ -26984,7 +27035,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 542
+     "rank": 543
     },
     {
      "name": "XRP Ledger",
@@ -27029,7 +27080,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 543
+     "rank": 544
     },
     {
      "name": "Futureverse",
@@ -27074,7 +27125,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 544
+     "rank": 545
     },
     {
      "name": "Inspur Cloud",
@@ -27118,7 +27169,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 545
+     "rank": 546
     },
     {
      "name": "Mantle Network",
@@ -27163,7 +27214,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 546
+     "rank": 547
     },
     {
      "name": "Wormhole",
@@ -27208,7 +27259,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 547
+     "rank": 548
     },
     {
      "name": "Farcaster",
@@ -27253,7 +27304,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 548
+     "rank": 549
     },
     {
      "name": "Flow",
@@ -27298,7 +27349,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 549
+     "rank": 550
     },
     {
      "name": "Reservoir",
@@ -27350,7 +27401,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 550
+     "rank": 551
     },
     {
      "name": "Urbit",
@@ -27394,7 +27445,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 551
+     "rank": 552
     },
     {
      "name": "BitPowr Technologies, Inc.",
@@ -27446,7 +27497,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 552
+     "rank": 553
     },
     {
      "name": "Unto Labs",
@@ -27490,7 +27541,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 553
+     "rank": 554
     },
     {
      "name": "Alien",
@@ -27535,7 +27586,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 554
+     "rank": 555
     },
     {
      "name": "Dunamu",
@@ -27587,7 +27638,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 555
+     "rank": 556
     },
     {
      "name": "Ethena Labs",
@@ -27632,7 +27683,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 556
+     "rank": 557
     },
     {
      "name": "Everledger",
@@ -27677,7 +27728,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 557
+     "rank": 558
     },
     {
      "name": "Limit Break",
@@ -27722,7 +27773,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 558
+     "rank": 559
     },
     {
      "name": "Moralis",
@@ -27767,7 +27818,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 559
+     "rank": 560
     },
     {
      "name": "brapi",
@@ -27812,7 +27863,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 560
+     "rank": 561
     },
     {
      "name": "Electronx",
@@ -27864,7 +27915,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 561
+     "rank": 562
     },
     {
      "name": "Liquity",
@@ -27909,7 +27960,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 562
+     "rank": 563
     },
     {
      "name": "Mina",
@@ -27954,7 +28005,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 563
+     "rank": 564
     },
     {
      "name": "Overlay",
@@ -28006,7 +28057,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 564
+     "rank": 565
     },
     {
      "name": "Foundation",
@@ -28051,7 +28102,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 565
+     "rank": 566
     },
     {
      "name": "Venmo",
@@ -28102,7 +28153,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 566
+     "rank": 567
     },
     {
      "name": "Zcash",
@@ -28147,7 +28198,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 567
+     "rank": 568
     },
     {
      "name": "Blue Square Group Limited",
@@ -28199,7 +28250,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 568
+     "rank": 569
     },
     {
      "name": "Ethereum",
@@ -28244,7 +28295,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 569
+     "rank": 570
     },
     {
      "name": "LayerZero",
@@ -28289,7 +28340,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 570
+     "rank": 571
     },
     {
      "name": "SushiSwap",
@@ -28341,7 +28392,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 571
+     "rank": 572
     },
     {
      "name": "Chainlens",
@@ -28386,7 +28437,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 572
+     "rank": 573
     },
     {
      "name": "Alchemy",
@@ -28431,7 +28482,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 573
+     "rank": 574
     },
     {
      "name": "Celsius Network",
@@ -28483,7 +28534,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 574
+     "rank": 575
     },
     {
      "name": "Hypernative",
@@ -28527,7 +28578,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 575
+     "rank": 576
     },
     {
      "name": "DefiLlama",
@@ -28572,7 +28623,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 576
+     "rank": 577
     },
     {
      "name": "River Financial",
@@ -28623,7 +28674,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 577
+     "rank": 578
     },
     {
      "name": "1inch",
@@ -28668,7 +28719,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 578
+     "rank": 579
     },
     {
      "name": "Prestmit",
@@ -28720,7 +28771,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 579
+     "rank": 580
     },
     {
      "name": "Solscan",
@@ -28765,7 +28816,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 580
+     "rank": 581
     },
     {
      "name": "Matrix",
@@ -28810,7 +28861,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 581
+     "rank": 582
     },
     {
      "name": "Certora",
@@ -28855,7 +28906,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 582
+     "rank": 583
     },
     {
      "name": "Loop Crypto",
@@ -28906,7 +28957,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 583
+     "rank": 584
     },
     {
      "name": "Braintrust (Talent Network)",
@@ -28950,7 +29001,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 584
+     "rank": 585
     },
     {
      "name": "Together Labs",
@@ -28994,7 +29045,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 585
+     "rank": 586
     },
     {
      "name": "World (Worldcoin)",
@@ -29039,7 +29090,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 586
+     "rank": 587
     },
     {
      "name": "NFTgo",
@@ -29091,7 +29142,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 587
+     "rank": 588
     },
     {
      "name": "Privy",
@@ -29143,7 +29194,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 588
+     "rank": 589
     },
     {
      "name": "Self.ID",
@@ -29188,7 +29239,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 589
+     "rank": 590
     },
     {
      "name": "Tatum",
@@ -29240,7 +29291,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 590
+     "rank": 591
     },
     {
      "name": "Base",
@@ -29292,7 +29343,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 591
+     "rank": 592
     },
     {
      "name": "Bastion",
@@ -29344,7 +29395,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 592
+     "rank": 593
     },
     {
      "name": "Opyn",
@@ -29396,7 +29447,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 593
+     "rank": 594
     },
     {
      "name": "FalconX",
@@ -29448,7 +29499,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 594
+     "rank": 595
     },
     {
      "name": "Harmonic GG",
@@ -29493,7 +29544,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 595
+     "rank": 596
     },
     {
      "name": "Dopex",
@@ -29538,7 +29589,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 596
+     "rank": 597
     },
     {
      "name": "Euronext",
@@ -29590,7 +29641,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 597
+     "rank": 598
     },
     {
      "name": "Messari",
@@ -29635,7 +29686,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 598
+     "rank": 599
     },
     {
      "name": "Sei",
@@ -29687,7 +29738,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 599
+     "rank": 600
     },
     {
      "name": "Synthetix",
@@ -29739,7 +29790,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 600
+     "rank": 601
     },
     {
      "name": "Airstack",
@@ -29791,7 +29842,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 601
+     "rank": 602
     },
     {
      "name": "Pinata",
@@ -29836,7 +29887,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 602
+     "rank": 603
     },
     {
      "name": "Cometh",
@@ -29887,7 +29938,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 603
+     "rank": 604
     },
     {
      "name": "Hiro",
@@ -29932,7 +29983,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 604
+     "rank": 605
     },
     {
      "name": "Provenance",
@@ -29976,7 +30027,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 605
+     "rank": 606
     },
     {
      "name": "Origin Protocol",
@@ -30021,7 +30072,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 606
+     "rank": 607
     },
     {
      "name": "Dynamic",
@@ -30073,7 +30124,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 607
+     "rank": 608
     },
     {
      "name": "Frax Finance",
@@ -30118,7 +30169,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 608
+     "rank": 609
     },
     {
      "name": "Litecoin",
@@ -30170,7 +30221,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 609
+     "rank": 610
     },
     {
      "name": "Yearn Finance",
@@ -30215,7 +30266,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 610
+     "rank": 611
     },
     {
      "name": "LunarCrush",
@@ -30267,7 +30318,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 611
+     "rank": 612
     },
     {
      "name": "Audius",
@@ -30312,7 +30363,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 612
+     "rank": 613
     },
     {
      "name": "Perp",
@@ -30363,7 +30414,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 613
+     "rank": 614
     },
     {
      "name": "ZeroDev",
@@ -30415,7 +30466,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 614
+     "rank": 615
     },
     {
      "name": "JOBOX.ai",
@@ -30466,7 +30517,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 615
+     "rank": 616
     },
     {
      "name": "Nexo",
@@ -30518,7 +30569,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 616
+     "rank": 617
     },
     {
      "name": "Angle",
@@ -30563,7 +30614,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 617
+     "rank": 618
     },
     {
      "name": "Celo",
@@ -30615,7 +30666,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 618
+     "rank": 619
     },
     {
      "name": "Fawry",
@@ -30667,7 +30718,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 619
+     "rank": 620
     },
     {
      "name": "Story Protocol",
@@ -30711,7 +30762,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 620
+     "rank": 621
     },
     {
      "name": "BarnBridge",
@@ -30756,7 +30807,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 621
+     "rank": 622
     },
     {
      "name": "The Graph",
@@ -30801,7 +30852,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 622
+     "rank": 623
     },
     {
      "name": "Constellation Brands",
@@ -30846,7 +30897,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 623
+     "rank": 624
     },
     {
      "name": "Push Protocol",
@@ -30898,7 +30949,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 624
+     "rank": 625
     },
     {
      "name": "Sommelier",
@@ -30942,7 +30993,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 625
+     "rank": 626
     },
     {
      "name": "Vauld",
@@ -30993,7 +31044,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 626
+     "rank": 627
     },
     {
      "name": "Vesper Finance",
@@ -31038,7 +31089,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 627
+     "rank": 628
     },
     {
      "name": "Curve Finance",
@@ -31083,7 +31134,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 628
+     "rank": 629
     },
     {
      "name": "Minerstat",
@@ -31128,7 +31179,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 629
+     "rank": 630
     },
     {
      "name": "Morph",
@@ -31173,7 +31224,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 630
+     "rank": 631
     },
     {
      "name": "Getnet",
@@ -31225,7 +31276,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 631
+     "rank": 632
     },
     {
      "name": "zkMe",
@@ -31269,7 +31320,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 632
+     "rank": 633
     },
     {
      "name": "1inch",
@@ -31321,7 +31372,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 633
+     "rank": 634
     },
     {
      "name": "BurstIQ",
@@ -31373,7 +31424,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 634
+     "rank": 635
     },
     {
      "name": "Demox Labs",
@@ -31425,7 +31476,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 635
+     "rank": 636
     },
     {
      "name": "Grapes Finance",
@@ -31477,7 +31528,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 636
+     "rank": 637
     },
     {
      "name": "Merkle Manufactory Inc.",
@@ -31522,7 +31573,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 637
+     "rank": 638
     },
     {
      "name": "TerraPay",
@@ -31573,7 +31624,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 638
+     "rank": 639
     },
     {
      "name": "Xfers",
@@ -31624,7 +31675,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 639
+     "rank": 640
     },
     {
      "name": "Berachain",
@@ -31669,7 +31720,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 640
+     "rank": 641
     },
     {
      "name": "Blockscout",
@@ -31714,7 +31765,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 641
+     "rank": 642
     },
     {
      "name": "Nansen",
@@ -31766,7 +31817,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 642
+     "rank": 643
     },
     {
      "name": "X2Y2",
@@ -31818,7 +31869,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 643
+     "rank": 644
     },
     {
      "name": "BitMart",
@@ -31870,7 +31921,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 644
+     "rank": 645
     },
     {
      "name": "Ceramic",
@@ -31915,7 +31966,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 645
+     "rank": 646
     },
     {
      "name": "Chia",
@@ -31960,7 +32011,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 646
+     "rank": 647
     },
     {
      "name": "Crossmint",
@@ -32012,7 +32063,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 647
+     "rank": 648
     },
     {
      "name": "Lido",
@@ -32057,7 +32108,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 648
+     "rank": 649
     },
     {
      "name": "Spindl",
@@ -32102,7 +32153,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 649
+     "rank": 650
     },
     {
      "name": "Arkham Intelligence",
@@ -32154,7 +32205,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 650
+     "rank": 651
     },
     {
      "name": "Raydium",
@@ -32199,7 +32250,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 651
+     "rank": 652
     },
     {
      "name": "PolySign",
@@ -32250,7 +32301,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 652
+     "rank": 653
     },
     {
      "name": "WAX",
@@ -32301,7 +32352,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 653
+     "rank": 654
     },
     {
      "name": "Iron Fish",
@@ -32353,7 +32404,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 654
+     "rank": 655
     },
     {
      "name": "Nano",
@@ -32405,7 +32456,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 655
+     "rank": 656
     },
     {
      "name": "Sling (Morse)",
@@ -32463,7 +32514,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 656
+     "rank": 657
     },
     {
      "name": "Coral",
@@ -32508,7 +32559,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 657
+     "rank": 658
     },
     {
      "name": "Hashflow",
@@ -32560,7 +32611,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 658
+     "rank": 659
     },
     {
      "name": "Hidden Road",
@@ -32611,7 +32662,7 @@
       "dynamic_client_registration": true,
       "agentic_commerce": false
      },
-     "rank": 659
+     "rank": 660
     },
     {
      "name": "KyberSwap",
@@ -32656,7 +32707,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 660
+     "rank": 661
     },
     {
      "name": "OneKey",
@@ -32708,7 +32759,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 661
+     "rank": 662
     },
     {
      "name": "Skyfire",
@@ -32759,7 +32810,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 662
+     "rank": 663
     },
     {
      "name": "Qiwi",
@@ -32811,7 +32862,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 663
+     "rank": 664
     },
     {
      "name": "The Sandbox",
@@ -32855,7 +32906,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 664
+     "rank": 665
     },
     {
      "name": "Valora",
@@ -32906,7 +32957,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 665
+     "rank": 666
     },
     {
      "name": "WIBMO",
@@ -32964,7 +33015,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 666
+     "rank": 667
     },
     {
      "name": "Exchange Data International",
@@ -33016,7 +33067,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 667
+     "rank": 668
     },
     {
      "name": "Celer Network",
@@ -33061,7 +33112,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 668
+     "rank": 669
     },
     {
      "name": "Skale Labs",
@@ -33112,7 +33163,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 669
+     "rank": 670
     },
     {
      "name": "o1 Labs",
@@ -33157,7 +33208,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 670
+     "rank": 671
     },
     {
      "name": "BitClout (DeSo)",
@@ -33202,7 +33253,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 671
+     "rank": 672
     },
     {
      "name": "EigenDA",
@@ -33247,7 +33298,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 672
+     "rank": 673
     },
     {
      "name": "Veli",
@@ -33292,7 +33343,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 673
+     "rank": 674
     },
     {
      "name": "Ernst & Young (EY)",
@@ -33337,7 +33388,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 674
+     "rank": 675
     },
     {
      "name": "HostDeFi",
@@ -33381,7 +33432,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 675
+     "rank": 676
     },
     {
      "name": "Commonwealth",
@@ -33426,7 +33477,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 676
+     "rank": 677
     },
     {
      "name": "Axie Infinity",
@@ -33471,7 +33522,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 677
+     "rank": 678
     },
     {
      "name": "CoinEx",
@@ -33523,7 +33574,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 678
+     "rank": 679
     },
     {
      "name": "Electronic payment Exchange Inc",
@@ -33574,7 +33625,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 679
+     "rank": 680
     },
     {
      "name": "Helium Network",
@@ -33619,7 +33670,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 680
+     "rank": 681
     },
     {
      "name": "HealthVerity",
@@ -33671,7 +33722,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 681
+     "rank": 682
     },
     {
      "name": "Kadena",
@@ -33716,7 +33767,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 682
+     "rank": 683
     },
     {
      "name": "Mythical Games",
@@ -33761,7 +33812,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 683
+     "rank": 684
     },
     {
      "name": "Aave",
@@ -33806,7 +33857,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 684
+     "rank": 685
     },
     {
      "name": "SimpleHash",
@@ -33851,7 +33902,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 685
+     "rank": 686
     },
     {
      "name": "Violet",
@@ -33895,7 +33946,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 686
+     "rank": 687
     }
    ]
   },
@@ -33950,7 +34001,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 687
+     "rank": 688
     },
     {
      "name": "Ant Group",
@@ -34002,7 +34053,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 688
+     "rank": 689
     },
     {
      "name": "Opentrade",
@@ -34047,7 +34098,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 689
+     "rank": 690
     },
     {
      "name": "Hyperledger",
@@ -34092,7 +34143,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 690
+     "rank": 691
     },
     {
      "name": "NEAR Protocol",
@@ -34137,7 +34188,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 691
+     "rank": 692
     },
     {
      "name": "NMI",
@@ -34189,7 +34240,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 692
+     "rank": 693
     },
     {
      "name": "Santiment",
@@ -34234,7 +34285,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 693
+     "rank": 694
     },
     {
      "name": "Shakepay",
@@ -34292,7 +34343,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 694
+     "rank": 695
     },
     {
      "name": "Toss",
@@ -34344,7 +34395,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 695
+     "rank": 696
     },
     {
      "name": "BitOasis",
@@ -34396,7 +34447,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 696
+     "rank": 697
     },
     {
      "name": "Eldorado",
@@ -34448,7 +34499,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 697
+     "rank": 698
     },
     {
      "name": "Maverick Protocol",
@@ -34500,7 +34551,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 698
+     "rank": 699
     },
     {
      "name": "Mina Protocol",
@@ -34545,7 +34596,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 699
+     "rank": 700
     },
     {
      "name": "IYK",
@@ -34590,7 +34641,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 700
+     "rank": 701
     },
     {
      "name": "Quai Network",
@@ -34634,7 +34685,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 701
+     "rank": 702
     },
     {
      "name": "Deluxe Corporation",
@@ -34686,7 +34737,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 702
+     "rank": 703
     },
     {
      "name": "Lyra",
@@ -34738,7 +34789,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 703
+     "rank": 704
     },
     {
      "name": "Maple Finance",
@@ -34783,7 +34834,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 704
+     "rank": 705
     },
     {
      "name": "Oasis Labs",
@@ -34828,7 +34879,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 705
+     "rank": 706
     },
     {
      "name": "Gradient",
@@ -34873,7 +34924,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 706
+     "rank": 707
     },
     {
      "name": "Sojo Industries",
@@ -34917,7 +34968,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 707
+     "rank": 708
     },
     {
      "name": "Bitwise Investments",
@@ -34969,7 +35020,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 708
+     "rank": 709
     },
     {
      "name": "Bitstack",
@@ -35027,7 +35078,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 709
+     "rank": 710
     },
     {
      "name": "Clusters",
@@ -35079,7 +35130,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 710
+     "rank": 711
     },
     {
      "name": "Linea",
@@ -35124,7 +35175,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 711
+     "rank": 712
     },
     {
      "name": "CoinAPI",
@@ -35176,7 +35227,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 712
+     "rank": 713
     },
     {
      "name": "Tari",
@@ -35227,7 +35278,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 713
+     "rank": 714
     },
     {
      "name": "TradeBB",
@@ -35271,7 +35322,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 714
+     "rank": 715
     },
     {
      "name": "Aurora",
@@ -35316,7 +35367,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 715
+     "rank": 716
     },
     {
      "name": "BreederDAO",
@@ -35361,7 +35412,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 716
+     "rank": 717
     },
     {
      "name": "Pendle Finance",
@@ -35406,7 +35457,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 717
+     "rank": 718
     },
     {
      "name": "RedStone",
@@ -35450,7 +35501,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 718
+     "rank": 719
     },
     {
      "name": "Filament",
@@ -35502,7 +35553,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 719
+     "rank": 720
     },
     {
      "name": "Sling Money",
@@ -35553,7 +35604,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 720
+     "rank": 721
     },
     {
      "name": "Across",
@@ -35605,7 +35656,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 721
+     "rank": 722
     },
     {
      "name": "Bitget",
@@ -35657,7 +35708,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 722
+     "rank": 723
     },
     {
      "name": "Sudoswap",
@@ -35702,7 +35753,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 723
+     "rank": 724
     },
     {
      "name": "Wave Mobile Money",
@@ -35754,7 +35805,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 724
+     "rank": 725
     },
     {
      "name": "Zefchain",
@@ -35798,7 +35849,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 725
+     "rank": 726
     },
     {
      "name": "WinCL",
@@ -35849,7 +35900,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 726
+     "rank": 727
     },
     {
      "name": "Aztec",
@@ -35894,7 +35945,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 727
+     "rank": 728
     },
     {
      "name": "Warblerlabs",
@@ -35938,7 +35989,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 728
+     "rank": 729
     },
     {
      "name": "5ire",
@@ -35982,7 +36033,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 729
+     "rank": 730
     },
     {
      "name": "Alpen Labs",
@@ -36027,7 +36078,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 730
+     "rank": 731
     },
     {
      "name": "Celo Foundation",
@@ -36079,7 +36130,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 731
+     "rank": 732
     },
     {
      "name": "Molecule",
@@ -36131,7 +36182,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 732
+     "rank": 733
     },
     {
      "name": "Phantom",
@@ -36183,7 +36234,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 733
+     "rank": 734
     },
     {
      "name": "Mobillis",
@@ -36235,7 +36286,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 734
+     "rank": 735
     },
     {
      "name": "Doodles",
@@ -36279,7 +36330,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 735
+     "rank": 736
     },
     {
      "name": "RLY Network",
@@ -36330,7 +36381,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 736
+     "rank": 737
     },
     {
      "name": "Lit Protocol",
@@ -36375,7 +36426,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 737
+     "rank": 738
     },
     {
      "name": "Notional Finance",
@@ -36420,7 +36471,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 738
+     "rank": 739
     },
     {
      "name": "OlympusDAO",
@@ -36465,7 +36516,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 739
+     "rank": 740
     },
     {
      "name": "Zebec",
@@ -36516,7 +36567,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 740
+     "rank": 741
     },
     {
      "name": "Zot",
@@ -36561,7 +36612,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 741
+     "rank": 742
     },
     {
      "name": "CoinPaprika",
@@ -36613,7 +36664,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 742
+     "rank": 743
     },
     {
      "name": "BitClout",
@@ -36658,7 +36709,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 743
+     "rank": 744
     },
     {
      "name": "Talos",
@@ -36709,7 +36760,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 744
+     "rank": 745
     },
     {
      "name": "Chainflip",
@@ -36754,7 +36805,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 745
+     "rank": 746
     },
     {
      "name": "HashKey Cloud (HashQuark)",
@@ -36799,7 +36850,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 746
+     "rank": 747
     },
     {
      "name": "Discover Financial Services",
@@ -36851,7 +36902,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 747
+     "rank": 748
     },
     {
      "name": "Bittensor",
@@ -36896,7 +36947,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 748
+     "rank": 749
     },
     {
      "name": "CipherTrust",
@@ -36941,7 +36992,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 749
+     "rank": 750
     },
     {
      "name": "Offchain Labs",
@@ -36986,7 +37037,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 750
+     "rank": 751
     },
     {
      "name": "Gensyn",
@@ -37031,7 +37082,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 751
+     "rank": 752
     },
     {
      "name": "DFINITY",
@@ -37076,7 +37127,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 752
+     "rank": 753
     },
     {
      "name": "Sorella Labs",
@@ -37127,7 +37178,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 753
+     "rank": 754
     },
     {
      "name": "Manta Network",
@@ -37172,7 +37223,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 754
+     "rank": 755
     },
     {
      "name": "dYdX",
@@ -37217,7 +37268,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 755
+     "rank": 756
     },
     {
      "name": "Element",
@@ -37262,7 +37313,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 756
+     "rank": 757
     },
     {
      "name": "Unchained Capital",
@@ -37313,7 +37364,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 757
+     "rank": 758
     },
     {
      "name": "dClimate",
@@ -37358,7 +37409,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 758
+     "rank": 759
     },
     {
      "name": "Rocket Pool",
@@ -37403,7 +37454,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 759
+     "rank": 760
     },
     {
      "name": "Blockstream",
@@ -37448,7 +37499,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 760
+     "rank": 761
     },
     {
      "name": "Bitmex",
@@ -37493,7 +37544,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 761
+     "rank": 762
     },
     {
      "name": "Chronicled",
@@ -37545,7 +37596,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 762
+     "rank": 763
     },
     {
      "name": "Community Labs",
@@ -37590,7 +37641,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 763
+     "rank": 764
     },
     {
      "name": "Kyash",
@@ -37642,7 +37693,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 764
+     "rank": 765
     },
     {
      "name": "American Express",
@@ -37701,7 +37752,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 765
+     "rank": 766
     },
     {
      "name": "Dash",
@@ -37753,7 +37804,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 766
+     "rank": 767
     },
     {
      "name": "Lens Protocol",
@@ -37797,7 +37848,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 767
+     "rank": 768
     },
     {
      "name": "Superfluid",
@@ -37848,7 +37899,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 768
+     "rank": 769
     },
     {
      "name": "BNY Mellon",
@@ -37900,7 +37951,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 769
+     "rank": 770
     },
     {
      "name": "Coinbase Pro",
@@ -37945,7 +37996,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 770
+     "rank": 771
     },
     {
      "name": "Xapo",
@@ -38003,7 +38054,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 771
+     "rank": 772
     },
     {
      "name": "CoinDCX",
@@ -38048,7 +38099,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 772
+     "rank": 773
     },
     {
      "name": "Huobi",
@@ -38093,7 +38144,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 773
+     "rank": 774
     },
     {
      "name": "Parsec Finance",
@@ -38144,7 +38195,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 774
+     "rank": 775
     },
     {
      "name": "Ramper",
@@ -38195,7 +38246,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 775
+     "rank": 776
     },
     {
      "name": "KGeN",
@@ -38240,7 +38291,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 776
+     "rank": 777
     },
     {
      "name": "Offchain Labs (Arbitrum)",
@@ -38285,7 +38336,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 777
+     "rank": 778
     },
     {
      "name": "Reflexer",
@@ -38329,7 +38380,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 778
+     "rank": 779
     },
     {
      "name": "Wealthsimple",
@@ -38380,7 +38431,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 779
+     "rank": 780
     },
     {
      "name": "Ronin Network",
@@ -38425,7 +38476,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 780
+     "rank": 781
     },
     {
      "name": "Sender",
@@ -38476,7 +38527,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 781
+     "rank": 782
     },
     {
      "name": "Spheron",
@@ -38528,7 +38579,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 782
+     "rank": 783
     },
     {
      "name": "3Jane",
@@ -38573,7 +38624,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 783
+     "rank": 784
     },
     {
      "name": "Acala",
@@ -38618,7 +38669,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 784
+     "rank": 785
     },
     {
      "name": "Level",
@@ -38663,7 +38714,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 785
+     "rank": 786
     },
     {
      "name": "Agoric",
@@ -38708,7 +38759,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 786
+     "rank": 787
     },
     {
      "name": "Globacap",
@@ -38759,7 +38810,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 787
+     "rank": 788
     },
     {
      "name": "Finary",
@@ -38803,7 +38854,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 788
+     "rank": 789
     },
     {
      "name": "Hamsa",
@@ -38855,7 +38906,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 789
+     "rank": 790
     },
     {
      "name": "OKEx",
@@ -38899,7 +38950,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 790
+     "rank": 791
     },
     {
      "name": "Alchemix",
@@ -38944,7 +38995,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 791
+     "rank": 792
     },
     {
      "name": "Andalusia Labs",
@@ -38996,7 +39047,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 792
+     "rank": 793
     },
     {
      "name": "Goldsky",
@@ -39041,7 +39092,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 793
+     "rank": 794
     },
     {
      "name": "Halborn",
@@ -39085,7 +39136,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 794
+     "rank": 795
     },
     {
      "name": "Amber Group",
@@ -39137,7 +39188,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 795
+     "rank": 796
     },
     {
      "name": "Anoma",
@@ -39182,7 +39233,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 796
+     "rank": 797
     },
     {
      "name": "Cozy Finance",
@@ -39234,7 +39285,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 797
+     "rank": 798
     },
     {
      "name": "Mainframe",
@@ -39279,7 +39330,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 798
+     "rank": 799
     },
     {
      "name": "Bitfinex",
@@ -39324,7 +39375,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 799
+     "rank": 800
     },
     {
      "name": "Fluidity",
@@ -39369,7 +39420,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 800
+     "rank": 801
     },
     {
      "name": "Gateio",
@@ -39414,7 +39465,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 801
+     "rank": 802
     },
     {
      "name": "Keyrock",
@@ -39465,7 +39516,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 802
+     "rank": 803
     },
     {
      "name": "PicPay",
@@ -39517,7 +39568,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 803
+     "rank": 804
     },
     {
      "name": "INFINIT",
@@ -39569,7 +39620,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 804
+     "rank": 805
     },
     {
      "name": "marginfi",
@@ -39614,7 +39665,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 805
+     "rank": 806
     },
     {
      "name": "Redotpay",
@@ -39665,7 +39716,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 806
+     "rank": 807
     },
     {
      "name": "Royco",
@@ -39709,7 +39760,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 807
+     "rank": 808
     },
     {
      "name": "Quant Network",
@@ -39754,7 +39805,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 808
+     "rank": 809
     },
     {
      "name": "Cartesi",
@@ -39799,7 +39850,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 809
+     "rank": 810
     },
     {
      "name": "Coinigy",
@@ -39844,7 +39895,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 810
+     "rank": 811
     },
     {
      "name": "Multipli",
@@ -39889,7 +39940,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 811
+     "rank": 812
     },
     {
      "name": "Bybit",
@@ -39933,7 +39984,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 812
+     "rank": 813
     },
     {
      "name": "Coinbase OnchainKit",
@@ -39985,7 +40036,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 813
+     "rank": 814
     },
     {
      "name": "EZKL",
@@ -40030,7 +40081,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 814
+     "rank": 815
     },
     {
      "name": "Poloniex",
@@ -40075,7 +40126,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 815
+     "rank": 816
     },
     {
      "name": "BlockVision",
@@ -40120,7 +40171,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 816
+     "rank": 817
     },
     {
      "name": "Unisub LLC",
@@ -40171,7 +40222,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 817
+     "rank": 818
     },
     {
      "name": "Arch Network",
@@ -40216,7 +40267,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 818
+     "rank": 819
     },
     {
      "name": "Convex Finance",
@@ -40261,7 +40312,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 819
+     "rank": 820
     },
     {
      "name": "Sunscreen",
@@ -40305,7 +40356,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 820
+     "rank": 821
     },
     {
      "name": "Wynd Network",
@@ -40349,7 +40400,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 821
+     "rank": 822
     },
     {
      "name": "DODO",
@@ -40401,7 +40452,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 822
+     "rank": 823
     },
     {
      "name": "InfinitySwap",
@@ -40446,7 +40497,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 823
+     "rank": 824
     },
     {
      "name": "KuCoin",
@@ -40491,7 +40542,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 824
+     "rank": 825
     },
     {
      "name": "Dabba",
@@ -40536,7 +40587,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 825
+     "rank": 826
     },
     {
      "name": "FastLane",
@@ -40581,7 +40632,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 826
+     "rank": 827
     },
     {
      "name": "Offchain",
@@ -40626,7 +40677,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 827
+     "rank": 828
     },
     {
      "name": "Puffer Finance",
@@ -40670,7 +40721,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 828
+     "rank": 829
     },
     {
      "name": "Chaoslabs",
@@ -40715,7 +40766,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 829
+     "rank": 830
     },
     {
      "name": "Mountain Protocol",
@@ -40760,7 +40811,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 830
+     "rank": 831
     },
     {
      "name": "String Technology Inc",
@@ -40811,7 +40862,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 831
+     "rank": 832
     },
     {
      "name": "Ready (formerly Argent)",
@@ -40862,7 +40913,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 832
+     "rank": 833
     },
     {
      "name": "The Giving Block",
@@ -40913,7 +40964,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 833
+     "rank": 834
     },
     {
      "name": "Infinifi",
@@ -40958,7 +41009,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 834
+     "rank": 835
     },
     {
      "name": "Faraway",
@@ -41003,7 +41054,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 835
+     "rank": 836
     },
     {
      "name": "Karak",
@@ -41048,7 +41099,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 836
+     "rank": 837
     },
     {
      "name": "Co:Create",
@@ -41093,7 +41144,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 837
+     "rank": 838
     },
     {
      "name": "MoreMarkets",
@@ -41138,7 +41189,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 838
+     "rank": 839
     },
     {
      "name": "Unlonely",
@@ -41182,7 +41233,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 839
+     "rank": 840
     },
     {
      "name": "Ellipsis Labs",
@@ -41234,7 +41285,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 840
+     "rank": 841
     },
     {
      "name": "Obligate",
@@ -41286,7 +41337,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 841
+     "rank": 842
     },
     {
      "name": "Compound Finance",
@@ -41331,7 +41382,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 842
+     "rank": 843
     },
     {
      "name": "Beefy Finance",
@@ -41376,7 +41427,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 843
+     "rank": 844
     },
     {
      "name": "Jeeves",
@@ -41428,7 +41479,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 844
+     "rank": 845
     },
     {
      "name": "Lightning Labs",
@@ -41480,7 +41531,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 845
+     "rank": 846
     },
     {
      "name": "Pipe Network",
@@ -41524,7 +41575,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 846
+     "rank": 847
     },
     {
      "name": "Balancer",
@@ -41569,7 +41620,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 847
+     "rank": 848
     },
     {
      "name": "DolarApp",
@@ -41620,7 +41671,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 848
+     "rank": 849
     },
     {
      "name": "Integral",
@@ -41672,7 +41723,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 849
+     "rank": 850
     },
     {
      "name": "big xyt",
@@ -41724,7 +41775,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 850
+     "rank": 851
     },
     {
      "name": "Flowdesk",
@@ -41776,7 +41827,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 851
+     "rank": 852
     },
     {
      "name": "Rain (Raincards)",
@@ -41827,7 +41878,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 852
+     "rank": 853
     },
     {
      "name": "Entropy",
@@ -41872,7 +41923,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 853
+     "rank": 854
     },
     {
      "name": "Forte Labs",
@@ -41917,7 +41968,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 854
+     "rank": 855
     },
     {
      "name": "Ancient8",
@@ -41962,7 +42013,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 855
+     "rank": 856
     },
     {
      "name": "Lithium Finance",
@@ -42007,7 +42058,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 856
+     "rank": 857
     },
     {
      "name": "Talus Network",
@@ -42051,7 +42102,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 857
+     "rank": 858
     },
     {
      "name": "Term Finance",
@@ -42095,7 +42146,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 858
+     "rank": 859
     },
     {
      "name": "Zama",
@@ -42139,7 +42190,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 859
+     "rank": 860
     },
     {
      "name": "Catena",
@@ -42191,7 +42242,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 860
+     "rank": 861
     },
     {
      "name": "Chainlink",
@@ -42236,7 +42287,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 861
+     "rank": 862
     },
     {
      "name": "Frax Finance",
@@ -42280,7 +42331,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 862
+     "rank": 863
     },
     {
      "name": "Topl",
@@ -42324,7 +42375,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 863
+     "rank": 864
     },
     {
      "name": "Boku",
@@ -42376,7 +42427,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 864
+     "rank": 865
     },
     {
      "name": "Courtyard",
@@ -42421,7 +42472,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 865
+     "rank": 866
     },
     {
      "name": "Magic",
@@ -42472,7 +42523,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 866
+     "rank": 867
     },
     {
      "name": "Media Chain",
@@ -42517,7 +42568,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 867
+     "rank": 868
     },
     {
      "name": "BitTorrent",
@@ -42562,7 +42613,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 868
+     "rank": 869
     },
     {
      "name": "Nova Labs",
@@ -42614,7 +42665,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 869
+     "rank": 870
     },
     {
      "name": "Hubble Protocol",
@@ -42659,7 +42710,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 870
+     "rank": 871
     },
     {
      "name": "DoubleZero",
@@ -42704,7 +42755,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 871
+     "rank": 872
     },
     {
      "name": "My AI",
@@ -42756,7 +42807,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 872
+     "rank": 873
     },
     {
      "name": "Figure Markets",
@@ -42808,7 +42859,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 873
+     "rank": 874
     },
     {
      "name": "Instadapp",
@@ -42860,7 +42911,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 874
+     "rank": 875
     },
     {
      "name": "Mango Markets",
@@ -42911,7 +42962,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 875
+     "rank": 876
     },
     {
      "name": "NATIX",
@@ -42956,7 +43007,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 876
+     "rank": 877
     },
     {
      "name": "April",
@@ -43001,7 +43052,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 877
+     "rank": 878
     },
     {
      "name": "Baxus",
@@ -43046,7 +43097,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 878
+     "rank": 879
     },
     {
      "name": "Code4rena",
@@ -43091,7 +43142,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 879
+     "rank": 880
     },
     {
      "name": "Arc",
@@ -43143,7 +43194,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 880
+     "rank": 881
     },
     {
      "name": "AstroPay",
@@ -43195,7 +43246,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 881
+     "rank": 882
     },
     {
      "name": "Palm",
@@ -43240,7 +43291,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 882
+     "rank": 883
     },
     {
      "name": "Dework",
@@ -43285,7 +43336,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 883
+     "rank": 884
     },
     {
      "name": "OXIO",
@@ -43337,7 +43388,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 884
+     "rank": 885
     },
     {
      "name": "Primodium Inc.",
@@ -43381,7 +43432,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 885
+     "rank": 886
     },
     {
      "name": "CoinMarketCap",
@@ -43433,7 +43484,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 886
+     "rank": 887
     },
     {
      "name": "Staircase",
@@ -43477,7 +43528,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 887
+     "rank": 888
     },
     {
      "name": "Cross River Bank",
@@ -43529,7 +43580,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 888
+     "rank": 889
     },
     {
      "name": "Mirror",
@@ -43574,7 +43625,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 889
+     "rank": 890
     },
     {
      "name": "Moola",
@@ -43619,7 +43670,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 890
+     "rank": 891
     },
     {
      "name": "Asset Reality",
@@ -43671,7 +43722,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 891
+     "rank": 892
     },
     {
      "name": "GEODNET",
@@ -43716,7 +43767,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 892
+     "rank": 893
     },
     {
      "name": "Ithaca",
@@ -43768,7 +43819,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 893
+     "rank": 894
     },
     {
      "name": "MyCrypto",
@@ -43820,7 +43871,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 894
+     "rank": 895
     },
     {
      "name": "Cryptio",
@@ -43865,7 +43916,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 895
+     "rank": 896
     },
     {
      "name": "Trust Token",
@@ -43909,7 +43960,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 896
+     "rank": 897
     },
     {
      "name": "Deblock",
@@ -43961,7 +44012,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 897
+     "rank": 898
     },
     {
      "name": "Romit",
@@ -44012,7 +44063,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 898
+     "rank": 899
     },
     {
      "name": "Eden Network",
@@ -44057,7 +44108,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 899
+     "rank": 900
     },
     {
      "name": "Forte",
@@ -44102,7 +44153,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 900
+     "rank": 901
     },
     {
      "name": "LifeSite",
@@ -44154,7 +44205,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 901
+     "rank": 902
     },
     {
      "name": "Boardroom Governance",
@@ -44199,7 +44250,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 902
+     "rank": 903
     },
     {
      "name": "Blockskye",
@@ -44251,7 +44302,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 903
+     "rank": 904
     },
     {
      "name": "Fhenix",
@@ -44296,7 +44347,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 904
+     "rank": 905
     },
     {
      "name": "Milo Credit",
@@ -44341,7 +44392,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 905
+     "rank": 906
     },
     {
      "name": "Arf",
@@ -44393,7 +44444,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 906
+     "rank": 907
     },
     {
      "name": "PiggyVest",
@@ -44445,7 +44496,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 907
+     "rank": 908
     },
     {
      "name": "PsyOptions",
@@ -44496,7 +44547,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 908
+     "rank": 909
     },
     {
      "name": "Silo Finance",
@@ -44540,7 +44591,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 909
+     "rank": 910
     },
     {
      "name": "Exa Finance",
@@ -44585,7 +44636,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 910
+     "rank": 911
     },
     {
      "name": "Structure",
@@ -44636,7 +44687,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 911
+     "rank": 912
     },
     {
      "name": "Upstream",
@@ -44680,7 +44731,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 912
+     "rank": 913
     },
     {
      "name": "Orchid Labs",
@@ -44725,7 +44776,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 913
+     "rank": 914
     },
     {
      "name": "Pump.fun",
@@ -44770,7 +44821,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 914
+     "rank": 915
     },
     {
      "name": "Tranched",
@@ -44814,7 +44865,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 915
+     "rank": 916
     },
     {
      "name": "Rialo",
@@ -44858,7 +44909,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 916
+     "rank": 917
     },
     {
      "name": "The Block",
@@ -44909,7 +44960,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 917
+     "rank": 918
     },
     {
      "name": "Voatz",
@@ -44960,7 +45011,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 918
+     "rank": 919
     },
     {
      "name": "Argent",
@@ -45012,7 +45063,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 919
+     "rank": 920
     },
     {
      "name": "TipLink",
@@ -45063,7 +45114,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 920
+     "rank": 921
     },
     {
      "name": "Bitmain",
@@ -45108,7 +45159,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 921
+     "rank": 922
     },
     {
      "name": "PartyDAO",
@@ -45153,7 +45204,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 922
+     "rank": 923
     },
     {
      "name": "Sumer",
@@ -45197,7 +45248,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 923
+     "rank": 924
     },
     {
      "name": "Cypherium",
@@ -45242,7 +45293,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 924
+     "rank": 925
     },
     {
      "name": "Fab.com",
@@ -45287,7 +45338,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 925
+     "rank": 926
     },
     {
      "name": "Zilch",
@@ -45338,7 +45389,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 926
+     "rank": 927
     },
     {
      "name": "Lootex",
@@ -45383,7 +45434,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 927
+     "rank": 928
     },
     {
      "name": "Brevis",
@@ -45428,7 +45479,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 928
+     "rank": 929
     },
     {
      "name": "InvestaX",
@@ -45480,7 +45531,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 929
+     "rank": 930
     },
     {
      "name": "Parallel Universe",
@@ -45532,7 +45583,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 930
+     "rank": 931
     },
     {
      "name": "Thruster",
@@ -45576,7 +45627,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 931
+     "rank": 932
     },
     {
      "name": "Azura",
@@ -45628,7 +45679,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 932
+     "rank": 933
     },
     {
      "name": "Enosys Markets",
@@ -45680,7 +45731,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 933
+     "rank": 934
     },
     {
      "name": "UXD Protocol",
@@ -45724,7 +45775,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 934
+     "rank": 935
     },
     {
      "name": "Web3Auth",
@@ -45776,7 +45827,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 935
+     "rank": 936
     },
     {
      "name": "Abra",
@@ -45821,7 +45872,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 936
+     "rank": 937
     },
     {
      "name": "Genopets",
@@ -45866,7 +45917,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 937
+     "rank": 938
     },
     {
      "name": "MonkeyTilt",
@@ -45911,7 +45962,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 938
+     "rank": 939
     },
     {
      "name": "Lore",
@@ -45963,7 +46014,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 939
+     "rank": 940
     },
     {
      "name": "Pontem",
@@ -46014,7 +46065,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 940
+     "rank": 941
     },
     {
      "name": "Rain Financial",
@@ -46065,7 +46116,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 941
+     "rank": 942
     },
     {
      "name": "iTrustCapital",
@@ -46110,7 +46161,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 942
+     "rank": 943
     },
     {
      "name": "Eunice",
@@ -46155,7 +46206,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 943
+     "rank": 944
     },
     {
      "name": "Stader Labs",
@@ -46199,7 +46250,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 944
+     "rank": 945
     },
     {
      "name": "Bright Moments DAO",
@@ -46244,7 +46295,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 945
+     "rank": 946
     },
     {
      "name": "Geode",
@@ -46289,7 +46340,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 946
+     "rank": 947
     },
     {
      "name": "Warbler Labs Incorporated",
@@ -46333,7 +46384,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 947
+     "rank": 948
     },
     {
      "name": "One",
@@ -46385,7 +46436,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 948
+     "rank": 949
     },
     {
      "name": "ClassWallet",
@@ -46437,7 +46488,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 949
+     "rank": 950
     },
     {
      "name": "RACE Protocol",
@@ -46482,7 +46533,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 950
+     "rank": 951
     },
     {
      "name": "Skip",
@@ -46526,7 +46577,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 951
+     "rank": 952
     },
     {
      "name": "Autograph",
@@ -46571,7 +46622,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 952
+     "rank": 953
     },
     {
      "name": "Delphia",
@@ -46616,7 +46667,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 953
+     "rank": 954
     },
     {
      "name": "Grapes",
@@ -46661,7 +46712,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 954
+     "rank": 955
     },
     {
      "name": "LF Decentralized Trust",
@@ -46706,7 +46757,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 955
+     "rank": 956
     },
     {
      "name": "Coin98",
@@ -46758,7 +46809,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 956
+     "rank": 957
     },
     {
      "name": "Erebor",
@@ -46810,7 +46861,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 957
+     "rank": 958
     },
     {
      "name": "Wallet Studio",
@@ -46868,7 +46919,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 958
+     "rank": 959
     },
     {
      "name": "Candy Fanatics (fka Candy Digital)",
@@ -46920,7 +46971,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 959
+     "rank": 960
     },
     {
      "name": "Omni Network",
@@ -46965,7 +47016,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 960
+     "rank": 961
     },
     {
      "name": "Halogen Capital",
@@ -47009,7 +47060,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 961
+     "rank": 962
     },
     {
      "name": "Improbable",
@@ -47054,7 +47105,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 962
+     "rank": 963
     },
     {
      "name": "PROOF",
@@ -47098,7 +47149,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 963
+     "rank": 964
     },
     {
      "name": "Regular Finance",
@@ -47142,7 +47193,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 964
+     "rank": 965
     },
     {
      "name": "Auto Finance",
@@ -47187,7 +47238,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 965
+     "rank": 966
     },
     {
      "name": "Earn.com",
@@ -47239,7 +47290,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 966
+     "rank": 967
     },
     {
      "name": "Clearing",
@@ -47291,7 +47342,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 967
+     "rank": 968
     },
     {
      "name": "OpenFX",
@@ -47343,7 +47394,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 968
+     "rank": 969
     },
     {
      "name": "Braiins",
@@ -47388,7 +47439,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 969
+     "rank": 970
     },
     {
      "name": "fomo",
@@ -47440,7 +47491,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 970
+     "rank": 971
     },
     {
      "name": "LedgiFi",
@@ -47485,7 +47536,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 971
+     "rank": 972
     },
     {
      "name": "Moai.cash",
@@ -47537,7 +47588,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 972
+     "rank": 973
     },
     {
      "name": "Calastone",
@@ -47582,7 +47633,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 973
+     "rank": 974
     },
     {
      "name": "Anchor Protocol",
@@ -47627,7 +47678,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 974
+     "rank": 975
     },
     {
      "name": "Betdex",
@@ -47672,7 +47723,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 975
+     "rank": 976
     },
     {
      "name": "Saber",
@@ -47716,7 +47767,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 976
+     "rank": 977
     },
     {
      "name": "Sound.xyz",
@@ -47760,7 +47811,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 977
+     "rank": 978
     },
     {
      "name": "Web3 Foundation",
@@ -47804,7 +47855,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 978
+     "rank": 979
     },
     {
      "name": "Based",
@@ -47856,7 +47907,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 979
+     "rank": 980
     },
     {
      "name": "Curve",
@@ -47908,7 +47959,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 980
+     "rank": 981
     },
     {
      "name": "Saffron Finance",
@@ -47952,7 +48003,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 981
+     "rank": 982
     },
     {
      "name": "InfiniGods",
@@ -47997,7 +48048,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 982
+     "rank": 983
     },
     {
      "name": "Lolli",
@@ -48042,7 +48093,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 983
+     "rank": 984
     },
     {
      "name": "Nebex",
@@ -48094,7 +48145,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 984
+     "rank": 985
     }
    ]
   },
@@ -48104,7 +48155,7 @@
    "range": "0 – 10.9",
    "blurb": "Index entry only; little beyond a description and a link.",
    "count": 342,
-   "shown": 16,
+   "shown": 15,
    "providers": [
     {
      "name": "Coinshift",
@@ -48155,7 +48206,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 985
+     "rank": 986
     },
     {
      "name": "MakerDAO",
@@ -48200,7 +48251,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 986
+     "rank": 987
     },
     {
      "name": "Pluang",
@@ -48251,7 +48302,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 987
+     "rank": 988
     },
     {
      "name": "Plural Finance",
@@ -48302,7 +48353,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 988
+     "rank": 989
     },
     {
      "name": "Altius Labs",
@@ -48347,7 +48398,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 989
+     "rank": 990
     },
     {
      "name": "Maker",
@@ -48392,7 +48443,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 990
+     "rank": 991
     },
     {
      "name": "OnePay",
@@ -48444,7 +48495,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 991
+     "rank": 992
     },
     {
      "name": "Amp",
@@ -48496,7 +48547,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 992
+     "rank": 993
     },
     {
      "name": "BlockFi",
@@ -48541,7 +48592,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 993
+     "rank": 994
     },
     {
      "name": "Blur",
@@ -48586,7 +48637,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 994
+     "rank": 995
     },
     {
      "name": "Four Pillars",
@@ -48631,7 +48682,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 995
+     "rank": 996
     },
     {
      "name": "Meanwhile",
@@ -48683,7 +48734,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 996
+     "rank": 997
     },
     {
      "name": "Prypco",
@@ -48727,7 +48778,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 997
+     "rank": 998
     },
     {
      "name": "T2P",
@@ -48778,7 +48829,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 998
+     "rank": 999
     },
     {
      "name": "Sweatcoin",
@@ -48829,63 +48880,9 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 999
-    },
-    {
-     "name": "Animoca Brands",
-     "slug": "animoca-brands",
-     "description": "Animoca Brands is a Web3 company focused on advancing digital property rights and building the open metaverse through blockchain technology, gaming, and digital assets. Founded in Hong Kong, the company operates a portfolio of consumer products including The Sandbox, Moca Network (digital identity), Open Campus (education), and Anichess, alongside institutional offerings such as Anchorpoint Financial (stablecoins and real-world assets) and NUVA (treasury management). Animoca Brands is also one of the most active investors in Web3, backing 600+ builders across gaming, infrastructure, real-world assets, and digital-ownership platforms. This profile was surfaced as a portfolio company of the SoftBank Vision Fund and added to the API Evangelist network; Animoca operates primarily as a holding and investment company and does not publish a first-party public developer API.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/animoca-brands/refs/heads/main/screenshots/animoca-brands-2026-07-25T200244.png",
-     "score": 10.4,
-     "band": "minimal",
-     "band_label": "Minimal",
-     "facets": {
-      "discoverability": 57.4,
-      "contract_quality": 0.0,
-      "governance": 0.0,
-      "contract_governance": 0.0,
-      "operational_transparency": 0.0,
-      "developer_ergonomics": 2.4,
-      "commercial_clarity": 21.1,
-      "access_clarity": 21.1
-     },
-     "scored_at": "2026-09-01",
-     "schema_version": "0.18.0",
-     "agent_score": 2.2,
-     "agent_band": "human-only",
-     "agent_dims": {
-      "spec_presence": false,
-      "agentic_access": false,
-      "reversibility_documented": false,
-      "mcp_server": false,
-      "auth_clarity": false,
-      "idempotency": false,
-      "error_semantics": false,
-      "openapi_examples": false,
-      "rate_limit_signal": false,
-      "event_surface_described": false,
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": true,
-      "agent_card": false,
-      "dry_run_mode": false,
-      "delegated_identity": false,
-      "protected_resource_metadata": false,
-      "dynamic_client_registration": false,
-      "agentic_commerce": false
-     },
      "rank": 1000
     }
    ]
-  },
-  {
-   "band": "unrated",
-   "label": "Not Yet Rated",
-   "range": "",
-   "blurb": "Providers we have not scored yet — unknown, not zero.",
-   "count": 17,
-   "shown": 0,
-   "providers": []
   }
  ]
 }

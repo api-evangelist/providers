@@ -1,5 +1,5 @@
 {
- "total": 2051,
+ "total": 2019,
  "shown": 1000,
  "limit": 1000,
  "bands": [
@@ -51309,7 +51309,7 @@
    "label": "Minimal",
    "range": "0 – 10.9",
    "blurb": "Index entry only; little beyond a description and a link.",
-   "count": 1063,
+   "count": 1062,
    "shown": 43,
    "providers": [
     {
@@ -53537,15 +53537,6 @@
      "rank": 1000
     }
    ]
-  },
-  {
-   "band": "unrated",
-   "label": "Not Yet Rated",
-   "range": "",
-   "blurb": "Providers we have not scored yet — unknown, not zero.",
-   "count": 31,
-   "shown": 0,
-   "providers": []
   }
  ]
 }

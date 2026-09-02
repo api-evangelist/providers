@@ -1,6 +1,6 @@
 {
- "total": 709,
- "shown": 709,
+ "total": 708,
+ "shown": 708,
  "limit": 1000,
  "bands": [
   {
@@ -32316,23 +32316,6 @@
       "agentic_commerce": false
      },
      "rank": 708
-    }
-   ]
-  },
-  {
-   "band": "unrated",
-   "label": "Not Yet Rated",
-   "range": "",
-   "blurb": "Providers we have not scored yet — unknown, not zero.",
-   "count": 1,
-   "shown": 1,
-   "providers": [
-    {
-     "name": "Bullpen Capital",
-     "slug": "bullpen-capital",
-     "description": "Bullpen Capital is a San Francisco-based venture capital firm founded in 2010 by Paul Martino, Duncan Davidson, and Richard Melmon that pioneered the \"post-seed\" investment category. The firm provides early-stage financing to companies that have found initial product-market fit but are overlooked by traditional investors \"for no good reason\" — deliberately backing unconventional founders and sectors that other firms dismiss. Bullpen typically writes checks in the range of roughly $1M-$5M, often stepping in between the seed and Series A rounds to help capital-efficient companies push toward a strong institutional raise. The firm invests across gaming, commerce, apps and services, health, consumer and lifestyle, fintech, and marketplaces, primarily in North America with select exposure in Latin America (notably Brazil and Mexico). With a portfolio of 90+ companies, Bullpen's notable investments include FanDuel, Namely, Classy, Braze, HomeLight, ipsy, SpotHero, Splitwise, and Wag.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/bullpen-capital/refs/heads/main/screenshots/bullpen-capital-2026-07-25T204059.png",
-     "rank": 709
     }
    ]
   }
